@@ -1,8 +1,8 @@
 #EXTM3U " Aug 21 2024 " 
-#EXTINF:-1 tvg-id="universalkids.us" tvg-name="US Universal Kids (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Universal_Pictures_logo%201.png?raw=true" group-title="CANADA",US Universal Kids (A)
-http://fortv.cc:8080/7451515/621556/9235
-#EXTINF:-1, tvg-id="" tvg-name="Bloomberg Originals" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bloomberg%20OG%201.png?raw=true" group-title=""CANADA"", Bloomberg Originals
-https://bloomberg-quicktake-3-us.vizio.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id=""cablepulse24.ca"" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title=""CANADA"",CA CP24 News HD (D)
+http://fortv.cc:8080/7451515/621556/57357
+#EXTINF:-1 tvg-id="msnbc.us" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-2023%201.png?raw=true" group-title="CANADA",CA MSNBC (R)
+http://fortv.cc:8080/7451515/621556/47332
 #EXTINF:-1 tvg-id="globaltoronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_News%201.png?raw=true" group-title=""CANADA"",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57435
 #EXTINF:-1 tvg-id="omni1.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
@@ -45,8 +45,7 @@ http://fortv.cc:8080/7451515/621556/20926
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id=""theweathernetwork.ca"" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/the-weather-network-logo-vector%201.png?raw=true" group-title=""CANADA"",CA: Weather Network Toronto
 http://fortv.cc:8080/7451515/621556/57470
-#EXTINF:-1 tvg-id=""cablepulse24.ca"" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title=""CANADA"",CA CP24 News HD (D)
-http://fortv.cc:8080/7451515/621556/57357
+
 #EXTINF:-1 tvg-id=""ytv.ca"" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
 http://fortv.cc:8080/7451515/621556/63850
 #EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title=""USA "",US CBS News 
@@ -202,6 +201,10 @@ http://fortv.cc:8080/7451515/621556/216100
 
 
 
+#EXTINF:-1 tvg-id="universalkids.us" tvg-name="US Universal Kids (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Universal_Pictures_logo%201.png?raw=true" group-title="CANADA",US Universal Kids (A)
+http://fortv.cc:8080/7451515/621556/9235
+#EXTINF:-1, tvg-id="" tvg-name="Bloomberg Originals" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bloomberg%20OG%201.png?raw=true" group-title=""CANADA"", Bloomberg Originals
+https://bloomberg-quicktake-3-us.vizio.wurl.tv/playlist.m3u8
 
 
 
@@ -211,9 +214,6 @@ http://fortv.cc:8080/7451515/621556/216100
 
 
 
-
-#EXTINF:-1 tvg-id="msnbc.us" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-2023%201.png?raw=true" group-title="CANADA",CA MSNBC (R)
-http://fortv.cc:8080/7451515/621556/47332
 
 
 
