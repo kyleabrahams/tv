@@ -1,6 +1,8 @@
 #EXTM3U " Aug 21 2024 "
 #EXTINF:-1 tvg-id="universalkids.us" tvg-name="US Universal Kids (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Universal_Pictures_logo%201.png?raw=true" group-title="CANADA",US Universal Kids (A)
 http://fortv.cc:8080/7451515/621556/9235
+#EXTINF:-1, tvg-id="" tvg-name="Bloomberg Originals" tvg-logo="" group-title=""CANADA"", Bloomberg Originals
+https://bloomberg-quicktake-3-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="globaltoronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_News%201.png?raw=true" group-title=""CANADA"",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57435
 #EXTINF:-1 tvg-id="omni1.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
