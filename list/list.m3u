@@ -1,26 +1,20 @@
-#EXTM3U " Aug 21 2024"
+#EXTM3U " Aug 21 2024 "
 #EXTINF:-1 tvg-id="universalkids.us" tvg-name="US Universal Kids (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Universal_Pictures_logo%201.png?raw=true" group-title="CANADA",US Universal Kids (A)
 http://fortv.cc:8080/7451515/621556/9235
 #EXTINF:-1 tvg-id="globaltoronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_News%201.png?raw=true" group-title=""CANADA"",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57435
-x#EXTINF:-1 tvg-id="omni1.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
+#EXTINF:-1 tvg-id="omni1.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
 http://fortv.cc:8080/7451515/621556/57365
-
 #EXTINF:-1 tvg-id="animalplanet.ca" tvg-name=""CA: Animal Planet"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/2018_Animal_Planet_logo.png?raw=true" group-title=""CANADA"",CA: Animal Planet
 http://fortv.cc:8080/7451515/621556/57377
-
 #EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="CANADA",CA CBC Toronto 
 http://fortv.cc:8080/7451515/621556/57260
-
 #EXTINF:-1 tvg-id="citytvtoronto.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title=""CANADA"",CA: CITY TV TORONTO HD
 http://fortv.cc:8080/7451515/621556/57307
-
 #EXTINF:-1 tvg-id="ctvtoronto.ca" tvg-name=""CA CTV Toronto HD (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title=""CANADA"",CA CTV Toronto HD (R)
 http://fortv.cc:8080/7451515/621556/47296
-
 #EXTINF:-1 tvg-id="yestv.ca" tvg-name=""CA YES TV (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title=""CANADA"",CA YES TV (R)
 http://fortv.cc:8080/7451515/621556/57472
-
 #EXTINF:-1 tvg-id="bravo.us" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_logo%201.png?raw=true" group-title=""CANADA"",CA: Bravo
 http://fortv.cc:8080/7451515/621556/57379
 #EXTINF:-1 tvg-id="chch.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
@@ -124,7 +118,8 @@ http://fortv.cc:8080/7451515/621556/107960
 #EXTINF:-1 tvg-id=""vision.ca"" tvg-name=""CA: Vision"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Vision_TV_2010%201.png?raw=true" group-title=""CANADA"",CA: Vision
 http://fortv.cc:8080/7451515/621556/57468
 #EXTINF:-1 tvg-id=""5.ca"" tvg-name=""CA: PBS HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/pbs-v2.png?raw=true" group-title=""CANADA"",CA: PBS HD
-http://fortv.cc:8080/7451515/621556/57276#EXTINF:-1 tvg-id=""ctvnews.ca"" tvg-name=""CA: CTV NEWS CHANNEL HD"" tvg-logo="""" group-title=""CANADA"",CA: CTV NEWS CHANNEL HD
+http://fortv.cc:8080/7451515/621556/57276
+#EXTINF:-1 tvg-id=""ctvnews.ca"" tvg-name=""CA: CTV NEWS CHANNEL HD"" tvg-logo="""" group-title=""CANADA"",CA: CTV NEWS CHANNEL HD
 http://fortv.cc:8080/7451515/621556/57350
 #EXTINF:-1 tvg-id=""eentertainment.ca"" tvg-name=""CA E! (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title=""CANADA"",CA E! (R)
 http://fortv.cc:8080/7451515/621556/57422
