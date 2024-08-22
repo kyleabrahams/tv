@@ -46,6 +46,8 @@ http://fortv.cc:8080/7451515/621556/20926
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id=""theweathernetwork.ca"" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/the-weather-network-logo-vector%201.png?raw=true" group-title=""CANADA"",CA: Weather Network Toronto
 https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
+"#EXTINF:-1,The Weather Network (Canada)
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8"
 #EXTINF:-1 tvg-id="universalkids.us" tvg-name="US Universal Kids (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Universal_Pictures_logo%201.png?raw=true" group-title="CANADA",US Universal Kids (A)
 http://fortv.cc:8080/7451515/621556/9235
 #EXTINF:-1 tvg-id=""ytv.ca"" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
@@ -200,12 +202,13 @@ http://fortv.cc:8080/7451515/621556/47442
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id="""" tvg-name=""CA City News Toronto ON"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/city-news-247%201.png?raw=true" group-title="News",CA City News Toronto ON
 http://fortv.cc:8080/7451515/621556/216100
+#EXTINF:-1,Just for Laughs TV
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
+
 
 "USA  Aug 21 2024 (tv_channels_7451515_plus.m3u)"
 #EXTINF:-1 tvg-id="cbnnews.us" tvg-name="US CBSN New York (D)" tvg-logo="" group-title="USA ",US CBSN New York (D)
 http://fortv.cc:8080/7451515/621556/46754
-#EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US FOX Sports 1 " tvg-logo="" group-title="USA ",US FOX Sports 1 
-http://fortv.cc:8080/7451515/621556/46792
 #EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US FOX Sports 1 " tvg-logo="" group-title="USA ",US FOX Sports 1 
 http://fortv.cc:8080/7451515/621556/46792
 #EXTINF:-1 tvg-id="charge.us" tvg-name="US CHARGE! " tvg-logo="" group-title="USA ",US CHARGE! 
@@ -214,8 +217,8 @@ http://fortv.cc:8080/7451515/621556/79594
 http://fortv.cc:8080/7451515/621556/20976
 #EXTINF:-1 tvg-id="univision.us" tvg-name="US Univision (East) (SP)" tvg-logo="https://w7.pngwing.com/pngs/618/904/png-transparent-logo-univision-mexico-television-san-antonio-disney-junior-logo-television-text-logo.png" group-title="USA ",US Univision (East) (SP)
 http://fortv.cc:8080/7451515/621556/15336
-#EXTINF:-1 tvg-id="aande.us" tvg-name="USA: A&E" tvg-logo="" group-title="USA ",USA: A&E
-http://fortv.cc:8080/7451515/621556/59056
+"#EXTINF:-1 tvg-id="aande.us" tvg-name="USA: A&E" tvg-logo="" group-title="USA ",USA: A&E
+http://fortv.cc:8080/7451515/621556/59056"
 #EXTINF:-1 tvg-id="aande.us" tvg-name="US A&E (A)" tvg-logo="https://juicetv.app/channellogo/ae.png" group-title="USA ",US A&E (A)
 http://fortv.cc:8080/7451515/621556/2201
 #EXTINF:-1 tvg-id="altitudesport.us" tvg-name="US Altitude Sports HD " tvg-logo="" group-title="USA ",US Altitude Sports HD 
@@ -238,8 +241,8 @@ http://fortv.cc:8080/7451515/621556/58765
 http://fortv.cc:8080/7451515/621556/20194
 #EXTINF:-1 tvg-id="bet.us" tvg-name="US BET (East) " tvg-logo="" group-title="USA ",US BET (East) 
 http://fortv.cc:8080/7451515/621556/46703
-#EXTINF:-1 tvg-id="betgospel.us" tvg-name="USA: Bet Gospel" tvg-logo="" group-title="USA ",USA: Bet Gospel
-http://fortv.cc:8080/7451515/621556/66080
+"#EXTINF:-1 tvg-id="betgospel.us" tvg-name="USA: Bet Gospel" tvg-logo="" group-title="USA ",USA: Bet Gospel
+http://fortv.cc:8080/7451515/621556/66080"
 #EXTINF:-1 tvg-id="bether.us" tvg-name="US BET (East)  " tvg-logo="https://www.pinclipart.com/picdir/middle/396-3966034_bet-her-logo-png-clipart.png" group-title="USA ",US BET (East)  
 http://fortv.cc:8080/7451515/621556/13702
 #EXTINF:-1 tvg-id="betsoul.us" tvg-name="USA: BET SOUL" tvg-logo="" group-title="USA ",USA: BET SOUL
@@ -278,8 +281,8 @@ http://fortv.cc:8080/7451515/621556/11868
 http://fortv.cc:8080/7451515/621556/20189
 #EXTINF:-1 tvg-id="destinationamerica.us" tvg-name="US Destination America (A)" tvg-logo="https://fontmeme.com/images/destination-america-new-logo.png" group-title="USA ",US Destination America (A)
 http://fortv.cc:8080/7451515/621556/14222
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel (East)" tvg-logo="" group-title="USA ",US Discovery Channel (East)
-http://fortv.cc:8080/7451515/621556/46720
+"#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel (East)" tvg-logo="" group-title="USA ",US Discovery Channel (East)
+http://fortv.cc:8080/7451515/621556/46720"
 #EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel East " tvg-logo="https://logodix.com/logo/997920.png" group-title="USA ",US Discovery Channel East 
 http://fortv.cc:8080/7451515/621556/9811
 #EXTINF:-1 tvg-id="discoveryfamily.us" tvg-name="USA: DISCOVERY FAMILY" tvg-logo="https://png.pngitem.com/pimgs/s/452-4528679_discovery-family-channel-logo-hd-png-download.png" group-title="USA ",USA: DISCOVERY FAMILY
@@ -312,8 +315,8 @@ http://fortv.cc:8080/7451515/621556/10260
 http://fortv.cc:8080/7451515/621556/46699
 #EXTINF:-1 tvg-id="fyi.us" tvg-name="US FYI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/FYI%2C_logo.png" group-title="USA ",US FYI
 http://fortv.cc:8080/7451515/621556/9240
-#EXTINF:-1 tvg-id="galavision.us" tvg-name="US Latin Galavision" tvg-logo="" group-title="USA ",US Latin Galavision
-http://fortv.cc:8080/7451515/621556/58770
+"#EXTINF:-1 tvg-id="galavision.us" tvg-name="US Latin Galavision" tvg-logo="" group-title="USA ",US Latin Galavision
+http://fortv.cc:8080/7451515/621556/58770"
 #EXTINF:-1 tvg-id="gettv.us" tvg-name="US GetTV " tvg-logo="https://logodix.com/logo/1826254.png" group-title="USA ",US GetTV 
 http://fortv.cc:8080/7451515/621556/18366
 #EXTINF:-1 tvg-id="gacfamily.us" tvg-name="US Great American Country " tvg-logo="https://www.prizestakes.com/wp-content/uploads/2018/08/47-471x320.png" group-title="USA ",US Great American Country 
@@ -332,8 +335,8 @@ http://fortv.cc:8080/7451515/621556/46713
 http://fortv.cc:8080/7451515/621556/66087
 #EXTINF:-1 tvg-id="hgtv.us" tvg-name="US HGTV (East) " tvg-logo="" group-title="USA ",US HGTV (East) 
 http://fortv.cc:8080/7451515/621556/46717
-#EXTINF:-1 tvg-id="historychannel.us" tvg-name="US HISTORY " tvg-logo="" group-title="USA ",US HISTORY 
-http://fortv.cc:8080/7451515/621556/46724
+"#EXTINF:-1 tvg-id="hist"orychannel.us" tvg-name="US HISTORY " tvg-logo="" group-title="USA ",US HISTORY 
+http://fortv.cc:8080/7451515/621556/46724"
 #EXTINF:-1 tvg-id="historychannel.us" tvg-name="US History Channel " tvg-logo="https://i.pinimg.com/originals/f0/f5/85/f0f5853626e544b66b851b80af88ef9a.png" group-title="USA ",US History Channel 
 http://fortv.cc:8080/7451515/621556/15017
 #EXTINF:-1 tvg-id="hln.us" tvg-name="US HLN " tvg-logo="https://cdn.strivecloud.io/wp-content/uploads/2020/07/14143602/hln-273x202.png" group-title="USA ",US HLN 
@@ -348,8 +351,8 @@ http://fortv.cc:8080/7451515/621556/46810
 http://fortv.cc:8080/7451515/621556/9297
 #EXTINF:-1 tvg-id="lafftv.us" tvg-name="US Laff (KNVA)" tvg-logo="https://sky21.com/wp-content/uploads/2019/02/LAFF.png" group-title="USA ",US Laff (KNVA)
 http://fortv.cc:8080/7451515/621556/17777
-#EXTINF:-1 tvg-id="lifetimenetwork.us" tvg-name="US Lifetime " tvg-logo="" group-title="USA ",US Lifetime 
-http://fortv.cc:8080/7451515/621556/46714
+"#EXTINF:-1 tvg-id="lifetimenetwork.us" tvg-name="US Lifetime " tvg-logo="" group-title="USA ",US Lifetime 
+http://fortv.cc:8080/7451515/621556/46714"
 #EXTINF:-1 tvg-id="lifetimenetwork.us" tvg-name="US Lifetime" tvg-logo="https://assets.tvplayer.com/common/logos/256/Colour/281.png" group-title="USA ",US Lifetime
 http://fortv.cc:8080/7451515/621556/9275
 #EXTINF:-1 tvg-id="lifetimenetwork.us" tvg-name="US Lifetime Movie" tvg-logo="https://juicetv.app/channellogo/lmn2.png" group-title="USA ",US Lifetime Movie
@@ -368,16 +371,14 @@ http://fortv.cc:8080/7451515/621556/9818
 http://fortv.cc:8080/7451515/621556/9308
 #EXTINF:-1 tvg-id="natgeowild.us" tvg-name="US Nat Geo Wild East (A)" tvg-logo="https://i.pinimg.com/originals/b7/4f/75/b74f758bf9eadb051be71f7a9deb6e8c.png" group-title="USA ",US Nat Geo Wild East (A)
 http://fortv.cc:8080/7451515/621556/11664
-#EXTINF:-1 tvg-id="natgeo.us" tvg-name="US National Geographic " tvg-logo="" group-title="USA ",US National Geographic 
-http://fortv.cc:8080/7451515/621556/46722
+"#EXTINF:-1 tvg-id="natgeo.us" tvg-name="US National Geographic " tvg-logo="" group-title="USA ",US National Geographic 
+http://fortv.cc:8080/7451515/621556/46722"
 #EXTINF:-1 tvg-id="natgeo.us" tvg-name="US National Geographic (East) " tvg-logo="https://p.kindpng.com/picc/s/212-2126956_transparent-national-geographic-logo-png-national-geographic-magazine.png" group-title="USA ",US National Geographic (East) 
 http://fortv.cc:8080/7451515/621556/9277
-#EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick Jr " tvg-logo="" group-title="USA ",US Nick Jr 
-http://fortv.cc:8080/7451515/621556/46710
+"#EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick Jr " tvg-logo="" group-title="USA ",US Nick Jr 
+http://fortv.cc:8080/7451515/621556/46710"
 #EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick JR East (A) " tvg-logo="https://seeklogo.com/images/N/nick-jr-logo-DC18CDB75D-seeklogo.com.png" group-title="KIDS ZONE",US Nick JR East (A) 
 http://fortv.cc:8080/7451515/621556/9807
-#EXTINF:-1 tvg-id="" tvg-name="USA: NTD NEWS. " tvg-logo="" group-title="USA ",USA: NTD NEWS. 
-http://fortv.cc:8080/7451515/621556/53527
 #EXTINF:-1 tvg-id="oneamericanews.us" tvg-name="US One America News" tvg-logo="" group-title="USA ",US One America News
 http://fortv.cc:8080/7451515/621556/21752
 #EXTINF:-1 tvg-id="outdoorchannel.us" tvg-name="US Outdoor Channel" tvg-logo="https://i2.wp.com/tva.onscreenasia.com/wp-content/uploads/2018/06/TVA-19-June-5.png" group-title="USA ",US Outdoor Channel
@@ -386,14 +387,14 @@ http://fortv.cc:8080/7451515/621556/9244
 http://fortv.cc:8080/7451515/621556/20865
 #EXTINF:-1 tvg-id="oprahwinfreynetwork.us" tvg-name="USA: OWN" tvg-logo="" group-title="USA ",USA: OWN
 http://fortv.cc:8080/7451515/621556/46698
-#EXTINF:-1 tvg-id="oxygen.us" tvg-name="US Oxygen (A)" tvg-logo="" group-title="USA ",US Oxygen (A)
-http://fortv.cc:8080/7451515/621556/46695
+"#EXTINF:-1 tvg-id="oxygen.us" tvg-name="US Oxygen (A)" tvg-logo="" group-title="USA ",US Oxygen (A)
+http://fortv.cc:8080/7451515/621556/46695"
 #EXTINF:-1 tvg-id="oxygen.us" tvg-name="US Oxygen (East)   " tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/Oxygen_2008.png" group-title="USA ",US Oxygen (East)   
 http://fortv.cc:8080/7451515/621556/9245
 #EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="https://images.vexels.com/media/users/3/139794/isolated/preview/63948c2cace761d17096170684e4d193-brazil-round-flag-by-vexels.png" group-title="USA ",US Paramount Network 
 http://fortv.cc:8080/7451515/621556/16201
-#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="" group-title="USA ",US Paramount Network 
-http://fortv.cc:8080/7451515/621556/46694
+"#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="" group-title="USA ",US Paramount Network 
+http://fortv.cc:8080/7451515/621556/46694"
 #EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount TV " tvg-logo="https://e7.pngegg.com/pngimages/707/232/png-clipart-paramount-logo-brand-park-font-park-text-photography-thumbnail.png" group-title="USA ",US Paramount TV 
 http://fortv.cc:8080/7451515/621556/10464
 #EXTINF:-1 tvg-id="pixltv.us" tvg-name="US PixL (S)" tvg-logo="" group-title="USA ",US PixL (S)
@@ -420,16 +421,14 @@ http://fortv.cc:8080/7451515/621556/79913
 http://fortv.cc:8080/7451515/621556/46712
 #EXTINF:-1 tvg-id="syfy.us" tvg-name="US Syfy (East)   " tvg-logo="" group-title="USA ",US Syfy (East)   
 http://fortv.cc:8080/7451515/621556/46685
-#EXTINF:-1 tvg-id="trinitybroadcastingnetwork.us" tvg-name="US TBN " tvg-logo="" group-title="USA ",US TBN 
-http://fortv.cc:8080/7451515/621556/21895
 #EXTINF:-1 tvg-id="tbs.us" tvg-name="US TBS " tvg-logo="https://image.flaticon.com/icons/png/128/826/826355.png" group-title="USA ",US TBS 
 http://fortv.cc:8080/7451515/621556/20867
 #EXTINF:-1 tvg-id="golfchannel.us" tvg-name="US Golf Channel " tvg-logo="" group-title="USA ",US Golf Channel 
 http://fortv.cc:8080/7451515/621556/46728
 #EXTINF:-1 tvg-id="weatherchannel.us" tvg-name="US The Weather Channel " tvg-logo="" group-title="USA ",US The Weather Channel 
 http://fortv.cc:8080/7451515/621556/18926
-#EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC (East)  " tvg-logo="" group-title="USA ",US TLC (East)  
-http://fortv.cc:8080/7451515/621556/46691
+"#EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC (East)  " tvg-logo="" group-title="USA ",US TLC (East)  
+http://fortv.cc:8080/7451515/621556/46691"
 #EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC East " tvg-logo="https://logos.xmltv.se/en.tlc.discovery.dk.png" group-title="USA ",US TLC East 
 http://fortv.cc:8080/7451515/621556/12734
 #EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC (east) " tvg-logo="" group-title="USA ",US TLC (east) 
@@ -450,14 +449,16 @@ http://fortv.cc:8080/7451515/621556/46696
 http://fortv.cc:8080/7451515/621556/9271
 #EXTINF:-1 tvg-id="tvone.us" tvg-name="US TV One " tvg-logo="https://www.kindpng.com/picc/m/335-3354292_tvone-logo-logo-tv-one-2019-hd-png.png" group-title="USA ",US TV One 
 http://fortv.cc:8080/7451515/621556/20868
-#EXTINF:-1 tvg-id="univision23wltv.us" tvg-name="US Univision (East) (SP)" tvg-logo="" group-title="USA ",US Univision (East) (SP)
-http://fortv.cc:8080/7451515/621556/46692
+"#EXTINF:-1 tvg-id="univision23wltv.us" tvg-name="US Univision (East) (SP)" tvg-logo="" group-title="USA ",US Univision (East) (SP)
+http://fortv.cc:8080/7451515/621556/46692"
+#EXTINF:-1 tvg-id="univisiontlnovelas.us" tvg-name="US Latin Univision " tvg-logo="" group-title="USA ",US Latin Univision 
+http://fortv.cc:8080/7451515/621556/108248
 #EXTINF:-1 tvg-id="uptv.us" tvg-name="US Up TV " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Upmoji-orange.png" group-title="USA ",US Up TV 
 http://fortv.cc:8080/7451515/621556/10525
 #EXTINF:-1 tvg-id="usanetwork.us" tvg-name="US USA Network (East)  " tvg-logo="https://image.roku.com/developer_channels/prod/c616cdbf10205c0c2413689e05e7200dfe98c6c269569d958255a6e5acef1505.png" group-title="USA ",US USA Network (East)  
 http://fortv.cc:8080/7451515/621556/10252
-#EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 (East) " tvg-logo="" group-title="USA ",US VH1 (East) 
-http://fortv.cc:8080/7451515/621556/46705
+"#EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 (East) " tvg-logo="" group-title="USA ",US VH1 (East) 
+http://fortv.cc:8080/7451515/621556/46705"
 #EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 " tvg-logo="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1413371145/ziqmu9l76bjxx9rz9qat.png" group-title="USA ",US VH1 
 http://fortv.cc:8080/7451515/621556/7404
 #EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="" group-title="USA ",US VICELAND 
@@ -474,8 +475,7 @@ http://fortv.cc:8080/7451515/621556/10477
 http://fortv.cc:8080/7451515/621556/82241
 #EXTINF:-1 tvg-id="gacliving.us" tvg-name="US GAC Family " tvg-logo="" group-title="USA ",US GAC Family 
 http://fortv.cc:8080/7451515/621556/104877
-#EXTINF:-1 tvg-id="univisiontlnovelas.us" tvg-name="US Latin Univision " tvg-logo="" group-title="USA ",US Latin Univision 
-http://fortv.cc:8080/7451515/621556/108248
+
 #EXTINF:-1 tvg-id="gameshownetwork.us" tvg-name="US Game Show Network" tvg-logo="" group-title="USA ",US Game Show Network
 http://fortv.cc:8080/7451515/621556/120633
 #EXTINF:-1 tvg-id="truecrimenetwork.us" tvg-name="US True Crime Network (KARE) " tvg-logo="" group-title="USA ",US True Crime Network (KARE) 
@@ -492,18 +492,20 @@ http://fortv.cc:8080/7451515/621556/135794
 http://fortv.cc:8080/7451515/621556/136589
 #EXTINF:-1 tvg-id="starttv.us" tvg-name="US Start TV " tvg-logo="" group-title="USA ",US Start TV 
 http://fortv.cc:8080/7451515/621556/137680
+
 #EXTINF:-1 tvg-id="bether.us" tvg-name="US BET Her " tvg-logo="" group-title="USA ",US BET Her 
 http://fortv.cc:8080/7451515/621556/137790
 #EXTINF:-1 tvg-id="tcnksaodt7.us" tvg-name="US (LN) The Country Network" tvg-logo="" group-title="USA ",US (LN) The Country Network
 http://fortv.cc:8080/7451515/621556/137791
-#EXTINF:-1 tvg-id="" tvg-name="US First Nations Experience (WNEO) (SP)" tvg-logo="" group-title="USA ",US First Nations Experience (WNEO) (SP)
+"#EXTINF:-1 tvg-id="" tvg-name="US First Nations Experience (WNEO) (SP)" tvg-logo="" group-title="USA ",US First Nations Experience (WNEO) (SP)
 http://fortv.cc:8080/7451515/621556/139753
 #EXTINF:-1 tvg-id="createtv.us" tvg-name="US Create (WEDU) " tvg-logo="" group-title="USA ",US Create (WEDU) 
 http://fortv.cc:8080/7451515/621556/139754
 #EXTINF:-1 tvg-id="" tvg-name="US Twist TV (WTSP) " tvg-logo="" group-title="USA ",US Twist TV (WTSP) 
 http://fortv.cc:8080/7451515/621556/139755
 #EXTINF:-1 tvg-id="" tvg-name="US Poker Go " tvg-logo="" group-title="USA ",US Poker Go 
-http://fortv.cc:8080/7451515/621556/140814
+http://fortv.cc:8080/7451515/621556/140814"
+
 #EXTINF:-1 tvg-id="" tvg-name="US World Poker Tour " tvg-logo="" group-title="USA ",US World Poker Tour 
 http://fortv.cc:8080/7451515/621556/140815
 #EXTINF:-1 tvg-id="" tvg-name="US Real America's Voice (STV)" tvg-logo="" group-title="USA ",US Real America's Voice (STV)
@@ -532,8 +534,8 @@ https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV Meet The Breeds" tvg-logo="" group-title="Undefined",AKC TV Meet The Breeds
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV Puppies 24/7" tvg-logo="" group-title="Undefined",AKC TV Puppies 24/7
-https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8?checkedby:iptvcat.com
+"#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV Puppies 24/7" tvg-logo="" group-title="Undefined",AKC TV Puppies 24/7
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8?checkedby:iptvcat.com"
 #EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="Outdoor",AKC TV Puppies 24/7
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1,Love Pets
@@ -610,8 +612,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_channelId=99991622
 #EXTINF:-1,Electric Now
 https://dbrb49pjoymg4.cloudfront.net/10001/99991378/hls/elec_en.m3u8?ads.xumo_channelId=99991378
-#EXTINF:-1,Just for Laughs TV
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1,Comedy Dynamics
 https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_channelId=99991190
 #EXTINF:-1,Anger Management
@@ -628,8 +628,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951264/hls/master.m3u8?ads.xumo_channelId=99951264
 #EXTINF:-1,Dark Matter TV
 https://dbrb49pjoymg4.cloudfront.net/10001/9999615/hls/master.m3u8?ads.xumo_channelId=9999615
-#EXTINF:-1,Glewed TV Sci-Fi
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951123
 #EXTINF:-1,Heartland
 https://dbrb49pjoymg4.cloudfront.net/10001/9995114/hls/master.m3u8?ads.xumo_channelId=9995114
 #EXTINF:-1,Million Dollar Listing Vault
@@ -664,8 +662,8 @@ https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.ple
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://i.imgur.com/FVWqYQG.png" group-title="Family",Dove Channel
 https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1,Dove Channel
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/index.m3u8?ads.xumo_channelId=99991333
+"#EXTINF:-1,Dove Channel
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/index.m3u8?ads.xumo_channelId=99991333"
 #EXTINF:-1,Cheddar News
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Cheddar.m3u8
 #EXTINF:-1,Scripps News
@@ -710,8 +708,6 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,V
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,CrimeTime-Canada.m3u8
 #EXTINF:-1,Homeful (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful-Canada.m3u8
-#EXTINF:-1,The Weather Network (Canada)
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8
 #EXTINF:-1,Dazn TV (Canada)
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
 #EXTINF:-1,Cheddar News
