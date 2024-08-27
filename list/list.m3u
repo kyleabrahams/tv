@@ -210,9 +210,9 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 "USA  Aug 21 2024 (tv_channels_7451515_plus.m3u)"
 #EXTINF:-1 tvg-id="cbnnews.us" tvg-name="US CBSN New York (D)" tvg-logo="" group-title="USA ",US CBSN New York (D)
 http://fortv.cc:8080/7451515/621556/46754
-#EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US FOX Sports 1 " tvg-logo="" group-title="USA ",US FOX Sports 1 
+#EXTINF:-1 tvg-id="foxsports1.us" tvg-name="US FOX Sports 1 " tvg-logo="https://foxsports-wordpress-www-prsupports-prod.s3.amazonaws.com/uploads/sites/2/2016/12/FSLogo_1040x585.jpg" group-title="USA ",US FOX Sports 1 
 http://fortv.cc:8080/7451515/621556/46792
-#EXTINF:-1 tvg-id="charge.us" tvg-name="US CHARGE! " tvg-logo="" group-title="USA ",US CHARGE! 
+#EXTINF:-1 tvg-id="charge.us" tvg-name="US CHARGE! " tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx-8u6RbVRqjMpnAvMLvAYwRroundkWr5AJA&s" group-title="USA ",US CHARGE! 
 http://fortv.cc:8080/7451515/621556/79594
 #EXTINF:-1 tvg-id="poptv.us" tvg-name="US Pop " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/82/Pop_Network_Logo.png" group-title="USA ",US Pop 
 http://fortv.cc:8080/7451515/621556/20976
