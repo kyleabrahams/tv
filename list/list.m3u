@@ -203,7 +203,7 @@ http://fortv.cc:8080/7451515/621556/47442
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id="""" tvg-name=""CA City News Toronto ON"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/city-news-247%201.png?raw=true" group-title="News",CA City News Toronto ON
 http://fortv.cc:8080/7451515/621556/216100
-#EXTINF:-1,Just for Laughs TV
+#EXTINF:-1 tvg-id="JustforLaughsGags.us" tvg-name="CA Just for Laughs TV" tvg-logo="https://i.imgur.com/HjVEVMJ.png" group-title="CANADA",CA Just for Laughs TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 
 
