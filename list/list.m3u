@@ -20,19 +20,19 @@ http://fortv.cc:8080/7451515/621556/47296
 http://fortv.cc:8080/7451515/621556/57472
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",CA: Bravo
 http://fortv.cc:8080/7451515/621556/57379
-#EXTINF:-1 tvg-id="I218.10112.zap2it.com" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
+#EXTINF:-1 tvg-id="" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
 http://fortv.cc:8080/7451515/621556/57393
 #EXTINF:-1 tvg-id="Crave.1.(West).(CRV1M).ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Crave_2018_logo%201.png?raw=true" group-title="CANADA",CA: CRAVE 1 HD
 http://fortv.cc:8080/7451515/621556/57309
 #EXTINF:-1 tvg-id="TFO.HDTV.(TV.Ontario).(TFOHD).ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TFO_2020_Logo%201.png?raw=true" group-title=""CANADA"",CA: TFO  (FR)
 http://fortv.cc:8080/7451515/621556/57291
-#EXTINF:-1 tvg-id="I641.26779.zap2it.com" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title=""CANADA"",CA Cottage Life HD (B)
+#EXTINF:-1 tvg-id="" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title=""CANADA"",CA Cottage Life HD (B)
 http://fortv.cc:8080/7451515/621556/47217
-#EXTINF:-1 tvg-id="I248.14321.zap2it.com" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
+#EXTINF:-1 tvg-id="" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
 #EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="News",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
-#EXTINF:-1 tvg-id="I355.58780.zap2it.com" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
+#EXTINF:-1 tvg-id="" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
 http://fortv.cc:8080/7451515/621556/46687
 #EXTINF:-1 tvg-id="I7.1.20453.zap2it.com" tvg-name=""US ABC News Live HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_News_solid_black_logo%201.png?raw=true" group-title="News" | NEWS | REGIONALS "",US ABC News Live HD 
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
@@ -80,7 +80,8 @@ http://fortv.cc:8080/7451515/621556/57366
 http://fortv.cc:8080/7451515/621556/10476
 http://fortv.cc:8080/7451515/621556/57258"
 #EXTINF:-1 tvg-id="I550.61001.zap2it.com" tvg-name=""CA: Showcase HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Showcase_logo%202.png?raw=true" group-title=""CANADA"",CA: Showcase HD
-http://fortv.cc:8080/7451515/621556/47366
+http://fortv.cc:8080/7451515/621556/47366"
+http://vo01.mohdtv.com:8880/voby4159/55452/29468
 #EXTINF:-1 tvg-id=""ctvdramachannel.ca"" tvg-name=""CA CTV Drama Channel (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Drama_Channel_2019%201.png?raw=true" group-title=""CANADA"",CA CTV Drama Channel (R)
 http://fortv.cc:8080/7451515/621556/57254
 #EXTINF:-1 tvg-id="I601.15181.zap2it.com" tvg-name=""CA Slice TV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Slice_logo_(2017)%201.png?raw=true" group-title=""CANADA"",CA Slice TV 
@@ -109,7 +110,7 @@ http://fortv.cc:8080/7451515/621556/57347
 http://fortv.cc:8080/7451515/621556/57446
 #EXTINF:-1 tvg-id=""sportsnet360.ca"" tvg-name=""CA Sportsnet 360 (HD)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn.png?raw=true" group-title=""CANADA"",CA Sportsnet 360 (HD)
 http://fortv.cc:8080/7451515/621556/57299
-#EXTINF:-1 tvg-id=""dtour.ca"" tvg-name=""CA: DTOUR HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Dtour_Logo%201.png?raw=true" group-title=""CANADA"",CA: DTOUR HD
+#EXTINF:-1 tvg-id="DTOUR HD.ca" tvg-name=""CA: DTOUR HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Dtour_Logo%201.png?raw=true" group-title=""CANADA"",CA: DTOUR HD
 http://fortv.cc:8080/7451515/621556/57250
 #EXTINF:-1 tvg-id=""fx.ca"" tvg-name=""CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
