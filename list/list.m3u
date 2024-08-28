@@ -515,32 +515,28 @@ http://fortv.cc:8080/7451515/621556/176811
 "NEW Aug 22 2024"
 #EXTINF:-1,tvg-id="" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/jamie-oliver_channel_logo_stacked_white.png?raw=true" group-title="USA ",US The Jamie Oliver Channel
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Jamie-Oliver.m3u8
-#EXTINF:-1,tvg-id="" tvg-name="US Property Brothers Channel" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/property-brothers.png?raw=true" group-title="USA ",US Property Brothers Channel
+#EXTINF:-1,tvg-id="" tvg-name="US Property Brothers Channel" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/property-brother-2.png?raw=true" group-title="USA ",US Property Brothers Channel
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Property-Brothers.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="WE tv" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/We_TV_logo_2014%201.png?raw=true" group-title="Undefined", WE tv
 https://d85lu9l3axp7b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-49b4g6287mnav/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="Outdoor",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="Outdoor",AKC TV Puppies 24/7
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="Outdoor",AKC TV Meet The Breeds
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8?checkedby:iptvcat.com"
-#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="Outdoor",AKC TV Puppies 24/7
-https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
-#EXTINF:-1,Love Pets
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/LovePets_Logo_SecondaryColor.png?raw=true" group-title="Outdoor", Love Pets
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovepetsusa-vizious/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="Undefined",AKC TV
-https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AMC All Weddings" tvg-logo="https://i.imgur.com/OjLCew5.png" group-title="Undefined",AMC All Weddings
-https://d85lu9l3axp7b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-49b4g6287mnav/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MAV Select USA" tvg-logo="" group-title="Undefined",MAV Select USA
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MAV Select USA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/mavtv-logo-vector%201.png?raw=true" group-title="Undefined",MAV Select USA
 https://d3h07n6l1exhds.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0z2yyo4dxctc7/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Movie Channel (720p)" tvg-logo="" group-title="Undefined",Sony Movie Channel (720p)
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Sony_Movies_Logo.svg.png?raw=true" group-title="Undefined",Sony Movie Channel (720p)
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Newsmax TV" tvg-logo="https://image.xumo.com/v1/channels/channel/9999194/300x300.png?type=color_onBlack" group-title="News",Newsmax TV
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8?checkedby:iptvcat.com
-#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Undefined",Crime Files
+#EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/crime%20files.png?raw=true" group-title="Undefined",Crime Files
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/655f2ce5954b020008c8352d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79b865-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3595184b-cb04-4d88-b8b6-18f5809ccdac&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Undefined",CrimeTime
+#EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/crime-time--.png?raw=true" group-title="Undefined",Crime Time
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e93b8eb8e02600071f8b1d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79b866-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f6712973-8faa-4699-8910-6209c1b7a19d&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Undefined",Dance Moms
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6540fec1770cf1000866b65b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79df73-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=64043e4b-3a3a-42a9-bce9-67430c31c9f5&checkedby:iptvcat.net
