@@ -30,7 +30,7 @@ http://fortv.cc:8080/7451515/621556/57291
 http://fortv.cc:8080/7451515/621556/47217
 #EXTINF:-1 tvg-id="fx.ca"" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
-#EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="News",US CBS News 
+#EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="News",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
 #EXTINF:-1 tvg-id="cnbc.us" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
 http://fortv.cc:8080/7451515/621556/46687
@@ -52,7 +52,7 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,T
 http://fortv.cc:8080/7451515/621556/9235
 #EXTINF:-1 tvg-id=""ytv.ca"" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
 http://fortv.cc:8080/7451515/621556/63850
-#EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="News",US CBS News 
+#EXTINF:-1 tvg-id="""" tvg-name=""US CBS News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="News",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
 #EXTINF:-1 tvg-id=""wnetwork.ca"" tvg-name=""CA W Network East (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/W_Network_Logo%201.png?raw=true" group-title=""CANADA"",CA W Network East (E)
 http://fortv.cc:8080/7451515/621556/57284
@@ -79,7 +79,7 @@ http://fortv.cc:8080/7451515/621556/116506
 http://fortv.cc:8080/7451515/621556/57366
 #EXTINF:-1 tvg-id=""cmt.ca"" tvg-name=""CA CMT"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title=""CANADA"",CA CMT
 http://fortv.cc:8080/7451515/621556/57258
-#EXTINF:-1 tvg-id=""showcase.ca"" tvg-name=""CA: Showcase HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Showcase_logo%201.png?raw=true" group-title=""CANADA"",CA: Showcase HD
+#EXTINF:-1 tvg-id=""showcase.ca"" tvg-name=""CA: Showcase HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Showcase_logo%202.png?raw=true" group-title=""CANADA"",CA: Showcase HD
 http://fortv.cc:8080/7451515/621556/47366
 #EXTINF:-1 tvg-id=""ctvdramachannel.ca"" tvg-name=""CA CTV Drama Channel (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Drama_Channel_2019%201.png?raw=true" group-title=""CANADA"",CA CTV Drama Channel (R)
 http://fortv.cc:8080/7451515/621556/57254
@@ -203,7 +203,7 @@ http://fortv.cc:8080/7451515/621556/47442
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id="""" tvg-name=""CA City News Toronto ON"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/city-news-247%201.png?raw=true" group-title="News",CA City News Toronto ON
 http://fortv.cc:8080/7451515/621556/216100
-#EXTINF:-1 tvg-id="JustforLaughsGags.us" tvg-name="CA Just for Laughs TV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/just-for-laughs%201.png?raw=true" group-title="CANADA",CA Just for Laughs TV
+#EXTINF:-1 tvg-id="JustforLaughsGags.us" tvg-name="CA Just for Laughs TV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/just-for-laughs-logo-BW.png?raw=true" group-title="CANADA",CA Just for Laughs TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 
 
@@ -230,13 +230,13 @@ http://fortv.cc:8080/7451515/621556/18925
 http://fortv.cc:8080/7451515/621556/10456
 #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="US Animal Planet " tvg-logo="https://i.pinimg.com/originals/d1/18/a4/d118a4d4198818532da51e0a0bfb7969.png" group-title="USA ",US Animal Planet 
 http://fortv.cc:8080/7451515/621556/17870
-#EXTINF:-1 tvg-id="antennatv.us" tvg-name="US Antenna TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/antenna%20tv%201.png?raw=true" group-title="USA ",US Antenna TV 
+#EXTINF:-1 tvg-id="antennatv.us" tvg-name="US Antenna TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/antenna%20tv%20stckd.png?raw=true" group-title="USA ",US Antenna TV 
 http://fortv.cc:8080/7451515/621556/20180
 #EXTINF:-1 tvg-id="aspiretv.us" tvg-name="US Aspire (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Aspire_tv%201.png?raw=true" group-title="USA ",US Aspire (A)
 http://fortv.cc:8080/7451515/621556/21927
 #EXTINF:-1 tvg-id="axstv.us" tvg-name="US AXS TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/AXS_TV_logo%201.png?raw=true" group-title="USA ",US AXS TV 
 http://fortv.cc:8080/7451515/621556/48324
-#EXTINF:-1 tvg-id="babyfirst.us" tvg-name="USA: Baby First HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BabyFirstTV-Logo%201.png?raw=true" group-title="USA ",USA: Baby First HD
+#EXTINF:-1 tvg-id="babyfirst.us" tvg-name="USA: Baby First HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BabyFirstTV-stacked.png?raw=true" group-title="USA ",USA: Baby First HD
 http://fortv.cc:8080/7451515/621556/58765
 #EXTINF:-1 tvg-id="bbcamerica.us" tvg-name="US BBC America" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BBC_America_logo_2021%201.png?raw=true" group-title="USA ",US BBC America
 http://fortv.cc:8080/7451515/621556/20194
@@ -342,7 +342,7 @@ http://fortv.cc:8080/7451515/621556/46724"
 http://fortv.cc:8080/7451515/621556/15017
 #EXTINF:-1 tvg-id="hln.us" tvg-name="US HLN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HLNLogo2023%201.png?raw=true" group-title="USA ",US HLN 
 http://fortv.cc:8080/7451515/621556/17748
-#EXTINF:-1 tvg-id="independentfilmchannel.us" tvg-name="US IFC " tvg-logo="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1412745090/blg54azaoqz0cj3at5zd.png" group-title="USA ",US IFC 
+#EXTINF:-1 tvg-id="independentfilmchannel.us" tvg-name="US IFC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/IFC_2018_logo%201.png?raw=true" group-title="USA ",US IFC 
 http://fortv.cc:8080/7451515/621556/9272
 #EXTINF:-1 tvg-id="insp.us" tvg-name="US insp " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/insp-trn%201.png?raw=true" group-title="USA ",US insp 
 http://fortv.cc:8080/7451515/621556/16262
