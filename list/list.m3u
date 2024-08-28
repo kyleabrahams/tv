@@ -1,30 +1,30 @@
 #EXTM3U "USA  Aug 22 2024 917a (tv_channels_7451515_plus.m3u)"
 
-#EXTINF:-1 tvg-id=""cablepulse24.ca"" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D)
+#EXTINF:-1 tvg-id=""CP24.ca"" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D)
 http://fortv.cc:8080/7451515/621556/57357
 #EXTINF:-1 tvg-id="msnbc.us" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",CA MSNBC (R)
 http://fortv.cc:8080/7451515/621556/47332
-#EXTINF:-1 tvg-id="globaltoronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",CA GLOBAL TORONTO
+#EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57435
 #EXTINF:-1 tvg-id="omni1.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
 http://fortv.cc:8080/7451515/621556/57365
 #EXTINF:-1 tvg-id="animalplanet.ca" tvg-name=""CA: Animal Planet"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/2018_Animal_Planet_logo.png?raw=true" group-title=""CANADA"",CA: Animal Planet
 http://fortv.cc:8080/7451515/621556/57377
-#EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
 http://fortv.cc:8080/7451515/621556/57260
-#EXTINF:-1 tvg-id="citytvtoronto.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="News",CA: CITY TV TORONTO HD
+#EXTINF:-1 tvg-id="CFTODT.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="News",CA: CITY TV TORONTO HD
 http://fortv.cc:8080/7451515/621556/57307
 #EXTINF:-1 tvg-id="ctvtoronto.ca" tvg-name=""CA CTV Toronto HD (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="News",CA CTV Toronto HD (R)
 http://fortv.cc:8080/7451515/621556/47296
-#EXTINF:-1 tvg-id="yestv.ca" tvg-name=""CA YES TV (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title=""CANADA"",CA YES TV (R)
+#EXTINF:-1 tvg-id="CITSDT.ca" tvg-name=""CA YES TV (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title=""CANADA"",CA YES TV (R)
 http://fortv.cc:8080/7451515/621556/57472
-#EXTINF:-1 tvg-id="bravo.us" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",CA: Bravo
+#EXTINF:-1 tvg-id="BravoEast.us" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",CA: Bravo
 http://fortv.cc:8080/7451515/621556/57379
-#EXTINF:-1 tvg-id="chch.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
+#EXTINF:-1 tvg-id="CHCHDT.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
 http://fortv.cc:8080/7451515/621556/57393
 #EXTINF:-1 tvg-id="crave1.ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Crave_2018_logo%201.png?raw=true" group-title="CANADA",CA: CRAVE 1 HD
 http://fortv.cc:8080/7451515/621556/57309
-#EXTINF:-1 tvg-id="tfo.ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TFO_2020_Logo%201.png?raw=true" group-title=""CANADA"",CA: TFO  (FR)
+#EXTINF:-1 tvg-id="CHLFTV.ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TFO_2020_Logo%201.png?raw=true" group-title=""CANADA"",CA: TFO  (FR)
 http://fortv.cc:8080/7451515/621556/57291
 #EXTINF:-1 tvg-id="cottagelife.ca" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title=""CANADA"",CA Cottage Life HD (B)
 http://fortv.cc:8080/7451515/621556/47217
@@ -538,7 +538,7 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8?checkedby:iptvca
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/655f2ce5954b020008c8352d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79b865-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3595184b-cb04-4d88-b8b6-18f5809ccdac&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/crime-time--.png?raw=true" group-title="Undefined",Crime Time
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e93b8eb8e02600071f8b1d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79b866-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=f6712973-8faa-4699-8910-6209c1b7a19d&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dance%20moms%201.png?raw=true" group-title="Undefined",Dance Moms
+#EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dance%20moms%202.png?raw=true" group-title="Undefined",Dance Moms
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6540fec1770cf1000866b65b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79df73-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=64043e4b-3a3a-42a9-bce9-67430c31c9f5&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/declassified%201.png?raw=true" group-title="Undefined",Declassified
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62bdaf9cf1bdc500073a8bcb/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c79df76-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=77b58119-8b6e-403d-b5dd-1096e48e0c09&checkedby:iptvcat.net
@@ -546,7 +546,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6540fee72cf13100085d5a18/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a0686-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a785777c-53e9-4fa5-bf8d-22125f05159a&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/fbi-files%201.png?raw=true" group-title="Undefined",FBI Files
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62bdaa32a1b2fd00076693e8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a2d95-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=53708f79-4a2b-4285-8fa6-e950fc36fb48&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Undefined",Fixers and Flippers
+#EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FIXERS%20&%20FLIPPERS.png?raw=true" group-title="Undefined",Fixers and Flippers
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62fb62081afad500077e915e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a2d97-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8ea54251-dad6-45d5-9afb-2162c78ab93d&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png" group-title="Undefined",Frasier
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181&checkedby:iptvcat.net
@@ -598,7 +598,7 @@ https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_
 https://dbrb49pjoymg4.cloudfront.net/10001/99991378/hls/elec_en.m3u8?ads.xumo_channelId=99991378
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Comedy Dynamics
 https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_channelId=99991190
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Anger Management
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/anger-management-channel.png?raw=true" group-title="Undefined",Anger Management
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",FailArmy
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991153
