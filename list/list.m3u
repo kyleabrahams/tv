@@ -556,37 +556,37 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e916affb29c60007211c8a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c2-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1595266f-ecb0-4af0-bab6-40b7d0586999&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/happy-days.png?raw=true" group-title="Undefined",Happy Days
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e917b5e354cf0007b97a67/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c3-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b9cae61e-6671-48b9-8e36-973e2921034d&checkedby:iptvcat.net
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",NHL
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NHL_Network_2012%201.png?raw=true" group-title="Undefined",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Sportsgrid
 https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Outside TV
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/outside-tv-logo-vector%201.png?raw=true" group-title="Undefined",Outside TV
 https://outsidetv-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Gusto
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Gusto_TV_logo%201.png?raw=true" group-title="Undefined",Gusto
 https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Real Wild (Geo)
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/real%20wild%201.png?raw=true" group-title="Undefined",Real Wild (Geo)
 https://lds-realwild-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Womens Sports Network
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/women's%20sports%20network%201.png?raw=true" group-title="Undefined",Womens Sports Network
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Young Hollywood (Not Listed)
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/young-hollywood.png?raw=true" group-title="Undefined",Young Hollywood
 https://younghollywood-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Hallmark Movies and More
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/hallmark%20mov&more%201.png?raw=true" group-title="Undefined",Hallmark Movies and More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",NBC News Now by Pluto TV
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_Now_2023%201.png?raw=true" group-title="Undefined",NBC News Now by Pluto TV
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df97894467dfa00091c873c/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",BBC News
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BBC_News-Logo.wine%201.png?raw=true" group-title="Undefined",BBC News
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?ads.xumo_channelId=99951298
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",CBC News Explore
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cbc-news-stacked%201.png?raw=true" group-title="Undefined",CBC News Explore
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Today Allday
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Today_logo%201.png?raw=true" group-title="Undefined",Today Allday
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991245
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Pursuit Up
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/pursuit-Logo%201.png?raw=true" group-title="Undefined",Pursuit Up
 https://dbrb49pjoymg4.cloudfront.net/10001/99991648/hls/playlist.m3u8?ads.xumo_channelId=99991648
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Bein Sports Xtra (Geo)
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/bein-sports-xtra%201.png?raw=true" group-title="Undefined",Bein Sports Xtra (Geo)
 https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",ACCDN
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/accdn-logo.png?raw=true" group-title="Undefined",ACCDN
 https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Swerve Combat
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/swerve%20combat.jpeg?raw=true" group-title="Undefined",Swerve Combat
 https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Fight Network
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
@@ -764,7 +764,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Comedy Dynamics
 https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_channelId=99991190
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Just for Laughs Gags
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/JFLgags23%201.png?raw=true" group-title="Undefined",Just for Laughs Gags
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991204
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Lol! Network
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991123
@@ -776,7 +776,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991759
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",The Design Network
 https://dbrb49pjoymg4.cloudfront.net/10001/99991390/hls/playlist.m3u8?ads.xumo_channelId=99991390
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",NBC LX Home
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_LX_Home_2023%201.png?raw=true" group-title="Undefined",NBC LX Home
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991651
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
