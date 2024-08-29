@@ -558,7 +558,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e917b5e354cf0007b97a67/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c3-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b9cae61e-6671-48b9-8e36-973e2921034d&checkedby:iptvcat.net
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NHL_Network_2012%201.png?raw=true" group-title="Undefined",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Sportsgrid
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sportsgrid.png?raw=true" group-title="Undefined",Sportsgrid
 https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/outside-tv-logo-vector%201.png?raw=true" group-title="Undefined",Outside TV
 https://outsidetv-firetv.amagi.tv/playlist.m3u8
@@ -628,17 +628,17 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951151
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/food%2052%201.png?raw=true" group-title="Undefined",Food 52
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991340
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Bonappetit
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/bonappetit%201.png?raw=true" group-title="Undefined",Bonappetit
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991140
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Journy
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/journy_logo_Logo.jpeg?raw=true" group-title="Undefined",Journy
 https://dbrb49pjoymg4.cloudfront.net/10001/99991262/hls/playlist.m3u8?ads.xumo_channelId=99991262
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Vevo 80s
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vevo%2080s.png?raw=true" group-title="Undefined",Vevo 80s
 https://dbrb49pjoymg4.cloudfront.net/10001/99991132/hls/playlist.m3u8?ads.xumo_channelId=99991132
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Washington Post
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/washington%20post%201.png?raw=true" group-title="Undefined",Washington Post
 https://washingtonpost-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Crime Hunters" tvg-logo="" group-title="Undefined",Crime Hunters
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Crime Hunters" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/crime%20hunters%201.png?raw=true" group-title="Undefined",Crime Hunters
 https://amg01201-cinedigmenterta-crimehunters-cineverse-cnqvb.amagi.tv/playlist/amg01201-cinedigmenterta-crimehunters-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NO TV - New Orleans Television" tvg-logo="" group-title="Undefined",NO TV - New Orleans Television
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NO TV - New Orleans Television" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/new%20orleans%20tv.png?raw=true" group-title="Undefined",NO TV - New Orleans Television
 https://5b0f5374bdf0c.streamlock.net:444/LiveTV/NOTVHD/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Popstar! TV" tvg-logo="https://i.imgur.com/kFO675K.png" group-title="Undefined",Popstar! TV
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
