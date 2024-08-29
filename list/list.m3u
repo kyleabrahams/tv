@@ -462,7 +462,7 @@ http://fortv.cc:8080/7451515/621556/10252
 http://fortv.cc:8080/7451515/621556/46705"
 #EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/VH1_logonew%201.png?raw=true" group-title="USA ",US VH1 
 http://fortv.cc:8080/7451515/621556/7404
-#EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white%201.png?raw=true" group-title="USA ",US VICELAND 
+#EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white.png?raw=true" group-title="USA ",US VICELAND 
 http://fortv.cc:8080/7451515/621556/46697
 #EXTINF:-1 tvg-id="vsin.us" tvg-name="US VSiN (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/VSiN_Logo%201.png?raw=true" group-title="Sports Fanatic's ",US VSiN (F)
 http://fortv.cc:8080/7451515/621556/18941
@@ -630,7 +630,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991340
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/bonappetit%201.png?raw=true" group-title="Undefined",Bonappetit
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991140
-#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/journy_logo_Logo.jpeg?raw=true" group-title="Undefined",Journy
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/journy_logo_Logo.png?raw=true" group-title="Undefined",Journy
 https://dbrb49pjoymg4.cloudfront.net/10001/99991262/hls/playlist.m3u8?ads.xumo_channelId=99991262
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vevo%2080s%20(1).png?raw=true" group-title="Undefined",Vevo 80s
 https://dbrb49pjoymg4.cloudfront.net/10001/99991132/hls/playlist.m3u8?ads.xumo_channelId=99991132
