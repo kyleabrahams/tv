@@ -454,7 +454,7 @@ http://fortv.cc:8080/7451515/621556/20868
 http://fortv.cc:8080/7451515/621556/46692"
 #EXTINF:-1 tvg-id="univisiontlnovelas.us" tvg-name="US Latin Univision " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Univision_logo%201.png?raw=true" group-title="USA ",US Latin Univision 
 http://fortv.cc:8080/7451515/621556/108248
-#EXTINF:-1 tvg-id="uptv.us" tvg-name="US Up TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/uptv%201.png?raw=true" group-title="USA ",US Up TV 
+#EXTINF:-1 tvg-id="uptv.us" tvg-name="US Up TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/uptv.png?raw=true" group-title="USA ",US Up TV 
 http://fortv.cc:8080/7451515/621556/10525
 #EXTINF:-1 tvg-id="usanetwork.us" tvg-name="US USA Network (East)  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/USA_Network_logo_(2016)%201.png?raw=true" group-title="USA ",US USA Network (East)  
 http://fortv.cc:8080/7451515/621556/10252
@@ -464,6 +464,7 @@ http://fortv.cc:8080/7451515/621556/46705"
 http://fortv.cc:8080/7451515/621556/7404
 #EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white.png?raw=true" group-title="USA ",US VICELAND 
 http://fortv.cc:8080/7451515/621556/46697
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,VICE.m3u8"
 #EXTINF:-1 tvg-id="vsin.us" tvg-name="US VSiN (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/VSiN_Logo%201.png?raw=true" group-title="Sports Fanatic's ",US VSiN (F)
 http://fortv.cc:8080/7451515/621556/18941
 #EXTINF:-1 tvg-id="wapaamerica.us" tvg-name="US WAPA America " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/WAPA-TV_logo%201.png?raw=true" group-title="USA ",US WAPA America 
@@ -668,8 +669,6 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,T
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Jack-Hannah.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Xplore
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Xplore.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Dateline 24/7
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Dateline.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Total Crime
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Total-Crime.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Filmrise True Crime
@@ -686,8 +685,6 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,G
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Antiques-Road-Trip.m3u8
 #EXTINF:-1,Moviesphere by Lionsgate
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,MovieSphere.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white.png?raw=true" group-title="Undefined",Vice
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,VICE.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Crime Time (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,CrimeTime-Canada.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Homeful (Canada)
@@ -742,12 +739,13 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",PowerNation
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991291
-#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/speedvision-logo-2022%201.png?raw=true" group-title="Undefined",Speedvision
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/speedvision-logo-stacked.png?raw=true" group-title="Undefined",Speedvision
 https://dbrb49pjoymg4.cloudfront.net/10001/99951268/hls/playlist.m3u8?ads.xumo_channelId=99951268
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Fifth Gear
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951207
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dateline%20247.png?raw=true" group-title="Undefined",Dateline 24x7
 https://d4whmvwm0rdvi.cloudfront.net/10007/99991626/hls/master.m3u8?ads.xumo_channelId=99991626
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Dateline.m3u8"
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Law and Crime 
 https://dbrb49pjoymg4.cloudfront.net/10001/99991320/hls/playlist.m3u8?ads.xumo_channelId=99991320
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Unsolved Mysterys
@@ -778,7 +776,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/10001/99991390/hls/playlist.m3u8?ads.xumo_channelId=99991390
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_LX_Home_2023%201.png?raw=true" group-title="Undefined",NBC LX Home
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991651
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Family Feud
+#EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/family%20feud%201.png?raw=true" group-title="Undefined",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",The Archive
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991310
