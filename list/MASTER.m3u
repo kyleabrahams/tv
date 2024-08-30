@@ -2,22 +2,73 @@
 
 #EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D) 
 http://fortv.cc:8080/7451515/621556/57357  
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA CP24 News HD (D)" tvg-logo="" group-title="CANADA",CA CP24 News HD (D)
+http://fortv.cc:8080/7451515/621556/57357
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA CP24 News HD (E)" tvg-logo="" group-title="CANADA",CA CP24 News HD (E)
+http://fortv.cc:8080/7451515/621556/57401
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA CP24 HD " tvg-logo="" group-title="CANADA",CA CP24 HD 
+http://fortv.cc:8080/7451515/621556/57345
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA: CP24 FHD" tvg-logo="" group-title="CANADA",CA: CP24 FHD
+http://fortv.cc:8080/7451515/621556/47218
+#EXTINF:-1 tvg-id="cablepulse24.ca" tvg-name="CA: CP24 HD" tvg-logo="" group-title="CANADA",CA: CP24 HD
+http://fortv.cc:8080/7451515/621556/57257
+#EXTINF:-1,CA: CP 24
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/476
 #EXTINF:-1 tvg-id="I356.16300.zap2it.com" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",CA MSNBC (R)
 http://fortv.cc:8080/7451515/621556/47332
+#EXTINF:-1 tvg-id="msnbc.us" tvg-name="US MSNBC" tvg-logo="https://imediatv.com/wp-content/uploads/2018/06/MSNBC.png" group-title="USA ",US MSNBC
+http://fortv.cc:8080/7451515/621556/21376
+#EXTINF:-1 tvg-id="msnbc.us" tvg-name="US MSNBC " tvg-logo="https://imediatv.com/wp-content/uploads/2018/06/MSNBC.png" group-title="USA ",US MSNBC 
+http://fortv.cc:8080/7451515/621556/9296
+#EXTINF:-1,US: MSNBC
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/406
 #EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57302
+#EXTINF:-1 tvg-id="globaltoronto.ca" tvg-name="CA GLOBAL TORONTO" tvg-logo="" group-title="CANADA",CA GLOBAL TORONTO
+http://fortv.cc:8080/7451515/621556/57435
+#EXTINF:-1,CA: Global TV Toronto
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/465
 #EXTINF:-1 tvg-id="I215.10105.zap2it.com" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
 http://fortv.cc:8080/7451515/621556/57365
+#EXTINF:-1,CA: OMNI 1
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/453
+#EXTINF:-1,CA: OMNI 2
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
 #EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name=""CA: Animal Planet"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/2018_Animal_Planet_logo.png?raw=true" group-title=""CANADA"",CA: Animal Planet
 http://fortv.cc:8080/7451515/621556/57377
+#EXTINF:-1 tvg-id="animalplanet.us" tvg-name="US Animal Planet " tvg-logo="https://i.pinimg.com/originals/d1/18/a4/d118a4d4198818532da51e0a0bfb7969.png" group-title="USA ",US Animal Planet 
+http://fortv.cc:8080/7451515/621556/17870
+#EXTINF:-1,RO: ANIMAL PLANET
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/9839
 #EXTINF:-1 tvg-id="I802.46245.zap2it.com" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
 http://fortv.cc:8080/7451515/621556/57260
+#EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA CBC Toronto " tvg-logo="" group-title="CANADA",CA CBC Toronto 
+http://fortv.cc:8080/7451515/621556/57260
+#EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA: CBC TORONTO" tvg-logo="" group-title="CANADA",CA: CBC TORONTO
+http://fortv.cc:8080/7451515/621556/57306
+#EXTINF:-1,CA:6 CBC Toronto CBLT DT
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/429
 #EXTINF:-1 tvg-id="I803.34200.zap2it.com" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="News",CA: CITY TV TORONTO HD
 http://fortv.cc:8080/7451515/621556/57307
+#EXTINF:-1 tvg-id="citytvtoronto.ca" tvg-name="CA City TV Toronto (D)" tvg-logo="" group-title="CANADA",CA City TV Toronto (D)
+http://fortv.cc:8080/7451515/621556/57394
+#EXTINF:-1,CA: Citytv Toronto
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/1727
 #EXTINF:-1 tvg-id="I800.44784.zap2it.com" tvg-name=""CA CTV Toronto HD (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="News",CA CTV Toronto HD (R)
 http://fortv.cc:8080/7451515/621556/47296
+#EXTINF:-1,CA: CTV Toronto
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/298187
 #EXTINF:-1 tvg-id="" tvg-name=""CA YES TV (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title=""CANADA"",CA YES TV (R)
 http://fortv.cc:8080/7451515/621556/57472
+#EXTINF:-1,CA: Yes TV
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/446
+#EXTINF:-1,IL: Yes TV Action
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/297075
+#EXTINF:-1,IL: Yes TV Comedy
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/297063
+#EXTINF:-1,IL: Yes TV Drama
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/163468
+
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",CA: Bravo
 http://fortv.cc:8080/7451515/621556/57379
 #EXTINF:-1 tvg-id="" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
