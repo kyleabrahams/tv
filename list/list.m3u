@@ -40,10 +40,10 @@ https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 http://fortv.cc:8080/7451515/621556/57370
 #EXTINF:-1 tvg-id="I209.10116.zap2it.com" tvg-name=""CA CTV 2 London HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_2_2018%201.png?raw=true" group-title="News",CA CTV 2 London HD 
 http://fortv.cc:8080/7451515/621556/58546
-#EXTINF:-1 tvg-id="I41.11054.zap2it.com" tvg-name=""US NBC Sports Network (FHD) "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_Sports_2012%201.png?raw=true" group-title="Sports",US NBC Sports Network (FHD) 
-http://fortv.cc:8080/7451515/621556/20926
 #EXTINF:-1 tvg-id="I409.68858.zap2it.com" tvg-name="CA Sportsnet One (HD) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn1%201.png?raw=true" group-title="CANADA",CA Sportsnet One (HD) 
 http://fortv.cc:8080/7451515/621556/47379
+#EXTINF:-1 tvg-id="sportsneteast.ca" tvg-name="CA Sportsnet East HD (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sno%201.png?raw=true" group-title="CANADA",CA Sportsnet East HD (F)
+http://fortv.cc:8080/7451515/621556/57298
 #EXTINF:-1 tvg-id=""theweathernetwork.ca"" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/the-weather-network-logo-vector%201.png?raw=true" group-title=""CANADA"",CA: Weather Network Toronto
 https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
 "#EXTINF:-1,The Weather Network (Canada)
@@ -155,7 +155,7 @@ http://fortv.cc:8080/7451515/621556/20975
 #EXTINF:-1 tvg-id="I407.18801.zap2it.com" tvg-name=""CA Sportsnet Pacific (FHD) "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn.png?raw=true" group-title=""Sports Fanatic's "",CA Sportsnet Pacific (FHD) 
 http://fortv.cc:8080/7451515/621556/9860
 #EXTINF:-1 tvg-id="I212.45399.zap2it.com" tvg-name=""CA: NFL NETWORK HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/nfl-logo-.png?raw=true" group-title=""CANADA"",CA: NFL NETWORK HD
-http://fortv.cc:8080/7451515/621556/47346
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3104
 #EXTINF:-1 tvg-id="I218.14899.zap2it.com" tvg-name=""CA: Golf Channel HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/golf-channel-logo-vector%201.png?raw=true" group-title=""CANADA"",CA: Golf Channel HD
 http://fortv.cc:8080/7451515/621556/57362
 #EXTINF:-1 tvg-id=""cnbc.us"" tvg-name=""US CNBC "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="News",US CNBC 
