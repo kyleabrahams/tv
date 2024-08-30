@@ -38,8 +38,6 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
 http://fortv.cc:8080/7451515/621556/57377
 #EXTINF:-1 tvg-id="animalplanet.us" tvg-name="US Animal Planet " tvg-logo="https://i.pinimg.com/originals/d1/18/a4/d118a4d4198818532da51e0a0bfb7969.png" group-title="USA ",US Animal Planet 
 http://fortv.cc:8080/7451515/621556/17870
-#EXTINF:-1,RO: ANIMAL PLANET
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/9839
 #EXTINF:-1 tvg-id="I802.46245.zap2it.com" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
 http://fortv.cc:8080/7451515/621556/57260
 #EXTINF:-1 tvg-id="cbctoronto.ca" tvg-name="CA CBC Toronto " tvg-logo="" group-title="CANADA",CA CBC Toronto 
@@ -62,26 +60,53 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/298187
 http://fortv.cc:8080/7451515/621556/57472
 #EXTINF:-1,CA: Yes TV
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/446
-#EXTINF:-1,IL: Yes TV Action
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/297075
-#EXTINF:-1,IL: Yes TV Comedy
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/297063
-#EXTINF:-1,IL: Yes TV Drama
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/163468
-
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",CA: Bravo
 http://fortv.cc:8080/7451515/621556/57379
+#EXTINF:-1 tvg-id="bravo.us" tvg-name="US Bravo (East)   " tvg-logo="https://www.clipartmax.com/png/middle/114-1140555_bravotv-my-sad-addiction-bravo-tv-logo-png.png" group-title="USA ",US Bravo (East)   
+http://fortv.cc:8080/7451515/621556/20859
+#EXTINF:-1,US: Bravo
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2282
 #EXTINF:-1 tvg-id="" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title=""CANADA"",CA CHCH (E)
 http://fortv.cc:8080/7451515/621556/57393
+#EXTINF:-1 tvg-id="chch.ca" tvg-name="CA CHCH (R)" tvg-logo="" group-title="CANADA",CA CHCH (R)
+http://fortv.cc:8080/7451515/621556/57259
+#EXTINF:-1,CA: CHCH TV
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/9246
 #EXTINF:-1 tvg-id="Crave.1.(West).(CRV1M).ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Crave_2018_logo%201.png?raw=true" group-title="CANADA",CA: CRAVE 1 HD
 http://fortv.cc:8080/7451515/621556/57309
+#EXTINF:-1,CA: Crave 1
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13244
+#EXTINF:-1 tvg-id="crave2.ca" tvg-name="CA: CRAVE 2 HD" tvg-logo="" group-title="CANADA",CA: CRAVE 2 HD
+http://fortv.cc:8080/7451515/621556/57310
+#EXTINF:-1,CA: Crave 2
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13245
+#EXTINF:-1 tvg-id="crave3.ca" tvg-name="CA: CRAVE 3" tvg-logo="" group-title="CANADA",CA: CRAVE 3
+http://fortv.cc:8080/7451515/621556/57322
+#EXTINF:-1,CA: Crave 3
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/9283
+#EXTINF:-1 tvg-id="crave4.ca" tvg-name="CA: CRAVE 4 HD" tvg-logo="" group-title="CANADA",CA: CRAVE 4 HD
+http://fortv.cc:8080/7451515/621556/57311
+#EXTINF:-1,CA: Crave 4
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13246
 #EXTINF:-1 tvg-id="TFO.HDTV.(TV.Ontario).(TFOHD).ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TFO_2020_Logo%201.png?raw=true" group-title=""CANADA"",CA: TFO  (FR)
 http://fortv.cc:8080/7451515/621556/57291
+#EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA (FR) TFO HD (R)" tvg-logo="https://powerofbabel.com/wp-content/uploads/2021/01/TFO-logo.png" group-title="Canada French",CA (FR) TFO HD (R)
+http://fortv.cc:8080/7451515/621556/57495
 #EXTINF:-1 tvg-id="" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title=""CANADA"",CA Cottage Life HD (B)
 http://fortv.cc:8080/7451515/621556/47217
+#EXTINF:-1,CA: Cottage Life TV
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/477
 #EXTINF:-1 tvg-id="" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
+#EXTINF:-1 tvg-id="fx.us" tvg-name="US FX East " tvg-logo="" group-title="USA ",US FX East 
+http://fortv.cc:8080/7451515/621556/46690
+#EXTINF:-1,US: FX
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/758
+#EXTINF:-1,US: FX Movie Channel
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/39873
 #EXTINF:-1 tvg-id="""" tvg-name=""US CBS News 24/7"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_247_stacked.png?raw=true" group-title="News",US CBS News 24/7
+http://fortv.cc:8080/7451515/621556/21259
+#EXTINF:-1 tvg-id="" tvg-name="US CBS News " tvg-logo="" group-title="USA ",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
 #EXTINF:-1 tvg-id="" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
 http://fortv.cc:8080/7451515/621556/46687
@@ -622,6 +647,8 @@ https://younghollywood-vizio.amagi.tv/playlist.m3u8
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_Now_2023%201.png?raw=true" group-title="Undefined",NBC News Now by Pluto TV
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df97894467dfa00091c873c/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
+#EXTINF:-1,US: NBC News Now
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2743
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BBC_News-Logo.wine%201.png?raw=true" group-title="Undefined",BBC News
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?ads.xumo_channelId=99951298
 #EXTINF:-1 tvg-country="" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cbc-news-stacked%201.png?raw=true" group-title="Undefined",CBC News Explore
