@@ -50,7 +50,7 @@ https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8"
 #EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name="CA CP24 News HD (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CA CP24 News HD (D)
 http://fortv.cc:8080/7451515/621556/57357
-#EXTINF:-1 tvg-id=""ytv.ca"" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
+#EXTINF:-1 tvg-id="YTV (Youth Television) - East HD.ca" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
 http://fortv.cc:8080/7451515/621556/63850
 #EXTINF:-1 tvg-id="""" tvg-name=""CA CBC News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC%20NN%201.png?raw=true" group-title="News",CA CBC News Network
 http://fortv.cc:8080/7451515/621556/57304
