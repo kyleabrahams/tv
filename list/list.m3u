@@ -94,11 +94,11 @@ http://fortv.cc:8080/7451515/621556/57408
 http://fortv.cc:8080/7451515/621556/57380
 #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name=""CA HGTV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HGTV_Canada_2012_logo%20blue.png?raw=true" group-title=""CANADA"",CA HGTV 
 http://fortv.cc:8080/7451515/621556/57273
-#EXTINF:-1 tvg-id=""lovenature.ca"" tvg-name=""CA Love Nature HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/love_nature_logo_white_rgb.png?raw=true" group-title=""CANADA"",CA Love Nature HD 
+#EXTINF:-1 tvg-id="Love Nature.ca" tvg-name=""CA Love Nature HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/love_nature_logo_white_rgb.png?raw=true" group-title=""CANADA"",CA Love Nature HD 
 http://fortv.cc:8080/7451515/621556/47324
 #EXTINF:-1 tvg-id="Turner Classic Movies Canada HD.ca" tvg-name=""CA Turner Classic Movies"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TCM_2021%201.png?raw=true" group-title=""CANADA"",CA Turner Classic Movies
 http://fortv.cc:8080/7451515/621556/66242
-#EXTINF:-1 tvg-id=""discoveryscience.ca"" tvg-name=""CA: Discovery Science"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Science%201.png?raw=true" group-title=""CANADA"",CA: Discovery Science
+#EXTINF:-1 tvg-id="Discovery Science Canada.ca" tvg-name=""CA: Discovery Science"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Science%201.png?raw=true" group-title=""CANADA"",CA: Discovery Science
 http://fortv.cc:8080/7451515/621556/57418
 #EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""CA CTV SCI-FI "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Sci-Fi_Channel_2019%201.png?raw=true" group-title=""CANADA"",CA CTV SCI-FI 
 http://fortv.cc:8080/7451515/621556/57464
@@ -116,7 +116,7 @@ http://fortv.cc:8080/7451515/621556/57268
 http://fortv.cc:8080/7451515/621556/57247
 #EXTINF:-1 tvg-id="BNN Bloomberg.ca" tvg-name=""CA: BNN Bloomberg HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/BNN_Bloomberg%201.png?raw=true" group-title="News",CA: BNN Bloomberg HD
 http://fortv.cc:8080/7451515/621556/57358
-#EXTINF:-1 tvg-id="I560.75031.zap2it.com" tvg-name=""CA: ABC SPARK"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_Spark%201.png?raw=true" group-title=""CANADA"",CA: ABC SPARK
+#EXTINF:-1 tvg-id="ABC Spark" tvg-name=""CA: ABC SPARK"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_Spark%201.png?raw=true" group-title=""CANADA"",CA: ABC SPARK
 http://fortv.cc:8080/7451515/621556/57375
 #EXTINF:-1 tvg-id="I232.30156.zap2it.com" tvg-name="CA COOKING Channel " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cooking_Channel%201.png?raw=true" group-title="CANADA",CA COOKING Channel 
 http://fortv.cc:8080/7451515/621556/107960
@@ -124,25 +124,25 @@ http://fortv.cc:8080/7451515/621556/107960
 http://fortv.cc:8080/7451515/621556/57468
 #EXTINF:-1 tvg-id="PBS (WNED) Buffalo, NY.ca" tvg-name=""CA: PBS HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/pbs-v2.png?raw=true" group-title=""CANADA"",CA: PBS HD
 http://fortv.cc:8080/7451515/621556/57276
-#EXTINF:-1 tvg-id="I501.17615.zap2it.com" tvg-name=""CA: CTV NEWS CHANNEL HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_News%201.png?raw=true" group-title="News",CA: CTV NEWS CHANNEL HD
+#EXTINF:-1 tvg-id="CTV News Channel HD.ca" tvg-name=""CA: CTV NEWS CHANNEL HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_News%201.png?raw=true" group-title="News",CA: CTV NEWS CHANNEL HD
 http://fortv.cc:8080/7451515/621556/57350
 #EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name=""CA E! (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title=""CANADA"",CA E! (R)
 http://fortv.cc:8080/7451515/621556/57422
-#EXTINF:-1 tvg-id="I259.17927.zap2it.com" tvg-name=""CA FXX (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title=""CANADA"",CA FXX (R)
+#EXTINF:-1 tvg-id="FXX Canada.ca" tvg-name=""CA FXX (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title=""CANADA"",CA FXX (R)
 http://fortv.cc:8080/7451515/621556/57429
-#EXTINF:-1 tvg-id=""treehouse.ca"" tvg-name=""CA Treehouse (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Treehouse_TV_logo%201.png?raw=true" group-title=""KIDS ZONE"",CA Treehouse (R)
+#EXTINF:-1 tvg-id="Treehouse TV" tvg-name=""CA Treehouse (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Treehouse_TV_logo%201.png?raw=true" group-title=""KIDS ZONE"",CA Treehouse (R)
 http://fortv.cc:8080/7451515/621556/57371
-#EXTINF:-1 tvg-id=""chrgd.ca"" tvg-name=""CA: CHRGD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/WildBrain_Television_(Stacked)%201.png?raw=true" group-title=""CANADA"",CA: WildBrainTV
+#EXTINF:-1 tvg-id="WildBrain TV (SD East)" tvg-name="CA:WildBrainTV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/WildBrain_Television_(Stacked)%201.png?raw=true" group-title=""CANADA"",CA: WildBrainTV
 http://fortv.cc:8080/7451515/621556/75653
-#EXTINF:-1 tvg-id="National Geographic Wild Canada HD.ca" tvg-name=""CA National Geographic Wild (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Nat_Geo_Wild%20v3.png?raw=true" group-title=""CANADA"",CA National Geographic Wild (R)
+#EXTINF:-1 tvg-id="National Geographic Canada HD.ca" tvg-name=""CA National Geographic Wild (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Nat_Geo_Wild%20v3.png?raw=true" group-title=""CANADA"",CA National Geographic Wild (R)
 http://fortv.cc:8080/7451515/621556/57450
 #EXTINF:-1 tvg-id="Family Jr. (SD)" tvg-name=""CA: Family Jr HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Family_Jr._logo%201.png?raw=true" group-title=""KIDS ZONE"",CA: Family Jr HD
 http://fortv.cc:8080/7451515/621556/57346
-#EXTINF:-1 tvg-id="I299.11006.zap2it.com" tvg-name=""CA Nickelodeon (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Nickelodeon_2023_logo%201.png?raw=true" group-title=""KIDS ZONE"",CA Nickelodeon (R)
-http://fortv.cc:8080/7451515/621556/47349
-#EXTINF:-1 tvg-id="APTN HD.ca" tvg-name=""CA : APTN"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/APTN_Colour-300x300%201.png?raw=true" group-title=""CANADA"",CA : APTN
-http://fortv.cc:8080/7451515/621556/57320
-#EXTINF:-1 tvg-id=""eentertainment.ca"" tvg-name=""CA E! (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title=""CANADA"",CA E! (R)
+#EXTINF:-1 tvg-id="Nickelodeon Canada" tvg-name=""CA Nickelodeon (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Nickelodeon_2023_logo%201.png?raw=true" group-title=""KIDS ZONE"",CA Nickelodeon (R)
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59196
+#EXTINF:-1 tvg-id="Aboriginal Peoples Television Network (East)" tvg-name=""CA : APTN"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/APTN_Colour-300x300%201.png?raw=true" group-title=""CANADA"",CA : APTN
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30226
+#EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name=""CA E! (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title=""CANADA"",CA E! (R)
 http://fortv.cc:8080/7451515/621556/57422
 #EXTINF:-1 tvg-id=""oprahwinfreynetwork.ca"" tvg-name=""CA>US OWN"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/OWN_2011_logo%201.png?raw=true" group-title=""CANADA"",CA>US OWN 
 http://fortv.cc:8080/7451515/621556/46698
@@ -164,7 +164,7 @@ http://fortv.cc:8080/7451515/621556/9815
 http://fortv.cc:8080/7451515/621556/57441
 #EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Lifetime_2020%201.png?raw=true" group-title=""USA "",US Lifetime 
 http://fortv.cc:8080/7451515/621556/46714
-#EXTINF:-1 tvg-id=""adultswim.us"" tvg-name=""CA Adult Swim (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Adult_Swim_2003_logo%201.png?raw=true" group-title=""USA "",CA Adult Swim (R)
+#EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name=""CA Adult Swim (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Adult_Swim_2003_logo%201.png?raw=true" group-title=""CANADA "",CA Adult Swim (R)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30173
 #EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca" tvg-name=""CA Lifetime "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Lifetime_2020%201.png?raw=true" group-title=""CANADA"",CA Lifetime 
 http://fortv.cc:8080/7451515/621556/57271
@@ -172,33 +172,33 @@ http://fortv.cc:8080/7451515/621556/57271
 http://fortv.cc:8080/7451515/621556/10464
 #EXTINF:-1 tvg-id="natgeo.ca" tvg-name="CA: National Geographic HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/National-Geographic-Logo%201.png?raw=true" group-title="CANADA",CA: National Geographic HD
 http://fortv.cc:8080/7451515/621556/47338
-#EXTINF:-1 tvg-id=""movietime.ca"" tvg-name=""CA: MOVIETIME HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Movietime.png?raw=true" group-title=""CANADA"",CA: MOVIETIME HD
+#EXTINF:-1 tvg-id="MovieTime HD.ca" tvg-name=""CA: MOVIETIME HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Movietime.png?raw=true" group-title=""CANADA"",CA: MOVIETIME HD
 http://fortv.cc:8080/7451515/621556/47331
 #EXTINF:-1 tvg-id=""smithsonian.ca"" tvg-name=""CA Smithsonian Channel (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Smithsonian-stacked.png?raw=true" group-title=""CANADA"",CA Smithsonian Channel (B)
 http://fortv.cc:8080/7451515/621556/47369
 #EXTINF:-1 tvg-id=""usanetwork.us"" tvg-name=""US USA Network (East)  "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/USA_Network_logo_(2016)%201.png?raw=true" group-title="CANADA",US USA Network (East)  
 http://fortv.cc:8080/7451515/621556/10252
-#EXTINF:-1 tvg-id=""magnolianetwork.us"" tvg-name="CA Magonlia Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Magnolia_Network_(Stacked).png?raw=true" group-title="CANADA",CA Magonlia Network
-http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3043
+#EXTINF:-1 tvg-id="Magnolia Network Canada.ca" tvg-name="CA Magonlia Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Magnolia_Network_(Stacked).png?raw=true" group-title="CANADA",CA Magonlia Network
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60115
 #EXTINF:-1 tvg-id=""gameshownetwork.us"" tvg-name=""US Game Show Network"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Game_Show_Network_2018%201.png?raw=true" group-title=""USA "",US Game Show Network
 http://fortv.cc:8080/7451515/621556/120633
 #EXTINF:-1 tvg-id=""crimeinvestigation.ca"" tvg-name=""CA: CRIME & INVESTIGATION"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Crime_+_Investigation_Logo_10.2019%201.png?raw=true" group-title=""CANADA"",CA: CRIME & INVESTIGATION
 http://fortv.cc:8080/7451515/621556/57256
-#EXTINF:-1 tvg-id=""disneyjunior.us"" tvg-name=""CA Disney Junior "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Disney_Jr._2024%201.png?raw=true" group-title=""KIDS ZONE"",CA Disney Junior 
+#EXTINF:-1 tvg-id="Disney Jr. Canada" tvg-name=""CA Disney Junior "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Disney_Jr._2024%201.png?raw=true" group-title=""KIDS ZONE"",CA Disney Junior 
 http://fortv.cc:8080/7451515/621556/57349
-#EXTINF:-1 tvg-id=""disneyxd.ca"" tvg-name=""CA Disney Channel"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Disney_XD_-_2015%201.png?raw=true" group-title=""KIDS ZONE"",CA Disney Channel
+#EXTINF:-1 tvg-id="Disney Channel Canada - East.ca" tvg-name=""CA Disney Channel"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Disney_XD_-_2015%201.png?raw=true" group-title=""KIDS ZONE"",CA Disney Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3046
 #EXTINF:-1 tvg-id=""24taas.ca"" tvg-name="US Magnolia Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Magnolia_Network_(Stacked).png?raw=true" group-title=""CANADA"",US Magnolia Network
 http://fortv.cc:8080/7451515/621556/47258
-#EXTINF:-1 tvg-id=""fx.ca"" tvg-name=""CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
-#EXTINF:-1 tvg-id="""" tvg-name=""CA-NBA TV"" tvg-logo="https://i.pinimg.com/originals/52/4a/46/524a467886b251a6ef5becf35e47de10.png" group-title=""NBA"",CA-NBA TV
-http://fortv.cc:8080/7451515/621556/22995
+#EXTINF:-1 tvg-id="NBA TV Canada TV HD.ca" tvg-name=""CA-NBA TV"" tvg-logo="https://i.pinimg.com/originals/52/4a/46/524a467886b251a6ef5becf35e47de10.png" group-title=""NBA"",CA-NBA TV
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3037
 #EXTINF:-1 tvg-id=""hbo.ca"" tvg-name=""CA: HBO 1 "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HBO_logo%201.png?raw=true" group-title=""CANADA"",CA: HBO 1 
 http://fortv.cc:8080/7451515/621556/57437
-#EXTINF:-1 tvg-id=""tsn2.ca"" tvg-name=""CA TSN 2 HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSN2%201.png?raw=true" group-title=""CANADA"",CA TSN 2 HD 
-http://fortv.cc:8080/7451515/621556/47442
-#EXTINF:-1 tvg-id=""sportsnetone.ca"" tvg-name=""CA Sportsnet One (HD) "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn1%201.png?raw=true" group-title=""CANADA"",CA Sportsnet One (HD) 
+#EXTINF:-1 tvg-id="TSN2.ca" tvg-name=""CA TSN 2 HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSN2%201.png?raw=true" group-title=""CANADA"",CA TSN 2 HD 
+http://fortv.cc:8080/7451515/621556/16129
+#EXTINF:-1 tvg-id="Sportsnet One HD.ca" tvg-name=""CA Sportsnet One (HD) "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn1%201.png?raw=true" group-title=""CANADA"",CA Sportsnet One (HD) 
 http://fortv.cc:8080/7451515/621556/47379
 #EXTINF:-1 tvg-id="""" tvg-name=""CA City News Toronto ON"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/city-news-247%201.png?raw=true" group-title="News",CA City News Toronto ON
 http://fortv.cc:8080/7451515/621556/216100
