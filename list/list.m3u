@@ -283,7 +283,7 @@ http://fortv.cc:8080/7451515/621556/21896
 http://fortv.cc:8080/7451515/621556/46708
 #EXTINF:-1 tvg-id="WCBS" tvg-name="US CBS News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="USA ",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
-#EXTINF:-1 tvg-id="CMT (East)" tvg-name="USA: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title="USA ",USA: CMT HD
+#EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="USA: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title="USA ",USA: CMT HD
 http://fortv.cc:8080/7451515/621556/57258
 #EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="USA ",US CNBC 
 http://fortv.cc:8080/7451515/621556/9815
@@ -319,29 +319,29 @@ http://fortv.cc:8080/7451515/621556/46212
 http://fortv.cc:8080/7451515/621556/10503
 #EXTINF:-1 tvg-id="dogtv.us" tvg-name="USA: DOGTV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dog-tv%201.png?raw=true" group-title="USA ",USA: DOGTV
 http://fortv.cc:8080/7451515/621556/53539
-#EXTINF:-1 tvg-id="E!.us" tvg-name="US E! Entertainment Television East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title="USA ",US E! Entertainment Television East 
+#EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East)" tvg-name="US E! Entertainment Television East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title="USA ",US E! Entertainment Television East 
 http://fortv.cc:8080/7451515/621556/11651
 #EXTINF:-1 tvg-id="Food Network.us" tvg-name="USA: Food Network HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FramFood_Network_logo.png?raw=true" group-title="USA ",USA: Food Network HD
 http://fortv.cc:8080/7451515/621556/7323
 #EXTINF:-1 tvg-id="Fox Business.us" tvg-name="US Fox Business Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FBN-Prime-1%201.png?raw=true" group-title="USA ",US Fox Business Network
 http://fortv.cc:8080/7451515/621556/17639
-#EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="USA ",US Fox News  
+#EXTINF:-1 tvg-id="Fox News.us" tvg-name="US Fox News  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="USA ",US Fox News  
 http://fortv.cc:8080/7451515/621556/1818
-#EXTINF:-1 tvg-id="freeform.us" tvg-name="US Freeform East" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Freeform_2022%201.png?raw=true" group-title="USA ",US Freeform East
-http://fortv.cc:8080/7451515/621556/13370
-#EXTINF:-1 tvg-id="fusetv.us" tvg-name="US Fuse " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fuse_Black_Logo_2017%201.png?raw=true" group-title="USA ",US Fuse 
+#EXTINF:-1 tvg-id="Freeform.us" tvg-name="US Freeform East" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Freeform_2022%201.png?raw=true" group-title="USA ",US Freeform East
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417886
+#EXTINF:-1 tvg-id="Fuse.us" tvg-name="US Fuse " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fuse_Black_Logo_2017%201.png?raw=true" group-title="USA ",US Fuse 
 http://fortv.cc:8080/7451515/621556/46701
-#EXTINF:-1 tvg-id="fx.us" tvg-name="US FX East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX_International_logo%20color.png?raw=true" group-title="USA ",US FX East 
+#EXTINF:-1 tvg-id="FX HDTV (East) - FX HD.us" tvg-name="US FX East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX_International_logo%20color.png?raw=true" group-title="USA ",US FX East 
 http://fortv.cc:8080/7451515/621556/46690
-#EXTINF:-1 tvg-id="fxm.us" tvg-name="US FXM " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXM_Logo%201.png?raw=true" group-title="USA ",US FXM 
+#EXTINF:-1 tvg-id="FX Movie Channel" tvg-name="US FXM " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXM_Logo%201.png?raw=true" group-title="USA ",US FXM 
 http://fortv.cc:8080/7451515/621556/10260
-#EXTINF:-1 tvg-id="fxx.us" tvg-name="US FXX (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title="USA ",US FXX (East) 
+#EXTINF:-1 tvg-id="FXXEast.us" tvg-name="US FXX (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title="USA ",US FXX (East) 
 http://fortv.cc:8080/7451515/621556/46699
-#EXTINF:-1 tvg-id="fyi.us" tvg-name="US FYI" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FYI,_logo%201.png?raw=true" group-title="USA ",US FYI
+#EXTINF:-1 tvg-id="FYIEast.us" tvg-name="US FYI" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FYI,_logo%201.png?raw=true" group-title="USA ",US FYI
 http://fortv.cc:8080/7451515/621556/9240
 "#EXTINF:-1 tvg-id="galavision.us" tvg-name="US Latin Galavision" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/galavision%201.png?raw=true" group-title="USA ",US Latin Galavision
 http://fortv.cc:8080/7451515/621556/58770
-#EXTINF:-1 tvg-id="gettv.us" tvg-name="US GetTV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Great_Entertainment_Television_2023%201.png?raw=true" group-title="USA ",US GetTV 
+#EXTINF:-1 tvg-id="WLJCDT4.us" tvg-name="US GetTV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Great_Entertainment_Television_2023%201.png?raw=true" group-title="USA ",US GetTV 
 http://fortv.cc:8080/7451515/621556/18366
 #EXTINF:-1 tvg-id="gacfamily.us" tvg-name="US Great American Family " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Great_American_Family_logo.svg%201.png?raw=true" group-title="USA ",US Great American Family 
 http://fortv.cc:8080/7451515/621556/17640
