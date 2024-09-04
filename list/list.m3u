@@ -3,10 +3,17 @@ EPG:
 https://www.bevy.be/bevyfiles/canadapremium.xml.gz																									
 https://www.bevy.be/bevyfiles/canadapremium2.xml.gz																									
 https://www.bevy.be/bevyfiles/canadapremium3.xml.gz																									
-https://www.bevy.be/bevyfiles/canada.xml.gz"																									   "
+https://www.bevy.be/bevyfiles/canada.xml.gz
+https://www.bevy.be/bevyfiles/unitedstatespremium1.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium2.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium3.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium4.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium5.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium6.xml.gz	US																								
+https://www.bevy.be/bevyfiles/unitedstatespremium7.xml.gz	US"																									   
 
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D) 
-http://fortv.cc:8080/7451515/621556/57357  
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",CA MSNBC (R)
 http://fortv.cc:8080/7451515/621556/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",CA GLOBAL TORONTO
