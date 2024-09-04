@@ -37,10 +37,12 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
 http://fortv.cc:8080/7451515/621556/57268
 "#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name=""US CBS News 24/7"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_247_stacked.png?raw=true" group-title="News",US CBS News 24/7
 http://fortv.cc:8080/7451515/621556/21259"
-#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name="CA: CBS (E)" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="CANADA ENT",CA: CBS (E)
+#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name="CA: CBS" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="CANADA ENT",CA: CBS
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423710
-#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
-http://fortv.cc:8080/7451515/621556/46687
+"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
+http://fortv.cc:8080/7451515/621556/46687"
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC (E)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_logo%201.png?raw=true" group-title="CANADA ENT",CA: NBC (E)
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423731
 "#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name=""US ABC News Live HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_News_solid_white-hor.png?raw=true" group-title="News" | NEWS | REGIONALS "",US ABC News Live HD 
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
 #EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="CA: ABC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ABC_%282013%29_Dark_Grey.svg/150px-ABC_%282013%29_Dark_Grey.svg.png" group-title="CANADA ENT",CA: ABC
