@@ -5,21 +5,21 @@ https://www.bevy.be/bevyfiles/canadapremium2.xml.gz
 https://www.bevy.be/bevyfiles/canadapremium3.xml.gz																									
 https://www.bevy.be/bevyfiles/canada.xml.gz"																									   "
 
-#EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D) 
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD (D)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CA CP24 News HD (D) 
 http://fortv.cc:8080/7451515/621556/57357  
-#EXTINF:-1 tvg-id="I356.16300.zap2it.com" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",CA MSNBC (R)
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC (R)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",CA MSNBC (R)
 http://fortv.cc:8080/7451515/621556/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",CA GLOBAL TORONTO
 http://fortv.cc:8080/7451515/621556/57302
-#EXTINF:-1 tvg-id="I215.10105.zap2it.com" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI1 HD
 http://fortv.cc:8080/7451515/621556/57365
 #EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name=""CA: Animal Planet"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/2018_Animal_Planet_logo.png?raw=true" group-title=""CANADA"",CA: Animal Planet
 http://fortv.cc:8080/7451515/621556/57377
-#EXTINF:-1 tvg-id="I802.46245.zap2it.com" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
+#EXTINF:-1 tvg-id="CBC Quebec" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="News",CA CBC Toronto 
 http://fortv.cc:8080/7451515/621556/57260
-#EXTINF:-1 tvg-id="I803.34200.zap2it.com" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="News",CA: CITY TV TORONTO HD
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="News",CA: CITY TV TORONTO HD
 http://fortv.cc:8080/7451515/621556/57307
-#EXTINF:-1 tvg-id="I800.44784.zap2it.com" tvg-name=""CA CTV Toronto HD (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="News",CA CTV Toronto HD (R)
+#EXTINF:-1 tvg-id="CTV Montreal" tvg-name=""CA CTV Toronto HD (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="News",CA CTV Toronto HD (R)
 http://fortv.cc:8080/7451515/621556/47296
 #EXTINF:-1 tvg-id="Yes TV (CITS) Burlington, ON.ca" tvg-name=""CA YES TV (R)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title=""CANADA"",CA YES TV (R)
 http://fortv.cc:8080/7451515/621556/57472
@@ -53,7 +53,7 @@ http://fortv.cc:8080/7451515/621556/57298
 https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
 "#EXTINF:-1,The Weather Network (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8"
-#EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name="CA CP24 News HD (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CA CP24 News HD (D)
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News HD (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CA CP24 News HD (D)
 http://fortv.cc:8080/7451515/621556/57357
 #EXTINF:-1 tvg-id="YTV (Youth Television) - East HD.ca" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",CA YTV East 
 http://fortv.cc:8080/7451515/621556/63850
