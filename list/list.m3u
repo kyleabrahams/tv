@@ -233,7 +233,7 @@ http://fortv.cc:8080/7451515/621556/47217
 
 
 "USA  Aug 21 2024 (tv_channels_7451515_plus.m3u)"
-#EXTINF:-1 tvg-id="cbnnews.us" tvg-name="US CBSN New York (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="USA ",US CBSN New York (D)
+#EXTINF:-1 tvg-id="WCBS" tvg-name="US CBSN New York (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="USA ",US CBSN New York (D)
 http://fortv.cc:8080/7451515/621556/46754
 #EXTINF:-1 tvg-id="Fox Sports 1" tvg-name="US FOX Sports 1 " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_Sports_wordmark_logo%201.png?raw=true" group-title="USA ",US FOX Sports 1 
 http://fortv.cc:8080/7451515/621556/46792
@@ -279,51 +279,51 @@ http://fortv.cc:8080/7451515/621556/48323
 http://fortv.cc:8080/7451515/621556/20859
 #EXTINF:-1 tvg-id="buzzertv.us" tvg-name="US BUZZR (STV)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Buzzr_logo-color.png?raw=true" group-title="USA ",US BUZZR (STV)
 http://fortv.cc:8080/7451515/621556/21896
-#EXTINF:-1 tvg-id="cartoonnetwork.us" tvg-name="US Cartoon Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cartoon_Network_2010_logo%201.png?raw=true" group-title="USA ",US Cartoon Network 
+#EXTINF:-1 tvg-id="Cartoon Network (East)" tvg-name="US Cartoon Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cartoon_Network_2010_logo%201.png?raw=true" group-title="USA ",US Cartoon Network 
 http://fortv.cc:8080/7451515/621556/46708
-#EXTINF:-1 tvg-id="" tvg-name="US CBS News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="USA ",US CBS News 
+#EXTINF:-1 tvg-id="WCBS" tvg-name="US CBS News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="USA ",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
-#EXTINF:-1 tvg-id="cmt.us" tvg-name="USA: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title="USA ",USA: CMT HD
+#EXTINF:-1 tvg-id="CMT (East)" tvg-name="USA: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title="USA ",USA: CMT HD
 http://fortv.cc:8080/7451515/621556/57258
-#EXTINF:-1 tvg-id="cnbc.us" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="USA ",US CNBC 
+#EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="USA ",US CNBC 
 http://fortv.cc:8080/7451515/621556/9815
-#EXTINF:-1 tvg-id="cnbcworld.us" tvg-name="US CNBC World" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_World%201.png?raw=true" group-title="USA ",US CNBC World
+#EXTINF:-1 tvg-id="Consumer News and Business Channel World HDTV" tvg-name="US CNBC World" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_World%201.png?raw=true" group-title="USA ",US CNBC World
 http://fortv.cc:8080/7451515/621556/20860
 #EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA: CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="CANADA",CA: CNN 
 http://fortv.cc:8080/7451515/621556/57398
 "#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="CANADA",CA CNN 
 http://fortv.cc:8080/7451515/621556/47213"
-#EXTINF:-1 tvg-id="comedycentral.us" tvg-name="US Comedy Central (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comedy_Central_2018%201.png?raw=true" group-title="USA ",US Comedy Central (East) 
+#EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="US Comedy Central (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comedy_Central_2018%201.png?raw=true" group-title="USA ",US Comedy Central (East) 
 http://fortv.cc:8080/7451515/621556/7466
-#EXTINF:-1 tvg-id="comet.us" tvg-name="US Comet (S)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comet_logo.png?raw=true" group-title="USA ",US Comet (S)
+#EXTINF:-1 tvg-id="WJARDT3.us" tvg-name="US Comet (S)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comet_logo.png?raw=true" group-title="USA ",US Comet (S)
 http://fortv.cc:8080/7451515/621556/66244
-#EXTINF:-1 tvg-id="cookingchannel.us" tvg-name="US Cooking Channel " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cooking_Channel%201.png?raw=true" group-title="USA ",US Cooking Channel 
+#EXTINF:-1 tvg-id="The Cooking Channel" tvg-name="US Cooking Channel " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cooking_Channel%201.png?raw=true" group-title="USA ",US Cooking Channel 
 http://fortv.cc:8080/7451515/621556/9229
 #EXTINF:-1 tvg-id="cozinetwork.us" tvg-name="US Cozi (H)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cozi_TV_logo%201.png?raw=true" group-title="USA ",US Cozi (H)
 http://fortv.cc:8080/7451515/621556/11868
 #EXTINF:-1 tvg-id="decadeswvah.us" tvg-name="US Decades " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Decades_Logo%201.png?raw=true" group-title="USA ",US Decades 
 http://fortv.cc:8080/7451515/621556/20189
-#EXTINF:-1 tvg-id="destinationamerica.us" tvg-name="US Destination America (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Destination_America_logo%201.png?raw=true" group-title="USA ",US Destination America (A)
+#EXTINF:-1 tvg-id="Destination America.us" tvg-name="US Destination America (A)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Destination_America_logo%201.png?raw=true" group-title="USA ",US Destination America (A)
 http://fortv.cc:8080/7451515/621556/14222
-"#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel (East)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="USA ",US Discovery Channel (East)
+"#EXTINF:-1 tvg-id="Discovery Channel.us" tvg-name="US Discovery Channel (East)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="USA ",US Discovery Channel (East)
 http://fortv.cc:8080/7451515/621556/46720"
-#EXTINF:-1 tvg-id="discoverychannel.us" tvg-name="US Discovery Channel East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="USA ",US Discovery Channel East 
+#EXTINF:-1 tvg-id="Discovery Channel.us" tvg-name="US Discovery Channel East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="USA ",US Discovery Channel East 
 http://fortv.cc:8080/7451515/621556/9811
 #EXTINF:-1 tvg-id="Discovery Family Channel SDTV" tvg-name="USA: DISCOVERY FAMILY" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Family_Jr._logo%201.png?raw=true" group-title="USA ",USA: DISCOVERY FAMILY
 http://fortv.cc:8080/7451515/621556/10538
 #EXTINF:-1 tvg-id="I261.16125.zap2it.com" tvg-name="USA: Discovery Life HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/discovery-life.png?raw=true" group-title="USA ",USA: Discovery Life HD
 http://fortv.cc:8080/7451515/621556/9861
-#EXTINF:-1 tvg-id="discoveryvelocity.us" tvg-name="CA Discovery Velocity HD " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/velocity-seeklogo%201.png?raw=true" group-title="USA ",CA Discovery Velocity HD 
+#EXTINF:-1 tvg-id="Motor Trend HDTV" tvg-name="CA Discovery Velocity HD " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/velocity-seeklogo%201.png?raw=true" group-title="USA ",CA Discovery Velocity HD 
 http://fortv.cc:8080/7451515/621556/46212
-#EXTINF:-1 tvg-id="magnolianetwork.us" tvg-name="US DIY Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/DIY_Network_logo%201.png?raw=true" group-title="USA ",US DIY Network 
+#EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="US DIY Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/DIY_Network_logo%201.png?raw=true" group-title="USA ",US DIY Network 
 http://fortv.cc:8080/7451515/621556/10503
 #EXTINF:-1 tvg-id="dogtv.us" tvg-name="USA: DOGTV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dog-tv%201.png?raw=true" group-title="USA ",USA: DOGTV
 http://fortv.cc:8080/7451515/621556/53539
-#EXTINF:-1 tvg-id="eentertainment.us" tvg-name="US E! Entertainment Television East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title="USA ",US E! Entertainment Television East 
+#EXTINF:-1 tvg-id="E!.us" tvg-name="US E! Entertainment Television East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title="USA ",US E! Entertainment Television East 
 http://fortv.cc:8080/7451515/621556/11651
-#EXTINF:-1 tvg-id="I288.91989.schedulesdirect.org" tvg-name="USA: Food Network HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FramFood_Network_logo.png?raw=true" group-title="USA ",USA: Food Network HD
+#EXTINF:-1 tvg-id="Food Network.us" tvg-name="USA: Food Network HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FramFood_Network_logo.png?raw=true" group-title="USA ",USA: Food Network HD
 http://fortv.cc:8080/7451515/621556/7323
-#EXTINF:-1 tvg-id="foxbusiness.us" tvg-name="US Fox Business Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FBN-Prime-1%201.png?raw=true" group-title="USA ",US Fox Business Network
+#EXTINF:-1 tvg-id="Fox Business.us" tvg-name="US Fox Business Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FBN-Prime-1%201.png?raw=true" group-title="USA ",US Fox Business Network
 http://fortv.cc:8080/7451515/621556/17639
 #EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="USA ",US Fox News  
 http://fortv.cc:8080/7451515/621556/1818
