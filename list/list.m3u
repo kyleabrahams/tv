@@ -73,10 +73,12 @@ http://fortv.cc:8080/7451515/621556/57284
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29733
 #EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""CA: MUCH MUSIC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Much_-_2013_logo%201.png?raw=true" group-title=""CANADA"",CA: MUCH MUSIC
 http://fortv.cc:8080/7451515/621556/215268
-#EXTINF:-1 tvg-id="TSN4 HD.ca" tvg-name="CA TSN 4" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSN4%201.png?raw=true" group-title="CANADA",CA TSN 4
+#EXTINF:-1 tvg-id="TSN4 HD.ca" tvg-name="CA TSN 4" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSN4%201.png?raw=true" group-title="CANADA",CA: TSN 4
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3001
-#EXTINF:-1 tvg-id="I265.10035.zap2it.com" tvg-name=""CA: A&E"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/A&E_Network_logo%201.png?raw=true" group-title=""CANADA"",CA: A&E
-http://fortv.cc:8080/7451515/621556/57476
+"#EXTINF:-1 tvg-id="I265.10035.zap2it.com" tvg-name=""CA: A&E"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/A&E_Network_logo%201.png?raw=true" group-title=""CANADA"",CA: A&E
+http://fortv.cc:8080/7451515/621556/57476"
+#EXTINF:-1 tvg-id="AandE Canada HD.ca" tvg-name="CA: A&E" tvg-logo="http://srv00.epimg.net/programacion-tv/iconos/canales/biogra.png" group-title="CANADA ENT",CA: A&E
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418411
 #EXTINF:-1 tvg-id="AMC - Canada HD.ca" tvg-name=""CA: AMC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Amc_logo%201.png?raw=true" group-title=""CANADA"",CA: AMC
 http://fortv.cc:8080/7451515/621556/57376
 #EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name=""CA: CNN "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CA: CNN 
