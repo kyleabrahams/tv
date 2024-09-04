@@ -33,6 +33,8 @@ http://fortv.cc:8080/7451515/621556/57309
 http://fortv.cc:8080/7451515/621556/57291
 #EXTINF:-1 tvg-id="OMNI.2.ca" tvg-name=""CA: OMNI 2"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Omni_TV_2018%201.png?raw=true" group-title=""CANADA"",CA: OMNI 2
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
+"#EXTINF:-1 tvg-id="cottagelife.ca" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title=""CANADA"",CA Cottage Life HD (B)
+http://fortv.cc:8080/7451515/621556/47217"
 #EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title=""CANADA"",CA: FX HD
 http://fortv.cc:8080/7451515/621556/57268
 "#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name=""US CBS News 24/7"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_247_stacked.png?raw=true" group-title="News",US CBS News 24/7
@@ -41,7 +43,7 @@ http://fortv.cc:8080/7451515/621556/21259"
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423710
 "#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""USA: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="News",USA: NBC
 http://fortv.cc:8080/7451515/621556/46687"
-#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC (E)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_logo%201.png?raw=true" group-title="CANADA ENT",CA: NBC (E)
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_logo%201.png?raw=true" group-title="CANADA ENT",CA: NBC 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423731
 "#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name=""US ABC News Live HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_News_solid_white-hor.png?raw=true" group-title="News" | NEWS | REGIONALS "",US ABC News Live HD 
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
@@ -67,7 +69,7 @@ http://fortv.cc:8080/7451515/621556/63850
 http://fortv.cc:8080/7451515/621556/57304
 #EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""CA W Network East (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/W_Network_Logo%201.png?raw=true" group-title=""CANADA"",CA W Network East (E)
 http://fortv.cc:8080/7451515/621556/57284
-#EXTINF:-1,tvg-id="FOX (WFFF) Burlington, VT HD.ca" tvg-name=""CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FOX_wordmark%201.png?raw=true" group-title=""CANADA"",CA FOX
+#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FOX_wordmark%201.png?raw=true" group-title=""CANADA"",CA FOX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29733
 #EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""CA: MUCH MUSIC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Much_-_2013_logo%201.png?raw=true" group-title=""CANADA"",CA: MUCH MUSIC
 http://fortv.cc:8080/7451515/621556/215268
