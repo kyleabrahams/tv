@@ -96,11 +96,11 @@ http://fortv.cc:8080/7451515/621556/57398
 http://fortv.cc:8080/7451515/621556/57290
 #EXTINF:-1 tvg-id="I192.65342.zap2it.com" tvg-name=""CA Investigation Discovery HD (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title=""CANADA"",Investigation Discovery SD
 http://fortv.cc:8080/7451515/621556/57442
-#EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name=""CA CTV LIFE (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Life_Channel_2019%201.png?raw=true" group-title=""CANADA"",CTV LIFE 
+#EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name="CA CTV LIFE" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Life_Channel_2019%201.png?raw=true" group-title=""CANADA"",CTV LIFE 
 http://fortv.cc:8080/7451515/621556/116506
 #EXTINF:-1 tvg-id="Outdoor Life Network Canada HD.ca" tvg-name="CA Bravo" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title=""CANADA"",Bravo SD
 http://fortv.cc:8080/7451515/621556/57366
-#EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name=""CA CMT"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title=""CANADA"",CMT FHD
+#EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name=""CA CMT"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT.png?raw=true" group-title=""CANADA"",CMT FHD
 http://fortv.cc:8080/7451515/621556/10476
 #EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name=""CA: Showcase HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Showcase_logo%202.png?raw=true" group-title=""CANADA"",Showcase SD
 http://fortv.cc:8080/7451515/621556/47366
@@ -285,7 +285,7 @@ http://fortv.cc:8080/7451515/621556/21896
 http://fortv.cc:8080/7451515/621556/46708
 #EXTINF:-1 tvg-id="WCBS" tvg-name="US CBS News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="US ",US CBS News 
 http://fortv.cc:8080/7451515/621556/21259
-#EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="US: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT_logo%201%20(1).png?raw=true" group-title="US ",US: CMT HD
+#EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="US: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT.png?raw=true" group-title="US ",US: CMT HD
 http://fortv.cc:8080/7451515/621556/57258
 #EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="US ",US CNBC 
 http://fortv.cc:8080/7451515/621556/9815
@@ -415,8 +415,8 @@ http://fortv.cc:8080/7451515/621556/46698
 http://fortv.cc:8080/7451515/621556/46695"
 #EXTINF:-1 tvg-id="oxygen.us" tvg-name="US Oxygen (East)   " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/oxygen-true-crime%201.png?raw=true" group-title="US ",US Oxygen    
 http://fortv.cc:8080/7451515/621556/9245
-#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Paramount_Network%201.png?raw=true" group-title="US ",US Paramount  
-http://fortv.cc:8080/7451515/621556/16201
+"#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Paramount_Network%201.png?raw=true" group-title="US ",US Paramount  
+http://fortv.cc:8080/7451515/621556/16201"
 "#EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Paramount_Network%201.png?raw=true" group-title="US ",US Paramount  
 http://fortv.cc:8080/7451515/621556/46694"
 #EXTINF:-1 tvg-id="paramountnetwork.us" tvg-name="US Paramount TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Paramount_Network%201.png?raw=true" group-title="US ",US Paramount 
