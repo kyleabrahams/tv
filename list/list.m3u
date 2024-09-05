@@ -814,7 +814,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca525b650be2571e3943c63/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263253-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b52c759c-a26c-4e65-828b-14277d6117e0
 #EXTINF:-1 tvg-id="90sThrowback.us" tvg-logo="https://i.imgur.com/KoGko6M.png" group-title="Movies",90s Throwback
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d86f519358a00072b978e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c265961-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f86833-3dd6-41ac-a9b8-4a4ec8873306
-#EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://i.imgur.com/TOB9vmW.png" group-title="Comedy",AFV (720p)
+#EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://i.imgur.com/TOB9vmW.png" group-title="Comedy",AFV
 https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="Undefined",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
