@@ -676,7 +676,7 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,S
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TMZ.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Fox Soul
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Fox-Soul-SCTE.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Tubi Originals
+#EXTINF:-1 tvg-country="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Tubi_logo_2024.svg/800px-Tubi_logo_2024.png" group-title="Undefined",Tubi Originals
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Tubi-Originals.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",The Masked Singer
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Masked-Singer.m3u8
