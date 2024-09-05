@@ -12,7 +12,7 @@ https://www.bevy.be/bevyfiles/unitedstatespremium5.xml.gz	US
 https://www.bevy.be/bevyfiles/unitedstatespremium6.xml.gz	US																								
 https://www.bevy.be/bevyfiles/unitedstatespremium7.xml.gz	US"																									   
 
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/48/41/4a48416e-4525-43b8-6a56-b7905c2b26b5/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/492x0w.webp" group-title="News",CP24 News
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
@@ -122,7 +122,7 @@ http://fortv.cc:8080/7451515/621556/57273
 http://fortv.cc:8080/7451515/621556/47324
 #EXTINF:-1 tvg-id="Turner Classic Movies Canada HD.ca" tvg-name=""CA Turner Classic Movies"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TCM_2021%201.png?raw=true" group-title=""CANADA"",Turner Classic Movies
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/509140
-#EXTINF:-1 tvg-id="CTV SCI-FI Channel SD" tvg-name=""CA: Discovery Science"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Science%201.png?raw=true" group-title=""CANADA"",Discovery Science
+#EXTINF:-1 tvg-id="CTV SCI-FI Channel SD" tvg-name=""CA: Discovery Science"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/SCI-network-logo-192x192-v2.png" group-title=""CANADA"",Discovery Science
 http://fortv.cc:8080/7451515/621556/57418
 #EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""CA CTV SCI-FI "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Sci-Fi_Channel_2019%201.png?raw=true" group-title=""CANADA"",CTV SCI-FI 
 http://fortv.cc:8080/7451515/621556/57464
@@ -664,15 +664,15 @@ https://5b0f5374bdf0c.streamlock.net:444/LiveTV/NOTVHD/playlist.m3u8?checkedby:i
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="QwestTV" tvg-logo="" group-title="Undefined",QwestTV
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://i.imgur.com/FVWqYQG.png" group-title="Family",Dove Channel
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://support.dovechannel.com/hc/theming_assets/01HZPNGA88FFAFCA2C2GVDTNS9" group-title="Family",Dove Channel
 https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Dove Channel
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://support.dovechannel.com/hc/theming_assets/01HZPNGA88FFAFCA2C2GVDTNS9" group-title="",Dove Channel
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/index.m3u8?ads.xumo_channelId=99991333"
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Cheddar News
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Cheddar.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Scripps News
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Scripps-News.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",TMZ
+#EXTINF:-1 tvg-country="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/TMZ_Logo.svg/320px-TMZ_Logo.png" group-title="Undefined",TMZ
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TMZ.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Fox Soul
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Fox-Soul-SCTE.m3u8
