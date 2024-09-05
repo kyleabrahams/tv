@@ -188,11 +188,11 @@ http://fortv.cc:8080/7451515/621556/57362
 http://fortv.cc:8080/7451515/621556/9815
 #EXTINF:-1 tvg-id="I202.10145.zap2it.com" tvg-name=""CA: HLN"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HLNLogo2023%201.png?raw=true" group-title=""CANADA"",CA: HLN SD
 http://fortv.cc:8080/7451515/621556/57441
-#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Lifetime_2020%201.png?raw=true" group-title=""US "",US Lifetime 
+#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Lifetime_2020.svg" group-title=""US "",US Lifetime 
 http://fortv.cc:8080/7451515/621556/46714
 #EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name=""CA Adult Swim "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Adult_Swim_2003_logo%201.png?raw=true" group-title=""CANADA "",Adult Swim SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30173
-#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca" tvg-name=""CA Lifetime "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Lifetime_2020%201.png?raw=true" group-title=""CANADA"",Lifetime 
+#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca" tvg-name=""CA Lifetime "" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Lifetime_2020.svg" group-title=""CANADA"",Lifetime 
 http://fortv.cc:8080/7451515/621556/57271
 #EXTINF:-1 tvg-id="Paramount Network (East)" tvg-name=""US Paramount TV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Paramount_Network%201.png?raw=true" group-title=""US "",US Paramount FHD
 http://fortv.cc:8080/7451515/621556/10464
@@ -202,7 +202,7 @@ http://fortv.cc:8080/7451515/621556/47338
 http://fortv.cc:8080/7451515/621556/47331
 #EXTINF:-1 tvg-id=""smithsonian.ca"" tvg-name=""CA Smithsonian Channel (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Smithsonian-stacked.png?raw=true" group-title=""CANADA"",Smithsonian Channel SD
 http://fortv.cc:8080/7451515/621556/47369
-#EXTINF:-1 tvg-id="USA Network HDTV (East)" tvg-name=""US US Network (East)  "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/USA_Network_logo_(2016)%201.png?raw=true" group-title="CANADA",US Network FHD  
+#EXTINF:-1 tvg-id="USA Network HDTV (East)" tvg-name=""US USA Network (East)  "" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/1280px-USA_Network_logo_%282016%29.svg.png" group-title="CANADA",USA Network FHD  
 http://fortv.cc:8080/7451515/621556/10252
 #EXTINF:-1 tvg-id="Magnolia Network Canada.ca" tvg-name="CA Magonlia Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Magnolia_Network_(Stacked).png?raw=true" group-title="CANADA",Magonlia Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60115
@@ -377,9 +377,9 @@ http://fortv.cc:8080/7451515/621556/46810
 http://fortv.cc:8080/7451515/621556/9297
 #EXTINF:-1 tvg-id="WPXUDT4.us" tvg-name="US Laff (KNVA)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Laff_logo%201.png?raw=true" group-title="US ",US Laff (KNVA)
 http://fortv.cc:8080/7451515/621556/17777
-#EXTINF:-1 tvg-id="I252.10918.zap2it.com" tvg-name="US Lifetime" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Lifetime_2020%201.png?raw=true" group-title="US ",US Lifetime
+#EXTINF:-1 tvg-id="I252.10918.zap2it.com" tvg-name="US Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Lifetime_2020.svg" group-title="US ",US Lifetime
 http://fortv.cc:8080/7451515/621556/9275
-#EXTINF:-1 tvg-id="I253.55887.zap2it.com" tvg-name="US Lifetime Movie" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/LifetimeMovieNetwork_logo_2019%201.png?raw=true" group-title="US ",US Lifetime Movie Network
+#EXTINF:-1 tvg-id="I253.55887.zap2it.com" tvg-name="US Lifetime Movie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/Logo_Lifetime_2020.svg" group-title="US ",US Lifetime Movie Network
 http://fortv.cc:8080/7451515/621556/2208
 #EXTINF:-1 tvg-id="Logo.us" tvg-name="US: LOGO TV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Logo_TV_2015.svg%201.png?raw=true" group-title="US ",US: LOGO TV
 http://fortv.cc:8080/7451515/621556/20862
