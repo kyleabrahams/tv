@@ -64,13 +64,13 @@ http://fortv.cc:8080/7451515/621556/57370
 http://fortv.cc:8080/7451515/621556/58546
 #EXTINF:-1 tvg-id="I409.68858.zap2it.com" tvg-name="CA Sportsnet One (HD) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn1%201.png?raw=true" group-title="CANADA",Sportsnet One FHD 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418538
-#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="CA Sportsnet East HD (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sno%201.png?raw=true" group-title="CANADA",Sportsnet East (F)
+#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="CA Sportsnet East (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sno%201.png?raw=true" group-title="CANADA",Sportsnet East (F)
 http://fortv.cc:8080/7451515/621556/57298
 #EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/the-weather-network-logo-vector%201.png?raw=true" group-title=""CANADA"",Weather Network Toronto FHD
 https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
 "#EXTINF:-1,The Weather Network (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8"
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News HD (D)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News (D)
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
 http://fortv.cc:8080/7451515/621556/57357
 #EXTINF:-1 tvg-id="YTV (Youth Television) - East.ca" tvg-name=""CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title=""KIDS ZONE"",YTV East SD
 http://fortv.cc:8080/7451515/621556/63850
@@ -126,7 +126,7 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/509140
 http://fortv.cc:8080/7451515/621556/57418
 #EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""CA CTV SCI-FI "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Sci-Fi_Channel_2019%201.png?raw=true" group-title=""CANADA"",CTV SCI-FI 
 http://fortv.cc:8080/7451515/621556/57464
-#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="" group-title=""KIDS ZONE"",Family Channel SD
+#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Family_Channel_Logo%201.png?raw=true" group-title=""KIDS ZONE"",Family Channel SD
 http://vo01.mohdtv.com:8880/voby4159/55452/3040
 #EXTINF:-1 tvg-id="MTV Canada HD.ca" tvg-name=""CA: MTV"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MTV_2021_(brand_version)%201.png?raw=true" group-title=""CANADA"",MTV SD
 http://fortv.cc:8080/7451515/621556/57446
