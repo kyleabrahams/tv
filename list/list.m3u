@@ -1,4 +1,4 @@
-#EXTM3U "US  Aug 29 2024 340p (tv_channels_7451515_plus.m3u) https://raw.githubusercontent.com/kyleabrahams/tv/main/list/list.m3u  
+#EXTM3U "US  Sep 7 2024 340p (iptvtree, allChan, art, .m3u) https://raw.githubusercontent.com/kyleabrahams/tv/main/list/list.m3u  
 EPG:
 https://www.bevy.be/bevyfiles/canadapremium.xml.gz																									
 https://www.bevy.be/bevyfiles/canadapremium2.xml.gz																									
@@ -238,7 +238,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/477
 "102 Channel" 
 
-"US  Aug 21 2024 (tv_channels_7451515_plus.m3u)"
+"US  Aug 21 2024 (iptvtree, allChan, art, .m3u)"
 #EXTINF:-1 tvg-id="WCBS" tvg-name="US CBSN New York " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_stacked.png?raw=true" group-title="News",US CBSN New York
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3150
 #EXTINF:-1 tvg-id="Fox Sports 1" tvg-name="US FOX Sports 1 " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_Sports_wordmark_logo%201.png?raw=true" group-title="",US FOX Sports 1 
@@ -286,17 +286,19 @@ http://fortv.cc:8080/7451515/621556/21896
 #EXTINF:-1 tvg-id="Cartoon Network (East)" tvg-name="US Cartoon Network " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cartoon_Network_2010_logo%201.png?raw=true" group-title="",US Cartoon Network 
 http://fortv.cc:8080/7451515/621556/46708
 #EXTINF:-1 tvg-id="WCBS" tvg-name="US CBS News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_logo_(2020)%201.png?raw=true" group-title="News",US CBS News 
-http://fortv.cc:8080/7451515/621556/21259
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/295364
 #EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="US: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT.png?raw=true" group-title="",US: CMT HD
 http://fortv.cc:8080/7451515/621556/57258
 #EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="News",US CNBC 
-http://fortv.cc:8080/7451515/621556/9815
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2295
 #EXTINF:-1 tvg-id="Consumer News and Business Channel World HDTV" tvg-name="US CNBC World" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_World%201.png?raw=true" group-title="News",US CNBC World
-http://fortv.cc:8080/7451515/621556/20860
-#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA: CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CA: CNN 
-http://fortv.cc:8080/7451515/621556/57398
-"#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CA CNN 
-http://fortv.cc:8080/7451515/621556/47213"
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/6431
+#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="US CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",US CNN 
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/480
+#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CA CNN 
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418118
+#EXTINF:-1 tvg-id="I202.58646.zap2it.com" tvg-name="CA CNN " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CA CNN 
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3056
 #EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="US Comedy Central (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comedy_Central_2018%201.png?raw=true" group-title="",US Comedy Central  
 http://fortv.cc:8080/7451515/621556/7466
 #EXTINF:-1 tvg-id="WJARDT3.us" tvg-name="US Comet (S)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comet_logo.png?raw=true" group-title="",US Comet
@@ -329,8 +331,12 @@ http://fortv.cc:8080/7451515/621556/11651
 http://fortv.cc:8080/7451515/621556/7323
 #EXTINF:-1 tvg-id="Fox Business Network HDTV" tvg-name="US Fox Business Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FBN-Prime-1%201.png?raw=true" group-title="",US Fox Business Network
 http://fortv.cc:8080/7451515/621556/17639
+#EXTINF:-1 tvg-id="Fox News.us" tvg-name="CA Fox News  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="News",CA Fox News  
+http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30181
 #EXTINF:-1 tvg-id="Fox News.us" tvg-name="US Fox News  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="News",US Fox News  
-http://fortv.cc:8080/7451515/621556/1818
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/1611
+#EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="News",US Fox News 
+http://fortv.cc:8080/7451515/621556/135794
 #EXTINF:-1 tvg-id="Freeform (East)" tvg-name="US Freeform East" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Freeform_2022%201.png?raw=true" group-title="",US Freeform 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417886
 #EXTINF:-1 tvg-id="Fuse.us" tvg-name="US Fuse " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fuse_Black_Logo_2017%201.png?raw=true" group-title="",US Fuse 
@@ -404,7 +410,7 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/509193
 #EXTINF:-1 tvg-id="nickjr.us" tvg-name="US Nick JR East  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/nick-jr1.png?raw=true" group-title="",US Nick JR   
 http://fortv.cc:8080/7451515/621556/9807
 #EXTINF:-1 tvg-id="oneamericanews.us" tvg-name="US One America News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/OAN%202.png?raw=true" group-title="News",US One America News
-http://fortv.cc:8080/7451515/621556/21752
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/196192
 #EXTINF:-1 tvg-id="outdoorchannel.us" tvg-name="US Outdoor Channel" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Outdoor_Channel_logo_2017%201.png?raw=true" group-title="",US Outdoor Channel
 http://fortv.cc:8080/7451515/621556/9244
 #EXTINF:-1 tvg-id="outsidetv.us" tvg-name="US: OUTSIDE TV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/outside-tv-logo-vector%201.png?raw=true" group-title="",US: Outside TV
@@ -509,8 +515,7 @@ http://fortv.cc:8080/7451515/621556/122527
 http://fortv.cc:8080/7451515/621556/125831
 #EXTINF:-1 tvg-id="militaryhistory.us" tvg-name="US (FD) Military History " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/military-history.png?raw=true" group-title="",US Military History 
 http://fortv.cc:8080/7451515/621556/134832
-#EXTINF:-1 tvg-id="foxnews.us" tvg-name="US Fox News " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fox_News_Channel_logo%201.png?raw=true" group-title="News",US Fox News 
-http://fortv.cc:8080/7451515/621556/135794
+
 #EXTINF:-1 tvg-id="" tvg-name="US: CSPAN FHD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cspan%201.png?raw=true" group-title="",US: CSPAN FHD
 http://fortv.cc:8080/7451515/621556/136589
 #EXTINF:-1 tvg-id="starttv.us" tvg-name="US Start TV " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Start_TV_dark_blue%201.png?raw=true" group-title="",US Start TV 
@@ -526,7 +531,7 @@ http://fortv.cc:8080/7451515/621556/160581
 #EXTINF:-1 tvg-id="" tvg-name="US Al Jazeera" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Aljazeera_English%201.png?raw=true" group-title="",US Al Jazeera
 http://fortv.cc:8080/7451515/621556/160711
 #EXTINF:-1 tvg-id="newsnation.us" tvg-name="US NewsNation " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/news-nation.png?raw=true" group-title="News",US NewsNation 
-http://fortv.cc:8080/7451515/621556/161450
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/6296
 #EXTINF:-1 tvg-id="fetv.us" tvg-name="US Family Entertainment Television " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/fetv%201.png?raw=true" group-title="",US Family Entertainment TV 
 http://fortv.cc:8080/7451515/621556/172481
 #EXTINF:-1 tvg-id="" tvg-name="US The Grio " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/The_Grio.svg%201.png?raw=true" group-title="",US The Grio
@@ -710,8 +715,6 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,C
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful-Canada.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="",Dazn TV (Canada)
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="News",Cheddar News
-https://cheddar-cheddar-3-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="",Yahoo Finance
 https://yahoo-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="",The Walking Dead Universe
