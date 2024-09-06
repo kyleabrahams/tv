@@ -423,7 +423,7 @@ http://fortv.cc:8080/7451515/621556/46694"
 http://fortv.cc:8080/7451515/621556/10464
 #EXTINF:-1 tvg-id="pixltv.us" tvg-name="US PixL (S)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Pixl%201.png?raw=true" group-title="US ",US PixL
 http://fortv.cc:8080/7451515/621556/21648
-#EXTINF:-1 tvg-id="pursuitchannel.us" tvg-name="US Pursuit UP" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/pursuit-Logo%201.png?raw=true" group-title="US ",US Pursuit
+#EXTINF:-1 tvg-id="pursuitchannel.us" tvg-name="US Pursuit UP" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/pursuit-Logo%201.png?raw=true" group-title="US ",US Pursuit *down
 http://fortv.cc:8080/7451515/621556/22888
 #EXTINF:-1 tvg-id="reelzchannel.us" tvg-name="US Reelz " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/reelz_logo-fd3325243b.png?raw=true" group-title="US ",US Reelz 
 http://fortv.cc:8080/7451515/621556/10526
@@ -453,7 +453,7 @@ http://fortv.cc:8080/7451515/621556/46728
 http://fortv.cc:8080/7451515/621556/18926
 "#EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC (East)  " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/tlc-logo-1%201.png?raw=true" group-title="US ",US TLC   
 http://fortv.cc:8080/7451515/621556/46691"
-#EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/tlc-logo-1%201.png?raw=true" group-title="US ",US TLC  
+"#EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/tlc-logo-1%201.png?raw=true" group-title="US ",US TLC  
 http://fortv.cc:8080/7451515/621556/12734"
 #EXTINF:-1 tvg-id="tlc.us" tvg-name="US TLC (east) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/tlc-logo-1%201.png?raw=true" group-title="US ",US TLC  
 http://fortv.cc:8080/7451515/621556/47703
@@ -470,7 +470,7 @@ http://fortv.cc:8080/7451515/621556/66242
 #EXTINF:-1 tvg-id="tvlandeast.us" tvg-name="US TV Land " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TV_Land_2015_logo%201.png?raw=true" group-title="US ",US TV Land 
 http://fortv.cc:8080/7451515/621556/46696
 #EXTINF:-1 tvg-id="tvlandeast.us" tvg-name="US: TV Land Classic HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TV_Land_2015_logo%201.png?raw=true" group-title="US ",US: TV Land Classic HD
-http://fortv.cc:8080/7451515/621556/9271"
+http://fortv.cc:8080/7451515/621556/9271
 #EXTINF:-1 tvg-id="tvone.us" tvg-name="US TV One " tvg-logo="https://www.google.com/url?sa=i&url=https%3A%2F%2Fvectorwiki.com%2Flogo%2Ftv-one&psig=AOvVaw0Dccp4T1i5uhomeVNVG343&ust=1725649226759000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjqts66vqyIAxWJB2IAHR4MLegQjRx6BAgAEBg" group-title="US ",US TV One 
 http://fortv.cc:8080/7451515/621556/20868
 "#EXTINF:-1 tvg-id="univision23wltv.us" tvg-name="US Univision (East) (SP)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Univision_logo%201.png?raw=true" group-title="US ",US Univision (SP)
@@ -485,7 +485,7 @@ http://fortv.cc:8080/7451515/621556/10252
 http://fortv.cc:8080/7451515/621556/46705"
 #EXTINF:-1 tvg-id="vh1.us" tvg-name="US VH1 " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/VH1_logonew%201.png?raw=true" group-title="US ",US VH1 
 http://fortv.cc:8080/7451515/621556/7404
-#EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white.png?raw=true" group-title="US ",US Viceland
+#EXTINF:-1 tvg-id="vice.us" tvg-name="US VICELAND " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/vice-logo-white.png?raw=true" group-title="US ",US Vice
 http://fortv.cc:8080/7451515/621556/46697
 #EXTINF:-1 tvg-id="vsin.us" tvg-name="US VSiN (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/VSiN_Logo%201.png?raw=true" group-title="Sports Fanatic's ",US VSiN (F)
 http://fortv.cc:8080/7451515/621556/18941
@@ -772,7 +772,7 @@ https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_
 https://dbrb49pjoymg4.cloudfront.net/10001/9999614/hls/playlist.m3u8?ads.xumo_channelId=9999614
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Funny or Die
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991187
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Are We There Yet?
+#EXTINF:-1 tvg-country="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Are_We_There_Yet_logo.png" group-title="Undefined",Are We There Yet?
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991667
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Just for Laughs TV tvg-logo="https://github.com/kyleabrahams/tv/blob/main/just-for-laughs%201.png?raw=true"
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
@@ -796,17 +796,17 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991310
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",PBS Digital Studios
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991160
-#EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Wired
+#EXTINF:-1 tvg-country="" tvg-logo="https://autonomy.work/wp-content/uploads/2020/09/wired-logo.jpg" group-title="Undefined",Wired
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991135
 #EXTINF:-1 tvg-country="" tvg-logo="" group-title="Undefined",Vogue
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991138
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW English
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/DW_%28TV%29_Logo_2012.png" group-title="News",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",00s Replay
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ba60f059624e000781c436/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c25e430-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1b7de8e4-d114-4438-b098-6f7aee77b4be
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",4K Travel TV
+#EXTINF:-1 tvg-id="" tvg-logo="https://qqcdnpictest.mxplay.com/pic/3193.DistroTv.in/en/1x1/208x208/test_pic1690462555214.webp" group-title="Undefined",4K Travel TV
 https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",48 Hours
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.paramountshop.com/cdn/shop/files/48-hours-logo-journal-553544_1445x.jpg?v=1718288087" group-title="Undefined",48 Hours
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e925bc68d18a00077bb990/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c78ce00-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d510e704-124c-497f-89cb-732e27dd295a
 #EXTINF:-1 tvg-id="70sCinema.us" tvg-logo="https://i.imgur.com/mgXeEE4.png" group-title="Movies",70s Cinema
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d878d3d19b30007d2e782/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263252-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7c57f1f3-2078-4f92-a4b5-6cd444220a70
