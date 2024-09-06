@@ -835,15 +835,14 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="undefined",CP24 News 4
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/487565
 
-
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC 1
-http://fortv.cc:8080/7451515/621556/47332
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 2
-http://fortv.cc:8080/7451515/621556/21376
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 3
-http://fortv.cc:8080/7451515/621556/9296
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 4
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/406
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC 2
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC 3
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423799
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC 4
+http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
 
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="undefined",GLOBAL 1
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/465
