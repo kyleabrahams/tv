@@ -818,13 +818,101 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="Undefined",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
-
-
-"Aug 29 2024"
-
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ET" tvg-logo="" group-title="Undefined",ET
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 
+
+"Sep 6, 2024 other sources"
+
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57357  
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57357
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57401
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57345
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/47218
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57257
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/476
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://lunar.pm:8080/SFTV25/Ready1/67189
+
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC 
+http://fortv.cc:8080/7451515/621556/47332
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 
+http://fortv.cc:8080/7451515/621556/21376
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 
+http://fortv.cc:8080/7451515/621556/9296
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",US MSNBC 
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/406
+
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",GLOBAL 
+http://fortv.cc:8080/7451515/621556/57302
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",GLOBAL 
+http://fortv.cc:8080/7451515/621556/57435
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",GLOBAL 
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/465
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="CANADA",GLOBAL SD
+http://fortv.cc:8080/7451515/621556/57302
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57357  
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57357
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57401
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57345
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/47218
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://fortv.cc:8080/7451515/621556/57257
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/476
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="CANADA",CP24 News
+http://lunar.pm:8080/SFTV25/Ready1/67189
 
 
 
