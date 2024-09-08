@@ -1,15 +1,5 @@
 #EXTM3U
-x-tvg-url="https://www.bevy.be/bevyfiles/canadapremium.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/canadapremium2.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/canada.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium1.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium2.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium3.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium4.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium5.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium6.xml.gz",
-x-tvg-url="https://www.bevy.be/bevyfiles/unitedstatespremium7.xml.gz"																							   
+x-tvg-url="https://www.bevy.be/bevyfiles/combined.xml.gz"																				   
 
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/48/41/4a48416e-4525-43b8-6a56-b7905c2b26b5/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/492x0w.webp" group-title="News",CP24 News
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
