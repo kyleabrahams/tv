@@ -1,4 +1,4 @@
-#EXTM3U "US  Sep 7 2024 340p (iptvtree, allChan, art, .m3u) https://raw.githubusercontent.com/kyleabrahams/tv/main/list/list.m3u  
+#EXTM3U "US  Sep 9 2024
 EPG:
 https://www.bevy.be/bevyfiles/canadapremium.xml.gz																									
 https://www.bevy.be/bevyfiles/canadapremium2.xml.gz																									
@@ -12,139 +12,139 @@ https://www.bevy.be/bevyfiles/unitedstatespremium5.xml.gz	US
 https://www.bevy.be/bevyfiles/unitedstatespremium6.xml.gz	US																								
 https://www.bevy.be/bevyfiles/unitedstatespremium7.xml.gz	US"																									   
 
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4a/48/41/4a48416e-4525-43b8-6a56-b7905c2b26b5/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/492x0w.webp" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",CP24 News
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MSNBC_2021-stacked.png?raw=true" group-title="News",MSNBC FHD
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
-#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Global_Television_Network_Logo%201.png?raw=true" group-title="",GLOBAL SD
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/L9ZgC9m/global-tv.png" group-title="",GLOBAL SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418474
-"#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://raw.githubusercontent.com/kyleabrahams/tv/main/OMNI%201%20stack%201.png" group-title="",OMNI1 
+"#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://i.ibb.co/XFnjSfP/omni-1.png" group-title="",OMNI1 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/453"
-#EXTINF:-1 tvg-id="Jan0825 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="CA: OMNI 1" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/OMNI%201%20stack%201.png?raw=true" group-title="",OMNI 1
+#EXTINF:-1 tvg-id="Jan0825 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="CA: OMNI 1" tvg-logo="https://i.ibb.co/XFnjSfP/omni-1.png" group-title="",OMNI 1
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
-#EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name=""CA: Animal Planet"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/2018_Animal_Planet_logo.png?raw=true" group-title="",Animal Planet
+#EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name=""CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",Animal Planet
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/9259
-#EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON.ca" tvg-name="CA CBC Toronto " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC_logo%201.png?raw=true" group-title="",CBC Toronto 
+#EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON.ca" tvg-name="CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CBC Toronto 
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30213
-#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="",CITY TV 1
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",CITY TV 1
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/1727
-#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Citytv_logo%201.png?raw=true" group-title="",CITY TV 2
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""CA: CITY TV TORONTO HD"" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",CITY TV 2
 http://vo01.mohdtv.com:8880/voby4159/55452/3057
-#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="",CTV Toronto 1
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 1
 http://vo01.mohdtv.com:8880/voby4159/55452/30196
-#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="",CTV Toronto 2
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 2
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/298187
-#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="",CTV Toronto 3
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 3
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418453
-#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_logo_2018%201.png?raw=true" group-title="",CTV Toronto 4
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 4
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30196
-#EXTINF:-1 tvg-id="Jan0825 Yes TV (CITS) Burlington, ON.ca" tvg-name=""CA YES TV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/YesTV_Canada%201.png?raw=true" group-title="",YES TV 
+#EXTINF:-1 tvg-id="Jan0825 Yes TV (CITS) Burlington, ON.ca" tvg-name=""CA YES TV "" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",YES TV 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57472
-#EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title="",Bravo FHD
+#EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo FHD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2282
-#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CHCH2010%201.png?raw=true" group-title="",CHCH
+#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="",CHCH
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418551
-#EXTINF:-1 tvg-id="Crave1 - East HD.ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Crave_2018_logo%201.png?raw=true" group-title="",CRAVE 1
+#EXTINF:-1 tvg-id="Crave1 - East HD.ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://i.ibb.co/4JWV4zf/Crave-2018-logo-1.png" group-title="",CRAVE 1
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13244
-#EXTINF:-1 tvg-id="TFO - Chaine Francaise.ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TFO_2020_Logo%201.png?raw=true" group-title="",TFO (FR) SD
+#EXTINF:-1 tvg-id="TFO - Chaine Francaise.ca" tvg-name=""CA: TFO  (FR)"" tvg-logo="https://i.ibb.co/C29RT07/TFO-2020-Logo-1.png" group-title="",TFO (FR) SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30147
-#EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON HD.ca" tvg-name=""CA: OMNI 2"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/OMNI%202%20stack.png?raw=true" group-title="",OMNI 2 SD
+#EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON HD.ca" tvg-name=""CA: OMNI 2"" tvg-logo="https://i.ibb.co/6nMpTJr/OMNI-2-stack.png" group-title="",OMNI 2 SD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
-"#EXTINF:-1 tvg-id="cottagelife.ca" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cottage_Life_Logo%201.png?raw=true" group-title="",Cottage Life
+"#EXTINF:-1 tvg-id="cottagelife.ca" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/477"
-#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title="",FX 
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="CA: FX HD"" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418470
-"#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name=""US CBS News 24/7"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBS_News_247_stacked.png?raw=true" group-title="News",*CBS News 24/7
+"#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name=""US CBS News 24/7"" tvg-logo="https://i.ibb.co/yYQpvk0/CBS-News-247-stacked.png" group-title="News",*CBS News 24/7
 http://fortv.cc:8080/7451515/621556/21259"
 #EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="CA: CBS" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",CBS SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423710
-"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""US: NBC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_News_(2023)%201.png?raw=true" group-title="",*NBC
+"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""US: NBC"" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",*NBC
 http://fortv.cc:8080/7451515/621556/46687"
-#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_logo%201.png?raw=true" group-title="",NBC 
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",NBC 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423731
-"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/NBC_logo%201.png?raw=true" group-title="",NBC 
+"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",NBC 
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3106"
-"#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name=""US ABC News Live HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ABC_News_solid_white-hor.png?raw=true" group-title="News",ABC News Live  
+"#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name=""US ABC News Live HD "" tvg-logo="https://i.ibb.co/sbdSbL0/ABC-News-solid-white-hor.png" group-title="News",ABC News Live  
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
-#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="CA: ABC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ABC_%282013%29_Dark_Grey.svg/150px-ABC_%282013%29_Dark_Grey.svg.png" group-title="",ABC
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="CA: ABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418412
-#EXTINF:-1 tvg-id="TSC.ca" tvg-name=""CA : The Shopping Channel (B)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSC_logo%201%20(1).png?raw=true" group-title="",The Shopping Channel
+#EXTINF:-1 tvg-id="TSC.ca" tvg-name=""CA : The Shopping Channel (B)"" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30129
-#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""CA CTV 2 London HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_2_2018%201.png?raw=true" group-title="",CTV 2 London  
+#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""CA CTV 2 London HD "" tvg-logo="https://i.ibb.co/7jFzjFP/CTV-2-2018-1.png" group-title="",CTV 2 London  
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30146
-#EXTINF:-1 tvg-id="I409.68858.zap2it.com" tvg-name="CA Sportsnet One (HD) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sn1%201.png?raw=true" group-title="",Sportsnet One FHD 
+#EXTINF:-1 tvg-id="I409.68858.zap2it.com" tvg-name="CA Sportsnet One (HD) " tvg-logo="https://i.ibb.co/Dfyt3ng/sn1-1.png" group-title="",Sportsnet One FHD 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418538
-#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="CA Sportsnet East (F)" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/sno%201.png?raw=true" group-title="",Sportsnet 
+#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="CA Sportsnet East (F)" tvg-logo="https://i.ibb.co/n1CYM7M/sn.png" group-title="",Sportsnet 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/1720
-#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/the-weather-network-logo-vector%201.png?raw=true" group-title="",Weather Network Toronto FHD
+#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",Weather Network Toronto FHD
 https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
-"#EXTINF:-1,The Weather Network (Canada)
+"#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""CA: Weather Network Toronto"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",Weather Network Toronto FHD
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,The-Weather-Network-Canada.m3u8"
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CP24_black_logo%201.png?raw=true" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",CP24 News
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47218
-#EXTINF:-1 tvg-id="YTV (Youth Television) - East.ca" tvg-name=""jan0825 CA YTV East "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/ytv-seeklogo%201.png?raw=true" group-title="",YTV SD
+#EXTINF:-1 tvg-id="YTV (Youth Television) - East.ca" tvg-name=""jan0825 CA YTV East "" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV SD
 http://fortv.cc:8080/TheBestYetTV/tvtime718/63850
-#EXTINF:-1 tvg-id="CBC News Network" tvg-name=""CA CBC News "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CBC%20NN%201.png?raw=true" group-title="News",CBC News Network
+#EXTINF:-1 tvg-id="CBC News Network" tvg-name=""CA CBC News "" tvg-logo="https://i.ibb.co/nM6XJHn/CBC-NN-1.png" group-title="News",CBC News Network
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418424
-#EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""jan0825 CA W Network East (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/W_Network_Logo%201.png?raw=true" group-title="",W Network 
+#EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""jan0825 CA W Network East (E)"" tvg-logo="https://i.ibb.co/9YHTkKd/W-Network-Logo-1.png" group-title="",W Network 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57284
-#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan0825 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FOX_wordmark%201.png?raw=true" group-title="",FOX
+#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan0825 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",FOX
 http://fortv.cc:8080/TheBestYetTV/tvtime718/120747
-#EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""CA: MUCH MUSIC"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Much_-_2013_logo%201.png?raw=true" group-title="",Much Music
+#EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""CA: MUCH MUSIC"" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418550
-#EXTINF:-1 tvg-id="TSN4 HD.ca" tvg-name="CA TSN 4" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TSN4%20b.png?raw=true" group-title="",TSN 4
+#EXTINF:-1 tvg-id="TSN4 HD.ca" tvg-name="CA TSN 4" tvg-logo="https://i.ibb.co/yXxgwzn/TSN4-1.png" group-title="",TSN 4
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3001
-"#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name=""CA: A&E"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/A&E_Network_logo%201.png?raw=true" group-title="",A&E
+"#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name=""CA: A&E"" tvg-logo="https://i.ibb.co/2dGXJd1/a-e-HD-1.png" group-title="",A&E
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30231"
-#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name="CA: A&E" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/a&e%20HD%201.png?raw=true" group-title="",A&E FHD
+#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name="CA: A&E" tvg-logo="https://i.ibb.co/2dGXJd1/a-e-HD-1.png" group-title="",A&E FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417871
 #EXTINF:-1 tvg-id="AMC - Canada HD.ca" tvg-name=""CA: AMC"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="",AMC
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418414
-#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CNN 
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/480
-#EXTINF:-1 tvg-id="TLC Canada.ca" tvg-name=""CA TLC "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/tlc-logo-1%201.png?raw=true" group-title="",TLC SD
+#EXTINF:-1 tvg-id="TLC Canada.ca" tvg-name=""CA TLC "" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",TLC SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3006
-#EXTINF:-1 tvg-id="I192.65342.zap2it.com" tvg-name=""CA Investigation Discovery HD (E)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="",Investigation Discovery SD
+#EXTINF:-1 tvg-id="I192.65342.zap2it.com" tvg-name=""CA Investigation Discovery HD (E)"" tvg-logo="https://i.ibb.co/MhZ367m/investigation-discovery.png" group-title="",Investigation Discovery SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3027
-#EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name="CA CTV LIFE" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Life_Channel_2019%201.png?raw=true" group-title="",CTV LIFE 
+#EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name="CA CTV LIFE" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV LIFE 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418595
-#EXTINF:-1 tvg-id="Outdoor Life Network Canada HD.ca" tvg-name="jan0825 CA Bravo" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Bravo_2017_color.png?raw=true" group-title="",Bravo SD
+#EXTINF:-1 tvg-id="Outdoor Life Network Canada HD.ca" tvg-name="jan0825 CA Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo SD
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57379
-#EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name=""CA CMT"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT.png?raw=true" group-title="",CMT FHD
+#EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name=""CA CMT"" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",CMT FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418434
-#EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name=""CA: Showcase HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Showcase_logo%202.png?raw=true" group-title="",Showcase SD
+#EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name=""CA: Showcase HD"" tvg-logo="https://i.ibb.co/whdN0GH/Showcase-logo-2.png" group-title="",Showcase SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418506
-#EXTINF:-1 tvg-id="CTV DRAMA Channel SD" tvg-name=""CA CTV Drama Channel "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Drama_Channel_2019%201.png?raw=true" group-title="",CTV Drama Channel
+#EXTINF:-1 tvg-id="CTV DRAMA Channel SD" tvg-name=""CA CTV Drama Channel "" tvg-logo="https://i.ibb.co/ggvnLbG/CTV-Drama-Channel-2019-1.png" group-title="",CTV Drama Channel
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418530
-#EXTINF:-1 tvg-id="I601.15181.zap2it.com" tvg-name=""jan0825 CA Slice TV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Slice_logo_(2017)%201.png?raw=true" group-title="",Slice
+#EXTINF:-1 tvg-id="I601.15181.zap2it.com" tvg-name=""jan0825 CA Slice TV "" tvg-logo="https://i.ibb.co/y5t08ZP/Slice-logo-2017-1.png" group-title="",Slice
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57274
-#EXTINF:-1 tvg-id="The Discovery Channel Canada" tvg-name=""CA Discovery Channel "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Discovery_Channel_-_Logo_2019%201.png?raw=true" group-title="",Discovery Channel 
+#EXTINF:-1 tvg-id="The Discovery Channel Canada" tvg-name=""CA Discovery Channel "" tvg-logo="https://i.ibb.co/xX52N0d/Discovery-Channel-Logo-2019-1.png" group-title="",Discovery Channel 
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3047
-#EXTINF:-1 tvg-id="History Canada HD East.ca" tvg-name=""CA HISTORY "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/History_(2021)%201.png?raw=true" group-title="",HISTORY SD
+#EXTINF:-1 tvg-id="History Canada HD East.ca" tvg-name=""CA HISTORY "" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="",HISTORY SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418480
-#EXTINF:-1 tvg-id="CTV Comedy - East HD.ca" tvg-name=""CA CTV Comedy Channel "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Comedy_Channel_2019%201.png?raw=true" group-title="",CTV Comedy Channel 
+#EXTINF:-1 tvg-id="CTV Comedy - East HD.ca" tvg-name=""CA CTV Comedy Channel "" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="",CTV Comedy Channel 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/479
-#EXTINF:-1 tvg-id="Cartoon Network Canada - East.ca" tvg-name=""CA Cartoon Network "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Cartoon_Network_2010_logo%201.png?raw=true" group-title=""KIDS ZONE"",Cartoon Network 
+#EXTINF:-1 tvg-id="Cartoon Network Canada - East.ca" tvg-name=""CA Cartoon Network "" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="",Cartoon Network 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/505
-#EXTINF:-1 tvg-id="Home and Garden Television Canada" tvg-name=""jan0825 CA HGTV "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HGTV_Canada_2012_logo%20blue.png?raw=true" group-title="",HGTV SD
+#EXTINF:-1 tvg-id="Home and Garden Television Canada" tvg-name=""jan0825 CA HGTV "" tvg-logo="https://i.ibb.co/d6FTvx1/HGTV-Canada-2012-logo-blue.png" group-title="",HGTV SD
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57273
-#EXTINF:-1 tvg-id="Love Nature.ca" tvg-name=""jan0825 CA Love Nature HD "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/love_nature_logo_white_rgb.png?raw=true" group-title="",Love Nature SD 
+#EXTINF:-1 tvg-id="Love Nature.ca" tvg-name=""jan0825 CA Love Nature HD "" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="",Love Nature SD 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47324
-#EXTINF:-1 tvg-id="Turner Classic Movies Canada HD.ca" tvg-name=""CA Turner Classic Movies"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TCM_2021%201.png?raw=true" group-title="",Turner Classic Movies
+#EXTINF:-1 tvg-id="Turner Classic Movies Canada HD.ca" tvg-name=""CA Turner Classic Movies"" tvg-logo="https://i.ibb.co/QmwF2Tr/TCM-2021-1.png" group-title="",Turner Classic Movies
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/509140
 #EXTINF:-1 tvg-id="CTV SCI-FI Channel SD" tvg-name=""jan0825 CA: Discovery Science"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/SCI-network-logo-192x192-v2.png" group-title="",Discovery Science
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57418
-#EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""CA CTV SCI-FI "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CTV_Sci-Fi_Channel_2019%201.png?raw=true" group-title="",CTV SCI-FI 
+#EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""CA CTV SCI-FI "" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="",CTV SCI-FI 
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30186
-#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Family_Channel_Logo%201.png?raw=true" group-title=""KIDS ZONE"",Family Channel SD
+#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://i.ibb.co/NghKK6H/Family-Channel-Logo-1.png" group-title="",Family Channel SD
 http://vo01.mohdtv.com:8880/voby4159/55452/3040
-#EXTINF:-1 tvg-id="MTV Canada HD.ca" tvg-name=""CA: MTV"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/MTV_2021_(brand_version)%201.png?raw=true" group-title="",MTV SD
+#EXTINF:-1 tvg-id="MTV Canada HD.ca" tvg-name=""CA: MTV"" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="",MTV SD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2584
-#EXTINF:-1 tvg-id="Sportsnet 360.ca" tvg-name=""CA Sportsnet 360 (HD)"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Sportsnet_360-Logo.wine%201.png?raw=true" group-title="",Sportsnet 360 SD
+#EXTINF:-1 tvg-id="Sportsnet 360.ca" tvg-name=""CA Sportsnet 360 (HD)"" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="",Sportsnet 360 SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418536
 #EXTINF:-1 tvg-id="DTOUR HD.ca" tvg-name=""CA: DTOUR HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Dtour_Logo%201.png?raw=true" group-title="",DTOUR SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418649
-#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title="",FX SD
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""CA: FX HD"" tvg-logo="https://ibb.co/YdsHcjL" group-title="",FX SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418470
 #EXTINF:-1 tvg-id="Food Network (Canada)" tvg-name=""CA: Food Network HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Food_Network_Canada_(2013)_Logo.png?raw=true" group-title="",Food Network SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418465
@@ -192,11 +192,11 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/72575
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/5511
 #EXTINF:-1 tvg-id="I212.45399.zap2it.com" tvg-name=""CA: NFL NETWORK HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/nfl-logo-.png?raw=true" group-title="",NFL NETWORK SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3104
-#EXTINF:-1 tvg-id="I218.14899.zap2it.com" tvg-name=""CA: Golf Channel HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/golf-channel-logo-vector%201.png?raw=true" group-title="",Golf Channel SD
+#EXTINF:-1 tvg-id="I218.14899.zap2it.com" tvg-name=""CA: Golf Channel HD"" tvg-logo="https://i.ibb.co/b1h63HW/nbc-golf.png" group-title="",Golf Channel SD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/26575
-#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""US CNBC "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="News",US CNBC FHD
+#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""US CNBC "" tvg-logo="https://i.ibb.co/KGRYzXJ/CNBC.png" group-title="News",US CNBC FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418115
-#EXTINF:-1 tvg-id="I202.10145.zap2it.com" tvg-name=""CA: HLN"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/HLNLogo2023%201.png?raw=true" group-title="",CA: HLN SD
+#EXTINF:-1 tvg-id="I202.10145.zap2it.com" tvg-name=""CA: HLN"" tvg-logo="https://i.ibb.co/mS6b4pj/hln-ca.png" group-title="",CA: HLN SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418481
 #EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title=""US "",US Lifetime 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417894
@@ -226,7 +226,7 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/8608
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3046
 #EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="US Magnolia Network" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Magnolia_Network_(Stacked).png?raw=true" group-title="",US Magnolia Network FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418462
-#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""CA: FX HD"" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX.png?raw=true" group-title="",FX SD
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""CA: FX HD"" tvg-logo="https://ibb.co/YdsHcjL" group-title="",FX SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418470
 #EXTINF:-1 tvg-id="NBA TV Canada TV HD.ca" tvg-name=""CA-NBA TV"" tvg-logo="https://i.pinimg.com/originals/52/4a/46/524a467886b251a6ef5becf35e47de10.png" group-title=""NBA"",NBA TV SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3037
@@ -297,15 +297,15 @@ http://fortv.cc:8080/7451515/621556/46708
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/295364
 #EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="US: CMT HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CMT.png?raw=true" group-title="",*US: CMT HD
 http://fortv.cc:8080/7451515/621556/57258
-#EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_logo%201.png?raw=true" group-title="News",US CNBC 
+#EXTINF:-1 tvg-id="Consumer News and Business Channel" tvg-name="US CNBC " tvg-logo="https://i.ibb.co/KGRYzXJ/CNBC.png" group-title="News",US CNBC 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2295
 #EXTINF:-1 tvg-id="Consumer News and Business Channel World HDTV" tvg-name="US CNBC World" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/CNBC_World%201.png?raw=true" group-title="News",US CNBC World
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/6431
-#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""US: CNN "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",US CNN 
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""US: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN 
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/480
-#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CNN 
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418118
-#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/cnn-trnsprt.png?raw=true" group-title="News",CNN 
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""CA: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3056
 #EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="US Comedy Central (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Comedy_Central_2018%201.png?raw=true" group-title="",*US Comedy Central  
 http://fortv.cc:8080/7451515/621556/7466
@@ -347,7 +347,7 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/1611
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417886
 #EXTINF:-1 tvg-id="Fuse.us" tvg-name="US Fuse " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/Fuse_Black_Logo_2017%201.png?raw=true" group-title="",*US Fuse 
 http://fortv.cc:8080/7451515/621556/46701
-#EXTINF:-1 tvg-id="FX HDTV (East) - FX HD.us" tvg-name="US FX East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FX_International_logo%20color.png?raw=true" group-title="",*US FX  
+#EXTINF:-1 tvg-id="FX HDTV (East) - FX HD.us" tvg-name="US FX East " tvg-logo="https://ibb.co/YdsHcjL" group-title="",*US FX  
 http://fortv.cc:8080/7451515/621556/46690
 #EXTINF:-1 tvg-id="FX Movie Channel" tvg-name="US FXM " tvg-logo="https://static.wixstatic.com/media/e9ff13_ca51de412ed0418584d32ce3d7860f31~mv2.png/v1/fill/w_484,h_360,al_c,lg_1,q_85,enc_auto/e9ff13_ca51de412ed0418584d32ce3d7860f31~mv2.png" group-title="",*US FXM 
 http://fortv.cc:8080/7451515/621556/10260
@@ -459,7 +459,7 @@ http://fortv.cc:8080/7451515/621556/46712
 http://fortv.cc:8080/7451515/621556/46685
 #EXTINF:-1 tvg-id="tbs.us" tvg-name="US TBS " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/TBS_2020%201.png?raw=true" group-title="",*US TBS 
 http://fortv.cc:8080/7451515/621556/20867
-#EXTINF:-1 tvg-id="golfchannel.us" tvg-name="US Golf Channel " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/golf-channel-logo-vector%201.png?raw=true" group-title="",*US Golf Channel 
+#EXTINF:-1 tvg-id="golfchannel.us" tvg-name="US Golf Channel " tvg-logo="https://i.ibb.co/b1h63HW/nbc-golf.png" group-title="",*US Golf Channel 
 http://fortv.cc:8080/7451515/621556/46728
 #EXTINF:-1 tvg-id="I362.11187.zap2it.com" tvg-name="US The Weather Channel " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/The_Weather_Channel_logo_2005-present%201.png?raw=true" group-title="",*US The Weather Channel 
 http://fortv.cc:8080/7451515/621556/18926
