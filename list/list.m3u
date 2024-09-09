@@ -1,25 +1,11 @@
-#EXTM3U "US  Sep 9 2024
-EPG:
-https://www.bevy.be/bevyfiles/canadapremium.xml.gz																									
-https://www.bevy.be/bevyfiles/canadapremium2.xml.gz																									
-https://www.bevy.be/bevyfiles/canadapremium3.xml.gz																									
-https://www.bevy.be/bevyfiles/canada.xml.gz
-https://www.bevy.be/bevyfiles/unitedstatespremium1.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium2.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium3.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium4.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium5.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium6.xml.gz	US																								
-https://www.bevy.be/bevyfiles/unitedstatespremium7.xml.gz	US"																									   
+#EXTM3U "US  Sep 9 2024"																							   
 
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""CA CP24 News HD "" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",n*CP24 News
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC FHD
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",n*MSNBC FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
-#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/L9ZgC9m/global-tv.png" group-title="",GLOBAL SD
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/L9ZgC9m/global-tv.png" group-title="",n*Gblobal SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418474
-"#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name=""CA: OMNI1 HD"" tvg-logo="https://i.ibb.co/XFnjSfP/omni-1.png" group-title="",OMNI1 
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/453"
 #EXTINF:-1 tvg-id="Jan0825 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="Jan0825 CA: OMNI 1" tvg-logo="https://i.ibb.co/XFnjSfP/omni-1.png" group-title="",OMNI 1
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="I282.16331.zap2it.com" tvg-name=""jan0825 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",Animal Planet
@@ -35,14 +21,12 @@ http://vo01.mohdtv.com:8880/voby4159/55452/30196
 #EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 2
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/298187
 #EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 3
-http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418453
-#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto 4
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30196
 #EXTINF:-1 tvg-id="Jan0825 Yes TV (CITS) Burlington, ON.ca" tvg-name=""Jan0825 CA YES TV "" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",YES TV 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57472
 #EXTINF:-1 tvg-id="I237.10057.zap2it.com" tvg-name=""CA: Bravo"" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo FHD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/2282
-#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="",CHCH
+#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name=""CA CHCH (E)"" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="",n*CHCH
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418551
 #EXTINF:-1 tvg-id="Crave1 - East HD.ca" tvg-name="CA: CRAVE 1 HD" tvg-logo="https://i.ibb.co/4JWV4zf/Crave-2018-logo-1.png" group-title="",CRAVE 1
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13244
@@ -50,23 +34,13 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/13244
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30147
 #EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON HD.ca" tvg-name=""CA: OMNI 2"" tvg-logo="https://i.ibb.co/6nMpTJr/OMNI-2-stack.png" group-title="",OMNI 2 SD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/452
-"#EXTINF:-1 tvg-id="cottagelife.ca" tvg-name=""CA Cottage Life HD (B)"" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/477"
-#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="CA: FX HD"" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX 
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="CA: FX HD"" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",n*FX 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418470
-"#EXTINF:-1 tvg-id="CBS (WCAX) Burlington, VT HD.ca" tvg-name=""US CBS News 24/7"" tvg-logo="https://i.ibb.co/yYQpvk0/CBS-News-247-stacked.png" group-title="News",*CBS News 24/7
-http://fortv.cc:8080/7451515/621556/21259"
-#EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="CA: CBS" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",CBS SD
+#EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="CA: CBS" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",n*CBS SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423710
-"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name=""US: NBC"" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",*NBC
-http://fortv.cc:8080/7451515/621556/46687"
-#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",NBC 
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",n*NBC 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423731
-"#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="CA: NBC" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",NBC 
-http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3106"
-"#EXTINF:-1 tvg-id="ABCNewsLive.us" tvg-name=""US ABC News Live HD "" tvg-logo="https://i.ibb.co/sbdSbL0/ABC-News-solid-white-hor.png" group-title="News",ABC News Live  
-https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8"
-#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="CA: ABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="CA: ABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",n*ABC
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418412
 #EXTINF:-1 tvg-id="TSC.ca" tvg-name=""CA : The Shopping Channel (B)"" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30129
@@ -194,11 +168,11 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/5511
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3104
 #EXTINF:-1 tvg-id="I218.14899.zap2it.com" tvg-name=""CA: Golf Channel HD"" tvg-logo="https://i.ibb.co/b1h63HW/nbc-golf.png" group-title="",Golf Channel SD
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/26575
-#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""US CNBC "" tvg-logo="https://i.ibb.co/KGRYzXJ/CNBC.png" group-title="News",US CNBC FHD
+#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""US CNBC "" tvg-logo="https://i.ibb.co/KGRYzXJ/CNBC.png" group-title="News",n*US CNBC FHD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418115
-#EXTINF:-1 tvg-id="I202.10145.zap2it.com" tvg-name=""CA: HLN"" tvg-logo="https://i.ibb.co/mS6b4pj/hln-ca.png" group-title="",CA: HLN SD
+#EXTINF:-1 tvg-id="I202.10145.zap2it.com" tvg-name=""CA: HLN"" tvg-logo="https://i.ibb.co/mS6b4pj/hln-ca.png" group-title="",n*CA: HLN SD
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418481
-#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title=""US "",US Lifetime 
+#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""US Lifetime "" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title=""US "",n*US Lifetime 
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/417894
 #EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name=""CA Adult Swim "" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title=""CANADA "",Adult Swim SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30173
@@ -327,13 +301,13 @@ http://fortv.cc:8080/7451515/621556/9811
 http://fortv.cc:8080/7451515/621556/10538
 #EXTINF:-1 tvg-id="I261.16125.zap2it.com" tvg-name="US: Discovery Life HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d5/Discovery_Life_2016_logo.svg/revision/latest/scale-to-width-down/250?cb=20170826004537" group-title="",*US: Discovery Life HD
 http://fortv.cc:8080/7451515/621556/9861
-#EXTINF:-1 tvg-id="Motor Trend HDTV" tvg-name="CA Discovery Velocity HD " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/velocity-seeklogo%201.png?raw=true" group-title="",*CA Discovery Velocity HD 
+#EXTINF:-1 tvg-id="Motor Trend HDTV" tvg-name="CA Discovery Velocity HD " tvg-logo="https://i.ibb.co/vPc7qLF/discovery-velocity-seeklogo-1.png" group-title="",*CA Discovery Velocity HD 
 http://fortv.cc:8080/7451515/621556/46212
 #EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="US DIY Network " tvg-logo="https://w7.pngwing.com/pngs/469/10/png-transparent-diy-network-television-show-food-network-do-it-yourself-others-television-text-orange.png" group-title="",*US DIY Network 
 http://fortv.cc:8080/7451515/621556/10503
-#EXTINF:-1 tvg-id="dogtv.us" tvg-name="US: DOGTV" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/dog-tv%201.png?raw=true" group-title="",*US: DOGTV
+#EXTINF:-1 tvg-id="dogtv.us" tvg-name="US: DOGTV" tvg-logo="https://i.ibb.co/qCQ8KZw/dog-tv-1.png" group-title="",*US: DOGTV
 http://fortv.cc:8080/7451515/621556/53539
-#EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East)" tvg-name="US E! Entertainment Television East " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/E!_Logo%201.png?raw=true" group-title="",*US E! Entertainment TV  
+#EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East)" tvg-name="US E! Entertainment Television East " tvg-logo="https://ibb.co/zSLCkP4" group-title="",*US E! Entertainment TV  
 http://fortv.cc:8080/7451515/621556/11651
 #EXTINF:-1 tvg-id="Food Network.us" tvg-name="US: Food Network HD" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FramFood_Network_logo.png?raw=true" group-title="",*US: Food Network HD
 http://fortv.cc:8080/7451515/621556/7323
@@ -351,7 +325,7 @@ http://fortv.cc:8080/7451515/621556/46701
 http://fortv.cc:8080/7451515/621556/46690
 #EXTINF:-1 tvg-id="FX Movie Channel" tvg-name="US FXM " tvg-logo="https://static.wixstatic.com/media/e9ff13_ca51de412ed0418584d32ce3d7860f31~mv2.png/v1/fill/w_484,h_360,al_c,lg_1,q_85,enc_auto/e9ff13_ca51de412ed0418584d32ce3d7860f31~mv2.png" group-title="",*US FXM 
 http://fortv.cc:8080/7451515/621556/10260
-#EXTINF:-1 tvg-id="FXXEast.us" tvg-name="US FXX (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title="",*US FXX  
+#EXTINF:-1 tvg-id="FXXEast.us" tvg-name="US FXX (East) " tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FXX_Logo%201.png?raw=true" group-title="",n*US FXX  
 http://fortv.cc:8080/7451515/621556/46699
 #EXTINF:-1 tvg-id="FYIEast.us" tvg-name="US FYI" tvg-logo="https://github.com/kyleabrahams/tv/blob/main/FYI,_logo%201.png?raw=true" group-title="",*US FYI
 http://fortv.cc:8080/7451515/621556/9240
