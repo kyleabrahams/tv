@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 11, 743 p
+#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 11, 746 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name="xxx0000 CA City News Toronto ON" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News Toronto ON
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -520,9 +520,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e916affb29c60007211c8a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c2-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1595266f-ecb0-4af0-bab6-40b7d0586999&checkedby:iptvcat.net
 #EXTINF:0 tvg-country="CA" tvg-logo="https://i.ibb.co/w75bVbz/happy-days.png" group-title="",Happy Days
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e917b5e354cf0007b97a67/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c3-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b9cae61e-6671-48b9-8e36-973e2921034d&checkedby:iptvcat.net
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/gv97jLb/NHL-Network-2012-1.png" group-title="",NHL
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/gv97jLb/NHL-Network-2012-1.png" group-title="Sports",NHL
 https://nhl-firetv.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/b2wbFDs/sportsgrid.png" group-title="",Sportsgrid
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/b2wbFDs/sportsgrid.png" group-title="Sports",Sportsgrid
 https://amg00315-sportsgrid-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/q92HbPw/outside-tv-logo-vector-1.png" group-title="",Outside TV
 https://outsidetv-firetv.amagi.tv/playlist.m3u8
@@ -530,7 +530,7 @@ https://outsidetv-firetv.amagi.tv/playlist.m3u8
 https://amg01077-gusto-gustous-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/wcwcJnw/real-wild-1.png" group-title="",Real Wild (Geo)
 https://lds-realwild-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="",Womens Sports Network
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="Sports",Womens Sports Network
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/34SBR0J/young-hollywood.png" group-title="",Young Hollywood
 https://younghollywood-vizio.amagi.tv/playlist.m3u8
@@ -550,13 +550,13 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991245
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/m0ZBck2/pursuit-Logo-1.png" group-title="",Pursuit Up
 https://dbrb49pjoymg4.cloudfront.net/10001/99991648/hls/playlist.m3u8?ads.xumo_channelId=99991648
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/47G1S2s/bein-sports-xtra-1.png" group-title="",Bein Sports Xtra (Geo)
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/47G1S2s/bein-sports-xtra-1.png" group-title="Sports",Bein Sports Xtra (Geo)
 https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/Wtn5YsK/accdn-logo.png" group-title="",ACCDN
 https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
-#EXTINF:-1 tvg-country="" tvg-logo="https://swerve.tv/wp-content/uploads/2023/03/Swerve-Combat-Logo_Swerve-Combat_Primary_970x260.png" group-title="",Swerve Combat
+#EXTINF:-1 tvg-country="" tvg-logo="https://swerve.tv/wp-content/uploads/2023/03/Swerve-Combat-Logo_Swerve-Combat_Primary_970x260.png" group-title=Sports",Swerve Combat
 https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/4Nhdptv/Fight-network-logo-1.png" group-title="",Fight Network
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/4Nhdptv/Fight-network-logo-1.png" group-title="Sports",Fight Network
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/MP1Dysv/Xumo-crime.png" group-title="",Xumo Crime TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991384
@@ -598,7 +598,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/10001/99991262/hls/playlist.m3u8?ads.xumo_channelId=99991262
 #EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/nDK8cKz/vevo-80s-1.png" group-title="",Vevo 80s
 https://dbrb49pjoymg4.cloudfront.net/10001/99991132/hls/playlist.m3u8?ads.xumo_channelId=99991132
-#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/SNyTz6Z/washington-post.png" group-title="",Washington Post
+#EXTINF:-1 tvg-country="" tvg-logo="https://i.ibb.co/SNyTz6Z/washington-post.png" group-title="News",Washington Post
 https://washingtonpost-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Crime Hunters" tvg-logo="https://i.ibb.co/pjxwS6y/crime-hunters-1.png" group-title="",Crime Hunters
 https://amg01201-cinedigmenterta-crimehunters-cineverse-cnqvb.amagi.tv/playlist/amg01201-cinedigmenterta-crimehunters-cineverse/playlist.m3u8?checkedby:iptvcat.com
