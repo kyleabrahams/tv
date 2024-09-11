@@ -1,4 +1,4 @@
-#EXTM3U "US  Sep 9 2024"																							   
+#EXTM3U " Sep 11 2024 "																							   
 
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""jan082025 CA CP24 News HD "" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",CP24 News
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
@@ -8,12 +8,10 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57302
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""jan082025 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto 2
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 11, 959 am
+#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 11, 1110 am
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""xxx0000 CA City News Toronto ON"" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News Toronto ON
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
-"#EXTINF:-1 tvg-id="Animal Planet Canada HD.ca" tvg-name=""jan082025 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",Animal Planet 
-http://fortv.cc:8080/TheBestYetTV/tvtime718/57377"
 #EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON HD.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CBC Toronto 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57260
 #EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""jan082025 CA: CITY TV Toronto"" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",*CITY TV Toronto 1 
@@ -214,6 +212,10 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418538
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="Cottage Life HD.ca" tvg-name=""xxx0000 CA Cottage Life HD (B)"" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life
 http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/477
+#EXTINF:-1 tvg-id="Animal Planet Canada HD.ca" tvg-name=""jan082025 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",Animal Planet 
+http://fortv.cc:8080/TheBestYetTV/tvtime718/57377
+
+
 "102 Channel" 
 
 "US  Aug 21 2024 (iptvtree, allChan, art, .m3u)"
