@@ -1,4 +1,4 @@
-#EXTM3U " Sep 11 2024 "																							   
+#EXTM3U																						   
 
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name=""jan082025 CA CP24 News HD "" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="News",CP24 News
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 11, 1018 p
+#EXTINF:-1 tvg-id="jan082025 OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 12, 812 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA City News Toronto ON" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -243,8 +243,6 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20194
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46703
 #EXTINF:-1 tvg-id="BET Soul.us" tvg-name="fe202025 US BET SOUL" tvg-logo="https://i.ibb.co/vJzmSXt/BET-Soul-2021-Vertical.png" group-title="",US BET SOUL
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/21844
-#EXTINF:-1 tvg-id="Bloomberg.us" tvg-name="fe202025 US Bloomberg" tvg-logo="https://i.ibb.co/LQ1rft5/Bloomberg-Logo-1.png" group-title="",CA Bloomberg
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57358
 #EXTINF:-1 tvg-id="Bounce TV.us" tvg-name="fe202025 US Bounce XL " tvg-logo="https://i.ibb.co/52fLjgH/bounce-color.png" group-title="",US Bounce
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/48323
 #EXTINF:-1 tvg-id="Bravo.us" tvg-name="fe202025 US Bravo (East)   " tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",US Bravo    
@@ -369,8 +367,6 @@ http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/196192
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9244
 #EXTINF:-1 tvg-id="OUTSD.us" tvg-name="xxx0000 US OUTSIDE TV" tvg-logo="https://i.ibb.co/5GNhhP8/outside-tv-logo-vector-1.png" group-title="",US Outside TV
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20865
-#EXTINF:-1 tvg-id="OWN.us" tvg-name="xxx0000 US OWN" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",US OWN
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46698
 #EXTINF:-1 tvg-id="Oxygen (East)" tvg-name="xxx0000 US Oxygen (East)   " tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",US Oxygen    
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9245
 #EXTINF:-1 tvg-id="Paramount Network (East)" tvg-name="xxx0000 US Paramount TV " tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title="",US Paramount 
@@ -431,7 +427,7 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10252
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46705
 #EXTINF:-1 tvg-id="vice" tvg-name="xxx0000 US VICELAND " tvg-logo="https://i.ibb.co/Vj9gNX3/vice-logo-white-1.png" group-title="",US Vice
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46697
-#EXTINF:-1 tvg-id="Vegas Stats and Information Network" tvg-name="xxx0000 US VSiN (F)" tvg-logo="https://i.ibb.co/qn0JBBn/VSi-N-Logo-1.png" group-title="",US VSiN (F)
+#EXTINF:-1 tvg-id="Vegas Stats and Information Network" tvg-name="xxx0000 US VSiN (F)" tvg-logo="https://i.ibb.co/qn0JBBn/VSi-N-Logo-1.png" group-title="Sports",US VSiN (F)
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/18941
 #EXTINF:-1 tvg-id="WAPA AmÃ©rica" tvg-name="xxx0000 US WAPA America " tvg-logo="https://i.ibb.co/kyhZZfb/WAPA-TV-logo-1.png" group-title="",US WAPA America 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/76481
@@ -483,6 +479,8 @@ https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Property-Brothers.m3u8
 https://d85lu9l3axp7b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-49b4g6287mnav/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
+https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="",AKC TV Puppies 24/7
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="",AKC TV Meet The Breeds
@@ -539,15 +537,11 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df97894467dfa00091c8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?ads.xumo_channelId=99951298
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
-http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30222
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?ads.xumo_channelId=99951298
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/n6gDZkP/cbc-news-stacked-1.png" group-title="News",CBC News Explore
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/fkBWxvc/Today-logo-1.png" group-title="",Today Allday
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991245
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/m0ZBck2/pursuit-Logo-1.png" group-title="",Pursuit Up
-https://dbrb49pjoymg4.cloudfront.net/10001/99991648/hls/playlist.m3u8?ads.xumo_channelId=99991648
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/47G1S2s/bein-sports-xtra-1.png" group-title="Sports",Bein Sports Xtra (Geo)
 https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/Wtn5YsK/accdn-logo.png" group-title="",ACCDN
@@ -608,8 +602,6 @@ https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.ple
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://briteboardinc.com/wp-content/uploads/2022/10/Dove-1.png" group-title="",Dove Channel
 https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://briteboardinc.com/wp-content/uploads/2022/10/Dove-1.png" group-title="",Dove Channel
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/index.m3u8?ads.xumo_channelId=99991333"
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="News",Cheddar News
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Cheddar.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="News",Scripps News
@@ -636,21 +628,17 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,T
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,FilmRise-True-Crime.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="",Homeful
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Four in Bed
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Four-in-a-Bed.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="",Homeful (Canada)
+https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful-Canada.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Great British Menu
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Great-British-Menu.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Gardening with Monty Don                         
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Gardening-Monty-Don.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Antiques Road Trip
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Antiques-Road-Trip.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Moviesphere by Lionsgate
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,MovieSphere.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/HDWsdjr/crime-time-1.png" group-title="",Crime Time (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,CrimeTime-Canada.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="",Homeful (Canada)
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful-Canada.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/p0wzL4R/dazn.png" group-title="",Dazn TV (Canada)
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/p0wzL4R/dazn.png" group-title="Sports",Dazn TV (Canada)
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Yahoo Finance
 https://yahoo-vizio.amagi.tv/playlist.m3u8
@@ -678,8 +666,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991312
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://pbs.twimg.com/profile_images/1313813696712409088/Rso0dgn8_400x400.jpg" group-title="",Pattrn
 https://dbrb49pjoymg4.cloudfront.net/10001/99991683/hls/playlist.m3u8?ads.xumo_channelId=99991683
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/60dxphQ/people-are-awesome-1.png" group-title="",People are Awesome
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991175
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/PGtT0Bj/Impact-Wrestling-Logo-svg-1.png" group-title="",Impact Wrestling
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991341
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/Lgg9qb7/UFC-Logo-svg.png" group-title="",UFC
@@ -698,8 +684,6 @@ https://d4whmvwm0rdvi.cloudfront.net/10007/99991626/hls/master.m3u8?ads.xumo_cha
 https://dbrb49pjoymg4.cloudfront.net/10001/99991320/hls/playlist.m3u8?ads.xumo_channelId=99991320
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Unsolved Mysteries
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991680
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Stories by AMC
-https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_channelId=99991622
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Funny or Die
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991187
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Are_We_There_Yet_logo.png" group-title="",Are We There Yet?
@@ -710,8 +694,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/4FgtyPV/comedy-dynamics-1.png" group-title="",Comedy Dynamics
 https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_channelId=99991190
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/KjQzDpr/JFLgags23-1.png" group-title="",Just for Laughs Gags
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991204
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Architectural Digest
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991229
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Todays Homeowner
@@ -744,25 +726,17 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d86f519358a00072b978e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c265961-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f86833-3dd6-41ac-a9b8-4a4ec8873306
 #EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://i.imgur.com/TOB9vmW.png" group-title="Comedy",AFV
 https://linear-12.frequency.stream/dist/plex/12/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
-https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ET" tvg-logo="" group-title="",ET
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 
 
 "Sep 6, 2024 other sources"
 
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CP24 News 1
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/476
-#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CP24 News 2
-http://lunar.pm:8080/SFTV25/Ready1/67189
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CP24 News 3
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CP24 News 4
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/487565
 
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 1
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/406
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 2
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 3
@@ -770,8 +744,6 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/423799
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 4
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
 
-#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""xxx0000 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",GLOBAL 1
-http://iptvtree.net:8080/adastream2023/Bye5XZwQ8d5Cbs5/465
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""xxx0000 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",GLOBAL 2
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418474
 
