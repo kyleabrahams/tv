@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 14, 320 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 14, 511 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA City News Toronto ON" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -62,7 +62,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/63850
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57304
 #EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""jan082025 CA W Network East (E)"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/the-weather-network-ca.png" group-title="",W Network 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57284
-#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",FOX
+#EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",FOX
 http://fortv.cc:8080/TheBestYetTV/tvtime718/120747
 #EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""jan0824 CA: MUCH MUSIC"" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3021
@@ -790,7 +790,7 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3150
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3149
 #EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan082025 US CNBC "" tvg-logo="https://logo.iptveditor.com/cnbc.png" group-title="News",US020:CNBC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3148
-#EXTINF:-1,US021:CNN HD
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""feb202025 CA: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US021:CNN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3147
 #EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="fe202025 US Comedy Central (East) " tvg-logo="https://i.ibb.co/YWW0MDd/Comedy-Central-2018-1.png" group-title="",US022:Comedy Central HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3146
@@ -2390,439 +2390,439 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68732
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68733
 #EXTINF:-1,------|Canada|------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3069
-#EXTINF:-1,CA001:ABC Spark HD
+#EXTINF:-1 tvg-id="ABC Spark" tvg-name=""feb202025 CA: ABC SPARK"" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",CA001:ABC Spark HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3068
-#EXTINF:-1,CA002:Sportnet Ontario HD
+#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="xxx0000 CA Sportsnet East (F)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",CA002:Sportsnet Ontario HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3067
-#EXTINF:-1,CA003:AMC HD
+#EXTINF:-1 tvg-id="AMC - Canada HD.ca" tvg-name=""jan082025 CA: AMC"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="",CA003:AMC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3066
-#EXTINF:-1,CA004:Animal Planet HD
+#EXTINF:-1 tvg-id="Animal Planet Canada HD.ca" tvg-name=""nov072024 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",CA004:Animal Planet HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3065
-#EXTINF:-1,CA005:TMN1E (CRAVE TV 1)
+#EXTINF:-1 tvg-id="Crave1 - East.ca" tvg-name="feb202025 CA: CRAVE 1 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="",CA005:TMN1E (CRAVE TV 1)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3064
-#EXTINF:-1,CA006:BET
+#EXTINF:-1 tvg-id="BET.us" tvg-name="fe202025 US BET (East) " tvg-logo="https://i.ibb.co/vPWCfbm/BET-2021-Logo-1.png" group-title="",CA006:BET
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3063
-#EXTINF:-1,CA007:BNN Bloomberg
+#EXTINF:-1 tvg-id="BNN Bloomberg.ca" tvg-name=""feb202025 CA: BNN Bloomberg HD"" tvg-logo="https://i.ibb.co/DzV4K0S/bnn-bloomberg.png" group-title="News",CA007:BNN Bloomberg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3062
-#EXTINF:-1,CA008:NFL Network HD
+#EXTINF:-1 tvg-id="I212.45399.zap2it.com" tvg-name=""xxx0000 CA: NFL NETWORK HD"" tvg-logo="https://i.ibb.co/3zkLP57/nfl-logo.png" group-title="Sports",CA008:NFL Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3061
-#EXTINF:-1,CA009:CBC Edmonton HD
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/local/cbc-edmonton-cbxt-ca.png" group-title="",CA009:CBC Edmonton HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3060
-#EXTINF:-1,CA010:CBC News Network HD
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cbc-news-network-ca.png" group-title="",CA010:CBC News Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3059
-#EXTINF:-1,CA011:CHCH HD
+#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name=""feb2025 CA CHCH (E)"" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="",CA011:CHCH HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3058
-#EXTINF:-1,CA012:City TV HD
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""jan082025 CA: CITY TV Toronto"" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",CA012:Citytv HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3057
-#EXTINF:-1,CA013:CNN HD
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name=""feb202025 CA: CNN "" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CA013:CNN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3056
-#EXTINF:-1,CA014:CTV COMEDY HD
+#EXTINF:-1 tvg-id="CIVTDT.ca" tvg-name=""feb202025 CA CTV Comedy Channel "" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="",CA014:CTV COMEDY HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3055
-#EXTINF:-1,CA015:Cottage Life
+#EXTINF:-1 tvg-id="Cottage Life HD.ca" tvg-name=""xxx0000 CA Cottage Life HD (B)"" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",CA015:Cottage Life
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3054
-#EXTINF:-1,CA016:CP24 HD
+#EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CA016:CP24 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3053
-#EXTINF:-1,CA017:CPAC HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cpac-ca.png" group-title="",CA017:CPAC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3052
-#EXTINF:-1,CA018:Bravo
+#EXTINF:-1 tvg-id="Bravo.us" tvg-name="fe202025 US Bravo (East)   " tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",CA018:Bravo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3051
-#EXTINF:-1,CA019:CTV HD
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"jan082025 CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA019:CTV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3050
-#EXTINF:-1,CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""feb202025 CA CTV 2 Toronto HD "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CA020:CTV 2 Atlantic HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3049
-#EXTINF:-1,CA021:CTV NEWS HD
+#EXTINF:-1 tvg-id="CTV News Channel HD.ca" tvg-name=""feb202025 CA: CTV NEWS CHANNEL HD"" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News",CA021:CTV NEWS HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3048
-#EXTINF:-1,CA022:Discovery HD
+#EXTINF:-1 tvg-id="Discovery Channel (CAN) HD.ca" tvg-name=""jan082025 CA: Discovery Science"" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",CA022:Discovery HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3047
-#EXTINF:-1,CA023:Disney Channel HD
+#EXTINF:-1 tvg-id="Disney Channel Canada - East.ca" tvg-name=""xxx0000 CA Disney Channel"" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="",CA023:Disney Channel HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3046
-#EXTINF:-1,CA024:Disney Junior HD
+#EXTINF:-1 tvg-id="Disney Jr. Canada" tvg-name=""xxx0000 US Disney Junior "" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/b2/b7/22/b2b72295281d514754baa8452788c800.png" group-title="",CA024:Disney Junior HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3045
-#EXTINF:-1,CA025:Disney XD HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/disney-xd-ca.png group-title="",CA025:Disney XD HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3044
-#EXTINF:-1,CA026:DIY Network HD
+#EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="fe202025 US DIY Network " tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",CA026:DIY Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3043
-#EXTINF:-1,CA027:Dtour HD
+#EXTINF:-1 tvg-id="DTOUR HD.ca" tvg-name=""feb202025 CA: DTOUR HD"" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",CA027:Dtour HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3042
-#EXTINF:-1,CA028:E! HD
+#EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name=""feb202025 CA E! "" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",CA028:E! HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3041
-#EXTINF:-1,CA029:Family HD
+#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://i.ibb.co/NghKK6H/Family-Channel-Logo-1.png" group-title="",CA029:Family HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3040
-#EXTINF:-1,CA030:Food Network HD
+#EXTINF:-1 tvg-id="Food Network (Canada)" tvg-name=""xxx0000 CA: Food Network HD"" tvg-logo="https://i.ibb.co/YQLnwxt/Food-Network-Canada-2013-Logo.png" group-title="",CA030:Food Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3039
-#EXTINF:-1,CA031:NTV St. John`s
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA031:NTV St. John`s
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3038
-#EXTINF:-1,CA032:NBA HD
+#EXTINF:-1 tvg-id="NBA TV Canada TV HD.ca" tvg-name=""xxx0000 CA-NBA TV"" tvg-logo="https://i.pinimg.com/originals/52/4a/46/524a467886b251a6ef5becf35e47de10.png" group-title=""Sports"",CA032:NBA HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3037
-#EXTINF:-1,CA033:FXX HD
+#EXTINF:-1 tvg-id="FXX Canada.ca" tvg-name=""jan082025 CA FXX "" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",CA033:FXX HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3036
-#EXTINF:-1,CA034:Global Durham
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/global-durham-ca.png" group-title="",CA034:Global Durham
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3035
-#EXTINF:-1,CA035:Hollywood Suite 00's
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA035:Hollywood Suite 00's
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3034
-#EXTINF:-1,CA036:WGN 9
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA036:WGN 9
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3033
-#EXTINF:-1,CA037:HBO 1
+#EXTINF:-1 tvg-id="HBO1 HD.ca" tvg-name=""xxx0000 CA: HBO 1 "" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-1-ca.png?raw=true" group-title="",CA037:HBO 1
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3032
-#EXTINF:-1,CA038:HBO 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/hbo-2-ca.png" group-title="",CA038:HBO 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3031
-#EXTINF:-1,CA039:HGTV HD
+#EXTINF:-1 tvg-id="Home and Garden Television Canada" tvg-name=""jan082025 CA HGTV "" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",CA039:HGTV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3030
-#EXTINF:-1,CA040:History HD
+#EXTINF:-1 tvg-id="History Canada HD East.ca" tvg-name=""feb202205 CA HISTORY "" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="",CA040:History HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3029
-#EXTINF:-1,CA041:HLN HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/hln-ca.png" group-title="",CA041:HLN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3028
-#EXTINF:-1,CA042:Investigation Discovery HD
+#EXTINF:-1 tvg-id="I192.65342.zap2it.com" tvg-name=""xxx0000 CA Investigation Discovery HD (E)"" tvg-logo="https://i.ibb.co/MhZ367m/investigation-discovery.png" group-title="",CA042:Investigation Discovery HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3027
-#EXTINF:-1,CA043:PBS Buffalo (WNED)
+#EXTINF:-1 tvg-id="PBS (WNED) Buffalo, NY.ca" tvg-name=""xxx0000 CA: PBS HD"" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",CA043:PBS Buffalo (WNED)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3026
-#EXTINF:-1,CA044:LIFETIME HD
+#EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca"" tvg-name=""feb202025 CA Lifetime "" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title="",CA044:LIFETIME HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3025
-#EXTINF:-1,CA045:TCM
+#EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="xxx0000 CA Turner Classic Movies" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="",CA045:TCM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3024
-#EXTINF:-1,CA046:ShowCase HD
+#EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name=""jan082025 CA: Showcase HD"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Showcase_Logo_2015.png" group-title="",CA046:ShowCase HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3023
-#EXTINF:-1,CA047:BAYWATCH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA047:BAYWATCH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3022
-#EXTINF:-1,CA048:Much HD
+#EXTINF:-1 tvg-id="Much Music HD.ca" tvg-name=""jan0824 CA: MUCH MUSIC"" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",CA048:Much HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3021
-#EXTINF:-1,CA049:National Geographic HD
+#EXTINF:-1 tvg-id="National Geographic Canada HD.ca" tvg-name="feb202025 CA: National Geographic HD" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",CA049:National Geographic HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3020
-#EXTINF:-1,CA050:NAT GEO WILD HD
+#EXTINF:-1 tvg-id="National Geographic Wild Canada HD.ca" tvg-name=""jan082025 CA National Geographic Wild "" tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="",CA050:NAT GEO WILD HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3019
-#EXTINF:-1,CA051:Sportsnet World HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snworld-ca.png" group-title="",CA051:Sportsnet World HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3018
-#EXTINF:-1,CA052:OLN HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA052:OLN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3017
-#EXTINF:-1,CA053:DUST
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA053:DUST
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3016
-#EXTINF:-1,CA054:OWN HD
+#EXTINF:-1 tvg-id="The Oprah Winfrey Network (East)" tvg-name=""xxx0000 CA>US OWN"" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",CA054:OWN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3015
-#EXTINF:-1,CA055:Treehouse
+#EXTINF:-1 tvg-id="Treehouse TV" tvg-name=""xxx0000 CA Treehouse "" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="",CA055:Treehouse
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3014
-#EXTINF:-1,CA056:SLICE HD
+#EXTINF:-1 tvg-id="I601.15181.zap2it.com" tvg-name=""jan082025 CA Slice TV "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",CA056:SLICE HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3013
-#EXTINF:-1,CA057:Smithsonian HD
+#EXTINF:-1 tvg-id="SmithsonianChannelCanada.ca" tvg-name=""feb202025 CA Smithsonian Channel (B)"" tvg-logo="https://i.ibb.co/pdS17Qt/Smithsonian-stacked.png" group-title="",CA057:Smithsonian HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3012
-#EXTINF:-1,CA058:WWE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA058:WWE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3011
-#EXTINF:-1,CA059:Sportsnet -360
+#EXTINF:-1 tvg-id="Sportsnet 360.ca" tvg-name=""feb202025 CA Sportsnet 360 (HD)"" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",CA059:Sportsnet 360
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3010
-#EXTINF:-1,CA060:Sportsnet East HD
+#EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="xxx0000 CA Sportsnet East (F)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",CA060:Sportsnet East HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3009
-#EXTINF:-1,CA061:Sportsnet-ONE
+#EXTINF:-1 tvg-id="Sportsnet One HD.ca" tvg-name="jan082025 CA Sportsnet One (HD) " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",CA061:Sportsnet ONE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3008
-#EXTINF:-1,CA062:Sportsnet West HD
+#EXTINF:-1 tvg-id="Sportsnet (West) - Satellite/Digital HD.ca" tvg-name=""xxx0000 CA Sportsnet West FHD"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",CA062:Sportsnet West HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3007
-#EXTINF:-1,CA063:TLC HD
+#EXTINF:-1 tvg-id="TLC Canada.ca" tvg-name=""jan082025 CA TLC "" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",CA063:TLC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3006
-#EXTINF:-1,CA064:LCN (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/lcn-ca.png" group-title="",CA064:LCN (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3005
-#EXTINF:-1,CA065:TSN-1 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tsn-1-ca.png" group-title="",CA065:TSN-1 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3004
-#EXTINF:-1,CA066:TSN-2 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tsn-2-ca.png" group-title="",CA066:TSN-2 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3003
-#EXTINF:-1,CA067:TSN-3 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tsn-3-ca.png" group-title="",CA067:TSN-3 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3002
-#EXTINF:-1,CA068:TSN-4 HD
+#EXTINF:-1 tvg-id="TSN4 HD.ca" tvg-name="xxx0000 CA TSN 4" tvg-logo="https://i.ibb.co/02yw2ZS/TSN4.png" group-title="Sports",CA068:TSN-4 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3001
-#EXTINF:-1,CA069:TSN-5 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tsn-5-ca.png" group-title="",CA069:TSN-5 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3000
-#EXTINF:-1,CA070:TVO HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tvo-ca.png" group-title="",CA070:TVO HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2999
-#EXTINF:-1,CA071:Game TV HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/game-tv-ca.png" group-title="",CA071:Game TV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2998
-#EXTINF:-1,CA072:YTV
+#EXTINF:-1 tvg-id="YTV (Youth Television) - East.ca" tvg-name=""jan082025 CA YTV East "" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",CA072:YTV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2997
-#EXTINF:-1,CA073:Weather channel HD
+#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""xxx0000 CA: Weather Network Toronto"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",CA073:Weather channel HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2996
-#EXTINF:-1,CA074:ICI RDI (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ici-tele-ca.png" group-title="",CA074:ICI RDI (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2995
-#EXTINF:-1,CA075:YES HD
+#EXTINF:-1 tvg-id="CITSDT.ca" tvg-name=""jan082025 CA YES TV (CITS) "" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",CA075:YES HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2994
-#EXTINF:-1,CA076:TVA Montreal
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tva-ca.png" group-title="",CA076:TVA Montreal
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2993
-#EXTINF:-1,CA077:TVA Sports
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/tva-sports-ca.png" group-title="",CA077:TVA Sports
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2992
-#EXTINF:-1,CA078:HAUNT TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA078:HAUNT TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2991
-#EXTINF:-1,CA079:Super Channel Vault
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA079:Super Channel Vault
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2990
-#EXTINF:-1,CA080:Canal D (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA080:Canal D (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2989
-#EXTINF:-1,CA081:DEJAVIEW
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA081:DEJAVIEW
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2988
-#EXTINF:-1,CA082:RDS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA082:RDS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2987
 #EXTINF:-1, tvg-id="AandE Network Canada" tvg-name="xxx0000 CA: A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",CA083:A&E HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30231
-#EXTINF:-1,CA084:Vision
+#EXTINF:-1 tvg-id="Vision TV Eastern.ca" tvg-name=""xxx0000 CA: Vision"" tvg-logo="https://i.ibb.co/KsJtjPD/Vision-TV.png" group-title="",CA084:Vision
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30230
-#EXTINF:-1,CA085:MSNBC
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="jan082025 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",CA085:MSNBC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30229
-#EXTINF:-1,CA086:HOLLYWIRE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA086:HOLLYWIRE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30228
-#EXTINF:-1,CA087:Hollywood Suite 80's
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA087:Hollywood Suite 80's
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30227
-#EXTINF:-1,CA088:APTN HD
+#EXTINF:-1 tvg-id="Aboriginal Peoples Television Network (East)" tvg-name=""xxx0000 CA : APTN"" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="",CA088:APTN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30226
-#EXTINF:-1,CA089:Super Sports CH 267
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA089:Super Sports CH 267
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30225
-#EXTINF:-1,CA090:Hollywood Suite 90's
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA090:Hollywood Suite 90's
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30224
-#EXTINF:-1,CA091:BBC CANADA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA091:BBC CANADA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30223
-#EXTINF:-1,CA092:BBC World News
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA092:BBC World News
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30222
-#EXTINF:-1,CA093:Global BC
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA093:Global BC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30221
-#EXTINF:-1,CA094:IMPACT WRESTLING
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA094:IMPACT WRESTLING
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30220
-#EXTINF:-1,CA095:CANAL Savoir
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA095:CANAL Savoir
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30219
-#EXTINF:-1,CA096:Cartoon Network
+#EXTINF:-1 tvg-id="Cartoon Network (Canada-East)" tvg-name=""xxx0000 CA Cartoon Network "" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="",CA096:Cartoon Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30218
-#EXTINF:-1,CA097:CASA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA097:CASA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30217
-#EXTINF:-1,CA098:CBC Montreal
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA098:CBC Montreal
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30216
-#EXTINF:-1,CA100:CBC OTTAWA HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA100:CBC OTTAWA HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30214
-#EXTINF:-1,CA101:CBC Toronto
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA101:CBC Toronto
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30213
-#EXTINF:-1,CA102:CBC Vancouver
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA102:CBC Vancouver
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30212
-#EXTINF:-1,CA103:CTV Regina
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA103:CTV Regina
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30211
-#EXTINF:-1,CA104:Game Show Network
+#EXTINF:-1 tvg-id="Game Show Network HDTV (EAST)" tvg-name="xxx0000 US Game Show Network" tvg-logo="https://i.ibb.co/8zx49b6/Game-Show-Network-2018-1.png" group-title="",CA104:Game Show Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30210
-#EXTINF:-1,CA105:ZESTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA105:ZESTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30209
-#EXTINF:-1,CA106:City Toronto
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name=""jan082025 CA: CITY TV Toronto"" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",CA106:City Toronto
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30208
-#EXTINF:-1,CA107:Global Lethbridge
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA107:Global Lethbridge
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30207
-#EXTINF:-1,CA108:CMT
+#EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name=""jan082025 CA CMT"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="",CA108:CMT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30206
-#EXTINF:-1,CA109:CNBC
+#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan082025 US CNBC "" tvg-logo="https://logo.iptveditor.com/cnbc.png" group-title="News",CA109:CNBC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30205
-#EXTINF:-1,CA110:CNN International
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA110:CNN International
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30204
-#EXTINF:-1,CA111:JOURNY
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/wzk3B8R/journy-logo-Logo.png" group-title="",CA111:JOURNY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30203
-#EXTINF:-1,CA112:Cooking Channel
+#EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="feb202025 CA COOKING Channel " tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="",CA112:Cooking Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30202
-#EXTINF:-1,CA113:LAW&CRIME
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA113:LAW&CRIME
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30201
-#EXTINF:-1,CA114:CPAC (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA114:CPAC (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30200
-#EXTINF:-1,CA115:Crime & Investigation HD
+#EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name=""xxx0000 CA: CRIME & INVESTIGATION"" tvg-logo="https://i.ibb.co/9pNYtDz/Crime-Investigation-Logo-10-2019-1.png" group-title="",CA115:Crime & Investigation HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30199
-#EXTINF:-1,CA116:Discovery Velocity
+#EXTINF:-1 tvg-id="Motor Trend HDTV" tvg-name="fe202025 CA Discovery Velocity HD " tvg-logo="https://i.ibb.co/zmZ6Bfc/discovery-velocity.png" group-title="",CA116:Discovery Velocity
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30198
-#EXTINF:-1,CA117:CTV Ottawa
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA117:CTV Ottawa
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30197
-#EXTINF:-1,CA118:CTV Toronto
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA118:CTV Toronto
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30196
-#EXTINF:-1,CA119:CTV Vancouver
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA119:CTV Vancouver
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30195
-#EXTINF:-1,CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""feb202025 CA CTV 2 Toronto HD "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CA120:CTV2 Ottawa
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30194
-#EXTINF:-1,CA121:Isuma TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA121:Isuma TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30193
-#EXTINF:-1,CA122:Global Edmonton
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA122:Global Edmonton
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30192
-#EXTINF:-1,CA123:W Network
+#EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""jan082025 CA W Network East (E)"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/the-weather-network-ca.png" group-title="",CA123:W Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30191
-#EXTINF:-1,CA124:Discovery Science HD
+#EXTINF:-1 tvg-id="Discovery Channel (CAN) HD.ca" tvg-name=""jan082025 CA: Discovery Science"" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",CA124:Discovery Science HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30190
-#EXTINF:-1,CA125:MovieTime
+#EXTINF:-1 tvg-id="MovieTime HD.ca" tvg-name=""feb202025 CA: MOVIETIME HD"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="",CA125:MovieTime
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30189
-#EXTINF:-1,CA126:Super Sports CH 477
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA126:Super Sports CH 477
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30188
-#EXTINF:-1,CA128:CTV Sci-Fi
+#EXTINF:-1 tvg-id="CTV Sci-Fi HD.ca" tvg-name=""xxx0000 CA CTV SCI-FI "" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="",CA128:CTV Sci-Fi
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30186
-#EXTINF:-1,CA129:Evasion (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA129:Evasion (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30185
-#EXTINF:-1,CA130:Family CHRGD
+#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://i.ibb.co/NghKK6H/Family-Channel-Logo-1.png" group-title="",CA130:Family CHRGD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30184
-#EXTINF:-1,CA131:Family Jr
+#EXTINF:-1 tvg-id="Family Jr. (SD)" tvg-name=""feb202025 CA: Family Jr HD"" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="",CA131:Family Jr
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30183
-#EXTINF:-1,CA132:Fight Network HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA132:Fight Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30182
-#EXTINF:-1,CA133:Fox News HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA133:Fox News HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30181
-#EXTINF:-1,CA134:FOX Sports Racing
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA134:FOX Sports Racing
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30180
-#EXTINF:-1,CA135:CBC Fredericton
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA135:CBC Fredericton
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30179
-#EXTINF:-1,CA136:Bein Sports HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA136:Bein Sports HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30178
-#EXTINF:-1,CA137:Global Toronto
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",CA137:Global Toronto
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30177
-#EXTINF:-1,CA138:Global Vancouver
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA138:Global Vancouver
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30176
-#EXTINF:-1,CA139:GOLF HD
+#EXTINF:-1 tvg-id="The Golf Channel" tvg-name=""xxx0000 CA: Golf Channel HD"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="",CA139:GOLF HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30175
-#EXTINF:-1,CA140:MIRACLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA140:MIRACLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30174
-#EXTINF:-1,CA141:Adult Swim HD
+#EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name=""xxx0000 CA Adult Swim "" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title=""CANADA "",CA141:Adult Swim HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30173
-#EXTINF:-1,CA142:MOONBUG
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA142:MOONBUG
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30172
-#EXTINF:-1,CA143:Love Nature
+#EXTINF:-1 tvg-id="Yes TV (CITS) Burlington, ON HD.ca" tvg-name=""jan082025 CA Love Nature HD "" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="",CA143:Love Nature
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30171
-#EXTINF:-1,CA144:ICI Tele Montreal (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA144:ICI Tele Montreal (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30170
-#EXTINF:-1,CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""feb202025 CA CTV 2 Toronto HD "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CA145:CTV2 Barrie
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30169
-#EXTINF:-1,CA146:IFC
+#EXTINF:-1 tvg-id="IFCEast.us" tvg-name="xxx0000 US IFC " tvg-logo="https://i.ibb.co/ZfVsXpR/IFC-2018-logo-1.png" group-title="",CA146:IFC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30168
-#EXTINF:-1,CA148:(FR) SERIES Plus SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA148:(FR) SERIES Plus SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30166
-#EXTINF:-1,CA149:(FR) Historia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA149:(FR) Historia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30165
-#EXTINF:-1,CA150:MAX
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA150:MAX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30164
-#EXTINF:-1,CA151:Meteo Media (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA151:Meteo Media (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30163
-#EXTINF:-1,CA152:EVASION (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA152:EVASION (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30162
-#EXTINF:-1,CA153:CTV Drama
+#EXTINF:-1 tvg-id="CTV DRAMA Channel SD" tvg-name=""jan082025 CA CTV Drama Channel "" tvg-logo="https://i.ibb.co/ggvnLbG/CTV-Drama-Channel-2019-1.png" group-title="",CA153:CTV Drama
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30161
-#EXTINF:-1,CA154:ADDIK TV (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA154:ADDIK TV (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30160
-#EXTINF:-1,CA156:W Network
+#EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name=""jan082025 CA W Network East (E)"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/the-weather-network-ca.png" group-title="",CA156:W Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30158
-#EXTINF:-1,CA157:MOI et CIE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA157:MOI et CIE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30157
-#EXTINF:-1,CA159:CTV HALIFAX
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA159:CTV HALIFAX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30155
-#EXTINF:-1,CA160:Game Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA160:Game Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30154
-#EXTINF:-1,CA161:NOSEY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA161:NOSEY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30153
-#EXTINF:-1,CA162:Wild TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA162:Wild TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30152
-#EXTINF:-1,CA163:Super Sports CH 474
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA163:Super Sports CH 474
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30151
-#EXTINF:-1,CA164:CTV MONTREAL
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="CA CTV Timmins Ontario HD (D)" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA164:CTV MONTREAL
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30150
-#EXTINF:-1,CA166:TELE QUEBEC (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA166:TELE QUEBEC (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30148
-#EXTINF:-1,CA167:TFO (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA167:TFO (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30147
-#EXTINF:-1,CA168:CTV2 London
+#EXTINF:-1 tvg-id="CTV2 Barrie, ON (CKVR).ca" tvg-name=""feb202025 CA CTV 2 Toronto HD "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CA168:CTV2 London
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30146
-#EXTINF:-1,CA169:TMN2E (CRAVE TV 2)
+#EXTINF:-1 tvg-id="Crave2 - East.ca" tvg-name="feb202025 CA: CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="",CA169:TMN2E (CRAVE TV 2)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30145
-#EXTINF:-1,CA170:TMN3E (CRAVE TV 3)
+#EXTINF:-1 tvg-id="Crave3 - East.ca" tvg-name="feb202025 CA: CRAVE 3 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="",CA170:TMN3E (CRAVE TV 3)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30144
-#EXTINF:-1,CA171:TMN4E (CRAVE TV 4)
+#EXTINF:-1 tvg-id="Crave4 - East.ca" tvg-name="feb202025 CA: CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="",CA171:TMN4E (CRAVE TV 4)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30143
-#EXTINF:-1,CA172:TV5 QUEBEC HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA172:TV5 QUEBEC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30142
-#EXTINF:-1,CA173:MTV
+#EXTINF:-1 tvg-id="MTV Canada HD.ca" tvg-name=""feb202025 CA: MTV"" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="",CA173:MTV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30141
-#EXTINF:-1,CA174:OMNI 1 HD
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",CA174:OMNI 1 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30140
-#EXTINF:-1,CA175:OMNI 2 HD
+#EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON HD.ca" tvg-name=""xxx0000 CA: OMNI 2 East"" tvg-logo="https://i.ibb.co/6nMpTJr/OMNI-2-stack.png" group-title="",CA175:OMNI 2 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30139
-#EXTINF:-1,CA176:Canada One
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA176:Canada One
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30138
-#EXTINF:-1,CA177:TVA QUEBEC
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA177:TVA QUEBEC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30137
-#EXTINF:-1,CA178:Peachtree
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA178:Peachtree
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30136
-#EXTINF:-1,CA179:PRISE (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA179:PRISE (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30135
-#EXTINF:-1,CA180:Super Sports CH 476
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA180:Super Sports CH 476
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30134
-#EXTINF:-1,CA181:Global Maritimes
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA181:Global Maritimes
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30133
-#EXTINF:-1,CA182:RDS 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA182:RDS 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30132
-#EXTINF:-1,CA183:EWTN (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA183:EWTN (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30131
-#EXTINF:-1,CA185:The Shopping Channel
+#EXTINF:-1 tvg-id="TSC.ca" tvg-name=""xxx0000 CA : The Shopping Channel (B)"" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",CA185:The Shopping Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30129
-#EXTINF:-1,CA186:Silver Screen Classics
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA186:Silver Screen Classics
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30128
-#EXTINF:-1,CA187:Paramount Network HD
+#EXTINF:-1 tvg-id="Paramount Network Canada.ca" tvg-name=""xxx0000 US Paramount TV "" tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title=""US "",CA187:Paramount Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30127
-#EXTINF:-1,CA188:Sportnet Pacific HD
+#EXTINF:-1 tvg-id="Sportsnet (Pacific) HD.ca" tvg-name=""xxx0000 CA Sportsnet Pacific FHD "" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",CA188:Sportsnet Pacific HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30126
-#EXTINF:-1,CA189:SUPER ECRAN 1
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA189:SUPER ECRAN 1
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30125
-#EXTINF:-1,CA190:SUPER ECRAN 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA190:SUPER ECRAN 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30124
-#EXTINF:-1,CA191:SUPER ECRAN 3
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA191:SUPER ECRAN 3
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30123
-#EXTINF:-1,CA192:SUPER ECRAN 4
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA192:SUPER ECRAN 4
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30122
-#EXTINF:-1,CA194:ZESTE (FR)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA194:ZESTE (FR)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30120
-#EXTINF:-1,CA195:CBC Yellowknife NT
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA195:CBC Yellowknife NT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30119
-#EXTINF:-1,CA196:Global Kingston
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA196:Global Kingston
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30118
-#EXTINF:-1,CA197:Teletoon
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA197:Teletoon
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30117
-#EXTINF:-1,CA198:CBC Regina
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA198:CBC Regina
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30116
-#EXTINF:-1,CA199:NBC (wycn) Nashua
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="jan082025 CA: NBC WGRZ BUFFALO" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",CA199:NBC (wycn) Nashua
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30115
-#EXTINF:-1,CA200:NBC 8 (wycn) Boston
+#EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="jan082025 CA: NBC WGRZ BUFFALO" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",CA200:NBC 8 (wycn) Boston
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30114
-#EXTINF:-1,CA201:Prise 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA201:Prise 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30113
-#EXTINF:-1,CA202:Makeful
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA202:Makeful
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30112
-#EXTINF:-1,CA203:MLB Network HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA203:MLB Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30111
-#EXTINF:-1,CA204:CBC Halifax
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA204:CBC Halifax
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30110
-#EXTINF:-1,CA205:Global Halifax
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA205:Global Halifax
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30109
-#EXTINF:-1,CA206:Global News Winnipeg
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA206:Global News Winnipeg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30108
-#EXTINF:-1,CA207:CBC Windsor
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA207:CBC Windsor
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30107
-#EXTINF:-1,CA208:UNIS TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA208:UNIS TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30106
-#EXTINF:-1,CA209:Nicktoon
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA209:Nicktoon
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30105
-#EXTINF:-1,CA210:Hollywood Suite 70's
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA210:Hollywood Suite 70's
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30104
-#EXTINF:-1,CA211:FX FHD
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="xxx0000 CA: FX HD"" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",CA211:FX FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30103
-#EXTINF:-1,CA212:Rogers TV London
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA212:Rogers TV London
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30102
-#EXTINF:-1,CA213:SALT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA213:SALT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30101
-#EXTINF:-1,CA214:CBC Calgary
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA214:CBC Calgary
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30100
-#EXTINF:-1,CA215:City Calgary
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA215:City Calgary
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30099
-#EXTINF:-1,CA216:CTV Calgary
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca"jan082025 CA CTV Toronto HD "" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CA216:CTV Calgary
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30098
-#EXTINF:-1,CA217:Global Calgary
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA217:Global Calgary
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30097
-#EXTINF:-1,CA218:Global Montreal
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA218:Global Montreal
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30096
-#EXTINF:-1,CA219:Super Channel Heart & Home
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA219:Super Channel Heart & Home
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30095
-#EXTINF:-1,CA220:RDS INFO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA220:RDS INFO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30094
-#EXTINF:-1,CA221:CBC Winnipeg
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="jan082025 CA CBC Toronto " tvg-logo="https://i.ibb.co/8Kk4ZGN/CBC-logo-1.png" group-title="",CA221:CBC Winnipeg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59195
-#EXTINF:-1,CA223:Nickelodeon
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA223:Nickelodeon
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59196
-#EXTINF:-1,CA222:(FR) NOOVO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA222:(FR) NOOVO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59197
-#EXTINF:-1,CA224:TVA Sports 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA224:TVA Sports 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/65933
-#EXTINF:-1,CA225:Rogers TV Bathurst
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA225:Rogers TV Bathurst
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49994
 
 
