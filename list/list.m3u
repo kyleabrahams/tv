@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 15, 100 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 16, 426 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA City News Toronto ON" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -540,7 +540,7 @@ https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5df97894467dfa00091c8
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?ads.xumo_channelId=99951298
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/fkBWxvc/Today-logo-1.png" group-title="",Today Allday
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991245
-#EXTINF:-1 tvg-id="" tvg-co#EXTINF:-1,US053:Lifetime HD
+#EXTINF:-1 tvg-id="" tvg-co#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US053:Lifetime HD
 untry="" tvg-logo="https://i.ibb.co/47G1S2s/bein-sports-xtra-1.png" group-title="Sports",Bein Sports Xtra (Geo)
 https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/Wtn5YsK/accdn-logo.png" group-title="",ACCDN
@@ -735,7 +735,6 @@ https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418440
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="xxx0000 CA CP24 News" tvg-logo="https://i.ibb.co/nRPmZCP/cp24.webp" group-title="",CP24 News 4
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/487565
-
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 2
 http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418123
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 CA MSNBC " tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="News",MSNBC 3
@@ -748,7 +747,7 @@ http://hdtt3.online:3050/arttvcnj/hvCS6DDg7w/418474
 
 "MasterCA-US.m3u"
 
-#EXTINF:-1,------|Canada|------
+#EXTINF:-1 ------|Canada|------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3069
 #EXTINF:-1 tvg-id="ABC Spark" tvg-name=""feb202025 CA: ABC SPARK"" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",CA001:ABC Spark HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3068
@@ -914,7 +913,7 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2989
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2988
 #EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA082:RDS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/2987
-#EXTINF:-1, tvg-id="AandE Network Canada" tvg-name="xxx0000 CA: A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",CA083:A&E HD
+#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name="xxx0000 CA: A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",CA083:A&E HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30231
 #EXTINF:-1 tvg-id="Vision TV Eastern.ca" tvg-name=""xxx0000 CA: Vision"" tvg-logo="https://i.ibb.co/KsJtjPD/Vision-TV.png" group-title="",CA084:Vision
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30230
@@ -1184,23 +1183,23 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59197
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/65933
 #EXTINF:-1 tvg-id="" tvg-name="xxx0000 CA " tvg-logo="" group-title="",CA225:Rogers TV Bathurst
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49994
-#EXTINF:-1,------|USA|------
+#EXTINF:-1 ------|USA|------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3168
-#EXTINF:-1, tvg-id="AandE Network Canada" tvg-name="xxx0000 CA: A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",US001:A&E HD
+#EXTINF:-1 tvg-id="AandE Network Canada" tvg-name="xxx0000 CA: A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",US001:A&E HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3167
-#EXTINF:-1, tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="xxx0000 CA: ABC WKBW BUFFALO" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",US002:ABC HD
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="xxx0000 CA: ABC WKBW BUFFALO" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",US002:ABC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3166
-#EXTINF:-1,US003:ABC-NEWS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US003:ABC-NEWS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3165
-#EXTINF:-1,US004:ABC 7
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US004:ABC 7
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3164
-#EXTINF:-1,US005:ACTION MAX
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US005:ACTION MAX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3163
-#EXTINF:-1, tvg-id="AMC - Canada HD.ca" tvg-name=""jan082025 CA: AMC"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="",US006:AMC HD
+#EXTINF:-1 tvg-id="AMC - Canada HD.ca" tvg-name=""jan082025 CA: AMC"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="",US006:AMC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3162
-#EXTINF:-1, tvg-id="Animal Planet Canada HD.ca" tvg-name=""nov072024 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",US007:Animal Planet HD
+#EXTINF:-1 tvg-id="Animal Planet Canada HD.ca" tvg-name=""nov072024 CA: Animal Planet"" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",US007:Animal Planet HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3161
-#EXTINF:-1, tvg-id="BBC America HDTV (East) - BBC.us" tvg-name="fe202025 US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="",US008:BBC America HD
+#EXTINF:-1 tvg-id="BBC America HDTV (East) - BBC.us" tvg-name="fe202025 US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="",US008:BBC America HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3160
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/47G1S2s/bein-sports-xtra-1.png" group-title="Sports",US009:BeIN Sports 1 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3159
@@ -1208,11 +1207,11 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3159
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3158
 #EXTINF:-1 tvg-id="Bravo.us" tvg-name="fe202025 US Bravo (East)   " tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",US011:BRAVO HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3157
-#EXTINF:-1,US012:PAC-12 Washington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US012:PAC-12 Washington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3156
-#EXTINF:-1,US013:PAC-12 Los Angeles
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US013:PAC-12 Los Angeles
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3155
-#EXTINF:-1,US014:PAC-12 Oregon
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US014:PAC-12 Oregon
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3154
 #EXTINF:-1 tvg-id="vice" tvg-name="xxx0000 US VICELAND " tvg-logo="https://i.ibb.co/Vj9gNX3/vice-logo-white-1.png" group-title="",US015:Viceland HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3153
@@ -1220,9 +1219,9 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3153
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3152
 #EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="jan082025 CA: CBS WIVB BUFFALO" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",US017:CBS-HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3151
-#EXTINF:-1,US018:CBSN HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US018:CBSN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3150
-#EXTINF:-1,US019:STARZ EAST
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US019:STARZ EAST
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3149
 #EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan082025 US CNBC "" tvg-logo="https://logo.iptveditor.com/cnbc.png" group-title="News",US020:CNBC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3148
@@ -1230,7 +1229,7 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3148
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3147
 #EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="fe202025 US Comedy Central (East) " tvg-logo="https://i.ibb.co/YWW0MDd/Comedy-Central-2018-1.png" group-title="",US022:Comedy Central HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3146
-#EXTINF:-1,US023:CW HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US023:CW HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3145
 #EXTINF:-1 tvg-id="Destination America.us" tvg-name="fe202025 US Destination America " tvg-logo="https://i.ibb.co/1rprP1w/Destination-America-logo-1.png" group-title="",US024:Destination America HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3144
@@ -1240,29 +1239,29 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3143
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3142
 #EXTINF:-1 tvg-id="Disney Jr. Canada" tvg-name=""xxx0000 US Disney Junior "" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/b2/b7/22/b2b72295281d514754baa8452788c800.png" group-title="",US027:Disney JR HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3141
-#EXTINF:-1,US028:Disney XD HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US028:Disney XD HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3140
 #EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="fe202025 US DIY Network " tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",US029:DIY Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3139
 #EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name=""feb202025 CA E! "" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",US030:E! HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3138
-#EXTINF:-1,US031:ESPN-2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US031:ESPN-2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3137
-#EXTINF:-1,US032:ESPN-HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US032:ESPN-HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3136
-#EXTINF:-1,US033:ESPN-News
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US033:ESPN-News
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3135
-#EXTINF:-1,US034:ESPN-U
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US034:ESPN-U
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3134
 #EXTINF:-1 tvg-id="Food Network.us" tvg-name="fe202025 US Food Network HD" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="",US035:Food Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3133
-#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US036:FOX-HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US036:FOX-HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3132
-#EXTINF:-1,US037:FOX-News
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US037:FOX-News
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3131
-#EXTINF:-1,US038:FOX-Sports1
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US038:FOX-Sports1
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3130
-#EXTINF:-1,US039:FOX-Sports2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US039:FOX-Sports2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3129
 #EXTINF:-1 tvg-id="Freeform (East)" tvg-name="fe202025 US Freeform East" tvg-logo="https://i.ibb.co/bvz1wgC/Freeform-2022-1.png" group-title="",US040:Freeform HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3128
@@ -1274,13 +1273,13 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3126
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3125
 #EXTINF:-1 tvg-id="Hallmark Movies and Mysteries HDTV" tvg-name="xxx0000 US Hallmark Movies & Mysteries " tvg-logo="https://i.ibb.co/SVZNFJR/hallmark-mov-more-1.png" group-title="",US044:Hallmark Movies & Mysteries
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3124
-#EXTINF:-1,US045:HBO Comedy
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US045:HBO Comedy
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3123
 #EXTINF:-1 tvg-id="HBO (East)" tvg-name="xxx0000 US HBO East HD  " tvg-logo="https://logos-download.com/wp-content/uploads/2016/10/HBO_logo_blue.png" group-title="",US046:HBO East
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3122
-#EXTINF:-1,US047:HBO Signature
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US047:HBO Signature
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3121
-#EXTINF:-1,US048:HBO Zone
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US048:HBO Zone
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3120
 #EXTINF:-1 tvg-id="Home and Garden Television HDTV (East)" tvg-name="xxx0000 US HGTV (East) " tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="",US049:HGTV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3119
@@ -1294,7 +1293,7 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3116
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3115
 #EXTINF:-1 tvg-id="Lifetime Movies HDTV (East)" tvg-name="xxx0000 US Lifetime Movie" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title="",US054:Lifetime Movie
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3114
-#EXTINF:-1,US055:HBO 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US055:HBO 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3113
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="xxx0000 US MSNBC" tvg-logo="https://i.ibb.co/WVk5KyH/MSNBC-2021-stacked.png" group-title="",US057:MSNBC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3111
@@ -1302,35 +1301,35 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3111
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3110
 #EXTINF:-1 tvg-id="National Geographic Channel HDTV" tvg-name="xxx0000 US National Geographic (East) " tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",US059:NAT GEO HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3109
-#EXTINF:-1,US061:NBC-Golf
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US061:NBC-Golf
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3107
 #EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="jan082025 CA: NBC WGRZ BUFFALO" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",US062:NBC-HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3106
-#EXTINF:-1,US063:NBCSN HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US063:NBCSN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3105
-#EXTINF:-1,US065:Nicktoons HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US065:Nicktoons HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3103
 #EXTINF:-1 tvg-id="WCCTDT2.us" tvg-name="xxx0000 US insp " tvg-logo="https://i.ibb.co/TWSPs7x/insp-trn-1.png" group-title="",US066:INSP HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3102
 #EXTINF:-1 tvg-id="The Oprah Winfrey Network (East)" tvg-name=""xxx0000 CA>US OWN"" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",US067:Oprah Winfrey Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3101
-#EXTINF:-1,US068:Discovery Science HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US068:Discovery Science HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3100
-#EXTINF:-1,US069:Showtime HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US069:Showtime HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3099
-#EXTINF:-1,US070:Showtime 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US070:Showtime 2 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3098
-#EXTINF:-1,US071:SONIC
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US071:SONIC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3097
 #EXTINF:-1 tvg-id="Syfy (East)" tvg-name="xxx0000 US Syfy (East)   " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/syfy-us.png?raw=true" group-title="",US072:SyFy HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3096
 #EXTINF:-1 tvg-id="TBS Superstation (East)" tvg-name="xxx0000 US TBS " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="",US073:TBS HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3095
-#EXTINF:-1,US074:PAC-12 Bay Area
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US074:PAC-12 Bay Area
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3094
 #EXTINF:-1 tvg-id="TLCEast.us" tvg-name="xxx0000 US TLC (east) " tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",US075:TLC HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3093
-#EXTINF:-1,US076:TNT HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US076:TNT HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3092
 #EXTINF:-1 tvg-id="TravelChannelEast.us" tvg-name="xxx0000 US Travel Channel East " tvg-logo="https://i.ibb.co/Yt0Yzgh/trvl-1.png" group-title="",US077:Travel channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3091
@@ -1348,845 +1347,845 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3086
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3085
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/Lgg9qb7/UFC-Logo-svg.png" group-title="Sports",US084:UFC Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3084
-#EXTINF:-1,US085:WWE-Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US085:WWE-Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3083
-#EXTINF:-1,US086:Tennis HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US086:Tennis HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3082
-#EXTINF:-1,US087:NESN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US087:NESN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3081
-#EXTINF:-1,US088:CBS Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US088:CBS Sports Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3080
-#EXTINF:-1,US090:Fox Sports Yes
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US090:Fox Sports Yes
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3078
-#EXTINF:-1,US091:SEC Network HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US091:SEC Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3077
-#EXTINF:-1,US092:Big Ten Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US092:Big Ten Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3076
-#EXTINF:-1,US093:MYTV NEW YORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US093:MYTV NEW YORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3075
 #EXTINF:-1 tvg-id="Fox Business Network HDTV" tvg-name="fe202025 US Fox Business Network" tvg-logo="https://i.ibb.co/LC3XY5P/Fox-Business-Prime-1-1.png" group-title="",US094:Fox Business Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3074
-#EXTINF:-1,US095:PBS Kids HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US095:PBS Kids HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3073
-#EXTINF:-1,US096:CBN HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US096:CBN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3072
-#EXTINF:-1,US097:Circle
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US097:Circle
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3071
-#EXTINF:-1,US098:News 12 Westchester
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US098:News 12 Westchester
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3070
-#EXTINF:-1,US099:Fox Sports NetBase
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US099:Fox Sports NetBase
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30091
-#EXTINF:-1,US100:Fox Sports Sportstime Ohio
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US100:Fox Sports Sportstime Ohio
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30090
-#EXTINF:-1,US101:Fox Sports Yes Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US101:Fox Sports Yes Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30089
-#EXTINF:-1,US102:Fox Sports San Diego
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US102:Fox Sports San Diego
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30088
-#EXTINF:-1,US103:Fox Sports Sun
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US103:Fox Sports Sun
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30087
-#EXTINF:-1,US104:Fox Sports Detroit
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US104:Fox Sports Detroit
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30086
-#EXTINF:-1,US105:Fox Sports Ohio
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US105:Fox Sports Ohio
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30085
-#EXTINF:-1,US106:Fox Sports North
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US106:Fox Sports North
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30084
-#EXTINF:-1,US107:Fox Sports Indiana
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US107:Fox Sports Indiana
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30083
-#EXTINF:-1,US108:Fox Sports Florida
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US108:Fox Sports Florida
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30082
-#EXTINF:-1,US109:Fox Sports Arizona
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US109:Fox Sports Arizona
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30081
-#EXTINF:-1,US110:Fox Sports Wisconsin
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US110:Fox Sports Wisconsin
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30080
-#EXTINF:-1,US111:Fox Sports West
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US111:Fox Sports West
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30079
-#EXTINF:-1,US112:Fox Sports South
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US112:Fox Sports South
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30078
-#EXTINF:-1,US113:Fox Sports Southeast
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US113:Fox Sports Southeast
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30077
-#EXTINF:-1,US114:Fox Sports Southwest Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US114:Fox Sports Southwest Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30076
-#EXTINF:-1,US115:Fox Sports Southwest
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US115:Fox Sports Southwest
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30075
-#EXTINF:-1,US116:ABC 33 (KSPR) Missouri
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US116:ABC 33 (KSPR) Missouri
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30074
-#EXTINF:-1,US117:Fox Sports 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US117:Fox Sports 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30073
-#EXTINF:-1,US118:Fox Sports Oklahoma
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US118:Fox Sports Oklahoma
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30072
-#EXTINF:-1,US119:Fox Sacramento
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US119:Fox Sacramento
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30071
-#EXTINF:-1,US120:Fox Sports Kansas City Plu
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US120:Fox Sports Kansas City Plu
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30070
-#EXTINF:-1,US121:Fox Sports Prime Ticket
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US121:Fox Sports Prime Ticket
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30069
-#EXTINF:-1,US122:NBC 13 (WHO) Des Moines
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US122:NBC 13 (WHO) Des Moines
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30068
-#EXTINF:-1,US123:Root Sports Northwest Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US123:Root Sports Northwest Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30067
-#EXTINF:-1,US124:AT&T Sportsnet Southwest ALT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US124:AT&T Sportsnet Southwest ALT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30066
-#EXTINF:-1,US125:AT&T SportsNet Pittsburgh
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US125:AT&T SportsNet Pittsburgh
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30065
-#EXTINF:-1,US126:AT&T SportsNet Pittsburgh Alternate
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US126:AT&T SportsNet Pittsburgh Alternate
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30064
-#EXTINF:-1,US933:AT&T SportsNet Southwest
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US933:AT&T SportsNet Southwest
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31051
-#EXTINF:-1,US934:UFC FIGHT PASS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US934:UFC FIGHT PASS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31050
-#EXTINF:-1,US128:Root Sports Northwest
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US128:Root Sports Northwest
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30062
 #EXTINF:-1 tvg-id="NatGeo WILD HDTV" tvg-name="xxx0000 US Nat Geo Wild East " tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="",US130:NAT GEO WILD HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30060
 #EXTINF:-1 tvg-id="Game Show Network HDTV (EAST)" tvg-name="xxx0000 US Game Show Network" tvg-logo="https://i.ibb.co/8zx49b6/Game-Show-Network-2018-1.png" group-title="",US131:Game Show Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30059
-#EXTINF:-1,US132:Stadium Sports 1
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US132:Stadium Sports 1
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30058
-#EXTINF:-1,US133:Stadium Sports 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US133:Stadium Sports 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30057
-#EXTINF:-1,US134:Stadium Sports 3
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US134:Stadium Sports 3
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30056
-#EXTINF:-1,US135:SportsNet New York
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US135:SportsNet New York
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30055
-#EXTINF:-1,US136:TyC Sports
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US136:TyC Sports
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30054
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="xxx0000 CA Turner Classic Movies" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="",US137:TCM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30053
-#EXTINF:-1,US138:MSG HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US138:MSG HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30052
-#EXTINF:-1,US139:MSG 2 HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US139:MSG 2 HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30051
-#EXTINF:-1,US140:MSG Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US140:MSG Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30050
-#EXTINF:-1,US141:Nickelodeon HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US141:Nickelodeon HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30049
-#EXTINF:-1,US142:Marquee Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US142:Marquee Sports Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30048
 #EXTINF:-1 tvg-id="AXS.us" tvg-name="fe202025 US AXS TV " tvg-logo="https://i.ibb.co/dgqcsw3/AXS-TV-logo-1.png" group-title="",US143:AXS TV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30047
-#EXTINF:-1,US144:Bally Sports Carolinas
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US144:Bally Sports Carolinas
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30046
-#EXTINF:-1,US145:Fight Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US145:Fight Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30045
-#EXTINF:-1,US146:FNTSY Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US146:FNTSY Sports Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30044
-#EXTINF:-1,US147:News 12 Connecticut
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US147:News 12 Connecticut
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30043
-#EXTINF:-1,US148:TRACE URBAN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US148:TRACE URBAN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30042
-#EXTINF:-1,US149:AT&T Sportsnet
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US149:AT&T Sportsnet
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30041
-#EXTINF:-1,US150:World_Fishing_Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US150:World_Fishing_Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30040
-#EXTINF:-1,US151:NESN_BOS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US151:NESN_BOS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30039
-#EXTINF:-1,US152:NESN_PLUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US152:NESN_PLUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30038
-#EXTINF:-1,US153:Sportsman_Channel
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US153:Sportsman_Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30037
-#EXTINF:-1,US154:CBS (KCBS) Los Angeles
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US154:CBS (KCBS) Los Angeles
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30036
-#EXTINF:-1,US155:Eleven_Sports
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US155:Eleven_Sports
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30035
 #EXTINF:-1 tvg-id="The Golf Channel" tvg-name=""xxx0000 CA: Golf Channel HD"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="",US156:NBC_Golf_Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30034
-#EXTINF:-1,US157:NBC Sports Philadelfia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US157:NBC Sports Philadelfia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30033
-#EXTINF:-1,US158:NBC Sports Washington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US158:NBC Sports Washington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30032
 #EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="jan082025 CA: NBC WGRZ BUFFALO" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",US159:NBC (WESH)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30031
-#EXTINF:-1,US160:NBC Sports Chicago
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US160:NBC Sports Chicago
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30030
-#EXTINF:-1,US161:NBC Sports Bay Area
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US161:NBC Sports Bay Area
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30029
-#EXTINF:-1,US162:NBC Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US162:NBC Sports Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30028
-#EXTINF:-1,US165:NBC Sports Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US165:NBC Sports Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30025
-#EXTINF:-1,US166:CBS (WWJ) Detroit
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US166:CBS (WWJ) Detroit
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30024
 #EXTINF:-1 tvg-id="WWORDT3.us" tvg-name="fe202025 US BUZZR (STV)" tvg-logo="https://i.ibb.co/k8xYTB3/Buzzr-logo-color.png" group-title="",US167:BUZZR HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30023
-#EXTINF:-1,US168:CBS BOSTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US168:CBS BOSTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30022
-#EXTINF:-1,US169:CBS 7 SEATTLE KIRO-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US169:CBS 7 SEATTLE KIRO-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30021
-#EXTINF:-1,US172:CBS 2 LOS ANGELES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US172:CBS 2 LOS ANGELES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30018
 #EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="jan082025 CA: CBS WIVB BUFFALO" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",US175:CBS 4 (WIVB) Buffalo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30015
-#EXTINF:-1,US179:CBS CHARLOTTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US179:CBS CHARLOTTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30011
-#EXTINF:-1,US182:CBS ATLANTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US182:CBS ATLANTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30008
-#EXTINF:-1,US184:CBS 58 MILWAUKEE WDJT-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US184:CBS 58 MILWAUKEE WDJT-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30006
-#EXTINF:-1,US186:CBS 10 COLUMBUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US186:CBS 10 COLUMBUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30004
-#EXTINF:-1,US187:CBS SAN FRANCISCO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US187:CBS SAN FRANCISCO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30003
-#EXTINF:-1,US193:CBS 4 SAINT LUIS KMOV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US193:CBS 4 SAINT LUIS KMOV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29997
-#EXTINF:-1,US197:CBS 3 OMAHA KMTV-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US197:CBS 3 OMAHA KMTV-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29993
-#EXTINF:-1,US199:CBS GREENSBORO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US199:CBS GREENSBORO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29991
-#EXTINF:-1,US200:CBS 4 MINNEAPOLIS WCCO-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US200:CBS 4 MINNEAPOLIS WCCO-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29990
-#EXTINF:-1,US201:CBS 13 BALTIMORE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US201:CBS 13 BALTIMORE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29989
-#EXTINF:-1,US202:CBS 3 PHILADELPHIA KYW-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US202:CBS 3 PHILADELPHIA KYW-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29988
-#EXTINF:-1,US203:CBS 3 HARTFORD WFSB
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US203:CBS 3 HARTFORD WFSB
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29987
-#EXTINF:-1,US204:CBS 4 NEW ORLEANS WWL-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US204:CBS 4 NEW ORLEANS WWL-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29986
-#EXTINF:-1,US205:CBS 4 MIAMI WFOR-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US205:CBS 4 MIAMI WFOR-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29985
-#EXTINF:-1,US206:CBS 4 DENVER
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US206:CBS 4 DENVER
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29984
-#EXTINF:-1,US207:CBS 46 ATLANTA WGCL-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US207:CBS 46 ATLANTA WGCL-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29983
-#EXTINF:-1,US208:CBS 5 SAN ANTONIO KENS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US208:CBS 5 SAN ANTONIO KENS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29982
-#EXTINF:-1,US209:CBS 5 PHOENIX KPHO-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US209:CBS 5 PHOENIX KPHO-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29981
-#EXTINF:-1,US210:CBS 5 NASHVILLE WTVF
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US210:CBS 5 NASHVILLE WTVF
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29980
-#EXTINF:-1,US211:CBS 5 KANSAS CITY KCTV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US211:CBS 5 KANSAS CITY KCTV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29979
-#EXTINF:-1,US212:CBS NEW YORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US212:CBS NEW YORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29978
-#EXTINF:-1,US213:CBS 9 (KCAL)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US213:CBS 9 (KCAL)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29977
-#EXTINF:-1,US214:CBS 10 (KLFY) LAFAYETTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US214:CBS 10 (KLFY) LAFAYETTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29976
-#EXTINF:-1,US216:CBS 10 (KOLR) SPRINGFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US216:CBS 10 (KOLR) SPRINGFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29974
-#EXTINF:-1,US217:CBS 6 (WLNS) Lansing
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US217:CBS 6 (WLNS) Lansing
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29973
-#EXTINF:-1,US218:CBS 6 ORLANDO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US218:CBS 6 ORLANDO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29972
-#EXTINF:-1,US219:CBS 10 (WTHI) TERRE HAUTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US219:CBS 10 (WTHI) TERRE HAUTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29971
-#EXTINF:-1,US220:CBS (KTVQ) Billings
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US220:CBS (KTVQ) Billings
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29970
-#EXTINF:-1,US221:CBS 11 (KELO) SIOUX FALLS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US221:CBS 11 (KELO) SIOUX FALLS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29969
-#EXTINF:-1,US222:CBS 11 (KKTV) COLORADO SPRINGS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US222:CBS 11 (KKTV) COLORADO SPRINGS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29968
-#EXTINF:-1,US223:CBS 11 (KMVT) TWIN FALLS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US223:CBS 11 (KMVT) TWIN FALLS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29967
-#EXTINF:-1,US224:CBS 11 (KTHV) LITTLE ROCK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US224:CBS 11 (KTHV) LITTLE ROCK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29966
-#EXTINF:-1,US225:CBS 11 (KTVT) FORT WORTH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US225:CBS 11 (KTVT) FORT WORTH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29965
-#EXTINF:-1,US226:CBS 9 (WUSA) Washington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US226:CBS 9 (WUSA) Washington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29964
-#EXTINF:-1,US227:CBS 11 (WTOC) SAVANNAH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US227:CBS 11 (WTOC) SAVANNAH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29963
-#EXTINF:-1,US228:CBS 11 (WTOL) TOLEDO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US228:CBS 11 (WTOL) TOLEDO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29962
-#EXTINF:-1,US229:CBS 9 (KWTV) Oklahoma City
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US229:CBS 9 (KWTV) Oklahoma City
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29961
-#EXTINF:-1,US231:CBS 12 (KSLA) SHREVEPORT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US231:CBS 12 (KSLA) SHREVEPORT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29959
-#EXTINF:-1,US232:CBS (KWCH) Wichita-Hutchinson Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US232:CBS (KWCH) Wichita-Hutchinson Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29958
-#EXTINF:-1,US233:CBS 12 (WDEF) CHATTANOOGA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US233:CBS 12 (WDEF) CHATTANOOGA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29957
-#EXTINF:-1,US234:CBS 12 (WJTV) JACKSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US234:CBS 12 (WJTV) JACKSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29956
-#EXTINF:-1,US235:BET Jams
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US235:BET Jams
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29955
-#EXTINF:-1,US236:CBS 8 (KFMB) San Diego
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US236:CBS 8 (KFMB) San Diego
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29954
-#EXTINF:-1,US238:CBS 12 (WRDW) AUGUSTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US238:CBS 12 (WRDW) AUGUSTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29952
-#EXTINF:-1,US240:CBS 8 (WVLT) Knoxville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US240:CBS 8 (WVLT) Knoxville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29950
-#EXTINF:-1,US245:CBS (KVAL) Eugene, Oregon
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US245:CBS (KVAL) Eugene, Oregon
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29945
-#EXTINF:-1,US246:CBS 8 (WAGM) Presque Isle
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US246:CBS 8 (WAGM) Presque Isle
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29944
-#EXTINF:-1,US254:CBS 13 (WBTW) FLORENCE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US254:CBS 13 (WBTW) FLORENCE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29936
-#EXTINF:-1,US259:CBS 13 (WGME) PORTLAND/AUBURN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US259:CBS 13 (WGME) PORTLAND/AUBURN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29931
-#EXTINF:-1,US269:CBS 13 (WJZ) BALTIMORE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US269:CBS 13 (WJZ) BALTIMORE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29921
-#EXTINF:-1,US273:CBS 8 (KLAS) Las Vegas
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US273:CBS 8 (KLAS) Las Vegas
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29917
-#EXTINF:-1,US274:CBS (WCTV) Thomasville, Georgia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US274:CBS (WCTV) Thomasville, Georgia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29916
-#EXTINF:-1,US275:CBS 13 (WMAZ) MACON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US275:CBS 13 (WMAZ) MACON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29915
-#EXTINF:-1,US276:CBS 6 (KOTV) Tulsa
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US276:CBS 6 (KOTV) Tulsa
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29914
-#EXTINF:-1,US277:CBS 58 (WDJT) MILWAUKEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US277:CBS 58 (WDJT) MILWAUKEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29913
-#EXTINF:-1,US278:CBS 47 (WJAX) Jacksonville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US278:CBS 47 (WJAX) Jacksonville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29912
-#EXTINF:-1,US279:CBS 17 (WNCN) GOLDSBORO/RALEIGH/DURHAM
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US279:CBS 17 (WNCN) GOLDSBORO/RALEIGH/DURHAM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29911
-#EXTINF:-1,US280:CBS 4 (KDBC) EL PASO TX
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US280:CBS 4 (KDBC) EL PASO TX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29910
-#EXTINF:-1,US281:CBS 4 (WTVY) Dothan
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US281:CBS 4 (WTVY) Dothan
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29909
-#EXTINF:-1,US282:CBS 19 (WHNT) HUNTSVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US282:CBS 19 (WHNT) HUNTSVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29908
-#EXTINF:-1,US283:CBS 19 (WLTX) COLUMBIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US283:CBS 19 (WLTX) COLUMBIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29907
-#EXTINF:-1,US284:CBS 2 (KCBS) LOS ANGELES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US284:CBS 2 (KCBS) LOS ANGELES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29906
-#EXTINF:-1,US285:CBS 2 (KDKA) PITTSBURGH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US285:CBS 2 (KDKA) PITTSBURGH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29905
-#EXTINF:-1,US286:CBS 9 (KCAL) Los Angeles
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US286:CBS 9 (KCAL) Los Angeles
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29904
-#EXTINF:-1,US287:CBS 7 (KIRO) SEATTLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US287:CBS 7 (KIRO) SEATTLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29903
-#EXTINF:-1,US288:CBS 2 (KTVN) RENO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US288:CBS 2 (KTVN) RENO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29902
-#EXTINF:-1,US289:CBS 2 (KUTV) SALT LAKE CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US289:CBS 2 (KUTV) SALT LAKE CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29901
-#EXTINF:-1,US290:CBS 2 (WBBM) CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US290:CBS 2 (WBBM) CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29900
-#EXTINF:-1,US291:CBS 12 (WKRC) Cincinnati
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US291:CBS 12 (WKRC) Cincinnati
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29899
-#EXTINF:-1,US292:CBS 23 (WIFR-LD) ROCKFORD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US292:CBS 23 (WIFR-LD) ROCKFORD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29898
-#EXTINF:-1,US293:CBS 27 (WKBN) YOUNGSTOWN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US293:CBS 27 (WKBN) YOUNGSTOWN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29897
-#EXTINF:-1,US294:CBS 27 (WKYT) LEXINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US294:CBS 27 (WKYT) LEXINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29896
-#EXTINF:-1,US295:CBS 29 (KBAK) BAKERSFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US295:CBS 29 (KBAK) BAKERSFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29895
-#EXTINF:-1,US296:CBS 8 (WROC) Rochester
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US296:CBS 8 (WROC) Rochester
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29894
-#EXTINF:-1,US297:CBS 26 (WIYE) Parkersburg
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US297:CBS 26 (WIYE) Parkersburg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29893
-#EXTINF:-1,US298:CBS (KENS) San Antonio
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US298:CBS (KENS) San Antonio
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29892
-#EXTINF:-1,US299:CBS 3 (KYW) PHILADELPHIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US299:CBS 3 (KYW) PHILADELPHIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29891
-#EXTINF:-1,US300:CBS 8 (WKBT) La Crosse
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US300:CBS 8 (WKBT) La Crosse
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29890
-#EXTINF:-1,US301:CBS 3 (WTKR) Hampton Roads
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US301:CBS 3 (WTKR) Hampton Roads
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29889
-#EXTINF:-1,US302:CBS 3 (WISC) MADISON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US302:CBS 3 (WISC) MADISON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29888
-#EXTINF:-1,US303:CBS 3 (WREG) MEMPHIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US303:CBS 3 (WREG) MEMPHIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29887
-#EXTINF:-1,US304:CBS 3 (WSHM) SPRINGFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US304:CBS 3 (WSHM) SPRINGFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29886
-#EXTINF:-1,US305:CBS 3 (WWAY) WILMINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US305:CBS 3 (WWAY) WILMINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29885
-#EXTINF:-1,US306:CBS (KREX) Grand Junction
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US306:CBS (KREX) Grand Junction
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29884
-#EXTINF:-1,US307:CBS (WAKA) Montgomery
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US307:CBS (WAKA) Montgomery
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29883
-#EXTINF:-1,US308:CBS (WSPA) Spartanburg
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US308:CBS (WSPA) Spartanburg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29882
-#EXTINF:-1,US309:CBS (WMBD) Peoria
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US309:CBS (WMBD) Peoria
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29881
-#EXTINF:-1,US310:CBS 32 (WLKY) LOUISVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US310:CBS 32 (WLKY) LOUISVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29880
-#EXTINF:-1,US311:CBS 35 (WSEE) ERIE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US311:CBS 35 (WSEE) ERIE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29879
-#EXTINF:-1,US312:CBS 3 (WFSB) Hartford
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US312:CBS 3 (WFSB) Hartford
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29878
-#EXTINF:-1,US313:CBS (KXLH) Butte-Bozeman
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US313:CBS (KXLH) Butte-Bozeman
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29877
-#EXTINF:-1,US314:CBS 4 (WCBI) COLUMBUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US314:CBS 4 (WCBI) COLUMBUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29876
-#EXTINF:-1,US315:Adult Swim HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US315:Adult Swim HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29875
-#EXTINF:-1,US316:CBS (WABI) Bangor
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US316:CBS (WABI) Bangor
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29874
-#EXTINF:-1,US317:CBS 13 (KOVR) Sacramento
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US317:CBS 13 (KOVR) Sacramento
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29873
-#EXTINF:-1,US318:CBS 9 (WAFB) Baton Rouge
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US318:CBS 9 (WAFB) Baton Rouge
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29872
-#EXTINF:-1,US319:CBS 42 (KEYE) AUSTIN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US319:CBS 42 (KEYE) AUSTIN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29871
-#EXTINF:-1,US320:CBS 42 (WIAT) BIRMINGHAM
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US320:CBS 42 (WIAT) BIRMINGHAM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29870
-#EXTINF:-1,US321:CBS 44 (WEVV) EVANSVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US321:CBS 44 (WEVV) EVANSVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29869
-#EXTINF:-1,US322:CBS 46 (KION) MONTEREY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US322:CBS 46 (KION) MONTEREY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29868
-#EXTINF:-1,US323:CBS 18 (WECP-LD) Panama City
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US323:CBS 18 (WECP-LD) Panama City
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29867
-#EXTINF:-1,US324:CBS (KCNC) Denver
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US324:CBS (KCNC) Denver
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29866
-#EXTINF:-1,US325:CBS 5 (KGMB) HONOLULU
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US325:CBS 5 (KGMB) HONOLULU
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29865
-#EXTINF:-1,US326:CBS (KBJR) Duluth
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US326:CBS (KBJR) Duluth
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29864
-#EXTINF:-1,US327:CBS 5 (WCSC) CHARLESTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US327:CBS 5 (WCSC) CHARLESTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29863
-#EXTINF:-1,US328:CBS (KPAX) Missoula
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US328:CBS (KPAX) Missoula
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29862
-#EXTINF:-1,US329:CBS (WNCT) Greenville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US329:CBS (WNCT) Greenville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29861
-#EXTINF:-1,US330:CBS 5 (WTVH) SYRACUSE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US330:CBS 5 (WTVH) SYRACUSE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29860
-#EXTINF:-1,US331:CBS (KFDA) Amarillo
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US331:CBS (KFDA) Amarillo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29859
-#EXTINF:-1,US332:CBS (KXDF) Fairbanks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US332:CBS (KXDF) Fairbanks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29858
-#EXTINF:-1,US333:Sundance TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US333:Sundance TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29857
-#EXTINF:-1,US334:FOX 40 (KTXL) SACRAMENTO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US334:FOX 40 (KTXL) SACRAMENTO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29856
-#EXTINF:-1,US335:FOX 9 (KNIN) CALDWELL
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US335:FOX 9 (KNIN) CALDWELL
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29855
-#EXTINF:-1,US337:FOX (KRQE) ALBUQUERQUE-SANTA FE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US337:FOX (KRQE) ALBUQUERQUE-SANTA FE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29853
-#EXTINF:-1,US338:FOX SAN FRANCISCO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US338:FOX SAN FRANCISCO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29852
-#EXTINF:-1,US339:FOX SAN ANTONIO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US339:FOX SAN ANTONIO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29851
-#EXTINF:-1,US340:FOX NEW ORLEANS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US340:FOX NEW ORLEANS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29850
-#EXTINF:-1,US341:FOX 4 (WDAF) KANSAS CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US341:FOX 4 (WDAF) KANSAS CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29849
-#EXTINF:-1,US342:FOX HOUSTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US342:FOX HOUSTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29848
-#EXTINF:-1,US343:FOX DETROIT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US343:FOX DETROIT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29847
-#EXTINF:-1,US344:FOX 54 (WZDX) Huntsville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US344:FOX 54 (WZDX) Huntsville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29846
-#EXTINF:-1,US345:FOX 53 (WPGH) Pittsburgh
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US345:FOX 53 (WPGH) Pittsburgh
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29845
-#EXTINF:-1,US346:PAC-12 Arizona
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US346:PAC-12 Arizona
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29844
-#EXTINF:-1,US364:FOX 17 (WZTV) NASHVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US364:FOX 17 (WZTV) NASHVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29826
-#EXTINF:-1,US365:FOX GREEN BAY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US365:FOX GREEN BAY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29825
-#EXTINF:-1,US366:FOX 9 (KMSP) Minneapolis
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US366:FOX 9 (KMSP) Minneapolis
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29824
-#EXTINF:-1,US367:FOX 25 (WLAX) EAU CLAIRE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US367:FOX 25 (WLAX) EAU CLAIRE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29823
-#EXTINF:-1,US368:Heroes & Icons
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US368:Heroes & Icons
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29822
-#EXTINF:-1,US369:FOX TACOMA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US369:FOX TACOMA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29821
-#EXTINF:-1,US370:FOX 44 (WFFF) Burlington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US370:FOX 44 (WFFF) Burlington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29820
-#EXTINF:-1,US371:FOX 43 (WVBT) Virginia Beach
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US371:FOX 43 (WVBT) Virginia Beach
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29819
-#EXTINF:-1,US372:FOX 43 (WSVF) Harrisonburg
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US372:FOX 43 (WSVF) Harrisonburg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29818
-#EXTINF:-1,US373:FOXNet Charlottesville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US373:FOXNet Charlottesville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29817
-#EXTINF:-1,US374:FOX 39 (WQRF) ROCKFORD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US374:FOX 39 (WQRF) ROCKFORD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29816
-#EXTINF:-1,US379:FOXNet Abilene
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US379:FOXNet Abilene
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29811
-#EXTINF:-1,US380:American Heroes Channel
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US380:American Heroes Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29810
-#EXTINF:-1,US382:FOX (WHBQ) Memphis
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US382:FOX (WHBQ) Memphis
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29808
-#EXTINF:-1,US389:FOX 43 (WFXB) Myrtle Beach
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US389:FOX 43 (WFXB) Myrtle Beach
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29801
-#EXTINF:-1,US390:FOX (WHNS) Greenville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US390:FOX (WHNS) Greenville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29800
-#EXTINF:-1,US398:FOX CHARLESTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US398:FOX CHARLESTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29792
-#EXTINF:-1,US399:FOX 64 (WNAC) Providence/New Bedford
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US399:FOX 64 (WNAC) Providence/New Bedford
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29791
-#EXTINF:-1,US407:FOX PORTLAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US407:FOX PORTLAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29783
-#EXTINF:-1,US416:FOX (KLSR) Eugene
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US416:FOX (KLSR) Eugene
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29774
-#EXTINF:-1,US417:FOX (WYFX) YOUNGSTOWN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US417:FOX (WYFX) YOUNGSTOWN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29773
-#EXTINF:-1,US418:FOX 36 (WUPW) TOLEDO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US418:FOX 36 (WUPW) TOLEDO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29772
-#EXTINF:-1,US420:Reelz Channel
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US420:Reelz Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29770
-#EXTINF:-1,US421:FOX 8 (WJW) CLEVELAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US421:FOX 8 (WJW) CLEVELAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29769
-#EXTINF:-1,US425:FOXNet Binghampton
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US425:FOXNet Binghampton
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29765
-#EXTINF:-1,US426:FOX (WXXA) ALBANY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US426:FOX (WXXA) ALBANY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29764
-#EXTINF:-1,US427:FOX (KVVU) Henderson
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US427:FOX (KVVU) Henderson
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29763
-#EXTINF:-1,US428:FOX (KVRR) FARGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US428:FOX (KVRR) FARGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29762
-#EXTINF:-1,US429:FOX 50 (WRAZ) Raleigh/Durham
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US429:FOX 50 (WRAZ) Raleigh/Durham
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29761
-#EXTINF:-1,US430:FOX (WGHP) High Point
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US430:FOX (WGHP) High Point
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29760
-#EXTINF:-1,US431:FOX 46 (WJZY) BELMONT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US431:FOX 46 (WJZY) BELMONT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29759
-#EXTINF:-1,US432:FOX 16 (WJKT) Jackson
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US432:FOX 16 (WJKT) Jackson
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29758
-#EXTINF:-1,US433:FOXNet Marquette
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US433:FOXNet Marquette
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29757
-#EXTINF:-1,US434:FOX (WSYM) LANSING
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US434:FOX (WSYM) LANSING
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29756
-#EXTINF:-1,US435:FOX (WXMI) GRAND RAPIDS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US435:FOX (WXMI) GRAND RAPIDS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29755
-#EXTINF:-1,US436:Bally Sports Southeast
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US436:Bally Sports Southeast
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29754
-#EXTINF:-1,US437:FOX 40 (WGGB) Springfield
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US437:FOX 40 (WGGB) Springfield
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29753
-#EXTINF:-1,US438:FOX 25 (WFXT) Boston
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US438:FOX 25 (WFXT) Boston
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29752
-#EXTINF:-1,US439:FOX 44 (WGMB) Baton Rouge
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US439:FOX 44 (WGMB) Baton Rouge
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29751
-#EXTINF:-1,US440:FOX (WXMI) HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US440:FOX (WXMI) HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29750
-#EXTINF:-1,US441:FOX CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US441:FOX CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29749
-#EXTINF:-1,US442:FOX BLOOMINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US442:FOX BLOOMINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29748
-#EXTINF:-1,US443:NewsMax
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US443:NewsMax
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29747
-#EXTINF:-1,US444:FOX (KNIN) CALDWELL
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US444:FOX (KNIN) CALDWELL
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29746
-#EXTINF:-1,US445:FOX (KTTW) SIOUX FALLS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US445:FOX (KTTW) SIOUX FALLS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29745
-#EXTINF:-1,US446:FOX (KLJB) DAVENPORT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US446:FOX (KLJB) DAVENPORT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29744
-#EXTINF:-1,US447:FOX 54 (WXTX) COLUMBUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US447:FOX 54 (WXTX) COLUMBUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29743
-#EXTINF:-1,US448:FOX (WFXG) AUGUSTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US448:FOX (WFXG) AUGUSTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29742
-#EXTINF:-1,US450:FOX CAPE CORAL
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US450:FOX CAPE CORAL
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29740
-#EXTINF:-1,US451:FOX (KXRM) COLORADO SPRINGS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US451:FOX (KXRM) COLORADO SPRINGS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29739
-#EXTINF:-1,US452:FOX (KKFX) San Luis Obispo
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US452:FOX (KKFX) San Luis Obispo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29738
-#EXTINF:-1,US453:FOX 5 (KSWB) SAN DIEGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US453:FOX 5 (KSWB) SAN DIEGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29737
-#EXTINF:-1,US454:FOX 2 (KTVU) OAKLAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US454:FOX 2 (KTVU) OAKLAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29736
-#EXTINF:-1,FOX 18 (WHIZ) ZANESVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",FOX 18 (WHIZ) ZANESVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29735
-#EXTINF:-1,US456:FOX (KMSB) TUCSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US456:FOX (KMSB) TUCSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29734
-#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US457:FOX 29 (WUTV) BUFFALO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US457:FOX 29 (WUTV) BUFFALO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29733
-#EXTINF:-1,tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US458:FOX (WUTV)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name=""jan082025 CA FOX 29 (WUTV) BUFFALO"" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",US458:FOX (WUTV)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29732
-#EXTINF:-1,US459:FOX 59 INDIANAPOLIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US459:FOX 59 INDIANAPOLIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29731
-#EXTINF:-1,US460:FOX BALTIMORE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US460:FOX BALTIMORE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29730
-#EXTINF:-1,US461:FOX 51 LONGVIEW
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US461:FOX 51 LONGVIEW
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29729
-#EXTINF:-1,US462:FOX 23 (WXXA) ALBANY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US462:FOX 23 (WXXA) ALBANY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29728
-#EXTINF:-1,US463:FOX 30 (WFOX) JACKSONVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US463:FOX 30 (WFOX) JACKSONVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29727
-#EXTINF:-1,US464:FOX 68 (WSYT) SYRACUSE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US464:FOX 68 (WSYT) SYRACUSE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29726
-#EXTINF:-1,US465:FOX 29 WEST PALM BEACH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US465:FOX 29 WEST PALM BEACH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29725
-#EXTINF:-1,US466:FOX 36 (WUPW) Toledo
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US466:FOX 36 (WUPW) Toledo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29724
-#EXTINF:-1, US467:FOX 15 LAFAYETTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="", US467:FOX 15 LAFAYETTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29723
-#EXTINF:-1,US469:FOX 18 DAVENPORT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US469:FOX 18 DAVENPORT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29721
-#EXTINF:-1,US470:FOX 35 (WOFL) ORLANDO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US470:FOX 35 (WOFL) ORLANDO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29720
-#EXTINF:-1,US471:FOX 7 MIAMI
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US471:FOX 7 MIAMI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29719
-#EXTINF:-1,US472:FOX 11 CHARLESTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US472:FOX 11 CHARLESTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29718
-#EXTINF:-1,US473:FOX 16 LITTLE ROCK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US473:FOX 16 LITTLE ROCK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29717
-#EXTINF:-1,US474:FOX 35 (KCBA) SALINAS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US474:FOX 35 (KCBA) SALINAS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29716
-#EXTINF:-1,US475:FOX 27 (WFXR) ROANOKE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US475:FOX 27 (WFXR) ROANOKE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29715
-#EXTINF:-1,US476:FOX 44 (WFFF) Burlington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US476:FOX 44 (WFFF) Burlington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29714
-#EXTINF:-1,US477:FOX 41 (WDRB) Louisville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US477:FOX 41 (WDRB) Louisville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29713
-#EXTINF:-1,US478:FOX 55 (WFFT) FORT WAYNE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US478:FOX 55 (WFFT) FORT WAYNE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29712
-#EXTINF:-1,US479:FOX 9 (KECY) EL CENTRO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US479:FOX 9 (KECY) EL CENTRO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29711
-#EXTINF:-1,US480:FOX 2 (KHON) HONOLULU
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US480:FOX 2 (KHON) HONOLULU
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29710
-#EXTINF:-1,US481:FOX 29 SAN ANTONIO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US481:FOX 29 SAN ANTONIO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29709
-#EXTINF:-1,US482:FOX 5 NEW YORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US482:FOX 5 NEW YORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29708
-#EXTINF:-1,US483:FOX 13 (KCPQ) SEATTLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US483:FOX 13 (KCPQ) SEATTLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29707
-#EXTINF:-1,US484:FOX 26 (KRIV) HOUSTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US484:FOX 26 (KRIV) HOUSTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29706
-#EXTINF:-1,US485:FOX 2 SAINT LOUIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US485:FOX 2 SAINT LOUIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29705
-#EXTINF:-1,US486:FOX 6 MILWAUKEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US486:FOX 6 MILWAUKEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29704
-#EXTINF:-1,US488:FOX 61 HARTFORD,CT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US488:FOX 61 HARTFORD,CT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29702
-#EXTINF:-1,US489:FOX 28 (WTTE) Columbus OH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US489:FOX 28 (WTTE) Columbus OH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29701
-#EXTINF:-1,US490:FOX 29 (WTXF) PHILADELPHIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US490:FOX 29 (WTXF) PHILADELPHIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29700
-#EXTINF:-1,US491:FOX 11 (KTTV) LOS ANGELES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US491:FOX 11 (KTTV) LOS ANGELES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29699
-#EXTINF:-1,US492:FOX 32 CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US492:FOX 32 CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29698
-#EXTINF:-1,US493:FOX (WAGA) ATLANTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US493:FOX (WAGA) ATLANTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29697
-#EXTINF:-1,US494:FOX 9 (KNIN) BOISE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US494:FOX 9 (KNIN) BOISE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29696
-#EXTINF:-1,US495:FOX SOCCER PLUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US495:FOX SOCCER PLUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29695
-#EXTINF:-1,US496:FOX DEPORTES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US496:FOX DEPORTES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29694
-#EXTINF:-1,US497:FOX WASHINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US497:FOX WASHINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29693
-#EXTINF:-1,US498:NEWSY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US498:NEWSY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29692
-#EXTINF:-1,US499:FOX SACRAMENTO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US499:FOX SACRAMENTO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29691
-#EXTINF:-1,US500:US FOX 33 (KMSS) Shreveport
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US500:US FOX 33 (KMSS) Shreveport
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29690
-#EXTINF:-1,US501:FOX 4 (KFQX) Grand Junction
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US501:FOX 4 (KFQX) Grand Junction
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29689
-#EXTINF:-1,US502:NBC CHARLOTTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US502:NBC CHARLOTTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29688
-#EXTINF:-1,US503:NBC UNIVERSO (East)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US503:NBC UNIVERSO (East)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29687
-#EXTINF:-1,US504:NBC_KVLY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US504:NBC_KVLY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29686
-#EXTINF:-1,US505:NBC 10 COLUMBIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US505:NBC 10 COLUMBIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29685
-#EXTINF:-1,US506:NBC MILWAUKEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US506:NBC MILWAUKEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29684
-#EXTINF:-1,US507:NBC JACKSONVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US507:NBC JACKSONVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29683
-#EXTINF:-1,US508:NBC CINCINNATI
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US508:NBC CINCINNATI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29682
-#EXTINF:-1,US509:NBC 5 (WMC) MEMPHIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US509:NBC 5 (WMC) MEMPHIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29681
-#EXTINF:-1,US510:NBC (KLAF) LAFAYETTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US510:NBC (KLAF) LAFAYETTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29680
-#EXTINF:-1,US511:NBC CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US511:NBC CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29679
-#EXTINF:-1,US512:NBC (KWWL) Waterloo
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US512:NBC (KWWL) Waterloo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29678
-#EXTINF:-1,US513:NBC SAN DIEGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US513:NBC SAN DIEGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29677
-#EXTINF:-1,US514:NBC LOS ANGELES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US514:NBC LOS ANGELES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29676
-#EXTINF:-1,US515:NBC YUMA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US515:NBC YUMA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29675
-#EXTINF:-1,US516:NBC 13 (WVTM) BIRMINGHAM
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US516:NBC 13 (WVTM) BIRMINGHAM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29674
-#EXTINF:-1,US517:NBC 13 ALBANY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US517:NBC 13 ALBANY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29673
-#EXTINF:-1,US518:NBC (WTWC) TALLAHASSEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US518:NBC (WTWC) TALLAHASSEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29672
-#EXTINF:-1,US519:NBC PORTLAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US519:NBC PORTLAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29671
-#EXTINF:-1,US520:NBC WASHINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US520:NBC WASHINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29670
-#EXTINF:-1,US521:NBC SAN FRANCISCO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US521:NBC SAN FRANCISCO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29669
-#EXTINF:-1,US522:NBC 4 LITTLE ROCK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US522:NBC 4 LITTLE ROCK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29668
-#EXTINF:-1,US523:NBC 22 (WWLP) SPRINGFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US523:NBC 22 (WWLP) SPRINGFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29667
-#EXTINF:-1,US524:NBC 56 JACKSONVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US524:NBC 56 JACKSONVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29666
-#EXTINF:-1,US525:NBC 46 SIOUX CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US525:NBC 46 SIOUX CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29665
-#EXTINF:-1,US526:NBC 17 BAKERSFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US526:NBC 17 BAKERSFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29664
-#EXTINF:-1,US527:NBC 5 WEST PALM BEACH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US527:NBC 5 WEST PALM BEACH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29663
-#EXTINF:-1,US528:NBC 5 PLATTSBURGH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US528:NBC 5 PLATTSBURGH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29662
-#EXTINF:-1,US529:NBC 6 WILMINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US529:NBC 6 WILMINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29661
-#EXTINF:-1,US530:NBC 12 WINSTON-SALEM
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US530:NBC 12 WINSTON-SALEM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29660
-#EXTINF:-1,US531:NBC 13 HONOLULU
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US531:NBC 13 HONOLULU
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29659
-#EXTINF:-1,US532:NBC 5 CINCINNATI
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US532:NBC 5 CINCINNATI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29658
-#EXTINF:-1,US533:NBC 4 TUCSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US533:NBC 4 TUCSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29657
-#EXTINF:-1,US534:NBC 16 SOUTH BEND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US534:NBC 16 SOUTH BEND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29656
-#EXTINF:-1,US535:NBC 7 (KTVB) BOISE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US535:NBC 7 (KTVB) BOISE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29655
-#EXTINF:-1,US536:NBC 17 (WAND) DECATUR
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US536:NBC 17 (WAND) DECATUR
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29654
-#EXTINF:-1,US537:NBC 18 (WLEX) LEXINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US537:NBC 18 (WLEX) LEXINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29653
-#EXTINF:-1,US538: NBC 36 AUSTIN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US538: NBC 36 AUSTIN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29652
-#EXTINF:-1,US539:NBC 6 (KWQC) DAVENPORT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US539:NBC 6 (KWQC) DAVENPORT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29651
-#EXTINF:-1,US540:NBC 24 (KSEE) FRESNO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US540:NBC 24 (KSEE) FRESNO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29650
-#EXTINF:-1,US541:NBC 8 (WOOD) GRAND RAPIDS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US541:NBC 8 (WOOD) GRAND RAPIDS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29649
-#EXTINF:-1,US542:NBC 3 SACRAMENTO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US542:NBC 3 SACRAMENTO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29648
-#EXTINF:-1,US543:NBC 2 (KPRC) HOUSTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US543:NBC 2 (KPRC) HOUSTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29647
-#EXTINF:-1,US544:NBC 41 KANSAS CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US544:NBC 41 KANSAS CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29646
-#EXTINF:-1,US545:NBC 9 DENVER
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US545:NBC 9 DENVER
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29645
-#EXTINF:-1,US546:NBC 11 BALTIMORE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US546:NBC 11 BALTIMORE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29644
-#EXTINF:-1,US547:NBC 10 PHILADELPHIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US547:NBC 10 PHILADELPHIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29643
-#EXTINF:-1,US548:NBC 4 DETROIT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US548:NBC 4 DETROIT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29642
-#EXTINF:-1,US549:NBC 26 GREEN BAY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US549:NBC 26 GREEN BAY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29641
 #EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="jan082025 CA: NBC WGRZ BUFFALO" tvg-logo="https://i.ibb.co/NCG2xtY/NBC-logo-1.png" group-title="",US550:NBC 2 BUFFALO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29640
-#EXTINF:-1,US551:NBC 3 CLEVELAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US551:NBC 3 CLEVELAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29639
-#EXTINF:-1,US552:NBC 11 (KARE) MINNEAPOLIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US552:NBC 11 (KARE) MINNEAPOLIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29638
-#EXTINF:-1,US553:NBC 4 NASHVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US553:NBC 4 NASHVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29637
-#EXTINF:-1,US554:NBC 11 ATLANTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US554:NBC 11 ATLANTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29636
-#EXTINF:-1,US555:NBC 5 (WMAQ) CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US555:NBC 5 (WMAQ) CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29635
-#EXTINF:-1,US556:NBC 36 (WCNC) CHARLOTTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US556:NBC 36 (WCNC) CHARLOTTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29634
-#EXTINF:-1,US557:NBC NEW YORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US557:NBC NEW YORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29633
-#EXTINF:-1,US558:NBC 9 (WNBW) GAINESVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US558:NBC 9 (WNBW) GAINESVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29632
-#EXTINF:-1,US559:NBC 25 (WEEK) PEORIA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US559:NBC 25 (WEEK) PEORIA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29631
-#EXTINF:-1,US560:NBC 26 (WGBA) GREEN BAY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US560:NBC 26 (WGBA) GREEN BAY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29630
-#EXTINF:-1,US561:NBC 28 (WBRE) WILKES-BARRE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US561:NBC 28 (WBRE) WILKES-BARRE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29629
-#EXTINF:-1,US562:NBC 3 (KCRA) SACRAMENTO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US562:NBC 3 (KCRA) SACRAMENTO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29628
-#EXTINF:-1,US563:NBC 3 (KYTV) SPRINGFIELD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US563:NBC 3 (KYTV) SPRINGFIELD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29627
-#EXTINF:-1,US564:NBC 3 (WAVE) LOUISVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US564:NBC 3 (WAVE) LOUISVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29626
-#EXTINF:-1,US565:NBC 3 (WKYC) CLEVELAND
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US565:NBC 3 (WKYC) CLEVELAND
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29625
-#EXTINF:-1,US566:NBC 3 (WLBT) JACKSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US566:NBC 3 (WLBT) JACKSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29624
-#EXTINF:-1,US567:NBC 3 (WSAV) SAVANNAH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US567:NBC 3 (WSAV) SAVANNAH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29623
-#EXTINF:-1,US568:NBC 3 (WSAZ) HUNTINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US568:NBC 3 (WSAZ) HUNTINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29622
-#EXTINF:-1,US569:NBC 30 (WVIT) NEW BRITAIN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US569:NBC 30 (WVIT) NEW BRITAIN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29621
-#EXTINF:-1,US570:NBC 32 (WMBF) MYRTLE BEACH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US570:NBC 32 (WMBF) MYRTLE BEACH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29620
-#EXTINF:-1,US571:NBC 33 (WVLA) BATON ROUGE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US571:NBC 33 (WVLA) BATON ROUGE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29619
-#EXTINF:-1,US572:NBC 36 (KXAN) AUSTIN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US572:NBC 36 (KXAN) AUSTIN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29618
-#EXTINF:-1,US573:NBC 36 (WCNC) CHARLOTTE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US573:NBC 36 (WCNC) CHARLOTTE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29617
-#EXTINF:-1,US574:NBC 38 (WLTZ) COLUMBUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US574:NBC 38 (WLTZ) COLUMBUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29616
-#EXTINF:-1,US575:NBC 39 (KNSD) SAN DIEGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US575:NBC 39 (KNSD) SAN DIEGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29615
-#EXTINF:-1,US576:NBC 4 (KARK) LITTLE ROCK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US576:NBC 4 (KARK) LITTLE ROCK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29614
-#EXTINF:-1,US577:NBC 4 (KNBC) LOS ANGELES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US577:NBC 4 (KNBC) LOS ANGELES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29613
-#EXTINF:-1,US578:NBC 4 (KOB) ALBUQUERQUE-SANTA FE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US578:NBC 4 (KOB) ALBUQUERQUE-SANTA FE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29612
-#EXTINF:-1,US579:NBC 4 (KSNB) SUPERIOR
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US579:NBC 4 (KSNB) SUPERIOR
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29611
-#EXTINF:-1,US580:NBC 4 (KTIV) SIOUX CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US580:NBC 4 (KTIV) SIOUX CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29610
-#EXTINF:-1,US581:NBC 4 (KVOA) TUCSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US581:NBC 4 (KVOA) TUCSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29609
-#EXTINF:-1,US582:NBC 4 (WCMH) COLUMBUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US582:NBC 4 (WCMH) COLUMBUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29608
-#EXTINF:-1,US583:NBC 4 (WDIV) DETROIT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US583:NBC 4 (WDIV) DETROIT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29607
-#EXTINF:-1,US584:NBC 4 (WNBC) NEW YORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US584:NBC 4 (WNBC) NEW YORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29606
-#EXTINF:-1,US585:NBC 4 (WRC) WASHINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US585:NBC 4 (WRC) WASHINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29605
-#EXTINF:-1,US586:NBC 4 (WSMV) NASHVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US586:NBC 4 (WSMV) NASHVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29604
-#EXTINF:-1,US587:NBC 4 (WTMJ) MILWAUKEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US587:NBC 4 (WTMJ) MILWAUKEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29603
-#EXTINF:-1,US588:NBC 4 (WYFF) GREENVILLE/SPARTANBURG/ASHEVILLE/ANDERSON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US588:NBC 4 (WYFF) GREENVILLE/SPARTANBURG/ASHEVILLE/ANDERSON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29602
-#EXTINF:-1,US589:NBC 40 (WTWC) TALLAHASSEE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US589:NBC 40 (WTWC) TALLAHASSEE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29601
-#EXTINF:-1,US590:NBC 41 (KSHB) KANSAS CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US590:NBC 41 (KSHB) KANSAS CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29600
-#EXTINF:-1,US591:NBC 46 (KDLT) SIOUX FALLS/MITCHELL
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US591:NBC 46 (KDLT) SIOUX FALLS/MITCHELL
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29599
-#EXTINF:-1,US592:NBC_WOWTUS592:NBC 48 (WAFF) HUNTSVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US592:NBC_WOWTUS592:NBC 48 (WAFF) HUNTSVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29598
-#EXTINF:-1,US593:NBC 5 (KING) SEATTLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US593:NBC 5 (KING) SEATTLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29597
-#EXTINF:-1,US594:NBC 5 (KOAA) PUEBLO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US594:NBC 5 (KOAA) PUEBLO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29596
-#EXTINF:-1,US595:NBC 5 (KSDK) ST LOUIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US595:NBC 5 (KSDK) ST LOUIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29595
-#EXTINF:-1,US596:NBC 5 (KSL) SALT LAKE CITY
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US596:NBC 5 (KSL) SALT LAKE CITY
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29594
-#EXTINF:-1,US597:NBC 5 (KXAS) FORT WORTH
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US597:NBC 5 (KXAS) FORT WORTH
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29593
-#EXTINF:-1,US598:NBC 5 (WLWT) CINCINNATI
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US598:NBC 5 (WLWT) CINCINNATI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29592
-#EXTINF:-1,US599:NBC 5 (WMAQ) CHICAGO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US599:NBC 5 (WMAQ) CHICAGO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29591
-#EXTINF:-1,US600:NBC 5 (WMC) MEMPHIS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US600:NBC 5 (WMC) MEMPHIS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29590
-#EXTINF:-1,US601:NBC 5 (WPTV) WEST PALM BEACH/FORT PIERCE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US601:NBC 5 (WPTV) WEST PALM BEACH/FORT PIERCE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29589
-#EXTINF:-1,US602:NBC 2 (WGRZ) Buffalo
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US602:NBC 2 (WGRZ) Buffalo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29588
-#EXTINF:-1,US603:NBC 5 (WRAL) RALEIGH/DURHAM
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US603:NBC 5 (WRAL) RALEIGH/DURHAM
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29587
-#EXTINF:-1,US604:NBC 56 (KETK) JACKSONVILLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US604:NBC 56 (KETK) JACKSONVILLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29586
-#EXTINF:-1,US605:NBC 6 (KCEN) TEMPLE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US605:NBC 6 (KCEN) TEMPLE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29585
-#EXTINF:-1,US606:NBC 6 (KHQ) SPOKANE
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US606:NBC 6 (KHQ) SPOKANE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29584
-#EXTINF:-1,US607:NBC 6 (KSBY) SAN LUIS OBISPO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US607:NBC 6 (KSBY) SAN LUIS OBISPO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29583
-#EXTINF:-1,US608:NBC 6 (KWQC) DAVENPORT/ROCK ISLAND/MOLIN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US608:NBC 6 (KWQC) DAVENPORT/ROCK ISLAND/MOLIN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29582
-#EXTINF:-1,US609:NBC 6 (WCSH) PORTLAND/AUBURN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US609:NBC 6 (WCSH) PORTLAND/AUBURN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29581
-#EXTINF:-1,US610:NBC 6 (WDSU) NEW ORLEANS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US610:NBC 6 (WDSU) NEW ORLEANS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29580
-#EXTINF:-1,US611:NBC 6 (WECT) WILMINGTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US611:NBC 6 (WECT) WILMINGTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29579
-#EXTINF:-1,US612:NBC 6 (WOWT) OMAHA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US612:NBC 6 (WOWT) OMAHA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29578
-#EXTINF:-1,US613:CW_WPSG
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US613:CW_WPSG
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29577
-#EXTINF:-1,US614:CW_WKBD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US614:CW_WKBD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29576
-#EXTINF:-1,US615:GOL TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US615:GOL TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29575
-#EXTINF:-1,US616:CW_WTOG
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US616:CW_WTOG
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29574
 #EXTINF:-1 tvg-id="The Cooking Channel" tvg-name="fe202025 US Cooking Channel " tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="",US617:Cooking Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29573
@@ -2196,179 +2195,179 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29528
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29527
 #EXTINF:-1 tvg-id="Antenna TV.us" tvg-name="xxx0000 US Antenna TV " tvg-logo="https://i.ibb.co/3ssXHjt/antenna-tv-stckd-orange.png" group-title="",US664:Antenna TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29526
-#EXTINF:-1,US692:Starz Cinema
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US692:Starz Cinema
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29498
-#EXTINF:-1,US693:Starz Comedy
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US693:Starz Comedy
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29497
 #EXTINF:-1 tvg-id="BNN Bloomberg.ca" tvg-name=""feb202025 CA: BNN Bloomberg HD"" tvg-logo="https://i.ibb.co/DzV4K0S/bnn-bloomberg.png" group-title="News",US694:Bloomberg
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29496
-#EXTINF:-1,US695:ABC 5 (WOI) West Des Moine
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US695:ABC 5 (WOI) West Des Moine
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29495
-#EXTINF:-1,US696:Starz Edge HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US696:Starz Edge HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29494
-#EXTINF:-1,US697:Starz Encore
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US697:Starz Encore
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29493
-#EXTINF:-1,US698:Starz Encore East
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US698:Starz Encore East
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29492
-#EXTINF:-1,US699:Starz West
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US699:Starz West
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29491
-#EXTINF:-1,US700:ABC 8 (WMTW) Portland
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US700:ABC 8 (WMTW) Portland
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29490
-#EXTINF:-1,US701:ABC 4 (KXLY) Spokane
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US701:ABC 4 (KXLY) Spokane
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29489
-#EXTINF:-1,US702:ABC 10 (KXTV) Sacramento
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US702:ABC 10 (KXTV) Sacramento
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29488
-#EXTINF:-1,US703:ABC (WTNH) New Haven
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US703:ABC (WTNH) New Haven
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29487
-#EXTINF:-1,US704:ABC_kmgh_den
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US704:ABC_kmgh_den
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29486
-#EXTINF:-1,US705:ABC_wcvb_bos
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US705:ABC_wcvb_bos
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29485
-#EXTINF:-1,US706:ABC_wrtv_ind
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US706:ABC_wrtv_ind
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29484
-#EXTINF:-1,US707:ABC_wplg_mia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US707:ABC_wplg_mia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29423
-#EXTINF:-1,US708:ABC_wtvd_raleigh
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US708:ABC_wtvd_raleigh
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29422
-#EXTINF:-1,US709:ABC_wpvi_phi
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US709:ABC_wpvi_phi
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29481
-#EXTINF:-1,US710:ABC_wftv_orl
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US710:ABC_wftv_orl
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29480
-#EXTINF:-1,US711:ABC 7 (KGO) San Francisco
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US711:ABC 7 (KGO) San Francisco
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29479
-#EXTINF:-1,US712:ABC 7 (WABC) New York
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US712:ABC 7 (WABC) New York
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29478
-#EXTINF:-1,US713:ABC 15 Phoenix
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US713:ABC 15 Phoenix
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29477
-#EXTINF:-1,US714:Bally Sports Detroit
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US714:Bally Sports Detroit
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29476
-#EXTINF:-1,US715:Bally Sports Detroit Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US715:Bally Sports Detroit Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29475
-#EXTINF:-1,US716:Bally Sports Florida
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US716:Bally Sports Florida
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29474
-#EXTINF:-1,US717:Bally Sports Florida Plus
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US717:Bally Sports Florida Plus
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29473
-#EXTINF:-1,US718:Bally Sports Kansas City
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US718:Bally Sports Kansas City
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29472
-#EXTINF:-1,US719:STARZ IN BLACK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US719:STARZ IN BLACK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29471
-#EXTINF:-1,US720:Starz Cinema East FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US720:Starz Cinema East FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29470
-#EXTINF:-1,US721:Starz Cinema West FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US721:Starz Cinema West FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29469
-#EXTINF:-1,US722:Showtime Showcase
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US722:Showtime Showcase
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29468
-#EXTINF:-1,US723:Starz Comedy FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US723:Starz Comedy FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29467
-#EXTINF:-1,US724:Starz Encore Westerns
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US724:Starz Encore Westerns
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29466
-#EXTINF:-1,US725:Starz Edge West HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US725:Starz Edge West HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29465
-#EXTINF:-1,US726:Starz Encore Action
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US726:Starz Encore Action
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29464
-#EXTINF:-1,US727:Starz Encore Black HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US727:Starz Encore Black HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29463
-#EXTINF:-1,US728:Starz Encore Classic FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US728:Starz Encore Classic FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29462
-#EXTINF:-1,US729:Showtime Women
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US729:Showtime Women
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29461
-#EXTINF:-1,US730:Starz Encore Family FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US730:Starz Encore Family FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29460
-#EXTINF:-1,US731:Starz Encore Suspense HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US731:Starz Encore Suspense HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29459
-#EXTINF:-1,US732:Starz Encore West FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US732:Starz Encore West FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29458
 #EXTINF:-1 tvg-id="Hallmark Family.us" tvg-name="xxx0000 US Hallmark Family" tvg-logo="https://i.ibb.co/44h3QX9/Hallmark-Family-2024-1.png" group-title="",US733:Hallmark Drama
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29457
-#EXTINF:-1,US734:ABC Charlotte
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US734:ABC Charlotte
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29456
-#EXTINF:-1,US735:Starz Kids & Family FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US735:Starz Kids & Family FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29455
-#EXTINF:-1,US737:Abc_Kgtv_Sad
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US737:Abc_Kgtv_Sad
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29453
-#EXTINF:-1,US738:ABC_wjla_wdc
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US738:ABC_wjla_wdc
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29452
-#EXTINF:-1,US739:ABC13 (KTNV) Las Vegas
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US739:ABC13 (KTNV) Las Vegas
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29451
-#EXTINF:-1,US740:ABC_kdnl-stl
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US740:ABC_kdnl-stl
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29450
-#EXTINF:-1,US741:ABC_komo_sea
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US741:ABC_komo_sea
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29449
-#EXTINF:-1,US742:ABC_katu_port
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US742:ABC_katu_port
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29448
-#EXTINF:-1,US743:ABC_ktvx-slc
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US743:ABC_ktvx-slc
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29447
-#EXTINF:-1,US744:ABC_kABC_lax
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US744:ABC_kABC_lax
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29446
-#EXTINF:-1,US745:ABC_wls_chi
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US745:ABC_wls_chi
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29445
-#EXTINF:-1,US746:ABC_wtae_pit
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US746:ABC_wtae_pit
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29444
-#EXTINF:-1,US747:ABC (WXYZ) Detroit
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US747:ABC (WXYZ) Detroit
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29443
-#EXTINF:-1,US748:ABC 13 (KTRK) HOUSTON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US748:ABC 13 (KTRK) HOUSTON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29442
-#EXTINF:-1,US749:NBC Sports Boston
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US749:NBC Sports Boston
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29441
 #EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="xxx0000 CA: ABC WKBW BUFFALO" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",US750:ABC7 (WKBW) Buffalo
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29440
-#EXTINF:-1,US751:ABC (WKRN) Nashville
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US751:ABC (WKRN) Nashville
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29439
-#EXTINF:-1,US752:ABC (WTNH) New Haven
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US752:ABC (WTNH) New Haven
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29438
-#EXTINF:-1,US753:3ABN (KBLN)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US753:3ABN (KBLN)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29437
-#EXTINF:-1,US754:ABC_wcvb_bos
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US754:ABC_wcvb_bos
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29436
-#EXTINF:-1,US755:ABC (WRTV) Indianapolis
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US755:ABC (WRTV) Indianapolis
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29435
-#EXTINF:-1,US756:ABC 9 (WFTV) Orlando
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US756:ABC 9 (WFTV) Orlando
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29434
-#EXTINF:-1,US757:Justice Central
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US757:Justice Central
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29433
-#EXTINF:-1,US758:ABC (KGO) San Francisco
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US758:ABC (KGO) San Francisco
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29432
-#EXTINF:-1,US759:ABC (WPVI) Philadelphia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US759:ABC (WPVI) Philadelphia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29431
-#EXTINF:-1,US760:ABC 12 (WISN) Milwaukee
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US760:ABC 12 (WISN) Milwaukee
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29430
-#EXTINF:-1,US761:ABC_wplg_mia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US761:ABC_wplg_mia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29429
-#EXTINF:-1,US762:ABC_kfsn_fresno
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US762:ABC_kfsn_fresno
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29428
-#EXTINF:-1,US763:ABC_ksat_saa
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US763:ABC_ksat_saa
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29427
-#EXTINF:-1,US764:ABC 9 (KMBC) Kansas City
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US764:ABC 9 (KMBC) Kansas City
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29426
-#EXTINF:-1,US765:ABC (WEWS) Cleveland
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US765:ABC (WEWS) Cleveland
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29425
-#EXTINF:-1,US766:ABC (KSTP) Minneapolis/St. Paul
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US766:ABC (KSTP) Minneapolis/St. Paul
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29424
 #EXTINF:-1 tvg-id="Discovery Family.us" tvg-name="fe202025 US DISCOVERY FAMILY" tvg-logo="https://i.ibb.co/Z2Nf59p/Discovery-Family-logo-1.png" group-title="",US767:Discovery Family
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64342
 #EXTINF:-1 tvg-id="Discovery Life Channel.us" tvg-name="fe202025 US Discovery Life HD" tvg-logo="https://i.ibb.co/WHwNQHv/discovery-life.png" group-title="",US768:Discovery Life HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64343
-#EXTINF:-1,US769:Teennick HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US769:Teennick HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64344
-#EXTINF:-1,US771:OuterMax HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US771:OuterMax HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64346
-#EXTINF:-1,US772:Cinemax 5 Star Max
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US772:Cinemax 5 Star Max
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64347
-#EXTINF:-1,US773:CineMax Action HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US773:CineMax Action HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64348
-#EXTINF:-1,US774:Cinemax Moviemax HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US774:Cinemax Moviemax HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64349
-#EXTINF:-1,US776:Cinemax Action East HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US776:Cinemax Action East HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64351
-#EXTINF:-1,US777:Cinemax Action Max HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US777:Cinemax Action Max HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64352
-#EXTINF:-1,US778:Cinemax ThrillerMax
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US778:Cinemax ThrillerMax
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64353
-#EXTINF:-1,US780:Cinemax West HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US780:Cinemax West HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64355
-#EXTINF:-1,US781:Cinemax East
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US781:Cinemax East
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64356
-#EXTINF:-1,US782:MoreMax HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US782:MoreMax HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64357
 #EXTINF:-1 tvg-id="Pop TV.us" tvg-name="xxx0000 US Pop " tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/31/Pop_2015_Red.svg/revision/latest/scale-to-width-down/250?cb=20160701184500" group-title="",US783:POP FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64358
@@ -2378,21 +2377,21 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64359
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64360
 #EXTINF:-1 tvg-id="HLN.us" tvg-name="xxx0000 US HLN " tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="",US786:HLN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64361
-#EXTINF:-1,US787:HSN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US787:HSN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64362
 #EXTINF:-1 tvg-id="CMTCanada.ca" tvg-name="fe202025 US CMT HD" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",US788:CMT HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64363
-#EXTINF:-1,US789:Boomerang HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US789:Boomerang HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64364
-#EXTINF:-1,US790:Crime & Investigation HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US790:Crime & Investigation HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64365
 #EXTINF:-1 tvg-id="Oxygen (East)" tvg-name="xxx0000 US Oxygen (East)   " tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",US791:OxyGen HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64366
 #EXTINF:-1 tvg-id="Bounce TV.us" tvg-name="nov072025 US Bounce XL " tvg-logo="https://i.ibb.co/52fLjgH/bounce-color.png" group-title="",US792:Bounce TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64367
-#EXTINF:-1,US793:BET Her HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US793:BET Her HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64368
-#EXTINF:-1,US794:The Longhorn Network HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US794:The Longhorn Network HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64369
 #EXTINF:-1 tvg-id="CSPAN.us" tvg-name="xxx0000 US CSPAN FHD" tvg-logo="https://i.ibb.co/txTpNrD/cspan-1.png" group-title="",US901:C-SPAN HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60982
@@ -2406,423 +2405,423 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64371
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64372
 #EXTINF:-1 tvg-id="Fuse.us" tvg-name="fe202025 US Fuse " tvg-logo="https://i.ibb.co/9ZCMvgR/Fuse-Black-Logo-2017-1.png" group-title="",US798:FUSE HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64373
-#EXTINF:-1,US799:Universal Kids HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US799:Universal Kids HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64374
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="News",US800:Cheddar
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64375
 #EXTINF:-1 tvg-id="The Cowboy Channel.us" tvg-name="xxx0000 US The Cowboy Channel " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="",US801:Cowboy Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/64376
-#EXTINF:-1,US805:EPIX
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US805:EPIX
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59225
-#EXTINF:-1,US806:EPIX 2
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US806:EPIX 2
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59224
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://seeklogo.com/images/T/tv-one-logo-E2FFB75B22-seeklogo.com.png" group-title="",US803:TV ONE
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59216
-#EXTINF:-1,US804:ION TV FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US804:ION TV FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59215
 #EXTINF:-1 tvg-id="Outdoor Channel HDTV" tvg-name="xxx0000 US Outdoor Channel" tvg-logo="https://i.ibb.co/rvLb8Ht/Outdoor-Channel-logo-2017-1.png" group-title="",US802:Outdoor Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59198
-#EXTINF:-1,US807:NBC 6 (WPSD) PADUCAH/CAPE GIRARDEAU/HARRISBURG/MT VERNO
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US807:NBC 6 (WPSD) PADUCAH/CAPE GIRARDEAU/HARRISBURG/MT VERNO
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59235
-#EXTINF:-1,US808:NBC 6 (WTVJ) MIAMI
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US808:NBC 6 (WTVJ) MIAMI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59234
 #EXTINF:-1 tvg-id="RFDHD.us" tvg-name="xxx0000 US RFD-TV " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/rfd-tv-us.png?raw=true" group-title="",US810:RFD TV HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59232
-#EXTINF:-1,US809:Telemundo 31 (WTMO) Orlando
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US809:Telemundo 31 (WTMO) Orlando
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59233
-#EXTINF:-1,US811:ACC NETWORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US811:ACC NETWORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49954
-#EXTINF:-1,US812:Spectrum SportsNet LA Dodgers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US812:Spectrum SportsNet LA Dodgers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49953
 #EXTINF:-1 tvg-id="GreatAmericanCountry.us" tvg-name="xxx0000 US GAC Living (S)" tvg-logo="https://i.ibb.co/YTJQxGQ/Great-American-Family-logo-svg-1.png" group-title="",US813:Great American Country
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49955
 #EXTINF:-1 tvg-id="Smithsonian Channel (East)" tvg-name="xxx0000 US Smithsonian Channel (East)   " tvg-logo="https://i.ibb.co/pdS17Qt/Smithsonian-stacked.png" group-title="",US814:Smithsonian Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/49043
-#EXTINF:-1,US815:FOX 4 (KHMT) Billings
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US815:FOX 4 (KHMT) Billings
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59205
-#EXTINF:-1,US816:Bally Sports Southwest
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US816:Bally Sports Southwest
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59200
-#EXTINF:-1,US817:FOX 27 (KLWY) Cheyenne/Scottsbluff
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US817:FOX 27 (KLWY) Cheyenne/Scottsbluff
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31565
 #EXTINF:-1 tvg-id="One America News Network" tvg-name="xxx0000 US One America News" tvg-logo="https://i.ibb.co/BPBKNLD/OAN-2.png" group-title="News",US818:One American News Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31567
-#EXTINF:-1,US819:MeTV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US819:MeTV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31568
-#EXTINF:-1,US820:Willow Cricket
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US820:Willow Cricket
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31569
-#EXTINF:-1,US821:TVG Horse Racing
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US821:TVG Horse Racing
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31571
-#EXTINF:-1,US822:RED BULL TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US822:RED BULL TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31570
 #EXTINF:-1 tvg-id="Nick Jr. HDTV - NJRHD.us" tvg-name="xxx0000 US Nick JR East  " tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="",US823:Nick Jr
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31572
-#EXTINF:-1,US824:CBS 6 (KOIN) PORTLAND/OREGON
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US824:CBS 6 (KOIN) PORTLAND/OREGON
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31576
-#EXTINF:-1,US825:ABC 7 WZVN
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US825:ABC 7 WZVN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31575
-#EXTINF:-1,US826:Bally Sports Midwest
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US826:Bally Sports Midwest
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29373
-#EXTINF:-1,US827:News 12 The Bronx
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US827:News 12 The Bronx
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60221
 #EXTINF:-1 tvg-id="Logo.us" tvg-name="xxx0000 US LOGO TV" tvg-logo="https://i.ibb.co/8M2Km5V/Logo-TV-2015-svg-1.png" group-title="",US828:LOGO HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60130
-#EXTINF:-1,US829:Univision 66 (WGBO) Chicago
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US829:Univision 66 (WGBO) Chicago
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60117
-#EXTINF:-1,US830:Univision45 (KXLN) Houston
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US830:Univision45 (KXLN) Houston
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60116
 #EXTINF:-1 tvg-id="Magnolia Network.us" tvg-name="fe202025 US DIY Network " tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",US831:Magnolia Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60115
-#EXTINF:-1,US832:Univision 21 (KFTV) Fresno/Visalia
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US832:Univision 21 (KFTV) Fresno/Visalia
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60113
-#EXTINF:-1,US833:CW 33 (KVCW) Las Vegas
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US833:CW 33 (KVCW) Las Vegas
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60112
-#EXTINF:-1,US834:Univision 46 (KUVE) Tucson
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US834:Univision 46 (KUVE) Tucson
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60101
-#EXTINF:-1,US835:Univision 33 (KTVW) Phoenix
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US835:Univision 33 (KTVW) Phoenix
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60098
-#EXTINF:-1,US836:ABC17 (KMIZ) Jefferson City
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US836:ABC17 (KMIZ) Jefferson City
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60114
-#EXTINF:-1,US837:Telemundo (Chicago)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US837:Telemundo (Chicago)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60096
-#EXTINF:-1,US838:Telemundo (Dallas)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US838:Telemundo (Dallas)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60093
-#EXTINF:-1,US839:Telemundo (Fresno)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US839:Telemundo (Fresno)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60092
-#EXTINF:-1,US840:Univision 62 (KAKW) Austin
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US840:Univision 62 (KAKW) Austin
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60090
-#EXTINF:-1,US841:Telemundo (Houston)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US841:Telemundo (Houston)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60089
-#EXTINF:-1,US842:Telemundo (Las Vegas)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US842:Telemundo (Las Vegas)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60082
-#EXTINF:-1,US843:Telemundo (Los Angeles)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US843:Telemundo (Los Angeles)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60074
-#EXTINF:-1,US844:Telemundo (Miami)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US844:Telemundo (Miami)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60072
-#EXTINF:-1,US845:Telemundo (New York)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US845:Telemundo (New York)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60065
-#EXTINF:-1,US846:Telemundo (Philadelphia)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US846:Telemundo (Philadelphia)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60060
-#EXTINF:-1,US847:Telemundo (KTAZ) Phoenix
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US847:Telemundo (KTAZ) Phoenix
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60055
-#EXTINF:-1,US848:Telemundo (San Antonio)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US848:Telemundo (San Antonio)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60054
-#EXTINF:-1,US849:Telemundo 47 (Houston)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US849:Telemundo 47 (Houston)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60051
-#EXTINF:-1,US868:Telemundo 44 Washington
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US868:Telemundo 44 Washington
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60164
-#EXTINF:-1,US880:Showtime Extreme
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US880:Showtime Extreme
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60145
-#EXTINF:-1,US881:CORONA VIRUS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US881:CORONA VIRUS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60144
-#EXTINF:-1,US882:Showtime Beyond HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US882:Showtime Beyond HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60142
-#EXTINF:-1,US883:ABC 2 (WMAR) Baltimore
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US883:ABC 2 (WMAR) Baltimore
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60134
-#EXTINF:-1,US884:Disney + HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US884:Disney + HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60230
-#EXTINF:-1,US886:WGN 9 (WGNDT) Chicago
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US886:WGN 9 (WGNDT) Chicago
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60226
-#EXTINF:-1,US887:MY 9 (WWOR) New York
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US887:MY 9 (WWOR) New York
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60109
-#EXTINF:-1,US888:Showtime Next HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US888:Showtime Next HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60214
 #EXTINF:-1 tvg-id="FYIEast.us" tvg-name="fe202025 US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",US889:FYI
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60245
 #EXTINF:-1 tvg-id="Pursuit.us" tvg-name="xxx0000 US Pursuit UP" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/pursuit-up-vod.png?raw=true" group-title="",US891:Pursuit Channel
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60206
-#EXTINF:-1,US892:Marquee Sports
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US892:Marquee Sports
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60002
-#EXTINF:-1,US893:Showtime Family Zone HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US893:Showtime Family Zone HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60227
-#EXTINF:-1,US894:Showtime Pacific & Beyond HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US894:Showtime Pacific & Beyond HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60183
-#EXTINF:-1,US895:ESPN +
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US895:ESPN +
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60006
-#EXTINF:-1,US896:Univision (Miami)
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US896:Univision (Miami)
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60204
-#EXTINF:-1,US897:AT&T Sportsnet Rocky Mountain
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US897:AT&T Sportsnet Rocky Mountain
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60236
-#EXTINF:-1,US898:Telemundo New York
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US898:Telemundo New York
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60194
-#EXTINF:-1,US899:ABC 2 (WSB) ATLANTA
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US899:ABC 2 (WSB) ATLANTA
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/66004
-#EXTINF:-1,US900:Spectrum SportsNet Lakers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US900:Spectrum SportsNet Lakers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60983
-#EXTINF:-1,US930:Bally Sports YES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US930:Bally Sports YES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31054
-#EXTINF:-1,US931:Bally Sports SoCal
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US931:Bally Sports SoCal
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31053
-#EXTINF:-1,US932:mun2tv
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US932:mun2tv
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31052
-#EXTINF:-1,USA:-----|NBA|------------------------------------
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",USA:-----|NBA|------------------------------------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60615
-#EXTINF:-1,US060:NBA-TV
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US060:NBA-TV
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3108
-#EXTINF:-1,US665:NBA ORLANDO MAGIC
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US665:NBA ORLANDO MAGIC
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29525
-#EXTINF:-1,US666:NBA Miami Heat
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US666:NBA Miami Heat
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29524
-#EXTINF:-1,US667:NBA Milwaukee Bucks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US667:NBA Milwaukee Bucks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29523
-#EXTINF:-1,US668:NBA Minnesota Timberwolves
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US668:NBA Minnesota Timberwolves
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29522
-#EXTINF:-1,US669:NBA New Orleans Pelicans
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US669:NBA New Orleans Pelicans
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29521
-#EXTINF:-1,US670:NBA Phoenix Suns
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US670:NBA Phoenix Suns
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29520
-#EXTINF:-1,US671:NBA New York Knicks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US671:NBA New York Knicks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29519
-#EXTINF:-1,US672:NBA Oklahoma City Thunders
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US672:NBA Oklahoma City Thunders
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29518
-#EXTINF:-1,US673:NBA Orlando Magic
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US673:NBA Orlando Magic
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29517
-#EXTINF:-1,US674:NBA Philadelphia 76ers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US674:NBA Philadelphia 76ers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29516
-#EXTINF:-1,US890:NBA OKLAHOMA CITY THUNDERS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US890:NBA OKLAHOMA CITY THUNDERS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60228
-#EXTINF:-1,US929:NBA MIAMI HEAT
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US929:NBA MIAMI HEAT
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60978
-#EXTINF:-1,US928:NBA MEMPHIS GRIZZLIES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US928:NBA MEMPHIS GRIZZLIES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60977
-#EXTINF:-1,US927:NBA HOUSTON ROCKETS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US927:NBA HOUSTON ROCKETS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60976
-#EXTINF:-1,US926:NBA DETROIT PISTONS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US926:NBA DETROIT PISTONS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60975
-#EXTINF:-1,US925:NBA DALLAS MAVERICKS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US925:NBA DALLAS MAVERICKS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60974
-#EXTINF:-1,US924:NBA CHARLOTTE HORNETS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US924:NBA CHARLOTTE HORNETS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60973
-#EXTINF:-1,US922:NBA ATLANTA HAWKS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US922:NBA ATLANTA HAWKS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60971
-#EXTINF:-1,US921:NBA YORK KNICKS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US921:NBA YORK KNICKS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68774
-#EXTINF:-1,US920:NBA ORLEANS PELICANS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US920:NBA ORLEANS PELICANS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68773
-#EXTINF:-1,US919:NBA MINNESOTA TIMBERWOLVES
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US919:NBA MINNESOTA TIMBERWOLVES
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68772
-#EXTINF:-1,US923:NBA BOSTON CELTICS
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US923:NBA BOSTON CELTICS
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60972
-#EXTINF:-1,USA:-----|NFL|------------------------------------
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",USA:-----|NFL|------------------------------------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60613
-#EXTINF:-1,US064:NFL-Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US064:NFL-Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3104
-#EXTINF:-1,US089:NFL RedZone
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US089:NFL RedZone
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3079
-#EXTINF:-1,US618:NFL-Browns SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US618:NFL-Browns SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29572
-#EXTINF:-1,US619:NFL-Buccaneers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US619:NFL-Buccaneers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29571
-#EXTINF:-1,US620:NFL-Buccaneers HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US620:NFL-Buccaneers HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29570
-#EXTINF:-1,US621:NFL-Buccaneers SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US621:NFL-Buccaneers SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29569
-#EXTINF:-1,US622:NFL-Cardinals FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US622:NFL-Cardinals FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29568
-#EXTINF:-1,US623:NFL-Cardinals HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US623:NFL-Cardinals HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29567
-#EXTINF:-1,US624:NFL-Cardinals SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US624:NFL-Cardinals SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29566
-#EXTINF:-1,US625:NFL-Chargers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US625:NFL-Chargers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29565
-#EXTINF:-1,US626:NFL-Chargers HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US626:NFL-Chargers HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29564
-#EXTINF:-1,US627:NFL-Chargers SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US627:NFL-Chargers SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29563
-#EXTINF:-1,US628:NFL-Chiefs FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US628:NFL-Chiefs FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29562
-#EXTINF:-1,US629:NFL-Chiefs HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US629:NFL-Chiefs HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29561
-#EXTINF:-1,US645:NFL-Chiefs SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US645:NFL-Chiefs SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29545
-#EXTINF:-1,US646:NFL-49ers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US646:NFL-49ers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29544
-#EXTINF:-1,US647:NFL-49ers HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US647:NFL-49ers HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29543
-#EXTINF:-1,US648:NFL-49ers SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US648:NFL-49ers SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29542
-#EXTINF:-1,US649:NFL-Bears FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US649:NFL-Bears FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29541
-#EXTINF:-1,US650:NFL-Bears HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US650:NFL-Bears HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29540
-#EXTINF:-1,US651:NFL-Bears SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US651:NFL-Bears SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29539
-#EXTINF:-1,US652:NFL-Bengals FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US652:NFL-Bengals FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29538
-#EXTINF:-1,US653:NFL-Bengals HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US653:NFL-Bengals HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29537
-#EXTINF:-1,US654:NFL-Bengals SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US654:NFL-Bengals SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29536
-#EXTINF:-1,US655:NFL-Bills FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US655:NFL-Bills FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29535
-#EXTINF:-1,US656:NFL-Bills HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US656:NFL-Bills HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29534
-#EXTINF:-1,US657:NFL-Bills SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US657:NFL-Bills SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29533
-#EXTINF:-1,US658:NFL-Broncos FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US658:NFL-Broncos FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29532
-#EXTINF:-1,US659:NFL-Broncos HD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US659:NFL-Broncos HD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29531
-#EXTINF:-1,US660:NFL-Broncos SD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US660:NFL-Broncos SD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/53491
-#EXTINF:-1,US661:NFL-Browns FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US661:NFL-Browns FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29529
-#EXTINF:-1,US935:NFL-Eagles FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US935:NFL-Eagles FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/31566
-#EXTINF:-1,US936:NFL-Vikings FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US936:NFL-Vikings FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68752
-#EXTINF:-1,US937:NFL-Colts FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US937:NFL-Colts FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68753
-#EXTINF:-1,US938:NFL-Cowboys FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US938:NFL-Cowboys FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68754
-#EXTINF:-1,US939:NFL-Dolphins FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US939:NFL-Dolphins FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68755
-#EXTINF:-1,US940:NFL-Eagles FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US940:NFL-Eagles FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68756
-#EXTINF:-1,US941:NFL-Falcons FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US941:NFL-Falcons FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68757
-#EXTINF:-1,US942:NFL-Giants FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US942:NFL-Giants FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68758
-#EXTINF:-1,US943:NFL-Jaguars FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US943:NFL-Jaguars FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68759
-#EXTINF:-1,US944:NFL-Jets FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US944:NFL-Jets FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68760
-#EXTINF:-1,US945:NFL-Lions FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US945:NFL-Lions FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68761
-#EXTINF:-1,US946:NFL-Packers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US946:NFL-Packers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68762
-#EXTINF:-1,US947:NFL-Panthers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US947:NFL-Panthers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68763
-#EXTINF:-1,US948:NFL-Patriots FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US948:NFL-Patriots FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68764
-#EXTINF:-1,US949:NFL-Raiders FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US949:NFL-Raiders FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68765
-#EXTINF:-1,US950:NFL-Rams FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US950:NFL-Rams FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68766
-#EXTINF:-1,US951:NFL-Ravens FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US951:NFL-Ravens FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68767
-#EXTINF:-1,US952:NFL-Redskins
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US952:NFL-Redskins
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68768
-#EXTINF:-1,US953:NFL-Saints FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US953:NFL-Saints FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68769
-#EXTINF:-1,US954:NFL-Seahawks FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US954:NFL-Seahawks FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68770
-#EXTINF:-1,US955:NFL-Steelers FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US955:NFL-Steelers FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68771
-#EXTINF:-1,US956:NFL-Texans FHD
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US956:NFL-Texans FHD
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60979
-#EXTINF:-1,US957:NFL-Titans
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US957:NFL-Titans
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60980
-#EXTINF:-1,USA:-----|NHL|------------------------------------
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",USA:-----|NHL|------------------------------------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60616
-#EXTINF:-1,US736:NHL NETWORK
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US736:NHL NETWORK
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29454
-#EXTINF:-1,US675:NHL Montreal Canadiens
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US675:NHL Montreal Canadiens
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29515
-#EXTINF:-1,US676:NHL Minnesota Wild
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US676:NHL Minnesota Wild
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29514
-#EXTINF:-1,US677:NHL Seattle Kraken
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US677:NHL Seattle Kraken
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29513
-#EXTINF:-1,US678:NHL Winnipeg Jets
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US678:NHL Winnipeg Jets
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29512
-#EXTINF:-1,US679:NHL Washington Capitals
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US679:NHL Washington Capitals
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29511
-#EXTINF:-1,US680:NHL Vegas Golden Knights
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US680:NHL Vegas Golden Knights
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29510
-#EXTINF:-1,US681:NHL Vancouver Canucks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US681:NHL Vancouver Canucks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29509
-#EXTINF:-1,US682:NHL Toronto Maple Leafs
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US682:NHL Toronto Maple Leafs
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29508
-#EXTINF:-1,US683:NHL Tampa Bay Lightning
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US683:NHL Tampa Bay Lightning
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29507
-#EXTINF:-1,US684:NHL St Louis Blues
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US684:NHL St Louis Blues
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29506
-#EXTINF:-1,US685:NHL San Jose Sharks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US685:NHL San Jose Sharks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29505
-#EXTINF:-1,US686:NHL Pittsburgh Penguins
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US686:NHL Pittsburgh Penguins
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29504
-#EXTINF:-1,US687:NHL Ottawa Senators
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US687:NHL Ottawa Senators
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29503
-#EXTINF:-1,US688:NHL New York Rangers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US688:NHL New York Rangers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29502
-#EXTINF:-1,US689:NHL New York Islanders
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US689:NHL New York Islanders
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29501
-#EXTINF:-1,US690:NHL New Jersey Devils
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US690:NHL New Jersey Devils
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29500
-#EXTINF:-1,US691:NHL Nashville Predators
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US691:NHL Nashville Predators
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29499
-#EXTINF:-1,US904:NHL Boston Bruins
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US904:NHL Boston Bruins
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60967
-#EXTINF:-1,US905:NHL Arizona Coyotes
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US905:NHL Arizona Coyotes
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60968
-#EXTINF:-1,US906:NHL Anaheim Ducks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US906:NHL Anaheim Ducks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60969
-#EXTINF:-1,US907:NHL Alternate
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US907:NHL Alternate
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60970
-#EXTINF:-1,US908:NHL Los Angeles Kings
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US908:NHL Los Angeles Kings
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59221
-#EXTINF:-1,US909:NHL Florida Panthers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US909:NHL Florida Panthers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59222
-#EXTINF:-1,US910:NHL Edmonton Oilers
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US910:NHL Edmonton Oilers
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59223
-#EXTINF:-1,US911:NHL Detroit Red Wings
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US911:NHL Detroit Red Wings
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59229
-#EXTINF:-1,US912:NHL Dallas Stars
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US912:NHL Dallas Stars
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59230
-#EXTINF:-1,US913:NHL Columbus Blue Jackets
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US913:NHL Columbus Blue Jackets
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59231
-#EXTINF:-1,US914:NHL Colorado Avalanche
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US914:NHL Colorado Avalanche
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59237
-#EXTINF:-1,US915:NHL Chicago Blackhawks
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US915:NHL Chicago Blackhawks
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59241
-#EXTINF:-1,US916:NHL Carolina Hurricanes
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US916:NHL Carolina Hurricanes
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59243
-#EXTINF:-1,US917:NHL Calgary Flames
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US917:NHL Calgary Flames
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59244
-#EXTINF:-1,US918:NHL Buffalo Sabres
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US918:NHL Buffalo Sabres
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/59245
-#EXTINF:-1,USA:-----|MLB|------------------------------------
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",USA:-----|MLB|------------------------------------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/60614
-#EXTINF:-1,US056:MLB-Network
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US056:MLB-Network
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3112
-#EXTINF:-1,US630:MLB 01
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US630:MLB 01
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29560
-#EXTINF:-1,US631:MLB 02
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US631:MLB 02
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29559
-#EXTINF:-1,US632:MLB 03
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US632:MLB 03
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29558
-#EXTINF:-1,US633:MLB 04
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US633:MLB 04
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29557
-#EXTINF:-1,US634:MLB 05
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US634:MLB 05
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29556
-#EXTINF:-1,US635:MLB 06
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US635:MLB 06
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29555
-#EXTINF:-1,US636:MLB 07
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US636:MLB 07
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29554
-#EXTINF:-1,US637:MLB 08
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US637:MLB 08
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29553
-#EXTINF:-1,US638:MLB 09
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US638:MLB 09
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29552
-#EXTINF:-1,US639:MLB 10
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US639:MLB 10
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29551
-#EXTINF:-1,US640:MLB 11
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US640:MLB 11
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29550
-#EXTINF:-1,US641:MLB 12
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US641:MLB 12
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29549
-#EXTINF:-1,US642:MLB 13
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US642:MLB 13
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29548
-#EXTINF:-1,US643:MLB 14
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US643:MLB 14
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29547
-#EXTINF:-1,US644:MLB Strike Zone
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",US644:MLB Strike Zone
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/29546
-#EXTINF:-1,USA:-----|PPV|------------------------------------
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",USA:-----|PPV|------------------------------------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68729
-#EXTINF:-1,PPV001:PPV EVENTS 01
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",PPV001:PPV EVENTS 01
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68730
-#EXTINF:-1,PPV002:PPV EVENTS 02
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",PPV002:PPV EVENTS 02
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68731
-#EXTINF:-1,PPV003:PPV EVENTS 03
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",PPV003:PPV EVENTS 03
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68732
-#EXTINF:-1,PPV004:PPV EVENTS 04
+#EXTINF:-1 tvg-id="" tvg-name="xxx0000 " tvg-logo="" group-title="",PPV004:PPV EVENTS 04
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/68733
 
 
