@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name=""nov072024 CA GLOBAL TORONTO"" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 17 310 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA: OMNI 1" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 17 333 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITYDT.ca" tvg-name="xxx0000 CA City News Toronto ON" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -235,8 +235,18 @@ http://voidharbinger.xyz:80/CT2024/5348206971/761392
 http://fortv.cc:8080/0HYK5c/662533/57369
 #EXTINF:-1 tvg-id="makeful.ca" tvg-name="nov072024 CA: MAKEFUL" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="",Makeful
 http://fortv.cc:8080/0HYK5c/662533/57270
-#EXTINF:-1 tvg-id="CA: TELELATINO TLN" tvg-name="CA: TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
+#EXTINF:-1 tvg-id="CA: TELELATINO TLN" tvg-name="CA: TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",*TLN
 http://voidharbinger.xyz:80/CT2024/5348206971/761495
+#EXTINF:-1 tvg-id="telelatino.ca" tvg-name="jan142025 CA086:HOLLYWIRE" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/hollywire-vod-us.png?raw=true" group-title="",Hollywire
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30228
+#EXTINF:-1 tvg-id="hollywood.suite.70s.ca" tvg-name="jan142025 CA210:Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="",Hollywood Suite 70's
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30104
+#EXTINF:-1 tvg-id="hollywood.suite.80s.ca" tvg-name="jan142025 CA087:Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="",Hollywood Suite 80's
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30227
+#EXTINF:-1 tvg-id="hollywood.suite.90s.ca" tvg-name="jan142025 CA090:Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="",Hollywood Suite 90's
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30224
+#EXTINF:-1 tvg-id="hollywood.suite.00s.us" tvg-name="jan142025 CA035:Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="",Hollywood Suite 00's
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/3034
 
 
 "102 Channel" 
