@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 19 220 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 20 857 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -52,8 +52,10 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/58546
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30169
 #EXTINF:-1 tvg-id="Sportsnet One HD.ca" tvg-name="jan082025 CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One FHD 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/10247
-#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""jun162025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",Weather Network Toronto
-https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8
+"#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""jun162025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
+https://lnc-the-weather-network-canada.tubi.video/playlist.m3u8"
+#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""jan082025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
+http://fortv.cc:8080/TheBestYetTV/tvtime718/57470
 #EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name="nov072024 CA016:CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://fortv.cc:8080/0HYK5c/662533/57345
 #EXTINF:-1 tvg-id="YTV (East)" tvg-name=""jan082025 CA072:YTV"" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV
@@ -71,7 +73,7 @@ http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/3001
 #EXTINF:-1 tvg-id="AandE Canada HD.ca" tvg-name="jan082025 CA083:A&E" tvg-logo="https://pinkbuffalofilms.com/wp-content/uploads/sites/1067/2020/12/PartnerLogos_AE-Grayscale.png" group-title="",A&E 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57476
 #EXTINF:-1 tvg-id="I254.10021.zap2it.com" tvg-name=""jan082025 CA003:AMC"" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="",AMC
-http://fortv.cc:8080/TheBestYetTV/tvtime718/57376
+http://fortv.cc:8080/TheBestYetTV/tvtime718/18925
 #EXTINF:-1 tvg-id="Cable News Network" tvg-name=""feb202025 CA013:CNN"" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN FHD
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57398
 #EXTINF:-1 tvg-id="HRT 1 - Croatian Radio-Television.ca" tvg-name="feb112025 CA: TELELATINO TLN (B)" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN 1
@@ -124,8 +126,6 @@ http://fortv.cc:8080/0HYK5c/662533/57446
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/2219
 #EXTINF:-1 tvg-id="DTOUR HD.ca" tvg-name=""feb202025 CA027:Dtour"" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57250
-#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name=""feb202025 CA211:FX"" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57268
 #EXTINF:-1 tvg-id="I231.12574.zap2it.com" tvg-name=""feb202025 CA030:Food Network"" tvg-logo="https://i.ibb.co/YQLnwxt/Food-Network-Canada-2013-Logo.png" group-title="",Food Network 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57247
 #EXTINF:-1 tvg-id="BNN Bloomberg.ca" tvg-name=""feb202025 CA007:BNN Bloomberg"" tvg-logo="https://i.ibb.co/DzV4K0S/bnn-bloomberg.png" group-title="News",BNN Bloomberg 
