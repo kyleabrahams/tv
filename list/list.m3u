@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 638 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 653 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -298,8 +298,6 @@ https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/titl
 https://jmp2.uk/sam-INBC43000016J.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png" group-title="24/7",48 Hours
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e925bc68d18a00077bb990/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c78ce00-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d510e704-124c-497f-89cb-732e27dd295a
-#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7",AKC TV Puppies 24/7
-https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 channel-id="samsung-INBB280000599" tvg-id="INBB280000599" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBB280000599_20240904T091756SQUARE.png" group-title="Infotainment" tvg-chno="1171",WildEarth
 https://jmp2.uk/sam-INBB280000599.m3u8
 #EXTINF:-1 channel-id="samsung-USBB3500004RC" tvg-id="USBB3500004RC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Reality Competition" tvg-chno="2759",Project Runway
@@ -308,8 +306,8 @@ https://jmp2.uk/sam-USBB3500004RC.m3u8
 https://jmp2.uk/sam-USBA300004TE.m3u8
 #EXTINF:-1 channel-id="samsung-USBB1500001GD" tvg-id="USBB1500001GD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20240520T214717SQUARE.png" group-title="Life Stories & Culture" tvg-chno="2922",USA Today
 https://jmp2.uk/sam-USBB1500001GD.m3u8
-
-
+#EXTINF:-1 channel-id="samsung-USBA3700002JF" tvg-id="USBA3700002JF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="24/7" tvg-chno="2966",ET
+https://jmp2.uk/sam-USBA3700002JF.m3u8
 
 
 
@@ -321,8 +319,6 @@ https://jmp2.uk/sam-USBA370000104.m3u8
 http://fortv.cc:8080/TheBestYetTV/tvtime718/46792
 #EXTINF:-1 tvg-id="Pop (East)" tvg-name="jan082025 US Pop " tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/31/Pop_2015_Red.svg/revision/latest/scale-to-width-down/250?cb=20160701184500" group-title="",US Pop 
 http://fortv.cc:8080/TheBestYetTV/tvtime718/20976
-#EXTINF:-1 tvg-id="Univision.us" tvg-name="feb202025 US Univision (East) (SP)" tvg-logo="https://i.ibb.co/hZrkBV6/Univision-logo-1.png" group-title="",US Univision 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/15336
 #EXTINF:-1 tvg-id="AandE.us" tvg-name="jun162025 US A&E " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",US A&E 
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3167
 #EXTINF:-1 tvg-id="Altitude Sports.us" tvg-name="feb202025 US Altitude Sports HD " tvg-logo="https://i.ibb.co/k5Q1Tdp/Altitude-Sports-logo-1.png" group-title="Sports",US Altitude Sports FHD 
@@ -513,7 +509,7 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9315
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10224
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="feb202025 CA Turner Classic Movies" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="",CA TCM
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/66242
-#EXTINF:-1 tvg-id="TVLandEast" tvg-name="feb202025 US TV Land " tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="",US TV Land 
+#EXTINF:-1 tvg-id="5c2d64ffbdf11b71587184b8" tvg-name="feb202025 US TV Land " tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="",US TV Land 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46696
 #EXTINF:-1 tvg-id="TV ONE (DISH) - TVONE.us" tvg-name="feb202025 US TV One " tvg-logo="https://i.ibb.co/YhmPSmk/tv-one.png" group-title="",US TV One 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20868
@@ -590,15 +586,14 @@ https://jmp2.uk/sam-ATBD190000101.m3u8
 
 
 
-
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7",AKC TV Puppies 24/7
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTV.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="AKC TV" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="",AKC TV Meet The Breeds
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/F8KCZbb/Love-Pets-Logo-Secondary-Color.png" group-title="",*Love Pets
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00090-blueantllc-lovepetsUS-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MAV Select US" tvg-logo="https://i.ibb.co/H2B4Fgx/mavtv-logo-vector-1.png" group-title="",US MAV Select
 https://d3h07n6l1exhds.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0z2yyo4dxctc7/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="",Sony Movie Channel
@@ -691,10 +686,10 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,T
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cosmos.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://seeklogo.com/images/T/tv-one-logo-E2FFB75B22-seeklogo.com.png" group-title="",TV One Presents
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TV-ONE.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",The Jack Hanna Channel
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Jack-Hannah.m3u8
+#EXTINF:-1 tvg-id="INBA4900024R1" tvg-country="" tvg-logo="" group-title="",The Jack Hanna Channel
+https://jmp2.uk/sam-INBA4900024R1.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://static.wixstatic.com/media/1af93f_c70d65efa2864a78b5ecee452437971f~mv2.png/v1/fill/w_530,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/xplore-vector_its-all-here-tagline-01_ed.png" group-title="",Xplore
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Xplore.m3u8
+https://jmp2.uk/sam-INBA4900023QJ.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.totalcrimetv.com/wp-content/uploads/2022/10/crimetime-logo-white.png" group-title="",Total Crime
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Total-Crime.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="",Filmrise True Crime
@@ -715,8 +710,8 @@ https://yahoo-vizio.amagi.tv/playlist.m3u8
 https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="https://i.ibb.co/9pJRgWS/Tastemade-logo.jpg" tvg-logo="" group-title="",Tastemade
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/tastemade-tastemadevizio/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="https://i.ibb.co/9pJRgWS/Tastemade-logo.jpg" tvg-logo="" group-title="",*Tastemade Travel
-https://tastemadetravel-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="USBD700017WC" tvg-country="https://i.ibb.co/9pJRgWS/Tastemade-logo.jpg" tvg-logo="" group-title="",Tastemade Travel
+https://jmp2.uk/sam-USBD700017WC.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Ifood.TV
 https://ifood-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Paranormal Files
@@ -775,10 +770,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d86f519358a00072b978e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c265961-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f86833-3dd6-41ac-a9b8-4a4ec8873306
 #EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/afv-tv-vod.png?raw=true" group-title="Comedy",AFV
 https://jmp2.uk/sam-CABA3700001DB.m3u8
-#EXTINF:-1 tvg-id="USBA3700002JF" tvg-name="ET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="",*ET
-https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
-#EXTINF:-1 channel-id="samsung-USBA3700002JF" tvg-id="USBA3700002JF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3700002JF_20240521T001305SQUARE.png" group-title="Life Stories & Culture" tvg-chno="2966",ET
-https://jmp2.uk/sam-USBA3700002JF.m3u8
 
 
 #EXTINF:-1 ------|Canada|------
