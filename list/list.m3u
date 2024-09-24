@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 1027 a
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 1043 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -258,7 +258,7 @@ https://jmp2.uk/sam-CAAJ2700011IF.m3u8
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="I438.72139.schedulesdirect.org" tvg-country="" tvg-logo="https://i.ibb.co/KjQzDpr/JFLgags23-1.png" group-title="24/7",Just for Laughs Gags
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991204
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/mSDMsr4/just-for-laughs-logo-BW.png" group-title="24/7",Just for Laughs TV 
+#EXTINF:-1 tvg-id="CA1400005SO" tvg-country="" tvg-logo="https://i.ibb.co/mSDMsr4/just-for-laughs-logo-BW.png" group-title="24/7",Just for Laughs TV 
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="643f03b9d8436e0008edf021" tvg-country="" tvg-logo="https://i.ibb.co/0GjThGw/family-feud-1.png" group-title="24/7",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
@@ -268,13 +268,13 @@ https://jmp2.uk/sam-USBC4400016CL.m3u8
 https://d4ybyqrhce41r.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-xumo-linear-nbcu-hlsv3/master.m3u8?ads.channelId=99991651
 #EXTINF:-1 tvg-id="CA1400017PU" tvg-name="jun162025 US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="24/7",Property Brothers Channel
 https://jmp2.uk/sam-CA1400017PU.m3u8
-#EXTINF:0 tvg-id="656538bb635c3c0008695660" tvg-country="CA" tvg-logo="https://canvas.tubitv.com/opts/peYC0SqA50U9oA==/35803cea-97e6-487c-9050-0171abf6c647/CHgQeDoFMS4xLjJAAQ==" group-title="24/7",Dance Moms
+#EXTINF:0 tvg-id="656538bb635c3c0008695660" tvg-country="CA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20240924T010417SQUARE.png" group-title="24/7",Dance Moms
 https://jmp2.uk/sam-CA900005B8.m3u8
 #EXTINF:0 tvg-id="US900002IH" tvg-country="CA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900006X7_20240826T235640SQUARE.png" group-title="24/7",Dog The Bounty Hunter
 https://jmp2.uk/sam-US900002IH.m3u8
 #EXTINF:0 tvg-id="66ba495ffe11e5000881f049" tvg-country="jun162025 CA" tvg-logo="https://images.pluto.tv/channels/62f4f90e39183b000769f12b/colorLogoPNG.png" group-title="24/7",Frasier
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181&checkedby:iptvcat.net
-#EXTINF:0 tvg-id="5b4e99f4423e067bd6df6903" tvg-country="CA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/gordon-ramsays-hells-kitchen-vod-us.png?raw=true" group-title="24/7",Hell's Kitchen
+#EXTINF:0 tvg-id="5b4e99f4423e067bd6df6903" tvg-country="CA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="24/7",Hell's Kitchen
 https://jmp2.uk/sam-USBB2900002Z7.m3u8
 #EXTINF:0 tvg-id="5f7794162a4559000781fc12" tvg-country="CA" tvg-logo="https://i.ibb.co/w75bVbz/happy-days.png" group-title="24/7",Happy Days
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e917b5e354cf0007b97a67/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c3-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b9cae61e-6671-48b9-8e36-973e2921034d&checkedby:iptvcat.net
@@ -284,13 +284,13 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://jmp2.uk/sam-GBBB1600006RS.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/MyTWrzt/million-dollar-listing-vault-1.png" group-title="24/7",Million Dollar Listing Vault
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951237
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="24/7",FailArmy
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://images.pluto.tv/series/650ca0d9d193e8001b8050c1/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="24/7",Fail Army
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991153
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/vVGyn7G/this-old-house-1.png" group-title="24/7",This Old House
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://images.pluto.tv/series/5fd264c82068a9001a0be9cf/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="24/7",This Old House
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991293
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/CJNSnbb/wipeout-xtra-1.png" group-title="24/7",Wipeout Xtra
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3000001QB_20230913T031548SQUARE.png_20230913031549.png" group-title="24/7",Wipeout Xtra
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951129
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/crrpb1L/deal-or-no-deal.png" group-title="24/7",Deal or no Deal
+#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400017N3_20240625T011308SQUARE.png" group-title="24/7",Deal or no Deal
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991113
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/hyzWyLS/Lidias-Kitchen-1024x573-1.png" group-title="24/7",Lidias Kitchen
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951151
@@ -310,7 +310,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
 #EXTINF:-1 channel-id="samsung-INBC43000016J" tvg-id="INBC43000016J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC43000016J_20230111T005122SQUARE.png_20230111005122.png" group-title="Lifestyle" tvg-chno="1378",HD TRAVEL
 https://jmp2.uk/sam-INBC43000016J.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/dfMd7Hw/48.png" group-title="24/7",48 Hours
+#EXTINF:-1 tvg-id="" tvg-logo="https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png" group-title="24/7",48 Hours
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e925bc68d18a00077bb990/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c78ce00-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d510e704-124c-497f-89cb-732e27dd295a
 #EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="24/7",AKC TV Puppies 24/7
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
