@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 626 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 638 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -108,8 +108,6 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57418
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30186
 #EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://i.ibb.co/NghKK6H/Family-Channel-Logo-1.png" group-title="",Family Channel 1
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3040
-"#EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name=""Family Channel "" tvg-logo="https://i.ibb.co/NghKK6H/Family-Channel-Logo-1.png" group-title="",*Family Channel 2
-http://vo01.mohdtv.com:8880/voby4159/55452/3040"
 #EXTINF:-1 tvg-id="MTV Canada HD.ca" tvg-name=""no072024 CA173:MTV"" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="",MTV
 http://fortv.cc:8080/0HYK5c/662533/57446
 #EXTINF:-1 tvg-id="Sportsnet 360.ca" tvg-name=""feb202025 CA059:Sportsnet -360"" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 
@@ -310,8 +308,7 @@ https://jmp2.uk/sam-USBB3500004RC.m3u8
 https://jmp2.uk/sam-USBA300004TE.m3u8
 #EXTINF:-1 channel-id="samsung-USBB1500001GD" tvg-id="USBB1500001GD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20240520T214717SQUARE.png" group-title="Life Stories & Culture" tvg-chno="2922",USA Today
 https://jmp2.uk/sam-USBB1500001GD.m3u8
-#EXTINF:-1 channel-id="samsung-USBA3700002JF" tvg-id="USBA3700002JF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3700002JF_20240521T001305SQUARE.png" group-title="Life Stories & Culture" tvg-chno="2966",ET
-https://jmp2.uk/sam-USBA3700002JF.m3u8
+
 
 
 
@@ -520,8 +517,6 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/66242
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46696
 #EXTINF:-1 tvg-id="TV ONE (DISH) - TVONE.us" tvg-name="feb202025 US TV One " tvg-logo="https://i.ibb.co/YhmPSmk/tv-one.png" group-title="",US TV One 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20868
-#EXTINF:-1 tvg-id="UNIFLAMA.us" tvg-name="feb202025 US Latin Univision " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/univision-us.png?raw=true" group-title="",US Latin Univision 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46692
 #EXTINF:-1 tvg-id="uptv.us" tvg-name="feb202025 US Up TV " tvg-logo="https://i.ibb.co/xGfpmzv/uptv.png" group-title="",US Up TV 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10525
 #EXTINF:-1 tvg-id="USA Network.us" tvg-name="feb202025 US USA Network (East)  " tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/1280px-USA_Network_logo_%282016%29.svg.png" group-title="",US USA Network   
@@ -538,8 +533,6 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/76481
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9237
 #EXTINF:-1 tvg-id="World Fishing Network HDTV (U.S.)" tvg-name="feb202025 US World Fishing Network (F)" tvg-logo="https://i.ibb.co/q7Vxzzv/WFN-2014-logo-1.png" group-title="",US World Fishing Network
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10477
-#EXTINF:-1 tvg-id="Tu Deportes Network (TUDN) U.S" tvg-name="feb202025 US TUDN " tvg-logo="https://i.ibb.co/yhnQgXH/TUDN-Logo-1.png" group-title="",US TUDN 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/82241
 #EXTINF:-1 tvg-id="Game Show Network HDTV (EAST)" tvg-name="feb202025 US Game Show Network" tvg-logo="https://i.ibb.co/8zx49b6/Game-Show-Network-2018-1.png" group-title="",US Game Show Network
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/120633
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/x7b3bBS/gameshow-a-go-go.png" group-title="",Gameshow a Go Go
@@ -782,10 +775,11 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d86f519358a00072b978e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c265961-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f86833-3dd6-41ac-a9b8-4a4ec8873306
 #EXTINF:-1 tvg-id="AFV.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/afv-tv-vod.png?raw=true" group-title="Comedy",AFV
 https://jmp2.uk/sam-CABA3700001DB.m3u8
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="ET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="",*ET
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-name="ET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="",*ET
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
+#EXTINF:-1 channel-id="samsung-USBA3700002JF" tvg-id="USBA3700002JF" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3700002JF_20240521T001305SQUARE.png" group-title="Life Stories & Culture" tvg-chno="2966",ET
+https://jmp2.uk/sam-USBA3700002JF.m3u8
 
-"MasterCA-US.m3u"
 
 #EXTINF:-1 ------|Canada|------
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3069
