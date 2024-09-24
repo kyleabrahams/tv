@@ -6,7 +6,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 656 p
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 24 755 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -72,7 +72,9 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57398
 http://b1g.pw:80/zzzc/zzzc/614801
 #EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name=""feb202025 CA042:Investigation Discovery"" tvg-logo="https://i.ibb.co/MhZ367m/investigation-discovery.png" group-title="",Investigation Discovery
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57442
-#EXTINF:-1 tvg-id="I52.11158.zap2it.com"" tvg-name=""jan302026 CA063:TLC US075"" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",TLC
+#EXTINF:-1 tvg-id="I52.11158.zap2it.com"" tvg-name=""jan302026 CA063:TLC US075"" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",TLC 1
+http://vo01.mohdtv.com:8880/voby4159/55452/3093
+#EXTINF:-1 tvg-id="I52.11158.zap2it.com"" tvg-name=""jan302026 CA063:TLC US075"" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",TLC 2
 http://ultrapremium.cloud:8080/975574908tv/7667hz/23874
 #EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name="feb202025 CA CTV LIFE" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/116506
@@ -674,9 +676,9 @@ https://amg01201-cinedigmenterta-crimehunters-cineverse-cnqvb.amagi.tv/playlist/
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Dove Channel" tvg-logo="https://briteboardinc.com/wp-content/uploads/2022/10/Dove-1.png" group-title="",Dove Channel
 https://amg01201-cinedigmenterta-dove-cineverse-1fck5.amagi.tv/playlist/amg01201-cinedigmenterta-dove-cineverse/playlist.m3u8?checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="News",Cheddar News
+#EXTINF:-1 tvg-id="USAJ3504714A" tvg-country="" tvg-logo="" group-title="News",Cheddar News
 https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,Cloudfront-Cheddar.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="News",Scripps News
+#EXTINF:-1 tvg-id="5459795fc9f133a519bc0bef" tvg-country="" tvg-logo="" group-title="News",Scripps News
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Scripps-News.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/TMZ_Logo.svg/320px-TMZ_Logo.png" group-title="",TMZ
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TMZ.m3u8
@@ -688,19 +690,19 @@ https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,C
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TV-ONE.m3u8
 #EXTINF:-1 tvg-id="INBA4900024R1" tvg-country="" tvg-logo="" group-title="",The Jack Hanna Channel
 https://jmp2.uk/sam-INBA4900024R1.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://static.wixstatic.com/media/1af93f_c70d65efa2864a78b5ecee452437971f~mv2.png/v1/fill/w_530,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/xplore-vector_its-all-here-tagline-01_ed.png" group-title="",Xplore
+#EXTINF:-1 tvg-id="CABC2300002VB" tvg-country="" tvg-logo="https://static.wixstatic.com/media/1af93f_c70d65efa2864a78b5ecee452437971f~mv2.png/v1/fill/w_530,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/xplore-vector_its-all-here-tagline-01_ed.png" group-title="",Xplore
 https://jmp2.uk/sam-INBA4900023QJ.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.totalcrimetv.com/wp-content/uploads/2022/10/crimetime-logo-white.png" group-title="",Total Crime
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Total-Crime.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="",Filmrise True Crime
+#EXTINF:-1 tvg-id="CAAJ27000079E" tvg-country="" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="",Filmrise True Crime
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,FilmRise-True-Crime.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="",Homeful
+#EXTINF:-1 tvg-id="CABC5200022N1" tvg-country="" tvg-logo="https://www.homefultv.com/wp-content/uploads/2023/03/Homeful_Logo_MintWhite.png" group-title="",Homeful
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Homeful.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Great British Menu
+#EXTINF:-1 tvg-id="GBBC900014LW" tvg-country="" tvg-logo="" group-title="",Great British Menu
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Great-British-Menu.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Moviesphere by Lionsgate
+#EXTINF:-1 tvg-id="645e7828e1979c00087b75b4" tvg-country="" tvg-logo="" group-title="",Moviesphere by Lionsgate
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,MovieSphere.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/HDWsdjr/crime-time-1.png" group-title="",Crime Time (Canada)
+#EXTINF:-1 tvg-id="INBD25000148M" tvg-country="" tvg-logo="https://i.ibb.co/HDWsdjr/crime-time-1.png" group-title="",Crime Time (Canada)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,CrimeTime-Canada.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",Dazn TV (Canada)
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
@@ -740,7 +742,7 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://d4whmvwm0rdvi.cloudfront.net/10007/99991626/hls/master.m3u8?ads.xumo_channelId=99991626
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Law and Crime 
 https://dbrb49pjoymg4.cloudfront.net/10001/99991320/hls/playlist.m3u8?ads.xumo_channelId=99991320
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="24/7",Unsolved Mysteries
+#EXTINF:-1 tvg-id="5b4e96a0423e067bd6df6901" tvg-country="" tvg-logo="" group-title="24/7",Unsolved Mysteries
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991680
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://www.comedydynamics.com/wp-content/uploads/2023/12/Logo.png" group-title="",Comedy Dynamics
 https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_channelId=99991190
@@ -748,11 +750,11 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991190/hls/index.m3u8?ads.xumo_chan
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991229
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",Todays Homeowner
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991759
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",The Design Network
+#EXTINF:-1 tvg-id="CAAJ3400016J9" tvg-country="" tvg-logo="" group-title="",The Design Network
 https://dbrb49pjoymg4.cloudfront.net/10001/99991390/hls/playlist.m3u8?ads.xumo_channelId=99991390
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",The Archive
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991310
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="" group-title="",PBS Digital Studios
+#EXTINF:-1 tvg-id="USBB800001O7" tvg-country="" tvg-logo="" group-title="",PBS Digital Studios
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991160
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://autonomy.work/wp-content/uploads/2020/09/wired-logo.jpg" group-title="",Wired
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991135
