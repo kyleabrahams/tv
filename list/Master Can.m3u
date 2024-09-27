@@ -151,11 +151,11 @@ http://b1g.pw:80/maggie/maggie/627283
 http://b1g.pw:80/maggie/maggie/613248
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV Vancouver (FL)" tvg-name="CA CTV Vancouver (FL)" tvg-logo="" group-title="CA | Canada",CA CTV Vancouver (FL)
 http://b1g.pw:80/maggie/maggie/627282
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 London (R)" tvg-name="CA CTV2 London (R)" tvg-logo="" group-title="CA | Canada",CA CTV2 London (R)
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 London (R)" tvg-name="CA CTV2 London (R)" tvg-logo="" group-title="CA | Canada",CA CTV2 London (R)1 63
 http://b1g.pw:80/maggie/maggie/613251
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 Ottawa (R)" tvg-name="CA CTV2 Ottawa (R)" tvg-logo="" group-title="CA | Canada",CA CTV2 Ottawa (R)
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 Ottawa (R)" tvg-name="CA CTV2 Ottawa (R)" tvg-logo="" group-title="CA | Canada",CA CTV2 Ottawa (R)2 64
 http://b1g.pw:80/maggie/maggie/613252
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 Toronto (FL)" tvg-name="CA CTV2 Toronto (FL)" tvg-logo="" group-title="CA | Canada",CA CTV2 Toronto (FL)
+#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CTV2 Toronto (FL)" tvg-name="CA CTV2 Toronto (FL)" tvg-logo="" group-title="CA | Canada",CA CTV2 Toronto (FL)3 65
 http://b1g.pw:80/maggie/maggie/627300
 #EXTINF:-1 xui-id="{XUI_ID}" tvg-id="CA CW Pix11 NYC (FL)" tvg-name="CA CW Pix11 NYC (FL)" tvg-logo="" group-title="CA | Canada",CA CW Pix11 NYC (FL)
 http://b1g.pw:80/maggie/maggie/627269
@@ -565,7 +565,7 @@ http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3054
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD4 66
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/3042
@@ -673,7 +673,7 @@ http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30150
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London5 67
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30141
@@ -893,11 +893,11 @@ http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30197
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 6
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 7
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/29ca10183n04/asdfe332/30142
@@ -991,7 +991,7 @@ http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3054
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD8
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3042
@@ -1099,7 +1099,7 @@ http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30150
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London 9
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30141
@@ -1319,11 +1319,11 @@ http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30197
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 10
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 11
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/30142
@@ -1563,7 +1563,7 @@ http://fortv.cc:8080/90820916/64752029/58725
 http://fortv.cc:8080/90820916/64752029/57410
 #EXTINF:-1 tvg-id="ctvkitchener.ca" tvg-name="CA CTV Kitchener " tvg-logo="" group-title="CANADA",CA CTV Kitchener 
 http://fortv.cc:8080/90820916/64752029/58557
-#EXTINF:-1 tvg-id="ctv2london.ca" tvg-name="CA CTV 2 London HD " tvg-logo="" group-title="CANADA",CA CTV 2 London HD 
+#EXTINF:-1 tvg-id="ctv2london.ca" tvg-name="CA CTV2 London HD " tvg-logo="" group-title="CANADA",CA CTV2 London HD1 12
 http://fortv.cc:8080/90820916/64752029/58546
 #EXTINF:-1 tvg-id="ctvmontreal.ca" tvg-name="CA CTV Montreal HD " tvg-logo="" group-title="CANADA",CA CTV Montreal HD 
 http://fortv.cc:8080/90820916/64752029/47234
@@ -1579,9 +1579,9 @@ http://fortv.cc:8080/90820916/64752029/66382
 http://fortv.cc:8080/90820916/64752029/57253
 #EXTINF:-1 tvg-id="ctvtoronto.ca" tvg-name="CA CTV Toronto HD (R)" tvg-logo="" group-title="CANADA",CA CTV Toronto HD (R)
 http://fortv.cc:8080/90820916/64752029/47296
-#EXTINF:-1 tvg-id="ctvvancouver.ca" tvg-name="CA: CTV2 Vancouver" tvg-logo="" group-title="CANADA",CA: CTV2 Vancouver
+#EXTINF:-1 tvg-id="ctvvancouver.ca" tvg-name="CA: CTV2 Vancouver" tvg-logo="" group-title="CANADA",CA: CTV2 Vancouver 13
 http://fortv.cc:8080/90820916/64752029/57316
-#EXTINF:-1 tvg-id="ctv2windsor.ca" tvg-name="CA CTV2 Windsor HD (B)" tvg-logo="" group-title="CANADA",CA CTV2 Windsor HD (B)
+#EXTINF:-1 tvg-id="ctv2windsor.ca" tvg-name="CA CTV2 Windsor HD (B)" tvg-logo="" group-title="CANADA",CA CTV2 Windsor HD (B) 14
 http://fortv.cc:8080/90820916/64752029/77165
 #EXTINF:-1 tvg-id="ctv2barrie.ca" tvg-name="CA CTV Barrie Ontario HD " tvg-logo="" group-title="CANADA",CA CTV Barrie Ontario HD 
 http://fortv.cc:8080/90820916/64752029/57373
@@ -1865,7 +1865,7 @@ http://opplex.tv:8080/3116580700/0700/348885
 http://opplex.tv:8080/3116580700/0700/348886
 #EXTINF:-1 tvg-id="cpacottawaen.ca" tvg-name="CA: CPAC" tvg-logo="http://s3.i3ns.net/portal/picon/2021-05/4363c1bc496c270f40b699ea7344e33d.png" group-title="Canada ➾ LifeStyle",CA: CPAC
 http://opplex.tv:8080/3116580700/0700/348887
-#EXTINF:-1 tvg-id="ctv2.ca" tvg-name="CA: CTV 2" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/88919c0e9383e36349b19128fe4cedcf.png" group-title="Canada ➾ LifeStyle",CA: CTV 2
+#EXTINF:-1 tvg-id="ctv2.ca" tvg-name="CA: CTV2" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/88919c0e9383e36349b19128fe4cedcf.png" group-title="Canada ➾ LifeStyle",CA: CTV2 16
 http://opplex.tv:8080/3116580700/0700/348888
 #EXTINF:-1 tvg-id="" tvg-name="CA: CTV Kitchener" tvg-logo="http://s3.i3ns.net/portal/picon/2023-04/3bd41d59d3e4be80c3985a4fe00ea338.png" group-title="Canada ➾ LifeStyle",CA: CTV Kitchener
 http://opplex.tv:8080/3116580700/0700/348889
@@ -2037,13 +2037,13 @@ http://opplex.tv:8080/3116580700/0700/348971
 http://opplex.tv:8080/3116580700/0700/348972
 #EXTINF:-1 tvg-id="" tvg-name="CA: CTV" tvg-logo="http://s3.i3ns.net/portal/picon/2021-09/b4734eb5f62a306273a572dc9926feb3.png" group-title="Canada ➾ News",CA: CTV
 http://opplex.tv:8080/3116580700/0700/348973
-#EXTINF:-1 tvg-id="" tvg-name="CA: CTV 2 Atlantic" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/f73abd6c1c908aa48229ef1e81d80097.png" group-title="Canada ➾ News",CA: CTV 2 Atlantic
+#EXTINF:-1 tvg-id="" tvg-name="CA: CTV2 Atlantic" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/f73abd6c1c908aa48229ef1e81d80097.png" group-title="Canada ➾ News",CA: CTV2 Atlantic 17
 http://opplex.tv:8080/3116580700/0700/348974
-#EXTINF:-1 tvg-id="" tvg-name="CA: CTV 2 Barrie" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/92ba2cad2219cb24d623da9841753dd1.png" group-title="Canada ➾ News",CA: CTV 2 Barrie
+#EXTINF:-1 tvg-id="" tvg-name="CA: CTV2 Barrie" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/92ba2cad2219cb24d623da9841753dd1.png" group-title="Canada ➾ News",CA: CTV2 Barrie 18
 http://opplex.tv:8080/3116580700/0700/348975
-#EXTINF:-1 tvg-id="" tvg-name="CA: CTV 2 London" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/514e7eb73d98fe8cde00505defe96972.png" group-title="Canada ➾ News",CA: CTV 2 London
+#EXTINF:-1 tvg-id="" tvg-name="CA: CTV2 London" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/514e7eb73d98fe8cde00505defe96972.png" group-title="Canada ➾ News",CA: CTV2 London 19
 http://opplex.tv:8080/3116580700/0700/348976
-#EXTINF:-1 tvg-id="" tvg-name="CA: CTV 2 Ottawa" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/cf8319bb4810f729e77d18a6c95bc33e.png" group-title="Canada ➾ News",CA: CTV 2 Ottawa
+#EXTINF:-1 tvg-id="" tvg-name="CA: CTV2 Ottawa" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/cf8319bb4810f729e77d18a6c95bc33e.png" group-title="Canada ➾ News",CA: CTV2 Ottawa 20
 http://opplex.tv:8080/3116580700/0700/348977
 #EXTINF:-1 tvg-id="" tvg-name="CA: CTV News Atlantic" tvg-logo="http://s3.i3ns.net/portal/picon/2023-04/853d623423e380ef65f8b3cc0f1538f0.png" group-title="Canada ➾ News",CA: CTV News Atlantic
 http://opplex.tv:8080/3116580700/0700/348978
@@ -2145,7 +2145,7 @@ http://opplex.tv:8080/3116580700/0700/349025
 http://opplex.tv:8080/3116580700/0700/349026
 #EXTINF:-1 tvg-id="" tvg-name="CA: CNBC" tvg-logo="http://s3.i3ns.net/portal/picon/2023-05/5a32a5ed3d3dd459f7ab61ba806ba506.svg" group-title="Canada",CA: CNBC
 http://opplex.tv:8080/3116580700/0700/349027
-#EXTINF:-1 tvg-id="ctvvancouver.ca" tvg-name="CA: CTV 2 Vancouver" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/0cec0325ad8b069dec3a0b4c4db3eda9.png" group-title="Canada",CA: CTV 2 Vancouver
+#EXTINF:-1 tvg-id="ctvvancouver.ca" tvg-name="CA: CTV2 Vancouver" tvg-logo="http://s3.i3ns.net/portal/picon/2022-08/0cec0325ad8b069dec3a0b4c4db3eda9.png" group-title="Canada",CA: CTV2 Vancouver 21
 http://opplex.tv:8080/3116580700/0700/349028
 #EXTINF:-1 tvg-id="" tvg-name="CA: CTV Calgary" tvg-logo="http://s3.i3ns.net/portal/picon/2023-01/6a23585c77d577bed549a5ec5fe325f1.png" group-title="Canada",CA: CTV Calgary
 http://opplex.tv:8080/3116580700/0700/349029
@@ -2359,7 +2359,7 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/58725
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57410
 #EXTINF:-1 tvg-id="ctvkitchener.ca" tvg-name="CA CTV Kitchener " tvg-logo="" group-title="CANADA",CA CTV Kitchener 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/58557
-#EXTINF:-1 tvg-id="ctv2london.ca" tvg-name="CA CTV 2 London HD " tvg-logo="" group-title="CANADA",CA CTV 2 London HD 
+#EXTINF:-1 tvg-id="ctv2london.ca" tvg-name="CA CTV2 London HD " tvg-logo="" group-title="CANADA",CA CTV2 London HD 22
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/58546
 #EXTINF:-1 tvg-id="ctvmontreal.ca" tvg-name="CA CTV Montreal HD " tvg-logo="" group-title="CANADA",CA CTV Montreal HD 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/47234
@@ -2377,9 +2377,9 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57253
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/47296
 #EXTINF:-1 tvg-id="ctvvancouver.ca" tvg-name="CA: CTV2 Vancouver" tvg-logo="" group-title="CANADA",CA: CTV2 Vancouver
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57316
-#EXTINF:-1 tvg-id="ctv2windsor.ca" tvg-name="CA CTV2 Windsor HD (B)" tvg-logo="" group-title="CANADA",CA CTV2 Windsor HD (B)
+#EXTINF:-1 tvg-id="ctv2windsor.ca" tvg-name="CA CTV2 Windsor HD (B)" tvg-logo="" group-title="CANADA",CA CTV2 Windsor HD (B) 23
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/77165
-#EXTINF:-1 tvg-id="ctv2barrie.ca" tvg-name="CA CTV Barrie Ontario HD " tvg-logo="" group-title="CANADA",CA CTV Barrie Ontario HD 
+#EXTINF:-1 tvg-id="ctv2barrie.ca" tvg-name="CA CTV Barrie Ontario HD " tvg-logo="" group-title="CANADA",CA CTV2 Barrie Ontario HD 24
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57373
 #EXTINF:-1 tvg-id="discoverychannel.ca" tvg-name="CA Discovery Channel " tvg-logo="" group-title="CANADA",CA Discovery Channel 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57252
@@ -2591,7 +2591,7 @@ http://yesimes.oknirvana.club:8880/D12m2868/41792763/3054
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD 25
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3042
@@ -2699,7 +2699,7 @@ http://yesimes.oknirvana.club:8880/D12m2868/41792763/30150
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London 26
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30141
@@ -2919,11 +2919,11 @@ http://yesimes.oknirvana.club:8880/D12m2868/41792763/30197
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 27
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 28
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/30142
@@ -3017,7 +3017,7 @@ http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/3054
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD 29
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/3042
@@ -3125,7 +3125,7 @@ http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30150
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London 30
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30141
@@ -3345,11 +3345,11 @@ http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30197
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 32
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 32
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/DAALM2374/mBv24XtbyX/30142
@@ -3443,7 +3443,7 @@ http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/3054
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD 33
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/3042
@@ -3551,7 +3551,7 @@ http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30150
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London 34
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30141
@@ -3771,11 +3771,11 @@ http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30197
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 35
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 36
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/DAANM258/VDYSsuChCe/30142
@@ -3869,7 +3869,7 @@ http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3054
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3051
 #EXTINF:-1 tvg-id="ctv.montreal.ca" tvg-name="CA019:CTV HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA019CTV.png" group-title="CA General",CA019:CTV HD
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3050
-#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV 2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV 2 Atlantic HD
+#EXTINF:-1 tvg-id="ctv.two.atlantic.ca" tvg-name="CA020:CTV2 Atlantic HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA020CTVAtlantic.png" group-title="CA General",CA020:CTV2 Atlantic HD 37
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3049
 #EXTINF:-1 tvg-id="dtour.ca" tvg-name="CA027:Dtour HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA027DTOUR.png" group-title="CA General",CA027:Dtour HD
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3042
@@ -3977,7 +3977,7 @@ http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30150
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30148
 #EXTINF:-1 tvg-id="tfo.ca" tvg-name="CA167:TFO (FR)" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA167TFO.png" group-title="CA General",CA167:TFO (FR)
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30147
-#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London
+#EXTINF:-1 tvg-id="noovo.ca" tvg-name="CA168:CTV2 London" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA168THEWEATHERNETWORK.png" group-title="CA General",CA168:CTV2 London 38
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30146
 #EXTINF:-1 tvg-id="mtv.india.ca" tvg-name="CA173:MTV" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA173" group-title="CA General",CA173:MTV
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30141
@@ -4197,11 +4197,11 @@ http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30197
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30196
 #EXTINF:-1 tvg-id="ctv.vancouver.british.columbia.ca" tvg-name="CA119:CTV Vancouver" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA119CTVVANCOUVER.png" group-title="CA News",CA119:CTV Vancouver
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30195
-#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa
+#EXTINF:-1 tvg-id="ctv.two.ottawa.chro.ca" tvg-name="CA120:CTV2 Ottawa" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA120CTV2OTTAWA.png" group-title="CA News",CA120:CTV2 Ottawa 39
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30194
 #EXTINF:-1 tvg-id="fox.news.ca" tvg-name="CA133:Fox News HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA133FOXNEWS.png" group-title="CA News",CA133:Fox News HD
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30181
-#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie
+#EXTINF:-1 tvg-id="ctv.two.vancouver.island.civi.ca" tvg-name="CA145:CTV2 Barrie" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA145ICIVANCOUVER.png" group-title="CA News",CA145:CTV2 Barrie 40
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30169
 #EXTINF:-1 tvg-id="" tvg-name="CA172:TV5 QUEBEC HD" tvg-logo="http://www.tvboxgroup.com/iptv/logo/CA/CA172TV5QUEBEC.png" group-title="CA News",CA172:TV5 QUEBEC HD
 http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30142
@@ -4441,7 +4441,7 @@ http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/58725
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/57410
 #EXTINF:-1,CA CTV Kitchener 
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/58557
-#EXTINF:-1,CA CTV 2 London HD 
+#EXTINF:-1,CA CTV2 London HD 41
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/58546
 #EXTINF:-1,CA CTV Montreal HD 
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/47234
@@ -4457,9 +4457,9 @@ http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/66382
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/57253
 #EXTINF:-1,CA CTV Toronto HD (R)
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/47296
-#EXTINF:-1,CA: CTV2 Vancouver
+#EXTINF:-1,CA: CTV2 Vancouver 42
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/57316
-#EXTINF:-1,CA CTV2 Windsor HD (B)
+#EXTINF:-1,CA CTV2 Windsor HD (B) 43
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/77165
 #EXTINF:-1,CA CTV Barrie Ontario HD 
 http://fortv.cc:8080/ebrahim@prudent.com/0104@8023/57373
@@ -4819,7 +4819,7 @@ http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/58725
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/57410
 #EXTINF:-1,CA CTV Kitchener 
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/58557
-#EXTINF:-1,CA CTV 2 London HD 
+#EXTINF:-1,CA CTV2 London HD 44
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/58546
 #EXTINF:-1,CA CTV Montreal HD 
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/47234
@@ -4835,9 +4835,9 @@ http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/66382
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/57253
 #EXTINF:-1,CA CTV Toronto HD (R)
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/47296
-#EXTINF:-1,CA: CTV2 Vancouver
+#EXTINF:-1,CA: CTV2 Vancouver 45
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/57316
-#EXTINF:-1,CA CTV2 Windsor HD (B)
+#EXTINF:-1,CA CTV2 Windsor HD (B) 46
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/77165
 #EXTINF:-1,CA CTV Barrie Ontario HD 
 http://fortv.cc:8080/Jamesmcmillan@att.net/Jamesmcmillan@2023/57373
@@ -5197,7 +5197,7 @@ http://fortv.cc:8080/ltx-nl02152023/123456/58725
 http://fortv.cc:8080/ltx-nl02152023/123456/57410
 #EXTINF:-1,CA CTV Kitchener 
 http://fortv.cc:8080/ltx-nl02152023/123456/58557
-#EXTINF:-1,CA CTV 2 London HD 
+#EXTINF:-1,CA CTV2 London HD 47
 http://fortv.cc:8080/ltx-nl02152023/123456/58546
 #EXTINF:-1,CA CTV Montreal HD 
 http://fortv.cc:8080/ltx-nl02152023/123456/47234
@@ -5213,9 +5213,9 @@ http://fortv.cc:8080/ltx-nl02152023/123456/66382
 http://fortv.cc:8080/ltx-nl02152023/123456/57253
 #EXTINF:-1,CA CTV Toronto HD (R)
 http://fortv.cc:8080/ltx-nl02152023/123456/47296
-#EXTINF:-1,CA: CTV2 Vancouver
+#EXTINF:-1,CA: CTV2 Vancouver 48
 http://fortv.cc:8080/ltx-nl02152023/123456/57316
-#EXTINF:-1,CA CTV2 Windsor HD (B)
+#EXTINF:-1,CA CTV2 Windsor HD (B) 49
 http://fortv.cc:8080/ltx-nl02152023/123456/77165
 #EXTINF:-1,CA CTV Barrie Ontario HD 
 http://fortv.cc:8080/ltx-nl02152023/123456/57373
@@ -5641,7 +5641,7 @@ http://tv.topsmart.iptv.uno:80/mSUg3MKvt3880/2Pcp622955/81433
 http://tv.topsmart.iptv.uno:80/mSUg3MKvt3880/2Pcp622955/27470
 #EXTINF:-1 tvg-id="Cp24.ca" tvg-name="CP 24 HD CA" tvg-logo="https://picon-13398.kxcdn.com/cp24ca.jpg" group-title="Live: USA & Canada",CP 24 HD CA
 http://tv.topsmart.iptv.uno:80/mSUg3MKvt3880/2Pcp622955/19656
-#EXTINF:-1 tvg-id="CKVR.ca" tvg-name="CTV 2 HD CA" tvg-logo="https://picon-13398.kxcdn.com/ctv2ca.jpg" group-title="Live: USA & Canada",CTV 2 HD CA
+#EXTINF:-1 tvg-id="CKVR.ca" tvg-name="CTV2 HD CA" tvg-logo="https://picon-13398.kxcdn.com/ctv2ca.jpg" group-title="Live: USA & Canada",CTV2 HD CA 50
 http://tv.topsmart.iptv.uno:80/mSUg3MKvt3880/2Pcp622955/29030
 #EXTINF:-1 tvg-id="CTVComedy.ca" tvg-name="CTV Comedy Channel HD CA" tvg-logo="https://picon-13398.kxcdn.com/ctvcomedychca.jpg" group-title="Live: USA & Canada",CTV Comedy Channel HD CA
 http://tv.topsmart.iptv.uno:80/mSUg3MKvt3880/2Pcp622955/29026
@@ -6363,7 +6363,7 @@ http://vo01.mohdtv.com:8880/voby4159/55452/3052
 http://vo01.mohdtv.com:8880/voby4159/55452/3051
 #EXTINF:-1,CA019:CTV HD
 http://vo01.mohdtv.com:8880/voby4159/55452/3050
-#EXTINF:-1,CA020:CTV 2 Atlantic HD
+#EXTINF:-1,CA020:CTV2 Atlantic HD 51
 http://vo01.mohdtv.com:8880/voby4159/55452/3049
 #EXTINF:-1,CA021:CTV NEWS HD
 http://vo01.mohdtv.com:8880/voby4159/55452/3048
@@ -6561,7 +6561,7 @@ http://vo01.mohdtv.com:8880/voby4159/55452/30197
 http://vo01.mohdtv.com:8880/voby4159/55452/30196
 #EXTINF:-1,CA119:CTV Vancouver
 http://vo01.mohdtv.com:8880/voby4159/55452/30195
-#EXTINF:-1,CA120:CTV2 Ottawa
+#EXTINF:-1,CA120:CTV2 Ottawa 52
 http://vo01.mohdtv.com:8880/voby4159/55452/30194
 #EXTINF:-1,CA121:Isuma TV
 http://vo01.mohdtv.com:8880/voby4159/55452/30193
@@ -6609,7 +6609,7 @@ http://vo01.mohdtv.com:8880/voby4159/55452/30172
 http://vo01.mohdtv.com:8880/voby4159/55452/30171
 #EXTINF:-1,CA144:ICI Tele Montreal (FR)
 http://vo01.mohdtv.com:8880/voby4159/55452/30170
-#EXTINF:-1,CA145:CTV2 Barrie
+#EXTINF:-1,CA145:CTV2 Barrie 53
 http://vo01.mohdtv.com:8880/voby4159/55452/30169
 #EXTINF:-1,CA146:IFC
 http://vo01.mohdtv.com:8880/voby4159/55452/30168
@@ -6647,7 +6647,7 @@ http://vo01.mohdtv.com:8880/voby4159/55452/30150
 http://vo01.mohdtv.com:8880/voby4159/55452/30148
 #EXTINF:-1,CA167:TFO (FR)
 http://vo01.mohdtv.com:8880/voby4159/55452/30147
-#EXTINF:-1,CA168:CTV2 London
+#EXTINF:-1,CA168:CTV2 London 54
 http://vo01.mohdtv.com:8880/voby4159/55452/30146
 #EXTINF:-1,CA169:TMN2E (CRAVE TV 2)
 http://vo01.mohdtv.com:8880/voby4159/55452/30145
@@ -6793,17 +6793,17 @@ http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/425038
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/425037
 #EXTINF:-1 tvg-ID="ctvtoronto.ca" tvg-name="CA ▎CTV TORONTO HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV TORONTO HD
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/356057
-#EXTINF:-1 tvg-ID="ctv2vancouver.ca" tvg-name="CA ▎CTV 2 VANCOUVER HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV 2 VANCOUVER HD
+#EXTINF:-1 tvg-ID="ctv2vancouver.ca" tvg-name="CA ▎CTV2 VANCOUVER HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 VANCOUVER HD 55
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/356058
-#EXTINF:-1 tvg-ID="" tvg-name="CA ▎CTV2 ALBERTA HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 ALBERTA HD
+#EXTINF:-1 tvg-ID="" tvg-name="CA ▎CTV2 ALBERTA HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 ALBERTA HD 56
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/425229
-#EXTINF:-1 tvg-ID="ctv2london.ca" tvg-name="CA ▎CTV2 LONDON HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 LONDON HD
+#EXTINF:-1 tvg-ID="ctv2london.ca" tvg-name="CA ▎CTV2 LONDON HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 LONDON HD 57
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/425227
-#EXTINF:-1 tvg-ID="" tvg-name="CA ▎CTV2 ATLANTIC HD" tvg-logo="" group-title="CA ▎GENERAL",CA ▎CTV2 ATLANTIC HD
+#EXTINF:-1 tvg-ID="" tvg-name="CA ▎CTV2 ATLANTIC HD" tvg-logo="" group-title="CA ▎GENERAL",CA ▎CTV2 ATLANTIC HD 58
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/1458497
-#EXTINF:-1 tvg-ID="ctv2windsor.ca" tvg-name="CA ▎CTV2 WINDSOR HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 WINDSOR HD
+#EXTINF:-1 tvg-ID="ctv2windsor.ca" tvg-name="CA ▎CTV2 WINDSOR HD" tvg-logo="https://img.logo-cdn.cc/ctvhalifax.png" group-title="CA ▎GENERAL",CA ▎CTV2 WINDSOR HD 59
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/425226
-#EXTINF:-1 tvg-ID="ctv2ottawa.ca" tvg-name="CA ▎CTV 2 OTTAWA HD" tvg-logo="https://img.logo-cdn.cc/ctvottawa.png" group-title="CA ▎GENERAL",CA ▎CTV 2 OTTAWA HD
+#EXTINF:-1 tvg-ID="ctv2ottawa.ca" tvg-name="CA ▎CTV2 OTTAWA HD" tvg-logo="https://img.logo-cdn.cc/ctvottawa.png" group-title="CA ▎GENERAL",CA ▎CTV2 OTTAWA HD 60
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/356060
 #EXTINF:-1 tvg-ID="" tvg-name="CA ▎ROGERS TV GREY COUNTY HD" tvg-logo="https://img.logo-cdn.cc/rogerstvgreycounty.png" group-title="CA ▎GENERAL",CA ▎ROGERS TV GREY COUNTY HD
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/886490
@@ -6865,9 +6865,9 @@ http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51785
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/248258
 #EXTINF:-1 tvg-ID="" tvg-name="CA ▎CTV CALGARY" tvg-logo="https://img.logo-cdn.cc/ctvcalgary.png" group-title="CA ▎GENERAL",CA ▎CTV CALGARY
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/733382
-#EXTINF:-1 tvg-ID="ctv2ottawa.ca" tvg-name="CA ▎CTV2 OTTAWA" tvg-logo="https://img.logo-cdn.cc/ctv2ottawa.png" group-title="CA ▎GENERAL",CA ▎CTV2 OTTAWA
+#EXTINF:-1 tvg-ID="ctv2ottawa.ca" tvg-name="CA ▎CTV2 OTTAWA" tvg-logo="https://img.logo-cdn.cc/ctv2ottawa.png" group-title="CA ▎GENERAL",CA ▎CTV2 OTTAWA 61
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51784
-#EXTINF:-1 tvg-ID="ctv2vancouver.ca" tvg-name="CA ▎CTV 2 VANCOUVER" tvg-logo="https://img.logo-cdn.cc/ctvvancouver.png" group-title="CA ▎GENERAL",CA ▎CTV 2 VANCOUVER
+#EXTINF:-1 tvg-ID="ctv2vancouver.ca" tvg-name="CA ▎CTV2 VANCOUVER" tvg-logo="https://img.logo-cdn.cc/ctvvancouver.png" group-title="CA ▎GENERAL",CA ▎CTV2 VANCOUVER 62
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51789
 #EXTINF:-1 tvg-ID="citytvmontrealqc.ca" tvg-name="CA ▎CITY MONTREAL" tvg-logo="https://img.logo-cdn.cc/citytvcalgary.png" group-title="CA ▎GENERAL",CA ▎CITY MONTREAL
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51645
@@ -7497,7 +7497,7 @@ http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51793
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51761
 #EXTINF:-1 tvg-ID="bnn.ca" tvg-name="CA ▎BNN" tvg-logo="https://img.logo-cdn.cc/bnn.png" group-title="CA ▎NEWS",CA ▎BNN
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51821
-#EXTINF:-1 tvg-ID="ctvnews.ca" tvg-name="CA ▎CTV NEWS NETWORK" tvg-logo="https://img.logo-cdn.cc/ctv2london.png" group-title="CA ▎NEWS",CA ▎CTV NEWS NETWORK
+#EXTINF:-1 tvg-ID="ctvnews.ca" tvg-name="CA ▎CTV NEWS NETWORK" tvg-logo="https://img.logo-cdn.cc/ctv2london.png" group-title="CA ▎NEWS",CA ▎CTV NEWS NETWORK 
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51788
 #EXTINF:-1 tvg-ID="chch.ca" tvg-name="CA ▎CHCH" tvg-logo="https://img.logo-cdn.cc/chch.png" group-title="CA ▎NEWS",CA ▎CHCH22
 http://line.my-pro.cc:80/VY8RV2JX4M/TBRCCQKHDR/51807
