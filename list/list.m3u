@@ -2,13 +2,13 @@
 
 #EXTINF:-1 tvg-id="I503.18168.zap2it.com" tvg-name=""jan082025 CA016:CP24 HD"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="jan082025 CA085:MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
-http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
+"#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="jan082025 CA085:MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+http://fortv.cc:8080/TheBestYetTV/tvtime718/47332"
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="jan082025 CA085:MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fl2.moveonjoy.com/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 27 1256 a
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Sep 27 106 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON feb202025" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/216100
@@ -38,8 +38,12 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57268
 http://fortv.cc:8080/TheBestYetTV/tvtime718/120746
 #EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="jan082025 US602:NBC 2 (WGRZ) Buffalo" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 2
 http://fortv.cc:8080/0HYK5c/662533/120748
+#EXTINF:-1 tvg-id="I4.1.20459.zap2it.com" tvg-name="jan082025 US602:NBC 2 (WGRZ) Buffalo" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo USATV
+http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
 #EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="nov072025 US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",US ABC Buffalo 1
 http://fortv.cc:8080/0HYK5c/662533/120876
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="nov072025 US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",US ABC Buffalo USATV
+http://streamsy.online:2999/live/juanv/04bodwaga0/727.m3u8
 #EXTINF:-1 tvg-id="TSC.ca" tvg-name=""feb202025 CA185:The Shopping Channel"" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57370
 #EXTINF:-1 tvg-id="CTV2London.ca" tvg-name=""jan252025 CA020:CTV2 London HD (D)"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London HD (D)
@@ -158,8 +162,10 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9860
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3104
 #EXTINF:-1 tvg-id="The Golf Channel" tvg-name=""feb202025 US156:NBC_Golf_Channel"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="",US Golf Channel
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9806
-#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan142025 CA109:CNBC"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC
-http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30205
+"#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan142025 CA109:CNBC"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC
+http://vo01.mohdtv.com:8880/ALLChannels3ccf5ba5a6fb/87581651/30205"
+#EXTINF:-1 tvg-id="CNBC Canada.ca" tvg-name=""jan142025 CA109:CNBC"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC USATV
+http://fl2.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="HLN" tvg-name=""jun162025 CA041:HLN"" tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="",HLN
 http://yesimes.oknirvana.club:8880/29us031901/adsf3rdsdc/3028
 #EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name=""jan142025 CA141:Adult Swim"" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title=""CANADA "",Adult Swim
