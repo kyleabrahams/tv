@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 1 1243 a
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 1 1247 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -140,10 +140,10 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57346
 http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/59196
 #EXTINF:-1 tvg-id="Aboriginal Peoples Television Network (East)" tvg-name=""jun162025 CA088:APTN"" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="",APTN
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30226
-#EXTINF:-1 tvg-id="The Oprah Winfrey Network (East)" tvg-name=""feb202025 US067:Oprah Winfrey Network"" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",US OWN FHD
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46698
-#EXTINF:-1 tvg-id="Hallmark Channel (East)" tvg-name=""feb202025 US043:Hallmark Channel"" tvg-logo="https://i.ibb.co/Tr2TfBg/Hallmark-logo-1.png" group-title=""US "",US Hallmark Channel 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46719
+#EXTINF:-1 tvg-id="The Oprah Winfrey Network (East)" tvg-name=""xxx000000 US067:Oprah Winfrey Network USATV"" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",US OWN USATV
+http://fl2.moveonjoy.com/OWN/index.m3u8
+#EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="feb202025 US Hallmark Channel" tvg-logo="https://i.ibb.co/CHMycbv/Hallmark-logo-1.png" group-title="",US Hallmark Channel USATV
+http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Sportsnet (East) HD.ca" tvg-name="feb202025 CA060:Sportsnet East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",Sportsnet East 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57298
 #EXTINF:-1 tvg-id="Sportsnet (West) - Satellite/Digital HD.ca" tvg-name=""jun162025 CA062:Sportsnet West"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 
