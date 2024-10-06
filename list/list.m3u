@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 6 1006 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 6 1019 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -261,7 +261,7 @@ https://jmp2.uk/sam-CAAJ2700011IF.m3u8
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="JustForLaughsGags.us" tvg-country="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="24/7",Just for Laughs Gags
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991204
-#EXTINF:-1 tvg-id="CA1400005SO" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="24/7",Just for Laughs TV 
+#EXTINF:-1 tvg-id="UK:.Just.for.Laughs.TV.en" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="24/7",Just for Laughs TV 
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="FamilyFeudClassic.us" tvg-country="" tvg-logo="https://images.pluto.tv/channels/643f03b9d8436e0008edf021/colorLogoPNG.png" group-title="24/7",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
@@ -305,11 +305,11 @@ https://jmp2.uk/sam-CABD1200005AV.m3u8
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5e1f7e089f23700009d66303/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
 #EXTINF:-1 tvg-id="TheWalkingDeadUniverse.us" tvg-country="" tvg-logo="" group-title="24/7",The Walking Dead Universe
 https://jmp2.uk/sam-USBD1200004NS.m3u8
-#EXTINF:-1 tvg-id="615768fa236ecd0013dc7b5c" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/afv-family-vod.png?raw=true" group-title="24/7",AFV Family
+#EXTINF:-1 tvg-id="UK:.AFV.Family.en" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/afv-family-vod.png?raw=true" group-title="24/7",AFV Family
 https://linear-12.frequency.stream/dist/vizio/12/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="FunnyOrDieInc.us" tvg-country="" tvg-logo="https://pyxis.nymag.com/v1/imgs/268/e88/b7270bfd4a4ca5a88fd05f620c2e87ec8b-funny-or-die.2x.rsocial.w600.jpg" group-title="24/7",Funny or Die
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991187
-#EXTINF:-1 tvg-id="" tvg-logo="https://qqcdnpictest.mxplay.com/pic/3193.DistroTv.in/en/1x1/208x208/test_pic1690462555214.webp" group-title="24/7",4K Travel TV
+#EXTINF:-1 tvg-id="4K.TRAVEL.TV.distro" tvg-logo="https://qqcdnpictest.mxplay.com/pic/3193.DistroTv.in/en/1x1/208x208/test_pic1690462555214.webp" group-title="24/7",4K Travel TV
 https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8
 #EXTINF:-1 channel-id="samsung-INBC43000016J" tvg-id="INBC43000016J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC43000016J_20230111T005122SQUARE.png_20230111005122.png" group-title="" tvg-chno="1378",HD TRAVEL
 https://jmp2.uk/sam-INBC43000016J.m3u8
@@ -484,7 +484,7 @@ http://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8
 http://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="MTV-U" tvg-name="mtvU" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-u-us.png?raw=true" group-title="",mtvU
 http://fl2.moveonjoy.com/MTV_U/index.m3u8
-#EXTINF:-1 tvg-id="YoMTV.us" tvg-name="MTV Yo!" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/mtv-yo-vod.png?raw=true" group-title="",MTV Yo!
+#EXTINF:-1 tvg-id="Yo!.MTV.us" tvg-name="MTV Yo!" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/mtv-yo-vod.png?raw=true" group-title="",MTV Yo!
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:-1 tvg-id="National Geographic Channel HDTV" tvg-name="xxx000000 US National Geographic (East) USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",US National Geographic USATV  
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
