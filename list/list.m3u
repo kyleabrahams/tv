@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 925 a
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 948 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -170,8 +170,7 @@ http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/59196
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/30226
 #EXTINF:-1 tvg-id="The Oprah Winfrey Network (East)" tvg-name=""xxx000000 US067:Oprah Winfrey Network USATV"" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",USA OWN 
 http://fl2.moveonjoy.com/OWN/index.m3u8
-#EXTINF:-1 tvg-id="Hallmark Channel (East)" tvg-name="feb202025 US Hallmark Channel" tvg-logo="https://i.ibb.co/CHMycbv/Hallmark-logo-1.png" group-title="",USA Hallmark Channel 
-http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+
 #EXTINF:-1 tvg-id="Rogers.Sportsnet.East.HDTV.(SNEHD).ca" tvg-name="feb202025 CA060:Sportsnet East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",Sportsnet East 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57298
 #EXTINF:-1 tvg-id="Rogers.Sportsnet.West.HDTV.(SNWHD).ca" tvg-name=""jun162025 CA062:Sportsnet West"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 
@@ -343,8 +342,6 @@ https://jmp2.uk/sam-CABC2300001X9.m3u8
 https://jmp2.uk/sam-CABC2300002VB.m3u8
 #EXTINF:-1 tvg-id="USBA370000104" tvg-name="noexpiry US CBS News 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" group-title="News",US CBS News 24/7
 https://jmp2.uk/sam-USBA370000104.m3u8
-#EXTINF:-1 tvg-id="USBD270001633" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20240520T222906SQUARE.png" group-title="Movies",USA Hallmark Movies & More 
-https://jmp2.uk/sam-USBD270001633.m3u8
 #EXTINF:-1 channel-id="Vevo.True.School.Hip-Hop.us" tvg-id="Vevo.True.School.Hip-Hop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music" tvg-chno="4710",Vevo Hip-Hop & R&B
 https://jmp2.uk/sam-CABC52000171D.m3u8
 #EXTINF:-1 channel-id="samsung-CABC52000180Z" tvg-id="CABC52000180Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music" tvg-chno="4710",Vevo Pop
@@ -435,7 +432,20 @@ https://jmp2.uk/sam-USAJ3504714A.m3u8
 https://jmp2.uk/sam-USBD3000073N.m3u8
 #EXTINF:-1 tvg-id="USBD17000025J" tvg-name="xxx000000 US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="",Pursuit UP
 https://jmp2.uk/sam-USBD17000025J.m3u8
-
+#EXTINF:-1 channel-id="samsung-USBC39000204J" tvg-id="USBC39000204J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000204J_20240520T214814SQUARE.png" group-title="",Military Heroes
+https://jmp2.uk/sam-USBC39000204J.m3u8
+#EXTINF:-1 tvg-id="Hallmark.Channel.HDTV.(East).(HALLHD).us" tvg-country="" tvg-logo="https://i.ibb.co/5645N2S/Hallmark-logo-1.png" group-title="Movies",Hallmark Movies and More
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="USBD270001633" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20240520T222906SQUARE.png" group-title="Movies",USA Hallmark Movies & More 
+https://jmp2.uk/sam-USBD270001633.m3u8
+#EXTINF:-1 tvg-id="Hallmark.Movies.and.Mysteries.HDTV.(HMMHD).us" tvg-name="xxx000000 US Hallmark Movies & Mysteries USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" group-title="Movies",USA Hallmark Mystery 
+http://streamsy.online:2999/live/juanv/04bodwaga0/161.m3u8
+#EXTINF:-1 tvg-id="Hallmark Channel (East)" tvg-name="feb202025 US Hallmark Channel" tvg-logo="https://i.ibb.co/CHMycbv/Hallmark-logo-1.png" group-title="Movies",USA Hallmark Channel 
+http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="feb202025 US Hallmark Channel" tvg-logo="https://i.ibb.co/CHMycbv/Hallmark-logo-1.png" group-title="Movies",USA Hallmark Channel 
+http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="Hallmark Family.us" tvg-name="xxx000000 US Hallmark Family USATV" tvg-logo="https://i.ibb.co/44h3QX9/Hallmark-Family-2024-1.png" group-title="Movies",USA Hallmark Family 
+http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
 
 
 
@@ -445,8 +455,6 @@ https://nhl-firetv.amagi.tv/playlist.m3u8
 https://washingtonpost-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FunnyOrDieInc.us" tvg-country="" tvg-logo="https://pyxis.nymag.com/v1/imgs/268/e88/b7270bfd4a4ca5a88fd05f620c2e87ec8b-funny-or-die.2x.rsocial.w600.jpg" group-title="24/7",Funny or Die
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991187
-#EXTINF:-1 tvg-id="Hallmark.Channel.HDTV.(East).(HALLHD).us" tvg-country="" tvg-logo="https://i.ibb.co/5645N2S/Hallmark-logo-1.png" group-title="",Hallmark Movies and More
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
 #EXTINF:-1 tvg-id="ACCDN.us" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD25000161U_20240520T220028SQUARE.png" group-title="",ACCDN
 https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
 #EXTINF:-1 tvg-id="SwerveCombat.us" tvg-country="" tvg-logo="https://swerve.tv/wp-content/uploads/2023/03/Swerve-Combat-Logo_Swerve-Combat_Primary_970x260.png" group-title=Sports",Swerve Combat
@@ -463,8 +471,6 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991341
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/Lgg9qb7/UFC-Logo-svg.png" group-title="Sports",UFC
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951134
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/4Nhdptv/Fight-network-logo-1.png" group-title="",Fight Network
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951132
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://pbs.twimg.com/profile_images/1313813696712409088/Rso0dgn8_400x400.jpg" group-title="",Pattrn
 https://dbrb49pjoymg4.cloudfront.net/10001/99991683/hls/playlist.m3u8?ads.xumo_channelId=99991683
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://i.ibb.co/gVN4t2B/speedvision-logo-stacked.png" group-title="",Speedvision
@@ -584,12 +590,6 @@ http://fl2.moveonjoy.com/GET_TV/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1474
 #EXTINF:-1 tvg-id="WCCTDT2.us" tvg-name="feb202025 US Grit TV" tvg-logo="https://i.ibb.co/wgj7ng6/grit-tv-seeklogo-1.png" group-title="Classics",US Grit TV
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/734
-#EXTINF:-1 tvg-id="I312.11221.zap2it.com" tvg-name="feb202025 US Hallmark Channel" tvg-logo="https://i.ibb.co/CHMycbv/Hallmark-logo-1.png" group-title="",USA Hallmark Channel 
-http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="Hallmark Family.us" tvg-name="xxx000000 US Hallmark Family USATV" tvg-logo="https://i.ibb.co/44h3QX9/Hallmark-Family-2024-1.png" group-title="",USA Hallmark Family 
-http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
-#EXTINF:-1 tvg-id="Hallmark.Movies.and.Mysteries.HDTV.(HMMHD).us" tvg-name="xxx000000 US Hallmark Movies & Mysteries USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hallmark-mystery-us.png?raw=true" group-title="Movies",USA Hallmark Mystery 
-http://streamsy.online:2999/live/juanv/04bodwaga0/161.m3u8
 #EXTINF:-1 tvg-id="HBO (East)" tvg-name="xxx000000 US HBO East HD  USATV " tvg-logo="https://logos-download.com/wp-content/uploads/2016/10/HBO_logo_blue.png" group-title="",USA HBO HD  
 http://fl2.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="Heroes and Icons.us" tvg-name="feb202025 US Heroes & Icons (Los Angeles) " tvg-logo="https://i.ibb.co/RHnVZrm/Heroes-Icons-logo-svg-1.png" group-title="",US Heroes & Icons (Los Angeles) 
@@ -720,8 +720,6 @@ http://streamsy.online:2999/Jaley1990/L6KomjzBxv/382
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/gsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="The Cowboy Channel.us" tvg-name="feb202025 US The Cowboy Channel " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="",US The Cowboy Channel 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/122527
-#EXTINF:-1 tvg-id="Military History.us" tvg-name="feb202025 US (FD) Military History " tvg-logo="https://i.ibb.co/Hh4t0Cz/military-history.png" group-title="",US Military History 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/134832
 #EXTINF:-1 tvg-id="CSPAN.us" tvg-name="xxx000000 US CSPAN USATV" tvg-logo="https://i.ibb.co/txTpNrD/cspan-1.png" group-title="News",USA CSPAN 
 http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 #EXTINF:-1 tvg-id="WCBS Start TV" tvg-name="feb202025 US Start TV " tvg-logo="https://i.ibb.co/Ss48491/Start-TV-dark-blue-1.png" group-title="",US Start TV 
