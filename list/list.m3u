@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 140 p
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 154 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -54,7 +54,7 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57373
 http://vo01.mohdtv.com:8880/voby5095/2621505783580cde0948/30169"
 #EXTINF:-1 tvg-id="Sportsnet One HD.ca" tvg-name="jan082025 CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One FHD 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10247
-#EXTINF:-1 tvg-id="CABC23000223U" tvg-name=""jan082025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
+#EXTINF:-1 tvg-id="CABC23000223U" tvg-name=""jan082025 CA073:Weather channel HD"" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20230222T042958SQUARE.png_20230222042958.png" group-title="",The Weather Network 
 https://jmp2.uk/sam-CABC23000223U.m3u8
 "#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""apr302025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 http://b1g.pw:80/DD/DD/627406"
@@ -314,40 +314,58 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://jmp2.uk/sam-USBB3500004RC.m3u8
 #EXTINF:-1 tvg-id="USBA300004TE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20240520T215826SQUARE.png" group-title="Series",Dallas Cowboys Cheer
 https://jmp2.uk/sam-USBA300004TE.m3u8
-#EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
-https://jmp2.uk/sam-USBB1500001GD.m3u8
-#EXTINF:-1 tvg-id="USBA3700002JF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="24/7" tvg-chno="2966",ET
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="24/7",ET
 https://jmp2.uk/sam-USBA3700002JF.m3u8
 #EXTINF:-1 tvg-id="CABC2300001X9" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2100009GT_20240520T214854SQUARE.png" group-title="",The Jack Hanna Channel
 https://jmp2.uk/sam-CABC2300001X9.m3u8
+#EXTINF:-1 tvg-id="USBD700017WC" tvg-country="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" tvg-logo="" group-title="",Tastemade Travel
+https://jmp2.uk/sam-USBD700017WC.m3u8
 #EXTINF:-1 tvg-id="CABC2300002VB" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="",Xplore
 https://jmp2.uk/sam-CABC2300002VB.m3u8
-#EXTINF:-1 tvg-id="USBA370000104" tvg-name="noexpiry US CBS News 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" group-title="News",US CBS News 24/7
-https://jmp2.uk/sam-USBA370000104.m3u8
 #EXTINF:-1 tvg-id="CABC52000171D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B
+https://jmp2.uk/sam-CABC52000171D.m3u8
+#EXTINF:-1 tvg-id="CABC52000171D" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000171D_20240910T003252SQUARE.png" group-title="Music",Vevo Hip-Hop
 https://jmp2.uk/sam-CABC52000171D.m3u8
 #EXTINF:-1 tvg-id="CABC52000180Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Vevo Pop
 https://jmp2.uk/sam-CABC52000180Z.m3u8
+#EXTINF:-1 tvg-id="CABC5200011IS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s
+https://jmp2.uk/sam-CABC5200011IS.m3u8
+#EXTINF:-1 tvg-id="CABC52000127S" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000127S_20240910T003244SQUARE.png" group-title="Music",Vevo '90s
+https://jmp2.uk/sam-CABC52000127S.m3u8
+#EXTINF:-1 tvg-id="CABC5200013DN" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200013DN_20240910T003246SQUARE.png" group-title="Music",Vevo 2K
+https://jmp2.uk/sam-CABC5200013DN.m3u8
+#EXTINF:-1 tvg-id="CABD1200009SD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",Vevo 2010s
+https://jmp2.uk/sam-CABD1200009SD.m3u8
 #EXTINF:-1 tvg-id="CABB260002016" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambiance",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
+#EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
+https://jmp2.uk/sam-USBB1500001GD.m3u8
+#EXTINF:-1 tvg-id="USBB32000251N" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day
+https://jmp2.uk/sam-USBB32000251N.m3u8
+#EXTINF:-1 tvg-id="USBA370000104" tvg-name="noexpiry US CBS News 24/7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" group-title="News",US CBS News 24/7
+https://jmp2.uk/sam-USBA370000104.m3u8
 #EXTINF:-1 tvg-id="ATBD800001VA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD800001VA_20230308T021713SQUARE.png_20230308021714.png" group-title="News",CNN
 https://jmp2.uk/sam-ATBD800001VA.m3u8
 #EXTINF:-1 tvg-id="ATBD190000101" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD190000101_20240827T040946SQUARE.png" group-title="News",CNN FAST
 https://jmp2.uk/sam-ATBD190000101.m3u8
-#EXTINF:-1 tvg-id="USBD700017WC" tvg-country="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" tvg-logo="" group-title="",Tastemade Travel
-https://jmp2.uk/sam-USBD700017WC.m3u8
 #EXTINF:-1 tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
 #EXTINF:-1 tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20240527T200831SQUARE.png" group-title="News",CBC News Explore
 https://jmp2.uk/sam-CABC2300009KD.m3u8
+#EXTINF:-1 tvg-id="USBA300028QU" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300028QU_20240520T222736SQUARE.png" group-title="News",Newsmax TV
+https://jmp2.uk/sam-USBA300028QU.m3u8
+#EXTINF:-1 tvg-id="5459795fc9f133a519bc0bef" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" group-title="News",Scripps News
+https://jmp2.uk/sam-USBD3000073N.m3u8
+#EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20240520T222814SQUARE.png" group-title="News",Yahoo Finance
+https://jmp2.uk/sam-USAJ4300005PJ.m3u8
+#EXTINF:-1 tvg-id="USAJ3504714A" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504714A_20240520T214521SQUARE.png" group-title="News",Cheddar News
+https://jmp2.uk/sam-USAJ3504714A.m3u8
 #EXTINF:-1 tvg-id="CAAJ2700011IF" tvg-logo="https://pbs.twimg.com/profile_images/1776065140263157760/HwdTwNVp_400x400.jpg" group-title="News",NBC News NOW
 https://jmp2.uk/sam-CAAJ2700011IF.m3u8
-#EXTINF:-1 tvg-id="USBA300031OT" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20240520T215945SQUARE.png" group-title="Sports",Sportsgrid
-https://jmp2.uk/sam-USBA300031OT.m3u8
 #EXTINF:-1 tvg-id="US4000033L" tvg-country="" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
 https://jmp2.uk/sam-US4000033L.m3u8
-#EXTINF:-1 tvg-id="USBB32000251N" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day
-https://jmp2.uk/sam-USBB32000251N.m3u8
+#EXTINF:-1 tvg-id="USBA300031OT" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20240520T215945SQUARE.png" group-title="Sports",Sportsgrid
+https://jmp2.uk/sam-USBA300031OT.m3u8
 #EXTINF:-1 tvg-id="USBC1300009VM" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300009VM_20240716T002650SQUARE.png" group-title="Comedy",Lol! Network
 https://jmp2.uk/sam-USBC1300009VM.m3u8
 #EXTINF:-1 tvg-id="USBC6000225M" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000225M_20240520T222632SQUARE.png" group-title="",Electric Now
@@ -366,8 +384,6 @@ https://jmp2.uk/sam-CABC23000035R.m3u8
 https://jmp2.uk/sam-CABC5200009HX.m3u8
 #EXTINF:-1 tvg-id="USBD700011RE" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700011RE_20240520T222902SQUARE.png" group-title="Movies",Gravitas Movies
 https://jmp2.uk/sam-USBD700011RE.m3u8
-#EXTINF:-1 tvg-id="USBA300028QU" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300028QU_20240520T222736SQUARE.png" group-title="News",Newsmax TV
-https://jmp2.uk/sam-USBA300028QU.m3u8
 #EXTINF:-1 tvg-id="USBD7000189R" tvg-country="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD7000189R_20240910T223004SQUARE.png" tvg-logo="" group-title="Home & Food",Tastemade
 https://jmp2.uk/sam-USBD7000189R.m3u8
 #EXTINF:-1 tvg-id="CA1300002XC" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1300002XC_20240924T010420SQUARE.png" group-title="",Danger TV
@@ -386,8 +402,6 @@ https://jmp2.uk/sam-USBD700021WG.m3u8
 https://jmp2.uk/sam-USBB2900003O3.m3u8
 #EXTINF:-1 tvg-id="USBC44000226R" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC44000226R_20240625T011313SQUARE.png" group-title="Home & Food",Bon Appétit
 https://jmp2.uk/sam-USBC44000226R.m3u8
-#EXTINF:-1 tvg-id="USBD300012YC" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s
-https://jmp2.uk/sam-USBD300012YC.m3u8
 #EXTINF:-1 tvg-id="CABD1200016E8" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2500017XQ_20240528T020725SQUARE.png" group-title="",PowerNation
 https://jmp2.uk/sam-CABD1200016E8.m3u8
 #EXTINF:-1 tvg-id="USBB5200007BY" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB5200007BY_20240520T221450SQUARE.png" group-title="Series",Dateline 24/7
@@ -412,12 +426,6 @@ https://jmp2.uk/sam-USBC6000108Z.m3u8
 https://jmp2.uk/sam-GBBC900014LW.m3u8
 #EXTINF:-1 tvg-id="USBD17000117B" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere
 https://jmp2.uk/sam-USBD17000117B.m3u8
-#EXTINF:-1 tvg-id="USAJ4300005PJ" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20240520T222814SQUARE.png" group-title="News",Yahoo Finance
-https://jmp2.uk/sam-USAJ4300005PJ.m3u8
-#EXTINF:-1 tvg-id="USAJ3504714A" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504714A_20240520T214521SQUARE.png" group-title="News",Cheddar News
-https://jmp2.uk/sam-USAJ3504714A.m3u8
-#EXTINF:-1 tvg-id="5459795fc9f133a519bc0bef" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" group-title="News",Scripps News
-https://jmp2.uk/sam-USBD3000073N.m3u8
 #EXTINF:-1 tvg-id="USBD17000025J" tvg-name="xxx000000 US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="",Pursuit UP
 https://jmp2.uk/sam-USBD17000025J.m3u8
 #EXTINF:-1 tvg-id="USBC39000204J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000204J_20240520T214814SQUARE.png" group-title="",Military Heroes
