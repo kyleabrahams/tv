@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 154 p
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 218 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -54,7 +54,7 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/57373
 http://vo01.mohdtv.com:8880/voby5095/2621505783580cde0948/30169"
 #EXTINF:-1 tvg-id="Sportsnet One HD.ca" tvg-name="jan082025 CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One FHD 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10247
-#EXTINF:-1 tvg-id="CABC23000223U" tvg-name=""jan082025 CA073:Weather channel HD"" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20230222T042958SQUARE.png_20230222042958.png" group-title="",The Weather Network 
+#EXTINF:-1 tvg-id="CABC23000223U" tvg-name=""jan082025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 https://jmp2.uk/sam-CABC23000223U.m3u8
 "#EXTINF:-1 tvg-id="Weather Network.ca" tvg-name=""apr302025 CA073:Weather channel HD"" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 http://b1g.pw:80/DD/DD/627406"
@@ -324,8 +324,6 @@ https://jmp2.uk/sam-USBD700017WC.m3u8
 https://jmp2.uk/sam-CABC2300002VB.m3u8
 #EXTINF:-1 tvg-id="CABC52000171D" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B
 https://jmp2.uk/sam-CABC52000171D.m3u8
-#EXTINF:-1 tvg-id="CABC52000171D" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000171D_20240910T003252SQUARE.png" group-title="Music",Vevo Hip-Hop
-https://jmp2.uk/sam-CABC52000171D.m3u8
 #EXTINF:-1 tvg-id="CABC52000180Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Vevo Pop
 https://jmp2.uk/sam-CABC52000180Z.m3u8
 #EXTINF:-1 tvg-id="CABC5200011IS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s
@@ -350,7 +348,7 @@ https://jmp2.uk/sam-ATBD800001VA.m3u8
 https://jmp2.uk/sam-ATBD190000101.m3u8
 #EXTINF:-1 tvg-id="CA1400004AE" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
-#EXTINF:-1 tvg-id="CABC2300009KD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300009KD_20240527T200831SQUARE.png" group-title="News",CBC News Explore
+#EXTINF:-1 tvg-id="CABC2300009KD" tvg-logo="https://i.ibb.co/j47kNG1/cbc-news-explore.png" group-title="News",CBC News Explore
 https://jmp2.uk/sam-CABC2300009KD.m3u8
 #EXTINF:-1 tvg-id="USBA300028QU" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300028QU_20240520T222736SQUARE.png" group-title="News",Newsmax TV
 https://jmp2.uk/sam-USBA300028QU.m3u8
