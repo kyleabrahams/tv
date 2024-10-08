@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 7 1159 p
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 925 a
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -393,7 +393,7 @@ https://jmp2.uk/sam-USBA300028QU.m3u8
 https://jmp2.uk/sam-USBD7000189R.m3u8
 #EXTINF:-1 tvg-id="CA1300002XC" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1300002XC_20240924T010420SQUARE.png" group-title="",Danger TV
 https://jmp2.uk/sam-CA1300002XC.m3u8
-#EXTINF:-1 tvg-id="MAVTVSelect.us" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20230823T001844SQUARE.png_20230823001845.png" group-title="",US MAV Select
+#EXTINF:-1 tvg-id="MAVTVSelect.us" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20230823T001844SQUARE.png_20230823001845.png" group-title="",MAV Select
 https://jmp2.uk/sam-CABD1200015FS.m3u8
 #EXTINF:-1 tvg-id="USAJ3504707A" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700030ON_20220511T002618SQUARE.png_20220511002619.png" group-title="",Outside TV
 https://jmp2.uk/sam-USAJ3504707A.m3u8
@@ -401,6 +401,8 @@ https://jmp2.uk/sam-USAJ3504707A.m3u8
 https://jmp2.uk/sam-CABB2500021YQ.m3u8
 #EXTINF:-1 tvg-id="CAAJ3400013EH" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400013EH_20220413T093439SQUARE.png_20220413093440.png" group-title="",Dry Bar Comedy
 https://jmp2.uk/sam-CAAJ3400013EH.m3u8
+#EXTINF:-1 tvg-id="USBD700021WG" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700021WG_20240520T220035SQUARE.png" group-title="",BUZZR
+https://jmp2.uk/sam-USBD700021WG.m3u8
 #EXTINF:-1 tvg-id="USBB2900003O3" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20240903T181323SQUARE.png" group-title="",Heartland
 https://jmp2.uk/sam-USBB2900003O3.m3u8
 #EXTINF:-1 tvg-id="USBC44000226R" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC44000226R_20240625T011313SQUARE.png" group-title="",Bon Appétit
@@ -431,6 +433,8 @@ https://jmp2.uk/sam-USAJ4300005PJ.m3u8
 https://jmp2.uk/sam-USAJ3504714A.m3u8
 #EXTINF:-1 tvg-id="5459795fc9f133a519bc0bef" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" group-title="News",Scripps News
 https://jmp2.uk/sam-USBD3000073N.m3u8
+#EXTINF:-1 tvg-id="USBD17000025J" tvg-name="xxx000000 US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="",Pursuit UP
+https://jmp2.uk/sam-USBD17000025J.m3u8
 
 
 
@@ -498,12 +502,12 @@ http://vo01.mohdtv.com:8880/voby4159/55452/29526
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/21927
 #EXTINF:-1 tvg-id="AXS.us" tvg-name="feb202025 US AXS TV " tvg-logo="https://i.ibb.co/dgqcsw3/AXS-TV-logo-1.png" group-title="",US AXS TV
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/48324
-#EXTINF:-1 tvg-id="BBC America HDTV (East) - BBC.us" tvg-name="feb202025 US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="",US BBC America
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20194
+#EXTINF:-1 tvg-id="BBC America HDTV (East) - BBC.us" tvg-name="xxx000000 US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="",USA BBC America
+http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
 #EXTINF:-1 tvg-id="BET.us" tvg-name="xxx000000 US BET (East) " tvg-logo="https://i.ibb.co/vPWCfbm/BET-2021-Logo-1.png" group-title="",USA BET   
 http://fl2.moveonjoy.com/BET_EAST/index.m3u8
-#EXTINF:-1 tvg-id="BET Soul.us" tvg-name="feb202025 US BET SOUL" tvg-logo="https://i.ibb.co/vJzmSXt/BET-Soul-2021-Vertical.png" group-title="",US BET SOUL
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/21844
+#EXTINF:-1 tvg-id="BET Soul.us" tvg-name="feb202025 US BET SOUL" tvg-logo="https://i.ibb.co/vJzmSXt/BET-Soul-2021-Vertical.png" group-title="",USA BET SOUL
+http://fl2.moveonjoy.com/BET_SOUL/index.m3u8
 #EXTINF:-1 tvg-id="Bounce TV.us" tvg-name="xxx000000 US Bounce USATV" tvg-logo="https://i.ibb.co/52fLjgH/bounce-color.png" group-title="Movies",USA Bounce 
 http://fl3.moveonjoy.com/BOUNCE_TV/index.m3u8
 #EXTINF:-1 tvg-id="Bravo.us" tvg-name="xxx000000 US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",USA Bravo    
@@ -514,8 +518,6 @@ http://fl1.moveonjoy.com/TCM/index.m3u8
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tcmeast.us.m3u8
 #EXTINF:-1 tvg-id="Turner.Classic.Movies.HDTV.(TCMHD).us" tvg-name="TCM West" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM West
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tcmwest.us.m3u8
-#EXTINF:-1 tvg-id="Buzzr.TV.us" tvg-name="feb202025 US BUZZR (STV)" tvg-logo="https://i.ibb.co/k8xYTB3/Buzzr-logo-color.png" group-title="",US BUZZR (STV)
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/21896
 #EXTINF:-1 tvg-id="Cartoon.Network.HDTV.(East).(TOONHD).us" tvg-name="feb202025 US Cartoon Network " tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="",USA Cartoon Network 
 http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/1200px-Boomerang_2014_logo.svg.png" group-title="Live Channels",USA Boomerang
@@ -526,8 +528,6 @@ http://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="Disney XD (East)" tvg-name="DISNEY_XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/800px-Disney_XD_-_2015.svg.png",USA Disney XD 
 http://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1 tvg-id="CBS.News.24/7.us" tvg-name="feb202025 US CBS News " tvg-logo="https://i.ibb.co/CbXzCQd/CBS-News-247-stacked.png" group-title="News",US CBS News 24/7 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/21259
 #EXTINF:-1 tvg-id="CMT.HDTV.(East).(CMTHD).us" tvg-name="xxx000000 US CMT HD USATV" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",USA CMT 
 http://fl3.moveonjoy.com/CMT/index.m3u8
 #EXTINF:-1 tvg-id="CNBC.us" tvg-name=""xxx000000 US CNBC USATV"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",USA CNBC 
@@ -538,8 +538,8 @@ http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1196
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="Comedy Central (East)" tvg-name="xxx000000 US Comedy Central (East) USATV" tvg-logo="https://i.ibb.co/YWW0MDd/Comedy-Central-2018-1.png" group-title="",USA Comedy Central   
 http://fl3.moveonjoy.com/Comedy_Central/index.m3u8
-#EXTINF:-1 tvg-id="WJARDT3.us" tvg-name="feb202025 US Comet (S)" tvg-logo="https://i.ibb.co/4KJPY9z/Comet-logo.png" group-title="",US Comet
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/66244
+#EXTINF:-1 tvg-id="WJARDT3.us" tvg-name="feb202025 US Comet (S)" tvg-logo="https://i.ibb.co/4KJPY9z/Comet-logo.png" group-title="",USA Comet
+https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
 #EXTINF:-1 tvg-id="The Cooking Channel" tvg-name="xxx000000 US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="",USA Cooking Channel 
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="WNBC Cozi TV" tvg-name="feb202025 US Cozi (H)" tvg-logo="https://i.ibb.co/L0F0T4X/Cozi-TV-logo-1.png" group-title="",US Cozi
@@ -556,7 +556,7 @@ http://fl2.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
 http://fl2.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
 #EXTINF:-1 tvg-id="Discovery.Velocity.HDTV.(DVHD).ca" tvg-name="feb202025 CA Discovery Velocity HD " tvg-logo="https://i.ibb.co/zmZ6Bfc/discovery-velocity.png" group-title="",CA Discovery Velocity HD 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/46212
-#EXTINF:-1 tvg-id="Magnolia Network [East]" tvg-name="feb202025 US DIY Network " tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",US DIY Network 
+#EXTINF:-1 tvg-id="Magnolia Network [East]" tvg-name="feb202025 US DIY Network " tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",USA DIY Network 
 http://fl2.moveonjoy.com/DIY/index.m3u8
 #EXTINF:-1 tvg-id="DOGTV - DOGTV.us" tvg-name="feb202025 US DOGTV" tvg-logo="https://i.ibb.co/qCQ8KZw/dog-tv-1.png" group-title="",US DOGTV
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/53539
@@ -570,13 +570,13 @@ http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
 http://fl2.moveonjoy.com/FOX_News_Channel/index.m3u8
 #EXTINF:-1 tvg-id="Freeform (East)" tvg-name="feb202025 US Freeform East" tvg-logo="https://i.ibb.co/bvz1wgC/Freeform-2022-1.png" group-title="",USA Freeform 
 http://fl2.moveonjoy.com/FREE_FORM/index.m3u8
-#EXTINF:-1 tvg-id="Fuse.us" tvg-name="feb202025 US Fuse " tvg-logo="https://i.ibb.co/9ZCMvgR/Fuse-Black-Logo-2017-1.png" group-title="",US Fuse
+#EXTINF:-1 tvg-id="Fuse.us" tvg-name="feb202025 US Fuse " tvg-logo="https://i.ibb.co/9ZCMvgR/Fuse-Black-Logo-2017-1.png" group-title="",USA Fuse
 http://fl2.moveonjoy.com/FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX Movie Channel" tvg-name="feb202025 US FXM " tvg-logo="https://i.ibb.co/1mFPkc6/FXM-Logo-1.png" group-title="Movies",USA FXM 
 http://fl2.moveonjoy.com/FX_MOVIE/index.m3u8
 #EXTINF:-1 tvg-id="FXXEast.us" tvg-name="feb202025 US FXX (East) " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fxx-us.png?raw=true" group-title="",USA FXX 
 http://fl2.moveonjoy.com/FXX/index.m3u8
-#EXTINF:-1 tvg-id="FYIEast.us" tvg-name="feb202025 US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",US FYI
+#EXTINF:-1 tvg-id="FYIEast.us" tvg-name="feb202025 US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",USA FYI
 http://fl2.moveonjoy.com/FYI/index.m3u8
 #EXTINF:-1 tvg-id="getTV.Network.(getTV).us" tvg-name="xxx000000 US GetTV USATV" tvg-logo="https://logo.iptveditor.com/gettv.png" group-title="",USA GetTV 
 http://fl2.moveonjoy.com/GET_TV/index.m3u8
@@ -642,16 +642,12 @@ http://fl2.moveonjoy.com/NICK_JR/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1183
 #EXTINF:-1 tvg-id="Outdoor Channel HDTV" tvg-name="xxx000000 US Outdoor Channel USATV" tvg-logo="https://i.ibb.co/rvLb8Ht/Outdoor-Channel-logo-2017-1.png" group-title="",USA Outdoor Channel 
 http://fl2.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="Outside.us" tvg-name="feb202025 US OUTSIDE TV" tvg-logo="https://i.ibb.co/5GNhhP8/outside-tv-logo-vector-1.png" group-title="",US Outside TV
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/357
-#EXTINF:-1 tvg-id="Oxygen (East)" tvg-name="xxx000000 US Oxygen (East) USATV" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",US Oxygen    
+#EXTINF:-1 tvg-id="Oxygen (East)" tvg-name="xxx000000 US Oxygen (East) USATV" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",USA Oxygen    
 http://fl2.moveonjoy.com/OXYGEN/index.m3u8
 #EXTINF:-1 tvg-id="Paramount Network (East)" tvg-name="xxx000000 US Paramount USATV" tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title="Movies",USA Paramount 
 http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="PixL HDTV" tvg-name="feb202025 US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",US PixL
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1665
-#EXTINF:-1 tvg-id="Pursuit.us" tvg-name="feb202025 US Pursuit UP" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/pursuit-up-vod.png?raw=true" group-title="",US Pursuit
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/22888
 #EXTINF:-1 tvg-id="Reelz.us" tvg-name="xxx000000 US Reelz USATV" tvg-logo="https://i.ibb.co/VxnkSRr/reelz-logo-fd3325243b.png" group-title="",USA Reelz 
 http://fl2.moveonjoy.com/REELZ/index.m3u8
 #EXTINF:-1 tvg-id="Revolt HDTV - RVLTHD.us" tvg-name="xxx000000 US Revolt " tvg-logo="https://i.ibb.co/ydb8kGc/Revolt-TV-logo.png" group-title="",USA Revolt 
@@ -722,8 +718,6 @@ http://fl1.moveonjoy.com/WE_TV/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/382
 #EXTINF:-1 tvg-id="Game Show Network HDTV (EAST)" tvg-name="xxx000000 US Game Show Network USATV" tvg-logo="https://i.ibb.co/8zx49b6/Game-Show-Network-2018-1.png" group-title="",USA Game Show Network 
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/gsn_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="truecrimenetwork.us" tvg-name="feb202025 US True Crime Network (KARE) " tvg-logo="https://i.ibb.co/kDXS7cf/True-Crime-Network-color.png" group-title="",US True Crime Network (KARE) 
-http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/121130
 #EXTINF:-1 tvg-id="The Cowboy Channel.us" tvg-name="feb202025 US The Cowboy Channel " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="",US The Cowboy Channel 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/122527
 #EXTINF:-1 tvg-id="Military History.us" tvg-name="feb202025 US (FD) Military History " tvg-logo="https://i.ibb.co/Hh4t0Cz/military-history.png" group-title="",US Military History 
