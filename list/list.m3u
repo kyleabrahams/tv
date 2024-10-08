@@ -8,7 +8,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 558 p
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 8 604 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -775,6 +775,8 @@ http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/10247
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/2219
 #EXTINF:-1 tvg-id="Rogers.Sportsnet.Pacific.HDTV.(SNPHD).ca" tvg-name=""feb202025 CA188:Sportnet Pacific"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific 
 http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/9860
+#EXTINF:-1 tvg-id="NHLNetwork.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-network-hz-us.png?raw=true" group-title="Sports",NFL
+http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="The.NFL.Network.HDTV.(Canada).(NFLHD).ca" tvg-name=""jun162025 CA008:NFL Network"" tvg-logo="https://i.ibb.co/3zkLP57/nfl-logo.png" group-title="Sports",NFL Network
 http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="The Golf Channel" tvg-name=""xxx000000 US156:NBC_Golf_Channel USATV"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="Sports",USA Golf Channel 
@@ -787,8 +789,6 @@ https://nhl-firetv.amagi.tv/playlist.m3u8
 http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3037
 #EXTINF:-1 tvg-id="NBA TV HDTV" tvg-name=""NBA"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" group-title=""Sports"",USA NBA TV
 http://fl2.moveonjoy.com/NBA_TV/index.m3u8
-#EXTINF:-1 tvg-id="NHLNetwork.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-network-hz-us.png?raw=true" group-title="Sports",NFL
-http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN
 http://fl1.moveonjoy.com/ESPN/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2
@@ -822,35 +822,35 @@ https://womensnetwork-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",Dazn TV (Canada)
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-florida-us.png?raw=true" group-title="Sports",Bally Sports Florida
+#EXTINF:-1 tvg-id="Bally Sports Florida 24/7 HDTV (Rays, Marlins, Panthers)" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-florida-us.png?raw=true" group-title="Sports",Bally Sports Florida
 http://streamsy.online:2999/live/juanv/04bodwaga0/1622.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-indiana-us.png?raw=true" group-title="Sports",Bally Sports Indiana
+#EXTINF:-1 tvg-id="BallySportsIndiana.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-indiana-us.png?raw=true" group-title="Sports",Bally Sports Indiana
 http://streamsy.online:2999/live/juanv/04bodwaga0/1458.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-midwest-us.png?raw=true" group-title="Sports",Bally Sports Midwest
+#EXTINF:-1 tvg-id="BallySportsMidwest.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-midwest-us.png?raw=true" group-title="Sports",Bally Sports Midwest
 http://streamsy.online:2999/live/juanv/04bodwaga0/324.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-new-orleans-us.png?raw=true" group-title="Sports",Bally Sports New Orleans
+#EXTINF:-1 tvg-id="BallySportsNewOrleans.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-new-orleans-us.png?raw=true" group-title="Sports",Bally Sports New Orleans
 http://streamsy.online:2999/live/juanv/04bodwaga0/1614.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-north-us.png?raw=true" group-title="Sports",Bally Sports North
+#EXTINF:-1 tvg-id="BallySportsNorth.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-north-us.png?raw=true" group-title="Sports",Bally Sports North
 http://streamsy.online:2999/live/juanv/04bodwaga0/320.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-oklahoma-us.png?raw=true" group-title="Sports",Bally Sports Oklahoma
+#EXTINF:-1 tvg-id="BallySportsOklahoma.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-oklahoma-us.png?raw=true" group-title="Sports",Bally Sports Oklahoma
 http://streamsy.online:2999/live/juanv/04bodwaga0/1611.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-socal-us.png?raw=true" group-title="Sports",Bally Sports SoCal
+#EXTINF:-1 tvg-id="BallySportsSoCal.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-socal-us.png?raw=true" group-title="Sports",Bally Sports SoCal
 http://streamsy.online:2999/live/juanv/04bodwaga0/665.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southeast-us.png?raw=true" group-title="Sports",Bally Sports Southeast
+#EXTINF:-1 tvg-id="BallySportsSoutheast.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southeast-us.png?raw=true" group-title="Sports",Bally Sports Southeast
 http://streamsy.online:2999/live/juanv/04bodwaga0/1623.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southwest-us.png?raw=true" group-title="Sports",Bally Sports Southwest
+#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-southwest-us.png?raw=true" group-title="Sports",Bally Sports Southwest
 http://streamsy.online:2999/live/juanv/04bodwaga0/1189.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-sun-us.png?raw=true" group-title="Sports",Bally Sports Sun
+#EXTINF:-1 tvg-id="Bally Sports Sun 24/7 HDTV (South Marlins, Rays, Heat)" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-sun-us.png?raw=true" group-title="Sports",Bally Sports Sun
 http://streamsy.online:2999/live/juanv/04bodwaga0/322.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-west-us.png?raw=true" group-title="Sports",Bally Sports West
+#EXTINF:-1 tvg-id="Bally Sports West HDTV" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-west-us.png?raw=true" group-title="Sports",Bally Sports West
 http://streamsy.online:2999/live/juanv/04bodwaga0/1633.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-wisconsin-us.png?raw=true" group-title="Sports",Bally Sports Wisconsin
+#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-wisconsin-us.png?raw=true" group-title="Sports",Bally Sports Wisconsin
 http://streamsy.online:2999/live/juanv/04bodwaga0/1621.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-detroit-us.png?raw=true" group-title="Sports",*Bally Sports Detroit
+#EXTINF:-1 tvg-id="Bally Sports Detroit 24/7 HDTV" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-detroit-us.png?raw=true" group-title="Sports",*Bally Sports Detroit
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-kansas-city-us.png?raw=true" group-title="Sports",*Bally Sports Kansas City
+#EXTINF:-1 tvg-id="BallySportsKansasCity.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-kansas-city-us.png?raw=true" group-title="Sports",*Bally Sports Kansas City
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-south-us.png?raw=true" group-title="Sports",*Bally Sports South
+#EXTINF:-1 tvg-id="BallySportsSouth.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-south-us.png?raw=true" group-title="Sports",*Bally Sports South
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
 
 
