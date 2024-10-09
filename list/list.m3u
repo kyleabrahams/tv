@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,http://defaultgen.com:3050/xmltv.php?username=R9YN4ecdXe&password=ZJs7z2yXSw,https://i.mjh.nz/PlutoTV/us.xml"
+#EXTINF:-1 tvg-id="0" tvg-name="0" tvg-logo="" group-title="IMPORTANT INFOMATION",IMPORTANT INFORMATION
+https://small.fileditchstuff.me/s11/EWmLXPkMncFhDONTEkqC.mp4
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name=""jan082025 CA016:CP24 HD"" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57357
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="jan082025 CA085:MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
@@ -7,7 +9,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 9 600 p
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 9 604 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -738,12 +740,10 @@ http://vip.bmbtv.me:15000/euydUtqkju/gRj11KkdDX/85684
 "#EXTINF:-1 tvg-ID="CNBC.us" tvg-name="USA | CNBC HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC 
 http://fl2.moveonjoy.com/CNBC/index.m3u8"
 
-#EXTINF:-1 tvg-id="TBD.TV.us" tvg-name="TBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="Live Channels",TBD. East
+#EXTINF:-1 tvg-id="TBD.TV.us" tvg-name="TBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="",TBD. East
 https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
-#EXTINF:-1 tvg-id="TBDPacific.us" tvg-name="TBD. West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="Live Channels",TBD. West
+#EXTINF:-1 tvg-id="TBDPacific.us" tvg-name="TBD. West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="",TBD. West
 https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8?delay=10800
-#EXTINF:-1 tvg-id="More.Max.(East).(MOMAX).us" tvg-name="MoreMAX East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true" group-title="Live Channels",MoreMAX East
-http://38.22.17.37:6969/stream/asd/343/master.m3u8
 #EXTINF:-1 tvg-id="Charge!.us" tvg-name="Charge East" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="Live Channels",Charge East
 https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
 #EXTINF:-1 tvg-id="Charge!Pacific.us" tvg-name="Charge West" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="Live Channels",Charge West
