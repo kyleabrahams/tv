@@ -7,7 +7,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/47332
 http://fl2.moveonjoy.com/MSNBC/index.m3u8"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="nov072024 CA137:Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/0HYK5c/662533/57435
-#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 10 1008 a
+#EXTINF:-1 tvg-id="OMNI.East.HDTV.(OMNI).ca" tvg-name="jan082025 CA174:OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 10 422 p
 http://fortv.cc:8080/TheBestYetTV/tvtime718/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -37,7 +37,7 @@ http://fortv.cc:8080/TheBestYetTV/tvtime718/57268
 http://streamsy.online:2999/live/juanv/04bodwaga0/719.m3u8
 #EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="xxx000000 US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
 http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
-#EXTINF:-1 tvg-id="NBC.(WXIA).Atlanta,.GA.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Atlanta 
+#EXTINF:-1 tvg-id="NBC.(WXIA).Atlanta,.GA.us" tvg-name="NBC.(WXIA).Atlanta,.GA.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Atlanta 
 http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
 "#EXTINF:-1 tvg-id="NBC.(WMAQ).Chicago,.IL.us" tvg-name="xxx000000 US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Chicago 
 http://fl2.moveonjoy.com/NBC_EAST/index.m3u8"
@@ -819,8 +819,9 @@ http://mohdtv.com:8880/ALLChannels681def0087c7/81216685/3037
 http://fl2.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-id="Stadium.College.Sports.Atlantic.(SCSA).us" tvg-name="Stadium" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/stadium-us.png?raw=true" group-title="Live Channels",Stadium
 http://fl2.moveonjoy.com/STADIUM/index.m3u8
-
-#EXTINF:-1 tvg-id="NBA TV HDTV" tvg-name=""MSG"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title=""Sports"",MSG
+#EXTINF:-1 tvg-id="Altitude.Sports.and.Entertainment.(Colorado).HDTV.24/7.(ALTHD).us" tvg-name="Altitude Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/altitude-sports-us.png?raw=true" group-title=""Sports"",Altitude Sports
+http://streamsy.online:2999/live/juanv/04bodwaga0/1521.m3u8
+#EXTINF:-1 tvg-id="Madison.Square.Garden.HDTV.(MSG.HD).us" tvg-name=""MSG"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title=""Sports"",MSG
 http://streamsy.online:2999/live/juanv/04bodwaga0/287.m3u8
 #EXTINF:-1 tvg-id="CBSSportsNetwork.us" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network
 http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
