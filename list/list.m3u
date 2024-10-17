@@ -11,7 +11,7 @@ http://b1g.pw:80/DD/DD/621370"
 http://fortv.cc:8080/105094817/105094817/57435
 "#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="jul232025 CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 16 846 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 16 935 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -468,6 +468,8 @@ http://fl3.moveonjoy.com/Pop_TV/index.m3u8
 http://streamsy.online:2999/live/juanv/04bodwaga0/212.m3u8
 #EXTINF:-1 tvg-id="AMC HDTV (East)" tvg-name="xxx000000 US AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",USA AMC 
 http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="AMC+.us" tvg-name="xxx000000 US AMC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",USA AMC+ 
+http://streamsy.online:2999/juanv/04bodwaga0/1602
 #EXTINF:-1 tvg-id="American Heroes Channel HDTV" tvg-name="xxx000000 US American Heroes Channel " tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="",USA American Heroes Channel 
 http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8
 #EXTINF:-1 tvg-id="BBC America HDTV (East) - BBC.us" tvg-name="xxx000000 US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="",USA BBC America
@@ -600,6 +602,8 @@ http://fl2.moveonjoy.com/MSNBC/index.m3u8
 http://fl2.moveonjoy.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="MTV2East.us" tvg-name="jul232025 US MTV2 " tvg-logo="https://i.ibb.co/SXnNsLh/MTV2-logo-2013.png" group-title="",USA MTV 2 
 http://fl2.moveonjoy.com/MTV_2/index.m3u8
+#EXTINF:-1 tvg-id="MTV.Live.HDTV.(MTVL).us" tvg-name="jul232025 US MTV2 " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-live-us.png?raw=true" group-title="",USA MTV Live 
+http://streamsy.online:2999/juanv/04bodwaga0/1193
 #EXTINF:-1 tvg-id="MTV.Classic.(East).(MTVCL).us" tvg-name="MTV Classic" tvg-logo="https://i.ibb.co/KjTgqBB/MTV-Classic-US.png" group-title="",USA MTV Classic
 http://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8
 #EXTINF:-1 tvg-id="MTV Live.us" tvg-name="MTV Live" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/58/MTV_Live_%28orange%29.svg/revision/latest/scale-to-width-down/250?cb=20220317014118" group-title="Music",USA MTV Live
@@ -699,12 +703,16 @@ http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 http://fl2.moveonjoy.com/BET_HER/index.m3u8
 #EXTINF:-1 tvg-id="NewsNationEast.us" tvg-name="xxx000000 US NewsNation USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/news-nation-us.png?raw=true" group-title="News",USA NewsNation 
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
-#EXTINF:-1 tvg-id="Cinemax (East)" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="",USA Cinemax 
+#EXTINF:-1 tvg-id="Cinemax (East)" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",USA Cinemax 
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
+#EXTINF:-1 tvg-id="More.Max.(East).(MOMAX).us" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true" group-title="Movies",USA MoreMax
+http://streamsy.online:2999/juanv/04bodwaga0/1204
 "#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8?checkedby:iptvcat.com"
 #EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",USA Sony Movie Channel
 http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8
+#EXTINF:-1 tvg-id="ActionMAX.HDTV.(East).(AMXHD).us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",USA Action Max
+http://streamsy.online:2999/juanv/04bodwaga0/1604
 #EXTINF:-1 tvg-ID="Starz (East)" tvg-name="xxx000000 | Starz Cinema HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="Movies",USA Starz 
 http://fl2.moveonjoy.com/STARZ/index.m3u8
 #EXTINF:-1 tvg-ID="Starz Comedy (East)" tvg-name="xxx000000 | Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
@@ -835,6 +843,11 @@ http://fl2.moveonjoy.com/STADIUM/index.m3u8
 http://streamsy.online:2999/live/juanv/04bodwaga0/1521.m3u8
 #EXTINF:-1 tvg-id="Madison.Square.Garden.HDTV.(MSG.HD).us" tvg-name=""MSG"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG
 http://streamsy.online:2999/live/juanv/04bodwaga0/287.m3u8
+#EXTINF:-1 tvg-id="MSG/MSG.Plus.Alternate.HDTV.DirecTV.(MSGHDA).us" tvg-name=""MSG +"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG +
+http://streamsy.online:2999/juanv/04bodwaga0/1617
+#EXTINF:-1 tvg-id="MSG2HD.us" tvg-name=""MSG 2"" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-2-us.png?raw=true" group-title="Sports",MSG 2
+http://streamsy.online:2999/juanv/04bodwaga0/333
+
 #EXTINF:-1 tvg-id="CBSSportsNetwork.us" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network
 http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="USBA300031OT" tvg-country="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20240520T215945SQUARE.png" group-title="Sports",Sportsgrid
