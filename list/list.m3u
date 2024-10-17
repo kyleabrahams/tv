@@ -13,7 +13,7 @@ http://b1g.pw:80/DD/DD/621370"
 http://fortv.cc:8080/105094817/105094817/57435
 "#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="jul232025 CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 17 1240 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 17 1026 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -41,10 +41,12 @@ https://jmp2.uk/sam-CABC2300009KD.m3u8
 http://fortv.cc:8080/105094817/105094817/57268
 #EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="xxx000000 CBS 4 (WIVB) Buffalo USATV" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",CBS Buffalo 
 http://streamsy.online:2999/live/juanv/04bodwaga0/719.m3u8
+"#EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="xxx000000 US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
+http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8"
 #EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="xxx000000 US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
-http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
-#EXTINF:-1 tvg-id="NBC.(WXIA).Atlanta,.GA.us" tvg-name="NBC.(WXIA).Atlanta,.GA.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Atlanta 
-http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
+http://fortv.cc:8080/105094817/105094817/120748
+"#EXTINF:-1 tvg-id="NBC.(WXIA).Atlanta,.GA.us" tvg-name="NBC.(WXIA).Atlanta,.GA.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Atlanta 
+http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8"
 "#EXTINF:-1 tvg-id="NBC.(WMAQ).Chicago,.IL.us" tvg-name="xxx000000 US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Chicago 
 http://fl2.moveonjoy.com/NBC_EAST/index.m3u8"
 "#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="xxx000000 US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Buffalo
