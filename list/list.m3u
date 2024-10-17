@@ -13,7 +13,7 @@ http://b1g.pw:80/DD/DD/621370"
 http://fortv.cc:8080/105094817/105094817/57435
 "#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="jul232025 CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 16 956 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 16 1026 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -885,6 +885,17 @@ http://fortv.cc:8080/105094817/105094817/18941
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DAZN.us" tvg-country="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",Dazn TV
 https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
+#EXTINF:-1 tvg-id="DAZN2.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/international/dazn2-int.png?raw=true" group-title="Sports",DAZN 2
+http://iptvtree.net:8080/cinepk2021/F37CXJnaEDN203udnch/304113
+#EXTINF:-1 tvg-id="DAZN4.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/belgium/dazn-4-be.png?raw=true" group-title="Sports",DAZN 4
+http://iptvtree.net:8080/cinepk2021/F37CXJnaEDN203udnch/304114
+#EXTINF:-1 tvg-id="DAZN6.us" tvg-country="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/belgium/dazn-6-be.png?raw=true" group-title="Sports",DAZN 6
+http://iptvtree.net:8080/cinepk2021/F37CXJnaEDN203udnch/304115
+#EXTINF:-1 tvg-id="DAZN10.us" tvg-country="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",DAZN 10
+http://iptvtree.net:8080/cinepk2021/F37CXJnaEDN203udnch/304116
+#EXTINF:-1,tvg-id="DAZN12.us" tvg-country="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",DAZN 12
+http://iptvtree.net:8080/cinepk2021/F37CXJnaEDN203udnch/304117
+
 
 #EXTINF:-1 tvg-id="Fox Sports 1 HDTV - FS1HD.us" tvg-name="xxx000000 FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 
 http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
