@@ -13,7 +13,7 @@ http://b1g.pw:80/DD/DD/621370"
 http://fortv.cc:8080/105094817/105094817/57435
 "#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="jul232025 CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 17 1128 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 17 100 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto ON xxx000000 HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -95,7 +95,7 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 http://fl2.moveonjoy.com/TLC/index.m3u8
 #EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="dec252024 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
 http://b1g.ooo:80/827/827/614801
-#EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name=""jul232025 Investigation Discovery"" tvg-logo="https://i.ibb.co/MhZ367m/investigation-discovery.png" group-title="",Investigation Discovery
+#EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name=""jul232025 Investigation Discovery"" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="",Investigation Discovery
 http://fortv.cc:8080/105094817/105094817/57442
 #EXTINF:-1 tvg-id="CTV LIFE Channel SD" tvg-name="jul232025 CTV LIFE" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 
 http://fortv.cc:8080/105094817/105094817/116506
@@ -588,7 +588,7 @@ http://streamsy.online:2999/live/juanv/04bodwaga0/153.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/151
 #EXTINF:-1 tvg-id="Inspirational Network East" tvg-name="xxx000000 US insp USATV" tvg-logo="https://i.ibb.co/TWSPs7x/insp-trn-1.png" group-title="Classics",USA Insp 
 http://fl2.moveonjoy.com/INSP/index.m3u8
-#EXTINF:-1 tvg-id="Investigation Discovery HDTV" tvg-name="xxx000000 US ID Investigation Discovery USATV" tvg-logo="https://i.ibb.co/MhZ367m/investigation-discovery.png" group-title="",USA ID Investigation Discovery 
+#EXTINF:-1 tvg-id="Investigation Discovery HDTV" tvg-name="xxx000000 US ID Investigation Discovery USATV" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="",USA ID Investigation Discovery 
 http://fl2.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
 #EXTINF:-1 tvg-id="ION (West Network)" tvg-name="xxx000000 US ION USATV" tvg-logo="https://i.ibb.co/G0BRP54/Ion-logo-1.png" group-title="",USA ION 
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,ION.m3u8
@@ -690,8 +690,6 @@ http://fl2.moveonjoy.com/EPIX/index.m3u8
 #EXTINF:-1 tvg-id="MGM+.Hits.HDTV.(East).(MGM+HTHD).us" tvg-name="EPIX_2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-hits-us.png?raw=true"group-title="Movies",USA MGM+ Hits 
 http://fl2.moveonjoy.com/EPIX_2/index.m3u8
 #EXTINF:-1 tvg-id="MGM+ Drive-In HDTV - MGM+DIHD.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-drive-in-us.png?raw=true"group-title="Movies",USA MGM+ Drive-In 
-http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
-#EXTINF:-1 tvg-id="MGMPlusMarquee.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-marquee-us.png?raw=true" group-title="Movies",US MGM+ Marquee
 http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
 #EXTINF:-1 tvg-id="TV.Land.(East).(TVLAND).us" tvg-name="xxx000000 US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="",USA TV land 
 http://fl2.moveonjoy.com/TV_Land/index.m3u8
