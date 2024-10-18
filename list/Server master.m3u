@@ -1232,7 +1232,7 @@ http://vo01.mohdtv.com:8880/xxx/3026
 http://vo01.mohdtv.com:8880/xxx/3025
 #EXTINF:-1,CA045:TCM
 http://vo01.mohdtv.com:8880/xxx/3024
-#EXTINF:-1,CA046:ShowCase HD
+#EXTINF:-1,CA046:Showcase HD
 http://vo01.mohdtv.com:8880/xxx/3023
 #EXTINF:-1,CA047:BAYWATCH
 http://vo01.mohdtv.com:8880/xxx/3022
@@ -2048,7 +2048,7 @@ http://mohdtv.com:8880/xxx/3026
 http://mohdtv.com:8880/xxx/3025
 #EXTINF:-1,CA045:TCM
 http://mohdtv.com:8880/xxx/3024
-#EXTINF:-1,CA046:ShowCase HD
+#EXTINF:-1,CA046:Showcase HD
 http://mohdtv.com:8880/xxx/3023
 #EXTINF:-1,CA047:BAYWATCH
 http://mohdtv.com:8880/xxx/3022
@@ -2425,7 +2425,7 @@ http://ultrapremium.cloud:8080/xxx/31720
 http://ultrapremium.cloud:8080/xxx/31721
 #EXTINF:-1,CA: FX FHD
 http://ultrapremium.cloud:8080/xxx/31722
-#EXTINF:-1,CA: SHOWCASE HD
+#EXTINF:-1,CA: Showcase HD
 http://ultrapremium.cloud:8080/xxx/31723
 #EXTINF:-1,CA: FXX
 http://ultrapremium.cloud:8080/xxx/31724
@@ -2724,7 +2724,7 @@ http://yesimes.oknirvana.club:8880/xxx/3031
 http://yesimes.oknirvana.club:8880/xxx/3025
 #EXTINF:-1,CA045:TCM
 http://yesimes.oknirvana.club:8880/xxx/3024
-#EXTINF:-1,CA046:ShowCase HD
+#EXTINF:-1,CA046:Showcase HD
 http://yesimes.oknirvana.club:8880/xxx/3023
 #EXTINF:-1,CA048:Much HD
 http://yesimes.oknirvana.club:8880/xxx/3021
@@ -13619,7 +13619,7 @@ http://b1g.ooo:80/xxx/610468
 http://b1g.ooo:80/xxx/611247
 #EXTINF:-1,US Showtime (West) (H)
 http://b1g.ooo:80/xxx/611248
-#EXTINF:-1,US SHOWTIME 2 (A)
+#EXTINF:-1,US Showtime 2 (A)
 http://b1g.ooo:80/xxx/610472
 #EXTINF:-1,US Showtime 2 (S)
 http://b1g.ooo:80/xxx/617869
@@ -17599,11 +17599,11 @@ http://b1g.ooo:80/xxx/616774
 http://b1g.ooo:80/xxx/629683
 #EXTINF:-1,CA Faith TV HD (B)
 http://b1g.ooo:80/xxx/616775
-#EXTINF:-1,CA FAMILY East (E)
+#EXTINF:-1,CA Family East (E)
 http://b1g.ooo:80/xxx/621335
-#EXTINF:-1,CA FAMILY JR (E)
+#EXTINF:-1,CA Family JR (E)
 http://b1g.ooo:80/xxx/621336
-#EXTINF:-1,CA FAMILY West (E)
+#EXTINF:-1,CA Family West (E)
 http://b1g.ooo:80/xxx/621337
 #EXTINF:-1,CA Food Network (D)
 http://b1g.ooo:80/xxx/621341
@@ -17767,9 +17767,9 @@ http://b1g.ooo:80/xxx/613351
 http://b1g.ooo:80/xxx/621439
 #EXTINF:-1,CA Salt+Light HD (B)
 http://b1g.ooo:80/xxx/616820
-#EXTINF:-1,CA SHOWCASE (D)
+#EXTINF:-1,CA Showcase (D)
 http://b1g.ooo:80/xxx/621441
-#EXTINF:-1,CA SHOWCASE (E)
+#EXTINF:-1,CA Showcase (E)
 http://b1g.ooo:80/xxx/621442
 #EXTINF:-1,CA Showcase (R)
 http://b1g.ooo:80/xxx/613359
@@ -22400,2175 +22400,6 @@ http://b1g.ooo:80/xxx/789689
 #EXTINF:-1,US myTV 14 (KBVO) Austin (F)
 http://b1g.ooo:80/xxx/789690
 
-#EXTINF:-1,|US| CGTN
-http://vip.fr3tv.com:25443/live/xxx/141448.ts
-#EXTINF:-1,|US| REVOLT HD
-http://vip.fr3tv.com:25443/live/xxx/141464.ts
-#EXTINF:-1,|US| LIFETIME HD
-http://vip.fr3tv.com:25443/live/xxx/141467.ts
-#EXTINF:-1,|US| DIY NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141468.ts
-#EXTINF:-1,|US| WE TV
-http://vip.fr3tv.com:25443/live/xxx/141475.ts
-#EXTINF:-1,|US| LAW AND ORDER
-http://vip.fr3tv.com:25443/live/xxx/141480.ts
-#EXTINF:-1,|US| Family Flix
-http://vip.fr3tv.com:25443/live/xxx/141490.ts
-#EXTINF:-1,|US| Hallmark Drama HD
-http://vip.fr3tv.com:25443/live/xxx/141492.ts
-#EXTINF:-1,|US| WION TV
-http://vip.fr3tv.com:25443/live/xxx/141496.ts
-#EXTINF:-1,|US| Trace Urban
-http://vip.fr3tv.com:25443/live/xxx/141508.ts
-#EXTINF:-1,|US| TBN
-http://vip.fr3tv.com:25443/live/xxx/141516.ts
-#EXTINF:-1,|US| Hillsong TV
-http://vip.fr3tv.com:25443/live/xxx/141517.ts
-#EXTINF:-1,|US| BBC Brit HD
-http://vip.fr3tv.com:25443/live/xxx/141522.ts
-#EXTINF:-1,|US| Morning Cloud TV
-http://vip.fr3tv.com:25443/live/xxx/141524.ts
-#EXTINF:-1,|US| ET TV USA
-http://vip.fr3tv.com:25443/live/xxx/141526.ts
-#EXTINF:-1,|US| Hope Channel US
-http://vip.fr3tv.com:25443/live/xxx/141529.ts
-#EXTINF:-1,|US| Healing Jesus TV
-http://vip.fr3tv.com:25443/live/xxx/141530.ts
-#EXTINF:-1,|US| Bride TV
-http://vip.fr3tv.com:25443/live/xxx/141531.ts
-#EXTINF:-1,|US| ARK TV
-http://vip.fr3tv.com:25443/live/xxx/141532.ts
-#EXTINF:-1,|US| Faith Life TV
-http://vip.fr3tv.com:25443/live/xxx/141533.ts
-#EXTINF:-1,|US| Catholic TV US
-http://vip.fr3tv.com:25443/live/xxx/141534.ts
-#EXTINF:-1,|US| EWTN TV
-http://vip.fr3tv.com:25443/live/xxx/141536.ts
-#EXTINF:-1,|US| Dateline 24/7 TV
-http://vip.fr3tv.com:25443/live/xxx/141537.ts
-#EXTINF:-1,|US| GEB Network US
-http://vip.fr3tv.com:25443/live/xxx/141538.ts
-#EXTINF:-1,|US| Outside TV US
-http://vip.fr3tv.com:25443/live/xxx/141540.ts
-#EXTINF:-1,|US| Scientology Network
-http://vip.fr3tv.com:25443/live/xxx/141541.ts
-#EXTINF:-1,|US| QVTV
-http://vip.fr3tv.com:25443/live/xxx/141545.ts
-#EXTINF:-1,|US| CGTN Documentry
-http://vip.fr3tv.com:25443/live/xxx/141546.ts
-#EXTINF:-1,|US| PBS World
-http://vip.fr3tv.com:25443/live/xxx/141548.ts
-#EXTINF:-1,|US| Real Families TV
-http://vip.fr3tv.com:25443/live/xxx/141549.ts
-#EXTINF:-1,|US| TVM3 France
-http://vip.fr3tv.com:25443/live/xxx/141550.ts
-#EXTINF:-1,|US| Afrobeats TV
-http://vip.fr3tv.com:25443/live/xxx/141556.ts
-#EXTINF:-1,|US| Cornerstone TV
-http://vip.fr3tv.com:25443/live/xxx/141560.ts
-#EXTINF:-1,|US| BRONXNET TV
-http://vip.fr3tv.com:25443/live/xxx/141561.ts
-#EXTINF:-1,|US| Biz TV
-http://vip.fr3tv.com:25443/live/xxx/141564.ts
-#EXTINF:-1,|US| AMC Presents
-http://vip.fr3tv.com:25443/live/xxx/141565.ts
-#EXTINF:-1,|US| UATV Ukraine
-http://vip.fr3tv.com:25443/live/xxx/141567.ts
-#EXTINF:-1,|US| 5 StarMax US
-http://vip.fr3tv.com:25443/live/xxx/141569.ts
-#EXTINF:-1,|US| GOLTV
-http://vip.fr3tv.com:25443/live/xxx/141579.ts
-#EXTINF:-1,|US| MAV TV
-http://vip.fr3tv.com:25443/live/xxx/141580.ts
-#EXTINF:-1,|US| MSG
-http://vip.fr3tv.com:25443/live/xxx/141581.ts
-#EXTINF:-1,|US| MSG+
-http://vip.fr3tv.com:25443/live/xxx/141582.ts
-#EXTINF:-1,|US| MSG Plus 2
-http://vip.fr3tv.com:25443/live/xxx/141583.ts
-#EXTINF:-1,|US| MSG Plus 3
-http://vip.fr3tv.com:25443/live/xxx/141584.ts
-#EXTINF:-1,|US| World Fishing Network
-http://vip.fr3tv.com:25443/live/xxx/141585.ts
-#EXTINF:-1,|US| Pac 12 Network
-http://vip.fr3tv.com:25443/live/xxx/141596.ts
-#EXTINF:-1,|US| Pac 12 Oregon
-http://vip.fr3tv.com:25443/live/xxx/141597.ts
-#EXTINF:-1,|US| Tennis Channel
-http://vip.fr3tv.com:25443/live/xxx/141599.ts
-#EXTINF:-1,|US| MLB NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141628.ts
-#EXTINF:-1,|US| MLB Strike Zone (Tuesday and Friday nights only)
-http://vip.fr3tv.com:25443/live/xxx/141629.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS  1 Orioles Vs Mets  12:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141630.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 2 Reds Vs Pirates  12:35 PM
-http://vip.fr3tv.com:25443/live/xxx/141631.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 3 Cubs Vs Indians  1:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141632.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 4 Padres Vs Rockies  3:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141633.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 5 Padres Vs Rockies 6:10PM
-http://vip.fr3tv.com:25443/live/xxx/141634.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 6 Phillies Vs Nationals  7:05 PM
-http://vip.fr3tv.com:25443/live/xxx/141635.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 7  Royals Vs Tigers 7:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141636.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 8 Yankees Vs Rays 7:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141637.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 9 Athletics Vs Red Sox 7:10 PM
-http://vip.fr3tv.com:25443/live/xxx/141638.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 10  Blue Jays Vs Braves  7:20 PM
-http://vip.fr3tv.com:25443/live/xxx/141639.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 11  Cardinals Vs Brewer 7:40 PM
-http://vip.fr3tv.com:25443/live/xxx/141640.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 12 Angels Vs Astros  8:10 pm
-http://vip.fr3tv.com:25443/live/xxx/141641.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 13 Twins Vs White Sox 8:10 pm
-http://vip.fr3tv.com:25443/live/xxx/141642.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 14 Marlins Vs Diamondbac 9:40 pm
-http://vip.fr3tv.com:25443/live/xxx/141643.ts
-#EXTINF:-1,|US| MLB EXTRA INNINGS 15 Mariners Vs Dodgers  10:10pm
-http://vip.fr3tv.com:25443/live/xxx/141644.ts
-#EXTINF:-1,|US| SEC Network
-http://vip.fr3tv.com:25443/live/xxx/141645.ts
-#EXTINF:-1,|US| ESPN
-http://vip.fr3tv.com:25443/live/xxx/141646.ts
-#EXTINF:-1,|US| ESPN 2
-http://vip.fr3tv.com:25443/live/xxx/141647.ts
-#EXTINF:-1,|US| ESPN DEPORTES
-http://vip.fr3tv.com:25443/live/xxx/141648.ts
-#EXTINF:-1,|US| ESPN U
-http://vip.fr3tv.com:25443/live/xxx/141650.ts
-#EXTINF:-1,|US| ESPN + 1
-http://vip.fr3tv.com:25443/live/xxx/141651.ts
-#EXTINF:-1,|US| ESPN+ 2
-http://vip.fr3tv.com:25443/live/xxx/141652.ts
-#EXTINF:-1,|US| ESPN+ 3
-http://vip.fr3tv.com:25443/live/xxx/141653.ts
-#EXTINF:-1,|US| ESPN+ 4
-http://vip.fr3tv.com:25443/live/xxx/141654.ts
-#EXTINF:-1,|US| ESPN+ 5
-http://vip.fr3tv.com:25443/live/xxx/141655.ts
-#EXTINF:-1,|US| ESPN+ 6
-http://vip.fr3tv.com:25443/live/xxx/141656.ts
-#EXTINF:-1,|US| ESPN+ 7
-http://vip.fr3tv.com:25443/live/xxx/141657.ts
-#EXTINF:-1,|US| TUDN
-http://vip.fr3tv.com:25443/live/xxx/141659.ts
-#EXTINF:-1,|US| TUDNxtra1
-http://vip.fr3tv.com:25443/live/xxx/141660.ts
-#EXTINF:-1,|US| TUDNxtra2
-http://vip.fr3tv.com:25443/live/xxx/141661.ts
-#EXTINF:-1,|US| TUDNxtra3
-http://vip.fr3tv.com:25443/live/xxx/141662.ts
-#EXTINF:-1,|US| TUDNxtra4
-http://vip.fr3tv.com:25443/live/xxx/141663.ts
-#EXTINF:-1,|US| TUDNxtra5
-http://vip.fr3tv.com:25443/live/xxx/141664.ts
-#EXTINF:-1,|US| TUDNxtra6
-http://vip.fr3tv.com:25443/live/xxx/141665.ts
-#EXTINF:-1,|US| TUDNxtra7
-http://vip.fr3tv.com:25443/live/xxx/141666.ts
-#EXTINF:-1,|US| TUDNxtra8
-http://vip.fr3tv.com:25443/live/xxx/141667.ts
-#EXTINF:-1,|US| TUDNxtra9
-http://vip.fr3tv.com:25443/live/xxx/141668.ts
-#EXTINF:-1,|US| TUDNxtra10
-http://vip.fr3tv.com:25443/live/xxx/141669.ts
-#EXTINF:-1,|US| TUDNxtra11
-http://vip.fr3tv.com:25443/live/xxx/141670.ts
-#EXTINF:-1,|US| TSN 1
-http://vip.fr3tv.com:25443/live/xxx/141687.ts
-#EXTINF:-1,|US| TSN 2
-http://vip.fr3tv.com:25443/live/xxx/141688.ts
-#EXTINF:-1,|US| TSN 3
-http://vip.fr3tv.com:25443/live/xxx/141689.ts
-#EXTINF:-1,|US| TSN 4
-http://vip.fr3tv.com:25443/live/xxx/141690.ts
-#EXTINF:-1,|US| TSN 5
-http://vip.fr3tv.com:25443/live/xxx/141691.ts
-#EXTINF:-1,|US| ACC Network
-http://vip.fr3tv.com:25443/live/xxx/141693.ts
-#EXTINF:-1,|US| Big Ten Network
-http://vip.fr3tv.com:25443/live/xxx/141704.ts
-#EXTINF:-1,|US| FIGHT NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141708.ts
-#EXTINF:-1,|US| The Golf Channel
-http://vip.fr3tv.com:25443/live/xxx/141709.ts
-#EXTINF:-1,|US| 30a TV
-http://vip.fr3tv.com:25443/live/xxx/141710.ts
-#EXTINF:-1,|US| AFV Family
-http://vip.fr3tv.com:25443/live/xxx/141783.ts
-#EXTINF:-1,|US| AXN Spin Adria
-http://vip.fr3tv.com:25443/live/xxx/141786.ts
-#EXTINF:-1,|US| Bible Explorations TV
-http://vip.fr3tv.com:25443/live/xxx/141813.ts
-#EXTINF:-1,|US| Buzzr
-http://vip.fr3tv.com:25443/live/xxx/141815.ts
-#EXTINF:-1,|US| CMC USA
-http://vip.fr3tv.com:25443/live/xxx/141823.ts
-#EXTINF:-1,|US| ConTV Anime
-http://vip.fr3tv.com:25443/live/xxx/141828.ts
-#EXTINF:-1,|US| Daystar TV
-http://vip.fr3tv.com:25443/live/xxx/141849.ts
-#EXTINF:-1,|US| Docurama
-http://vip.fr3tv.com:25443/live/xxx/141855.ts
-#EXTINF:-1,|US| FashionTV
-http://vip.fr3tv.com:25443/live/xxx/141859.ts
-#EXTINF:-1,|US| Folk TV
-http://vip.fr3tv.com:25443/live/xxx/141860.ts
-#EXTINF:-1,|US| Free Speech TV
-http://vip.fr3tv.com:25443/live/xxx/141978.ts
-#EXTINF:-1,|US| FS1
-http://vip.fr3tv.com:25443/live/xxx/141980.ts
-#EXTINF:-1,|US| FS2
-http://vip.fr3tv.com:25443/live/xxx/141981.ts
-#EXTINF:-1,|US| FTV New York
-http://vip.fr3tv.com:25443/live/xxx/141983.ts
-#EXTINF:-1,|US| Fuel TV
-http://vip.fr3tv.com:25443/live/xxx/141985.ts
-#EXTINF:-1,|US| GAC Family
-http://vip.fr3tv.com:25443/live/xxx/141989.ts
-#EXTINF:-1,|US| Gametoon
-http://vip.fr3tv.com:25443/live/xxx/141991.ts
-#EXTINF:-1,|US| Gem Shopping Network
-http://vip.fr3tv.com:25443/live/xxx/141992.ts
-#EXTINF:-1,|US| Hardeeville South Carolina WTGS
-http://vip.fr3tv.com:25443/live/xxx/141996.ts
-#EXTINF:-1,|US| IFC
-http://vip.fr3tv.com:25443/live/xxx/142002.ts
-#EXTINF:-1,|US| Impact TV Network
-http://vip.fr3tv.com:25443/live/xxx/142003.ts
-#EXTINF:-1,|US| Jacksonville Florida WJXT
-http://vip.fr3tv.com:25443/live/xxx/142006.ts
-#EXTINF:-1,|US| Laff
-http://vip.fr3tv.com:25443/live/xxx/142008.ts
-#EXTINF:-1,|US| Longhorn Network
-http://vip.fr3tv.com:25443/live/xxx/142010.ts
-#EXTINF:-1,|US| Los Angeles California KCAL TV
-http://vip.fr3tv.com:25443/live/xxx/142011.ts
-#EXTINF:-1,|US| MoreMax
-http://vip.fr3tv.com:25443/live/xxx/142016.ts
-#EXTINF:-1,|US| Motortrend
-http://vip.fr3tv.com:25443/live/xxx/142017.ts
-#EXTINF:-1,|US| Myrtle Beach South Carolina WMBF TV
-http://vip.fr3tv.com:25443/live/xxx/142067.ts
-#EXTINF:-1,|US| NESN
-http://vip.fr3tv.com:25443/live/xxx/142184.ts
-#EXTINF:-1,|US| NRB TV
-http://vip.fr3tv.com:25443/live/xxx/142193.ts
-#EXTINF:-1,|US| Olympic Channel
-http://vip.fr3tv.com:25443/live/xxx/142194.ts
-#EXTINF:-1,|US| Oprah Winfrey Network
-http://vip.fr3tv.com:25443/live/xxx/142195.ts
-#EXTINF:-1,|US| Our TV
-http://vip.fr3tv.com:25443/live/xxx/142196.ts
-#EXTINF:-1,|US| OuterMax
-http://vip.fr3tv.com:25443/live/xxx/142198.ts
-#EXTINF:-1,|US| Outside TV
-http://vip.fr3tv.com:25443/live/xxx/142199.ts
-#EXTINF:-1,|US| PAC 12 Arizona
-http://vip.fr3tv.com:25443/live/xxx/142200.ts
-#EXTINF:-1,|US| PAC 12 Bay Area
-http://vip.fr3tv.com:25443/live/xxx/142201.ts
-#EXTINF:-1,|US| PAC 12 Los Angeles
-http://vip.fr3tv.com:25443/live/xxx/142202.ts
-#EXTINF:-1,|US| PAC 12 Mountain
-http://vip.fr3tv.com:25443/live/xxx/142203.ts
-#EXTINF:-1,|US| PAC 12 Network
-http://vip.fr3tv.com:25443/live/xxx/142204.ts
-#EXTINF:-1,|US| PAC 12 Oregon
-http://vip.fr3tv.com:25443/live/xxx/142205.ts
-#EXTINF:-1,|US| PAC 12 Washington
-http://vip.fr3tv.com:25443/live/xxx/142206.ts
-#EXTINF:-1,|US| Popstar TV
-http://vip.fr3tv.com:25443/live/xxx/142208.ts
-#EXTINF:-1,|US| Radio U TV
-http://vip.fr3tv.com:25443/live/xxx/142211.ts
-#EXTINF:-1,|US| Real Americas Voice
-http://vip.fr3tv.com:25443/live/xxx/142212.ts
-#EXTINF:-1,|US| Reuters TV
-http://vip.fr3tv.com:25443/live/xxx/142215.ts
-#EXTINF:-1,|US| Revry
-http://vip.fr3tv.com:25443/live/xxx/142216.ts
-#EXTINF:-1,|US| RFD TV
-http://vip.fr3tv.com:25443/live/xxx/142218.ts
-#EXTINF:-1,|US| Santa Fe New Mexico KCHF TV
-http://vip.fr3tv.com:25443/live/xxx/142219.ts
-#EXTINF:-1,|US| Shorts TV
-http://vip.fr3tv.com:25443/live/xxx/142221.ts
-#EXTINF:-1,|US| The Design Network
-http://vip.fr3tv.com:25443/live/xxx/142247.ts
-#EXTINF:-1,|US| The Pet Collective
-http://vip.fr3tv.com:25443/live/xxx/142250.ts
-#EXTINF:-1,|US| The Preview Channel
-http://vip.fr3tv.com:25443/live/xxx/142251.ts
-#EXTINF:-1,|US| Trinity Channel
-http://vip.fr3tv.com:25443/live/xxx/142254.ts
-#EXTINF:-1,|US| Universal Premiere
-http://vip.fr3tv.com:25443/live/xxx/142256.ts
-#EXTINF:-1,|US| VSiN
-http://vip.fr3tv.com:25443/live/xxx/142260.ts
-#EXTINF:-1,|US| WCPO TV
-http://vip.fr3tv.com:25443/live/xxx/142261.ts
-#EXTINF:-1,|US| Willow
-http://vip.fr3tv.com:25443/live/xxx/142263.ts
-#EXTINF:-1,|US| Willow Xtra
-http://vip.fr3tv.com:25443/live/xxx/142264.ts
-#EXTINF:-1,|US| Wired2Fish
-http://vip.fr3tv.com:25443/live/xxx/142265.ts
-#EXTINF:-1,|US| Yahoo Finance
-http://vip.fr3tv.com:25443/live/xxx/142267.ts
-#EXTINF:-1,|US| Yes Network
-http://vip.fr3tv.com:25443/live/xxx/142268.ts
-#EXTINF:-1,|US| Youtoo America YTA TV
-http://vip.fr3tv.com:25443/live/xxx/142270.ts
-#EXTINF:-1,|US| ABC News
-http://vip.fr3tv.com:25443/live/xxx/141759.ts
-#EXTINF:-1,|US| ABC Spark
-http://vip.fr3tv.com:25443/live/xxx/141774.ts
-#EXTINF:-1,|US| ABC Presque Isle
-http://vip.fr3tv.com:25443/live/xxx/141766.ts
-#EXTINF:-1,|US| ABC Anchorage Alaska KYUR TV
-http://vip.fr3tv.com:25443/live/xxx/141711.ts
-#EXTINF:-1,|US| ABC Fairbanks Alaska KATN TV
-http://vip.fr3tv.com:25443/live/xxx/141734.ts
-#EXTINF:-1,|US| ABC 2 Atlanta Georgia WSB TV
-http://vip.fr3tv.com:25443/live/xxx/141712.ts
-#EXTINF:-1,|US| ABC 2 Baltimore Maryland WMAR TV
-http://vip.fr3tv.com:25443/live/xxx/141715.ts
-#EXTINF:-1,|US| ABC 2 Baton Rouge Louisiana WBRZ TV
-http://vip.fr3tv.com:25443/live/xxx/141716.ts
-#EXTINF:-1,|US| ABC 2 Nashville Tennessee WKRN TV
-http://vip.fr3tv.com:25443/live/xxx/141756.ts
-#EXTINF:-1,|US| ABC 2 Portland Oregon KATU TV
-http://vip.fr3tv.com:25443/live/xxx/141765.ts
-#EXTINF:-1,|US| ABC 3 Harrisburg Illinois WSIL TV
-http://vip.fr3tv.com:25443/live/xxx/141741.ts
-#EXTINF:-1,|US| ABC 3 Lafayette Louisiana KATC TV
-http://vip.fr3tv.com:25443/live/xxx/141745.ts
-#EXTINF:-1,|US| ABC 3 Pensacola Florida WEAR TV
-http://vip.fr3tv.com:25443/live/xxx/141761.ts
-#EXTINF:-1,|US| ABC 4 Pittsburgh Pennsylvania WTAE TV
-http://vip.fr3tv.com:25443/live/xxx/141764.ts
-#EXTINF:-1,|US| ABC 4 Salt Lake City Utah KTVX TV
-http://vip.fr3tv.com:25443/live/xxx/141769.ts
-#EXTINF:-1,|US| ABC 4 Seattle Washington KOMO TV
-http://vip.fr3tv.com:25443/live/xxx/141773.ts
-#EXTINF:-1,|US| ABC 5 Boston Massachusetts WCVB TV
-http://vip.fr3tv.com:25443/live/xxx/141719.ts
-#EXTINF:-1,|US| ABC 5 Cleveland Ohio WEWS TV
-http://vip.fr3tv.com:25443/live/xxx/141726.ts
-#EXTINF:-1,|US| ABC 5 Saint Paul Minnesota KSTP TV
-http://vip.fr3tv.com:25443/live/xxx/141768.ts
-#EXTINF:-1,|US| ABC 6 Augusta Georgia WJBF TV
-http://vip.fr3tv.com:25443/live/xxx/141713.ts
-#EXTINF:-1,|US| ABC 6 Billings Montana KSVI TV
-http://vip.fr3tv.com:25443/live/xxx/141717.ts
-#EXTINF:-1,|US| ABC 6 Columbus Ohio WSYX TV
-http://vip.fr3tv.com:25443/live/xxx/141727.ts
-#EXTINF:-1,|US| ABC 6 Lima Ohio WOHL CD
-http://vip.fr3tv.com:25443/live/xxx/141748.ts
-#EXTINF:-1,|US| ABC 6 Nampa Idaho KIVI TV
-http://vip.fr3tv.com:25443/live/xxx/141755.ts
-#EXTINF:-1,|US| ABC 6 Philadelphia Pennsylvania WPVI TV
-http://vip.fr3tv.com:25443/live/xxx/141762.ts
-#EXTINF:-1,|US| ABC 7 Buffalo New York WKBW TV
-http://vip.fr3tv.com:25443/live/xxx/141720.ts
-#EXTINF:-1,|US| ABC 7 Chicago Illinois WLS TV
-http://vip.fr3tv.com:25443/live/xxx/141725.ts
-#EXTINF:-1,|US| ABC 7 Denver Colorado KMGH TV
-http://vip.fr3tv.com:25443/live/xxx/141730.ts
-#EXTINF:-1,|US| ABC 7 Detroit Michigan WXYZ TV
-http://vip.fr3tv.com:25443/live/xxx/141731.ts
-#EXTINF:-1,|US| ABC 7 El Paso Texas KVIA TV
-http://vip.fr3tv.com:25443/live/xxx/141733.ts
-#EXTINF:-1,|US| ABC 7 Los Angeles California KABC TV
-http://vip.fr3tv.com:25443/live/xxx/141749.ts
-#EXTINF:-1,|US| ABC 7 New York WABC TV
-http://vip.fr3tv.com:25443/live/xxx/141758.ts
-#EXTINF:-1,|US| ABC 7 San Francisco California KGO TV
-http://vip.fr3tv.com:25443/live/xxx/141772.ts
-#EXTINF:-1,|US| ABC 7 Washington District of Columbia WJLA TV
-http://vip.fr3tv.com:25443/live/xxx/141781.ts
-#EXTINF:-1,|US| ABC 8 Charleston South Carolina WCIV DT 2
-http://vip.fr3tv.com:25443/live/xxx/141722.ts
-#EXTINF:-1,|US| ABC 8 Charleston West Virginia WCHS TV
-http://vip.fr3tv.com:25443/live/xxx/141723.ts
-#EXTINF:-1,|US| ABC 8 Dallas Texas WFAA TV
-http://vip.fr3tv.com:25443/live/xxx/141728.ts
-#EXTINF:-1,|US| ABC 8 New Haven Connecticut WTNH TV
-http://vip.fr3tv.com:25443/live/xxx/141757.ts
-#EXTINF:-1,|US| ABC 9 Cedar Rapids Iowa KCRG TV
-http://vip.fr3tv.com:25443/live/xxx/141721.ts
-#EXTINF:-1,|US| ABC 9 Charlotte North Carolina WSOC TV
-http://vip.fr3tv.com:25443/live/xxx/141724.ts
-#EXTINF:-1,|US| ABC 9 Kansas City Missouri KMBC TV
-http://vip.fr3tv.com:25443/live/xxx/141744.ts
-#EXTINF:-1,|US| ABC 9 Manchester New Hampshire WMUR TV
-http://vip.fr3tv.com:25443/live/xxx/141751.ts
-#EXTINF:-1,|US| ABC 9 Syracuse New York WSYR TV
-http://vip.fr3tv.com:25443/live/xxx/141777.ts
-#EXTINF:-1,|US| ABC 9 Tucson Arizona KGUN TV
-http://vip.fr3tv.com:25443/live/xxx/141779.ts
-#EXTINF:-1,|US| ABC 9 Tulsa Oklahoma KTUL TV
-http://vip.fr3tv.com:25443/live/xxx/141780.ts
-#EXTINF:-1,|US| ABC 10 Fayetteville Arkansas KHOG TV
-http://vip.fr3tv.com:25443/live/xxx/141735.ts
-#EXTINF:-1,|US| ABC 10 Miami Florida WPLG TV
-http://vip.fr3tv.com:25443/live/xxx/141752.ts
-#EXTINF:-1,|US| ABC 10 Sacramento California KXTV TV
-http://vip.fr3tv.com:25443/live/xxx/141767.ts
-#EXTINF:-1,|US| ABC 10 San Diego California KGTV TV
-http://vip.fr3tv.com:25443/live/xxx/141771.ts
-#EXTINF:-1,|US| ABC 11 Durham North Carolina WTVD TV
-http://vip.fr3tv.com:25443/live/xxx/141732.ts
-#EXTINF:-1,|US| ABC 12 Milwaukee Wisconsin WISN TV
-http://vip.fr3tv.com:25443/live/xxx/141753.ts
-#EXTINF:-1,|US| ABC 12 San Antonio Texas KSAT TV
-http://vip.fr3tv.com:25443/live/xxx/141770.ts
-#EXTINF:-1,|US| ABC 13 Hampton Virginia WVEC TV
-http://vip.fr3tv.com:25443/live/xxx/141740.ts
-#EXTINF:-1,|US| ABC 13 Houston Texas KTRK TV
-http://vip.fr3tv.com:25443/live/xxx/141742.ts
-#EXTINF:-1,|US| ABC 13 Las Vegas Nevada KTNV TV
-http://vip.fr3tv.com:25443/live/xxx/141746.ts
-#EXTINF:-1,|US| ABC 13 Toledo Ohio WTVG TV
-http://vip.fr3tv.com:25443/live/xxx/141778.ts
-#EXTINF:-1,|US| ABC 15 Phoenix Arizona KNXV TV
-http://vip.fr3tv.com:25443/live/xxx/141763.ts
-#EXTINF:-1,|US| ABC 20 Gainesville Florida WCJB TV
-http://vip.fr3tv.com:25443/live/xxx/141738.ts
-#EXTINF:-1,|US| ABC 22 Dayton Ohio WKEF TV
-http://vip.fr3tv.com:25443/live/xxx/141729.ts
-#EXTINF:-1,|US| ABC 23 Bakersfield California KERO TV
-http://vip.fr3tv.com:25443/live/xxx/141714.ts
-#EXTINF:-1,|US| ABC 25 Orange Park Florida WJXX
-http://vip.fr3tv.com:25443/live/xxx/141760.ts
-#EXTINF:-1,|US| ABC 27 Madison Wisconsin WKOW TV
-http://vip.fr3tv.com:25443/live/xxx/141750.ts
-#EXTINF:-1,|US| ABC 30 Fresno California KFSN TV
-http://vip.fr3tv.com:25443/live/xxx/141737.ts
-#EXTINF:-1,|US| ABC 30 St Louis Missouri KDNL TV
-http://vip.fr3tv.com:25443/live/xxx/141776.ts
-#EXTINF:-1,|US| ABC 32 Montgomery Alabama WNCF TV
-http://vip.fr3tv.com:25443/live/xxx/141754.ts
-#EXTINF:-1,|US| ABC 33 Springfield Missouri KSPR TV
-http://vip.fr3tv.com:25443/live/xxx/141775.ts
-#EXTINF:-1,|US| ABC 33/40 Birmingham Alabama WBMA LD
-http://vip.fr3tv.com:25443/live/xxx/141718.ts
-#EXTINF:-1,|US| ABC 36 Lexington Kentucky WTVQ TV
-http://vip.fr3tv.com:25443/live/xxx/141747.ts
-#EXTINF:-1,|US| ABC 40/29 Fort Smith Arkansas KHBS TV
-http://vip.fr3tv.com:25443/live/xxx/141736.ts
-#EXTINF:-1,|US| ABC 45 Greensboro North Carolina WXLV TV
-http://vip.fr3tv.com:25443/live/xxx/141739.ts
-#EXTINF:-1,|US| CBS 11 Anchorage Alaska KTVA TV
-http://vip.fr3tv.com:25443/live/xxx/141371.ts
-#EXTINF:-1,|US| CBS 46 Atlanta Georgia WGCL TV
-http://vip.fr3tv.com:25443/live/xxx/141372.ts
-#EXTINF:-1,|US| CBS 42 Birmingham Alabama WIAT TV
-http://vip.fr3tv.com:25443/live/xxx/141373.ts
-#EXTINF:-1,|US| CBS 4 Boston Massachusetts WBZ TV
-http://vip.fr3tv.com:25443/live/xxx/141374.ts
-#EXTINF:-1,|US| CBS 2 Cedar Rapids Iowa KGAN TV
-http://vip.fr3tv.com:25443/live/xxx/141375.ts
-#EXTINF:-1,|US| CBS 3 Champaign Illinois WCIA TV
-http://vip.fr3tv.com:25443/live/xxx/141376.ts
-#EXTINF:-1,|US| CBS Charlottesville Virginia WCAV TV
-http://vip.fr3tv.com:25443/live/xxx/141377.ts
-#EXTINF:-1,|US| CBS 2 Chicago Illinois WBBM TV
-http://vip.fr3tv.com:25443/live/xxx/141378.ts
-#EXTINF:-1,|US| CBS 12 Cincinnati Ohio WKRC TV
-http://vip.fr3tv.com:25443/live/xxx/141379.ts
-#EXTINF:-1,|US| CBS 19 Cleveland Ohio WOIO TV
-http://vip.fr3tv.com:25443/live/xxx/141380.ts
-#EXTINF:-1,|US| CBS 11 Colorado Springs Colorado KKTV TV
-http://vip.fr3tv.com:25443/live/xxx/141381.ts
-#EXTINF:-1,|US| CBS Columbus Mississippi WCBI TV
-http://vip.fr3tv.com:25443/live/xxx/141382.ts
-#EXTINF:-1,|US| CBS 10 Columbus Ohio WBNS TV
-http://vip.fr3tv.com:25443/live/xxx/141383.ts
-#EXTINF:-1,|US| CBS 7 Dayton Ohio WHIO TV
-http://vip.fr3tv.com:25443/live/xxx/141384.ts
-#EXTINF:-1,|US| CBS 62 Detroit Michigan WWJ TV
-http://vip.fr3tv.com:25443/live/xxx/141385.ts
-#EXTINF:-1,|US| CBS 4 El Paso Texas KDBC TV
-http://vip.fr3tv.com:25443/live/xxx/141386.ts
-#EXTINF:-1,|US| CBS 13 Eugene Oregon KVAL TV
-http://vip.fr3tv.com:25443/live/xxx/141387.ts
-#EXTINF:-1,|US| CBS 44 Evansville Indiana WEVV TV
-http://vip.fr3tv.com:25443/live/xxx/141388.ts
-#EXTINF:-1,|US| CBS 30 Fargo KXJB LD
-http://vip.fr3tv.com:25443/live/xxx/141389.ts
-#EXTINF:-1,|US| CBS 11 Fort Myers Florida WINK TV
-http://vip.fr3tv.com:25443/live/xxx/141390.ts
-#EXTINF:-1,|US| CBS 11 Fort Worth Texas KTVT TV
-http://vip.fr3tv.com:25443/live/xxx/141391.ts
-#EXTINF:-1,|US| CBS 17 Goldsboro North Carolina WNCN
-http://vip.fr3tv.com:25443/live/xxx/141392.ts
-#EXTINF:-1,|US| CBS 2 Greensboro North Carolina WFMY TV
-http://vip.fr3tv.com:25443/live/xxx/141393.ts
-#EXTINF:-1,|US| CBS 4 Harlingen Texas KGBT TV
-http://vip.fr3tv.com:25443/live/xxx/141394.ts
-#EXTINF:-1,|US| CBS 3 Hartford Connecticut WFSB TV
-http://vip.fr3tv.com:25443/live/xxx/141395.ts
-#EXTINF:-1,|US| CBS 9 Honolulu Hawaii KGMB TV
-http://vip.fr3tv.com:25443/live/xxx/141396.ts
-#EXTINF:-1,|US| CBS 11 Houston Texas KHOU TV
-http://vip.fr3tv.com:25443/live/xxx/141397.ts
-#EXTINF:-1,|US| CBS 47 Jacksonville Florida WJAX TV
-http://vip.fr3tv.com:25443/live/xxx/141398.ts
-#EXTINF:-1,|US| CBS Kalamazoo Michigan WWMT TV
-http://vip.fr3tv.com:25443/live/xxx/141399.ts
-#EXTINF:-1,|US| CBS 5 Kansas City Missouri KCTV TV
-http://vip.fr3tv.com:25443/live/xxx/141400.ts
-#EXTINF:-1,|US| CBS 8 Knoxville Tennessee WVLT TV
-http://vip.fr3tv.com:25443/live/xxx/141401.ts
-#EXTINF:-1,|US| CBS 27 Lexington Kentucky WKYT TV
-http://vip.fr3tv.com:25443/live/xxx/141402.ts
-#EXTINF:-1,|US| CBS 2 Los Angeles California KCBS TV
-http://vip.fr3tv.com:25443/live/xxx/141403.ts
-#EXTINF:-1,|US| CBS 13 Macon Georgia WMAZ TV
-http://vip.fr3tv.com:25443/live/xxx/141404.ts
-#EXTINF:-1,|US| CBS 4 Miami Florida WFOR TV
-http://vip.fr3tv.com:25443/live/xxx/141405.ts
-#EXTINF:-1,|US| CBS Milwaukee Wisconsin WDJT TV
-http://vip.fr3tv.com:25443/live/xxx/141406.ts
-#EXTINF:-1,|US| CBS 4 Minneapolis Minnesota WCCO TV
-http://vip.fr3tv.com:25443/live/xxx/141407.ts
-#EXTINF:-1,|US| CBS 5 Mobile Alabama WKRG TV
-http://vip.fr3tv.com:25443/live/xxx/141408.ts
-#EXTINF:-1,|US| CBS 19 Nacogdoches Texas KYTX TV
-http://vip.fr3tv.com:25443/live/xxx/141409.ts
-#EXTINF:-1,|US| CBS 5 Nashville Tennessee WTVF TV
-http://vip.fr3tv.com:25443/live/xxx/141410.ts
-#EXTINF:-1,|US| CBS 4 New Orleans Louisiana WWL TV
-http://vip.fr3tv.com:25443/live/xxx/141411.ts
-#EXTINF:-1,|US| CBS 2 New York WCBS TV
-http://vip.fr3tv.com:25443/live/xxx/141412.ts
-#EXTINF:-1,|US| CBS 3 Omaha Nebraska KMTV TV
-http://vip.fr3tv.com:25443/live/xxx/141418.ts
-#EXTINF:-1,|US| CBS 6 Orlando Florida WKMG TV
-http://vip.fr3tv.com:25443/live/xxx/141419.ts
-#EXTINF:-1,|US| CBS 3 Philadelphia Pennsylvania KYW TV
-http://vip.fr3tv.com:25443/live/xxx/141420.ts
-#EXTINF:-1,|US| CBS 5 Phoenix Arizona KPHO TV
-http://vip.fr3tv.com:25443/live/xxx/141421.ts
-#EXTINF:-1,|US| CBS 2 Pittsburgh Pennsylvania KDKA TV
-http://vip.fr3tv.com:25443/live/xxx/141422.ts
-#EXTINF:-1,|US| CBS 13 Portland Maine WGME TV
-http://vip.fr3tv.com:25443/live/xxx/141423.ts
-#EXTINF:-1,|US| CBS 12 Providence Rhode Island WPRI TV
-http://vip.fr3tv.com:25443/live/xxx/141424.ts
-#EXTINF:-1,|US| CBS Reality
-http://vip.fr3tv.com:25443/live/xxx/141425.ts
-#EXTINF:-1,|US| CBS 2 Reno Nevada KTVN
-http://vip.fr3tv.com:25443/live/xxx/141426.ts
-#EXTINF:-1,|US| CBS 8 Rochester New York WROC TV
-http://vip.fr3tv.com:25443/live/xxx/141427.ts
-#EXTINF:-1,|US| CBS 13 Sacramento California KMAX TV
-http://vip.fr3tv.com:25443/live/xxx/141428.ts
-#EXTINF:-1,|US| CBS San Antonio Texas KENS TV
-http://vip.fr3tv.com:25443/live/xxx/141429.ts
-#EXTINF:-1,|US| CBS 8 San Diego California KFMB TV
-http://vip.fr3tv.com:25443/live/xxx/141430.ts
-#EXTINF:-1,|US| CBS 5 San Francisco California KPIX TV
-http://vip.fr3tv.com:25443/live/xxx/141431.ts
-#EXTINF:-1,|US| CBS 11 Savannah Georgia WTOC TV
-http://vip.fr3tv.com:25443/live/xxx/141432.ts
-#EXTINF:-1,|US| CBS 6 Schenectady New York WRGB TV
-http://vip.fr3tv.com:25443/live/xxx/141433.ts
-#EXTINF:-1,|US| CBS 7 Seattle Washington KIRO TV
-http://vip.fr3tv.com:25443/live/xxx/141434.ts
-#EXTINF:-1,|US| CBS 14 Sioux City Iowa KMEG TV
-http://vip.fr3tv.com:25443/live/xxx/141435.ts
-#EXTINF:-1,|US| CBS 22 South Bend Indiana WSBT TV
-http://vip.fr3tv.com:25443/live/xxx/141436.ts
-#EXTINF:-1,|US| CBS 4 St Louis Missouri KMOV TV
-http://vip.fr3tv.com:25443/live/xxx/141438.ts
-#EXTINF:-1,|US| CBS 13 Stockton California KOVR TV
-http://vip.fr3tv.com:25443/live/xxx/141439.ts
-#EXTINF:-1,|US| CBS 5 Syracuse New York WTVH TV
-http://vip.fr3tv.com:25443/live/xxx/141440.ts
-#EXTINF:-1,|US| CBS 10 Waco Texas KWTX TV
-http://vip.fr3tv.com:25443/live/xxx/141441.ts
-#EXTINF:-1,|US| CBS 9 Washington WUSA
-http://vip.fr3tv.com:25443/live/xxx/141442.ts
-#EXTINF:-1,|US| CBSN DALAS
-http://vip.fr3tv.com:25443/live/xxx/141443.ts
-#EXTINF:-1,|US| CBSN Los Angeles
-http://vip.fr3tv.com:25443/live/xxx/141527.ts
-#EXTINF:-1,|US| CBS 2 Chicago WBBM
-http://vip.fr3tv.com:25443/live/xxx/141553.ts
-#EXTINF:-1,|US| CBS 3 Charllote WBTV
-http://vip.fr3tv.com:25443/live/xxx/141570.ts
-#EXTINF:-1,|US| NBC 4 NY
-http://vip.fr3tv.com:25443/live/xxx/141451.ts
-#EXTINF:-1,|US| NBC 4 Tucson KVOA TV
-http://vip.fr3tv.com:25443/live/xxx/142072.ts
-#EXTINF:-1,|US| NBC 5 Fort Worth Texas KXAS TV
-http://vip.fr3tv.com:25443/live/xxx/142073.ts
-#EXTINF:-1,|US| NBC 26 Green Bay Wisconsin WGBA TV
-http://vip.fr3tv.com:25443/live/xxx/142074.ts
-#EXTINF:-1,|US| NBC Albany Georgia WALB TV
-http://vip.fr3tv.com:25443/live/xxx/142075.ts
-#EXTINF:-1,|US| NBC Albany New York WNYT TV
-http://vip.fr3tv.com:25443/live/xxx/142076.ts
-#EXTINF:-1,|US| NBC Albuquerque New Mexico KOB TV
-http://vip.fr3tv.com:25443/live/xxx/142077.ts
-#EXTINF:-1,|US| NBC Alexandria Louisiana KALB TV
-http://vip.fr3tv.com:25443/live/xxx/142078.ts
-#EXTINF:-1,|US| NBC Amarillo Texas KAMR TV
-http://vip.fr3tv.com:25443/live/xxx/142079.ts
-#EXTINF:-1,|US| NBC Anchorage Alaska KTUU TV
-http://vip.fr3tv.com:25443/live/xxx/142080.ts
-#EXTINF:-1,|US| NBC Atlanta Georgia WXIA TV
-http://vip.fr3tv.com:25443/live/xxx/142081.ts
-#EXTINF:-1,|US| NBC Augusta Georgia WAGT CD
-http://vip.fr3tv.com:25443/live/xxx/142082.ts
-#EXTINF:-1,|US| NBC Austin Texas KXAN TV
-http://vip.fr3tv.com:25443/live/xxx/142083.ts
-#EXTINF:-1,|US| NBC Baltimore Maryland WBAL TV
-http://vip.fr3tv.com:25443/live/xxx/142084.ts
-#EXTINF:-1,|US| NBC Bangor Maine WLBZ
-http://vip.fr3tv.com:25443/live/xxx/142085.ts
-#EXTINF:-1,|US| NBC Baton Rouge Louisiana WVLA TV
-http://vip.fr3tv.com:25443/live/xxx/142086.ts
-#EXTINF:-1,|US| NBC Bend Oregon KTVZ
-http://vip.fr3tv.com:25443/live/xxx/142087.ts
-#EXTINF:-1,|US| NBC Binghamton New York WBGH CA
-http://vip.fr3tv.com:25443/live/xxx/142088.ts
-#EXTINF:-1,|US| NBC Birmingham Alabama WVTM TV
-http://vip.fr3tv.com:25443/live/xxx/142089.ts
-#EXTINF:-1,|US| NBC Boise Idaho KTVB TV
-http://vip.fr3tv.com:25443/live/xxx/142090.ts
-#EXTINF:-1,|US| NBC Bowling Green Kentucky WNKY
-http://vip.fr3tv.com:25443/live/xxx/142091.ts
-#EXTINF:-1,|US| NBC Brownsville Texas KVEO TV
-http://vip.fr3tv.com:25443/live/xxx/142092.ts
-#EXTINF:-1,|US| NBC Buffalo New York WGRZ TV
-http://vip.fr3tv.com:25443/live/xxx/142093.ts
-#EXTINF:-1,|US| NBC Charleston South Carolina WCBD TV
-http://vip.fr3tv.com:25443/live/xxx/142094.ts
-#EXTINF:-1,|US| NBC Charlotte North Carolina WCNC TV
-http://vip.fr3tv.com:25443/live/xxx/142095.ts
-#EXTINF:-1,|US| NBC Charlottesville Virginia WVIR TV
-http://vip.fr3tv.com:25443/live/xxx/142096.ts
-#EXTINF:-1,|US| NBC Chattanooga Tennessee WRCB TV
-http://vip.fr3tv.com:25443/live/xxx/142097.ts
-#EXTINF:-1,|US| NBC Cheyenne Wyoming KCHY LP
-http://vip.fr3tv.com:25443/live/xxx/142098.ts
-#EXTINF:-1,|US| NBC Chicago Illinois WMAQ TV
-http://vip.fr3tv.com:25443/live/xxx/142099.ts
-#EXTINF:-1,|US| NBC Cincinnati Ohio WLWT TV
-http://vip.fr3tv.com:25443/live/xxx/142100.ts
-#EXTINF:-1,|US| NBC Cleveland Ohio WKYC TV
-http://vip.fr3tv.com:25443/live/xxx/142101.ts
-#EXTINF:-1,|US| NBC Columbia Missouri KOMU TV
-http://vip.fr3tv.com:25443/live/xxx/142102.ts
-#EXTINF:-1,|US| NBC Columbus Georgia WLTZ
-http://vip.fr3tv.com:25443/live/xxx/142103.ts
-#EXTINF:-1,|US| NBC Columbus Ohio WCMH TV
-http://vip.fr3tv.com:25443/live/xxx/142104.ts
-#EXTINF:-1,|US| NBC Corpus Christi Texas KRIS TV
-http://vip.fr3tv.com:25443/live/xxx/142105.ts
-#EXTINF:-1,|US| NBC Davenport Iowa KWQC TV
-http://vip.fr3tv.com:25443/live/xxx/142106.ts
-#EXTINF:-1,|US| NBC Dayton Ohio WDTN TV
-http://vip.fr3tv.com:25443/live/xxx/142107.ts
-#EXTINF:-1,|US| NBC Daytona Beach Florida WESH TV
-http://vip.fr3tv.com:25443/live/xxx/142108.ts
-#EXTINF:-1,|US| NBC Decatur Illinois WAND
-http://vip.fr3tv.com:25443/live/xxx/142109.ts
-#EXTINF:-1,|US| NBC Denver Colorado KUSA TV
-http://vip.fr3tv.com:25443/live/xxx/142110.ts
-#EXTINF:-1,|US| NBC Detroit Michigan WDIV TV
-http://vip.fr3tv.com:25443/live/xxx/142111.ts
-#EXTINF:-1,|US| NBC Eugene Oregon KMTR TV
-http://vip.fr3tv.com:25443/live/xxx/142112.ts
-#EXTINF:-1,|US| NBC Fairbanks Alaska KTVF TV
-http://vip.fr3tv.com:25443/live/xxx/142113.ts
-#EXTINF:-1,|US| NBC Fargo North Dakota KVLY TV
-http://vip.fr3tv.com:25443/live/xxx/142114.ts
-#EXTINF:-1,|US| NBC Fort Myers Florida WBBH TV
-http://vip.fr3tv.com:25443/live/xxx/142115.ts
-#EXTINF:-1,|US| NBC Fort Wayne Indiana WPTA DT 2
-http://vip.fr3tv.com:25443/live/xxx/142116.ts
-#EXTINF:-1,|US| NBC Grand Rapids Michigan WOOD TV
-http://vip.fr3tv.com:25443/live/xxx/142117.ts
-#EXTINF:-1,|US| NBC Great Falls Montana KTGF LD
-http://vip.fr3tv.com:25443/live/xxx/142118.ts
-#EXTINF:-1,|US| NBC Greensboro North Carolina WXII TV
-http://vip.fr3tv.com:25443/live/xxx/142119.ts
-#EXTINF:-1,|US| NBC Hartford Connecticut WVIT TV
-http://vip.fr3tv.com:25443/live/xxx/142120.ts
-#EXTINF:-1,|US| NBC Honolulu Hawaii KHNL TV
-http://vip.fr3tv.com:25443/live/xxx/142121.ts
-#EXTINF:-1,|US| NBC Houston Texas KPRC TV
-http://vip.fr3tv.com:25443/live/xxx/142122.ts
-#EXTINF:-1,|US| NBC Indianapolis Indiana WTHR TV
-http://vip.fr3tv.com:25443/live/xxx/142123.ts
-#EXTINF:-1,|US| NBC Jacksonville Florida WTLV TV
-http://vip.fr3tv.com:25443/live/xxx/142124.ts
-#EXTINF:-1,|US| NBC Johnstown Pennsylvania WJAC TV
-http://vip.fr3tv.com:25443/live/xxx/142125.ts
-#EXTINF:-1,|US| NBC Knoxville Tennessee WBIR TV
-http://vip.fr3tv.com:25443/live/xxx/142126.ts
-#EXTINF:-1,|US| NBC Lake Charles Louisiana KPLC
-http://vip.fr3tv.com:25443/live/xxx/142127.ts
-#EXTINF:-1,|US| NBC Laredo KGNS TV
-http://vip.fr3tv.com:25443/live/xxx/142128.ts
-#EXTINF:-1,|US| NBC Laurel Mississippi WDAM TV
-http://vip.fr3tv.com:25443/live/xxx/142129.ts
-#EXTINF:-1,|US| NBC Lexington Kentucky WLEX TV
-http://vip.fr3tv.com:25443/live/xxx/142130.ts
-#EXTINF:-1,|US| NBC Little Rock Arkansas KARK TV
-http://vip.fr3tv.com:25443/live/xxx/142131.ts
-#EXTINF:-1,|US| NBC Los Angeles California KNBC TV
-http://vip.fr3tv.com:25443/live/xxx/142132.ts
-#EXTINF:-1,|US| NBC Louisville Kentucky WAVE TV
-http://vip.fr3tv.com:25443/live/xxx/142133.ts
-#EXTINF:-1,|US| NBC Madison Wisconsin WMTV TV
-http://vip.fr3tv.com:25443/live/xxx/142134.ts
-#EXTINF:-1,|US| NBC Medford Oregon KOBI TV
-http://vip.fr3tv.com:25443/live/xxx/142135.ts
-#EXTINF:-1,|US| NBC Memphis Tennessee WMC TV
-http://vip.fr3tv.com:25443/live/xxx/142136.ts
-#EXTINF:-1,|US| NBC Meridian Mississippi WGBC DT 2
-http://vip.fr3tv.com:25443/live/xxx/142137.ts
-#EXTINF:-1,|US| NBC Mesa Arizona KPNX TV
-http://vip.fr3tv.com:25443/live/xxx/142138.ts
-#EXTINF:-1,|US| NBC Miami Florida WTVJ TV
-http://vip.fr3tv.com:25443/live/xxx/142139.ts
-#EXTINF:-1,|US| NBC Milwaukee Wisconsin WTMJ TV
-http://vip.fr3tv.com:25443/live/xxx/142140.ts
-#EXTINF:-1,|US| NBC Minneapolis Minnesota KARE TV
-http://vip.fr3tv.com:25443/live/xxx/142141.ts
-#EXTINF:-1,|US| NBC Mobile Alabama WPMI TV
-http://vip.fr3tv.com:25443/live/xxx/142142.ts
-#EXTINF:-1,|US| NBC Montgomery Alabama WSFA TV
-http://vip.fr3tv.com:25443/live/xxx/142143.ts
-#EXTINF:-1,|US| NBC Nashville Tennessee WSMV TV
-http://vip.fr3tv.com:25443/live/xxx/142144.ts
-#EXTINF:-1,|US| NBC New Orleans Louisiana WDSU TV
-http://vip.fr3tv.com:25443/live/xxx/142145.ts
-#EXTINF:-1,|US| NBC New York WNBC TV
-http://vip.fr3tv.com:25443/live/xxx/142146.ts
-#EXTINF:-1,|US| NBC Peoria Illinois WEEK TV
-http://vip.fr3tv.com:25443/live/xxx/142148.ts
-#EXTINF:-1,|US| NBC Philadelphia Pennsylvania WCAU TV
-http://vip.fr3tv.com:25443/live/xxx/142149.ts
-#EXTINF:-1,|US| NBC Pittsburgh Pennsylvania WPXI TV
-http://vip.fr3tv.com:25443/live/xxx/142150.ts
-#EXTINF:-1,|US| NBC Portland Maine WCSH TV
-http://vip.fr3tv.com:25443/live/xxx/142151.ts
-#EXTINF:-1,|US| NBC Portland Oregon KGW TV
-http://vip.fr3tv.com:25443/live/xxx/142152.ts
-#EXTINF:-1,|US| NBC Providence Rhode Island WJAR TV
-http://vip.fr3tv.com:25443/live/xxx/142153.ts
-#EXTINF:-1,|US| NBC Rapid City South Dakota KNBN TV
-http://vip.fr3tv.com:25443/live/xxx/142154.ts
-#EXTINF:-1,|US| NBC Rochester New York WHEC TV
-http://vip.fr3tv.com:25443/live/xxx/142155.ts
-#EXTINF:-1,|US| NBC Rockford Illinois WREX TV
-http://vip.fr3tv.com:25443/live/xxx/142156.ts
-#EXTINF:-1,|US| NBC Salt Lake City Utah KSL TV
-http://vip.fr3tv.com:25443/live/xxx/142157.ts
-#EXTINF:-1,|US| NBC San Angelo Texas KSAN TV
-http://vip.fr3tv.com:25443/live/xxx/142158.ts
-#EXTINF:-1,|US| NBC San Jose California KNTV TV
-http://vip.fr3tv.com:25443/live/xxx/142159.ts
-#EXTINF:-1,|US| NBC San Luis Obispo KSBY
-http://vip.fr3tv.com:25443/live/xxx/142160.ts
-#EXTINF:-1,|US| NBC Savannah Georgia WSAV TV
-http://vip.fr3tv.com:25443/live/xxx/142161.ts
-#EXTINF:-1,|US| NBC Sioux Falls South Dakota KDLT TV
-http://vip.fr3tv.com:25443/live/xxx/142162.ts
-#EXTINF:-1,|US| NBC South Bend Indiana WNDU TV
-http://vip.fr3tv.com:25443/live/xxx/142163.ts
-#EXTINF:-1,|US| NBC Springfield Massachusetts WWLP
-http://vip.fr3tv.com:25443/live/xxx/142171.ts
-#EXTINF:-1,|US| NBC St Louis Missouri KSDK TV
-http://vip.fr3tv.com:25443/live/xxx/142172.ts
-#EXTINF:-1,|US| NBC Steubenville Ohio WTOV TV
-http://vip.fr3tv.com:25443/live/xxx/142173.ts
-#EXTINF:-1,|US| NBC Superior Nebraska KSNB TV
-http://vip.fr3tv.com:25443/live/xxx/142174.ts
-#EXTINF:-1,|US| NBC Tampa Florida WFLA TV
-http://vip.fr3tv.com:25443/live/xxx/142175.ts
-#EXTINF:-1,|US| NBC Tulsa Oklahoma KJRH TV
-http://vip.fr3tv.com:25443/live/xxx/142176.ts
-#EXTINF:-1,|US| NBC Washington District of Columbia WRC TV
-http://vip.fr3tv.com:25443/live/xxx/142177.ts
-#EXTINF:-1,|US| NBC West Palm Beach Florida WPTV TV
-http://vip.fr3tv.com:25443/live/xxx/142178.ts
-#EXTINF:-1,|US| NBC Wilkes Barre Pennsylvania WBRE TV
-http://vip.fr3tv.com:25443/live/xxx/142179.ts
-#EXTINF:-1,|US| NBC Yakima Washington KNDO TV
-http://vip.fr3tv.com:25443/live/xxx/142180.ts
-#EXTINF:-1,|US| NBC Youngstown Ohio WFMJ TV
-http://vip.fr3tv.com:25443/live/xxx/142181.ts
-#EXTINF:-1,|US| NBC Zanesville Ohio WHIZ TV
-http://vip.fr3tv.com:25443/live/xxx/142182.ts
-#EXTINF:-1,|US| Fox 33 Shreveport Louisiana KMSS TV
-http://vip.fr3tv.com:25443/live/xxx/141861.ts
-#EXTINF:-1,|US| Fox Albany Georgia WFXL TV
-http://vip.fr3tv.com:25443/live/xxx/141862.ts
-#EXTINF:-1,|US| Fox Albany New York WXXA TV
-http://vip.fr3tv.com:25443/live/xxx/141863.ts
-#EXTINF:-1,|US| Fox Atlanta Georgia WAGA TV
-http://vip.fr3tv.com:25443/live/xxx/141864.ts
-#EXTINF:-1,|US| Fox Augusta Georgia WFXG TV
-http://vip.fr3tv.com:25443/live/xxx/141865.ts
-#EXTINF:-1,|US| Fox Austin Texas KTBC TV
-http://vip.fr3tv.com:25443/live/xxx/141866.ts
-#EXTINF:-1,|US| Fox Bakersfield California KBFX CD
-http://vip.fr3tv.com:25443/live/xxx/141867.ts
-#EXTINF:-1,|US| Fox Baltimore Maryland WBFF
-http://vip.fr3tv.com:25443/live/xxx/141868.ts
-#EXTINF:-1,|US| Fox Baton Rouge Louisiana WGMB TV
-http://vip.fr3tv.com:25443/live/xxx/141869.ts
-#EXTINF:-1,|US| Fox Belmont North Carolina WJZY TV
-http://vip.fr3tv.com:25443/live/xxx/141870.ts
-#EXTINF:-1,|US| Fox Birmingham Alabama WBRC TV
-http://vip.fr3tv.com:25443/live/xxx/141871.ts
-#EXTINF:-1,|US| Fox Bloomington Illinois WYZZ TV
-http://vip.fr3tv.com:25443/live/xxx/141872.ts
-#EXTINF:-1,|US| Fox Boston Massachusetts WFXT TV
-http://vip.fr3tv.com:25443/live/xxx/141873.ts
-#EXTINF:-1,|US| Fox Buffalo New York WUTV TV
-http://vip.fr3tv.com:25443/live/xxx/141874.ts
-#EXTINF:-1,|US| Fox Business
-http://vip.fr3tv.com:25443/live/xxx/141875.ts
-#EXTINF:-1,|US| Fox Caldwell Idaho KNIN TV
-http://vip.fr3tv.com:25443/live/xxx/141876.ts
-#EXTINF:-1,|US| Fox Cape Coral Florida WFTX TV
-http://vip.fr3tv.com:25443/live/xxx/141877.ts
-#EXTINF:-1,|US| Fox Cape Girardeau Missouri KBSI TV
-http://vip.fr3tv.com:25443/live/xxx/141878.ts
-#EXTINF:-1,|US| Fox Charleston South Carolina WTAT TV
-http://vip.fr3tv.com:25443/live/xxx/141879.ts
-#EXTINF:-1,|US| Fox Chattanooga Tennessee WTVC
-http://vip.fr3tv.com:25443/live/xxx/141880.ts
-#EXTINF:-1,|US| Fox Chicago Illinois WFLD TV
-http://vip.fr3tv.com:25443/live/xxx/141881.ts
-#EXTINF:-1,|US| Fox Cleveland Ohio WJW TV
-http://vip.fr3tv.com:25443/live/xxx/141882.ts
-#EXTINF:-1,|US| Fox Colorado Springs Colorado KXRM TV
-http://vip.fr3tv.com:25443/live/xxx/141885.ts
-#EXTINF:-1,|US| Fox Columbia South Carolina WACH TV
-http://vip.fr3tv.com:25443/live/xxx/141886.ts
-#EXTINF:-1,|US| Fox Columbus Georgia WXTX
-http://vip.fr3tv.com:25443/live/xxx/141887.ts
-#EXTINF:-1,|US| Fox Columbus Ohio WTTE TV
-http://vip.fr3tv.com:25443/live/xxx/141888.ts
-#EXTINF:-1,|US| Fox Corpus Christi Texas KSCC
-http://vip.fr3tv.com:25443/live/xxx/141889.ts
-#EXTINF:-1,|US| Fox Dallas Texas KDFW TV
-http://vip.fr3tv.com:25443/live/xxx/141890.ts
-#EXTINF:-1,|US| Fox Danville Kentucky WDKY TV
-http://vip.fr3tv.com:25443/live/xxx/141891.ts
-#EXTINF:-1,|US| Fox Davenport Iowa KLJB TV
-http://vip.fr3tv.com:25443/live/xxx/141892.ts
-#EXTINF:-1,|US| Fox Dayton Ohio WRGT TV
-http://vip.fr3tv.com:25443/live/xxx/141893.ts
-#EXTINF:-1,|US| Fox Denver Colorado KDVR TV
-http://vip.fr3tv.com:25443/live/xxx/141894.ts
-#EXTINF:-1,|US| Fox Deportes
-http://vip.fr3tv.com:25443/live/xxx/141895.ts
-#EXTINF:-1,|US| Fox Des Moines Iowa KDSM TV
-http://vip.fr3tv.com:25443/live/xxx/141896.ts
-#EXTINF:-1,|US| Fox Detroit Michigan WJBK TV
-http://vip.fr3tv.com:25443/live/xxx/141897.ts
-#EXTINF:-1,|US| Fox El Paso Texas KFOX TV
-http://vip.fr3tv.com:25443/live/xxx/141898.ts
-#EXTINF:-1,|US| Fox Eugene Oregon KLSR TV
-http://vip.fr3tv.com:25443/live/xxx/141899.ts
-#EXTINF:-1,|US| Fox Flint Michigan WSMH TV
-http://vip.fr3tv.com:25443/live/xxx/141900.ts
-#EXTINF:-1,|US| Fox Fort Wayne Indiana WFFT TV
-http://vip.fr3tv.com:25443/live/xxx/141901.ts
-#EXTINF:-1,|US| Fox Grand Rapids Michigan WXMI TV
-http://vip.fr3tv.com:25443/live/xxx/141902.ts
-#EXTINF:-1,|US| Fox Green Bay Wisconsin WLUK TV
-http://vip.fr3tv.com:25443/live/xxx/141903.ts
-#EXTINF:-1,|US| Fox Greenville North Carolina WYDO TV
-http://vip.fr3tv.com:25443/live/xxx/141904.ts
-#EXTINF:-1,|US| Fox Greenville Tennessee WEMT TV
-http://vip.fr3tv.com:25443/live/xxx/141905.ts
-#EXTINF:-1,|US| Fox Harlingen Texas KFXV
-http://vip.fr3tv.com:25443/live/xxx/141906.ts
-#EXTINF:-1,|US| Fox Hartford Connecticut WTIC TV
-http://vip.fr3tv.com:25443/live/xxx/141907.ts
-#EXTINF:-1,|US| Fox Honolulu Hawaii KHON TV
-http://vip.fr3tv.com:25443/live/xxx/141908.ts
-#EXTINF:-1,|US| Fox Houston Texas KRIV TV
-http://vip.fr3tv.com:25443/live/xxx/141909.ts
-#EXTINF:-1,|US| Fox Huntsville Alabama WZDX TV
-http://vip.fr3tv.com:25443/live/xxx/141910.ts
-#EXTINF:-1,|US| Fox Indianapolis Indiana WXIN TV
-http://vip.fr3tv.com:25443/live/xxx/141911.ts
-#EXTINF:-1,|US| Fox Jackson Mississippi WDBD TV
-http://vip.fr3tv.com:25443/live/xxx/141912.ts
-#EXTINF:-1,|US| Fox Jacksonville Florida WFOX TV
-http://vip.fr3tv.com:25443/live/xxx/141913.ts
-#EXTINF:-1,|US| Fox Johnstown Pennsylvania WWCP TV
-http://vip.fr3tv.com:25443/live/xxx/141914.ts
-#EXTINF:-1,|US| Fox Kansas City Missouri WDAF TV
-http://vip.fr3tv.com:25443/live/xxx/141915.ts
-#EXTINF:-1,|US| Fox Knoxville Tennessee WTNZ TV
-http://vip.fr3tv.com:25443/live/xxx/141916.ts
-#EXTINF:-1,|US| Fox Lansing Michigan WSYM TV
-http://vip.fr3tv.com:25443/live/xxx/141917.ts
-#EXTINF:-1,|US| Fox Las Vegas Nevada KVVU TV
-http://vip.fr3tv.com:25443/live/xxx/141918.ts
-#EXTINF:-1,|US| Fox Life
-http://vip.fr3tv.com:25443/live/xxx/141919.ts
-#EXTINF:-1,|US| Fox Lincoln Nebraska KFXL TV
-http://vip.fr3tv.com:25443/live/xxx/141920.ts
-#EXTINF:-1,|US| Fox Little Rock Arkansas KLRT TV
-http://vip.fr3tv.com:25443/live/xxx/141921.ts
-#EXTINF:-1,|US| Fox Longview Texas KFXK TV
-http://vip.fr3tv.com:25443/live/xxx/141922.ts
-#EXTINF:-1,|US| Fox Los Angeles California KTTV TV
-http://vip.fr3tv.com:25443/live/xxx/141923.ts
-#EXTINF:-1,|US| Fox Louisville Kentucky WDRB
-http://vip.fr3tv.com:25443/live/xxx/141924.ts
-#EXTINF:-1,|US| Fox Macon Georgia WGXA TV
-http://vip.fr3tv.com:25443/live/xxx/141925.ts
-#EXTINF:-1,|US| Fox Madison Wisconsin WMSN TV
-http://vip.fr3tv.com:25443/live/xxx/141926.ts
-#EXTINF:-1,|US| Fox Medford Oregon KMVU TV
-http://vip.fr3tv.com:25443/live/xxx/141927.ts
-#EXTINF:-1,|US| Fox Memphis Tennessee WHBQ TV
-http://vip.fr3tv.com:25443/live/xxx/141928.ts
-#EXTINF:-1,|US| Fox Miami Florida WSVN TV
-http://vip.fr3tv.com:25443/live/xxx/141929.ts
-#EXTINF:-1,|US| Fox Milwaukee Wisconsin WITI TV
-http://vip.fr3tv.com:25443/live/xxx/141930.ts
-#EXTINF:-1,|US| Fox Minneapolis Minnesota KMSP TV
-http://vip.fr3tv.com:25443/live/xxx/141931.ts
-#EXTINF:-1,|US| Fox Mobile Alabama WALA TV
-http://vip.fr3tv.com:25443/live/xxx/141932.ts
-#EXTINF:-1,|US| Fox Montgomery Alabama WCOV TV
-http://vip.fr3tv.com:25443/live/xxx/141933.ts
-#EXTINF:-1,|US| Fox Myrtle Beach South Carolina WFXB TV
-http://vip.fr3tv.com:25443/live/xxx/141934.ts
-#EXTINF:-1,|US| Fox Nashville Tennessee WZTV
-http://vip.fr3tv.com:25443/live/xxx/141935.ts
-#EXTINF:-1,|US| Fox Network
-http://vip.fr3tv.com:25443/live/xxx/141936.ts
-#EXTINF:-1,|US| Fox New Orleans Louisiana WVUE DT
-http://vip.fr3tv.com:25443/live/xxx/141937.ts
-#EXTINF:-1,|US| Fox New York New York WNYW TV
-http://vip.fr3tv.com:25443/live/xxx/141938.ts
-#EXTINF:-1,|US| Fox Newport Ohio WXIX TV
-http://vip.fr3tv.com:25443/live/xxx/141939.ts
-#EXTINF:-1,|US| Fox Ocala Florida WOGX TV
-http://vip.fr3tv.com:25443/live/xxx/141942.ts
-#EXTINF:-1,|US| Fox Oklahoma City Oklahoma KOKH TV
-http://vip.fr3tv.com:25443/live/xxx/141943.ts
-#EXTINF:-1,|US| Fox Orlando Florida WOFL TV
-http://vip.fr3tv.com:25443/live/xxx/141944.ts
-#EXTINF:-1,|US| Fox Ozark Alabama WDFX TV
-http://vip.fr3tv.com:25443/live/xxx/141945.ts
-#EXTINF:-1,|US| Fox Philadelphia Pennsylvania WTXF TV
-http://vip.fr3tv.com:25443/live/xxx/141946.ts
-#EXTINF:-1,|US| Fox Phoenix Arizona KSAZ TV
-http://vip.fr3tv.com:25443/live/xxx/141947.ts
-#EXTINF:-1,|US| Fox Pittsburgh Pennsylvania WPGH TV
-http://vip.fr3tv.com:25443/live/xxx/141948.ts
-#EXTINF:-1,|US| Fox Providence Rhode Island WNAC TV
-http://vip.fr3tv.com:25443/live/xxx/141949.ts
-#EXTINF:-1,|US| Fox Reno Nevada KRXI TV
-http://vip.fr3tv.com:25443/live/xxx/141950.ts
-#EXTINF:-1,|US| Fox Rochester New York WUHF TV
-http://vip.fr3tv.com:25443/live/xxx/141951.ts
-#EXTINF:-1,|US| Fox Sacramento California KTXL TV
-http://vip.fr3tv.com:25443/live/xxx/141952.ts
-#EXTINF:-1,|US| Fox Salinas California KCBA TV
-http://vip.fr3tv.com:25443/live/xxx/141953.ts
-#EXTINF:-1,|US| Fox Salt Lake City Utah KSTU TV
-http://vip.fr3tv.com:25443/live/xxx/141954.ts
-#EXTINF:-1,|US| Fox San Antonio Texas KABB TV
-http://vip.fr3tv.com:25443/live/xxx/141955.ts
-#EXTINF:-1,|US| Fox San Diego California KSWB TV
-http://vip.fr3tv.com:25443/live/xxx/141956.ts
-#EXTINF:-1,|US| Fox San Francisco California KTVU TV
-http://vip.fr3tv.com:25443/live/xxx/141957.ts
-#EXTINF:-1,|US| Fox San Luis Obispo California KKFX CD
-http://vip.fr3tv.com:25443/live/xxx/141958.ts
-#EXTINF:-1,|US| Fox Sioux Falls South Dakota KTTW TV
-http://vip.fr3tv.com:25443/live/xxx/141959.ts
-#EXTINF:-1,|US| Fox St Louis Missouri KTVI TV
-http://vip.fr3tv.com:25443/live/xxx/141963.ts
-#EXTINF:-1,|US| Fox Syracuse New York WSYT TV
-http://vip.fr3tv.com:25443/live/xxx/141964.ts
-#EXTINF:-1,|US| Fox Tampa Florida WTVT TV
-http://vip.fr3tv.com:25443/live/xxx/141965.ts
-#EXTINF:-1,|US| Fox Toledo Ohio WUPW TV
-http://vip.fr3tv.com:25443/live/xxx/141966.ts
-#EXTINF:-1,|US| Fox Tucson Arizona KMSB TV
-http://vip.fr3tv.com:25443/live/xxx/141967.ts
-#EXTINF:-1,|US| Fox Virginia Beach Virginia WVBT
-http://vip.fr3tv.com:25443/live/xxx/141968.ts
-#EXTINF:-1,|US| Fox Visalia California KMPH TV
-http://vip.fr3tv.com:25443/live/xxx/141969.ts
-#EXTINF:-1,|US| Fox Waco Texas KWKT TV
-http://vip.fr3tv.com:25443/live/xxx/141970.ts
-#EXTINF:-1,|US| Fox Washington District of Columbia WTTG TV
-http://vip.fr3tv.com:25443/live/xxx/141971.ts
-#EXTINF:-1,|US| Fox West Palm Beach Florida WFLX TV
-http://vip.fr3tv.com:25443/live/xxx/141972.ts
-#EXTINF:-1,|US| Fox Wichita Kansas KSAS TV
-http://vip.fr3tv.com:25443/live/xxx/141973.ts
-#EXTINF:-1,|US| Fox Winston Salem North Carolina WGHP
-http://vip.fr3tv.com:25443/live/xxx/141974.ts
-#EXTINF:-1,|US| Fox Yakima Washington KCYU LD
-http://vip.fr3tv.com:25443/live/xxx/141975.ts
-#EXTINF:-1,|US| Fox Youngstown Ohio WYFX LD
-http://vip.fr3tv.com:25443/live/xxx/141976.ts
-#EXTINF:-1,|US| FoxNet
-http://vip.fr3tv.com:25443/live/xxx/141977.ts
-#EXTINF:-1,|US| CW 50 Detroit Michigan WKBD TV
-http://vip.fr3tv.com:25443/live/xxx/141832.ts
-#EXTINF:-1,|US| CW Atlanta Georgia WUPA TV
-http://vip.fr3tv.com:25443/live/xxx/141833.ts
-#EXTINF:-1,|US| CW Baltimore Maryland WNUV TV
-http://vip.fr3tv.com:25443/live/xxx/141834.ts
-#EXTINF:-1,|US| CW Charlotte North Carolina WCCB TV
-http://vip.fr3tv.com:25443/live/xxx/141835.ts
-#EXTINF:-1,|US| CW Homewood Alabama WTTO TV
-http://vip.fr3tv.com:25443/live/xxx/141836.ts
-#EXTINF:-1,|US| CW Las Vegas Nevada KVCW TV
-http://vip.fr3tv.com:25443/live/xxx/141837.ts
-#EXTINF:-1,|US| CW Los Angeles California KTLA TV
-http://vip.fr3tv.com:25443/live/xxx/141838.ts
-#EXTINF:-1,|US| CW Milwaukee Wisconsin WVTV TV
-http://vip.fr3tv.com:25443/live/xxx/141839.ts
-#EXTINF:-1,|US| CW Minneapolis Minnesota WUCW TV
-http://vip.fr3tv.com:25443/live/xxx/141840.ts
-#EXTINF:-1,|US| CW Nashville Tennessee WNAB TV
-http://vip.fr3tv.com:25443/live/xxx/141841.ts
-#EXTINF:-1,|US| CW New York New York WPIX TV
-http://vip.fr3tv.com:25443/live/xxx/141842.ts
-#EXTINF:-1,|US| CW Oklahoma City KOCB TV
-http://vip.fr3tv.com:25443/live/xxx/141843.ts
-#EXTINF:-1,|US| CW Philadelphia Pennsylvania WPSG TV
-http://vip.fr3tv.com:25443/live/xxx/141844.ts
-#EXTINF:-1,|US| CW Philly 57
-http://vip.fr3tv.com:25443/live/xxx/141845.ts
-#EXTINF:-1,|US| CW Raleigh North Carolina WLFL TV
-http://vip.fr3tv.com:25443/live/xxx/141846.ts
-#EXTINF:-1,|US| CW Seattle Washington KSTW TV
-http://vip.fr3tv.com:25443/live/xxx/141847.ts
-#EXTINF:-1,|US| CW St Petersburg Florida WTOG TV
-http://vip.fr3tv.com:25443/live/xxx/141848.ts
-#EXTINF:-1,|US| My Boston Massachusetts WSBK TV
-http://vip.fr3tv.com:25443/live/xxx/142054.ts
-#EXTINF:-1,|US| My Secaucus New Jersey WWOR TV
-http://vip.fr3tv.com:25443/live/xxx/142065.ts
-#EXTINF:-1,|US| My Paducah Kentucky WDKA TV
-http://vip.fr3tv.com:25443/live/xxx/142064.ts
-#EXTINF:-1,|US| My Nashville Tennessee WUXP TV
-http://vip.fr3tv.com:25443/live/xxx/142063.ts
-#EXTINF:-1,|US| My Miami Florida WBFS TV
-http://vip.fr3tv.com:25443/live/xxx/142062.ts
-#EXTINF:-1,|US| My Buffalo New York WNYO TV
-http://vip.fr3tv.com:25443/live/xxx/142055.ts
-#EXTINF:-1,|US| My Charleston South Carolina WCIV TV
-http://vip.fr3tv.com:25443/live/xxx/142056.ts
-#EXTINF:-1,|US| My Detroit Michigan WMYD TV
-http://vip.fr3tv.com:25443/live/xxx/142057.ts
-#EXTINF:-1,|US| My Fort Walton Beach Florida WFGX TV
-http://vip.fr3tv.com:25443/live/xxx/142058.ts
-#EXTINF:-1,|US| My Greensboro North Carolina WMYV TV
-http://vip.fr3tv.com:25443/live/xxx/142059.ts
-#EXTINF:-1,|US| My Houston Texas KTXH TV
-http://vip.fr3tv.com:25443/live/xxx/142060.ts
-#EXTINF:-1,|US| My Kansas City Missouri KSMO TV
-http://vip.fr3tv.com:25443/live/xxx/142061.ts
-#EXTINF:-1,|US| QVC
-http://vip.fr3tv.com:25443/live/xxx/142210.ts
-#EXTINF:-1,|US| HSN
-http://vip.fr3tv.com:25443/live/xxx/142000.ts
-#EXTINF:-1,|US| HSN 2
-http://vip.fr3tv.com:25443/live/xxx/142001.ts
-#EXTINF:-1,|US| HSN US
-http://vip.fr3tv.com:25443/live/xxx/141479.ts
-#EXTINF:-1,|US| ShopHQ
-http://vip.fr3tv.com:25443/live/xxx/142220.ts
-#EXTINF:-1,|US| Court TV
-http://vip.fr3tv.com:25443/live/xxx/141830.ts
-#EXTINF:-1,|US| TBS
-http://vip.fr3tv.com:25443/live/xxx/142243.ts
-#EXTINF:-1,|US| E! TV
-http://vip.fr3tv.com:25443/live/xxx/141525.ts
-#EXTINF:-1,|US| A&E HD
-http://vip.fr3tv.com:25443/live/xxx/141459.ts
-#EXTINF:-1,|US| BRAVO TV
-http://vip.fr3tv.com:25443/live/xxx/141471.ts
-#EXTINF:-1,|US| HGTV
-http://vip.fr3tv.com:25443/live/xxx/141470.ts
-#EXTINF:-1,|US| FXX TV
-http://vip.fr3tv.com:25443/live/xxx/141528.ts
-#EXTINF:-1,|US| FX Movies HD
-http://vip.fr3tv.com:25443/live/xxx/141559.ts
-#EXTINF:-1,|US| FXM Retro
-http://vip.fr3tv.com:25443/live/xxx/141987.ts
-#EXTINF:-1,|US| PIXL HD
-http://vip.fr3tv.com:25443/live/xxx/141574.ts
-#EXTINF:-1,|US| USA Network
-http://vip.fr3tv.com:25443/live/xxx/142258.ts
-#EXTINF:-1,|US| AMC HD
-http://vip.fr3tv.com:25443/live/xxx/141460.ts
-#EXTINF:-1,|US| SYFY
-http://vip.fr3tv.com:25443/live/xxx/141465.ts
-#EXTINF:-1,|US| Fuse
-http://vip.fr3tv.com:25443/live/xxx/141986.ts
-#EXTINF:-1,|US| OWN HD
-http://vip.fr3tv.com:25443/live/xxx/141461.ts
-#EXTINF:-1,|US| Vice
-http://vip.fr3tv.com:25443/live/xxx/142259.ts
-#EXTINF:-1,|US| POP TV
-http://vip.fr3tv.com:25443/live/xxx/141543.ts
-#EXTINF:-1,|US| OXYGEN HD
-http://vip.fr3tv.com:25443/live/xxx/141462.ts
-#EXTINF:-1,|US| FYI
-http://vip.fr3tv.com:25443/live/xxx/141988.ts
-#EXTINF:-1,|US| AWE
-http://vip.fr3tv.com:25443/live/xxx/141785.ts
-#EXTINF:-1,|US| Chicago Illinois WGN TV
-http://vip.fr3tv.com:25443/live/xxx/141822.ts
-#EXTINF:-1,|US| TV LAND
-http://vip.fr3tv.com:25443/live/xxx/141473.ts
-#EXTINF:-1,|US| TRU TV
-http://vip.fr3tv.com:25443/live/xxx/141474.ts
-#EXTINF:-1,|US| Sundance TV
-http://vip.fr3tv.com:25443/live/xxx/142241.ts
-#EXTINF:-1,|US| Start TV
-http://vip.fr3tv.com:25443/live/xxx/142227.ts
-#EXTINF:-1,|US| Freeform
-http://vip.fr3tv.com:25443/live/xxx/141979.ts
-#EXTINF:-1,|US| Smithsonian Channel
-http://vip.fr3tv.com:25443/live/xxx/142222.ts
-#EXTINF:-1,|US| Pursuit Channel
-http://vip.fr3tv.com:25443/live/xxx/142209.ts
-#EXTINF:-1,|US| TV One
-http://vip.fr3tv.com:25443/live/xxx/142255.ts
-#EXTINF:-1,|US| Justice Central TV
-http://vip.fr3tv.com:25443/live/xxx/142007.ts
-#EXTINF:-1,|US| REELZ TV
-http://vip.fr3tv.com:25443/live/xxx/141458.ts
-#EXTINF:-1,|US| People TV
-http://vip.fr3tv.com:25443/live/xxx/142207.ts
-#EXTINF:-1,|US| Game Show Network
-http://vip.fr3tv.com:25443/live/xxx/141990.ts
-#EXTINF:-1,|US| COMEDY CENTRAL
-http://vip.fr3tv.com:25443/live/xxx/141514.ts
-#EXTINF:-1,|US| Comet
-http://vip.fr3tv.com:25443/live/xxx/141827.ts
-#EXTINF:-1,|US| Epix Drive In
-http://vip.fr3tv.com:25443/live/xxx/141856.ts
-#EXTINF:-1,|US| Cowboy Channel
-http://vip.fr3tv.com:25443/live/xxx/141831.ts
-#EXTINF:-1,|US| AXS TV
-http://vip.fr3tv.com:25443/live/xxx/141787.ts
-#EXTINF:-1,|US| Grit
-http://vip.fr3tv.com:25443/live/xxx/141993.ts
-#EXTINF:-1,|US| Me TV
-http://vip.fr3tv.com:25443/live/xxx/142015.ts
-#EXTINF:-1,|US| HALLMARK HD
-http://vip.fr3tv.com:25443/live/xxx/141478.ts
-#EXTINF:-1,|US| INSP
-http://vip.fr3tv.com:25443/live/xxx/142005.ts
-#EXTINF:-1,|US| TNT West
-http://vip.fr3tv.com:25443/live/xxx/141444.ts
-#EXTINF:-1,|US| TNT HD
-http://vip.fr3tv.com:25443/live/xxx/141445.ts
-#EXTINF:-1,|US| Food Network
-http://vip.fr3tv.com:25443/live/xxx/141456.ts
-#EXTINF:-1,|US| Travel Channel
-http://vip.fr3tv.com:25443/live/xxx/142253.ts
-#EXTINF:-1,|US| Cooking Channel
-http://vip.fr3tv.com:25443/live/xxx/141829.ts
-#EXTINF:-1,|US| TasteMade
-http://vip.fr3tv.com:25443/live/xxx/142242.ts
-#EXTINF:-1,|US| Gusto TV
-http://vip.fr3tv.com:25443/live/xxx/141994.ts
-#EXTINF:-1,|US| DBM Music TV
-http://vip.fr3tv.com:25443/live/xxx/141552.ts
-#EXTINF:-1,|US| California Music Channel
-http://vip.fr3tv.com:25443/live/xxx/141819.ts
-#EXTINF:-1,|US| Music Choice 90s
-http://vip.fr3tv.com:25443/live/xxx/142030.ts
-#EXTINF:-1,|US| Music Choice Classic Alternative
-http://vip.fr3tv.com:25443/live/xxx/142031.ts
-#EXTINF:-1,|US| Music Choice Dance EDM
-http://vip.fr3tv.com:25443/live/xxx/142032.ts
-#EXTINF:-1,|US| Music Choice Hip Hop & R&B
-http://vip.fr3tv.com:25443/live/xxx/142033.ts
-#EXTINF:-1,|US| Music Choice Hit List
-http://vip.fr3tv.com:25443/live/xxx/142034.ts
-#EXTINF:-1,|US| Music Choice Indie
-http://vip.fr3tv.com:25443/live/xxx/142035.ts
-#EXTINF:-1,|US| Music Choice Kidz Bop
-http://vip.fr3tv.com:25443/live/xxx/142036.ts
-#EXTINF:-1,|US| Music Choice Kidz Only
-http://vip.fr3tv.com:25443/live/xxx/142037.ts
-#EXTINF:-1,|US| Music Choice Latino
-http://vip.fr3tv.com:25443/live/xxx/142038.ts
-#EXTINF:-1,|US| Music Choice Max
-http://vip.fr3tv.com:25443/live/xxx/142039.ts
-#EXTINF:-1,|US| Music Choice Mexican
-http://vip.fr3tv.com:25443/live/xxx/142040.ts
-#EXTINF:-1,|US| Music Choice Musica URBANa
-http://vip.fr3tv.com:25443/live/xxx/142041.ts
-#EXTINF:-1,|US| Music Choice Pop & Country
-http://vip.fr3tv.com:25443/live/xxx/142042.ts
-#EXTINF:-1,|US| Music Choice Pop Hits
-http://vip.fr3tv.com:25443/live/xxx/142043.ts
-#EXTINF:-1,|US| Music Choice Pop Latino
-http://vip.fr3tv.com:25443/live/xxx/142044.ts
-#EXTINF:-1,|US| Music Choice R&B Soul
-http://vip.fr3tv.com:25443/live/xxx/142045.ts
-#EXTINF:-1,|US| Music Choice Rap
-http://vip.fr3tv.com:25443/live/xxx/142046.ts
-#EXTINF:-1,|US| Music Choice Rock
-http://vip.fr3tv.com:25443/live/xxx/142047.ts
-#EXTINF:-1,|US| Music Choice Teen Beats
-http://vip.fr3tv.com:25443/live/xxx/142048.ts
-#EXTINF:-1,|US| Music Choice Throwback Jamz
-http://vip.fr3tv.com:25443/live/xxx/142049.ts
-#EXTINF:-1,|US| Music Choice Todays Country
-http://vip.fr3tv.com:25443/live/xxx/142050.ts
-#EXTINF:-1,|US| Music choice Toddler Tunes
-http://vip.fr3tv.com:25443/live/xxx/142051.ts
-#EXTINF:-1,|US| Music Choice Tropicales
-http://vip.fr3tv.com:25443/live/xxx/142052.ts
-#EXTINF:-1,|US| Music Choice Y2K
-http://vip.fr3tv.com:25443/live/xxx/142053.ts
-#EXTINF:-1,|US| NickMusic
-http://vip.fr3tv.com:25443/live/xxx/142191.ts
-#EXTINF:-1,|US| Retro Music TV
-http://vip.fr3tv.com:25443/live/xxx/142213.ts
-#EXTINF:-1,|US| BET HD
-http://vip.fr3tv.com:25443/live/xxx/141454.ts
-#EXTINF:-1,|US| BET HER
-http://vip.fr3tv.com:25443/live/xxx/141455.ts
-#EXTINF:-1,|US| BET SOUL
-http://vip.fr3tv.com:25443/live/xxx/141457.ts
-#EXTINF:-1,|US| BET Jams
-http://vip.fr3tv.com:25443/live/xxx/141812.ts
-#EXTINF:-1,|US| MTV
-http://vip.fr3tv.com:25443/live/xxx/142021.ts
-#EXTINF:-1,|US| MTV 00s
-http://vip.fr3tv.com:25443/live/xxx/142022.ts
-#EXTINF:-1,|US| MTV 2
-http://vip.fr3tv.com:25443/live/xxx/142023.ts
-#EXTINF:-1,|US| MTV Base Africa
-http://vip.fr3tv.com:25443/live/xxx/142024.ts
-#EXTINF:-1,|US| MTV Classic
-http://vip.fr3tv.com:25443/live/xxx/142025.ts
-#EXTINF:-1,|US| MTV Hits
-http://vip.fr3tv.com:25443/live/xxx/142026.ts
-#EXTINF:-1,|US| MTV Hits Latin America
-http://vip.fr3tv.com:25443/live/xxx/142027.ts
-#EXTINF:-1,|US| MTV Live USA
-http://vip.fr3tv.com:25443/live/xxx/142028.ts
-#EXTINF:-1,|US| MTV U
-http://vip.fr3tv.com:25443/live/xxx/142029.ts
-#EXTINF:-1,|US| VH1 HD
-http://vip.fr3tv.com:25443/live/xxx/141466.ts
-#EXTINF:-1,|US| CMT HD
-http://vip.fr3tv.com:25443/live/xxx/141469.ts
-#EXTINF:-1,|US| Epix Hits
-http://vip.fr3tv.com:25443/live/xxx/141857.ts
-#EXTINF:-1,|US| QVC 2
-http://vip.fr3tv.com:25443/live/xxx/143070.ts
-#EXTINF:-1,|US| QVC 3
-http://vip.fr3tv.com:25443/live/xxx/143071.ts
-#EXTINF:-1,|US| CBSN HD
-http://vip.fr3tv.com:25443/live/xxx/141510.ts
-#EXTINF:-1,|US| CNBC WORLD
-http://vip.fr3tv.com:25443/live/xxx/141509.ts
-#EXTINF:-1,|US| MOVIE KINGDOM TV
-http://vip.fr3tv.com:25443/live/xxx/141493.ts
-#EXTINF:-1,|US| MOVIE MIX HD
-http://vip.fr3tv.com:25443/live/xxx/141515.ts
-#EXTINF:-1,|US| Comedy Movies
-http://vip.fr3tv.com:25443/live/xxx/141568.ts
-#EXTINF:-1,|US| Lifetime Movie Network
-http://vip.fr3tv.com:25443/live/xxx/141571.ts
-#EXTINF:-1,|US| Hallmark Movies & Mysteries
-http://vip.fr3tv.com:25443/live/xxx/141995.ts
-#EXTINF:-1,|US| HDNet Movies
-http://vip.fr3tv.com:25443/live/xxx/141998.ts
-#EXTINF:-1,|US| MovieMax
-http://vip.fr3tv.com:25443/live/xxx/142018.ts
-#EXTINF:-1,|US| MoviePlex
-http://vip.fr3tv.com:25443/live/xxx/142019.ts
-#EXTINF:-1,|US| Sony Movies
-http://vip.fr3tv.com:25443/live/xxx/142223.ts
-#EXTINF:-1,|US| TCM Movies
-http://vip.fr3tv.com:25443/live/xxx/142244.ts
-#EXTINF:-1,|US| The Movie Channel
-http://vip.fr3tv.com:25443/live/xxx/142249.ts
-#EXTINF:-1,|US| STARZ Westerns
-http://vip.fr3tv.com:25443/live/xxx/141491.ts
-#EXTINF:-1,|US| STARZ CLASSIC
-http://vip.fr3tv.com:25443/live/xxx/141542.ts
-#EXTINF:-1,|US| STARZ ACTION
-http://vip.fr3tv.com:25443/live/xxx/141554.ts
-#EXTINF:-1,|US| Starz Black
-http://vip.fr3tv.com:25443/live/xxx/141555.ts
-#EXTINF:-1,|US| Starz
-http://vip.fr3tv.com:25443/live/xxx/142228.ts
-#EXTINF:-1,|US| Starz Cinema
-http://vip.fr3tv.com:25443/live/xxx/142229.ts
-#EXTINF:-1,|US| Starz Comedy
-http://vip.fr3tv.com:25443/live/xxx/142230.ts
-#EXTINF:-1,|US| Starz East
-http://vip.fr3tv.com:25443/live/xxx/142231.ts
-#EXTINF:-1,|US| Starz Edge
-http://vip.fr3tv.com:25443/live/xxx/142232.ts
-#EXTINF:-1,|US| Starz Encore Action
-http://vip.fr3tv.com:25443/live/xxx/142233.ts
-#EXTINF:-1,|US| Starz Encore Black
-http://vip.fr3tv.com:25443/live/xxx/142234.ts
-#EXTINF:-1,|US| Starz Encore Classic
-http://vip.fr3tv.com:25443/live/xxx/142235.ts
-#EXTINF:-1,|US| Starz Encore Family
-http://vip.fr3tv.com:25443/live/xxx/142236.ts
-#EXTINF:-1,|US| Starz Encore Suspense
-http://vip.fr3tv.com:25443/live/xxx/142237.ts
-#EXTINF:-1,|US| Starz Encore Western
-http://vip.fr3tv.com:25443/live/xxx/142238.ts
-#EXTINF:-1,|US| Starz In Black
-http://vip.fr3tv.com:25443/live/xxx/142239.ts
-#EXTINF:-1,|US| Starz Kids & Family
-http://vip.fr3tv.com:25443/live/xxx/142240.ts
-#EXTINF:-1,|US| HBO HD
-http://vip.fr3tv.com:25443/live/xxx/141482.ts
-#EXTINF:-1,|US| HBO 2 US
-http://vip.fr3tv.com:25443/live/xxx/141483.ts
-#EXTINF:-1,|US| HBO Comedy
-http://vip.fr3tv.com:25443/live/xxx/141484.ts
-#EXTINF:-1,|US| HBO Signature
-http://vip.fr3tv.com:25443/live/xxx/141485.ts
-#EXTINF:-1,|US| HBO Family
-http://vip.fr3tv.com:25443/live/xxx/141486.ts
-#EXTINF:-1,|US| HBO Zone
-http://vip.fr3tv.com:25443/live/xxx/141997.ts
-#EXTINF:-1,|US| SHOWTIME HD
-http://vip.fr3tv.com:25443/live/xxx/141488.ts
-#EXTINF:-1,|US| Showtime 2 TV
-http://vip.fr3tv.com:25443/live/xxx/141573.ts
-#EXTINF:-1,|US| Showtime Family Zone
-http://vip.fr3tv.com:25443/live/xxx/141575.ts
-#EXTINF:-1,|US| Showtime Next HD
-http://vip.fr3tv.com:25443/live/xxx/141577.ts
-#EXTINF:-1,|US| CINEMAX HD
-http://vip.fr3tv.com:25443/live/xxx/141489.ts
-#EXTINF:-1,|US| CineMax 5 Star Max HD
-http://vip.fr3tv.com:25443/live/xxx/141544.ts
-#EXTINF:-1,|US| ActionMax
-http://vip.fr3tv.com:25443/live/xxx/141782.ts
-#EXTINF:-1,|US| EPIX HD
-http://vip.fr3tv.com:25443/live/xxx/141494.ts
-#EXTINF:-1,|US| Epix 2 US
-http://vip.fr3tv.com:25443/live/xxx/141495.ts
-#EXTINF:-1,|US| RetroPlex
-http://vip.fr3tv.com:25443/live/xxx/142214.ts
-#EXTINF:-1,|US| PARAMOUNT CHANNEL
-http://vip.fr3tv.com:25443/live/xxx/141463.ts
-#EXTINF:-1,|US| The Film Detective
-http://vip.fr3tv.com:25443/live/xxx/142248.ts
-#EXTINF:-1,|US| ANIMAL PLANET
-http://vip.fr3tv.com:25443/live/xxx/141499.ts
-#EXTINF:-1,|US| NAT GEO
-http://vip.fr3tv.com:25443/live/xxx/142069.ts
-#EXTINF:-1,|US| NAT GEO Wild
-http://vip.fr3tv.com:25443/live/xxx/142070.ts
-#EXTINF:-1,|US| Law & Crime
-http://vip.fr3tv.com:25443/live/xxx/142009.ts
-#EXTINF:-1,|US| Crime & Investigation
-http://vip.fr3tv.com:25443/live/xxx/141472.ts
-#EXTINF:-1,|US| DISCOVERY HD
-http://vip.fr3tv.com:25443/live/xxx/141452.ts
-#EXTINF:-1,|US| DISCOVERY LIFE
-http://vip.fr3tv.com:25443/live/xxx/141501.ts
-#EXTINF:-1,|US| Discovery Science
-http://vip.fr3tv.com:25443/live/xxx/141502.ts
-#EXTINF:-1,|US| Discovery Channel
-http://vip.fr3tv.com:25443/live/xxx/141851.ts
-#EXTINF:-1,|US| Discovery Family
-http://vip.fr3tv.com:25443/live/xxx/141852.ts
-#EXTINF:-1,|US| Discovery Life Channel
-http://vip.fr3tv.com:25443/live/xxx/141853.ts
-#EXTINF:-1,|US| Discovery World
-http://vip.fr3tv.com:25443/live/xxx/141854.ts
-#EXTINF:-1,|US| INVESTIGATION DISCOVERY
-http://vip.fr3tv.com:25443/live/xxx/141500.ts
-#EXTINF:-1,|US| HISTORY CHANNEL
-http://vip.fr3tv.com:25443/live/xxx/141453.ts
-#EXTINF:-1,|US| American Heroes Channel
-http://vip.fr3tv.com:25443/live/xxx/141784.ts
-#EXTINF:-1,|US| Destination America
-http://vip.fr3tv.com:25443/live/xxx/141850.ts
-#EXTINF:-1,|US| NASA TV
-http://vip.fr3tv.com:25443/live/xxx/141539.ts
-#EXTINF:-1,|US| Nasa TV
-http://vip.fr3tv.com:25443/live/xxx/142068.ts
-#EXTINF:-1,|US| Outdoor Channel
-http://vip.fr3tv.com:25443/live/xxx/142197.ts
-#EXTINF:-1,|US| Magnolia Network
-http://vip.fr3tv.com:25443/live/xxx/142012.ts
-#EXTINF:-1,|US| Great American Country
-http://vip.fr3tv.com:25443/live/xxx/143072.ts
-#EXTINF:-1,|US| Baby TV
-http://vip.fr3tv.com:25443/live/xxx/141788.ts
-#EXTINF:-1,|US| BabyFirst TV
-http://vip.fr3tv.com:25443/live/xxx/141789.ts
-#EXTINF:-1,|US| DISNEY CHANNEL
-http://vip.fr3tv.com:25443/live/xxx/141503.ts
-#EXTINF:-1,|US| DISNEY XD
-http://vip.fr3tv.com:25443/live/xxx/141506.ts
-#EXTINF:-1,|US| CARTOON NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141504.ts
-#EXTINF:-1,|US| Universal Kids TV
-http://vip.fr3tv.com:25443/live/xxx/141558.ts
-#EXTINF:-1,|US| Nick Teen
-http://vip.fr3tv.com:25443/live/xxx/141572.ts
-#EXTINF:-1,|US| Nickelodeon
-http://vip.fr3tv.com:25443/live/xxx/141578.ts
-#EXTINF:-1,|US| Nicktoons
-http://vip.fr3tv.com:25443/live/xxx/142192.ts
-#EXTINF:-1,|US| TeenNick
-http://vip.fr3tv.com:25443/live/xxx/142245.ts
-#EXTINF:-1,|US| PBS KIDS
-http://vip.fr3tv.com:25443/live/xxx/141519.ts
-#EXTINF:-1,|US| The Weather Channel
-http://vip.fr3tv.com:25443/live/xxx/142252.ts
-#EXTINF:-1,|US| WeatherNation
-http://vip.fr3tv.com:25443/live/xxx/142262.ts
-#EXTINF:-1,|US| HLN
-http://vip.fr3tv.com:25443/live/xxx/141999.ts
-#EXTINF:-1,|US| CNN US
-http://vip.fr3tv.com:25443/live/xxx/141449.ts
-#EXTINF:-1,|US| CNN US HD
-http://vip.fr3tv.com:25443/live/xxx/141566.ts
-#EXTINF:-1,|US| CNN International
-http://vip.fr3tv.com:25443/live/xxx/141826.ts
-#EXTINF:-1,|US| CBS News
-http://vip.fr3tv.com:25443/live/xxx/141413.ts
-#EXTINF:-1,|US| CBS 2 News Los Angeles
-http://vip.fr3tv.com:25443/live/xxx/141414.ts
-#EXTINF:-1,|US| CBS 4 News Minnesota
-http://vip.fr3tv.com:25443/live/xxx/141415.ts
-#EXTINF:-1,|US| CBS 2 News New York
-http://vip.fr3tv.com:25443/live/xxx/141416.ts
-#EXTINF:-1,|US| CBS News Philly
-http://vip.fr3tv.com:25443/live/xxx/141417.ts
-#EXTINF:-1,|US| CBS 47 Action News WJAX
-http://vip.fr3tv.com:25443/live/xxx/141521.ts
-#EXTINF:-1,|US| NBC News Now
-http://vip.fr3tv.com:25443/live/xxx/141450.ts
-#EXTINF:-1,|US| NBC 2 News
-http://vip.fr3tv.com:25443/live/xxx/142071.ts
-#EXTINF:-1,|US| NBC News
-http://vip.fr3tv.com:25443/live/xxx/142147.ts
-#EXTINF:-1,|US| Fox News Channel
-http://vip.fr3tv.com:25443/live/xxx/141940.ts
-#EXTINF:-1,|US| FOX News Now
-http://vip.fr3tv.com:25443/live/xxx/141941.ts
-#EXTINF:-1,|US| CNBC
-http://vip.fr3tv.com:25443/live/xxx/141824.ts
-#EXTINF:-1,|US| CNBC 17 Victoria Texas KMOL TV
-http://vip.fr3tv.com:25443/live/xxx/141825.ts
-#EXTINF:-1,|US| MSNBC
-http://vip.fr3tv.com:25443/live/xxx/142020.ts
-#EXTINF:-1,|US| Bloomberg TV US
-http://vip.fr3tv.com:25443/live/xxx/141498.ts
-#EXTINF:-1,|US| Cheddar HD
-http://vip.fr3tv.com:25443/live/xxx/141476.ts
-#EXTINF:-1,|US| CNA News
-http://vip.fr3tv.com:25443/live/xxx/141497.ts
-#EXTINF:-1,|US| BBC News USA
-http://vip.fr3tv.com:25443/live/xxx/141511.ts
-#EXTINF:-1,|US| CPAC News Canada
-http://vip.fr3tv.com:25443/live/xxx/141523.ts
-#EXTINF:-1,|US| News 12 New York
-http://vip.fr3tv.com:25443/live/xxx/141535.ts
-#EXTINF:-1,|US| Euronews US
-http://vip.fr3tv.com:25443/live/xxx/141547.ts
-#EXTINF:-1,|US| CBC News
-http://vip.fr3tv.com:25443/live/xxx/141562.ts
-#EXTINF:-1,|US| ESPN NEWS
-http://vip.fr3tv.com:25443/live/xxx/141649.ts
-#EXTINF:-1,|US| Black News Channel
-http://vip.fr3tv.com:25443/live/xxx/141814.ts
-#EXTINF:-1,|US| CBN News
-http://vip.fr3tv.com:25443/live/xxx/141820.ts
-#EXTINF:-1,|US| Estrella News
-http://vip.fr3tv.com:25443/live/xxx/141858.ts
-#EXTINF:-1,|US| News 12 Hudson Valley
-http://vip.fr3tv.com:25443/live/xxx/142185.ts
-#EXTINF:-1,|US| News 12 Long Island
-http://vip.fr3tv.com:25443/live/xxx/142186.ts
-#EXTINF:-1,|US| News 12 New Jersey
-http://vip.fr3tv.com:25443/live/xxx/142187.ts
-#EXTINF:-1,|US| News 12 New York
-http://vip.fr3tv.com:25443/live/xxx/142188.ts
-#EXTINF:-1,|US| News 12 The Bronx
-http://vip.fr3tv.com:25443/live/xxx/142189.ts
-#EXTINF:-1,|US| Newsy
-http://vip.fr3tv.com:25443/live/xxx/142190.ts
-#EXTINF:-1,|US| Revry News
-http://vip.fr3tv.com:25443/live/xxx/142217.ts
-#EXTINF:-1,|US| One American News Network
-http://vip.fr3tv.com:25443/live/xxx/141551.ts
-#EXTINF:-1,|US| Cheddar News
-http://vip.fr3tv.com:25443/live/xxx/141821.ts
-#EXTINF:-1,|US| InfoWars
-http://vip.fr3tv.com:25443/live/xxx/142004.ts
-#EXTINF:-1,|US| Aljazeera
-http://vip.fr3tv.com:25443/live/xxx/141446.ts
-#EXTINF:-1,|US| DW English
-http://vip.fr3tv.com:25443/live/xxx/141447.ts
-#EXTINF:-1,|US| C SPAN
-http://vip.fr3tv.com:25443/live/xxx/141816.ts
-#EXTINF:-1,|US| C SPAN 2
-http://vip.fr3tv.com:25443/live/xxx/141817.ts
-#EXTINF:-1,|US| C SPAN 3
-http://vip.fr3tv.com:25443/live/xxx/141818.ts
-#EXTINF:-1,|US| US SPORT Tennis Plus
-http://vip.fr3tv.com:25443/live/xxx/141563.ts
-#EXTINF:-1,|US| Sportsman Channel
-http://vip.fr3tv.com:25443/live/xxx/141598.ts
-#EXTINF:-1,|US| Flo Sports 1
-http://vip.fr3tv.com:25443/live/xxx/141658.ts
-#EXTINF:-1,|US| AT&T SportsNet
-http://vip.fr3tv.com:25443/live/xxx/141694.ts
-#EXTINF:-1,|US| BEIN SPORTS
-http://vip.fr3tv.com:25443/live/xxx/141695.ts
-#EXTINF:-1,|US| beIN Sports 2
-http://vip.fr3tv.com:25443/live/xxx/141696.ts
-#EXTINF:-1,|US| beIN Sports 3
-http://vip.fr3tv.com:25443/live/xxx/141697.ts
-#EXTINF:-1,|US| BEIN SPORTS 4
-http://vip.fr3tv.com:25443/live/xxx/141698.ts
-#EXTINF:-1,|US| BEIN SPORTS 5
-http://vip.fr3tv.com:25443/live/xxx/141699.ts
-#EXTINF:-1,|US| Bein Sports 6
-http://vip.fr3tv.com:25443/live/xxx/141700.ts
-#EXTINF:-1,|US| Bein Sports 7
-http://vip.fr3tv.com:25443/live/xxx/141701.ts
-#EXTINF:-1,|US| Bein Sports 8
-http://vip.fr3tv.com:25443/live/xxx/141702.ts
-#EXTINF:-1,|US| ELEVEN SPORTS NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141706.ts
-#EXTINF:-1,|US| Bally Sports Detroit
-http://vip.fr3tv.com:25443/live/xxx/141791.ts
-#EXTINF:-1,|US| Bally Sports Florida
-http://vip.fr3tv.com:25443/live/xxx/141792.ts
-#EXTINF:-1,|US| Bally Sports Great Lakes
-http://vip.fr3tv.com:25443/live/xxx/141794.ts
-#EXTINF:-1,|US| Bally Sports Indiana
-http://vip.fr3tv.com:25443/live/xxx/141795.ts
-#EXTINF:-1,|US| Bally Sports Kansas City
-http://vip.fr3tv.com:25443/live/xxx/141796.ts
-#EXTINF:-1,|US| Bally Sports Midwest
-http://vip.fr3tv.com:25443/live/xxx/141797.ts
-#EXTINF:-1,|US| Bally Sports New Orleans
-http://vip.fr3tv.com:25443/live/xxx/141798.ts
-#EXTINF:-1,|US| Bally Sports North
-http://vip.fr3tv.com:25443/live/xxx/141799.ts
-#EXTINF:-1,|US| Bally Sports Ohio
-http://vip.fr3tv.com:25443/live/xxx/141801.ts
-#EXTINF:-1,|US| Bally Sports Ohio Plus
-http://vip.fr3tv.com:25443/live/xxx/141802.ts
-#EXTINF:-1,|US| Bally Sports Oklahoma
-http://vip.fr3tv.com:25443/live/xxx/141803.ts
-#EXTINF:-1,|US| Bally Sports San Diego
-http://vip.fr3tv.com:25443/live/xxx/141804.ts
-#EXTINF:-1,|US| Bally Sports SoCal
-http://vip.fr3tv.com:25443/live/xxx/141805.ts
-#EXTINF:-1,|US| Bally Sports South
-http://vip.fr3tv.com:25443/live/xxx/141806.ts
-#EXTINF:-1,|US| Bally Sports Southeast
-http://vip.fr3tv.com:25443/live/xxx/141807.ts
-#EXTINF:-1,|US| Bally Sports Southwest Plus
-http://vip.fr3tv.com:25443/live/xxx/141808.ts
-#EXTINF:-1,|US| Bally Sports Sun
-http://vip.fr3tv.com:25443/live/xxx/141809.ts
-#EXTINF:-1,|US| Bally Sports West
-http://vip.fr3tv.com:25443/live/xxx/141810.ts
-#EXTINF:-1,|US| Bally Sports Wisconsin
-http://vip.fr3tv.com:25443/live/xxx/141811.ts
-#EXTINF:-1,|US| FTF Sports
-http://vip.fr3tv.com:25443/live/xxx/141982.ts
-#EXTINF:-1,|US| Fubo Sports Network
-http://vip.fr3tv.com:25443/live/xxx/141984.ts
-#EXTINF:-1,|US| Marquee Sports
-http://vip.fr3tv.com:25443/live/xxx/142013.ts
-#EXTINF:-1,|US| Spectrum SportsNet
-http://vip.fr3tv.com:25443/live/xxx/142224.ts
-#EXTINF:-1,|US| SportsGrid
-http://vip.fr3tv.com:25443/live/xxx/142225.ts
-#EXTINF:-1,|US| NFL NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141601.ts
-#EXTINF:-1,|US| NFL REDZONE
-http://vip.fr3tv.com:25443/live/xxx/141602.ts
-#EXTINF:-1,|US| NFL  Super Bowl
-http://vip.fr3tv.com:25443/live/xxx/141603.ts
-#EXTINF:-1,|US| NFL Super Bowl 2
-http://vip.fr3tv.com:25443/live/xxx/141604.ts
-#EXTINF:-1,|US| NHL NETWORK
-http://vip.fr3tv.com:25443/live/xxx/141613.ts
-#EXTINF:-1,|US| NHL Center Ice 6
-http://vip.fr3tv.com:25443/live/xxx/141619.ts
-#EXTINF:-1,|US| NHL Center Ice 7
-http://vip.fr3tv.com:25443/live/xxx/141620.ts
-#EXTINF:-1,|US| NHL Center Ice 8
-http://vip.fr3tv.com:25443/live/xxx/141621.ts
-#EXTINF:-1,|US| NHL Center Ice 9
-http://vip.fr3tv.com:25443/live/xxx/141622.ts
-#EXTINF:-1,|US| NHL Center Ice 10
-http://vip.fr3tv.com:25443/live/xxx/141623.ts
-#EXTINF:-1,|US| NHL Center Ice 11
-http://vip.fr3tv.com:25443/live/xxx/141624.ts
-#EXTINF:-1,|US| NHL Center Ice 12
-http://vip.fr3tv.com:25443/live/xxx/141625.ts
-#EXTINF:-1,|US| NHL Center Ice 13
-http://vip.fr3tv.com:25443/live/xxx/141626.ts
-#EXTINF:-1,|US| NHL Center Ice 14
-http://vip.fr3tv.com:25443/live/xxx/141627.ts
-#EXTINF:-1,|US| NBA US
-http://vip.fr3tv.com:25443/live/xxx/141557.ts
-#EXTINF:-1,|US| NBA TV
-http://vip.fr3tv.com:25443/live/xxx/141605.ts
-#EXTINF:-1,|US| WNBA
-http://vip.fr3tv.com:25443/live/xxx/142266.ts
-#EXTINF:-1,|US| UFC 1 HD
-http://vip.fr3tv.com:25443/live/xxx/141576.ts
-#EXTINF:-1,|US| UFC Network
-http://vip.fr3tv.com:25443/live/xxx/141692.ts
-#EXTINF:-1,|US| WWE Network
-http://vip.fr3tv.com:25443/live/xxx/141600.ts
-#EXTINF:-1,|US| CBS Sports Network
-http://vip.fr3tv.com:25443/live/xxx/141437.ts
-#EXTINF:-1,|US| CBS Sports Network
-http://vip.fr3tv.com:25443/live/xxx/141705.ts
-#EXTINF:-1,|US| NBC Sports Bay Area
-http://vip.fr3tv.com:25443/live/xxx/141586.ts
-#EXTINF:-1,|US| NBC Sports Boston
-http://vip.fr3tv.com:25443/live/xxx/141587.ts
-#EXTINF:-1,|US| NBC Sports California
-http://vip.fr3tv.com:25443/live/xxx/141588.ts
-#EXTINF:-1,|US| NBC Sports Philly 
-http://vip.fr3tv.com:25443/live/xxx/141590.ts
-#EXTINF:-1,|US| NBC Sports Washington Plus
-http://vip.fr3tv.com:25443/live/xxx/141591.ts
-#EXTINF:-1,|US| NBC Sports Chicago
-http://vip.fr3tv.com:25443/live/xxx/141592.ts
-#EXTINF:-1,|US| NBC Sports Northwest
-http://vip.fr3tv.com:25443/live/xxx/141593.ts
-#EXTINF:-1,|US| NBC Sports Philadelphia
-http://vip.fr3tv.com:25443/live/xxx/141594.ts
-#EXTINF:-1,|US| NBC Sports Washington
-http://vip.fr3tv.com:25443/live/xxx/141595.ts
-#EXTINF:-1,|US| NBC Sports Washington
-http://vip.fr3tv.com:25443/live/xxx/142170.ts
-#EXTINF:-1,|US| Fox College Sports Atlantic
-http://vip.fr3tv.com:25443/live/xxx/141883.ts
-#EXTINF:-1,|US| Fox College Sports Pacific
-http://vip.fr3tv.com:25443/live/xxx/141884.ts
-#EXTINF:-1,|US| FOX SPORTS 506
-http://vip.fr3tv.com:25443/live/xxx/141961.ts
-#EXTINF:-1,|US| FOX SPORTS Racing
-http://vip.fr3tv.com:25443/live/xxx/141962.ts
-#EXTINF:-1,|US| My Williamsport Pennsylvania WQMY TV
-http://vip.fr3tv.com:25443/live/xxx/142066.ts
-#EXTINF:-1,|US| NBCSN
-http://vip.fr3tv.com:25443/live/xxx/142183.ts
-#EXTINF:-1,|US| Fox Soccer Plus
-http://vip.fr3tv.com:25443/live/xxx/141960.ts
-#EXTINF:-1,|US| DAZN PPV
-http://vip.fr3tv.com:25443/live/xxx/312340.ts
-#EXTINF:-1,----??| CANADA |??----
-http://vip.fr3tv.com:25443/live/xxx/140057.ts
-#EXTINF:-1,|CA.O| A&E
-http://vip.fr3tv.com:25443/live/xxx/141112.ts
-#EXTINF:-1,|CA| ABC Spark
-http://vip.fr3tv.com:25443/live/xxx/141113.ts
-#EXTINF:-1,|CA| Adult Swim
-http://vip.fr3tv.com:25443/live/xxx/141115.ts
-#EXTINF:-1,|CA| Amazing Discoveries TV
-http://vip.fr3tv.com:25443/live/xxx/141116.ts
-#EXTINF:-1,|CA| AMC
-http://vip.fr3tv.com:25443/live/xxx/141117.ts
-#EXTINF:-1,|CA| ANIMAL PLANET
-http://vip.fr3tv.com:25443/live/xxx/141118.ts
-#EXTINF:-1,|CA| APTN
-http://vip.fr3tv.com:25443/live/xxx/141119.ts
-#EXTINF:-1,|CA| beIN Sports
-http://vip.fr3tv.com:25443/live/xxx/141120.ts
-#EXTINF:-1,|CA| BNN Bloomberg
-http://vip.fr3tv.com:25443/live/xxx/141121.ts
-#EXTINF:-1,|CA| Canal D
-http://vip.fr3tv.com:25443/live/xxx/141122.ts
-#EXTINF:-1,|CA| Cartoon Network
-http://vip.fr3tv.com:25443/live/xxx/141124.ts
-#EXTINF:-1,|CA| CBC Calgary CBRT DT
-http://vip.fr3tv.com:25443/live/xxx/141125.ts
-#EXTINF:-1,|CA| CBC Charlottetown
-http://vip.fr3tv.com:25443/live/xxx/141126.ts
-#EXTINF:-1,|CA| CBC Edmonton CBXT DT
-http://vip.fr3tv.com:25443/live/xxx/141127.ts
-#EXTINF:-1,|CA| CBC Halifax CBHT DT
-http://vip.fr3tv.com:25443/live/xxx/141128.ts
-#EXTINF:-1,|CA.O| CBC News Network
-http://vip.fr3tv.com:25443/live/xxx/141129.ts
-#EXTINF:-1,|CA| CBC Ottawa CBOT DT
-http://vip.fr3tv.com:25443/live/xxx/141130.ts
-#EXTINF:-1,|CA| CBC Regina CBKT DT
-http://vip.fr3tv.com:25443/live/xxx/141131.ts
-#EXTINF:-1,|CA| CBC Toronto CBLT DT
-http://vip.fr3tv.com:25443/live/xxx/141132.ts
-#EXTINF:-1,|CA| CBC Vancouver CBUT DT
-http://vip.fr3tv.com:25443/live/xxx/141133.ts
-#EXTINF:-1,|CA| CBC Windsor CBET DT
-http://vip.fr3tv.com:25443/live/xxx/141134.ts
-#EXTINF:-1,|CA| CBC Winnipeg CBWT DT
-http://vip.fr3tv.com:25443/live/xxx/141135.ts
-#EXTINF:-1,|CA| CHCH TV
-http://vip.fr3tv.com:25443/live/xxx/141136.ts
-#EXTINF:-1,|CA| CityNews Toronto
-http://vip.fr3tv.com:25443/live/xxx/141138.ts
-#EXTINF:-1,|CA| Citytv
-http://vip.fr3tv.com:25443/live/xxx/141139.ts
-#EXTINF:-1,|CA| CMT Canada
-http://vip.fr3tv.com:25443/live/xxx/141140.ts
-#EXTINF:-1,|CA| Cooking Channel
-http://vip.fr3tv.com:25443/live/xxx/141141.ts
-#EXTINF:-1,|CA| Cottage Life TV
-http://vip.fr3tv.com:25443/live/xxx/141142.ts
-#EXTINF:-1,|CA| CP 24
-http://vip.fr3tv.com:25443/live/xxx/141143.ts
-#EXTINF:-1,|CA| Crave 1
-http://vip.fr3tv.com:25443/live/xxx/141145.ts
-#EXTINF:-1,|CA| Crave 2
-http://vip.fr3tv.com:25443/live/xxx/141146.ts
-#EXTINF:-1,|CA| Crave 3
-http://vip.fr3tv.com:25443/live/xxx/141147.ts
-#EXTINF:-1,|CA| Crave 4
-http://vip.fr3tv.com:25443/live/xxx/141148.ts
-#EXTINF:-1,|CA| Crime+ Investigation
-http://vip.fr3tv.com:25443/live/xxx/141149.ts
-#EXTINF:-1,|CA| CTV
-http://vip.fr3tv.com:25443/live/xxx/141150.ts
-#EXTINF:-1,|CA| CTV 2
-http://vip.fr3tv.com:25443/live/xxx/141151.ts
-#EXTINF:-1,|CA| CTV 2 Alberta
-http://vip.fr3tv.com:25443/live/xxx/141152.ts
-#EXTINF:-1,|CA| CTV 2 Atlantic
-http://vip.fr3tv.com:25443/live/xxx/141153.ts
-#EXTINF:-1,|CA| CTV 2 Barrie
-http://vip.fr3tv.com:25443/live/xxx/141154.ts
-#EXTINF:-1,|CA.O| CTV 2 London
-http://vip.fr3tv.com:25443/live/xxx/141155.ts
-#EXTINF:-1,|CA| CTV 2 Ottawa
-http://vip.fr3tv.com:25443/live/xxx/141156.ts
-#EXTINF:-1,|CA| CTV 2 Vancouver
-http://vip.fr3tv.com:25443/live/xxx/141157.ts
-#EXTINF:-1,|CA.O| CTV Comedy Channel
-http://vip.fr3tv.com:25443/live/xxx/141158.ts
-#EXTINF:-1,|CA| CTV Drama Channel
-http://vip.fr3tv.com:25443/live/xxx/141159.ts
-#EXTINF:-1,|CA| CTV News Channel
-http://vip.fr3tv.com:25443/live/xxx/141160.ts
-#EXTINF:-1,|CA| CTV sci-fi
-http://vip.fr3tv.com:25443/live/xxx/141161.ts
-#EXTINF:-1,|CA.O| DejaView
-http://vip.fr3tv.com:25443/live/xxx/141162.ts
-#EXTINF:-1,|CA| Discovery Science
-http://vip.fr3tv.com:25443/live/xxx/141163.ts
-#EXTINF:-1,|CA| Discovery Velocity
-http://vip.fr3tv.com:25443/live/xxx/141164.ts
-#EXTINF:-1,|CA| Disney XD
-http://vip.fr3tv.com:25443/live/xxx/141166.ts
-#EXTINF:-1,|CA| Dtour
-http://vip.fr3tv.com:25443/live/xxx/141167.ts
-#EXTINF:-1,|CA| E!
-http://vip.fr3tv.com:25443/live/xxx/141168.ts
-#EXTINF:-1,|CA| EWTN
-http://vip.fr3tv.com:25443/live/xxx/141171.ts
-#EXTINF:-1,|CA| Family
-http://vip.fr3tv.com:25443/live/xxx/141172.ts
-#EXTINF:-1,|CA| Family Jr
-http://vip.fr3tv.com:25443/live/xxx/141173.ts
-#EXTINF:-1,|CA| FIGHT Network
-http://vip.fr3tv.com:25443/live/xxx/141174.ts
-#EXTINF:-1,|CA| Food Network
-http://vip.fr3tv.com:25443/live/xxx/141175.ts
-#EXTINF:-1,|CA| FX
-http://vip.fr3tv.com:25443/live/xxx/141176.ts
-#EXTINF:-1,|CA| FXX
-http://vip.fr3tv.com:25443/live/xxx/141177.ts
-#EXTINF:-1,|CA| Global TV BC
-http://vip.fr3tv.com:25443/live/xxx/141178.ts
-#EXTINF:-1,|CA| Global TV Calgary
-http://vip.fr3tv.com:25443/live/xxx/141179.ts
-#EXTINF:-1,|CA| Global TV Edmonton
-http://vip.fr3tv.com:25443/live/xxx/141180.ts
-#EXTINF:-1,|CA| Global TV Halifax
-http://vip.fr3tv.com:25443/live/xxx/141181.ts
-#EXTINF:-1,|CA| Global TV Kingston
-http://vip.fr3tv.com:25443/live/xxx/141182.ts
-#EXTINF:-1,|CA| Global TV News
-http://vip.fr3tv.com:25443/live/xxx/141183.ts
-#EXTINF:-1,|CA| Global TV Okanagan
-http://vip.fr3tv.com:25443/live/xxx/141184.ts
-#EXTINF:-1,|CA| Global TV Peterborough
-http://vip.fr3tv.com:25443/live/xxx/141185.ts
-#EXTINF:-1,|CA| Global TV Saskatoon
-http://vip.fr3tv.com:25443/live/xxx/141186.ts
-#EXTINF:-1,|CA| Global TV Toronto
-http://vip.fr3tv.com:25443/live/xxx/141187.ts
-#EXTINF:-1,|CA| Hard Knocks
-http://vip.fr3tv.com:25443/live/xxx/141188.ts
-#EXTINF:-1,|CA| HBO 1
-http://vip.fr3tv.com:25443/live/xxx/141189.ts
-#EXTINF:-1,|CA| HBO 2
-http://vip.fr3tv.com:25443/live/xxx/141190.ts
-#EXTINF:-1,|CA| HBO Signature
-http://vip.fr3tv.com:25443/live/xxx/141191.ts
-#EXTINF:-1,|CA| HGTV
-http://vip.fr3tv.com:25443/live/xxx/141192.ts
-#EXTINF:-1,|CA| History
-http://vip.fr3tv.com:25443/live/xxx/141193.ts
-#EXTINF:-1,|CA.O| Investigation Discovery
-http://vip.fr3tv.com:25443/live/xxx/141195.ts
-#EXTINF:-1,|CA| knowledge kids
-http://vip.fr3tv.com:25443/live/xxx/141196.ts
-#EXTINF:-1,|CA| Lifetime
-http://vip.fr3tv.com:25443/live/xxx/141197.ts
-#EXTINF:-1,|CA| Love Nature
-http://vip.fr3tv.com:25443/live/xxx/141198.ts
-#EXTINF:-1,|CA| Makeful TV
-http://vip.fr3tv.com:25443/live/xxx/141199.ts
-#EXTINF:-1,|CA| Miracle Channel
-http://vip.fr3tv.com:25443/live/xxx/141200.ts
-#EXTINF:-1,|CA| MovieTime
-http://vip.fr3tv.com:25443/live/xxx/141201.ts
-#EXTINF:-1,|CA| MTV Canada
-http://vip.fr3tv.com:25443/live/xxx/141202.ts
-#EXTINF:-1,|CA| Much Canada
-http://vip.fr3tv.com:25443/live/xxx/141203.ts
-#EXTINF:-1,|CA| NAT GEO
-http://vip.fr3tv.com:25443/live/xxx/141204.ts
-#EXTINF:-1,|CA| NAT GEO Wild
-http://vip.fr3tv.com:25443/live/xxx/141205.ts
-#EXTINF:-1,|CA| NBA TV Canada
-http://vip.fr3tv.com:25443/live/xxx/141206.ts
-#EXTINF:-1,|CA| Newfoundland TV
-http://vip.fr3tv.com:25443/live/xxx/141207.ts
-#EXTINF:-1,|CA| nickelodeon
-http://vip.fr3tv.com:25443/live/xxx/141208.ts
-#EXTINF:-1,|CA| OLN
-http://vip.fr3tv.com:25443/live/xxx/141209.ts
-#EXTINF:-1,|CA| One
-http://vip.fr3tv.com:25443/live/xxx/141210.ts
-#EXTINF:-1,|CA| Oprah Winfrey Network
-http://vip.fr3tv.com:25443/live/xxx/141211.ts
-#EXTINF:-1,|CA| Out TV
-http://vip.fr3tv.com:25443/live/xxx/141212.ts
-#EXTINF:-1,|CA| Paramount Network
-http://vip.fr3tv.com:25443/live/xxx/141213.ts
-#EXTINF:-1,|CA| Players TV
-http://vip.fr3tv.com:25443/live/xxx/141214.ts
-#EXTINF:-1,|CA| Salt+ Light TV
-http://vip.fr3tv.com:25443/live/xxx/141218.ts
-#EXTINF:-1,|CA| Showcase
-http://vip.fr3tv.com:25443/live/xxx/141221.ts
-#EXTINF:-1,|CA| Silver Screen Classics
-http://vip.fr3tv.com:25443/live/xxx/141222.ts
-#EXTINF:-1,|CA| Slice
-http://vip.fr3tv.com:25443/live/xxx/141223.ts
-#EXTINF:-1,|CA| Smithsonian Channel
-http://vip.fr3tv.com:25443/live/xxx/141224.ts
-#EXTINF:-1,|CA| SportsNet 360
-http://vip.fr3tv.com:25443/live/xxx/141225.ts
-#EXTINF:-1,|CA| SportsNet East
-http://vip.fr3tv.com:25443/live/xxx/141226.ts
-#EXTINF:-1,|CA| SportsNet New York
-http://vip.fr3tv.com:25443/live/xxx/141227.ts
-#EXTINF:-1,|CA| SportsNet One
-http://vip.fr3tv.com:25443/live/xxx/141228.ts
-#EXTINF:-1,|CA| SportsNet Ontario
-http://vip.fr3tv.com:25443/live/xxx/141229.ts
-#EXTINF:-1,|CA.O| SportsNet Pacific
-http://vip.fr3tv.com:25443/live/xxx/141230.ts
-#EXTINF:-1,|CA| SportsNet Spectrum
-http://vip.fr3tv.com:25443/live/xxx/141231.ts
-#EXTINF:-1,|CA.O| SportsNet West
-http://vip.fr3tv.com:25443/live/xxx/141232.ts
-#EXTINF:-1,|CA| SportsNet World
-http://vip.fr3tv.com:25443/live/xxx/141233.ts
-#EXTINF:-1,|CA| Stingray Cmusic
-http://vip.fr3tv.com:25443/live/xxx/141234.ts
-#EXTINF:-1,|CA| Stingray IConcerts
-http://vip.fr3tv.com:25443/live/xxx/141235.ts
-#EXTINF:-1,|CA| Super Channel Fuse
-http://vip.fr3tv.com:25443/live/xxx/141236.ts
-#EXTINF:-1,|CA| Super Channel Heart & Home
-http://vip.fr3tv.com:25443/live/xxx/141237.ts
-#EXTINF:-1,|CA| Super Channel Vault
-http://vip.fr3tv.com:25443/live/xxx/141238.ts
-#EXTINF:-1,|CA| TCM Canada
-http://vip.fr3tv.com:25443/live/xxx/141243.ts
-#EXTINF:-1,|CA| The Shopping Channel
-http://vip.fr3tv.com:25443/live/xxx/141246.ts
-#EXTINF:-1,|CA| The Weather Network
-http://vip.fr3tv.com:25443/live/xxx/141247.ts
-#EXTINF:-1,|CA| TLC
-http://vip.fr3tv.com:25443/live/xxx/141248.ts
-#EXTINF:-1,|CA| Travel Escape
-http://vip.fr3tv.com:25443/live/xxx/141249.ts
-#EXTINF:-1,|CA| Treehouse TV
-http://vip.fr3tv.com:25443/live/xxx/141250.ts
-#EXTINF:-1,|CA.O| TSN 1
-http://vip.fr3tv.com:25443/live/xxx/141251.ts
-#EXTINF:-1,|CA| TSN 2
-http://vip.fr3tv.com:25443/live/xxx/141252.ts
-#EXTINF:-1,|CA| TSN 3
-http://vip.fr3tv.com:25443/live/xxx/141253.ts
-#EXTINF:-1,|CA| TSN 4
-http://vip.fr3tv.com:25443/live/xxx/141254.ts
-#EXTINF:-1,|CA| TSN 5
-http://vip.fr3tv.com:25443/live/xxx/141255.ts
-#EXTINF:-1,|CA| TVO Kids
-http://vip.fr3tv.com:25443/live/xxx/141258.ts
-#EXTINF:-1,|CA| Uvagut TV
-http://vip.fr3tv.com:25443/live/xxx/141260.ts
-#EXTINF:-1,|CA| Vision TV
-http://vip.fr3tv.com:25443/live/xxx/141261.ts
-#EXTINF:-1,|CA| W Network
-http://vip.fr3tv.com:25443/live/xxx/141263.ts
-#EXTINF:-1,|CA| Weatherspy
-http://vip.fr3tv.com:25443/live/xxx/141264.ts
-#EXTINF:-1,|CA| Wild TV
-http://vip.fr3tv.com:25443/live/xxx/141265.ts
-#EXTINF:-1,|CA| WildBrain TV
-http://vip.fr3tv.com:25443/live/xxx/141266.ts
-#EXTINF:-1,|CA| Yes TV
-http://vip.fr3tv.com:25443/live/xxx/141267.ts
-#EXTINF:-1,|CA| YTV
-http://vip.fr3tv.com:25443/live/xxx/141269.ts
-#EXTINF:-1,|CA| WGN
-http://vip.fr3tv.com:25443/live/xxx/141272.ts
-#EXTINF:-1,|CA| WFN
-http://vip.fr3tv.com:25443/live/xxx/141273.ts
-#EXTINF:-1,|CA| THE MOVIE NETWORK 4
-http://vip.fr3tv.com:25443/live/xxx/141274.ts
-#EXTINF:-1,|CA| THE MOVIE NETWORK 3
-http://vip.fr3tv.com:25443/live/xxx/141275.ts
-#EXTINF:-1,|CA| THE MOVIE NETWORK 2
-http://vip.fr3tv.com:25443/live/xxx/141276.ts
-#EXTINF:-1,|CA| THE MOVIE NETWORK 1 HD
-http://vip.fr3tv.com:25443/live/xxx/141277.ts
-#EXTINF:-1,|CA| SPORTSMAN CHANNEL
-http://vip.fr3tv.com:25443/live/xxx/141278.ts
-#EXTINF:-1,|CA| SPIKE TV / PARAMOUNT
-http://vip.fr3tv.com:25443/live/xxx/141279.ts
-#EXTINF:-1,|CA| SPACE
-http://vip.fr3tv.com:25443/live/xxx/141280.ts
-#EXTINF:-1,|CA| PEACH TREE
-http://vip.fr3tv.com:25443/live/xxx/141281.ts
-#EXTINF:-1,|CA| PBS 
-http://vip.fr3tv.com:25443/live/xxx/141282.ts
-#EXTINF:-1,|CA| OWN
-http://vip.fr3tv.com:25443/live/xxx/141283.ts
-#EXTINF:-1,|CA| OMNI 2
-http://vip.fr3tv.com:25443/live/xxx/141284.ts
-#EXTINF:-1,|CA| OMNI 1
-http://vip.fr3tv.com:25443/live/xxx/141285.ts
-#EXTINF:-1,|CA| NTV
-http://vip.fr3tv.com:25443/live/xxx/141286.ts
-#EXTINF:-1,|CA| NBC EAST
-http://vip.fr3tv.com:25443/live/xxx/141288.ts
-#EXTINF:-1,|CA| MTV 2
-http://vip.fr3tv.com:25443/live/xxx/141289.ts
-#EXTINF:-1,|CA| MTV 1
-http://vip.fr3tv.com:25443/live/xxx/141290.ts
-#EXTINF:-1,|CA| MTIME
-http://vip.fr3tv.com:25443/live/xxx/141291.ts
-#EXTINF:-1,|CA| MAVTV
-http://vip.fr3tv.com:25443/live/xxx/141293.ts
-#EXTINF:-1,|CA| KTLA
-http://vip.fr3tv.com:25443/live/xxx/141294.ts
-#EXTINF:-1,|CA| IFC HD
-http://vip.fr3tv.com:25443/live/xxx/141295.ts
-#EXTINF:-1,|CA| ID
-http://vip.fr3tv.com:25443/live/xxx/141296.ts
-#EXTINF:-1,|CA| HLN
-http://vip.fr3tv.com:25443/live/xxx/141297.ts
-#EXTINF:-1,|CA| H2
-http://vip.fr3tv.com:25443/live/xxx/141298.ts
-#EXTINF:-1,|CA| GUSTO
-http://vip.fr3tv.com:25443/live/xxx/141299.ts
-#EXTINF:-1,|CA| GSN
-http://vip.fr3tv.com:25443/live/xxx/141300.ts
-#EXTINF:-1,|CA| GOLF
-http://vip.fr3tv.com:25443/live/xxx/141301.ts
-#EXTINF:-1,|CA| GLOBAL VANCOUVER
-http://vip.fr3tv.com:25443/live/xxx/141302.ts
-#EXTINF:-1,|CA| GINX ESPORTS TV
-http://vip.fr3tv.com:25443/live/xxx/141303.ts
-#EXTINF:-1,|CA| FYI
-http://vip.fr3tv.com:25443/live/xxx/141304.ts
-#EXTINF:-1,|CA| FTV
-http://vip.fr3tv.com:25443/live/xxx/141305.ts
-#EXTINF:-1,|CA| FOX NEWS
-http://vip.fr3tv.com:25443/live/xxx/141307.ts
-#EXTINF:-1,|CA| FOX EAST
-http://vip.fr3tv.com:25443/live/xxx/141308.ts
-#EXTINF:-1,|CA| FAMILY 
-http://vip.fr3tv.com:25443/live/xxx/141309.ts
-#EXTINF:-1,|CA| Wildbrain TV CHRGD
-http://vip.fr3tv.com:25443/live/xxx/141310.ts
-#EXTINF:-1,|CA| DIY
-http://vip.fr3tv.com:25443/live/xxx/141311.ts
-#EXTINF:-1,|CA| DAYSTAR TV
-http://vip.fr3tv.com:25443/live/xxx/141312.ts
-#EXTINF:-1,|CA| CW 11
-http://vip.fr3tv.com:25443/live/xxx/141313.ts
-#EXTINF:-1,|CA| CNN
-http://vip.fr3tv.com:25443/live/xxx/141314.ts
-#EXTINF:-1,|CA| CNBC
-http://vip.fr3tv.com:25443/live/xxx/141315.ts
-#EXTINF:-1,|CA| CITY VANCOUVER
-http://vip.fr3tv.com:25443/live/xxx/141316.ts
-#EXTINF:-1,|CA| CITY TORONTO
-http://vip.fr3tv.com:25443/live/xxx/141317.ts
-#EXTINF:-1,|CA| CITY CALGARY
-http://vip.fr3tv.com:25443/live/xxx/141318.ts
-#EXTINF:-1,|CA| CBS WEST
-http://vip.fr3tv.com:25443/live/xxx/141319.ts
-#EXTINF:-1,|CA| CBS EAST
-http://vip.fr3tv.com:25443/live/xxx/141320.ts
-#EXTINF:-1,|CA| BBC
-http://vip.fr3tv.com:25443/live/xxx/141322.ts
-#EXTINF:-1,|CA| CTV Comedy HD
-http://vip.fr3tv.com:25443/live/xxx/141323.ts
-#EXTINF:-1,|CA| Bravo TV
-http://vip.fr3tv.com:25443/live/xxx/141324.ts
-#EXTINF:-1,|CA| BET
-http://vip.fr3tv.com:25443/live/xxx/141325.ts
-#EXTINF:-1,|CA| Disney Junior
-http://vip.fr3tv.com:25443/live/xxx/141089.ts
-#EXTINF:-1,|CA| LCN 
-http://vip.fr3tv.com:25443/live/xxx/141090.ts
-#EXTINF:-1,|CA.O| Canal Vie 
-http://vip.fr3tv.com:25443/live/xxx/141091.ts
-#EXTINF:-1,|CA.O| Casa 
-http://vip.fr3tv.com:25443/live/xxx/141092.ts
-#EXTINF:-1,|CA.O| Ici RDI
-http://vip.fr3tv.com:25443/live/xxx/141093.ts
-#EXTINF:-1,|CA| Meteo
-http://vip.fr3tv.com:25443/live/xxx/141095.ts
-#EXTINF:-1,|CA| MOI & CIE
-http://vip.fr3tv.com:25443/live/xxx/141096.ts
-#EXTINF:-1,|CA| Prise 2
-http://vip.fr3tv.com:25443/live/xxx/141097.ts
-#EXTINF:-1,|CA.O| TV5 Quebec
-http://vip.fr3tv.com:25443/live/xxx/141099.ts
-#EXTINF:-1,|CA.O| TVA Montreal
-http://vip.fr3tv.com:25443/live/xxx/141100.ts
-#EXTINF:-1,|CA| Vie
-http://vip.fr3tv.com:25443/live/xxx/141101.ts
-#EXTINF:-1,|CA.O| TVA Gatineau HD
-http://vip.fr3tv.com:25443/live/xxx/141102.ts
-#EXTINF:-1,|CA| TFO
-http://vip.fr3tv.com:25443/live/xxx/141103.ts
-#EXTINF:-1,|CA| Musique Plus
-http://vip.fr3tv.com:25443/live/xxx/141104.ts
-#EXTINF:-1,|CA| CBC Montreal CBMT DT
-http://vip.fr3tv.com:25443/live/xxx/141107.ts
-#EXTINF:-1,|CA.O| Tele Quebec
-http://vip.fr3tv.com:25443/live/xxx/141111.ts
-#EXTINF:-1,|CA.O| Ici Radio Canada Tele Montreal
-http://vip.fr3tv.com:25443/live/xxx/141109.ts
-#EXTINF:-1,|CA| Addik TV
-http://vip.fr3tv.com:25443/live/xxx/141114.ts
-#EXTINF:-1,|CA.O| Z Tele
-http://vip.fr3tv.com:25443/live/xxx/141270.ts
-#EXTINF:-1,|CA| Cinepop
-http://vip.fr3tv.com:25443/live/xxx/141137.ts
-#EXTINF:-1,|CA| Disney Channel
-http://vip.fr3tv.com:25443/live/xxx/141165.ts
-#EXTINF:-1,|CA| Elle Fictions
-http://vip.fr3tv.com:25443/live/xxx/141169.ts
-#EXTINF:-1,|CA| Evasion
-http://vip.fr3tv.com:25443/live/xxx/141170.ts
-#EXTINF:-1,|CA| Ici arTV
-http://vip.fr3tv.com:25443/live/xxx/141194.ts
-#EXTINF:-1,|CA.O| RDS Info
-http://vip.fr3tv.com:25443/live/xxx/141217.ts
-#EXTINF:-1,|CA.O| RDS
-http://vip.fr3tv.com:25443/live/xxx/141215.ts
-#EXTINF:-1,|CA.O| RDS 2
-http://vip.fr3tv.com:25443/live/xxx/141216.ts
-#EXTINF:-1,|CA.O| TVA Sports
-http://vip.fr3tv.com:25443/live/xxx/141256.ts
-#EXTINF:-1,|CA.O| TVA Sports 2
-http://vip.fr3tv.com:25443/live/xxx/141257.ts
-#EXTINF:-1,|CA| Telemagino
-http://vip.fr3tv.com:25443/live/xxx/141244.ts
-#EXTINF:-1,|CA| VRAK TV
-http://vip.fr3tv.com:25443/live/xxx/141262.ts
-#EXTINF:-1,|CA| Yoopa
-http://vip.fr3tv.com:25443/live/xxx/141268.ts
-#EXTINF:-1,|CA| Zeste
-http://vip.fr3tv.com:25443/live/xxx/141271.ts
-#EXTINF:-1,|CA.O| Canal Savoir
-http://vip.fr3tv.com:25443/live/xxx/141123.ts
-#EXTINF:-1,|CA| TeleToon
-http://vip.fr3tv.com:25443/live/xxx/141245.ts
-#EXTINF:-1,|CA| Unis TV
-http://vip.fr3tv.com:25443/live/xxx/141259.ts
-#EXTINF:-1,|CA| Super Ecran 4
-http://vip.fr3tv.com:25443/live/xxx/141242.ts
-#EXTINF:-1,|CA| Super Ecran 3
-http://vip.fr3tv.com:25443/live/xxx/141241.ts
-#EXTINF:-1,|CA| Super Ecran 2
-http://vip.fr3tv.com:25443/live/xxx/141240.ts
-#EXTINF:-1,|CA.O| Super Ecran 1
-http://vip.fr3tv.com:25443/live/xxx/141239.ts
-#EXTINF:-1,|CA| MAX
-http://vip.fr3tv.com:25443/live/xxx/141292.ts
-#EXTINF:-1,|CA| CPAC
-http://vip.fr3tv.com:25443/live/xxx/141144.ts
-#EXTINF:-1,|CA| DISCOVERY INVESTIGATION
-http://vip.fr3tv.com:25443/live/xxx/142825.ts
-#EXTINF:-1,|CA| Assembl
-http://vip.fr3tv.com:25443/live/xxx/142858.ts
-#EXTINF:-1,|CA| MEZZO LIVE 
-http://vip.fr3tv.com:25443/live/xxx/142866.ts
-#EXTINF:-1,|CA| BABY TV
-http://vip.fr3tv.com:25443/live/xxx/142878.ts
-#EXTINF:-1,|CA| ICI MONTREAL
-http://vip.fr3tv.com:25443/live/xxx/142879.ts
-#EXTINF:-1,|CA| ICI VANCOUVER
-http://vip.fr3tv.com:25443/live/xxx/142880.ts
-#EXTINF:-1,|CA| CITY MONTREAL
-http://vip.fr3tv.com:25443/live/xxx/142881.ts
-#EXTINF:-1,|CA| APTN
-http://vip.fr3tv.com:25443/live/xxx/142898.ts
-
 #EXTINF:-1,ABC (WOLO)
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1,ACC Network
@@ -24628,7 +22459,7 @@ http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 #EXTINF:-1,Discovery Channel
 http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 #EXTINF:-1,Discovery Family
-http://fl2.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
+http://fl2.moveonjoy.com/DISCOVERY_Family_CHANNEL/index.m3u8
 #EXTINF:-1,Discovery Life
 http://fl2.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
 #EXTINF:-1,Disney Channel
@@ -24692,9 +22523,9 @@ http://fl2.moveonjoy.com/HBO_2/index.m3u8
 #EXTINF:-1,HBO Comedy East
 http://fl2.moveonjoy.com/HBO_COMEDY/index.m3u8
 #EXTINF:-1,HBO Family East
-http://fl2.moveonjoy.com/HBO_FAMILY/index.m3u8
+http://fl2.moveonjoy.com/HBO_Family/index.m3u8
 #EXTINF:-1,HBO Zone East
-http://fl2.moveonjoy.com/HBO_ZONE/index.m3u8
+http://fl2.moveonjoy.com/HBO_Zone/index.m3u8
 #EXTINF:-1,HGTV East
 http://fl2.moveonjoy.com/HGTV/index.m3u8
 #EXTINF:-1,HLN
@@ -24770,15 +22601,15 @@ http://fl2.moveonjoy.com/REVOLT/index.m3u8
 #EXTINF:-1,SEC Network
 http://fl2.moveonjoy.com/SEC_NETWORK/index.m3u8
 #EXTINF:-1,Showtime East
-http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
+http://fl2.moveonjoy.com/Showtime/index.m3u8
 #EXTINF:-1,Showtime 2 East
-http://fl2.moveonjoy.com/SHOWTIME_2/index.m3u8
+http://fl2.moveonjoy.com/Showtime_2/index.m3u8
 #EXTINF:-1,Showtime Extreme East
-http://fl2.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
+http://fl2.moveonjoy.com/Showtime_Extreme/index.m3u8
 #EXTINF:-1,Showtime Next East
-http://fl2.moveonjoy.com/SHOWTIME_NEXT/index.m3u8
+http://fl2.moveonjoy.com/Showtime_Next/index.m3u8
 #EXTINF:-1,Showtime Women East
-http://fl2.moveonjoy.com/SHOWTIME_WOMEN/index.m3u8
+http://fl2.moveonjoy.com/Showtime_Women/index.m3u8
 #EXTINF:-1,Stadium
 http://fl2.moveonjoy.com/STADIUM/index.m3u8
 #EXTINF:-1,Starz East
@@ -24824,3 +22655,1569 @@ http://fl1.moveonjoy.com/WE_TV/index.m3u8
 #EXTINF:-1,YES Network
 http://fl2.moveonjoy.com/YES_NETWORK/index.m3u8
 
+#EXTINF:-1 group-title="USA Entertainment",ABC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9228
+#EXTINF:-1 group-title="USA Locals",ABC 02(Atlanta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64465
+#EXTINF:-1 group-title="USA Locals",ABC 02(Baltimore)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64464
+#EXTINF:-1 group-title="USA Locals",ABC 02(Milwaukee)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64467
+#EXTINF:-1 group-title="USA Locals",ABC 02(Nashville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64466
+#EXTINF:-1 group-title="USA Locals",ABC 02(Portland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64463
+#EXTINF:-1 group-title="USA Locals",ABC 04(Pittsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64461
+#EXTINF:-1 group-title="USA Locals",ABC 04(Salt Lake City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64462
+#EXTINF:-1 group-title="USA Locals",ABC 04(Seattle)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64460
+#EXTINF:-1 group-title="USA Locals",ABC 05(Boston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64459
+#EXTINF:-1 group-title="USA Locals",ABC 05(Saint Paul)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64458
+#EXTINF:-1 group-title="USA Locals",ABC 06(Indianapolis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64456
+#EXTINF:-1 group-title="USA Locals",ABC 06(Augusta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118529
+#EXTINF:-1 group-title="USA Locals",ABC 06(Philly)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64457
+#EXTINF:-1 group-title="USA Locals",ABC 07(Chicago)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64452
+#EXTINF:-1 group-title="USA Locals",ABC 07(Denver)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64453
+#EXTINF:-1 group-title="USA Locals",ABC 07(Detroit)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64450
+#EXTINF:-1 group-title="USA Locals",ABC 07(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64455
+#EXTINF:-1 group-title="USA Locals",ABC 07(New York)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64449
+#EXTINF:-1 group-title="USA Locals",ABC 07(San Franscisco-Bay Area)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64454
+#EXTINF:-1 group-title="USA Locals",ABC 07(Washington Dc)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64451
+#EXTINF:-1 group-title="USA Locals",ABC 08(Dallas)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64448
+#EXTINF:-1 group-title="USA Locals",ABC 08(Hartford)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64447
+#EXTINF:-1 group-title="USA Locals",ABC 09(Charlotte)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64446
+#EXTINF:-1 group-title="USA Locals",ABC 10 (Albany)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/120056
+#EXTINF:-1 group-title="USA Locals",ABC 10(Miami)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64444
+#EXTINF:-1 group-title="USA Locals",ABC 09(Orlando)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64445
+#EXTINF:-1 group-title="USA Locals",ABC 10(Sacremento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64442
+#EXTINF:-1 group-title="USA Locals",ABC 10(San Diego)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64443
+#EXTINF:-1 group-title="USA Locals",ABC 11(Raleigh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64441
+#EXTINF:-1 group-title="USA Locals",ABC 13(Houston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64440
+#EXTINF:-1 group-title="USA Locals",ABC 15(Pheonix)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64439
+#EXTINF:-1 group-title="USA Locals",ABC 25(Waco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118472
+#EXTINF:-1 group-title="USA Locals",ABC 28(Tampa Bay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64438
+#EXTINF:-1 group-title="USA Locals",ABC 30(Fresno)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64437
+#EXTINF:-1 group-title="USA Locals",ABC 30(ST Louis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64436
+#EXTINF:-1 group-title="USA Locals",Bay News 9 (Tampa Bay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/120024
+#EXTINF:-1 group-title="USA News",ABC NEWS LIVE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/21471
+#EXTINF:-1 group-title="USA Sports",ACC Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/68765
+#EXTINF:-1 group-title="Religion (ALL)",ACCTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75545
+#EXTINF:-1 group-title="Religion (ALL)",ACCTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75546
+#EXTINF:-1 group-title="USA News",ACU WEATHER
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100367
+#EXTINF:-1 group-title="USA Entertainment",Adult Swim
+http://lunar.pm:8080/2059077719/18iBHPlGyC/66602
+#EXTINF:-1 group-title="USA Entertainment",AFN Family/Pulse
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118462
+#EXTINF:-1 group-title="USA Entertainment",AFN Movie
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118463
+#EXTINF:-1 group-title="USA News",AFN News
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118464
+#EXTINF:-1 group-title="USA Entertainment",AFN Prime Atlantic
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118465
+#EXTINF:-1 group-title="USA Entertainment",AFN Prime Pacific
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118466
+#EXTINF:-1 group-title="USA Entertainment",AFN Spectrum
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118467
+#EXTINF:-1 group-title="USA Entertainment",AMC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9227
+#EXTINF:-1 group-title="USA Entertainment",AMC+
+http://lunar.pm:8080/2059077719/18iBHPlGyC/108531
+#EXTINF:-1 group-title="USA Entertainment",AMERICAN HEROES
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9218
+#EXTINF:-1 group-title="USA Entertainment",ANIMAL PLANET
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9217
+#EXTINF:-1 group-title="USA Entertainment",Antenna
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9200
+#EXTINF:-1 group-title="USA Entertainment",Aspire
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105642
+#EXTINF:-1 group-title="USA Sports",AT&T Sportsnet
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56636
+#EXTINF:-1 group-title="USA Entertainment",AXS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/47718
+#EXTINF:-1 group-title="USA Entertainment",BBC AMERICA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9215
+#EXTINF:-1 group-title="USA News",BBC WORLD NEWS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8805
+#EXTINF:-1 group-title="USA Sports",BEIN SPORTS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9406
+#EXTINF:-1 group-title="USA Entertainment",BET
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9214
+#EXTINF:-1 group-title="USA Entertainment",BET HER
+http://lunar.pm:8080/2059077719/18iBHPlGyC/49221
+#EXTINF:-1 group-title="USA Entertainment",BET JAMZ 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98681
+#EXTINF:-1 group-title="USA Entertainment",BET SOUL 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98682
+#EXTINF:-1 group-title="USA Entertainment",Blaze Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105643
+#EXTINF:-1 group-title="USA Sports",BIG TEN NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9572
+#EXTINF:-1 group-title="USA News", BNC (Black News Channel)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105617
+#EXTINF:-1 group-title="USA Entertainment",BOUNCE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9211
+#EXTINF:-1 group-title="USA Entertainment",BRAVO
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9210
+#EXTINF:-1 group-title="USA Entertainment",BRAVO (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56094
+#EXTINF:-1 group-title="USA Entertainment",BUZZR
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9209
+#EXTINF:-1 group-title="USA News",C-SPAN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98734
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Acadie HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99972
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Alberta HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99973
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele CB-Yukon HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99974
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Est-Quebec HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99975
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Estrie HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99976
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Manitoba HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99977
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Mauricie HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99978
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Montreal HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99979
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Ontario HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99980
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Ottawa-Gatineau HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99981
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Quebec HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99982
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Saguenay HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99983
+#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Saskatchewan HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99984
+#EXTINF:-1 group-title="Canada Locals",CA CBC Calgary HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99945
+#EXTINF:-1 group-title="Canada Locals",CA CBC Charlottetown HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99946
+#EXTINF:-1 group-title="Canada Locals",CA CBC Edmonton HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99947
+#EXTINF:-1 group-title="Canada Locals",CA CBC Fredericton HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99948
+#EXTINF:-1 group-title="Canada Locals",CA CBC Halifax HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99949
+#EXTINF:-1 group-title="Canada Locals",CA CBC Montreal HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99950
+#EXTINF:-1 group-title="Canada Locals",CA CBC News Network HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99944
+#EXTINF:-1 group-title="Canada Locals",CA CBC Ottawa HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99951
+#EXTINF:-1 group-title="Canada Locals",CA CBC Regina HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99952
+#EXTINF:-1 group-title="Canada Locals",CA CBC St John's HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99953
+#EXTINF:-1 group-title="Canada Locals",CA CBC Toronto HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99954
+#EXTINF:-1 group-title="Canada Locals",CA CBC Vancouver HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99955
+#EXTINF:-1 group-title="Canada Locals",CA CBC Windsor HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99956
+#EXTINF:-1 group-title="Canada Locals",CA CBC Winnipeg HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99957
+#EXTINF:-1 group-title="Canada Locals",CA CBC Yellowknife HD (D)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99958
+#EXTINF:-1 group-title="Canada Locals",CA CTV (Ottawa) (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99966
+#EXTINF:-1 group-title="Canada Locals",CA CTV Atlantic HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99962
+#EXTINF:-1 group-title="Canada Locals",CA CTV Kitchener HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99964
+#EXTINF:-1 group-title="Canada Locals",CA CTV News Channel HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99961
+#EXTINF:-1 group-title="Canada Locals",CA CTV Toronto HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99960
+#EXTINF:-1 group-title="Canada Locals",CA CTV Two Atlantic (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99963
+#EXTINF:-1 group-title="Canada Locals",CA CTV2 Atlantic HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99959
+#EXTINF:-1 group-title="Canada Locals",CA CTV2 London HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99965
+#EXTINF:-1 group-title="Canada Locals",CA CTV2 Ottawa HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99967
+#EXTINF:-1 group-title="Canada Locals",CA Global Calgary (SD)  (P)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99971
+#EXTINF:-1 group-title="Canada Locals",CA Global Durham HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99970
+#EXTINF:-1 group-title="Canada Locals",CA Global National (HD) (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99969
+#EXTINF:-1 group-title="Canada Locals",CA Global Toronto HD (R)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99968
+#EXTINF:-1 group-title="Canada Entertainment",CA: A&E
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94883
+#EXTINF:-1 group-title="Canada Entertainment",CA: ABC EAST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94884
+#EXTINF:-1 group-title="Canada Entertainment",CA: ABC Spark
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94885
+#EXTINF:-1 group-title="Canada Entertainment",CA: Addik TV (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94886
+#EXTINF:-1 group-title="Canada Entertainment",CA: AHC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94887
+#EXTINF:-1 group-title="Canada Entertainment",CA: AMC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94888
+#EXTINF:-1 group-title="Canada Documentries",CA: Animal Planet
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67226
+#EXTINF:-1 group-title="Canada News",CA: APTN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67225
+#EXTINF:-1 group-title="Canada News",CA: BBC Canada
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67223
+#EXTINF:-1 group-title="Canada News",CA: BBC EARTH
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67222
+#EXTINF:-1 group-title="Canada Entertainment",CA: BET
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94889
+#EXTINF:-1 group-title="Canada News",CA: BNN Bloomberg
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67220
+#EXTINF:-1 group-title="Canada Entertainment",CA: Canal D (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94891
+#EXTINF:-1 group-title="Canada Kids",CA: CARTOON NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67215
+#EXTINF:-1 group-title="Canada Entertainment",CA: CASA (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94893
+#EXTINF:-1 group-title="Canada News",CA: CBC NEWS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67212
+#EXTINF:-1 group-title="Canada Entertainment",CA: CBS 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94894
+#EXTINF:-1 group-title="Canada Entertainment",CA: CHCH
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94896
+#EXTINF:-1 group-title="Canada Entertainment",CA: CinePOP (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94897
+#EXTINF:-1 group-title="Canada Entertainment",CA: CMT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94898
+#EXTINF:-1 group-title="Canada News",CA: CNN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67196
+#EXTINF:-1 group-title="Canada News",CA: CNN INTERNATIONAL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67195
+#EXTINF:-1 group-title="Canada Entertainment",CA: CTV COMEDY CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94900
+#EXTINF:-1 group-title="Canada Entertainment",CA: COOKING CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94901
+#EXTINF:-1 group-title="Canada News",CA: CP24
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67189
+#EXTINF:-1 group-title="Canada News",CA: CPAC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67188
+#EXTINF:-1 group-title="Canada News",CA: CPAC  (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67187
+#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67186
+#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67185
+#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 3
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67184
+#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 4
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67183
+#EXTINF:-1 group-title="Canada Documentries",CA: Crime & Investigation
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67182
+#EXTINF:-1 group-title="Canada Entertainment",CA: DAYSTAR TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94903
+#EXTINF:-1 group-title="Canada Documentries",CA: DejaView
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67169
+#EXTINF:-1 group-title="Canada Documentries",CA: Discovery Channel
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67168
+#EXTINF:-1 group-title="Canada Documentries",CA: DISCOVERY SCIENCE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67167
+#EXTINF:-1 group-title="Canada Kids",CA: DISNEY (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67165
+#EXTINF:-1 group-title="Canada Kids",CA: DISNEY CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67166
+#EXTINF:-1 group-title="Canada Kids",CA: Disney Junior (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67164
+#EXTINF:-1 group-title="Canada Kids",CA: Disney XD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94881
+#EXTINF:-1 group-title="Canada Documentries",CA: DIY/MAGNOLIA NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67163
+#EXTINF:-1 group-title="Canada Entertainment",CA: DTOUR
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94904
+#EXTINF:-1 group-title="Canada Entertainment",CA: E!
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94905
+#EXTINF:-1 group-title="Canada Entertainment",CA: Evasion (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94906
+#EXTINF:-1 group-title="Canada Movies",CA: Wildbrain TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67157
+#EXTINF:-1 group-title="Canada Entertainment",CA: Family EAST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94907
+#EXTINF:-1 group-title="Canada Kids",CA: Family JR
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67155
+#EXTINF:-1 group-title="Canada Sports",CA: FIGHT NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67153
+#EXTINF:-1 group-title="Canada Entertainment",CA: FOX 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94909
+#EXTINF:-1 group-title="Canada News",CA: FOX NEWS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67150
+#EXTINF:-1 group-title="Canada Entertainment",CA: FX
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94913
+#EXTINF:-1 group-title="Canada Entertainment",CA: FXX
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94914
+#EXTINF:-1 group-title="Canada Entertainment",CA: Game TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94916
+#EXTINF:-1 group-title="Canada Sports",CA: GINX ESPORTS TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67144
+#EXTINF:-1 group-title="Canada Sports",CA: GOLF
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67139
+#EXTINF:-1 group-title="Canada Documentries",CA: H2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67136
+#EXTINF:-1 group-title="Canada Movies",CA: HBO
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67135
+#EXTINF:-1 group-title="Canada Movies",CA: HBO 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67134
+#EXTINF:-1 group-title="Canada Documentries",CA: HGTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67133
+#EXTINF:-1 group-title="Canada Documentries",CA: Historia (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67132
+#EXTINF:-1 group-title="Canada Documentries",CA: HISTORY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67131
+#EXTINF:-1 group-title="Canada Documentries",CA: HLN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67130
+#EXTINF:-1 group-title="Canada Documentries",CA: Investigation Discovery
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67123
+#EXTINF:-1 group-title="Canada Entertainment",CA: KTLA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94919
+#EXTINF:-1 group-title="Canada Entertainment",CA: LIFETIME
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94921
+#EXTINF:-1 group-title="Canada Entertainment",CA: MAKEFUL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94922
+#EXTINF:-1 group-title="Canada Sports",CA: MAVTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67117
+#EXTINF:-1 group-title="Canada Entertainment",CA: MAX (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94923
+#EXTINF:-1 group-title="Canada Movies",CA: MovieTime
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67111
+#EXTINF:-1 group-title="Canada Entertainment",CA: MTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94927
+#EXTINF:-1 group-title="Canada Entertainment",CA: MUCH MUSIC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94929
+#EXTINF:-1 group-title="Canada Documentries",CA: Nat Geo
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67106
+#EXTINF:-1 group-title="Canada Documentries",CA: Nat Geo Wild
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94882
+#EXTINF:-1 group-title="Canada Sports",CA: NBA TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67105
+#EXTINF:-1 group-title="Canada Entertainment",CA: NBC 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94931
+#EXTINF:-1 group-title="Canada Kids",CA: NICK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67102
+#EXTINF:-1 group-title="Canada Documentries",CA: OLN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67100
+#EXTINF:-1 group-title="Canada Entertainment",CA: OMNI 1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94934
+#EXTINF:-1 group-title="Canada Entertainment",CA: OMNI 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94935
+#EXTINF:-1 group-title="Canada Entertainment",CA: ONE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94936
+#EXTINF:-1 group-title="Canada Entertainment",CA: OWN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94937
+#EXTINF:-1 group-title="Canada Entertainment",CA: PBS EAST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94938
+#EXTINF:-1 group-title="Canada Kids",CA: PEACHTREE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67093
+#EXTINF:-1 group-title="Canada Entertainment",CA: Prise 2 (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94940
+#EXTINF:-1 group-title="Canada Sports",CA: RDS (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67090
+#EXTINF:-1 group-title="Canada Entertainment",CA: SERIES Plus (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94942
+#EXTINF:-1 group-title="Canada Entertainment",CA: SHOPPING CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94943
+#EXTINF:-1 group-title="Canada Movies",CA: Showcase EAST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67084
+#EXTINF:-1 group-title="Canada Movies",CA: SILVER SCREEN CLASSICS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67083
+#EXTINF:-1 group-title="Canada Entertainment",CA: SLICE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94944
+#EXTINF:-1 group-title="Canada Documentries",CA: SMITHSONIAN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67081
+#EXTINF:-1 group-title="Canada Entertainment",CA: SPIKE TV/PARAMOUNT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94945
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSMAN CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67078
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET 360
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67077
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET EAST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67076
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET ONE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67075
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET ONTARIO
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67074
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET PACIFIC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67073
+#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET WEST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67072
+#EXTINF:-1 group-title="Canada Entertainment",CA: SUPER CHANNEL HEART & HOME
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94946
+#EXTINF:-1 group-title="Canada Entertainment",CA: SUPER CHANNEL VAULT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94947
+#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 1 (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67069
+#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 2(FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67068
+#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 3 (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67067
+#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 4 (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67066
+#EXTINF:-1 group-title="Canada Movies",CA: TCM
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67064
+#EXTINF:-1 group-title="Canada News",CA: THE WEATHER NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67056
+#EXTINF:-1 group-title="Canada Entertainment",CA: TLC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94949
+#EXTINF:-1 group-title="Canada Entertainment",CA: TRAVEL ESCAPE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94950
+#EXTINF:-1 group-title="Canada Kids",CA: TREEHOUSE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67053
+#EXTINF:-1 group-title="Canada Sports",CA: TSN 1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67052
+#EXTINF:-1 group-title="Canada Sports",CA: TSN 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67050
+#EXTINF:-1 group-title="Canada Sports",CA: TSN 3
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67048
+#EXTINF:-1 group-title="Canada Sports",CA: TSN 4
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67046
+#EXTINF:-1 group-title="Canada Sports",CA: TSN 5
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67044
+#EXTINF:-1 group-title="Canada Entertainment",CA: TV5 Quebec (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94951
+#EXTINF:-1 group-title="Canada Sports",CA: TVA Sports (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67041
+#EXTINF:-1 group-title="Canada Kids",CA: TVO KIDS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94952
+#EXTINF:-1 group-title="Canada Entertainment",CA: Unis TV (FR)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94953
+#EXTINF:-1 group-title="Canada Entertainment",CA: VISION
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94955
+#EXTINF:-1 group-title="Canada Entertainment",CA: W NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94957
+#EXTINF:-1 group-title="Canada Documentries",CA: WFN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67034
+#EXTINF:-1 group-title="Canada Entertainment",CA: WGN 9
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94958
+#EXTINF:-1 group-title="Canada Documentries",CA: Wild_TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67032
+#EXTINF:-1 group-title="Canada Entertainment",CA: YES TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94960
+#EXTINF:-1 group-title="Canada Kids",CA: YTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/94962
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 368
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70941
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 431
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70942
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 432
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70943
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 433
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70944
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 434
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70945
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 435
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70946
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 436
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70947
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 437
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70948
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 438
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70950
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 439
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70949
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 440
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70951
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 441
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70952
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 442
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70953
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 443
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70954
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 444
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70955
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 450
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70956
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 452
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70957
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 453
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70958
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 454
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70961
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 455
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70959
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 456
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70960
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 457
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70962
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 458
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70963
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 459
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70964
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 460
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70965
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 461
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70966
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 462
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70967
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 464
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70968
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 465
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70969
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 473
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70970
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 474
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70971
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 475
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70972
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 476
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70973
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 477
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70974
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 478
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70976
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 479
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70975
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 480
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70977
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 481
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70978
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 482
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70979
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 483
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70980
+#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 484
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70981
+#EXTINF:-1 group-title="Religion (ALL)",Canal Vie
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75562
+#EXTINF:-1 group-title="USA Kids",CARTOON NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8869
+#EXTINF:-1 group-title="USA Entertainment",CBS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9208
+#EXTINF:-1 group-title="USA Locals",CBS 02(Boise)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64578
+#EXTINF:-1 group-title="USA Locals",CBS 02(Chicago)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64575
+#EXTINF:-1 group-title="USA Locals",CBS 02(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64580
+#EXTINF:-1 group-title="USA Locals",CBS 02(New York)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64577
+#EXTINF:-1 group-title="USA Locals",CBS 02(Pittsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64574
+#EXTINF:-1 group-title="USA Locals",CBS 02(Reno)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64573
+#EXTINF:-1 group-title="USA Locals",CBS 02(Salt Lake City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64572
+#EXTINF:-1 group-title="USA Locals",CBS 02(Spokane)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64576
+#EXTINF:-1 group-title="USA Locals",CBS 02/09(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64570
+#EXTINF:-1 group-title="USA Locals",CBS 03(Charlotte)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64567
+#EXTINF:-1 group-title="USA Locals",CBS 03(Hartford)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64564
+#EXTINF:-1 group-title="USA Locals",CBS 03(OMAHA)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64566
+#EXTINF:-1 group-title="USA Locals",CBS 03(Philly)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64569
+#EXTINF:-1 group-title="USA Locals",CBS 04(Boston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64560
+#EXTINF:-1 group-title="USA Locals",CBS 04(Buffalo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64550
+#EXTINF:-1 group-title="USA Locals",CBS 04(Denver)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64557
+#EXTINF:-1 group-title="USA Locals",CBS 04(EL Paso Tx)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64554
+#EXTINF:-1 group-title="USA Locals",CBS 04(Miami)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64555
+#EXTINF:-1 group-title="USA Locals",CBS 04(Minneapolis St Paul)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64561
+#EXTINF:-1 group-title="USA Locals",CBS 04(New Orleans)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64558
+#EXTINF:-1 group-title="USA Locals",CBS 04(St Louis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64559
+#EXTINF:-1 group-title="USA Locals",CBS 05(Green Bay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64553
+#EXTINF:-1 group-title="USA Locals",CBS 05(Honolulu)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64552
+#EXTINF:-1 group-title="USA Locals",CBS 05(Nashville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64544
+#EXTINF:-1 group-title="USA Locals",CBS 05(Phoenix)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64546
+#EXTINF:-1 group-title="USA Locals",CBS 05(San Antonio)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64549
+#EXTINF:-1 group-title="USA Locals",CBS 05(San Francisco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64548
+#EXTINF:-1 group-title="USA Locals",CBS 06(Albany)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64536
+#EXTINF:-1 group-title="USA Locals",CBS 06(Orlando)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64539
+#EXTINF:-1 group-title="USA Locals",CBS 06(Portland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64538
+#EXTINF:-1 group-title="USA Locals",CBS 07(Dayton)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64535
+#EXTINF:-1 group-title="USA Locals",CBS 07(Seattle)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64533
+#EXTINF:-1 group-title="USA Locals",CBS 08(Las Vegas)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64527
+#EXTINF:-1 group-title="USA Locals",CBS 08(San Diego)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64531
+#EXTINF:-1 group-title="USA Locals",CBS 09(Washington Dc)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64524
+#EXTINF:-1 group-title="USA Locals",CBS 10(Columbus)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64522
+#EXTINF:-1 group-title="USA Locals",CBS 10(Springfield Mo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64516
+#EXTINF:-1 group-title="USA Locals",CBS 10(Tampa)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64519
+#EXTINF:-1 group-title="USA Locals",CBS 10(Waco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118473
+#EXTINF:-1 group-title="USA Locals",CBS 10/55(NY)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64521
+#EXTINF:-1 group-title="USA Locals",CBS 11(Colorado Springs)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64513
+#EXTINF:-1 group-title="USA Locals",CBS 11(Dallas/Fort Worth)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64510
+#EXTINF:-1 group-title="USA Locals",CBS 11(Houston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64512
+#EXTINF:-1 group-title="USA Locals",CBS 11(Little Rock)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64511
+#EXTINF:-1 group-title="USA Locals",CBS 11(Savannah)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64509
+#EXTINF:-1 group-title="USA Locals",CBS 12(Augusta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64500
+#EXTINF:-1 group-title="USA Locals",CBS 12(Cincinnati)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64505
+#EXTINF:-1 group-title="USA Locals",CBS 12(Jackson Mississippi)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64504
+#EXTINF:-1 group-title="USA Locals",CBS 12(West Palm Beach)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64502
+#EXTINF:-1 group-title="USA Locals",CBS 13(Baltimore)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64492
+#EXTINF:-1 group-title="USA Locals",CBS 13 (Macon)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64490
+#EXTINF:-1 group-title="USA Locals",CBS 13(Sacramento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64493
+#EXTINF:-1 group-title="USA Locals",CBS 13(Tuscon)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64491
+#EXTINF:-1 group-title="USA Locals",CBS 19(Cleveland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64486
+#EXTINF:-1 group-title="USA Locals",CBS 21(Dallas/Fort worth)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64485
+#EXTINF:-1 group-title="USA Locals",CBS 32(Louisville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64477
+#EXTINF:-1 group-title="USA Locals",CBS 42(Birmingham)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64475
+#EXTINF:-1 group-title="USA Locals",CBS 46(Atlanta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64472
+#EXTINF:-1 group-title="USA Locals",CBS 47(Fresno)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64470
+#EXTINF:-1 group-title="USA Locals",CBS 47(Jacksonville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64471
+#EXTINF:-1 group-title="USA Locals",CBS 58(Milwaukee)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64469
+#EXTINF:-1 group-title="USA Locals",CBS 62(Detroit)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64468
+#EXTINF:-1 group-title="USA Sports",CBS Sports Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9570
+#EXTINF:-1 group-title="USA News",CBSN 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8846
+#EXTINF:-1 group-title="Religion (ALL)",CGNTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75567
+#EXTINF:-1 group-title="USA Movies",Cinemax (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18210
+#EXTINF:-1 group-title="USA Movies",Cinemax (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98689
+#EXTINF:-1 group-title="USA Movies",Cinemax ActionMax (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18211
+#EXTINF:-1 group-title="USA Movies",Cinemax ActionMax (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98688
+#EXTINF:-1 group-title="USA Movies",Cinemax MoreMax (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98684
+#EXTINF:-1 group-title="USA Movies",Cinemax MoreMax (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98685
+#EXTINF:-1 group-title="USA Movies",Cinemax MovieMax
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98729
+#EXTINF:-1 group-title="USA Movies",Cinemax ThrillerMax (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98686
+#EXTINF:-1 group-title="USA Movies",Cinemax ThrillerMax (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98687
+#EXTINF:-1 group-title="USA Entertainment",CLEO TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105644
+#EXTINF:-1 group-title="USA Entertainment",CMT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9207
+#EXTINF:-1 group-title="USA News",CNBC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/120016
+#EXTINF:-1 group-title="USA News",CNBC.World
+http://lunar.pm:8080/2059077719/18iBHPlGyC/25724
+#EXTINF:-1 group-title="USA News",CNN SD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8854
+#EXTINF:-1 group-title="USA Entertainment",COMEDY CENTRAL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9206
+#EXTINF:-1 group-title="USA Entertainment",COOKING CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9205
+#EXTINF:-1 group-title="USA Entertainment",Comet Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64816
+#EXTINF:-1 group-title="USA Entertainment",Cozi
+http://lunar.pm:8080/2059077719/18iBHPlGyC/21473
+#EXTINF:-1 group-title="USA Locals",CW 11(seattle)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64588
+#EXTINF:-1 group-title="USA Locals",CW 19(Pittsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64587
+#EXTINF:-1 group-title="USA Locals",CW 31(Sacramento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64586
+#EXTINF:-1 group-title="USA Locals",CW 44(San Francisco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64585
+#EXTINF:-1 group-title="USA Locals",CW 44(Tampa Bay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64584
+#EXTINF:-1 group-title="USA Locals",CW 50(Detroit)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64583
+#EXTINF:-1 group-title="USA Locals",CW 57(Philly)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64582
+#EXTINF:-1 group-title="USA Locals",CW 69(Atlanta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64581
+#EXTINF:-1 group-title="USA News",C_SPAN 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98735
+#EXTINF:-1 group-title="USA Kids",DISNEY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9343
+#EXTINF:-1 group-title="USA Kids",DISNEY JR
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8871
+#EXTINF:-1 group-title="USA Kids",DISNEY XD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9341
+#EXTINF:-1 group-title="Religion (ALL)",Divine Vision
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75578
+#EXTINF:-1 group-title="USA Entertainment",DogTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/63404
+#EXTINF:-1 group-title="USA Entertainment",E!
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9198
+#EXTINF:-1 group-title="USA Entertainment",E! (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56095
+#EXTINF:-1 group-title="USA Movies",MGM+
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18206
+#EXTINF:-1 group-title="USA Movies",MGM+ Hits
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98690
+#EXTINF:-1 group-title="USA Movies",MGM+ Drive-In
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98691
+#EXTINF:-1 group-title="USA Movies",MGM+ Marquee
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18205
+#EXTINF:-1 group-title="USA Sports",ESPN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9569
+#EXTINF:-1 group-title="USA Sports",ESPN 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9568
+#EXTINF:-1 group-title="USA Sports",ESPN Deportes
+http://lunar.pm:8080/2059077719/18iBHPlGyC/47478
+#EXTINF:-1 group-title="USA Sports",ESPN Longhorn Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/109317
+#EXTINF:-1 group-title="USA Sports",ESPN NEWS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9563
+#EXTINF:-1 group-title="USA Sports",ESPN U
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9561
+#EXTINF:-1 group-title="UK Movies",Film 4
+http://lunar.pm:8080/2059077719/18iBHPlGyC/21436
+#EXTINF:-1 group-title="USA Entertainment",Folk Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100321
+#EXTINF:-1 group-title="USA Entertainment",FOOD NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9195
+#EXTINF:-1 group-title="USA Entertainment",Food Network (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56096
+#EXTINF:-1 group-title="USA Entertainment",FOX
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9194
+#EXTINF:-1 group-title="USA Locals",FOX 02 (Honolulu)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64695
+#EXTINF:-1 group-title="USA Locals",FOX 02(Detroit)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64697
+#EXTINF:-1 group-title="USA Locals",FOX 02(San Franscisco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64698
+#EXTINF:-1 group-title="USA Locals",FOX 02(St Louis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64696
+#EXTINF:-1 group-title="USA Locals",FOX 04(Dallas/Ft Worth)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64694
+#EXTINF:-1 group-title="USA Locals",FOX 04(Kansas City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64693
+#EXTINF:-1 group-title="USA Locals",FOX 05(Atlanta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64689
+#EXTINF:-1 group-title="USA Locals",FOX 5  Las Vegas
+http://lunar.pm:8080/2059077719/18iBHPlGyC/109214
+#EXTINF:-1 group-title="USA Locals",FOX 05(New York)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64690
+#EXTINF:-1 group-title="USA Locals",FOX 05(Washington DC)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64691
+#EXTINF:-1 group-title="USA Locals",FOX 06(Birmingham)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64688
+#EXTINF:-1 group-title="USA Locals",FOX 06(Milwaukee)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64687
+#EXTINF:-1 group-title="USA Locals",FOX 07(Austin)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64684
+#EXTINF:-1 group-title="USA Locals",FOX 07(Miami)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64686
+#EXTINF:-1 group-title="USA Locals",FOX 07(Sioux Falls)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64685
+#EXTINF:-1 group-title="USA Locals",FOX 08(Cleveland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64682
+#EXTINF:-1 group-title="USA Locals",FOX 08(New Orleans)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64683
+#EXTINF:-1 group-title="USA Locals",FOX 09(Minneapolis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64680
+#EXTINF:-1 group-title="USA Locals",FOX 10(Phoenix)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64678
+#EXTINF:-1 group-title="USA Locals",FOX 11(Charleston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64674
+#EXTINF:-1 group-title="USA Locals",FOX 11(Green Bay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64675
+#EXTINF:-1 group-title="USA Locals",FOX 11(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64677
+#EXTINF:-1 group-title="USA Locals",FOX 11(Reno)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64672
+#EXTINF:-1 group-title="USA Locals",FOX 11(Tuscon)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64673
+#EXTINF:-1 group-title="USA Locals",FOX 12(Portland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64671
+#EXTINF:-1 group-title="USA Locals",FOX 13(Memphis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64669
+#EXTINF:-1 group-title="USA Locals",FOX 13(New Mexico)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64668
+#EXTINF:-1 group-title="USA Locals",FOX 13(Salt Lake City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64670
+#EXTINF:-1 group-title="USA Locals",FOX 13(Tacoma)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64666
+#EXTINF:-1 group-title="USA Locals",FOX 13(Tampa)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64667
+#EXTINF:-1 group-title="USA Locals",FOX 14(El Paso)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64665
+#EXTINF:-1 group-title="USA Locals",FOX 15(Fargo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64663
+#EXTINF:-1 group-title="USA Locals",FOX 16( Little Rock)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64662
+#EXTINF:-1 group-title="USA Locals",FOX 17(Des Moines)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64660
+#EXTINF:-1 group-title="USA Locals",FOX 17(Grand Rapids)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64661
+#EXTINF:-1 group-title="USA Locals",FOX 17(Nashville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64659
+#EXTINF:-1 group-title="USA Locals",FOX 19(Cincinnati)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64657
+#EXTINF:-1 group-title="USA Locals",FOX 21(Colorado Springs)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64655
+#EXTINF:-1 group-title="USA Locals",FOX 23(Tulsa)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64650
+#EXTINF:-1 group-title="USA Locals",FOX 24(Macon)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64649
+#EXTINF:-1 group-title="USA Locals",FOX 25(Boston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64646
+#EXTINF:-1 group-title="USA Locals",FOX 25(Oaklahoma City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64645
+#EXTINF:-1 group-title="USA Locals",FOX 26(Fresno)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64643
+#EXTINF:-1 group-title="USA Locals",FOX 26(Houston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64642
+#EXTINF:-1 group-title="USA Locals",FOX 28(Colombus)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64638
+#EXTINF:-1 group-title="USA Locals",FOX 28(Savannah)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64639
+#EXTINF:-1 group-title="USA Locals",FOX 28(Spokane)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64640
+#EXTINF:-1 group-title="USA Locals",FOX 29(Buffalo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64634
+#EXTINF:-1 group-title="USA Locals",FOX 29(Philadelphia)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64635
+#EXTINF:-1 group-title="USA Locals",FOX 29(San Antonio)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64636
+#EXTINF:-1 group-title="USA Locals",FOX 29(West Palm Beach)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64633
+#EXTINF:-1 group-title="USA Locals",FOX 30(Jacksonville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64632
+#EXTINF:-1 group-title="USA Locals",FOX 31(Denver)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64631
+#EXTINF:-1 group-title="USA Locals",FOX 31(Albany)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64630
+#EXTINF:-1 group-title="USA Locals",FOX 32(Chicago)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64629
+#EXTINF:-1 group-title="USA Locals",FOX 35(Orlando)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64625
+#EXTINF:-1 group-title="USA Locals",FOX 35(Richmond)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64626
+#EXTINF:-1 group-title="USA Locals",FOX 38(Corpus Christi)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64623
+#EXTINF:-1 group-title="USA Locals",FOX 40(Sacramento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64622
+#EXTINF:-1 group-title="USA Locals",FOX 42(Omaha)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64620
+#EXTINF:-1 group-title="USA Locals",FOX 44(Waco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118474
+#EXTINF:-1 group-title="USA Locals",FOX 45(Baltimore)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64612
+#EXTINF:-1 group-title="USA Locals",FOX 46(Charolette)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64611
+#EXTINF:-1 group-title="USA Locals",FOX 49(Sacramento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64608
+#EXTINF:-1 group-title="USA Locals",FOX 50(Raleigh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64606
+#EXTINF:-1 group-title="USA Locals",FOX 53(Pittsburg)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64602
+#EXTINF:-1 group-title="USA Locals",FOX 54(Augusta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64600
+#EXTINF:-1 group-title="USA Locals",FOX 55/27(Illinois)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64599
+#EXTINF:-1 group-title="USA Locals",FOX 59(Indianapolis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64594
+#EXTINF:-1 group-title="USA Locals",FOX 61(Hartford)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64593
+#EXTINF:-1 group-title="USA News",FOX BUSINESS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9328
+#EXTINF:-1 group-title="USA Sports",FOX SPORTS 1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9555
+#EXTINF:-1 group-title="USA Sports",FOX SPORTS 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9554
+#EXTINF:-1 group-title="USA Sports",FOX COLLEGE ATLANTIC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9556
+#EXTINF:-1 group-title="USA Sports",FOX COLLEGE CENTRAL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9558
+#EXTINF:-1 group-title="USA Sports",FOX COLLEGE PACIFIC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9557
+#EXTINF:-1 group-title="USA News",Fox News
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8849
+#EXTINF:-1 group-title="USA Sports",FOX SOCCER PLUS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9551
+#EXTINF:-1 group-title="USA Entertainment",FREEFORM
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9193
+#EXTINF:-1 group-title="USA Sports",FreeSports (UK)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64909
+#EXTINF:-1 group-title="USA Entertainment",FUSE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9192
+#EXTINF:-1 group-title="USA Entertainment",FX
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9190
+#EXTINF:-1 group-title="USA Entertainment",FXM
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9189
+#EXTINF:-1 group-title="USA Entertainment",FXX
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9188
+#EXTINF:-1 group-title="USA Entertainment",FYI
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9187
+#EXTINF:-1 group-title="USA Entertainment",Great American Country-Family
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105641
+#EXTINF:-1 group-title="USA Sports",Gol TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/66605
+#EXTINF:-1 group-title="USA Entertainment",GRIT TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9185
+#EXTINF:-1 group-title="USA Entertainment",GSN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9184
+#EXTINF:-1 group-title="USA Entertainment",HALLMARK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9183
+#EXTINF:-1 group-title="USA Entertainment",Hallmark Drama
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105645
+#EXTINF:-1 group-title="USA Entertainment",HALLMARK MOVIES & MYSTERY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9182
+#EXTINF:-1 group-title="USA Movies",HBO (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18202
+#EXTINF:-1 group-title="USA Movies",HBO (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98692
+#EXTINF:-1 group-title="USA Movies",HBO 2 (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18203
+#EXTINF:-1 group-title="USA Movies",HBO 2 (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98693
+#EXTINF:-1 group-title="USA Movies",HBO COMEDY (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18200
+#EXTINF:-1 group-title="USA Movies",HBO COMEDY (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98694
+#EXTINF:-1 group-title="USA Movies",HBO Family (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18199
+#EXTINF:-1 group-title="USA Movies",HBO Family (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98695
+#EXTINF:-1 group-title="USA Movies",HBO Signature (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18198
+#EXTINF:-1 group-title="USA Movies",HBO Signature (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98696
+#EXTINF:-1 group-title="USA Movies",HBO Zone (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98697
+#EXTINF:-1 group-title="USA Movies",HBO Zone East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18197
+#EXTINF:-1 group-title="USA Entertainment",HGTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9181
+#EXTINF:-1 group-title="USA Entertainment",HGTV (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56099
+#EXTINF:-1 group-title="USA Movies",INDIE PLEX (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98727
+#EXTINF:-1 group-title="USA Movies",INDIE PLEX (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98728
+#EXTINF:-1 group-title="USA Entertainment",Insp
+http://lunar.pm:8080/2059077719/18iBHPlGyC/69080
+#EXTINF:-1 group-title="Religion (ALL)",Inspiration TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75595
+#EXTINF:-1 group-title="USA Entertainment",INVESTIGATION DISCOVERY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9177
+#EXTINF:-1 group-title="USA Entertainment",ION
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9175
+#EXTINF:-1 group-title="USA Entertainment",Justice Central
+http://lunar.pm:8080/2059077719/18iBHPlGyC/97091
+#EXTINF:-1 group-title="USA Locals",KCAL 09 (LOS ANGELES)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100029
+#EXTINF:-1 group-title="USA Locals",KTLA 05 (Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64699
+#EXTINF:-1 group-title="USA Entertainment",LAFF TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105646
+#EXTINF:-1 group-title="USA Entertainment",LIFETIME
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9174
+#EXTINF:-1 group-title="USA Entertainment",LIFETIME MOVIES
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9173
+#EXTINF:-1 group-title="USA Entertainment",Logo Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64817
+#EXTINF:-1 group-title="USA Sports", Marquee Sports Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/95736
+#EXTINF:-1 group-title="USA Sports",Mav TV HD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59693
+#EXTINF:-1 group-title="USA Entertainment",ME TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9172
+#EXTINF:-1 group-title="USA Sports",MLB Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9548
+#EXTINF:-1 group-title="MLB ",MLB NETWORK 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100103
+#EXTINF:-1 group-title="MLB ",MLB STRIKE Zone
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100104
+#EXTINF:-1 group-title="USA Movies",MOVIE PLEX (east)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98730
+#EXTINF:-1 group-title="USA Movies",MOVIE PLEX (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98731
+#EXTINF:-1 group-title="USA Sports",MSG
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59686
+#EXTINF:-1 group-title="USA Sports",MSG +
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59687
+#EXTINF:-1 group-title="USA Sports",MSG 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59688
+#EXTINF:-1 group-title="USA Sports",MSG 2+
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59689
+#EXTINF:-1 group-title="USA News",MSNBC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9326
+#EXTINF:-1 group-title="USA Entertainment",MTV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/47752
+#EXTINF:-1 group-title="USA Entertainment",MTV 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/109359
+#EXTINF:-1 group-title="USA Entertainment",MTV Live
+http://lunar.pm:8080/2059077719/18iBHPlGyC/102259
+#EXTINF:-1 group-title="USA Locals",My 02(Greensboro)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64704
+#EXTINF:-1 group-title="USA Locals",My 22(Pittsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64700
+#EXTINF:-1 group-title="USA Locals",My 13(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64701
+#EXTINF:-1 group-title="USA Locals",My 33(Miami)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64703
+#EXTINF:-1 group-title="USA Locals",MY 38(Boston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64702
+#EXTINF:-1 group-title="USA News",NASA Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105616
+#EXTINF:-1 group-title="USA Sports",NBA TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9547
+#EXTINF:-1 group-title="NBA ",NBA Tv.
+http://lunar.pm:8080/2059077719/18iBHPlGyC/101962
+#EXTINF:-1 group-title="USA Entertainment",NBC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9171
+#EXTINF:-1 group-title="USA Locals",NBC 02(Buffalo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64812
+#EXTINF:-1 group-title="USA Locals",NBC 02(Dayton)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64809
+#EXTINF:-1 group-title="USA Locals",NBC 02(Houston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64810
+#EXTINF:-1 group-title="USA Locals",NBC 02(Orlando)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64811
+#EXTINF:-1 group-title="USA Locals",NBC 02(Tulsa)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64813
+#EXTINF:-1 group-title="USA Locals",NBC 03(Cleveland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64804
+#EXTINF:-1 group-title="USA Locals",NBC 03(Jackson)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64802
+#EXTINF:-1 group-title="USA Locals",NBC 03(Sacramento)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64803
+#EXTINF:-1 group-title="USA Locals",NBC 03(Savannah)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64807
+#EXTINF:-1 group-title="USA Locals",NBC 03(Springfield)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64805
+#EXTINF:-1 group-title="USA Locals",NBC 04(Albuquerque)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64791
+#EXTINF:-1 group-title="USA Locals",NBC 04(Columbus)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64794
+#EXTINF:-1 group-title="USA Locals",NBC 04(Detroit)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64798
+#EXTINF:-1 group-title="USA Locals",NBC 04(Little Rock)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64792
+#EXTINF:-1 group-title="USA Locals",NBC 04(Los Angeles)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64797
+#EXTINF:-1 group-title="USA Locals",NBC 04(Milwaukee)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64795
+#EXTINF:-1 group-title="USA Locals",NBC 04(Nashville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64793
+#EXTINF:-1 group-title="USA Locals",NBC 04(New York)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64801
+#EXTINF:-1 group-title="USA Locals",NBC 04(Sioux City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64790
+#EXTINF:-1 group-title="USA Locals",NBC 04(Tuscon)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64799
+#EXTINF:-1 group-title="USA Locals",NBC 04(Washington Dc)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70000
+#EXTINF:-1 group-title="USA Locals",NBC 05(Chicago)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64783
+#EXTINF:-1 group-title="USA Locals",NBC 05(Cincinnati)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64785
+#EXTINF:-1 group-title="USA Locals",NBC 05(Fort Worth)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64789
+#EXTINF:-1 group-title="USA Locals",NBC 05(Memphis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64780
+#EXTINF:-1 group-title="USA Locals",NBC 05(Plattsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64779
+#EXTINF:-1 group-title="USA Locals",NBC 05(Raleigh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64786
+#EXTINF:-1 group-title="USA Locals",NBC 05(Salt Lake City)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64781
+#EXTINF:-1 group-title="USA Locals",NBC 05(Seattle)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64782
+#EXTINF:-1 group-title="USA Locals",NBC 05(St Louis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64787
+#EXTINF:-1 group-title="USA Locals",NBC 05(West Palm Beach)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64788
+#EXTINF:-1 group-title="USA Locals",NBC 06(Miami)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64768
+#EXTINF:-1 group-title="USA Locals",NBC 06(New Orleans)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64770
+#EXTINF:-1 group-title="USA Locals",NBC 06(Omaha)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64777
+#EXTINF:-1 group-title="USA Locals",NBC 08 (Portland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64769
+#EXTINF:-1 group-title="USA Locals",NBC 06(Spokane)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64767
+#EXTINF:-1 group-title="USA Locals",NBC 06(Waco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64772
+#EXTINF:-1 group-title="USA Locals",NBC 07(Boise)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64762
+#EXTINF:-1 group-title="USA Locals",NBC 07(San Diego)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64765
+#EXTINF:-1 group-title="USA Locals",NBC 08(Harrisburg)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64760
+#EXTINF:-1 group-title="USA Locals",NBC 08(Tampa)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64756
+#EXTINF:-1 group-title="USA Locals",NBC 09(Denver)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64755
+#EXTINF:-1 group-title="USA Locals",NBC 09(El Paso)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64754
+#EXTINF:-1 group-title="USA Locals",NBC 10(Boston)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64749
+#EXTINF:-1 group-title="USA Locals",NBC 10(Philadelphia)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64752
+#EXTINF:-1 group-title="USA Locals",NBC 10(Albany)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64753
+#EXTINF:-1 group-title="USA Locals",NBC 11(Atlanta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64743
+#EXTINF:-1 group-title="USA Locals",NBC 11(Baltimore)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64742
+#EXTINF:-1 group-title="USA Locals",NBC 11(Fargo)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64740
+#EXTINF:-1 group-title="USA Locals",NBC 11(Minneapolis St Paul)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64741
+#EXTINF:-1 group-title="USA Locals",NBC 11(Pittsburgh)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64744
+#EXTINF:-1 group-title="USA Locals",NBC 11(San Francisco)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64745
+#EXTINF:-1 group-title="USA Locals",NBC 12(Jacksonville)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64739
+#EXTINF:-1 group-title="USA Locals",NBC 12(Phoenix)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64735
+#EXTINF:-1 group-title="USA Locals",NBC 12(Richmond)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64737
+#EXTINF:-1 group-title="USA Locals",NBC 12(Winston Salem)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64736
+#EXTINF:-1 group-title="USA Locals",NBC 13(Birmingham)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64733
+#EXTINF:-1 group-title="USA Locals",NBC 13(Honolulu)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64734
+#EXTINF:-1 group-title="USA Locals",NBC 13(Indianapolis)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64731
+#EXTINF:-1 group-title="USA Locals",NBC 17(Bakersfield)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64725
+#EXTINF:-1 group-title="USA Locals",NBC 22(Springfield Massachusetts)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64720
+#EXTINF:-1 group-title="USA Locals",NBC 25(Richland)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64718
+#EXTINF:-1 group-title="USA Locals",NBC 26(Augusta)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64715
+#EXTINF:-1 group-title="USA Locals",NBC 26(Greenbay)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64716
+#EXTINF:-1 group-title="USA Locals",NBC 30(Hartford)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64713
+#EXTINF:-1 group-title="USA Locals",NBC 36(Austin)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64710
+#EXTINF:-1 group-title="USA Locals",NBC 36(Charolette)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64711
+#EXTINF:-1 group-title="USA Locals",NBC 38(Columbus)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64709
+#EXTINF:-1 group-title="USA Locals",NBC 41(Kansas)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/64708
+#EXTINF:-1 group-title="USA Sports",NBC GOLF
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9528
+#EXTINF:-1 group-title="USA Sports",NBCSN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9546
+#EXTINF:-1 group-title="USA Sports",NBCSN BAY AREA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9545
+#EXTINF:-1 group-title="USA Sports",NBCSN BOSTON
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9544
+#EXTINF:-1 group-title="USA Sports",NBCSN CALIFORNIA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9543
+#EXTINF:-1 group-title="USA Sports",NBCSN CHICAGO
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9542
+#EXTINF:-1 group-title="USA Sports",NBCSN NORTH WEST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9541
+#EXTINF:-1 group-title="USA Sports",NBCSN PHILLY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9540
+#EXTINF:-1 group-title="USA Sports",NESN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/69348
+#EXTINF:-1 group-title="USA Sports",NESN +
+http://lunar.pm:8080/2059077719/18iBHPlGyC/69349
+#EXTINF:-1 group-title="USA News",NewsMax Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70184
+#EXTINF:-1 group-title="NFL",NFL NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/73628
+#EXTINF:-1 group-title="USA Sports",NFL NETWORK,
+http://lunar.pm:8080/2059077719/18iBHPlGyC/11611
+#EXTINF:-1 group-title="NFL",NFL RED Zone
+http://lunar.pm:8080/2059077719/18iBHPlGyC/73629
+#EXTINF:-1 group-title="NHL ",NHL Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/95681
+#EXTINF:-1 group-title="USA Sports",NHL Network.
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9549
+#EXTINF:-1 group-title="USA Kids",NICK JR
+http://lunar.pm:8080/2059077719/18iBHPlGyC/41614
+#EXTINF:-1 group-title="USA Kids",NICK TOONS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8868
+#EXTINF:-1 group-title="USA Kids",NICKELODEON
+http://lunar.pm:8080/2059077719/18iBHPlGyC/8870
+#EXTINF:-1 group-title="USA Sports",Olympic Channel
+http://lunar.pm:8080/2059077719/18iBHPlGyC/66295
+#EXTINF:-1 group-title="USA News",OAN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/70185
+#EXTINF:-1 group-title="USA Entertainment",OWN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9169
+#EXTINF:-1 group-title="USA Entertainment",OXYGEN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9168
+#EXTINF:-1 group-title="USA Entertainment",Oxygen (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56100
+#EXTINF:-1 group-title="USA Sports",PAC 12 ARIZONA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9526
+#EXTINF:-1 group-title="USA Sports",PAC 12 BAY AREA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9525
+#EXTINF:-1 group-title="USA Sports",PAC 12 LOS ANGELES
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9524
+#EXTINF:-1 group-title="USA Sports",PAC 12 MOUNTAIN
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9523
+#EXTINF:-1 group-title="USA Sports",PAC 12 NETWORKS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9522
+#EXTINF:-1 group-title="USA Sports",Pac-12 OREGON
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100030
+#EXTINF:-1 group-title="USA Entertainment",Paramount
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9158
+#EXTINF:-1 group-title="USA Locals",PBS 02 Miami
+http://lunar.pm:8080/2059077719/18iBHPlGyC/97090
+#EXTINF:-1 group-title="USA Entertainment",PBS 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/97089
+#EXTINF:-1 group-title="USA Kids",PBS Kids
+http://lunar.pm:8080/2059077719/18iBHPlGyC/41615
+#EXTINF:-1 group-title="USA Entertainment",Pets Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110048
+#EXTINF:-1 group-title="USA Entertainment",Pop Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35312
+#EXTINF:-1 group-title="USA Entertainment",QVC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9164
+#EXTINF:-1 group-title="USA Sports",Red Bull Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/26630
+#EXTINF:-1 group-title="USA Entertainment",Reelz
+http://lunar.pm:8080/2059077719/18iBHPlGyC/101896
+#EXTINF:-1 group-title="Religion (ALL)",Repentance TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/75610
+#EXTINF:-1 group-title="USA Movies",RETRO PLEX (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98732
+#EXTINF:-1 group-title="USA Movies",RETRO PLEX (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98733
+#EXTINF:-1 group-title="USA Entertainment",Revolt
+http://lunar.pm:8080/2059077719/18iBHPlGyC/105647
+#EXTINF:-1 group-title="USA Sports",SEC NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/44845
+#EXTINF:-1 group-title="USA Sports",SEC +
+http://lunar.pm:8080/2059077719/18iBHPlGyC/118398
+#EXTINF:-1 group-title="USA Movies",Showtime (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18187
+#EXTINF:-1 group-title="USA Movies",Showtime (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18185
+#EXTINF:-1 group-title="USA Movies",Showtime 2 (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98715
+#EXTINF:-1 group-title="USA Movies",Showtime 2 (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98716
+#EXTINF:-1 group-title="USA Movies",Showtime BET X (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98717
+#EXTINF:-1 group-title="USA Movies",Showtime BET X (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98718
+#EXTINF:-1 group-title="USA Movies",Showtime Extreme (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18184
+#EXTINF:-1 group-title="USA Movies",Showtime Extreme (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98719
+#EXTINF:-1 group-title="USA Movies",Showtime Family Zone (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98720
+#EXTINF:-1 group-title="USA Movies",Showtime Family Zone (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98721
+#EXTINF:-1 group-title="USA Movies",Showtime Next (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98722
+#EXTINF:-1 group-title="USA Movies",Showtime Next (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98723
+#EXTINF:-1 group-title="USA Movies",Showtime Showcase (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/18182
+#EXTINF:-1 group-title="USA Movies",Showtime Showcase (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98724
+#EXTINF:-1 group-title="USA Movies",Showtime Women (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98725
+#EXTINF:-1 group-title="USA Movies",Showtime Women (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98726
+#EXTINF:-1 group-title="USA Movies",Sony Movies
+http://lunar.pm:8080/2059077719/18iBHPlGyC/44026
+#EXTINF:-1 group-title="USA Sports",Spectrum Sportsnet LA (Dodgers)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/109804
+#EXTINF:-1 group-title="USA Sports",Spectrum SportsNet (Lakers)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/63627
+#EXTINF:-1 group-title="USA Sports",SportsNet NY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/67471
+#EXTINF:-1 group-title="USA Sports",Sportsnet 360
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9520
+#EXTINF:-1 group-title="USA Sports",Sportsnet East
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9519
+#EXTINF:-1 group-title="USA Sports",Sportsnet One
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9518
+#EXTINF:-1 group-title="USA Sports",Sportsnet Ontario
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9517
+#EXTINF:-1 group-title="USA Sports",Sportsnet Pacific
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9516
+#EXTINF:-1 group-title="USA Sports",Sportsnet West
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9515
+#EXTINF:-1 group-title="USA Entertainment",Start Tv
+http://lunar.pm:8080/2059077719/18iBHPlGyC/117496
+#EXTINF:-1 group-title="USA Movies",STARZ (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58532
+#EXTINF:-1 group-title="USA Movies",STARZ (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58540
+#EXTINF:-1 group-title="USA Movies",STARZ CINEMA (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58542
+#EXTINF:-1 group-title="USA Movies",STARZ CINEMA (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98698
+#EXTINF:-1 group-title="USA Movies",STARZ COMEDY (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58541
+#EXTINF:-1 group-title="USA Movies",STARZ COMEDY (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98699
+#EXTINF:-1 group-title="USA Movies",STARZ EDGE (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58533
+#EXTINF:-1 group-title="USA Movies",STARZ EDGE (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98700
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58538
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98701
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE ACTION (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98702
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE ACTION (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98703
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE BLACK (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98704
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE BLACK (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98705
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE CLASSIC (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98706
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE CLASSIC (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98707
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE Family (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98708
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE Family (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98709
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE SUSPENSE (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98710
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE SUSPENSE (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98711
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE WESTERNS (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58537
+#EXTINF:-1 group-title="USA Movies",STARZ ENCORE WESTERNS (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98712
+#EXTINF:-1 group-title="USA Movies",STARZ IN BLACK (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58536
+#EXTINF:-1 group-title="USA Movies",STARZ IN BLACK (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98713
+#EXTINF:-1 group-title="USA Movies",STARZ KIDS & Family (East)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/58535
+#EXTINF:-1 group-title="USA Movies",STARZ KIDS & Family (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/98714
+#EXTINF:-1 group-title="USA Entertainment",SUNDANCE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9157
+#EXTINF:-1 group-title="USA Entertainment",SYFY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9156
+#EXTINF:-1 group-title="USA Entertainment",SYFY (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56101
+#EXTINF:-1 group-title="USA Entertainment",TBS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9154
+#EXTINF:-1 group-title="USA Entertainment",TCM
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56644
+#EXTINF:-1 group-title="USA Sports",Tennis Channel
+http://lunar.pm:8080/2059077719/18iBHPlGyC/40854
+#EXTINF:-1 group-title="USA Entertainment",The Country Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110299
+#EXTINF:-1 group-title="USA Entertainment",TLC
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9152
+#EXTINF:-1 group-title="USA Entertainment",TNT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9151
+#EXTINF:-1 group-title="USA Entertainment",TNT (West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56102
+#EXTINF:-1 group-title="USA Entertainment",TRAVEL CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9150
+#EXTINF:-1 group-title="USA Entertainment",Travel Channel(West)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/56103
+#EXTINF:-1 group-title="USA Entertainment",TRU TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9149
+#EXTINF:-1 group-title="USA Sports",TSN 1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9512
+#EXTINF:-1 group-title="USA Sports",TSN 2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9511
+#EXTINF:-1 group-title="USA Sports",TSN 3
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9510
+#EXTINF:-1 group-title="USA Sports",TSN 4
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9509
+#EXTINF:-1 group-title="USA Sports",TSN 5
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9508
+#EXTINF:-1 group-title="USA Entertainment",TV LAND
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9147
+#EXTINF:-1 group-title="USA Entertainment",TV ONE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9146
+#EXTINF:-1 group-title="USA Sports",UFC FIGHT PASS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/47052
+#EXTINF:-1 group-title="USA Sports",Unbeaten
+http://lunar.pm:8080/2059077719/18iBHPlGyC/111263
+#EXTINF:-1 group-title="USA Entertainment",UNIVERSAL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9145
+#EXTINF:-1 group-title="USA Kids",Universal Kids
+http://lunar.pm:8080/2059077719/18iBHPlGyC/41616
+#EXTINF:-1 group-title="USA Entertainment",UP TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/99451
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS DETROIT
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35463
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS FLORIDA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35462
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS INDIANA 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35461
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS KANSAS CITY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35460
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS NEW ORLEANS
+http://lunar.pm:8080/2059077719/18iBHPlGyC/103980
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS NORTH 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35457
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS MID WEST 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35459
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SO-CAL(PRIME-TICKET)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35456
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SAN DIEGO 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35455
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH WEST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35453
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35454
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH EAST 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35452
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS OHIO 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35449
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SUN 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35448
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS WEST
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35446
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS WISCONSIN 
+http://lunar.pm:8080/2059077719/18iBHPlGyC/35445
+#EXTINF:-1 group-title="USA Entertainment",USA NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9144
+#EXTINF:-1 group-title="USA Entertainment",USA NETWORK ( West )
+http://lunar.pm:8080/2059077719/18iBHPlGyC/48468
+#EXTINF:-1 group-title="USA Entertainment",VH1
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9143
+#EXTINF:-1 group-title="USA Entertainment",VICE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9142
+#EXTINF:-1 group-title="USA Entertainment",WE TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/49222
+#EXTINF:-1 group-title="USA News",WEATHER CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9317
+#EXTINF:-1 group-title="USA News",WEATHER NATION
+http://lunar.pm:8080/2059077719/18iBHPlGyC/100366
+#EXTINF:-1 group-title="USA Entertainment",WGN AMERICA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9140
+#EXTINF:-1 group-title="USA Sports",Willow Cricket
+http://lunar.pm:8080/2059077719/18iBHPlGyC/49964
+#EXTINF:-1 group-title="USA Sports",WWE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/9506
+#EXTINF:-1 group-title="USA Sports",Yes Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/59692
+#EXTINF:-1 group-title="USA News",CNN HD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/104092
+#EXTINF:-1 group-title="USA Sports",BALLY SPORTS OKLAHAMA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/108581
+#EXTINF:-1 group-title="USA Documentaries",CRIME & INVESTIGATION
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110775
+#EXTINF:-1 group-title="USA Documentaries",DESTINATION AMERICA
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110776
+#EXTINF:-1 group-title="USA Documentaries",DISCOVERY CHANNEL (EAST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110777
+#EXTINF:-1 group-title="USA Documentaries",DISCOVERY CHANNEL (WEST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110778
+#EXTINF:-1 group-title="USA Documentaries",DISCOVERY Family
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110779
+#EXTINF:-1 group-title="USA Documentaries",DISCOVERY LIFE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110780
+#EXTINF:-1 group-title="USA Documentaries",DISCOVERY SCIENCE
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110781
+#EXTINF:-1 group-title="USA Documentaries",DIY NETWORK
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110782
+#EXTINF:-1 group-title="USA Documentaries",H2
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110783
+#EXTINF:-1 group-title="USA Documentaries",HISTORY (EAST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110784
+#EXTINF:-1 group-title="USA Documentaries",HISTORY (WEST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110785
+#EXTINF:-1 group-title="USA Documentaries",MILITARY HISTORY
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110786
+#EXTINF:-1 group-title="USA Documentaries",ID
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110787
+#EXTINF:-1 group-title="USA Documentaries",NAT GEO (EAST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110788
+#EXTINF:-1 group-title="USA Documentaries",NAT GEO (WEST)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110789
+#EXTINF:-1 group-title="USA Documentaries",NAT GEO WILD
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110790
+#EXTINF:-1 group-title="USA Documentaries",OUTDOOR CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110791
+#EXTINF:-1 group-title="USA Documentaries",OUTSIDE TV
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110792
+#EXTINF:-1 group-title="USA Documentaries",SMITHSONIAN CHANNEL
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110793
+#EXTINF:-1 group-title="USA Documentaries",VELOCITY (Motor Trend)
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110794
+#EXTINF:-1 group-title="USA Documentaries",World Fishing Network
+http://lunar.pm:8080/2059077719/18iBHPlGyC/110795
