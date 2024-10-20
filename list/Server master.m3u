@@ -1,36 +1,38 @@
 #EXTM3U
-"#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",USA MSNBC
-http://fl2.moveonjoy.com/MSNBC/index.m3u8"
-"#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
-http://streamsy.online:2999/juanv/04bodwaga0/143"
-"#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
-http://b1g.pw:80/DD/DD/621370"
-"#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",USA MSNBC
+http://fl2.moveonjoy.com/MSNBC/index.m3u8
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+http://streamsy.online:2999/juanv/04bodwaga0/143
+#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+http://fortv.cc:8080/WjtGD2/235867/47332
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
+http://b1g.pw:80/DD/DD/621370
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-"#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="aug112026 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 1
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30213"
-"#EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
-http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8"
-"#EXTINF:-1 tvg-id="NBC.(WMAQ).Chicago,.IL.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Chicago 
-http://fl2.moveonjoy.com/NBC_EAST/index.m3u8"
-"#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Buffalo
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="aug112026 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 1
+http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30213
+#EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
+http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
+#EXTINF:-1 tvg-id="NBC.(WMAQ).Chicago,.IL.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Chicago 
+http://fl2.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Buffalo
 http://streamsy.online:2999/live/juanv/04bodwaga0/727.m3u8"
-"#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Atlanta 
+#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Atlanta 
 http://streamsy.online:2999/live/juanv/04bodwaga0/1443.m3u8"
-"#EXTINF:-1 tvg-id="CTV.Two.Ottawa/CHRO.(CTV2O).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa
-http://b1g.pw:80/DD/DD/613252"
-"#EXTINF:-1 tvg-id="AandE.us" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",USA A&E 
+#EXTINF:-1 tvg-id="CTV.Two.Ottawa/CHRO.(CTV2O).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa
+http://b1g.pw:80/DD/DD/613252
+#EXTINF:-1 tvg-id="AandE.us" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",USA A&E 
 http://streamsy.online:2999/live/juanv/04bodwaga0/212.m3u8"
-"#EXTINF:-1 tvg-id="Cable.News.Network.HDTV.(CNNHD).ca" tvg-name="CNN" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN
-http://fortv.cc:8080/105094817/105094817/47213"
-"#EXTINF:-1 tvg-id="WCCTDT2.us" tvg-name="US Grit TV" tvg-logo="https://i.ibb.co/wgj7ng6/grit-tv-seeklogo-1.png" group-title="Classics",USA Grit TV
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/734"
-"#EXTINF:-1 tvg-id="NickMusic.us" tvg-name="NickMusic USA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f2/NickMusic_Splat.svg/revision/latest/scale-to-width-down/250?cb=20240129184250" group-title="Music",NickMusic USA
-http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8"
-"#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
+#EXTINF:-1 tvg-id="Cable.News.Network.HDTV.(CNNHD).ca" tvg-name="CNN" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN
+http://fortv.cc:8080/105094817/105094817/47213
+#EXTINF:-1 tvg-id="WCCTDT2.us" tvg-name="US Grit TV" tvg-logo="https://i.ibb.co/wgj7ng6/grit-tv-seeklogo-1.png" group-title="Classics",USA Grit TV
+http://streamsy.online:2999/Jaley1990/L6KomjzBxv/734
+#EXTINF:-1 tvg-id="NickMusic.us" tvg-name="NickMusic USA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f2/NickMusic_Splat.svg/revision/latest/scale-to-width-down/250?cb=20240129184250" group-title="Music",NickMusic USA
+http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
+#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8?checkedby:iptvcat.com"
-"#EXTINF:-1 tvg-ID="CNBC.us" tvg-name="USA | CNBC HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC 
-http://fl2.moveonjoy.com/CNBC/index.m3u8"
+#EXTINF:-1 tvg-ID="CNBC.us" tvg-name="USA | CNBC HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC 
+http://fl2.moveonjoy.com/CNBC/index.m3u8
 
 #EXTINF:-1,CA : APTN
 http://fortv.cc:8080/xxx/57320
