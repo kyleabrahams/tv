@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 22 1214 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 22 1216 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -75,7 +75,7 @@ http://fortv.cc:8080/105094817/105094817/57442
 http://fortv.cc:8080/105094817/105094817/116506
 #EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name="CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="",CMT FHD
 http://fortv.cc:8080/105094817/105094817/57258
-#EXTINF:-1 tvg-id="Showcase.Television.HDTV.(East).(SC-HD).ca" tvg-name="ShowCase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Showcase_Logo_2015.png" group-title="",Showcase 
+#EXTINF:-1 tvg-id="Showcase.Television.HDTV.(East).(SC-HD).ca" tvg-name="ShowCase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Showcase_Logo_2015.png" group-title="Movies",Showcase 
 http://fortv.cc:8080/105094817/105094817/47366
 #EXTINF:-1 tvg-id="CTV DRAMA Channel SD" tvg-name="CTV Drama" tvg-logo="https://i.ibb.co/BqN41hz/CTV-Drama-Channel-2019-purple.png" group-title="",CTV Drama Channel
 http://fortv.cc:8080/105094817/105094817/57254
@@ -628,13 +628,13 @@ https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tnt
 http://fl2.moveonjoy.com/Travel_Channel/index.m3u8
 #EXTINF:-1 tvg-id="truTVEast.us" tvg-name="US TRUTV East USATV" tvg-logo="https://i.ibb.co/xL9Ktv8/Tru-TV-2014-1.png" group-title="",USA TruTV (Ad)  
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/trutveast.us.m3u8
-#EXTINF:-1 tvg-id="Showtime (East)" tvg-name="US Showtime USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Classics",USA Showtime 
+#EXTINF:-1 tvg-id="Showtime (East)" tvg-name="US Showtime USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",USA Showtime 
 http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
-#EXTINF:-1 tvg-id="Showtime2.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="",USA Showtime 2 
+#EXTINF:-1 tvg-id="Showtime2.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",USA Showtime 2 
 http://fl2.moveonjoy.com/SHOWTIME_2/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-beyond-us.png?raw=true" group-title="",Showtime Beyond 
+#EXTINF:-1 tvg-id="" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-beyond-us.png?raw=true" group-title="Movies",Showtime Beyond 
 http://streamsy.online:2999/juanv/04bodwaga0/1619
-#EXTINF:-1 tvg-id="Showtime.Extreme.(East).(SHOXe).us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="",Showtime Extreme 
+#EXTINF:-1 tvg-id="Showtime.Extreme.(East).(SHOXe).us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",Showtime Extreme 
 http://streamsy.online:2999/juanv/04bodwaga0/385
 "#EXTINF:-1 tvg-id="Showtime.Extreme.(East).(SHOXe).us" tvg-name="Showtime Extreme East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",USA Showtime Extreme 
 http://fl2.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8"
@@ -646,7 +646,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/1187
 http://fl2.moveonjoy.com/SHOWTIME_NEXT/index.m3u8"
 #EXTINF:-1 tvg-id="Showtime.Showcase.HDTV.(East).(SHOCHD).us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-showcase-us.png?raw=true" group-title="Movies",Showtime Showcase (East)
 http://streamsy.online:2999/juanv/04bodwaga0/1465
-#EXTINF:-1 tvg-id="Showtime.Women.HDTV.(East).(SHOWD).us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="",USA Showtime Women 
+#EXTINF:-1 tvg-id="Showtime.Women.HDTV.(East).(SHOWD).us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",USA Showtime Women 
 http://fl2.moveonjoy.com/SHOWTIME_WOMEN/index.m3u8
 #EXTINF:-1 tvg-id="MGM+ (East)" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Classics",USA MGM+ 
 http://fl2.moveonjoy.com/EPIX/index.m3u8
