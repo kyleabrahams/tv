@@ -1,13 +1,13 @@
 #EXTM3U 
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name="CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
-http://cord-cutter.net:8080/70453597/56651433/57357
+http://cord-cutter.net:8080/64869862/18743571/57357
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://streamsy.online:2999/juanv/04bodwaga0/143
 "#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 22 1226 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 23 1028 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -40,7 +40,7 @@ http://fortv.cc:8080/105094817/105094817/120876
 #EXTINF:-1 tvg-id="CTV.Two.London/CFPL.(CTV2L).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
 http://fortv.cc:8080/105094817/105094817/58546
 #EXTINF:-1 tvg-id="CTV.Two.Windsor/CHWI.(CTV2W).ca" tvg-name="CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor
-http://xxip25.top:8080/104805958/104805958/77165
+http://xxip25.top:8080/64869862/18743571/77165
 #EXTINF:-1 tvg-id="US4000033L" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
 https://jmp2.uk/sam-US4000033L.m3u8
 #EXTINF:-1 tvg-id="TSC.ca" tvg-name="the Shopping Channel" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
@@ -60,7 +60,7 @@ http://fortv.cc:8080/105094817/105094817/120747
 #EXTINF:-1 tvg-id="Much.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 http://fortv.cc:8080/50905877/50905877/215268
 #EXTINF:-1 tvg-id="AandE.us" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",A&E 
-http://xxip25.top:8080/104805958/104805958/57476
+http://xxip25.top:8080/64869862/18743571/57476
 #EXTINF:-1 tvg-id="AMC HDTV (East)" tvg-name="AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",USA AMC 
 http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Cable News Network" tvg-name="CA: CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",USA CNN 
