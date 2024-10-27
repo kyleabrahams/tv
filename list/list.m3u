@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 25 232 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 27 430 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITY-DT-3.Ottawa,.ON.us" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -167,8 +167,10 @@ http://fortv.cc:8080/105094817/105094817/47369
 http://fl2.moveonjoy.com/USA_Network/index.m3u8
 #EXTINF:-1 tvg-id="GSN (East)" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="",US Game Show Network
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/gsn_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="Crime and Investigation Network" tvg-name="Crime & Investigation" tvg-logo="https://i.ibb.co/9pNYtDz/Crime-Investigation-Logo-10-2019-1.png" group-title="",Crime & Investigation
-http://fortv.cc:8080/105094817/105094817/57256
+"#EXTINF:-1 tvg-id="Crime and Investigation Network" tvg-name="Crime & Investigation" tvg-logo="https://i.ibb.co/9pNYtDz/Crime-Investigation-Logo-10-2019-1.png" group-title="",Crime & Investigation
+http://fortv.cc:8080/105094817/105094817/57256"
+#EXTINF:-1 tvg-id="Crime.and.Investigation.Network.HDTV.(CI.HD).us" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
+http://fl3.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 #EXTINF:-1 tvg-id="Disney Jr. Canada" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 
 http://fortv.cc:8080/105094817/105094817/57349
 #EXTINF:-1 tvg-id="The Disney Channel (East)" tvg-name=":Disney Channel" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",USA Disney Channel East
@@ -560,6 +562,8 @@ http://fl2.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
 http://fl3.moveonjoy.com/Logo/index.m3u8
 #EXTINF:-1 tvg-id="KAKEDT2.us" tvg-name="US MeTV Network East USATV" tvg-logo="https://i.ibb.co/pWtYtNh/Me-TV-Logo-1.png" group-title="Classics",USA MeTV 
 http://fl2.moveonjoy.com/ME_TV/index.m3u8
+#EXTINF:-1 tvg-id="OVATION.Ovation.TV.us" tvg-name="Ovation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ovation-us.png?raw=true" group-title="Entertainment",Ovation
+http://fl3.moveonjoy.com/Ovation/index.m3u8
 #EXTINF:-1 tvg-id="Motor Trend HDTV - MTHD.us" tvg-name="US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="US MSNBC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="",USA MSNBC 
@@ -832,6 +836,8 @@ https://jmp2.uk/sam-USBA300031OT.m3u8
 http://fl2.moveonjoy.com/ACC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="ACCDN.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD25000161U_20240520T220028SQUARE.png" group-title="Sports",ACCDN
 https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_channelId=99991315
+#EXTINF:-1 tvg-id="beIN.Sports.HDTV.(English).(beIn).us" tvg-name="BEIN SPORTS" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bein-sports-us.png?raw=true" group-title="Sports",BEIN SPORTS
+http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="Mid-Atlantic.Sports.Network.HDTV.(MASHD).us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN 
 http://streamsy.online:2999/live/juanv/04bodwaga0/1615.m3u8
 #EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.(SNLA).us" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports 
