@@ -1,37 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",USA MSNBC
+#EXTINF:-1,USA MSNBC
 http://fl2.moveonjoy.com/MSNBC/index.m3u8
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+#EXTINF:-1,MSNBC
 http://streamsy.online:2999/juanv/04bodwaga0/143
-#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+#EXTINF:-1,MSNBC
 http://fortv.cc:8080/WjtGD2/235867/47332
-#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
+#EXTINF:-1,Global Toronto
 http://b1g.pw:80/DD/DD/621370
-#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="CA137:Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
+#EXTINF:-1,Global Toronto
 https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5fb/live.isml/.m3u8?checkedby:iptvcat.net"
-#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="aug112026 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 1
+#EXTINF:-1,CBC Toronto 1
 http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30213
-#EXTINF:-1 tvg-id="WGRZDT1.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo 
+#EXTINF:-1,NBC Buffalo 
 http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
-#EXTINF:-1 tvg-id="NBC.(WMAQ).Chicago,.IL.us" tvg-name="US602:NBC 2 (WGRZ) Buffalo USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Chicago 
+#EXTINF:-1,NBC Chicago 
 http://fl2.moveonjoy.com/NBC_EAST/index.m3u8
-#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="US750:ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Buffalo
+#EXTINF:-1,ABC Buffalo
 http://streamsy.online:2999/live/juanv/04bodwaga0/727.m3u8"
-#EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC Atlanta 
+#EXTINF:-1,ABC Atlanta 
 http://streamsy.online:2999/live/juanv/04bodwaga0/1443.m3u8"
-#EXTINF:-1 tvg-id="CTV.Two.Ottawa/CHRO.(CTV2O).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa
+#EXTINF:-1,CTV2 Ottawa
 http://b1g.pw:80/DD/DD/613252
-#EXTINF:-1 tvg-id="AandE.us" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",USA A&E 
+#EXTINF:-1,USA A&E 
 http://streamsy.online:2999/live/juanv/04bodwaga0/212.m3u8"
-#EXTINF:-1 tvg-id="Cable.News.Network.HDTV.(CNNHD).ca" tvg-name="CNN" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN
+#EXTINF:-1,CNN
 http://fortv.cc:8080/105094817/105094817/47213
-#EXTINF:-1 tvg-id="WCCTDT2.us" tvg-name="US Grit TV" tvg-logo="https://i.ibb.co/wgj7ng6/grit-tv-seeklogo-1.png" group-title="Classics",USA Grit TV
+#EXTINF:-1,USA Grit TV
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/734
-#EXTINF:-1 tvg-id="NickMusic.us" tvg-name="NickMusic USA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f2/NickMusic_Splat.svg/revision/latest/scale-to-width-down/250?cb=20240129184250" group-title="Music",NickMusic USA
+#EXTINF:-1,NickMusic USA
 http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
-#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
+#EXTINF:-1,Sony Movie Channel
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8?checkedby:iptvcat.com"
-#EXTINF:-1 tvg-ID="CNBC.us" tvg-name="USA | CNBC HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",CNBC 
+#EXTINF:-1,CNBC 
 http://fl2.moveonjoy.com/CNBC/index.m3u8
 
 #EXTINF:-1,CA : APTN
@@ -7981,6 +7981,492 @@ http://iptvtree.net:8080/xxx/78280
 #EXTINF:-1,CA: Zeste
 http://iptvtree.net:8080/xxx/502
 
+#EXTINF:-1,CA | Sportsnet 360
+http://streamsy.online:2999/juanv/04bodwaga0/2044
+#EXTINF:-1,CA | Sportsnet East
+http://streamsy.online:2999/juanv/04bodwaga0/2045
+#EXTINF:-1,CA | Sportsnet One
+http://streamsy.online:2999/juanv/04bodwaga0/2046
+#EXTINF:-1,CA | Sportsnet Ontario
+http://streamsy.online:2999/juanv/04bodwaga0/2047
+#EXTINF:-1,CA | Sportsnet Pacific
+http://streamsy.online:2999/juanv/04bodwaga0/2048
+#EXTINF:-1,CA | Sportsnet West
+http://streamsy.online:2999/juanv/04bodwaga0/2049
+#EXTINF:-1,CA | Sportsnet World
+http://streamsy.online:2999/juanv/04bodwaga0/2050
+#EXTINF:-1,CA | TSN 1
+http://streamsy.online:2999/juanv/04bodwaga0/1195
+#EXTINF:-1,CA | TSN 2
+http://streamsy.online:2999/juanv/04bodwaga0/175
+#EXTINF:-1,CA | TSN 3
+http://streamsy.online:2999/juanv/04bodwaga0/188
+#EXTINF:-1,CA | TSN 4
+http://streamsy.online:2999/juanv/04bodwaga0/1586
+#EXTINF:-1,CA | TSN 5
+http://streamsy.online:2999/juanv/04bodwaga0/977
+#EXTINF:-1,CA | A&E
+http://streamsy.online:2999/juanv/04bodwaga0/1900
+#EXTINF:-1,CA | addikTV
+http://streamsy.online:2999/juanv/04bodwaga0/1894
+#EXTINF:-1,CA | Adult Swim
+http://streamsy.online:2999/juanv/04bodwaga0/1883
+#EXTINF:-1,CA | Al Jazeera English
+http://streamsy.online:2999/juanv/04bodwaga0/1864
+#EXTINF:-1,CA | Alpha Sat
+http://streamsy.online:2999/juanv/04bodwaga0/1834
+#EXTINF:-1,CA | AMC
+http://streamsy.online:2999/juanv/04bodwaga0/2015
+#EXTINF:-1,CA | American Heroes Channel
+http://streamsy.online:2999/juanv/04bodwaga0/1815
+#EXTINF:-1,CA | Ami TV
+http://streamsy.online:2999/juanv/04bodwaga0/1811
+#EXTINF:-1,CA | AMI-tele
+http://streamsy.online:2999/juanv/04bodwaga0/1821
+#EXTINF:-1,CA | ANIMAL PLANET
+http://streamsy.online:2999/juanv/04bodwaga0/1901
+#EXTINF:-1,CA | APTN HD
+http://streamsy.online:2999/juanv/04bodwaga0/1902
+#EXTINF:-1,CA | ARTV
+http://streamsy.online:2999/juanv/04bodwaga0/1819
+#EXTINF:-1,CA | ASSEMBLEE NATIONALE QUEBEC (FR)
+http://streamsy.online:2999/juanv/04bodwaga0/1889
+#EXTINF:-1,CA | BBC CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/1903
+#EXTINF:-1,CA | BET
+http://streamsy.online:2999/juanv/04bodwaga0/1867
+#EXTINF:-1,CA | BNN Bloomberg
+http://streamsy.online:2999/juanv/04bodwaga0/1904
+#EXTINF:-1,CA | CANAL D FR
+http://streamsy.online:2999/juanv/04bodwaga0/1849
+#EXTINF:-1,CA | Canal Savoir
+http://streamsy.online:2999/juanv/04bodwaga0/1981
+#EXTINF:-1,CA | CARTOON NETWORK
+http://streamsy.online:2999/juanv/04bodwaga0/1905
+#EXTINF:-1,CA | CASA FR
+http://streamsy.online:2999/juanv/04bodwaga0/1967
+#EXTINF:-1,CA | CBC CALGARY
+http://streamsy.online:2999/juanv/04bodwaga0/1956
+#EXTINF:-1,CA | CBC EDMONTON
+http://streamsy.online:2999/juanv/04bodwaga0/1951
+#EXTINF:-1,CA | CBC HALIFAX
+http://streamsy.online:2999/juanv/04bodwaga0/1957
+#EXTINF:-1,CA | CBC MONTREAL
+http://streamsy.online:2999/juanv/04bodwaga0/1952
+#EXTINF:-1,CA | CBC NEWS
+http://streamsy.online:2999/juanv/04bodwaga0/1994
+#EXTINF:-1,CA | CBC OTTAWA
+http://streamsy.online:2999/juanv/04bodwaga0/1953
+#EXTINF:-1,CA | CBC TORONTO
+http://streamsy.online:2999/juanv/04bodwaga0/1993
+#EXTINF:-1,CA | CBC VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1954
+#EXTINF:-1,CA | CBC WINNIPEG
+http://streamsy.online:2999/juanv/04bodwaga0/1955
+#EXTINF:-1,CA | CBS Buffalo WIVB
+http://streamsy.online:2999/juanv/04bodwaga0/1825
+#EXTINF:-1,CA | CBS EAST
+http://streamsy.online:2999/juanv/04bodwaga0/1906
+#EXTINF:-1,CA | CBS WEST
+http://streamsy.online:2999/juanv/04bodwaga0/1807
+#EXTINF:-1,CA | CHCH
+http://streamsy.online:2999/juanv/04bodwaga0/1992
+#EXTINF:-1,CA | CHEK
+http://streamsy.online:2999/juanv/04bodwaga0/1896
+#EXTINF:-1,CA | CHRGD
+http://streamsy.online:2999/juanv/04bodwaga0/1984
+#EXTINF:-1,CA | City Calgary
+http://streamsy.online:2999/juanv/04bodwaga0/1809
+#EXTINF:-1,CA | CITY MONTREAL
+http://streamsy.online:2999/juanv/04bodwaga0/1972
+#EXTINF:-1,CA | CITY TORONTO
+http://streamsy.online:2999/juanv/04bodwaga0/2001
+#EXTINF:-1,CA | CITY VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1950
+#EXTINF:-1,CA | CMT CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/1982
+#EXTINF:-1,CA | CNBC
+http://streamsy.online:2999/juanv/04bodwaga0/1907
+#EXTINF:-1,CA | CNN INTERNATIONAL
+http://streamsy.online:2999/juanv/04bodwaga0/1908
+#EXTINF:-1,CA | Comedy
+http://streamsy.online:2999/juanv/04bodwaga0/1884
+#EXTINF:-1,CA | COOKING CHANNEL
+http://streamsy.online:2999/juanv/04bodwaga0/1909
+#EXTINF:-1,CA | COTTAGE LIFE
+http://streamsy.online:2999/juanv/04bodwaga0/1910
+#EXTINF:-1,CA | CP24
+http://streamsy.online:2999/juanv/04bodwaga0/2023
+#EXTINF:-1,CA | CPAC
+http://streamsy.online:2999/juanv/04bodwaga0/1912
+#EXTINF:-1,CA | CPAC FRENCH
+http://streamsy.online:2999/juanv/04bodwaga0/1911
+#EXTINF:-1,CA | CRAVE 1
+http://streamsy.online:2999/juanv/04bodwaga0/1998
+#EXTINF:-1,CA | CRAVE 2
+http://streamsy.online:2999/juanv/04bodwaga0/1997
+#EXTINF:-1,CA | CRAVE 3
+http://streamsy.online:2999/juanv/04bodwaga0/1996
+#EXTINF:-1,CA | CRAVE 4
+http://streamsy.online:2999/juanv/04bodwaga0/1995
+#EXTINF:-1,CA | CRIME INVESTIGATION
+http://streamsy.online:2999/juanv/04bodwaga0/2022
+#EXTINF:-1,CA | CTV 2 Ottawa
+http://streamsy.online:2999/juanv/04bodwaga0/1816
+#EXTINF:-1,CA | CTV 2 VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1817
+#EXTINF:-1,CA | CTV CALGARY
+http://streamsy.online:2999/juanv/04bodwaga0/1961
+#EXTINF:-1,CA | CTV DRAMA
+http://streamsy.online:2999/juanv/04bodwaga0/1991
+#EXTINF:-1,CA | CTV HALIFAX
+http://streamsy.online:2999/juanv/04bodwaga0/1979
+#EXTINF:-1,CA | CTV Life Channel
+http://streamsy.online:2999/juanv/04bodwaga0/1862
+#EXTINF:-1,CA | CTV MONTREAL
+http://streamsy.online:2999/juanv/04bodwaga0/1845
+#EXTINF:-1,CA | CTV NEWS
+http://streamsy.online:2999/juanv/04bodwaga0/2014
+#EXTINF:-1,CA | CTV OTTAWA
+http://streamsy.online:2999/juanv/04bodwaga0/1958
+#EXTINF:-1,CA | CTV SCI-FI
+http://streamsy.online:2999/juanv/04bodwaga0/1959
+#EXTINF:-1,CA | CTV TORONTO
+http://streamsy.online:2999/juanv/04bodwaga0/2010
+#EXTINF:-1,CA | CTV TWO ATLANTIC
+http://streamsy.online:2999/juanv/04bodwaga0/1868
+#EXTINF:-1,CA | CTV VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1960
+#EXTINF:-1,CA | CTV Winnipeg
+http://streamsy.online:2999/juanv/04bodwaga0/1838
+#EXTINF:-1,CA | DAYSTAR TV
+http://streamsy.online:2999/juanv/04bodwaga0/1913
+#EXTINF:-1,CA | DEJA VIEW
+http://streamsy.online:2999/juanv/04bodwaga0/1914
+#EXTINF:-1,CA | DISCOVERY CHANNEL HD
+http://streamsy.online:2999/juanv/04bodwaga0/2004
+#EXTINF:-1,CA | DISCOVERY INVESTIGATION
+http://streamsy.online:2999/juanv/04bodwaga0/1869
+#EXTINF:-1,CA | DISCOVERY SCIENCE
+http://streamsy.online:2999/juanv/04bodwaga0/2000
+#EXTINF:-1,CA | DISNEY CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/1916
+#EXTINF:-1,CA | DISNEY FRENCH
+http://streamsy.online:2999/juanv/04bodwaga0/1917
+#EXTINF:-1,CA | DISNEY JR
+http://streamsy.online:2999/juanv/04bodwaga0/1918
+#EXTINF:-1,CA | DISNEY XD
+http://streamsy.online:2999/juanv/04bodwaga0/1915
+#EXTINF:-1,CA | DIY
+http://streamsy.online:2999/juanv/04bodwaga0/1919
+#EXTINF:-1,CA | Documentary Channel
+http://streamsy.online:2999/juanv/04bodwaga0/1891
+#EXTINF:-1,CA | DTOUR
+http://streamsy.online:2999/juanv/04bodwaga0/1983
+#EXTINF:-1,CA | E! CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/2021
+#EXTINF:-1,CA | ELLE Fictions
+http://streamsy.online:2999/juanv/04bodwaga0/1856
+#EXTINF:-1,CA | ENCORE 1 EAST
+http://streamsy.online:2999/juanv/04bodwaga0/1920
+#EXTINF:-1,CA | ENCORE 2 EAST
+http://streamsy.online:2999/juanv/04bodwaga0/1846
+#EXTINF:-1,CA | ERT World
+http://streamsy.online:2999/juanv/04bodwaga0/1833
+#EXTINF:-1,CA | ESPN Classic Canada
+http://streamsy.online:2999/juanv/04bodwaga0/2042
+#EXTINF:-1,CA | Ethernal World Television Network
+http://streamsy.online:2999/juanv/04bodwaga0/1837
+#EXTINF:-1,CA | Evasion
+http://streamsy.online:2999/juanv/04bodwaga0/1859
+#EXTINF:-1,CA | FAMILY EAST
+http://streamsy.online:2999/juanv/04bodwaga0/2009
+#EXTINF:-1,CA | Family Jr.
+http://streamsy.online:2999/juanv/04bodwaga0/1874
+#EXTINF:-1,CA | Fashion Television Channel
+http://streamsy.online:2999/juanv/04bodwaga0/1857
+#EXTINF:-1,CA | Fight Network
+http://streamsy.online:2999/juanv/04bodwaga0/2041
+#EXTINF:-1,CA | Filipino TV
+http://streamsy.online:2999/juanv/04bodwaga0/1828
+#EXTINF:-1,CA | FOOD NETWORK
+http://streamsy.online:2999/juanv/04bodwaga0/2013
+#EXTINF:-1,CA | FOX EAST
+http://streamsy.online:2999/juanv/04bodwaga0/1921
+#EXTINF:-1,CA | FOX NEWS
+http://streamsy.online:2999/juanv/04bodwaga0/1922
+#EXTINF:-1,CA | FOX SPORTS Racing
+http://streamsy.online:2999/juanv/04bodwaga0/1879
+#EXTINF:-1,CA | FX
+http://streamsy.online:2999/juanv/04bodwaga0/1969
+#EXTINF:-1,CA | FXX
+http://streamsy.online:2999/juanv/04bodwaga0/1886
+#EXTINF:-1,CA | Game Show Network
+http://streamsy.online:2999/juanv/04bodwaga0/1898
+#EXTINF:-1,CA | Game TV
+http://streamsy.online:2999/juanv/04bodwaga0/1923
+#EXTINF:-1,CA | Global Halifax
+http://streamsy.online:2999/juanv/04bodwaga0/1842
+#EXTINF:-1,CA | Global Kingston
+http://streamsy.online:2999/juanv/04bodwaga0/1808
+#EXTINF:-1,CA | Global Peterborough
+http://streamsy.online:2999/juanv/04bodwaga0/1843
+#EXTINF:-1,CA | GLOBAL TORONTO
+http://streamsy.online:2999/juanv/04bodwaga0/2003
+#EXTINF:-1,CA | GLOBAL VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1924
+#EXTINF:-1,CA | GMA Life
+http://streamsy.online:2999/juanv/04bodwaga0/1826
+#EXTINF:-1,CA | GMA Pinoy TV
+http://streamsy.online:2999/juanv/04bodwaga0/1827
+#EXTINF:-1,CA | GOLF HD
+http://streamsy.online:2999/juanv/04bodwaga0/1925
+#EXTINF:-1,CA | HBO 1
+http://streamsy.online:2999/juanv/04bodwaga0/2012
+#EXTINF:-1,CA | HBO 2
+http://streamsy.online:2999/juanv/04bodwaga0/2011
+#EXTINF:-1,CA | HGTV
+http://streamsy.online:2999/juanv/04bodwaga0/1926
+#EXTINF:-1,CA | HISTORIA
+http://streamsy.online:2999/juanv/04bodwaga0/1927
+#EXTINF:-1,CA | HISTORY
+http://streamsy.online:2999/juanv/04bodwaga0/2018
+#EXTINF:-1,CA | HLN
+http://streamsy.online:2999/juanv/04bodwaga0/1928
+#EXTINF:-1,CA | Hollywood Suite 2000s
+http://streamsy.online:2999/juanv/04bodwaga0/1985
+#EXTINF:-1,CA | Hollywood Suite 70s
+http://streamsy.online:2999/juanv/04bodwaga0/1986
+#EXTINF:-1,CA | Hollywood Suite 80s
+http://streamsy.online:2999/juanv/04bodwaga0/1987
+#EXTINF:-1,CA | Hollywood Suite 90s
+http://streamsy.online:2999/juanv/04bodwaga0/1988
+#EXTINF:-1,CA | HPItv Canada
+http://streamsy.online:2999/juanv/04bodwaga0/1866
+#EXTINF:-1,CA | HPItv International
+http://streamsy.online:2999/juanv/04bodwaga0/1865
+#EXTINF:-1,CA | HPItv West
+http://streamsy.online:2999/juanv/04bodwaga0/1839
+#EXTINF:-1,CA | ICI MONTREAL
+http://streamsy.online:2999/juanv/04bodwaga0/1929
+#EXTINF:-1,CA | ICI RDI
+http://streamsy.online:2999/juanv/04bodwaga0/1870
+#EXTINF:-1,CA | ICI TELEVISION
+http://streamsy.online:2999/juanv/04bodwaga0/1930
+#EXTINF:-1,CA | ICI VANCOUVER
+http://streamsy.online:2999/juanv/04bodwaga0/1931
+#EXTINF:-1,CA | ID CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/2017
+#EXTINF:-1,CA | Joy TV Vancouver
+http://streamsy.online:2999/juanv/04bodwaga0/1841
+#EXTINF:-1,CA | KTLA
+http://streamsy.online:2999/juanv/04bodwaga0/1854
+#EXTINF:-1,CA | LCN
+http://streamsy.online:2999/juanv/04bodwaga0/1999
+#EXTINF:-1,CA | Leaf TV HD
+http://streamsy.online:2999/juanv/04bodwaga0/2043
+#EXTINF:-1,CA | LIFETIME
+http://streamsy.online:2999/juanv/04bodwaga0/2008
+#EXTINF:-1,CA | LOVE NATURE HD
+http://streamsy.online:2999/juanv/04bodwaga0/1847
+#EXTINF:-1,CA | LS Times
+http://streamsy.online:2999/juanv/04bodwaga0/1861
+#EXTINF:-1,CA | Makeful
+http://streamsy.online:2999/juanv/04bodwaga0/1892
+#EXTINF:-1,CA | Mediaset Italia
+http://streamsy.online:2999/juanv/04bodwaga0/1830
+#EXTINF:-1,CA | Mega Cosmos
+http://streamsy.online:2999/juanv/04bodwaga0/1832
+#EXTINF:-1,CA | METEO
+http://streamsy.online:2999/juanv/04bodwaga0/1932
+#EXTINF:-1,CA | MLB Network
+http://streamsy.online:2999/juanv/04bodwaga0/1881
+#EXTINF:-1,CA | Moi&Cie
+http://streamsy.online:2999/juanv/04bodwaga0/1822
+#EXTINF:-1,CA | MovieTime
+http://streamsy.online:2999/juanv/04bodwaga0/1814
+#EXTINF:-1,CA | MTV
+http://streamsy.online:2999/juanv/04bodwaga0/1989
+#EXTINF:-1,CA | MTV2
+http://streamsy.online:2999/juanv/04bodwaga0/1893
+#EXTINF:-1,CA | MyTV Boston
+http://streamsy.online:2999/juanv/04bodwaga0/1853
+#EXTINF:-1,CA | NAT GEO
+http://streamsy.online:2999/juanv/04bodwaga0/2016
+#EXTINF:-1,CA | NAT GEO WILD
+http://streamsy.online:2999/juanv/04bodwaga0/1973
+#EXTINF:-1,CA | NBA TV
+http://streamsy.online:2999/juanv/04bodwaga0/1933
+#EXTINF:-1,CA | NBC WEST
+http://streamsy.online:2999/juanv/04bodwaga0/1806
+#EXTINF:-1,CA | NFL Network
+http://streamsy.online:2999/juanv/04bodwaga0/1880
+#EXTINF:-1,CA | NICK
+http://streamsy.online:2999/juanv/04bodwaga0/1934
+#EXTINF:-1,CA | Noovo
+http://streamsy.online:2999/juanv/04bodwaga0/1818
+#EXTINF:-1,CA | NTV
+http://streamsy.online:2999/juanv/04bodwaga0/1935
+#EXTINF:-1,CA | Odyssey
+http://streamsy.online:2999/juanv/04bodwaga0/1831
+#EXTINF:-1,CA | OLN
+http://streamsy.online:2999/juanv/04bodwaga0/1936
+#EXTINF:-1,CA | OMNI 1
+http://streamsy.online:2999/juanv/04bodwaga0/2007
+#EXTINF:-1,CA | OMNI 2
+http://streamsy.online:2999/juanv/04bodwaga0/2006
+#EXTINF:-1,CA | OMNI Vancouver
+http://streamsy.online:2999/juanv/04bodwaga0/1863
+#EXTINF:-1,CA | ONE - GET FIT
+http://streamsy.online:2999/juanv/04bodwaga0/1848
+#EXTINF:-1,CA | OUTtv
+http://streamsy.online:2999/juanv/04bodwaga0/1890
+#EXTINF:-1,CA | OWN
+http://streamsy.online:2999/juanv/04bodwaga0/1937
+#EXTINF:-1,CA | PARAMOUNT CANADA
+http://streamsy.online:2999/juanv/04bodwaga0/1944
+#EXTINF:-1,CA | PBS HD
+http://streamsy.online:2999/juanv/04bodwaga0/1938
+#EXTINF:-1,CA | PEACH TREE
+http://streamsy.online:2999/juanv/04bodwaga0/1966
+#EXTINF:-1,CA | People
+http://streamsy.online:2999/juanv/04bodwaga0/1812
+#EXTINF:-1,CA | Prime Asia Television
+http://streamsy.online:2999/juanv/04bodwaga0/1836
+#EXTINF:-1,CA | PRISE
+http://streamsy.online:2999/juanv/04bodwaga0/1895
+#EXTINF:-1,CA | RAI Italia
+http://streamsy.online:2999/juanv/04bodwaga0/1829
+#EXTINF:-1,CA | RDI
+http://streamsy.online:2999/juanv/04bodwaga0/1939
+#EXTINF:-1,CA | RDS
+http://streamsy.online:2999/juanv/04bodwaga0/1962
+#EXTINF:-1,CA | RDS 2
+http://streamsy.online:2999/juanv/04bodwaga0/1940
+#EXTINF:-1,CA | RDS INFO
+http://streamsy.online:2999/juanv/04bodwaga0/1941
+#EXTINF:-1,CA | Rewind
+http://streamsy.online:2999/juanv/04bodwaga0/1813
+#EXTINF:-1,CA | Ride TV
+http://streamsy.online:2999/juanv/04bodwaga0/1844
+#EXTINF:-1,CA | SHOWCASE HD
+http://streamsy.online:2999/juanv/04bodwaga0/2020
+#EXTINF:-1,CA | SILVER SCREEN CLASSICS
+http://streamsy.online:2999/juanv/04bodwaga0/2005
+#EXTINF:-1,CA | SLICE
+http://streamsy.online:2999/juanv/04bodwaga0/1942
+#EXTINF:-1,CA | SMITHSONIAN
+http://streamsy.online:2999/juanv/04bodwaga0/1943
+#EXTINF:-1,CA | Starz 1
+http://streamsy.online:2999/juanv/04bodwaga0/1878
+#EXTINF:-1,CA | Starz 2
+http://streamsy.online:2999/juanv/04bodwaga0/1877
+#EXTINF:-1,CA | Stingray Country Classics
+http://streamsy.online:2999/juanv/04bodwaga0/2034
+#EXTINF:-1,CA | Stingray Jukebox Oldies
+http://streamsy.online:2999/juanv/04bodwaga0/2031
+#EXTINF:-1,CA | Stingray Kids’ Stuff
+http://streamsy.online:2999/juanv/04bodwaga0/2026
+#EXTINF:-1,CA | Stingray Latino Tropical
+http://streamsy.online:2999/juanv/04bodwaga0/2030
+#EXTINF:-1,CA | Stingray Le Top Detente
+http://streamsy.online:2999/juanv/04bodwaga0/2029
+#EXTINF:-1,CA | Stingray Loud
+http://streamsy.online:2999/juanv/04bodwaga0/2027
+#EXTINF:-1,CA | Stingray Nostalgie
+http://streamsy.online:2999/juanv/04bodwaga0/2028
+#EXTINF:-1,CA | Stingray Opera Plus
+http://streamsy.online:2999/juanv/04bodwaga0/2025
+#EXTINF:-1,CA | Stingray Pop Classics
+http://streamsy.online:2999/juanv/04bodwaga0/2024
+#EXTINF:-1,CA | Stingray Retro
+http://streamsy.online:2999/juanv/04bodwaga0/2033
+#EXTINF:-1,CA | Stingray Rock
+http://streamsy.online:2999/juanv/04bodwaga0/2032
+#EXTINF:-1,CA | Stingray Vibe
+http://streamsy.online:2999/juanv/04bodwaga0/2035
+#EXTINF:-1,CA | Super Channel HD3
+http://streamsy.online:2999/juanv/04bodwaga0/1899
+#EXTINF:-1,CA | Super Channel Heart & Home
+http://streamsy.online:2999/juanv/04bodwaga0/1876
+#EXTINF:-1,CA | Super Channel Vault
+http://streamsy.online:2999/juanv/04bodwaga0/1875
+#EXTINF:-1,CA | SUPER ECRAN 1
+http://streamsy.online:2999/juanv/04bodwaga0/1976
+#EXTINF:-1,CA | SUPER ECRAN 3
+http://streamsy.online:2999/juanv/04bodwaga0/1975
+#EXTINF:-1,CA | SUPER ECRAN 4
+http://streamsy.online:2999/juanv/04bodwaga0/1974
+#EXTINF:-1,CA | Talentvision
+http://streamsy.online:2999/juanv/04bodwaga0/1885
+#EXTINF:-1,CA | TamilVision International
+http://streamsy.online:2999/juanv/04bodwaga0/1835
+#EXTINF:-1,CA | TELE QUEBEC
+http://streamsy.online:2999/juanv/04bodwaga0/1873
+#EXTINF:-1,CA | TeleBimbi
+http://streamsy.online:2999/juanv/04bodwaga0/1810
+#EXTINF:-1,CA | Telelatino
+http://streamsy.online:2999/juanv/04bodwaga0/1823
+#EXTINF:-1,CA | TELEMAGINO
+http://streamsy.online:2999/juanv/04bodwaga0/1887
+#EXTINF:-1,CA | TELETOON EAST
+http://streamsy.online:2999/juanv/04bodwaga0/1968
+#EXTINF:-1,CA | TELETOON FRENCH
+http://streamsy.online:2999/juanv/04bodwaga0/1871
+#EXTINF:-1,CA | TFO
+http://streamsy.online:2999/juanv/04bodwaga0/1820
+#EXTINF:-1,CA | The Shopping Channel
+http://streamsy.online:2999/juanv/04bodwaga0/1858
+#EXTINF:-1,CA | THE WEATHER NETWORK
+http://streamsy.online:2999/juanv/04bodwaga0/1977
+#EXTINF:-1,CA | TLN
+http://streamsy.online:2999/juanv/04bodwaga0/1824
+#EXTINF:-1,CA | Toon-A-Vision
+http://streamsy.online:2999/juanv/04bodwaga0/1840
+#EXTINF:-1,CA | Travel + Escape
+http://streamsy.online:2999/juanv/04bodwaga0/1897
+#EXTINF:-1,CA | TREEHOUSE
+http://streamsy.online:2999/juanv/04bodwaga0/1945
+#EXTINF:-1,CA | Turner Classic Movies
+http://streamsy.online:2999/juanv/04bodwaga0/1855
+#EXTINF:-1,CA | TV5 QUEBEC
+http://streamsy.online:2999/juanv/04bodwaga0/1978
+#EXTINF:-1,CA | TVA Montreal
+http://streamsy.online:2999/juanv/04bodwaga0/1990
+#EXTINF:-1,CA | TVA Quebec
+http://streamsy.online:2999/juanv/04bodwaga0/1872
+#EXTINF:-1,CA | TVA Sport 2
+http://streamsy.online:2999/juanv/04bodwaga0/2036
+#EXTINF:-1,CA | TVA SPORTS
+http://streamsy.online:2999/juanv/04bodwaga0/1963
+#EXTINF:-1,CA | TVO KIDS
+http://streamsy.online:2999/juanv/04bodwaga0/1946
+#EXTINF:-1,CA | UNIS TV
+http://streamsy.online:2999/juanv/04bodwaga0/1947
+#EXTINF:-1,CA | VISION
+http://streamsy.online:2999/juanv/04bodwaga0/2019
+#EXTINF:-1,CA | VRAK TV
+http://streamsy.online:2999/juanv/04bodwaga0/1948
+#EXTINF:-1,CA | W NETWORK
+http://streamsy.online:2999/juanv/04bodwaga0/2002
+#EXTINF:-1,CA | WGN
+http://streamsy.online:2999/juanv/04bodwaga0/1971
+#EXTINF:-1,CA | WILD TV
+http://streamsy.online:2999/juanv/04bodwaga0/1970
+#EXTINF:-1,CA | WWE
+http://streamsy.online:2999/juanv/04bodwaga0/1882
+#EXTINF:-1,CA | YES TV
+http://streamsy.online:2999/juanv/04bodwaga0/1888
+#EXTINF:-1,CA | YOOPA
+http://streamsy.online:2999/juanv/04bodwaga0/1980
+#EXTINF:-1,CA | YTV
+http://streamsy.online:2999/juanv/04bodwaga0/1949
+#EXTINF:-1,CA | Z TELE
+http://streamsy.online:2999/juanv/04bodwaga0/1964
+#EXTINF:-1,CA | Zee TV Canada
+http://streamsy.online:2999/juanv/04bodwaga0/1860
+#EXTINF:-1,CA | ZESTE
+http://streamsy.online:2999/juanv/04bodwaga0/1965
 #EXTINF:-1,USA | A&E
 http://streamsy.online:2999/xxx/212
 #EXTINF:-1,USA | ABC
@@ -25129,1569 +25615,1569 @@ http://fl1.moveonjoy.com/WE_TV/index.m3u8
 #EXTINF:-1,YES Network
 http://fl2.moveonjoy.com/YES_NETWORK/index.m3u8
 
-#EXTINF:-1 group-title="USA Entertainment",ABC
+#EXTINF:-1 ,ABC
 http://lunar.pm:8080/xxx/9228
-#EXTINF:-1 group-title="USA Locals",ABC 02(Atlanta)
+#EXTINF:-1 ,ABC 02(Atlanta)
 http://lunar.pm:8080/xxx/64465
-#EXTINF:-1 group-title="USA Locals",ABC 02(Baltimore)
+#EXTINF:-1 ,ABC 02(Baltimore)
 http://lunar.pm:8080/xxx/64464
-#EXTINF:-1 group-title="USA Locals",ABC 02(Milwaukee)
+#EXTINF:-1 ,ABC 02(Milwaukee)
 http://lunar.pm:8080/xxx/64467
-#EXTINF:-1 group-title="USA Locals",ABC 02(Nashville)
+#EXTINF:-1 ,ABC 02(Nashville)
 http://lunar.pm:8080/xxx/64466
-#EXTINF:-1 group-title="USA Locals",ABC 02(Portland)
+#EXTINF:-1 ,ABC 02(Portland)
 http://lunar.pm:8080/xxx/64463
-#EXTINF:-1 group-title="USA Locals",ABC 04(Pittsburgh)
+#EXTINF:-1 ,ABC 04(Pittsburgh)
 http://lunar.pm:8080/xxx/64461
-#EXTINF:-1 group-title="USA Locals",ABC 04(Salt Lake City)
+#EXTINF:-1 ,ABC 04(Salt Lake City)
 http://lunar.pm:8080/xxx/64462
-#EXTINF:-1 group-title="USA Locals",ABC 04(Seattle)
+#EXTINF:-1 ,ABC 04(Seattle)
 http://lunar.pm:8080/xxx/64460
-#EXTINF:-1 group-title="USA Locals",ABC 05(Boston)
+#EXTINF:-1 ,ABC 05(Boston)
 http://lunar.pm:8080/xxx/64459
-#EXTINF:-1 group-title="USA Locals",ABC 05(Saint Paul)
+#EXTINF:-1 ,ABC 05(Saint Paul)
 http://lunar.pm:8080/xxx/64458
-#EXTINF:-1 group-title="USA Locals",ABC 06(Indianapolis)
+#EXTINF:-1 ,ABC 06(Indianapolis)
 http://lunar.pm:8080/xxx/64456
-#EXTINF:-1 group-title="USA Locals",ABC 06(Augusta)
+#EXTINF:-1 ,ABC 06(Augusta)
 http://lunar.pm:8080/xxx/118529
-#EXTINF:-1 group-title="USA Locals",ABC 06(Philly)
+#EXTINF:-1 ,ABC 06(Philly)
 http://lunar.pm:8080/xxx/64457
-#EXTINF:-1 group-title="USA Locals",ABC 07(Chicago)
+#EXTINF:-1 ,ABC 07(Chicago)
 http://lunar.pm:8080/xxx/64452
-#EXTINF:-1 group-title="USA Locals",ABC 07(Denver)
+#EXTINF:-1 ,ABC 07(Denver)
 http://lunar.pm:8080/xxx/64453
-#EXTINF:-1 group-title="USA Locals",ABC 07(Detroit)
+#EXTINF:-1 ,ABC 07(Detroit)
 http://lunar.pm:8080/xxx/64450
-#EXTINF:-1 group-title="USA Locals",ABC 07(Los Angeles)
+#EXTINF:-1 ,ABC 07(Los Angeles)
 http://lunar.pm:8080/xxx/64455
-#EXTINF:-1 group-title="USA Locals",ABC 07(New York)
+#EXTINF:-1 ,ABC 07(New York)
 http://lunar.pm:8080/xxx/64449
-#EXTINF:-1 group-title="USA Locals",ABC 07(San Franscisco-Bay Area)
+#EXTINF:-1 ,ABC 07(San Franscisco-Bay Area)
 http://lunar.pm:8080/xxx/64454
-#EXTINF:-1 group-title="USA Locals",ABC 07(Washington Dc)
+#EXTINF:-1 ,ABC 07(Washington Dc)
 http://lunar.pm:8080/xxx/64451
-#EXTINF:-1 group-title="USA Locals",ABC 08(Dallas)
+#EXTINF:-1 ,ABC 08(Dallas)
 http://lunar.pm:8080/xxx/64448
-#EXTINF:-1 group-title="USA Locals",ABC 08(Hartford)
+#EXTINF:-1 ,ABC 08(Hartford)
 http://lunar.pm:8080/xxx/64447
-#EXTINF:-1 group-title="USA Locals",ABC 09(Charlotte)
+#EXTINF:-1 ,ABC 09(Charlotte)
 http://lunar.pm:8080/xxx/64446
-#EXTINF:-1 group-title="USA Locals",ABC 10 (Albany)
+#EXTINF:-1 ,ABC 10 (Albany)
 http://lunar.pm:8080/xxx/120056
-#EXTINF:-1 group-title="USA Locals",ABC 10(Miami)
+#EXTINF:-1 ,ABC 10(Miami)
 http://lunar.pm:8080/xxx/64444
-#EXTINF:-1 group-title="USA Locals",ABC 09(Orlando)
+#EXTINF:-1 ,ABC 09(Orlando)
 http://lunar.pm:8080/xxx/64445
-#EXTINF:-1 group-title="USA Locals",ABC 10(Sacremento)
+#EXTINF:-1 ,ABC 10(Sacremento)
 http://lunar.pm:8080/xxx/64442
-#EXTINF:-1 group-title="USA Locals",ABC 10(San Diego)
+#EXTINF:-1 ,ABC 10(San Diego)
 http://lunar.pm:8080/xxx/64443
-#EXTINF:-1 group-title="USA Locals",ABC 11(Raleigh)
+#EXTINF:-1 ,ABC 11(Raleigh)
 http://lunar.pm:8080/xxx/64441
-#EXTINF:-1 group-title="USA Locals",ABC 13(Houston)
+#EXTINF:-1 ,ABC 13(Houston)
 http://lunar.pm:8080/xxx/64440
-#EXTINF:-1 group-title="USA Locals",ABC 15(Pheonix)
+#EXTINF:-1 ,ABC 15(Pheonix)
 http://lunar.pm:8080/xxx/64439
-#EXTINF:-1 group-title="USA Locals",ABC 25(Waco)
+#EXTINF:-1 ,ABC 25(Waco)
 http://lunar.pm:8080/xxx/118472
-#EXTINF:-1 group-title="USA Locals",ABC 28(Tampa Bay)
+#EXTINF:-1 ,ABC 28(Tampa Bay)
 http://lunar.pm:8080/xxx/64438
-#EXTINF:-1 group-title="USA Locals",ABC 30(Fresno)
+#EXTINF:-1 ,ABC 30(Fresno)
 http://lunar.pm:8080/xxx/64437
-#EXTINF:-1 group-title="USA Locals",ABC 30(ST Louis)
+#EXTINF:-1 ,ABC 30(ST Louis)
 http://lunar.pm:8080/xxx/64436
-#EXTINF:-1 group-title="USA Locals",Bay News 9 (Tampa Bay)
+#EXTINF:-1 ,Bay News 9 (Tampa Bay)
 http://lunar.pm:8080/xxx/120024
-#EXTINF:-1 group-title="USA News",ABC NEWS LIVE
+#EXTINF:-1 ,ABC NEWS LIVE
 http://lunar.pm:8080/xxx/21471
-#EXTINF:-1 group-title="USA Sports",ACC Network
+#EXTINF:-1 ,ACC Network
 http://lunar.pm:8080/xxx/68765
-#EXTINF:-1 group-title="Religion (ALL)",ACCTV
+#EXTINF:-1 ,ACCTV
 http://lunar.pm:8080/xxx/75545
-#EXTINF:-1 group-title="Religion (ALL)",ACCTV
+#EXTINF:-1 ,ACCTV
 http://lunar.pm:8080/xxx/75546
-#EXTINF:-1 group-title="USA News",ACU WEATHER
+#EXTINF:-1 ,ACU WEATHER
 http://lunar.pm:8080/xxx/100367
-#EXTINF:-1 group-title="USA Entertainment",Adult Swim
+#EXTINF:-1 ,Adult Swim
 http://lunar.pm:8080/xxx/66602
-#EXTINF:-1 group-title="USA Entertainment",AFN Family/Pulse
+#EXTINF:-1 ,AFN Family/Pulse
 http://lunar.pm:8080/xxx/118462
-#EXTINF:-1 group-title="USA Entertainment",AFN Movie
+#EXTINF:-1 ,AFN Movie
 http://lunar.pm:8080/xxx/118463
-#EXTINF:-1 group-title="USA News",AFN News
+#EXTINF:-1 ,AFN News
 http://lunar.pm:8080/xxx/118464
-#EXTINF:-1 group-title="USA Entertainment",AFN Prime Atlantic
+#EXTINF:-1 ,AFN Prime Atlantic
 http://lunar.pm:8080/xxx/118465
-#EXTINF:-1 group-title="USA Entertainment",AFN Prime Pacific
+#EXTINF:-1 ,AFN Prime Pacific
 http://lunar.pm:8080/xxx/118466
-#EXTINF:-1 group-title="USA Entertainment",AFN Spectrum
+#EXTINF:-1 ,AFN Spectrum
 http://lunar.pm:8080/xxx/118467
-#EXTINF:-1 group-title="USA Entertainment",AMC
+#EXTINF:-1 ,AMC
 http://lunar.pm:8080/xxx/9227
-#EXTINF:-1 group-title="USA Entertainment",AMC+
+#EXTINF:-1 ,AMC+
 http://lunar.pm:8080/xxx/108531
-#EXTINF:-1 group-title="USA Entertainment",AMERICAN HEROES
+#EXTINF:-1 ,AMERICAN HEROES
 http://lunar.pm:8080/xxx/9218
-#EXTINF:-1 group-title="USA Entertainment",ANIMAL PLANET
+#EXTINF:-1 ,ANIMAL PLANET
 http://lunar.pm:8080/xxx/9217
-#EXTINF:-1 group-title="USA Entertainment",Antenna
+#EXTINF:-1 ,Antenna
 http://lunar.pm:8080/xxx/9200
-#EXTINF:-1 group-title="USA Entertainment",Aspire
+#EXTINF:-1 ,Aspire
 http://lunar.pm:8080/xxx/105642
-#EXTINF:-1 group-title="USA Sports",AT&T Sportsnet
+#EXTINF:-1 ,AT&T Sportsnet
 http://lunar.pm:8080/xxx/56636
-#EXTINF:-1 group-title="USA Entertainment",AXS
+#EXTINF:-1 ,AXS
 http://lunar.pm:8080/xxx/47718
-#EXTINF:-1 group-title="USA Entertainment",BBC AMERICA
+#EXTINF:-1 ,BBC AMERICA
 http://lunar.pm:8080/xxx/9215
-#EXTINF:-1 group-title="USA News",BBC WORLD NEWS
+#EXTINF:-1 ,BBC WORLD NEWS
 http://lunar.pm:8080/xxx/8805
-#EXTINF:-1 group-title="USA Sports",BEIN SPORTS
+#EXTINF:-1 ,BEIN SPORTS
 http://lunar.pm:8080/xxx/9406
-#EXTINF:-1 group-title="USA Entertainment",BET
+#EXTINF:-1 ,BET
 http://lunar.pm:8080/xxx/9214
-#EXTINF:-1 group-title="USA Entertainment",BET HER
+#EXTINF:-1 ,BET HER
 http://lunar.pm:8080/xxx/49221
-#EXTINF:-1 group-title="USA Entertainment",BET JAMZ 
+#EXTINF:-1 ,BET JAMZ 
 http://lunar.pm:8080/xxx/98681
-#EXTINF:-1 group-title="USA Entertainment",BET SOUL 
+#EXTINF:-1 ,BET SOUL 
 http://lunar.pm:8080/xxx/98682
-#EXTINF:-1 group-title="USA Entertainment",Blaze Tv
+#EXTINF:-1 ,Blaze Tv
 http://lunar.pm:8080/xxx/105643
-#EXTINF:-1 group-title="USA Sports",BIG TEN NETWORK
+#EXTINF:-1 ,BIG TEN NETWORK
 http://lunar.pm:8080/xxx/9572
-#EXTINF:-1 group-title="USA News", BNC (Black News Channel)
+#EXTINF:-1 , BNC (Black News Channel)
 http://lunar.pm:8080/xxx/105617
-#EXTINF:-1 group-title="USA Entertainment",BOUNCE
+#EXTINF:-1 ,BOUNCE
 http://lunar.pm:8080/xxx/9211
-#EXTINF:-1 group-title="USA Entertainment",BRAVO
+#EXTINF:-1 ,BRAVO
 http://lunar.pm:8080/xxx/9210
-#EXTINF:-1 group-title="USA Entertainment",BRAVO (West)
+#EXTINF:-1 ,BRAVO (West)
 http://lunar.pm:8080/xxx/56094
-#EXTINF:-1 group-title="USA Entertainment",BUZZR
+#EXTINF:-1 ,BUZZR
 http://lunar.pm:8080/xxx/9209
-#EXTINF:-1 group-title="USA News",C-SPAN
+#EXTINF:-1 ,C-SPAN
 http://lunar.pm:8080/xxx/98734
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Acadie HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Acadie HD (D)
 http://lunar.pm:8080/xxx/99972
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Alberta HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Alberta HD (D)
 http://lunar.pm:8080/xxx/99973
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele CB-Yukon HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele CB-Yukon HD (D)
 http://lunar.pm:8080/xxx/99974
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Est-Quebec HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Est-Quebec HD (D)
 http://lunar.pm:8080/xxx/99975
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Estrie HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Estrie HD (D)
 http://lunar.pm:8080/xxx/99976
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Manitoba HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Manitoba HD (D)
 http://lunar.pm:8080/xxx/99977
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Mauricie HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Mauricie HD (D)
 http://lunar.pm:8080/xxx/99978
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Montreal HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Montreal HD (D)
 http://lunar.pm:8080/xxx/99979
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Ontario HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Ontario HD (D)
 http://lunar.pm:8080/xxx/99980
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Ottawa-Gatineau HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Ottawa-Gatineau HD (D)
 http://lunar.pm:8080/xxx/99981
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Quebec HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Quebec HD (D)
 http://lunar.pm:8080/xxx/99982
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Saguenay HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Saguenay HD (D)
 http://lunar.pm:8080/xxx/99983
-#EXTINF:-1 group-title="Canada Locals",CA (FR) ICI Tele Saskatchewan HD (D)
+#EXTINF:-1 ,CA (FR) ICI Tele Saskatchewan HD (D)
 http://lunar.pm:8080/xxx/99984
-#EXTINF:-1 group-title="Canada Locals",CA CBC Calgary HD (D)
+#EXTINF:-1 ,CA CBC Calgary HD (D)
 http://lunar.pm:8080/xxx/99945
-#EXTINF:-1 group-title="Canada Locals",CA CBC Charlottetown HD (D)
+#EXTINF:-1 ,CA CBC Charlottetown HD (D)
 http://lunar.pm:8080/xxx/99946
-#EXTINF:-1 group-title="Canada Locals",CA CBC Edmonton HD (D)
+#EXTINF:-1 ,CA CBC Edmonton HD (D)
 http://lunar.pm:8080/xxx/99947
-#EXTINF:-1 group-title="Canada Locals",CA CBC Fredericton HD (D)
+#EXTINF:-1 ,CA CBC Fredericton HD (D)
 http://lunar.pm:8080/xxx/99948
-#EXTINF:-1 group-title="Canada Locals",CA CBC Halifax HD (D)
+#EXTINF:-1 ,CA CBC Halifax HD (D)
 http://lunar.pm:8080/xxx/99949
-#EXTINF:-1 group-title="Canada Locals",CA CBC Montreal HD (D)
+#EXTINF:-1 ,CA CBC Montreal HD (D)
 http://lunar.pm:8080/xxx/99950
-#EXTINF:-1 group-title="Canada Locals",CA CBC News Network HD (D)
+#EXTINF:-1 ,CA CBC News Network HD (D)
 http://lunar.pm:8080/xxx/99944
-#EXTINF:-1 group-title="Canada Locals",CA CBC Ottawa HD (D)
+#EXTINF:-1 ,CA CBC Ottawa HD (D)
 http://lunar.pm:8080/xxx/99951
-#EXTINF:-1 group-title="Canada Locals",CA CBC Regina HD (D)
+#EXTINF:-1 ,CA CBC Regina HD (D)
 http://lunar.pm:8080/xxx/99952
-#EXTINF:-1 group-title="Canada Locals",CA CBC St John's HD (D)
+#EXTINF:-1 ,CA CBC St John's HD (D)
 http://lunar.pm:8080/xxx/99953
-#EXTINF:-1 group-title="Canada Locals",CA CBC Toronto HD (D)
+#EXTINF:-1 ,CA CBC Toronto HD (D)
 http://lunar.pm:8080/xxx/99954
-#EXTINF:-1 group-title="Canada Locals",CA CBC Vancouver HD (D)
+#EXTINF:-1 ,CA CBC Vancouver HD (D)
 http://lunar.pm:8080/xxx/99955
-#EXTINF:-1 group-title="Canada Locals",CA CBC Windsor HD (D)
+#EXTINF:-1 ,CA CBC Windsor HD (D)
 http://lunar.pm:8080/xxx/99956
-#EXTINF:-1 group-title="Canada Locals",CA CBC Winnipeg HD (D)
+#EXTINF:-1 ,CA CBC Winnipeg HD (D)
 http://lunar.pm:8080/xxx/99957
-#EXTINF:-1 group-title="Canada Locals",CA CBC Yellowknife HD (D)
+#EXTINF:-1 ,CA CBC Yellowknife HD (D)
 http://lunar.pm:8080/xxx/99958
-#EXTINF:-1 group-title="Canada Locals",CA CTV (Ottawa) (R)
+#EXTINF:-1 ,CA CTV (Ottawa) (R)
 http://lunar.pm:8080/xxx/99966
-#EXTINF:-1 group-title="Canada Locals",CA CTV Atlantic HD (R)
+#EXTINF:-1 ,CA CTV Atlantic HD (R)
 http://lunar.pm:8080/xxx/99962
-#EXTINF:-1 group-title="Canada Locals",CA CTV Kitchener HD (R)
+#EXTINF:-1 ,CA CTV Kitchener HD (R)
 http://lunar.pm:8080/xxx/99964
-#EXTINF:-1 group-title="Canada Locals",CA CTV News Channel HD (R)
+#EXTINF:-1 ,CA CTV News Channel HD (R)
 http://lunar.pm:8080/xxx/99961
-#EXTINF:-1 group-title="Canada Locals",CA CTV Toronto HD (R)
+#EXTINF:-1 ,CA CTV Toronto HD (R)
 http://lunar.pm:8080/xxx/99960
-#EXTINF:-1 group-title="Canada Locals",CA CTV Two Atlantic (R)
+#EXTINF:-1 ,CA CTV Two Atlantic (R)
 http://lunar.pm:8080/xxx/99963
-#EXTINF:-1 group-title="Canada Locals",CA CTV2 Atlantic HD (R)
+#EXTINF:-1 ,CA CTV2 Atlantic HD (R)
 http://lunar.pm:8080/xxx/99959
-#EXTINF:-1 group-title="Canada Locals",CA CTV2 London HD (R)
+#EXTINF:-1 ,CA CTV2 London HD (R)
 http://lunar.pm:8080/xxx/99965
-#EXTINF:-1 group-title="Canada Locals",CA CTV2 Ottawa HD (R)
+#EXTINF:-1 ,CA CTV2 Ottawa HD (R)
 http://lunar.pm:8080/xxx/99967
-#EXTINF:-1 group-title="Canada Locals",CA Global Calgary (SD)  (P)
+#EXTINF:-1 ,CA Global Calgary (SD)  (P)
 http://lunar.pm:8080/xxx/99971
-#EXTINF:-1 group-title="Canada Locals",CA Global Durham HD (R)
+#EXTINF:-1 ,CA Global Durham HD (R)
 http://lunar.pm:8080/xxx/99970
-#EXTINF:-1 group-title="Canada Locals",CA Global National (HD) (R)
+#EXTINF:-1 ,CA Global National (HD) (R)
 http://lunar.pm:8080/xxx/99969
-#EXTINF:-1 group-title="Canada Locals",CA Global Toronto HD (R)
+#EXTINF:-1 ,CA Global Toronto HD (R)
 http://lunar.pm:8080/xxx/99968
-#EXTINF:-1 group-title="Canada Entertainment",CA: A&E
+#EXTINF:-1 ,CA: A&E
 http://lunar.pm:8080/xxx/94883
-#EXTINF:-1 group-title="Canada Entertainment",CA: ABC EAST
+#EXTINF:-1 ,CA: ABC EAST
 http://lunar.pm:8080/xxx/94884
-#EXTINF:-1 group-title="Canada Entertainment",CA: ABC Spark
+#EXTINF:-1 ,CA: ABC Spark
 http://lunar.pm:8080/xxx/94885
-#EXTINF:-1 group-title="Canada Entertainment",CA: Addik TV (FR)
+#EXTINF:-1 ,CA: Addik TV (FR)
 http://lunar.pm:8080/xxx/94886
-#EXTINF:-1 group-title="Canada Entertainment",CA: AHC
+#EXTINF:-1 ,CA: AHC
 http://lunar.pm:8080/xxx/94887
-#EXTINF:-1 group-title="Canada Entertainment",CA: AMC
+#EXTINF:-1 ,CA: AMC
 http://lunar.pm:8080/xxx/94888
-#EXTINF:-1 group-title="Canada Documentries",CA: Animal Planet
+#EXTINF:-1 ,CA: Animal Planet
 http://lunar.pm:8080/xxx/67226
-#EXTINF:-1 group-title="Canada News",CA: APTN
+#EXTINF:-1 ,CA: APTN
 http://lunar.pm:8080/xxx/67225
-#EXTINF:-1 group-title="Canada News",CA: BBC Canada
+#EXTINF:-1 ,CA: BBC Canada
 http://lunar.pm:8080/xxx/67223
-#EXTINF:-1 group-title="Canada News",CA: BBC EARTH
+#EXTINF:-1 ,CA: BBC EARTH
 http://lunar.pm:8080/xxx/67222
-#EXTINF:-1 group-title="Canada Entertainment",CA: BET
+#EXTINF:-1 ,CA: BET
 http://lunar.pm:8080/xxx/94889
-#EXTINF:-1 group-title="Canada News",CA: BNN Bloomberg
+#EXTINF:-1 ,CA: BNN Bloomberg
 http://lunar.pm:8080/xxx/67220
-#EXTINF:-1 group-title="Canada Entertainment",CA: Canal D (FR)
+#EXTINF:-1 ,CA: Canal D (FR)
 http://lunar.pm:8080/xxx/94891
-#EXTINF:-1 group-title="Canada Kids",CA: CARTOON NETWORK
+#EXTINF:-1 ,CA: CARTOON NETWORK
 http://lunar.pm:8080/xxx/67215
-#EXTINF:-1 group-title="Canada Entertainment",CA: CASA (FR)
+#EXTINF:-1 ,CA: CASA (FR)
 http://lunar.pm:8080/xxx/94893
-#EXTINF:-1 group-title="Canada News",CA: CBC NEWS
+#EXTINF:-1 ,CA: CBC NEWS
 http://lunar.pm:8080/xxx/67212
-#EXTINF:-1 group-title="Canada Entertainment",CA: CBS 
+#EXTINF:-1 ,CA: CBS 
 http://lunar.pm:8080/xxx/94894
-#EXTINF:-1 group-title="Canada Entertainment",CA: CHCH
+#EXTINF:-1 ,CA: CHCH
 http://lunar.pm:8080/xxx/94896
-#EXTINF:-1 group-title="Canada Entertainment",CA: CinePOP (FR)
+#EXTINF:-1 ,CA: CinePOP (FR)
 http://lunar.pm:8080/xxx/94897
-#EXTINF:-1 group-title="Canada Entertainment",CA: CMT
+#EXTINF:-1 ,CA: CMT
 http://lunar.pm:8080/xxx/94898
-#EXTINF:-1 group-title="Canada News",CA: CNN
+#EXTINF:-1 ,CA: CNN
 http://lunar.pm:8080/xxx/67196
-#EXTINF:-1 group-title="Canada News",CA: CNN INTERNATIONAL
+#EXTINF:-1 ,CA: CNN INTERNATIONAL
 http://lunar.pm:8080/xxx/67195
-#EXTINF:-1 group-title="Canada Entertainment",CA: CTV COMEDY CHANNEL
+#EXTINF:-1 ,CA: CTV COMEDY CHANNEL
 http://lunar.pm:8080/xxx/94900
-#EXTINF:-1 group-title="Canada Entertainment",CA: COOKING CHANNEL
+#EXTINF:-1 ,CA: COOKING CHANNEL
 http://lunar.pm:8080/xxx/94901
-#EXTINF:-1 group-title="Canada News",CA: CP24
+#EXTINF:-1 ,CA: CP24
 http://lunar.pm:8080/xxx/67189
-#EXTINF:-1 group-title="Canada News",CA: CPAC
+#EXTINF:-1 ,CA: CPAC
 http://lunar.pm:8080/xxx/67188
-#EXTINF:-1 group-title="Canada News",CA: CPAC  (FR)
+#EXTINF:-1 ,CA: CPAC  (FR)
 http://lunar.pm:8080/xxx/67187
-#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 1
+#EXTINF:-1 ,CA: CRAVE 1
 http://lunar.pm:8080/xxx/67186
-#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 2
+#EXTINF:-1 ,CA: CRAVE 2
 http://lunar.pm:8080/xxx/67185
-#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 3
+#EXTINF:-1 ,CA: CRAVE 3
 http://lunar.pm:8080/xxx/67184
-#EXTINF:-1 group-title="Canada Movies",CA: CRAVE 4
+#EXTINF:-1 ,CA: CRAVE 4
 http://lunar.pm:8080/xxx/67183
-#EXTINF:-1 group-title="Canada Documentries",CA: Crime & Investigation
+#EXTINF:-1 ,CA: Crime & Investigation
 http://lunar.pm:8080/xxx/67182
-#EXTINF:-1 group-title="Canada Entertainment",CA: DAYSTAR TV
+#EXTINF:-1 ,CA: DAYSTAR TV
 http://lunar.pm:8080/xxx/94903
-#EXTINF:-1 group-title="Canada Documentries",CA: DejaView
+#EXTINF:-1 ,CA: DejaView
 http://lunar.pm:8080/xxx/67169
-#EXTINF:-1 group-title="Canada Documentries",CA: Discovery Channel
+#EXTINF:-1 ,CA: Discovery Channel
 http://lunar.pm:8080/xxx/67168
-#EXTINF:-1 group-title="Canada Documentries",CA: DISCOVERY SCIENCE
+#EXTINF:-1 ,CA: DISCOVERY SCIENCE
 http://lunar.pm:8080/xxx/67167
-#EXTINF:-1 group-title="Canada Kids",CA: DISNEY (FR)
+#EXTINF:-1 ,CA: DISNEY (FR)
 http://lunar.pm:8080/xxx/67165
-#EXTINF:-1 group-title="Canada Kids",CA: DISNEY CHANNEL
+#EXTINF:-1 ,CA: DISNEY CHANNEL
 http://lunar.pm:8080/xxx/67166
-#EXTINF:-1 group-title="Canada Kids",CA: Disney Junior (FR)
+#EXTINF:-1 ,CA: Disney Junior (FR)
 http://lunar.pm:8080/xxx/67164
-#EXTINF:-1 group-title="Canada Kids",CA: Disney XD
+#EXTINF:-1 ,CA: Disney XD
 http://lunar.pm:8080/xxx/94881
-#EXTINF:-1 group-title="Canada Documentries",CA: DIY/MAGNOLIA NETWORK
+#EXTINF:-1 ,CA: DIY/MAGNOLIA NETWORK
 http://lunar.pm:8080/xxx/67163
-#EXTINF:-1 group-title="Canada Entertainment",CA: DTOUR
+#EXTINF:-1 ,CA: DTOUR
 http://lunar.pm:8080/xxx/94904
-#EXTINF:-1 group-title="Canada Entertainment",CA: E!
+#EXTINF:-1 ,CA: E!
 http://lunar.pm:8080/xxx/94905
-#EXTINF:-1 group-title="Canada Entertainment",CA: Evasion (FR)
+#EXTINF:-1 ,CA: Evasion (FR)
 http://lunar.pm:8080/xxx/94906
-#EXTINF:-1 group-title="Canada Movies",CA: Wildbrain TV
+#EXTINF:-1 ,CA: Wildbrain TV
 http://lunar.pm:8080/xxx/67157
-#EXTINF:-1 group-title="Canada Entertainment",CA: Family EAST
+#EXTINF:-1 ,CA: Family EAST
 http://lunar.pm:8080/xxx/94907
-#EXTINF:-1 group-title="Canada Kids",CA: Family JR
+#EXTINF:-1 ,CA: Family JR
 http://lunar.pm:8080/xxx/67155
-#EXTINF:-1 group-title="Canada Sports",CA: FIGHT NETWORK
+#EXTINF:-1 ,CA: FIGHT NETWORK
 http://lunar.pm:8080/xxx/67153
-#EXTINF:-1 group-title="Canada Entertainment",CA: FOX 
+#EXTINF:-1 ,CA: FOX 
 http://lunar.pm:8080/xxx/94909
-#EXTINF:-1 group-title="Canada News",CA: FOX NEWS
+#EXTINF:-1 ,CA: FOX NEWS
 http://lunar.pm:8080/xxx/67150
-#EXTINF:-1 group-title="Canada Entertainment",CA: FX
+#EXTINF:-1 ,CA: FX
 http://lunar.pm:8080/xxx/94913
-#EXTINF:-1 group-title="Canada Entertainment",CA: FXX
+#EXTINF:-1 ,CA: FXX
 http://lunar.pm:8080/xxx/94914
-#EXTINF:-1 group-title="Canada Entertainment",CA: Game TV
+#EXTINF:-1 ,CA: Game TV
 http://lunar.pm:8080/xxx/94916
-#EXTINF:-1 group-title="Canada Sports",CA: GINX ESPORTS TV
+#EXTINF:-1 ,CA: GINX ESPORTS TV
 http://lunar.pm:8080/xxx/67144
-#EXTINF:-1 group-title="Canada Sports",CA: GOLF
+#EXTINF:-1 ,CA: GOLF
 http://lunar.pm:8080/xxx/67139
-#EXTINF:-1 group-title="Canada Documentries",CA: H2
+#EXTINF:-1 ,CA: H2
 http://lunar.pm:8080/xxx/67136
-#EXTINF:-1 group-title="Canada Movies",CA: HBO
+#EXTINF:-1 ,CA: HBO
 http://lunar.pm:8080/xxx/67135
-#EXTINF:-1 group-title="Canada Movies",CA: HBO 2
+#EXTINF:-1 ,CA: HBO 2
 http://lunar.pm:8080/xxx/67134
-#EXTINF:-1 group-title="Canada Documentries",CA: HGTV
+#EXTINF:-1 ,CA: HGTV
 http://lunar.pm:8080/xxx/67133
-#EXTINF:-1 group-title="Canada Documentries",CA: Historia (FR)
+#EXTINF:-1 ,CA: Historia (FR)
 http://lunar.pm:8080/xxx/67132
-#EXTINF:-1 group-title="Canada Documentries",CA: HISTORY
+#EXTINF:-1 ,CA: HISTORY
 http://lunar.pm:8080/xxx/67131
-#EXTINF:-1 group-title="Canada Documentries",CA: HLN
+#EXTINF:-1 ,CA: HLN
 http://lunar.pm:8080/xxx/67130
-#EXTINF:-1 group-title="Canada Documentries",CA: Investigation Discovery
+#EXTINF:-1 ,CA: Investigation Discovery
 http://lunar.pm:8080/xxx/67123
-#EXTINF:-1 group-title="Canada Entertainment",CA: KTLA
+#EXTINF:-1 ,CA: KTLA
 http://lunar.pm:8080/xxx/94919
-#EXTINF:-1 group-title="Canada Entertainment",CA: LIFETIME
+#EXTINF:-1 ,CA: LIFETIME
 http://lunar.pm:8080/xxx/94921
-#EXTINF:-1 group-title="Canada Entertainment",CA: MAKEFUL
+#EXTINF:-1 ,CA: MAKEFUL
 http://lunar.pm:8080/xxx/94922
-#EXTINF:-1 group-title="Canada Sports",CA: MAVTV
+#EXTINF:-1 ,CA: MAVTV
 http://lunar.pm:8080/xxx/67117
-#EXTINF:-1 group-title="Canada Entertainment",CA: MAX (FR)
+#EXTINF:-1 ,CA: MAX (FR)
 http://lunar.pm:8080/xxx/94923
-#EXTINF:-1 group-title="Canada Movies",CA: MovieTime
+#EXTINF:-1 ,CA: MovieTime
 http://lunar.pm:8080/xxx/67111
-#EXTINF:-1 group-title="Canada Entertainment",CA: MTV
+#EXTINF:-1 ,CA: MTV
 http://lunar.pm:8080/xxx/94927
-#EXTINF:-1 group-title="Canada Entertainment",CA: MUCH MUSIC
+#EXTINF:-1 ,CA: MUCH MUSIC
 http://lunar.pm:8080/xxx/94929
-#EXTINF:-1 group-title="Canada Documentries",CA: Nat Geo
+#EXTINF:-1 ,CA: Nat Geo
 http://lunar.pm:8080/xxx/67106
-#EXTINF:-1 group-title="Canada Documentries",CA: Nat Geo Wild
+#EXTINF:-1 ,CA: Nat Geo Wild
 http://lunar.pm:8080/xxx/94882
-#EXTINF:-1 group-title="Canada Sports",CA: NBA TV
+#EXTINF:-1 ,CA: NBA TV
 http://lunar.pm:8080/xxx/67105
-#EXTINF:-1 group-title="Canada Entertainment",CA: NBC 
+#EXTINF:-1 ,CA: NBC 
 http://lunar.pm:8080/xxx/94931
-#EXTINF:-1 group-title="Canada Kids",CA: NICK
+#EXTINF:-1 ,CA: NICK
 http://lunar.pm:8080/xxx/67102
-#EXTINF:-1 group-title="Canada Documentries",CA: OLN
+#EXTINF:-1 ,CA: OLN
 http://lunar.pm:8080/xxx/67100
-#EXTINF:-1 group-title="Canada Entertainment",CA: OMNI 1
+#EXTINF:-1 ,CA: OMNI 1
 http://lunar.pm:8080/xxx/94934
-#EXTINF:-1 group-title="Canada Entertainment",CA: OMNI 2
+#EXTINF:-1 ,CA: OMNI 2
 http://lunar.pm:8080/xxx/94935
-#EXTINF:-1 group-title="Canada Entertainment",CA: ONE
+#EXTINF:-1 ,CA: ONE
 http://lunar.pm:8080/xxx/94936
-#EXTINF:-1 group-title="Canada Entertainment",CA: OWN
+#EXTINF:-1 ,CA: OWN
 http://lunar.pm:8080/xxx/94937
-#EXTINF:-1 group-title="Canada Entertainment",CA: PBS EAST
+#EXTINF:-1 ,CA: PBS EAST
 http://lunar.pm:8080/xxx/94938
-#EXTINF:-1 group-title="Canada Kids",CA: PEACHTREE
+#EXTINF:-1 ,CA: PEACHTREE
 http://lunar.pm:8080/xxx/67093
-#EXTINF:-1 group-title="Canada Entertainment",CA: Prise 2 (FR)
+#EXTINF:-1 ,CA: Prise 2 (FR)
 http://lunar.pm:8080/xxx/94940
-#EXTINF:-1 group-title="Canada Sports",CA: RDS (FR)
+#EXTINF:-1 ,CA: RDS (FR)
 http://lunar.pm:8080/xxx/67090
-#EXTINF:-1 group-title="Canada Entertainment",CA: SERIES Plus (FR)
+#EXTINF:-1 ,CA: SERIES Plus (FR)
 http://lunar.pm:8080/xxx/94942
-#EXTINF:-1 group-title="Canada Entertainment",CA: SHOPPING CHANNEL
+#EXTINF:-1 ,CA: SHOPPING CHANNEL
 http://lunar.pm:8080/xxx/94943
-#EXTINF:-1 group-title="Canada Movies",CA: Showcase EAST
+#EXTINF:-1 ,CA: Showcase EAST
 http://lunar.pm:8080/xxx/67084
-#EXTINF:-1 group-title="Canada Movies",CA: SILVER SCREEN CLASSICS
+#EXTINF:-1 ,CA: SILVER SCREEN CLASSICS
 http://lunar.pm:8080/xxx/67083
-#EXTINF:-1 group-title="Canada Entertainment",CA: SLICE
+#EXTINF:-1 ,CA: SLICE
 http://lunar.pm:8080/xxx/94944
-#EXTINF:-1 group-title="Canada Documentries",CA: SMITHSONIAN
+#EXTINF:-1 ,CA: SMITHSONIAN
 http://lunar.pm:8080/xxx/67081
-#EXTINF:-1 group-title="Canada Entertainment",CA: SPIKE TV/PARAMOUNT
+#EXTINF:-1 ,CA: SPIKE TV/PARAMOUNT
 http://lunar.pm:8080/xxx/94945
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSMAN CHANNEL
+#EXTINF:-1 ,CA: SPORTSMAN CHANNEL
 http://lunar.pm:8080/xxx/67078
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET 360
+#EXTINF:-1 ,CA: SPORTSNET 360
 http://lunar.pm:8080/xxx/67077
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET EAST
+#EXTINF:-1 ,CA: SPORTSNET EAST
 http://lunar.pm:8080/xxx/67076
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET ONE
+#EXTINF:-1 ,CA: SPORTSNET ONE
 http://lunar.pm:8080/xxx/67075
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET ONTARIO
+#EXTINF:-1 ,CA: SPORTSNET ONTARIO
 http://lunar.pm:8080/xxx/67074
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET PACIFIC
+#EXTINF:-1 ,CA: SPORTSNET PACIFIC
 http://lunar.pm:8080/xxx/67073
-#EXTINF:-1 group-title="Canada Sports",CA: SPORTSNET WEST
+#EXTINF:-1 ,CA: SPORTSNET WEST
 http://lunar.pm:8080/xxx/67072
-#EXTINF:-1 group-title="Canada Entertainment",CA: SUPER CHANNEL HEART & HOME
+#EXTINF:-1 ,CA: SUPER CHANNEL HEART & HOME
 http://lunar.pm:8080/xxx/94946
-#EXTINF:-1 group-title="Canada Entertainment",CA: SUPER CHANNEL VAULT
+#EXTINF:-1 ,CA: SUPER CHANNEL VAULT
 http://lunar.pm:8080/xxx/94947
-#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 1 (FR)
+#EXTINF:-1 ,CA: Super Ecran 1 (FR)
 http://lunar.pm:8080/xxx/67069
-#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 2(FR)
+#EXTINF:-1 ,CA: Super Ecran 2(FR)
 http://lunar.pm:8080/xxx/67068
-#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 3 (FR)
+#EXTINF:-1 ,CA: Super Ecran 3 (FR)
 http://lunar.pm:8080/xxx/67067
-#EXTINF:-1 group-title="Canada Movies",CA: Super Ecran 4 (FR)
+#EXTINF:-1 ,CA: Super Ecran 4 (FR)
 http://lunar.pm:8080/xxx/67066
-#EXTINF:-1 group-title="Canada Movies",CA: TCM
+#EXTINF:-1 ,CA: TCM
 http://lunar.pm:8080/xxx/67064
-#EXTINF:-1 group-title="Canada News",CA: THE WEATHER NETWORK
+#EXTINF:-1 ,CA: THE WEATHER NETWORK
 http://lunar.pm:8080/xxx/67056
-#EXTINF:-1 group-title="Canada Entertainment",CA: TLC
+#EXTINF:-1 ,CA: TLC
 http://lunar.pm:8080/xxx/94949
-#EXTINF:-1 group-title="Canada Entertainment",CA: TRAVEL ESCAPE
+#EXTINF:-1 ,CA: TRAVEL ESCAPE
 http://lunar.pm:8080/xxx/94950
-#EXTINF:-1 group-title="Canada Kids",CA: TREEHOUSE
+#EXTINF:-1 ,CA: TREEHOUSE
 http://lunar.pm:8080/xxx/67053
-#EXTINF:-1 group-title="Canada Sports",CA: TSN 1
+#EXTINF:-1 ,CA: TSN 1
 http://lunar.pm:8080/xxx/67052
-#EXTINF:-1 group-title="Canada Sports",CA: TSN 2
+#EXTINF:-1 ,CA: TSN 2
 http://lunar.pm:8080/xxx/67050
-#EXTINF:-1 group-title="Canada Sports",CA: TSN 3
+#EXTINF:-1 ,CA: TSN 3
 http://lunar.pm:8080/xxx/67048
-#EXTINF:-1 group-title="Canada Sports",CA: TSN 4
+#EXTINF:-1 ,CA: TSN 4
 http://lunar.pm:8080/xxx/67046
-#EXTINF:-1 group-title="Canada Sports",CA: TSN 5
+#EXTINF:-1 ,CA: TSN 5
 http://lunar.pm:8080/xxx/67044
-#EXTINF:-1 group-title="Canada Entertainment",CA: TV5 Quebec (FR)
+#EXTINF:-1 ,CA: TV5 Quebec (FR)
 http://lunar.pm:8080/xxx/94951
-#EXTINF:-1 group-title="Canada Sports",CA: TVA Sports (FR)
+#EXTINF:-1 ,CA: TVA Sports (FR)
 http://lunar.pm:8080/xxx/67041
-#EXTINF:-1 group-title="Canada Kids",CA: TVO KIDS
+#EXTINF:-1 ,CA: TVO KIDS
 http://lunar.pm:8080/xxx/94952
-#EXTINF:-1 group-title="Canada Entertainment",CA: Unis TV (FR)
+#EXTINF:-1 ,CA: Unis TV (FR)
 http://lunar.pm:8080/xxx/94953
-#EXTINF:-1 group-title="Canada Entertainment",CA: VISION
+#EXTINF:-1 ,CA: VISION
 http://lunar.pm:8080/xxx/94955
-#EXTINF:-1 group-title="Canada Entertainment",CA: W NETWORK
+#EXTINF:-1 ,CA: W NETWORK
 http://lunar.pm:8080/xxx/94957
-#EXTINF:-1 group-title="Canada Documentries",CA: WFN
+#EXTINF:-1 ,CA: WFN
 http://lunar.pm:8080/xxx/67034
-#EXTINF:-1 group-title="Canada Entertainment",CA: WGN 9
+#EXTINF:-1 ,CA: WGN 9
 http://lunar.pm:8080/xxx/94958
-#EXTINF:-1 group-title="Canada Documentries",CA: Wild_TV
+#EXTINF:-1 ,CA: Wild_TV
 http://lunar.pm:8080/xxx/67032
-#EXTINF:-1 group-title="Canada Entertainment",CA: YES TV
+#EXTINF:-1 ,CA: YES TV
 http://lunar.pm:8080/xxx/94960
-#EXTINF:-1 group-title="Canada Kids",CA: YTV
+#EXTINF:-1 ,CA: YTV
 http://lunar.pm:8080/xxx/94962
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 368
+#EXTINF:-1 ,CA:SUPER SPORTS 368
 http://lunar.pm:8080/xxx/70941
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 431
+#EXTINF:-1 ,CA:SUPER SPORTS 431
 http://lunar.pm:8080/xxx/70942
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 432
+#EXTINF:-1 ,CA:SUPER SPORTS 432
 http://lunar.pm:8080/xxx/70943
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 433
+#EXTINF:-1 ,CA:SUPER SPORTS 433
 http://lunar.pm:8080/xxx/70944
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 434
+#EXTINF:-1 ,CA:SUPER SPORTS 434
 http://lunar.pm:8080/xxx/70945
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 435
+#EXTINF:-1 ,CA:SUPER SPORTS 435
 http://lunar.pm:8080/xxx/70946
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 436
+#EXTINF:-1 ,CA:SUPER SPORTS 436
 http://lunar.pm:8080/xxx/70947
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 437
+#EXTINF:-1 ,CA:SUPER SPORTS 437
 http://lunar.pm:8080/xxx/70948
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 438
+#EXTINF:-1 ,CA:SUPER SPORTS 438
 http://lunar.pm:8080/xxx/70950
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 439
+#EXTINF:-1 ,CA:SUPER SPORTS 439
 http://lunar.pm:8080/xxx/70949
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 440
+#EXTINF:-1 ,CA:SUPER SPORTS 440
 http://lunar.pm:8080/xxx/70951
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 441
+#EXTINF:-1 ,CA:SUPER SPORTS 441
 http://lunar.pm:8080/xxx/70952
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 442
+#EXTINF:-1 ,CA:SUPER SPORTS 442
 http://lunar.pm:8080/xxx/70953
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 443
+#EXTINF:-1 ,CA:SUPER SPORTS 443
 http://lunar.pm:8080/xxx/70954
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 444
+#EXTINF:-1 ,CA:SUPER SPORTS 444
 http://lunar.pm:8080/xxx/70955
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 450
+#EXTINF:-1 ,CA:SUPER SPORTS 450
 http://lunar.pm:8080/xxx/70956
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 452
+#EXTINF:-1 ,CA:SUPER SPORTS 452
 http://lunar.pm:8080/xxx/70957
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 453
+#EXTINF:-1 ,CA:SUPER SPORTS 453
 http://lunar.pm:8080/xxx/70958
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 454
+#EXTINF:-1 ,CA:SUPER SPORTS 454
 http://lunar.pm:8080/xxx/70961
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 455
+#EXTINF:-1 ,CA:SUPER SPORTS 455
 http://lunar.pm:8080/xxx/70959
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 456
+#EXTINF:-1 ,CA:SUPER SPORTS 456
 http://lunar.pm:8080/xxx/70960
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 457
+#EXTINF:-1 ,CA:SUPER SPORTS 457
 http://lunar.pm:8080/xxx/70962
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 458
+#EXTINF:-1 ,CA:SUPER SPORTS 458
 http://lunar.pm:8080/xxx/70963
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 459
+#EXTINF:-1 ,CA:SUPER SPORTS 459
 http://lunar.pm:8080/xxx/70964
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 460
+#EXTINF:-1 ,CA:SUPER SPORTS 460
 http://lunar.pm:8080/xxx/70965
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 461
+#EXTINF:-1 ,CA:SUPER SPORTS 461
 http://lunar.pm:8080/xxx/70966
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 462
+#EXTINF:-1 ,CA:SUPER SPORTS 462
 http://lunar.pm:8080/xxx/70967
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 464
+#EXTINF:-1 ,CA:SUPER SPORTS 464
 http://lunar.pm:8080/xxx/70968
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 465
+#EXTINF:-1 ,CA:SUPER SPORTS 465
 http://lunar.pm:8080/xxx/70969
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 473
+#EXTINF:-1 ,CA:SUPER SPORTS 473
 http://lunar.pm:8080/xxx/70970
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 474
+#EXTINF:-1 ,CA:SUPER SPORTS 474
 http://lunar.pm:8080/xxx/70971
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 475
+#EXTINF:-1 ,CA:SUPER SPORTS 475
 http://lunar.pm:8080/xxx/70972
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 476
+#EXTINF:-1 ,CA:SUPER SPORTS 476
 http://lunar.pm:8080/xxx/70973
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 477
+#EXTINF:-1 ,CA:SUPER SPORTS 477
 http://lunar.pm:8080/xxx/70974
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 478
+#EXTINF:-1 ,CA:SUPER SPORTS 478
 http://lunar.pm:8080/xxx/70976
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 479
+#EXTINF:-1 ,CA:SUPER SPORTS 479
 http://lunar.pm:8080/xxx/70975
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 480
+#EXTINF:-1 ,CA:SUPER SPORTS 480
 http://lunar.pm:8080/xxx/70977
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 481
+#EXTINF:-1 ,CA:SUPER SPORTS 481
 http://lunar.pm:8080/xxx/70978
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 482
+#EXTINF:-1 ,CA:SUPER SPORTS 482
 http://lunar.pm:8080/xxx/70979
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 483
+#EXTINF:-1 ,CA:SUPER SPORTS 483
 http://lunar.pm:8080/xxx/70980
-#EXTINF:-1 group-title="Canada Sports",CA:SUPER SPORTS 484
+#EXTINF:-1 ,CA:SUPER SPORTS 484
 http://lunar.pm:8080/xxx/70981
-#EXTINF:-1 group-title="Religion (ALL)",Canal Vie
+#EXTINF:-1 ,Canal Vie
 http://lunar.pm:8080/xxx/75562
-#EXTINF:-1 group-title="USA Kids",CARTOON NETWORK
+#EXTINF:-1 ,CARTOON NETWORK
 http://lunar.pm:8080/xxx/8869
-#EXTINF:-1 group-title="USA Entertainment",CBS
+#EXTINF:-1 ,CBS
 http://lunar.pm:8080/xxx/9208
-#EXTINF:-1 group-title="USA Locals",CBS 02(Boise)
+#EXTINF:-1 ,CBS 02(Boise)
 http://lunar.pm:8080/xxx/64578
-#EXTINF:-1 group-title="USA Locals",CBS 02(Chicago)
+#EXTINF:-1 ,CBS 02(Chicago)
 http://lunar.pm:8080/xxx/64575
-#EXTINF:-1 group-title="USA Locals",CBS 02(Los Angeles)
+#EXTINF:-1 ,CBS 02(Los Angeles)
 http://lunar.pm:8080/xxx/64580
-#EXTINF:-1 group-title="USA Locals",CBS 02(New York)
+#EXTINF:-1 ,CBS 02(New York)
 http://lunar.pm:8080/xxx/64577
-#EXTINF:-1 group-title="USA Locals",CBS 02(Pittsburgh)
+#EXTINF:-1 ,CBS 02(Pittsburgh)
 http://lunar.pm:8080/xxx/64574
-#EXTINF:-1 group-title="USA Locals",CBS 02(Reno)
+#EXTINF:-1 ,CBS 02(Reno)
 http://lunar.pm:8080/xxx/64573
-#EXTINF:-1 group-title="USA Locals",CBS 02(Salt Lake City)
+#EXTINF:-1 ,CBS 02(Salt Lake City)
 http://lunar.pm:8080/xxx/64572
-#EXTINF:-1 group-title="USA Locals",CBS 02(Spokane)
+#EXTINF:-1 ,CBS 02(Spokane)
 http://lunar.pm:8080/xxx/64576
-#EXTINF:-1 group-title="USA Locals",CBS 02/09(Los Angeles)
+#EXTINF:-1 ,CBS 02/09(Los Angeles)
 http://lunar.pm:8080/xxx/64570
-#EXTINF:-1 group-title="USA Locals",CBS 03(Charlotte)
+#EXTINF:-1 ,CBS 03(Charlotte)
 http://lunar.pm:8080/xxx/64567
-#EXTINF:-1 group-title="USA Locals",CBS 03(Hartford)
+#EXTINF:-1 ,CBS 03(Hartford)
 http://lunar.pm:8080/xxx/64564
-#EXTINF:-1 group-title="USA Locals",CBS 03(OMAHA)
+#EXTINF:-1 ,CBS 03(OMAHA)
 http://lunar.pm:8080/xxx/64566
-#EXTINF:-1 group-title="USA Locals",CBS 03(Philly)
+#EXTINF:-1 ,CBS 03(Philly)
 http://lunar.pm:8080/xxx/64569
-#EXTINF:-1 group-title="USA Locals",CBS 04(Boston)
+#EXTINF:-1 ,CBS 04(Boston)
 http://lunar.pm:8080/xxx/64560
-#EXTINF:-1 group-title="USA Locals",CBS 04(Buffalo)
+#EXTINF:-1 ,CBS 04(Buffalo)
 http://lunar.pm:8080/xxx/64550
-#EXTINF:-1 group-title="USA Locals",CBS 04(Denver)
+#EXTINF:-1 ,CBS 04(Denver)
 http://lunar.pm:8080/xxx/64557
-#EXTINF:-1 group-title="USA Locals",CBS 04(EL Paso Tx)
+#EXTINF:-1 ,CBS 04(EL Paso Tx)
 http://lunar.pm:8080/xxx/64554
-#EXTINF:-1 group-title="USA Locals",CBS 04(Miami)
+#EXTINF:-1 ,CBS 04(Miami)
 http://lunar.pm:8080/xxx/64555
-#EXTINF:-1 group-title="USA Locals",CBS 04(Minneapolis St Paul)
+#EXTINF:-1 ,CBS 04(Minneapolis St Paul)
 http://lunar.pm:8080/xxx/64561
-#EXTINF:-1 group-title="USA Locals",CBS 04(New Orleans)
+#EXTINF:-1 ,CBS 04(New Orleans)
 http://lunar.pm:8080/xxx/64558
-#EXTINF:-1 group-title="USA Locals",CBS 04(St Louis)
+#EXTINF:-1 ,CBS 04(St Louis)
 http://lunar.pm:8080/xxx/64559
-#EXTINF:-1 group-title="USA Locals",CBS 05(Green Bay)
+#EXTINF:-1 ,CBS 05(Green Bay)
 http://lunar.pm:8080/xxx/64553
-#EXTINF:-1 group-title="USA Locals",CBS 05(Honolulu)
+#EXTINF:-1 ,CBS 05(Honolulu)
 http://lunar.pm:8080/xxx/64552
-#EXTINF:-1 group-title="USA Locals",CBS 05(Nashville)
+#EXTINF:-1 ,CBS 05(Nashville)
 http://lunar.pm:8080/xxx/64544
-#EXTINF:-1 group-title="USA Locals",CBS 05(Phoenix)
+#EXTINF:-1 ,CBS 05(Phoenix)
 http://lunar.pm:8080/xxx/64546
-#EXTINF:-1 group-title="USA Locals",CBS 05(San Antonio)
+#EXTINF:-1 ,CBS 05(San Antonio)
 http://lunar.pm:8080/xxx/64549
-#EXTINF:-1 group-title="USA Locals",CBS 05(San Francisco)
+#EXTINF:-1 ,CBS 05(San Francisco)
 http://lunar.pm:8080/xxx/64548
-#EXTINF:-1 group-title="USA Locals",CBS 06(Albany)
+#EXTINF:-1 ,CBS 06(Albany)
 http://lunar.pm:8080/xxx/64536
-#EXTINF:-1 group-title="USA Locals",CBS 06(Orlando)
+#EXTINF:-1 ,CBS 06(Orlando)
 http://lunar.pm:8080/xxx/64539
-#EXTINF:-1 group-title="USA Locals",CBS 06(Portland)
+#EXTINF:-1 ,CBS 06(Portland)
 http://lunar.pm:8080/xxx/64538
-#EXTINF:-1 group-title="USA Locals",CBS 07(Dayton)
+#EXTINF:-1 ,CBS 07(Dayton)
 http://lunar.pm:8080/xxx/64535
-#EXTINF:-1 group-title="USA Locals",CBS 07(Seattle)
+#EXTINF:-1 ,CBS 07(Seattle)
 http://lunar.pm:8080/xxx/64533
-#EXTINF:-1 group-title="USA Locals",CBS 08(Las Vegas)
+#EXTINF:-1 ,CBS 08(Las Vegas)
 http://lunar.pm:8080/xxx/64527
-#EXTINF:-1 group-title="USA Locals",CBS 08(San Diego)
+#EXTINF:-1 ,CBS 08(San Diego)
 http://lunar.pm:8080/xxx/64531
-#EXTINF:-1 group-title="USA Locals",CBS 09(Washington Dc)
+#EXTINF:-1 ,CBS 09(Washington Dc)
 http://lunar.pm:8080/xxx/64524
-#EXTINF:-1 group-title="USA Locals",CBS 10(Columbus)
+#EXTINF:-1 ,CBS 10(Columbus)
 http://lunar.pm:8080/xxx/64522
-#EXTINF:-1 group-title="USA Locals",CBS 10(Springfield Mo)
+#EXTINF:-1 ,CBS 10(Springfield Mo)
 http://lunar.pm:8080/xxx/64516
-#EXTINF:-1 group-title="USA Locals",CBS 10(Tampa)
+#EXTINF:-1 ,CBS 10(Tampa)
 http://lunar.pm:8080/xxx/64519
-#EXTINF:-1 group-title="USA Locals",CBS 10(Waco)
+#EXTINF:-1 ,CBS 10(Waco)
 http://lunar.pm:8080/xxx/118473
-#EXTINF:-1 group-title="USA Locals",CBS 10/55(NY)
+#EXTINF:-1 ,CBS 10/55(NY)
 http://lunar.pm:8080/xxx/64521
-#EXTINF:-1 group-title="USA Locals",CBS 11(Colorado Springs)
+#EXTINF:-1 ,CBS 11(Colorado Springs)
 http://lunar.pm:8080/xxx/64513
-#EXTINF:-1 group-title="USA Locals",CBS 11(Dallas/Fort Worth)
+#EXTINF:-1 ,CBS 11(Dallas/Fort Worth)
 http://lunar.pm:8080/xxx/64510
-#EXTINF:-1 group-title="USA Locals",CBS 11(Houston)
+#EXTINF:-1 ,CBS 11(Houston)
 http://lunar.pm:8080/xxx/64512
-#EXTINF:-1 group-title="USA Locals",CBS 11(Little Rock)
+#EXTINF:-1 ,CBS 11(Little Rock)
 http://lunar.pm:8080/xxx/64511
-#EXTINF:-1 group-title="USA Locals",CBS 11(Savannah)
+#EXTINF:-1 ,CBS 11(Savannah)
 http://lunar.pm:8080/xxx/64509
-#EXTINF:-1 group-title="USA Locals",CBS 12(Augusta)
+#EXTINF:-1 ,CBS 12(Augusta)
 http://lunar.pm:8080/xxx/64500
-#EXTINF:-1 group-title="USA Locals",CBS 12(Cincinnati)
+#EXTINF:-1 ,CBS 12(Cincinnati)
 http://lunar.pm:8080/xxx/64505
-#EXTINF:-1 group-title="USA Locals",CBS 12(Jackson Mississippi)
+#EXTINF:-1 ,CBS 12(Jackson Mississippi)
 http://lunar.pm:8080/xxx/64504
-#EXTINF:-1 group-title="USA Locals",CBS 12(West Palm Beach)
+#EXTINF:-1 ,CBS 12(West Palm Beach)
 http://lunar.pm:8080/xxx/64502
-#EXTINF:-1 group-title="USA Locals",CBS 13(Baltimore)
+#EXTINF:-1 ,CBS 13(Baltimore)
 http://lunar.pm:8080/xxx/64492
-#EXTINF:-1 group-title="USA Locals",CBS 13 (Macon)
+#EXTINF:-1 ,CBS 13 (Macon)
 http://lunar.pm:8080/xxx/64490
-#EXTINF:-1 group-title="USA Locals",CBS 13(Sacramento)
+#EXTINF:-1 ,CBS 13(Sacramento)
 http://lunar.pm:8080/xxx/64493
-#EXTINF:-1 group-title="USA Locals",CBS 13(Tuscon)
+#EXTINF:-1 ,CBS 13(Tuscon)
 http://lunar.pm:8080/xxx/64491
-#EXTINF:-1 group-title="USA Locals",CBS 19(Cleveland)
+#EXTINF:-1 ,CBS 19(Cleveland)
 http://lunar.pm:8080/xxx/64486
-#EXTINF:-1 group-title="USA Locals",CBS 21(Dallas/Fort worth)
+#EXTINF:-1 ,CBS 21(Dallas/Fort worth)
 http://lunar.pm:8080/xxx/64485
-#EXTINF:-1 group-title="USA Locals",CBS 32(Louisville)
+#EXTINF:-1 ,CBS 32(Louisville)
 http://lunar.pm:8080/xxx/64477
-#EXTINF:-1 group-title="USA Locals",CBS 42(Birmingham)
+#EXTINF:-1 ,CBS 42(Birmingham)
 http://lunar.pm:8080/xxx/64475
-#EXTINF:-1 group-title="USA Locals",CBS 46(Atlanta)
+#EXTINF:-1 ,CBS 46(Atlanta)
 http://lunar.pm:8080/xxx/64472
-#EXTINF:-1 group-title="USA Locals",CBS 47(Fresno)
+#EXTINF:-1 ,CBS 47(Fresno)
 http://lunar.pm:8080/xxx/64470
-#EXTINF:-1 group-title="USA Locals",CBS 47(Jacksonville)
+#EXTINF:-1 ,CBS 47(Jacksonville)
 http://lunar.pm:8080/xxx/64471
-#EXTINF:-1 group-title="USA Locals",CBS 58(Milwaukee)
+#EXTINF:-1 ,CBS 58(Milwaukee)
 http://lunar.pm:8080/xxx/64469
-#EXTINF:-1 group-title="USA Locals",CBS 62(Detroit)
+#EXTINF:-1 ,CBS 62(Detroit)
 http://lunar.pm:8080/xxx/64468
-#EXTINF:-1 group-title="USA Sports",CBS Sports Network
+#EXTINF:-1 ,CBS Sports Network
 http://lunar.pm:8080/xxx/9570
-#EXTINF:-1 group-title="USA News",CBSN 
+#EXTINF:-1 ,CBSN 
 http://lunar.pm:8080/xxx/8846
-#EXTINF:-1 group-title="Religion (ALL)",CGNTV
+#EXTINF:-1 ,CGNTV
 http://lunar.pm:8080/xxx/75567
-#EXTINF:-1 group-title="USA Movies",Cinemax (East)
+#EXTINF:-1 ,Cinemax (East)
 http://lunar.pm:8080/xxx/18210
-#EXTINF:-1 group-title="USA Movies",Cinemax (West)
+#EXTINF:-1 ,Cinemax (West)
 http://lunar.pm:8080/xxx/98689
-#EXTINF:-1 group-title="USA Movies",Cinemax ActionMax (East)
+#EXTINF:-1 ,Cinemax ActionMax (East)
 http://lunar.pm:8080/xxx/18211
-#EXTINF:-1 group-title="USA Movies",Cinemax ActionMax (West)
+#EXTINF:-1 ,Cinemax ActionMax (West)
 http://lunar.pm:8080/xxx/98688
-#EXTINF:-1 group-title="USA Movies",Cinemax MoreMax (East)
+#EXTINF:-1 ,Cinemax MoreMax (East)
 http://lunar.pm:8080/xxx/98684
-#EXTINF:-1 group-title="USA Movies",Cinemax MoreMax (West)
+#EXTINF:-1 ,Cinemax MoreMax (West)
 http://lunar.pm:8080/xxx/98685
-#EXTINF:-1 group-title="USA Movies",Cinemax MovieMax
+#EXTINF:-1 ,Cinemax MovieMax
 http://lunar.pm:8080/xxx/98729
-#EXTINF:-1 group-title="USA Movies",Cinemax ThrillerMax (East)
+#EXTINF:-1 ,Cinemax ThrillerMax (East)
 http://lunar.pm:8080/xxx/98686
-#EXTINF:-1 group-title="USA Movies",Cinemax ThrillerMax (West)
+#EXTINF:-1 ,Cinemax ThrillerMax (West)
 http://lunar.pm:8080/xxx/98687
-#EXTINF:-1 group-title="USA Entertainment",CLEO TV
+#EXTINF:-1 ,CLEO TV
 http://lunar.pm:8080/xxx/105644
-#EXTINF:-1 group-title="USA Entertainment",CMT
+#EXTINF:-1 ,CMT
 http://lunar.pm:8080/xxx/9207
-#EXTINF:-1 group-title="USA News",CNBC
+#EXTINF:-1 ,CNBC
 http://lunar.pm:8080/xxx/120016
-#EXTINF:-1 group-title="USA News",CNBC.World
+#EXTINF:-1 ,CNBC.World
 http://lunar.pm:8080/xxx/25724
-#EXTINF:-1 group-title="USA News",CNN SD
+#EXTINF:-1 ,CNN SD
 http://lunar.pm:8080/xxx/8854
-#EXTINF:-1 group-title="USA Entertainment",COMEDY CENTRAL
+#EXTINF:-1 ,COMEDY CENTRAL
 http://lunar.pm:8080/xxx/9206
-#EXTINF:-1 group-title="USA Entertainment",COOKING CHANNEL
+#EXTINF:-1 ,COOKING CHANNEL
 http://lunar.pm:8080/xxx/9205
-#EXTINF:-1 group-title="USA Entertainment",Comet Tv
+#EXTINF:-1 ,Comet Tv
 http://lunar.pm:8080/xxx/64816
-#EXTINF:-1 group-title="USA Entertainment",Cozi
+#EXTINF:-1 ,Cozi
 http://lunar.pm:8080/xxx/21473
-#EXTINF:-1 group-title="USA Locals",CW 11(seattle)
+#EXTINF:-1 ,CW 11(seattle)
 http://lunar.pm:8080/xxx/64588
-#EXTINF:-1 group-title="USA Locals",CW 19(Pittsburgh)
+#EXTINF:-1 ,CW 19(Pittsburgh)
 http://lunar.pm:8080/xxx/64587
-#EXTINF:-1 group-title="USA Locals",CW 31(Sacramento)
+#EXTINF:-1 ,CW 31(Sacramento)
 http://lunar.pm:8080/xxx/64586
-#EXTINF:-1 group-title="USA Locals",CW 44(San Francisco)
+#EXTINF:-1 ,CW 44(San Francisco)
 http://lunar.pm:8080/xxx/64585
-#EXTINF:-1 group-title="USA Locals",CW 44(Tampa Bay)
+#EXTINF:-1 ,CW 44(Tampa Bay)
 http://lunar.pm:8080/xxx/64584
-#EXTINF:-1 group-title="USA Locals",CW 50(Detroit)
+#EXTINF:-1 ,CW 50(Detroit)
 http://lunar.pm:8080/xxx/64583
-#EXTINF:-1 group-title="USA Locals",CW 57(Philly)
+#EXTINF:-1 ,CW 57(Philly)
 http://lunar.pm:8080/xxx/64582
-#EXTINF:-1 group-title="USA Locals",CW 69(Atlanta)
+#EXTINF:-1 ,CW 69(Atlanta)
 http://lunar.pm:8080/xxx/64581
-#EXTINF:-1 group-title="USA News",C_SPAN 2
+#EXTINF:-1 ,C_SPAN 2
 http://lunar.pm:8080/xxx/98735
-#EXTINF:-1 group-title="USA Kids",DISNEY
+#EXTINF:-1 ,DISNEY
 http://lunar.pm:8080/xxx/9343
-#EXTINF:-1 group-title="USA Kids",DISNEY JR
+#EXTINF:-1 ,DISNEY JR
 http://lunar.pm:8080/xxx/8871
-#EXTINF:-1 group-title="USA Kids",DISNEY XD
+#EXTINF:-1 ,DISNEY XD
 http://lunar.pm:8080/xxx/9341
-#EXTINF:-1 group-title="Religion (ALL)",Divine Vision
+#EXTINF:-1 ,Divine Vision
 http://lunar.pm:8080/xxx/75578
-#EXTINF:-1 group-title="USA Entertainment",DogTV
+#EXTINF:-1 ,DogTV
 http://lunar.pm:8080/xxx/63404
-#EXTINF:-1 group-title="USA Entertainment",E!
+#EXTINF:-1 ,E!
 http://lunar.pm:8080/xxx/9198
-#EXTINF:-1 group-title="USA Entertainment",E! (West)
+#EXTINF:-1 ,E! (West)
 http://lunar.pm:8080/xxx/56095
-#EXTINF:-1 group-title="USA Movies",MGM+
+#EXTINF:-1 ,MGM+
 http://lunar.pm:8080/xxx/18206
-#EXTINF:-1 group-title="USA Movies",MGM+ Hits
+#EXTINF:-1 ,MGM+ Hits
 http://lunar.pm:8080/xxx/98690
-#EXTINF:-1 group-title="USA Movies",MGM+ Drive-In
+#EXTINF:-1 ,MGM+ Drive-In
 http://lunar.pm:8080/xxx/98691
-#EXTINF:-1 group-title="USA Movies",MGM+ Marquee
+#EXTINF:-1 ,MGM+ Marquee
 http://lunar.pm:8080/xxx/18205
-#EXTINF:-1 group-title="USA Sports",ESPN
+#EXTINF:-1 ,ESPN
 http://lunar.pm:8080/xxx/9569
-#EXTINF:-1 group-title="USA Sports",ESPN 2
+#EXTINF:-1 ,ESPN 2
 http://lunar.pm:8080/xxx/9568
-#EXTINF:-1 group-title="USA Sports",ESPN Deportes
+#EXTINF:-1 ,ESPN Deportes
 http://lunar.pm:8080/xxx/47478
-#EXTINF:-1 group-title="USA Sports",ESPN Longhorn Network
+#EXTINF:-1 ,ESPN Longhorn Network
 http://lunar.pm:8080/xxx/109317
-#EXTINF:-1 group-title="USA Sports",ESPN NEWS
+#EXTINF:-1 ,ESPN NEWS
 http://lunar.pm:8080/xxx/9563
-#EXTINF:-1 group-title="USA Sports",ESPN U
+#EXTINF:-1 ,ESPN U
 http://lunar.pm:8080/xxx/9561
-#EXTINF:-1 group-title="UK Movies",Film 4
+#EXTINF:-1 ,Film 4
 http://lunar.pm:8080/xxx/21436
-#EXTINF:-1 group-title="USA Entertainment",Folk Tv
+#EXTINF:-1 ,Folk Tv
 http://lunar.pm:8080/xxx/100321
-#EXTINF:-1 group-title="USA Entertainment",FOOD NETWORK
+#EXTINF:-1 ,FOOD NETWORK
 http://lunar.pm:8080/xxx/9195
-#EXTINF:-1 group-title="USA Entertainment",Food Network (West)
+#EXTINF:-1 ,Food Network (West)
 http://lunar.pm:8080/xxx/56096
-#EXTINF:-1 group-title="USA Entertainment",FOX
+#EXTINF:-1 ,FOX
 http://lunar.pm:8080/xxx/9194
-#EXTINF:-1 group-title="USA Locals",FOX 02 (Honolulu)
+#EXTINF:-1 ,FOX 02 (Honolulu)
 http://lunar.pm:8080/xxx/64695
-#EXTINF:-1 group-title="USA Locals",FOX 02(Detroit)
+#EXTINF:-1 ,FOX 02(Detroit)
 http://lunar.pm:8080/xxx/64697
-#EXTINF:-1 group-title="USA Locals",FOX 02(San Franscisco)
+#EXTINF:-1 ,FOX 02(San Franscisco)
 http://lunar.pm:8080/xxx/64698
-#EXTINF:-1 group-title="USA Locals",FOX 02(St Louis)
+#EXTINF:-1 ,FOX 02(St Louis)
 http://lunar.pm:8080/xxx/64696
-#EXTINF:-1 group-title="USA Locals",FOX 04(Dallas/Ft Worth)
+#EXTINF:-1 ,FOX 04(Dallas/Ft Worth)
 http://lunar.pm:8080/xxx/64694
-#EXTINF:-1 group-title="USA Locals",FOX 04(Kansas City)
+#EXTINF:-1 ,FOX 04(Kansas City)
 http://lunar.pm:8080/xxx/64693
-#EXTINF:-1 group-title="USA Locals",FOX 05(Atlanta)
+#EXTINF:-1 ,FOX 05(Atlanta)
 http://lunar.pm:8080/xxx/64689
-#EXTINF:-1 group-title="USA Locals",FOX 5  Las Vegas
+#EXTINF:-1 ,FOX 5  Las Vegas
 http://lunar.pm:8080/xxx/109214
-#EXTINF:-1 group-title="USA Locals",FOX 05(New York)
+#EXTINF:-1 ,FOX 05(New York)
 http://lunar.pm:8080/xxx/64690
-#EXTINF:-1 group-title="USA Locals",FOX 05(Washington DC)
+#EXTINF:-1 ,FOX 05(Washington DC)
 http://lunar.pm:8080/xxx/64691
-#EXTINF:-1 group-title="USA Locals",FOX 06(Birmingham)
+#EXTINF:-1 ,FOX 06(Birmingham)
 http://lunar.pm:8080/xxx/64688
-#EXTINF:-1 group-title="USA Locals",FOX 06(Milwaukee)
+#EXTINF:-1 ,FOX 06(Milwaukee)
 http://lunar.pm:8080/xxx/64687
-#EXTINF:-1 group-title="USA Locals",FOX 07(Austin)
+#EXTINF:-1 ,FOX 07(Austin)
 http://lunar.pm:8080/xxx/64684
-#EXTINF:-1 group-title="USA Locals",FOX 07(Miami)
+#EXTINF:-1 ,FOX 07(Miami)
 http://lunar.pm:8080/xxx/64686
-#EXTINF:-1 group-title="USA Locals",FOX 07(Sioux Falls)
+#EXTINF:-1 ,FOX 07(Sioux Falls)
 http://lunar.pm:8080/xxx/64685
-#EXTINF:-1 group-title="USA Locals",FOX 08(Cleveland)
+#EXTINF:-1 ,FOX 08(Cleveland)
 http://lunar.pm:8080/xxx/64682
-#EXTINF:-1 group-title="USA Locals",FOX 08(New Orleans)
+#EXTINF:-1 ,FOX 08(New Orleans)
 http://lunar.pm:8080/xxx/64683
-#EXTINF:-1 group-title="USA Locals",FOX 09(Minneapolis)
+#EXTINF:-1 ,FOX 09(Minneapolis)
 http://lunar.pm:8080/xxx/64680
-#EXTINF:-1 group-title="USA Locals",FOX 10(Phoenix)
+#EXTINF:-1 ,FOX 10(Phoenix)
 http://lunar.pm:8080/xxx/64678
-#EXTINF:-1 group-title="USA Locals",FOX 11(Charleston)
+#EXTINF:-1 ,FOX 11(Charleston)
 http://lunar.pm:8080/xxx/64674
-#EXTINF:-1 group-title="USA Locals",FOX 11(Green Bay)
+#EXTINF:-1 ,FOX 11(Green Bay)
 http://lunar.pm:8080/xxx/64675
-#EXTINF:-1 group-title="USA Locals",FOX 11(Los Angeles)
+#EXTINF:-1 ,FOX 11(Los Angeles)
 http://lunar.pm:8080/xxx/64677
-#EXTINF:-1 group-title="USA Locals",FOX 11(Reno)
+#EXTINF:-1 ,FOX 11(Reno)
 http://lunar.pm:8080/xxx/64672
-#EXTINF:-1 group-title="USA Locals",FOX 11(Tuscon)
+#EXTINF:-1 ,FOX 11(Tuscon)
 http://lunar.pm:8080/xxx/64673
-#EXTINF:-1 group-title="USA Locals",FOX 12(Portland)
+#EXTINF:-1 ,FOX 12(Portland)
 http://lunar.pm:8080/xxx/64671
-#EXTINF:-1 group-title="USA Locals",FOX 13(Memphis)
+#EXTINF:-1 ,FOX 13(Memphis)
 http://lunar.pm:8080/xxx/64669
-#EXTINF:-1 group-title="USA Locals",FOX 13(New Mexico)
+#EXTINF:-1 ,FOX 13(New Mexico)
 http://lunar.pm:8080/xxx/64668
-#EXTINF:-1 group-title="USA Locals",FOX 13(Salt Lake City)
+#EXTINF:-1 ,FOX 13(Salt Lake City)
 http://lunar.pm:8080/xxx/64670
-#EXTINF:-1 group-title="USA Locals",FOX 13(Tacoma)
+#EXTINF:-1 ,FOX 13(Tacoma)
 http://lunar.pm:8080/xxx/64666
-#EXTINF:-1 group-title="USA Locals",FOX 13(Tampa)
+#EXTINF:-1 ,FOX 13(Tampa)
 http://lunar.pm:8080/xxx/64667
-#EXTINF:-1 group-title="USA Locals",FOX 14(El Paso)
+#EXTINF:-1 ,FOX 14(El Paso)
 http://lunar.pm:8080/xxx/64665
-#EXTINF:-1 group-title="USA Locals",FOX 15(Fargo)
+#EXTINF:-1 ,FOX 15(Fargo)
 http://lunar.pm:8080/xxx/64663
-#EXTINF:-1 group-title="USA Locals",FOX 16( Little Rock)
+#EXTINF:-1 ,FOX 16( Little Rock)
 http://lunar.pm:8080/xxx/64662
-#EXTINF:-1 group-title="USA Locals",FOX 17(Des Moines)
+#EXTINF:-1 ,FOX 17(Des Moines)
 http://lunar.pm:8080/xxx/64660
-#EXTINF:-1 group-title="USA Locals",FOX 17(Grand Rapids)
+#EXTINF:-1 ,FOX 17(Grand Rapids)
 http://lunar.pm:8080/xxx/64661
-#EXTINF:-1 group-title="USA Locals",FOX 17(Nashville)
+#EXTINF:-1 ,FOX 17(Nashville)
 http://lunar.pm:8080/xxx/64659
-#EXTINF:-1 group-title="USA Locals",FOX 19(Cincinnati)
+#EXTINF:-1 ,FOX 19(Cincinnati)
 http://lunar.pm:8080/xxx/64657
-#EXTINF:-1 group-title="USA Locals",FOX 21(Colorado Springs)
+#EXTINF:-1 ,FOX 21(Colorado Springs)
 http://lunar.pm:8080/xxx/64655
-#EXTINF:-1 group-title="USA Locals",FOX 23(Tulsa)
+#EXTINF:-1 ,FOX 23(Tulsa)
 http://lunar.pm:8080/xxx/64650
-#EXTINF:-1 group-title="USA Locals",FOX 24(Macon)
+#EXTINF:-1 ,FOX 24(Macon)
 http://lunar.pm:8080/xxx/64649
-#EXTINF:-1 group-title="USA Locals",FOX 25(Boston)
+#EXTINF:-1 ,FOX 25(Boston)
 http://lunar.pm:8080/xxx/64646
-#EXTINF:-1 group-title="USA Locals",FOX 25(Oaklahoma City)
+#EXTINF:-1 ,FOX 25(Oaklahoma City)
 http://lunar.pm:8080/xxx/64645
-#EXTINF:-1 group-title="USA Locals",FOX 26(Fresno)
+#EXTINF:-1 ,FOX 26(Fresno)
 http://lunar.pm:8080/xxx/64643
-#EXTINF:-1 group-title="USA Locals",FOX 26(Houston)
+#EXTINF:-1 ,FOX 26(Houston)
 http://lunar.pm:8080/xxx/64642
-#EXTINF:-1 group-title="USA Locals",FOX 28(Colombus)
+#EXTINF:-1 ,FOX 28(Colombus)
 http://lunar.pm:8080/xxx/64638
-#EXTINF:-1 group-title="USA Locals",FOX 28(Savannah)
+#EXTINF:-1 ,FOX 28(Savannah)
 http://lunar.pm:8080/xxx/64639
-#EXTINF:-1 group-title="USA Locals",FOX 28(Spokane)
+#EXTINF:-1 ,FOX 28(Spokane)
 http://lunar.pm:8080/xxx/64640
-#EXTINF:-1 group-title="USA Locals",FOX 29(Buffalo)
+#EXTINF:-1 ,FOX 29(Buffalo)
 http://lunar.pm:8080/xxx/64634
-#EXTINF:-1 group-title="USA Locals",FOX 29(Philadelphia)
+#EXTINF:-1 ,FOX 29(Philadelphia)
 http://lunar.pm:8080/xxx/64635
-#EXTINF:-1 group-title="USA Locals",FOX 29(San Antonio)
+#EXTINF:-1 ,FOX 29(San Antonio)
 http://lunar.pm:8080/xxx/64636
-#EXTINF:-1 group-title="USA Locals",FOX 29(West Palm Beach)
+#EXTINF:-1 ,FOX 29(West Palm Beach)
 http://lunar.pm:8080/xxx/64633
-#EXTINF:-1 group-title="USA Locals",FOX 30(Jacksonville)
+#EXTINF:-1 ,FOX 30(Jacksonville)
 http://lunar.pm:8080/xxx/64632
-#EXTINF:-1 group-title="USA Locals",FOX 31(Denver)
+#EXTINF:-1 ,FOX 31(Denver)
 http://lunar.pm:8080/xxx/64631
-#EXTINF:-1 group-title="USA Locals",FOX 31(Albany)
+#EXTINF:-1 ,FOX 31(Albany)
 http://lunar.pm:8080/xxx/64630
-#EXTINF:-1 group-title="USA Locals",FOX 32(Chicago)
+#EXTINF:-1 ,FOX 32(Chicago)
 http://lunar.pm:8080/xxx/64629
-#EXTINF:-1 group-title="USA Locals",FOX 35(Orlando)
+#EXTINF:-1 ,FOX 35(Orlando)
 http://lunar.pm:8080/xxx/64625
-#EXTINF:-1 group-title="USA Locals",FOX 35(Richmond)
+#EXTINF:-1 ,FOX 35(Richmond)
 http://lunar.pm:8080/xxx/64626
-#EXTINF:-1 group-title="USA Locals",FOX 38(Corpus Christi)
+#EXTINF:-1 ,FOX 38(Corpus Christi)
 http://lunar.pm:8080/xxx/64623
-#EXTINF:-1 group-title="USA Locals",FOX 40(Sacramento)
+#EXTINF:-1 ,FOX 40(Sacramento)
 http://lunar.pm:8080/xxx/64622
-#EXTINF:-1 group-title="USA Locals",FOX 42(Omaha)
+#EXTINF:-1 ,FOX 42(Omaha)
 http://lunar.pm:8080/xxx/64620
-#EXTINF:-1 group-title="USA Locals",FOX 44(Waco)
+#EXTINF:-1 ,FOX 44(Waco)
 http://lunar.pm:8080/xxx/118474
-#EXTINF:-1 group-title="USA Locals",FOX 45(Baltimore)
+#EXTINF:-1 ,FOX 45(Baltimore)
 http://lunar.pm:8080/xxx/64612
-#EXTINF:-1 group-title="USA Locals",FOX 46(Charolette)
+#EXTINF:-1 ,FOX 46(Charolette)
 http://lunar.pm:8080/xxx/64611
-#EXTINF:-1 group-title="USA Locals",FOX 49(Sacramento)
+#EXTINF:-1 ,FOX 49(Sacramento)
 http://lunar.pm:8080/xxx/64608
-#EXTINF:-1 group-title="USA Locals",FOX 50(Raleigh)
+#EXTINF:-1 ,FOX 50(Raleigh)
 http://lunar.pm:8080/xxx/64606
-#EXTINF:-1 group-title="USA Locals",FOX 53(Pittsburg)
+#EXTINF:-1 ,FOX 53(Pittsburg)
 http://lunar.pm:8080/xxx/64602
-#EXTINF:-1 group-title="USA Locals",FOX 54(Augusta)
+#EXTINF:-1 ,FOX 54(Augusta)
 http://lunar.pm:8080/xxx/64600
-#EXTINF:-1 group-title="USA Locals",FOX 55/27(Illinois)
+#EXTINF:-1 ,FOX 55/27(Illinois)
 http://lunar.pm:8080/xxx/64599
-#EXTINF:-1 group-title="USA Locals",FOX 59(Indianapolis)
+#EXTINF:-1 ,FOX 59(Indianapolis)
 http://lunar.pm:8080/xxx/64594
-#EXTINF:-1 group-title="USA Locals",FOX 61(Hartford)
+#EXTINF:-1 ,FOX 61(Hartford)
 http://lunar.pm:8080/xxx/64593
-#EXTINF:-1 group-title="USA News",FOX BUSINESS
+#EXTINF:-1 ,FOX BUSINESS
 http://lunar.pm:8080/xxx/9328
-#EXTINF:-1 group-title="USA Sports",FOX SPORTS 1
+#EXTINF:-1 ,FOX SPORTS 1
 http://lunar.pm:8080/xxx/9555
-#EXTINF:-1 group-title="USA Sports",FOX SPORTS 2
+#EXTINF:-1 ,FOX SPORTS 2
 http://lunar.pm:8080/xxx/9554
-#EXTINF:-1 group-title="USA Sports",FOX COLLEGE ATLANTIC
+#EXTINF:-1 ,FOX COLLEGE ATLANTIC
 http://lunar.pm:8080/xxx/9556
-#EXTINF:-1 group-title="USA Sports",FOX COLLEGE CENTRAL
+#EXTINF:-1 ,FOX COLLEGE CENTRAL
 http://lunar.pm:8080/xxx/9558
-#EXTINF:-1 group-title="USA Sports",FOX COLLEGE PACIFIC
+#EXTINF:-1 ,FOX COLLEGE PACIFIC
 http://lunar.pm:8080/xxx/9557
-#EXTINF:-1 group-title="USA News",Fox News
+#EXTINF:-1 ,Fox News
 http://lunar.pm:8080/xxx/8849
-#EXTINF:-1 group-title="USA Sports",FOX SOCCER PLUS
+#EXTINF:-1 ,FOX SOCCER PLUS
 http://lunar.pm:8080/xxx/9551
-#EXTINF:-1 group-title="USA Entertainment",FREEFORM
+#EXTINF:-1 ,FREEFORM
 http://lunar.pm:8080/xxx/9193
-#EXTINF:-1 group-title="USA Sports",FreeSports (UK)
+#EXTINF:-1 ,FreeSports (UK)
 http://lunar.pm:8080/xxx/64909
-#EXTINF:-1 group-title="USA Entertainment",FUSE
+#EXTINF:-1 ,FUSE
 http://lunar.pm:8080/xxx/9192
-#EXTINF:-1 group-title="USA Entertainment",FX
+#EXTINF:-1 ,FX
 http://lunar.pm:8080/xxx/9190
-#EXTINF:-1 group-title="USA Entertainment",FXM
+#EXTINF:-1 ,FXM
 http://lunar.pm:8080/xxx/9189
-#EXTINF:-1 group-title="USA Entertainment",FXX
+#EXTINF:-1 ,FXX
 http://lunar.pm:8080/xxx/9188
-#EXTINF:-1 group-title="USA Entertainment",FYI
+#EXTINF:-1 ,FYI
 http://lunar.pm:8080/xxx/9187
-#EXTINF:-1 group-title="USA Entertainment",Great American Country-Family
+#EXTINF:-1 ,Great American Country-Family
 http://lunar.pm:8080/xxx/105641
-#EXTINF:-1 group-title="USA Sports",Gol TV
+#EXTINF:-1 ,Gol TV
 http://lunar.pm:8080/xxx/66605
-#EXTINF:-1 group-title="USA Entertainment",GRIT TV
+#EXTINF:-1 ,GRIT TV
 http://lunar.pm:8080/xxx/9185
-#EXTINF:-1 group-title="USA Entertainment",GSN
+#EXTINF:-1 ,GSN
 http://lunar.pm:8080/xxx/9184
-#EXTINF:-1 group-title="USA Entertainment",HALLMARK
+#EXTINF:-1 ,HALLMARK
 http://lunar.pm:8080/xxx/9183
-#EXTINF:-1 group-title="USA Entertainment",Hallmark Drama
+#EXTINF:-1 ,Hallmark Drama
 http://lunar.pm:8080/xxx/105645
-#EXTINF:-1 group-title="USA Entertainment",HALLMARK MOVIES & MYSTERY
+#EXTINF:-1 ,HALLMARK MOVIES & MYSTERY
 http://lunar.pm:8080/xxx/9182
-#EXTINF:-1 group-title="USA Movies",HBO (East)
+#EXTINF:-1 ,HBO (East)
 http://lunar.pm:8080/xxx/18202
-#EXTINF:-1 group-title="USA Movies",HBO (West)
+#EXTINF:-1 ,HBO (West)
 http://lunar.pm:8080/xxx/98692
-#EXTINF:-1 group-title="USA Movies",HBO 2 (East)
+#EXTINF:-1 ,HBO 2 (East)
 http://lunar.pm:8080/xxx/18203
-#EXTINF:-1 group-title="USA Movies",HBO 2 (West)
+#EXTINF:-1 ,HBO 2 (West)
 http://lunar.pm:8080/xxx/98693
-#EXTINF:-1 group-title="USA Movies",HBO COMEDY (East)
+#EXTINF:-1 ,HBO COMEDY (East)
 http://lunar.pm:8080/xxx/18200
-#EXTINF:-1 group-title="USA Movies",HBO COMEDY (West)
+#EXTINF:-1 ,HBO COMEDY (West)
 http://lunar.pm:8080/xxx/98694
-#EXTINF:-1 group-title="USA Movies",HBO Family (East)
+#EXTINF:-1 ,HBO Family (East)
 http://lunar.pm:8080/xxx/18199
-#EXTINF:-1 group-title="USA Movies",HBO Family (West)
+#EXTINF:-1 ,HBO Family (West)
 http://lunar.pm:8080/xxx/98695
-#EXTINF:-1 group-title="USA Movies",HBO Signature (East)
+#EXTINF:-1 ,HBO Signature (East)
 http://lunar.pm:8080/xxx/18198
-#EXTINF:-1 group-title="USA Movies",HBO Signature (West)
+#EXTINF:-1 ,HBO Signature (West)
 http://lunar.pm:8080/xxx/98696
-#EXTINF:-1 group-title="USA Movies",HBO Zone (West)
+#EXTINF:-1 ,HBO Zone (West)
 http://lunar.pm:8080/xxx/98697
-#EXTINF:-1 group-title="USA Movies",HBO Zone East)
+#EXTINF:-1 ,HBO Zone East)
 http://lunar.pm:8080/xxx/18197
-#EXTINF:-1 group-title="USA Entertainment",HGTV
+#EXTINF:-1 ,HGTV
 http://lunar.pm:8080/xxx/9181
-#EXTINF:-1 group-title="USA Entertainment",HGTV (West)
+#EXTINF:-1 ,HGTV (West)
 http://lunar.pm:8080/xxx/56099
-#EXTINF:-1 group-title="USA Movies",INDIE PLEX (East)
+#EXTINF:-1 ,INDIE PLEX (East)
 http://lunar.pm:8080/xxx/98727
-#EXTINF:-1 group-title="USA Movies",INDIE PLEX (West)
+#EXTINF:-1 ,INDIE PLEX (West)
 http://lunar.pm:8080/xxx/98728
-#EXTINF:-1 group-title="USA Entertainment",Insp
+#EXTINF:-1 ,Insp
 http://lunar.pm:8080/xxx/69080
-#EXTINF:-1 group-title="Religion (ALL)",Inspiration TV
+#EXTINF:-1 ,Inspiration TV
 http://lunar.pm:8080/xxx/75595
-#EXTINF:-1 group-title="USA Entertainment",INVESTIGATION DISCOVERY
+#EXTINF:-1 ,INVESTIGATION DISCOVERY
 http://lunar.pm:8080/xxx/9177
-#EXTINF:-1 group-title="USA Entertainment",ION
+#EXTINF:-1 ,ION
 http://lunar.pm:8080/xxx/9175
-#EXTINF:-1 group-title="USA Entertainment",Justice Central
+#EXTINF:-1 ,Justice Central
 http://lunar.pm:8080/xxx/97091
-#EXTINF:-1 group-title="USA Locals",KCAL 09 (LOS ANGELES)
+#EXTINF:-1 ,KCAL 09 (LOS ANGELES)
 http://lunar.pm:8080/xxx/100029
-#EXTINF:-1 group-title="USA Locals",KTLA 05 (Los Angeles)
+#EXTINF:-1 ,KTLA 05 (Los Angeles)
 http://lunar.pm:8080/xxx/64699
-#EXTINF:-1 group-title="USA Entertainment",LAFF TV
+#EXTINF:-1 ,LAFF TV
 http://lunar.pm:8080/xxx/105646
-#EXTINF:-1 group-title="USA Entertainment",LIFETIME
+#EXTINF:-1 ,LIFETIME
 http://lunar.pm:8080/xxx/9174
-#EXTINF:-1 group-title="USA Entertainment",LIFETIME MOVIES
+#EXTINF:-1 ,LIFETIME MOVIES
 http://lunar.pm:8080/xxx/9173
-#EXTINF:-1 group-title="USA Entertainment",Logo Tv
+#EXTINF:-1 ,Logo Tv
 http://lunar.pm:8080/xxx/64817
-#EXTINF:-1 group-title="USA Sports", Marquee Sports Network
+#EXTINF:-1 , Marquee Sports Network
 http://lunar.pm:8080/xxx/95736
-#EXTINF:-1 group-title="USA Sports",Mav TV HD
+#EXTINF:-1 ,Mav TV HD
 http://lunar.pm:8080/xxx/59693
-#EXTINF:-1 group-title="USA Entertainment",ME TV
+#EXTINF:-1 ,ME TV
 http://lunar.pm:8080/xxx/9172
-#EXTINF:-1 group-title="USA Sports",MLB Network
+#EXTINF:-1 ,MLB Network
 http://lunar.pm:8080/xxx/9548
-#EXTINF:-1 group-title="MLB ",MLB NETWORK 
+#EXTINF:-1 ,MLB NETWORK 
 http://lunar.pm:8080/xxx/100103
-#EXTINF:-1 group-title="MLB ",MLB STRIKE Zone
+#EXTINF:-1 ,MLB STRIKE Zone
 http://lunar.pm:8080/xxx/100104
-#EXTINF:-1 group-title="USA Movies",MOVIE PLEX (east)
+#EXTINF:-1 ,MOVIE PLEX (east)
 http://lunar.pm:8080/xxx/98730
-#EXTINF:-1 group-title="USA Movies",MOVIE PLEX (West)
+#EXTINF:-1 ,MOVIE PLEX (West)
 http://lunar.pm:8080/xxx/98731
-#EXTINF:-1 group-title="USA Sports",MSG
+#EXTINF:-1 ,MSG
 http://lunar.pm:8080/xxx/59686
-#EXTINF:-1 group-title="USA Sports",MSG +
+#EXTINF:-1 ,MSG +
 http://lunar.pm:8080/xxx/59687
-#EXTINF:-1 group-title="USA Sports",MSG 2
+#EXTINF:-1 ,MSG 2
 http://lunar.pm:8080/xxx/59688
-#EXTINF:-1 group-title="USA Sports",MSG 2+
+#EXTINF:-1 ,MSG 2+
 http://lunar.pm:8080/xxx/59689
-#EXTINF:-1 group-title="USA News",MSNBC
+#EXTINF:-1 ,MSNBC
 http://lunar.pm:8080/xxx/9326
-#EXTINF:-1 group-title="USA Entertainment",MTV
+#EXTINF:-1 ,MTV
 http://lunar.pm:8080/xxx/47752
-#EXTINF:-1 group-title="USA Entertainment",MTV 2
+#EXTINF:-1 ,MTV 2
 http://lunar.pm:8080/xxx/109359
-#EXTINF:-1 group-title="USA Entertainment",MTV Live
+#EXTINF:-1 ,MTV Live
 http://lunar.pm:8080/xxx/102259
-#EXTINF:-1 group-title="USA Locals",My 02(Greensboro)
+#EXTINF:-1 ,My 02(Greensboro)
 http://lunar.pm:8080/xxx/64704
-#EXTINF:-1 group-title="USA Locals",My 22(Pittsburgh)
+#EXTINF:-1 ,My 22(Pittsburgh)
 http://lunar.pm:8080/xxx/64700
-#EXTINF:-1 group-title="USA Locals",My 13(Los Angeles)
+#EXTINF:-1 ,My 13(Los Angeles)
 http://lunar.pm:8080/xxx/64701
-#EXTINF:-1 group-title="USA Locals",My 33(Miami)
+#EXTINF:-1 ,My 33(Miami)
 http://lunar.pm:8080/xxx/64703
-#EXTINF:-1 group-title="USA Locals",MY 38(Boston)
+#EXTINF:-1 ,MY 38(Boston)
 http://lunar.pm:8080/xxx/64702
-#EXTINF:-1 group-title="USA News",NASA Tv
+#EXTINF:-1 ,NASA Tv
 http://lunar.pm:8080/xxx/105616
-#EXTINF:-1 group-title="USA Sports",NBA TV
+#EXTINF:-1 ,NBA TV
 http://lunar.pm:8080/xxx/9547
-#EXTINF:-1 group-title="NBA ",NBA Tv.
+#EXTINF:-1 ,NBA Tv.
 http://lunar.pm:8080/xxx/101962
-#EXTINF:-1 group-title="USA Entertainment",NBC
+#EXTINF:-1 ,NBC
 http://lunar.pm:8080/xxx/9171
-#EXTINF:-1 group-title="USA Locals",NBC 02(Buffalo)
+#EXTINF:-1 ,NBC 02(Buffalo)
 http://lunar.pm:8080/xxx/64812
-#EXTINF:-1 group-title="USA Locals",NBC 02(Dayton)
+#EXTINF:-1 ,NBC 02(Dayton)
 http://lunar.pm:8080/xxx/64809
-#EXTINF:-1 group-title="USA Locals",NBC 02(Houston)
+#EXTINF:-1 ,NBC 02(Houston)
 http://lunar.pm:8080/xxx/64810
-#EXTINF:-1 group-title="USA Locals",NBC 02(Orlando)
+#EXTINF:-1 ,NBC 02(Orlando)
 http://lunar.pm:8080/xxx/64811
-#EXTINF:-1 group-title="USA Locals",NBC 02(Tulsa)
+#EXTINF:-1 ,NBC 02(Tulsa)
 http://lunar.pm:8080/xxx/64813
-#EXTINF:-1 group-title="USA Locals",NBC 03(Cleveland)
+#EXTINF:-1 ,NBC 03(Cleveland)
 http://lunar.pm:8080/xxx/64804
-#EXTINF:-1 group-title="USA Locals",NBC 03(Jackson)
+#EXTINF:-1 ,NBC 03(Jackson)
 http://lunar.pm:8080/xxx/64802
-#EXTINF:-1 group-title="USA Locals",NBC 03(Sacramento)
+#EXTINF:-1 ,NBC 03(Sacramento)
 http://lunar.pm:8080/xxx/64803
-#EXTINF:-1 group-title="USA Locals",NBC 03(Savannah)
+#EXTINF:-1 ,NBC 03(Savannah)
 http://lunar.pm:8080/xxx/64807
-#EXTINF:-1 group-title="USA Locals",NBC 03(Springfield)
+#EXTINF:-1 ,NBC 03(Springfield)
 http://lunar.pm:8080/xxx/64805
-#EXTINF:-1 group-title="USA Locals",NBC 04(Albuquerque)
+#EXTINF:-1 ,NBC 04(Albuquerque)
 http://lunar.pm:8080/xxx/64791
-#EXTINF:-1 group-title="USA Locals",NBC 04(Columbus)
+#EXTINF:-1 ,NBC 04(Columbus)
 http://lunar.pm:8080/xxx/64794
-#EXTINF:-1 group-title="USA Locals",NBC 04(Detroit)
+#EXTINF:-1 ,NBC 04(Detroit)
 http://lunar.pm:8080/xxx/64798
-#EXTINF:-1 group-title="USA Locals",NBC 04(Little Rock)
+#EXTINF:-1 ,NBC 04(Little Rock)
 http://lunar.pm:8080/xxx/64792
-#EXTINF:-1 group-title="USA Locals",NBC 04(Los Angeles)
+#EXTINF:-1 ,NBC 04(Los Angeles)
 http://lunar.pm:8080/xxx/64797
-#EXTINF:-1 group-title="USA Locals",NBC 04(Milwaukee)
+#EXTINF:-1 ,NBC 04(Milwaukee)
 http://lunar.pm:8080/xxx/64795
-#EXTINF:-1 group-title="USA Locals",NBC 04(Nashville)
+#EXTINF:-1 ,NBC 04(Nashville)
 http://lunar.pm:8080/xxx/64793
-#EXTINF:-1 group-title="USA Locals",NBC 04(New York)
+#EXTINF:-1 ,NBC 04(New York)
 http://lunar.pm:8080/xxx/64801
-#EXTINF:-1 group-title="USA Locals",NBC 04(Sioux City)
+#EXTINF:-1 ,NBC 04(Sioux City)
 http://lunar.pm:8080/xxx/64790
-#EXTINF:-1 group-title="USA Locals",NBC 04(Tuscon)
+#EXTINF:-1 ,NBC 04(Tuscon)
 http://lunar.pm:8080/xxx/64799
-#EXTINF:-1 group-title="USA Locals",NBC 04(Washington Dc)
+#EXTINF:-1 ,NBC 04(Washington Dc)
 http://lunar.pm:8080/xxx/70000
-#EXTINF:-1 group-title="USA Locals",NBC 05(Chicago)
+#EXTINF:-1 ,NBC 05(Chicago)
 http://lunar.pm:8080/xxx/64783
-#EXTINF:-1 group-title="USA Locals",NBC 05(Cincinnati)
+#EXTINF:-1 ,NBC 05(Cincinnati)
 http://lunar.pm:8080/xxx/64785
-#EXTINF:-1 group-title="USA Locals",NBC 05(Fort Worth)
+#EXTINF:-1 ,NBC 05(Fort Worth)
 http://lunar.pm:8080/xxx/64789
-#EXTINF:-1 group-title="USA Locals",NBC 05(Memphis)
+#EXTINF:-1 ,NBC 05(Memphis)
 http://lunar.pm:8080/xxx/64780
-#EXTINF:-1 group-title="USA Locals",NBC 05(Plattsburgh)
+#EXTINF:-1 ,NBC 05(Plattsburgh)
 http://lunar.pm:8080/xxx/64779
-#EXTINF:-1 group-title="USA Locals",NBC 05(Raleigh)
+#EXTINF:-1 ,NBC 05(Raleigh)
 http://lunar.pm:8080/xxx/64786
-#EXTINF:-1 group-title="USA Locals",NBC 05(Salt Lake City)
+#EXTINF:-1 ,NBC 05(Salt Lake City)
 http://lunar.pm:8080/xxx/64781
-#EXTINF:-1 group-title="USA Locals",NBC 05(Seattle)
+#EXTINF:-1 ,NBC 05(Seattle)
 http://lunar.pm:8080/xxx/64782
-#EXTINF:-1 group-title="USA Locals",NBC 05(St Louis)
+#EXTINF:-1 ,NBC 05(St Louis)
 http://lunar.pm:8080/xxx/64787
-#EXTINF:-1 group-title="USA Locals",NBC 05(West Palm Beach)
+#EXTINF:-1 ,NBC 05(West Palm Beach)
 http://lunar.pm:8080/xxx/64788
-#EXTINF:-1 group-title="USA Locals",NBC 06(Miami)
+#EXTINF:-1 ,NBC 06(Miami)
 http://lunar.pm:8080/xxx/64768
-#EXTINF:-1 group-title="USA Locals",NBC 06(New Orleans)
+#EXTINF:-1 ,NBC 06(New Orleans)
 http://lunar.pm:8080/xxx/64770
-#EXTINF:-1 group-title="USA Locals",NBC 06(Omaha)
+#EXTINF:-1 ,NBC 06(Omaha)
 http://lunar.pm:8080/xxx/64777
-#EXTINF:-1 group-title="USA Locals",NBC 08 (Portland)
+#EXTINF:-1 ,NBC 08 (Portland)
 http://lunar.pm:8080/xxx/64769
-#EXTINF:-1 group-title="USA Locals",NBC 06(Spokane)
+#EXTINF:-1 ,NBC 06(Spokane)
 http://lunar.pm:8080/xxx/64767
-#EXTINF:-1 group-title="USA Locals",NBC 06(Waco)
+#EXTINF:-1 ,NBC 06(Waco)
 http://lunar.pm:8080/xxx/64772
-#EXTINF:-1 group-title="USA Locals",NBC 07(Boise)
+#EXTINF:-1 ,NBC 07(Boise)
 http://lunar.pm:8080/xxx/64762
-#EXTINF:-1 group-title="USA Locals",NBC 07(San Diego)
+#EXTINF:-1 ,NBC 07(San Diego)
 http://lunar.pm:8080/xxx/64765
-#EXTINF:-1 group-title="USA Locals",NBC 08(Harrisburg)
+#EXTINF:-1 ,NBC 08(Harrisburg)
 http://lunar.pm:8080/xxx/64760
-#EXTINF:-1 group-title="USA Locals",NBC 08(Tampa)
+#EXTINF:-1 ,NBC 08(Tampa)
 http://lunar.pm:8080/xxx/64756
-#EXTINF:-1 group-title="USA Locals",NBC 09(Denver)
+#EXTINF:-1 ,NBC 09(Denver)
 http://lunar.pm:8080/xxx/64755
-#EXTINF:-1 group-title="USA Locals",NBC 09(El Paso)
+#EXTINF:-1 ,NBC 09(El Paso)
 http://lunar.pm:8080/xxx/64754
-#EXTINF:-1 group-title="USA Locals",NBC 10(Boston)
+#EXTINF:-1 ,NBC 10(Boston)
 http://lunar.pm:8080/xxx/64749
-#EXTINF:-1 group-title="USA Locals",NBC 10(Philadelphia)
+#EXTINF:-1 ,NBC 10(Philadelphia)
 http://lunar.pm:8080/xxx/64752
-#EXTINF:-1 group-title="USA Locals",NBC 10(Albany)
+#EXTINF:-1 ,NBC 10(Albany)
 http://lunar.pm:8080/xxx/64753
-#EXTINF:-1 group-title="USA Locals",NBC 11(Atlanta)
+#EXTINF:-1 ,NBC 11(Atlanta)
 http://lunar.pm:8080/xxx/64743
-#EXTINF:-1 group-title="USA Locals",NBC 11(Baltimore)
+#EXTINF:-1 ,NBC 11(Baltimore)
 http://lunar.pm:8080/xxx/64742
-#EXTINF:-1 group-title="USA Locals",NBC 11(Fargo)
+#EXTINF:-1 ,NBC 11(Fargo)
 http://lunar.pm:8080/xxx/64740
-#EXTINF:-1 group-title="USA Locals",NBC 11(Minneapolis St Paul)
+#EXTINF:-1 ,NBC 11(Minneapolis St Paul)
 http://lunar.pm:8080/xxx/64741
-#EXTINF:-1 group-title="USA Locals",NBC 11(Pittsburgh)
+#EXTINF:-1 ,NBC 11(Pittsburgh)
 http://lunar.pm:8080/xxx/64744
-#EXTINF:-1 group-title="USA Locals",NBC 11(San Francisco)
+#EXTINF:-1 ,NBC 11(San Francisco)
 http://lunar.pm:8080/xxx/64745
-#EXTINF:-1 group-title="USA Locals",NBC 12(Jacksonville)
+#EXTINF:-1 ,NBC 12(Jacksonville)
 http://lunar.pm:8080/xxx/64739
-#EXTINF:-1 group-title="USA Locals",NBC 12(Phoenix)
+#EXTINF:-1 ,NBC 12(Phoenix)
 http://lunar.pm:8080/xxx/64735
-#EXTINF:-1 group-title="USA Locals",NBC 12(Richmond)
+#EXTINF:-1 ,NBC 12(Richmond)
 http://lunar.pm:8080/xxx/64737
-#EXTINF:-1 group-title="USA Locals",NBC 12(Winston Salem)
+#EXTINF:-1 ,NBC 12(Winston Salem)
 http://lunar.pm:8080/xxx/64736
-#EXTINF:-1 group-title="USA Locals",NBC 13(Birmingham)
+#EXTINF:-1 ,NBC 13(Birmingham)
 http://lunar.pm:8080/xxx/64733
-#EXTINF:-1 group-title="USA Locals",NBC 13(Honolulu)
+#EXTINF:-1 ,NBC 13(Honolulu)
 http://lunar.pm:8080/xxx/64734
-#EXTINF:-1 group-title="USA Locals",NBC 13(Indianapolis)
+#EXTINF:-1 ,NBC 13(Indianapolis)
 http://lunar.pm:8080/xxx/64731
-#EXTINF:-1 group-title="USA Locals",NBC 17(Bakersfield)
+#EXTINF:-1 ,NBC 17(Bakersfield)
 http://lunar.pm:8080/xxx/64725
-#EXTINF:-1 group-title="USA Locals",NBC 22(Springfield Massachusetts)
+#EXTINF:-1 ,NBC 22(Springfield Massachusetts)
 http://lunar.pm:8080/xxx/64720
-#EXTINF:-1 group-title="USA Locals",NBC 25(Richland)
+#EXTINF:-1 ,NBC 25(Richland)
 http://lunar.pm:8080/xxx/64718
-#EXTINF:-1 group-title="USA Locals",NBC 26(Augusta)
+#EXTINF:-1 ,NBC 26(Augusta)
 http://lunar.pm:8080/xxx/64715
-#EXTINF:-1 group-title="USA Locals",NBC 26(Greenbay)
+#EXTINF:-1 ,NBC 26(Greenbay)
 http://lunar.pm:8080/xxx/64716
-#EXTINF:-1 group-title="USA Locals",NBC 30(Hartford)
+#EXTINF:-1 ,NBC 30(Hartford)
 http://lunar.pm:8080/xxx/64713
-#EXTINF:-1 group-title="USA Locals",NBC 36(Austin)
+#EXTINF:-1 ,NBC 36(Austin)
 http://lunar.pm:8080/xxx/64710
-#EXTINF:-1 group-title="USA Locals",NBC 36(Charolette)
+#EXTINF:-1 ,NBC 36(Charolette)
 http://lunar.pm:8080/xxx/64711
-#EXTINF:-1 group-title="USA Locals",NBC 38(Columbus)
+#EXTINF:-1 ,NBC 38(Columbus)
 http://lunar.pm:8080/xxx/64709
-#EXTINF:-1 group-title="USA Locals",NBC 41(Kansas)
+#EXTINF:-1 ,NBC 41(Kansas)
 http://lunar.pm:8080/xxx/64708
-#EXTINF:-1 group-title="USA Sports",NBC GOLF
+#EXTINF:-1 ,NBC GOLF
 http://lunar.pm:8080/xxx/9528
-#EXTINF:-1 group-title="USA Sports",NBCSN
+#EXTINF:-1 ,NBCSN
 http://lunar.pm:8080/xxx/9546
-#EXTINF:-1 group-title="USA Sports",NBCSN BAY AREA
+#EXTINF:-1 ,NBCSN BAY AREA
 http://lunar.pm:8080/xxx/9545
-#EXTINF:-1 group-title="USA Sports",NBCSN BOSTON
+#EXTINF:-1 ,NBCSN BOSTON
 http://lunar.pm:8080/xxx/9544
-#EXTINF:-1 group-title="USA Sports",NBCSN CALIFORNIA
+#EXTINF:-1 ,NBCSN CALIFORNIA
 http://lunar.pm:8080/xxx/9543
-#EXTINF:-1 group-title="USA Sports",NBCSN CHICAGO
+#EXTINF:-1 ,NBCSN CHICAGO
 http://lunar.pm:8080/xxx/9542
-#EXTINF:-1 group-title="USA Sports",NBCSN NORTH WEST
+#EXTINF:-1 ,NBCSN NORTH WEST
 http://lunar.pm:8080/xxx/9541
-#EXTINF:-1 group-title="USA Sports",NBCSN PHILLY
+#EXTINF:-1 ,NBCSN PHILLY
 http://lunar.pm:8080/xxx/9540
-#EXTINF:-1 group-title="USA Sports",NESN
+#EXTINF:-1 ,NESN
 http://lunar.pm:8080/xxx/69348
-#EXTINF:-1 group-title="USA Sports",NESN +
+#EXTINF:-1 ,NESN +
 http://lunar.pm:8080/xxx/69349
-#EXTINF:-1 group-title="USA News",NewsMax Tv
+#EXTINF:-1 ,NewsMax Tv
 http://lunar.pm:8080/xxx/70184
-#EXTINF:-1 group-title="NFL",NFL NETWORK
+#EXTINF:-1 ,NFL NETWORK
 http://lunar.pm:8080/xxx/73628
-#EXTINF:-1 group-title="USA Sports",NFL NETWORK,
+#EXTINF:-1 ,NFL NETWORK,
 http://lunar.pm:8080/xxx/11611
-#EXTINF:-1 group-title="NFL",NFL RED Zone
+#EXTINF:-1 ,NFL RED Zone
 http://lunar.pm:8080/xxx/73629
-#EXTINF:-1 group-title="NHL ",NHL Network
+#EXTINF:-1 ,NHL Network
 http://lunar.pm:8080/xxx/95681
-#EXTINF:-1 group-title="USA Sports",NHL Network.
+#EXTINF:-1 ,NHL Network.
 http://lunar.pm:8080/xxx/9549
-#EXTINF:-1 group-title="USA Kids",NICK JR
+#EXTINF:-1 ,NICK JR
 http://lunar.pm:8080/xxx/41614
-#EXTINF:-1 group-title="USA Kids",NICK TOONS
+#EXTINF:-1 ,NICK TOONS
 http://lunar.pm:8080/xxx/8868
-#EXTINF:-1 group-title="USA Kids",NICKELODEON
+#EXTINF:-1 ,NICKELODEON
 http://lunar.pm:8080/xxx/8870
-#EXTINF:-1 group-title="USA Sports",Olympic Channel
+#EXTINF:-1 ,Olympic Channel
 http://lunar.pm:8080/xxx/66295
-#EXTINF:-1 group-title="USA News",OAN
+#EXTINF:-1 ,OAN
 http://lunar.pm:8080/xxx/70185
-#EXTINF:-1 group-title="USA Entertainment",OWN
+#EXTINF:-1 ,OWN
 http://lunar.pm:8080/xxx/9169
-#EXTINF:-1 group-title="USA Entertainment",OXYGEN
+#EXTINF:-1 ,OXYGEN
 http://lunar.pm:8080/xxx/9168
-#EXTINF:-1 group-title="USA Entertainment",Oxygen (West)
+#EXTINF:-1 ,Oxygen (West)
 http://lunar.pm:8080/xxx/56100
-#EXTINF:-1 group-title="USA Sports",PAC 12 ARIZONA
+#EXTINF:-1 ,PAC 12 ARIZONA
 http://lunar.pm:8080/xxx/9526
-#EXTINF:-1 group-title="USA Sports",PAC 12 BAY AREA
+#EXTINF:-1 ,PAC 12 BAY AREA
 http://lunar.pm:8080/xxx/9525
-#EXTINF:-1 group-title="USA Sports",PAC 12 LOS ANGELES
+#EXTINF:-1 ,PAC 12 LOS ANGELES
 http://lunar.pm:8080/xxx/9524
-#EXTINF:-1 group-title="USA Sports",PAC 12 MOUNTAIN
+#EXTINF:-1 ,PAC 12 MOUNTAIN
 http://lunar.pm:8080/xxx/9523
-#EXTINF:-1 group-title="USA Sports",PAC 12 NETWORKS
+#EXTINF:-1 ,PAC 12 NETWORKS
 http://lunar.pm:8080/xxx/9522
-#EXTINF:-1 group-title="USA Sports",Pac-12 OREGON
+#EXTINF:-1 ,Pac-12 OREGON
 http://lunar.pm:8080/xxx/100030
-#EXTINF:-1 group-title="USA Entertainment",Paramount
+#EXTINF:-1 ,Paramount
 http://lunar.pm:8080/xxx/9158
-#EXTINF:-1 group-title="USA Locals",PBS 02 Miami
+#EXTINF:-1 ,PBS 02 Miami
 http://lunar.pm:8080/xxx/97090
-#EXTINF:-1 group-title="USA Entertainment",PBS 
+#EXTINF:-1 ,PBS 
 http://lunar.pm:8080/xxx/97089
-#EXTINF:-1 group-title="USA Kids",PBS Kids
+#EXTINF:-1 ,PBS Kids
 http://lunar.pm:8080/xxx/41615
-#EXTINF:-1 group-title="USA Entertainment",Pets Tv
+#EXTINF:-1 ,Pets Tv
 http://lunar.pm:8080/xxx/110048
-#EXTINF:-1 group-title="USA Entertainment",Pop Tv
+#EXTINF:-1 ,Pop Tv
 http://lunar.pm:8080/xxx/35312
-#EXTINF:-1 group-title="USA Entertainment",QVC
+#EXTINF:-1 ,QVC
 http://lunar.pm:8080/xxx/9164
-#EXTINF:-1 group-title="USA Sports",Red Bull Tv
+#EXTINF:-1 ,Red Bull Tv
 http://lunar.pm:8080/xxx/26630
-#EXTINF:-1 group-title="USA Entertainment",Reelz
+#EXTINF:-1 ,Reelz
 http://lunar.pm:8080/xxx/101896
-#EXTINF:-1 group-title="Religion (ALL)",Repentance TV
+#EXTINF:-1 ,Repentance TV
 http://lunar.pm:8080/xxx/75610
-#EXTINF:-1 group-title="USA Movies",RETRO PLEX (East)
+#EXTINF:-1 ,RETRO PLEX (East)
 http://lunar.pm:8080/xxx/98732
-#EXTINF:-1 group-title="USA Movies",RETRO PLEX (West)
+#EXTINF:-1 ,RETRO PLEX (West)
 http://lunar.pm:8080/xxx/98733
-#EXTINF:-1 group-title="USA Entertainment",Revolt
+#EXTINF:-1 ,Revolt
 http://lunar.pm:8080/xxx/105647
-#EXTINF:-1 group-title="USA Sports",SEC NETWORK
+#EXTINF:-1 ,SEC NETWORK
 http://lunar.pm:8080/xxx/44845
-#EXTINF:-1 group-title="USA Sports",SEC +
+#EXTINF:-1 ,SEC +
 http://lunar.pm:8080/xxx/118398
-#EXTINF:-1 group-title="USA Movies",Showtime (East)
+#EXTINF:-1 ,Showtime (East)
 http://lunar.pm:8080/xxx/18187
-#EXTINF:-1 group-title="USA Movies",Showtime (West)
+#EXTINF:-1 ,Showtime (West)
 http://lunar.pm:8080/xxx/18185
-#EXTINF:-1 group-title="USA Movies",Showtime 2 (East)
+#EXTINF:-1 ,Showtime 2 (East)
 http://lunar.pm:8080/xxx/98715
-#EXTINF:-1 group-title="USA Movies",Showtime 2 (West)
+#EXTINF:-1 ,Showtime 2 (West)
 http://lunar.pm:8080/xxx/98716
-#EXTINF:-1 group-title="USA Movies",Showtime BET X (East)
+#EXTINF:-1 ,Showtime BET X (East)
 http://lunar.pm:8080/xxx/98717
-#EXTINF:-1 group-title="USA Movies",Showtime BET X (West)
+#EXTINF:-1 ,Showtime BET X (West)
 http://lunar.pm:8080/xxx/98718
-#EXTINF:-1 group-title="USA Movies",Showtime Extreme (East)
+#EXTINF:-1 ,Showtime Extreme (East)
 http://lunar.pm:8080/xxx/18184
-#EXTINF:-1 group-title="USA Movies",Showtime Extreme (West)
+#EXTINF:-1 ,Showtime Extreme (West)
 http://lunar.pm:8080/xxx/98719
-#EXTINF:-1 group-title="USA Movies",Showtime Family Zone (East)
+#EXTINF:-1 ,Showtime Family Zone (East)
 http://lunar.pm:8080/xxx/98720
-#EXTINF:-1 group-title="USA Movies",Showtime Family Zone (West)
+#EXTINF:-1 ,Showtime Family Zone (West)
 http://lunar.pm:8080/xxx/98721
-#EXTINF:-1 group-title="USA Movies",Showtime Next (East)
+#EXTINF:-1 ,Showtime Next (East)
 http://lunar.pm:8080/xxx/98722
-#EXTINF:-1 group-title="USA Movies",Showtime Next (West)
+#EXTINF:-1 ,Showtime Next (West)
 http://lunar.pm:8080/xxx/98723
-#EXTINF:-1 group-title="USA Movies",Showtime Showcase (East)
+#EXTINF:-1 ,Showtime Showcase (East)
 http://lunar.pm:8080/xxx/18182
-#EXTINF:-1 group-title="USA Movies",Showtime Showcase (West)
+#EXTINF:-1 ,Showtime Showcase (West)
 http://lunar.pm:8080/xxx/98724
-#EXTINF:-1 group-title="USA Movies",Showtime Women (East)
+#EXTINF:-1 ,Showtime Women (East)
 http://lunar.pm:8080/xxx/98725
-#EXTINF:-1 group-title="USA Movies",Showtime Women (West)
+#EXTINF:-1 ,Showtime Women (West)
 http://lunar.pm:8080/xxx/98726
-#EXTINF:-1 group-title="USA Movies",Sony Movies
+#EXTINF:-1 ,Sony Movies
 http://lunar.pm:8080/xxx/44026
-#EXTINF:-1 group-title="USA Sports",Spectrum Sportsnet LA (Dodgers)
+#EXTINF:-1 ,Spectrum Sportsnet LA (Dodgers)
 http://lunar.pm:8080/xxx/109804
-#EXTINF:-1 group-title="USA Sports",Spectrum SportsNet (Lakers)
+#EXTINF:-1 ,Spectrum SportsNet (Lakers)
 http://lunar.pm:8080/xxx/63627
-#EXTINF:-1 group-title="USA Sports",SportsNet NY
+#EXTINF:-1 ,SportsNet NY
 http://lunar.pm:8080/xxx/67471
-#EXTINF:-1 group-title="USA Sports",Sportsnet 360
+#EXTINF:-1 ,Sportsnet 360
 http://lunar.pm:8080/xxx/9520
-#EXTINF:-1 group-title="USA Sports",Sportsnet East
+#EXTINF:-1 ,Sportsnet East
 http://lunar.pm:8080/xxx/9519
-#EXTINF:-1 group-title="USA Sports",Sportsnet One
+#EXTINF:-1 ,Sportsnet One
 http://lunar.pm:8080/xxx/9518
-#EXTINF:-1 group-title="USA Sports",Sportsnet Ontario
+#EXTINF:-1 ,Sportsnet Ontario
 http://lunar.pm:8080/xxx/9517
-#EXTINF:-1 group-title="USA Sports",Sportsnet Pacific
+#EXTINF:-1 ,Sportsnet Pacific
 http://lunar.pm:8080/xxx/9516
-#EXTINF:-1 group-title="USA Sports",Sportsnet West
+#EXTINF:-1 ,Sportsnet West
 http://lunar.pm:8080/xxx/9515
-#EXTINF:-1 group-title="USA Entertainment",Start Tv
+#EXTINF:-1 ,Start Tv
 http://lunar.pm:8080/xxx/117496
-#EXTINF:-1 group-title="USA Movies",STARZ (East)
+#EXTINF:-1 ,STARZ (East)
 http://lunar.pm:8080/xxx/58532
-#EXTINF:-1 group-title="USA Movies",STARZ (West)
+#EXTINF:-1 ,STARZ (West)
 http://lunar.pm:8080/xxx/58540
-#EXTINF:-1 group-title="USA Movies",STARZ CINEMA (East)
+#EXTINF:-1 ,STARZ CINEMA (East)
 http://lunar.pm:8080/xxx/58542
-#EXTINF:-1 group-title="USA Movies",STARZ CINEMA (West)
+#EXTINF:-1 ,STARZ CINEMA (West)
 http://lunar.pm:8080/xxx/98698
-#EXTINF:-1 group-title="USA Movies",STARZ COMEDY (East)
+#EXTINF:-1 ,STARZ COMEDY (East)
 http://lunar.pm:8080/xxx/58541
-#EXTINF:-1 group-title="USA Movies",STARZ COMEDY (West)
+#EXTINF:-1 ,STARZ COMEDY (West)
 http://lunar.pm:8080/xxx/98699
-#EXTINF:-1 group-title="USA Movies",STARZ EDGE (East)
+#EXTINF:-1 ,STARZ EDGE (East)
 http://lunar.pm:8080/xxx/58533
-#EXTINF:-1 group-title="USA Movies",STARZ EDGE (West)
+#EXTINF:-1 ,STARZ EDGE (West)
 http://lunar.pm:8080/xxx/98700
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE (East)
+#EXTINF:-1 ,STARZ ENCORE (East)
 http://lunar.pm:8080/xxx/58538
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE (West)
+#EXTINF:-1 ,STARZ ENCORE (West)
 http://lunar.pm:8080/xxx/98701
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE ACTION (East)
+#EXTINF:-1 ,STARZ ENCORE ACTION (East)
 http://lunar.pm:8080/xxx/98702
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE ACTION (West)
+#EXTINF:-1 ,STARZ ENCORE ACTION (West)
 http://lunar.pm:8080/xxx/98703
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE BLACK (East)
+#EXTINF:-1 ,STARZ ENCORE BLACK (East)
 http://lunar.pm:8080/xxx/98704
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE BLACK (West)
+#EXTINF:-1 ,STARZ ENCORE BLACK (West)
 http://lunar.pm:8080/xxx/98705
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE CLASSIC (East)
+#EXTINF:-1 ,STARZ ENCORE CLASSIC (East)
 http://lunar.pm:8080/xxx/98706
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE CLASSIC (West)
+#EXTINF:-1 ,STARZ ENCORE CLASSIC (West)
 http://lunar.pm:8080/xxx/98707
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE Family (East)
+#EXTINF:-1 ,STARZ ENCORE Family (East)
 http://lunar.pm:8080/xxx/98708
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE Family (West)
+#EXTINF:-1 ,STARZ ENCORE Family (West)
 http://lunar.pm:8080/xxx/98709
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE SUSPENSE (East)
+#EXTINF:-1 ,STARZ ENCORE SUSPENSE (East)
 http://lunar.pm:8080/xxx/98710
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE SUSPENSE (West)
+#EXTINF:-1 ,STARZ ENCORE SUSPENSE (West)
 http://lunar.pm:8080/xxx/98711
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE WESTERNS (East)
+#EXTINF:-1 ,STARZ ENCORE WESTERNS (East)
 http://lunar.pm:8080/xxx/58537
-#EXTINF:-1 group-title="USA Movies",STARZ ENCORE WESTERNS (West)
+#EXTINF:-1 ,STARZ ENCORE WESTERNS (West)
 http://lunar.pm:8080/xxx/98712
-#EXTINF:-1 group-title="USA Movies",STARZ IN BLACK (East)
+#EXTINF:-1 ,STARZ IN BLACK (East)
 http://lunar.pm:8080/xxx/58536
-#EXTINF:-1 group-title="USA Movies",STARZ IN BLACK (West)
+#EXTINF:-1 ,STARZ IN BLACK (West)
 http://lunar.pm:8080/xxx/98713
-#EXTINF:-1 group-title="USA Movies",STARZ KIDS & Family (East)
+#EXTINF:-1 ,STARZ KIDS & Family (East)
 http://lunar.pm:8080/xxx/58535
-#EXTINF:-1 group-title="USA Movies",STARZ KIDS & Family (West)
+#EXTINF:-1 ,STARZ KIDS & Family (West)
 http://lunar.pm:8080/xxx/98714
-#EXTINF:-1 group-title="USA Entertainment",SUNDANCE
+#EXTINF:-1 ,SUNDANCE
 http://lunar.pm:8080/xxx/9157
-#EXTINF:-1 group-title="USA Entertainment",SYFY
+#EXTINF:-1 ,SYFY
 http://lunar.pm:8080/xxx/9156
-#EXTINF:-1 group-title="USA Entertainment",SYFY (West)
+#EXTINF:-1 ,SYFY (West)
 http://lunar.pm:8080/xxx/56101
-#EXTINF:-1 group-title="USA Entertainment",TBS
+#EXTINF:-1 ,TBS
 http://lunar.pm:8080/xxx/9154
-#EXTINF:-1 group-title="USA Entertainment",TCM
+#EXTINF:-1 ,TCM
 http://lunar.pm:8080/xxx/56644
-#EXTINF:-1 group-title="USA Sports",Tennis Channel
+#EXTINF:-1 ,Tennis Channel
 http://lunar.pm:8080/xxx/40854
-#EXTINF:-1 group-title="USA Entertainment",The Country Network
+#EXTINF:-1 ,The Country Network
 http://lunar.pm:8080/xxx/110299
-#EXTINF:-1 group-title="USA Entertainment",TLC
+#EXTINF:-1 ,TLC
 http://lunar.pm:8080/xxx/9152
-#EXTINF:-1 group-title="USA Entertainment",TNT
+#EXTINF:-1 ,TNT
 http://lunar.pm:8080/xxx/9151
-#EXTINF:-1 group-title="USA Entertainment",TNT (West)
+#EXTINF:-1 ,TNT (West)
 http://lunar.pm:8080/xxx/56102
-#EXTINF:-1 group-title="USA Entertainment",TRAVEL CHANNEL
+#EXTINF:-1 ,TRAVEL CHANNEL
 http://lunar.pm:8080/xxx/9150
-#EXTINF:-1 group-title="USA Entertainment",Travel Channel(West)
+#EXTINF:-1 ,Travel Channel(West)
 http://lunar.pm:8080/xxx/56103
-#EXTINF:-1 group-title="USA Entertainment",TRU TV
+#EXTINF:-1 ,TRU TV
 http://lunar.pm:8080/xxx/9149
-#EXTINF:-1 group-title="USA Sports",TSN 1
+#EXTINF:-1 ,TSN 1
 http://lunar.pm:8080/xxx/9512
-#EXTINF:-1 group-title="USA Sports",TSN 2
+#EXTINF:-1 ,TSN 2
 http://lunar.pm:8080/xxx/9511
-#EXTINF:-1 group-title="USA Sports",TSN 3
+#EXTINF:-1 ,TSN 3
 http://lunar.pm:8080/xxx/9510
-#EXTINF:-1 group-title="USA Sports",TSN 4
+#EXTINF:-1 ,TSN 4
 http://lunar.pm:8080/xxx/9509
-#EXTINF:-1 group-title="USA Sports",TSN 5
+#EXTINF:-1 ,TSN 5
 http://lunar.pm:8080/xxx/9508
-#EXTINF:-1 group-title="USA Entertainment",TV LAND
+#EXTINF:-1 ,TV LAND
 http://lunar.pm:8080/xxx/9147
-#EXTINF:-1 group-title="USA Entertainment",TV ONE
+#EXTINF:-1 ,TV ONE
 http://lunar.pm:8080/xxx/9146
-#EXTINF:-1 group-title="USA Sports",UFC FIGHT PASS
+#EXTINF:-1 ,UFC FIGHT PASS
 http://lunar.pm:8080/xxx/47052
-#EXTINF:-1 group-title="USA Sports",Unbeaten
+#EXTINF:-1 ,Unbeaten
 http://lunar.pm:8080/xxx/111263
-#EXTINF:-1 group-title="USA Entertainment",UNIVERSAL
+#EXTINF:-1 ,UNIVERSAL
 http://lunar.pm:8080/xxx/9145
-#EXTINF:-1 group-title="USA Kids",Universal Kids
+#EXTINF:-1 ,Universal Kids
 http://lunar.pm:8080/xxx/41616
-#EXTINF:-1 group-title="USA Entertainment",UP TV
+#EXTINF:-1 ,UP TV
 http://lunar.pm:8080/xxx/99451
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS DETROIT
+#EXTINF:-1 ,BALLY SPORTS DETROIT
 http://lunar.pm:8080/xxx/35463
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS FLORIDA
+#EXTINF:-1 ,BALLY SPORTS FLORIDA
 http://lunar.pm:8080/xxx/35462
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS INDIANA 
+#EXTINF:-1 ,BALLY SPORTS INDIANA 
 http://lunar.pm:8080/xxx/35461
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS KANSAS CITY
+#EXTINF:-1 ,BALLY SPORTS KANSAS CITY
 http://lunar.pm:8080/xxx/35460
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS NEW ORLEANS
+#EXTINF:-1 ,BALLY SPORTS NEW ORLEANS
 http://lunar.pm:8080/xxx/103980
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS NORTH 
+#EXTINF:-1 ,BALLY SPORTS NORTH 
 http://lunar.pm:8080/xxx/35457
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS MID WEST 
+#EXTINF:-1 ,BALLY SPORTS MID WEST 
 http://lunar.pm:8080/xxx/35459
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SO-CAL(PRIME-TICKET)
+#EXTINF:-1 ,BALLY SPORTS SO-CAL(PRIME-TICKET)
 http://lunar.pm:8080/xxx/35456
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SAN DIEGO 
+#EXTINF:-1 ,BALLY SPORTS SAN DIEGO 
 http://lunar.pm:8080/xxx/35455
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH WEST
+#EXTINF:-1 ,BALLY SPORTS SOUTH WEST
 http://lunar.pm:8080/xxx/35453
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH 
+#EXTINF:-1 ,BALLY SPORTS SOUTH 
 http://lunar.pm:8080/xxx/35454
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SOUTH EAST 
+#EXTINF:-1 ,BALLY SPORTS SOUTH EAST 
 http://lunar.pm:8080/xxx/35452
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS OHIO 
+#EXTINF:-1 ,BALLY SPORTS OHIO 
 http://lunar.pm:8080/xxx/35449
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS SUN 
+#EXTINF:-1 ,BALLY SPORTS SUN 
 http://lunar.pm:8080/xxx/35448
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS WEST
+#EXTINF:-1 ,BALLY SPORTS WEST
 http://lunar.pm:8080/xxx/35446
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS WISCONSIN 
+#EXTINF:-1 ,BALLY SPORTS WISCONSIN 
 http://lunar.pm:8080/xxx/35445
-#EXTINF:-1 group-title="USA Entertainment",USA NETWORK
+#EXTINF:-1 ,USA NETWORK
 http://lunar.pm:8080/xxx/9144
-#EXTINF:-1 group-title="USA Entertainment",USA NETWORK ( West )
+#EXTINF:-1 ,USA NETWORK ( West )
 http://lunar.pm:8080/xxx/48468
-#EXTINF:-1 group-title="USA Entertainment",VH1
+#EXTINF:-1 ,VH1
 http://lunar.pm:8080/xxx/9143
-#EXTINF:-1 group-title="USA Entertainment",VICE
+#EXTINF:-1 ,VICE
 http://lunar.pm:8080/xxx/9142
-#EXTINF:-1 group-title="USA Entertainment",WE TV
+#EXTINF:-1 ,WE TV
 http://lunar.pm:8080/xxx/49222
-#EXTINF:-1 group-title="USA News",WEATHER CHANNEL
+#EXTINF:-1 ,WEATHER CHANNEL
 http://lunar.pm:8080/xxx/9317
-#EXTINF:-1 group-title="USA News",WEATHER NATION
+#EXTINF:-1 ,WEATHER NATION
 http://lunar.pm:8080/xxx/100366
-#EXTINF:-1 group-title="USA Entertainment",WGN AMERICA
+#EXTINF:-1 ,WGN AMERICA
 http://lunar.pm:8080/xxx/9140
-#EXTINF:-1 group-title="USA Sports",Willow Cricket
+#EXTINF:-1 ,Willow Cricket
 http://lunar.pm:8080/xxx/49964
-#EXTINF:-1 group-title="USA Sports",WWE
+#EXTINF:-1 ,WWE
 http://lunar.pm:8080/xxx/9506
-#EXTINF:-1 group-title="USA Sports",Yes Network
+#EXTINF:-1 ,Yes Network
 http://lunar.pm:8080/xxx/59692
-#EXTINF:-1 group-title="USA News",CNN HD
+#EXTINF:-1 ,CNN HD
 http://lunar.pm:8080/xxx/104092
-#EXTINF:-1 group-title="USA Sports",BALLY SPORTS OKLAHAMA
+#EXTINF:-1 ,BALLY SPORTS OKLAHAMA
 http://lunar.pm:8080/xxx/108581
-#EXTINF:-1 group-title="USA Documentaries",CRIME & INVESTIGATION
+#EXTINF:-1 ,CRIME & INVESTIGATION
 http://lunar.pm:8080/xxx/110775
-#EXTINF:-1 group-title="USA Documentaries",DESTINATION AMERICA
+#EXTINF:-1 ,DESTINATION AMERICA
 http://lunar.pm:8080/xxx/110776
-#EXTINF:-1 group-title="USA Documentaries",DISCOVERY CHANNEL (EAST)
+#EXTINF:-1 ,DISCOVERY CHANNEL (EAST)
 http://lunar.pm:8080/xxx/110777
-#EXTINF:-1 group-title="USA Documentaries",DISCOVERY CHANNEL (WEST)
+#EXTINF:-1 ,DISCOVERY CHANNEL (WEST)
 http://lunar.pm:8080/xxx/110778
-#EXTINF:-1 group-title="USA Documentaries",DISCOVERY Family
+#EXTINF:-1 ,DISCOVERY Family
 http://lunar.pm:8080/xxx/110779
-#EXTINF:-1 group-title="USA Documentaries",DISCOVERY LIFE
+#EXTINF:-1 ,DISCOVERY LIFE
 http://lunar.pm:8080/xxx/110780
-#EXTINF:-1 group-title="USA Documentaries",DISCOVERY SCIENCE
+#EXTINF:-1 ,DISCOVERY SCIENCE
 http://lunar.pm:8080/xxx/110781
-#EXTINF:-1 group-title="USA Documentaries",DIY NETWORK
+#EXTINF:-1 ,DIY NETWORK
 http://lunar.pm:8080/xxx/110782
-#EXTINF:-1 group-title="USA Documentaries",H2
+#EXTINF:-1 ,H2
 http://lunar.pm:8080/xxx/110783
-#EXTINF:-1 group-title="USA Documentaries",HISTORY (EAST)
+#EXTINF:-1 ,HISTORY (EAST)
 http://lunar.pm:8080/xxx/110784
-#EXTINF:-1 group-title="USA Documentaries",HISTORY (WEST)
+#EXTINF:-1 ,HISTORY (WEST)
 http://lunar.pm:8080/xxx/110785
-#EXTINF:-1 group-title="USA Documentaries",MILITARY HISTORY
+#EXTINF:-1 ,MILITARY HISTORY
 http://lunar.pm:8080/xxx/110786
-#EXTINF:-1 group-title="USA Documentaries",ID
+#EXTINF:-1 ,ID
 http://lunar.pm:8080/xxx/110787
-#EXTINF:-1 group-title="USA Documentaries",NAT GEO (EAST)
+#EXTINF:-1 ,NAT GEO (EAST)
 http://lunar.pm:8080/xxx/110788
-#EXTINF:-1 group-title="USA Documentaries",NAT GEO (WEST)
+#EXTINF:-1 ,NAT GEO (WEST)
 http://lunar.pm:8080/xxx/110789
-#EXTINF:-1 group-title="USA Documentaries",NAT GEO WILD
+#EXTINF:-1 ,NAT GEO WILD
 http://lunar.pm:8080/xxx/110790
-#EXTINF:-1 group-title="USA Documentaries",OUTDOOR CHANNEL
+#EXTINF:-1 ,OUTDOOR CHANNEL
 http://lunar.pm:8080/xxx/110791
-#EXTINF:-1 group-title="USA Documentaries",OUTSIDE TV
+#EXTINF:-1 ,OUTSIDE TV
 http://lunar.pm:8080/xxx/110792
-#EXTINF:-1 group-title="USA Documentaries",SMITHSONIAN CHANNEL
+#EXTINF:-1 ,SMITHSONIAN CHANNEL
 http://lunar.pm:8080/xxx/110793
-#EXTINF:-1 group-title="USA Documentaries",VELOCITY (Motor Trend)
+#EXTINF:-1 ,VELOCITY (Motor Trend)
 http://lunar.pm:8080/xxx/110794
-#EXTINF:-1 group-title="USA Documentaries",World Fishing Network
+#EXTINF:-1 ,World Fishing Network
 http://lunar.pm:8080/xxx/110795
