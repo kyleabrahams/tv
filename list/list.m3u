@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 31 134 p
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Oct 31 152 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -51,7 +51,7 @@ http://xxip25.top:8080/64869862/18743571/77165
 https://jmp2.uk/sam-US4000033L.m3u8
 "#EXTINF:-1 tvg-id="TSC.(TSC).ca" tvg-name="the Shopping Channel" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
 http://fortv.cc:8080/105094817/105094817/57370"
-#EXTINF:-1 tvg-id="CTV.News.Channel.HDTV.(CTVNC).ca" tvg-shift="4" tvg-name="CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News",CTV News Channel 
+#EXTINF:-1 tvg-id="CTV.News.Channel.HDTV.(CTVNC).ca" tvg-name="CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel 
 http://fortv.cc:8080/105094817/105094817/57350
 #EXTINF:-1 tvg-id="CABC23000223U" tvg-name="Weather channel HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 https://jmp2.uk/sam-CABC23000223U.m3u8
@@ -59,11 +59,11 @@ https://jmp2.uk/sam-CABC23000223U.m3u8
 http://tvmate.icu:8080/4A74vC/051620/57257
 #EXTINF:-1 tvg-id="YTV.(East).(YTV).ca" tvg-name="YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV
 http://fortv.cc:8080/105094817/105094817/63850
-#EXTINF:-1 tvg-id="W.Network.HDTV.(East).(W.HD).ca" tvg-name="W Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="",W Network East
+#EXTINF:-1 tvg-id="W.Network.HDTV.(East).(W.HD).ca" tvg-name="W Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="1",W Network East
 http://fortv.cc:8080/105094817/105094817/57284
 #EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz" tvg-name="Discovery.Velocity.HDTV.(DVHD).ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/discovery-velocity-ca.png?raw=true" group-title="",Discovery Velocity 
 http://fortv.cc:8080/105094817/105094817/46212
-#EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo,.NY.us" tvg-shift="1" tvg-name="FOX 29 (WUTV) BUFFALO" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="",FOX
+#EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo,.NY.us" tvg-name="FOX 29 (WUTV) BUFFALO" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="1",FOX
 http://fortv.cc:8080/105094817/105094817/120747
 "#EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="FOX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
 http://fl1.moveonjoy.com/FOX_EAST/index.m3u8"
@@ -482,7 +482,7 @@ http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 http://fl2.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Discovery Life Channel" tvg-name="US Discovery Life HD" tvg-logo="https://i.ibb.co/WHwNQHv/discovery-life.png" group-title="",USA Discovery Life 
 http://fl2.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
-#EXTINF:-1 tvg-id="TBS Superstation (East)" tvg-shift="0" tvg-name="US TBS USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="",USA TBS (Ad)
+#EXTINF:-1 tvg-id="TBS Superstation (East)" tvg-name="US TBS USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="" tvg-shift="0",USA TBS (Ad)
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tbseast.us.m3u8
 #EXTINF:-1 tvg-id="TBSPacific.us" tvg-name="tBS West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="",USA TBS West (Ad)
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tbswest.us.m3u8
