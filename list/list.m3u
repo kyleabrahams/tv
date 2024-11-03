@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1122 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1146 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -61,7 +61,7 @@ http://tvmate.icu:8080/4A74vC/051620/57257
 http://fortv.cc:8080/105094817/105094817/63850
 #EXTINF:-1 tvg-id="W.Network.HDTV.(East).(W.HD).ca" tvg-name="W Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network East
 http://fortv.cc:8080/105094817/105094817/57284
-#EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-name="Discovery.Velocity.HDTV.(DVHD).ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/discovery-velocity-ca.png?raw=true" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz",Discovery Velocity 
+#EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-name="Discovery.Velocity.HDTV.(DVHD).ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/discovery-velocity-ca.png?raw=true" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
 http://fortv.cc:8080/105094817/105094817/46212
 #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo,.NY.us" tvg-name="FOX 29 (WUTV) BUFFALO" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX
 http://fortv.cc:8080/105094817/105094817/120747
@@ -883,10 +883,10 @@ http://streamsy.online:2999/live/juanv/04bodwaga0/398.m3u8
 http://fortv.cc:8080/105094817/105094817/18941
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="Sports",Womens Sports Network
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Super.SportFM.(SSPFM).us" tvg-logo="https://www.xytechsystems.com/wp-content/uploads/2016/09/supersportt.png" group-title="Sports",Super Sport
-http://iptvtree.net:8080/romaniamedia/178cdde57b/304120
-#EXTINF:-1 tvg-id="DAZN.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",DAZN TV
-https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8
+"#EXTINF:-1 tvg-id="Super.SportFM.(SSPFM).us" tvg-logo="https://www.xytechsystems.com/wp-content/uploads/2016/09/supersportt.png" group-title="Sports",Super Sport
+http://iptvtree.net:8080/romaniamedia/178cdde57b/304120"
+"#EXTINF:-1 tvg-id="DAZN.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/dazn-ca.png" group-title="Sports",DAZN TV
+https://live-manifest.production-public.tubi.io/live/dazntv-canada/h264/playlist.m3u8"
 
 #EXTINF:-1 tvg-id="SkySp.ActionHD.uk" tvg-name="Sky Sports Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png" group-title="Sports" ,Sky Sports Action
 https://xyzdddd.mizhls.ru/lb/premium37/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
