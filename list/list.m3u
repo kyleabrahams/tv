@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1108 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1122 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -155,6 +155,8 @@ http://fortv.cc:8080/105094817/105094817/57320
 http://fl2.moveonjoy.com/OWN/index.m3u8
 #EXTINF:-1 tvg-id="Consumer.News.and.Business.Channel.Canada.(CNBC).ca" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",USA CNBC 
 http://fl2.moveonjoy.com/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="Consumer.News.and.Business.Channel.World.(CNBCWLD).us" tvg-name="nov072025 US CNBC World" tvg-logo="https://i.ibb.co/y65QyRX/CNBC-World-1.png" group-title="News",USA CNBC World
+http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1196
 #EXTINF:-1 tvg-id="HLN.HDTV.(HLNHD).ca" tvg-name="HLN USATV" tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="",HLN 
 http://fl2.moveonjoy.com/HLN/index.m3u8
 #EXTINF:-1 tvg-id="Adult.Swim.(ADSM).ca" tvg-name="Adult Swim" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title=""CANADA "",Adult Swim
@@ -541,10 +543,6 @@ http://streamsy.online:2999/live/juanv/04bodwaga0/252.m3u8
 http://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="CMT.HDTV.(East).(CMTHD).us" tvg-name="US CMT HD USATV" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",USA CMT 
 http://fl3.moveonjoy.com/CMT/index.m3u8
-#EXTINF:-1 tvg-id="Consumer.News.and.Business.Channel.HDTV.(CNBCH).us" tvg-name="US CNBC USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",USA CNBC 
-http://fl2.moveonjoy.com/CNBC/index.m3u8
-#EXTINF:-1 tvg-id="Consumer.News.and.Business.Channel.World.(CNBCWLD).us" tvg-name="nov072025 US CNBC World" tvg-logo="https://i.ibb.co/y65QyRX/CNBC-World-1.png" group-title="News",USA CNBC World
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1196
 #EXTINF:-1 tvg-id="Cable.News.Network.HDTV.(CNNHD).us" tvg-name="CA: CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3056
 #EXTINF:-1 tvg-id="BBC.World.News.North.America.(BBCWN).us" tvg-name="BBC World News FHD" tvg-logo="https://c.files.bbci.co.uk/16B26/production/_96566929_bbc_wn_rgb.png" group-title="News",USA BBC World News
@@ -867,6 +865,8 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_c
 http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="Mid-Atlantic.Sports.Network.HDTV.(MASHD).us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN 
 http://streamsy.online:2999/live/juanv/04bodwaga0/1615.m3u8
+#EXTINF:-1 tvg-id="Willow.Cricket.HDTV.(WILLHD).us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow  
+https://tx2.nexgen.bz:443/WILLOW/index.m3u8
 #EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.(SNLA).us" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports 
 http://streamsy.online:2999/live/juanv/04bodwaga0/1609.m3u8
 #EXTINF:-1 tvg-id="Root.Sports.Northwest.24/7.HDTV.(Seattle).(ROOTD).us" tvg-name="Root Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/root-sports-us.png?raw=true" group-title="Sports",Root Sports 
