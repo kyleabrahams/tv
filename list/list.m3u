@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 954 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1108 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -43,7 +43,7 @@ http://fl1.moveonjoy.com/NBC_EAST/index.m3u8"
 http://fortv.cc:8080/105094817/105094817/120876
 "#EXTINF:-1 tvg-id="ABC.(WOLO).Columbia,.SC.us" tvg-name="ABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="News",ABC
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8"
-#EXTINF:-1 tvg-id="CTV.Two.London/CFPL.(CTV2L).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
+#EXTINF:-1 tvg-id="CTV.Two.Windsor/CHWI.(CTV2W).ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
 http://fortv.cc:8080/105094817/105094817/58546
 #EXTINF:-1 tvg-id="CTV.Two.Windsor/CHWI.(CTV2W).ca" tvg-name="CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor
 http://xxip25.top:8080/64869862/18743571/77165
@@ -562,7 +562,7 @@ http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 tvg-id="Fox.Business.Network.HDTV.(FBNHD).us" tvg-name="US Fox Business Network USATV" tvg-logo="https://i.ibb.co/LC3XY5P/Fox-Business-Prime-1-1.png" group-title="",USA Fox Business 
 http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
 #EXTINF:-1 tvg-id="Fox.News.Channel.HDTV.(East).(FNCHD).us" tvg-name="US Fox News USATV" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="News",USA Fox News   
-http://fl2.moveonjoy.com/FOX_News_Channel/index.m3u8
+http://streamsy.online:2999/live/juanv/04bodwaga0/267.m3u8
 #EXTINF:-1 tvg-id="Freeform.HDTV.(East).(FRFHD).us" tvg-name="US Freeform East" tvg-logo="https://i.ibb.co/bvz1wgC/Freeform-2022-1.png" group-title="",USA Freeform 
 http://fl2.moveonjoy.com/FREE_FORM/index.m3u8
 #EXTINF:-1 tvg-id="Fuse.HDTV.(East).(FUSED).us" tvg-name="US Fuse" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/Fuse_logo15.png" group-title="",USA Fuse
@@ -956,6 +956,42 @@ http://fl3.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
 http://streamsy.online:2999/live/juanv/04bodwaga0/202.m3u8
 #EXTINF:-1 tvg-id="Big.Ten.Network.HDTV.(National).(BTNHD).us" tvg-name="BIG Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/big-ten-network-us.png?raw=true" group-title="Sports",BIG Network Server 3
 https://848b3516657c-usatv.baby-beamup.club/public/m3u/397.m3u8
+
+
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Detroit 
+http://streamsy.online:2999/live/juanv/04bodwaga0/317.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Florida 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1622.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Great Lakes 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1253.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Indiana  
+http://streamsy.online:2999/live/juanv/04bodwaga0/1458.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Kansas City 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1667.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Midwest  
+http://streamsy.online:2999/live/juanv/04bodwaga0/324.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel North  
+http://streamsy.online:2999/live/juanv/04bodwaga0/320.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Ohio 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1207.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Oklahoma 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1611.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel SoCal 
+http://streamsy.online:2999/live/juanv/04bodwaga0/665.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel South  
+http://streamsy.online:2999/live/juanv/04bodwaga0/319.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southeast 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1623.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southwest 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1189.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Sun 
+http://streamsy.online:2999/live/juanv/04bodwaga0/322.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel West 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1633.m3u8
+#EXTINF:-1 tvg-id="us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Wisconsin 
+http://streamsy.online:2999/live/juanv/04bodwaga0/1621.m3u8
+
+
 #EXTINF:-1 tvg-id="Bally.Sports.Florida.1.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-florida-us.png?raw=true" group-title="Sports",Bally Sports Florida
 http://streamsy.online:2999/live/juanv/04bodwaga0/1622.m3u8
 #EXTINF:-1 tvg-id="BallySportsIndiana.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/bally-sports-indiana-us.png?raw=true" group-title="Sports",Bally Sports Indiana
