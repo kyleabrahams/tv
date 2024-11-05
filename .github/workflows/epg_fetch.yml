@@ -1,0 +1,26 @@
+name: Fetch EPG Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This runs the script daily at midnight UTC
+  workflow_dispatch:  # Allows manual triggering of the workflow
+
+jobs:
+  fetch_epg:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # Specify the Python version
+
+    - name: Install dependencies
+      run: |
+        pip install requests  # Add other dependencies if necessary
+
+    - name: Run the EPG fetching script
+      run: python merge_epg.py  # Change to your script name if necessary
