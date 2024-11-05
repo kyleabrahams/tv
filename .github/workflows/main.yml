@@ -11,30 +11,37 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Latest version; check for newer versions if needed in future
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3  # Use the latest version of Node.js
+      uses: actions/setup-node@v3
       with:
-        node-version: '20'  # Specify Node.js version 20
+        node-version: '20'
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # Check for updates if newer versions become available
+      uses: actions/setup-python@v4
       with:
-        python-version: '3.8'  # Specify the Python version
+        python-version: '3.8'
 
     - name: Install Python dependencies
       run: |
-        pip install requests  # Install necessary Python dependencies
+        pip install requests
 
     - name: Run the EPG fetching script
-      run: python merge_epg.py  # Execute the Python script to fetch EPG data
+      run: python merge_epg.py
+
+    - name: Check Git Configuration
+      run: |
+        git config --list
+        git remote -v
 
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.EPGACCESS }}  # Pass the token as an environment variable
       run: |
-        git config --local user.name "GitHub Action"  # Set GitHub Action username
-        git config --local user.email "action@github.com"  # Set GitHub Action email
-        git add epg.xml  # Stage the changes to epg.xml
-        git commit -m "Update EPG XML" || echo "No changes to commit"  # Commit changes if any
-        git remote set-url origin https://x-access-token:${{ secrets.EPGACCESS }}@github.com/kyleabrahams/tv.git  # Set remote URL with token
-        git push origin main  # Push changes to the main branch
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        git add epg.xml
+        git commit -m "Update EPG XML" || echo "No changes to commit"
+        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/kyleabrahams/tv.git  # Use the env variable
+        git push origin main || echo "Push failed"
