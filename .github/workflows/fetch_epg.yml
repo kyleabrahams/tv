@@ -3,11 +3,14 @@ name: Fetch EPG Daily
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   fetch_epg:
     runs-on: ubuntu-latest
+
+    env:
+      REPO_URL: "https://github.com/kyleabrahams/tv.git"  # Your repository URL
 
     steps:
     - name: Checkout repository
@@ -20,16 +23,16 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests
+        pip install requests  # Add other dependencies if necessary
 
     - name: Run the EPG fetching script
-      run: python merge_epg.py
+      run: python merge_epg.py  # Execute your script to fetch EPG data
 
     - name: Commit and push changes
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
-        git add epg.xml
+        git add epg.xml  # Stage the changes
         git commit -m "Update EPG XML" || echo "No changes to commit"
-        git remote set-url origin https://x-access-token:${{ secrets.EPG_ACCESS }}@github.com/kyleabrahams/tv.git
-        git push origin main
+        git remote set-url origin https://x-access-token:${{ secrets.EPGACCESS }}@${{ env.REPO_URL }}
+        git push origin main  # Push changes to the main branch
