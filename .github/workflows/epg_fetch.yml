@@ -11,19 +11,20 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3  # Update to the latest version
+      uses: actions/checkout@v3  # Checkout the repository
 
     - name: Set up Python
-      uses: actions/setup-python@v4  # Update to the latest version
+      uses: actions/setup-python@v4  # Set up Python environment
       with:
         python-version: '3.8'  # Specify the Python version
 
     - name: Install dependencies
       run: |
-        pip install requests  # Add other dependencies if necessary
+        pip install requests  # Install necessary dependencies
+        # Add any other dependencies if necessary
 
     - name: Run the EPG fetching script
-      run: python merge_epg.py  # Run your script
+      run: python merge_epg.py  # Run your EPG fetching script
 
     - name: Commit and push changes
       run: |
@@ -32,5 +33,4 @@ jobs:
        git add epg.xml
        git commit -m "Update EPG XML" || echo "No changes to commit"
        git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/kyleabrahams/tv.git
-       git push origin main
-
+       git push origin main  # Push changes to the main branch
