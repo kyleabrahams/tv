@@ -10,10 +10,9 @@ from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
 # brew services restart nginx
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # List of EPG source URLs to merge
-
 epg_urls = [
     "https://www.bevy.be/bevyfiles/canadapremium.xml", # Replace with actual URL
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
@@ -41,24 +40,19 @@ save_path = "epg.xml"  # Save in the current directory
 # Function to fetch and parse each EPG file
 def fetch_epg_data(url):
     try:
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an error for bad responses
-        logging.info(f"Fetched content from {url}: {response.content}")
-        
-        # Check if the response is empty or not valid XML
-        if not response.content.strip():
-            logging.warning(f"Empty response from {url}, skipping this URL.")
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        if not response.content.strip():  # Check for empty content
+            logging.warning(f"Received empty content from {url}")
             return None
-
-        # Attempt to parse the XML content
-        try:
-            return ET.ElementTree(ET.fromstring(response.content))
-        except ET.ParseError as e:
-            logging.error(f"Failed to parse EPG from {url} - Error: {e}")
-            return None
+        logging.info(f"Successfully fetched data from {url}")
+        return ET.ElementTree(ET.fromstring(response.content))
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
-        return None
+    except ET.ParseError as e:
+        logging.error(f"Failed to parse EPG from {url} - Error: {e}")
+    return None
+
 # Create root element for the merged EPG
 merged_root = ET.Element("tv")
 
@@ -68,8 +62,6 @@ for url in epg_urls:
     if epg_tree:
         for element in epg_tree.getroot():
             merged_root.append(element)
-    else:
-        logging.info(f"Skipping URL: {url} due to previous errors.")
 
 # Save merged EPG to file
 try:
