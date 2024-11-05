@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@v3  # Update to the latest version
+
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4  # Update to the latest version
         with:
-          python-version: '3.8'
+          python-version: '3.8'  # Specify the version of Python you want to use
           
       - name: Install dependencies
         run: |
