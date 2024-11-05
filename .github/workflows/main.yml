@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4  # Latest version; check for newer versions if needed in future
+      uses: actions/checkout@v3  # Latest version; check for newer versions if needed in future
 
     - name: Set up Python
-      uses: actions/setup-python@v5  # Check for updates if newer versions become available
+      uses: actions/setup-python@v4  # Check for updates if newer versions become available
       with:
         python-version: '3.8'
 
