@@ -34,5 +34,5 @@ jobs:
         git config --local user.email "action@github.com"
         git add epg.xml  # Stage the changes
         git commit -m "Update EPG XML" || echo "No changes to commit"
-        git remote set-url origin https://x-access-token:${{ secrets.EPGACCESS }}@${{ env.REPO_URL }}
+        git remote set-url origin "https://x-access-token:${EPGACCESS}@${REPO_URL}"  # Use env variable directly
         git push origin main  # Push changes to the main branch
