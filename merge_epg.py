@@ -1,15 +1,17 @@
 import requests
 import xml.etree.ElementTree as ET
 import logging
-
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
 
 # List of EPG sources to merge run it 
 # python3 merge_epg.py
 # sudo chown -R $(whoami):admin /opt/homebrew/var/log/nginx
 # sudo chmod -R 755 /opt/homebrew/var/log/nginx
 # brew services restart nginx
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 
 # List of EPG source URLs to merge
 
@@ -55,10 +57,16 @@ merged_root = ET.Element("tv")
 
 # Fetch and merge EPG data
 for url in epg_urls:
-    epg_tree = fetch_epg_data(url)
-    if epg_tree:
-        for element in epg_tree.getroot():
-            merged_root.append(element)
+    if url.endswith('.xml'):
+        epg_tree = fetch_epg_data(url)
+        if epg_tree:
+            for element in epg_tree.getroot():
+                merged_root.append(element)
+    else:
+        html_data = fetch_epg_data_html(url)
+        if html_data is not None:
+            for element in html_data:
+                merged_root.append(element)
 
 # Save merged EPG to file
 try:
