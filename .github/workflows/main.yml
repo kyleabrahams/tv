@@ -31,5 +31,5 @@ jobs:
         git config --local user.email "action@github.com"
         git add epg.xml
         git commit -m "Update EPG XML" || echo "No changes to commit"
-        git remote set-url origin https://x-access-token:${{ secrets.EPG_ACCESS }}@github.com/kyleabrahams/tv.git
+        git remote set-url origin https://x-access-token:${{ secrets.EPGACCESS }}@github.com/kyleabrahams/tv.git
         git push origin main
