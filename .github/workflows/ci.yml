@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - main  # Adjust according to your branch names if needed
 
 jobs:
   build:
@@ -11,13 +11,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Update to the latest version
-
+        uses: actions/checkout@v3  # Updated version
+        
       - name: Set up Python
-        uses: actions/setup-python@v4  # Update to the latest version
+        uses: actions/setup-python@v4  # Updated version
         with:
-          python-version: '3.8'  # Specify the version of Python you want to use
-          
+          python-version: '3.8'  # Specify the Python version
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
