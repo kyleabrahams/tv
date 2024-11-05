@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-      - main  # Adjust according to your branch names if needed
+      - main
 
 jobs:
   build:
@@ -11,17 +11,17 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Updated version
+        uses: actions/checkout@v3
         
       - name: Set up Python
-        uses: actions/setup-python@v4  # Updated version
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.8'  # Specify the Python version
-
+          python-version: '3.8'  # Specify the version you need
+          
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
+          pip install -r requirements.txt  # Install the dependencies listed in requirements.txt
           
       - name: Run the EPG merger
         run: |
-          python merge_epg.py
+          python merge_epg.py  # Run the Python script
