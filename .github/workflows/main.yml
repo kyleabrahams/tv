@@ -27,6 +27,13 @@ jobs:
       run: |
         pip install requests
 
+    - name: Print Current Directory
+      run: pwd  # This will print the current working directory
+
+    - name: Check Git Status
+      run: git status
+
+
     - name: Run the EPG fetching script
       run: python merge_epg.py
 
