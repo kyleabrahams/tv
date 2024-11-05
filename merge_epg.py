@@ -45,12 +45,13 @@ def fetch_epg_data(url):
         if not response.content.strip():  # Check for empty content
             logging.warning(f"Received empty content from {url}")
             return None
-        logging.info(f"Successfully fetched data from {url}")
-        return ET.ElementTree(ET.fromstring(response.content))
+        try:
+            return ET.ElementTree(ET.fromstring(response.content))
+        except ET.ParseError:
+            logging.error(f"Malformed XML content in {url}")
+            return None
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
-    except ET.ParseError as e:
-        logging.error(f"Failed to parse EPG from {url} - Error: {e}")
     return None
 
 # Create root element for the merged EPG
