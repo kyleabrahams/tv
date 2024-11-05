@@ -32,7 +32,7 @@ epg_urls = [
 ]
 
 # Path to save the merged EPG file
-save_path = "/usr/local/var/www/epg.xml"
+save_path = "epg.xml"  # Save in the current directory
 
 # Function to fetch and parse each EPG file
 def fetch_epg_data(url):
