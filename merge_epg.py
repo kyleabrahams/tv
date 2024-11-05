@@ -1,22 +1,14 @@
 import requests
 import xml.etree.ElementTree as ET
 import logging
-from bs4 import BeautifulSoup  # Import BeautifulSoup for HTML parsing
+from bs4 import BeautifulSoup  # Import BeautifulSoup for potential HTML parsing
 
-# List of EPG sources to merge run it 
-# python3 merge_epg.py
-# sudo chown -R $(whoami):admin /opt/homebrew/var/log/nginx
-# sudo chmod -R 755 /opt/homebrew/var/log/nginx
-# brew services restart nginx
-
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+# Set up logging
+logging.basicConfig(level=logging.INFO)
 
 # List of EPG source URLs to merge
-
 epg_urls = [
-    "https://www.bevy.be/bevyfiles/canadapremium.xml", # Replace with actual URL
+    "https://www.bevy.be/bevyfiles/canadapremium.xml",
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
@@ -44,9 +36,9 @@ def fetch_epg_data(url):
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an error for bad responses
-        logging.info(f"Fetched content from {url}: {response.content}")
+        logging.info(f"Fetched content from {url}: {response.content[:100]}...")  # Log first 100 characters for brevity
         
-        # Check if the response is empty or not valid XML
+        # Check if the response is empty
         if not response.content.strip():
             logging.warning(f"Empty response from {url}, skipping this URL.")
             return None
@@ -60,6 +52,7 @@ def fetch_epg_data(url):
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
         return None
+
 # Create root element for the merged EPG
 merged_root = ET.Element("tv")
 
