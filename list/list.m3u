@@ -1,27 +1,27 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-#EXTINF:-1 tvg-id="CablePulse.24.(PULSE).ca" tvg-name="CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24.ca" tvg-name="CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://cord-cutter.net:8080/86528893/Hootbynight/57257
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://streamsy.online:2999/juanv/04bodwaga0/143
 "#EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fortv.cc:8080/WjtGD2/235867/47332"
-#EXTINF:-1 tvg-id="Global.Ontario.CIII.HDTV.(GLBHD).ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
+#EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 3 1152 a
+#EXTINF:-1 tvg-id="Omni.1.HDTV.(OMNI1HD).ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 5 812 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
-#EXTINF:-1 tvg-id="CBC.Toronto.HDTV.(CBLTHD).ca" tvg-name="CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto
 http://fortv.cc:8080/105094817/105094817/57260
-#EXTINF:-1 tvg-id="Citytv.Toronto.HDTV.(CTYTH).ca" tvg-name="City TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",Citytv Toronto
+#EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name="City TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",Citytv Toronto
 http://fortv.cc:8080/105094817/105094817/57307
-#EXTINF:-1 tvg-id="CTV.Toronto.HDTV.(CTVHT).ca" tvg-name="apr302025 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
+#EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="apr302025 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
 http://fortv.cc:8080/105094817/105094817/47296
-#EXTINF:-1 tvg-id="YES.TV.(YESTV).ca" tvg-name="CA YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 
+#EXTINF:-1 tvg-id="CITSDT.ca" tvg-name="CA YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 
 http://fortv.cc:8080/105094817/105094817/57472
-#EXTINF:-1 tvg-id="Bravo.ca" tvg-name="OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo
+#EXTINF:-1 tvg-id="Outdoor Life Network Canada.ca" tvg-name="OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo
 http://fortv.cc:8080/105094817/105094817/57366
-#EXTINF:-1 tvg-id="CHCH.Hamilton,.ON.us" tvg-name="CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="1",CHCH
+#EXTINF:-1 tvg-id="CHCH Hamilton, ON.ca" tvg-name="CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="1",CHCH
 http://fortv.cc:8080/50905877/50905877/57393
 #EXTINF:-1 tvg-id="CA1500002Q4" tvg-name="CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
 https://jmp2.uk/sam-CA1500002Q4.m3u8
@@ -29,7 +29,7 @@ https://jmp2.uk/sam-CA1500002Q4.m3u8
 https://jmp2.uk/sam-CA1400004AE.m3u8
 #EXTINF:-1 tvg-id="CABC2300009KD" tvg-logo="https://i.ibb.co/j47kNG1/cbc-news-explore.png" group-title="News",CBC News Explore
 https://jmp2.uk/sam-CABC2300009KD.m3u8
-#EXTINF:-1 tvg-id="FX.HDTV.(Canada).(FX.HD).ca" tvg-name="FX" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX
+#EXTINF:-1 tvg-id="FX Networks Canada.ca" tvg-name="FX" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX
 http://fortv.cc:8080/105094817/105094817/57268
 #EXTINF:-1 tvg-id="CBS.(WIVB).Buffalo,.NY.us" tvg-name="CBS 4 (WIVB) Buffalo USATV" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",CBS Buffalo 
 http://streamsy.online:2999/live/juanv/04bodwaga0/719.m3u8
