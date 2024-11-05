@@ -46,10 +46,13 @@ def fetch_epg_data(url):
         response.raise_for_status()  # Raise an error for bad status codes
         logging.info(f"Successfully fetched data from {url} with status code {response.status_code}")
 
-        # Check if the response content is not empty and starts with the XML declaration
-        if not response.content.strip() or not response.content.startswith(b'<?xml'):
-            logging.warning(f"Malformed or empty response from {url}, skipping this URL.")
+        # Check if the response content is not empty
+        if not response.content.strip():
+            logging.warning(f"Empty response from {url}, skipping this URL.")
             return None
+
+        # Log the response content for debugging (optional)
+        logging.debug(f"Fetched content from {url}: {response.content}")
 
         # Attempt to parse the XML
         return ET.ElementTree(ET.fromstring(response.content))
