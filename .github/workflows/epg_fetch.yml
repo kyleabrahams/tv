@@ -25,10 +25,12 @@ jobs:
     - name: Run the EPG fetching script
       run: python merge_epg.py  # Run your script
 
-    - name: Commit and push changes
+    - - name: Commit and push changes
       run: |
-        git config --local user.name "GitHub Action"
-        git config --local user.email "action@github.com"
-        git add epg.xml
-        git commit -m "Update EPG XML" || echo "No changes to commit"
-        git push
+       git config --local user.name "GitHub Action"
+       git config --local user.email "action@github.com"
+       git add epg.xml
+       git commit -m "Update EPG XML" || echo "No changes to commit"
+       git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/kyleabrahams/tv.git
+       git push origin main
+
