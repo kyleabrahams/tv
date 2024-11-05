@@ -48,7 +48,7 @@ def fetch_epg_data(url):
 
         # Check if the response content is not empty
         if not response.content.strip():
-            logging.warning(f"Empty response from {url}")
+            logging.warning(f"Empty response from {url}, skipping this URL.")
             return None
 
         # Parse and return the XML
