@@ -25,7 +25,7 @@ jobs:
     - name: Run the EPG fetching script
       run: python merge_epg.py  # Run your script
 
-    - - name: Commit and push changes
+    - name: Commit and push changes
       run: |
        git config --local user.name "GitHub Action"
        git config --local user.email "action@github.com"
