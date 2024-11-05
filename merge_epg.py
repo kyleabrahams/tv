@@ -44,7 +44,16 @@ def fetch_epg_data(url):
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()  # Raise an error for bad status codes
-        logging.info(f"Successfully fetched data from {url}")
+        logging.info(f"Successfully fetched data from {url} with status code {response.status_code}")
+        
+        # Check if the response content is not empty
+        if not response.content.strip():
+            logging.error(f"Empty response from {url}")
+            return None
+        
+        # Log the response content (optional, for debugging)
+        logging.debug(f"Response content from {url}:\n{response.content.decode('utf-8')}")
+
         return ET.ElementTree(ET.fromstring(response.content))
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
