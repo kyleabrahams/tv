@@ -45,15 +45,13 @@ def fetch_epg_data(url):
         response = requests.get(url, timeout=10)
         response.raise_for_status()  # Raise an error for bad status codes
         logging.info(f"Successfully fetched data from {url} with status code {response.status_code}")
-        
+
         # Check if the response content is not empty
         if not response.content.strip():
-            logging.error(f"Empty response from {url}")
+            logging.warning(f"Empty response from {url}")
             return None
-        
-        # Log the response content (optional, for debugging)
-        logging.debug(f"Response content from {url}:\n{response.content.decode('utf-8')}")
 
+        # Parse and return the XML
         return ET.ElementTree(ET.fromstring(response.content))
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
@@ -66,16 +64,12 @@ merged_root = ET.Element("tv")
 
 # Fetch and merge EPG data
 for url in epg_urls:
-    if url.endswith('.xml'):
-        epg_tree = fetch_epg_data(url)
-        if epg_tree:
-            for element in epg_tree.getroot():
-                merged_root.append(element)
+    epg_tree = fetch_epg_data(url)
+    if epg_tree:
+        for element in epg_tree.getroot():
+            merged_root.append(element)
     else:
-        html_data = fetch_epg_data_html(url)
-        if html_data is not None:
-            for element in html_data:
-                merged_root.append(element)
+        logging.info(f"Skipping URL: {url} due to previous errors.")
 
 # Save merged EPG to file
 try:
