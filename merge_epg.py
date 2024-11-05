@@ -41,12 +41,11 @@ save_path = "epg.xml"  # Save in the current directory
 def fetch_epg_data(url):
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Check for HTTP errors
-        if not response.content.strip():  # Check if the response is empty
+        response.raise_for_status()
+        if not response.content.strip():
             print(f"No content found at {url}")
-            return None  # Skip empty responses
-        print(f"Fetched content from {url}:")
-        print(response.content[:200])  # Print first 200 bytes to check content
+            return None
+        print(f"Fetched content from {url}")
         return ET.ElementTree(ET.fromstring(response.content))
     except requests.RequestException as e:
         print(f"Failed to fetch EPG from {url} - Error: {e}")
