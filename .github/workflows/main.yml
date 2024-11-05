@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
   workflow_dispatch:  # Allows manual triggering of the workflow
 
-jobs:
+jobs: 
   fetch_epg:
     runs-on: ubuntu-latest
 
