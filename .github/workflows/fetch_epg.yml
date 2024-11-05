@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      REPO_URL: "https://github.com/kyleabrahams/tv.git"  # Your repository URL
+      REPO_URL: "github.com/kyleabrahams/tv.git"  # Your repository URL
 
     steps:
 
