@@ -41,10 +41,10 @@ save_path = "epg.xml"  # Save in the current directory
 def fetch_epg_data(url):
     response = requests.get(url)
     if response.status_code == 200:
-        if response.content.strip():  # Check if content is not empty
-            return ET.ElementTree(ET.fromstring(response.content))
+        if response.content.strip():
+            epg_tree = ET.ElementTree(ET.fromstring(response.content))
         else:
-            print(f"Warning: Empty content fetched from {url}")
+            print(f"No content fetched from {url}")
             return None
     else:
         print(f"Error fetching {url}: {response.status_code}")
