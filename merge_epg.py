@@ -14,15 +14,19 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # List of EPG source URLs to merge
 epg_urls = [
+    "https://www.bevy.be/bevyfiles/canadapremium.xml", # Replace with actual URL
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium1.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium2.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium3.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium4.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium5.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium6.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium7.xml",
+    "https://i.mjh.nz/SamsungTVPlus/all.xml",
+    "https://i.mjh.nz/PlutoTV/all.xml",
     "https://i.mjh.nz/Plex/all.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdom.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml",
