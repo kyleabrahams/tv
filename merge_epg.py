@@ -42,26 +42,24 @@ save_path = "epg.xml"  # Save in the current directory
 # Function to fetch and parse each EPG file
 def fetch_epg_data(url):
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()  # Raise an error for bad status codes
-        logging.info(f"Successfully fetched data from {url} with status code {response.status_code}")
-
-        # Check if the response content is not empty
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an error for bad responses
+        logging.info(f"Fetched content from {url}: {response.content}")
+        
+        # Check if the response is empty or not valid XML
         if not response.content.strip():
             logging.warning(f"Empty response from {url}, skipping this URL.")
             return None
 
-        # Log the response content for debugging (optional)
-        logging.debug(f"Fetched content from {url}: {response.content}")
-
-        # Attempt to parse the XML
-        return ET.ElementTree(ET.fromstring(response.content))
+        # Attempt to parse the XML content
+        try:
+            return ET.ElementTree(ET.fromstring(response.content))
+        except ET.ParseError as e:
+            logging.error(f"Failed to parse EPG from {url} - Error: {e}")
+            return None
     except requests.RequestException as e:
         logging.error(f"Failed to fetch EPG from {url} - Error: {e}")
-    except ET.ParseError as e:
-        logging.error(f"Failed to parse EPG from {url} - Error: {e}")
-    return None
-
+        return None
 # Create root element for the merged EPG
 merged_root = ET.Element("tv")
 
