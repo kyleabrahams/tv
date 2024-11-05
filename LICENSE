@@ -1,0 +1,9 @@
+
+### 3. **`.gitignore`**
+A `.gitignore` file helps specify which files and directories should be ignored by Git. This is especially useful to prevent committing temporary files, logs, or other artifacts. For your project, it might look like this:
+
+```plaintext
+epg.xml
+*.log
+__pycache__/
+*.pyc
