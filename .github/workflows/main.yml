@@ -36,12 +36,16 @@ jobs:
         git remote -v
 
     - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.EPGACCESS }}  # Pass the token as an environment variable
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
         git add epg.xml
+
+        # Commit changes if any
         git commit -m "Update EPG XML" || echo "No changes to commit"
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/kyleabrahams/tv.git  # Use the env variable
+
+        # Check the remote URL
+        git remote set-url origin https://x-access-token:${{ secrets.EPGACCESS }}@github.com/kyleabrahams/tv.git
+
+        # Attempt to push
         git push origin main || echo "Push failed"
