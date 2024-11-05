@@ -14,7 +14,6 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # List of EPG source URLs to merge
 epg_urls = [
-    "https://www.bevy.be/bevyfiles/canadapremium.xml", # Replace with actual URL
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
@@ -39,7 +38,7 @@ def fetch_epg_data(url):
     try:
         response = requests.get(url)
         response.raise_for_status()
-        if not response.content.strip():
+        if not response.content.strip():  # Check if content is empty
             print(f"No content found at {url}")
             return None
         print(f"Fetched content from {url}")
