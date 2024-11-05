@@ -2,34 +2,34 @@ name: Fetch EPG Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs the script daily at midnight UTC
-  workflow_dispatch:     # Allows manual triggering of the workflow
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:
 
 jobs:
   fetch_epg:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3  # Use the latest version
+    - name: Checkout repository
+      uses: actions/checkout@v3  # Latest version; check for newer versions if needed in future
 
-      - name: Set up Python
-        uses: actions/setup-python@v4  # Use the latest version
-        with:
-          python-version: '3.8'  # Specify the Python version
+    - name: Set up Python
+      uses: actions/setup-python@v4  # Check for updates if newer versions become available
+      with:
+        python-version: '3.8'
 
-      - name: Install dependencies
-        run: |
-          pip install requests  # Add other dependencies if necessary
+    - name: Install dependencies
+      run: |
+        pip install requests
 
-      - name: Run the EPG fetching script
-        run: python merge_epg.py  # Run your script
+    - name: Run the EPG fetching script
+      run: python merge_epg.py
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.name "GitHub Action"
-          git config --local user.email "action@github.com"
-          git add epg.xml
-          git commit -m "Update EPG XML" || echo "No changes to commit"
-          git remote set-url origin https://x-access-token:${{ secrets.EPG_ACCESS }}@github.com/kyleabrahams/tv.git
-          git push origin main
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
+        git add epg.xml
+        git commit -m "Update EPG XML" || echo "No changes to commit"
+        git remote set-url origin https://x-access-token:${{ secrets.EPG_ACCESS }}@github.com/kyleabrahams/tv.git
+        git push origin main
