@@ -2,13 +2,11 @@ import requests
 import xml.etree.ElementTree as ET
 import logging
 import os
+from time import sleep
 
+# See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
 # python3 merge_epg.py
-# 0 0 * * * /usr/local/bin/python3 /Volumes/Kyle4tb1223/Documents/Github/tv/merge_epg.py
-# sudo chown -R $(whoami):admin /opt/homebrew/var/log/nginx
-# sudo chmod -R 755 /opt/homebrew/var/log/nginx
-# brew services restart nginx
 
 # List of EPG source URLs to merge
 epg_urls = [
@@ -16,6 +14,12 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
+    "https://i.mjh.nz/SamsungTVPlus/all.xml",
+    "https://i.mjh.nz/SamsungTVPlus/us.xml",
+    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
+    "https://i.mjh.nz/PlutoTV/all.xml",
+    "https://i.mjh.nz/Plex/all.xml",
+    "https://i.mjh.nz/Stirr/all.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium1.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium2.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium3.xml",
@@ -23,9 +27,6 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/unitedstatespremium5.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium6.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium7.xml",
-    "https://i.mjh.nz/SamsungTVPlus/all.xml",
-    "https://i.mjh.nz/PlutoTV/ca.xml",
-    "https://i.mjh.nz/Plex/all.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdom.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml",
@@ -38,11 +39,13 @@ save_path = "/usr/local/var/www/epg.xml"  # Path to be served by Nginx
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Function to fetch and merge EPG data
-def fetch_epg_data(url):
+def fetch_epg_data(url, index, total):
+    logging.info(f"Fetching {index + 1}/{total} - {url}")
     response = requests.get(url)
     if response.status_code == 200:
         try:
             epg_tree = ET.ElementTree(ET.fromstring(response.content))
+            logging.info(f"Successfully fetched {index + 1}/{total}")
             return epg_tree
         except ET.ParseError as e:
             logging.error(f"XML parse error for {url}: {e}")
@@ -52,11 +55,14 @@ def fetch_epg_data(url):
 
 # Merge EPG data into a single XML
 merged_root = ET.Element("tv")
-for url in epg_urls:
-    epg_tree = fetch_epg_data(url)
+total_files = len(epg_urls)
+
+for index, url in enumerate(epg_urls):
+    epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
         for element in epg_tree.getroot():
             merged_root.append(element)
+    sleep(0.5)  # Small delay to simulate and visualize progress
 
 # Save the merged EPG file
 try:
