@@ -9,9 +9,6 @@ jobs:
   fetch_epg:
     runs-on: ubuntu-latest
 
-    env:
-      REPO_URL: "https://github.com/kyleabrahams/tv.git"  # Ensure the full URL
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -39,9 +36,7 @@ jobs:
         git config --local user.email "action@github.com"
         git add -f epg.xml  # Force-add the ignored file
         git commit -m "Update EPG XML" || echo "No changes to commit"
-        git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@${{ env.REPO_URL }}"
+        git remote set-url origin "https://x-access-token:${{ secrets.EPGACCESS }}@github.com/kyleabrahams/tv.git"
         git push origin main  # Push changes to the main branch
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPO_URL: "https://github.com/kyleabrahams/tv.git"  # Ensure the full URL is set here
-
