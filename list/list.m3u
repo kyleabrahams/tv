@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 6 335 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 6 350 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -189,7 +189,7 @@ http://fortv.cc:8080/105094817/105094817/57349
 http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="HBO1.ca" tvg-name="HBO 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-1-ca.png?raw=true" group-title="",HBO
 http://streamsy.online:2999/juanv/04bodwaga0/2012
-#EXTINF:-1 tvg-id="HBO.2.HD.(HBO2).ca" tvg-name="HBO 2 West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-2-ca.png?raw=true" group-title="",HBO2
+#EXTINF:-1 tvg-id="HBOCanada2.ca" tvg-name="HBO 2 West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-2-ca.png?raw=true" group-title="",HBO2
 http://streamsy.online:2999/juanv/04bodwaga0/2011
 #EXTINF:-1 tvg-id="Cottage.Life.(COTT).ca" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life
 http://fortv.cc:8080/105094817/105094817/47217
@@ -232,7 +232,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/1985"
 https://jmp2.uk/sam-CABB260002016.m3u8
 #EXTINF:-1 tvg-id="USBC4400004KK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
 https://jmp2.uk/sam-USBC4400004KK.m3u8
-#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c10e2deb7f424133b08b" tvg-logo="https://i.ibb.co/VQ3F988/just-for-laughs-vod.png" group-title="Comedy",Just for Laughs: All Access 
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/VQ3F988/just-for-laughs-vod.png" group-title="Comedy",Just for Laughs TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
 #EXTINF:-1 tvg-id="CA1400005SO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="Comedy",CTV Laughs
 https://jmp2.uk/sam-CA1400005SO.m3u8
@@ -405,7 +405,7 @@ https://jmp2.uk/sam-CABD1200013IH.m3u8
 
 #EXTINF:0 tvg-id="60f75771dfc72a00071fd0e0" tvg-country="CA" tvg-logo="https://i.ibb.co/MR6YB9Q/gunsmoke-brown.png" group-title="",Gunsmoke
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e916affb29c60007211c8a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7aa2c2-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1595266f-ecb0-4af0-bab6-40b7d0586999&checkedby:iptvcat.net
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/ysbPFM6/Lidias-Kitchen-1024x573.png" group-title="Home & Food",Lidias Kitchen
+#EXTINF:-1 tvg-id="WYIN" tvg-logo="https://i.ibb.co/ysbPFM6/Lidias-Kitchen-1024x573.png" group-title="Home & Food",Lidias Kitchen
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951151
 #EXTINF:-1 tvg-id="5734" tvg-logo="https://qqcdnpictest.mxplay.com/pic/3193.DistroTv.in/en/1x1/208x208/test_pic1690462555214.webp" group-title="",4K Travel TV
 https://streams2.sofast.tv/ptnr-stirr/genre-Travel/lang-English/ctgr-Travel/title-4K-TRAVEL-TV-ENG/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8

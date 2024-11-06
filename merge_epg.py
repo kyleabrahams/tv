@@ -20,6 +20,7 @@ epg_urls = [
     "https://i.mjh.nz/PlutoTV/all.xml",
     "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Stirr/all.xml",
+    "https://i.mjh.nz/PBS/all.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium1.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium2.xml",
     "https://www.bevy.be/bevyfiles/unitedstatespremium3.xml",
