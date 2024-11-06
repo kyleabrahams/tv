@@ -9,13 +9,9 @@ import os
 # sudo chmod -R 755 /opt/homebrew/var/log/nginx
 # brew services restart nginx
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-
 # List of EPG source URLs to merge
 epg_urls = [
-    "https://www.bevy.be/bevyfiles/canadapremium.xml", # Replace with actual URL
+    "https://www.bevy.be/bevyfiles/canadapremium.xml", 
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
@@ -35,8 +31,11 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml"
 ]
 
-# Path to save the merged EPG file
-save_path = "epg.xml"  # Save in the current directory
+# Path to save the merged EPG file (Adjust this to a valid directory on your macOS)
+save_path = os.path.expanduser("~/Desktop/epg.xml")  # Save in the Documents folder
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Function to fetch and parse each EPG file
 def fetch_epg_data(url):

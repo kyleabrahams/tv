@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://drive.google.com/uc?export=download&id=1--tnGQmAK3Ed9702yNCtJA_Tl2QXZQK9"
+#EXTM3U url-tvg="smb://10.0.0.30:445/Desktop/epg.xml"
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name="CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://cord-cutter.net:8080/86528893/Hootbynight/57257
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
