@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      REPO_URL: "github.com/kyleabrahams/tv.git"  # Ensure the full URL
+      REPO_URL: "https://github.com/kyleabrahams/tv.git"  # Ensure the full URL
 
     steps:
     - name: Checkout repository
