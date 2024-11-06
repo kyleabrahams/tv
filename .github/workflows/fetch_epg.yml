@@ -22,10 +22,10 @@ jobs:
         python-version: '3.8'
 
     - name: Install dependencies
-      run: pip3 install requests soupsieve beautifulsoup4
+      run: pip3 install requests==2.28.1 soupsieve==2.3.2 beautifulsoup4==4.11.1
   
     - name: Verify BeautifulSoup
-      run: pip3 show beautifulsoup4  # Verify it's installed
+      run: pip3 show beautifulsoup4==4.11.1  # Verify it's installed
           
     - name: Run the EPG fetching script
       run: python merge_epg.py  # Execute your script to fetch EPG data
