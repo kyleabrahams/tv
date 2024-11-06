@@ -3,8 +3,9 @@ import xml.etree.ElementTree as ET
 import logging
 import os
 
-# List of EPG sources to merge run it 
+# sudo nginx -s reload
 # python3 merge_epg.py
+# 0 0 * * * /usr/local/bin/python3 /Volumes/Kyle4tb1223/Documents/Github/tv/merge_epg.py
 # sudo chown -R $(whoami):admin /opt/homebrew/var/log/nginx
 # sudo chmod -R 755 /opt/homebrew/var/log/nginx
 # brew services restart nginx
@@ -31,48 +32,36 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml"
 ]
 
-# Path to save the merged EPG file (Adjust this to a valid directory on your macOS)
-save_path = os.path.expanduser("~/Desktop/epg.xml")  # Save in the Documents folder
-
+# Path to save the merged EPG file
+save_path = "/usr/local/var/www/epg.xml"  # Path to be served by Nginx
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Function to fetch and parse each EPG file
+# Function to fetch and merge EPG data
 def fetch_epg_data(url):
     response = requests.get(url)
     if response.status_code == 200:
-        if response.content.strip():
-            try:
-                epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                return epg_tree
-            except ET.ParseError as e:
-                logging.error(f"XML parse error for {url}: {e}")
-                return None
-        else:
-            logging.warning(f"No content fetched from {url}")
-            return None
+        try:
+            epg_tree = ET.ElementTree(ET.fromstring(response.content))
+            return epg_tree
+        except ET.ParseError as e:
+            logging.error(f"XML parse error for {url}: {e}")
     else:
         logging.error(f"Error fetching {url}: {response.status_code}")
-        return None
+    return None
 
-# Create root element for the merged EPG
+# Merge EPG data into a single XML
 merged_root = ET.Element("tv")
-
-# Fetch and merge EPG data
-seen_channels = set()
 for url in epg_urls:
-    logging.info(f"Fetching EPG data from {url}")
     epg_tree = fetch_epg_data(url)
     if epg_tree:
         for element in epg_tree.getroot():
-            if element.tag == "channel" and element.attrib['id'] not in seen_channels:
-                merged_root.append(element)
-                seen_channels.add(element.attrib['id'])
+            merged_root.append(element)
 
-# Save merged EPG to file
+# Save the merged EPG file
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    logging.info(f"Merged EPG successfully saved to {save_path}")
+    logging.info(f"EPG file successfully saved to {save_path}")
 except Exception as e:
-    logging.error(f"Failed to save merged EPG - Error: {e}")
+    logging.error(f"Failed to save EPG file - Error: {e}")
