@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      REPO_URL: "github.com/kyleabrahams/tv.git"
+      REPO_URL: "https://github.com/kyleabrahams/tv.git"
 
     steps:
-    - name: Check Git remote URL
-      run: git remote -v
-
     - name: Checkout repository
       uses: actions/checkout@v4
+
+    - name: Check Git remote URL
+      run: git remote -v
 
     - name: Set up Python
       uses: actions/setup-python@v5
