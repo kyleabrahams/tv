@@ -28,7 +28,7 @@ jobs:
        run: pip install requests beautifulsoup4  # Install both libraries
   
     - name: Verify BeautifulSoup
-       run: pip show beautifulsoup4  # Verify it's installed
+       run: pip3 show beautifulsoup4  # Verify it's installed
           
     - name: Run the EPG fetching script
       run: python merge_epg.py  # Execute your script to fetch EPG data
