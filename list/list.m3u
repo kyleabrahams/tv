@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://localhost:8080/epg.xml"
+#EXTM3U url-tvg="http://10.0.0.30:8080/epg.xml"
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name="CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://cord-cutter.net:8080/86528893/Hootbynight/57257
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
@@ -7,7 +7,7 @@ http://streamsy.online:2999/juanv/04bodwaga0/143
 http://fortv.cc:8080/WjtGD2/235867/47332"
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto 0HYK5c" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 6 104 a
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 6 108 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
