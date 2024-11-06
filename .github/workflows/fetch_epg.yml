@@ -1,3 +1,4 @@
+
 name: Fetch EPG Daily
 
 on:
@@ -37,6 +38,7 @@ jobs:
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
+        git add -f epg.xml  # Force-add the ignored file
         git add epg.xml  # Stage the changes
         git commit -m "Update EPG XML" || echo "No changes to commit"
         git remote set-url origin "https://x-access-token:${{ secrets.EPGACCESS }}@${{ env.REPO_URL }}"
