@@ -26,6 +26,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        pip install requests beautifulsoup4  # Install BeautifulSoup (bs4) along with requests
         pip install requests  # Add other dependencies if necessary
 
     - name: Run the EPG fetching script
