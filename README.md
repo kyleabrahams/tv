@@ -28,3 +28,11 @@ Copy & paste:
 
 Terminal commad:
 Esc, :wq , Enter, to save
+
+# Nginx structure for github automation
+nginx-setup/
+│
+├── nginx.conf
+├── default.conf
+├── install_nginx.sh
+└── README.md
