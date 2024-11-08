@@ -3,6 +3,16 @@
 # Get the directory of the current Git repository
 REPO_DIR=$(git rev-parse --show-toplevel)
 
+# Log the start of cloning
+log "Starting to clone the repository."
+
+# Clone the repository with progress
+echo "Cloning the repository with progress..."
+git clone --progress https://github.com/kyleabrahams/tv.git "$REPO_DIR"
+
+# Log the completion of cloning
+log "Repository cloning complete."
+
 # Run the install_nginx.sh script relative to the repo directory
 bash "$REPO_DIR/install_nginx.sh"
 
@@ -42,7 +52,18 @@ fi
 echo "Copying custom Nginx config..."
 # Adjusting paths for Homebrew installation of Nginx on macOS
 sudo cp "$REPO_DIR/nginx.conf" /opt/homebrew/etc/nginx/nginx.conf
+if [ $? -ne 0 ]; then
+  log "Failed to copy nginx.conf."
+  exit 1
+fi
+
 sudo cp "$REPO_DIR/default.conf" /opt/homebrew/etc/nginx/servers/default
+if [ $? -ne 0 ]; then
+  log "Failed to copy default.conf."
+  exit 1
+fi
+
+echo "Custom Nginx configuration copied successfully."
 
 # Test the configuration for syntax errors
 echo "Testing Nginx configuration..."
@@ -89,4 +110,6 @@ echo "REPO_DIR=$(git rev-parse --show-toplevel)" >> "$REPO_DIR/.git/hooks/post-c
 echo "bash \"\$REPO_DIR/install_nginx.sh\"" >> "$REPO_DIR/.git/hooks/post-checkout"
 chmod +x "$REPO_DIR/.git/hooks/post-checkout"
 
+# Log the completion
+log "Script setup complete!"
 echo "Script setup complete!"
