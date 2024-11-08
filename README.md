@@ -2,6 +2,11 @@
 
 This project merges multiple EPG XML files into a single XML file.
 
+
+See Android TV sheets doc, nginx tab for commands,
+sudo nginx -s reload
+python3 merge_epg.py
+
 ## Installation
 
 1. Clone the repository.

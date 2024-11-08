@@ -14,7 +14,6 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml",
-    "https://i.mjh.nz/SamsungTVPlus/all.xml",
     "https://i.mjh.nz/SamsungTVPlus/us.xml",
     "https://i.mjh.nz/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/PlutoTV/all.xml",
@@ -36,9 +35,16 @@ epg_urls = [
 
 # Path to save the merged EPG file
 save_path = "/usr/local/var/www/epg.xml"  # Path to be served by Nginx
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Set up logging to both console and file
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),  # Logs to the console
+        logging.FileHandler('epg_merge.log')  # Logs to a file named epg_merge.log
+    ]
+)
 # Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
