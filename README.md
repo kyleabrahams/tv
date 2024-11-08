@@ -7,12 +7,16 @@ See Android TV sheets doc, nginx tab for commands,
 sudo nginx -s reload
 python3 merge_epg.py
 
-## Installation
+## Installation of Nginx in Terminal
 
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+cd tv
+
+./install_nginx.sh
+
+## Verify epg.xml works
+
+http:/localhost:8080/epg.xml
+
 
 # timed merge_epg.py script using nginx to run through out the day 
 

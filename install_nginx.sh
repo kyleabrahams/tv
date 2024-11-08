@@ -3,19 +3,6 @@
 # Get the directory of the current Git repository
 REPO_DIR=$(git rev-parse --show-toplevel)
 
-# Log the start of cloning
-log "Starting to clone the repository."
-
-# Clone the repository with progress
-echo "Cloning the repository with progress..."
-git clone --progress https://github.com/kyleabrahams/tv.git "$REPO_DIR"
-
-# Log the completion of cloning
-log "Repository cloning complete."
-
-# Run the install_nginx.sh script relative to the repo directory
-bash "$REPO_DIR/install_nginx.sh"
-
 # Define the log file path relative to the repo directory
 LOG_FILE="$REPO_DIR/install_nginx.log"
 
@@ -98,7 +85,7 @@ if [[ -f "$EPG_SCRIPT" ]]; then
   echo "Running EPG merge script..."
   python3 "$EPG_SCRIPT"
 else
-  echo "EPG merge script (merge_epg.py) not found in the current directory."
+  echo "EPG merge script \(merge_epg.py\) not found in the current directory."
 fi
 
 echo "EPG creation (if applicable) is complete!"
