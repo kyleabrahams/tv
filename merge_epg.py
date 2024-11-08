@@ -42,7 +42,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),  # Logs to the console
-        logging.FileHandler('epg_merge.log')  # Logs to a file named epg_merge.log
+        logging.FileHandler('merge_epg.log')  # Logs to a file named merge_epg.log
     ]
 )
 # Function to fetch and merge EPG data
