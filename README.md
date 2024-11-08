@@ -7,15 +7,28 @@ See Android TV sheets doc, nginx tab for commands,
 sudo nginx -s reload
 python3 merge_epg.py
 
-## Installation of Nginx in Terminal
+## Installation of Nginx in Terminal for a local epg.xml
 
 cd tv
 
 ./install_nginx.sh
 
+## Check version
+
+nginx -v
+
+
 ## Verify epg.xml works
 
 http:/localhost:8080/epg.xml
+
+
+## Uninstall Nginx
+
+sudo brew services stop nginx
+
+sudo rm -rf /opt/homebrew/Cellar/nginx/1.27.2
+sudo rm -rf /usr/local/var/www
 
 
 # timed merge_epg.py script using nginx to run through out the day 

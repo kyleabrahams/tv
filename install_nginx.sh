@@ -28,6 +28,24 @@ else
   echo "Homebrew is already installed."
 fi
 
+# Define the directory path
+DIR="/usr/local/var/www/"
+
+# Check if the directory exists
+if [ ! -d "$DIR" ]; then
+  echo "Directory $DIR not found. Creating it..."
+  sudo mkdir -p "$DIR"
+  echo "Directory $DIR created successfully."
+else
+  echo "Directory $DIR already exists."
+fi
+
+# Set permissions and ownership
+echo "Setting permissions and ownership for $DIR..."
+sudo chmod -R 775 "$DIR"
+sudo chown -R $USER "$DIR"
+echo "Permissions and ownership set successfully for $DIR."
+
 # Install Nginx using Homebrew
 echo "Installing Nginx..."
 if ! brew install nginx; then
@@ -99,4 +117,3 @@ chmod +x "$REPO_DIR/.git/hooks/post-checkout"
 
 # Log the completion
 log "Script setup complete!"
-echo "Script setup complete!"
