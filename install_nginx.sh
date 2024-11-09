@@ -28,8 +28,18 @@ else
   echo "Homebrew is already installed."
 fi
 
-# Define the directory path
-DIR="/usr/local/var/www/"
+# Determine if the system is Apple Silicon or Intel
+ARCH=$(uname -m)
+
+# Set Homebrew prefix based on architecture
+if [[ "$ARCH" == "arm64" ]]; then
+  HOMEBREW_PREFIX="/opt/homebrew"  # For Apple Silicon
+else
+  HOMEBREW_PREFIX="/usr/local"      # For Intel Macs
+fi
+
+# Define the directory path for serving files
+DIR="$HOMEBREW_PREFIX/var/www/"
 
 # Check if the directory exists
 if [ ! -d "$DIR" ]; then
@@ -53,16 +63,16 @@ if ! brew install nginx; then
   exit 1
 fi
 
-# Replace the default Nginx configuration with the one from GitHub
+# Copy custom Nginx configuration
 echo "Copying custom Nginx config..."
-# Adjusting paths for Homebrew installation of Nginx on macOS
-sudo cp "$REPO_DIR/nginx.conf" /opt/homebrew/etc/nginx/nginx.conf
+# Adjusting paths for Homebrew installation of Nginx on macOS (both Intel and Apple Silicon)
+sudo cp "$REPO_DIR/nginx.conf" "$HOMEBREW_PREFIX/etc/nginx/nginx.conf"
 if [ $? -ne 0 ]; then
   log "Failed to copy nginx.conf."
   exit 1
 fi
 
-sudo cp "$REPO_DIR/default.conf" /opt/homebrew/etc/nginx/servers/default
+sudo cp "$REPO_DIR/default.conf" "$HOMEBREW_PREFIX/etc/nginx/servers/default"
 if [ $? -ne 0 ]; then
   log "Failed to copy default.conf."
   exit 1
@@ -94,6 +104,19 @@ if ! command -v python3 &> /dev/null; then
   fi
 else
   echo "Python 3 is already installed."
+fi
+
+# Check if `requests` is installed, and install if not
+echo "Checking if 'requests' module is installed..."
+if ! python3 -c "import requests" &> /dev/null; then
+  echo "'requests' module not found. Installing 'requests'..."
+  python3 -m pip install requests
+  if [ $? -ne 0 ]; then
+    log "Failed to install 'requests'."
+    exit 1
+  fi
+else
+  echo "'requests' module is already installed."
 fi
 
 # Run merge_epg.py (if it exists in the current directory or provide the full path)

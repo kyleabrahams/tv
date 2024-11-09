@@ -13,9 +13,20 @@ cd tv
 
 ./install_nginx.sh
 
+## Intel Mac IP Address
+http://192.168.2.30:8080/epg.xml
+
 ## Check version
 
 nginx -v
+
+nginx     1234  0.1  0.2  295672  1234 ?        S    12:34   0:00 nginx: worker process
+
+nada             85580   0.0  0.0 33598548    820 s003  S+    8:18PM   0:00.00 grep nginx
+
+## Alternative way to start Nginx
+
+brew services start nginx
 
 
 ## Verify epg.xml works
