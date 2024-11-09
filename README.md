@@ -11,7 +11,25 @@ python3 merge_epg.py
 
 cd tv
 
-./install_nginx.sh
+    "https://www.bevy.be/bevyfiles/canadapremium.xml", 
+    "https://www.bevy.be/bevyfiles/canadapremium2.xml",
+    "https://www.bevy.be/bevyfiles/canadapremium3.xml",
+    "https://www.bevy.be/bevyfiles/canada.xml",
+    "https://i.mjh.nz/SamsungTVPlus/us.xml",
+    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
+    "https://i.mjh.nz/PlutoTV/all.xml",
+    "https://i.mjh.nz/Plex/all.xml",
+    "https://i.mjh.nz/Stirr/all.xml",
+    "https://i.mjh.nz/PBS/all.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium1.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium2.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium3.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium4.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium5.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium6.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium7.xml",
+    "https://www.bevy.be/bevyfiles/unitedkingdom.xml",
+    "https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml",
 
 ## Intel Mac IP Address
 http://192.168.2.30:8080/epg.xml

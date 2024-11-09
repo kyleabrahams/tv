@@ -29,3 +29,462 @@
 2024-11-08 21:04:08 - Failed to copy default.conf.
 2024-11-08 21:08:15 - Starting Nginx installation script.
 2024-11-08 21:08:27 - Failed to install 'requests'.
+2024-11-09 10:50:35 - Starting Nginx installation script.
+2024-11-09 10:52:04 - Failed to copy default.conf.
+2024-11-09 11:21:12 - Starting Nginx installation script.
+2024-11-09 11:21:13 - Failed to install Nginx.
+2024-11-09 11:23:52 - Starting Nginx installation script.
+2024-11-09 11:23:52 - Failed to install Nginx.
+2024-11-09 11:26:02 - Starting Nginx installation script.
+2024-11-09 11:26:02 - Failed to install Nginx.
+2024-11-09 11:26:27 - Starting Nginx installation script.
+2024-11-09 11:26:28 - Failed to install Nginx.
+2024-11-09 11:27:37 - Starting Nginx installation script.
+2024-11-09 11:28:52 - Script setup complete!
+2024-11-09 11:32:39 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193509549 Nov  9 11:28 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 11:36:08 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193509549 Nov  9 11:28 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 11:36:19,843 - INFO - Fetching 1/21 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-09 11:36:21,239 - INFO - Successfully fetched 1/21
+2024-11-09 11:36:21,744 - INFO - Fetching 2/21 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-09 11:36:23,434 - INFO - Successfully fetched 2/21
+2024-11-09 11:36:23,941 - INFO - Fetching 3/21 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-09 11:36:25,408 - INFO - Successfully fetched 3/21
+2024-11-09 11:36:25,915 - INFO - Fetching 4/21 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-09 11:36:27,280 - INFO - Successfully fetched 4/21
+2024-11-09 11:36:27,783 - INFO - Fetching 5/21 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-09 11:36:28,617 - INFO - Successfully fetched 5/21
+2024-11-09 11:36:29,123 - INFO - Fetching 6/21 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-09 11:36:29,944 - INFO - Successfully fetched 6/21
+2024-11-09 11:36:30,446 - INFO - Fetching 7/21 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-09 11:36:35,453 - INFO - Successfully fetched 7/21
+2024-11-09 11:36:35,971 - INFO - Fetching 8/21 - https://i.mjh.nz/Plex/all.xml
+2024-11-09 11:36:37,232 - INFO - Successfully fetched 8/21
+2024-11-09 11:36:37,741 - INFO - Fetching 9/21 - https://i.mjh.nz/Stirr/all.xml
+2024-11-09 11:36:37,839 - INFO - Successfully fetched 9/21
+2024-11-09 11:36:38,345 - INFO - Fetching 10/21 - https://i.mjh.nz/PBS/all.xml
+2024-11-09 11:36:38,655 - INFO - Successfully fetched 10/21
+2024-11-09 11:36:39,161 - INFO - Fetching 11/21 - https://www.bevy.be/bevyfiles/unitedstatespremium1.xml
+2024-11-09 11:36:40,543 - INFO - Successfully fetched 11/21
+2024-11-09 11:36:41,051 - INFO - Fetching 12/21 - https://www.bevy.be/bevyfiles/unitedstatespremium2.xml
+2024-11-09 11:36:42,530 - INFO - Successfully fetched 12/21
+2024-11-09 11:36:43,033 - INFO - Fetching 13/21 - https://www.bevy.be/bevyfiles/unitedstatespremium3.xml
+2024-11-09 11:36:45,059 - INFO - Successfully fetched 13/21
+2024-11-09 11:36:45,574 - INFO - Fetching 14/21 - https://www.bevy.be/bevyfiles/unitedstatespremium4.xml
+2024-11-09 11:36:47,645 - INFO - Successfully fetched 14/21
+2024-11-09 11:36:48,151 - INFO - Fetching 15/21 - https://www.bevy.be/bevyfiles/unitedstatespremium5.xml
+2024-11-09 11:36:49,797 - INFO - Successfully fetched 15/21
+2024-11-09 11:36:50,308 - INFO - Fetching 16/21 - https://www.bevy.be/bevyfiles/unitedstatespremium6.xml
+2024-11-09 11:36:51,551 - INFO - Successfully fetched 16/21
+2024-11-09 11:36:52,059 - INFO - Fetching 17/21 - https://www.bevy.be/bevyfiles/unitedstatespremium7.xml
+2024-11-09 11:36:53,488 - INFO - Successfully fetched 17/21
+2024-11-09 11:36:53,994 - INFO - Fetching 18/21 - https://www.bevy.be/bevyfiles/unitedkingdom.xml
+2024-11-09 11:36:55,585 - INFO - Successfully fetched 18/21
+2024-11-09 11:36:56,094 - INFO - Fetching 19/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+2024-11-09 11:36:57,496 - INFO - Successfully fetched 19/21
+2024-11-09 11:36:58,000 - INFO - Fetching 20/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 11:36:59,042 - INFO - Successfully fetched 20/21
+2024-11-09 11:36:59,547 - INFO - Fetching 21/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 11:37:00,951 - INFO - Successfully fetched 21/21
+2024-11-09 11:37:08,519 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 11:46:14 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 11:37 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] open() "/usr/local/var/run/nginx.pid" failed (2: No such file or directory)
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 11:46:31 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 11:46:32,118 - INFO - Fetching 1/21 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-09 11:46:33,376 - INFO - Successfully fetched 1/21
+2024-11-09 11:46:33,881 - INFO - Fetching 2/21 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-09 11:46:35,551 - INFO - Successfully fetched 2/21
+2024-11-09 11:46:36,055 - INFO - Fetching 3/21 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-09 11:46:37,874 - INFO - Successfully fetched 3/21
+2024-11-09 11:46:38,381 - INFO - Fetching 4/21 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-09 11:46:39,820 - INFO - Successfully fetched 4/21
+2024-11-09 11:46:40,328 - INFO - Fetching 5/21 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-09 11:46:40,856 - INFO - Successfully fetched 5/21
+2024-11-09 11:46:41,359 - INFO - Fetching 6/21 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-09 11:46:41,930 - INFO - Successfully fetched 6/21
+2024-11-09 11:46:42,431 - INFO - Fetching 7/21 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-09 11:46:45,377 - INFO - Successfully fetched 7/21
+2024-11-09 11:46:45,895 - INFO - Fetching 8/21 - https://i.mjh.nz/Plex/all.xml
+2024-11-09 11:46:47,197 - INFO - Successfully fetched 8/21
+2024-11-09 11:46:47,709 - INFO - Fetching 9/21 - https://i.mjh.nz/Stirr/all.xml
+2024-11-09 11:46:48,225 - INFO - Successfully fetched 9/21
+2024-11-09 11:46:48,729 - INFO - Fetching 10/21 - https://i.mjh.nz/PBS/all.xml
+2024-11-09 11:46:49,844 - INFO - Successfully fetched 10/21
+2024-11-09 11:46:50,349 - INFO - Fetching 11/21 - https://www.bevy.be/bevyfiles/unitedstatespremium1.xml
+2024-11-09 11:46:51,717 - INFO - Successfully fetched 11/21
+2024-11-09 11:46:52,224 - INFO - Fetching 12/21 - https://www.bevy.be/bevyfiles/unitedstatespremium2.xml
+2024-11-09 11:46:53,900 - INFO - Successfully fetched 12/21
+2024-11-09 11:46:54,406 - INFO - Fetching 13/21 - https://www.bevy.be/bevyfiles/unitedstatespremium3.xml
+2024-11-09 11:46:56,421 - INFO - Successfully fetched 13/21
+2024-11-09 11:46:56,937 - INFO - Fetching 14/21 - https://www.bevy.be/bevyfiles/unitedstatespremium4.xml
+2024-11-09 11:46:58,941 - INFO - Successfully fetched 14/21
+2024-11-09 11:46:59,448 - INFO - Fetching 15/21 - https://www.bevy.be/bevyfiles/unitedstatespremium5.xml
+2024-11-09 11:47:01,085 - INFO - Successfully fetched 15/21
+2024-11-09 11:47:01,598 - INFO - Fetching 16/21 - https://www.bevy.be/bevyfiles/unitedstatespremium6.xml
+2024-11-09 11:47:02,913 - INFO - Successfully fetched 16/21
+2024-11-09 11:47:03,421 - INFO - Fetching 17/21 - https://www.bevy.be/bevyfiles/unitedstatespremium7.xml
+2024-11-09 11:47:04,831 - INFO - Successfully fetched 17/21
+2024-11-09 11:47:05,335 - INFO - Fetching 18/21 - https://www.bevy.be/bevyfiles/unitedkingdom.xml
+2024-11-09 11:47:06,856 - INFO - Successfully fetched 18/21
+2024-11-09 11:47:07,367 - INFO - Fetching 19/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+2024-11-09 11:47:08,844 - INFO - Successfully fetched 19/21
+2024-11-09 11:47:09,350 - INFO - Fetching 20/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 11:47:10,343 - INFO - Successfully fetched 20/21
+2024-11-09 11:47:10,846 - INFO - Fetching 21/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 11:47:12,233 - INFO - Successfully fetched 21/21
+2024-11-09 11:47:20,049 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 11:55:15 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 11:47 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+2024-11-09 12:00:43 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 11:56 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+2024-11-09 12:20:34 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 12:01 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:20:56 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:20:57,375 - INFO - Fetching 1/21 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-09 12:20:58,942 - INFO - Successfully fetched 1/21
+2024-11-09 12:20:59,448 - INFO - Fetching 2/21 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-09 12:21:00,865 - INFO - Successfully fetched 2/21
+2024-11-09 12:21:01,373 - INFO - Fetching 3/21 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-09 12:21:02,878 - INFO - Successfully fetched 3/21
+2024-11-09 12:21:03,385 - INFO - Fetching 4/21 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-09 12:21:04,766 - INFO - Successfully fetched 4/21
+2024-11-09 12:21:05,273 - INFO - Fetching 5/21 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-09 12:21:05,463 - INFO - Successfully fetched 5/21
+2024-11-09 12:21:05,968 - INFO - Fetching 6/21 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-09 12:21:06,647 - INFO - Successfully fetched 6/21
+2024-11-09 12:21:07,153 - INFO - Fetching 7/21 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-09 12:21:09,660 - INFO - Successfully fetched 7/21
+2024-11-09 12:21:10,238 - INFO - Fetching 8/21 - https://i.mjh.nz/Plex/all.xml
+2024-11-09 12:21:11,600 - INFO - Successfully fetched 8/21
+2024-11-09 12:21:12,111 - INFO - Fetching 9/21 - https://i.mjh.nz/Stirr/all.xml
+2024-11-09 12:21:12,824 - INFO - Successfully fetched 9/21
+2024-11-09 12:21:13,330 - INFO - Fetching 10/21 - https://i.mjh.nz/PBS/all.xml
+2024-11-09 12:21:14,400 - INFO - Successfully fetched 10/21
+2024-11-09 12:21:14,905 - INFO - Fetching 11/21 - https://www.bevy.be/bevyfiles/unitedstatespremium1.xml
+2024-11-09 12:21:16,277 - INFO - Successfully fetched 11/21
+2024-11-09 12:21:16,785 - INFO - Fetching 12/21 - https://www.bevy.be/bevyfiles/unitedstatespremium2.xml
+2024-11-09 12:21:18,165 - INFO - Successfully fetched 12/21
+2024-11-09 12:21:18,671 - INFO - Fetching 13/21 - https://www.bevy.be/bevyfiles/unitedstatespremium3.xml
+2024-11-09 12:21:20,647 - INFO - Successfully fetched 13/21
+2024-11-09 12:21:21,161 - INFO - Fetching 14/21 - https://www.bevy.be/bevyfiles/unitedstatespremium4.xml
+2024-11-09 12:21:23,268 - INFO - Successfully fetched 14/21
+2024-11-09 12:21:23,776 - INFO - Fetching 15/21 - https://www.bevy.be/bevyfiles/unitedstatespremium5.xml
+2024-11-09 12:21:25,447 - INFO - Successfully fetched 15/21
+2024-11-09 12:21:25,961 - INFO - Fetching 16/21 - https://www.bevy.be/bevyfiles/unitedstatespremium6.xml
+2024-11-09 12:21:27,325 - INFO - Successfully fetched 16/21
+2024-11-09 12:21:27,831 - INFO - Fetching 17/21 - https://www.bevy.be/bevyfiles/unitedstatespremium7.xml
+2024-11-09 12:21:29,261 - INFO - Successfully fetched 17/21
+2024-11-09 12:21:29,768 - INFO - Fetching 18/21 - https://www.bevy.be/bevyfiles/unitedkingdom.xml
+2024-11-09 12:21:31,350 - INFO - Successfully fetched 18/21
+2024-11-09 12:21:31,858 - INFO - Fetching 19/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+2024-11-09 12:21:33,168 - INFO - Successfully fetched 19/21
+2024-11-09 12:21:33,673 - INFO - Fetching 20/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:21:34,625 - INFO - Successfully fetched 20/21
+2024-11-09 12:21:35,129 - INFO - Fetching 21/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:21:36,613 - INFO - Successfully fetched 21/21
+2024-11-09 12:21:44,461 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 12:24:59 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 12:21 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:25:20 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:25:20,991 - INFO - Fetching 1/21 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-09 12:25:22,355 - INFO - Successfully fetched 1/21
+2024-11-09 12:25:22,860 - INFO - Fetching 2/21 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-09 12:25:24,426 - INFO - Successfully fetched 2/21
+2024-11-09 12:25:24,935 - INFO - Fetching 3/21 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-09 12:25:26,425 - INFO - Successfully fetched 3/21
+2024-11-09 12:25:26,933 - INFO - Fetching 4/21 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-09 12:25:28,306 - INFO - Successfully fetched 4/21
+2024-11-09 12:25:28,812 - INFO - Fetching 5/21 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-09 12:25:28,908 - INFO - Successfully fetched 5/21
+2024-11-09 12:25:29,412 - INFO - Fetching 6/21 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-09 12:25:29,527 - INFO - Successfully fetched 6/21
+2024-11-09 12:25:30,033 - INFO - Fetching 7/21 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-09 12:25:32,686 - INFO - Successfully fetched 7/21
+2024-11-09 12:25:33,206 - INFO - Fetching 8/21 - https://i.mjh.nz/Plex/all.xml
+2024-11-09 12:25:34,597 - INFO - Successfully fetched 8/21
+2024-11-09 12:25:35,109 - INFO - Fetching 9/21 - https://i.mjh.nz/Stirr/all.xml
+2024-11-09 12:25:35,205 - INFO - Successfully fetched 9/21
+2024-11-09 12:25:35,712 - INFO - Fetching 10/21 - https://i.mjh.nz/PBS/all.xml
+2024-11-09 12:25:35,947 - INFO - Successfully fetched 10/21
+2024-11-09 12:25:36,455 - INFO - Fetching 11/21 - https://www.bevy.be/bevyfiles/unitedstatespremium1.xml
+2024-11-09 12:25:38,321 - INFO - Successfully fetched 11/21
+2024-11-09 12:25:38,828 - INFO - Fetching 12/21 - https://www.bevy.be/bevyfiles/unitedstatespremium2.xml
+2024-11-09 12:25:40,274 - INFO - Successfully fetched 12/21
+2024-11-09 12:25:40,781 - INFO - Fetching 13/21 - https://www.bevy.be/bevyfiles/unitedstatespremium3.xml
+2024-11-09 12:25:42,901 - INFO - Successfully fetched 13/21
+2024-11-09 12:25:43,414 - INFO - Fetching 14/21 - https://www.bevy.be/bevyfiles/unitedstatespremium4.xml
+2024-11-09 12:25:45,456 - INFO - Successfully fetched 14/21
+2024-11-09 12:25:45,965 - INFO - Fetching 15/21 - https://www.bevy.be/bevyfiles/unitedstatespremium5.xml
+2024-11-09 12:25:47,894 - INFO - Successfully fetched 15/21
+2024-11-09 12:25:48,408 - INFO - Fetching 16/21 - https://www.bevy.be/bevyfiles/unitedstatespremium6.xml
+2024-11-09 12:25:49,876 - INFO - Successfully fetched 16/21
+2024-11-09 12:25:50,385 - INFO - Fetching 17/21 - https://www.bevy.be/bevyfiles/unitedstatespremium7.xml
+2024-11-09 12:25:52,082 - INFO - Successfully fetched 17/21
+2024-11-09 12:25:52,588 - INFO - Fetching 18/21 - https://www.bevy.be/bevyfiles/unitedkingdom.xml
+2024-11-09 12:25:54,257 - INFO - Successfully fetched 18/21
+2024-11-09 12:25:54,767 - INFO - Fetching 19/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+2024-11-09 12:25:56,140 - INFO - Successfully fetched 19/21
+2024-11-09 12:25:56,643 - INFO - Fetching 20/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:25:57,609 - INFO - Successfully fetched 20/21
+2024-11-09 12:25:58,114 - INFO - Fetching 21/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:25:59,577 - INFO - Successfully fetched 21/21
+2024-11-09 12:26:07,454 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 12:27:03 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 12:26 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:27:23 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:27:23,708 - INFO - Fetching 1/21 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-09 12:27:25,048 - INFO - Successfully fetched 1/21
+2024-11-09 12:27:25,553 - INFO - Fetching 2/21 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-09 12:27:27,457 - INFO - Successfully fetched 2/21
+2024-11-09 12:27:27,965 - INFO - Fetching 3/21 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-09 12:27:29,476 - INFO - Successfully fetched 3/21
+2024-11-09 12:27:29,985 - INFO - Fetching 4/21 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-09 12:27:31,556 - INFO - Successfully fetched 4/21
+2024-11-09 12:27:32,060 - INFO - Fetching 5/21 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-09 12:27:32,190 - INFO - Successfully fetched 5/21
+2024-11-09 12:27:32,695 - INFO - Fetching 6/21 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-09 12:27:32,815 - INFO - Successfully fetched 6/21
+2024-11-09 12:27:33,318 - INFO - Fetching 7/21 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-09 12:27:35,784 - INFO - Successfully fetched 7/21
+2024-11-09 12:27:36,304 - INFO - Fetching 8/21 - https://i.mjh.nz/Plex/all.xml
+2024-11-09 12:27:37,612 - INFO - Successfully fetched 8/21
+2024-11-09 12:27:38,121 - INFO - Fetching 9/21 - https://i.mjh.nz/Stirr/all.xml
+2024-11-09 12:27:38,223 - INFO - Successfully fetched 9/21
+2024-11-09 12:27:38,729 - INFO - Fetching 10/21 - https://i.mjh.nz/PBS/all.xml
+2024-11-09 12:27:39,057 - INFO - Successfully fetched 10/21
+2024-11-09 12:27:39,565 - INFO - Fetching 11/21 - https://www.bevy.be/bevyfiles/unitedstatespremium1.xml
+2024-11-09 12:27:41,200 - INFO - Successfully fetched 11/21
+2024-11-09 12:27:41,706 - INFO - Fetching 12/21 - https://www.bevy.be/bevyfiles/unitedstatespremium2.xml
+2024-11-09 12:27:43,079 - INFO - Successfully fetched 12/21
+2024-11-09 12:27:43,587 - INFO - Fetching 13/21 - https://www.bevy.be/bevyfiles/unitedstatespremium3.xml
+2024-11-09 12:27:45,539 - INFO - Successfully fetched 13/21
+2024-11-09 12:27:46,052 - INFO - Fetching 14/21 - https://www.bevy.be/bevyfiles/unitedstatespremium4.xml
+2024-11-09 12:27:48,214 - INFO - Successfully fetched 14/21
+2024-11-09 12:27:48,721 - INFO - Fetching 15/21 - https://www.bevy.be/bevyfiles/unitedstatespremium5.xml
+2024-11-09 12:27:50,452 - INFO - Successfully fetched 15/21
+2024-11-09 12:27:50,966 - INFO - Fetching 16/21 - https://www.bevy.be/bevyfiles/unitedstatespremium6.xml
+2024-11-09 12:27:52,245 - INFO - Successfully fetched 16/21
+2024-11-09 12:27:52,751 - INFO - Fetching 17/21 - https://www.bevy.be/bevyfiles/unitedstatespremium7.xml
+2024-11-09 12:27:54,121 - INFO - Successfully fetched 17/21
+2024-11-09 12:27:54,629 - INFO - Fetching 18/21 - https://www.bevy.be/bevyfiles/unitedkingdom.xml
+2024-11-09 12:27:56,215 - INFO - Successfully fetched 18/21
+2024-11-09 12:27:56,725 - INFO - Fetching 19/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml
+2024-11-09 12:27:58,129 - INFO - Successfully fetched 19/21
+2024-11-09 12:27:58,636 - INFO - Fetching 20/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:27:59,659 - INFO - Successfully fetched 20/21
+2024-11-09 12:28:00,163 - INFO - Fetching 21/21 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:28:01,877 - INFO - Successfully fetched 21/21
+2024-11-09 12:28:09,796 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 12:29:47 - Starting Nginx installation script.
+total 393232
+-rwxrwxr-x@ 1 nada  staff  193529208 Nov  9 12:28 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:30:05 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:30:05,594 - INFO - Fetching 1/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:30:06,733 - INFO - Successfully fetched 1/2
+2024-11-09 12:30:07,236 - INFO - Fetching 2/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:30:08,744 - INFO - Successfully fetched 2/2
+2024-11-09 12:30:09,459 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 12:41:48 - Starting Nginx installation script.
+total 12304
+-rwxrwxr-x@ 1 nada  staff  5862845 Nov  9 12:30 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:42:07 - Nginx setup is complete!
+2024-11-09 12:42:07 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:42:07,687 - INFO - Fetching 1/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:42:08,884 - INFO - Successfully fetched 1/2
+2024-11-09 12:42:09,389 - INFO - Fetching 2/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:42:11,081 - INFO - Successfully fetched 2/2
+2024-11-09 12:42:11,787 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-09 12:44:59 - Starting Nginx installation script.
+total 12304
+-rwxrwxr-x@ 1 nada  staff  5862845 Nov  9 12:42 epg.xml
+Warning: nginx 1.27.2 is already installed and up-to-date.
+To reinstall 1.27.2, run:
+  brew reinstall nginx
+nginx: [error] invalid PID number "" in "/usr/local/var/run/nginx.pid"
+nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+Warning: Taking root:admin ownership of some nginx paths:
+  /usr/local/Cellar/nginx/1.27.2/bin
+  /usr/local/Cellar/nginx/1.27.2/bin/nginx
+  /usr/local/opt/nginx
+  /usr/local/opt/nginx/bin
+  /usr/local/var/homebrew/linked/nginx
+This will require manual removal of these paths using `sudo rm` on
+brew upgrade/reinstall/uninstall.
+Warning: nginx must be run as non-root to start at user login!
+Bootstrap failed: 5: Input/output error
+Error: Failure while executing; `/bin/launchctl bootstrap system /Library/LaunchDaemons/homebrew.mxcl.nginx.plist` exited with 5.
+2024-11-09 12:45:16 - Nginx setup is complete!
+2024-11-09 12:45:19 - Nginx setup is complete!
+/Users/nada/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-09 12:45:19,868 - INFO - Fetching 1/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-09 12:45:20,946 - INFO - Successfully fetched 1/2
+2024-11-09 12:45:21,447 - INFO - Fetching 2/2 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-09 12:45:22,875 - INFO - Successfully fetched 2/2
+2024-11-09 12:45:23,577 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
