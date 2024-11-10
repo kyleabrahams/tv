@@ -10,6 +10,26 @@ from time import sleep
 
 # List of EPG source URLs to merge
 epg_urls = [
+    "https://www.bevy.be/bevyfiles/canadapremium.xml", 
+    "https://www.bevy.be/bevyfiles/canadapremium2.xml",
+    "https://www.bevy.be/bevyfiles/canadapremium3.xml",
+    "https://www.bevy.be/bevyfiles/canada.xml",
+    "https://i.mjh.nz/SamsungTVPlus/us.xml",
+    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
+    "https://i.mjh.nz/PlutoTV/all.xml",
+    "https://i.mjh.nz/Plex/all.xml",
+    "https://i.mjh.nz/Stirr/all.xml",
+    "https://i.mjh.nz/PBS/all.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium1.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium2.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium3.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium4.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium5.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium6.xml",
+    "https://www.bevy.be/bevyfiles/unitedstatespremium7.xml",
+    "https://www.bevy.be/bevyfiles/unitedkingdom.xml",
+    "https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml",
+
     "https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml",
     "https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml"
 ]
