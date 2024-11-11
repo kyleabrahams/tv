@@ -1,34 +1,46 @@
 # EPG Merger
 
 This project merges multiple EPG XML files into a single XML file.
-
-
 See Android TV sheets doc, nginx tab for commands,
-sudo nginx -s reload
+
+## Manually merges xml urls into one big xml
 python3 merge_epg.py
 
 ## Installation of Nginx in Terminal for a local epg.xml
-
-cd tv
-
 ./install_nginx.sh
 
-## Check version
-
+##  Version Check
 nginx -v
 
+##  Status Check
+sudo nginx -t
+
+## Reload Nginx
+sudo nginx -s reload
 
 ## Verify epg.xml works
-
 http:/localhost:8080/epg.xml
 
-
 ## Uninstall Nginx
-
 sudo brew services stop nginx
 
 sudo rm -rf /opt/homebrew/Cellar/nginx/1.27.2
 sudo rm -rf /usr/local/var/www
+
+
+
+    "https://i.mjh.nz/SamsungTVPlus/us.xml",
+    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
+    "https://i.mjh.nz/PlutoTV/all.xml",
+    "https://i.mjh.nz/Plex/all.xml",
+    "https://i.mjh.nz/Stirr/all.xml",
+    "https://i.mjh.nz/PBS/all.xml",
+    "https://www.bevy.be/bevyfiles/unitedstates1.xml",
+    "https://www.bevy.be/bevyfiles/unitedstates2.xml",
+    "https://www.bevy.be/bevyfiles/unitedstates3.xml",
+
+
+
 
 
 # timed merge_epg.py script using nginx to run through out the day 
