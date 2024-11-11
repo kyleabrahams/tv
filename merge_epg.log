@@ -778,3 +778,43 @@
 2024-11-11 14:40:52,413 - INFO - Fetching 4/4 - https://www.bevy.be/bevyfiles/canada.xml
 2024-11-11 14:40:53,985 - INFO - Successfully fetched 4/4
 2024-11-11 14:40:54,802 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 16:47:26,467 - INFO - Fetching 1/4 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 16:47:28,319 - INFO - Successfully fetched 1/4
+2024-11-11 16:47:28,826 - INFO - Fetching 2/4 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 16:47:31,845 - INFO - Successfully fetched 2/4
+2024-11-11 16:47:32,352 - INFO - Fetching 3/4 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 16:47:34,153 - INFO - Successfully fetched 3/4
+2024-11-11 16:47:34,660 - INFO - Fetching 4/4 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-11 16:47:36,184 - INFO - Successfully fetched 4/4
+2024-11-11 16:47:36,989 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 16:49:18,505 - INFO - Fetching 1/4 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 16:49:20,140 - INFO - Successfully fetched 1/4
+2024-11-11 16:49:20,646 - INFO - Fetching 2/4 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 16:49:22,390 - INFO - Successfully fetched 2/4
+2024-11-11 16:49:22,897 - INFO - Fetching 3/4 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 16:49:24,631 - INFO - Successfully fetched 3/4
+2024-11-11 16:49:25,139 - INFO - Fetching 4/4 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-11 16:49:26,710 - INFO - Successfully fetched 4/4
+2024-11-11 16:49:27,520 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 16:52:29,108 - INFO - Fetching 1/5 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 16:52:30,791 - INFO - Successfully fetched 1/5
+2024-11-11 16:52:31,297 - INFO - Fetching 2/5 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 16:52:33,247 - INFO - Successfully fetched 2/5
+2024-11-11 16:52:33,754 - INFO - Fetching 3/5 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 16:52:35,510 - INFO - Successfully fetched 3/5
+2024-11-11 16:52:36,017 - INFO - Fetching 4/5 - https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-11 16:52:36,631 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml: junk after document element: line 2, column 7
+2024-11-11 16:52:37,137 - INFO - Fetching 5/5 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-11 16:52:37,970 - INFO - Successfully fetched 5/5
+2024-11-11 16:52:38,754 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 16:59:06,550 - INFO - Fetching 1/5 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 16:59:08,167 - INFO - Successfully fetched 1/5
+2024-11-11 16:59:08,674 - INFO - Fetching 2/5 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 16:59:10,491 - INFO - Successfully fetched 2/5
+2024-11-11 16:59:10,998 - INFO - Fetching 3/5 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 16:59:13,087 - INFO - Successfully fetched 3/5
+2024-11-11 16:59:13,594 - INFO - Fetching 4/5 - https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-11 16:59:14,199 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml: junk after document element: line 2, column 7
+2024-11-11 16:59:14,706 - INFO - Fetching 5/5 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-11 16:59:15,206 - INFO - Successfully fetched 5/5
+2024-11-11 16:59:15,988 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml

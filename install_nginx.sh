@@ -75,7 +75,23 @@ fi
 
 # Step 4: Copy custom Nginx config
 log "Copying custom Nginx config..."
-sudo cp /nginx.conf /opt/homebrew/etc/nginx/nginx.conf
+
+# Get the directory of the script
+SCRIPT_DIR=$(dirname "$0")
+
+# Define the relative path to nginx.conf
+NGINX_CONF="$SCRIPT_DIR/nginx.conf"
+
+# Check if nginx.conf exists
+if [ ! -f "$NGINX_CONF" ]; then
+    log "nginx.conf not found in $SCRIPT_DIR"
+    echo "nginx.conf not found in $SCRIPT_DIR"
+    exit 1
+fi
+
+# Copy the nginx.conf to the appropriate directory
+sudo cp "$NGINX_CONF" /opt/homebrew/etc/nginx/nginx.conf
+
 log "Custom Nginx configuration copied successfully."
 echo "Custom Nginx configuration copied successfully."
 
@@ -112,7 +128,7 @@ echo "Nginx Installation completed successfully!"
 log "Running merge_epg.py script..."
 echo "Running merge_epg.py script..."
 if command -v python3 &> /dev/null; then
-    python3 "$REPO_DIR/scripts/merge_epg.py"
+    python3 "$REPO_DIR/merge_epg.py"
     [ $? -ne 0 ] && log "Failed to execute merge_epg.py." && exit 1
     log "EPG data merged successfully."
     echo "EPG data merged successfully."

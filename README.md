@@ -29,8 +29,6 @@ sudo rm -rf /usr/local/var/www
 
 
 
-    "https://i.mjh.nz/SamsungTVPlus/us.xml",
-    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/PlutoTV/all.xml",
     "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Stirr/all.xml",

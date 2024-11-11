@@ -14,6 +14,9 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://www.bevy.be/bevyfiles/canada.xml"
+    "https://i.mjh.nz/SamsungTVPlus/us.xml",
+    "https://i.mjh.nz/SamsungTVPlus/ca.xml"
+
 ]
 
 # Path to save the merged EPG file
