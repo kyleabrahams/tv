@@ -30,6 +30,11 @@ crontab -e
 ## Step 2c. Terminal command to complete:
 Esc, :wq, Enter
 
+## Step 3. Install install_pureFTP.sh in Terminal:
+chmod +x install_pureFTP.sh
+./install_pureFTP.sh
+
+
 ## Terminal command to manually merge xml urls into one big local epg.xml
 python3 merge_epg.py
 
