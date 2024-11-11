@@ -7,7 +7,12 @@ See Android TV sheets doc, nginx tab for commands,
 python3 merge_epg.py
 
 ## Installation of Nginx in Terminal for a local epg.xml
+chmod +x install_nginx.sh
 ./install_nginx.sh
+
+## Uninstall of Nginx in Terminal for a local epg.xml
+chmod +x uninstall_nginx.sh
+./uninstall_nginx.sh
 
 ##  Version Check
 nginx -v

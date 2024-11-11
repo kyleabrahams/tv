@@ -948,3 +948,27 @@ total 36872
 2024-11-11 16:59:06 - Running merge_epg.py script...
 2024-11-11 16:59:16 - EPG data merged successfully.
 2024-11-11 16:59:16 - Nginx and FileZilla Server setup is complete!
+2024-11-11 17:01:34 - Starting Nginx and FileZilla Server installation script.
+2024-11-11 17:01:34 - Checking if Nginx is running.
+2024-11-11 17:01:34 - Nginx is not running.
+2024-11-11 17:01:34 - Checking if Homebrew is installed.
+2024-11-11 17:01:34 - Homebrew is already installed.
+2024-11-11 17:01:34 - Fixing Homebrew permissions...
+2024-11-11 17:01:36 - Homebrew permissions fixed successfully.
+2024-11-11 17:01:36 - Installing or updating Nginx...
+2024-11-11 17:01:40 - Nginx installed successfully.
+2024-11-11 17:01:40 - Checking /usr/local/var/www directory.
+2024-11-11 17:01:42 - /usr/local/var/www created and permissions set.
+2024-11-11 17:01:42 - Copying custom Nginx config...
+2024-11-11 17:01:43 - Custom Nginx configuration copied successfully.
+2024-11-11 17:01:43 - Ensuring /usr/local/var/run exists.
+2024-11-11 17:01:43 - /usr/local/var/run exists.
+2024-11-11 17:01:43 - Testing Nginx configuration...
+2024-11-11 17:01:43 - Nginx configuration test successful.
+2024-11-11 17:01:43 - Starting Nginx...
+2024-11-11 17:01:43 - Nginx started successfully.
+2024-11-11 17:01:43 - Ensuring Nginx runs on boot...
+2024-11-11 17:01:44 - Nginx configured to start on boot.
+2024-11-11 17:01:44 - Running merge_epg.py script...
+2024-11-11 17:01:50 - EPG data merged successfully.
+2024-11-11 17:01:50 - Nginx and FileZilla Server setup is complete!

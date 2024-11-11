@@ -818,3 +818,14 @@
 2024-11-11 16:59:14,706 - INFO - Fetching 5/5 - https://i.mjh.nz/SamsungTVPlus/ca.xml
 2024-11-11 16:59:15,206 - INFO - Successfully fetched 5/5
 2024-11-11 16:59:15,988 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 17:01:44,769 - INFO - Fetching 1/5 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 17:01:45,368 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium.xml: junk after document element: line 2, column 7
+2024-11-11 17:01:45,874 - INFO - Fetching 2/5 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 17:01:46,480 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium2.xml: junk after document element: line 2, column 7
+2024-11-11 17:01:46,986 - INFO - Fetching 3/5 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 17:01:47,896 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium3.xml: junk after document element: line 2, column 7
+2024-11-11 17:01:48,398 - INFO - Fetching 4/5 - https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-11 17:01:49,087 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canada.xmlhttps://i.mjh.nz/SamsungTVPlus/us.xml: junk after document element: line 2, column 7
+2024-11-11 17:01:49,593 - INFO - Fetching 5/5 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-11 17:01:49,807 - INFO - Successfully fetched 5/5
+2024-11-11 17:01:50,350 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
