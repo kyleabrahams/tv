@@ -1,18 +1,37 @@
 # EPG Merger
 
-This project merges multiple EPG XML files into a single XML file.
-See Android TV sheets doc, nginx tab for commands,
+This project merges multiple EPG XML files into a single XML file found locally on the computer with the cloned repo.
 
-## Manually merges xml urls into one big xml
-python3 merge_epg.py
+*See Android TV sheets doc, nginx tab for epg.xml creation frequency,
 
-## Installation of Nginx in Terminal for a local epg.xml
+## Step 1. Installation of Nginx in Terminal for a (http:/localhost:8080/epg.xml)
 chmod +x install_nginx.sh
 ./install_nginx.sh
 
-## Uninstall of Nginx in Terminal for a local epg.xml
+## Step 1a. Verify epg.xml works
+http:/localhost:8080/epg.xml
+
+## Step 1b. Uninstallation of Nginx in Terminal for removing the local epg.xml
 chmod +x uninstall_nginx.sh
 ./uninstall_nginx.sh
+
+## Step 2. Setup crontab to help schedule when to refresh epg.xml (macOS)
+## Step 2a. Terminal command:
+crontab -e
+
+## Step 2b. Copy & Paste:
+
+# Run EPG merge script every 6 hours and log output
+0 */6 * * * /usr/local/bin/python3 /path/to/Github/tv/merge_epg.py >> /path/to/Documents/Github/tv/epg_merge.log 2>&1
+
+# Reload Nginx every 6 hours after the EPG update and log output
+5 */6 * * * sudo nginx -s reload >> /path/to/Documents/Github/tv/nginx_reload.log 2>&1
+
+## Step 2c. Terminal command to complete:
+Esc, :wq, Enter
+
+## Terminal command to manually merge xml urls into one big local epg.xml
+python3 merge_epg.py
 
 ##  Version Check
 nginx -v
@@ -22,9 +41,6 @@ sudo nginx -t
 
 ## Reload Nginx
 sudo nginx -s reload
-
-## Verify epg.xml works
-http:/localhost:8080/epg.xml
 
 ## Uninstall Nginx
 sudo brew services stop nginx

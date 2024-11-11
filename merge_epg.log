@@ -829,3 +829,29 @@
 2024-11-11 17:01:49,593 - INFO - Fetching 5/5 - https://i.mjh.nz/SamsungTVPlus/ca.xml
 2024-11-11 17:01:49,807 - INFO - Successfully fetched 5/5
 2024-11-11 17:01:50,350 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 17:03:27,296 - INFO - Fetching 1/6 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 17:03:27,894 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium.xml: junk after document element: line 2, column 7
+2024-11-11 17:03:28,400 - INFO - Fetching 2/6 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 17:03:29,017 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium2.xml: junk after document element: line 2, column 7
+2024-11-11 17:03:29,520 - INFO - Fetching 3/6 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 17:03:30,137 - ERROR - XML parse error for https://www.bevy.be/bevyfiles/canadapremium3.xml: junk after document element: line 2, column 7
+2024-11-11 17:03:30,643 - INFO - Fetching 4/6 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-11 17:03:32,230 - INFO - Successfully fetched 4/6
+2024-11-11 17:03:32,736 - INFO - Fetching 5/6 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-11 17:03:33,140 - INFO - Successfully fetched 5/6
+2024-11-11 17:03:33,646 - INFO - Fetching 6/6 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-11 17:03:34,271 - INFO - Successfully fetched 6/6
+2024-11-11 17:03:34,903 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
+2024-11-11 17:05:00,142 - INFO - Fetching 1/6 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-11 17:05:01,660 - INFO - Successfully fetched 1/6
+2024-11-11 17:05:02,167 - INFO - Fetching 2/6 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-11 17:05:03,817 - INFO - Successfully fetched 2/6
+2024-11-11 17:05:04,324 - INFO - Fetching 3/6 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-11 17:05:05,947 - INFO - Successfully fetched 3/6
+2024-11-11 17:05:06,455 - INFO - Fetching 4/6 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-11 17:05:07,852 - INFO - Successfully fetched 4/6
+2024-11-11 17:05:08,359 - INFO - Fetching 5/6 - https://i.mjh.nz/SamsungTVPlus/us.xml
+2024-11-11 17:05:08,872 - INFO - Successfully fetched 5/6
+2024-11-11 17:05:09,379 - INFO - Fetching 6/6 - https://i.mjh.nz/SamsungTVPlus/ca.xml
+2024-11-11 17:05:10,506 - INFO - Successfully fetched 6/6
+2024-11-11 17:05:11,366 - INFO - EPG file successfully saved to /usr/local/var/www/epg.xml
