@@ -1,8 +1,15 @@
 #!/bin/bash
 
-# Define the log file path relative to the repo directory
+# Get the directory of the current Git repository
 REPO_DIR=$(git rev-parse --show-toplevel)
+
+# Define the log file path relative to the repo directory
 LOG_FILE="$REPO_DIR/install_nginx.log"
+
+# Define common paths
+NGINX_CONF_DIR="/opt/homebrew/etc/nginx"
+NGINX_PID_DIR="/usr/local/var/run"
+WWW_DIR="/usr/local/var/www"
 
 # Function to log messages to both console and log file
 log() {
@@ -12,198 +19,107 @@ log() {
 
 # Start logging
 log "Starting Nginx and FileZilla Server installation script."
+echo "Starting Nginx and FileZilla Server installation script."
+
+# Check if Nginx is already running and stop it if necessary
+log "Checking if Nginx is running."
+echo "Checking if Nginx is running."
+if pgrep nginx > /dev/null; then
+    log "Nginx is running. Stopping Nginx..."
+    echo "Nginx is running. Stopping Nginx..."
+    sudo nginx -s stop
+    log "Nginx stopped successfully."
+    echo "Nginx stopped successfully."
+else
+    log "Nginx is not running."
+    echo "Nginx is not running."
+fi
 
 # Ensure Homebrew is installed
-echo "Checking if Homebrew is installed..."
 log "Checking if Homebrew is installed."
+echo "Checking if Homebrew is installed."
 if ! command -v brew &> /dev/null; then
-  echo "Homebrew not found. Installing Homebrew..."
-  log "Homebrew not found. Installing Homebrew..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  if [ $? -ne 0 ]; then
-    log "Failed to install Homebrew."
-    exit 1
-  fi
+    log "Homebrew not found. Installing Homebrew..."
+    echo "Homebrew not found. Installing Homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    [ $? -ne 0 ] && log "Failed to install Homebrew." && exit 1
 else
-  echo "Homebrew is already installed."
-  log "Homebrew is already installed."
+    log "Homebrew is already installed."
+    echo "Homebrew is already installed."
 fi
 
-# Define the directory path
-DIR="/usr/local/var/www/"
+# Step 1: Fix Homebrew permissions to ensure proper operation
+log "Fixing Homebrew permissions..."
+echo "Fixing Homebrew permissions..."
+sudo chown -R $(whoami) /opt/homebrew/Cellar/nginx
+sudo chown -R $(whoami) /opt/homebrew/opt/nginx
+sudo chown -R $(whoami) /opt/homebrew/var/homebrew
+log "Homebrew permissions fixed successfully."
+echo "Homebrew permissions fixed successfully."
 
-# Set ownership and permissions for the directories
-echo "Setting ownership for $DIR to $USER_NAME:$GROUP_NAME"
-sudo chown -R "$USER_NAME:$GROUP_NAME" "$DIR" 2>&1 | tee -a "$LOG_FILE"
+# Step 2: Install or update Nginx
+log "Installing or updating Nginx..."
+brew install nginx
+log "Nginx installed successfully."
+echo "Nginx installed successfully."
 
-# Verify the changes
-ls -l "$DIR" 2>&1 | tee -a "$LOG_FILE"
-
-# Create necessary directories if they do not exist
-if [ ! -d "$DIR" ]; then
-  echo "Directory $DIR not found. Creating it..."
-  log "Directory $DIR not found. Creating it..."
-  sudo mkdir -p "$DIR"
-  echo "Directory $DIR created successfully."
-  log "Directory $DIR created successfully."
+# Step 3: Set up directories
+log "Checking /usr/local/var/www directory."
+if [ ! -d "/usr/local/var/www" ]; then
+  sudo mkdir -p /usr/local/var/www
+  sudo chown -R $(whoami):$(id -gn) /usr/local/var/www
+  log "/usr/local/var/www created and permissions set."
 else
-  echo "Directory $DIR already exists."
-  log "Directory $DIR already exists."
+  log "/usr/local/var/www already exists."
 fi
 
-# Set permissions and ownership
-echo "Setting permissions and ownership for $DIR..."
-log "Setting permissions and ownership for $DIR..."
-sudo chmod -R 775 "$DIR"
-sudo chown -R $USER "$DIR"
-echo "Permissions and ownership set successfully for $DIR."
-log "Permissions and ownership set successfully for $DIR."
-
-# Install Nginx using Homebrew (without sudo)
-echo "Installing Nginx..."
-log "Installing Nginx..."
-if ! brew install nginx; then
-  log "Failed to install Nginx."
-  exit 1
-fi
-
-# Replace the default Nginx configuration with the one from GitHub
-echo "Copying custom Nginx config..."
+# Step 4: Copy custom Nginx config
 log "Copying custom Nginx config..."
-sudo cp "$REPO_DIR/nginx.conf" /opt/homebrew/etc/nginx/nginx.conf
-if [ $? -ne 0 ]; then
-  log "Failed to copy nginx.conf."
-  exit 1
-fi
-
-sudo cp "$REPO_DIR/default.conf" /opt/homebrew/etc/nginx/servers/default
-if [ $? -ne 0 ]; then
-  log "Failed to copy default.conf."
-  exit 1
-fi
-
-echo "Custom Nginx configuration copied successfully."
+sudo cp /nginx.conf /opt/homebrew/etc/nginx/nginx.conf
 log "Custom Nginx configuration copied successfully."
+echo "Custom Nginx configuration copied successfully."
 
-# Test the configuration for syntax errors
-echo "Testing Nginx configuration..."
+
+# Step 5: Ensure directories for runtime exist
+log "Ensuring /usr/local/var/run exists."
+sudo mkdir -p /usr/local/var/run
+sudo chown -R $(whoami):$(id -gn) /usr/local/var/run
+log "/usr/local/var/run exists."
+
+# Step 6: Test Nginx configuration
 log "Testing Nginx configuration..."
-sudo nginx -t
-if [ $? -ne 0 ]; then
-  log "Nginx configuration test failed."
-  exit 1
-fi
+nginx -t
+log "Nginx configuration test successful."
+echo "Nginx configuration test successful."
 
-# Restart Nginx to apply changes
-echo "Restarting Nginx..."
-log "Restarting Nginx..."
-sudo nginx -s reload
-if [ $? -ne 0 ]; then
-  log "Failed to reload Nginx."
-  exit 1
-fi
+# Step 7: Start Nginx and enable on boot
+log "Starting Nginx..."
+nginx
+log "Nginx started successfully."
 
-# Enable Nginx to start on boot (macOS-specific)
-echo "Enabling Nginx to start on boot..."
-log "Enabling Nginx to start on boot..."
-sudo brew services start nginx
-if [ $? -ne 0 ]; then
-  log "Failed to enable Nginx to start on boot."
-  exit 1
-fi
+log "Ensuring Nginx runs on boot..."
 
-echo "Nginx setup is complete!"
-log "Nginx setup is complete!"
+# Modify plist to use non-root user (if not already done)
+sudo sed -i '' 's/UserName=root/UserName=$(whoami)/g' /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
+sudo sed -i '' 's/GroupName=root/GroupName=$(id -gn)/g' /Library/LaunchDaemons/homebrew.mxcl.nginx.plist
 
+# Start Nginx service with user privileges
+brew services start nginx
+log "Nginx configured to start on boot."
+echo "Nginx Installation completed successfully!"
 
-# Define the download URL and download location for FileZilla
-FILEZILLA_URL="https://dl3.cdn.filezilla-project.org/server/FileZilla_Server_1.9.4_macos-arm64.pkg?h=-u7CEaIjMa1hOAuFXutdQg&x=1731356532"
-PKG_PATH="$HOME/Downloads/FileZilla_Server.pkg"
-FILEZILLA_INSTALL_PATH="/Applications/FileZilla Server.app"
-
-# Check if the package exists at the given path
-if [ -f "$PKG_PATH" ]; then
-  echo "Package found at $PKG_PATH"
-else
-  echo "Package not found at $PKG_PATH. Downloading..."
-  
-  # Download the FileZilla Server package with the updated URL and handle redirects
-  curl -L -o "$PKG_PATH" "$FILEZILLA_URL"
-  
-  # Verify if download was successful
-  if [ -f "$PKG_PATH" ]; then
-    echo "Package downloaded successfully to $PKG_PATH"
-  else
-    echo "Failed to download FileZilla Server package."
-    exit 1
-  fi
-fi
-
-# Set permissions and ownership for the FileZilla package
-echo "Setting permissions and ownership for FileZilla Server package..."
-sudo chmod 644 "$PKG_PATH"
-sudo chown "$USER" "$PKG_PATH"
-
-# Now install FileZilla Server if it is not already installed
-if [ ! -d "$FILEZILLA_INSTALL_PATH" ]; then
-  echo "Installing FileZilla Server..."
-  sudo installer -pkg "$PKG_PATH" -target /
-
-  if [ $? -eq 0 ]; then
-    echo "FileZilla Server installed successfully."
-  else
-    echo "Failed to install FileZilla Server."
-    exit 1
-  fi
-else
-  echo "FileZilla Server is already installed."
-fi
-
-# Check if FileZilla Server exists in the /Applications folder
-echo "Checking for FileZilla Server in /Applications folder..."
-FILEZILLA_PATH="/Applications/FileZilla Server.app"
-
-if [ ! -d "$FILEZILLA_PATH" ]; then
-  echo "FileZilla Server was not installed correctly. Please check the installation."
-  exit 1
-else
-  echo "FileZilla Server found at $FILEZILLA_PATH"
-fi
-
-# Start FileZilla Server after installation
-echo "Starting FileZilla Server..."
-open -a "$FILEZILLA_PATH"
-
-# Run merge_epg.py script after installation of FileZilla Server
-echo "Running merge_epg.py script..."
+# Run the EPG merge script
 log "Running merge_epg.py script..."
-python3 "$REPO_DIR/merge_epg.py"
-
-if [ $? -eq 0 ]; then
-  echo "merge_epg.py executed successfully."
-  log "merge_epg.py executed successfully."
+echo "Running merge_epg.py script..."
+if command -v python3 &> /dev/null; then
+    python3 "$REPO_DIR/scripts/merge_epg.py"
+    [ $? -ne 0 ] && log "Failed to execute merge_epg.py." && exit 1
+    log "EPG data merged successfully."
+    echo "EPG data merged successfully."
 else
-  echo "Failed to execute merge_epg.py."
-  log "Failed to execute merge_epg.py."
-  exit 1
+    log "Python 3 is not installed. Please install it first." && exit 1
+    echo "Python 3 is not installed. Please install it first."
 fi
 
-echo "FileZilla Server installation and start completed."
-
-# Define the path to the plist file from the repo
-PLIST_FILE="$REPO_DIR/com.filezilla_server.plist"
-
-# Check if the plist file exists in the repo
-if [ -f "$PLIST_FILE" ]; then
-  echo "Copying plist file from repository to ~/Library/LaunchAgents..."
-  cp "$PLIST_FILE" ~/Library/LaunchAgents/com.filezilla.server.plist
-
-  # Load the plist to ensure FileZilla starts on boot
-  echo "Loading plist file to start FileZilla Server on login..."
-  launchctl load ~/Library/LaunchAgents/com.filezilla.server.plist
-
-  echo "FileZilla Server will now start on login."
-else
-  echo "Plist file not found in the repository. Please ensure the filezilla_server.plist exists at the root of the repo."
-  exit 1
-fi
+log "Nginx and FileZilla Server setup is complete!"
+echo "Nginx and FileZilla Server setup is complete!"
