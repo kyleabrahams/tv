@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# Get the directory of the current Git repository
-REPO_DIR=$(git rev-parse --show-toplevel)
-
 # Define the log file path relative to the repo directory
+REPO_DIR=$(git rev-parse --show-toplevel)
 LOG_FILE="$REPO_DIR/install_nginx.log"
 
 # Function to log messages to both console and log file
@@ -34,7 +32,14 @@ fi
 # Define the directory path
 DIR="/usr/local/var/www/"
 
-# Check if the directory exists
+# Set ownership and permissions for the directories
+echo "Setting ownership for $DIR to $USER_NAME:$GROUP_NAME"
+sudo chown -R "$USER_NAME:$GROUP_NAME" "$DIR" 2>&1 | tee -a "$LOG_FILE"
+
+# Verify the changes
+ls -l "$DIR" 2>&1 | tee -a "$LOG_FILE"
+
+# Create necessary directories if they do not exist
 if [ ! -d "$DIR" ]; then
   echo "Directory $DIR not found. Creating it..."
   log "Directory $DIR not found. Creating it..."
@@ -54,7 +59,7 @@ sudo chown -R $USER "$DIR"
 echo "Permissions and ownership set successfully for $DIR."
 log "Permissions and ownership set successfully for $DIR."
 
-# Install Nginx using Homebrew
+# Install Nginx using Homebrew (without sudo)
 echo "Installing Nginx..."
 log "Installing Nginx..."
 if ! brew install nginx; then
