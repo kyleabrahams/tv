@@ -26,13 +26,13 @@ except subprocess.CalledProcessError as e:
 
 # Step 2: List of EPG source URLs to merge
 epg_urls = [
+    # Add your local file path here
+    "/usr/local/var/www/dummy.xml",  # Local file to merge
     "https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz",
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml",
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
-    # Add your local file path here
-    "/usr/local/var/www/dummy.xml",  # Local file to merge
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/PlutoTV/all.xml",
