@@ -8,14 +8,17 @@ from time import sleep
 # sudo nginx -s reload
 # python3 merge_epg.py
 
+# https://i.mjh.nz/
+# http://10.0.0.30:8080/epg.xml
+
 # List of EPG source URLs to merge
 epg_urls = [
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml", 
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
-    "https://i.mjh.nz/SamsungTVPlus/us.xml",
-    "https://i.mjh.nz/SamsungTVPlus/ca.xml",
+    "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
+    "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/PlutoTV/all.xml",
     "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Stirr/all.xml",
