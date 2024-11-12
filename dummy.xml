@@ -2,10 +2,390 @@
 <tv generator-info-name="none" generator-info-url="none">
     <channel id="CITYNEWS247">
         <display-name lang="en">City News 24/7</display-name>
-        <description>Latest news updates and weather.</description>
     </channel>
-    <channel id="2">
-        <display-name lang="en">Channel Two</display-name>
-        <description>Learn to cook delicious recipes.</description>
-    </channel>
+        <programme start="20241111000000 +0000" stop="20241111010000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111010000 +0000" stop="20241111020000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111020000 +0000" stop="20241111030000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111030000 +0000" stop="20241111040000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111040000 +0000" stop="20241111050000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111050000 +0000" stop="20241111060000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111060000 +0000" stop="20241111070000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111070000 +0000" stop="20241111080000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111080000 +0000" stop="20241111090000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111090000 +0000" stop="20241111100000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111100000 +0000" stop="20241111110000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111110000 +0000" stop="20241111120000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111120000 +0000" stop="20241111130000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111130000 +0000" stop="20241111140000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111140000 +0000" stop="20241111150000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111150000 +0000" stop="20241111160000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111160000 +0000" stop="20241111170000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111170000 +0000" stop="20241111180000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111180000 +0000" stop="20241111190000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111190000 +0000" stop="20241111200000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111200000 +0000" stop="20241111210000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111210000 +0000" stop="20241111220000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111220000 +0000" stop="20241111230000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241111230000 +0000" stop="20241111235900 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112000000 +0000" stop="20241112010000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112010000 +0000" stop="20241112020000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112020000 +0000" stop="20241112030000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112030000 +0000" stop="20241112040000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112040000 +0000" stop="20241112050000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112050000 +0000" stop="20241112060000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112060000 +0000" stop="20241112070000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112070000 +0000" stop="20241112080000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112080000 +0000" stop="20241112090000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112090000 +0000" stop="20241112100000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112100000 +0000" stop="20241112110000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112110000 +0000" stop="20241112120000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112120000 +0000" stop="20241112130000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112130000 +0000" stop="20241112140000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112140000 +0000" stop="20241112150000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112150000 +0000" stop="20241112160000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112160000 +0000" stop="20241112170000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112170000 +0000" stop="20241112180000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112180000 +0000" stop="20241112190000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112190000 +0000" stop="20241112200000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112200000 +0000" stop="20241112210000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112210000 +0000" stop="20241112220000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112220000 +0000" stop="20241112230000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241112230000 +0000" stop="20241112235900 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113000000 +0000" stop="20241113010000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113010000 +0000" stop="20241113020000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113020000 +0000" stop="20241113030000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113030000 +0000" stop="20241113040000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113040000 +0000" stop="20241113050000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113050000 +0000" stop="20241113060000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113060000 +0000" stop="20241113070000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113070000 +0000" stop="20241113080000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113080000 +0000" stop="20241113090000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113090000 +0000" stop="20241113100000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113100000 +0000" stop="20241113110000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113110000 +0000" stop="20241113120000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113120000 +0000" stop="20241113130000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113130000 +0000" stop="20241113140000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113140000 +0000" stop="20241113150000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113150000 +0000" stop="20241113160000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113160000 +0000" stop="20241113170000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113170000 +0000" stop="20241113180000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113180000 +0000" stop="20241113190000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113190000 +0000" stop="20241113200000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113200000 +0000" stop="20241113210000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113210000 +0000" stop="20241113220000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113220000 +0000" stop="20241113230000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241113230000 +0000" stop="20241113235900 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114000000 +0000" stop="20241114010000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114010000 +0000" stop="20241114020000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114020000 +0000" stop="20241114030000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114030000 +0000" stop="20241114040000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114040000 +0000" stop="20241114050000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114050000 +0000" stop="20241114060000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114060000 +0000" stop="20241114070000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114070000 +0000" stop="20241114080000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114080000 +0000" stop="20241114090000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114090000 +0000" stop="20241114100000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114100000 +0000" stop="20241114110000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114110000 +0000" stop="20241114120000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114120000 +0000" stop="20241114130000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114130000 +0000" stop="20241114140000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114140000 +0000" stop="20241114150000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114150000 +0000" stop="20241114160000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114160000 +0000" stop="20241114170000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114170000 +0000" stop="20241114180000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114180000 +0000" stop="20241114190000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114190000 +0000" stop="20241114200000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114200000 +0000" stop="20241114210000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114210000 +0000" stop="20241114220000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114220000 +0000" stop="20241114230000 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+    <programme start="20241114230000 +0000" stop="20241114235900 +0000" channel="CITYNEWS247">
+        <title lang="en">Get the latest news and weather</title>
+        <desc lang="en">Get the latest news and weather</desc>
+    </programme>
+
 </tv>
