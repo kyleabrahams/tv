@@ -1,0 +1,32 @@
+<epg>
+    <channel id="CITYNEWS247">
+        <display-name>City News 24/7</display-name>
+        <program>
+            <title>City News 24/7 </title>
+            <start_time>2024-11-12T08:00:00</start_time>
+            <end_time>2024-11-12T09:00:00</end_time>
+            <description>Latest news updates and weather.</description>
+        </program>
+        <program>
+            <title>Midday Movie</title>
+            <start_time>2024-11-12T09:00:00</start_time>
+            <end_time>2024-11-12T11:00:00</end_time>
+            <description>A thrilling action movie.</description>
+        </program>
+    </channel>
+    <channel id="2">
+        <display-name>Channel Two</display-name>
+        <program>
+            <title>Cooking Show</title>
+            <start_time>2024-11-12T08:30:00</start_time>
+            <end_time>2024-11-12T09:30:00</end_time>
+            <description>Learn to cook delicious recipes.</description>
+        </program>
+        <program>
+            <title>Evening News</title>
+            <start_time>2024-11-12T17:00:00</start_time>
+            <end_time>2024-11-12T18:00:00</end_time>
+            <description>Daily news summary.</description>
+        </program>
+    </channel>
+</epg>
