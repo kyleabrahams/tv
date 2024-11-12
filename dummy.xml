@@ -1,10 +1,9 @@
-<epg>
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="none" generator-info-url="none">
     <channel id="CITYNEWS247">
-        <display-name>City News 24/7</display-name>
+        <display-name lang="en">City News 24/7</display-name>
         <program>
             <title>City News 24/7 </title>
-            <start_time>2024-11-12T08:00:00</start_time>
-            <end_time>2024-11-12T09:00:00</end_time>
             <description>Latest news updates and weather.</description>
         </program>
         <program>
@@ -29,4 +28,4 @@
             <description>Daily news summary.</description>
         </program>
     </channel>
-</epg>
+</tv>
