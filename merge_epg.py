@@ -19,7 +19,7 @@ epg_urls = [
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml", 
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
-    "https://www.bevy.be/bevyfiles/canadapremium3.xml"
+    "https://www.bevy.be/bevyfiles/canadapremium3.xml",
     "https://raw.githubusercontent.com/kyleabrahams/tv/main/dummy.xml",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
     "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
