@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.ngrok.startup</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/ngrok</string>
+      <string>tcp</string>
+      <string>21</string> <!-- Replace with your desired port -->
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/tmp/ngrok.err</string>
+    <key>StandardOutPath</key>
+    <string>/tmp/ngrok.out</string>
+  </dict>
+</plist>

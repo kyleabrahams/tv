@@ -55,13 +55,10 @@ sudo rm -rf /usr/local/var/www
 
 
 
-    "https://i.mjh.nz/PlutoTV/all.xml",
-    "https://i.mjh.nz/Plex/all.xml",
-    "https://i.mjh.nz/Stirr/all.xml",
-    "https://i.mjh.nz/PBS/all.xml",
-    "https://www.bevy.be/bevyfiles/unitedstates1.xml",
-    "https://www.bevy.be/bevyfiles/unitedstates2.xml",
-    "https://www.bevy.be/bevyfiles/unitedstates3.xml",
+
+
+
+
 
 
 
