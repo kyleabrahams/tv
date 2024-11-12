@@ -2,10 +2,10 @@
 <tv generator-info-name="none" generator-info-url="none">
     <channel id="CITYNEWS247">
         <display-name lang="en">City News 24/7</display-name>
-            <description>Latest news updates and weather.</description>
+        <description>Latest news updates and weather.</description>
     </channel>
     <channel id="2">
-        <display-name>Channel Two</display-name>
-            <description>Learn to cook delicious recipes.</description>
+        <display-name lang="en">Channel Two</display-name>
+        <description>Learn to cook delicious recipes.</description>
     </channel>
 </tv>
