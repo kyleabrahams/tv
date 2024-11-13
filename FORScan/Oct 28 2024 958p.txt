@@ -1,0 +1,185 @@
+===PCM DTC U0235:00-2E===
+Code: U0235 - Lost Communication With Front Distance Range Sensor - Single Sensor or Center
+
+Status (-2E):
+ - DTC Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+
+Module: Powertrain Control Module
+
+ Freeze Frame  #1:
+-DTC: ---  - DTC That Caused Required Snapshot Data Storage
+-FUELSYS: OL - Drive  - Fuel System Status (Open/Closed Loop)
+-LOAD: 0.00 % - Calculated Load Value
+-ECT: 56 °C - Engine coolant temperature
+-SHRTFT1: 0.00 % - Short term fuel trim 1
+-LONGFT1: 0.00 % - Long term fuel trim 1
+-MAP: 99.0 kPa - Manifold absolute pressure sensor
+-RPM: 0 1/min - Engine Revolutions Per Minute
+-VSS: 0.0 km/h - Vehicle Speed
+-SPARKADV: 0.00 ° - Spark Advance
+-IAT: 33 °C - Intake Air Temperature
+-MAF: 0.58 g/s - Mass Air Flow
+-TP: 22.35 % - Throttle Position
+-RUNTM: 0 s - Time Since Engine Start
+-EVAP_PCT: 0.00 % - Commanded Evaporative Purge
+-FLI: 54.51 % - Fuel Level
+-WARM_UPS: 0   - Number Of Warm-ups Since DTCs Cleared
+-CLR_DIST: 0.0 km - Distance since diagnostic trouble codes cleared
+-FTP: 0.1 kPa - Fuel Tank Pressure Transducer
+-FTP: 0.1 kPa - Fuel Tank Pressure Transducer
+-BARO: 100.0 kPa - Barometric pressure
+-CATEMP11: 311 °C - Catalyst Temperature Bank 1, Sensor 1
+-VPWR: 10.19 V - Control Module Voltage
+-LOAD_ABS: 0.00 % - Absolute Load Value
+-EQRAT11_CMD: 14.648 :1 - Commanded Equivalence Ratio (Air to Fuel Mixture) Bank 1
+-TP_REL: 12.16 % - Relative Throttle Position
+-AAT: 32 °C - Ambient Air Temperature
+-TP_B: 21.57 % - Throttle Position Sensor 2
+-APP_D: 15.29 % - Accelerator Pedal Position D
+-APP_E: 7.84 % - Accelerator Pedal Position E
+-TAC_PCT: 14.90 % - Commanded Throttle Actuator Control
+-FUEL_TYPE: Gas  - Type of fuel currently being utilized by the vehicle
+-SHRTFT12: 0.00 % - Short Term Fuel Trim (Bank 1, Sensor 2)
+-LONGFT12: 0.00 % - Long Term Fuel Trim (Bank 1, Sensor 2)
+-FRP_ABS: 1150.0 kPa - Fuel Rail Pressure (Absolute)
+-ECT2_SUP: Yes  - Engine Coolant Temperature Sensor 1 supported
+-ECT1_SUP: Yes  - Engine Coolant Temperature Sensor 1 supported
+-ECT2: 19 °C - Engine Coolant Temperature 2 - Voltage
+===END PCM DTC U0235:00-2E===
+
+===OBDII DTC None===
+Successful DTC reading, no error codes found
+
+Module: On Board Diagnostic II
+
+===END OBDII DTC None===
+
+===AM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Amplifier Module
+
+===END AM DTC None===
+
+===CMU DTC U0182:00-48===
+Code: U0182 - Lost Communication With Lighting Control Module - Front
+
+Status (-48):
+ - Previously Set DTC - Not Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+ - Test not complete
+
+Module: Connectivity Master Unit
+
+===END CMU DTC U0182:00-48===
+
+===CMU DTC U023A:00-48===
+Code: U023A - Lost Communication with Forward Sensing Camera
+
+Status (-48):
+ - Previously Set DTC - Not Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+ - Test not complete
+
+Module: Connectivity Master Unit
+
+===END CMU DTC U023A:00-48===
+
+===CMU DTC U0235:00-48===
+Code: U0235 - Lost Communication With Front Distance Range Sensor - Single Sensor or Center
+
+Status (-48):
+ - Previously Set DTC - Not Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+ - Test not complete
+
+Module: Connectivity Master Unit
+
+===END CMU DTC U0235:00-48===
+
+===ABS DTC U2300:52-2B===
+Code: U2300 - Central Configuration
+
+Additional Fault Symptom (:52):
+ - Not Activated
+
+Status (-2B):
+ - DTC Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+
+Module: Antilock braking system
+
+ Freeze Frame  #1:
+-EVENT_TIME: 323481512 s (Tue Oct 29 21:57:54 2024) - Event time
+-TOTAL_DISTANCE: 247417 km - Total Distance
+-MODULE_VOLTAGE: 10.3 V - Control Module Voltage
+-OUTDOOR_TEMPERATURE: 18 °C - Outside temperature
+-PWR_MODE_KEY: Ignition On (Position 2)  - Power Mode Key State
+-SHIFT_STATUS: FAIL  - Shift Position Status
+-RPM_STATUS: Engine Stop  - Engine RPM Status
+-ECT_STATUS: 0 - Under 80 degrees C  - Engine Coolant Temperature Status
+-CFG_STATUS: Config Complete  - Configuration Status
+-APP_STATUS: Accelerator Pedal Off  - Accelerator Pedal Position Status
+-VSPD_STATUS: Stop  - Vehicle Speed Status
+-IG-ON_TIMER: 31 s - Times Since Ignition Switch ON
+===END ABS DTC U2300:52-2B===
+
+===RCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Restraint Control Module
+
+===END RCM DTC None===
+
+===SSU DTC None===
+Successful DTC reading, no error codes found
+
+Module: Start Stop Unit
+
+===END SSU DTC None===
+
+===EPS DTC None===
+Successful DTC reading, no error codes found
+
+Module: Electronic-Controlled Power Steering
+
+===END EPS DTC None===
+
+===F_BCM DTC U023A:00-48===
+Code: U023A - Lost Communication with Forward Sensing Camera
+
+Status (-48):
+ - Previously Set DTC - Not Present at Time of Request
+ - Malfunction Indicator Lamp is Off for this DTC
+ - Test not complete
+
+Module: Front Body Control Module
+
+ Freeze Frame  #1:
+-EVENT_TIME: 323481512 s - Event time
+-TOTAL_DISTANCE: 247417 km - Total Distance
+-MODULE_VOLTAGE: 10.3 V - Control Module Voltage
+-OUTDOOR_TEMPERATURE: 18 °C - Outside temperature
+
+ Freeze Frame  #2:
+-EVENT_TIME: 323481512 s - Event time
+-TOTAL_DISTANCE: 247417 km - Total Distance
+-MODULE_VOLTAGE: 10.3 V - Control Module Voltage
+-OUTDOOR_TEMPERATURE: 18 °C - Outside temperature
+===END F_BCM DTC U023A:00-48===
+
+===R_BCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Rear Body Control Module
+
+===END R_BCM DTC None===
+
+===EATC DTC None===
+Successful DTC reading, no error codes found
+
+Module: Electronic Automatic Temperature Control
+
+===END EATC DTC None===
+

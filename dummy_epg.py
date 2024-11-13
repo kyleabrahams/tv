@@ -1,10 +1,11 @@
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-from xml.dom import minidom
-import os  # Import the os module
-import subprocess
-import sys
-import pytz  # Import the pytz library
+import xml.etree.ElementTree as ET  # For creating XML elements
+from datetime import datetime, timedelta  # For date and time handling
+from xml.dom import minidom  # For pretty-printing XML
+import os  # For handling file operations
+import subprocess  # For installing packages
+import sys  # For system operations
+import pytz  # For timezone handling
+
 
 
 # Run script

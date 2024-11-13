@@ -1,0 +1,95 @@
+===PCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Powertrain Control Module
+
+===END PCM DTC None===
+
+===OBDII DTC None===
+Successful DTC reading, no error codes found
+
+Module: On Board Diagnostic II
+
+===END OBDII DTC None===
+
+===AM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Amplifier Module
+
+===END AM DTC None===
+
+===CMU DTC None===
+Successful DTC reading, no error codes found
+
+Module: Connectivity Master Unit
+
+===END CMU DTC None===
+
+===ABS DTC None===
+Successful DTC reading, no error codes found
+
+Module: Antilock braking system
+
+===END ABS DTC None===
+
+===RCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Restraint Control Module
+
+===END RCM DTC None===
+
+===SSU DTC B13D3:16-8A===
+Code: B13D3 - PATS Transmitter
+
+Additional Fault Symptom (:16):
+ - Circuit Voltage Below Threshold
+
+Status (-8A):
+ - DTC Present at Time of Request
+ - Malfunction Indicator Lamp is On for this DTC
+
+Module: Start Stop Unit
+
+ Freeze Frame  #1:
+-EVENT_TIME: 324617958 s - Event time
+-TOTAL_DISTANCE: 247753 km - Total Distance
+-MODULE_VOLTAGE: 12.3 V - Control Module Voltage
+===END SSU DTC B13D3:16-8A===
+
+===EPS DTC None===
+Successful DTC reading, no error codes found
+
+Module: Electronic-Controlled Power Steering
+
+===END EPS DTC None===
+
+===F_BCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Front Body Control Module
+
+===END F_BCM DTC None===
+
+===IC DTC None===
+Successful DTC reading, no error codes found
+
+Module: Instrument Cluster
+
+===END IC DTC None===
+
+===R_BCM DTC None===
+Successful DTC reading, no error codes found
+
+Module: Rear Body Control Module
+
+===END R_BCM DTC None===
+
+===EATC DTC None===
+Successful DTC reading, no error codes found
+
+Module: Electronic Automatic Temperature Control
+
+===END EATC DTC None===
+
