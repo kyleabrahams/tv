@@ -9,124 +9,184 @@
   <channel id="3">
     <display-name lang="en">Channel 3</display-name>
   </channel>
-  <programme start="20241113160000 -0500" stop="20241113170000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 4</title>
-    <description>Show Description 1</description>
-  </programme>
-  <programme start="20241113170000 -0500" stop="20241113180000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 5</title>
-    <description>Show Description 2</description>
-  </programme>
   <programme start="20241113180000 -0500" stop="20241113190000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 6</title>
-    <description>Show Description 3</description>
+    <title lang="en">City News 24/7 at 6 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113180000 -0500" stop="20241113190000 -0500" channel="2">
+    <title lang="en">Channel 2 at 6 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113180000 -0500" stop="20241113190000 -0500" channel="3">
+    <title lang="en">Channel 3 at 6 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241113190000 -0500" stop="20241113200000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 7</title>
-    <description>Show Description 4</description>
+    <title lang="en">City News 24/7 at 7 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113190000 -0500" stop="20241113200000 -0500" channel="2">
+    <title lang="en">Channel 2 at 7 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113190000 -0500" stop="20241113200000 -0500" channel="3">
+    <title lang="en">Channel 3 at 7 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241113200000 -0500" stop="20241113210000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 8</title>
-    <description>Show Description 5</description>
+    <title lang="en">City News 24/7 at 8 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113200000 -0500" stop="20241113210000 -0500" channel="2">
+    <title lang="en">Channel 2 at 8 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113200000 -0500" stop="20241113210000 -0500" channel="3">
+    <title lang="en">Channel 3 at 8 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241113210000 -0500" stop="20241113220000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 9</title>
-    <description>Show Description 6</description>
+    <title lang="en">City News 24/7 at 9 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113210000 -0500" stop="20241113220000 -0500" channel="2">
+    <title lang="en">Channel 2 at 9 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113210000 -0500" stop="20241113220000 -0500" channel="3">
+    <title lang="en">Channel 3 at 9 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241113220000 -0500" stop="20241113230000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 10</title>
-    <description>Show Description 7</description>
+    <title lang="en">City News 24/7 at 10 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113220000 -0500" stop="20241113230000 -0500" channel="2">
+    <title lang="en">Channel 2 at 10 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113220000 -0500" stop="20241113230000 -0500" channel="3">
+    <title lang="en">Channel 3 at 10 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241113230000 -0500" stop="20241114000000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 11</title>
-    <description>Show Description 8</description>
+    <title lang="en">City News 24/7 at 11 PM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241113230000 -0500" stop="20241114000000 -0500" channel="2">
+    <title lang="en">Channel 2 at 11 PM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241113230000 -0500" stop="20241114000000 -0500" channel="3">
+    <title lang="en">Channel 3 at 11 PM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114000000 -0500" stop="20241114010000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 12</title>
-    <description>Show Description 9</description>
+    <title lang="en">City News 24/7 at 12 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114000000 -0500" stop="20241114010000 -0500" channel="2">
+    <title lang="en">Channel 2 at 12 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114000000 -0500" stop="20241114010000 -0500" channel="3">
+    <title lang="en">Channel 3 at 12 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114010000 -0500" stop="20241114020000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 1</title>
-    <description>Show Description 10</description>
+    <title lang="en">City News 24/7 at 1 AM</title>
+    <description>Program Description for CITYNEWS247</description>
   </programme>
-  <programme start="20241113210000 -0500" stop="20241113220000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 9</title>
-    <description>Show Description 6</description>
+  <programme start="20241114010000 -0500" stop="20241114020000 -0500" channel="2">
+    <title lang="en">Channel 2 at 1 AM</title>
+    <description>Program Description for 2</description>
   </programme>
-  <programme start="20241113220000 -0500" stop="20241113230000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 10</title>
-    <description>Show Description 7</description>
-  </programme>
-  <programme start="20241113230000 -0500" stop="20241114000000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 11</title>
-    <description>Show Description 8</description>
-  </programme>
-  <programme start="20241114000000 -0500" stop="20241114010000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 12</title>
-    <description>Show Description 9</description>
-  </programme>
-  <programme start="20241114010000 -0500" stop="20241114020000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 1</title>
-    <description>Show Description 10</description>
+  <programme start="20241114010000 -0500" stop="20241114020000 -0500" channel="3">
+    <title lang="en">Channel 3 at 1 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114020000 -0500" stop="20241114030000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 2</title>
-    <description>Show Description 11</description>
+    <title lang="en">City News 24/7 at 2 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114020000 -0500" stop="20241114030000 -0500" channel="2">
+    <title lang="en">Channel 2 at 2 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114020000 -0500" stop="20241114030000 -0500" channel="3">
+    <title lang="en">Channel 3 at 2 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114030000 -0500" stop="20241114040000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 3</title>
-    <description>Show Description 12</description>
+    <title lang="en">City News 24/7 at 3 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114030000 -0500" stop="20241114040000 -0500" channel="2">
+    <title lang="en">Channel 2 at 3 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114030000 -0500" stop="20241114040000 -0500" channel="3">
+    <title lang="en">Channel 3 at 3 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114040000 -0500" stop="20241114050000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 4</title>
-    <description>Show Description 13</description>
+    <title lang="en">City News 24/7 at 4 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114040000 -0500" stop="20241114050000 -0500" channel="2">
+    <title lang="en">Channel 2 at 4 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114040000 -0500" stop="20241114050000 -0500" channel="3">
+    <title lang="en">Channel 3 at 4 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114050000 -0500" stop="20241114060000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 5</title>
-    <description>Show Description 14</description>
+    <title lang="en">City News 24/7 at 5 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114050000 -0500" stop="20241114060000 -0500" channel="2">
+    <title lang="en">Channel 2 at 5 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114050000 -0500" stop="20241114060000 -0500" channel="3">
+    <title lang="en">Channel 3 at 5 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114060000 -0500" stop="20241114070000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 6</title>
-    <description>Show Description 15</description>
+    <title lang="en">City News 24/7 at 6 AM</title>
+    <description>Program Description for CITYNEWS247</description>
   </programme>
-  <programme start="20241114020000 -0500" stop="20241114030000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 2</title>
-    <description>Show Description 11</description>
+  <programme start="20241114060000 -0500" stop="20241114070000 -0500" channel="2">
+    <title lang="en">Channel 2 at 6 AM</title>
+    <description>Program Description for 2</description>
   </programme>
-  <programme start="20241114030000 -0500" stop="20241114040000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 3</title>
-    <description>Show Description 12</description>
-  </programme>
-  <programme start="20241114040000 -0500" stop="20241114050000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 4</title>
-    <description>Show Description 13</description>
-  </programme>
-  <programme start="20241114050000 -0500" stop="20241114060000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 5</title>
-    <description>Show Description 14</description>
-  </programme>
-  <programme start="20241114060000 -0500" stop="20241114070000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 6</title>
-    <description>Show Description 15</description>
+  <programme start="20241114060000 -0500" stop="20241114070000 -0500" channel="3">
+    <title lang="en">Channel 3 at 6 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114070000 -0500" stop="20241114080000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 7</title>
-    <description>Show Description 16</description>
+    <title lang="en">City News 24/7 at 7 AM</title>
+    <description>Program Description for CITYNEWS247</description>
+  </programme>
+  <programme start="20241114070000 -0500" stop="20241114080000 -0500" channel="2">
+    <title lang="en">Channel 2 at 7 AM</title>
+    <description>Program Description for 2</description>
+  </programme>
+  <programme start="20241114070000 -0500" stop="20241114080000 -0500" channel="3">
+    <title lang="en">Channel 3 at 7 AM</title>
+    <description>Program Description for 3</description>
   </programme>
   <programme start="20241114080000 -0500" stop="20241114090000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 8</title>
-    <description>Show Description 17</description>
+    <title lang="en">City News 24/7 at 8 AM</title>
+    <description>Program Description for CITYNEWS247</description>
   </programme>
-  <programme start="20241114090000 -0500" stop="20241114100000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 9</title>
-    <description>Show Description 18</description>
+  <programme start="20241114080000 -0500" stop="20241114090000 -0500" channel="2">
+    <title lang="en">Channel 2 at 8 AM</title>
+    <description>Program Description for 2</description>
   </programme>
-  <programme start="20241114100000 -0500" stop="20241114110000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 10</title>
-    <description>Show Description 19</description>
-  </programme>
-  <programme start="20241114110000 -0500" stop="20241114120000 -0500" channel="CITYNEWS247">
-    <title lang="en">City News 24/7 at 11</title>
-    <description>Show Description 20</description>
+  <programme start="20241114080000 -0500" stop="20241114090000 -0500" channel="3">
+    <title lang="en">Channel 3 at 8 AM</title>
+    <description>Program Description for 3</description>
   </programme>
 </tv>

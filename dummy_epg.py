@@ -5,6 +5,7 @@ import os  # For handling file operations
 import subprocess  # For installing packages
 import sys  # For system operations
 import pytz  # For timezone handling
+import re  # For regular expressions
 
 
 
@@ -34,67 +35,70 @@ print("pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=1, programs_per_day=5):
-    # Step 4.1: Create the root XML element for TV guide
+    # Step 4.1: Create the root <tv> element with generator info attributes
     tv = ET.Element("tv", generator_info_name="none", generator_info_url="none")
-    
-    # Step 4.2: Define a dictionary for channel IDs and their names
+
+    # Step 4.2: Define a dictionary of channels with their IDs and display names
     channels = {
         "CITYNEWS247": "City News 24/7",
         "2": "Channel 2",
         "3": "Channel 3"
     }
     
-    # Step 4.3: Loop through the channels and create XML elements for each
+    # Step 4.3: Loop through the channel dictionary and create <channel> elements in a single line
     for channel_id, channel_name in channels.items():
+        # Step 4.3.1: Create <channel> element with the channel's ID in one line
         channel_elem = ET.SubElement(tv, "channel", id=channel_id)
+        # Step 4.3.2: Create <display-name> element inside <channel> for channel name
         display_name_elem = ET.SubElement(channel_elem, "display-name", lang="en")
         display_name_elem.text = channel_name
 
-    # Step 4.4: Set the starting time for programs in UTC, then convert to Eastern Time
-    utc_now = datetime.utcnow()  # Use UTC time as the starting point
-    eastern = pytz.timezone('US/Eastern')  # Define the Eastern Time zone
-    start_time = eastern.localize(utc_now)  # Convert UTC to Eastern Time
+    # Step 4.4: Get the current UTC time and convert to Eastern Time
+    utc_now = datetime.utcnow().replace(tzinfo=pytz.UTC)  # Current time in UTC
+    eastern = pytz.timezone('US/Eastern')  # Define Eastern Time zone
+    start_time = utc_now.astimezone(eastern)  # Convert UTC to localized Eastern Time
 
-    # Step 4.5: Loop through each day in the schedule
+    # Step 4.5: Loop through each day to generate program schedules
     for day in range(num_days):
-        # Step 4.6: Loop through each program of the day, including 5 extra programs before the first one
-        for program in range(programs_per_day + 5):  # Create 5 extra programs
-            # Step 4.7: Calculate the intended start time for each program
-            intended_start = start_time + timedelta(hours=program + day * programs_per_day - 5)
+        # Step 4.6: Loop through each program slot for the day
+        for program in range(programs_per_day):
+            # Step 4.6.1: Assign programs to all channels
+            for channel_id in channels.keys():
+                # Step 4.7: Calculate the start time for each program
+                program_start = start_time + timedelta(hours=program + day * programs_per_day)
+                
+                # Step 4.8: Round the start time to the nearest hour
+                rounded_start = program_start.replace(minute=0, second=0, microsecond=0)
+                
+                # Step 4.9: Calculate the end time as 1 hour after the rounded start time
+                end_time = rounded_start + timedelta(hours=1)
 
-            # Step 4.8: Round the start time to the nearest hour
-            rounded_start = intended_start.replace(minute=0, second=0, microsecond=0)
-            if intended_start.minute >= 30:
-                rounded_start += timedelta(hours=1)
+                # Step 4.10: Create <programme> element for each program with time attributes
+                programme_elem = ET.SubElement(tv, "programme",
+                                               start=rounded_start.strftime("%Y%m%d%H%M%S %z"),
+                                               stop=end_time.strftime("%Y%m%d%H%M%S %z"),
+                                               channel=channel_id)
+                
+                # Step 4.11: Add a <title> element to the program
+                title_elem = ET.SubElement(programme_elem, "title", lang="en")
+                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I %p').lstrip('0')}"
 
-            # Step 4.9: Calculate the end time for each program (1 hour duration)
-            end = rounded_start + timedelta(hours=1)
+                # Step 4.12: Add a <description> element with program details
+                description_elem = ET.SubElement(programme_elem, "description")
+                description_elem.text = f"Program Description for {channel_id}"
 
-            # Step 4.10: Format the start time for the program title
-            current_time = rounded_start.strftime("%I:%M %p")  # 12-hour format with AM/PM
-            
-            # Step 4.11: Create the "programme" XML element for each program
-            programme_elem = ET.SubElement(tv, "programme", 
-                                            start=rounded_start.strftime("%Y%m%d%H%M%S -0500"),
-                                            stop=end.strftime("%Y%m%d%H%M%S -0500"),
-                                            channel="CITYNEWS247")  # Use channel ID
-
-            # Step 4.12: Add the title element for the program
-            title_elem = ET.SubElement(programme_elem, "title", lang="en")
-            hour = rounded_start.strftime("%I").lstrip('0')  # Get the hour in 12-hour format, remove leading zero
-            title_elem.text = f"City News 24/7 at {hour}"  # Format the title
-            
-            # Step 4.13: Add a description element for the program
-            description_elem = ET.SubElement(programme_elem, "description")
-            description_elem.text = f"Show Description {program + 1 + day * programs_per_day}"
-
-    # Step 4.14: Return the generated XML as a string
+    # Step 4.13: Convert the generated XML structure to a string and return it
     return ET.tostring(tv, encoding='unicode')
 
 # Step 5: Function for pretty printing the XML (to make it more readable)
 def pretty_print(xml_string):
     xml_dom = minidom.parseString(xml_string)
-    return xml_dom.toprettyxml(indent="  ").strip()  # Remove leading/trailing whitespace
+    pretty_xml = xml_dom.toprettyxml(indent="  ").strip()
+    
+    # Step 5.1: Remove unwanted newlines from <channel> tags explicitly
+    pretty_xml = re.sub(r'(<channel[^>]*>)(\n\s*)*(<\/channel>)', r'\1\3', pretty_xml)
+    
+    return pretty_xml
 
 # Step 6: Function to save the generated EPG XML to a file
 def save_epg_to_file(num_days=3, programs_per_day=5):
@@ -119,6 +123,6 @@ def save_epg_to_file(num_days=3, programs_per_day=5):
     except Exception as e:
         print(f"Error saving EPG data: {e}")  # Print error message
         sys.exit(1)  # Exit if there's an error
-
+        
 # Step 7: Run the function to generate and save the EPG XML
 save_epg_to_file(num_days=3, programs_per_day=5)  # You can adjust num_days and programs_per_day as needed
