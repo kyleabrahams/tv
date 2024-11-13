@@ -27,6 +27,9 @@ http://b1g.pw:80/DD/DD/613252
 #EXTINF:-1,USA A&E 
 http://streamsy.online:2999/live/xxx/212.m3u8"
 #EXTINF:-1,CNN
+# Working Nov 13 2024
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/cnn.us.m3u8
+# Working Nov 13 2024
 http://fortv.cc:8080/xxx/47213
 #EXTINF:-1,USA Grit TV
 http://streamsy.online:2999/xxx/734
@@ -36,6 +39,16 @@ http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
 https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8?checkedby:iptvcat.com"
 #EXTINF:-1,CNBC 
 http://fl2.moveonjoy.com/CNBC/index.m3u8
+
+#EXTINF:-1,Adult Swim (East)
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/aseast.us.m3u8
+#EXTINF:-1,Adult Swim (West)
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/aswest.us.m3u8
+#EXTINF:-1,TCM (East)
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tcmeast.us.m3u8
+#EXTINF:-1,TCM (West)
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tcmwest.us.m3u8
+
 
 #EXTINF:-1,CA : APTN
 http://fortv.cc:8080/xxx/57320

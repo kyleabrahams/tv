@@ -5,7 +5,7 @@ http://cord-cutter.net:8080/86528893/Hootbynight/57257
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 13 1103 a
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 13 311 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITYNEWS247" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -258,6 +258,8 @@ https://jmp2.uk/sam-US900002IH.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181&checkedby:iptvcat.net
 #EXTINF:-1 tvg-id="643054b1fc3be59477853717-626c1753ffda6789d20a452e" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Series",Anger Management
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
+#EXTINF:-1 tvg-id="609bfa51fbecc1000733152e" tvg-logo="https://i.ibb.co/J3qNtnc/Jersey-Shore.png" group-title="Series",Jersey Shore by Pluto TV 
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609bfa51fbecc1000733152e/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
 #EXTINF:0 tvg-id="USBB2900002Z7" tvg-country="CA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen
 https://jmp2.uk/sam-USBB2900002Z7.m3u8
 #EXTINF:-1 tvg-id="USBB1900002KF" tvg-name="US Real America's Voice (STV)" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900002KF_20240520T222747SQUARE.png" group-title="News",US Real America's Voice
@@ -390,8 +392,14 @@ https://jmp2.uk/sam-CAAJ27000135F.m3u8
 https://jmp2.uk/sam-INBA4900027A9.m3u8
 #EXTINF:-1 tvg-id="USBB800001O7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB800001O7_20240520T214624SQUARE.png" group-title="",PBS Digital Studios
 https://jmp2.uk/sam-USBB800001O7.m3u8
-#EXTINF:-1 tvg-id="CAAJ27000079E" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="",Filmrise True Crime
+#EXTINF:-1 tvg-id="CAAJ27000079E" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",Filmrise True Crime
 https://jmp2.uk/sam-CAAJ27000079E.m3u8
+#EXTINF:-1 tvg-id="USBB3200020ID" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200020ID_20240520T222641SQUARE.png" group-title="Movies",FilmRise Action
+https://jmp2.uk/sam-USBB3200020ID.m3u8
+#EXTINF:-1 tvg-id="USAJ40000072X" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ40000072X_20240520T222643SQUARE.png" group-title="Movies",FilmRise Free Movies
+https://jmp2.uk/sam-USAJ40000072X.m3u8
+#EXTINF:-1 tvg-id="USBB32000196O" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20240520T222645SQUARE.png" group-title="Classics",FilmRise Western
+https://jmp2.uk/sam-USBB32000196O.m3u8
 #EXTINF:-1 tvg-id="USBD700022M5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful
 https://jmp2.uk/sam-USBD700022M5.m3u8
 #EXTINF:-1 tvg-id="USBC6000108Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20240722T230856SQUARE.png" group-title="Home & Food",BBC Food
