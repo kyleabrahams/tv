@@ -5,7 +5,7 @@ http://cord-cutter.net:8080/86528893/Hootbynight/57257
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 13 311 a
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 13 320 a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITYNEWS247" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -258,7 +258,7 @@ https://jmp2.uk/sam-US900002IH.m3u8
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181&checkedby:iptvcat.net
 #EXTINF:-1 tvg-id="643054b1fc3be59477853717-626c1753ffda6789d20a452e" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Series",Anger Management
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
-#EXTINF:-1 tvg-id="609bfa51fbecc1000733152e" tvg-logo="https://i.ibb.co/J3qNtnc/Jersey-Shore.png" group-title="Series",Jersey Shore by Pluto TV 
+#EXTINF:-1 tvg-id="609bfa51fbecc1000733152e" tvg-logo="https://i.ibb.co/S0LsyHm/Jersey-Shore-2.png" group-title="Series",Jersey Shore
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609bfa51fbecc1000733152e/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
 #EXTINF:0 tvg-id="USBB2900002Z7" tvg-country="CA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen
 https://jmp2.uk/sam-USBB2900002Z7.m3u8
