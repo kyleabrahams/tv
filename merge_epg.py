@@ -11,18 +11,36 @@ from time import sleep
 # sudo nginx -s reload
 # python3 merge_epg.py
 
+# Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
+# npm run grab -- --site=xumo.tv
+
 # https://i.mjh.nz/
 # http://10.0.0.30:8080/epg.xml
 
-# Step 1: Run the external script
-external_script_path = "/Users/kyleabrahams/Documents/GitHub/tv/dummy_epg.py"
+# Step 1.1: Define the npm command and arguments
+command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
 
 try:
-    subprocess.run(["python3", external_script_path], check=True)
-    print(f"Successfully ran the external script: {external_script_path}")
-except subprocess.CalledProcessError as e:
-    print(f"Error running the external script: {e}")
-    exit(1)
+    # Run the command and stream its output in real-time
+    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    
+    # Read and display progress from stdout
+    for line in process.stdout:
+        print(f"Progress: {line.strip()}")  # Echo progress
+
+    # Wait for the process to finish
+    process.wait()
+
+    if process.returncode == 0:
+        print("Command completed successfully.")
+        print("success")
+    else:
+        print("Command failed.")
+        print("Error:", process.stderr.read())
+
+except Exception as e:
+    print(f"An error occurred: {e}")
+
 
 # Step 2: List of EPG source URLs to merge
 epg_urls = [
@@ -57,15 +75,21 @@ epg_urls = [
 save_path = "/usr/local/var/www/epg.xml"  # Path to be served by Nginx
 gz_directory = "/usr/local/var/www/"  # Change this to your .gz files directory
 
-# Step 4: Set up logging to only log errors (failures)
-logging.basicConfig(
-    level=logging.ERROR,  # Log only errors and above
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(),  # Logs to the console
-        logging.FileHandler('merge_epg.log')  # Logs to a file named merge_epg.log
-    ]
-)
+
+# Step 4: Set up logging
+class SuccessFilter(logging.Filter):
+    def filter(self, record):
+        return "EPG file successfully saved" in record.getMessage()
+
+logger = logging.getLogger()
+file_handler = logging.FileHandler('merge_epg.log')
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+file_handler.addFilter(SuccessFilter())
+logger.addHandler(file_handler)
+logger.setLevel(logging.INFO)
+
+logger.info("Starting EPG merge process...")
+
 
 # Step 5: Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total):
@@ -111,6 +135,7 @@ def fetch_epg_data(url, index, total):
             print(f"Error processing local file {url}: {e}")
         return None
     
+
 # Step 6: Function to extract XML from .gz files
 def extract_gz_files(gz_directory):
     extracted_files = []
@@ -125,9 +150,11 @@ def extract_gz_files(gz_directory):
                 extracted_files.append(extracted_file)
     return extracted_files
 
+
 # Step 7: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
 total_files = len(epg_urls)
+
 
 # Step 8: Process each EPG URL
 for index, url in enumerate(epg_urls):
@@ -136,6 +163,7 @@ for index, url in enumerate(epg_urls):
         for element in epg_tree.getroot():
             merged_root.append(element)
     sleep(0.5)  # Small delay to simulate and visualize progress
+
 
 # Step 9: Extract XML from .gz files
 print("Extracting XML from .gz files...")
@@ -149,12 +177,19 @@ for xml_file in extracted_files:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
-# Step 10: Save the merged EPG file
+
+# Step 10: Save the merged EPG file and log success
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    logging.info(f"EPG file successfully saved to {save_path}")
-    print(f"EPG file successfully saved to {save_path}")  # Echo success to console
+    
+    # Log success message
+    success_message = f"EPG file successfully saved to {save_path}"
+    logging.info(success_message)  # Log to merge_epg.log
+    print(success_message)  # Echo success to console
+
 except Exception as e:
-    logging.error(f"Failed to save EPG file - Error: {e}")
-    print(f"Failed to save EPG file - Error: {e}")  # Echo error to console
+    # Log error if save fails
+    error_message = f"Failed to save EPG file - Error: {e}"
+    logging.error(error_message)
+    print(error_message)
