@@ -1,3 +1,4 @@
 # Epg.xml
-epg.xml
+*.xml
+!important.xml
 node_modules
