@@ -4,8 +4,8 @@ import logging
 import os
 import gzip
 import io
+import subprocess  # Add this import to resolve the error
 from time import sleep
-import subprocess  
 
 # See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
@@ -27,8 +27,8 @@ except subprocess.CalledProcessError as e:
 # Step 2: List of EPG source URLs to merge
 epg_urls = [
     # Add your local file path here
-    "/usr/local/var/www/dummy.xml",  # Local file to merge
-    "/Users/kyleabrahams/Documents/GitHub/epg/xumo.xml",
+    "/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml",  # Local file to merge
+    "/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz",
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml",
