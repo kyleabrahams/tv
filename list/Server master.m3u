@@ -15,6 +15,12 @@ https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5f
 #EXTINF:-1,CBC Toronto 1
 http://vo01.mohdtv.com:8880/xxx/30213
 #EXTINF:-1,NBC Buffalo 
+# Working Nov 15 2024
+http://ultrapremium.cloud:8080/xxx/35369
+# Down Nov 15 2024
+http://fortv.cc:8080/xxx/120748
+#EXTINF:-1,NBC New York 
+# Working Nov 15 2024 (New York)
 http://185.150.191.249/NYNewYorkNBCWNBC/index.m3u8
 #EXTINF:-1,NBC Chicago 
 http://fl2.moveonjoy.com/NBC_EAST/index.m3u8
@@ -2598,7 +2604,7 @@ http://ultrapremium.cloud:8080/xxx/254740
 http://ultrapremium.cloud:8080/xxx/254741
 #EXTINF:-1,Evasion (ca)
 http://ultrapremium.cloud:8080/xxx/254742
-#EXTINF:-1,Family Channel ʜᴅ               Oct 18 2024 Broken
+#EXTINF:-1,Family Channel HD               Oct 18 2024 Broken
 http://ultrapremium.cloud:8080/xxx/254743
 #EXTINF:-1,Family Junior (ca)
 http://ultrapremium.cloud:8080/xxx/254744
