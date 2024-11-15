@@ -71,7 +71,7 @@ def create_epg_xml(num_days=1, programs_per_day=5):
                 
                 # Step 4.8: Add title and description elements
                 title_elem = ET.SubElement(programme_elem, "title", lang="en")
-                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I %p').lstrip('0')}"
+                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"
                 description_elem = ET.SubElement(programme_elem, "description")
                 description_elem.text = f"Program Description for {channel_id}"
 
