@@ -1,10 +1,21 @@
-import { Logger, Timer, Storage, Collection } from '@freearhey/core'
-import { program } from 'commander'
-import { CronJob } from 'cron'
-import { QueueCreator, Job, ChannelsParser } from '../../core'
-import { Channel } from 'epg-grabber'
-import path from 'path'
-import { SITES_DIR } from '../../constants'
+// Logger: Used for logging messages, errors, and structured information during execution.
+import { Logger, Timer, Storage, Collection } from '@freearhey/core'  
+// Commander: Provides a way to define and parse command-line options.
+import { program } from 'commander'  
+// CronJob: Allows scheduling of tasks based on cron expressions.
+import { CronJob } from 'cron'  
+/// Custom modules for processing and managing job queues and parsing channel data:
+// QueueCreator: Responsible for creating job queues based on parsed channels.
+// Job: Defines and manages individual jobs within the queue.
+// ChannelsParser: Parses channel data from provided files.
+import { QueueCreator, Job, ChannelsParser } from '../../core'  
+// Channel: Represents a single channel from the EPG (Electronic Program Guide) data.
+import { Channel } from 'epg-grabber'  
+// Path: Provides utilities for handling and transforming file paths.
+import path from 'path'  
+// SITES_DIR: A constant defining the directory path where site-specific data (e.g., channels) are stored.
+import { SITES_DIR } from '../../constants'  
+
 
 program
   .option('-s, --site <name>', 'Name of the site to parse')

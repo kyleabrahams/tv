@@ -7,8 +7,6 @@ import sys  # For system operations
 import pytz  # For timezone handling
 import re  # For regular expressions
 
-
-
 # Run script
 # chmod +x dummy_epg.sh
 # python3 dummy_epg.py
@@ -45,11 +43,9 @@ def create_epg_xml(num_days=1, programs_per_day=5):
         "3": "Channel 3"
     }
     
-    # Step 4.3: Loop through the channel dictionary and create <channel> elements in a single line
+    # Step 4.3: Loop through the channel dictionary and create <channel> elements
     for channel_id, channel_name in channels.items():
-        # Step 4.3.1: Create <channel> element with the channel's ID in one line
         channel_elem = ET.SubElement(tv, "channel", id=channel_id)
-        # Step 4.3.2: Create <display-name> element inside <channel> for channel name
         display_name_elem = ET.SubElement(channel_elem, "display-name", lang="en")
         display_name_elem.text = channel_name
 
@@ -60,34 +56,26 @@ def create_epg_xml(num_days=1, programs_per_day=5):
 
     # Step 4.5: Loop through each day to generate program schedules
     for day in range(num_days):
-        # Step 4.6: Loop through each program slot for the day
         for program in range(programs_per_day):
-            # Step 4.6.1: Assign programs to all channels
             for channel_id in channels.keys():
-                # Step 4.7: Calculate the start time for each program
+                # Step 4.6: Calculate start and end times
                 program_start = start_time + timedelta(hours=program + day * programs_per_day)
-                
-                # Step 4.8: Round the start time to the nearest hour
                 rounded_start = program_start.replace(minute=0, second=0, microsecond=0)
-                
-                # Step 4.9: Calculate the end time as 1 hour after the rounded start time
                 end_time = rounded_start + timedelta(hours=1)
 
-                # Step 4.10: Create <programme> element for each program with time attributes
+                # Step 4.7: Create <programme> element
                 programme_elem = ET.SubElement(tv, "programme",
                                                start=rounded_start.strftime("%Y%m%d%H%M%S %z"),
                                                stop=end_time.strftime("%Y%m%d%H%M%S %z"),
                                                channel=channel_id)
                 
-                # Step 4.11: Add a <title> element to the program
+                # Step 4.8: Add title and description elements
                 title_elem = ET.SubElement(programme_elem, "title", lang="en")
                 title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I %p').lstrip('0')}"
-
-                # Step 4.12: Add a <description> element with program details
                 description_elem = ET.SubElement(programme_elem, "description")
                 description_elem.text = f"Program Description for {channel_id}"
 
-    # Step 4.13: Convert the generated XML structure to a string and return it
+    # Step 4.9: Convert the XML to a string
     return ET.tostring(tv, encoding='unicode')
 
 # Step 5: Function for pretty printing the XML (to make it more readable)
@@ -95,34 +83,37 @@ def pretty_print(xml_string):
     xml_dom = minidom.parseString(xml_string)
     pretty_xml = xml_dom.toprettyxml(indent="  ").strip()
     
-    # Step 5.1: Remove unwanted newlines from <channel> tags explicitly
+    # Remove unwanted newlines from <channel> tags
     pretty_xml = re.sub(r'(<channel[^>]*>)(\n\s*)*(<\/channel>)', r'\1\3', pretty_xml)
+
+    # Remove any additional <?xml ...?> declarations except the first one
+    pretty_xml = re.sub(r'(<\?xml.*\?>\n?)+', '', pretty_xml, count=1)
     
     return pretty_xml
 
-# Step 6: Function to save the generated EPG XML to a file
+# Step 6: Function to save the EPG XML to a file with the XML declaration
 def save_epg_to_file(num_days=3, programs_per_day=5):
-    # Step 6.1: Generate the EPG XML string using the `create_epg_xml` function
+    # Step 6.1: Generate and pretty-print the EPG XML
     epg_xml = create_epg_xml(num_days=num_days, programs_per_day=programs_per_day)
-    
-    # Step 6.2: Pretty print the XML to make it more human-readable
     pretty_xml = pretty_print(epg_xml)
 
-    # Step 6.3: Define the output directory and file name for the XML file
-    output_dir = "/Users/kyleabrahams/Documents/GitHub/tv"  # Change this path as needed
-    os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
-    
+    # Step 6.2: Add XML declaration manually for utf-8
+    pretty_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + pretty_xml
+
+    # Step 6.3: Define the output file path
+    output_dir = "/Users/kyleabrahams/Documents/GitHub/tv"
+    os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, "dummy.xml")
 
-    # Step 6.4: Try to save the XML to the file
+    # Step 6.4: Save the XML to the file
     try:
-        with open(output_file_path, "w") as xml_file:
-            xml_file.write(pretty_xml)  # Write the pretty XML to the file
-        print(f"EPG data saved to {output_file_path}")  # Print success message
-        return output_file_path  # Return the file path for confirmation
+        with open(output_file_path, "w", encoding="UTF-8") as xml_file:
+            xml_file.write(pretty_xml)
+        print(f"EPG data saved to {output_file_path}")
+        return output_file_path
     except Exception as e:
-        print(f"Error saving EPG data: {e}")  # Print error message
-        sys.exit(1)  # Exit if there's an error
-        
+        print(f"Error saving EPG data: {e}")
+        sys.exit(1)
+
 # Step 7: Run the function to generate and save the EPG XML
-save_epg_to_file(num_days=3, programs_per_day=5)  # You can adjust num_days and programs_per_day as needed
+save_epg_to_file(num_days=3, programs_per_day=5)
