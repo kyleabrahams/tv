@@ -17,6 +17,31 @@ from time import sleep
 # https://i.mjh.nz/
 # http://10.0.0.30:8080/epg.xml
 
+# Define paths
+dummy_epg_path = "/Users/kyleabrahams/Documents/GitHub/tv/dummy_epg.py"  # Update path
+
+# Function to run dummy_epg.py script
+def run_dummy_epg():
+    try:
+        result = subprocess.run(["python3", dummy_epg_path], check=True, capture_output=True, text=True)
+        print("dummy_epg.py executed successfully")
+        print(result.stdout)  # Output from dummy_epg.py
+    except subprocess.CalledProcessError as e:
+        print(f"Error while running dummy_epg.py: {e}")
+        print(e.stderr)
+
+# Main merge_epg function
+def merge_epg_data():
+    # Run dummy_epg.py first
+    run_dummy_epg()
+
+    # Proceed with your merge EPG logic...
+    print("Merging EPG data...")
+    # Your existing code for merging EPG data goes here...
+    
+# Run the entire process
+merge_epg_data()
+
 # Step 1.1: Define the npm command and arguments
 command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
 
@@ -92,49 +117,58 @@ logger.info("Starting EPG merge process...")
 
 
 # Step 5: Function to fetch and merge EPG data
-def fetch_epg_data(url, index, total):
+def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
     
-    if url.startswith('http'):  # For remote URLs
-        response = requests.get(url)
-        if response.status_code == 200:
-            try:
-                if url.endswith('.gz'):
-                    # Extract the XML content from the gzipped file
-                    with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-                        xml_content = gz.read()
-                    epg_tree = ET.ElementTree(ET.fromstring(xml_content))
-                else:
-                    epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                print(f"Successfully fetched {index + 1}/{total}")
-                logging.info(f"Successfully fetched {index + 1}/{total}")
-                return epg_tree
-            except ET.ParseError as e:
-                logging.error(f"XML parse error for {url}: {e}")
-                print(f"XML parse error for {url}: {e}")
-            except Exception as e:
-                logging.error(f"Error processing {url}: {e}")
-                print(f"Error processing {url}: {e}")
-        else:
-            logging.error(f"Error fetching {url}: {response.status_code}")
-            print(f"Error fetching {url}: {response.status_code}")
-        return None
-    
-    else:  # For local files
+    attempt = 0
+    while attempt < retries:
         try:
-            epg_tree = ET.parse(url)
-            print(f"Successfully loaded local file: {url}")
-            logging.info(f"Successfully loaded local file: {url}")
-            return epg_tree
-        except ET.ParseError as e:
-            logging.error(f"Failed to parse local XML file {url}: {e}")
-            print(f"Failed to parse local XML file {url}: {e}")
-        except Exception as e:
-            logging.error(f"Error processing local file {url}: {e}")
-            print(f"Error processing local file {url}: {e}")
-        return None
-    
+            if url.startswith('http'):  # Step 5.1: Handle remote URLs
+                response = requests.get(url, timeout=10)  # Timeout to avoid hanging
+                if response.status_code == 200:
+                    try:
+                        if url.endswith('.gz'):  # Step 5.2: Handle .gz files (compressed XML)
+                            with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
+                                xml_content = gz.read()
+                            epg_tree = ET.ElementTree(ET.fromstring(xml_content))
+                        else:
+                            epg_tree = ET.ElementTree(ET.fromstring(response.content))
+                        print(f"Successfully fetched {index + 1}/{total}")
+                        logging.info(f"Successfully fetched {index + 1}/{total}")
+                        return epg_tree
+                    except ET.ParseError as e:
+                        logging.error(f"XML parse error for {url}: {e}")
+                        print(f"XML parse error for {url}: {e}")
+                        return None
+                    except Exception as e:
+                        logging.error(f"Error processing {url}: {e}")
+                        print(f"Error processing {url}: {e}")
+                        return None
+                else:
+                    logging.error(f"Error fetching {url}: HTTP {response.status_code}")
+                    print(f"Error fetching {url}: HTTP {response.status_code}")
+                    return None
+            else:  # Step 5.3: Handle local XML files
+                try:
+                    epg_tree = ET.parse(url)
+                    print(f"Successfully loaded local file: {url}")
+                    logging.info(f"Successfully loaded local file: {url}")
+                    return epg_tree
+                except ET.ParseError as e:
+                    logging.error(f"Failed to parse local XML file {url}: {e}")
+                    print(f"Failed to parse local XML file {url}: {e}")
+                except Exception as e:
+                    logging.error(f"Error processing local file {url}: {e}")
+                    print(f"Error processing local file {url}: {e}")
+                return None
+
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+            print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+            attempt += 1
+            time.sleep(delay)  # Wait before retrying
+    return None  # Return None after all attempts fail    
 
 # Step 6: Function to extract XML from .gz files
 def extract_gz_files(gz_directory):
