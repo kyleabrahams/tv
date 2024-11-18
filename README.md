@@ -86,3 +86,30 @@ nginx-setup/
 ├── default.conf
 ├── install_nginx.sh
 └── README.md
+
+# /Users/kyleabrahams/Documents/GitHub/tv/
+├── core/
+│   └── index.js         # Contains the exampleFunction
+├── app.js               # Main app file importing from core
+├── node_modules/        # Installed dependencies
+├── package.json         # Npm configuration file
+├── install.sh           # Installation script
+└── other_files/         # Other files in the project
+
+# Grabber structure
+/project-root
+  ├── /src
+  │   ├── /core
+  │   │   ├── QueueCreator.ts
+  │   │   ├── Job.ts
+  │   │   ├── ChannelsParser.ts
+  │   ├── /sites
+  │   │   ├── <site-specific-files>
+  │   ├── constants.ts
+  │   ├── grabber.ts (your provided code)
+  ├── /test
+  │   ├── QueueCreator.test.ts
+  │   ├── Job.test.ts
+  │   ├── ChannelsParser.test.ts
+  ├── package.json
+  ├── tsconfig.json

@@ -6,6 +6,8 @@ import gzip
 import io
 import subprocess  # Add this import to resolve the error
 from time import sleep
+import sys # Used for venv_python
+
 
 # See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
@@ -17,13 +19,22 @@ from time import sleep
 # https://i.mjh.nz/
 # http://10.0.0.30:8080/epg.xml
 
-# Define paths
-dummy_epg_path = "/Users/kyleabrahams/Documents/GitHub/tv/dummy_epg.py"  # Update path
+# Relative path from the script to the virtual environment
+venv_python = sys.executable
+print(venv_python)
+import os
+
+# Get the directory of the current script of dummy_epg.py
+script_dir = os.path.dirname(os.path.realpath(__file__))
+# Construct the relative path
+dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
+print(dummy_epg_path)  # To verify the constructed path
 
 # Function to run dummy_epg.py script
 def run_dummy_epg():
     try:
-        result = subprocess.run(["python3", dummy_epg_path], check=True, capture_output=True, text=True)
+        # Use the virtual environment's Python interpreter
+        result = subprocess.run([venv_python, dummy_epg_path], check=True, capture_output=True, text=True)
         print("dummy_epg.py executed successfully")
         print(result.stdout)  # Output from dummy_epg.py
     except subprocess.CalledProcessError as e:
