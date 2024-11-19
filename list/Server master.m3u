@@ -8,6 +8,12 @@ http://67.220.74.90:25461/xxx/1710
 http://fortv.cc:8080/xxx/47332
 # Down Nov 13 2024
 http://streamsy.online:2999/xxx/143 
+# Working Nov 19 2024
+http://streamsy.online:2999/live/carlosbermudez/oZLRHZHL0z/143.m3u8
+# Working Nov 19 2024
+http://41.205.93.154:80/MSNBC/index.m3u8
+#EXTINF:-1,Fox Business News
+http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:-1,Global Toronto
 http://b1g.pw:80/xxx/621370
 #EXTINF:-1,Global Toronto
@@ -37,9 +43,13 @@ http://streamsy.online:2999/live/xxx/212.m3u8"
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/cnn.us.m3u8
 # Working Nov 13 2024
 http://fortv.cc:8080/xxx/47213
+# Working Nov 19 2024 No commercials
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1,HBO
 # Working Nov 19 2024
 http://152.89.62.76:8880/xxx/3032
+# Working Nov 19 2024
+http://41.205.93.154/HBO/index.m3u8
 # Down Nov 15 2024
 http://streamsy.online:2999/xxx/2012
 #EXTINF:-1,HBO2
@@ -47,6 +57,8 @@ http://streamsy.online:2999/xxx/2012
 http://152.89.62.76:8880/xxx/3031
 # Down Nov 15 2024
 http://streamsy.online:2999/xxx/2011
+# Working Nov 19 2024
+http://212.102.60.231/HBO_2/index.m3u8
 #EXTINF:-1,USA Grit TV
 http://streamsy.online:2999/xxx/734
 #EXTINF:-1,NickMusic USA
@@ -210,7 +222,7 @@ http://fortv.cc:8080/xxx/57310
 http://fortv.cc:8080/xxx/57322
 #EXTINF:-1,CA: CRAVE 4 HD
 http://fortv.cc:8080/xxx/57311
-#EXTINF:-1,CA: CRIME & INVESTIGATION
+#EXTINF:-1,CA: Crime + Investigation
 http://fortv.cc:8080/xxx/57256
 #EXTINF:-1,CA CTV Two Atlantic 
 http://fortv.cc:8080/xxx/79547
@@ -432,7 +444,7 @@ http://fortv.cc:8080/xxx/57295
 http://fortv.cc:8080/xxx/57369
 #EXTINF:-1,CA: Vision
 http://fortv.cc:8080/xxx/57468
-#EXTINF:-1,CA W Network East (E)
+#EXTINF:-1,CA W Network West (Nov 19 2024 active)
 http://fortv.cc:8080/xxx/57284
 #EXTINF:-1,CA: Weather Network Toronto
 http://fortv.cc:8080/xxx/57470
@@ -7872,6 +7884,11 @@ http://fl2.moveonjoy.com/CBSEAST/index.m3u8
 http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1,Cinemax
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
+#EXTINF:-1,Cinemax MoreMax
+http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
+#EXTINF:-1,Cinemax West
+http://fl2.moveonjoy.com/CINEMAX_WEST/index.m3u8
+
 #EXTINF:-1,CMT East
 http://fl3.moveonjoy.com/CMT/index.m3u8
 #EXTINF:-1,CNBC
@@ -8070,6 +8087,16 @@ http://fl2.moveonjoy.com/TLC/index.m3u8
 http://fl2.moveonjoy.com/TNT/index.m3u8
 #EXTINF:-1,truTV East
 http://fl2.moveonjoy.com/TRU_TV/index.m3u8
+#EXTINF:-1,TSN 1
+http://fl5.moveonjoy.com/TSN_1/index.m3u8
+#EXTINF:-1,TSN 2
+http://fl5.moveonjoy.com/TSN_2/index.m3u8
+#EXTINF:-1,TSN 3
+http://fl5.moveonjoy.com/TSN_3/index.m3u8
+#EXTINF:-1,TSN 4
+http://fl5.moveonjoy.com/TSN_4/index.m3u8
+#EXTINF:-1,TSN 5
+http://fl5.moveonjoy.com/TSN_5/index.m3u8
 #EXTINF:-1,TVLand
 http://fl2.moveonjoy.com/TV_Land/index.m3u8
 #EXTINF:-1,TVOne
