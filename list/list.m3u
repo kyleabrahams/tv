@@ -5,7 +5,7 @@ http://cord-cutter.net:8080/86528893/Hootbynight/57257
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 1110 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 205 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -118,7 +118,7 @@ http://fortv.cc:8080/105094817/105094817/57418
 #EXTINF:-1 tvg-id="CTV SCI-FI Channel SD" tvg-name="CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="",CTV SCI-FI
 http://fortv.cc:8080/105094817/105094817/57253
 #EXTINF:-1 tvg-id="Family Channel Canada - East HD.ca" tvg-name="Family HD" tvg-logo="https://static.wixstatic.com/media/5fdc83_e1391adcb7974448992baa7445f1d464~mv2.png/v1/fill/w_120,h_107,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/family_ball_logo.png" group-title="",Family HD
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/3040
+http://152.89.62.76:8880/48mc030005/96913392/3040
 #EXTINF:-1 tvg-id="MTV Canada.ca" tvg-name="" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="",MTV
 http://fortv.cc:8080/105094817/105094817/57368
 #EXTINF:-1 tvg-id="DTOUR HD.ca" tvg-name="Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR 
@@ -192,9 +192,9 @@ http://fortv.cc:8080/105094817/105094817/57349
 #EXTINF:-1 tvg-id="Disney Channel.us" tvg-name=":Disney Channel" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",USA Disney Channel East
 http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="HBO1.ca" tvg-name="HBO 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-1-ca.png?raw=true" group-title="",HBO
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/2012
+http://152.89.62.76:8880/48mc030005/96913392/3032
 #EXTINF:-1 tvg-id="HBO2.us" tvg-name="HBO 2 West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-2-ca.png?raw=true" group-title="",HBO2
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/2011
+http://152.89.62.76:8880/48mc030005/96913392/3031
 #EXTINF:-1 tvg-id="Cottage Life HD.ca" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life
 http://fortv.cc:8080/105094817/105094817/47217
 #EXTINF:-1 tvg-id="Animal Planet Canada HD.ca" tvg-name="Animal Planet" tvg-logo="https://i.ibb.co/rQbb4Sm/Animal-Planet-logo.png" group-title="",Animal Planet 
@@ -216,21 +216,13 @@ http://fortv.cc:8080/105094817/105094817/57270
 #EXTINF:-1 tvg-id="T+E Totally Entertaining.ca" tvg-name="Travel + Escape" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1897
 #EXTINF:-1 tvg-id="Hollywood Suite 70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 70's
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30104
+http://152.89.62.76:8880/48mc030005/96913392/30104
 #EXTINF:-1 tvg-id="Hollywood Suite 80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30227
+http://152.89.62.76:8880/48mc030005/96913392/30227
 #EXTINF:-1 tvg-id="Hollywood Suite 90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/30224
+http://152.89.62.76:8880/48mc030005/96913392/30224
 #EXTINF:-1 tvg-id="Hollywood Suite 00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's
-http://vo01.mohdtv.com:8880/voby0896/1sk1ja27/3034
-"#EXTINF:-1 tvg-id="Hollywood.Suite.70s.(70HSD).ca" tvg-name="CA | Hollywood Suite 70s" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies",CA | Hollywood Suite 70s
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1986"
-"#EXTINF:-1 tvg-id="Hollywood.Suite.80s.(HS80).ca" tvg-name="CA | Hollywood Suite 80s" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",CA | Hollywood Suite 80s
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1987"
-"#EXTINF:-1 tvg-id="Hollywood.Suite.90s.(HS90).ca" tvg-name="CA | Hollywood Suite 90s" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",CA | Hollywood Suite 90s
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1988"
-"#EXTINF:-1 tvg-id="Hollywood.Suite.2000s.(HS00).ca" tvg-name="CA | Hollywood Suite 2000s" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",CA | Hollywood Suite 2000s
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1985"
+http://152.89.62.76:8880/48mc030005/96913392/3034
 
 #EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="",-------|Samsung TV|-------
 https://jmp2.uk/sam-CABB260002016.m3u8
