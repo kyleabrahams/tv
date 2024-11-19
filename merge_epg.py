@@ -53,7 +53,7 @@ def merge_epg_data():
 # Run the entire process
 merge_epg_data()
 
-# Step 1.1: Define the npm command and arguments
+# Step 1.1: Define the npm command and arguments (requires npm install)
 command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
 
 try:
@@ -118,7 +118,7 @@ class SuccessFilter(logging.Filter):
         return "EPG file successfully saved" in record.getMessage()
 
 logger = logging.getLogger()
-file_handler = logging.FileHandler('merge_epg.log')
+file_handler = logging.FileHandler('/Users/kyleabrahams/Documents/GitHub/tv/log/merge_epg.log')
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 file_handler.addFilter(SuccessFilter())
 logger.addHandler(file_handler)
