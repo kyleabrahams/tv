@@ -68,17 +68,19 @@ def create_epg_xml(num_days=5, programs_per_day=24):
                                                stop=end_time.strftime("%Y%m%d%H%M%S %z"),
                                                channel=channel_id)
                 
-                # Step 4.8: Add title, sub-title, and description elements
+                # Step 4.8: Add title, (conditionally add sub-title), and description elements
                 title_elem = ET.SubElement(programme_elem, "title")
                 title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
 
-                sub_title_elem = ET.SubElement(programme_elem, "sub-title")
-                sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
+                # Conditionally add sub-title for City News 24/7 Toronto
+                if channel_id != "City News 24/7 Toronto":  # Only add sub-title for other channels
+                    sub_title_elem = ET.SubElement(programme_elem, "sub-title")
+                    sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
 
                 # Custom description for City News 24/7 Toronto
                 desc_elem = ET.SubElement(programme_elem, "desc")
                 if channel_id == "City News 24/7 Toronto":
-                    desc_elem.text = "Breaking news for the latest, weather, traffic, TTC updates, and stocks."
+                    desc_elem.text = "Toronto's breaking news for the latest, weather, traffic, TTC updates, and stocks."
                 else:
                     desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
 
