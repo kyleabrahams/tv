@@ -5,7 +5,7 @@ http://cord-cutter.net:8080/86528893/Hootbynight/57257
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 533 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 600 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -125,18 +125,24 @@ http://fortv.cc:8080/105094817/105094817/57368
 http://line.soy-pro.cc:80/live/3D61A9/166FCA/51773.m3u8
 #EXTINF:-1 tvg-id="Food Network (Canada)" tvg-name="Food Network" tvg-logo="https://i.ibb.co/YQLnwxt/Food-Network-Canada-2013-Logo.png" group-title="Home & Food",Food Network 
 http://fortv.cc:8080/105094817/105094817/57247
+#EXTINF:-1 tvg-id="Food Network (East).us" tvg-name="US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",USA Food Network 
+http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="BNN Bloomberg HD.ca" tvg-name="BNN Bloomberg" tvg-logo="https://i.ibb.co/DzV4K0S/bnn-bloomberg.png" group-title="News",BNN Bloomberg 
 http://fortv.cc:8080/105094817/105094817/57358
 #EXTINF:-1 tvg-id="ABC Spark" tvg-name="ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
 http://fortv.cc:8080/105094817/105094817/57375
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
 http://fortv.cc:8080/105094817/105094817/107960
+#EXTINF:-1 tvg-id="The Cooking Channel.us" tvg-name="US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",USA Cooking Channel 
+http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Vision TV Eastern.ca" tvg-name="Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
 http://fortv.cc:8080/105094817/105094817/57468
 #EXTINF:-1 tvg-id="PBS (WNED) Buffalo, NY.ca" tvg-name="PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS
 http://fortv.cc:8080/105094817/105094817/57276
 #EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name="E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",E! 
 http://fortv.cc:8080/105094817/105094817/57422
+#EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East).us" tvg-name="US E! Entertainment Television East USATV" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",USA E! Entertainment   
+http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 tvg-id="FXX Canada.ca" tvg-name="FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",FXX
 http://fortv.cc:8080/105094817/105094817/57429
 #EXTINF:-1 tvg-id="Treehouse TV" tvg-name="treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse
@@ -475,10 +481,6 @@ https://jmp2.uk/sam-CABB260002016.m3u8
 https://i.mjh.nz/discovery-hgtv.m3u8"
 #EXTINF:-1 tvg-id="FYI.us" tvg-name="US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",USA FYI
 http://fl2.moveonjoy.com/FYI/index.m3u8
-#EXTINF:-1 tvg-id="Food Network (East).us" tvg-name="US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",USA Food Network 
-http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="The Cooking Channel.us" tvg-name="US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",USA Cooking Channel 
-http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",USA Discovery Science 
 http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
 #EXTINF:-1 tvg-id="The Discovery Channel (East).us" tvg-name="US Discovery Channel East" tvg-logo="https://i.ibb.co/xX52N0d/Discovery-Channel-Logo-2019-1.png" group-title="",USA Discovery Channel  
@@ -561,8 +563,6 @@ https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
 https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?delay=10800
 #EXTINF:-1 tvg-id="MagnoliaNetworkEast.us" tvg-name="US DIY Network" tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="",USA DIY Network 
 http://fl2.moveonjoy.com/DIY/index.m3u8
-#EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East).us" tvg-name="US E! Entertainment Television East USATV" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",USA E! Entertainment   
-http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 tvg-id="FoxBusiness.us" tvg-name="US Fox Business Network USATV" tvg-logo="https://i.ibb.co/LC3XY5P/Fox-Business-Prime-1-1.png" group-title="",USA Fox Business 
 http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="US Fox News USATV" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="News",USA Fox News   
