@@ -80,7 +80,7 @@ def create_epg_xml(num_days=5, programs_per_day=24):
                 # Custom description for City News 24/7 Toronto
                 desc_elem = ET.SubElement(programme_elem, "desc")
                 if channel_id == "City News 24/7 Toronto":
-                    desc_elem.text = "Toronto's breaking news for the latest, weather, traffic, TTC updates, and stocks."
+                    desc_elem.text = "Toronto's breaking news for the latest, weather, traffic, TTC updates, sports, and stocks."
                 else:
                     desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
 
