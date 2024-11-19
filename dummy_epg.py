@@ -32,7 +32,7 @@ except ImportError:
 print("pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
-def create_epg_xml(num_days=1, programs_per_day=5):
+def create_epg_xml(num_days=5, programs_per_day=24):
     # Step 4.1: Create the root <tv> element with generator info attributes
     tv = ET.Element("tv", generator_info_name="none", generator_info_url="none")
 
@@ -92,7 +92,7 @@ def pretty_print(xml_string):
     return pretty_xml
 
 # Step 6: Function to save the EPG XML to a file with the XML declaration
-def save_epg_to_file(num_days=3, programs_per_day=5):
+def save_epg_to_file(num_days=5, programs_per_day=24):
     # Step 6.1: Generate and pretty-print the EPG XML
     epg_xml = create_epg_xml(num_days=num_days, programs_per_day=programs_per_day)
     pretty_xml = pretty_print(epg_xml)
@@ -116,4 +116,4 @@ def save_epg_to_file(num_days=3, programs_per_day=5):
         sys.exit(1)
 
 # Step 7: Run the function to generate and save the EPG XML
-save_epg_to_file(num_days=3, programs_per_day=5)
+save_epg_to_file(num_days=5, programs_per_day=24)
