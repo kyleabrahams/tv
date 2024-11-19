@@ -5,7 +5,7 @@ http://cord-cutter.net:8080/86528893/Hootbynight/57257
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 845 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 18 854 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CITYNEWS247" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -412,7 +412,7 @@ https://jmp2.uk/sam-USBD17000117B.m3u8
 https://jmp2.uk/sam-USBD17000025J.m3u8
 #EXTINF:-1 tvg-id="USBC39000204J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000204J_20240520T214814SQUARE.png" group-title="",Military Heroes
 https://jmp2.uk/sam-USBC39000204J.m3u8
-#EXTINF:-1 tvg-id="CABD1200013IH" tvg-name="World Poker Tour" tvg-logo="https://i.ibb.co/GTVwDrD/wpt-1.png" group-title="",World Poker Tour 
+#EXTINF:-1 tvg-id="CABD1200013IH" tvg-name="World Poker Tour" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200013IH_20230823T001850SQUARE.png_20230823001851.png" group-title="",World Poker Tour 
 https://jmp2.uk/sam-CABD1200013IH.m3u8
 
 #EXTINF:0 tvg-id="60f75771dfc72a00071fd0e0" tvg-country="CA" tvg-logo="https://i.ibb.co/MR6YB9Q/gunsmoke-brown.png" group-title="",Gunsmoke
@@ -549,9 +549,9 @@ http://streamsy.online:2999/live/Jaley1990/L6KomjzBxv/227.m3u8
 http://streamsy.online:2999/live/Jaley1990/L6KomjzBxv/252.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="Disney Channel USATV" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",USA Disney Channel 
 http://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="CMTEast.us" tvg-name="US CMT HD USATV" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",USA CMT 
+#EXTINF:-1 tvg-id="CMT Music.us" tvg-name="US CMT HD USATV" tvg-logo="https://i.ibb.co/pWVb076/CMT.png" group-title="",USA CMT 
 http://fl3.moveonjoy.com/CMT/index.m3u8
-#EXTINF:-1 tvg-id="Cable News Network HDTV" tvg-name="CA: CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
+#EXTINF:-1 tvg-id="Cable News Network" tvg-name="CA: CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 
 http://yesimes.oknirvana.club:8880/D12m2868/41792763/3056
 #EXTINF:-1 tvg-id="BBC News North America" tvg-name="BBC World News FHD" tvg-logo="https://c.files.bbci.co.uk/16B26/production/_96566929_bbc_wn_rgb.png" group-title="News",USA BBC World News
 http://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8

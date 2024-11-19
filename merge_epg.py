@@ -84,6 +84,7 @@ epg_urls = [
     "/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml",  # Local file to merge
     "/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml",
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
