@@ -12,7 +12,6 @@ import re  # For regular expressions
 # python3 dummy_epg.py
 
 # Step 1: Function to install packages
-# This function installs the required Python packages using pip
 def install_package(package_name):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
 
@@ -22,7 +21,7 @@ try:
 except ImportError:
     print("pytz not found. Installing...")
     try:
-        install_package("pytz")  # Attempt to install `pytz`
+        install_package("pytz")
         import pytz  # Import again after installation
     except subprocess.CalledProcessError as e:
         print(f"Failed to install pytz: {e}")
@@ -38,11 +37,11 @@ def create_epg_xml(num_days=5, programs_per_day=24):
 
     # Step 4.2: Define a dictionary of channels with their IDs and display names
     channels = {
-        "CITYNEWS247": "City News 24/7",
+        "City News 24/7 Toronto": "City News 24/7",
         "2": "Channel 2",
         "3": "Channel 3"
     }
-    
+
     # Step 4.3: Loop through the channel dictionary and create <channel> elements
     for channel_id, channel_name in channels.items():
         channel_elem = ET.SubElement(tv, "channel", id=channel_id)
@@ -50,7 +49,7 @@ def create_epg_xml(num_days=5, programs_per_day=24):
         display_name_elem.text = channel_name
 
     # Step 4.4: Get the current UTC time and convert to Eastern Time
-    utc_now = datetime.utcnow().replace(tzinfo=pytz.UTC)  # Current time in UTC
+    utc_now = datetime.now(pytz.UTC)  # Current time in UTC
     eastern = pytz.timezone('US/Eastern')  # Define Eastern Time zone
     start_time = utc_now.astimezone(eastern)  # Convert UTC to localized Eastern Time
 
@@ -69,11 +68,19 @@ def create_epg_xml(num_days=5, programs_per_day=24):
                                                stop=end_time.strftime("%Y%m%d%H%M%S %z"),
                                                channel=channel_id)
                 
-                # Step 4.8: Add title and description elements
-                title_elem = ET.SubElement(programme_elem, "title", lang="en")
-                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"
-                description_elem = ET.SubElement(programme_elem, "description")
-                description_elem.text = f"Program Description for {channel_id}"
+                # Step 4.8: Add title, sub-title, and description elements
+                title_elem = ET.SubElement(programme_elem, "title")
+                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
+
+                sub_title_elem = ET.SubElement(programme_elem, "sub-title")
+                sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
+
+                # Custom description for City News 24/7 Toronto
+                desc_elem = ET.SubElement(programme_elem, "desc")
+                if channel_id == "City News 24/7 Toronto":
+                    desc_elem.text = "Breaking news for the latest, weather, traffic, TTC updates, and stocks."
+                else:
+                    desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
 
     # Step 4.9: Convert the XML to a string
     return ET.tostring(tv, encoding='unicode')
