@@ -37,6 +37,35 @@ http://streamsy.online:2999/xxx/143
 http://streamsy.online:2999/live/carlosbermudez/oZLRHZHL0z/143.m3u8
 # Working Nov 19 2024
 http://41.205.93.154:80/MSNBC/index.m3u8
+
+
+#EXTINF:-1,CTV Toronto
+# Working Nov 20 2024
+http://fortv.cc:8080/xxx/47296
+# Working Nov 20 2024
+http://cord-cutter.net:8080/xxx/47296
+# Working Nov 20 2024
+http://xxip25.top:8080/xxx/47296
+# Working Nov 20 2024
+http://tvmate.icu:8080/xxx/47296
+# No user/pass Nov 20 2024
+http://vo01.mohdtv.com:8880/xxx/30196
+# No user/pass Nov 20 2024
+http://mohdtv.com:8880/xxx/30196
+#EXTINF:-1,CA118:CTV Toronto
+http://yesimes.oknirvana.club:8880/xxx/30196
+# Working Nov 20 2024
+http://152.89.62.76:8880/xxx/30196
+#EXTINF:-1,CTV Toronto (ca)
+http://ultrapremium.cloud:8080/xxx/254736
+# No user/pass Nov 20 2024
+http://iptvtree.net:8080/xxx/298187
+#EXTINF:-1,CA | CTV TORONTO
+http://streamsy.online:2999/xxx/2010
+#EXTINF:-1 ,CA CTV Toronto HD (R)
+http://lunar.pm:8080/xxx/99960
+
+
 #EXTINF:-1,Fox Business News
 http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:-1,Global Toronto
@@ -46,7 +75,7 @@ https://live.corusdigitaldev.com/groupd/live/deb8cec5-87fb-460a-ab82-0929374fc5f
 #EXTINF:-1,CBC Toronto 1
 http://vo01.mohdtv.com:8880/xxx/30213
 #EXTINF:-1,NBC Buffalo 
-# Working Nov 15 2024
+# Unstable Nov 15 2024
 http://ultrapremium.cloud:8080/xxx/35369
 # Down Nov 15 2024
 http://fortv.cc:8080/xxx/120748
@@ -223,6 +252,14 @@ http://fortv.cc:8080/xxx/57398
 http://fortv.cc:8080/xxx/47213
 #EXTINF:-1,CA Cottage Life HD (B)
 http://fortv.cc:8080/xxx/47217
+#EXTINF:-1,CP24
+http://fortv.cc:8080/xxx/57401
+#EXTINF:-1,CP24
+http://fortv.cc:8080/xxx/57345
+#EXTINF:-1,CP24
+http://fortv.cc:8080/xxx/47218
+#EXTINF:-1,CP24
+http://fortv.cc:8080/xxx/57357
 #EXTINF:-1,CA: CPAC
 http://fortv.cc:8080/xxx/57402
 #EXTINF:-1,CA: CPAC English
@@ -2487,94 +2524,6 @@ http://mohdtv.com:8880/xxx/65933
 #EXTINF:-1,CA225:Rogers TV Bathurst
 http://mohdtv.com:8880/xxx/49994
 
-#EXTINF:-1,CA: AMC HD
-http://ultrapremium.cloud:8080/xxx/31707
-#EXTINF:-1,CA: BNN HD
-http://ultrapremium.cloud:8080/xxx/31708
-#EXTINF:-1,CA: Bravo TV HD
-http://ultrapremium.cloud:8080/xxx/31709
-#EXTINF:-1,CA: CBC MONTEREAL
-http://ultrapremium.cloud:8080/xxx/31710
-#EXTINF:-1,CA: CBC Toronto
-http://ultrapremium.cloud:8080/xxx/31711
-#EXTINF:-1,CA: CBC Toronto HD
-http://ultrapremium.cloud:8080/xxx/31712
-#EXTINF:-1,CA: CBC Windsor HD
-http://ultrapremium.cloud:8080/xxx/31713
-#EXTINF:-1,CA: CBC Winnipeg HD
-http://ultrapremium.cloud:8080/xxx/31714
-#EXTINF:-1,CA: CHCH HD
-http://ultrapremium.cloud:8080/xxx/31715
-#EXTINF:-1,CA: Comedy HD
-http://ultrapremium.cloud:8080/xxx/31716
-#EXTINF:-1,CA: CP24 HD
-http://ultrapremium.cloud:8080/xxx/31717
-#EXTINF:-1,CA: CPAC HD
-http://ultrapremium.cloud:8080/xxx/31718
-#EXTINF:-1,CA: Discovery Science
-http://ultrapremium.cloud:8080/xxx/31719
-#EXTINF:-1,CA: Disney JR HD
-http://ultrapremium.cloud:8080/xxx/31720
-#EXTINF:-1,CA: Fight Network HD
-http://ultrapremium.cloud:8080/xxx/31721
-#EXTINF:-1,CA: FX FHD
-http://ultrapremium.cloud:8080/xxx/31722
-#EXTINF:-1,CA: Showcase HD
-http://ultrapremium.cloud:8080/xxx/31723
-#EXTINF:-1,CA: FXX
-http://ultrapremium.cloud:8080/xxx/31724
-#EXTINF:-1,CA: Global FHD
-http://ultrapremium.cloud:8080/xxx/31725
-#EXTINF:-1,CA: HBO 2 HD
-http://ultrapremium.cloud:8080/xxx/31726
-#EXTINF:-1,CA: Lifetime FHD
-http://ultrapremium.cloud:8080/xxx/31727
-#EXTINF:-1,CA: National Geographic HD
-http://ultrapremium.cloud:8080/xxx/31728
-#EXTINF:-1,CA: Peachtree HD
-http://ultrapremium.cloud:8080/xxx/31729
-#EXTINF:-1,CA: Slice HD
-http://ultrapremium.cloud:8080/xxx/31730
-#EXTINF:-1,CA: Treehouse
-http://ultrapremium.cloud:8080/xxx/31731
-#EXTINF:-1,CA: TLC HD
-http://ultrapremium.cloud:8080/xxx/31732
-#EXTINF:-1,CA: TSN 1 HD
-http://ultrapremium.cloud:8080/xxx/31733
-#EXTINF:-1,CA: TSN 2 HD
-http://ultrapremium.cloud:8080/xxx/31734
-#EXTINF:-1,CA: TSN 3 FHD
-http://ultrapremium.cloud:8080/xxx/31735
-#EXTINF:-1,CA: TSN 4 FHD
-http://ultrapremium.cloud:8080/xxx/31736
-#EXTINF:-1,CA: CBC Montreal
-http://ultrapremium.cloud:8080/xxx/31737
-#EXTINF:-1,CA: meteo media
-http://ultrapremium.cloud:8080/xxx/31738
-#EXTINF:-1,CA: Disney
-http://ultrapremium.cloud:8080/xxx/31739
-#EXTINF:-1,CA: RDI
-http://ultrapremium.cloud:8080/xxx/31740
-#EXTINF:-1,CA: RDS Info
-http://ultrapremium.cloud:8080/xxx/31741
-#EXTINF:-1,CA: Super Ecran 1
-http://ultrapremium.cloud:8080/xxx/31742
-#EXTINF:-1,CA: Super Ecran 2
-http://ultrapremium.cloud:8080/xxx/31743
-#EXTINF:-1,CA: Super Ecran 3
-http://ultrapremium.cloud:8080/xxx/31744
-#EXTINF:-1,CA: Super Ecran 4
-http://ultrapremium.cloud:8080/xxx/31745
-#EXTINF:-1,CA: Zeste
-http://ultrapremium.cloud:8080/xxx/31746
-#EXTINF:-1,CA: TMN 2
-http://ultrapremium.cloud:8080/xxx/31747
-#EXTINF:-1,CA: VRAK TV
-http://ultrapremium.cloud:8080/xxx/31748
-#EXTINF:-1,CA: Z-Tele
-http://ultrapremium.cloud:8080/xxx/31749
-#EXTINF:-1,CA: TV5 Quebec
-http://ultrapremium.cloud:8080/xxx/31750
 #EXTINF:-1,ABC Spark (ca)
 http://ultrapremium.cloud:8080/xxx/254710
 #EXTINF:-1,AMC (ca)
