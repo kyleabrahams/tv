@@ -5,7 +5,7 @@ http://fortv.cc:8080/105094817/105094817/57357
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 1030 a
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 1203 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -228,7 +228,7 @@ http://152.89.62.76:8880/48mc030005/96913392/30224
 #EXTINF:-1 tvg-id="Hollywood Suite 00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's
 http://152.89.62.76:8880/48mc030005/96913392/3034
 
-#EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="",-------|Samsung TV|-------
+#EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-------|Samsung TV|-------
 https://jmp2.uk/sam-CABB260002016.m3u8
 #EXTINF:-1 tvg-id="USBC4400004KK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
 https://jmp2.uk/sam-USBC4400004KK.m3u8
@@ -238,6 +238,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://jmp2.uk/sam-CA1400005SO.m3u8
 #EXTINF:-1 tvg-id="CA14000028T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20240702T044804SQUARE.png" group-title="Home & Food",CTV @ Home
 https://jmp2.uk/sam-CA14000028T.m3u8
+#EXTINF:-1 channel-id="CABD1200043OK" tvg-id="CABD1200043OK" tvg-chno="1320" tvg-name="CBC Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20241105T181119SQUARE.png" group-title="Comedy",CBC Comedy
+https://jmp2.uk/sam-CABD1200043OK.m3u8
 #EXTINF:-1 tvg-id="150#99991232" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
 #EXTINF:-1 tvg-id="USBC4400016CL" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20240918T124442SQUARE.png" group-title="Home & Food",The Jamie Oliver Channel
@@ -475,8 +477,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 
 
 
-#EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|USA|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="",------------|USA|------------
-https://jmp2.uk/sam-CABB260002016.m3u8
+#EXTINF:-1 tvg-id="CA7000015K" tvg-name="------|USA|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",------------|USA|------------
+https://jmp2.uk/sam-CA7000015K.m3u8
 "#EXTINF:-1 tvg-id="Home and Garden Television HDTV (East)" tvg-name="US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="",mjh HGTV 
 https://i.mjh.nz/discovery-hgtv.m3u8"
 #EXTINF:-1 tvg-id="FYI.us" tvg-name="US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",USA FYI
@@ -727,11 +729,11 @@ http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1604
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1607
 #EXTINF:-1 tvg-id="Sony Movie Channel.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",USA Sony Movie Channel
 http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8
-#EXTINF:-1 tvg-ID="Starz (East).us" tvg-name="| Starz Cinema HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="Movies",USA Starz 
+#EXTINF:-1 tvg-ID="Starz (East).us" tvg-name="Starz Cinema HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="Movies",USA Starz 
 http://fl2.moveonjoy.com/STARZ/index.m3u8
-#EXTINF:-1 tvg-ID="Starz Comedy (East).us" tvg-name="| Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
+#EXTINF:-1 tvg-ID="Starz Comedy (East).us" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
 http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
-#EXTINF:-1 tvg-ID="Starz Edge (East).us" tvg-name="| Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",USA Starz Edge FHD
+#EXTINF:-1 tvg-ID="Starz Edge (East).us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",USA Starz Edge FHD
 http://fl2.moveonjoy.com/STARZ_EDGE/index.m3u8
 #EXTINF:-1 tvg-id="STARZ ENCORE (East).us" tvg-name="Starz Encore East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-us.png?raw=true" group-title="Movies",USA Starz Encore 
 http://fl2.moveonjoy.com/STARZ_ENCORE/index.m3u8
@@ -747,9 +749,9 @@ http://fl2.moveonjoy.com/HBO_2/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1085"
 #EXTINF:-1 tvg-ID="HBO Signature (East).us" tvg-name="HBO" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-signature-us.png?raw=true" group-title="Movies",USA HBO Signature
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/156
-#EXTINF:-1 tvg-ID="HBO Zone (East).us" tvg-name="| HBO Zone HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-zone-us.png?raw=true" group-title="Movies",USA HBO Zone 
+#EXTINF:-1 tvg-ID="HBO Zone (East).us" tvg-name="HBO Zone HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-zone-us.png?raw=true" group-title="Movies",USA HBO Zone 
 http://fl2.moveonjoy.com/HBO_ZONE/index.m3u8
-#EXTINF:-1 tvg-ID="HBO Comedy (East).us" tvg-name="| HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",USA HBO Comedy 
+#EXTINF:-1 tvg-ID="HBO Comedy (East).us" tvg-name="HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",USA HBO Comedy 
 http://fl2.moveonjoy.com/HBO_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="HBO Family (East).us" tvg-name="HBO Family East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-family-us.png?raw=true" group-title="Movies",USA HBO Family 
 http://fl2.moveonjoy.com/HBO_FAMILY/index.m3u8
@@ -789,8 +791,8 @@ http://fortv.cc:8080/105094817/105094817/66243
 http://fortv.cc:8080/105094817/105094817/53539
 
 
-#EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Pluto Xumo|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="",---|Pluto,Xumo|---
-https://jmp2.uk/sam-CABB260002016.m3u8
+#EXTINF:-1 tvg-id="CA140001684" tvg-name="------|Pluto Xumo|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",---|Pluto,Xumo|---
+https://jmp2.uk/sam-CA140001684.m3u8
 #EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="",AKC TV Puppies 24/7
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-63e6381d8895074ec6c78b16" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
