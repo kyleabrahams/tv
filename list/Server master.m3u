@@ -1,5 +1,30 @@
 #EXTM3U
-#EXTINF:-1,USA MSNBC
+#EXTINF:-1,CP24
+# Working Nov 20 2024
+http://fortv.cc:8080/xxx/57401
+# Working Nov 20 2024
+http://fortv.cc:8080/xxx/57345
+# Working Nov 20 2024
+http://fortv.cc:8080/xxx/47218
+# Working Nov 20 2024
+http://fortv.cc:8080/xxx/57357
+# Unstable Nov 20 2024
+http://tvmate.icu:8080/xxx/57257
+# Sync Nov 20 2024
+http://cord-cutter.net:8080/xxx/57257
+# Working Nov 20 2024
+http://cord-cutter.net:8080/xxx/57401
+# Working Nov 20 2024
+http://cord-cutter.net:8080/xxx/57345
+# Working Nov 20 2024
+http://cord-cutter.net:8080/xxx/47218
+# Working Nov 20 2024
+http://152.89.62.76:8880/xxx/3053
+# No user/pass Nov 20 2024
+http://vo01.mohdtv.com:8880/xxx/3053
+
+
+#EXTINF:-1,MSNBC
 # Down Dec 2024
 http://fl2.moveonjoy.com/MSNBC/index.m3u8
 # Requires a special header for Tivimate Nov 13 2024 (Expiry Unknown)
@@ -198,16 +223,6 @@ http://fortv.cc:8080/xxx/57398
 http://fortv.cc:8080/xxx/47213
 #EXTINF:-1,CA Cottage Life HD (B)
 http://fortv.cc:8080/xxx/47217
-#EXTINF:-1,CA CP24 News HD (D)   (Oct 18 2024 unstable)
-http://fortv.cc:8080/xxx/57357
-#EXTINF:-1,CA CP24 News HD (E)   (Oct 18 2024 unstable)
-http://fortv.cc:8080/xxx/57401
-#EXTINF:-1,CA CP24 HD            (Oct 18 2024 unstable)
-http://fortv.cc:8080/xxx/57345
-#EXTINF:-1,CA: CP24 FHD          (Oct 18 2024 unstable)
-http://fortv.cc:8080/xxx/47218
-#EXTINF:-1,CA: CP24 HD           (Oct 18 2024 glitch)
-http://fortv.cc:8080/xxx/57257
 #EXTINF:-1,CA: CPAC
 http://fortv.cc:8080/xxx/57402
 #EXTINF:-1,CA: CPAC English
@@ -6295,7 +6310,7 @@ http://iptvtree.net:8080/xxx/298594
 http://iptvtree.net:8080/xxx/478
 #EXTINF:-1,CA: Cottage Life TV
 http://iptvtree.net:8080/xxx/477
-#EXTINF:-1,CA: CP 24
+#EXTINF:-1,CA: CP24
 http://iptvtree.net:8080/xxx/476
 #EXTINF:-1,CA: CPAC
 http://iptvtree.net:8080/xxx/475
