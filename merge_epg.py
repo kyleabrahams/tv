@@ -83,14 +83,14 @@ epg_urls = [
     # Add your local file path here
     "/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml",  # Local file to merge
     "/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml",
+    # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
+    # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
     "https://www.bevy.be/bevyfiles/canada.xml",
     "https://www.bevy.be/bevyfiles/canadapremium.xml",
     "https://www.bevy.be/bevyfiles/canadapremium2.xml",
     "https://www.bevy.be/bevyfiles/canadapremium3.xml",
-    # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
-    # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/SamsungTVPlus/ca.xml",
     "https://i.mjh.nz/SamsungTVPlus/us.xml",
     "https://i.mjh.nz/PlutoTV/all.xml",

@@ -1,0 +1,1692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator_info_name="none" generator_info_url="none">
+  <channel id="City News 24/7 Toronto">
+    <display-name lang="en">City News 24/7</display-name>
+  </channel>
+  <channel id="2">
+    <display-name lang="en">Channel 2</display-name>
+  </channel>
+  <channel id="3">
+    <display-name lang="en">Channel 3</display-name>
+  </channel>
+  <programme start="20241119230000 -0500" stop="20241120000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241119230000 -0500" stop="20241120000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
+  </programme>
+  <programme start="20241119230000 -0500" stop="20241120000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
+  </programme>
+  <programme start="20241120000000 -0500" stop="20241120010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120000000 -0500" stop="20241120010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
+  </programme>
+  <programme start="20241120000000 -0500" stop="20241120010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
+  </programme>
+  <programme start="20241120010000 -0500" stop="20241120020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120010000 -0500" stop="20241120020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
+  </programme>
+  <programme start="20241120010000 -0500" stop="20241120020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
+  </programme>
+  <programme start="20241120020000 -0500" stop="20241120030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120020000 -0500" stop="20241120030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
+  </programme>
+  <programme start="20241120020000 -0500" stop="20241120030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
+  </programme>
+  <programme start="20241120030000 -0500" stop="20241120040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120030000 -0500" stop="20241120040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
+  </programme>
+  <programme start="20241120030000 -0500" stop="20241120040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
+  </programme>
+  <programme start="20241120040000 -0500" stop="20241120050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120040000 -0500" stop="20241120050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
+  </programme>
+  <programme start="20241120040000 -0500" stop="20241120050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
+  </programme>
+  <programme start="20241120050000 -0500" stop="20241120060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120050000 -0500" stop="20241120060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
+  </programme>
+  <programme start="20241120050000 -0500" stop="20241120060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
+  </programme>
+  <programme start="20241120060000 -0500" stop="20241120070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120060000 -0500" stop="20241120070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
+  </programme>
+  <programme start="20241120060000 -0500" stop="20241120070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
+  </programme>
+  <programme start="20241120070000 -0500" stop="20241120080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120070000 -0500" stop="20241120080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
+  </programme>
+  <programme start="20241120070000 -0500" stop="20241120080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
+  </programme>
+  <programme start="20241120080000 -0500" stop="20241120090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120080000 -0500" stop="20241120090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
+  </programme>
+  <programme start="20241120080000 -0500" stop="20241120090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241120090000 -0500" stop="20241120100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120090000 -0500" stop="20241120100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241120090000 -0500" stop="20241120100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241120100000 -0500" stop="20241120110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120100000 -0500" stop="20241120110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241120100000 -0500" stop="20241120110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241120110000 -0500" stop="20241120120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120110000 -0500" stop="20241120120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241120110000 -0500" stop="20241120120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241120120000 -0500" stop="20241120130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120120000 -0500" stop="20241120130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241120120000 -0500" stop="20241120130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241120130000 -0500" stop="20241120140000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120130000 -0500" stop="20241120140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241120130000 -0500" stop="20241120140000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241120140000 -0500" stop="20241120150000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120140000 -0500" stop="20241120150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241120140000 -0500" stop="20241120150000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241120150000 -0500" stop="20241120160000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120150000 -0500" stop="20241120160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241120150000 -0500" stop="20241120160000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241120160000 -0500" stop="20241120170000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120160000 -0500" stop="20241120170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241120160000 -0500" stop="20241120170000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241120170000 -0500" stop="20241120180000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120170000 -0500" stop="20241120180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241120170000 -0500" stop="20241120180000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241120180000 -0500" stop="20241120190000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120180000 -0500" stop="20241120190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241120180000 -0500" stop="20241120190000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241120190000 -0500" stop="20241120200000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120190000 -0500" stop="20241120200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241120190000 -0500" stop="20241120200000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241120200000 -0500" stop="20241120210000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120200000 -0500" stop="20241120210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241120200000 -0500" stop="20241120210000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241120210000 -0500" stop="20241120220000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120210000 -0500" stop="20241120220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241120210000 -0500" stop="20241120220000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241120220000 -0500" stop="20241120230000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120220000 -0500" stop="20241120230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241120220000 -0500" stop="20241120230000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
+  </programme>
+  <programme start="20241120230000 -0500" stop="20241121000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241120230000 -0500" stop="20241121000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
+  </programme>
+  <programme start="20241120230000 -0500" stop="20241121000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
+  </programme>
+  <programme start="20241121000000 -0500" stop="20241121010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121000000 -0500" stop="20241121010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
+  </programme>
+  <programme start="20241121000000 -0500" stop="20241121010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
+  </programme>
+  <programme start="20241121010000 -0500" stop="20241121020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121010000 -0500" stop="20241121020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
+  </programme>
+  <programme start="20241121010000 -0500" stop="20241121020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
+  </programme>
+  <programme start="20241121020000 -0500" stop="20241121030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121020000 -0500" stop="20241121030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
+  </programme>
+  <programme start="20241121020000 -0500" stop="20241121030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
+  </programme>
+  <programme start="20241121030000 -0500" stop="20241121040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121030000 -0500" stop="20241121040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
+  </programme>
+  <programme start="20241121030000 -0500" stop="20241121040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
+  </programme>
+  <programme start="20241121040000 -0500" stop="20241121050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121040000 -0500" stop="20241121050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
+  </programme>
+  <programme start="20241121040000 -0500" stop="20241121050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
+  </programme>
+  <programme start="20241121050000 -0500" stop="20241121060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121050000 -0500" stop="20241121060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
+  </programme>
+  <programme start="20241121050000 -0500" stop="20241121060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
+  </programme>
+  <programme start="20241121060000 -0500" stop="20241121070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121060000 -0500" stop="20241121070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
+  </programme>
+  <programme start="20241121060000 -0500" stop="20241121070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
+  </programme>
+  <programme start="20241121070000 -0500" stop="20241121080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121070000 -0500" stop="20241121080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
+  </programme>
+  <programme start="20241121070000 -0500" stop="20241121080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
+  </programme>
+  <programme start="20241121080000 -0500" stop="20241121090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121080000 -0500" stop="20241121090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
+  </programme>
+  <programme start="20241121080000 -0500" stop="20241121090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241121090000 -0500" stop="20241121100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121090000 -0500" stop="20241121100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241121090000 -0500" stop="20241121100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241121100000 -0500" stop="20241121110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121100000 -0500" stop="20241121110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241121100000 -0500" stop="20241121110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241121110000 -0500" stop="20241121120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121110000 -0500" stop="20241121120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241121110000 -0500" stop="20241121120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241121120000 -0500" stop="20241121130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121120000 -0500" stop="20241121130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241121120000 -0500" stop="20241121130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241121130000 -0500" stop="20241121140000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121130000 -0500" stop="20241121140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241121130000 -0500" stop="20241121140000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241121140000 -0500" stop="20241121150000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121140000 -0500" stop="20241121150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241121140000 -0500" stop="20241121150000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241121150000 -0500" stop="20241121160000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121150000 -0500" stop="20241121160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241121150000 -0500" stop="20241121160000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241121160000 -0500" stop="20241121170000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121160000 -0500" stop="20241121170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241121160000 -0500" stop="20241121170000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241121170000 -0500" stop="20241121180000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121170000 -0500" stop="20241121180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241121170000 -0500" stop="20241121180000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241121180000 -0500" stop="20241121190000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121180000 -0500" stop="20241121190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241121180000 -0500" stop="20241121190000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241121190000 -0500" stop="20241121200000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121190000 -0500" stop="20241121200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241121190000 -0500" stop="20241121200000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241121200000 -0500" stop="20241121210000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121200000 -0500" stop="20241121210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241121200000 -0500" stop="20241121210000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241121210000 -0500" stop="20241121220000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121210000 -0500" stop="20241121220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241121210000 -0500" stop="20241121220000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241121220000 -0500" stop="20241121230000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121220000 -0500" stop="20241121230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241121220000 -0500" stop="20241121230000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
+  </programme>
+  <programme start="20241121230000 -0500" stop="20241122000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241121230000 -0500" stop="20241122000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
+  </programme>
+  <programme start="20241121230000 -0500" stop="20241122000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
+  </programme>
+  <programme start="20241122000000 -0500" stop="20241122010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122000000 -0500" stop="20241122010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
+  </programme>
+  <programme start="20241122000000 -0500" stop="20241122010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
+  </programme>
+  <programme start="20241122010000 -0500" stop="20241122020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122010000 -0500" stop="20241122020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
+  </programme>
+  <programme start="20241122010000 -0500" stop="20241122020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
+  </programme>
+  <programme start="20241122020000 -0500" stop="20241122030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122020000 -0500" stop="20241122030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
+  </programme>
+  <programme start="20241122020000 -0500" stop="20241122030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
+  </programme>
+  <programme start="20241122030000 -0500" stop="20241122040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122030000 -0500" stop="20241122040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
+  </programme>
+  <programme start="20241122030000 -0500" stop="20241122040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
+  </programme>
+  <programme start="20241122040000 -0500" stop="20241122050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122040000 -0500" stop="20241122050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
+  </programme>
+  <programme start="20241122040000 -0500" stop="20241122050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
+  </programme>
+  <programme start="20241122050000 -0500" stop="20241122060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122050000 -0500" stop="20241122060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
+  </programme>
+  <programme start="20241122050000 -0500" stop="20241122060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
+  </programme>
+  <programme start="20241122060000 -0500" stop="20241122070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122060000 -0500" stop="20241122070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
+  </programme>
+  <programme start="20241122060000 -0500" stop="20241122070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
+  </programme>
+  <programme start="20241122070000 -0500" stop="20241122080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122070000 -0500" stop="20241122080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
+  </programme>
+  <programme start="20241122070000 -0500" stop="20241122080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
+  </programme>
+  <programme start="20241122080000 -0500" stop="20241122090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122080000 -0500" stop="20241122090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
+  </programme>
+  <programme start="20241122080000 -0500" stop="20241122090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241122090000 -0500" stop="20241122100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122090000 -0500" stop="20241122100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241122090000 -0500" stop="20241122100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241122100000 -0500" stop="20241122110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122100000 -0500" stop="20241122110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241122100000 -0500" stop="20241122110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241122110000 -0500" stop="20241122120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122110000 -0500" stop="20241122120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241122110000 -0500" stop="20241122120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241122120000 -0500" stop="20241122130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122120000 -0500" stop="20241122130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241122120000 -0500" stop="20241122130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241122130000 -0500" stop="20241122140000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122130000 -0500" stop="20241122140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241122130000 -0500" stop="20241122140000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241122140000 -0500" stop="20241122150000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122140000 -0500" stop="20241122150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241122140000 -0500" stop="20241122150000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241122150000 -0500" stop="20241122160000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122150000 -0500" stop="20241122160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241122150000 -0500" stop="20241122160000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241122160000 -0500" stop="20241122170000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122160000 -0500" stop="20241122170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241122160000 -0500" stop="20241122170000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241122170000 -0500" stop="20241122180000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122170000 -0500" stop="20241122180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241122170000 -0500" stop="20241122180000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241122180000 -0500" stop="20241122190000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122180000 -0500" stop="20241122190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241122180000 -0500" stop="20241122190000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241122190000 -0500" stop="20241122200000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122190000 -0500" stop="20241122200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241122190000 -0500" stop="20241122200000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241122200000 -0500" stop="20241122210000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122200000 -0500" stop="20241122210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241122200000 -0500" stop="20241122210000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241122210000 -0500" stop="20241122220000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122210000 -0500" stop="20241122220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241122210000 -0500" stop="20241122220000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241122220000 -0500" stop="20241122230000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122220000 -0500" stop="20241122230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241122220000 -0500" stop="20241122230000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
+  </programme>
+  <programme start="20241122230000 -0500" stop="20241123000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241122230000 -0500" stop="20241123000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
+  </programme>
+  <programme start="20241122230000 -0500" stop="20241123000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
+  </programme>
+  <programme start="20241123000000 -0500" stop="20241123010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123000000 -0500" stop="20241123010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
+  </programme>
+  <programme start="20241123000000 -0500" stop="20241123010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
+  </programme>
+  <programme start="20241123010000 -0500" stop="20241123020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123010000 -0500" stop="20241123020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
+  </programme>
+  <programme start="20241123010000 -0500" stop="20241123020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
+  </programme>
+  <programme start="20241123020000 -0500" stop="20241123030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123020000 -0500" stop="20241123030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
+  </programme>
+  <programme start="20241123020000 -0500" stop="20241123030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
+  </programme>
+  <programme start="20241123030000 -0500" stop="20241123040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123030000 -0500" stop="20241123040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
+  </programme>
+  <programme start="20241123030000 -0500" stop="20241123040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
+  </programme>
+  <programme start="20241123040000 -0500" stop="20241123050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123040000 -0500" stop="20241123050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
+  </programme>
+  <programme start="20241123040000 -0500" stop="20241123050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
+  </programme>
+  <programme start="20241123050000 -0500" stop="20241123060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123050000 -0500" stop="20241123060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
+  </programme>
+  <programme start="20241123050000 -0500" stop="20241123060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
+  </programme>
+  <programme start="20241123060000 -0500" stop="20241123070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123060000 -0500" stop="20241123070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
+  </programme>
+  <programme start="20241123060000 -0500" stop="20241123070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
+  </programme>
+  <programme start="20241123070000 -0500" stop="20241123080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123070000 -0500" stop="20241123080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
+  </programme>
+  <programme start="20241123070000 -0500" stop="20241123080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
+  </programme>
+  <programme start="20241123080000 -0500" stop="20241123090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123080000 -0500" stop="20241123090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
+  </programme>
+  <programme start="20241123080000 -0500" stop="20241123090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241123090000 -0500" stop="20241123100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123090000 -0500" stop="20241123100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241123090000 -0500" stop="20241123100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241123100000 -0500" stop="20241123110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123100000 -0500" stop="20241123110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241123100000 -0500" stop="20241123110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241123110000 -0500" stop="20241123120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123110000 -0500" stop="20241123120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241123110000 -0500" stop="20241123120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241123120000 -0500" stop="20241123130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123120000 -0500" stop="20241123130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241123120000 -0500" stop="20241123130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241123130000 -0500" stop="20241123140000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123130000 -0500" stop="20241123140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241123130000 -0500" stop="20241123140000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241123140000 -0500" stop="20241123150000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123140000 -0500" stop="20241123150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241123140000 -0500" stop="20241123150000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241123150000 -0500" stop="20241123160000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123150000 -0500" stop="20241123160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241123150000 -0500" stop="20241123160000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241123160000 -0500" stop="20241123170000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123160000 -0500" stop="20241123170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241123160000 -0500" stop="20241123170000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241123170000 -0500" stop="20241123180000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123170000 -0500" stop="20241123180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241123170000 -0500" stop="20241123180000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241123180000 -0500" stop="20241123190000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123180000 -0500" stop="20241123190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241123180000 -0500" stop="20241123190000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241123190000 -0500" stop="20241123200000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123190000 -0500" stop="20241123200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241123190000 -0500" stop="20241123200000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241123200000 -0500" stop="20241123210000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123200000 -0500" stop="20241123210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241123200000 -0500" stop="20241123210000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241123210000 -0500" stop="20241123220000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123210000 -0500" stop="20241123220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241123210000 -0500" stop="20241123220000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241123220000 -0500" stop="20241123230000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123220000 -0500" stop="20241123230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241123220000 -0500" stop="20241123230000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
+  </programme>
+  <programme start="20241123230000 -0500" stop="20241124000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241123230000 -0500" stop="20241124000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
+  </programme>
+  <programme start="20241123230000 -0500" stop="20241124000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
+  </programme>
+  <programme start="20241124000000 -0500" stop="20241124010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124000000 -0500" stop="20241124010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
+  </programme>
+  <programme start="20241124000000 -0500" stop="20241124010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
+  </programme>
+  <programme start="20241124010000 -0500" stop="20241124020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124010000 -0500" stop="20241124020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
+  </programme>
+  <programme start="20241124010000 -0500" stop="20241124020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
+  </programme>
+  <programme start="20241124020000 -0500" stop="20241124030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124020000 -0500" stop="20241124030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
+  </programme>
+  <programme start="20241124020000 -0500" stop="20241124030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
+  </programme>
+  <programme start="20241124030000 -0500" stop="20241124040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124030000 -0500" stop="20241124040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
+  </programme>
+  <programme start="20241124030000 -0500" stop="20241124040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
+  </programme>
+  <programme start="20241124040000 -0500" stop="20241124050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124040000 -0500" stop="20241124050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
+  </programme>
+  <programme start="20241124040000 -0500" stop="20241124050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
+  </programme>
+  <programme start="20241124050000 -0500" stop="20241124060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124050000 -0500" stop="20241124060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
+  </programme>
+  <programme start="20241124050000 -0500" stop="20241124060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
+  </programme>
+  <programme start="20241124060000 -0500" stop="20241124070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124060000 -0500" stop="20241124070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
+  </programme>
+  <programme start="20241124060000 -0500" stop="20241124070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
+  </programme>
+  <programme start="20241124070000 -0500" stop="20241124080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124070000 -0500" stop="20241124080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
+  </programme>
+  <programme start="20241124070000 -0500" stop="20241124080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
+  </programme>
+  <programme start="20241124080000 -0500" stop="20241124090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124080000 -0500" stop="20241124090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
+  </programme>
+  <programme start="20241124080000 -0500" stop="20241124090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241124090000 -0500" stop="20241124100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124090000 -0500" stop="20241124100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241124090000 -0500" stop="20241124100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241124100000 -0500" stop="20241124110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124100000 -0500" stop="20241124110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241124100000 -0500" stop="20241124110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241124110000 -0500" stop="20241124120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124110000 -0500" stop="20241124120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241124110000 -0500" stop="20241124120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241124120000 -0500" stop="20241124130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124120000 -0500" stop="20241124130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241124120000 -0500" stop="20241124130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241124130000 -0500" stop="20241124140000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124130000 -0500" stop="20241124140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241124130000 -0500" stop="20241124140000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241124140000 -0500" stop="20241124150000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124140000 -0500" stop="20241124150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241124140000 -0500" stop="20241124150000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241124150000 -0500" stop="20241124160000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124150000 -0500" stop="20241124160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241124150000 -0500" stop="20241124160000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241124160000 -0500" stop="20241124170000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124160000 -0500" stop="20241124170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241124160000 -0500" stop="20241124170000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241124170000 -0500" stop="20241124180000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124170000 -0500" stop="20241124180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241124170000 -0500" stop="20241124180000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241124180000 -0500" stop="20241124190000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124180000 -0500" stop="20241124190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241124180000 -0500" stop="20241124190000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241124190000 -0500" stop="20241124200000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124190000 -0500" stop="20241124200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241124190000 -0500" stop="20241124200000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241124200000 -0500" stop="20241124210000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124200000 -0500" stop="20241124210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241124200000 -0500" stop="20241124210000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241124210000 -0500" stop="20241124220000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124210000 -0500" stop="20241124220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241124210000 -0500" stop="20241124220000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241124220000 -0500" stop="20241124230000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241124220000 -0500" stop="20241124230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241124220000 -0500" stop="20241124230000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
+  </programme>
+</tv>
