@@ -4,7 +4,7 @@ The project is designed to merge multiple EPG XML files into a single XML file t
 
 *See Android TV sheets doc, nginx tab for epg.xml creation frequency,
 
-## Step 1a. Installation of Nginx in Terminal for a (http:/localhost:8080/epg.xml)
+# Step 1a. Installation of Nginx in Terminal for http:/localhost:8080/epg.xml
 chmod +x install_nginx.sh
 ./install_nginx.sh
 

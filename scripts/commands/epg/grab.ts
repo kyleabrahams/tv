@@ -17,27 +17,16 @@ import path from 'path'
 import { SITES_DIR } from '../../constants'  
 
 
+// Define command-line options with Commander
 program
   .option('-s, --site <name>', 'Name of the site to parse')
-  .option(
-    '-c, --channels <path>',
-    'Path to *.channels.xml file (required if the "--site" attribute is not specified)'
-  )
+  .option('-c, --channels <path>', 'Path to *.channels.xml file (required if the "--site" attribute is not specified)')
   .option('-o, --output <path>', 'Path to output file', 'xumo.xml')
   .option('-l, --lang <code>', 'Filter channels by language (ISO 639-2 code)')
   .option('-t, --timeout <milliseconds>', 'Override the default timeout for each request')
   .option('-d, --delay <milliseconds>', 'Override the default delay between request')
-  .option(
-    '--days <days>',
-    'Override the number of days for which the program will be loaded (defaults to the value from the site config)',
-    value => parseInt(value)
-  )
-  .option(
-    '--maxConnections <number>',
-    'Limit on the number of concurrent requests',
-    value => parseInt(value),
-    1
-  )
+  .option('--days <days>', 'Override the number of days for which the program will be loaded')
+  .option('--maxConnections <number>', 'Limit on the number of concurrent requests', value => parseInt(value), 1)
   .option('--cron <expression>', 'Schedule a script run (example: "0 0 * * *")')
   .option('--gzip', 'Create a compressed version of the guide as well', false)
   .parse(process.argv)
@@ -57,17 +46,18 @@ export type GrabOptions = {
 
 const options: GrabOptions = program.opts()
 
+// Main function where the process starts
 async function main() {
+  // Step 1: Ensure that either site or channels path is provided
   if (!options.site && !options.channels)
     throw new Error('One of the arguments must be presented: `--site` or `--channels`')
 
   const logger = new Logger()
-
   logger.start('starting...')
-
   logger.info('config:')
   logger.tree(options)
 
+  // Step 2: Load the channel files based on provided site or channel path
   logger.info('loading channels...')
   const storage = new Storage()
   const parser = new ChannelsParser({ storage })
@@ -81,41 +71,50 @@ async function main() {
     files = await storage.list(options.channels)
   }
 
+  // Step 3: Parse the loaded channels into a collection
   let parsedChannels = new Collection()
   for (const filepath of files) {
     parsedChannels = parsedChannels.concat(await parser.parse(filepath))
   }
+
+  // Step 4: Filter channels based on the specified language (if provided)
   if (options.lang) {
     parsedChannels = parsedChannels.filter((channel: Channel) => channel.lang === options.lang)
   }
+
   logger.info(`  found ${parsedChannels.count()} channel(s)`)
 
   let runIndex = 1
+
+  // Step 5: Set up a cron job to schedule the job execution every 6 hours
   if (options.cron) {
-    const cronJob = new CronJob(options.cron, async () => {
+    const cronJob = new CronJob('0 */6 * * *', async () => {  // Cron expression for every 6 hours
       logger.info(`run #${runIndex}:`)
       await runJob({ logger, parsedChannels })
       runIndex++
     })
-    cronJob.start()
+    cronJob.start()  // Start the cron job
   } else {
+    // Step 6: If no cron job, run the job immediately
     logger.info(`run #${runIndex}:`)
     runJob({ logger, parsedChannels })
   }
 }
 
-main()
-
+// Function that runs the job
 async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChannels: Collection }) {
   const timer = new Timer()
   timer.start()
 
+  // Step 7: Create a queue based on the parsed channels
   const queueCreator = new QueueCreator({
     parsedChannels,
     logger,
     options
   })
   const queue = await queueCreator.create()
+
+  // Step 8: Create and execute the job
   const job = new Job({
     queue,
     logger,
@@ -124,5 +123,9 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
 
   await job.run()
 
+  // Log the completion time
   logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
+// Execute the main function
+main()
