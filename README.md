@@ -1,38 +1,36 @@
 # EPG Merger
 
-This project merges multiple EPG XML files into a single XML file found locally on the computer with the cloned repo.
+The project is designed to merge multiple EPG XML files into a single XML file that is stored locally on the computer where the repository is cloned. This process helps consolidate EPG data for easier access and management.
 
 *See Android TV sheets doc, nginx tab for epg.xml creation frequency,
 
-## Step 1. Installation of Nginx in Terminal for a (http:/localhost:8080/epg.xml)
+## Step 1a. Installation of Nginx in Terminal for a (http:/localhost:8080/epg.xml)
 chmod +x install_nginx.sh
 ./install_nginx.sh
 
-## Step 1a. Verify epg.xml works
-http:/localhost:8080/epg.xml
-
-## Step 1b. Uninstallation of Nginx in Terminal for removing the local epg.xml
+## Step 1b. To uninstall Nginx and remove the local epg.xml, run:
 chmod +x uninstall_nginx.sh
 ./uninstall_nginx.sh
 
-## Step 2. Setup crontab to help schedule when to refresh epg.xml (macOS)
-## Step 2a. Terminal command:
+
+## Step 2. Verify epg.xml is accessible via:
+http:/localhost:8080/epg.xml
+
+
+# Step 3. Schedule EPG Merges with Cron (macOS)
+## Step 3a. Open crontab via Terminal command:
 crontab -e
 
-## Step 2b. Copy & Paste:
+## Step 3b. Add the following cron jobs:
 
-# Run EPG merge script every 6 hours and log output
+## Run EPG merge script every 6 hours and log output
 0 */6 * * * /usr/local/bin/python3 /path/to/Github/tv/merge_epg.py >> /path/to/Documents/Github/tv/epg_merge.log 2>&1
 
 # Reload Nginx every 6 hours after the EPG update and log output
 5 */6 * * * sudo nginx -s reload >> /path/to/Documents/Github/tv/nginx_reload.log 2>&1
 
-## Step 2c. Terminal command to complete:
+## Step 3c. Save and close with
 Esc, :wq, Enter
-
-## Step 3. Install install_pureFTP.sh in Terminal:
-chmod +x install_pureFTP.sh
-./install_pureFTP.sh
 
 
 ## Terminal command to manually merge xml urls into one big local epg.xml
