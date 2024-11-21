@@ -5,7 +5,7 @@ http://fortv.cc:8080/105094817/105094817/57357
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 714 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 803 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -31,16 +31,12 @@ https://jmp2.uk/sam-CABC2300009KD.m3u8
 http://fortv.cc:8080/105094817/105094817/57268
 #EXTINF:-1 tvg-id="CBS (WIVB) Buffalo, NY.ca" tvg-name="CBS 4 (WIVB) Buffalo USATV" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="",CBS Buffalo WIVB
 http://streamsy.online:2999/live/Jaley1990/L6KomjzBxv/719.m3u8
-"#EXTINF:-1 tvg-id="WSBK.(TV-38).Boston.us" tvg-name="CBS" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10098_dark_360w_270h.png" group-title="News",CBS
-http://fl2.moveonjoy.com/CBSEAST/index.m3u8"
 #EXTINF:-1 tvg-id="NBC (WGRZ) Buffalo, NY.ca" tvg-name="US602:NBC 2 (WGRZ) Buffalo WGRZ" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="",NBC Buffalo WGRZ
 http://ultrapremium.cloud:8080/944566453tv/28122021/35369
 "#EXTINF:-1 tvg-id="NBC.(WGRZ).Buffalo,.NY.us" tvg-name="NBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="News",NBC
 http://fl1.moveonjoy.com/NBC_EAST/index.m3u8"
 #EXTINF:-1 tvg-id="ABC (WKBW) Buffalo, NY.ca" tvg-name="ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="",ABC New York WKBW
 http://fortv.cc:8080/105094817/105094817/120876
-"#EXTINF:-1 tvg-id="ABC.(WOLO).Columbia,.SC.us" tvg-name="ABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="News",ABC
-http://fl1.moveonjoy.com/ABC_EAST/index.m3u8"
 #EXTINF:-1 tvg-id="CTV2 Windsor, ON.ca" tvg-name="CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
 http://fortv.cc:8080/105094817/105094817/58546
 #EXTINF:-1 tvg-id="CTV2 Windsor, ON.ca" tvg-name="CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor
@@ -894,7 +890,7 @@ http://fortv.cc:8080/105094817/105094817/18941
 #EXTINF:-1 tvg-id="50#99951142" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="Sports",Womens Sports Network
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Sky Sports Action" tvg-name="Sky Sports Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png" group-title="Sports" ,Sky Sports Action
+#EXTINF:-1 tvg-id="Sky Sports Action" tvg-name="Sky Sports Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png" group-title="Sports",Sky Sports Action
 https://xyzdddd.mizhls.ru/lb/premium37/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
 #EXTINF:-1 tvg-id="Sky Sports Main Event" tvg-name="Sky Sports Main Event" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Sky-sports-main-event.jpg" group-title="Sports" ,Sky Sports Main Event
 https://xyzdddd.mizhls.ru/lb/premium38/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
