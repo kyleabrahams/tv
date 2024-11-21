@@ -5,7 +5,7 @@ http://fortv.cc:8080/105094817/105094817/57357
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 1209 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 20 706 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -179,6 +179,8 @@ http://fortv.cc:8080/105094817/105094817/57444
 http://fortv.cc:8080/105094817/105094817/16201
 #EXTINF:-1 tvg-id="National Geographic Canada.ca" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",USA National Geographic 
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
+#EXTINF:-1 tvg-id="Curiosity.Channel(Stream).us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="",USA Curiosity Stream
+http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
 #EXTINF:-1 tvg-id="MovieTime HD.ca" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
 http://fortv.cc:8080/105094817/105094817/47331
 #EXTINF:-1 tvg-id="Magnolia Network Canada HD.ca" tvg-name="DIY Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="",Magonlia Network
@@ -188,7 +190,7 @@ http://fortv.cc:8080/105094817/105094817/47369
 #EXTINF:-1 tvg-id="USA Network HDTV (East).us" tvg-name="USA Network USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/1280px-USA_Network_logo_%282016%29.svg.png" group-title="",USA USA Network   
 http://fl2.moveonjoy.com/USA_Network/index.m3u8
 #EXTINF:-1 tvg-id="GSN (East).us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="",US Game Show Network
-https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live2/gsn_720p/playlist.m3u8
+http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
 http://fl3.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 #EXTINF:-1 tvg-id="Disney Junior Canada HD.ca" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 
@@ -717,13 +719,13 @@ http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxEast.us" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",USA Cinemax 
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
-#EXTINF:-1 tvg-id="OuterMax.east.us" tvg-name="OUTER MAX" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-outermax-us.png?raw=true" group-title="Movies",USA OuterMax
+#EXTINF:-1 tvg-id="OuterMax.east.us" tvg-name="OUTER MAX" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-outermax-us.png?raw=true" group-title="Movies",USA Cinemax OuterMax
 http://fl2.moveonjoy.com/OUTER_MAX/index.m3u8
-#EXTINF:-1 tvg-id="More Max (East).us" tvg-name="MoreMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true" group-title="Movies",USA MoreMax
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1204
-#EXTINF:-1 tvg-id="MovieMaxEast.us" tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",USA MovieMax
+#EXTINF:-1 tvg-id="More Max (East).us" tvg-name="MoreMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true" group-title="Movies",USA Cinemax MoreMax
+http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
+#EXTINF:-1 tvg-id="MovieMaxEast.us" tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",USA Cinemax MovieMax
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1605
-#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",USA ActionMax
+#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",USA Cinemax ActionMax
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1604
 #EXTINF:-1 tvg-id="ThrillerMaxEast.us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-thrillermax-us.png?raw=true" group-title="Movies",Cinemax ThrillerMax
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1607
@@ -745,8 +747,6 @@ http://fl2.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
 http://fl2.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="HBO 2 (West).us" tvg-name="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-2-ca.png?raw=true" group-title="",USA HBO2 West
 http://fl2.moveonjoy.com/HBO_2/index.m3u8
-"#EXTINF:-1 tvg-ID="HBO 2 (East).us" tvg-name="HBO" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hbo-2-ca.png?raw=true" group-title="Movies",USA HBO 2
-http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1085"
 #EXTINF:-1 tvg-ID="HBO Signature (East).us" tvg-name="HBO" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-signature-us.png?raw=true" group-title="Movies",USA HBO Signature
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/156
 #EXTINF:-1 tvg-ID="HBO Zone (East).us" tvg-name="HBO Zone HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-zone-us.png?raw=true" group-title="Movies",USA HBO Zone 

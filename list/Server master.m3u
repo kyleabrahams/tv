@@ -34,7 +34,7 @@ http://fortv.cc:8080/xxx/47332
 # Down Nov 13 2024
 http://streamsy.online:2999/xxx/143 
 # Working Nov 19 2024
-http://streamsy.online:2999/live/carlosbermudez/oZLRHZHL0z/143.m3u8
+http://streamsy.online:2999/live/xxxx/143.m3u8
 # Working Nov 19 2024
 http://41.205.93.154:80/MSNBC/index.m3u8
 
@@ -7804,253 +7804,90 @@ http://streamsy.online:2999/xxx/586
 #EXTINF:-1,USA | NBC Sports Washington
 
 
-#EXTINF:-1,ABC (WOLO)
+#EXTINF:-1,ABC
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1,ACC Network
-http://fl2.moveonjoy.com/ACC_NETWORK/index.m3u8
-#EXTINF:-1,AMC
-http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
-#EXTINF:-1,American Heroes Channel
-http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8
-#EXTINF:-1,Animal Planet
-http://fl2.moveonjoy.com/Animal_Planet/index.m3u8
-#EXTINF:-1,BBC America
-http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
-#EXTINF:-1,BBC World News
+#EXTINF:-1,BBC WORLD NEWS
 http://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
-#EXTINF:-1,beIN Sports
-http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
-#EXTINF:-1,BET
-http://fl2.moveonjoy.com/BET_EAST/index.m3u8
-#EXTINF:-1,BET Gospel
-http://fl2.moveonjoy.com/BET_GOSPEL/index.m3u8
-#EXTINF:-1,BET Her East
-http://fl2.moveonjoy.com/BET_HER/index.m3u8
-#EXTINF:-1,BET Jams
-http://fl3.moveonjoy.com/BET_Jams/index.m3u8
-#EXTINF:-1,BET Soul
-http://fl2.moveonjoy.com/BET_SOUL/index.m3u8
-#EXTINF:-1,Big Ten Network
-http://fl3.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
-#EXTINF:-1,Bloomberg
+#EXTINF:-1,BLOOMBERG
 http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
-#EXTINF:-1,Boomerang
-http://fl3.moveonjoy.com/BOOMERANG/index.m3u8
-#EXTINF:-1,Bounce
-http://fl3.moveonjoy.com/BOUNCE_TV/index.m3u8
-#EXTINF:-1,Bravo
-http://fl2.moveonjoy.com/BRAVO/index.m3u8
-#EXTINF:-1,Cartoon Network
-http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
-#EXTINF:-1,CBS (WBZ)
-http://fl2.moveonjoy.com/CBSEAST/index.m3u8
-#EXTINF:-1,CBS Sports Network
-http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
-#EXTINF:-1,Cinemax
-http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
-#EXTINF:-1,Cinemax MoreMax
-http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
-#EXTINF:-1,Cinemax West
-http://fl2.moveonjoy.com/CINEMAX_WEST/index.m3u8
-
-#EXTINF:-1,CMT East
-http://fl3.moveonjoy.com/CMT/index.m3u8
-#EXTINF:-1,CNBC
-http://fl3.moveonjoy.com/CNBC/index.m3u8
-#EXTINF:-1,CNN
-http://fl2.moveonjoy.com/CNN/index.m3u8
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1,Comedy Central
-http://fl3.moveonjoy.com/Comedy_Central/index.m3u8
-#EXTINF:-1,Cooking Channel
-http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1,C-SPAN
 http://fl2.moveonjoy.com/C-SPAN/index.m3u8
-#EXTINF:-1,Discovery Channel
-http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
-#EXTINF:-1,Discovery Family
-http://fl2.moveonjoy.com/DISCOVERY_Family_CHANNEL/index.m3u8
-#EXTINF:-1,Discovery Life
-http://fl2.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
-#EXTINF:-1,Disney Channel
-http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
-#EXTINF:-1,DisneyJr
-http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1,DisneyXD
-http://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
-#EXTINF:-1,E! Entertainment Television
-http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
-#EXTINF:-1,MGM+
-http://fl2.moveonjoy.com/EPIX/index.m3u8
-#EXTINF:-1,MGM+ 2
-http://fl2.moveonjoy.com/EPIX_2/index.m3u8
-#EXTINF:-1,MGM+ Drive-In
-http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
-#EXTINF:-1,MGM+ Hits
-http://fl2.moveonjoy.com/EPIX_HITS/index.m3u8
+#EXTINF:-1,CBS
+http://fl2.moveonjoy.com/CBSEAST/index.m3u8
+#EXTINF:-1,CBS News
+http://fl3.moveonjoy.com/CBS_News/index.m3u8
+#EXTINF:-1,CNBC FHD
+http://fl5.moveonjoy.com/CNBC/index.m3u8
+#EXTINF:-1,CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8
+#EXTINF:-1,CNN INTERNATIONAL
+http://fl2.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
+#EXTINF:-1,FOX
+http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1,FOX Business Network
+http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
+#EXTINF:-1,FOX News Channel
+http://streamsy.online:2999/live/xxxx/267.m3u8
+#EXTINF:-1,HLN
+http://fl2.moveonjoy.com/HLN/index.m3u8
+#EXTINF:-1,MSNBC
+http://streamsy.online:2999/live/xxxx/143.m3u8
+#EXTINF:-1,NBC
+http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
+#EXTINF:-1,NewsNation
+http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTINF:-1,Newsy
+http://fl3.moveonjoy.com/Newsy/index.m3u8
+#EXTINF:-1,Weather Channel
+http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
+#EXTINF:-1,ACC NETWORK
+http://fl2.moveonjoy.com/ACC_NETWORK/index.m3u8
+#EXTINF:-1,BEIN SPORTS
+http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
+#EXTINF:-1,Big Ten Network HD
+http://fl3.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
+#EXTINF:-1,CBS SPORTS NETWORK
+http://fl2.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
 #EXTINF:-1,ESPN
-http://fl1.moveonjoy.com/ESPN/index.m3u8
+http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:-1,ESPN 2
 http://fl2.moveonjoy.com/ESPN_2/index.m3u8
-#EXTINF:-1,ESPNews
+#EXTINF:-1,ESPN NEWS
 http://fl2.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1,ESPN U
 http://fl2.moveonjoy.com/ESPN_U/index.m3u8
-#EXTINF:-1,Food Network
-http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
-#EXTINF:-1,FOX (WFXT)
-http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
-#EXTINF:-1,FOX News Channel
-http://fl2.moveonjoy.com/FOX_News_Channel/index.m3u8
-http://streamsy.online:2999/live/xxx/267.m3u8
-#EXTINF:-1,FOX Soccer Plus
-http://fl2.moveonjoy.com/FOX_SOCCER_PLUS/index.m3u8
+#EXTINF:-1,FOX SOCCER PLUS
+http://streamsy.online:2999/live/xxxx/265.m3u8
 #EXTINF:-1,FS1
 http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
 #EXTINF:-1,FS2
-http://fl2.moveonjoy.com/FOX_Sports_2/index.m3u8
-#EXTINF:-1,Freeform East
-http://fl2.moveonjoy.com/FREE_FORM/index.m3u8
-#EXTINF:-1,Fuse
-http://fl2.moveonjoy.com/FUSE/index.m3u8
-#EXTINF:-1,FX East
-http://fl2.moveonjoy.com/FX/index.m3u8
-#EXTINF:-1,FXM
-http://fl2.moveonjoy.com/FX_MOVIE/index.m3u8
-#EXTINF:-1,FXX East
-http://fl2.moveonjoy.com/FXX/index.m3u8
-#EXTINF:-1,FYI East
-http://fl2.moveonjoy.com/FYI/index.m3u8
-#EXTINF:-1,getTV
-http://fl2.moveonjoy.com/GET_TV/index.m3u8
-#EXTINF:-1,Hallmark Channel East
-http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
-#EXTINF:-1,Hallmark Drama
-http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
-#EXTINF:-1,HBO East
-http://fl2.moveonjoy.com/HBO/index.m3u8
-#EXTINF:-1,HBO2 East
-http://fl2.moveonjoy.com/HBO_2/index.m3u8
-#EXTINF:-1,HBO Comedy East
-http://fl2.moveonjoy.com/HBO_COMEDY/index.m3u8
-#EXTINF:-1,HBO Family East
-http://fl2.moveonjoy.com/HBO_Family/index.m3u8
-#EXTINF:-1,HBO Zone East
-http://fl2.moveonjoy.com/HBO_Zone/index.m3u8
-#EXTINF:-1,HGTV East
-http://fl2.moveonjoy.com/HGTV/index.m3u8
-#EXTINF:-1,HLN
-http://fl2.moveonjoy.com/HLN/index.m3u8
-#EXTINF:-1,ID (Investigation Discovery) East
-http://fl2.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
-#EXTINF:-1,ION
-http://fl2.moveonjoy.com/ION_TV/index.m3u8
-#EXTINF:-1,Laff TV
-http://72.46.118.193/Laff/index.m3u8
-#EXTINF:-1,Lifetime East
-http://fl2.moveonjoy.com/LIFETIME/index.m3u8
-#EXTINF:-1,Lifetime Movies Network
-http://fl2.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
-#EXTINF:-1,Logo East
-http://fl3.moveonjoy.com/Logo/index.m3u8
-#EXTINF:-1,MeTV
-http://fl2.moveonjoy.com/ME_TV/index.m3u8
+http://streamsy.online:2999/xxxx/264
+#EXTINF:-1,LONGHORN NETWORK
+http://fl5.moveonjoy.com/LONGHORN_NETWORK/index.m3u8
+#EXTINF:-1,MAVTV
+http://fl2.moveonjoy.com/MAV_TV/index.m3u8
 #EXTINF:-1,MLB Network
 http://fl2.moveonjoy.com/MLB_NETWORK/index.m3u8
-#EXTINF:-1,MotorTrend
-http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
-#EXTINF:-1,MSNBC
-http://fl2.moveonjoy.com/MSNBC/index.m3u8
-#EXTINF:-1,MTV East
-http://fl2.moveonjoy.com/MTV/index.m3u8
-#EXTINF:-1,MTV2 East
-http://fl2.moveonjoy.com/MTV_2/index.m3u8
-#EXTINF:-1,MTV Classic
-http://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8
-#EXTINF:-1,MTV Live
-http://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
-#EXTINF:-1,mtvU
-http://fl2.moveonjoy.com/MTV_U/index.m3u8
-#EXTINF:-1,National Geographic East
-http://fl2.moveonjoy.com/National_Geographic/index.m3u8
-#EXTINF:-1,National Geographic Wild
-http://fl2.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1,NBA TV
 http://fl2.moveonjoy.com/NBA_TV/index.m3u8
-#EXTINF:-1,NBC East (Chicago)
-http://fl1.moveonjoy.com/NBC_EAST/index.m3u8
 #EXTINF:-1,NBC Golf
 http://fl2.moveonjoy.com/GOLF_CHANNEL/index.m3u8
-#EXTINF:-1,NewsNation
-http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:-1,NFL Network
 http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:-1,NHL Network
 http://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
-#EXTINF:-1,Nickelodeon East
-http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
-#EXTINF:-1,NickJr East
-http://fl2.moveonjoy.com/NICK_JR/index.m3u8
-#EXTINF:-1,NickMusic USA
-http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
-#EXTINF:-1,NickToons East
-http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
-#EXTINF:-1,Oprah Winfrey Network (OWN) East
-http://fl2.moveonjoy.com/OWN/index.m3u8
-#EXTINF:-1,Outdoor Channel
-http://fl2.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
-#EXTINF:-1,Oxygen East
-http://fl2.moveonjoy.com/OXYGEN/index.m3u8
-#EXTINF:-1,Paramount Network East
-http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
-#EXTINF:-1,PopTV East
-http://fl3.moveonjoy.com/Pop_TV/index.m3u8
-#EXTINF:-1,ReelzChannel
-http://fl2.moveonjoy.com/REELZ/index.m3u8
-#EXTINF:-1,Revolt
-http://fl2.moveonjoy.com/REVOLT/index.m3u8
+#EXTINF:-1,OUTSIDE TV
+http://fl2.moveonjoy.com/OUTSIDE_TV/index.m3u8
+#EXTINF:-1,Pursuit Channel
+http://fl3.moveonjoy.com/Pursuit_Channel/index.m3u8
 #EXTINF:-1,SEC Network
-http://fl2.moveonjoy.com/SEC_NETWORK/index.m3u8
-#EXTINF:-1,Showtime East
-http://fl2.moveonjoy.com/Showtime/index.m3u8
-#EXTINF:-1,Showtime 2 East
-http://fl2.moveonjoy.com/Showtime_2/index.m3u8
-#EXTINF:-1,Showtime Extreme East
-http://fl2.moveonjoy.com/Showtime_Extreme/index.m3u8
-#EXTINF:-1,Showtime Next East
-http://fl2.moveonjoy.com/Showtime_Next/index.m3u8
-#EXTINF:-1,Showtime Women East
-http://fl2.moveonjoy.com/Showtime_Women/index.m3u8
+http://streamsy.online:2999/xxxx/295
+#EXTINF:-1,Sportsman Channel
+http://fl2.moveonjoy.com/SPORTSMAN_CHANNEL/index.m3u8
 #EXTINF:-1,Stadium
 http://fl2.moveonjoy.com/STADIUM/index.m3u8
-#EXTINF:-1,Starz East
-http://fl2.moveonjoy.com/STARZ/index.m3u8
-#EXTINF:-1,Starz Comedy East
-http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
-#EXTINF:-1,Starz Edge East
-http://fl2.moveonjoy.com/STARZ_EDGE/index.m3u8
-#EXTINF:-1,Starz Encore East
-http://fl2.moveonjoy.com/STARZ_ENCORE/index.m3u8
-#EXTINF:-1,Starz Encore Action
-http://fl2.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
-#EXTINF:-1,Starz Encore Westerns
-http://fl2.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
-#EXTINF:-1,SundanceTV
-http://fl2.moveonjoy.com/SUNDANCE/index.m3u8
-#EXTINF:-1,SYFY East
-http://fl2.moveonjoy.com/SYFY/index.m3u8
-#EXTINF:-1,TBS East
-http://fl1.moveonjoy.com/TBS/index.m3u8
-#EXTINF:-1,TCM (Turner Classic Movies) East
-http://fl1.moveonjoy.com/TCM/index.m3u8
 #EXTINF:-1,Tennis Channel
 http://fl2.moveonjoy.com/TENNIS_CHANNEL/index.m3u8
-#EXTINF:-1,TLC (The Learning Channel) East
-http://fl2.moveonjoy.com/TLC/index.m3u8
-#EXTINF:-1,TNT East
-http://fl2.moveonjoy.com/TNT/index.m3u8
-#EXTINF:-1,truTV East
-http://fl2.moveonjoy.com/TRU_TV/index.m3u8
 #EXTINF:-1,TSN 1
 http://fl5.moveonjoy.com/TSN_1/index.m3u8
 #EXTINF:-1,TSN 2
@@ -8061,20 +7898,382 @@ http://fl5.moveonjoy.com/TSN_3/index.m3u8
 http://fl5.moveonjoy.com/TSN_4/index.m3u8
 #EXTINF:-1,TSN 5
 http://fl5.moveonjoy.com/TSN_5/index.m3u8
+#EXTINF:-1,YES Network
+http://fl2.moveonjoy.com/YES_NETWORK/index.m3u8
+#EXTINF:-1,AMC
+http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
+#EXTINF:-1,CINEMAX EAST
+http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
+#EXTINF:-1,CINEMAX MOREMAX
+http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
+#EXTINF:-1,CINEMAX WEST
+http://fl2.moveonjoy.com/CINEMAX_WEST/index.m3u8
+#EXTINF:-1,CRAVE 1
+http://fl3.moveonjoy.com/CRAVE_1/index.m3u8
+#EXTINF:-1,CRAVE 2
+http://fl2.moveonjoy.com/CRAVE_2/index.m3u8
+#EXTINF:-1,CRAVE 3
+http://fl3.moveonjoy.com/CRAVE_3/index.m3u8
+#EXTINF:-1,CRAVE 4
+http://fl2.moveonjoy.com/CRAVE_4/index.m3u8
+#EXTINF:-1,EPIX
+http://fl2.moveonjoy.com/EPIX/index.m3u8
+#EXTINF:-1,EPIX 2
+http://fl2.moveonjoy.com/EPIX_2/index.m3u8
+#EXTINF:-1,EPIX DRIVE IN
+http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
+#EXTINF:-1,EPIX HITS
+http://fl2.moveonjoy.com/EPIX_HITS/index.m3u8
+#EXTINF:-1,FXM
+http://fl2.moveonjoy.com/FX_MOVIE/index.m3u8
+#EXTINF:-1,Hallmark Channel
+http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
+#EXTINF:-1,Hallmark Family
+http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
+#EXTINF:-1,Hallmark Mystery
+http://fl2.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8
+#EXTINF:-1,HBO
+http://fl2.moveonjoy.com/HBO/index.m3u8
+#EXTINF:-1,HBO Comedy
+http://fl2.moveonjoy.com/HBO_COMEDY/index.m3u8
+#EXTINF:-1,HBO Family
+http://fl2.moveonjoy.com/HBO_FAMILY/index.m3u8
+#EXTINF:-1,HBO Zone
+http://fl2.moveonjoy.com/HBO_ZONE/index.m3u8
+#EXTINF:-1,HBO2
+http://fl2.moveonjoy.com/HBO_2/index.m3u8
+#EXTINF:-1,Lifetime
+http://fl2.moveonjoy.com/LIFETIME/index.m3u8
+#EXTINF:-1,Lifetime Movies Network
+http://fl2.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
+#EXTINF:-1,OUTER MAX
+http://fl2.moveonjoy.com/OUTER_MAX/index.m3u8
+#EXTINF:-1,Showtime
+http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
+#EXTINF:-1,Showtime 2
+http://fl2.moveonjoy.com/SHOWTIME_2/index.m3u8
+#EXTINF:-1,Showtime Extreme
+http://fl2.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
+#EXTINF:-1,Showtime Next
+http://fl2.moveonjoy.com/SHOWTIME_NEXT/index.m3u8
+#EXTINF:-1,SHOWTIME WEST
+http://fl2.moveonjoy.com/SHOWTIME_WEST/index.m3u8
+#EXTINF:-1,Showtime Women
+http://fl2.moveonjoy.com/SHOWTIME_WOMEN/index.m3u8
+#EXTINF:-1,Sony Movie Channel
+http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8
+#EXTINF:-1,Starz
+http://fl2.moveonjoy.com/STARZ/index.m3u8
+#EXTINF:-1,Starz Comedy
+http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
+#EXTINF:-1,Starz Edge
+http://fl2.moveonjoy.com/STARZ_EDGE/index.m3u8
+#EXTINF:-1,Starz Encore
+http://fl2.moveonjoy.com/STARZ_ENCORE/index.m3u8
+#EXTINF:-1,Starz Encore Action
+http://fl2.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
+#EXTINF:-1,STARZ ENCORE CLASSIC
+http://fl5.moveonjoy.com/STARZ_ENCORE_CLASSIC/index.m3u8
+#EXTINF:-1,Starz Encore Westerns
+http://fl2.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
+#EXTINF:-1,STARZ WEST
+http://fl2.moveonjoy.com/STARZ_WEST/index.m3u8
+#EXTINF:-1,SundanceTV
+http://fl2.moveonjoy.com/SUNDANCE/index.m3u8
+#EXTINF:-1,TCM
+http://fl1.moveonjoy.com/TCM/index.m3u8
+#EXTINF:-1,A&E
+http://streamsy.online:2999/live/xxxx/212.m3u8
+#EXTINF:-1,American Heroes Channel
+http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8
+#EXTINF:-1,Antenna
+http://fl3.moveonjoy.com/Antenna/index.m3u8
+#EXTINF:-1,Aspire
+http://fl3.moveonjoy.com/Aspire/index.m3u8
+#EXTINF:-1,BBC AMERICA
+http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
+#EXTINF:-1,BET
+http://fl2.moveonjoy.com/BET_EAST/index.m3u8
+#EXTINF:-1,BET GOSPEL
+http://fl2.moveonjoy.com/BET_GOSPEL/index.m3u8
+#EXTINF:-1,BET HER
+http://fl2.moveonjoy.com/BET_HER/index.m3u8
+#EXTINF:-1,BET Jams
+http://fl3.moveonjoy.com/BET_Jams/index.m3u8
+#EXTINF:-1,BET SOUL
+http://fl2.moveonjoy.com/BET_SOUL/index.m3u8
+#EXTINF:-1,Bounce
+http://fl3.moveonjoy.com/BOUNCE_TV/index.m3u8
+#EXTINF:-1,BRAVO
+http://fl2.moveonjoy.com/BRAVO/index.m3u8
+#EXTINF:-1,Buzzr
+http://fl3.moveonjoy.com/Buzzr/index.m3u8
+#EXTINF:-1,Cleo TV
+http://fl3.moveonjoy.com/Cleo_TV/index.m3u8
+#EXTINF:-1,CMT
+http://fl3.moveonjoy.com/CMT/index.m3u8
+#EXTINF:-1,COMEDY CENTRAL
+http://fl3.moveonjoy.com/Comedy_Central/index.m3u8
+#EXTINF:-1,COMET
+http://fl3.moveonjoy.com/COMET/index.m3u8
+#EXTINF:-1,COOKING
+http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
+#EXTINF:-1,COURT TV
+http://fl3.moveonjoy.com/COURT_TV/index.m3u8
+#EXTINF:-1,COZI TV
+http://fl3.moveonjoy.com/COZI_TV/index.m3u8
+#EXTINF:-1,E ENTERTAINMENT TELEVISION
+http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
+#EXTINF:-1,FOOD NETWORK
+http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
+#EXTINF:-1,FOX SOUL
+http://fl1.moveonjoy.com/FOX_SOUL/index.m3u8
+#EXTINF:-1,Freeform
+http://fl2.moveonjoy.com/FREE_FORM/index.m3u8
+#EXTINF:-1,Fuse
+http://fl2.moveonjoy.com/FUSE/index.m3u8
+#EXTINF:-1,FX
+http://fl2.moveonjoy.com/FX/index.m3u8
+#EXTINF:-1,FXX
+http://fl2.moveonjoy.com/FXX/index.m3u8
+#EXTINF:-1,FYI FHD
+http://fl2.moveonjoy.com/FYI/index.m3u8
+#EXTINF:-1,GAME SHOW NETWORK
+http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
+#EXTINF:-1,getTV
+http://fl2.moveonjoy.com/GET_TV/index.m3u8
+#EXTINF:-1,GRIT TV
+http://fl2.moveonjoy.com/GRIT_TV/index.m3u8
+#EXTINF:-1,HGTV
+http://fl2.moveonjoy.com/HGTV/index.m3u8
+#EXTINF:-1,HSN
+http://fl2.moveonjoy.com/HSN/index.m3u8
+#EXTINF:-1,INSP TV
+http://fl2.moveonjoy.com/INSP/index.m3u8
+#EXTINF:-1,ION
+http://fl2.moveonjoy.com/ION_TV/index.m3u8
+#EXTINF:-1,ION Plus
+http://fl3.moveonjoy.com/ION_Plus/index.m3u8
+#EXTINF:-1,Laff TV
+http://72.46.118.193/Laff/index.m3u8
+#EXTINF:-1,Logo
+http://streamsy.online:2999/live/xxxx/952.m3u8
+#EXTINF:-1,MeTV
+http://fl2.moveonjoy.com/ME_TV/index.m3u8
+#EXTINF:-1,MotorTrend
+http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
+#EXTINF:-1,MSG
+http://fl3.moveonjoy.com/MSG/index.m3u8
+#EXTINF:-1,MTV
+http://fl2.moveonjoy.com/MTV/index.m3u8
+#EXTINF:-1,MTV Classic
+http://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8
+#EXTINF:-1,MTV Live
+http://fl2.moveonjoy.com/MTV_LIVE/index.m3u8
+#EXTINF:-1,MTV2
+http://fl2.moveonjoy.com/MTV_2/index.m3u8
+#EXTINF:-1,mtvU
+http://fl2.moveonjoy.com/MTV_U/index.m3u8
+#EXTINF:-1,Oprah Winfrey Network
+http://fl2.moveonjoy.com/OWN/index.m3u8
+#EXTINF:-1,Ovation
+http://fl3.moveonjoy.com/Ovation/index.m3u8
+#EXTINF:-1,Oxygen
+http://fl2.moveonjoy.com/OXYGEN/index.m3u8
+#EXTINF:-1,Paramount Network
+http://fl2.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
+#EXTINF:-1,Pixl
+https://fl3.moveonjoy.com/Pixl/index.m3u8
+#EXTINF:-1,PopTV
+http://fl3.moveonjoy.com/Pop_TV/index.m3u8
+#EXTINF:-1,QVC
+http://fl2.moveonjoy.com/QVC/index.m3u8
+#EXTINF:-1,ReelzChannel
+http://fl2.moveonjoy.com/REELZ/index.m3u8
+#EXTINF:-1,Revolt
+http://fl2.moveonjoy.com/REVOLT/index.m3u8
+#EXTINF:-1,Start TV
+http://fl3.moveonjoy.com/Start_Tv/index.m3u8
+#EXTINF:-1,SYFY
+http://fl2.moveonjoy.com/SYFY/index.m3u8
+#EXTINF:-1,TBS
+http://fl1.moveonjoy.com/TBS/index.m3u8
+#EXTINF:-1,TNT
+http://fl2.moveonjoy.com/TNT/index.m3u8
+#EXTINF:-1,truTV
+http://fl2.moveonjoy.com/TRU_TV/index.m3u8
 #EXTINF:-1,TVLand
 http://fl2.moveonjoy.com/TV_Land/index.m3u8
 #EXTINF:-1,TVOne
 http://fl2.moveonjoy.com/TV_ONE/index.m3u8
-#EXTINF:-1,VH1 East
+#EXTINF:-1,UPtv
+http://fl3.moveonjoy.com/Up_Tv/index.m3u8
+#EXTINF:-1,USA Network
+http://fl2.moveonjoy.com/USA_Network/index.m3u8
+#EXTINF:-1,VH1
 http://fl2.moveonjoy.com/VH1/index.m3u8
 #EXTINF:-1,Vice
 http://fl2.moveonjoy.com/VICELAND/index.m3u8
-#EXTINF:-1,Weather Channel
-http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
+#EXTINF:-1,W NETWORK
+http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 #EXTINF:-1,WeTV
 http://fl1.moveonjoy.com/WE_TV/index.m3u8
-#EXTINF:-1,YES Network
-http://fl2.moveonjoy.com/YES_NETWORK/index.m3u8
+#EXTINF:-1,WGN
+http://fl2.moveonjoy.com/WGN/index.m3u8
+#EXTINF:-1,Animal Planet
+http://fl2.moveonjoy.com/Animal_Planet/index.m3u8
+#EXTINF:-1,Crime + Investigation
+http://fl3.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
+#EXTINF:-1,Curiosity Stream
+http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
+#EXTINF:-1,Destination America
+http://fl3.moveonjoy.com/Destination_America/index.m3u8
+#EXTINF:-1,Discovery Channel
+http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
+#EXTINF:-1,DISCOVERY LIFE
+http://fl2.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
+#EXTINF:-1,Discovery Science
+http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
+#EXTINF:-1,DIY
+http://fl2.moveonjoy.com/DIY/index.m3u8
+#EXTINF:-1,History
+http://streamsy.online:2999/live/xxxx/153.m3u8
+#EXTINF:-1,ID (Investigation Discovery)
+http://fl2.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
+#EXTINF:-1,Love Nature
+http://fl1.moveonjoy.com/LOVE_NATURE/index.m3u8
+#EXTINF:-1,Military History
+http://fl3.moveonjoy.com/Military_History/index.m3u8
+#EXTINF:-1,National Geographic
+http://fl2.moveonjoy.com/National_Geographic/index.m3u8
+#EXTINF:-1,National Geographic Wild
+http://fl2.moveonjoy.com/Nat_Geo_Wild/index.m3u8
+#EXTINF:-1,Outdoor Channel
+http://fl2.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
+#EXTINF:-1,SMITHSONIAN CHANNEL
+http://fl2.moveonjoy.com/SMITHSONIAN_CHANNEL/index.m3u8
+#EXTINF:-1,TLC
+http://fl2.moveonjoy.com/TLC/index.m3u8
+#EXTINF:-1,Travel Channel
+http://fl2.moveonjoy.com/Travel_Channel/index.m3u8
+#EXTINF:-1,WORLD FISHING NETWORK
+http://fl2.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8
+#EXTINF:-1,Boomerang
+http://fl3.moveonjoy.com/BOOMERANG/index.m3u8
+#EXTINF:-1,CARTOON NETWORK
+http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1,DISCOVERY FAMILY CHANNEL
+http://fl2.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
+#EXTINF:-1,DISNEY CHANNEL
+http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
+#EXTINF:-1,DISNEY JR
+http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
+#EXTINF:-1,DISNEY XD
+http://fl2.moveonjoy.com/DISNEY_XD/index.m3u8
+#EXTINF:-1,Nickelodeon
+http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+#EXTINF:-1,NickJr
+http://fl2.moveonjoy.com/NICK_JR/index.m3u8
+#EXTINF:-1,NickMusic USA
+http://fl2.moveonjoy.com/NICK_MUSIC/index.m3u8
+#EXTINF:-1,NickToons
+http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
+#EXTINF:-1,MLB 1
+http://fl2.moveonjoy.com/MLB_1/index.m3u8
+#EXTINF:-1,MLB 2
+http://fl2.moveonjoy.com/MLB_2/index.m3u8
+#EXTINF:-1,MLB 3
+http://fl2.moveonjoy.com/MLB_3/index.m3u8
+#EXTINF:-1,NBA 1
+http://fl5.moveonjoy.com/NBA_1/index.m3u8
+#EXTINF:-1,NBA 2
+http://fl5.moveonjoy.com/NBA_2/index.m3u8
+#EXTINF:-1,NBA 3
+http://fl5.moveonjoy.com/NBA_3/index.m3u8
+#EXTINF:-1,NBA 4
+http://fl5.moveonjoy.com/NBA_4/index.m3u8
+#EXTINF:-1,NBA 5
+http://fl5.moveonjoy.com/NBA_5/index.m3u8
+#EXTINF:-1,NBA 6
+http://fl5.moveonjoy.com/NBA_6/index.m3u8
+#EXTINF:-1,NBA 7
+http://fl5.moveonjoy.com/NBA_7/index.m3u8
+#EXTINF:-1,NBA 8
+http://fl5.moveonjoy.com/NBA_8/index.m3u8
+#EXTINF:-1,NBA 9
+http://fl5.moveonjoy.com/NBA_9/index.m3u8
+#EXTINF:-1,NBA 10
+http://fl5.moveonjoy.com/NBA_10/index.m3u8
+#EXTINF:-1,NBA 11
+http://fl5.moveonjoy.com/NBA_11/index.m3u8
+#EXTINF:-1,NBA 12
+http://fl5.moveonjoy.com/NBA_12/index.m3u8
+#EXTINF:-1,NBA 13
+http://fl5.moveonjoy.com/NBA_13/index.m3u8
+#EXTINF:-1,NFL 1
+http://fl2.moveonjoy.com/NFL_1/index.m3u8
+#EXTINF:-1,NFL 2
+http://fl2.moveonjoy.com/NFL_2/index.m3u8
+#EXTINF:-1,NFL 3
+http://fl2.moveonjoy.com/NFL_3/index.m3u8
+#EXTINF:-1,NFL 4
+http://fl2.moveonjoy.com/NFL_4/index.m3u8
+#EXTINF:-1,NFL 5
+http://fl2.moveonjoy.com/NFL_5/index.m3u8
+#EXTINF:-1,NFL 6
+http://fl2.moveonjoy.com/NFL_6/index.m3u8
+#EXTINF:-1,NFL 7
+http://fl2.moveonjoy.com/NFL_7/index.m3u8
+#EXTINF:-1,NFL 8
+http://fl2.moveonjoy.com/NFL_8/index.m3u8
+#EXTINF:-1,NFL 9
+http://fl2.moveonjoy.com/NFL_9/index.m3u8
+#EXTINF:-1,NFl 10
+http://fl2.moveonjoy.com/NFL_10/index.m3u8
+#EXTINF:-1,NFL 11
+http://fl2.moveonjoy.com/NFL_11/index.m3u8
+#EXTINF:-1,NFL 12
+http://fl2.moveonjoy.com/NFL_12/index.m3u8
+#EXTINF:-1,NFL 13
+http://fl2.moveonjoy.com/NFL_13/index.m3u8
+#EXTINF:-1,NFL 14
+http://fl2.moveonjoy.com/NFL_14/index.m3u8
+#EXTINF:-1,NFL 15
+http://fl2.moveonjoy.com/NFL_15/index.m3u8
+#EXTINF:-1,NHL 1
+http://fl2.moveonjoy.com/NHL_1/index.m3u8
+#EXTINF:-1,NHL 2
+http://fl5.moveonjoy.com/NHL_2/index.m3u8
+#EXTINF:-1,NHL 3
+http://fl2.moveonjoy.com/NHL_3/index.m3u8
+#EXTINF:-1,NHL 4
+http://fl2.moveonjoy.com/NHL_4/index.m3u8
+#EXTINF:-1,NHL 5
+http://fl2.moveonjoy.com/NHL_5/index.m3u8
+#EXTINF:-1,NHL 6
+http://fl2.moveonjoy.com/NHL_6/index.m3u8
+#EXTINF:-1,NHL 7
+http://fl2.moveonjoy.com/NHL_7/index.m3u8
+#EXTINF:-1,NHL 8
+http://fl5.moveonjoy.com/NHL_8/index.m3u8
+#EXTINF:-1,NHL 9
+http://fl2.moveonjoy.com/NHL_9/index.m3u8
+#EXTINF:-1,NHL 10
+http://fl5.moveonjoy.com/NHL_10/index.m3u8
+#EXTINF:-1,NHL 11
+http://fl5.moveonjoy.com/NHL_11/index.m3u8
+#EXTINF:-1,NHL 13
+http://fl5.moveonjoy.com/NHL_13/index.m3u8
+#EXTINF:-1,PPV 1
+http://fl2.moveonjoy.com/PPV_1/index.m3u8
+#EXTINF:-1,PPV 2
+http://fl2.moveonjoy.com/PPV_2/index.m3u8
+#EXTINF:-1,PPV 3
+http://fl2.moveonjoy.com/PPV_3/index.m3u8
+#EXTINF:-1,PPV 5
+http://fl2.moveonjoy.com/PPV_5/index.m3u8
+#EXTINF:-1,PPV 6
+http://fl2.moveonjoy.com/PPV_6/index.m3u8
 
 #EXTINF:-1 ,ABC
 http://lunar.pm:8080/xxx/9228
