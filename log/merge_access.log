@@ -31,3 +31,5 @@
 127.0.0.1 - - [22/Nov/2024:09:31:28 -0500] "POST /service/update2/json?cup2key=14:rptwCv7HN77Qm5wteHd5mVJuQ_YNLepoTdTu6FVOTT0&cup2hreq=057ff90a0e9165db6b16d29ceb456c55e055ffe308c0a6e62fd9473be7815bad HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 10.0.0.108 - - [22/Nov/2024:10:05:55 -0500] "GET /epg.xml HTTP/1.1" 200 237283101 "-" "TiviMate/5.1.0 (Android 11)"
 10.0.0.68 - - [22/Nov/2024:10:29:18 -0500] "GET /epg.xml HTTP/1.1" 200 237283101 "-" "TiviMate/5.1.0 (Android 11)"
+10.0.0.94 - - [22/Nov/2024:12:35:21 -0500] "GET /epg.xml HTTP/1.1" 200 237283101 "-" "TiviMate/5.1.0 (Android 11)"
+10.0.0.68 - - [22/Nov/2024:12:38:45 -0500] "GET /epg.xml HTTP/1.1" 200 237283101 "-" "TiviMate/5.1.0 (Android 11)"
