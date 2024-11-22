@@ -23,7 +23,6 @@ http://152.89.62.76:8880/xxx/3053
 # No user/pass Nov 20 2024
 http://vo01.mohdtv.com:8880/xxx/3053
 
-
 #EXTINF:-1,MSNBC
 # Down Dec 2024
 http://fl2.moveonjoy.com/MSNBC/index.m3u8
@@ -37,7 +36,6 @@ http://streamsy.online:2999/xxx/143
 http://streamsy.online:2999/live/xxxx/143.m3u8
 # Working Nov 19 2024
 http://41.205.93.154:80/MSNBC/index.m3u8
-
 
 #EXTINF:-1,CTV Toronto
 # Working Nov 20 2024
@@ -54,13 +52,13 @@ http://vo01.mohdtv.com:8880/xxx/30196
 http://mohdtv.com:8880/xxx/30196
 #EXTINF:-1,CA118:CTV Toronto
 http://yesimes.oknirvana.club:8880/xxx/30196
-# Working Nov 20 2024
+# Working Nov 22 2024
 http://152.89.62.76:8880/xxx/30196
-#EXTINF:-1,CTV Toronto (ca)
+# Working Nov 22 2024
 http://ultrapremium.cloud:8080/xxx/254736
 # No user/pass Nov 20 2024
 http://iptvtree.net:8080/xxx/298187
-#EXTINF:-1,CA | CTV TORONTO
+# Down Nov 22 2024
 http://streamsy.online:2999/xxx/2010
 #EXTINF:-1 ,CA CTV Toronto HD (R)
 http://lunar.pm:8080/xxx/99960
