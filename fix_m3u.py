@@ -43,7 +43,7 @@ def fix_and_format_m3u(input_file):
         print(f"Error: {e}")
 
 # File path (Replace with the path to your .m3u file)
-input_file = "/Users/kyleabrahams/Documents/GitHub/tv/adultiptv3_1970.m3u"
+input_file = "/Users/kyleabrahams/Documents/GitHub/tv/bad_format.m3u"
 
 # Run the script
 fix_and_format_m3u(input_file)
