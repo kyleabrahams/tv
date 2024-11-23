@@ -80,9 +80,8 @@ except Exception as e:
 
 # Step 2: List of EPG source URLs to merge
 epg_urls = [
-    # Add your local file path here
-    "/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml",  # Local file to merge
-    "/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml",
+    "dummy.xml",  # Local file to merge
+    "xumo.xml",   
     # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml",
     # "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml",
     "https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz",
@@ -116,20 +115,27 @@ save_path = "/usr/local/var/www/epg.xml"  # Path to be served by Nginx
 gz_directory = "/usr/local/var/www/"  # Change this to your .gz files directory
 
 
-# Step 4: Set up logging
+# Step 4: Set up logging with relative path
+script_dir = os.path.dirname(os.path.realpath(__file__))  # Get the directory of the current script
+log_dir = os.path.join(script_dir, "log")  # Construct the relative log directory path
+log_file = os.path.join(log_dir, "merge_epg.log")  # Construct the relative log file path
+
+# Ensure the log directory exists, create it if it doesn't
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
 
 logger = logging.getLogger()
-file_handler = logging.FileHandler('/Users/kyleabrahams/Documents/GitHub/tv/log/merge_epg.log')
+file_handler = logging.FileHandler(log_file)  # Use the relative log file path
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 file_handler.addFilter(SuccessFilter())
 logger.addHandler(file_handler)
 logger.setLevel(logging.INFO)
 
 logger.info("Starting EPG merge process...")
-
 
 # Step 5: Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total, retries=3, delay=5):
