@@ -11,6 +11,12 @@ import sys # Used for venv_python
 
 # See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
+
+## Create Virtual Environment fot Python
+# python3 -m venv ~/venv
+# source ~/venv/bin/activate
+
+## Run this script
 # python3 merge_epg.py
 
 # Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg

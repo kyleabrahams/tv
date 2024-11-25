@@ -9,41 +9,46 @@ import platform  # For detecting system architecture
 # source ~/venv/bin/activate
 
 ## Run this script
-# python3 install_dependencies.py
+# python3 uninstall_dependencies.py
 
-# Step 1: Function to install packages listed in requirements.txt
-def install_requirements():
+# Step 1: Function to uninstall packages listed in requirements.txt
+def uninstall_requirements():
     """
-    Install all dependencies listed in requirements.txt.
+    Uninstall all dependencies listed in requirements.txt.
     """
     if os.path.exists("requirements.txt"):
-        print("Installing dependencies listed in requirements.txt...")
+        confirmation = input("Are you sure you want to uninstall all dependencies listed in requirements.txt? (y/n): ")
+        if confirmation.lower() != 'y':
+            print("Uninstallation aborted.")
+            return
+        print("Uninstalling dependencies listed in requirements.txt...")
         try:
-            # Use pip to install all packages in requirements.txt
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-            print("Dependencies installed successfully.")
+            # Use pip to uninstall all packages in requirements.txt
+            subprocess.check_call([sys.executable, "-m", "pip", "uninstall", "-r", "requirements.txt", "-y"])
+            print("Dependencies uninstalled successfully.")
         except subprocess.CalledProcessError as e:
-            print(f"Error installing dependencies: {e}")
+            print(f"Error uninstalling dependencies: {e}")
             sys.exit(1)
     else:
-        print("No requirements.txt found. Skipping installation.")
+        print("No requirements.txt found. Skipping uninstallation.")
 
-# Step 2: Function to create a virtual environment (if not already created)
-def create_virtual_env(venv_path="venv"):
+# Step 2: Optional cleanup of the virtual environment
+def clean_virtual_env(venv_path="venv"):
     """
-    Create a virtual environment at the specified path if it does not exist.
+    Delete the virtual environment directory.
     """
     venv_full_path = os.path.expanduser(venv_path)
-    if not os.path.exists(venv_full_path):
-        print(f"Creating virtual environment at {venv_full_path}...")
+    if os.path.exists(venv_full_path):
+        print(f"Cleaning up the virtual environment at {venv_full_path}...")
         try:
-            subprocess.check_call([sys.executable, "-m", "venv", venv_full_path])
-            print(f"Virtual environment created at {venv_full_path}.")
-        except subprocess.CalledProcessError as e:
-            print(f"Error creating virtual environment: {e}")
+            # Remove the virtual environment directory
+            shutil.rmtree(venv_full_path)
+            print(f"Virtual environment at {venv_full_path} has been removed.")
+        except Exception as e:
+            print(f"Error removing virtual environment: {e}")
             sys.exit(1)
     else:
-        print(f"Virtual environment already exists at {venv_full_path}. Skipping creation.")
+        print(f"No virtual environment found at {venv_full_path}. Skipping cleanup.")
 
 # Step 3: Detect system architecture (Intel or ARM)
 def detect_architecture():
@@ -78,13 +83,13 @@ if __name__ == "__main__":
     if architecture is None:
         sys.exit("Unsupported architecture. Exiting...")
     
-    create_virtual_env()  # Step 1: Create virtual environment if not exists
-    install_requirements()  # Step 2: Install packages from requirements.txt
+    uninstall_requirements()  # Step 1: Uninstall packages from requirements.txt
+    clean_virtual_env()       # Step 2: Clean up virtual environment
 
     # Add architecture-specific logic here if necessary
     if architecture == 'arm64':
         print("ARM-specific tasks can be added here.")
-        # Example: Install ARM-specific dependencies or tools
+        # Example: Uninstall ARM-specific packages
     elif architecture == 'x86_64':
         print("Intel-specific tasks can be added here.")
-        # Example: Install Intel-specific dependencies or tools
+        # Example: Uninstall Intel-specific packages
