@@ -76,20 +76,20 @@ else
 fi
 
 # Step 4: Remove directories
-log "Step 4: Removing /usr/local/var/www directory..."
-echo "Step 4: Removing /usr/local/var/www directory..."
-if [ -d "$WWW_DIR" ]; then
-    if sudo rm -rf "$WWW_DIR"; then
-        log "/usr/local/var/www directory removed."
-        echo "/usr/local/var/www directory removed."
-    else
-        log "Failed to remove /usr/local/var/www directory."
-        echo "Failed to remove /usr/local/var/www directory."
-    fi
-else
-    log "/usr/local/var/www directory does not exist."
-    echo "/usr/local/var/www directory does not exist."
-fi
+# log "Step 4: Removing /usr/local/var/www directory..."
+# echo "Step 4: Removing /usr/local/var/www directory..."
+# if [ -d "$WWW_DIR" ]; then
+#     if sudo rm -rf "$WWW_DIR"; then
+#         log "/usr/local/var/www directory removed."
+#         echo "/usr/local/var/www directory removed."
+#     else
+#         log "Failed to remove /usr/local/var/www directory."
+#         echo "Failed to remove /usr/local/var/www directory."
+#     fi
+# else
+#     log "/usr/local/var/www directory does not exist."
+#     echo "/usr/local/var/www directory does not exist."
+# fi
 
 log "Step 4: Removing /usr/local/var/run directory..."
 echo "Step 4: Removing /usr/local/var/run directory..."
