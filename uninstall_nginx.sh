@@ -148,6 +148,17 @@ else
     echo "No existing crontab found to back up."
 fi
 
+# Clear all cron jobs (remove all cron jobs for the user)
+log "Clearing all cron jobs for the user..."
+crontab -r
+if [ $? -eq 0 ]; then
+    log "All cron jobs cleared."
+    echo "All cron jobs cleared."
+else
+    log "Failed to clear cron jobs."
+    echo "Failed to clear cron jobs."
+fi
+
 # Remove Nginx-related entries (match against the full command or path)
 UPDATED_CRONTAB=$(echo "$CRONTAB_BACKUP" | grep -vE 'nginx|merge_epg.py|path/to/nginx/script')
 

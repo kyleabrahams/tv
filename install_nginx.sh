@@ -32,6 +32,15 @@ log() {
 log "Starting Nginx installation script."
 echo "Starting Nginx installation script."
 
+## Function to prompt the user to continue or exit on error
+prompt_to_continue() {
+    read -p "An error occurred. Do you want to continue? (y/n): " answer
+    if [[ "$answer" != "y" && "$answer" != "Y" ]]; then
+        echo "Exiting script."
+        exit 1
+    fi
+}
+
 # 6. Check if Nginx is already running and stop it if necessary
 log "Checking if Nginx is running."
 echo "Checking if Nginx is running."
@@ -155,6 +164,15 @@ pip install requests
 if [ $? -ne 0 ]; then
     log "Failed to install requests module."
     echo "Failed to install requests module."
+    exit 1
+fi
+
+# Install pytz module
+log "Installing Python pytz module..."
+pip install pytz
+if [ $? -ne 0 ]; then
+    log "Failed to install pytz module."
+    echo "Failed to install pytz module."
     exit 1
 fi
 
