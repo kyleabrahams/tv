@@ -4,15 +4,15 @@ import logging
 import os
 import gzip
 import io
-import subprocess  # Add this import to resolve the error
+import subprocess
 from time import sleep
-import sys # Used for venv_python
-
+import sys
+import socket
 
 # See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
 
-## Create Virtual Environment fot Python
+## Create Virtual Environment for Python
 # python3 -m venv ~/venv
 # source ~/venv/bin/activate
 
@@ -28,13 +28,28 @@ import sys # Used for venv_python
 # Relative path from the script to the virtual environment
 venv_python = sys.executable
 print(venv_python)
-import os
 
 # Get the directory of the current script of dummy_epg.py
 script_dir = os.path.dirname(os.path.realpath(__file__))
 # Construct the relative path
 dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
 print(dummy_epg_path)  # To verify the constructed path
+
+# Function to get the local IP address
+def get_local_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.settimeout(0)
+    try:
+        # This connects to a remote server, but doesn't actually establish a connection
+        s.connect(('10.254.254.254', 1))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = '127.0.0.1'  # Fallback to localhost if unable to get the IP
+    finally:
+        s.close()
+    return ip
+
+local_ip = get_local_ip()
 
 # Function to run dummy_epg.py script
 def run_dummy_epg():
@@ -122,7 +137,6 @@ gz_directory = "/usr/local/var/www/"  # Change this to your .gz files directory
 
 
 # Step 4: Set up logging with relative path
-script_dir = os.path.dirname(os.path.realpath(__file__))  # Get the directory of the current script
 log_dir = os.path.join(script_dir, "log")  # Construct the relative log directory path
 log_file = os.path.join(log_dir, "merge_epg.log")  # Construct the relative log file path
 
@@ -195,62 +209,33 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
             print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
             attempt += 1
             time.sleep(delay)  # Wait before retrying
-    return None  # Return None after all attempts fail    
 
-# Step 6: Function to extract XML from .gz files
-def extract_gz_files(gz_directory):
-    extracted_files = []
-    for filename in os.listdir(gz_directory):
-        if filename.endswith('.gz'):
-            gz_file_path = os.path.join(gz_directory, filename)
-            with gzip.open(gz_file_path, 'rb') as f:
-                content = f.read()
-                extracted_file = gz_file_path[:-3]  # Remove .gz extension
-                with open(extracted_file, 'wb') as output_file:
-                    output_file.write(content)
-                extracted_files.append(extracted_file)
-    return extracted_files
+    logging.error(f"Failed to fetch {url} after {retries} attempts.")
+    print(f"Failed to fetch {url} after {retries} attempts.")
+    return None
 
+# Fetch and merge all EPG data
+merged_root = None
 
-# Step 7: Merge EPG data into a single XML
-merged_root = ET.Element("tv")
-total_files = len(epg_urls)
+for i, url in enumerate(epg_urls):
+    epg_tree = fetch_epg_data(url, i, len(epg_urls))
+    if epg_tree is not None:
+        if merged_root is None:
+            merged_root = epg_tree.getroot()
+        else:
+            merged_root.extend(epg_tree.getroot())  # Merge EPG data
 
-
-# Step 8: Process each EPG URL
-for index, url in enumerate(epg_urls):
-    epg_tree = fetch_epg_data(url, index, total_files)
-    if epg_tree:
-        for element in epg_tree.getroot():
-            merged_root.append(element)
-    sleep(0.5)  # Small delay to simulate and visualize progress
-
-
-# Step 9: Extract XML from .gz files
-print("Extracting XML from .gz files...")
-extracted_files = extract_gz_files(gz_directory)
-for xml_file in extracted_files:
+if merged_root is not None:
     try:
-        epg_tree = ET.parse(xml_file)
-        for element in epg_tree.getroot():
-            merged_root.append(element)
-    except ET.ParseError as e:
-        logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
-        print(f"Failed to parse extracted XML file {xml_file}: {e}")
-
-
-# Step 10: Save the merged EPG file and log success
-try:
-    merged_tree = ET.ElementTree(merged_root)
-    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    
-    # Log success message
-    success_message = f"EPG file successfully saved to {save_path}"
-    logging.info(success_message)  # Log to merge_epg.log
-    print(success_message)  # Echo success to console
-
-except Exception as e:
-    # Log error if save fails
-    error_message = f"Failed to save EPG file - Error: {e}"
-    logging.error(error_message)
-    print(error_message)
+        # Step 6: Save the merged XML as a .gz file
+        save_file_path = os.path.join(gz_directory, "epg.xml.gz")  # Saving to the directory
+        with gzip.open(save_file_path, 'wb') as f:
+            merged_tree = ET.ElementTree(merged_root)
+            merged_tree.write(f)
+        logger.info(f"EPG file successfully saved to {save_file_path}")
+        print(f"EPG file successfully saved to {save_file_path}")
+    except Exception as e:
+        logger.error(f"Error saving merged EPG file: {e}")
+        print(f"Error saving merged EPG file: {e}")
+else:
+    print("No EPG data to merge.")

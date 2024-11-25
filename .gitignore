@@ -2,3 +2,5 @@
 node_modules
 *.xml
 *.log
+# Ignore all crontab backup files
+crontab_backup_*.txt
