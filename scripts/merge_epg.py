@@ -33,7 +33,7 @@ venv_python = os.path.join(os.getenv('HOME'), 'venv/bin/python')  # Adjust this 
 script_dir = os.path.dirname(os.path.abspath(__file__))  # Path to the directory where the script is located
 
 # Step 3: Define the path to your dummy_epg.py script
-dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
+dummy_epg_path = os.path.join(script_dir, "scripts/dummy_epg.py")
 print(dummy_epg_path)  # To verify the constructed path
 
 # Step 3.1: Define the npm command and arguments (requires npm install)
