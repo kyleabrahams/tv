@@ -21,7 +21,7 @@ import { SITES_DIR } from '../../constants'
 program
   .option('-s, --site <name>', 'Name of the site to parse')
   .option('-c, --channels <path>', 'Path to *.channels.xml file (required if the "--site" attribute is not specified)')
-  .option('-o, --output <path>', 'Path to output file', 'xumo.xml')
+  .option('-o, --output <path>', 'Path to output file', './scripts/xumo.xml')
   .option('-l, --lang <code>', 'Filter channels by language (ISO 639-2 code)')
   .option('-t, --timeout <milliseconds>', 'Override the default timeout for each request')
   .option('-d, --delay <milliseconds>', 'Override the default delay between request')

@@ -11,6 +11,12 @@ NGINX_PID_DIR = "/usr/local/var/run"
 WWW_DIR = "/usr/local/var/www"
 PLIST_PATH = "/Library/LaunchDaemons/homebrew.mxcl.nginx.plist"
 
+# Define the folder where cron job backups will be saved
+BACKUP_DIR = os.path.join(os.getcwd(), "nginx_uninstall_backups")
+
+# Ensure the backup directory exists
+os.makedirs(BACKUP_DIR, exist_ok=True)
+
 # Function to log messages
 def log(message):
     timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -84,7 +90,13 @@ run_command("brew services stop nginx")
 # Step 8: Remove Nginx-related cron jobs
 log("Step 8: Removing Nginx-related cron jobs...")
 current_crontab = run_command("crontab -l", capture_output=True) or ""
-with open(f"{os.getcwd()}/crontab_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt", "w") as backup:
+
+# Cron jobs backup path
+backup_file_path = os.path.join(BACKUP_DIR, f"crontab_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
+log(f"Cron jobs backup saved at {backup_file_path}")
+
+# Save the current crontab to the specified backup folder
+with open(backup_file_path, "w") as backup:
     backup.write(current_crontab)
 
 # Remove lines related to nginx or any relative path variations of merge_epg.py

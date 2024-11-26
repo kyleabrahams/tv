@@ -109,10 +109,8 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     # Step 6.2: Add XML declaration manually for utf-8
     pretty_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + pretty_xml
 
-    # Step 6.3: Define the output file path
-    output_dir = "/Users/kyleabrahams/Documents/GitHub/tv"
-    os.makedirs(output_dir, exist_ok=True)
-    output_file_path = os.path.join(output_dir, "dummy.xml")
+    # Step 6.3: Define the output file path relative to the current working directory
+    output_file_path = "dummy.xml"  # File will be saved in the same directory as the script
 
     # Step 6.4: Save the XML to the file
     try:
