@@ -21,26 +21,11 @@ python3 install_all.py
 ## Step 3b: If you wish to uninstall everything and leave only the base files, run the following command:
 python3 uninstall_all.py
 
-## Step 4: To access the epg.xml file in a web browser, paste the following URL:
+## Step 4: To manually update the epg.xml file, run the following command:
+python3 merge_epg.py
+
+## Step 5: To access the epg.xml file in a web browser, paste the following URL:
 http:/localhost:8080/epg.xml
 
-## Step 5: To modify the scheduling for the merge_epg.py in crontab (macOS), enter the following command in Terminal:
+## Step 6: To modify the scheduling for the merge_epg.py in crontab (macOS), enter the following command in Terminal:
 crontab -e
-
-# Grab.ts structure
-/project-root
-  ├── /src
-  │   ├── /core
-  │   │   ├── QueueCreator.ts
-  │   │   ├── Job.ts
-  │   │   ├── ChannelsParser.ts
-  │   ├── /sites
-  │   │   ├── <site-specific-files>
-  │   ├── constants.ts
-  │   ├── grabber.ts (your provided code)
-  ├── /test
-  │   ├── QueueCreator.test.ts
-  │   ├── Job.test.ts
-  │   ├── ChannelsParser.test.ts
-  ├── package.json
-  ├── tsconfig.json
