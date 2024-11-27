@@ -5,7 +5,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 27 430 p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Nov 27 450 p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="CA CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -217,14 +217,16 @@ http://fortv.cc:8080/105094817/105094817/57369
 http://fortv.cc:8080/105094817/105094817/57270
 #EXTINF:-1 tvg-id="T+E Totally Entertaining.ca" tvg-name="Travel + Escape" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1897
+#EXTINF:-1 tvg-id="CABC23000035R" tvg-name="Hollywire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/hollywire-vod-us.png?raw=true" group-title="",Hollywire
+http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30228
 #EXTINF:-1 tvg-id="Hollywood Suite 70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 70's
-http://152.89.62.76:8880/48mc030005/96913392/30104
+http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30104
 #EXTINF:-1 tvg-id="Hollywood Suite 80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's
-http://152.89.62.76:8880/48mc030005/96913392/30227
+http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30227
 #EXTINF:-1 tvg-id="Hollywood Suite 90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's
-http://152.89.62.76:8880/48mc030005/96913392/30224
+http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/30224
 #EXTINF:-1 tvg-id="Hollywood Suite 00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's
-http://152.89.62.76:8880/48mc030005/96913392/3034
+http://yesimes.oknirvana.club:8880/DyW2ggvqXH/zwcbLqyuzu/3034
 
 #EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-------|Samsung TV|-------
 https://jmp2.uk/sam-CABB260002016.m3u8
