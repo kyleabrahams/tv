@@ -19,9 +19,11 @@ cd scripts
 python3 install_all.py
 
 ## Step 3b: If you wish to uninstall everything and leave only the base files, run the following command:
+cd scripts
 python3 uninstall_all.py
 
 ## Step 4: To manually update the epg.xml file, run the following command:
+cd scripts
 python3 merge_epg.py
 
 ## Step 5: To access the epg.xml file in a web browser, paste the following URL:
