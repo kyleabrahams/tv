@@ -2,5 +2,8 @@
 node_modules
 # Ignore all crontab backup files
 nginx_uninstall_backups/
-# Ignore all log files
-log/
+# Ignore epg.xml file
+scripts/www/epg.xml
+# Ignore log files
+scripts/log/*.log
+

@@ -1,117 +1,123 @@
 import os
 import subprocess
-from datetime import datetime
+import sys
+import logging
 
-# Log file path
-LOG_FILE = os.path.join(os.getcwd(), "uninstall_nginx.log")
+# --- Constants ---
+REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # Directory of this script
+LOG_DIR = os.path.join(REPO_DIR, "log")
+LOG_FILE = os.path.join(LOG_DIR, "uninstall_nginx.log")
 
-# Define common paths
-NGINX_CONF_DIR = "/opt/homebrew/etc/nginx"
-NGINX_PID_DIR = "/usr/local/var/run"
-WWW_DIR = "/usr/local/var/www"
-PLIST_PATH = "/Library/LaunchDaemons/homebrew.mxcl.nginx.plist"
+# --- Logging Setup ---
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)  # Ensure log directory exists
 
-# Define the folder where cron job backups will be saved
-BACKUP_DIR = os.path.join(os.getcwd(), "nginx_uninstall_backups")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger()
 
-# Ensure the backup directory exists
-os.makedirs(BACKUP_DIR, exist_ok=True)
-
-# Function to log messages
 def log(message):
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    log_entry = f"{timestamp} - {message}\n"
-    print(log_entry.strip())
-    with open(LOG_FILE, "a") as log_file:
-        log_file.write(log_entry)
+    """Log to console and file."""
+    logger.info(message)
 
-# Function to execute shell commands
-def run_command(command, capture_output=False):
+def run_command(command, check=True, real_time=False):
+    """Run a shell command and log its output."""
     try:
-        result = subprocess.run(command, shell=True, check=True, text=True, capture_output=capture_output)
-        return result.stdout if capture_output else None
+        result = subprocess.run(command, shell=True, text=True, capture_output=True)
+        if check and result.returncode != 0:
+            log(f"Command failed: {command}\n{result.stderr}")
+            sys.exit(1)
+        if result.stdout:
+            log(result.stdout.strip())
+        return result.stdout
+    except Exception as e:
+        log(f"Exception running command: {command}\n{e}")
+        sys.exit(1)
+
+def check_nginx_installed():
+    """Check if Nginx is installed."""
+    result = run_command("brew list nginx", check=False, real_time=False).strip()
+    return result != ""
+
+def uninstall_nginx():
+    """Uninstall Nginx."""
+    if check_nginx_installed():
+        log("Uninstalling Nginx...")
+        try:
+            run_command("brew uninstall nginx")
+            log("Nginx uninstalled.")
+        except Exception as e:
+            log(f"Failed to uninstall Nginx: {e}")
+            sys.exit(1)
+    else:
+        log("Nginx is not installed via Homebrew.")
+
+def remove_homebrew_cron_jobs():
+    """Remove Homebrew-related cron jobs."""
+    log("Checking for Homebrew-related cron jobs...")
+
+    try:
+        # List all cron jobs for the user
+        cron_jobs = run_command("crontab -l", check=False).strip()
+        
+        if cron_jobs:
+            # Identify Homebrew-related cron jobs (if any), e.g., nginx reload
+            homebrew_jobs = [line for line in cron_jobs.splitlines() if "nginx" in line]
+            
+            if homebrew_jobs:
+                log("Homebrew-related cron jobs found. Removing...")
+                # Remove those cron jobs
+                new_cron = "\n".join([line for line in cron_jobs.splitlines() if "nginx" not in line])
+                # Set the new crontab without the Homebrew jobs
+                subprocess.run(f"echo '{new_cron}' | crontab", shell=True, check=True)
+                log("Homebrew-related cron jobs removed.")
+            else:
+                log("No Homebrew-related cron jobs found.")
+        else:
+            log("No cron jobs found.")
+    except Exception as e:
+        log(f"Failed to remove Homebrew-related cron jobs: {e}")
+        sys.exit(1)
+
+def clear_cron_jobs():
+    """Clears all cron jobs for the current user."""
+    log("Clearing all cron jobs...")
+    try:
+        # Check if any cron jobs exist first
+        cron_jobs = run_command("crontab -l", check=False)
+        
+        if cron_jobs:
+            subprocess.check_call(["crontab", "-r"])
+            log("All cron jobs cleared successfully.")
+        else:
+            log("No cron jobs to clear.")
     except subprocess.CalledProcessError as e:
-        log(f"Error executing command: {command} | Error: {e}")
-        return None
+        # Handle case where no crontab exists
+        if "no crontab for" in str(e):
+            log("No cron jobs to clear.")
+        else:
+            log(f"Failed to clear cron jobs: {e}")
+            sys.exit(1)
+    except Exception as e:
+        log(f"Exception clearing cron jobs: {e}")
+        sys.exit(1)
 
-# Ensure log file exists
-try:
-    open(LOG_FILE, "a").close()
-except Exception as e:
-    print(f"Failed to create log file: {e}")
-    exit(1)
+def main():
+    """Main uninstallation process."""
+    try:
+        uninstall_nginx()
+        remove_homebrew_cron_jobs()  # Remove Homebrew-related cron jobs
+        clear_cron_jobs()  # Optionally clear all cron jobs
+        log("Uninstallation of Nginx and removal of cron jobs completed successfully.")
+    except Exception as e:
+        log(f"Error during uninstallation: {e}")
+        sys.exit(1)
 
-# Start uninstallation
-log("Starting Nginx uninstallation script.")
-
-# Step 1: Stop Nginx if running
-log("Step 1: Checking if Nginx is running.")
-if run_command("pgrep nginx"):
-    log("Nginx is running. Attempting to stop it...")
-    run_command("sudo nginx -s stop")
-    log("Nginx stopped successfully.")
-else:
-    log("Nginx is not running.")
-
-# Step 2: Uninstall Nginx via Homebrew
-log("Step 2: Uninstalling Nginx using Homebrew...")
-run_command("brew uninstall nginx")
-
-# Step 3: Remove Nginx configuration files
-log("Step 3: Removing Nginx configuration files...")
-if os.path.exists(f"{NGINX_CONF_DIR}/nginx.conf"):
-    run_command(f"sudo rm {NGINX_CONF_DIR}/nginx.conf")
-    log("Nginx configuration file removed.")
-
-# Step 4: Remove /usr/local/var/www directory
-remove_www = input("Step 4: Do you want to remove the /usr/local/var/www directory? (y/n): ").strip().lower()
-if remove_www == "y":
-    if os.path.exists(WWW_DIR):
-        run_command(f"sudo rm -rf {WWW_DIR}")
-        log("/usr/local/var/www directory removed.")
-else:
-    log("User chose not to remove /usr/local/var/www directory.")
-
-# Step 5: Remove /usr/local/var/run directory
-if os.path.exists(NGINX_PID_DIR):
-    run_command(f"sudo rm -rf {NGINX_PID_DIR}")
-    log("/usr/local/var/run directory removed.")
-
-# Step 6: Remove LaunchDaemon plist file for Nginx
-log("Step 6: Removing Nginx LaunchDaemon plist...")
-if os.path.exists(PLIST_PATH):
-    run_command(f"sudo rm {PLIST_PATH}")
-    log("Nginx LaunchDaemon plist removed.")
-
-# Step 7: Stop Nginx service from starting on boot
-log("Step 7: Ensuring Nginx service is stopped on boot...")
-run_command("brew services stop nginx")
-
-# Step 8: Remove Nginx-related cron jobs
-log("Step 8: Removing Nginx-related cron jobs...")
-current_crontab = run_command("crontab -l", capture_output=True) or ""
-
-# Cron jobs backup path
-backup_file_path = os.path.join(BACKUP_DIR, f"crontab_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
-log(f"Cron jobs backup saved at {backup_file_path}")
-
-# Save the current crontab to the specified backup folder
-with open(backup_file_path, "w") as backup:
-    backup.write(current_crontab)
-
-# Remove lines related to nginx or any relative path variations of merge_epg.py
-updated_crontab = "\n".join([line for line in current_crontab.splitlines() 
-                             if "nginx" not in line and 
-                             "scripts/merge_epg.py" not in line and
-                             "scripts/scripts/merge_epg.py" not in line])
-
-run_command(f"echo '{updated_crontab}' | crontab -")
-log("Nginx-related and merge_epg.py cron jobs removed.")
-
-# Step 9: Remove test cron jobs
-log("Step 9: Removing test cron jobs...")
-updated_crontab = "\n".join([line for line in updated_crontab.splitlines() if "test" not in line])
-run_command(f"echo '{updated_crontab}' | crontab -")
-log("Test cron jobs removed.")
-
-log("Nginx uninstallation completed.")
+if __name__ == "__main__":
+    main()

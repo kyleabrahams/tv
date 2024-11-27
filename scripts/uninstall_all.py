@@ -2,6 +2,13 @@ import subprocess
 import sys
 import os
 
+## Create Virtual Environment for Python
+# python3 -m venv ~/venv
+# source ~/venv/bin/activate
+
+## Run this script
+# python3 uninstall_all.py
+
 # Function to prompt the user with a y/n question
 def prompt_user(script_name, question):
     """
@@ -25,6 +32,8 @@ def run_script(script_path):
         print(f"Script {script_path} executed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error running script {script_path}: {e}")
+        print(f"Standard output:\n{e.output}")
+        sys.exit(1)
 
 # Main function to handle the uninstall logic
 def main():

@@ -1,3 +1,6 @@
 {
     "workbench.colorTheme": "Default High Contrast"
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useLocalServer": false
+
 }

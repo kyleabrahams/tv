@@ -1,10 +1,9 @@
 import subprocess  # For running commands
 import sys  # For accessing Python's runtime environment
 import os  # For file and directory handling
-import shutil  # For removing directories
 import platform  # For detecting system architecture
 
-## Create Virtual Environment fot Python
+## Create Virtual Environment for Python
 # python3 -m venv ~/venv
 # source ~/venv/bin/activate
 
@@ -32,25 +31,7 @@ def uninstall_requirements():
     else:
         print("No requirements.txt found. Skipping uninstallation.")
 
-# Step 2: Optional cleanup of the virtual environment
-def clean_virtual_env(venv_path="venv"):
-    """
-    Delete the virtual environment directory.
-    """
-    venv_full_path = os.path.expanduser(venv_path)
-    if os.path.exists(venv_full_path):
-        print(f"Cleaning up the virtual environment at {venv_full_path}...")
-        try:
-            # Remove the virtual environment directory
-            shutil.rmtree(venv_full_path)
-            print(f"Virtual environment at {venv_full_path} has been removed.")
-        except Exception as e:
-            print(f"Error removing virtual environment: {e}")
-            sys.exit(1)
-    else:
-        print(f"No virtual environment found at {venv_full_path}. Skipping cleanup.")
-
-# Step 3: Detect system architecture (Intel or ARM)
+# Step 2: Detect system architecture (Intel or ARM)
 def detect_architecture():
     """
     Detect the system architecture (Intel or ARM).
@@ -84,7 +65,6 @@ if __name__ == "__main__":
         sys.exit("Unsupported architecture. Exiting...")
     
     uninstall_requirements()  # Step 1: Uninstall packages from requirements.txt
-    clean_virtual_env()       # Step 2: Clean up virtual environment
 
     # Add architecture-specific logic here if necessary
     if architecture == 'arm64':

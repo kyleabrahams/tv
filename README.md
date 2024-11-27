@@ -4,9 +4,25 @@ The project is designed to merge multiple EPG XML files into a single XML file t
 
 *See Android TV sheets doc, nginx tab for epg.xml creation frequency,
 
+## Step 1 in the working directory in Terminal run: (for node modules)
+npm install
+
+# If you want to Uninstall npm (node modules)
+rm package-lock.json
+rm -rf node_modules
+
+# Step 2.Create Virtual Environment for Python
+python3 -m venv ~/venv
+source ~/venv/bin/activate
+
+# Step 3. Run this script
+cd scripts
+python3 install_all.py
+
+
 # Step 1a. Installation of Nginx in Terminal for http:/localhost:8080/epg.xml
-chmod +x install_nginx.sh
-./install_nginx.sh
+chmod +x install_all.sh
+./install_all.py
 
 ## Step 1b. To uninstall Nginx and remove the local epg.xml, run:
 chmod +x uninstall_nginx.sh

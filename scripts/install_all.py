@@ -18,17 +18,55 @@ def prompt_user(script_name, question):
         else:
             print("Invalid input. Please enter 'y' or 'n'.")
 
+# Function to ensure script has executable permissions (chmod +x)
+def ensure_executable(script_path):
+    """Ensure the script has executable permissions."""
+    try:
+        if not os.access(script_path, os.X_OK):
+            print(f"Setting executable permissions for {script_path}...")
+            subprocess.check_call(["chmod", "+x", script_path])
+            print(f"Permissions set for {script_path}.")
+        else:
+            print(f"{script_path} already has executable permissions.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error setting permissions for {script_path}: {e}")
+
 # Function to run a Python script
 def run_script(script_path):
     try:
+        # Ensure the script has executable permissions
+        ensure_executable(script_path)
+        
         print(f"Running script: {script_path}...")
         subprocess.check_call([sys.executable, script_path])
         print(f"Script {script_path} executed successfully.")
     except subprocess.CalledProcessError as e:
         print(f"Error running script {script_path}: {e}")
 
+# Function to create and activate a virtual environment
+def setup_virtualenv(venv_path="venv"):
+    """
+    Create a virtual environment and restart the script within it.
+    """
+    venv_path = os.path.abspath(venv_path)
+    if not os.path.exists(venv_path):
+        print(f"Creating virtual environment at {venv_path}...")
+        subprocess.check_call([sys.executable, "-m", "venv", venv_path])
+        print("Virtual environment created successfully.")
+    else:
+        print(f"Virtual environment already exists at {venv_path}.")
+    
+    # Restart the script within the virtual environment
+    venv_python = os.path.join(venv_path, "bin", "python3")
+    if sys.executable != venv_python:
+        print(f"Restarting script within the virtual environment at {venv_path}...")
+        os.execv(venv_python, [venv_python] + sys.argv)
+
 # Main function to handle the installation logic
 def main():
+    # Ensure the script is running in a virtual environment
+    setup_virtualenv("venv")
+
     # Define the relative paths to the Python scripts
     script_1_path = os.path.join(os.getcwd(), 'install_dependencies.py')  # Simplified path
     script_2_path = os.path.join(os.getcwd(), 'install_nginx.py')  # Simplified path

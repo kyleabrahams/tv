@@ -1,4 +1,0 @@
-* * * * * echo 'Cron is working at Mon Nov 25 13:39:34 EST 2024' >> /Users/kyleabrahams/Documents/GitHub/tv/log/cron_test.log
-0 1,13 * * * /bin/bash -c 'source /Users/kyleabrahams/Documents/GitHub/tv/venv/bin/activate && /usr/local/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/log/merge_cron.log 2>&1'
-0 */6 * * * /usr/local/bin/nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/log/nginx_reload.log 2>&1
-* * * * * echo 'Cron is working at Mon Nov 25 19:06:23 EST 2024' >> /Users/kyleabrahams/Documents/GitHub/tv/log/cron_test.log
