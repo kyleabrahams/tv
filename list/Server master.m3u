@@ -20,7 +20,7 @@ http://cord-cutter.net:8080/xxx/57345
 http://cord-cutter.net:8080/xxx/47218
 # Sync Nov 21 2024
 http://152.89.62.76:8880/xxx/3053
-# No user/pass Nov 20 2024
+# Expired Nov 20 2024
 http://vo01.mohdtv.com:8880/xxx/3053
 # Working Nov 28 2024
 http://23.227.140.75:3050/xxx/418440
@@ -29,18 +29,21 @@ http://23.227.140.75:3050/xxx/487565
 
 
 #EXTINF:-1,MSNBC
-# Down Dec 2024
+# Working Nov 28 2024
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
+# Expired Dec 2024
 http://fl2.moveonjoy.com/MSNBC/index.m3u8
 # Requires a special header for Tivimate Nov 13 2024 (Expiry Unknown)
 http://67.220.74.90:25461/xxx/1710
 # Working Nov 13 2024
 http://fortv.cc:8080/xxx/47332
-# Down Nov 13 2024
+# Expired Nov 13 2024
 http://streamsy.online:2999/xxx/143 
 # Working Nov 19 2024
 http://streamsy.online:2999/live/xxxx/143.m3u8
 # Working Nov 19 2024
 http://41.205.93.154:80/MSNBC/index.m3u8
+
 
 #EXTINF:-1,CTV Toronto
 # Working Nov 20 2024
@@ -51,9 +54,9 @@ http://cord-cutter.net:8080/xxx/47296
 http://xxip25.top:8080/xxx/47296
 # Working Nov 20 2024
 http://tvmate.icu:8080/xxx/47296
-# No user/pass Nov 20 2024
+# Expired Nov 20 2024
 http://vo01.mohdtv.com:8880/xxx/30196
-# No user/pass Nov 20 2024
+# Expired Nov 20 2024
 http://mohdtv.com:8880/xxx/30196
 #EXTINF:-1,CA118:CTV Toronto
 http://yesimes.oknirvana.club:8880/xxx/30196
@@ -61,22 +64,22 @@ http://yesimes.oknirvana.club:8880/xxx/30196
 http://152.89.62.76:8880/xxx/30196
 # Working Nov 22 2024
 http://ultrapremium.cloud:8080/xxx/254736
-# No user/pass Nov 20 2024
+# Expired Nov 20 2024
 http://iptvtree.net:8080/xxx/298187
-# Down Nov 22 2024
+# Expired Nov 22 2024
 http://streamsy.online:2999/xxx/2010
 #EXTINF:-1 ,CA CTV Toronto HD (R)
 http://lunar.pm:8080/xxx/99960
 
 #EXTINF:-1,Discovery Velocity 
 http://fortv.cc:8080/xxx/46212
-# No user/pass Nov 27 2024
+# Expired Nov 27 2024
 http://vo01.mohdtv.com:8880/xxx/30198
-# No user/pass Nov 27 2024
+# Expired Nov 27 2024
 http://mohdtv.com:8880/xxx/30198
 #EXTINF:-1,CA116:Discovery Velocity
 http://yesimes.oknirvana.club:8880/xxx/30198
-# No user/pass Nov 27 2024
+# Expired Nov 27 2024
 http://iptvtree.net:8080/xxx/36720
 #EXTINF:-1,Motor Trend
 http://lunar.pm:8080/xxx/110794
@@ -99,7 +102,7 @@ http://vo01.mohdtv.com:8880/xxx/30213
 #EXTINF:-1,NBC Buffalo 
 # Unstable Nov 15 2024
 http://ultrapremium.cloud:8080/xxx/35369
-# Down Nov 15 2024
+# Expired Nov 15 2024
 http://fortv.cc:8080/xxx/120748
 #EXTINF:-1,NBC New York 
 # Working Nov 15 2024 (New York)
@@ -128,12 +131,12 @@ http://yesimes.oknirvana.club:8880/xxx/3056
 http://152.89.62.76:8880/xxx/3032
 # Working Nov 19 2024
 http://41.205.93.154/HBO/index.m3u8
-# Down Nov 15 2024
+# Expired Nov 15 2024
 http://streamsy.online:2999/xxx/2012
 #EXTINF:-1,HBO2
 # Working Nov 19 2024
 http://152.89.62.76:8880/xxx/3031
-# Down Nov 15 2024
+# Expired Nov 15 2024
 http://streamsy.online:2999/xxx/2011
 # Working Nov 19 2024
 http://212.102.60.231/HBO_2/index.m3u8
