@@ -63,6 +63,25 @@ http://streamsy.online:2999/xxx/2010
 #EXTINF:-1 ,CA CTV Toronto HD (R)
 http://lunar.pm:8080/xxx/99960
 
+#EXTINF:-1,Discovery Velocity 
+http://fortv.cc:8080/xxx/46212
+# No user/pass Nov 27 2024
+http://vo01.mohdtv.com:8880/xxx/30198
+# No user/pass Nov 27 2024
+http://mohdtv.com:8880/xxx/30198
+#EXTINF:-1,CA116:Discovery Velocity
+http://yesimes.oknirvana.club:8880/xxx/30198
+# No user/pass Nov 27 2024
+http://iptvtree.net:8080/xxx/36720
+#EXTINF:-1,Motor Trend
+http://lunar.pm:8080/xxx/110794
+#EXTINF:-1,CA116:Discovery Velocity
+http://152.89.62.76:8880/xxx/30198
+
+#EXTINF:-1,DTOUR 
+http://line.soy-pro.cc:80/live/xxx/51773.m3u8
+
+
 
 #EXTINF:-1,Fox Business News
 http://41.205.93.154/FOXBUSINESS/index.m3u8
@@ -9837,7 +9856,7 @@ http://lunar.pm:8080/xxx/110791
 http://lunar.pm:8080/xxx/110792
 #EXTINF:-1 ,SMITHSONIAN CHANNEL
 http://lunar.pm:8080/xxx/110793
-#EXTINF:-1 ,VELOCITY (Motor Trend)
+#EXTINF:-1 ,Motor Trend
 http://lunar.pm:8080/xxx/110794
 #EXTINF:-1 ,World Fishing Network
 http://lunar.pm:8080/xxx/110795
