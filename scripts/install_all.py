@@ -49,23 +49,40 @@ def setup_virtualenv(venv_path="venv"):
     Create a virtual environment and restart the script within it.
     """
     venv_path = os.path.abspath(venv_path)
+    print(f"Resolved virtual environment path: {venv_path}")
+    
     if not os.path.exists(venv_path):
         print(f"Creating virtual environment at {venv_path}...")
-        subprocess.check_call([sys.executable, "-m", "venv", venv_path])
-        print("Virtual environment created successfully.")
+        try:
+            subprocess.check_call([sys.executable, "-m", "venv", venv_path])
+            print("Virtual environment created successfully.")
+        except subprocess.CalledProcessError as e:
+            print(f"Error creating virtual environment: {e}")
+            sys.exit(1)
     else:
         print(f"Virtual environment already exists at {venv_path}.")
     
-    # Restart the script within the virtual environment
+    # Determine the Python executable in the virtual environment
     venv_python = os.path.join(venv_path, "bin", "python3")
+    print(f"Resolved virtual environment Python path: {venv_python}")
+    
+    if not os.path.exists(venv_python):
+        print(f"Error: Python executable not found at {venv_python}.")
+        sys.exit(1)
+    
+    # Restart the script within the virtual environment
     if sys.executable != venv_python:
         print(f"Restarting script within the virtual environment at {venv_path}...")
+        print(f"sys.argv: {sys.argv}")
         os.execv(venv_python, [venv_python] + sys.argv)
+    else:
+        print("Script is already running within the virtual environment.")
 
 # Main function to handle the installation logic
 def main():
     # Ensure the script is running in a virtual environment
     setup_virtualenv("venv")
+    print("Virtual environment setup complete. Proceeding with installation...")
 
     # Define the relative paths to the Python scripts
     script_1_path = os.path.join(os.getcwd(), 'install_dependencies.py')  # Simplified path

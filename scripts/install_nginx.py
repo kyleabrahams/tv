@@ -27,21 +27,37 @@ import requests
 
 # --- Constants ---
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # Directory of this script
-LOG_FILE = os.path.join(REPO_DIR, "log/install_nginx.log")
+LOG_DIR = os.path.join(REPO_DIR, "log")
+LOG_FILE = os.path.join(LOG_DIR, "install_nginx.log")
 NGINX_CONF = os.path.join(REPO_DIR, "nginx.conf")
 WWW_DIR = os.path.join(REPO_DIR, "www")
-LOG_DIR = os.path.join(REPO_DIR, "log")
-NGINX_CONF_DIR = "/opt/homebrew/etc/nginx"  # Adjust as necessary (ensure this matches where Nginx is installed)
-EPG_FILE = os.path.join(WWW_DIR, 'epg.xml')
+NGINX_CONF_DIR = "/usr/local/etc/nginx"  # Adjust if necessary based on your setup
+EPG_FILE = os.path.join(WWW_DIR, "epg.xml")
+
+# Ensure necessary directories exist
+for directory in [LOG_DIR, WWW_DIR, NGINX_CONF_DIR]:
+    os.makedirs(directory, exist_ok=True)
 
 # --- Logging Setup ---
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', handlers=[
-    logging.FileHandler(LOG_FILE), logging.StreamHandler()])
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler(),
+    ]
+)
 logger = logging.getLogger()
 
 def log(message):
     """Log to console and file."""
     logger.info(message)
+
+# Example usage
+if __name__ == "__main__":
+    log("Starting Nginx installation process...")
+    # Add other script logic here
+    log("Installation complete.")
 
 # --- Utilities ---
 def run_command(command, check=True, real_time=False):
