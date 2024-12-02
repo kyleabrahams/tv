@@ -5,7 +5,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://fortv.cc:8080/105094817/105094817/57435
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 2 158p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 2 212p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -65,8 +65,10 @@ http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
 http://fortv.cc:8080/105094817/105094817/120747
 "#EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="FOX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
 http://fl1.moveonjoy.com/FOX_EAST/index.m3u8"
+"#EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
+http://fortv.cc:8080/50905877/50905877/215268"
 #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
-http://fortv.cc:8080/50905877/50905877/215268
+http://fl1.moveonjoy.com/MUCH/index.m3u8
 #EXTINF:-1 tvg-id="AandE Canada HD.ca" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",A&E 
 http://xxip25.top:8080/64869862/18743571/57476
 #EXTINF:-1 tvg-id="AMC HDTV (East).us" tvg-name="AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",USA AMC 
@@ -177,8 +179,8 @@ http://fortv.cc:8080/105094817/105094817/57444
 http://fortv.cc:8080/105094817/105094817/16201
 #EXTINF:-1 tvg-id="National Geographic Canada.ca" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",USA National Geographic 
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
-#EXTINF:-1 tvg-id="Curiosity.Channel(Stream).us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="",USA Curiosity Stream
-http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
+"#EXTINF:-1 tvg-id="Curiosity.Channel(Stream).us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="",USA Curiosity Stream
+http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8"
 #EXTINF:-1 tvg-id="MovieTime HD.ca" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
 http://fortv.cc:8080/105094817/105094817/47331
 #EXTINF:-1 tvg-id="Magnolia Network Canada HD.ca" tvg-name="DIY Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="",Magonlia Network
@@ -189,8 +191,10 @@ http://fortv.cc:8080/105094817/105094817/47369
 http://fl2.moveonjoy.com/USA_Network/index.m3u8
 #EXTINF:-1 tvg-id="GSN (East).us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="",US Game Show Network
 http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
+"#EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418445"
 #EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418445
+http://fl3.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8
 #EXTINF:-1 tvg-id="Disney Junior Canada HD.ca" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 
 http://fortv.cc:8080/105094817/105094817/57349
 #EXTINF:-1 tvg-id="Disney Channel.us" tvg-name=":Disney Channel" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",USA Disney Channel East
