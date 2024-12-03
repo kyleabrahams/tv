@@ -41,12 +41,12 @@ http://fortv.cc:8080/105094817/105094817/58546
 http://xxip25.top:8080/64869862/18743571/77165
 #EXTINF:-1 tvg-id="US4000033L" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News
 https://jmp2.uk/sam-US4000033L.m3u8
-"#EXTINF:-1 tvg-id="TSC.(TSC).ca" tvg-name="the Shopping Channel" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418505"
+# #EXTINF:-1 tvg-id="TSC.(TSC).ca" tvg-name="the Shopping Channel" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
+# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418505
 #EXTINF:-1 tvg-id="CTV News Channel HD.ca" tvg-name="CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418450
-"#EXTINF:-1 tvg-id="CABC23000223U" tvg-name="Weather channel HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
-https://jmp2.uk/sam-CABC23000223U.m3u8"
+# #EXTINF:-1 tvg-id="CABC23000223U" tvg-name="Weather channel HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
+# https://jmp2.uk/sam-CABC23000223U.m3u8
 #EXTINF:-1 tvg-id="CABC23000223U" tvg-name="Weather channel HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418523
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
@@ -55,16 +55,16 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 http://fortv.cc:8080/105094817/105094817/63850
 #EXTINF:-1 tvg-id="W (WTN) - East.ca" tvg-name="W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423368
-"#EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name="W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Entertainment",W Network East
-http://fl2.moveonjoy.com/W_NETWORK/index.m3u8"
+# #EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name="W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Entertainment",W Network East
+# http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Motor Trend HDTV - MTHD.us" tvg-name="US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
 #EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name="FOX 29 (WUTV) BUFFALO" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX
 http://fortv.cc:8080/105094817/105094817/120747
-"#EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="FOX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
-http://fl1.moveonjoy.com/FOX_EAST/index.m3u8"
-"#EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
-http://fortv.cc:8080/50905877/50905877/215268"
+# #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="FOX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
+# http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+# #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
+# http://fortv.cc:8080/50905877/50905877/215268
 #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 http://fl1.moveonjoy.com/MUCH/index.m3u8
 #EXTINF:-1 tvg-id="AandE Canada HD.ca" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",A&E 
@@ -75,12 +75,12 @@ http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418436
 #EXTINF:-1 tvg-id="TLC USA HD - Eastern (1250).us" tvg-name="tLC USATV" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",USA TLC
 http://fl2.moveonjoy.com/TLC/index.m3u8
-"#EXTINF:-1 tvg-id="Telelatino HD.ca" tvg-name="tELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
-http://b1g.ooo:80/827/827/614801"
+# #EXTINF:-1 tvg-id="Telelatino HD.ca" tvg-name="tELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
+# http://b1g.ooo:80/827/827/614801
 #EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name="Investigation Discovery" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="",Investigation Discovery
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418482
 #EXTINF:-1 tvg-id="CTV Life HD.ca" tvg-name="CTV LIFE" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 
-http://fortv.cc:8080/105094817/105094817/116506
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418595
 #EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name="CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="",CMT FHD
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418434
 #EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name="ShowCase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Showcase_Logo_2015.png" group-title="Movies",Showcase 
@@ -99,8 +99,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418477
 http://fortv.cc:8080/105094817/105094817/57408
 #EXTINF:-1 tvg-id="Cartoon Network (Canada-East)" tvg-name="Cartoon Network" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network 
 http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
-"#EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",HGTV 
-http://tvmate.icu:8080/154662662/21542662/57273"
+# #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",HGTV 
+# http://tvmate.icu:8080/154662662/21542662/57273
 #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz",HGTV 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418549
 #EXTINF:-1 tvg-id="Home and Garden Television HDTV (East) - HGTVD.us" tvg-name="US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="",USA HGTV 
@@ -134,7 +134,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
 #EXTINF:-1 tvg-id="The Cooking Channel.us" tvg-name="US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",USA Cooking Channel 
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Vision TV Eastern.ca" tvg-name="Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
-http://fortv.cc:8080/105094817/105094817/57468
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418522
 #EXTINF:-1 tvg-id="PBS (WNED) Buffalo, NY.ca" tvg-name="PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423735
 #EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name="E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",E! 
@@ -177,8 +177,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418485
 http://fortv.cc:8080/105094817/105094817/16201
 #EXTINF:-1 tvg-id="National Geographic Canada.ca" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",USA National Geographic 
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
-"#EXTINF:-1 tvg-id="Curiosity.Channel(Stream).us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="",USA Curiosity Stream
-http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8"
+# #EXTINF:-1 tvg-id="Curiosity.Channel(Stream).us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="",USA Curiosity Stream
+# http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
 #EXTINF:-1 tvg-id="MovieTime HD.ca" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
 http://fortv.cc:8080/105094817/105094817/47331
 #EXTINF:-1 tvg-id="Magnolia Network Canada HD.ca" tvg-name="DIY Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="",Magonlia Network
@@ -189,8 +189,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418509
 http://fl2.moveonjoy.com/USA_Network/index.m3u8
 #EXTINF:-1 tvg-id="GSN (East).us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="",US Game Show Network
 http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
-"#EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418445"
+# #EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
+# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418445
 #EXTINF:-1 tvg-id="Crime + Investigation Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentary",US Crime + Investigation
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418445
 #EXTINF:-1 tvg-id="Disney Junior Canada HD.ca" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 
@@ -221,8 +221,8 @@ http://fl2.moveonjoy.com/CRAVE_4/index.m3u8
 http://fortv.cc:8080/105094817/105094817/57369
 #EXTINF:-1 tvg-id="Makeful.ca" tvg-name="MAKEFUL" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="",Makeful
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418488
-"#EXTINF:-1 tvg-id="T+E Totally Entertaining.ca" tvg-name="Travel + Escape" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418519"
+# #EXTINF:-1 tvg-id="T+E Totally Entertaining.ca" tvg-name="Travel + Escape" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape
+# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418519
 #EXTINF:-1tvg-id="IN300000210" tvg-name="TravelXP" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/india/travelxp-in.png?raw=true" group-title="",TravelXP
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418519
 #EXTINF:-1 tvg-id="CABC23000035R" tvg-name="Hollywire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/hollywire-vod-us.png?raw=true" group-title="",Hollywire
@@ -286,8 +286,8 @@ https://jmp2.uk/sam-CABB25000248J.m3u8
 https://jmp2.uk/sam-USBB4400018LR.m3u8
 #EXTINF:-1 tvg-id="USBB4400017N3" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400017N3_20240625T011308SQUARE.png" group-title="",Deal or no Deal
 https://jmp2.uk/sam-USBB4400017N3.m3u8
-#EXTINF:-1 tvg-id="INBC43000016J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC43000016J_20230111T005122SQUARE.png_20230111005122.png" group-title="",HD Travel
-https://jmp2.uk/sam-INBC43000016J.m3u8
+# #EXTINF:-1 tvg-id="INBC43000016J" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBC43000016J_20230111T005122SQUARE.png_20230111005122.png" group-title="",HD Travel
+# https://jmp2.uk/sam-INBC43000016J.m3u8
 #EXTINF:-1 tvg-id="CABC23000189A" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000189A_20240716T003004SQUARE.png" group-title="Series",Cops
 https://jmp2.uk/sam-CABC23000189A.m3u8
 #EXTINF:-1 tvg-id="CABA3700001DB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA1600001XM_20240520T215804SQUARE.png" group-title="Comedy",Always Funny Videos
@@ -296,8 +296,8 @@ https://jmp2.uk/sam-USBA1600001XM.m3u8
 https://jmp2.uk/sam-CABD1200005AV.m3u8
 #EXTINF:-1 tvg-id="USBD1200004NS" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20240520T214900SQUARE.png" group-title="Series",The Walking Dead Universe
 https://jmp2.uk/sam-USBD1200004NS.m3u8
-#EXTINF:-1 tvg-id="INBB280000599" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBB280000599_20240904T091756SQUARE.png" group-title="" tvg-chno="1171",WildEarth
-https://jmp2.uk/sam-INBB280000599.m3u8
+# #EXTINF:-1 tvg-id="INBB280000599" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBB280000599_20240904T091756SQUARE.png" group-title="" tvg-chno="1171",WildEarth
+# https://jmp2.uk/sam-INBB280000599.m3u8
 #EXTINF:-1 tvg-id="250#99991138" tvg-logo="https://image.xumo.com/v1/channels/channel/9999977/248x140.png?type=channelTile" group-title="",Vogue
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991138
 #EXTINF:-1 tvg-id="USBB3500004RC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway
@@ -310,8 +310,8 @@ https://jmp2.uk/sam-USBA3700002JF.m3u8
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TMZ.m3u8
 #EXTINF:-1 tvg-id="CABC2300001X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2100009GT_20240520T214854SQUARE.png" group-title="",The Jack Hanna Channel
 https://jmp2.uk/sam-CABC2300001X9.m3u8
-#EXTINF:-1 tvg-id="USBD1700001RW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700001RW_20240520T214740SQUARE.png" group-title="",BBC Earth
-https://jmp2.uk/sam-USBD1700001RW.m3u8
+# #EXTINF:-1 tvg-id="USBD1700001RW" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700001RW_20240520T214740SQUARE.png" group-title="",BBC Earth
+# https://jmp2.uk/sam-USBD1700001RW.m3u8
 #EXTINF:-1 tvg-id="USBD700017WC" tvg-country="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" tvg-logo="" group-title="",Tastemade Travel
 https://jmp2.uk/sam-USBD700017WC.m3u8
 #EXTINF:-1 tvg-id="CABC2300002VB" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="",Xplore
@@ -330,8 +330,8 @@ https://jmp2.uk/sam-CABC5200013DN.m3u8
 https://jmp2.uk/sam-CABD1200009SD.m3u8
 #EXTINF:-1 tvg-id="CABB260002016" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambience",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
-#EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
-https://jmp2.uk/sam-USBB1500001GD.m3u8
+# #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
+# https://jmp2.uk/sam-USBB1500001GD.m3u8
 #EXTINF:-1 tvg-id="DW English.ca" tvg-logo="https://i.ibb.co/166FjsW/DW-news-stacked.png" group-title="News",DW News
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="USBB32000251N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day
@@ -398,8 +398,8 @@ https://jmp2.uk/sam-USBB5200007BY.m3u8
 https://jmp2.uk/sam-USAK3508710A.m3u8
 #EXTINF:-1 tvg-id="CAAJ27000135F" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000135F_20220824T022340SQUARE.png_20220824022341.png" group-title="Series",Unsolved Mysteries
 https://jmp2.uk/sam-CAAJ27000135F.m3u8
-#EXTINF:-1 tvg-id="INBA4900027A9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900027A9_20220427T054651SQUARE.png_20220427054652.png" group-title="",Real Wild
-https://jmp2.uk/sam-INBA4900027A9.m3u8
+# #EXTINF:-1 tvg-id="INBA4900027A9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900027A9_20220427T054651SQUARE.png_20220427054652.png" group-title="",Real Wild
+# https://jmp2.uk/sam-INBA4900027A9.m3u8
 #EXTINF:-1 tvg-id="USBB800001O7" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB800001O7_20240520T214624SQUARE.png" group-title="",PBS Digital Studios
 https://jmp2.uk/sam-USBB800001O7.m3u8
 #EXTINF:-1 tvg-id="CAAJ27000079E" tvg-logo="https://yt3.googleusercontent.com/PTBvhrl1MTlmAhSc8u59mhRczl5abzW0JA2Nj9HqTYrFtBe1rPBGd4OzdR91rlSUzL4LVOxV=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",FilmRise True Crime
@@ -412,8 +412,8 @@ https://d3is52sgpnlx4c.cloudfront.net/10901/88885512/hls/master.m3u8?withResolut
 https://jmp2.uk/sam-USBB32000196O.m3u8
 #EXTINF:-1 tvg-id="USBD700022M5" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful
 https://jmp2.uk/sam-USBD700022M5.m3u8
-#EXTINF:-1 tvg-id="USBC6000108Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20240722T230856SQUARE.png" group-title="Home & Food",BBC Food
-https://jmp2.uk/sam-USBC6000108Z.m3u8
+# #EXTINF:-1 tvg-id="USBC6000108Z" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20240722T230856SQUARE.png" group-title="Home & Food",BBC Food
+# https://jmp2.uk/sam-USBC6000108Z.m3u8
 #EXTINF:-1 tvg-id="GBBC900014LW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900014LW_20230712T021153SQUARE.png_20230712021154.png" group-title="Home & Food",Great British Menu
 https://jmp2.uk/sam-GBBC900014LW.m3u8
 #EXTINF:-1 tvg-id="USBD17000117B" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere
@@ -466,8 +466,8 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62
 
 
 
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-64bf5ed5fa25ad1c59ae7472" tvg-logo="https://i.ibb.co/SNyTz6Z/washington-post.png" group-title="News",Washington Post
-https://washingtonpost-firetv.amagi.tv/playlist.m3u8
+# #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-64bf5ed5fa25ad1c59ae7472" tvg-logo="https://i.ibb.co/SNyTz6Z/washington-post.png" group-title="News",Washington Post
+# https://washingtonpost-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-63d08694ab0965e49583e3b2" tvg-logo="https://pyxis.nymag.com/v1/imgs/268/e88/b7270bfd4a4ca5a88fd05f620c2e87ec8b-funny-or-die.2x.rsocial.w600.jpg" group-title="Comedy",Funny or Die
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991187
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-logo="https://i.ibb.co/tpGjF36/stories-by-amc-1.png" group-title="",Stories by AMC
@@ -493,8 +493,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://jmp2.uk/sam-CA140001684.m3u8
 #EXTINF:-1 tvg-id="FYI.us" tvg-name="US FYI" tvg-logo="https://static.epg.best/us/FYI.us.png" group-title="",USA FYI
 http://fl2.moveonjoy.com/FYI/index.m3u8
-#EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",USA Discovery Science 
-http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
+# #EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",USA Discovery Science 
+# http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
 #EXTINF:-1 tvg-id="The Discovery Channel (East).us" tvg-name="US Discovery Channel East" tvg-logo="https://i.ibb.co/xX52N0d/Discovery-Channel-Logo-2019-1.png" group-title="",USA Discovery Channel  
 http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 #EXTINF:-1 tvg-id="Discovery Family Channel SDTV.us" tvg-name="US DISCOVERY FAMILY" tvg-logo="https://i.ibb.co/Z2Nf59p/Discovery-Family-logo-1.png" group-title="",USA Discovery Family 
@@ -689,8 +689,8 @@ http://fl2.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1464
 #EXTINF:-1 tvg-id="Showtime Next East HDTV (East) - SHOND.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",Showtime Next
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1187
-"#EXTINF:-1 tvg-id="Showtime Next East HDTV (East) - SHOND.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",USA Showtime Next 
-http://fl2.moveonjoy.com/SHOWTIME_NEXT/index.m3u8"
+# #EXTINF:-1 tvg-id="Showtime Next East HDTV (East) - SHOND.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",USA Showtime Next 
+# http://fl2.moveonjoy.com/SHOWTIME_NEXT/index.m3u8
 #EXTINF:-1 tvg-id="Showtime Showcase HDTV (East) - SHOCHD.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-showcase-us.png?raw=true" group-title="Movies",Showtime Showcase
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1465
 #EXTINF:-1 tvg-id="Showtime.Women.HDTV.(East).(SHOWD).us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",USA Showtime Women 
