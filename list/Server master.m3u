@@ -880,7 +880,7 @@ http://23.227.140.75:3050/xxx/612444
 
 
 # * Down Links Dec 2 2024
-#EXTINF:-1,*APTN
+#EXTINF:-1,APTN
 http://fortv.cc:8080/xxx/57320
 #EXTINF:-1,*(FR) Canal D SD (P)
 http://fortv.cc:8080/xxx/57479
@@ -900,9 +900,9 @@ http://fortv.cc:8080/xxx/57485
 http://fortv.cc:8080/xxx/57481
 #EXTINF:-1,(FR) LCN (E)
 http://fortv.cc:8080/xxx/57968
-#EXTINF:-1,*(FR) METEO
+#EXTINF:-1,(FR) METEO
 http://fortv.cc:8080/xxx/57486
-#EXTINF:-1,*(FR) MOI ET CIE
+#EXTINF:-1,(FR) MOI ET CIE
 http://fortv.cc:8080/xxx/57487
 #EXTINF:-1,*(FR) Prise  (P)
 http://fortv.cc:8080/xxx/57488
@@ -922,11 +922,11 @@ http://fortv.cc:8080/xxx/66366
 http://fortv.cc:8080/xxx/57492
 #EXTINF:-1,(FR) TFO HD (R)
 http://fortv.cc:8080/xxx/57495
-#EXTINF:-1,*(FR) TVA Montreal FHD (B)
+#EXTINF:-1,(FR) TVA Montreal FHD (B)
 http://fortv.cc:8080/xxx/57497
-#EXTINF:-1,*(FR) TVA SPORTS 1
+#EXTINF:-1,(FR) TVA SPORTS 1
 http://fortv.cc:8080/xxx/57498
-#EXTINF:-1,*(FR) NOOVO (D)
+#EXTINF:-1,(FR) NOOVO (D)
 http://fortv.cc:8080/xxx/57501
 #EXTINF:-1,(FR) Zeste HD  (B)
 http://fortv.cc:8080/xxx/57502
@@ -936,17 +936,17 @@ http://fortv.cc:8080/xxx/22995
 http://fortv.cc:8080/xxx/41836
 #EXTINF:-1,Sportsnet One (E)
 http://fortv.cc:8080/xxx/10247
-#EXTINF:-1,*TSN 4 HD 
+#EXTINF:-1,TSN 4 HD 
 http://fortv.cc:8080/xxx/16130
 #EXTINF:-1,YTV East 
 http://fortv.cc:8080/xxx/63850
-#EXTINF:-1,*A&E
+#EXTINF:-1,A&E
 http://fortv.cc:8080/xxx/57476
-#EXTINF:-1,*A&E 
+#EXTINF:-1,US: A&E 
 http://fortv.cc:8080/xxx/57264
 #EXTINF:-1,ABC SPARK
 http://fortv.cc:8080/xxx/57375
-#EXTINF:-1,*AMC
+#EXTINF:-1,AMC
 http://fortv.cc:8080/xxx/57376
 #EXTINF:-1,Animal Planet
 http://fortv.cc:8080/xxx/57377
@@ -962,13 +962,13 @@ http://fortv.cc:8080/xxx/57356
 http://fortv.cc:8080/xxx/57304
 #EXTINF:-1,CBC Calgary HD 
 http://fortv.cc:8080/xxx/57381
-#EXTINF:-1,*CBC Charlottetown HD (D)
+#EXTINF:-1,CBC Charlottetown HD (D)
 http://fortv.cc:8080/xxx/57382
-#EXTINF:-1,*CBC Edmonton
+#EXTINF:-1,CBC Edmonton
 http://fortv.cc:8080/xxx/57384
 #EXTINF:-1,CBC Halifax HD 
 http://fortv.cc:8080/xxx/57385
-#EXTINF:-1,*CBC Montreal HD (D) 
+#EXTINF:-1,CBC Montreal HD (D) 
 http://fortv.cc:8080/xxx/57387
 #EXTINF:-1,CBC OTTAWA
 http://fortv.cc:8080/xxx/57305
@@ -976,9 +976,9 @@ http://fortv.cc:8080/xxx/57305
 http://fortv.cc:8080/xxx/57260
 #EXTINF:-1,CBC TORONTO
 http://fortv.cc:8080/xxx/57306
-#EXTINF:-1,*CBC Vancouver
+#EXTINF:-1,CBC Vancouver
 http://fortv.cc:8080/xxx/57391
-#EXTINF:-1,*CHCH (E)
+#EXTINF:-1,CHCH (E)
 http://fortv.cc:8080/xxx/57393
 #EXTINF:-1,*CHCH (R)
 http://fortv.cc:8080/xxx/57259
@@ -992,11 +992,11 @@ http://fortv.cc:8080/xxx/57394
 http://fortv.cc:8080/xxx/57307
 #EXTINF:-1,CITY TV VANCOUVER (E)
 http://fortv.cc:8080/xxx/57395
-#EXTINF:-1,*CMT
+#EXTINF:-1,CMT
 http://fortv.cc:8080/xxx/57258
 #EXTINF:-1,CNN 
 http://fortv.cc:8080/xxx/57398
-#EXTINF:-1,*CNN 
+#EXTINF:-1,CNN 
 http://fortv.cc:8080/xxx/47213
 #EXTINF:-1,*Cottage Life HD (B)
 http://fortv.cc:8080/xxx/47217
@@ -1012,11 +1012,11 @@ http://fortv.cc:8080/xxx/47218
 http://fortv.cc:8080/xxx/57257
 #EXTINF:-1,CPAC
 http://fortv.cc:8080/xxx/57402
-#EXTINF:-1,*CPAC English
+#EXTINF:-1,CPAC English
 http://fortv.cc:8080/xxx/57352
 #EXTINF:-1,CPAC HD 
 http://fortv.cc:8080/xxx/57351
-#EXTINF:-1,*CRAVE 1 HD
+#EXTINF:-1,CRAVE 1 HD
 http://fortv.cc:8080/xxx/57309
 #EXTINF:-1,CRAVE 2 HD
 http://fortv.cc:8080/xxx/57310
@@ -1072,9 +1072,9 @@ http://fortv.cc:8080/xxx/57349
 http://fortv.cc:8080/xxx/57420
 #EXTINF:-1,DIY NETWORK FHD
 http://fortv.cc:8080/xxx/47258
-#EXTINF:-1,*DTOUR HD
+#EXTINF:-1,DTOUR HD
 http://fortv.cc:8080/xxx/57250
-#EXTINF:-1,*E! (R)
+#EXTINF:-1,E! (R)
 http://fortv.cc:8080/xxx/57422
 #EXTINF:-1,E! CANADA HD
 http://fortv.cc:8080/xxx/57249
@@ -1082,7 +1082,7 @@ http://fortv.cc:8080/xxx/57249
 http://fortv.cc:8080/xxx/57288
 #EXTINF:-1,US Discovery Family 
 http://fortv.cc:8080/xxx/57347
-#EXTINF:-1,*Family Jr HD
+#EXTINF:-1,Family Jr HD
 http://fortv.cc:8080/xxx/57346
 #EXTINF:-1,*Food Network
 http://fortv.cc:8080/xxx/57247
@@ -1090,11 +1090,11 @@ http://fortv.cc:8080/xxx/57247
 http://fortv.cc:8080/xxx/47281
 #EXTINF:-1,*FX HD
 http://fortv.cc:8080/xxx/57268
-#EXTINF:-1,*FXX (R)
+#EXTINF:-1,FXX (R)
 http://fortv.cc:8080/xxx/57429
 #EXTINF:-1,Game Show Network HD 
 http://fortv.cc:8080/xxx/57430
-#EXTINF:-1,*Ginx esports TV
+#EXTINF:-1,Ginx esports TV
 http://fortv.cc:8080/xxx/57431
 #EXTINF:-1,Global News Kingston (D)
 http://fortv.cc:8080/xxx/57432
@@ -1118,15 +1118,15 @@ http://fortv.cc:8080/xxx/57362
 http://fortv.cc:8080/xxx/57437
 #EXTINF:-1,HBO 2 (R)
 http://fortv.cc:8080/xxx/57438
-#EXTINF:-1,*HGTV 
+#EXTINF:-1,HGTV 
 http://fortv.cc:8080/xxx/57273
-#EXTINF:-1,*HISTORY 
+#EXTINF:-1,HISTORY 
 http://fortv.cc:8080/xxx/47302
-#EXTINF:-1,*HISTORY (E)
+#EXTINF:-1,HISTORY (E)
 http://fortv.cc:8080/xxx/57272
-#EXTINF:-1,*HLN
+#EXTINF:-1,HLN
 http://fortv.cc:8080/xxx/57441
-#EXTINF:-1,*Investigation Discovery HD (E)
+#EXTINF:-1,Investigation Discovery HD (E)
 http://fortv.cc:8080/xxx/57442
 #EXTINF:-1,Lifetime 
 http://fortv.cc:8080/xxx/57271
@@ -1140,37 +1140,37 @@ http://fortv.cc:8080/xxx/57270
 http://fortv.cc:8080/xxx/47331
 #EXTINF:-1,MSNBC (R)
 http://fortv.cc:8080/xxx/47332
-#EXTINF:-1,*MTV
+#EXTINF:-1,MTV
 http://fortv.cc:8080/xxx/57446
-#EXTINF:-1,*MTV2 (E)
+#EXTINF:-1,MTV2 (E)
 http://fortv.cc:8080/xxx/57447
-#EXTINF:-1,*MTV HD
+#EXTINF:-1,MTV HD
 http://fortv.cc:8080/xxx/57368
 #EXTINF:-1,National Geographics
 http://fortv.cc:8080/xxx/57281
 #EXTINF:-1,*National Geographic  HD
 http://fortv.cc:8080/xxx/47338
-#EXTINF:-1,*National Geographic Wild (R)
+#EXTINF:-1,National Geographic Wild (R)
 http://fortv.cc:8080/xxx/57450
-#EXTINF:-1,*National Geographic Wild 
+#EXTINF:-1,National Geographic Wild 
 http://fortv.cc:8080/xxx/57280
-#EXTINF:-1,*NATIONAL GEOGRAPHIC
+#EXTINF:-1,National Geographic
 http://fortv.cc:8080/xxx/47339
 #EXTINF:-1,NFL NETWORK HD
 http://fortv.cc:8080/xxx/47346
 #EXTINF:-1,Nickelodeon (R)
 http://fortv.cc:8080/xxx/47349
-#EXTINF:-1,*(ZH) NTD (E)
+#EXTINF:-1,(ZH) NTD (E)
 http://fortv.cc:8080/xxx/58023
 #EXTINF:-1,NTV St. John`s 
 http://fortv.cc:8080/xxx/57478
-#EXTINF:-1,*OLN (E)
+#EXTINF:-1,OLN (E)
 http://fortv.cc:8080/xxx/57366
-#EXTINF:-1,*OMNI1 HD
+#EXTINF:-1,OMNI 1 HD
 http://fortv.cc:8080/xxx/57365
 #EXTINF:-1,*OWN 
 http://fortv.cc:8080/xxx/57277
-#EXTINF:-1,*PBS HD
+#EXTINF:-1,PBS HD
 http://fortv.cc:8080/xxx/57276
 #EXTINF:-1,Peachtree TV HD (R)
 http://fortv.cc:8080/xxx/47362
@@ -1182,7 +1182,7 @@ http://fortv.cc:8080/xxx/47366
 http://fortv.cc:8080/xxx/57274
 #EXTINF:-1,*Smithsonian Channel (B)
 http://fortv.cc:8080/xxx/47369
-#EXTINF:-1,*Sportsnet 360 HD 
+#EXTINF:-1,Sportsnet 360 HD 
 http://fortv.cc:8080/xxx/2219
 #EXTINF:-1,Sportsnet 360 (HD)
 http://fortv.cc:8080/xxx/57299
@@ -1212,17 +1212,17 @@ http://fortv.cc:8080/xxx/75675
 http://fortv.cc:8080/xxx/57464
 #EXTINF:-1,Teletoon East (E)
 http://fortv.cc:8080/xxx/57372
-#EXTINF:-1,*TFO  (FR)
+#EXTINF:-1,TFO  (FR)
 http://fortv.cc:8080/xxx/57291
-#EXTINF:-1,*TLC 
+#EXTINF:-1,TLC 
 http://fortv.cc:8080/xxx/57290
-#EXTINF:-1,*Treehouse (R)
+#EXTINF:-1,Treehouse (R)
 http://fortv.cc:8080/xxx/57371
 #EXTINF:-1,*The Shopping Channel (B)
 http://fortv.cc:8080/xxx/57370
-#EXTINF:-1,*TSN 1 (E)
+#EXTINF:-1,TSN 1 (E)
 http://fortv.cc:8080/xxx/57292
-#EXTINF:-1,*TSN 1 (R)
+#EXTINF:-1,TSN 1 (R)
 http://fortv.cc:8080/xxx/47440
 #EXTINF:-1,TSN 2 (R)
 http://fortv.cc:8080/xxx/16129
@@ -1236,7 +1236,7 @@ http://fortv.cc:8080/xxx/47444
 http://fortv.cc:8080/xxx/66783
 #EXTINF:-1,TSN 4 (B)
 http://fortv.cc:8080/xxx/47446
-#EXTINF:-1,*TSN 5 
+#EXTINF:-1,TSN 5 
 http://fortv.cc:8080/xxx/57467
 #EXTINF:-1,TSN 5 HD 
 http://fortv.cc:8080/xxx/16131
@@ -1246,9 +1246,9 @@ http://fortv.cc:8080/xxx/57295
 http://fortv.cc:8080/xxx/57369
 #EXTINF:-1,Vision
 http://fortv.cc:8080/xxx/57468
-#EXTINF:-1,*W Network East (E)
+#EXTINF:-1,W Network East (E)
 http://fortv.cc:8080/xxx/57284
-#EXTINF:-1,*Weather Network Toronto
+#EXTINF:-1,Weather Network Toronto
 http://fortv.cc:8080/xxx/57470
 #EXTINF:-1,World Fishing Network
 http://fortv.cc:8080/xxx/57471
@@ -2506,7 +2506,7 @@ http://cord-cutter.net:8080/xxx/57497
 http://cord-cutter.net:8080/xxx/57498
 #EXTINF:-1,CA (FR) NOOVO (D)
 http://cord-cutter.net:8080/xxx/57501
-#EXTINF:-1,CA (FR) Zeste HD  (B)
+#EXTINF:-1,*CA (FR) Zeste HD  (B)
 http://cord-cutter.net:8080/xxx/57502
 #EXTINF:-1,CA-NBA TV
 http://cord-cutter.net:8080/xxx/22995
@@ -2566,13 +2566,13 @@ http://cord-cutter.net:8080/xxx/75653
 http://cord-cutter.net:8080/xxx/75652
 #EXTINF:-1,CA City TV Toronto (D)
 http://cord-cutter.net:8080/xxx/57394
-#EXTINF:-1,CA: CITY TV TORONTO HD
+#EXTINF:-1,CA CITY TV TORONTO HD
 http://cord-cutter.net:8080/xxx/57307
 #EXTINF:-1,CA CITY TV VANCOUVER (E)
 http://cord-cutter.net:8080/xxx/57395
 #EXTINF:-1,CA CMT
 http://cord-cutter.net:8080/xxx/57258
-#EXTINF:-1,CA: CNN 
+#EXTINF:-1,CA CNN 
 http://cord-cutter.net:8080/xxx/57398
 #EXTINF:-1,CA CNN 
 http://cord-cutter.net:8080/xxx/47213

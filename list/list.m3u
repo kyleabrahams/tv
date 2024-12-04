@@ -1,26 +1,26 @@
 #EXTM3U url-tvg="http://10.0.0.30:8080/epg.xml"
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="01 CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
+http://fortv.cc:8080/105094817/105094817/47218
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 3 610p
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
+#EXTINF:-1 tvg-id="OMNI.1 (CFMT-DT-1) London.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 3 813p
+http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 #EXTINF:-1 tvg-id="CBC (CBLT) Toronto, ON.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423708
+http://fortv.cc:8080/105094817/105094817/57260
 #EXTINF:-1 tvg-id="CITY Toronto, ON.ca" tvg-name="07 City TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",Citytv Toronto
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418432
+http://fortv.cc:8080/105094817/105094817/57394
 #EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418453
 #EXTINF:-1 tvg-id="Yes TV (CITS) Burlington, ON.ca" tvg-name="09 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
 #EXTINF:-1 tvg-id="Bravo Canada.ca" tvg-name="10 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418498
+http://fortv.cc:8080/105094817/105094817/57379
 #EXTINF:-1 tvg-id="CHCH Hamilton, ON HD.ca" tvg-name="11 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="1",CHCH
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418551
+http://fortv.cc:8080/105094817/105094817/57393
 #EXTINF:-1 tvg-id="CA1500002Q4" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
 https://jmp2.uk/sam-CA1500002Q4.m3u8
 #EXTINF:-1 tvg-id="CA1400004AE" tvg-name="13" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
@@ -54,7 +54,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 #EXTINF:-1 tvg-id="YTV (East)" tvg-name="YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV
 http://fortv.cc:8080/105094817/105094817/63850
 #EXTINF:-1 tvg-id="W (WTN) - East.ca" tvg-name="W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423368
+http://fortv.cc:8080/105094817/105094817/57284
 # #EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name="W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Entertainment",W Network East
 # http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Motor Trend HDTV - MTHD.us" tvg-name="US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
@@ -68,31 +68,31 @@ http://fortv.cc:8080/105094817/105094817/120747
 #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 http://fl1.moveonjoy.com/MUCH/index.m3u8
 #EXTINF:-1 tvg-id="AandE Canada HD.ca" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",A&E 
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418411
+http://fortv.cc:8080/105094817/105094817/57476
 #EXTINF:-1 tvg-id="AMC HDTV (East).us" tvg-name="AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",USA AMC 
 http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Cable News Network" tvg-name="CA: CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",USA CNN 
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418436
+http://fortv.cc:8080/105094817/105094817/47213
 #EXTINF:-1 tvg-id="TLC USA HD - Eastern (1250).us" tvg-name="tLC USATV" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",USA TLC
 http://fl2.moveonjoy.com/TLC/index.m3u8
 # #EXTINF:-1 tvg-id="Telelatino HD.ca" tvg-name="tELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
 # http://b1g.ooo:80/827/827/614801
 #EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name="Investigation Discovery" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="",Investigation Discovery
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418482
+http://fortv.cc:8080/105094817/105094817/57442
 #EXTINF:-1 tvg-id="CTV Life HD.ca" tvg-name="CTV LIFE" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418595
 #EXTINF:-1 tvg-id="CMT Canada.ca" tvg-name="CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="",CMT FHD
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418434
+http://fortv.cc:8080/105094817/105094817/57258
 #EXTINF:-1 tvg-id="Showcase Canada HD.ca" tvg-name="ShowCase" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fa/Showcase_Logo_2015.png" group-title="Movies",Showcase 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418506
 #EXTINF:-1 tvg-id="CTV Drama HD.ca" tvg-name="CTV Drama" tvg-logo="https://i.ibb.co/BqN41hz/CTV-Drama-Channel-2019-purple.png" group-title="",CTV Drama Channel
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418530
+http://fortv.cc:8080/105094817/105094817/57254
 #EXTINF:-1 tvg-id="Slice HD.ca" tvg-name="SLICE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",Slice
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418508
 #EXTINF:-1 tvg-id="The Discovery Channel Canada" tvg-name="Discovery" tvg-logo="https://i.ibb.co/xX52N0d/Discovery-Channel-Logo-2019-1.png" group-title="",Discovery Channel 
 http://fortv.cc:8080/105094817/105094817/57252
 #EXTINF:-1 tvg-id="History Canada East.ca" tvg-name="History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="",History
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418480
+http://fortv.cc:8080/105094817/105094817/47302
 #EXTINF:-1 tvg-id="History 2 Canada.ca" tvg-name="CA H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="",H2 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418477
 #EXTINF:-1 tvg-id="CTV Comedy - East.ca" tvg-name="CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",CTV Comedy Channel
@@ -102,7 +102,7 @@ http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
 # #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",HGTV 
 # http://tvmate.icu:8080/154662662/21542662/57273
 #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz",HGTV 
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418549
+http://fortv.cc:8080/105094817/105094817/57273
 #EXTINF:-1 tvg-id="Home and Garden Television HDTV (East) - HGTVD.us" tvg-name="US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="",USA HGTV 
 http://fl2.moveonjoy.com/HGTV/index.m3u8
 #EXTINF:-1 tvg-id="Love Nature.ca" tvg-name="Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="",Love Nature  
@@ -128,7 +128,7 @@ http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Bloomberg TV USA (222).us" tvg-name="BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
 http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:-1 tvg-id="ABC Spark" tvg-name="ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
-http://fortv.cc:8080/105094817/105094817/57375
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
 #EXTINF:-1 tvg-id="The Cooking Channel.us" tvg-name="US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",USA Cooking Channel 
@@ -136,7 +136,7 @@ http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Vision TV Eastern.ca" tvg-name="Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418522
 #EXTINF:-1 tvg-id="PBS (WNED) Buffalo, NY.ca" tvg-name="PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423735
+http://fortv.cc:8080/105094817/105094817/57276
 #EXTINF:-1 tvg-id="E! Canada HD.ca" tvg-name="E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",E! 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418463
 #EXTINF:-1 tvg-id="E! Entertainment Television HDTV (East).us" tvg-name="US E! Entertainment Television East USATV" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",USA E!   
