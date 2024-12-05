@@ -78,11 +78,24 @@ def setup_virtualenv(venv_path="venv"):
     else:
         print("Script is already running within the virtual environment.")
 
+# Function to install requests within the virtual environment
+def install_requests():
+    print("Installing requests library...")
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "requests"])
+        print("requests library installed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Error installing requests: {e}")
+        sys.exit(1)
+
 # Main function to handle the installation logic
 def main():
     # Ensure the script is running in a virtual environment
     setup_virtualenv("venv")
     print("Virtual environment setup complete. Proceeding with installation...")
+
+    # Install the requests library
+    install_requests()
 
     # Define the relative paths to the Python scripts
     script_1_path = os.path.join(os.getcwd(), 'install_dependencies.py')  # Simplified path
