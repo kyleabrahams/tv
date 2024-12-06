@@ -1,11 +1,13 @@
 #EXTM3U url-tvg="http://10.0.0.30:8080/epg.xml"
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="01 CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
+http://fortv.cc:8080/105094817/105094817/47218
+# #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
+# http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="MSNBC Canada" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
-http://fortv.cc:8080/105094817/105094817/47332
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 5 1056p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 6 1053a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -50,19 +52,17 @@ https://jmp2.uk/sam-CABC23000223U.m3u8
 # #EXTINF:-1 tvg-id="CABC23000223U" tvg-name="23 Weather channel HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 # http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418523
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
-http://fortv.cc:8080/105094817/105094817/47218
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 #EXTINF:-1 tvg-id="YTV (East)" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV
 http://fortv.cc:8080/105094817/105094817/63850
 #EXTINF:-1 tvg-id="W (WTN) - East.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
 http://fortv.cc:8080/105094817/105094817/57284
 # #EXTINF:-1 tvg-id="W (WTN) - East HD.ca" tvg-name="26 W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Entertainment",W Network East
 # http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="Motor Trend HDTV.us" tvg-name="27 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
+#EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-name="27 Discovery Velocity" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/374a5863-1c1f-494d-9a56-aff0f44ed3d2/difm2mo-933bd156-a7c7-41b8-bdbf-182a6b0c3452.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3NGE1ODYzLTFjMWYtNDk0ZC05YTU2LWFmZjBmNDRlZDNkMlwvZGlmbTJtby05MzNiZDE1Ni1hN2M3LTQxYjgtYmRiZi0xODJhNmIwYzM0NTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RP7zhGjHnzlQwjuI3iHlQMz5UIYzWR3ab3UPhMnLTww" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
+http://fortv.cc:8080/105094817/105094817/46212
+#EXTINF:-1 tvg-id="Motor Trend HDTV.us" tvg-name="28 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
-#EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name="28 FOX 29 (WUTV) BUFFALO" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX
-http://fortv.cc:8080/105094817/105094817/120747
-# #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="28 FOX" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
-# http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 # #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 # http://fortv.cc:8080/50905877/50905877/215268
 #EXTINF:-1 tvg-id="Much Music.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
@@ -77,7 +77,7 @@ http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TLC USA HD - Eastern (1250).us" tvg-name="33 TLC USATV" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",USA TLC
 http://fl2.moveonjoy.com/TLC/index.m3u8
-# #EXTINF:-1 tvg-id="Telelatino HD.ca" tvg-name="tELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
+# #EXTINF:-1 tvg-id="Telelatino HD.ca" tvg-name="TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="",TLN
 # http://b1g.ooo:80/827/827/614801
 #EXTINF:-1 tvg-id="Investigation Discovery Canada.ca" tvg-name="34 Investigation Discovery" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="",Investigation Discovery
 http://fortv.cc:8080/105094817/105094817/57442
@@ -127,8 +127,10 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418649
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418465
 #EXTINF:-1 tvg-id="Food Network (East).us" tvg-name="56 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",USA Food Network 
 http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="Bloomberg TV USA (222).us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
-http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name="57 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX
+http://fortv.cc:8080/105094817/105094817/120747
+# #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="57 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
+# http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="ABC Spark" tvg-name="58 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="59 Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
@@ -169,6 +171,8 @@ http://fl2.moveonjoy.com/CNBC/index.m3u8
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1196
 #EXTINF:-1 tvg-id="HLN" tvg-name="HLN USATV" tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="",HLN 
 http://fl2.moveonjoy.com/HLN/index.m3u8
+#EXTINF:-1 tvg-id="Bloomberg TV USA (222).us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
+http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:-1 tvg-id="Adult Swim - East.ca" tvg-name="Adult Swim" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title=""CANADA "",Adult Swim
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1883
 #EXTINF:-1 tvg-id="Lifetime TV - Canada HD.ca" tvg-name="CA Lifetime" tvg-logo="https://seeklogo.com/images/L/lifetime-tv-logo-F20AAEFC65-seeklogo.com.png" group-title="",Lifetime 
@@ -1004,8 +1008,6 @@ http://streamsy.online:2999/live/Jaley1990/L6KomjzBxv/1633.m3u8
 #EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Wisconsin 
 http://streamsy.online:2999/live/Jaley1990/L6KomjzBxv/1621.m3u8
 
-#EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-name="27 Discovery Velocity" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/374a5863-1c1f-494d-9a56-aff0f44ed3d2/difm2mo-933bd156-a7c7-41b8-bdbf-182a6b0c3452.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3NGE1ODYzLTFjMWYtNDk0ZC05YTU2LWFmZjBmNDRlZDNkMlwvZGlmbTJtby05MzNiZDE1Ni1hN2M3LTQxYjgtYmRiZi0xODJhNmIwYzM0NTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RP7zhGjHnzlQwjuI3iHlQMz5UIYzWR3ab3UPhMnLTww" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
-http://fortv.cc:8080/105094817/105094817/46212
 #EXTINF:-1 tvg-id="Discovery Velocity HD.ca" tvg-name="27 Discovery Velocity" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/374a5863-1c1f-494d-9a56-aff0f44ed3d2/difm2mo-933bd156-a7c7-41b8-bdbf-182a6b0c3452.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3NGE1ODYzLTFjMWYtNDk0ZC05YTU2LWFmZjBmNDRlZDNkMlwvZGlmbTJtby05MzNiZDE1Ni1hN2M3LTQxYjgtYmRiZi0xODJhNmIwYzM0NTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RP7zhGjHnzlQwjuI3iHlQMz5UIYzWR3ab3UPhMnLTww" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423722
 
