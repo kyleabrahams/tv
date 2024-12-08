@@ -22,30 +22,6 @@ import logging
 # sudo nginx
 
 
-import os
-import subprocess
-import sys
-from datetime import datetime
-import venv
-import logging
-
-## Create Virtual Environment for Python
-# python3 -m venv ~/venv
-# source ~/venv/bin/activate
-
-## Run this script for installing Nginx
-# python3 install_nginx.py
-
-## Reload Nginx
-# brew services restart nginx
-
-## Stop Nginx pids
-# sudo brew services stop nginx
-
-# sudo nginx -s stop
-# sudo nginx
-
-
 # --- Constants ---
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # Directory of this script
 LOG_DIR = os.path.join(REPO_DIR, "log")
