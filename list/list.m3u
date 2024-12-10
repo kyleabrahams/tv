@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 10 632p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 10 648p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -23,9 +23,9 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
 http://fortv.cc:8080/105094817/105094817/57379
 #EXTINF:-1 tvg-id="CHCH Hamilton, ON HD.ca" tvg-name="11 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="-0.5",CHCH
 http://fortv.cc:8080/105094817/105094817/57393
-#EXTINF:-1 tvg-id="CA1500002Q4" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
+#EXTINF:-1 tvg-id="6536721dbfbaec00088687c0" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
 https://jmp2.uk/sam-CA1500002Q4.m3u8
-#EXTINF:-1 tvg-id="CA1400004AE" tvg-name="13" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
+#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d" tvg-name="13" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
 #EXTINF:-1 tvg-id="0#99991276" tvg-name="14" tvg-logo="https://i.ibb.co/j47kNG1/cbc-news-explore.png" group-title="News",CBC News Explore
 https://jmp2.uk/sam-CABC2300009KD.m3u8
@@ -246,17 +246,17 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418633
 
 #EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-------|Samsung TV|-------
 https://jmp2.uk/sam-CABB260002016.m3u8
-#EXTINF:-1 channel-id="CABD1200010LE-ca" tvg-id="CABD1200010LE" tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
+#EXTINF:-1 channel-id="5e20b730f2f8d5003d739db7-630905af0417b7074a4ad95e" tvg-id="CABD1200010LE" tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
 https://jmp2.uk/sam-CABD1200010LE.m3u8
-#EXTINF:-1 tvg-id="USBC4400004KK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-64704954e536e0faaf10be9f" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
 https://jmp2.uk/sam-USBC4400004KK.m3u8
 #EXTINF:-1 tvg-id="100#99991176" tvg-logo="https://i.ibb.co/VQ3F988/just-for-laughs-vod.png" group-title="Comedy",Just for Laughs TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
-#EXTINF:-1 tvg-id="CA1400005SO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="Comedy",CTV Laughs
+#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c10e2deb7f424133b08b" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="Comedy",CTV Laughs
 https://jmp2.uk/sam-CA1400005SO.m3u8
 #EXTINF:-1 tvg-id="CA14000028T" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20240702T044804SQUARE.png" group-title="Home & Food",CTV @ Home
 https://jmp2.uk/sam-CA14000028T.m3u8
-#EXTINF:-1 channel-id="CABD1200043OK" tvg-id="CABD1200043OK" tvg-chno="1320" tvg-name="CBC Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20241105T181119SQUARE.png" group-title="Comedy",CBC Comedy
+#EXTINF:-1 channel-id="647f8d22a2fc3fadb4721685-65b28dd28f05102bce4a7910" tvg-id="CABD1200043OK" tvg-chno="1320" tvg-name="CBC Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20241105T181119SQUARE.png" group-title="Comedy",CBC Comedy
 https://jmp2.uk/sam-CABD1200043OK.m3u8
 #EXTINF:-1 tvg-id="150#99991232" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
