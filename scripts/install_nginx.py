@@ -18,6 +18,9 @@ import logging
 ## Stop Nginx pids
 # sudo brew services stop nginx
 
+# Test url in Terminal
+# curl -I http://localhost:8080/epg.xml 
+
 # sudo nginx -s stop
 # sudo nginx
 
