@@ -105,7 +105,7 @@ print(epg_urls)
 save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
-# Step 4: Set up logging with a custom date format
+# Step 4: Set up logging
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
@@ -122,12 +122,9 @@ logger = logging.getLogger()
 # Ensure the log directory exists
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
-# Create file handler and set up formatter with custom date format
+# Create file handler and set up formatter
 file_handler = logging.FileHandler(log_file_path)
-file_handler.setFormatter(logging.Formatter(
-    '%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%b %d %Y %H:%M:%S'  # Format for "Nov 08 2024 01:15:43"
-))
+file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 file_handler.addFilter(SuccessFilter())
 
 # Add handler to the logger and set log level
@@ -136,7 +133,6 @@ logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
-
 
 # Step 5: Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total, retries=3, delay=5):
