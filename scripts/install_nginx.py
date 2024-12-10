@@ -67,23 +67,34 @@ def run_command(command, check=True):
         log(f"Exception running command: {command}\n{e}")
         sys.exit(1)
 
+def fix_homebrew_permissions():
+    """Fix Homebrew directory permissions to ensure proper access."""
+    homebrew_dir = "/opt/homebrew"
+    if os.path.exists(homebrew_dir):
+        log(f"Fixing permissions for {homebrew_dir}...")
+        # Fix permissions to the current user
+        run_command(f"sudo chown -R $(whoami):admin {homebrew_dir}")
+        log(f"Permissions fixed for {homebrew_dir}.")
+    else:
+        log(f"Homebrew directory {homebrew_dir} not found.")
+
 def install_homebrew():
     """Ensure Homebrew is installed."""
     if run_command("command -v brew", check=False).strip() == "":
         log("Installing Homebrew...")
+        # Run Homebrew installation without sudo
         run_command('/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"')
     else:
         log("Homebrew is already installed.")
-
-    # Fix ownership issues for Homebrew directories
-    homebrew_dir = "/opt/homebrew"
-    if os.path.exists(homebrew_dir):
-        run_command(f"sudo chown -R $(whoami):admin {homebrew_dir}")
+    
+    # Fix ownership issues for Homebrew directories (without sudo)
+    fix_homebrew_permissions()
     log("Homebrew installation or permissions check completed.")
 
 def install_nginx():
     """Install or update Nginx."""
     log("Installing or updating Nginx...")
+    # Removed sudo to avoid root execution
     run_command("brew install nginx")
 
 def setup_nginx_config():
@@ -114,7 +125,7 @@ def setup_directories_and_epg():
         with open(EPG_FILE, "w") as f:
             f.write('<?xml version="1.0" encoding="UTF-8"?>\n<epg></epg>')
         log(f"Created empty EPG file at {EPG_FILE}.")
-    run_command(f"sudo chmod 644 {EPG_FILE}")
+    run_command(f"chmod 644 {EPG_FILE}")  # Apply correct permissions
     log(f"Permissions set for {EPG_FILE}.")
 
 def reload_nginx():

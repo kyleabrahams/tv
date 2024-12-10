@@ -39,16 +39,27 @@ def run_command(command, retries=3):
         except subprocess.CalledProcessError as e:
             log(f"Attempt {attempt + 1} failed: Command: {command}\nError: {e.stderr.strip()}")
             if attempt == retries - 1:
-                sys.exit(1)
+                log(f"Command failed after {retries} attempts: {command}")
+                return None
         except Exception as e:
             log(f"Exception running command: {command}\n{str(e)}")
             sys.exit(1)
 
+def deactivate_venv():
+    """Deactivate the virtual environment if active."""
+    if hasattr(sys, 'real_prefix') or (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
+        log("Deactivating virtual environment...")
+        deactivate_script = os.path.join(os.environ.get('VIRTUAL_ENV', ''), 'bin', 'deactivate')
+        if os.path.exists(deactivate_script):
+            exec(open(deactivate_script).read(), {'__file__': deactivate_script})
+            log("Virtual environment deactivated.")
+
 def stop_nginx_processes():
     """Stop any running Nginx processes."""
     log("Stopping any running Nginx processes...")
-    run_command("sudo pkill nginx", retries=1)
-    log("Nginx processes stopped.")
+    result = run_command("sudo pkill nginx", retries=1)
+    if not result:
+        log("No running Nginx processes found or permission denied.")
 
 def uninstall_nginx_from_source():
     """Remove Nginx if installed from source."""
@@ -138,33 +149,14 @@ def validate_removal():
         else:
             log(f"Nginx binary removed: {binary}")
 
-def remove_homebrew_cron_jobs():
-    """Remove Homebrew-related cron jobs."""
-    log("Checking for Homebrew-related cron jobs...")
-    try:
-        cron_jobs = run_command("crontab -l", retries=1).strip()
-        if cron_jobs:
-            homebrew_jobs = [line for line in cron_jobs.splitlines() if 'nginx' in line]
-            if homebrew_jobs:
-                log(f"Found Homebrew-related cron jobs: {homebrew_jobs}")
-                new_cron = "\n".join([line for line in cron_jobs.splitlines() if 'nginx' not in line])
-                subprocess.run(f"echo '{new_cron}' | crontab", shell=True, check=True)
-                log("Homebrew-related cron jobs removed.")
-            else:
-                log("No Homebrew-related cron jobs found.")
-        else:
-            log("No cron jobs found.")
-    except Exception as e:
-        log(f"Failed to remove cron jobs: {e}")
-
 def uninstall_nginx():
     """Master function to uninstall Nginx."""
     log("Starting Nginx uninstallation process...")
+    deactivate_venv()
     stop_nginx_processes()
     uninstall_nginx_homebrew()
     uninstall_nginx_from_source()
     uninstall_nginx_package_manager()
-    remove_homebrew_cron_jobs()
     validate_removal()
 
 def main():
