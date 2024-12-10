@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://10.0.0.30:8080/epg.xml"
+#EXTM3U url-tvg="http://99.245.37.91:8080/epg.xml"
 #EXTINF:-1 tvg-id="CP24 (CablePulse 24).ca" tvg-name="01 CP24 HD " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
 http://fortv.cc:8080/105094817/105094817/47218
 # #EXTINF:-1 tvg-id="MSNBC Canada.ca" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
