@@ -244,7 +244,7 @@ try:
     success_message = f"EPG file successfully saved to {save_path}"
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
-
+ 
 except Exception as e:
     # Log error if save fails
     error_message = f"Failed to save EPG file - Error: {e}"
