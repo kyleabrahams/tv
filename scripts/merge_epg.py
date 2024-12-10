@@ -1,12 +1,16 @@
 import requests
 import xml.etree.ElementTree as ET
-import logging
 import os
 import gzip
 import io
 import subprocess  # Add this import to resolve the error
 from time import sleep
 import sys # Used for venv_python
+from datetime import datetime
+
+# Get the current time and format it
+formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
+print(formatted_time)
 
 
 # See Android TV sheets doc, nginx tab for commands,
@@ -92,6 +96,25 @@ def load_epg_urls(file_path):
 # Get the directory where the script is located (absolute path)
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
+# Create the relative path for the log file
+log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')
+
+# Ensure the 'log' directory exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+
+# Now log the message using the relative path
+import logging
+log_format = "%(asctime)s - %(message)s"
+date_format = "%b %d %Y %H:%M:%S"
+
+logging.basicConfig(filename=log_file_path,
+                    level=logging.INFO,
+                    format=log_format,
+                    datefmt=date_format)
+
+# Example of logging a message
+logging.info("This is a log entry with the formatted timestamp.")
+
 # Relative path to the epg_urls.txt file
 epg_urls_file = os.path.join(script_dir, 'epg_urls.txt')
 
@@ -105,6 +128,32 @@ print(epg_urls)
 save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
+# Function to ensure directory and file permissions
+def ensure_permissions(file_path):
+    # Ensure the directory exists
+    directory = os.path.dirname(file_path)
+    
+    # Check if the directory exists, if not, create it
+    if not os.path.exists(directory):
+        print(f"Directory {directory} does not exist. Creating it...")
+        os.makedirs(directory, exist_ok=True)
+    
+    # Check if we have write permissions on the directory, and if not, set it
+    if not os.access(directory, os.W_OK):
+        print(f"Directory {directory} does not have write permissions. Updating permissions...")
+        os.chmod(directory, 0o755)  # Set write permission for the directory owner
+
+    # If the file already exists, check and ensure it has write permissions
+    if os.path.exists(file_path):
+        if not os.access(file_path, os.W_OK):
+            print(f"File {file_path} does not have write permissions. Updating permissions...")
+            os.chmod(file_path, 0o644)  # Set write permission for the file owner
+    else:
+        print(f"File {file_path} does not exist. It will be created.")
+
+# Ensure permissions for the save path
+ensure_permissions(save_path)
+
 # Step 4: Set up logging
 class SuccessFilter(logging.Filter):
     def filter(self, record):
@@ -113,8 +162,24 @@ class SuccessFilter(logging.Filter):
 # Get the directory where the script is located (absolute path)
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Relative path to the log file
+# Create the relative path for the log file
 log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')
+
+# Ensure the 'log' directory exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+
+# Now log the message using the relative path
+import logging
+log_format = "%(asctime)s - %(message)s"
+date_format = "%b %d %Y %H:%M:%S"
+
+logging.basicConfig(filename=log_file_path,
+                    level=logging.INFO,
+                    format=log_format,
+                    datefmt=date_format)
+
+# Example of logging a message
+logging.info("This is a log entry with the formatted timestamp.")
 
 # Set up logging
 logger = logging.getLogger()
