@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 11 1229p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 11 412p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -262,6 +262,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66ff0cf663292d0008320cf8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1ba6e-b0d8-11ef-b98d-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=db11e76b-a5d9-424c-8129-b72a7b7c3012&userId=&serverSideAds=true
 #EXTINF:-1 tvg-id="64dab9df3d48f40008868091" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20240918T124442SQUARE.png" group-title="Home & Food",The Jamie Oliver Channel
 https://jmp2.uk/sam-USBC4400016CL.m3u8
+#EXTINF:0 channel-id="places-spaces-ptv1" channel-number="267" tvg-logo="https://images.pluto.tv/channels/66e0b30415d2c60008e2b99e/colorLogoPNG.png" group-title="Season's Greetings", Places & Spaces
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66e0b30415d2c60008e2b99e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1228e-b0d8-11ef-99c1-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=f73f90c8-fefd-4b0e-bc5e-bff1cd763f2e&userId=&serverSideAds=true
 #EXTINF:-1 tvg-id="150#99991651" tvg-logo="https://i.ibb.co/fpdvfNL/NBC-LX-Home-2023.png" group-title="Home & Food",NBC LX Home
 https://jmp2.uk/sam-USBB40000028E.m3u8
 #EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home & Food",Property Brothers Channel
@@ -306,6 +308,8 @@ https://jmp2.uk/sam-USBD1200004NS.m3u8
 # https://jmp2.uk/sam-INBB280000599.m3u8
 #EXTINF:-1 tvg-id="6464cdcaee6a2f000822a7a8" tvg-logo="https://image.xumo.com/v1/channels/channel/9999977/248x140.png?type=channelTile" group-title="",Vogue
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991138
+#EXTINF:0 channel-id="say-yes-to-the-dress" channel-number="1805" tvg-logo="https://images.pluto.tv/channels/6532e8342cf13100083b404c/colorLogoPNG.png" group-title="Reality", Warner Bros. TV Say Yes to the Dress
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6532e8342cf13100083b404c/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac16fe6-b0d8-11ef-adda-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=33755435-c1db-4d46-9100-8af6ac534a07&userId=&serverSideAds=true
 #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-66a2e57a0b91165254efdb4a" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway
 https://jmp2.uk/sam-USBB3500004RC.m3u8
 #EXTINF:-1 tvg-id="64e87c6b28cec700088ceb55" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20240520T215826SQUARE.png" group-title="Series",Dallas Cowboys Cheer
@@ -334,6 +338,8 @@ https://jmp2.uk/sam-CABC52000127S.m3u8
 https://jmp2.uk/sam-CABC5200013DN.m3u8
 #EXTINF:-1 tvg-id="CABD1200009SD" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",Vevo 2010s
 https://jmp2.uk/sam-CABD1200009SD.m3u8
+#EXTINF:0 channel-id="vevo-holiday" channel-number="279" tvg-logo="https://images.pluto.tv/channels/5dcf059646c0cf000a293edd/colorLogoPNG.png" group-title="Season's Greetings", Vevo Holiday
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5dcf059646c0cf000a293edd/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac12400-b0d8-11ef-89d9-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=cf51b8ec-0d95-4e4e-8014-28caf5c93fd5&userId=&serverSideAds=true
 #EXTINF:-1 tvg-id="5bd8282253ed2c6334ea10fa" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambience",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
 # #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
@@ -713,6 +719,10 @@ http://fl2.moveonjoy.com/TV_Land/index.m3u8
 http://fl2.moveonjoy.com/TV_ONE/index.m3u8
 #EXTINF:-1 tvg-id="VH1 (East).us" tvg-name="US VH1 USATV" tvg-logo="https://i.ibb.co/VVQKNW5/VH1-logonew-1.png" group-title="",USA VH1 
 http://fl2.moveonjoy.com/VH1/index.m3u8
+#EXTINF:0 channel-id="vh1-hip-hop-family" channel-number="1700" tvg-logo="https://images.pluto.tv/channels/5d71561df6f2e6d0b6493bf5/colorLogoPNG.png" group-title="Reality", VH1 Hip Hop Family
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d71561df6f2e6d0b6493bf5/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac16956-b0d8-11ef-b8e9-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=572bb290-cb84-463c-9431-af159e82b49b&userId=&serverSideAds=true
+#EXTINF:0 channel-id="vh1-i-love-reality" channel-number="1710" tvg-logo="https://images.pluto.tv/channels/5d7154fa8326b6ce4ec31f2e/colorLogoPNG.png" group-title="Reality", VH1 I Love Reality
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d7154fa8326b6ce4ec31f2e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac169c4-b0d8-11ef-b3be-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=b78e5992-7ab7-48bf-b68a-11242386ba6a&userId=&serverSideAds=true
 #EXTINF:-1 tvg-id="VICE.us" tvg-name="US VICELAND" tvg-logo="https://i.ibb.co/Vj9gNX3/vice-logo-white-1.png" group-title="",USA Vice 
 http://fl2.moveonjoy.com/VICELAND/index.m3u8
 #EXTINF:-1 tvg-id="We TV.us" tvg-name="US WE tv USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/we-tv-us.png?raw=true" group-title="",USA WE tv 
