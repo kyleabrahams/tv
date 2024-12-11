@@ -149,15 +149,37 @@ def validate_removal():
         else:
             log(f"Nginx binary removed: {binary}")
 
+def remove_user_plists():
+    """Remove user-level Nginx plist files."""
+    user_plist = os.path.expanduser("~/Library/LaunchAgents/homebrew.mxcl.nginx.plist")
+    if os.path.exists(user_plist):
+        log(f"Removing user-level plist file: {user_plist}")
+        run_command(f"rm {user_plist}")
+        log(f"User-level plist file removed: {user_plist}")
+    else:
+        log("No user-level plist file found for Nginx.")
+
 def uninstall_nginx():
     """Master function to uninstall Nginx."""
     log("Starting Nginx uninstallation process...")
     deactivate_venv()
     stop_nginx_processes()
     uninstall_nginx_homebrew()
+    remove_user_plists()  # Add this line
     uninstall_nginx_from_source()
     uninstall_nginx_package_manager()
     validate_removal()
+
+def remove_nginx_plist():
+    """Remove the Nginx plist file from LaunchDaemons."""
+    plist_path = "/Library/LaunchDaemons/com.nginx.server.plist"
+    if os.path.exists(plist_path):
+        log(f"Removing plist file: {plist_path}")
+        run_command(f"sudo launchctl unload {plist_path}")
+        run_command(f"sudo rm -f {plist_path}")
+        log(f"Plist file removed: {plist_path}")
+    else:
+        log(f"No plist file found at {plist_path}.")
 
 def main():
     log("Initiating Nginx removal script...")
