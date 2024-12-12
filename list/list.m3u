@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="Global (CIII-DT-41) Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 11 412p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 12 955a
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -17,10 +17,12 @@ http://fortv.cc:8080/105094817/105094817/57260
 http://fortv.cc:8080/105094817/105094817/57394
 #EXTINF:-1 tvg-id="CTV (CFTO) Toronto, ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418453
-#EXTINF:-1 tvg-id="Yes TV (CITS) Burlington, ON.ca" tvg-name="09 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
+#EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
+http://fortv.cc:8080/105094817/105094817/120747
+# #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="09 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
+# http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="Bravo Canada.ca" tvg-name="10 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo
-http://fortv.cc:8080/105094817/105094817/57379
+http://fortv.cc:8080/105094817/105094817/57379D12m2868/41792763D12m2868/41792763D12m2868/41792763D12m2868/41792763D12m2868/41792763
 #EXTINF:-1 tvg-id="CHCH Hamilton, ON HD.ca" tvg-name="11 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="-0.5",CHCH
 http://fortv.cc:8080/105094817/105094817/57393
 #EXTINF:-1 tvg-id="6536721dbfbaec00088687c0" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
@@ -127,10 +129,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418649
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418465
 #EXTINF:-1 tvg-id="Food Network (East).us" tvg-name="56 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",USA Food Network 
 http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="FOX (WUTV) Buffalo, NY.ca" tvg-name="57 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX
-http://fortv.cc:8080/105094817/105094817/120747
-# #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="57 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
-# http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 tvg-id="Yes TV (CITS) Burlington, ON.ca" tvg-name="57 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
 #EXTINF:-1 tvg-id="ABC Spark.ca" tvg-name="58 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
 #EXTINF:-1 tvg-id="Cooking Channel Canada.ca" tvg-name="59 Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
