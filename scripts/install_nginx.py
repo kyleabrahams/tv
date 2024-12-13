@@ -30,7 +30,7 @@ import hashlib # Used to remove dupe crontab entries
 # sudo nginx -s stop
 # sudo nginx
 
-# --- Constants ---
+# --- Step 1: Constants ---
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # Directory of this script
 LOG_DIR = os.path.join(REPO_DIR, "log")
 NGINX_CONF = os.path.join(REPO_DIR, "nginx.conf")
@@ -41,7 +41,7 @@ LAST_RUN_FILE = f"{LOG_DIR}/merge_epg_last_run.txt" # Dec 11 2024
 MAX_FILE_SIZE = 1 * 1024 * 1024  # 1MB in bytes
 
 
-# --- Logging Setup ---
+# --- Step 2: Logging Setup ---
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
@@ -50,7 +50,6 @@ logging.basicConfig(
     format="%(asctime)s - %(message)s",
     handlers=[
         logging.FileHandler(os.path.join(LOG_DIR, "setup.log")),
-        logging.StreamHandler()
     ]
 )
 logger = logging.getLogger()
@@ -61,6 +60,8 @@ def log(message):
     from datetime import datetime
     print(f"{datetime.now()} - {message}")
 
+
+# --- Step 3: Run Command Function ---
 def run_command(command, check=True, fail_silently=False, real_time=False):
     """
     Run a shell command and handle output.
@@ -100,6 +101,8 @@ def run_command(command, check=True, fail_silently=False, real_time=False):
         if not fail_silently:
             sys.exit(1)
 
+
+# --- Step 4: Homebrew Setup ---
 def fix_homebrew_permissions():
     """Fix Homebrew directory permissions to ensure proper access."""
     homebrew_dir = "/opt/homebrew"
@@ -124,12 +127,16 @@ def install_homebrew():
     fix_homebrew_permissions()
     log("Homebrew installation or permissions check completed.")
 
+
+# --- Step 5: Install Nginx ---
 def install_nginx():
     """Install or update Nginx."""
     log("Installing or updating Nginx...")
     # Removed sudo to avoid root execution
     run_command("brew install nginx")
 
+
+# --- Step 6: Set Up Nginx Configuration ---
 def setup_nginx_config():
     """Set up Nginx configuration."""
     nginx_conf_dir = "/opt/homebrew/etc/nginx"
@@ -140,6 +147,8 @@ def setup_nginx_config():
     run_command(f"chmod 644 {destination_conf}")
     log(f"Permissions set for {destination_conf}.")
 
+
+# --- Step 7: Set Up Virtual Environment ---
 def setup_virtualenv():
     """Set up Python virtual environment."""
     if not os.path.exists(VENVS_DIR):
@@ -151,6 +160,8 @@ def setup_virtualenv():
     run_command(f"{pip_path} install requests")
     log("Virtual environment set up.")
 
+
+# --- Step 8: Set Up Directories and EPG File ---
 def setup_directories_and_epg():
     """Set up directories and default EPG file."""
     os.makedirs(WWW_DIR, exist_ok=True)
@@ -162,12 +173,19 @@ def setup_directories_and_epg():
     log(f"Permissions set for {EPG_FILE}.")
 
 
-
+# --- Step 9: Generate Job Hash for Cron Jobs ---
 def generate_job_hash(job):
     """Generate a unique hash for each cron job, normalizing spacing and formatting."""
     # Normalize spacing and remove unnecessary characters to avoid false mismatches
     job = ' '.join(job.split())  # Remove any extra spaces
     return hashlib.sha256(job.encode('utf-8')).hexdigest()
+
+
+# --- Step 10: Set Up Cron Jobs ---
+def clear_crontab():
+    """Clear the existing crontab."""
+    log("Clearing existing crontab...")
+    run_command("crontab -r", check=True)
 
 def setup_cron_jobs():
     """Set up cron jobs with strict duplicate prevention."""
@@ -182,21 +200,23 @@ def setup_cron_jobs():
         f"0 */6 * * * nginx -s reload >> {script_dir}/scripts/log/nginx_reload.log 2>&1"
     ]
 
-    # Get the current user crontab using crontab -l
+    # Clear the existing crontab to avoid duplicate jobs
+    clear_crontab()
+
+    # Get the current user's crontab using crontab -l
     current_cron = run_command("crontab -l", check=False).strip()
 
-    # Store existing jobs as hashes to avoid duplicates
-    existing_jobs_hashes = {generate_job_hash(job) for job in current_cron.splitlines()}
+    # Normalize and store existing jobs to avoid duplicates
+    existing_jobs = {job.strip() for job in current_cron.splitlines() if job.strip()}
 
     # Add new cron jobs if they are not already present
     updated_cron = current_cron
     for job in cron_jobs:
-        job_hash = generate_job_hash(job)
-        if job_hash not in existing_jobs_hashes:
+        if job.strip() not in existing_jobs:
             updated_cron += f"\n{job}"
-            existing_jobs_hashes.add(job_hash)  # Add the hash to avoid future duplicates
+            existing_jobs.add(job.strip())  # Add the actual job text to avoid future duplicates
         else:
-            print(f"Duplicate job detected: {job}, skipping...")
+            log(f"Duplicate job detected: {job.strip()}, skipping...")
 
     # Save the updated crontab to /tmp/crontab.tmp
     with open("/tmp/crontab.tmp", "w") as f:
@@ -206,9 +226,8 @@ def setup_cron_jobs():
     run_command("crontab /tmp/crontab.tmp")
     
     log("Cron jobs set up successfully.")
-            
 
-
+# --- Step 11: Check if Merge EPG Should Be Run ---
 def should_prompt_run_merge_epg():
     """
     Check if merge_epg.py cron job was executed recently,
@@ -245,6 +264,8 @@ def should_prompt_run_merge_epg():
     # No need to prompt
     return False
 
+
+# --- Step 12: Prompt to Run Merge EPG ---
 def prompt_run_merge_epg():
     """Optionally run the merge_epg.py script if the previous cron job wasn't executed."""
     if should_prompt_run_merge_epg():
@@ -258,13 +279,16 @@ def prompt_run_merge_epg():
     else:
         log("Cron job has been executed recently. No need to prompt.")
 
+
+# --- Step 13: Reload Nginx ---
 def reload_nginx():
     """Reload Nginx."""
     log("Reloading Nginx...")
     run_command("brew services restart nginx")
     log("Nginx reloaded successfully.")
 
-# --- Main Script ---
+
+# --- Step 14: Main Script ---
 def main():
     log("Starting setup process...")
     try:
@@ -280,6 +304,7 @@ def main():
     except Exception as e:
         log(f"Setup failed: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
