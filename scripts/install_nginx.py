@@ -5,6 +5,8 @@ from datetime import datetime
 import venv
 import logging
 import time  # Ensure the time module is imported
+import hashlib # Used to remove dupe crontab entries
+
 
 ## Create Virtual Environment for Python
 # python3 -m venv ~/venv
@@ -159,29 +161,53 @@ def setup_directories_and_epg():
     run_command(f"chmod 644 {EPG_FILE}")  # Apply correct permissions
     log(f"Permissions set for {EPG_FILE}.")
 
+
+
+def generate_job_hash(job):
+    """Generate a unique hash for each cron job, normalizing spacing and formatting."""
+    # Normalize spacing and remove unnecessary characters to avoid false mismatches
+    job = ' '.join(job.split())  # Remove any extra spaces
+    return hashlib.sha256(job.encode('utf-8')).hexdigest()
+
 def setup_cron_jobs():
-    """Set up cron jobs."""
+    """Set up cron jobs with strict duplicate prevention."""
     log("Setting up cron jobs...")
+
+    # Get the script's directory to use as the base for relative paths
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Define the cron jobs to be added (relative paths)
     cron_jobs = [
-        f"0 1,13 * * * source {REPO_DIR}/venv/bin/activate && python3 {REPO_DIR}/merge_epg.py >> {LOG_DIR}/merge_cron.log 2>&1 && echo 'Cron test at $(date)' >> {LOG_DIR}/cron_test.log",
-        f"0 */6 * * * nginx -s reload >> {LOG_DIR}/nginx_reload.log 2>&1 && echo 'Cron test at $(date)' >> {LOG_DIR}/cron_test.log"
+        f"0 1,13 * * * source {script_dir}/venv/bin/activate && python3 {script_dir}/merge_epg.py >> {script_dir}/scripts/log/merge_cron.log 2>&1",
+        f"0 */6 * * * nginx -s reload >> {script_dir}/scripts/log/nginx_reload.log 2>&1"
     ]
-    
-    # Fetch the current crontab entries
+
+    # Get the current user crontab using crontab -l
     current_cron = run_command("crontab -l", check=False).strip()
-    
-    # Ensure the new jobs are added only if they don't already exist
+
+    # Store existing jobs as hashes to avoid duplicates
+    existing_jobs_hashes = {generate_job_hash(job) for job in current_cron.splitlines()}
+
+    # Add new cron jobs if they are not already present
+    updated_cron = current_cron
     for job in cron_jobs:
-        if job not in current_cron:
-            current_cron += f"\n{job}"
-    
-    # Write updated crontab to a temporary file
+        job_hash = generate_job_hash(job)
+        if job_hash not in existing_jobs_hashes:
+            updated_cron += f"\n{job}"
+            existing_jobs_hashes.add(job_hash)  # Add the hash to avoid future duplicates
+        else:
+            print(f"Duplicate job detected: {job}, skipping...")
+
+    # Save the updated crontab to /tmp/crontab.tmp
     with open("/tmp/crontab.tmp", "w") as f:
-        f.write(current_cron + "\n")
+        f.write(updated_cron + "\n")
     
-    # Apply the updated crontab
+    # Apply the updated crontab and force a rewrite
     run_command("crontab /tmp/crontab.tmp")
+    
     log("Cron jobs set up successfully.")
+            
+
 
 def should_prompt_run_merge_epg():
     """
