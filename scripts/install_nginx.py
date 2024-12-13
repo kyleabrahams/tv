@@ -163,16 +163,23 @@ def setup_cron_jobs():
     """Set up cron jobs."""
     log("Setting up cron jobs...")
     cron_jobs = [
-        f"0 1,13 * * * source {REPO_DIR}/venv/bin/activate && python3 {REPO_DIR}/merge_epg.py >> {LOG_DIR}/merge_cron.log 2>&1",
-        f"0 */6 * * * nginx -s reload >> {LOG_DIR}/nginx_reload.log 2>&1",
-        f"* * * * * echo 'Cron test at $(date)' >> {LOG_DIR}/cron_test.log"
+        f"0 1,13 * * * source {REPO_DIR}/venv/bin/activate && python3 {REPO_DIR}/merge_epg.py >> {LOG_DIR}/merge_cron.log 2>&1 && echo 'Cron test at $(date)' >> {LOG_DIR}/cron_test.log",
+        f"0 */6 * * * nginx -s reload >> {LOG_DIR}/nginx_reload.log 2>&1 && echo 'Cron test at $(date)' >> {LOG_DIR}/cron_test.log"
     ]
+    
+    # Fetch the current crontab entries
     current_cron = run_command("crontab -l", check=False).strip()
+    
+    # Ensure the new jobs are added only if they don't already exist
     for job in cron_jobs:
         if job not in current_cron:
             current_cron += f"\n{job}"
+    
+    # Write updated crontab to a temporary file
     with open("/tmp/crontab.tmp", "w") as f:
         f.write(current_cron + "\n")
+    
+    # Apply the updated crontab
     run_command("crontab /tmp/crontab.tmp")
     log("Cron jobs set up successfully.")
 

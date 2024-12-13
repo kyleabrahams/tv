@@ -1,27 +1,59 @@
 import os
-import re # Removes crontab
-import sys
 import subprocess
+import sys
+import logging
+import re # Removes crontab
+
+# --- Constants ---
+REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # Directory of this script
+LOG_DIR = os.path.join(REPO_DIR, "log")
+LOG_FILE = os.path.join(LOG_DIR, "uninstall_nginx.log")
+
+# --- Logging Setup ---
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)  # Ensure log directory exists
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger()
 
 def log(message):
-    """Log a message."""
-    print(f"{message}")
+    """Log to console and file."""
+    logger.info(message)
 
 def run_command(command, retries=3):
-    """Run a shell command with retries."""
+    """Run a shell command with retry logic and log its output."""
     for attempt in range(retries):
         try:
-            result = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
-            return result
+            result = subprocess.run(command, shell=True, text=True, capture_output=True)
+            if result.returncode != 0:
+                raise subprocess.CalledProcessError(result.returncode, command, output=result.stdout, stderr=result.stderr)
+            if result.stdout:
+                log(result.stdout.strip())
+            return result.stdout
         except subprocess.CalledProcessError as e:
-            log(f"Attempt {attempt + 1} failed: Command: {command}\nError: {e.output}")
-    return None
+            log(f"Attempt {attempt + 1} failed: Command: {command}\nError: {e.stderr.strip()}")
+            if attempt == retries - 1:
+                log(f"Command failed after {retries} attempts: {command}")
+                return None
+        except Exception as e:
+            log(f"Exception running command: {command}\n{str(e)}")
+            sys.exit(1)
 
 def deactivate_venv():
-    """Deactivate virtual environment if active."""
-    log("Deactivating virtual environment...")
-    os.environ.pop("VIRTUAL_ENV", None)
-    os.environ["PATH"] = os.environ.get("PATH", "").replace("bin", "")
+    """Deactivate the virtual environment if active."""
+    if hasattr(sys, 'real_prefix') or (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
+        log("Deactivating virtual environment...")
+        deactivate_script = os.path.join(os.environ.get('VIRTUAL_ENV', ''), 'bin', 'deactivate')
+        if os.path.exists(deactivate_script):
+            exec(open(deactivate_script).read(), {'__file__': deactivate_script})
+            log("Virtual environment deactivated.")
 
 def stop_nginx_processes():
     """Stop any running Nginx processes."""
@@ -98,7 +130,7 @@ def check_nginx_installed():
     """Check if Nginx is installed via Homebrew."""
     try:
         result = run_command("brew list nginx", retries=1)
-        if result and result.strip():
+        if result and result.strip():  # Only proceed if result is not empty
             return True
         else:
             return False
@@ -136,13 +168,15 @@ def remove_user_plists():
 def remove_nginx_cron_jobs():
     """Remove Nginx-related cron jobs."""
     log("Removing Nginx-related cron jobs...")
-
+    
     cron_jobs = run_command("crontab -l", retries=1)
     if cron_jobs:
+        # Find and remove Nginx-related cron jobs using regex (adjust the pattern if needed)
         nginx_cron_pattern = re.compile(r".*nginx.*", re.IGNORECASE)
         new_cron_jobs = "\n".join(line for line in cron_jobs.splitlines() if not nginx_cron_pattern.match(line))
-
+        
         if new_cron_jobs != cron_jobs:
+            # If cron jobs were removed, update crontab
             with open("temp_cron_jobs.txt", "w") as temp_file:
                 temp_file.write(new_cron_jobs)
             run_command("crontab temp_cron_jobs.txt", retries=1)
@@ -152,39 +186,6 @@ def remove_nginx_cron_jobs():
             log("No Nginx-related cron jobs found.")
     else:
         log("No cron jobs found.")
-        
-def remove_nginx_system_crontab():
-    """Remove Nginx-related entries from the system-wide crontab."""
-    log("Checking system-wide crontab for Nginx-related entries...")
-    crontab_path = "/etc/crontab"
-    if os.path.exists(crontab_path):
-        with open(crontab_path, "r") as file:
-            lines = file.readlines()
-
-        nginx_related = [line for line in lines if "nginx" in line.lower()]
-        if nginx_related:
-            log(f"Nginx-related entries found in {crontab_path}: {nginx_related}")
-            with open(crontab_path, "w") as file:
-                file.writelines([line for line in lines if "nginx" not in line.lower()])
-            log("Nginx-related entries removed from system crontab.")
-        else:
-            log("No Nginx-related entries found in system crontab.")
-    else:
-        log(f"{crontab_path} does not exist.")
-
-def remove_nginx_cron_d_files():
-    """Remove Nginx-related files from /etc/cron.d."""
-    log("Checking /etc/cron.d for Nginx-related files...")
-    cron_d_path = "/etc/cron.d"
-    if os.path.exists(cron_d_path):
-        files = [f for f in os.listdir(cron_d_path) if "nginx" in f.lower()]
-        for file in files:
-            full_path = os.path.join(cron_d_path, file)
-            log(f"Removing Nginx-related cron file: {full_path}")
-            run_command(f"sudo rm -f {full_path}")
-            log(f"Nginx-related cron file removed: {full_path}")
-    else:
-        log("/etc/cron.d does not exist.")
 
 def remove_nginx_plist_files():
     """Remove Nginx plist files from LaunchAgents and LaunchDaemons."""
@@ -193,20 +194,17 @@ def remove_nginx_plist_files():
         "/Library/LaunchAgents/homebrew.mxcl.nginx.plist",
         "/Library/LaunchDaemons/com.nginx.server.plist"
     ]
-
+    
     for plist_path in plist_paths:
         if os.path.exists(plist_path):
             log(f"Removing plist file: {plist_path}")
-            run_command(f"sudo rm -f {plist_path}")
+            unload_command = f"sudo launchctl unload {plist_path}" if "/Library/" in plist_path else f"launchctl unload {plist_path}"
+            run_command(unload_command, retries=1)
+            remove_command = f"sudo rm -f {plist_path}" if "/Library/" in plist_path else f"rm {plist_path}"
+            run_command(remove_command, retries=1)
             log(f"Plist file removed: {plist_path}")
         else:
-            log(f"Plist file not found: {plist_path}")
-    
-    # Optionally, reload the launch services to apply changes
-    log("Reloading launch services...")
-    run_command("sudo launchctl bootout system /Library/LaunchDaemons/com.nginx.server.plist")
-    run_command("sudo launchctl bootout user/$(id -u) ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist")
-    log("Launch services reloaded.")
+            log(f"No plist file found at {plist_path}.")
 
 def uninstall_nginx():
     """Master function to uninstall Nginx."""
@@ -214,12 +212,12 @@ def uninstall_nginx():
     deactivate_venv()
     stop_nginx_processes()
     uninstall_nginx_homebrew()
-    remove_nginx_plist_files()
+    remove_nginx_plist_files()  # Corrected function name
+    uninstall_nginx_from_source()
+    uninstall_nginx_package_manager()
     remove_nginx_cron_jobs()
-    remove_nginx_cron_d_files()
-    remove_nginx_system_crontab()
-    log("Nginx uninstallation completed successfully.")
-    
+    validate_removal()
+
 def main():
     log("Initiating Nginx removal script...")
     try:
