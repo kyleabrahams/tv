@@ -77,22 +77,30 @@ def run_command(command, check=True, fail_silently=False, real_time=False):
     """
     try:
         if real_time:
+            # Real-time output handling using Popen
             process = subprocess.Popen(command, shell=True, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             for line in process.stdout:
-                log(line.strip())
+                log(line.strip())  # Log stdout line by line
+            for err_line in process.stderr:
+                log(f"ERROR: {err_line.strip()}")  # Log stderr in real-time
             process.stdout.close()
-            return_code = process.wait()
+            process.stderr.close()
+            return_code = process.wait()  # Wait for the command to finish
             if check and return_code != 0:
-                raise subprocess.CalledProcessError(return_code, command, output=None, stderr=process.stderr.read())
+                raise subprocess.CalledProcessError(return_code, command)
         else:
+            # Capture output if not in real-time mode
             result = subprocess.run(command, shell=True, text=True, capture_output=True)
             if check and result.returncode != 0:
                 raise subprocess.CalledProcessError(result.returncode, command, output=result.stdout, stderr=result.stderr)
             if result.stdout:
-                log(result.stdout.strip())
+                log(result.stdout.strip())  # Log standard output
+            if result.stderr:
+                log(f"ERROR: {result.stderr.strip()}")  # Log any error output
             return result.stdout.strip()
+
     except subprocess.CalledProcessError as e:
-        error_message = f"Command failed: {command}\nExit Code: {e.returncode}\nError Output: {e.stderr.strip()}"
+        error_message = f"Command failed: {command}\nExit Code: {e.returncode}\nError Output: {e.stderr.strip() if e.stderr else 'None'}"
         log(error_message)
         if not fail_silently:
             sys.exit(1)
@@ -100,7 +108,6 @@ def run_command(command, check=True, fail_silently=False, real_time=False):
         log(f"Exception running command: {command}\n{e}")
         if not fail_silently:
             sys.exit(1)
-
 
 # --- Step 4: Homebrew Setup ---
 def fix_homebrew_permissions():
@@ -137,16 +144,72 @@ def install_nginx():
 
 
 # --- Step 6: Set Up Nginx Configuration ---
-def setup_nginx_config():
-    """Set up Nginx configuration."""
-    nginx_conf_dir = "/opt/homebrew/etc/nginx"
-    os.makedirs(nginx_conf_dir, exist_ok=True)
-    destination_conf = os.path.join(nginx_conf_dir, "nginx.conf")
-    run_command(f"cp {NGINX_CONF} {destination_conf}")
-    log(f"Copied Nginx configuration to {destination_conf}.")
-    run_command(f"chmod 644 {destination_conf}")
-    log(f"Permissions set for {destination_conf}.")
+def setup_nginx():
+    print("Starting setup process...")
 
+    # Step 1: Check if Homebrew is installed
+    brew_command = "/opt/homebrew/bin/brew"
+    if os.path.exists(brew_command):
+        print("Homebrew is already installed.")
+    else:
+        print("Homebrew not found. Installing...")
+        run_command("/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"")
+    
+    # Step 2: Install or update Nginx
+    print("Installing or updating Nginx...")
+    run_command(f"{brew_command} install nginx")
+
+    # Step 3: Set up nginx configuration (already done in your original code)
+    nginx_conf_path = "/opt/homebrew/etc/nginx/nginx.conf"
+    print(f"Copied Nginx configuration to {nginx_conf_path}")
+
+    # Step 4: Setup launchd to start Nginx at login
+    plist_content = '''<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+        <dict>
+            <key>Label</key>
+            <string>com.nginx.server</string>
+
+            <key>ProgramArguments</key>
+            <array>
+                <string>/opt/homebrew/bin/nginx</string>
+                <string>-g</string>
+                <string>daemon off;</string>
+            </array>
+
+            <key>RunAtLoad</key>
+            <true/>
+
+            <key>KeepAlive</key>
+            <true/>
+
+            <key>StandardOutPath</key>
+            <string>/tmp/nginx.out</string>
+
+            <key>StandardErrorPath</key>
+            <string>/tmp/nginx.err</string>
+        </dict>
+    </plist>
+    '''
+
+    # Step 5: Write the launchd plist file to the LaunchAgents directory
+    launch_agents_dir = os.path.expanduser("~/Library/LaunchAgents")
+    plist_filename = "com.nginx.server.plist"
+    plist_path = os.path.join(launch_agents_dir, plist_filename)
+
+    if not os.path.exists(launch_agents_dir):
+        os.makedirs(launch_agents_dir)
+
+    with open(plist_path, 'w') as plist_file:
+        plist_file.write(plist_content)
+
+    print(f"Created launchd plist file at {plist_path}")
+
+    # Step 6: Load the launchd plist file to start Nginx on login
+    run_command(f"launchctl load {plist_path}")
+
+    print("Nginx setup complete and configured to start at login.")
 
 # --- Step 7: Set Up Virtual Environment ---
 def setup_virtualenv():
@@ -294,7 +357,7 @@ def main():
     try:
         install_homebrew()
         install_nginx()
-        setup_nginx_config()
+        setup_nginx()
         setup_virtualenv()
         setup_directories_and_epg()
         setup_cron_jobs()
