@@ -7,7 +7,6 @@ import logging
 import time  # Ensure the time module is imported
 import hashlib # Used to remove dupe crontab entries
 
-
 ## Create Virtual Environment for Python
 # python3 -m venv ~/venv
 # source ~/venv/bin/activate
@@ -45,21 +44,31 @@ MAX_FILE_SIZE = 1 * 1024 * 1024  # 1MB in bytes
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)
 
+# Set up logging configuration to overwrite the log file each time
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(message)s",
+    format="%(message)s",  # Only format the message, date will be handled separately
     handlers=[
-        logging.FileHandler(os.path.join(LOG_DIR, "setup.log")),
+        logging.FileHandler(os.path.join(LOG_DIR, "setup.log"), mode='w'),  # 'w' to overwrite the log
     ]
 )
+
+# Initialize the logger
 logger = logging.getLogger()
 
 def log(message):
     """Log to console and file."""
-    logger.info(message)
-    from datetime import datetime
-    print(f"{datetime.now()} - {message}")
+    # Get the current date in the desired format
+    current_date = datetime.now().strftime("%b %d %Y")
+    
+    # Format the log message with the custom date format
+    log_message = f"{current_date} - {message}"
 
+    # Log the message
+    logger.info(log_message)
+
+    # Print the message to the console
+    print(log_message)
 
 # --- Step 3: Run Command Function ---
 def run_command(command, check=True, fail_silently=False, real_time=False):
@@ -259,9 +268,9 @@ def setup_cron_jobs():
 
     # Define the cron jobs to be added (relative paths)
     cron_jobs = [
-        f"0 1,13 * * * source {script_dir}/venv/bin/activate && python3 {script_dir}/merge_epg.py >> {script_dir}/scripts/log/merge_cron.log 2>&1",
-        f"0 */6 * * * nginx -s reload >> {script_dir}/scripts/log/nginx_reload.log 2>&1"
-    ]
+        f"0 1,13 * * * source {script_dir}/venv/bin/activate && python3 {script_dir}/merge_epg.py",
+        f"0 */6 * * * /opt/homebrew/bin/nginx -s reload"
+]
 
     # Clear the existing crontab to avoid duplicate jobs
     clear_crontab()
