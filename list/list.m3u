@@ -7,7 +7,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 17 849p
+#EXTINF:-1 tvg-id="OMNI Vancouver.ca" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 17 908p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -101,8 +101,8 @@ http://fortv.cc:8080/105094817/105094817/47302
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418477
 #EXTINF:-1 tvg-id="CTV Comedy - East HD.ca" tvg-name="43 CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",CTV Comedy Channel
 http://fortv.cc:8080/105094817/105094817/57408
-#EXTINF:-1 tvg-id="Cartoon Network Canada - East.ca" tvg-name="44 Cartoon Network" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network 
-http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="150#99991651" tvg-name="44 NBC LX Home" tvg-logo="https://i.ibb.co/fpdvfNL/NBC-LX-Home-2023.png" group-title="Home & Food",NBC LX Home
+https://jmp2.uk/sam-USBB40000028E.m3u8
 # #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="45 Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",HGTV 
 # http://tvmate.icu:8080/154662662/21542662/57273
 #EXTINF:-1 tvg-id="HGTV Canada HD.ca" tvg-name="45 Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml.gz",HGTV 
@@ -147,11 +147,13 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418463
 http://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
 #EXTINF:-1 tvg-id="FXX Canada.ca" tvg-name="65 FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",FXX
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418471
-#EXTINF:-1 tvg-id="Treehouse.ca" tvg-name="66 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse
+#EXTINF:-1 tvg-id="Cartoon Network Canada - East.ca" tvg-name="66 Cartoon Network" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network 
+http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="Treehouse.ca" tvg-name="67 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418520
-#EXTINF:-1 tvg-id="WildBrainTV.ca" tvg-name="67 CA: CHRGD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/wildbrain-tv-ca.png" group-title="Kids",WildBrain TV
+#EXTINF:-1 tvg-id="WildBrainTV.ca" tvg-name="68 CA: CHRGD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/wildbrain-tv-ca.png" group-title="Kids",WildBrain TV
 http://fortv.cc:8080/105094817/105094817/75653
-#EXTINF:-1 tvg-id="Peachtree TV (Canada).ca" tvg-name="Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree TV
+#EXTINF:-1 tvg-id="Peachtree TV (Canada).ca" tvg-name="69 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree TV
 http://fortv.cc:8080/105094817/105094817/47362
 #EXTINF:-1 tvg-id="National Geographic Wild Canada HD.ca" tvg-name="NAT GEO WILD" tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="",Nat Geo Wild
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418494
@@ -266,8 +268,6 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 https://jmp2.uk/sam-USBC4400016CL.m3u8
 #EXTINF:0 channel-id="places-spaces-ptv1" channel-number="267" tvg-logo="https://images.pluto.tv/channels/66e0b30415d2c60008e2b99e/colorLogoPNG.png" group-title="Season's Greetings", Places & Spaces
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66e0b30415d2c60008e2b99e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1228e-b0d8-11ef-99c1-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=f73f90c8-fefd-4b0e-bc5e-bff1cd763f2e&userId=&serverSideAds=true
-#EXTINF:-1 tvg-id="150#99991651" tvg-logo="https://i.ibb.co/fpdvfNL/NBC-LX-Home-2023.png" group-title="Home & Food",NBC LX Home
-https://jmp2.uk/sam-USBB40000028E.m3u8
 #EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home & Food",Property Brothers Channel
 https://jmp2.uk/sam-CA1400017PU.m3u8
 #EXTINF:0 tvg-id="647f8d22a2fc3fadb4721685-672917e07f55143b23b66c4b" tvg-country="CA" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20240924T010417SQUARE.png" group-title="Series",Dance Moms
