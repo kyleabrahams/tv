@@ -45,20 +45,56 @@ def run_dummy_epg():
         print(f"Error while running dummy_epg.py: {e}")
         print(e.stderr)
 
+# Function to run the npm grab command and show real-time output
+def run_npm_grab():
+    # List of npm commands
+    commands = [
+        # For using xumo.tv (if needed)
+        ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv
+        
+        # For custom Canadian channels with a custom output path
+        ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # Relative path
+    ]
+
+    for command in commands:
+        try:
+            print(f"Running command: {' '.join(command)}")
+            # Use Popen for real-time output
+            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
+            # Stream stdout and stderr as the command runs
+            for line in process.stdout:
+                print(f"STDOUT: {line.strip()}")  # Real-time standard output
+
+            for line in process.stderr:
+                print(f"STDERR: {line.strip()}")  # Real-time error output
+
+            process.wait()  # Wait for the process to complete
+
+            if process.returncode == 0:
+                print(f"Command {' '.join(command)} executed successfully.")
+            else:
+                print(f"Command {' '.join(command)} failed with error code {process.returncode}.")
+        except Exception as e:
+            print(f"Error while running npm command: {e}")
+            
 # Main merge_epg function
 def merge_epg_data():
     # Run dummy_epg.py first
     run_dummy_epg()
 
+    # Now run the npm grab commands and show real-time output
+    run_npm_grab()
+
     # Proceed with your merge EPG logic...
     print("Merging EPG data...")
     # Your existing code for merging EPG data goes here...
-    
+
 # Run the entire process
 merge_epg_data()
 
-# Step 1.1: Define the npm command and arguments (requires npm install)
-command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
+# Step 1.1: Define the npm command and arguments (requires npm install) Removed 625p Dec 17 2024
+# command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
 
 try:
     # Run the command and stream its output in real-time
