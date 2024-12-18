@@ -53,7 +53,7 @@ def run_npm_grab():
         ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
         
         # For custom Canadian channels with a custom output path
-        ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # tvpassport.com custom
+        # ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # tvpassport.com custom
     ]
 
     for command in commands:
