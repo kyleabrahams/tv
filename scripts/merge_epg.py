@@ -45,15 +45,15 @@ def run_dummy_epg():
         print(f"Error while running dummy_epg.py: {e}")
         print(e.stderr)
 
-# Function to run the npm grab command and show real-time output
+# Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
 def run_npm_grab():
     # List of npm commands
     commands = [
         # For using xumo.tv (if needed)
-        ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv
+        ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
         
         # For custom Canadian channels with a custom output path
-        ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # Relative path
+        ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # tvpassport.com custom
     ]
 
     for command in commands:
