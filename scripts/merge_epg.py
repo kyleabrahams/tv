@@ -19,6 +19,9 @@ print(formatted_time)
 
 # Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
 # npm run grab -- --site=xumo.tv
+# npm run grab -- --channels=sites/ontvtonight.com/ontvtonight.com_ca.channels.xml --output=./scripts/ontvtonight.com_ca.channels.xml
+# npm run channels:parse --- --config=./sites/ontvtonight.com/ontvtonight.com.config.js --output=./scripts/ontvtonight.com_ca.channels.xml --set=country:ca
+
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
@@ -51,8 +54,8 @@ def run_npm_grab():
     commands = [
         # For using xumo.tv (if needed)
         # ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
-        # ["npm", "run", "grab", "--", "--channels=uk_custom.xml", "--output", "./scripts/uk.xml"],  # tvpassport.com custom
-        ["npm", "run", "grab", "--", "--channels=all_custom.xml", "--output", "./scripts/all_custom.xml"]  # tvpassport.com, xumo.tv, mytelly.co.uk custom
+        # ["npm", "run", "grab", "--", "--channels=test.xml", "--output", "./scripts/test.xml"]  # tvpassport.com custom
+        ["npm", "run", "grab", "--", "--channels=channels_custom.xml", "--output", "./scripts/channels_custom.xml"]  # tvpassport.com, xumo.tv, mytelly.co.uk custom
 
     ]
 

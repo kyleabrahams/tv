@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 18 241p
+#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 18 432p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -133,6 +133,8 @@ http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
 #EXTINF:-1 tvg-id="ABC Spark.ca" tvg-name="58 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
+#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-630905af0417b7074a4ad95e" channel-id="CABD1200010LE"  tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
+https://jmp2.uk/sam-CABD1200010LE.m3u8
 #EXTINF:-1 tvg-id="cooking-channel-canada-hd/10210" tvg-name="59 Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
 #EXTINF:-1 tvg-id="The Cooking Channel.us" tvg-name="60 US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",USA Cooking Channel 
@@ -249,8 +251,6 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418631
 
 #EXTINF:-1 tvg-id="CABB260002016" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-------|Samsung TV|-------
 https://jmp2.uk/sam-CABB260002016.m3u8
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-630905af0417b7074a4ad95e" channel-id="CABD1200010LE"  tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
-https://jmp2.uk/sam-CABD1200010LE.m3u8
 #EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-64704954e536e0faaf10be9f" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
 https://jmp2.uk/sam-USBC4400004KK.m3u8
 #EXTINF:-1 tvg-id="100#99991176" tvg-logo="https://i.ibb.co/VQ3F988/just-for-laughs-vod.png" group-title="Comedy",Just for Laughs TV
