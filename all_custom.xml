@@ -2,11 +2,32 @@
 <channels>
   <channel site="tvpassport.com" lang="en" xmltv_id="CP24.ca" site_id="cp24-cablepulse-24/321">CP24 (CablePulse 24)</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CIIIDT.ca" site_id="global-ciii-ontario-hd/4021">Global (CIII) Ontario HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-calgary-hd/9575">OMNI Calgary HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-calgary/5924">OMNI Calgary</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-edmonton-hd/9576">OMNI Edmonton HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-edmonton/5925">OMNI Edmonton</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-on-demand/3984">OMNI On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-vancouver-hd/9611">OMNI Vancouver HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni-vancouver/1174">OMNI Vancouver</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni1-cfmt-dt-1-london/13572">OMNI.1 (CFMT-DT-1) London</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni1-cfmt-dt-2-ottawa/13573">OMNI.1 (CFMT-DT-2) Ottawa</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni1-hd/6484">OMNI.1 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni1-television-dv/8392">OMNI.1 Television DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni1-television/41">OMNI.1 Television</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni11-manitoba/2835">OMNI.11 Manitoba</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni2-cjmt-dt-1-london/13570">OMNI.2 (CJMT-DT-1) London</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni2-cjmt-dt-2-ottawa/13571">OMNI.2 (CJMT-DT-2) Ottawa</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni2-dv/8393">OMNI.2 DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni2-hd/3624">OMNI.2 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="omni2/613">OMNI.2</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-ctv-toronto-cfto-on/13726">Capital Networks: CTV Toronto (CFTO), ON</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CBLTDT.ca" site_id="cbc-cblt-toronto-on/34">CBC (CBLT) Toronto, ON</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="city-tv-toronto-on-dv/3935">CITY Toronto, ON DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="city-tv-toronto-on-hd/2825">CITY Toronto, ON HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="city-tv-toronto-on/42">CITY Toronto, ON</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WUTVDT1.us" site_id="fox-wutv-buffalo-ny-hd/3584">FOX (WUTV) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="outdoor-life-network-canada-hd/9505">Outdoor Life Network Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="outdoor-life-network-canada/160">Outdoor Life Network Canada</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CHCHDT.ca" site_id="chch-hamilton-on/43">CHCH Hamilton, ON</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WIVBDT1.us" site_id="cbs-wivb-buffalo-ny-hd/3583">CBS (WIVB) Buffalo, NY HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WGRZDT1.us" site_id="nbc-wgrz-buffalo-ny/91">NBC (WGRZ) Buffalo, NY</channel>
@@ -17,6 +38,8 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="CNN.us" site_id="cnn/70">CNN</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="cnn-hd/4724">CNN HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="InvestigationDiscovery.ca" site_id="investigation-discovery-canada-hd/8458">Investigation Discovery Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-gusto-tv-dup/13753">Capital Networks:CTV Life dup</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-gusto-tv/9854">Capital Networks: CTV Life</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Slice.ca" site_id="slice/60">Slice</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="DiscoveryChannel.ca" site_id="discovery-channel-can/16">Discovery Channel (CAN)</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="History.ca" site_id="history-canada-east/164">History Canada East</channel>
@@ -77,6 +100,11 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="ABCSpark.ca" site_id="abc-spark/10281">ABC Spark</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-dv/3959">Weather Network DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-hd/9440">Weather Network HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-ytv-youth-television/13744">Capital Networks: YTV (Youth Television)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east-hd/9652">W (WTN) - East HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east/64">W (WTN) - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific-hd/9653">W (WTN) - Pacific HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific/1023">W (WTN) - Pacific</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Nickelodeon.ca" site_id="nickelodeon-canada-hd/11319">Nickelodeon Canada HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="NBATVCanada.ca" site_id="nba-tv-canada-tv-hd/3615">NBA TV Canada TV HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWild.ca" site_id="national-geographic-wild-canada-hd/11012">National Geographic Wild Canada HD</channel>
