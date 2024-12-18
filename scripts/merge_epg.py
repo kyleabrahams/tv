@@ -50,10 +50,10 @@ def run_npm_grab():
     # List of npm commands
     commands = [
         # For using xumo.tv (if needed)
-        ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
-        
-        # For custom Canadian channels with a custom output path
-        # ["npm", "run", "grab", "--", "--channels=canada_custom.xml", "--output", "./scripts/canada.xml"]  # tvpassport.com custom
+        # ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
+        # ["npm", "run", "grab", "--", "--channels=uk_custom.xml", "--output", "./scripts/uk.xml"],  # tvpassport.com custom
+        ["npm", "run", "grab", "--", "--channels=all_custom.xml", "--output", "./scripts/all_custom.xml"]  # tvpassport.com custom
+
     ]
 
     for command in commands:
