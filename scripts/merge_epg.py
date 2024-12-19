@@ -39,7 +39,12 @@ print(dummy_epg_path)  # To verify the constructed path
 
 # Function to run dummy_epg.py script
 def run_dummy_epg():
+    """Runs the dummy EPG generation script."""
     try:
+        # Example paths
+        venv_python = "./venv/bin/python3"  # Adjust to your virtual environment path
+        dummy_epg_path = "dummy_epg.py"  # Adjust to your script location
+
         # Use the virtual environment's Python interpreter
         result = subprocess.run([venv_python, dummy_epg_path], check=True, capture_output=True, text=True)
         print("dummy_epg.py executed successfully")
@@ -52,74 +57,49 @@ def run_dummy_epg():
 def run_npm_grab():
     # List of npm commands
     commands = [
-        # For using xumo.tv (if needed)
-        # ["npm", "run", "grab", "--", "--channels=xumo_custom.xml", "--output", "./scripts/xumo.xml"],  # xumo.tv custom
-        # ["npm", "run", "grab", "--", "--channels=test.xml", "--output", "./scripts/test.xml"]  # tvpassport.com custom
-        ["npm", "run", "grab", "--", "--channels=channels_custom.xml", "--output", "./scripts/channels_custom.xml"]  # tvpassport.com, xumo.tv, mytelly.co.uk custom
-
+        # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/test_end.xml"]
+        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
     ]
 
     for command in commands:
-        try:
-            print(f"Running command: {' '.join(command)}")
-            # Use Popen for real-time output
-            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            try:
+                print(f"Running command: {' '.join(command)}")
+                # Use Popen for real-time output
+                process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-            # Stream stdout and stderr as the command runs
-            for line in process.stdout:
-                print(f"STDOUT: {line.strip()}")  # Real-time standard output
+                # Stream stdout and stderr as the command runs
+                for line in process.stdout:
+                    print(f"STDOUT: {line.strip()}")  # Real-time standard output
 
-            for line in process.stderr:
-                print(f"STDERR: {line.strip()}")  # Real-time error output
+                for line in process.stderr:
+                    print(f"STDERR: {line.strip()}")  # Real-time error output
 
-            process.wait()  # Wait for the process to complete
+                process.wait()  # Wait for the process to complete
 
-            if process.returncode == 0:
-                print(f"Command {' '.join(command)} executed successfully.")
-            else:
-                print(f"Command {' '.join(command)} failed with error code {process.returncode}.")
-        except Exception as e:
-            print(f"Error while running npm command: {e}")
-            
+                if process.returncode == 0:
+                    print(f"Command {' '.join(command)} executed successfully.")
+                else:
+                    print(f"Command {' '.join(command)} failed with error code {process.returncode}.")
+            except Exception as e:
+                print(f"Error while running npm command: {e}")                
+
 # Main merge_epg function
 def merge_epg_data():
-    # Run dummy_epg.py first
+    """Coordinates the EPG generation and merging process."""
+    # Run dummy_epg.py
     run_dummy_epg()
 
-    # Now run the npm grab commands and show real-time output
+    # Run npm grab commands
     run_npm_grab()
 
-    # Proceed with your merge EPG logic...
+    # Proceed with EPG merging logic
     print("Merging EPG data...")
-    # Your existing code for merging EPG data goes here...
+    # Your existing merging logic goes here
 
-# Run the entire process
-merge_epg_data()
 
-# Step 1.1: Define the npm command and arguments (requires npm install) Removed 625p Dec 17 2024
-# command = ["npm", "run", "grab", "--", "--site=xumo.tv"]
-
-try:
-    # Run the command and stream its output in real-time
-    process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-    
-    # Read and display progress from stdout
-    for line in process.stdout:
-        print(f"Progress: {line.strip()}")  # Echo progress
-
-    # Wait for the process to finish
-    process.wait()
-
-    if process.returncode == 0:
-        print("Command completed successfully.")
-        print("success")
-    else:
-        print("Command failed.")
-        print("Error:", process.stderr.read())
-
-except Exception as e:
-    print(f"An error occurred: {e}")
-
+# Step 5: Execute the process
+if __name__ == "__main__":
+    merge_epg_data()
 
 # Step 2: Function to read the EPG URLs from a file
 def load_epg_urls(file_path):
