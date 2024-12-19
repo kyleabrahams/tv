@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 1235p
+#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 1239p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -748,6 +748,10 @@ http://streamsy.online:2999/live/venomj/EmoOmOskzq/1217.m3u8
 http://fl2.moveonjoy.com/STARZ/index.m3u8
 #EXTINF:-1 tvg-ID="Starz In Black - Eastern (906).us" tvg-name="Starz in Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-black-us.png?raw=true" group-title="Movies",USA Starz in Black
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/397.m3u8
+#EXTINF:-1 tvg-ID="Starz Kids and Family - Eastern (912).us" tvg-name="Starz Kids & Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",USA Starz Kids & Family
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/397.m3u8
+#EXTINF:-1 tvg-ID="Starz Cinema - Eastern (908).us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",USA Starz Cinema
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/1250.m3u8
 #EXTINF:-1 tvg-ID="Starz Comedy (East).us" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
 http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-ID="Starz Edge (East).us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",USA Starz Edge FHD
