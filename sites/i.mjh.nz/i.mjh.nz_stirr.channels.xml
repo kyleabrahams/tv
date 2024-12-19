@@ -1,32 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#dco">STIRR | National</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#free-07-26-2018">The T</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#soar-11-20-2019">SOAR</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="Charge.us" site_id="Stirr/all#externallinearfeed-01-15-2020-201540715-01-15-2020">CHARGE</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="ComedyDynamics.us" site_id="Stirr/all#externallinearfeed-08-01-2019-08-01-2019">Comedy Dynamics</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="Comet.us" site_id="Stirr/all#externallinearfeed-05-21-2019-05-21-2019">COMET</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="Docurama.us" site_id="Stirr/all#externallinearfeed-05-20-2019-05-20-2019">Docurama</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="DoveChannel.us" site_id="Stirr/all#externallinearfeed-01-28-2021-184530260-01-28-2021">Dove</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="ElectricNow.us" site_id="Stirr/all#externallinearfeed-10-21-2019-10-21-2019">Electric Now</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="HorseShoppingChannel.us" site_id="Stirr/all#horse-shopping-channel-01-05-2021-232155211">Horse Shopping Channel</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="HSN.us" site_id="Stirr/all#externallinearfeed-06-26-2020-185414162-06-26-2020">HSN</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="ItsShowtimeattheApollo.us" site_id="Stirr/all#its-showtime-at-the-apollo-03-12-2021">It&apos;s Showtime at the Apollo</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="LawCrime.us" site_id="Stirr/all#externallinearfeed-03-22-2019-03-22-2019">Law &amp;amp; Crime</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="LIVExLIVE.us" site_id="Stirr/all#externallinearfeed-03-13-2020-03-13-2020">LiveXLive</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="MidnightPulp.us" site_id="Stirr/all#externallinearfeed-06-26-2020-193305392-06-26-2020">Midnight Pulp</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="OnTV4U.us" site_id="Stirr/all#externallinearfeed-08-27-2021-08-27-2021">ONTV4U</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PopstarTV.us" site_id="Stirr/all#externallinearfeed-02-13-2020-02-13-2020">Popstar! TV</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PursuitUP.us" site_id="Stirr/all#externallinearfeed-07-01-2020-225307685-07-01-2020">PursuitUp</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="QVC.us" site_id="Stirr/all#externallinearfeed-05-26-2020-05-26-2020">QVC</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="RetroCrush.us" site_id="Stirr/all#externallinearfeed-07-01-2020-07-01-2020">RetroCrush</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="Revry.us" site_id="Stirr/all#externallinearfeed-02-04-2020-02-04-2020">Revry</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="ShopLC.us" site_id="Stirr/all#externallinearfeed-09-16-2021-09-16-2021">Shop LC</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="SoReal.us" site_id="Stirr/all#externallinearfeed-08-18-2020-08-18-2020">So...Real</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="SwerveSports.us" site_id="Stirr/all#externallinearfeed-02-09-2022-02-09-2022">Swerve Sports</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="TBD.us" site_id="Stirr/all#externallinearfeed-05-22-2019-05-22-2019">TBD</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="TheArchive.us" site_id="Stirr/all#externallinearfeed-12-15-2021-12-15-2021">The Archive</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="TheBobRossChannel.us" site_id="Stirr/all#externallinearfeed-04-27-2020-04-27-2020">The Bob Ross Channel</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="TheCountryNetwork.us" site_id="Stirr/all#externallinearfeed-07-20-2021-07-20-2021">The Country Network</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="TheFilmDetective.us" site_id="Stirr/all#externallinearfeed-07-18-2019-07-18-2019">Film Detective</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#771">FITE 24/7</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#1072">Channel Fight</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#1549">Extreme+</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#3353">Omstars</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5273">CrimeFlix</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5274">SWERVE TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5288">OAN plus</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5289">AWE plus</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5290">The Big Dish Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5291">HSN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5293">Adventure Sports TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5294">Cricket Gold</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5295">Equus TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5297">Feva Music</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5298">Feva TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5299">Freebie TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5300">The Grappling Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5302">Humor Mill TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5304">Poker Night in America</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5305">Sports First</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5306">World Poker Tour</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5308">Zoomer TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5309">Electric Now</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5395">ONTV4U</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5407">Drone TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5408">RVTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5417">Shop LC</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5421">QVC</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5428">JLTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5430">RightNow TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5436">Popstar! TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5441">TBN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5442">Always Funny</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5453">Gotraveler</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5454">Hipstr</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5455">Family Time</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5716">EuroNews</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5720">VOA (Voice of America)</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5721">Automotions</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5726">Nautical Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5730">Nitro TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5734">4K Travel TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5735">Just for Laughs</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5739">Docu Vision</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5740">Ace TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5741">Beani TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5745">Cowboy Movie Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5746">ENCORE+</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5747">Hunt Fish TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5748">KIDDO+</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5752">MERCURY+</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5887">Surfing Plus</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6207">Always Funny: Pranks &amp;amp; Fails</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6208">Law &amp;amp; Crime</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6408">Dark Matters TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6409">Teton Gravity Research</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6411">Fuel TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6412">Crafty Panda</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6413">CraftsyTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6414">NTD</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6424">SPEED SPORT 1</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6425">TRACE Sportstar</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6426">TRACE Urban</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6427">TRACE UK</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6428">TRACE Latina</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6429">TRACE Brazuca</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6430">GenB TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6435">PursuitUP</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6437">ChiveTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6439">Wild TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6441">My Money</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#6443">Our Vinyl</channel>
 </channels>
