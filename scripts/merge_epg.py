@@ -37,7 +37,7 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
 print(dummy_epg_path)  # To verify the constructed path
 
-# Function to run dummy_epg.py script
+# Step 1: Function to run dummy_epg.py script
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
@@ -53,7 +53,12 @@ def run_dummy_epg():
         print(f"Error while running dummy_epg.py: {e}")
         print(e.stderr)
 
-# Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
+# Run dummy_epg.py
+run_dummy_epg()
+
+
+
+# Step 2: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
 def run_npm_grab():
     # List of npm commands
     commands = [
@@ -81,27 +86,29 @@ def run_npm_grab():
                 else:
                     print(f"Command {' '.join(command)} failed with error code {process.returncode}.")
             except Exception as e:
-                print(f"Error while running npm command: {e}")                
+                print(f"Error while running npm command: {e}")    
 
-# Main merge_epg function
+# Run npm grab commands
+run_npm_grab()
+
+
+
+
+# Step 3: Main merge_epg function
 def merge_epg_data():
     """Coordinates the EPG generation and merging process."""
-    # Run dummy_epg.py
-    run_dummy_epg()
 
-    # Run npm grab commands
-    run_npm_grab()
 
     # Proceed with EPG merging logic
     print("Merging EPG data...")
     # Your existing merging logic goes here
 
 
-# Step 5: Execute the process
+# Execute the process
 if __name__ == "__main__":
     merge_epg_data()
 
-# Step 2: Function to read the EPG URLs from a file
+# Step 4: Function to read the EPG URLs from a file
 def load_epg_urls(file_path):
     """Read EPG URLs from the specified file and return them as a list."""
     try:
@@ -143,11 +150,11 @@ epg_urls = load_epg_urls(epg_urls_file)
 # Now you can use the epg_urls list in the rest of your script
 print(epg_urls)
 
-# Step 3: Path to save the merged EPG file
+# Step 5: Path to save the merged EPG file
 save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
-# Function to ensure directory and file permissions
+# Step 6: Function to ensure directory and file permissions
 def ensure_permissions(file_path):
     # Ensure the directory exists
     directory = os.path.dirname(file_path)
@@ -173,7 +180,7 @@ def ensure_permissions(file_path):
 # Ensure permissions for the save path
 ensure_permissions(save_path)
 
-# Step 4: Set up logging
+# Step 7: Set up logging
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
@@ -218,7 +225,7 @@ logger.setLevel(logging.INFO)
 # Log starting message
 logger.info("Starting EPG merge process...")
 
-# Step 5: Function to fetch and merge EPG data
+# Step 8: Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
@@ -272,7 +279,7 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
             time.sleep(delay)  # Wait before retrying
     return None  # Return None after all attempts fail    
 
-# Step 6: Function to extract XML from .gz files
+# Function to extract XML from .gz files
 def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
@@ -292,12 +299,12 @@ def extract_gz_files(gz_directory):
     return extracted_files
 
 
-# Step 7: Merge EPG data into a single XML
+# Step 9: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
 total_files = len(epg_urls)
 
 
-# Step 8: Process each EPG URL
+# Step 10: Process each EPG URL
 for index, url in enumerate(epg_urls):
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
@@ -306,7 +313,7 @@ for index, url in enumerate(epg_urls):
     sleep(0.5)  # Small delay to simulate and visualize progress
 
 
-# Step 9: Extract XML from .gz files
+# Step 11: Extract XML from .gz files
 print("Extracting XML from .gz files...")
 extracted_files = extract_gz_files(gz_directory)
 for xml_file in extracted_files:
@@ -319,7 +326,7 @@ for xml_file in extracted_files:
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
 
-# Step 10: Save the merged EPG file and log success
+# Step 12: Save the merged EPG file and log success
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
