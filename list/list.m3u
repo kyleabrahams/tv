@@ -740,6 +740,8 @@ http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1604
 http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1607
 # #EXTINF:-1 tvg-id="Sony Movie Channel.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",USA Sony Movie Channel
 # http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8
+#EXTINF:-1 tvg-id="Sony Movie Channel.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",USA Sony Movie Channel
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/1217.m3u8
 #EXTINF:-1 tvg-ID="Starz (East).us" tvg-name="Starz Cinema HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="Movies",USA Starz 
 http://fl2.moveonjoy.com/STARZ/index.m3u8
 #EXTINF:-1 tvg-ID="Starz Comedy (East).us" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
