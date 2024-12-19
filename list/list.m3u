@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 159p
+#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 207p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -726,8 +726,8 @@ http://fl2.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8
 http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation - Eastern Feed (180).us" tvg-name="US NewsNation USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/news-nation-us.png?raw=true" group-title="News",USA NewsNation 
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
-#EXTINF:-1 tvg-id="5 Star Max - Eastern (840).us" tvg-name="5 Star Max" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",USA 5 StarMax
-http://streamsy.online:2999/live/venomj/EmoOmOskzq/1603.m3u8
+# #EXTINF:-1 tvg-id="5 Star Max - Eastern (840).us" tvg-name="5 Star Max" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",USA 5 StarMax
+# http://streamsy.online:2999/live/venomj/EmoOmOskzq/1603.m3u8
 #EXTINF:-1 tvg-id="Cinemax - Eastern Feed (832).us" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",USA Cinemax 
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="OuterMax.east.us" tvg-name="OUTER MAX" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-outermax-us.png?raw=true" group-title="Movies",USA Cinemax OuterMax
