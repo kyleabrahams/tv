@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/143.m3u8
 #EXTINF:-1 tvg-id="CIIIDT.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 1239p
+#EXTINF:-1 tvg-id="omni-vancouver-hd/9611" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 19 1249p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -460,11 +460,11 @@ http://fl2.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8
 http://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Hallmark Family HD - HALLDRMHD.us" tvg-name="US Hallmark Family USATV" tvg-logo="https://i.ibb.co/44h3QX9/Hallmark-Family-2024-1.png" group-title="Movies",USA Hallmark Family 
 http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
-#EXTINF:-1 tvg-id="BBCOne.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="Movies" ,BBC One
+#EXTINF:-1 tvg-id="BBCOne.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One
 https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="BBCThree.uk" tvg-name="BBC Three HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="Movies" ,BBC Three
+#EXTINF:-1 tvg-id="BBCThree.uk" tvg-name="BBC Three HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="" ,BBC Three
 https://xyzdddd.mizhls.ru/lb/premium358/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="BBCFour.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="Movies" channel-number="446",BBC Four
+#EXTINF:-1 tvg-id="BBCFour.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="" channel-number="446",BBC Four
 https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
 #EXTINF:-1 tvg-id="62ba60f059624e000781c436" tvg-logo="" group-title="Movies",00s Replay
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62ba60f059624e000781c436/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c25e430-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1b7de8e4-d114-4438-b098-6f7aee77b4be
@@ -749,8 +749,8 @@ http://fl2.moveonjoy.com/STARZ/index.m3u8
 #EXTINF:-1 tvg-ID="Starz In Black - Eastern (906).us" tvg-name="Starz in Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-black-us.png?raw=true" group-title="Movies",USA Starz in Black
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/397.m3u8
 #EXTINF:-1 tvg-ID="Starz Kids and Family - Eastern (912).us" tvg-name="Starz Kids & Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",USA Starz Kids & Family
-http://streamsy.online:2999/live/venomj/EmoOmOskzq/397.m3u8
-#EXTINF:-1 tvg-ID="Starz Cinema - Eastern (908).us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",USA Starz Cinema
+http://streamsy.online:2999/live/venomj/EmoOmOskzq/1248.m3u8
+#EXTINF:-1 tvg-ID="Starz Cinema - Eastern (908).us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",USA Starz Cinema
 http://streamsy.online:2999/live/venomj/EmoOmOskzq/1250.m3u8
 #EXTINF:-1 tvg-ID="Starz Comedy (East).us" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",USA Starz Comedy HD
 http://fl2.moveonjoy.com/STARZ_COMEDY/index.m3u8
