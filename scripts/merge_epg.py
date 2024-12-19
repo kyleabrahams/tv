@@ -256,13 +256,6 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                             epg_tree = ET.ElementTree(ET.fromstring(xml_content))
                         else:
                             epg_tree = ET.ElementTree(ET.fromstring(response.content))
-
-                        # If no entries are found, log an error
-                        if not epg_tree.getroot():
-                            logging.error(f"No entries found in {url}.")
-                            print(f"No entries found in {url}.")
-                            return None
-
                         print(f"Successfully fetched {index + 1}/{total}")
                         logging.info(f"Successfully fetched {index + 1}/{total}")
                         return epg_tree
@@ -283,13 +276,6 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                     epg_tree = ET.parse(url)
                     print(f"Successfully loaded local file: {url}")
                     logging.info(f"Successfully loaded local file: {url}")
-
-                    # If no entries are found in local files
-                    if not epg_tree.getroot():
-                        logging.error(f"No entries found in local file {url}.")
-                        print(f"No entries found in local file {url}.")
-                        return None
-
                     return epg_tree
                 except ET.ParseError as e:
                     logging.error(f"Failed to parse local XML file {url}: {e}")
@@ -298,12 +284,13 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                     logging.error(f"Error processing local file {url}: {e}")
                     print(f"Error processing local file {url}: {e}")
                 return None
+
         except requests.exceptions.RequestException as e:
             logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
             print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
             attempt += 1
             time.sleep(delay)  # Wait before retrying
-    return None  # Return None after all attempts fail
+    return None  # Return None after all attempts fail    
 
 # Step 6: Function to extract XML from .gz files
 def extract_gz_files(gz_directory):
@@ -312,43 +299,23 @@ def extract_gz_files(gz_directory):
     gz_directory = os.path.join(REPO_DIR, "www")  # Ensure this points to the right directory
     
     if not os.path.exists(gz_directory):
-        logging.error(f"Error: Directory {gz_directory} does not exist.")
-        print(f"Error: Directory {gz_directory} does not exist.")
+        log(f"Error: Directory {gz_directory} does not exist.")
         return []
     
     extracted_files = []
     for filename in os.listdir(gz_directory):
         if filename.endswith(".gz"):
             file_path = os.path.join(gz_directory, filename)
-            try:
-                # Extraction logic here...
-                extracted_files.append(file_path)
-            except Exception as e:
-                logging.error(f"Failed to extract {file_path}: {e}")
-                print(f"Failed to extract {file_path}: {e}")
+            log(f"Extracting {file_path}...")
+            # Your extraction code here
+            extracted_files.append(file_path)
     return extracted_files
+
 
 # Step 7: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
 total_files = len(epg_urls)
 
-# Check if no files were fetched
-if total_files == 0:
-    logging.error("No EPG files fetched.")
-    print("No EPG files fetched.")
-
-# Step 8: Process each EPG URL
-for index, url in enumerate(epg_urls):
-    epg_tree = fetch_epg_data(url, index, total_files)
-    if epg_tree:
-        for element in epg_tree.getroot():
-            merged_root.append(element)
-    sleep(0.5)  # Small delay to simulate and visualize progress
-
-# Check if no entries were merged
-if len(merged_root) == 0:
-    logging.error("No EPG data found after merging.")
-    print("No EPG data found after merging.")
 
 # Step 8: Process each EPG URL
 for index, url in enumerate(epg_urls):
@@ -362,32 +329,14 @@ for index, url in enumerate(epg_urls):
 # Step 9: Extract XML from .gz files
 print("Extracting XML from .gz files...")
 extracted_files = extract_gz_files(gz_directory)
-
-# Check if no .gz files were extracted
-if not extracted_files:
-    logging.error(f"No .gz files found in directory {gz_directory}.")
-    print(f"No .gz files found in directory {gz_directory}.")
-    
 for xml_file in extracted_files:
     try:
         epg_tree = ET.parse(xml_file)
-        
-        # Check if the file has entries
-        if not epg_tree.getroot():
-            logging.error(f"No entries found in extracted XML file {xml_file}.")
-            print(f"No entries found in extracted XML file {xml_file}.")
-            continue
-        
-        # Append elements to merged root if there are entries
         for element in epg_tree.getroot():
             merged_root.append(element)
-    
     except ET.ParseError as e:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
-    except Exception as e:
-        logging.error(f"Unexpected error while processing {xml_file}: {e}")
-        print(f"Unexpected error while processing {xml_file}: {e}")
 
 
 # Step 10: Save the merged EPG file and log success
@@ -399,6 +348,7 @@ try:
     success_message = f"EPG file successfully saved to {save_path}"
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
+ 
 except Exception as e:
     # Log error if save fails
     error_message = f"Failed to save EPG file - Error: {e}"
