@@ -3,10 +3,21 @@
 This project is a custom tool that creates dummy data, fetches URLs, and uncompresses .gz files, ultimately generating a single XML file. The XML file(s) are stored locally in your repository and can be accessed through Nginx (Homebrew).
 I'm hoping to add remote access in the near future.
 
+## Tool 1. IPTV-Checker is a utility designed to verify the status of links in M3U playlists. It categorizes each link as online, offline, or a duplicate.
+# IPTV-Checker global installation
+npm install -g iptv-checker
+# Playlist execution
+iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere_$(date +%Y%m%d)"
+
+## Tool 2: Playlist-Generator is a utility designed to generate an M3U playlist with a specified range of channel numbers (e.g., 1-100). Its primary purpose is to identify hidden or non-public channels at the server level.
+# Modify the python file below and run it with the command below
+cd scripts
+python3 playlist_generator.py
+
 ## Step 1: In the working directory, run the following command in Terminal to create the node modules:
 npm install
 
-## Step 1b: If you wish to uninstall node modules run:
+# Step 1b: If you wish to uninstall node modules run:
 rm package-lock.json
 rm -rf node_modules
 

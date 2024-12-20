@@ -1,8 +1,7 @@
 # Script to generate an M3U playlist
-
-# python3 playlist_generator.py
-
+#!/usr/bin/env python3
 import os
+from datetime import datetime
 
 def generate_m3u(start, end, base_url, output_dir, output_file_name):
     # Ensure the output directory exists
@@ -22,12 +21,27 @@ def generate_m3u(start, end, base_url, output_dir, output_file_name):
     print(f"M3U playlist generated: {output_file}")
 
 # Parameters
-start_channel = 46000  # Starting channel number
-end_channel = 60000  # Ending channel number
-# base_url = "http://xxx/xxx/xxx"  # Base URL for the streams
-base_url = "http://fortv.cc:8080/105094817/105094817"  # Base URL for the streams
-output_dir = "/Volumes/Kyle4tb1223/_Android/_M3U/___ServersFULL"  # Directory to save the file
-output_file_name = "fortv-ccDec20.m3u"  # Output file name
+start_channel = 75000  # Starting channel number
+end_channel = 80000  # Ending channel number
+# base_url = "http://server/usepassword"  # Base URL for the streams
+
+# Set the output directory relative to "/Volumes/Kyle4tb1223"
+output_dir = os.path.join(os.path.expanduser('~'), "Documents/___ServersFULL")
+
+# Include today's date in the output file name
+today_date = datetime.now().strftime("%Y%m%d")  # Format: YYYYMMDD
+output_file_name = f"xxip25.top_{today_date}.m3u"  # Output file name with today's date
+
+# python3 playlist_generator.py
+
+## Tool 1. IPTV-Checker is a utility designed to verify the status of links in M3U playlists. It categorizes each link as online, offline, or a duplicate.
+# IPTV-Checker global installation
+# npm install -g iptv-checker
+# Playlist execution
+# iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere-$(date +%Y%m%d)
+# iptv-checker /path/to/playlist.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/ServerNameHere-$(date +%Y%m%d)
+
+
 
 # Generate the M3U playlist
 generate_m3u(start_channel, end_channel, base_url, output_dir, output_file_name)
