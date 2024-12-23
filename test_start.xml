@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991365">DangerTV</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991123">LOL Network</channel>
-  <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6177f6bf7693550007531275">FailArmy</channel>
-  <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6400c095498393000878a634">Frasier</channel>
-  <!-- <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5734">4K Travel TV</channel> -->
+ <!-- <channel site="[ENC][EX]ontvtonight.com[CA]_0" site_id="-464014503|##|69023814/w-network-east" xmltv_id="[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)">[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)</channel> -->
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021237/te">T+E</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#464014594/citytv-toronto-hdtv">Citytv Toronto HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021237/te">T+E</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021243/one-tv">One TV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021244/out-tv">Out TV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021280/national-geographic-channel-canada">National Geographic Channel (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021281/msnbc-canada">MSNBC Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021299/the-golf-channel-canada">The Golf Channel Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021316/discovery-science-canada">Discovery Science (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021332/information-channel-generic">Information Channel (Generic)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021452/ici-tele-saguenay-lac-saint-jean">Ici Télé Saguenay-Lac-Saint-Jean</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021741/chau-tva-carleton">CHAU TVA (Carleton)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022235/ici-tele-quebec">ICI TÉLÉ QUÉBEC</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022240/ici-tele-est-du-quebec">ICI TÉLÉ EST-DU-QUÉBEC</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022252/noovo-sherbrooke-sd">Noovo Sherbrooke SD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022253/noovo-saguenay-sd">Noovo Saguenay SD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022419/ici-tele-colombie-britannique-yukon">Ici Télé Colombie-Britannique-Yukon</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022475/omni1">Omni.1</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022486/ctv-two-londoncfpl">CTV Two London/CFPL</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022501/consumer-news-business-channel-canada">Consumer News &amp; Business Channel Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022558/ckrt-ici-radio-canada-riviere-du-loup">CKRT ICI Radio-Canada (Riviere-du-Loup)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022592/ctv-two-ottawachro">CTV Two Ottawa/CHRO</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022728/king-hdtv">KING HDTV</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="aptn/APTHD">APTN HD</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="artv/ARTHD">Artv HD</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="asna/ANAT">Assemblée Nationale</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="baby/BABY">Baby TV francophone</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="boom/BOOMH">Boomerang HD</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="boom/BOOMS">Boomrang SD</channel>
+  <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="cbc/CBCHD">CBMT</channel>
+
+
 </channels>

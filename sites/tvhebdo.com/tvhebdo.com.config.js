@@ -66,7 +66,7 @@ module.exports = {
       const url = $item('.gr_row_head > div > div.gr_row_head_poste > a').attr('href')
       const [, site_id] = url.match(/horaire-tele\/(.*)/) || [null, null]
       channels.push({
-        lang: 'fr',
+        lang: 'en',
         site_id,
         name
       })

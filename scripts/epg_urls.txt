@@ -1,5 +1,6 @@
 channels_custom_end.xml
 test_end.xml
+channels_xml.xml
 dummy.xml																									
 https://www.bevy.be/bevyfiles/canada1.xml.gz																									
 https://www.bevy.be/bevyfiles/canada2.xml.gz																									
@@ -19,4 +20,8 @@ https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
 https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz																									
 https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz																									
 https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz																									
-https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz																					
+https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz				
+
+https://epg.pw/api/epg.xml?lang=en&date=20241223&channel_id=404710
+https://epg.pw/api/epg.json?lang=en&date=20241223&channel_id=404710
+https://epg.pw/api/epg.xml?lang=en&date=20241223&channel_id=404739

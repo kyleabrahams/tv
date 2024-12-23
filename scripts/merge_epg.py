@@ -37,7 +37,7 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
 print(dummy_epg_path)  # To verify the constructed path
 
-# Step 1: Function to run dummy_epg.py script
+# Step 1.1: Function to run dummy_epg.py script
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
@@ -57,13 +57,50 @@ def run_dummy_epg():
 run_dummy_epg()
 
 
+# Step 1.2: Function to run channels_xml.py script
+def run_channels_xml():
+    """Runs the channels XML generation script."""
+    try:
+        # Adjust to your virtual environment path and script location
+        venv_python = "./venv/bin/python3"  # Path to Python interpreter inside virtualenv
+        channels_xml_path = "channels_xml.py"  # Path to your channels_xml.py script
+
+        # Check if the virtual environment Python exists
+        if not os.path.exists(venv_python):
+            print(f"Error: Virtual environment Python not found at {venv_python}")
+            return
+
+        # Check if the channels_xml.py script exists
+        if not os.path.exists(channels_xml_path):
+            print(f"Error: The script {channels_xml_path} was not found.")
+            return
+
+        # Run the channels_xml.py script using the virtual environment's Python interpreter
+        result = subprocess.run([venv_python, channels_xml_path], check=True, capture_output=True, text=True)
+
+        print("channels_xml.py executed successfully.")
+        print("Output from channels_xml.py:")
+        print(result.stdout)  # Output from channels_xml.py
+        
+    except subprocess.CalledProcessError as e:
+        print(f"Error while running channels_xml.py: {e}")
+        print(f"Error Output: {e.stderr}")
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+# Run channels_xml.py
+run_channels_xml()
+
+
 
 # Step 2: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
 def run_npm_grab():
     # List of npm commands
     commands = [
-        # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/test_end.xml"]
-        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
+        ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/test_end.xml"]
+        # ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
     ]
 
     for command in commands:
