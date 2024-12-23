@@ -1,7 +1,17 @@
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime
-import time  # Import the time module for elapsed time calculation
+import time
+import json  # Import the json module to read from a JSON file
+
+# Load the channels from the JSON file
+def load_channels_from_file(filename):
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error loading channels from file: {e}")
+        return {}
 
 # Function to fetch the EPG data for a specific channel
 def fetch_epg_data(channel_id, date):
@@ -62,72 +72,8 @@ def fetch_multiple_channels_data(channel_dict):
     
     print("Combined EPG data saved to channels_xml.xml")
 
-# Dictionary of channel IDs and their respective names
-channel_dict = {
-    '404710': 'CP24',
-    '404834': 'MSNBC',
-    '405039': 'Global (CIII-DT-41) Toronto',
-    '405080': 'OMNI Vancouver',
-    '404674': 'CBC (CBLT) Toronto',
-    '404805': 'CITY Toronto, ON HD',
-    '404876': 'CTV (CFTO) Toronto',
-    '404781': 'Bravo',
-    '404814': 'CHCH Hamilton',
-    '405197': 'FX',
-    '12783': 'CTV Two London/CFPL (CTV2L)',
-    '404741': 'The Weather Network',
-    '404709': 'YTV (Youth Television) - East',
-    '404780': 'Discovery Velocity/CTV Speed',
-    '403831': 'Motor Trend HD',
-    '405090': 'Much Music',
-    '404739': 'A and E Canada',
-    '404729': 'AMC - Canada',
-    '404985': 'CNN HD',
-    '405157': 'TLC Canada HD',
-    '404724': 'Investigation Discovery Canada',
-    '404941': 'CTV Life HD',
-    '405104': 'CMT Canada',
-    '405182': 'Showcase Canada HD',
-    '405149': 'CTV Drama HD',
-    '405154': 'Slice HD',
-    '405015': 'Discovery Channel (CAN) HD',
-    '404990': 'History Canada HD East',
-    '405023': 'History 2 Canada',
-    '405094': 'CTV Comedy - East HD',
-    '404884': 'HGTV Canada HD',
-    '404989': 'Love Nature',
-    '404787': 'Turner Classic Movies Canada HD',
-    '405130': 'Discovery Science Canada',
-    '404756': 'CTV Sci-Fi HD',
-    '405033': 'Family Channel Canada - East HD',
-    '405042': 'MTV Canada',
-    '404958': 'DTOUR',
-    '404904': 'Food Network Canada HD',
-    '404661': 'Yes TV (CITS) Burlington, ON HD',
-    '404864': 'ABC Spark HD',
-    '404789': 'Cooking Channel Canada HD',
-    '404713': 'Vision TV Eastern',
-    '405151': 'E! Canada HD',
-    '404905': 'FXX Canada HD',
-    '404898': 'Cartoon Network Canada - East HD',
-    '404993': 'Treehouse HD',
-    '404815': 'WildBrainTV HD',
-    '12901': 'Peachtree TV HDTV (WPCHD)',
-    '404778': 'National Geographic Wild Canada',
-    '404734': 'Family Jr. HD',
-    '404648': 'Nickelodeon Canada HD',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-    '40': 'DTOUR',
-
-    '404911': 'Makeful'
-}
+# Load the channel dictionary from the JSON file
+channel_dict = load_channels_from_file('channels.json')
 
 # Record the start time
 start_time = time.time()

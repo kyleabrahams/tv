@@ -161,13 +161,6 @@
 <programme start="20241224210000 +0000" stop="20241224213000 +0000" channel="asna/ANAT"><title lang="fr">Voeux des fêtes</title></programme>
 <programme start="20241225010000 +0000" stop="20241225023000 +0000" channel="asna/ANAT"><title lang="fr">Mémoires</title></programme>
 <programme start="20241225023000 +0000" stop="20241225030000 +0000" channel="asna/ANAT"><title lang="fr">Assemblée nationale</title></programme>
-<programme start="20241223220400 +0000" stop="20241223220800 +0000" channel="baby/BABY"><title lang="fr">La classe de Teeny et Tiny</title></programme>
-<programme start="20241223220800 +0000" stop="20241223221100 +0000" channel="baby/BABY"><title lang="fr">Giggle Wiggle</title></programme>
-<programme start="20241223221100 +0000" stop="20241223221600 +0000" channel="baby/BABY"><title lang="fr">Le jardin d&apos;enfants de Toto</title></programme>
-<programme start="20241223221600 +0000" stop="20241223221900 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
-<programme start="20241223221900 +0000" stop="20241223222100 +0000" channel="baby/BABY"><title lang="fr">Bonne fête à toi</title></programme>
-<programme start="20241223222100 +0000" stop="20241223222500 +0000" channel="baby/BABY"><title lang="fr">Bug&apos;n&apos;Play à la rescousse</title></programme>
-<programme start="20241223222500 +0000" stop="20241223222700 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
 <programme start="20241223222700 +0000" stop="20241223223400 +0000" channel="baby/BABY"><title lang="fr">Agence de détectives de Zeina</title></programme>
 <programme start="20241223223400 +0000" stop="20241223224000 +0000" channel="baby/BABY"><title lang="fr">Billy Bam Bam</title></programme>
 <programme start="20241223224000 +0000" stop="20241223224200 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
@@ -744,14 +737,21 @@
 <programme start="20241224215500 +0000" stop="20241224215700 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
 <programme start="20241224215500 +0000" stop="20241224215700 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
 <programme start="20241224215700 +0000" stop="20241224220500 +0000" channel="baby/BABY"><title lang="fr">Charlie et les chiffres</title></programme>
-<programme start="20241224215700 +0000" stop="20241224222700 +0000" channel="baby/BABY"><title lang="fr">Charlie et les chiffres</title></programme>
+<programme start="20241224215700 +0000" stop="20241224220500 +0000" channel="baby/BABY"><title lang="fr">Charlie et les chiffres</title></programme>
+<programme start="20241224220500 +0000" stop="20241224220800 +0000" channel="baby/BABY"><title lang="fr">Rocco</title></programme>
 <programme start="20241224220500 +0000" stop="20241224220800 +0000" channel="baby/BABY"><title lang="fr">Rocco</title></programme>
 <programme start="20241224220800 +0000" stop="20241224221100 +0000" channel="baby/BABY"><title lang="fr">Giggle Wiggle</title></programme>
+<programme start="20241224220800 +0000" stop="20241224221100 +0000" channel="baby/BABY"><title lang="fr">Giggle Wiggle</title></programme>
+<programme start="20241224221100 +0000" stop="20241224221700 +0000" channel="baby/BABY"><title lang="fr">Une traînée d&apos;escargot</title></programme>
 <programme start="20241224221100 +0000" stop="20241224221700 +0000" channel="baby/BABY"><title lang="fr">Une traînée d&apos;escargot</title></programme>
 <programme start="20241224221700 +0000" stop="20241224221900 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
+<programme start="20241224221700 +0000" stop="20241224221900 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
+<programme start="20241224221900 +0000" stop="20241224222000 +0000" channel="baby/BABY"><title lang="fr">Bonne fête à toi</title></programme>
 <programme start="20241224221900 +0000" stop="20241224222000 +0000" channel="baby/BABY"><title lang="fr">Bonne fête à toi</title></programme>
 <programme start="20241224222000 +0000" stop="20241224222500 +0000" channel="baby/BABY"><title lang="fr">Bug&apos;n&apos;Play à la rescousse</title></programme>
+<programme start="20241224222000 +0000" stop="20241224222500 +0000" channel="baby/BABY"><title lang="fr">Bug&apos;n&apos;Play à la rescousse</title></programme>
 <programme start="20241224222500 +0000" stop="20241224222800 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
+<programme start="20241224222500 +0000" stop="20241224225500 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
 <programme start="20241224222800 +0000" stop="20241224223400 +0000" channel="baby/BABY"><title lang="fr">Agence de détectives de Zeina</title></programme>
 <programme start="20241224223400 +0000" stop="20241224224000 +0000" channel="baby/BABY"><title lang="fr">Billy Bam Bam</title></programme>
 <programme start="20241224224000 +0000" stop="20241224224200 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
@@ -848,7 +848,6 @@
 <programme start="20241225045000 +0000" stop="20241225045500 +0000" channel="baby/BABY"><title lang="fr">Les amis du bain</title></programme>
 <programme start="20241225045500 +0000" stop="20241225045700 +0000" channel="baby/BABY"><title lang="fr">Chansons et de comptines</title></programme>
 <programme start="20241225045700 +0000" stop="20241225052700 +0000" channel="baby/BABY"><title lang="fr">Le terrain de jeux magique de Papy Joe</title></programme>
-<programme start="20241223221500 +0000" stop="20241223223000 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241223223000 +0000" stop="20241223224500 +0000" channel="boom/BOOMH"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241223224500 +0000" stop="20241223230000 +0000" channel="boom/BOOMH"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241223230000 +0000" stop="20241223231500 +0000" channel="boom/BOOMH"><title lang="fr">Gumball</title></programme>
@@ -968,8 +967,9 @@
 <programme start="20241224213000 +0000" stop="20241224220000 +0000" channel="boom/BOOMH"><title lang="fr">Les ratons laveurs</title></programme>
 <programme start="20241224213000 +0000" stop="20241224220000 +0000" channel="boom/BOOMH"><title lang="fr">Les ratons laveurs</title></programme>
 <programme start="20241224220000 +0000" stop="20241224221500 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
-<programme start="20241224220000 +0000" stop="20241224223000 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
+<programme start="20241224220000 +0000" stop="20241224221500 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241224221500 +0000" stop="20241224223000 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
+<programme start="20241224221500 +0000" stop="20241224224500 +0000" channel="boom/BOOMH"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241224223000 +0000" stop="20241224224500 +0000" channel="boom/BOOMH"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241224224500 +0000" stop="20241224230000 +0000" channel="boom/BOOMH"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241224230000 +0000" stop="20241224231500 +0000" channel="boom/BOOMH"><title lang="fr">Gumball</title></programme>
@@ -992,7 +992,6 @@
 <programme start="20241225040000 +0000" stop="20241225041500 +0000" channel="boom/BOOMH"><title lang="fr">Adventure Time avec Finn et Jake</title></programme>
 <programme start="20241225041500 +0000" stop="20241225043000 +0000" channel="boom/BOOMH"><title lang="fr">Adventure Time avec Finn et Jake</title></programme>
 <programme start="20241225043000 +0000" stop="20241225050000 +0000" channel="boom/BOOMH"><title lang="fr">L&apos;île des défis extrêmes</title></programme>
-<programme start="20241223221500 +0000" stop="20241223223000 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241223223000 +0000" stop="20241223224500 +0000" channel="boom/BOOMS"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241223224500 +0000" stop="20241223230000 +0000" channel="boom/BOOMS"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241223230000 +0000" stop="20241223231500 +0000" channel="boom/BOOMS"><title lang="fr">Gumball</title></programme>
@@ -1112,8 +1111,9 @@
 <programme start="20241224213000 +0000" stop="20241224220000 +0000" channel="boom/BOOMS"><title lang="fr">Les ratons laveurs</title></programme>
 <programme start="20241224213000 +0000" stop="20241224220000 +0000" channel="boom/BOOMS"><title lang="fr">Les ratons laveurs</title></programme>
 <programme start="20241224220000 +0000" stop="20241224221500 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
-<programme start="20241224220000 +0000" stop="20241224223000 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
+<programme start="20241224220000 +0000" stop="20241224221500 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241224221500 +0000" stop="20241224223000 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
+<programme start="20241224221500 +0000" stop="20241224224500 +0000" channel="boom/BOOMS"><title lang="fr">Craig Of The Creek</title></programme>
 <programme start="20241224223000 +0000" stop="20241224224500 +0000" channel="boom/BOOMS"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241224224500 +0000" stop="20241224230000 +0000" channel="boom/BOOMS"><title lang="fr">We Bare Bears</title></programme>
 <programme start="20241224230000 +0000" stop="20241224231500 +0000" channel="boom/BOOMS"><title lang="fr">Gumball</title></programme>
