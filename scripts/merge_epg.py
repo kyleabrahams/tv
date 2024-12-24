@@ -122,10 +122,10 @@ def fetch_multiple_channels_data(channel_dict):
     tv_str += "</tv>"
     
     # Save the final XML to a file
-    with open("channels_xml.xml", "w", encoding="utf-8") as f:
+    with open("channels_json.xml", "w", encoding="utf-8") as f:
         f.write(tv_str)
     
-    print("Combined EPG data saved to channels_xml.xml")
+    print("Combined EPG data saved to channels_json.xml")
 
 # Load the channel dictionary from the JSON file
 channel_dict = load_channels_from_file('channels.json')
@@ -287,7 +287,7 @@ def ensure_permissions(file_path):
 # Ensure permissions for the save path
 ensure_permissions(save_path)
 
-# Step 7: Set up logging
+# Step 7: Set up Logging
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()

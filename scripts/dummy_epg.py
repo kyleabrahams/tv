@@ -37,9 +37,9 @@ def create_epg_xml(num_days=5, programs_per_day=24):
 
     # Step 4.2: Define a dictionary of channels with their IDs and display names
     channels = {
-        "City News 24/7 Toronto": "City News 24/7",
-        "2": "Channel 2",
-        "3": "Channel 3"
+        "City News 24/7 Toronto": "City News 24/7"
+        # "2": "Channel 2",
+        # "3": "Channel 3"
     }
 
     # Step 4.3: Loop through the channel dictionary and create <channel> elements
@@ -89,11 +89,18 @@ def create_epg_xml(num_days=5, programs_per_day=24):
 
 # Step 5: Function for pretty printing the XML (to make it more readable)
 def pretty_print(xml_string):
+    # First, use minidom to prettify the XML
     xml_dom = minidom.parseString(xml_string)
     pretty_xml = xml_dom.toprettyxml(indent="  ").strip()
+
+    # Remove unwanted newlines from <channel> tags to keep them on one line
+    pretty_xml = re.sub(r'(<channel[^>]*>)(\n\s*)(<display-name[^>]*>.*?</display-name>)\s*(</channel>)', r'\1\3\4', pretty_xml)
+
+    # Adjust <programme> tags to be on a single line with appropriate formatting for children
+    pretty_xml = re.sub(r'(<programme[^>]*>)\s*(.*?)\s*(</programme>)', r'\1\n\2\n\3', pretty_xml, flags=re.DOTALL)
     
-    # Remove unwanted newlines from <channel> tags
-    pretty_xml = re.sub(r'(<channel[^>]*>)(\n\s*)*(<\/channel>)', r'\1\3', pretty_xml)
+    # Ensure that <title>, <desc>, and other elements inside <programme> are indented
+    pretty_xml = re.sub(r'(<programme[^>]*>)\s*(<title>.*?)\s*(<desc>.*?)\s*(</programme>)', r'\1\2\3\4', pretty_xml, flags=re.DOTALL)
 
     # Remove any additional <?xml ...?> declarations except the first one
     pretty_xml = re.sub(r'(<\?xml.*\?>\n?)+', '', pretty_xml, count=1)
