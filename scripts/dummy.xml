@@ -3,1810 +3,1690 @@
   <channel id="City News 24/7 Toronto">
     <display-name lang="en">City News 24/7</display-name>
   </channel>
-  <channel id="VogueDummy">
-    <display-name lang="en">Vogue</display-name>
+  <channel id="2">
+    <display-name lang="en">Channel 2</display-name>
   </channel>
   <channel id="3">
     <display-name lang="en">Channel 3</display-name>
   </channel>
-  <programme start="20241223230000 -0500" stop="20241224000000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 11</title>
-    <sub-title>Program 1 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241223230000 -0500" stop="20241224000000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 1 on Vogue</sub-title>
-    <desc>Description for Vogue, program 1</desc>
-  </programme>
-  <programme start="20241223230000 -0500" stop="20241224000000 -0500" channel="3">
-    <title>Channel 3 at 11</title>
-    <sub-title>Program 1 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 1</desc>
-  </programme>
-  <programme start="20241224000000 -0500" stop="20241224010000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 12</title>
-    <sub-title>Program 2 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224000000 -0500" stop="20241224010000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 2 on Vogue</sub-title>
-    <desc>Description for Vogue, program 2</desc>
-  </programme>
-  <programme start="20241224000000 -0500" stop="20241224010000 -0500" channel="3">
-    <title>Channel 3 at 12</title>
-    <sub-title>Program 2 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 2</desc>
-  </programme>
-  <programme start="20241224010000 -0500" stop="20241224020000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 1</title>
-    <sub-title>Program 3 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224010000 -0500" stop="20241224020000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 3 on Vogue</sub-title>
-    <desc>Description for Vogue, program 3</desc>
-  </programme>
-  <programme start="20241224010000 -0500" stop="20241224020000 -0500" channel="3">
-    <title>Channel 3 at 1</title>
-    <sub-title>Program 3 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 3</desc>
-  </programme>
-  <programme start="20241224020000 -0500" stop="20241224030000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 2</title>
-    <sub-title>Program 4 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224020000 -0500" stop="20241224030000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 4 on Vogue</sub-title>
-    <desc>Description for Vogue, program 4</desc>
-  </programme>
-  <programme start="20241224020000 -0500" stop="20241224030000 -0500" channel="3">
-    <title>Channel 3 at 2</title>
-    <sub-title>Program 4 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 4</desc>
-  </programme>
-  <programme start="20241224030000 -0500" stop="20241224040000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 3</title>
-    <sub-title>Program 5 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224030000 -0500" stop="20241224040000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 5 on Vogue</sub-title>
-    <desc>Description for Vogue, program 5</desc>
-  </programme>
-  <programme start="20241224030000 -0500" stop="20241224040000 -0500" channel="3">
-    <title>Channel 3 at 3</title>
-    <sub-title>Program 5 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 5</desc>
-  </programme>
-  <programme start="20241224040000 -0500" stop="20241224050000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 4</title>
-    <sub-title>Program 6 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224040000 -0500" stop="20241224050000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 6 on Vogue</sub-title>
-    <desc>Description for Vogue, program 6</desc>
-  </programme>
-  <programme start="20241224040000 -0500" stop="20241224050000 -0500" channel="3">
-    <title>Channel 3 at 4</title>
-    <sub-title>Program 6 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 6</desc>
-  </programme>
-  <programme start="20241224050000 -0500" stop="20241224060000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 5</title>
-    <sub-title>Program 7 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224050000 -0500" stop="20241224060000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 7 on Vogue</sub-title>
-    <desc>Description for Vogue, program 7</desc>
-  </programme>
-  <programme start="20241224050000 -0500" stop="20241224060000 -0500" channel="3">
-    <title>Channel 3 at 5</title>
-    <sub-title>Program 7 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 7</desc>
-  </programme>
-  <programme start="20241224060000 -0500" stop="20241224070000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 6</title>
-    <sub-title>Program 8 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224060000 -0500" stop="20241224070000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 8 on Vogue</sub-title>
-    <desc>Description for Vogue, program 8</desc>
-  </programme>
-  <programme start="20241224060000 -0500" stop="20241224070000 -0500" channel="3">
-    <title>Channel 3 at 6</title>
-    <sub-title>Program 8 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 8</desc>
-  </programme>
-  <programme start="20241224070000 -0500" stop="20241224080000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 7</title>
-    <sub-title>Program 9 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224070000 -0500" stop="20241224080000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 9 on Vogue</sub-title>
-    <desc>Description for Vogue, program 9</desc>
-  </programme>
-  <programme start="20241224070000 -0500" stop="20241224080000 -0500" channel="3">
-    <title>Channel 3 at 7</title>
-    <sub-title>Program 9 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 9</desc>
-  </programme>
-  <programme start="20241224080000 -0500" stop="20241224090000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 8</title>
-    <sub-title>Program 10 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224080000 -0500" stop="20241224090000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 10 on Vogue</sub-title>
-    <desc>Description for Vogue, program 10</desc>
-  </programme>
-  <programme start="20241224080000 -0500" stop="20241224090000 -0500" channel="3">
-    <title>Channel 3 at 8</title>
-    <sub-title>Program 10 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 10</desc>
-  </programme>
-  <programme start="20241224090000 -0500" stop="20241224100000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 9</title>
-    <sub-title>Program 11 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224090000 -0500" stop="20241224100000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 11 on Vogue</sub-title>
-    <desc>Description for Vogue, program 11</desc>
-  </programme>
-  <programme start="20241224090000 -0500" stop="20241224100000 -0500" channel="3">
-    <title>Channel 3 at 9</title>
-    <sub-title>Program 11 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 11</desc>
-  </programme>
-  <programme start="20241224100000 -0500" stop="20241224110000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 10</title>
-    <sub-title>Program 12 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224100000 -0500" stop="20241224110000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 12 on Vogue</sub-title>
-    <desc>Description for Vogue, program 12</desc>
-  </programme>
-  <programme start="20241224100000 -0500" stop="20241224110000 -0500" channel="3">
-    <title>Channel 3 at 10</title>
-    <sub-title>Program 12 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 12</desc>
-  </programme>
-  <programme start="20241224110000 -0500" stop="20241224120000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 11</title>
-    <sub-title>Program 13 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224110000 -0500" stop="20241224120000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 13 on Vogue</sub-title>
-    <desc>Description for Vogue, program 13</desc>
-  </programme>
-  <programme start="20241224110000 -0500" stop="20241224120000 -0500" channel="3">
-    <title>Channel 3 at 11</title>
-    <sub-title>Program 13 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 13</desc>
-  </programme>
-  <programme start="20241224120000 -0500" stop="20241224130000 -0500" channel="City News 24/7 Toronto">
-    <title>City News 24/7 at 12</title>
-    <sub-title>Program 14 on City News 24/7</sub-title>
-    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
-  </programme>
-  <programme start="20241224120000 -0500" stop="20241224130000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 14 on Vogue</sub-title>
-    <desc>Description for Vogue, program 14</desc>
-  </programme>
-  <programme start="20241224120000 -0500" stop="20241224130000 -0500" channel="3">
-    <title>Channel 3 at 12</title>
-    <sub-title>Program 14 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 14</desc>
-  </programme>
   <programme start="20241224130000 -0500" stop="20241224140000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 15 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224130000 -0500" stop="20241224140000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 15 on Vogue</sub-title>
-    <desc>Description for Vogue, program 15</desc>
+  <programme start="20241224130000 -0500" stop="20241224140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
   </programme>
   <programme start="20241224130000 -0500" stop="20241224140000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 15 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 15</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
   </programme>
   <programme start="20241224140000 -0500" stop="20241224150000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 16 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224140000 -0500" stop="20241224150000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 16 on Vogue</sub-title>
-    <desc>Description for Vogue, program 16</desc>
+  <programme start="20241224140000 -0500" stop="20241224150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
   </programme>
   <programme start="20241224140000 -0500" stop="20241224150000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 16 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 16</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
   </programme>
   <programme start="20241224150000 -0500" stop="20241224160000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 17 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224150000 -0500" stop="20241224160000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 17 on Vogue</sub-title>
-    <desc>Description for Vogue, program 17</desc>
+  <programme start="20241224150000 -0500" stop="20241224160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
   </programme>
   <programme start="20241224150000 -0500" stop="20241224160000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 17 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 17</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
   </programme>
   <programme start="20241224160000 -0500" stop="20241224170000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 18 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224160000 -0500" stop="20241224170000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 18 on Vogue</sub-title>
-    <desc>Description for Vogue, program 18</desc>
+  <programme start="20241224160000 -0500" stop="20241224170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
   </programme>
   <programme start="20241224160000 -0500" stop="20241224170000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 18 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 18</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
   </programme>
   <programme start="20241224170000 -0500" stop="20241224180000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 19 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224170000 -0500" stop="20241224180000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 19 on Vogue</sub-title>
-    <desc>Description for Vogue, program 19</desc>
+  <programme start="20241224170000 -0500" stop="20241224180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
   </programme>
   <programme start="20241224170000 -0500" stop="20241224180000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 19 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 19</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
   </programme>
   <programme start="20241224180000 -0500" stop="20241224190000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 20 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224180000 -0500" stop="20241224190000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 20 on Vogue</sub-title>
-    <desc>Description for Vogue, program 20</desc>
+  <programme start="20241224180000 -0500" stop="20241224190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
   </programme>
   <programme start="20241224180000 -0500" stop="20241224190000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 20 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 20</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
   </programme>
   <programme start="20241224190000 -0500" stop="20241224200000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 21 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224190000 -0500" stop="20241224200000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 21 on Vogue</sub-title>
-    <desc>Description for Vogue, program 21</desc>
+  <programme start="20241224190000 -0500" stop="20241224200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
   </programme>
   <programme start="20241224190000 -0500" stop="20241224200000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 21 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 21</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
   </programme>
   <programme start="20241224200000 -0500" stop="20241224210000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 22 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224200000 -0500" stop="20241224210000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 22 on Vogue</sub-title>
-    <desc>Description for Vogue, program 22</desc>
+  <programme start="20241224200000 -0500" stop="20241224210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
   </programme>
   <programme start="20241224200000 -0500" stop="20241224210000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 22 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 22</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
   </programme>
   <programme start="20241224210000 -0500" stop="20241224220000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 23 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224210000 -0500" stop="20241224220000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 23 on Vogue</sub-title>
-    <desc>Description for Vogue, program 23</desc>
+  <programme start="20241224210000 -0500" stop="20241224220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
   </programme>
   <programme start="20241224210000 -0500" stop="20241224220000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 23 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 23</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
   </programme>
   <programme start="20241224220000 -0500" stop="20241224230000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 24 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224220000 -0500" stop="20241224230000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 24 on Vogue</sub-title>
-    <desc>Description for Vogue, program 24</desc>
+  <programme start="20241224220000 -0500" stop="20241224230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
   </programme>
   <programme start="20241224220000 -0500" stop="20241224230000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 24 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 24</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
   </programme>
   <programme start="20241224230000 -0500" stop="20241225000000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 1 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241224230000 -0500" stop="20241225000000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 1 on Vogue</sub-title>
-    <desc>Description for Vogue, program 1</desc>
+  <programme start="20241224230000 -0500" stop="20241225000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
   </programme>
   <programme start="20241224230000 -0500" stop="20241225000000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 1 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 1</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
   </programme>
   <programme start="20241225000000 -0500" stop="20241225010000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 2 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225000000 -0500" stop="20241225010000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 2 on Vogue</sub-title>
-    <desc>Description for Vogue, program 2</desc>
+  <programme start="20241225000000 -0500" stop="20241225010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
   </programme>
   <programme start="20241225000000 -0500" stop="20241225010000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 2 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 2</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
   </programme>
   <programme start="20241225010000 -0500" stop="20241225020000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 3 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225010000 -0500" stop="20241225020000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 3 on Vogue</sub-title>
-    <desc>Description for Vogue, program 3</desc>
+  <programme start="20241225010000 -0500" stop="20241225020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
   </programme>
   <programme start="20241225010000 -0500" stop="20241225020000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 3 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 3</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
   </programme>
   <programme start="20241225020000 -0500" stop="20241225030000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 4 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225020000 -0500" stop="20241225030000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 4 on Vogue</sub-title>
-    <desc>Description for Vogue, program 4</desc>
+  <programme start="20241225020000 -0500" stop="20241225030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
   </programme>
   <programme start="20241225020000 -0500" stop="20241225030000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 4 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 4</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
   </programme>
   <programme start="20241225030000 -0500" stop="20241225040000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 5 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225030000 -0500" stop="20241225040000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 5 on Vogue</sub-title>
-    <desc>Description for Vogue, program 5</desc>
+  <programme start="20241225030000 -0500" stop="20241225040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
   </programme>
   <programme start="20241225030000 -0500" stop="20241225040000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 5 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 5</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
   </programme>
   <programme start="20241225040000 -0500" stop="20241225050000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 6 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225040000 -0500" stop="20241225050000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 6 on Vogue</sub-title>
-    <desc>Description for Vogue, program 6</desc>
+  <programme start="20241225040000 -0500" stop="20241225050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
   </programme>
   <programme start="20241225040000 -0500" stop="20241225050000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 6 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 6</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
   </programme>
   <programme start="20241225050000 -0500" stop="20241225060000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 7 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225050000 -0500" stop="20241225060000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 7 on Vogue</sub-title>
-    <desc>Description for Vogue, program 7</desc>
+  <programme start="20241225050000 -0500" stop="20241225060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
   </programme>
   <programme start="20241225050000 -0500" stop="20241225060000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 7 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 7</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
   </programme>
   <programme start="20241225060000 -0500" stop="20241225070000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 8 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225060000 -0500" stop="20241225070000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 8 on Vogue</sub-title>
-    <desc>Description for Vogue, program 8</desc>
+  <programme start="20241225060000 -0500" stop="20241225070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
   </programme>
   <programme start="20241225060000 -0500" stop="20241225070000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 8 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 8</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
   </programme>
   <programme start="20241225070000 -0500" stop="20241225080000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 9 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225070000 -0500" stop="20241225080000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 9 on Vogue</sub-title>
-    <desc>Description for Vogue, program 9</desc>
+  <programme start="20241225070000 -0500" stop="20241225080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
   </programme>
   <programme start="20241225070000 -0500" stop="20241225080000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 9 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 9</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
   </programme>
   <programme start="20241225080000 -0500" stop="20241225090000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 10 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225080000 -0500" stop="20241225090000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 10 on Vogue</sub-title>
-    <desc>Description for Vogue, program 10</desc>
+  <programme start="20241225080000 -0500" stop="20241225090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
   </programme>
   <programme start="20241225080000 -0500" stop="20241225090000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 10 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 10</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
   </programme>
   <programme start="20241225090000 -0500" stop="20241225100000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 11 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225090000 -0500" stop="20241225100000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 11 on Vogue</sub-title>
-    <desc>Description for Vogue, program 11</desc>
+  <programme start="20241225090000 -0500" stop="20241225100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
   </programme>
   <programme start="20241225090000 -0500" stop="20241225100000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 11 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 11</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
   </programme>
   <programme start="20241225100000 -0500" stop="20241225110000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 12 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225100000 -0500" stop="20241225110000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 12 on Vogue</sub-title>
-    <desc>Description for Vogue, program 12</desc>
+  <programme start="20241225100000 -0500" stop="20241225110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
   </programme>
   <programme start="20241225100000 -0500" stop="20241225110000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 12 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 12</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
   </programme>
   <programme start="20241225110000 -0500" stop="20241225120000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 13 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225110000 -0500" stop="20241225120000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 13 on Vogue</sub-title>
-    <desc>Description for Vogue, program 13</desc>
+  <programme start="20241225110000 -0500" stop="20241225120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
   </programme>
   <programme start="20241225110000 -0500" stop="20241225120000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 13 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 13</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
   </programme>
   <programme start="20241225120000 -0500" stop="20241225130000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 14 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225120000 -0500" stop="20241225130000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 14 on Vogue</sub-title>
-    <desc>Description for Vogue, program 14</desc>
+  <programme start="20241225120000 -0500" stop="20241225130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
   </programme>
   <programme start="20241225120000 -0500" stop="20241225130000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 14 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 14</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
   </programme>
   <programme start="20241225130000 -0500" stop="20241225140000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 15 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225130000 -0500" stop="20241225140000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 15 on Vogue</sub-title>
-    <desc>Description for Vogue, program 15</desc>
+  <programme start="20241225130000 -0500" stop="20241225140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
   </programme>
   <programme start="20241225130000 -0500" stop="20241225140000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 15 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 15</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
   </programme>
   <programme start="20241225140000 -0500" stop="20241225150000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 16 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225140000 -0500" stop="20241225150000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 16 on Vogue</sub-title>
-    <desc>Description for Vogue, program 16</desc>
+  <programme start="20241225140000 -0500" stop="20241225150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
   </programme>
   <programme start="20241225140000 -0500" stop="20241225150000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 16 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 16</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
   </programme>
   <programme start="20241225150000 -0500" stop="20241225160000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 17 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225150000 -0500" stop="20241225160000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 17 on Vogue</sub-title>
-    <desc>Description for Vogue, program 17</desc>
+  <programme start="20241225150000 -0500" stop="20241225160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
   </programme>
   <programme start="20241225150000 -0500" stop="20241225160000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 17 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 17</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
   </programme>
   <programme start="20241225160000 -0500" stop="20241225170000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 18 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225160000 -0500" stop="20241225170000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 18 on Vogue</sub-title>
-    <desc>Description for Vogue, program 18</desc>
+  <programme start="20241225160000 -0500" stop="20241225170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
   </programme>
   <programme start="20241225160000 -0500" stop="20241225170000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 18 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 18</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
   </programme>
   <programme start="20241225170000 -0500" stop="20241225180000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 19 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225170000 -0500" stop="20241225180000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 19 on Vogue</sub-title>
-    <desc>Description for Vogue, program 19</desc>
+  <programme start="20241225170000 -0500" stop="20241225180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
   </programme>
   <programme start="20241225170000 -0500" stop="20241225180000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 19 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 19</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
   </programme>
   <programme start="20241225180000 -0500" stop="20241225190000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 20 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225180000 -0500" stop="20241225190000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 20 on Vogue</sub-title>
-    <desc>Description for Vogue, program 20</desc>
+  <programme start="20241225180000 -0500" stop="20241225190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
   </programme>
   <programme start="20241225180000 -0500" stop="20241225190000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 20 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 20</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
   </programme>
   <programme start="20241225190000 -0500" stop="20241225200000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 21 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225190000 -0500" stop="20241225200000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 21 on Vogue</sub-title>
-    <desc>Description for Vogue, program 21</desc>
+  <programme start="20241225190000 -0500" stop="20241225200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
   </programme>
   <programme start="20241225190000 -0500" stop="20241225200000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 21 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 21</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
   </programme>
   <programme start="20241225200000 -0500" stop="20241225210000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 22 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225200000 -0500" stop="20241225210000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 22 on Vogue</sub-title>
-    <desc>Description for Vogue, program 22</desc>
+  <programme start="20241225200000 -0500" stop="20241225210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
   </programme>
   <programme start="20241225200000 -0500" stop="20241225210000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 22 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 22</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
   </programme>
   <programme start="20241225210000 -0500" stop="20241225220000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 23 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225210000 -0500" stop="20241225220000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 23 on Vogue</sub-title>
-    <desc>Description for Vogue, program 23</desc>
+  <programme start="20241225210000 -0500" stop="20241225220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
   </programme>
   <programme start="20241225210000 -0500" stop="20241225220000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 23 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 23</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
   </programme>
   <programme start="20241225220000 -0500" stop="20241225230000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 24 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225220000 -0500" stop="20241225230000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 24 on Vogue</sub-title>
-    <desc>Description for Vogue, program 24</desc>
+  <programme start="20241225220000 -0500" stop="20241225230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
   </programme>
   <programme start="20241225220000 -0500" stop="20241225230000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 24 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 24</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
   </programme>
   <programme start="20241225230000 -0500" stop="20241226000000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 1 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241225230000 -0500" stop="20241226000000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 1 on Vogue</sub-title>
-    <desc>Description for Vogue, program 1</desc>
+  <programme start="20241225230000 -0500" stop="20241226000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
   </programme>
   <programme start="20241225230000 -0500" stop="20241226000000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 1 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 1</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
   </programme>
   <programme start="20241226000000 -0500" stop="20241226010000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 2 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226000000 -0500" stop="20241226010000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 2 on Vogue</sub-title>
-    <desc>Description for Vogue, program 2</desc>
+  <programme start="20241226000000 -0500" stop="20241226010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
   </programme>
   <programme start="20241226000000 -0500" stop="20241226010000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 2 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 2</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
   </programme>
   <programme start="20241226010000 -0500" stop="20241226020000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 3 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226010000 -0500" stop="20241226020000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 3 on Vogue</sub-title>
-    <desc>Description for Vogue, program 3</desc>
+  <programme start="20241226010000 -0500" stop="20241226020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
   </programme>
   <programme start="20241226010000 -0500" stop="20241226020000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 3 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 3</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
   </programme>
   <programme start="20241226020000 -0500" stop="20241226030000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 4 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226020000 -0500" stop="20241226030000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 4 on Vogue</sub-title>
-    <desc>Description for Vogue, program 4</desc>
+  <programme start="20241226020000 -0500" stop="20241226030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
   </programme>
   <programme start="20241226020000 -0500" stop="20241226030000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 4 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 4</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
   </programme>
   <programme start="20241226030000 -0500" stop="20241226040000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 5 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226030000 -0500" stop="20241226040000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 5 on Vogue</sub-title>
-    <desc>Description for Vogue, program 5</desc>
+  <programme start="20241226030000 -0500" stop="20241226040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
   </programme>
   <programme start="20241226030000 -0500" stop="20241226040000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 5 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 5</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
   </programme>
   <programme start="20241226040000 -0500" stop="20241226050000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 6 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226040000 -0500" stop="20241226050000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 6 on Vogue</sub-title>
-    <desc>Description for Vogue, program 6</desc>
+  <programme start="20241226040000 -0500" stop="20241226050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
   </programme>
   <programme start="20241226040000 -0500" stop="20241226050000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 6 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 6</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
   </programme>
   <programme start="20241226050000 -0500" stop="20241226060000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 7 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226050000 -0500" stop="20241226060000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 7 on Vogue</sub-title>
-    <desc>Description for Vogue, program 7</desc>
+  <programme start="20241226050000 -0500" stop="20241226060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
   </programme>
   <programme start="20241226050000 -0500" stop="20241226060000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 7 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 7</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
   </programme>
   <programme start="20241226060000 -0500" stop="20241226070000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 8 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226060000 -0500" stop="20241226070000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 8 on Vogue</sub-title>
-    <desc>Description for Vogue, program 8</desc>
+  <programme start="20241226060000 -0500" stop="20241226070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
   </programme>
   <programme start="20241226060000 -0500" stop="20241226070000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 8 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 8</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
   </programme>
   <programme start="20241226070000 -0500" stop="20241226080000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 9 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226070000 -0500" stop="20241226080000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 9 on Vogue</sub-title>
-    <desc>Description for Vogue, program 9</desc>
+  <programme start="20241226070000 -0500" stop="20241226080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
   </programme>
   <programme start="20241226070000 -0500" stop="20241226080000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 9 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 9</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
   </programme>
   <programme start="20241226080000 -0500" stop="20241226090000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 10 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226080000 -0500" stop="20241226090000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 10 on Vogue</sub-title>
-    <desc>Description for Vogue, program 10</desc>
+  <programme start="20241226080000 -0500" stop="20241226090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
   </programme>
   <programme start="20241226080000 -0500" stop="20241226090000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 10 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 10</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
   </programme>
   <programme start="20241226090000 -0500" stop="20241226100000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 11 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226090000 -0500" stop="20241226100000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 11 on Vogue</sub-title>
-    <desc>Description for Vogue, program 11</desc>
+  <programme start="20241226090000 -0500" stop="20241226100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
   </programme>
   <programme start="20241226090000 -0500" stop="20241226100000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 11 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 11</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
   </programme>
   <programme start="20241226100000 -0500" stop="20241226110000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 12 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226100000 -0500" stop="20241226110000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 12 on Vogue</sub-title>
-    <desc>Description for Vogue, program 12</desc>
+  <programme start="20241226100000 -0500" stop="20241226110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
   </programme>
   <programme start="20241226100000 -0500" stop="20241226110000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 12 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 12</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
   </programme>
   <programme start="20241226110000 -0500" stop="20241226120000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 13 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226110000 -0500" stop="20241226120000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 13 on Vogue</sub-title>
-    <desc>Description for Vogue, program 13</desc>
+  <programme start="20241226110000 -0500" stop="20241226120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
   </programme>
   <programme start="20241226110000 -0500" stop="20241226120000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 13 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 13</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
   </programme>
   <programme start="20241226120000 -0500" stop="20241226130000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 14 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226120000 -0500" stop="20241226130000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 14 on Vogue</sub-title>
-    <desc>Description for Vogue, program 14</desc>
+  <programme start="20241226120000 -0500" stop="20241226130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
   </programme>
   <programme start="20241226120000 -0500" stop="20241226130000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 14 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 14</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
   </programme>
   <programme start="20241226130000 -0500" stop="20241226140000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 15 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226130000 -0500" stop="20241226140000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 15 on Vogue</sub-title>
-    <desc>Description for Vogue, program 15</desc>
+  <programme start="20241226130000 -0500" stop="20241226140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
   </programme>
   <programme start="20241226130000 -0500" stop="20241226140000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 15 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 15</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
   </programme>
   <programme start="20241226140000 -0500" stop="20241226150000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 16 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226140000 -0500" stop="20241226150000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 16 on Vogue</sub-title>
-    <desc>Description for Vogue, program 16</desc>
+  <programme start="20241226140000 -0500" stop="20241226150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
   </programme>
   <programme start="20241226140000 -0500" stop="20241226150000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 16 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 16</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
   </programme>
   <programme start="20241226150000 -0500" stop="20241226160000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 17 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226150000 -0500" stop="20241226160000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 17 on Vogue</sub-title>
-    <desc>Description for Vogue, program 17</desc>
+  <programme start="20241226150000 -0500" stop="20241226160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
   </programme>
   <programme start="20241226150000 -0500" stop="20241226160000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 17 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 17</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
   </programme>
   <programme start="20241226160000 -0500" stop="20241226170000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 18 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226160000 -0500" stop="20241226170000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 18 on Vogue</sub-title>
-    <desc>Description for Vogue, program 18</desc>
+  <programme start="20241226160000 -0500" stop="20241226170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
   </programme>
   <programme start="20241226160000 -0500" stop="20241226170000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 18 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 18</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
   </programme>
   <programme start="20241226170000 -0500" stop="20241226180000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 19 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226170000 -0500" stop="20241226180000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 19 on Vogue</sub-title>
-    <desc>Description for Vogue, program 19</desc>
+  <programme start="20241226170000 -0500" stop="20241226180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
   </programme>
   <programme start="20241226170000 -0500" stop="20241226180000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 19 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 19</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
   </programme>
   <programme start="20241226180000 -0500" stop="20241226190000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 20 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226180000 -0500" stop="20241226190000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 20 on Vogue</sub-title>
-    <desc>Description for Vogue, program 20</desc>
+  <programme start="20241226180000 -0500" stop="20241226190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
   </programme>
   <programme start="20241226180000 -0500" stop="20241226190000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 20 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 20</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
   </programme>
   <programme start="20241226190000 -0500" stop="20241226200000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 21 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226190000 -0500" stop="20241226200000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 21 on Vogue</sub-title>
-    <desc>Description for Vogue, program 21</desc>
+  <programme start="20241226190000 -0500" stop="20241226200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
   </programme>
   <programme start="20241226190000 -0500" stop="20241226200000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 21 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 21</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
   </programme>
   <programme start="20241226200000 -0500" stop="20241226210000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 22 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226200000 -0500" stop="20241226210000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 22 on Vogue</sub-title>
-    <desc>Description for Vogue, program 22</desc>
+  <programme start="20241226200000 -0500" stop="20241226210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
   </programme>
   <programme start="20241226200000 -0500" stop="20241226210000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 22 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 22</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
   </programme>
   <programme start="20241226210000 -0500" stop="20241226220000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 23 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226210000 -0500" stop="20241226220000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 23 on Vogue</sub-title>
-    <desc>Description for Vogue, program 23</desc>
+  <programme start="20241226210000 -0500" stop="20241226220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
   </programme>
   <programme start="20241226210000 -0500" stop="20241226220000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 23 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 23</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
   </programme>
   <programme start="20241226220000 -0500" stop="20241226230000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 24 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226220000 -0500" stop="20241226230000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 24 on Vogue</sub-title>
-    <desc>Description for Vogue, program 24</desc>
+  <programme start="20241226220000 -0500" stop="20241226230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
   </programme>
   <programme start="20241226220000 -0500" stop="20241226230000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 24 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 24</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
   </programme>
   <programme start="20241226230000 -0500" stop="20241227000000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 1 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241226230000 -0500" stop="20241227000000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 1 on Vogue</sub-title>
-    <desc>Description for Vogue, program 1</desc>
+  <programme start="20241226230000 -0500" stop="20241227000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
   </programme>
   <programme start="20241226230000 -0500" stop="20241227000000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 1 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 1</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
   </programme>
   <programme start="20241227000000 -0500" stop="20241227010000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 2 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227000000 -0500" stop="20241227010000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 2 on Vogue</sub-title>
-    <desc>Description for Vogue, program 2</desc>
+  <programme start="20241227000000 -0500" stop="20241227010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
   </programme>
   <programme start="20241227000000 -0500" stop="20241227010000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 2 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 2</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
   </programme>
   <programme start="20241227010000 -0500" stop="20241227020000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 3 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227010000 -0500" stop="20241227020000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 3 on Vogue</sub-title>
-    <desc>Description for Vogue, program 3</desc>
+  <programme start="20241227010000 -0500" stop="20241227020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
   </programme>
   <programme start="20241227010000 -0500" stop="20241227020000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 3 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 3</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
   </programme>
   <programme start="20241227020000 -0500" stop="20241227030000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 4 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227020000 -0500" stop="20241227030000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 4 on Vogue</sub-title>
-    <desc>Description for Vogue, program 4</desc>
+  <programme start="20241227020000 -0500" stop="20241227030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
   </programme>
   <programme start="20241227020000 -0500" stop="20241227030000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 4 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 4</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
   </programme>
   <programme start="20241227030000 -0500" stop="20241227040000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 5 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227030000 -0500" stop="20241227040000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 5 on Vogue</sub-title>
-    <desc>Description for Vogue, program 5</desc>
+  <programme start="20241227030000 -0500" stop="20241227040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
   </programme>
   <programme start="20241227030000 -0500" stop="20241227040000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 5 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 5</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
   </programme>
   <programme start="20241227040000 -0500" stop="20241227050000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 6 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227040000 -0500" stop="20241227050000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 6 on Vogue</sub-title>
-    <desc>Description for Vogue, program 6</desc>
+  <programme start="20241227040000 -0500" stop="20241227050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
   </programme>
   <programme start="20241227040000 -0500" stop="20241227050000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 6 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 6</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
   </programme>
   <programme start="20241227050000 -0500" stop="20241227060000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 7 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227050000 -0500" stop="20241227060000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 7 on Vogue</sub-title>
-    <desc>Description for Vogue, program 7</desc>
+  <programme start="20241227050000 -0500" stop="20241227060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
   </programme>
   <programme start="20241227050000 -0500" stop="20241227060000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 7 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 7</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
   </programme>
   <programme start="20241227060000 -0500" stop="20241227070000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 8 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227060000 -0500" stop="20241227070000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 8 on Vogue</sub-title>
-    <desc>Description for Vogue, program 8</desc>
+  <programme start="20241227060000 -0500" stop="20241227070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
   </programme>
   <programme start="20241227060000 -0500" stop="20241227070000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 8 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 8</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
   </programme>
   <programme start="20241227070000 -0500" stop="20241227080000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 9 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227070000 -0500" stop="20241227080000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 9 on Vogue</sub-title>
-    <desc>Description for Vogue, program 9</desc>
+  <programme start="20241227070000 -0500" stop="20241227080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
   </programme>
   <programme start="20241227070000 -0500" stop="20241227080000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 9 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 9</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
   </programme>
   <programme start="20241227080000 -0500" stop="20241227090000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 10 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227080000 -0500" stop="20241227090000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 10 on Vogue</sub-title>
-    <desc>Description for Vogue, program 10</desc>
+  <programme start="20241227080000 -0500" stop="20241227090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
   </programme>
   <programme start="20241227080000 -0500" stop="20241227090000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 10 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 10</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
   </programme>
   <programme start="20241227090000 -0500" stop="20241227100000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 11 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227090000 -0500" stop="20241227100000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 11 on Vogue</sub-title>
-    <desc>Description for Vogue, program 11</desc>
+  <programme start="20241227090000 -0500" stop="20241227100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
   </programme>
   <programme start="20241227090000 -0500" stop="20241227100000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 11 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 11</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
   </programme>
   <programme start="20241227100000 -0500" stop="20241227110000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 12 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227100000 -0500" stop="20241227110000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 12 on Vogue</sub-title>
-    <desc>Description for Vogue, program 12</desc>
+  <programme start="20241227100000 -0500" stop="20241227110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
   </programme>
   <programme start="20241227100000 -0500" stop="20241227110000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 12 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 12</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
   </programme>
   <programme start="20241227110000 -0500" stop="20241227120000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 13 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227110000 -0500" stop="20241227120000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 13 on Vogue</sub-title>
-    <desc>Description for Vogue, program 13</desc>
+  <programme start="20241227110000 -0500" stop="20241227120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
   </programme>
   <programme start="20241227110000 -0500" stop="20241227120000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 13 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 13</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
   </programme>
   <programme start="20241227120000 -0500" stop="20241227130000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 14 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227120000 -0500" stop="20241227130000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 14 on Vogue</sub-title>
-    <desc>Description for Vogue, program 14</desc>
+  <programme start="20241227120000 -0500" stop="20241227130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
   </programme>
   <programme start="20241227120000 -0500" stop="20241227130000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 14 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 14</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
   </programme>
   <programme start="20241227130000 -0500" stop="20241227140000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 15 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227130000 -0500" stop="20241227140000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 15 on Vogue</sub-title>
-    <desc>Description for Vogue, program 15</desc>
+  <programme start="20241227130000 -0500" stop="20241227140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
   </programme>
   <programme start="20241227130000 -0500" stop="20241227140000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 15 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 15</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
   </programme>
   <programme start="20241227140000 -0500" stop="20241227150000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 16 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227140000 -0500" stop="20241227150000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 16 on Vogue</sub-title>
-    <desc>Description for Vogue, program 16</desc>
+  <programme start="20241227140000 -0500" stop="20241227150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
   </programme>
   <programme start="20241227140000 -0500" stop="20241227150000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 16 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 16</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
   </programme>
   <programme start="20241227150000 -0500" stop="20241227160000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 17 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227150000 -0500" stop="20241227160000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 17 on Vogue</sub-title>
-    <desc>Description for Vogue, program 17</desc>
+  <programme start="20241227150000 -0500" stop="20241227160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
   </programme>
   <programme start="20241227150000 -0500" stop="20241227160000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 17 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 17</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
   </programme>
   <programme start="20241227160000 -0500" stop="20241227170000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 18 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227160000 -0500" stop="20241227170000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 18 on Vogue</sub-title>
-    <desc>Description for Vogue, program 18</desc>
+  <programme start="20241227160000 -0500" stop="20241227170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
   </programme>
   <programme start="20241227160000 -0500" stop="20241227170000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 18 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 18</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
   </programme>
   <programme start="20241227170000 -0500" stop="20241227180000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 19 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227170000 -0500" stop="20241227180000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 19 on Vogue</sub-title>
-    <desc>Description for Vogue, program 19</desc>
+  <programme start="20241227170000 -0500" stop="20241227180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
   </programme>
   <programme start="20241227170000 -0500" stop="20241227180000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 19 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 19</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
   </programme>
   <programme start="20241227180000 -0500" stop="20241227190000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 20 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227180000 -0500" stop="20241227190000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 20 on Vogue</sub-title>
-    <desc>Description for Vogue, program 20</desc>
+  <programme start="20241227180000 -0500" stop="20241227190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
   </programme>
   <programme start="20241227180000 -0500" stop="20241227190000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 20 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 20</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
   </programme>
   <programme start="20241227190000 -0500" stop="20241227200000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 21 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227190000 -0500" stop="20241227200000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 21 on Vogue</sub-title>
-    <desc>Description for Vogue, program 21</desc>
+  <programme start="20241227190000 -0500" stop="20241227200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
   </programme>
   <programme start="20241227190000 -0500" stop="20241227200000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 21 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 21</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
   </programme>
   <programme start="20241227200000 -0500" stop="20241227210000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 22 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227200000 -0500" stop="20241227210000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 22 on Vogue</sub-title>
-    <desc>Description for Vogue, program 22</desc>
+  <programme start="20241227200000 -0500" stop="20241227210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
   </programme>
   <programme start="20241227200000 -0500" stop="20241227210000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 22 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 22</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
   </programme>
   <programme start="20241227210000 -0500" stop="20241227220000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 23 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227210000 -0500" stop="20241227220000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 23 on Vogue</sub-title>
-    <desc>Description for Vogue, program 23</desc>
+  <programme start="20241227210000 -0500" stop="20241227220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
   </programme>
   <programme start="20241227210000 -0500" stop="20241227220000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 23 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 23</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
   </programme>
   <programme start="20241227220000 -0500" stop="20241227230000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 24 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227220000 -0500" stop="20241227230000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 24 on Vogue</sub-title>
-    <desc>Description for Vogue, program 24</desc>
+  <programme start="20241227220000 -0500" stop="20241227230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
   </programme>
   <programme start="20241227220000 -0500" stop="20241227230000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 24 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 24</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
   </programme>
   <programme start="20241227230000 -0500" stop="20241228000000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 1 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241227230000 -0500" stop="20241228000000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 1 on Vogue</sub-title>
-    <desc>Description for Vogue, program 1</desc>
+  <programme start="20241227230000 -0500" stop="20241228000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
   </programme>
   <programme start="20241227230000 -0500" stop="20241228000000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 1 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 1</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
   </programme>
   <programme start="20241228000000 -0500" stop="20241228010000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 2 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228000000 -0500" stop="20241228010000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 2 on Vogue</sub-title>
-    <desc>Description for Vogue, program 2</desc>
+  <programme start="20241228000000 -0500" stop="20241228010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
   </programme>
   <programme start="20241228000000 -0500" stop="20241228010000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 2 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 2</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
   </programme>
   <programme start="20241228010000 -0500" stop="20241228020000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 3 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228010000 -0500" stop="20241228020000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 3 on Vogue</sub-title>
-    <desc>Description for Vogue, program 3</desc>
+  <programme start="20241228010000 -0500" stop="20241228020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
   </programme>
   <programme start="20241228010000 -0500" stop="20241228020000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 3 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 3</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
   </programme>
   <programme start="20241228020000 -0500" stop="20241228030000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 4 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228020000 -0500" stop="20241228030000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 4 on Vogue</sub-title>
-    <desc>Description for Vogue, program 4</desc>
+  <programme start="20241228020000 -0500" stop="20241228030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
   </programme>
   <programme start="20241228020000 -0500" stop="20241228030000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 4 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 4</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
   </programme>
   <programme start="20241228030000 -0500" stop="20241228040000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 5 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228030000 -0500" stop="20241228040000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 5 on Vogue</sub-title>
-    <desc>Description for Vogue, program 5</desc>
+  <programme start="20241228030000 -0500" stop="20241228040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
   </programme>
   <programme start="20241228030000 -0500" stop="20241228040000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 5 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 5</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
   </programme>
   <programme start="20241228040000 -0500" stop="20241228050000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 6 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228040000 -0500" stop="20241228050000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 6 on Vogue</sub-title>
-    <desc>Description for Vogue, program 6</desc>
+  <programme start="20241228040000 -0500" stop="20241228050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
   </programme>
   <programme start="20241228040000 -0500" stop="20241228050000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 6 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 6</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
   </programme>
   <programme start="20241228050000 -0500" stop="20241228060000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 7 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228050000 -0500" stop="20241228060000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 7 on Vogue</sub-title>
-    <desc>Description for Vogue, program 7</desc>
+  <programme start="20241228050000 -0500" stop="20241228060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
   </programme>
   <programme start="20241228050000 -0500" stop="20241228060000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 7 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 7</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
   </programme>
   <programme start="20241228060000 -0500" stop="20241228070000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 8 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228060000 -0500" stop="20241228070000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 8 on Vogue</sub-title>
-    <desc>Description for Vogue, program 8</desc>
+  <programme start="20241228060000 -0500" stop="20241228070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
   </programme>
   <programme start="20241228060000 -0500" stop="20241228070000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 8 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 8</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
   </programme>
   <programme start="20241228070000 -0500" stop="20241228080000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 9 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228070000 -0500" stop="20241228080000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 9 on Vogue</sub-title>
-    <desc>Description for Vogue, program 9</desc>
+  <programme start="20241228070000 -0500" stop="20241228080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
   </programme>
   <programme start="20241228070000 -0500" stop="20241228080000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 9 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 9</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
   </programme>
   <programme start="20241228080000 -0500" stop="20241228090000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 10 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228080000 -0500" stop="20241228090000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 10 on Vogue</sub-title>
-    <desc>Description for Vogue, program 10</desc>
+  <programme start="20241228080000 -0500" stop="20241228090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
   </programme>
   <programme start="20241228080000 -0500" stop="20241228090000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 10 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 10</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
   </programme>
   <programme start="20241228090000 -0500" stop="20241228100000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 11 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228090000 -0500" stop="20241228100000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 11 on Vogue</sub-title>
-    <desc>Description for Vogue, program 11</desc>
+  <programme start="20241228090000 -0500" stop="20241228100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
   </programme>
   <programme start="20241228090000 -0500" stop="20241228100000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 11 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 11</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
   </programme>
   <programme start="20241228100000 -0500" stop="20241228110000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 12 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228100000 -0500" stop="20241228110000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 12 on Vogue</sub-title>
-    <desc>Description for Vogue, program 12</desc>
+  <programme start="20241228100000 -0500" stop="20241228110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
   </programme>
   <programme start="20241228100000 -0500" stop="20241228110000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 12 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 12</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
   </programme>
   <programme start="20241228110000 -0500" stop="20241228120000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 11</title>
-    <sub-title>Program 13 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228110000 -0500" stop="20241228120000 -0500" channel="VogueDummy">
-    <title>Vogue at 11</title>
-    <sub-title>Program 13 on Vogue</sub-title>
-    <desc>Description for Vogue, program 13</desc>
+  <programme start="20241228110000 -0500" stop="20241228120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
   </programme>
   <programme start="20241228110000 -0500" stop="20241228120000 -0500" channel="3">
     <title>Channel 3 at 11</title>
-    <sub-title>Program 13 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 13</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
   </programme>
   <programme start="20241228120000 -0500" stop="20241228130000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 12</title>
-    <sub-title>Program 14 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228120000 -0500" stop="20241228130000 -0500" channel="VogueDummy">
-    <title>Vogue at 12</title>
-    <sub-title>Program 14 on Vogue</sub-title>
-    <desc>Description for Vogue, program 14</desc>
+  <programme start="20241228120000 -0500" stop="20241228130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
   </programme>
   <programme start="20241228120000 -0500" stop="20241228130000 -0500" channel="3">
     <title>Channel 3 at 12</title>
-    <sub-title>Program 14 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 14</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 24</desc>
   </programme>
   <programme start="20241228130000 -0500" stop="20241228140000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 1</title>
-    <sub-title>Program 15 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228130000 -0500" stop="20241228140000 -0500" channel="VogueDummy">
-    <title>Vogue at 1</title>
-    <sub-title>Program 15 on Vogue</sub-title>
-    <desc>Description for Vogue, program 15</desc>
+  <programme start="20241228130000 -0500" stop="20241228140000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 1</desc>
   </programme>
   <programme start="20241228130000 -0500" stop="20241228140000 -0500" channel="3">
     <title>Channel 3 at 1</title>
-    <sub-title>Program 15 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 15</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 1</desc>
   </programme>
   <programme start="20241228140000 -0500" stop="20241228150000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 2</title>
-    <sub-title>Program 16 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228140000 -0500" stop="20241228150000 -0500" channel="VogueDummy">
-    <title>Vogue at 2</title>
-    <sub-title>Program 16 on Vogue</sub-title>
-    <desc>Description for Vogue, program 16</desc>
+  <programme start="20241228140000 -0500" stop="20241228150000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 2</desc>
   </programme>
   <programme start="20241228140000 -0500" stop="20241228150000 -0500" channel="3">
     <title>Channel 3 at 2</title>
-    <sub-title>Program 16 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 16</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 2</desc>
   </programme>
   <programme start="20241228150000 -0500" stop="20241228160000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 3</title>
-    <sub-title>Program 17 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228150000 -0500" stop="20241228160000 -0500" channel="VogueDummy">
-    <title>Vogue at 3</title>
-    <sub-title>Program 17 on Vogue</sub-title>
-    <desc>Description for Vogue, program 17</desc>
+  <programme start="20241228150000 -0500" stop="20241228160000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 3</desc>
   </programme>
   <programme start="20241228150000 -0500" stop="20241228160000 -0500" channel="3">
     <title>Channel 3 at 3</title>
-    <sub-title>Program 17 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 17</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 3</desc>
   </programme>
   <programme start="20241228160000 -0500" stop="20241228170000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 4</title>
-    <sub-title>Program 18 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228160000 -0500" stop="20241228170000 -0500" channel="VogueDummy">
-    <title>Vogue at 4</title>
-    <sub-title>Program 18 on Vogue</sub-title>
-    <desc>Description for Vogue, program 18</desc>
+  <programme start="20241228160000 -0500" stop="20241228170000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 4</desc>
   </programme>
   <programme start="20241228160000 -0500" stop="20241228170000 -0500" channel="3">
     <title>Channel 3 at 4</title>
-    <sub-title>Program 18 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 18</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 4</desc>
   </programme>
   <programme start="20241228170000 -0500" stop="20241228180000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 5</title>
-    <sub-title>Program 19 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228170000 -0500" stop="20241228180000 -0500" channel="VogueDummy">
-    <title>Vogue at 5</title>
-    <sub-title>Program 19 on Vogue</sub-title>
-    <desc>Description for Vogue, program 19</desc>
+  <programme start="20241228170000 -0500" stop="20241228180000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 5</desc>
   </programme>
   <programme start="20241228170000 -0500" stop="20241228180000 -0500" channel="3">
     <title>Channel 3 at 5</title>
-    <sub-title>Program 19 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 19</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 5</desc>
   </programme>
   <programme start="20241228180000 -0500" stop="20241228190000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 6</title>
-    <sub-title>Program 20 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228180000 -0500" stop="20241228190000 -0500" channel="VogueDummy">
-    <title>Vogue at 6</title>
-    <sub-title>Program 20 on Vogue</sub-title>
-    <desc>Description for Vogue, program 20</desc>
+  <programme start="20241228180000 -0500" stop="20241228190000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 6</desc>
   </programme>
   <programme start="20241228180000 -0500" stop="20241228190000 -0500" channel="3">
     <title>Channel 3 at 6</title>
-    <sub-title>Program 20 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 20</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 6</desc>
   </programme>
   <programme start="20241228190000 -0500" stop="20241228200000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 7</title>
-    <sub-title>Program 21 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228190000 -0500" stop="20241228200000 -0500" channel="VogueDummy">
-    <title>Vogue at 7</title>
-    <sub-title>Program 21 on Vogue</sub-title>
-    <desc>Description for Vogue, program 21</desc>
+  <programme start="20241228190000 -0500" stop="20241228200000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 7</desc>
   </programme>
   <programme start="20241228190000 -0500" stop="20241228200000 -0500" channel="3">
     <title>Channel 3 at 7</title>
-    <sub-title>Program 21 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 21</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 7</desc>
   </programme>
   <programme start="20241228200000 -0500" stop="20241228210000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 8</title>
-    <sub-title>Program 22 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228200000 -0500" stop="20241228210000 -0500" channel="VogueDummy">
-    <title>Vogue at 8</title>
-    <sub-title>Program 22 on Vogue</sub-title>
-    <desc>Description for Vogue, program 22</desc>
+  <programme start="20241228200000 -0500" stop="20241228210000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 8</desc>
   </programme>
   <programme start="20241228200000 -0500" stop="20241228210000 -0500" channel="3">
     <title>Channel 3 at 8</title>
-    <sub-title>Program 22 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 22</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 8</desc>
   </programme>
   <programme start="20241228210000 -0500" stop="20241228220000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 9</title>
-    <sub-title>Program 23 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228210000 -0500" stop="20241228220000 -0500" channel="VogueDummy">
-    <title>Vogue at 9</title>
-    <sub-title>Program 23 on Vogue</sub-title>
-    <desc>Description for Vogue, program 23</desc>
+  <programme start="20241228210000 -0500" stop="20241228220000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 9</desc>
   </programme>
   <programme start="20241228210000 -0500" stop="20241228220000 -0500" channel="3">
     <title>Channel 3 at 9</title>
-    <sub-title>Program 23 on Channel 3</sub-title>
-    <desc>Description for Channel 3, program 23</desc>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 9</desc>
   </programme>
   <programme start="20241228220000 -0500" stop="20241228230000 -0500" channel="City News 24/7 Toronto">
     <title>City News 24/7 at 10</title>
-    <sub-title>Program 24 on City News 24/7</sub-title>
     <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
   </programme>
-  <programme start="20241228220000 -0500" stop="20241228230000 -0500" channel="VogueDummy">
-    <title>Vogue at 10</title>
-    <sub-title>Program 24 on Vogue</sub-title>
-    <desc>Description for Vogue, program 24</desc>
+  <programme start="20241228220000 -0500" stop="20241228230000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 10</desc>
   </programme>
   <programme start="20241228220000 -0500" stop="20241228230000 -0500" channel="3">
     <title>Channel 3 at 10</title>
-    <sub-title>Program 24 on Channel 3</sub-title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 10</desc>
+  </programme>
+  <programme start="20241228230000 -0500" stop="20241229000000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241228230000 -0500" stop="20241229000000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 11</desc>
+  </programme>
+  <programme start="20241228230000 -0500" stop="20241229000000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 11</desc>
+  </programme>
+  <programme start="20241229000000 -0500" stop="20241229010000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229000000 -0500" stop="20241229010000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 12</desc>
+  </programme>
+  <programme start="20241229000000 -0500" stop="20241229010000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 12</desc>
+  </programme>
+  <programme start="20241229010000 -0500" stop="20241229020000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 1</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229010000 -0500" stop="20241229020000 -0500" channel="2">
+    <title>Channel 2 at 1</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 13</desc>
+  </programme>
+  <programme start="20241229010000 -0500" stop="20241229020000 -0500" channel="3">
+    <title>Channel 3 at 1</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 13</desc>
+  </programme>
+  <programme start="20241229020000 -0500" stop="20241229030000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 2</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229020000 -0500" stop="20241229030000 -0500" channel="2">
+    <title>Channel 2 at 2</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 14</desc>
+  </programme>
+  <programme start="20241229020000 -0500" stop="20241229030000 -0500" channel="3">
+    <title>Channel 3 at 2</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 14</desc>
+  </programme>
+  <programme start="20241229030000 -0500" stop="20241229040000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 3</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229030000 -0500" stop="20241229040000 -0500" channel="2">
+    <title>Channel 2 at 3</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 15</desc>
+  </programme>
+  <programme start="20241229030000 -0500" stop="20241229040000 -0500" channel="3">
+    <title>Channel 3 at 3</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 15</desc>
+  </programme>
+  <programme start="20241229040000 -0500" stop="20241229050000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 4</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229040000 -0500" stop="20241229050000 -0500" channel="2">
+    <title>Channel 2 at 4</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 16</desc>
+  </programme>
+  <programme start="20241229040000 -0500" stop="20241229050000 -0500" channel="3">
+    <title>Channel 3 at 4</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 16</desc>
+  </programme>
+  <programme start="20241229050000 -0500" stop="20241229060000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 5</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229050000 -0500" stop="20241229060000 -0500" channel="2">
+    <title>Channel 2 at 5</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 17</desc>
+  </programme>
+  <programme start="20241229050000 -0500" stop="20241229060000 -0500" channel="3">
+    <title>Channel 3 at 5</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 17</desc>
+  </programme>
+  <programme start="20241229060000 -0500" stop="20241229070000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 6</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229060000 -0500" stop="20241229070000 -0500" channel="2">
+    <title>Channel 2 at 6</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 18</desc>
+  </programme>
+  <programme start="20241229060000 -0500" stop="20241229070000 -0500" channel="3">
+    <title>Channel 3 at 6</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 18</desc>
+  </programme>
+  <programme start="20241229070000 -0500" stop="20241229080000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 7</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229070000 -0500" stop="20241229080000 -0500" channel="2">
+    <title>Channel 2 at 7</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 19</desc>
+  </programme>
+  <programme start="20241229070000 -0500" stop="20241229080000 -0500" channel="3">
+    <title>Channel 3 at 7</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 19</desc>
+  </programme>
+  <programme start="20241229080000 -0500" stop="20241229090000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 8</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229080000 -0500" stop="20241229090000 -0500" channel="2">
+    <title>Channel 2 at 8</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 20</desc>
+  </programme>
+  <programme start="20241229080000 -0500" stop="20241229090000 -0500" channel="3">
+    <title>Channel 3 at 8</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 20</desc>
+  </programme>
+  <programme start="20241229090000 -0500" stop="20241229100000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 9</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229090000 -0500" stop="20241229100000 -0500" channel="2">
+    <title>Channel 2 at 9</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 21</desc>
+  </programme>
+  <programme start="20241229090000 -0500" stop="20241229100000 -0500" channel="3">
+    <title>Channel 3 at 9</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 21</desc>
+  </programme>
+  <programme start="20241229100000 -0500" stop="20241229110000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 10</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229100000 -0500" stop="20241229110000 -0500" channel="2">
+    <title>Channel 2 at 10</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 22</desc>
+  </programme>
+  <programme start="20241229100000 -0500" stop="20241229110000 -0500" channel="3">
+    <title>Channel 3 at 10</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 22</desc>
+  </programme>
+  <programme start="20241229110000 -0500" stop="20241229120000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 11</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229110000 -0500" stop="20241229120000 -0500" channel="2">
+    <title>Channel 2 at 11</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 23</desc>
+  </programme>
+  <programme start="20241229110000 -0500" stop="20241229120000 -0500" channel="3">
+    <title>Channel 3 at 11</title>
+    <sub-title>Channel 3</sub-title>
+    <desc>Description for Channel 3, program 23</desc>
+  </programme>
+  <programme start="20241229120000 -0500" stop="20241229130000 -0500" channel="City News 24/7 Toronto">
+    <title>City News 24/7 at 12</title>
+    <desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc>
+  </programme>
+  <programme start="20241229120000 -0500" stop="20241229130000 -0500" channel="2">
+    <title>Channel 2 at 12</title>
+    <sub-title>Channel 2</sub-title>
+    <desc>Description for Channel 2, program 24</desc>
+  </programme>
+  <programme start="20241229120000 -0500" stop="20241229130000 -0500" channel="3">
+    <title>Channel 3 at 12</title>
+    <sub-title>Channel 3</sub-title>
     <desc>Description for Channel 3, program 24</desc>
   </programme>
 </tv>

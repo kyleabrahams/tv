@@ -134,6 +134,10 @@ channel_dict = load_channels_from_file('channels.json')
 if not channel_dict:
     print("No channels to fetch EPG data for. Exiting.")
 else:
+    # Display the number of channels found
+    total_channels = len(channel_dict)
+    print(f"Loaded {total_channels}/{total_channels} channels successfully.")
+    
     # Record the start time
     start_time = time.time()
 
