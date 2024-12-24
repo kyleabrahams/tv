@@ -38,7 +38,7 @@ def create_epg_xml(num_days=5, programs_per_day=24):
     # Step 4.2: Define a dictionary of channels with their IDs and display names
     channels = {
         "City News 24/7 Toronto": "City News 24/7",
-        "VogueDummy": "Vogue",
+        "2": "Channel 2",
         "3": "Channel 3"
     }
 
@@ -64,34 +64,28 @@ def create_epg_xml(num_days=5, programs_per_day=24):
 
                 # Step 4.7: Create <programme> element
                 programme_elem = ET.SubElement(tv, "programme",
-                                            start=rounded_start.strftime("%Y%m%d%H%M%S %z"),
-                                            stop=end_time.strftime("%Y%m%d%H%M%S %z"),
-                                            channel=channel_id)
-
+                                               start=rounded_start.strftime("%Y%m%d%H%M%S %z"),
+                                               stop=end_time.strftime("%Y%m%d%H%M%S %z"),
+                                               channel=channel_id)
+                
                 # Step 4.8: Add title, (conditionally add sub-title), and description elements
                 title_elem = ET.SubElement(programme_elem, "title")
+                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
 
-                # Update title text based on channel
-                if channel_id == "City News 24/7 Toronto":
-                    title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
-                else:
-                    title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # For other channels, same format
+                # Conditionally add sub-title for City News 24/7 Toronto
+                if channel_id != "City News 24/7 Toronto":  # Only add sub-title for other channels
+                    sub_title_elem = ET.SubElement(programme_elem, "sub-title")
+                    sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
 
-                # Conditionally add sub-title
-                sub_title_elem = ET.SubElement(programme_elem, "sub-title")
-                sub_title_elem.text = f"Program {program + 1} on {channels[channel_id]}"
-
-                # Custom descriptions for specific channels
+                # Custom description for City News 24/7 Toronto
                 desc_elem = ET.SubElement(programme_elem, "desc")
                 if channel_id == "City News 24/7 Toronto":
                     desc_elem.text = "Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks."
-                elif channel_id == "2":  # Custom description for Vogue
-                    desc_elem.text = "Vogue: The latest trends, style guides, and exclusive interviews from the world of fashion."
                 else:
                     desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
 
-    # Step 4.9: Return the generated XML as a string
-    return ET.tostring(tv, encoding='unicode', method='xml')
+    # Step 4.9: Convert the XML to a string
+    return ET.tostring(tv, encoding='unicode')
 
 # Step 5: Function for pretty printing the XML (to make it more readable)
 def pretty_print(xml_string):
