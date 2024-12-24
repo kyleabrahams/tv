@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991276">CBC NEWS</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991160">PBS Digital Studios</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991124">Dry Bar Comedy</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991365">DangerTV</channel>
@@ -7,6 +8,13 @@
   <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6177f6bf7693550007531275">FailArmy</channel>
   <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6400c095498393000878a634">Frasier</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5734">4K Travel TV</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9100001138#9233011874">ABC</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WKBWDT1.us" site_id="abc-wkbw-buffalo-ny-hd/3581">ABC (WKBW) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WKBWDT1.us" site_id="abc-wkbw-buffalo-ny/89">ABC (WKBW) Buffalo, NY</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WIVBDT1.us" site_id="cbs-wivb-buffalo-ny-hd/3583">CBS (WIVB) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WIVBDT1.us" site_id="cbs-wivb-buffalo-ny/88">CBS (WIVB) Buffalo, NY</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WGRZDT1.us" site_id="nbc-wgrz-buffalo-ny-hd/3582">NBC (WGRZ) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WGRZDT1.us" site_id="nbc-wgrz-buffalo-ny/91">NBC (WGRZ) Buffalo, NY</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="aptn--east-dv/7593">APTN - East DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="aptn--east/198">APTN - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WUTVDT1.us" site_id="fox-wutv-buffalo-ny-hd/3584">FOX (WUTV) Buffalo, NY HD</channel>
@@ -14,12 +22,13 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-ctv-news-channel/13731">Capital Networks: CTV News Channel</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-dv/3959">Weather Network DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-hd/9440">Weather Network HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network/419">Weather Network</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-showcase-canada/13735">Capital Networks: Showcase Canada</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east-hd/9652">W (WTN) - East HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east/64">W (WTN) - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific-hd/9653">W (WTN) - Pacific HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific/1023">W (WTN) - Pacific</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="WNEDDT1.us" site_id="pbs-wned-buffalo-ny/92">PBS (WNED) Buffalo, NY</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="pbs-wned-buffalo-ny-hd/6855">PBS (WNED) Buffalo, NY HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MagnoliaNetworkCanada.ca" site_id="do-it-yourself-network-canada/2034">Magnolia Network Canada</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa--eastern-feed/623">HGTV USA - Eastern Feed</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-hd--eastern/3690">HGTV USA HD - Eastern</channel>

@@ -8,7 +8,7 @@ http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="405039" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 #EXTINF:-1 tvg-id="405080" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 23 822p
-http://fortv.cc:8080/105094817/105094817/57365w-wtn--east-hd/9652
+http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 #EXTINF:-1 tvg-id="404674" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto
@@ -25,7 +25,7 @@ http://fortv.cc:8080/105094817/105094817/120747
 http://fortv.cc:8080/105094817/105094817/57379
 #EXTINF:-1 tvg-id="404814" tvg-name="11 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="-0.5",CHCH
 http://fortv.cc:8080/105094817/105094817/57393
-#EXTINF:-1 tvg-id="6536721dbfbaec00088687c0" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
+#EXTINF:-1 tvg-id="0#99991276" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
 https://jmp2.uk/sam-CA1500002Q4.m3u8
 #EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d" tvg-name="13" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
@@ -57,11 +57,11 @@ https://jmp2.uk/sam-CABC23000223U.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 #EXTINF:-1 tvg-id="404709" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV
 http://fortv.cc:8080/105094817/105094817/63850
-#EXTINF:-1 tvg-id="w-wtn--east-hd/9652" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
+#EXTINF:-1 tvg-id="w-wtn--east/64" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
 http://fortv.cc:8080/105094817/105094817/57284
 # #EXTINF:-1 tvg-id="w-wtn--east-hd/9652" tvg-name="26 W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Entertainment",W Network East
 # http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="404780" tvg-name="27 Discovery Velocity" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/374a5863-1c1f-494d-9a56-aff0f44ed3d2/difm2mo-933bd156-a7c7-41b8-bdbf-182a6b0c3452.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM3NGE1ODYzLTFjMWYtNDk0ZC05YTU2LWFmZjBmNDRlZDNkMlwvZGlmbTJtby05MzNiZDE1Ni1hN2M3LTQxYjgtYmRiZi0xODJhNmIwYzM0NTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RP7zhGjHnzlQwjuI3iHlQMz5UIYzWR3ab3UPhMnLTww" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
+#EXTINF:-1 tvg-id="404780" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",Discovery Velocity 
 http://fortv.cc:8080/105094817/105094817/46212
 #EXTINF:-1 tvg-id="403831" tvg-name="28 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",USA MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
@@ -141,7 +141,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="404713" tvg-name="61 Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418522
-#EXTINF:-1 tvg-id="pbs-wned-buffalo-ny/92" tvg-name="62 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS WNED
+#EXTINF:-1 tvg-id="pbs-wned-buffalo-ny-hd/6855" tvg-name="62 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS WNED
 http://fortv.cc:8080/105094817/105094817/57276
 #EXTINF:-1 tvg-id="405151" tvg-name="63 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",E! 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418463
