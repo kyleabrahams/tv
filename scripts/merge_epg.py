@@ -136,7 +136,7 @@ if not channel_dict:
 else:
     # Display the number of channels found
     total_channels = len(channel_dict)
-    print(f"Loaded {total_channels}/{total_channels} channels successfully.")
+    print(f"Loaded {total_channels}/{total_channels} channels from channels.json successfully.")
     
     # Record the start time
     start_time = time.time()
