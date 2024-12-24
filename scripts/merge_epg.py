@@ -9,6 +9,7 @@ import sys # Used for venv_python
 from datetime import datetime
 import json  # Import the json module to read from a JSON file
 import time
+import logging
 
 # Get the current time and format it
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
@@ -33,13 +34,12 @@ venv_python = sys.executable
 print(venv_python)
 import os
 
-# Get the directory of the current script of dummy_epg.py
-script_dir = os.path.dirname(os.path.realpath(__file__))
-# Construct the relative path
-dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")
-print(dummy_epg_path)  # To verify the constructed path
 
 # Step 1.1: Function to run dummy_epg.py script
+script_dir = os.path.dirname(os.path.realpath(__file__)) # Get the directory of the current script of dummy_epg.py
+dummy_epg_path = os.path.join(script_dir, "dummy_epg.py") # Construct the relative path
+print(dummy_epg_path)  # To verify the constructed path
+
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
@@ -87,14 +87,9 @@ def fetch_epg_data(channel_id, date):
 
 # Function to fetch EPG data for multiple channels
 def fetch_multiple_channels_data(channel_dict):
-    # Get the current date in YYYYMMDD format
-    current_date = datetime.now().strftime("%Y%m%d")
-    
-    # Create the root <tv> element for the XML
-    tv_root = ET.Element("tv")
-    
-    # String to hold the formatted channel data
-    channels_str = ""
+    current_date = datetime.now().strftime("%Y%m%d") # Get the current date in YYYYMMDD format
+    tv_root = ET.Element("tv") # Create the root <tv> element for the XML
+    channels_str = "" # String to hold the formatted channel data
     
     # Loop through all the channels in the dictionary and fetch the EPG data for each
     for channel_id, channel_name in channel_dict.items():
@@ -195,8 +190,7 @@ def run_npm_grab():
             except Exception as e:
                 print(f"Error while running npm command: {e}")    
 
-# Run npm grab commands
-run_npm_grab()
+run_npm_grab() # Run npm grab commands
 
 
 
@@ -205,11 +199,7 @@ run_npm_grab()
 def merge_epg_data():
     """Coordinates the EPG generation and merging process."""
 
-
-    # Proceed with EPG merging logic
-    print("Merging EPG data...")
-    # Your existing merging logic goes here
-
+    print("Merging EPG data...") # Proceed with EPG merging logic
 
 # Execute the process
 if __name__ == "__main__":
@@ -226,27 +216,21 @@ def load_epg_urls(file_path):
         print(f"Error reading {file_path}: {e}")
         return []
 
-# Get the directory where the script is located (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
+script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located (absolute path)
+log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log') # Create the relative path for the log file
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure the 'log' directory exists
 
-# Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')
+# # Now log the message using the relative path
+# import logging
+# log_format = "%(asctime)s - %(message)s"
+# date_format = "%b %d %Y %H:%M:%S"
 
-# Ensure the 'log' directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+# logging.basicConfig(filename=log_file_path,
+#                     level=logging.INFO,
+#                     format=log_format,
+#                     datefmt=date_format)
 
-# Now log the message using the relative path
-import logging
-log_format = "%(asctime)s - %(message)s"
-date_format = "%b %d %Y %H:%M:%S"
-
-logging.basicConfig(filename=log_file_path,
-                    level=logging.INFO,
-                    format=log_format,
-                    datefmt=date_format)
-
-# Example of logging a message
-logging.info("This is a log entry with the formatted timestamp.")
+# logging.info("This is a log entry with the formatted timestamp.") # Example of logging a message
 
 # Relative path to the epg_urls.txt file
 epg_urls_file = os.path.join(script_dir, 'epg_urls.txt')
