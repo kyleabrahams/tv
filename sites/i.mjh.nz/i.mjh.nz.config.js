@@ -11,7 +11,7 @@ const API_ENDPOINT = 'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/mas
 
 module.exports = {
   site: 'i.mjh.nz',
-  days: 2,
+  days: 4, 
   request: {
     cache: {
       ttl: 3 * 60 * 60 * 1000 // 3h

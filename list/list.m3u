@@ -7,7 +7,7 @@ http://fortv.cc:8080/105094817/105094817/47218
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="405039" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
-#EXTINF:-1 tvg-id="405080" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 23 822p
+#EXTINF:-1 tvg-id="405080" tvg-name="04 OMNI 1 HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Dec 23 934p
 http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -111,7 +111,7 @@ http://fortv.cc:8080/105094817/105094817/57273
 http://fl2.moveonjoy.com/HGTV/index.m3u8
 #EXTINF:-1 tvg-id="404989" tvg-name="47 Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="",Love Nature  
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418487
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-60995eb136c72d002da7bbcb" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="404787" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",USA TCM 
 http://fl1.moveonjoy.com/TCM/index.m3u8
@@ -133,7 +133,7 @@ http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418528
 #EXTINF:-1 tvg-id="404864" tvg-name="58 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
-#EXTINF:-1 tvg-id="5e20b730f2f8d5003d739db7-630905af0417b7074a4ad95e" channel-id="CABD1200010LE"  tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
+#EXTINF:-1 tvg-id="BBCFood.us" channel-id="CABD1200010LE"  tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Canada", BBC Food
 https://jmp2.uk/sam-CABD1200010LE.m3u8
 #EXTINF:-1 tvg-id="404789" tvg-name="59 Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
@@ -163,7 +163,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418494
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418464
 #EXTINF:-1 tvg-id="404648" tvg-name="Nickelodeon" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/nickelodeon-ca.png?raw=true" group-title="Kids",Nickelodeon 
 http://cord-cutter.net:8080/64869862/18743571/47349
-#EXTINF:-1 tvg-id="aptn--east-dv/7593" tvg-name="APTN" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="",APTN
+#EXTINF:-1 tvg-id="aptn--east/198" tvg-name="APTN" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="",APTN
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418545
 #EXTINF:-1 tvg-id="403669" tvg-name="Oprah Winfrey Network USATV" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="",USA OWN 
 http://fl2.moveonjoy.com/OWN/index.m3u8
@@ -185,7 +185,7 @@ http://streamsy.online:2999/Jaley1990/L6KomjzBxv/1883
 http://fl2.moveonjoy.com/LIFETIME/index.m3u8
 #EXTINF:-1 tvg-id="403720" tvg-name="Lifetime Movie Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="",Lifetime Movie Network 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418485
-#EXTINF:-1 tvg-id="spike-canada-hd/9654" tvg-name="US Paramount Network" tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title="",Paramount
+#EXTINF:-1 tvg-id="spike-canada/3" tvg-name="US Paramount Network" tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title="",Paramount
 http://fortv.cc:8080/105094817/105094817/16201
 #EXTINF:-1 tvg-id="404786" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="",USA National Geographic 
 http://fl2.moveonjoy.com/National_Geographic/index.m3u8
@@ -193,7 +193,7 @@ http://fl2.moveonjoy.com/National_Geographic/index.m3u8
 # http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
 #EXTINF:-1 tvg-id="404896" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
 http://fortv.cc:8080/105094817/105094817/47331
-#EXTINF:-1 tvg-id="do-it-yourself-network-canada-hd/19839" tvg-name="DIY Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="",Magonlia Network
+#EXTINF:-1 tvg-id="MagnoliaNetworkCanada.ca" tvg-name="DIY Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="",Magonlia Network
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418462
 #EXTINF:-1 tvg-id="405013" tvg-name="Smithsonian" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="",Smithsonian Channel
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418509
@@ -219,7 +219,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418439
 http://fortv.cc:8080/105094817/105094817/57377
 #EXTINF:-1 tvg-id="" tvg-name="Xmas-Show" tvg-logo="https://mariahcarey.com/wp-content/uploads/2019/11/MC_NewLogo_2020-300.png" group-title="Music",Mariah Christmas❄ 
 http://23.227.140.75:3050/billyscates@icloud.com/ra7KUBsJqs/658896
-#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live
+#EXTINF:-1 tvg-id="0#99991377" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-id="404935" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",CRAVE 1
 http://fl3.moveonjoy.com/CRAVE_1/index.m3u8
@@ -255,7 +255,7 @@ https://jmp2.uk/sam-CABB260002016.m3u8
 https://jmp2.uk/sam-USBC4400004KK.m3u8
 #EXTINF:-1 tvg-id="100#99991176" tvg-logo="https://i.ibb.co/VQ3F988/just-for-laughs-vod.png" group-title="Comedy",Just for Laughs TV
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991176
-#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c10e2deb7f424133b08b" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="Comedy",CTV Laughs
+#EXTINF:-1 tvg-id="SamsungTVPlus/ca#CA1400005SO" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20240722T231055SQUARE.png" group-title="Comedy",CTV Laughs
 https://jmp2.uk/sam-CA1400005SO.m3u8
 #EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-6685c2e02deb7f424133b08f" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20240702T044804SQUARE.png" group-title="Home & Food",CTV @ Home
 https://jmp2.uk/sam-CA14000028T.m3u8
