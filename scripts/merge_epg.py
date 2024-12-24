@@ -165,8 +165,8 @@ def merge_epg():
 def run_npm_grab():
     # List of npm commands
     commands = [
+        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
         # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/test_end.xml"]
-        # ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
     ]
 
     for command in commands:

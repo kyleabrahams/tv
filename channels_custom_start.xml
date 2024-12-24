@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991160">PBS Digital Studios</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991124">Dry Bar Comedy</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991365">DangerTV</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991123">LOL Network</channel>
   <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6177f6bf7693550007531275">FailArmy</channel>
@@ -9,16 +11,43 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="aptn--east/198">APTN - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WUTVDT1.us" site_id="fox-wutv-buffalo-ny-hd/3584">FOX (WUTV) Buffalo, NY HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ctv-news-channel/416">CTV News Channel</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-ctv-news-channel/13731">Capital Networks: CTV News Channel</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-dv/3959">Weather Network DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherNetwork.ca" site_id="weather-network-hd/9440">Weather Network HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="capital-networks-showcase-canada/13735">Capital Networks: Showcase Canada</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east-hd/9652">W (WTN) - East HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--east/64">W (WTN) - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific-hd/9653">W (WTN) - Pacific HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="w-wtn--pacific/1023">W (WTN) - Pacific</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WNEDDT1.us" site_id="pbs-wned-buffalo-ny/92">PBS (WNED) Buffalo, NY</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MagnoliaNetworkCanada.ca" site_id="do-it-yourself-network-canada/2034">Magnolia Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa--eastern-feed/623">HGTV USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-hd--eastern/3690">HGTV USA HD - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="turner-classic-movies-canada-hd/7050">Turner Classic Movies Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="turner-classic-movies-usa-hd/7049">Turner Classic Movies USA HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WNEDDT1.us" site_id="pbs-wned-buffalo-ny/92">PBS (WNED) Buffalo, NY</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="spike-canada-hd/9654">Paramount Network Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="spike-canada/3">Paramount Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ParamountNetworkEast.us" site_id="spike-usa--eastern-feed/1030">Paramount Network USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ParamountNetworkEast.us" site_id="spike-usa-hd--eastern-feed/6334">Paramount Network USA HD - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="do-it-yourself-network-canada-hd/19839">Magnolia Network Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="do-it-yourself-network-usa--east/622">Magnolia - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBO1.ca" site_id="hbo-canada-1-hd/4230">HBO1 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBO2.ca" site_id="hbo-canada-2/6424">HBO West</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-east-on-demand-hd/9313">HBO Canada East On Demand HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hbo-canada-east-on-demand/8252">HBO Canada East On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="DisneyChannelEast.ca" site_id="disney-channel-canada--east/16682">Disney Channel Canada - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite00sMovies.ca" site_id="hollywood-suite-00s/8887">Hollywood Suite 00s</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite70sMovies.ca" site_id="hollywood-suite-70s/10310">Hollywood Suite 70s</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="hollywood-suite-80s/13639">Hollywood Suite 80s</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite90sMovies.ca" site_id="hollywood-suite-90s/10880">Hollywood Suite 90s</channel>
+
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991651">NBC LX Home</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991176">Just for Laughs TV</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991232">Family Feud</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99951129">Wipeout Xtra</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#9995118">Tastemade Travel Channel</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991765">Xplore</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99951192">Anger Management Channel</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991138">Vogue</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991352">Xumo Free Action Movies</channel>
@@ -38,13 +67,11 @@
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991315">ACC Digital Network</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991696">Swerve Combat</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951132">Fight Network</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCFour.uk" site_id="742/bbc-four">BBC Four</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="ArchitecturalDigest.us" site_id="150#99991229">Architectural Digest</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCFourHD.uk" site_id="1851/bbc-four-hd">BBC Four HD</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThree.uk" site_id="935/bbc-three">BBC Three</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoHD.uk" site_id="1782/bbc-two-hd">BBC Two HD</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOne.uk" site_id="4/bbc-one">BBC One</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
+ <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEastHD.uk" site_id="2364/bbc-one-east-hd">BBC One East HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneLondon.uk" site_id="713/bbc-one-london">BBC One London</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneLondonHD.uk" site_id="2366/bbc-one-london-hd">BBC One London HD</channel>
