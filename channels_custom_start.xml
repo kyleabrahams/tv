@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBD120002431">Vevo 2010s</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBB3200024V5">Million Dollar Listing Vault</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CABD1200043OK">CBC Comedy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CA14000028T">CTV @ Home</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CA1400005SO">CTV Laughs</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="LuckyDog.us" site_id="SamsungTVPlus/us#USBA3000044BJ">Lucky Dog</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CABC23000035R">Hollywire</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBC44000226R">Bon Appétit</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="DallasCowboysCheerleaders.us" site_id="SamsungTVPlus/us#USBA300004TE">Dallas Cowboys Cheer</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#650b6a0c6625510008e1043b">The Jack Hanna Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="JerseyShore.us" site_id="PlutoTV/us#609bfa51fbecc1000733152e">Jersey Shore</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#66c45c274f25dd00092739ee">CNN Fast</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#62bdb5500c21270007218ce1">FailArmy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#62f4f90e39183b000769f12b">Frasier</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#6334a3ffdc283500076acf92">Vevo Holiday</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#63565d76232dd10007bba40c">Crackling Fireplace</channel>
+  <channel site="i.mjh.nz" lang="es" xmltv_id="" site_id="PlutoTV/es#6231ede1be5b460007f91bc1">CBS News 24/7</channel>
+  <channel site="i.mjh.nz" lang="no" xmltv_id="" site_id="PlutoTV/no#61814ff322e67b00074a5c43">Project Runway</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#6532e8342cf13100083b404c">Warner Bros. TV Say Yes to the Dress</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TheWalkingDeadUniverse.us" site_id="PlutoTV/us#62fa8176b9884200074ef5ae">The Walking Dead Universe</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="NewsmaxTV.us" site_id="PlutoTV/us#55b179af994403942f3061d6">Newsmax2</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TODAYAllDay.us" site_id="PlutoTV/us#5d695f7db53adf96b78e7ce3">TODAY All Day</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ETLive.us" site_id="PlutoTV/us#5dc0c78281eddb0009a02d5e">ET</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="KevinHartsLOLNetwork.us" site_id="PlutoTV/us#5af09e645126c2157123f9eb">Kevin Hart’s LOL! Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="AlwaysFunnyVideos.us" site_id="PlutoTV/us#5e82b55ad0213e00079c509f">Always Funny Videos</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="TheJamieOliverChannel.us" site_id="PlutoTV/us#64dab9df3d48f40008868091">The Jamie Oliver Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#62e916affb29c60007211c8a">Gunsmoke</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#62e917b5e354cf0007b97a67">Happy Days</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#62ba60f059624e000781c436">00s Replay</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="70sCinema.us" site_id="PlutoTV/us#5f4d878d3d19b30007d2e782">70s Cinema</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="80sRewind.us" site_id="PlutoTV/us#5ca525b650be2571e3943c63">80s Rewind</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="90sThrowback.us" site_id="PlutoTV/us#5f4d86f519358a00072b978e">90s Throwback</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/ca#62e925bc68d18a00077bb990">48 Hours</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-632997b7f79ba3e1368f8b97">Vevo Hip-Hop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-616743c63727d6d85751802a">Vevo Pop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-615700a23a4a316ad53ad716">Vevo &apos;80s</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-61559301bcb11028da48b065">Vevo &apos;90s</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-615593004054ee0a9771147a">Vevo 2K</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b4fcc2530e39ea2ee79545">CNN Headlines</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/au#5e20b730f2f8d5003d739db7-5f170f01b898490041b49dd1">Yahoo Finance</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-63e2ca44203bafbef831a152">TMZ</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-66855a2a714fe577eb7db920">Deal Or No Deal</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-62e3232ca105dea9c400e9fe">This Old House</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-612919784f53e1002c9aa219">Are We There Yet?</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65829d90a90606db3c841b19">Hell&apos;s Kitchen</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6303ca568a01b5d4dae57d0e">Anger Management</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6729199a7f55143b23b66c4d">Dog the Bounty Hunter</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-672917e07f55143b23b66c4b">Dance Moms</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc">Property Brothers Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-64b7139c8ec13d5dcb7e6bb2">Places &amp;amp; Spaces</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b141e2a9ef8c41ec0841b2">No Reservations</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-61f0489a3f2259f988094ddb">Journy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/nz#5e20b730f2f8d5003d739db7-5efe1de7e0b3f5003f5d9f8e">Gravitas Movies</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-646e489b58898bf3be94b325">FilmRise True Crime</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65ddf33acf4a43f7017f31c4">FilmRise Action</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65ddf33c7e7be0a1106cd1bb">FilmRise Free Movies</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6627ab12580825e8a7bc4f05">FilmRise Western</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/ca#647f8d22a2fc3fadb4721685-64704596e536e0faaf10be9b">Great British Menu</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Plex/us#5e20b730f2f8d5003d739db7-63ec15d6290593c3fc279f4a">Military Heroes Presented By History</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5734">4K Travel TV</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="BBCFood.us" site_id="150#99951177">BBC Food</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991651">NBC LX Home</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991176">Just for Laughs TV</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991232">Family Feud</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99951129">Wipeout Xtra</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#9995118">Tastemade Travel Channel</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991765">Xplore</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99951192">Anger Management Channel</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991138">Vogue</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991352">Xumo Free Action Movies</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991299">Xumo Free Movies</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991683">PATTRN</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991709">Hallmark Movies &amp; More</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991187">Funny or Die</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="StoriesbyAMC.us" site_id="100#99991622">Stories by AMC</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951264">Universal Monsters</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="Food52.us" site_id="150#99991340">Food52</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991341">IMPACT Wrestling Channel</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951268">SPEEDVISION</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951207">Fifth Gear</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991310">The Archive</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991135">WIRED</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991315">ACC Digital Network</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991696">Swerve Combat</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951132">Fight Network</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="ArchitecturalDigest.us" site_id="150#99991229">Architectural Digest</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99951206">PBS Antiques Roadshow</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991113">Deal Or No Deal</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991377">ABC News Live</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="LoveNature.ca" site_id="150#99991398">Love Nature</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991276">CBC NEWS</channel>
@@ -8,9 +95,30 @@
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991124">Dry Bar Comedy</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991365">DangerTV</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991123">LOL Network</channel>
-  <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6177f6bf7693550007531275">FailArmy</channel>
-  <channel site="i.mjh.nz" lang="da" xmltv_id="" site_id="PlutoTV/dk#6400c095498393000878a634">Frasier</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Stirr/all#5734">4K Travel TV</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="Newsy.us" site_id="0#99991148">Scripps News</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991220">Cheddar News</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="NBCNewsNOW.us" site_id="0#99991247">NBC News NOW</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="ElectricNow.us" site_id="100#99991378">ElectricNOW</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991331">The Asylum</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991190">Comedy Dynamics</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="TheDesignNetwork.us" site_id="150#99991390">The Design Network</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991202">Tastemade</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99951269">MAVTV Select</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991189">Outside TV</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99991328">GustoTV</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99951124">BUZZR</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#9995114">Heartland</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991291">PowerNation</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991626">Dateline 24/7</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991320">Law&amp;Crime</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991680">Unsolved Mysteries</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991693">Homeful</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99951251">MovieSphere by Lionsgate</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991648">PursuitUp</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991317">World Poker Tour</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#99951151">Lidia&apos;s Kitchen</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991333">Dove Channel</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991333">Dove Channel</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9100001138#9233011874">ABC</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WKBWDT1.us" site_id="abc-wkbw-buffalo-ny-hd/3581">ABC (WKBW) Buffalo, NY HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WKBWDT1.us" site_id="abc-wkbw-buffalo-ny/89">ABC (WKBW) Buffalo, NY</channel>
@@ -35,7 +143,6 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="MagnoliaNetworkCanada.ca" site_id="do-it-yourself-network-canada/2034">Magnolia Network Canada</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa--eastern-feed/623">HGTV USA - Eastern Feed</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-hd--eastern/3690">HGTV USA HD - Eastern</channel>
-  
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="turner-classic-movies-canada-hd/7050">Turner Classic Movies Canada HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="turner-classic-movies-usa-hd/7049">Turner Classic Movies USA HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="WNEDDT1.us" site_id="pbs-wned-buffalo-ny/92">PBS (WNED) Buffalo, NY</channel>
@@ -57,41 +164,14 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite70sMovies.ca" site_id="hollywood-suite-70s/10310">Hollywood Suite 70s</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="hollywood-suite-80s/13639">Hollywood Suite 80s</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HollywoodSuite90sMovies.ca" site_id="hollywood-suite-90s/10880">Hollywood Suite 90s</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="BBCFood.us" site_id="150#99951177">BBC Food</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991651">NBC LX Home</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991176">Just for Laughs TV</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991232">Family Feud</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99951129">Wipeout Xtra</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="200#9995118">Tastemade Travel Channel</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99991765">Xplore</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99951192">Anger Management Channel</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991138">Vogue</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991352">Xumo Free Action Movies</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991299">Xumo Free Movies</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="150#99951151">Lidia's Kitchen</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991683">PATTRN</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="0#99991709">Hallmark Movies &amp; More</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99991187">Funny or Die</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="StoriesbyAMC.us" site_id="100#99991622">Stories by AMC</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951264">Universal Monsters</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="Food52.us" site_id="150#99991340">Food52</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991341">IMPACT Wrestling Channel</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951268">SPEEDVISION</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951207">Fifth Gear</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991310">The Archive</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="250#99991135">WIRED</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991315">ACC Digital Network</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99991696">Swerve Combat</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951132">Fight Network</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="ArchitecturalDigest.us" site_id="150#99991229">Architectural Digest</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HallmarkChannelEast.us" site_id="hallmark-channel-hd--eastern/6213">Hallmark Channel HD - Eastern</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCFourHD.uk" site_id="1851/bbc-four-hd">BBC Four HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoHD.uk" site_id="1782/bbc-two-hd">BBC Two HD</channel>
- <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEastHD.uk" site_id="2364/bbc-one-east-hd">BBC One East HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneLondon.uk" site_id="713/bbc-one-london">BBC One London</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneLondonHD.uk" site_id="2366/bbc-one-london-hd">BBC One London HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneWest.uk" site_id="18/bbc-one-west">BBC One West</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneWestHD.uk" site_id="2373/bbc-one-west-hd">BBC One West HD</channel>
-
 </channels>
