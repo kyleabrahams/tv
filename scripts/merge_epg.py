@@ -146,7 +146,7 @@ else:
 
 # Function to merge EPG data step
 def merge_epg():
-    # Load the channel dictionary from the JSON file
+    # Load the channel dictionary from the JSON file    https://epg.pw/index.html?lang=en
     channel_dict = load_channels_from_file('channels.json')
 
     # Record the start time
