@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
- <!-- <channel site="[ENC][EX]ontvtonight.com[CA]_0" site_id="-464014503|##|69023814/w-network-east" xmltv_id="[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)">[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)</channel> -->
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021237/te">T+E</channel> -->
+  <channel site="[ENC][EX]ontvtonight.com[CA]_0" site_id="-464014503|##|69023814/w-network-east" xmltv_id="[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)">[Cable - Bell Fibe TV Toronto Standard Cable] W Network (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021237/te">T+E</channel>
   <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="dtour/DTOUR">DTOUR</channel>
-  
   <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#464014594/citytv-toronto-hdtv">Citytv Toronto HDTV</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021237/te">T+E</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021243/one-tv">One TV</channel>
@@ -34,6 +33,5 @@
   <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="boom/BOOMH">Boomerang HD</channel>
   <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="boom/BOOMS">Boomrang SD</channel>
   <channel site="tvhebdo.com" lang="fr" xmltv_id="" site_id="cbc/CBCHD">CBMT</channel>
-
 
 </channels>
