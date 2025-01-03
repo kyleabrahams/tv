@@ -14,24 +14,24 @@ def generate_m3u(start, end, base_url, output_dir, output_file_name):
         # Write the #EXTM3U header
         f.write("#EXTM3U\n\n")
         for channel in range(start, end + 1):
-            f.write(f"#EXTINF:-1 ,channel {channel}\n")
+            f.write(f"#EXTINF:-1,{channel}\n")
             # f.write(f"{base_url}/{channel}.m3u8\n") # With .m3u8
             f.write(f"{base_url}/{channel}\n")
 
     print(f"M3U playlist generated: {output_file}")
 
 # Parameters
-start_channel = 200001  # Starting channel number
-end_channel = 300000  # Ending channel number
+start_channel = 1  # Starting channel number
+end_channel = 1000000  # Ending channel number
 # base_url = "http://server/usepassword"  # Base URL for the streams
-base_url = "http://fortv.cc:8080/105094817/105094817"  # Base URL for the streams
+base_url = "http://tv.plisi.iptv.uno:80/ShaipRexhepiCh/rHD0ne157"  # Base URL for the streams
 
 # Set the output directory relative to "/Volumes/Kyle4tb1223"
 output_dir = os.path.join(os.path.expanduser('~'), "Documents/___ServersFULL")
 
 # Include today's date in the output file name
 today_date = datetime.now().strftime("%Y%m%d")  # Format: YYYYMMDD
-output_file_name = f"fortv-200-300-{today_date}.m3u"  # Output file name with today's date
+output_file_name = f"tv.plisi.iptv.uno-1-1000-{today_date}.m3u"  # Output file name with today's date
 
 # python3 playlist_generator.py
 
