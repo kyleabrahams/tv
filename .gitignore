@@ -1,8 +1,12 @@
-/node_modules/
-/temp/
-/channels.xml
-/guide.xml
-/guide.xml.gz
-
-# macOS
-.DS_Store
+# Created by venv; see https://docs.python.org/3/library/venv.html
+node_modules
+# Ignore all crontab backup files
+nginx_uninstall_backups/
+# Ignore epg.xml file
+scripts/www/epg.xml
+scripts/channels_custom_end.xml
+scripts/dummy.xml
+# Ignore log files
+scripts/log/*.log
+# Ignore all subdirectories inside www
+/www/_list-*
