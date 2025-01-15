@@ -1,0 +1,6 @@
+[submodule "epg"]
+	path = epg
+	url = https://github.com/iptv-org/epg.git
+[submodule "sites"]
+	path = sites
+	url = https://github.com/iptv-org/epg.git

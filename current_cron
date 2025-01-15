@@ -1,0 +1,7 @@
+# Run EPG merge script every 12 hours and log output 1am,1pm
+0 1,13 * * * /bin/bash -c "source /Users/kyleabrahams/Documents/GitHub/tv/venv/bin/activate && /usr/local/bin/python3 /Volumes/Kyle4tb1223/Documents/Github/tv/merge_epg.py >> /Volumes/Kyle4tb1223/Documents/Github/tv/log/merge_cron.log 2>&1"
+
+# Reload Nginx every 6 hours after the EPG update and log output
+5 1,13 * * * sudo /opt/homebrew/bin/nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/log/nginx_reload.log 2>&1
+
+

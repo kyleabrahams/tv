@@ -1,174 +1,44 @@
-# EPG [![update](https://github.com/iptv-org/epg/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/epg/actions/workflows/update.yml)
+# EPG Multitool: 
 
-Tools for downloading the EPG (Electronic Program Guide) for thousands of TV channels from hundreds of sources.
+This project is a custom tool that creates dummy data, fetches URLs, and uncompresses .gz files, ultimately generating a single XML file. The XML file(s) are stored locally in your repository and can be accessed through Nginx (Homebrew).
+I'm hoping to add remote access in the near future.
 
-## Table of contents
+## Tool 1. IPTV-Checker is a utility designed to verify the status of links in M3U playlists. It categorizes each link as online, offline, or a duplicate.
+# IPTV-Checker global installation
+npm install -g iptv-checker
+# Playlist execution
+iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere_$(date +%Y%m%d)"
 
-- ✨ [Installation](#installation)
-- 🚀 [Usage](#usage)
-- 💫 [Update](#update)
-- 📺 [Playlists](#playlists)
-- 🗄 [Database](#database)
-- 👨‍💻 [API](#api)
-- 📚 [Resources](#resources)
-- 💬 [Discussions](#discussions)
-- 🛠 [Contribution](#contribution)
-- 📄 [License](#license)
+## Tool 2: Playlist-Generator is a utility designed to generate an M3U playlist with a specified range of channel numbers (e.g., 1-100). Its primary purpose is to identify hidden or non-public channels at the server level.
+# Modify the python file below and run it with the command below
+cd scripts
+python3 playlist_generator.py
 
-## Installation
-
-First, you need to install [Node.js](https://nodejs.org/en) on your computer. You will also need to install [Git](https://git-scm.com/downloads) to follow these instructions.
-
-After that open the [Console](https://en.wikipedia.org/wiki/Windows_Console) (or [Terminal](<https://en.wikipedia.org/wiki/Terminal_(macOS)>) if you have macOS) and type the following command:
-
-```sh
-git clone --depth 1 -b master https://github.com/iptv-org/epg.git
-```
-
-Then navigate to the downloaded `epg` folder:
-
-```sh
-cd epg
-```
-
-And install all the dependencies:
-
-```sh
+## Step 1: In the working directory, run the following command in Terminal to create the node modules:
 npm install
-```
 
-## Usage
+# Step 1b: If you wish to uninstall node modules run:
+rm package-lock.json
+rm -rf node_modules
 
-To start the download of the guide, select one of the [supported sites](SITES.md) and paste its name into the command below:
+## Step 2: A virtual Python environment may be necessary; run the following command:
+python3 -m venv ~/venv
+source ~/venv/bin/activate
 
-```sh
-npm run grab --- --site=example.com
-```
+## Step 3: To fully automate the remaining installation, run the following script:
+cd scripts
+python3 install_all.py
 
-And once the download is complete, the guide will be saved to the `guide.xml` file.
+## Step 3b: If you wish to uninstall everything and leave only the base files, run the following command:
+cd scripts
+python3 uninstall_all.py
 
-```sh
-Usage: npm run grab --- [options]
+## Step 4: To manually update the epg.xml file, run the following command:
+cd scripts
+python3 merge_epg.py
 
-Options:
-  -s, --site <name>             Name of the site to parse
-  -c, --channels <path>         Path to *.channels.xml file (required if the "--site" attribute is
-                                not specified)
-  -o, --output <path>           Path to output file (default: "guide.xml")
-  -l, --lang <code>             Filter channels by language (ISO 639-2 code)
-  -t, --timeout <milliseconds>  Override the default timeout for each request
-  -d, --delay <milliseconds>    Override the default delay between request
-  --days <days>                 Override the number of days for which the program will be loaded
-                                (defaults to the value from the site config)
-  --maxConnections <number>     Limit on the number of concurrent requests (default: 1)
-  --cron <expression>           Schedule a script run (example: "0 0 * * *")
-  --gzip                        Create a compressed version of the guide as well (default: false)
-```
+## Step 5: To access the epg.xml file in a web browser, paste the following URL:
+http:/localhost:8080/epg.xml
 
-### Access the guide by URL
-
-You can make the guide available via URL by running your own server:
-
-```sh
-npm run serve
-```
-
-After that, the guide will be available at the link:
-
-```
-http://localhost:3000/guide.xml
-```
-
-In addition it will be available to other devices on the same local network at the address:
-
-```
-http://<your_local_ip_address>:3000/guide.xml
-```
-
-### Parallel downloading
-
-By default, the guide for each channel is downloaded one by one, but you can change this behavior by increasing the number of simultaneous requests using the `--maxConnections` attribute:
-
-```sh
-npm run grab --- --site=example.com --maxConnections=10
-```
-
-But be aware that under heavy load, some sites may start return an error or completely block your access.
-
-### Use custom channel list
-
-Create an XML file and copy the descriptions of all the channels you need from the [/sites](sites) into it:
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<channels>
-  <channel site="arirang.com" lang="en" xmltv_id="ArirangTV.kr" site_id="CH_K">Arirang TV</channel>
-  ...
-</channels>
-```
-
-And then specify the path to that file via the `--channels` attribute:
-
-```sh
-npm run grab --- --channels=path/to/custom.channels.xml
-```
-
-### Run on schedule
-
-If you want to download the guide automatically on a schedule, you need to pass a valid [cron expression](https://crontab.guru/) to the script using the `--cron` attribute:
-
-```sh
-npm run grab --- --site=example.com --cron="0 0 * * *"
-```
-
-## Update
-
-If you have downloaded the repository code according to the instructions above, then to update it will be enough to run the command:
-
-```sh
-git pull
-```
-
-And then update all the dependencies:
-
-```sh
-npm install
-```
-
-## Playlists
-
-Playlists with already linked guides can be found in the [iptv-org/iptv](https://github.com/iptv-org/iptv) repository.
-
-## Database
-
-All channel data is taken from the [iptv-org/database](https://github.com/iptv-org/database) repository. If you find any errors please open a new [issue](https://github.com/iptv-org/database/issues) there.
-
-## API
-
-The API documentation can be found in the [iptv-org/api](https://github.com/iptv-org/api) repository.
-
-## Resources
-
-Links to other useful IPTV-related resources can be found in the [iptv-org/awesome-iptv](https://github.com/iptv-org/awesome-iptv) repository.
-
-## Discussions
-
-If you have a question or an idea, you can post it in the [Discussions](https://github.com/orgs/iptv-org/discussions) tab.
-
-## Contribution
-
-Please make sure to read the [Contributing Guide](https://github.com/iptv-org/epg/blob/master/CONTRIBUTING.md) before sending [issue](https://github.com/iptv-org/epg/issues) or a [pull request](https://github.com/iptv-org/epg/pulls).
-
-And thank you to everyone who has already contributed!
-
-### Backers
-
-<a href="https://opencollective.com/iptv-org"><img src="https://opencollective.com/iptv-org/backers.svg?width=890" /></a>
-
-### Contributors
-
-<a href="https://github.com/iptv-org/epg/graphs/contributors"><img src="https://opencollective.com/iptv-org/contributors.svg?width=890" /></a>
-
-## License
-
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](LICENSE)
+## Step 6: To modify the scheduling for the merge_epg.py in crontab (macOS), enter the following command in Terminal:
+crontab -e
