@@ -1,0 +1,103 @@
+Dec 17 2024 - Running command: sudo launchctl list | grep /Users/kyleabrahams/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+Dec 17 2024 - launchctl result: 
+Dec 17 2024 - Nginx launchd service is not running.
+Dec 17 2024 - Starting setup process...
+Dec 17 2024 - Homebrew is already installed.
+Dec 17 2024 - Installing or updating Nginx...
+Dec 17 2024 - Running command: /opt/homebrew/bin/brew install nginx
+Dec 17 2024 - ERROR: Warning: nginx 1.27.3 is already installed and up-to-date.
+To reinstall 1.27.3, run:
+  brew reinstall nginx
+Dec 17 2024 - Nginx configuration found at /opt/homebrew/etc/nginx/nginx.conf
+Dec 17 2024 - Starting setup process...
+Dec 17 2024 - Detected macOS, checking for Homebrew installation...
+Dec 17 2024 - Running command: command -v brew
+Dec 17 2024 - /opt/homebrew/bin/brew
+Dec 17 2024 - Step 4. Homebrew is already installed.
+Dec 17 2024 - Fixing permissions for /opt/homebrew...
+Dec 17 2024 - Running command: sudo chown -R $(whoami):admin /opt/homebrew
+Dec 17 2024 - Permissions fixed for /opt/homebrew.
+Dec 17 2024 - Homebrew installation or permissions check completed.
+Dec 17 2024 - Attempting to stop any running Nginx processes...
+Dec 17 2024 - Running command: sudo lsof -i :8080 | grep nginx | awk '{print $2}'
+Dec 17 2024 - No Nginx processes found on port 8080.
+Dec 17 2024 - Running command: sudo killall -15 nginx
+Dec 17 2024 - ERROR: No matching processes were found
+Dec 17 2024 - Stopped all Nginx processes.
+Dec 17 2024 - Checking if Nginx is already installed...
+Dec 17 2024 - Running command: brew list nginx
+Dec 17 2024 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+Dec 17 2024 - Nginx is already installed.
+Dec 17 2024 - Installing or updating Nginx...
+Dec 17 2024 - Running command: brew install nginx
+Dec 17 2024 - ERROR: Warning: nginx 1.27.3 is already installed and up-to-date.
+To reinstall 1.27.3, run:
+  brew reinstall nginx
+Dec 17 2024 - Setup failed: not enough values to unpack (expected 2, got 0)
+2024-12-17 14:50:50,449 - Starting setup process...
+2024-12-17 14:50:50,456 - /opt/homebrew/bin/brew
+2024-12-17 14:50:50,456 - Homebrew is already installed.
+2024-12-17 14:50:50,456 - Fixing permissions for /opt/homebrew...
+2024-12-17 14:50:55,537 - Permissions fixed for /opt/homebrew.
+2024-12-17 14:50:55,537 - Homebrew installation or permissions check completed.
+2024-12-17 14:50:55,537 - Installing or updating Nginx...
+2024-12-17 14:50:58,635 - Copied Nginx configuration to /opt/homebrew/etc/nginx/nginx.conf.
+2024-12-17 14:50:58,647 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-12-17 14:50:59,238 - Requirement already satisfied: pip in ./venv/lib/python3.13/site-packages (24.3.1)
+2024-12-17 14:50:59,464 - Requirement already satisfied: requests in ./venv/lib/python3.13/site-packages (2.32.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.13/site-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests) (2024.8.30)
+2024-12-17 14:50:59,464 - Virtual environment set up.
+2024-12-17 14:50:59,474 - Command failed: chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: Unable to change file mode on /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: Operation not permitted
+
+2024-12-17 14:52:44,261 - Starting setup process...
+2024-12-17 14:52:44,270 - /opt/homebrew/bin/brew
+2024-12-17 14:52:44,270 - Homebrew is already installed.
+2024-12-17 14:52:44,270 - Fixing permissions for /opt/homebrew...
+2024-12-17 14:52:46,907 - Permissions fixed for /opt/homebrew.
+2024-12-17 14:52:46,907 - Homebrew installation or permissions check completed.
+2024-12-17 14:52:46,907 - Installing or updating Nginx...
+2024-12-17 14:52:49,442 - Copied Nginx configuration to /opt/homebrew/etc/nginx/nginx.conf.
+2024-12-17 14:52:49,451 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-12-17 14:52:49,924 - Requirement already satisfied: pip in ./venv/lib/python3.13/site-packages (24.3.1)
+2024-12-17 14:52:50,156 - Requirement already satisfied: requests in ./venv/lib/python3.13/site-packages (2.32.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.13/site-packages (from requests) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.13/site-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./venv/lib/python3.13/site-packages (from requests) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.13/site-packages (from requests) (2024.8.30)
+2024-12-17 14:52:50,156 - Virtual environment set up.
+2024-12-17 14:52:50,167 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-12-17 14:52:50,167 - Reloading Nginx...
+2024-12-17 14:52:51,330 - ==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-12-17 14:52:51,330 - Nginx reloaded successfully.
+2024-12-17 14:52:51,330 - Setup complete. Access EPG XML at http://localhost:8080/epg.xml

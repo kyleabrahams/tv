@@ -1,0 +1,1390 @@
+2024-11-27 12:55:28,823 - Uninstalling Nginx...
+2024-11-27 12:55:30,364 - Command failed: brew uninstall nginx
+Error: No such keg: /opt/homebrew/Cellar/nginx
+
+2024-11-27 12:56:14,402 - Nginx is not installed via Homebrew.
+2024-11-27 12:56:14,402 - Uninstalling Homebrew...
+2024-11-27 12:56:14,643 - Command failed: curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh | /bin/zsh
+Bash is required to interpret this script.
+
+2024-11-27 12:57:01,236 - Nginx is not installed via Homebrew.
+2024-11-27 12:57:01,237 - Uninstalling Homebrew...
+2024-11-27 12:57:01,404 - Command failed: bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)'
+bash: #!/bin/bash: No such file or directory
+
+2024-11-27 12:57:47,894 - Nginx is not installed via Homebrew.
+2024-11-27 12:57:47,895 - Uninstalling Homebrew...
+2024-11-27 12:57:48,030 - Command failed: /bin/bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)'
+/bin/bash: #!/bin/bash: No such file or directory
+
+2024-11-27 12:58:51,553 - Nginx is not installed via Homebrew.
+2024-11-27 12:58:51,553 - Uninstalling Homebrew...
+2024-11-27 12:58:51,557 - Command failed: /usr/bin/bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)'
+/bin/sh: /usr/bin/bash: No such file or directory
+
+2024-11-27 12:59:46,248 - Nginx is not installed via Homebrew.
+2024-11-27 12:59:46,249 - Uninstalling Homebrew...
+2024-11-27 12:59:46,566 - Command failed: /bin/bash -c '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)'
+/bin/bash: #!/bin/bash: No such file or directory
+
+2024-11-27 13:00:44,913 - Nginx is not installed via Homebrew.
+2024-11-27 13:00:44,914 - Uninstalling Homebrew...
+2024-11-27 13:01:57,038 - Nginx is not installed via Homebrew.
+2024-11-27 13:01:57,038 - Uninstalling Homebrew...
+2024-11-27 13:04:09,177 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-11-27 13:04:09,178 - Uninstalling Nginx...
+2024-11-27 13:04:10,530 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-11-27 13:04:10,530 - Nginx uninstalled.
+2024-11-27 13:04:10,530 - Uninstallation of Nginx completed successfully.
+2024-11-27 13:04:26,892 - Nginx is not installed via Homebrew.
+2024-11-27 13:04:26,892 - Uninstallation of Nginx completed successfully.
+2024-11-27 13:06:17,047 - Nginx is not installed via Homebrew.
+2024-11-27 13:06:17,047 - Checking for Homebrew-related cron jobs...
+2024-11-27 13:06:17,053 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:06:17,053 - No Homebrew-related cron jobs found.
+2024-11-27 13:06:17,053 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 13:07:15,953 - Nginx is not installed via Homebrew.
+2024-11-27 13:07:15,954 - Checking for Homebrew-related cron jobs...
+2024-11-27 13:07:15,960 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:07:15,960 - Homebrew-related cron jobs found. Removing...
+2024-11-27 13:07:15,967 - Homebrew-related cron jobs removed.
+2024-11-27 13:07:15,967 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 13:09:46,638 - Nginx is not installed via Homebrew.
+2024-11-27 13:09:46,638 - Checking for Homebrew-related cron jobs...
+2024-11-27 13:09:46,644 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+* * * * * echo Cron test at Wed Nov 27 13:07:15 EST 2024 >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:09:46,644 - No Homebrew-related cron jobs found.
+2024-11-27 13:09:46,644 - Clearing all cron jobs...
+2024-11-27 13:09:46,649 - All cron jobs cleared.
+2024-11-27 13:09:46,649 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 13:35:04,258 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-11-27 13:35:04,260 - Uninstalling Nginx...
+2024-11-27 13:35:05,636 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-11-27 13:35:05,636 - Nginx uninstalled.
+2024-11-27 13:35:05,636 - Checking for Homebrew-related cron jobs...
+2024-11-27 13:35:05,643 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:35:05,644 - Homebrew-related cron jobs found. Removing...
+2024-11-27 13:35:05,651 - Homebrew-related cron jobs removed.
+2024-11-27 13:35:05,651 - Clearing all cron jobs...
+2024-11-27 13:35:05,656 - All cron jobs cleared.
+2024-11-27 13:35:05,656 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 14:35:29,663 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-11-27 14:35:29,665 - Uninstalling Nginx...
+2024-11-27 14:35:31,073 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-11-27 14:35:31,073 - Nginx uninstalled.
+2024-11-27 14:35:31,073 - Checking for Homebrew-related cron jobs...
+2024-11-27 14:35:31,079 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:35:31,079 - Homebrew-related cron jobs found. Removing...
+2024-11-27 14:35:31,085 - Homebrew-related cron jobs removed.
+2024-11-27 14:35:31,086 - Clearing all cron jobs...
+2024-11-27 14:35:31,090 - All cron jobs cleared.
+2024-11-27 14:35:31,090 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 14:45:38,911 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-11-27 14:45:38,912 - Uninstalling Nginx...
+2024-11-27 14:45:40,320 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-11-27 14:45:40,320 - Nginx uninstalled.
+2024-11-27 14:45:40,320 - Checking for Homebrew-related cron jobs...
+2024-11-27 14:45:40,327 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:45:40,328 - Homebrew-related cron jobs found. Removing...
+2024-11-27 14:45:40,334 - Homebrew-related cron jobs removed.
+2024-11-27 14:45:40,335 - Clearing all cron jobs...
+2024-11-27 14:45:40,339 - All cron jobs cleared.
+2024-11-27 14:45:40,339 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-11-27 14:48:52,563 - Nginx is not installed via Homebrew.
+2024-11-27 14:48:52,565 - Checking for Homebrew-related cron jobs...
+2024-11-27 14:48:52,580 - No Homebrew-related cron jobs found.
+2024-11-27 14:48:52,580 - Clearing all cron jobs...
+2024-11-27 14:48:52,591 - Command failed: crontab -r
+crontab: no crontab for kyleabrahams
+
+2024-11-27 14:49:54,555 - Nginx is not installed via Homebrew.
+2024-11-27 14:49:54,556 - Checking for Homebrew-related cron jobs...
+2024-11-27 14:49:54,561 - No Homebrew-related cron jobs found.
+2024-11-27 14:49:54,562 - Clearing all cron jobs...
+2024-11-27 14:49:54,566 - Command failed: crontab -r
+crontab: no crontab for kyleabrahams
+
+2024-11-27 14:50:38,167 - Nginx is not installed via Homebrew.
+2024-11-27 14:50:38,167 - Checking for Homebrew-related cron jobs...
+2024-11-27 14:50:38,173 - No Homebrew-related cron jobs found.
+2024-11-27 14:50:38,173 - Clearing all cron jobs...
+2024-11-27 14:50:38,177 - Command failed: crontab -r
+crontab: no crontab for kyleabrahams
+
+2024-11-27 14:58:16,989 - Clearing all cron jobs...
+2024-11-27 14:58:16,995 - Command failed: crontab -r
+Command '['crontab', '-r']' returned non-zero exit status 1.
+2024-11-27 15:02:17,255 - Nginx is not installed via Homebrew.
+2024-11-27 15:02:17,257 - Checking for Homebrew-related cron jobs...
+2024-11-27 15:02:17,272 - No cron jobs found.
+2024-11-27 15:02:17,272 - Clearing all cron jobs...
+2024-11-27 15:02:17,281 - No cron jobs to clear.
+2024-11-27 15:02:17,282 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-02 12:11:25,159 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-02 12:11:25,161 - Uninstalling Nginx...
+2024-12-02 12:11:26,719 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-12-02 12:11:26,719 - Nginx uninstalled.
+2024-12-02 12:11:26,719 - Checking for Homebrew-related cron jobs...
+2024-12-02 12:11:26,725 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-02 12:11:26,726 - Homebrew-related cron jobs found. Removing...
+2024-12-02 12:11:26,733 - Homebrew-related cron jobs removed.
+2024-12-02 12:11:26,733 - Clearing all cron jobs...
+2024-12-02 12:11:26,738 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+* * * * * echo Cron test at Mon Dec 2 12:11:26 EST 2024 >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-02 12:11:26,741 - All cron jobs cleared successfully.
+2024-12-02 12:11:26,741 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 13:29:14,998 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 13:29:15,000 - Uninstalling Nginx...
+2024-12-10 13:29:16,446 - Command failed: brew uninstall nginx
+Error: Could not remove nginx keg! Do so manually:
+  sudo rm -rf /opt/homebrew/Cellar/nginx/1.27.3
+
+2024-12-10 13:45:15,075 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 13:45:15,077 - Uninstalling Nginx...
+2024-12-10 13:45:16,721 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 13:45:16,721 - Nginx uninstalled.
+2024-12-10 13:45:16,721 - Checking for Homebrew-related cron jobs...
+2024-12-10 13:45:16,734 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+2024-12-10 13:45:16,734 - Homebrew-related cron jobs found. Removing...
+2024-12-10 13:45:16,745 - Homebrew-related cron jobs removed.
+2024-12-10 13:45:16,745 - Clearing all cron jobs...
+2024-12-10 13:45:16,757 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+2024-12-10 13:45:16,762 - All cron jobs cleared successfully.
+2024-12-10 13:45:16,762 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 13:51:05,793 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 13:51:05,795 - Uninstalling Nginx...
+2024-12-10 13:51:07,555 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 13:51:07,555 - Nginx uninstalled.
+2024-12-10 13:51:07,555 - Checking for Homebrew-related cron jobs...
+2024-12-10 13:51:07,568 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+2024-12-10 13:51:07,568 - Homebrew-related cron jobs found. Removing...
+2024-12-10 13:51:07,579 - Homebrew-related cron jobs removed.
+2024-12-10 13:51:07,579 - Clearing all cron jobs...
+2024-12-10 13:51:07,589 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+2024-12-10 13:51:07,595 - All cron jobs cleared successfully.
+2024-12-10 13:51:07,595 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 13:51:58,391 - /opt/homebrew/Cellar/nginx/1.27.3.reinstall/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/html
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/README.md
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/src.tar.xz
+2024-12-10 13:51:58,393 - Uninstalling Nginx...
+2024-12-10 13:51:59,934 - Command failed: brew uninstall nginx
+Error: Could not remove nginx keg! Do so manually:
+  sudo rm -rf /opt/homebrew/Cellar/nginx/1.27.3.reinstall
+
+2024-12-10 14:04:38,001 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 14:04:38,003 - Uninstalling Nginx...
+2024-12-10 14:04:39,651 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 14:04:39,651 - Nginx uninstalled.
+2024-12-10 14:04:39,651 - Checking for Homebrew-related cron jobs...
+2024-12-10 14:04:39,664 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+2024-12-10 14:04:39,664 - Homebrew-related cron jobs found. Removing...
+2024-12-10 14:04:39,674 - Homebrew-related cron jobs removed.
+2024-12-10 14:04:39,674 - Clearing all cron jobs...
+2024-12-10 14:04:39,685 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+2024-12-10 14:04:39,689 - All cron jobs cleared successfully.
+2024-12-10 14:04:39,690 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 14:05:28,948 - /opt/homebrew/Cellar/nginx/1.27.3.reinstall/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/html
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/README.md
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/src.tar.xz
+2024-12-10 14:05:28,950 - Uninstalling Nginx...
+2024-12-10 14:05:30,494 - Command failed: brew uninstall nginx
+Error: Could not remove nginx keg! Do so manually:
+  sudo rm -rf /opt/homebrew/Cellar/nginx/1.27.3.reinstall
+
+2024-12-10 14:10:00,703 - This script requires root privileges. Please run with sudo.
+2024-12-10 14:11:30,033 - This script requires root privileges. Please run with sudo.
+2024-12-10 14:12:20,448 - Nginx is not installed via Homebrew.
+2024-12-10 14:12:20,448 - Checking for Homebrew-related cron jobs...
+2024-12-10 14:12:20,485 - No cron jobs found.
+2024-12-10 14:12:20,486 - Clearing all cron jobs...
+2024-12-10 14:12:20,509 - No cron jobs to clear.
+2024-12-10 14:12:20,509 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 14:12:37,271 - Nginx is not installed via Homebrew.
+2024-12-10 14:12:37,272 - Checking for Homebrew-related cron jobs...
+2024-12-10 14:12:37,295 - No cron jobs found.
+2024-12-10 14:12:37,295 - Clearing all cron jobs...
+2024-12-10 14:12:37,318 - No cron jobs to clear.
+2024-12-10 14:12:37,318 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 14:17:20,407 - Nginx is not installed via Homebrew.
+2024-12-10 14:17:20,407 - Checking for Homebrew-related cron jobs...
+2024-12-10 14:17:20,431 - No cron jobs found.
+2024-12-10 14:17:20,432 - Clearing all cron jobs...
+2024-12-10 14:17:20,455 - No cron jobs to clear.
+2024-12-10 14:17:20,455 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 14:20:54,398 - Nginx is not installed via Homebrew.
+2024-12-10 14:20:54,398 - Checking if Nginx was installed from source...
+2024-12-10 14:20:54,399 - No Nginx binaries found in /usr/local/nginx.
+2024-12-10 14:20:54,399 - Checking for Homebrew-related cron jobs...
+2024-12-10 14:20:54,423 - No cron jobs found.
+2024-12-10 14:20:54,423 - Clearing all cron jobs...
+2024-12-10 14:20:54,447 - No cron jobs to clear.
+2024-12-10 14:20:54,447 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 14:56:40,318 - This script requires root privileges. Please run with sudo.
+2024-12-10 14:58:56,519 - This script requires root privileges. Please run with sudo.
+2024-12-10 15:00:39,923 - This script requires root privileges. Please run with sudo.
+2024-12-10 15:00:51,129 - Nginx is not installed via Homebrew.
+2024-12-10 15:00:51,129 - Checking if Nginx was installed from source...
+2024-12-10 15:00:51,129 - No Nginx source files detected.
+2024-12-10 15:00:51,129 - Checking for Nginx installations via package managers...
+2024-12-10 15:00:51,129 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 15:00:51,129 - Checking for Homebrew-related cron jobs...
+2024-12-10 15:00:51,155 - No cron jobs found.
+2024-12-10 15:00:51,155 - Clearing all cron jobs...
+2024-12-10 15:00:51,178 - No cron jobs to clear.
+2024-12-10 15:00:51,178 - Uninstallation of Nginx and removal of cron jobs completed successfully.
+2024-12-10 15:05:18,374 - Starting Nginx uninstallation process...
+2024-12-10 15:05:18,374 - Uninstallation failed: run_command() got an unexpected keyword argument 'real_time'
+2024-12-10 15:06:18,376 - Starting Nginx uninstallation process...
+2024-12-10 15:06:18,703 - Nginx is not installed via Homebrew.
+2024-12-10 15:06:18,703 - Uninstallation failed: name 'found_nginx' is not defined
+2024-12-10 15:07:07,881 - Starting Nginx uninstallation process...
+2024-12-10 15:07:07,881 - Uninstallation failed: name 'uninstall_nginx_homebrew' is not defined
+2024-12-10 15:08:26,668 - Starting Nginx uninstallation process...
+2024-12-10 15:08:26,951 - Nginx is not installed via Homebrew.
+2024-12-10 15:08:26,951 - Checking if Nginx was installed from source...
+2024-12-10 15:08:26,951 - No Nginx source files detected.
+2024-12-10 15:08:26,951 - Checking for Nginx installations via package managers...
+2024-12-10 15:08:26,951 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 15:08:26,951 - Checking for Homebrew-related cron jobs...
+2024-12-10 15:08:26,964 - No cron jobs found.
+2024-12-10 15:08:26,964 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-10 15:08:26,964 - Nginx binary removed: /usr/sbin/nginx
+2024-12-10 15:08:26,964 - Nginx binary removed: /usr/bin/nginx
+2024-12-10 15:08:26,964 - Nginx uninstallation completed successfully.
+2024-12-10 15:13:19,393 - Starting Nginx uninstallation process...
+2024-12-10 15:13:19,394 - Uninstallation failed: name 'check_nginx_installed' is not defined
+2024-12-10 15:14:35,575 - Starting Nginx uninstallation process...
+2024-12-10 15:14:35,844 - Nginx is not installed via Homebrew.
+2024-12-10 15:14:35,844 - Checking if Nginx was installed from source...
+2024-12-10 15:14:35,844 - No Nginx source files detected.
+2024-12-10 15:14:35,844 - Checking for Nginx installations via package managers...
+2024-12-10 15:14:35,844 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 15:14:35,844 - Checking for Homebrew-related cron jobs...
+2024-12-10 15:14:35,855 - No cron jobs found.
+2024-12-10 15:14:35,855 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-10 15:14:35,855 - Nginx binary removed: /usr/sbin/nginx
+2024-12-10 15:14:35,855 - Nginx binary removed: /usr/bin/nginx
+2024-12-10 15:14:35,855 - Nginx uninstallation completed successfully.
+2024-12-10 15:25:47,460 - Initiating Nginx removal script...
+2024-12-10 15:25:47,460 - Starting Nginx uninstallation process...
+2024-12-10 15:25:47,460 - Stopping any running Nginx processes...
+2024-12-10 15:25:47,498 - Nginx processes stopped.
+2024-12-10 15:25:47,764 - Attempt 1 failed: Command: brew list nginx
+Error: Error: Running Homebrew as root is extremely dangerous and no longer supported.
+As Homebrew does not drop privileges on installation you would be giving all
+build scripts full access to your system.
+2024-12-10 15:57:38,746 - Initiating Nginx removal script...
+2024-12-10 15:57:38,746 - Starting Nginx uninstallation process...
+2024-12-10 15:57:38,746 - Stopping any running Nginx processes...
+2024-12-10 15:57:38,788 - Nginx processes stopped.
+2024-12-10 15:57:39,107 - Attempt 1 failed: Command: brew list nginx
+Error: Error: Running Homebrew as root is extremely dangerous and no longer supported.
+As Homebrew does not drop privileges on installation you would be giving all
+build scripts full access to your system.
+2024-12-10 16:21:05,698 - Initiating Nginx removal script...
+2024-12-10 16:21:05,698 - Starting Nginx uninstallation process...
+2024-12-10 16:21:05,698 - Stopping any running Nginx processes...
+2024-12-10 16:21:09,412 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-10 16:22:22,626 - Initiating Nginx removal script...
+2024-12-10 16:22:22,627 - Starting Nginx uninstallation process...
+2024-12-10 16:22:22,627 - Stopping any running Nginx processes...
+2024-12-10 16:22:22,668 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-10 16:25:46,001 - Initiating Nginx removal script...
+2024-12-10 16:25:46,001 - Starting Nginx uninstallation process...
+2024-12-10 16:25:46,001 - Deactivating virtual environment...
+2024-12-10 16:25:46,001 - Stopping any running Nginx processes...
+2024-12-10 16:25:46,060 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-10 16:25:46,060 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-10 16:25:46,060 - No running Nginx processes found or permission denied.
+2024-12-10 16:25:47,308 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 16:25:47,309 - Uninstalling Nginx via Homebrew...
+2024-12-10 16:25:48,901 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 16:25:48,901 - Nginx uninstalled via Homebrew.
+2024-12-10 16:25:48,901 - Checking if Nginx was installed from source...
+2024-12-10 16:25:48,902 - No Nginx source files detected.
+2024-12-10 16:25:48,902 - Checking for Nginx installations via package managers...
+2024-12-10 16:25:48,909 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-10 16:25:48,909 - Command failed after 1 attempts: command -v apt-get
+2024-12-10 16:25:48,917 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-10 16:25:48,917 - Command failed after 1 attempts: command -v yum
+2024-12-10 16:25:48,924 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-10 16:25:48,924 - Command failed after 1 attempts: command -v dnf
+2024-12-10 16:25:48,930 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-10 16:25:48,930 - Command failed after 1 attempts: command -v zypper
+2024-12-10 16:25:48,937 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-10 16:25:48,937 - Command failed after 1 attempts: command -v pacman
+2024-12-10 16:25:48,937 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 16:25:48,937 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-10 16:25:48,937 - Nginx binary removed: /usr/sbin/nginx
+2024-12-10 16:25:48,937 - Nginx binary removed: /usr/bin/nginx
+2024-12-10 16:25:48,937 - Nginx uninstallation completed successfully.
+2024-12-10 16:32:27,921 - Initiating Nginx removal script...
+2024-12-10 16:32:27,921 - Starting Nginx uninstallation process...
+2024-12-10 16:32:27,922 - Deactivating virtual environment...
+2024-12-10 16:32:27,922 - Stopping any running Nginx processes...
+2024-12-10 16:32:30,519 - No running Nginx processes found or permission denied.
+2024-12-10 16:32:31,798 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 16:32:31,799 - Uninstalling Nginx via Homebrew...
+2024-12-10 16:32:33,376 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 16:32:33,376 - Nginx uninstalled via Homebrew.
+2024-12-10 16:32:33,376 - Checking if Nginx was installed from source...
+2024-12-10 16:32:33,376 - No Nginx source files detected.
+2024-12-10 16:32:33,376 - Checking for Nginx installations via package managers...
+2024-12-10 16:32:33,384 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-10 16:32:33,384 - Command failed after 1 attempts: command -v apt-get
+2024-12-10 16:32:33,392 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-10 16:32:33,392 - Command failed after 1 attempts: command -v yum
+2024-12-10 16:32:33,399 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-10 16:32:33,399 - Command failed after 1 attempts: command -v dnf
+2024-12-10 16:32:33,406 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-10 16:32:33,406 - Command failed after 1 attempts: command -v zypper
+2024-12-10 16:32:33,414 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-10 16:32:33,414 - Command failed after 1 attempts: command -v pacman
+2024-12-10 16:32:33,414 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 16:32:33,414 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-10 16:32:33,414 - Nginx binary removed: /usr/sbin/nginx
+2024-12-10 16:32:33,414 - Nginx binary removed: /usr/bin/nginx
+2024-12-10 16:32:33,414 - Nginx uninstallation completed successfully.
+2024-12-10 16:34:15,720 - Initiating Nginx removal script...
+2024-12-10 16:34:15,721 - Starting Nginx uninstallation process...
+2024-12-10 16:34:15,721 - Deactivating virtual environment...
+2024-12-10 16:34:15,721 - Stopping any running Nginx processes...
+2024-12-10 16:34:18,389 - No running Nginx processes found or permission denied.
+2024-12-10 16:34:20,095 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-10 16:34:20,096 - Uninstalling Nginx via Homebrew...
+2024-12-10 16:34:22,049 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-10 16:34:22,050 - Nginx uninstalled via Homebrew.
+2024-12-10 16:34:22,050 - Checking if Nginx was installed from source...
+2024-12-10 16:34:22,050 - No Nginx source files detected.
+2024-12-10 16:34:22,050 - Checking for Nginx installations via package managers...
+2024-12-10 16:34:22,070 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-10 16:34:22,070 - Command failed after 1 attempts: command -v apt-get
+2024-12-10 16:34:22,084 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-10 16:34:22,084 - Command failed after 1 attempts: command -v yum
+2024-12-10 16:34:22,096 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-10 16:34:22,096 - Command failed after 1 attempts: command -v dnf
+2024-12-10 16:34:22,106 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-10 16:34:22,106 - Command failed after 1 attempts: command -v zypper
+2024-12-10 16:34:22,115 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-10 16:34:22,115 - Command failed after 1 attempts: command -v pacman
+2024-12-10 16:34:22,115 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-10 16:34:22,115 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-10 16:34:22,115 - Nginx binary removed: /usr/sbin/nginx
+2024-12-10 16:34:22,115 - Nginx binary removed: /usr/bin/nginx
+2024-12-10 16:34:22,115 - Nginx uninstallation completed successfully.
+2024-12-11 10:55:24,367 - Initiating Nginx removal script...
+2024-12-11 10:55:24,367 - Starting Nginx uninstallation process...
+2024-12-11 10:55:24,367 - Deactivating virtual environment...
+2024-12-11 10:55:24,367 - Stopping any running Nginx processes...
+2024-12-11 10:55:27,295 - No running Nginx processes found or permission denied.
+2024-12-11 10:55:27,295 - Removing plist file: /Library/LaunchDaemons/com.nginx.server.plist
+2024-12-11 10:55:27,351 - Plist file removed: /Library/LaunchDaemons/com.nginx.server.plist
+2024-12-11 10:55:28,715 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-11 10:55:28,715 - Uninstalling Nginx via Homebrew...
+2024-12-11 10:55:30,308 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+nginx 1.27.3.reinstall is still installed.
+To remove all versions, run:
+  brew uninstall --force nginx
+2024-12-11 10:55:30,308 - Nginx uninstalled via Homebrew.
+2024-12-11 10:55:30,308 - Checking if Nginx was installed from source...
+2024-12-11 10:55:30,309 - No Nginx source files detected.
+2024-12-11 10:55:30,309 - Checking for Nginx installations via package managers...
+2024-12-11 10:55:30,317 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-11 10:55:30,317 - Command failed after 1 attempts: command -v apt-get
+2024-12-11 10:55:30,323 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-11 10:55:30,323 - Command failed after 1 attempts: command -v yum
+2024-12-11 10:55:30,331 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-11 10:55:30,331 - Command failed after 1 attempts: command -v dnf
+2024-12-11 10:55:30,337 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-11 10:55:30,337 - Command failed after 1 attempts: command -v zypper
+2024-12-11 10:55:30,344 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-11 10:55:30,344 - Command failed after 1 attempts: command -v pacman
+2024-12-11 10:55:30,344 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-11 10:55:30,344 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-11 10:55:30,344 - Nginx binary removed: /usr/sbin/nginx
+2024-12-11 10:55:30,344 - Nginx binary removed: /usr/bin/nginx
+2024-12-11 10:55:30,344 - Nginx uninstallation completed successfully.
+2024-12-11 10:57:32,319 - Initiating Nginx removal script...
+2024-12-11 10:57:32,319 - Starting Nginx uninstallation process...
+2024-12-11 10:57:32,319 - Deactivating virtual environment...
+2024-12-11 10:57:32,319 - Stopping any running Nginx processes...
+2024-12-11 10:57:38,801 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-11 10:57:38,801 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-11 10:57:38,801 - No running Nginx processes found or permission denied.
+2024-12-11 10:57:40,290 - /opt/homebrew/Cellar/nginx/1.27.3.reinstall/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/html
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/README.md
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3.reinstall/share/nginx/src/src.tar.xz
+2024-12-11 10:57:40,291 - Uninstalling Nginx via Homebrew...
+2024-12-11 10:57:41,848 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3.reinstall... (24 files, 2.5MB)
+2024-12-11 10:57:41,848 - Nginx uninstalled via Homebrew.
+2024-12-11 10:57:41,848 - Removing user-level plist file: /Users/kyleabrahams/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+2024-12-11 10:57:41,859 - User-level plist file removed: /Users/kyleabrahams/Library/LaunchAgents/homebrew.mxcl.nginx.plist
+2024-12-11 10:57:41,859 - Checking if Nginx was installed from source...
+2024-12-11 10:57:41,859 - No Nginx source files detected.
+2024-12-11 10:57:41,859 - Checking for Nginx installations via package managers...
+2024-12-11 10:57:41,867 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-11 10:57:41,867 - Command failed after 1 attempts: command -v apt-get
+2024-12-11 10:57:41,873 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-11 10:57:41,874 - Command failed after 1 attempts: command -v yum
+2024-12-11 10:57:41,881 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-11 10:57:41,881 - Command failed after 1 attempts: command -v dnf
+2024-12-11 10:57:41,888 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-11 10:57:41,888 - Command failed after 1 attempts: command -v zypper
+2024-12-11 10:57:41,895 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-11 10:57:41,895 - Command failed after 1 attempts: command -v pacman
+2024-12-11 10:57:41,895 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-11 10:57:41,895 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-11 10:57:41,895 - Nginx binary removed: /usr/sbin/nginx
+2024-12-11 10:57:41,895 - Nginx binary removed: /usr/bin/nginx
+2024-12-11 10:57:41,895 - Nginx uninstallation completed successfully.
+2024-12-11 10:59:33,741 - Initiating Nginx removal script...
+2024-12-11 10:59:33,741 - Starting Nginx uninstallation process...
+2024-12-11 10:59:33,741 - Deactivating virtual environment...
+2024-12-11 10:59:33,741 - Stopping any running Nginx processes...
+2024-12-11 10:59:36,260 - No running Nginx processes found or permission denied.
+2024-12-11 10:59:37,562 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-11 10:59:37,562 - Uninstalling Nginx via Homebrew...
+2024-12-11 10:59:39,720 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-12-11 10:59:39,721 - Nginx uninstalled via Homebrew.
+2024-12-11 10:59:39,721 - No user-level plist file found for Nginx.
+2024-12-11 10:59:39,721 - Checking if Nginx was installed from source...
+2024-12-11 10:59:39,721 - No Nginx source files detected.
+2024-12-11 10:59:39,721 - Checking for Nginx installations via package managers...
+2024-12-11 10:59:39,732 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-11 10:59:39,732 - Command failed after 1 attempts: command -v apt-get
+2024-12-11 10:59:39,741 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-11 10:59:39,741 - Command failed after 1 attempts: command -v yum
+2024-12-11 10:59:39,750 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-11 10:59:39,751 - Command failed after 1 attempts: command -v dnf
+2024-12-11 10:59:39,759 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-11 10:59:39,759 - Command failed after 1 attempts: command -v zypper
+2024-12-11 10:59:39,767 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-11 10:59:39,767 - Command failed after 1 attempts: command -v pacman
+2024-12-11 10:59:39,767 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-11 10:59:39,767 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-11 10:59:39,767 - Nginx binary removed: /usr/sbin/nginx
+2024-12-11 10:59:39,767 - Nginx binary removed: /usr/bin/nginx
+2024-12-11 10:59:39,767 - Nginx uninstallation completed successfully.
+2024-12-11 11:23:47,874 - Initiating Nginx removal script...
+2024-12-11 11:23:47,874 - Starting Nginx uninstallation process...
+2024-12-11 11:23:47,874 - Deactivating virtual environment...
+2024-12-11 11:23:47,874 - Stopping any running Nginx processes...
+2024-12-11 11:23:50,611 - No running Nginx processes found or permission denied.
+2024-12-11 11:23:51,962 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-11 11:23:51,963 - Uninstalling Nginx via Homebrew...
+2024-12-11 11:23:53,534 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-12-11 11:23:53,534 - Nginx uninstalled via Homebrew.
+2024-12-11 11:23:53,534 - No user-level plist file found for Nginx.
+2024-12-11 11:23:53,535 - Checking if Nginx was installed from source...
+2024-12-11 11:23:53,535 - No Nginx source files detected.
+2024-12-11 11:23:53,535 - Checking for Nginx installations via package managers...
+2024-12-11 11:23:53,542 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-11 11:23:53,542 - Command failed after 1 attempts: command -v apt-get
+2024-12-11 11:23:53,549 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-11 11:23:53,549 - Command failed after 1 attempts: command -v yum
+2024-12-11 11:23:53,555 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-11 11:23:53,555 - Command failed after 1 attempts: command -v dnf
+2024-12-11 11:23:53,561 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-11 11:23:53,562 - Command failed after 1 attempts: command -v zypper
+2024-12-11 11:23:53,569 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-11 11:23:53,569 - Command failed after 1 attempts: command -v pacman
+2024-12-11 11:23:53,569 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-11 11:23:53,569 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-11 11:23:53,569 - Nginx binary removed: /usr/sbin/nginx
+2024-12-11 11:23:53,569 - Nginx binary removed: /usr/bin/nginx
+2024-12-11 11:23:53,569 - Nginx uninstallation completed successfully.
+2024-12-12 12:47:20,647 - Initiating Nginx removal script...
+2024-12-12 12:47:20,647 - Starting Nginx uninstallation process...
+2024-12-12 12:47:20,647 - Deactivating virtual environment...
+2024-12-12 12:47:20,647 - Stopping any running Nginx processes...
+2024-12-12 12:47:23,399 - No running Nginx processes found or permission denied.
+2024-12-12 12:47:24,716 - /opt/homebrew/Cellar/nginx/1.27.3/homebrew.mxcl.nginx.plist
+/opt/homebrew/Cellar/nginx/1.27.3/INSTALL_RECEIPT.json
+/opt/homebrew/Cellar/nginx/1.27.3/LICENSE
+/opt/homebrew/Cellar/nginx/1.27.3/bin/nginx
+/opt/homebrew/Cellar/nginx/1.27.3/.brew/nginx.rb
+/opt/homebrew/Cellar/nginx/1.27.3/CHANGES
+/opt/homebrew/Cellar/nginx/1.27.3/html
+/opt/homebrew/Cellar/nginx/1.27.3/sbom.spdx.json
+/opt/homebrew/Cellar/nginx/1.27.3/README.md
+/opt/homebrew/Cellar/nginx/1.27.3/homebrew.nginx.service
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/scgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi.conf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/fastcgi_params.default
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/uwsgi_params
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-win
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/mime.types
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/koi-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/win-utf
+/opt/homebrew/Cellar/nginx/1.27.3/.bottle/etc/nginx/nginx.conf
+/opt/homebrew/Cellar/nginx/1.27.3/share/man/man8/nginx.8
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/configure_args.txt
+/opt/homebrew/Cellar/nginx/1.27.3/share/nginx/src/src.tar.xz
+2024-12-12 12:47:24,717 - Uninstalling Nginx via Homebrew...
+2024-12-12 12:47:26,295 - Uninstalling /opt/homebrew/Cellar/nginx/1.27.3... (27 files, 2.5MB)
+2024-12-12 12:47:26,295 - Nginx uninstalled via Homebrew.
+2024-12-12 12:47:26,295 - No user-level plist file found for Nginx.
+2024-12-12 12:47:26,295 - Checking if Nginx was installed from source...
+2024-12-12 12:47:26,295 - No Nginx source files detected.
+2024-12-12 12:47:26,295 - Checking for Nginx installations via package managers...
+2024-12-12 12:47:26,304 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 12:47:26,304 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 12:47:26,310 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 12:47:26,311 - Command failed after 1 attempts: command -v yum
+2024-12-12 12:47:26,317 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 12:47:26,318 - Command failed after 1 attempts: command -v dnf
+2024-12-12 12:47:26,323 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 12:47:26,324 - Command failed after 1 attempts: command -v zypper
+2024-12-12 12:47:26,331 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 12:47:26,331 - Command failed after 1 attempts: command -v pacman
+2024-12-12 12:47:26,331 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 12:47:26,331 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 12:47:26,331 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 12:47:26,331 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 12:47:26,331 - Nginx uninstallation completed successfully.
+2024-12-12 12:50:45,190 - Initiating Nginx removal script...
+2024-12-12 12:50:45,190 - Starting Nginx uninstallation process...
+2024-12-12 12:50:45,190 - Deactivating virtual environment...
+2024-12-12 12:50:45,190 - Stopping any running Nginx processes...
+2024-12-12 12:50:48,658 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 12:50:48,658 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 12:50:48,658 - No running Nginx processes found or permission denied.
+2024-12-12 12:50:50,107 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 12:50:50,107 - Command failed after 1 attempts: brew list nginx
+2024-12-12 12:50:50,107 - Uninstallation failed: 'NoneType' object has no attribute 'strip'
+2024-12-12 12:52:33,438 - Initiating Nginx removal script...
+2024-12-12 12:52:33,438 - Starting Nginx uninstallation process...
+2024-12-12 12:52:33,438 - Deactivating virtual environment...
+2024-12-12 12:52:33,438 - Stopping any running Nginx processes...
+2024-12-12 12:52:35,805 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 12:52:35,805 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 12:52:35,805 - No running Nginx processes found or permission denied.
+2024-12-12 12:52:37,245 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 12:52:37,246 - Command failed after 1 attempts: brew list nginx
+2024-12-12 12:52:37,246 - Nginx is not installed via Homebrew.
+2024-12-12 12:52:37,246 - No user-level plist file found for Nginx.
+2024-12-12 12:52:37,246 - Checking if Nginx was installed from source...
+2024-12-12 12:52:37,246 - No Nginx source files detected.
+2024-12-12 12:52:37,246 - Checking for Nginx installations via package managers...
+2024-12-12 12:52:37,253 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 12:52:37,253 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 12:52:37,261 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 12:52:37,261 - Command failed after 1 attempts: command -v yum
+2024-12-12 12:52:37,269 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 12:52:37,269 - Command failed after 1 attempts: command -v dnf
+2024-12-12 12:52:37,276 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 12:52:37,276 - Command failed after 1 attempts: command -v zypper
+2024-12-12 12:52:37,282 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 12:52:37,282 - Command failed after 1 attempts: command -v pacman
+2024-12-12 12:52:37,282 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 12:52:37,282 - Removing Nginx-related cron jobs...
+2024-12-12 12:52:37,297 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 12:52:37,310 - Nginx-related cron job removed successfully.
+2024-12-12 12:52:37,310 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 12:52:37,310 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 12:52:37,310 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 12:52:37,310 - Nginx uninstallation completed successfully.
+2024-12-12 12:54:10,012 - Initiating Nginx removal script...
+2024-12-12 12:54:10,012 - Starting Nginx uninstallation process...
+2024-12-12 12:54:10,012 - Deactivating virtual environment...
+2024-12-12 12:54:10,012 - Stopping any running Nginx processes...
+2024-12-12 12:54:12,574 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 12:54:12,574 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 12:54:12,574 - No running Nginx processes found or permission denied.
+2024-12-12 12:54:13,966 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 12:54:13,966 - Command failed after 1 attempts: brew list nginx
+2024-12-12 12:54:13,966 - Nginx is not installed via Homebrew.
+2024-12-12 12:54:13,966 - No user-level plist file found for Nginx.
+2024-12-12 12:54:13,966 - Checking if Nginx was installed from source...
+2024-12-12 12:54:13,966 - No Nginx source files detected.
+2024-12-12 12:54:13,966 - Checking for Nginx installations via package managers...
+2024-12-12 12:54:13,972 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 12:54:13,972 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 12:54:13,980 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 12:54:13,980 - Command failed after 1 attempts: command -v yum
+2024-12-12 12:54:13,988 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 12:54:13,988 - Command failed after 1 attempts: command -v dnf
+2024-12-12 12:54:13,994 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 12:54:13,995 - Command failed after 1 attempts: command -v zypper
+2024-12-12 12:54:14,002 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 12:54:14,002 - Command failed after 1 attempts: command -v pacman
+2024-12-12 12:54:14,002 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 12:54:14,002 - Uninstallation failed: name 'remove_nginx_cron_job' is not defined
+2024-12-12 12:55:21,750 - Initiating Nginx removal script...
+2024-12-12 12:55:21,750 - Starting Nginx uninstallation process...
+2024-12-12 12:55:21,750 - Deactivating virtual environment...
+2024-12-12 12:55:21,751 - Stopping any running Nginx processes...
+2024-12-12 12:55:24,403 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 12:55:24,403 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 12:55:24,403 - No running Nginx processes found or permission denied.
+2024-12-12 12:55:25,797 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 12:55:25,797 - Command failed after 1 attempts: brew list nginx
+2024-12-12 12:55:25,797 - Nginx is not installed via Homebrew.
+2024-12-12 12:55:25,797 - No user-level plist file found for Nginx.
+2024-12-12 12:55:25,797 - Checking if Nginx was installed from source...
+2024-12-12 12:55:25,797 - No Nginx source files detected.
+2024-12-12 12:55:25,797 - Checking for Nginx installations via package managers...
+2024-12-12 12:55:25,803 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 12:55:25,804 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 12:55:25,811 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 12:55:25,811 - Command failed after 1 attempts: command -v yum
+2024-12-12 12:55:25,818 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 12:55:25,818 - Command failed after 1 attempts: command -v dnf
+2024-12-12 12:55:25,824 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 12:55:25,824 - Command failed after 1 attempts: command -v zypper
+2024-12-12 12:55:25,831 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 12:55:25,831 - Command failed after 1 attempts: command -v pacman
+2024-12-12 12:55:25,831 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 12:55:25,831 - Removing Nginx-related cron jobs...
+2024-12-12 12:55:25,845 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 12:55:25,858 - Nginx-related cron jobs removed successfully.
+2024-12-12 12:55:25,858 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 12:55:25,858 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 12:55:25,858 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 12:55:25,858 - Nginx uninstallation completed successfully.
+2024-12-12 12:58:30,689 - Initiating Nginx removal script...
+2024-12-12 12:58:30,690 - Starting Nginx uninstallation process...
+2024-12-12 12:58:30,690 - Deactivating virtual environment...
+2024-12-12 12:58:30,690 - Stopping any running Nginx processes...
+2024-12-12 12:58:30,729 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 12:58:30,729 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 12:58:30,729 - No running Nginx processes found or permission denied.
+2024-12-12 12:58:32,162 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 12:58:32,162 - Command failed after 1 attempts: brew list nginx
+2024-12-12 12:58:32,163 - Nginx is not installed via Homebrew.
+2024-12-12 12:58:32,163 - No user-level plist file found for Nginx.
+2024-12-12 12:58:32,163 - Checking if Nginx was installed from source...
+2024-12-12 12:58:32,163 - No Nginx source files detected.
+2024-12-12 12:58:32,163 - Checking for Nginx installations via package managers...
+2024-12-12 12:58:32,169 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 12:58:32,169 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 12:58:32,177 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 12:58:32,177 - Command failed after 1 attempts: command -v yum
+2024-12-12 12:58:32,185 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 12:58:32,185 - Command failed after 1 attempts: command -v dnf
+2024-12-12 12:58:32,191 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 12:58:32,191 - Command failed after 1 attempts: command -v zypper
+2024-12-12 12:58:32,200 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 12:58:32,200 - Command failed after 1 attempts: command -v pacman
+2024-12-12 12:58:32,200 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 12:58:32,200 - Removing Nginx-related cron jobs...
+2024-12-12 12:58:32,213 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 12:58:32,214 - No Nginx-related cron jobs found.
+2024-12-12 12:58:32,214 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 12:58:32,214 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 12:58:32,214 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 12:58:32,214 - Nginx uninstallation completed successfully.
+2024-12-12 13:04:16,977 - Initiating Nginx removal script...
+2024-12-12 13:04:16,977 - Starting Nginx uninstallation process...
+2024-12-12 13:04:16,977 - Deactivating virtual environment...
+2024-12-12 13:04:16,977 - Stopping any running Nginx processes...
+2024-12-12 13:04:19,993 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 13:04:19,993 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 13:04:19,993 - No running Nginx processes found or permission denied.
+2024-12-12 13:04:21,416 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 13:04:21,416 - Command failed after 1 attempts: brew list nginx
+2024-12-12 13:04:21,416 - Nginx is not installed via Homebrew.
+2024-12-12 13:04:21,417 - No user-level plist file found for Nginx.
+2024-12-12 13:04:21,417 - Checking if Nginx was installed from source...
+2024-12-12 13:04:21,417 - No Nginx source files detected.
+2024-12-12 13:04:21,417 - Checking for Nginx installations via package managers...
+2024-12-12 13:04:21,423 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 13:04:21,423 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 13:04:21,429 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 13:04:21,429 - Command failed after 1 attempts: command -v yum
+2024-12-12 13:04:21,437 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 13:04:21,437 - Command failed after 1 attempts: command -v dnf
+2024-12-12 13:04:21,443 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 13:04:21,443 - Command failed after 1 attempts: command -v zypper
+2024-12-12 13:04:21,450 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 13:04:21,450 - Command failed after 1 attempts: command -v pacman
+2024-12-12 13:04:21,450 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 13:04:21,450 - Removing Nginx-related cron jobs...
+2024-12-12 13:04:21,463 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 13:04:21,463 - No Nginx-related cron jobs found.
+2024-12-12 13:04:21,463 - No plist file found at /Library/LaunchDaemons/com.nginx.server.plist.
+2024-12-12 13:04:21,463 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 13:04:21,463 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 13:04:21,463 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 13:04:21,463 - Nginx uninstallation completed successfully.
+2024-12-12 13:07:49,765 - Initiating Nginx removal script...
+2024-12-12 13:07:49,765 - Starting Nginx uninstallation process...
+2024-12-12 13:07:49,765 - Deactivating virtual environment...
+2024-12-12 13:07:49,765 - Stopping any running Nginx processes...
+2024-12-12 13:07:52,432 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 13:07:52,432 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 13:07:52,432 - No running Nginx processes found or permission denied.
+2024-12-12 13:07:54,021 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 13:07:54,021 - Command failed after 1 attempts: brew list nginx
+2024-12-12 13:07:54,022 - Nginx is not installed via Homebrew.
+2024-12-12 13:07:54,022 - No user-level plist file found for Nginx.
+2024-12-12 13:07:54,022 - Checking if Nginx was installed from source...
+2024-12-12 13:07:54,022 - No Nginx source files detected.
+2024-12-12 13:07:54,022 - Checking for Nginx installations via package managers...
+2024-12-12 13:07:54,030 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 13:07:54,030 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 13:07:54,037 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 13:07:54,037 - Command failed after 1 attempts: command -v yum
+2024-12-12 13:07:54,046 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 13:07:54,046 - Command failed after 1 attempts: command -v dnf
+2024-12-12 13:07:54,053 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 13:07:54,053 - Command failed after 1 attempts: command -v zypper
+2024-12-12 13:07:54,060 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 13:07:54,060 - Command failed after 1 attempts: command -v pacman
+2024-12-12 13:07:54,060 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 13:07:54,060 - Removing Nginx-related cron jobs...
+2024-12-12 13:07:54,074 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 13:07:54,074 - No Nginx-related cron jobs found.
+2024-12-12 13:07:54,074 - Uninstallation failed: name 'remove_nginx_plist' is not defined
+2024-12-12 13:08:48,000 - Initiating Nginx removal script...
+2024-12-12 13:08:48,000 - Starting Nginx uninstallation process...
+2024-12-12 13:08:48,001 - Deactivating virtual environment...
+2024-12-12 13:08:48,001 - Stopping any running Nginx processes...
+2024-12-12 13:08:50,411 - Attempt 1 failed: Command: sudo pkill nginx
+Error: 
+2024-12-12 13:08:50,411 - Command failed after 1 attempts: sudo pkill nginx
+2024-12-12 13:08:50,411 - No running Nginx processes found or permission denied.
+2024-12-12 13:08:51,825 - Attempt 1 failed: Command: brew list nginx
+Error: Error: No such keg: /opt/homebrew/Cellar/nginx
+2024-12-12 13:08:51,825 - Command failed after 1 attempts: brew list nginx
+2024-12-12 13:08:51,825 - Nginx is not installed via Homebrew.
+2024-12-12 13:08:51,825 - No plist file found at /Users/kyleabrahams/Library/LaunchAgents/homebrew.mxcl.nginx.plist.
+2024-12-12 13:08:51,825 - Removing plist file: /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+2024-12-12 13:08:57,473 - Plist file removed: /Library/LaunchAgents/homebrew.mxcl.nginx.plist
+2024-12-12 13:08:57,473 - No plist file found at /Library/LaunchDaemons/com.nginx.server.plist.
+2024-12-12 13:08:57,473 - Checking if Nginx was installed from source...
+2024-12-12 13:08:57,473 - No Nginx source files detected.
+2024-12-12 13:08:57,473 - Checking for Nginx installations via package managers...
+2024-12-12 13:08:57,479 - Attempt 1 failed: Command: command -v apt-get
+Error: 
+2024-12-12 13:08:57,479 - Command failed after 1 attempts: command -v apt-get
+2024-12-12 13:08:57,487 - Attempt 1 failed: Command: command -v yum
+Error: 
+2024-12-12 13:08:57,488 - Command failed after 1 attempts: command -v yum
+2024-12-12 13:08:57,496 - Attempt 1 failed: Command: command -v dnf
+Error: 
+2024-12-12 13:08:57,496 - Command failed after 1 attempts: command -v dnf
+2024-12-12 13:08:57,503 - Attempt 1 failed: Command: command -v zypper
+Error: 
+2024-12-12 13:08:57,503 - Command failed after 1 attempts: command -v zypper
+2024-12-12 13:08:57,510 - Attempt 1 failed: Command: command -v pacman
+Error: 
+2024-12-12 13:08:57,510 - Command failed after 1 attempts: command -v pacman
+2024-12-12 13:08:57,510 - No supported package manager found. Skipping package-based Nginx removal.
+2024-12-12 13:08:57,510 - Removing Nginx-related cron jobs...
+2024-12-12 13:08:57,525 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-12-12 13:08:57,525 - No Nginx-related cron jobs found.
+2024-12-12 13:08:57,525 - Nginx binary removed: /usr/local/bin/nginx
+2024-12-12 13:08:57,526 - Nginx binary removed: /usr/sbin/nginx
+2024-12-12 13:08:57,526 - Nginx binary removed: /usr/bin/nginx
+2024-12-12 13:08:57,526 - Nginx uninstallation completed successfully.

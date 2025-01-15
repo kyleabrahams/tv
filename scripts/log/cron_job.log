@@ -1,0 +1,2177 @@
+Dec 17 2024 10:42:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Merging EPG data...
+An error occurred: [Errno 2] No such file or directory: 'npm'
+['dummy.xml', 'xumo.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Directory /Users/kyleabrahams/Documents/GitHub/tv/scripts/www does not have write permissions. Updating permissions...
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 155, in <module>
+    ensure_permissions(save_path)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 144, in ensure_permissions
+    os.chmod(directory, 0o755)  # Set write permission for the directory owner
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted: '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www'
+Dec 17 2024 14:56:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Merging EPG data...
+An error occurred: [Errno 2] No such file or directory: 'npm'
+['dummy.xml', 'xumo.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 2/25 - xumo.xml
+Error processing local file xumo.xml: [Errno 2] No such file or directory: 'xumo.xml'
+Fetching 3/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 3/25
+Fetching 4/25 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 17 2024 15:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Merging EPG data...
+An error occurred: [Errno 2] No such file or directory: 'npm'
+['dummy.xml', 'xumo.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 2/25 - xumo.xml
+Error processing local file xumo.xml: [Errno 2] No such file or directory: 'xumo.xml'
+Fetching 3/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 3/25
+Fetching 4/25 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 17 2024 15:02:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Merging EPG data...
+An error occurred: [Errno 2] No such file or directory: 'npm'
+['dummy.xml', 'xumo.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 2/25 - xumo.xml
+Error processing local file xumo.xml: [Errno 2] No such file or directory: 'xumo.xml'
+Fetching 3/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 3/25
+Fetching 4/25 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 18 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Running command: npm run grab -- --channels=xumo_custom.xml --output ./scripts/xumo.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Running command: npm run grab -- --channels=canada_custom.xml --output ./scripts/canada.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+An error occurred: name 'command' is not defined
+['canada.xml', 'dummy.xml', 'xumo.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/26 - canada.xml
+Error processing local file canada.xml: [Errno 2] No such file or directory: 'canada.xml'
+Fetching 2/26 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 3/26 - xumo.xml
+Error processing local file xumo.xml: [Errno 2] No such file or directory: 'xumo.xml'
+Fetching 4/26 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/26
+Fetching 5/26 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 5/26
+Fetching 6/26 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/26
+Fetching 7/26 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 7/26
+Fetching 8/26 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 8/26
+Fetching 9/26 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 9/26
+Fetching 10/26 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 10/26
+Fetching 11/26 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 11/26
+Fetching 12/26 - https://i.mjh.nz/PlutoTV/all.xml
+XML parse error for https://i.mjh.nz/PlutoTV/all.xml: no element found: line 1, column 0
+Fetching 13/26 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 13/26
+Fetching 14/26 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 14/26
+Fetching 15/26 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 15/26
+Fetching 16/26 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 16/26
+Fetching 17/26 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 17/26
+Fetching 18/26 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 18/26
+Fetching 19/26 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 19/26
+Fetching 20/26 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 20/26
+Fetching 21/26 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 21/26
+Fetching 22/26 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 22/26
+Fetching 23/26 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 23/26
+Fetching 24/26 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 24/26
+Fetching 25/26 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 25/26
+Fetching 26/26 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 26/26
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 18 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Running command: npm run grab -- --channels=all_custom.xml --output ./scripts/all_custom.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+An error occurred: name 'command' is not defined
+['all_custom.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - all_custom.xml
+Error processing local file all_custom.xml: [Errno 2] No such file or directory: 'all_custom.xml'
+Fetching 2/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 3/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 3/25
+Fetching 4/25 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 19 2024 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+EPG data saved to dummy.xml
+
+Running command: npm run grab -- --channels=channels_custom.xml --output ./scripts/channels_custom.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+An error occurred: name 'command' is not defined
+['channels_custom.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom.xml
+Error processing local file channels_custom.xml: [Errno 2] No such file or directory: 'channels_custom.xml'
+Fetching 2/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 3/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 3/25
+Fetching 4/25 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 19 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 20 2024 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 20 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 21 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 21 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 22 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 22 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 23 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/25 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/25 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/25 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/25 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+Successfully fetched 4/25
+Fetching 5/25 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 5/25
+Fetching 6/25 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 6/25
+Fetching 7/25 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 7/25
+Fetching 8/25 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 8/25
+Fetching 9/25 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 9/25
+Fetching 10/25 - https://i.mjh.nz/SamsungTVPlus/all.xml
+Successfully fetched 10/25
+Fetching 11/25 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 11/25
+Fetching 12/25 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 12/25
+Fetching 13/25 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 13/25
+Fetching 14/25 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 14/25
+Fetching 15/25 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 15/25
+Fetching 16/25 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 16/25
+Fetching 17/25 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 17/25
+Fetching 18/25 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 18/25
+Fetching 19/25 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 19/25
+Fetching 20/25 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 20/25
+Fetching 21/25 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 21/25
+Fetching 22/25 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 22/25
+Fetching 23/25 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 23/25
+Fetching 24/25 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 24/25
+Fetching 25/25 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 25/25
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 23 2024 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=test_start.xml --output ./scripts/test_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/canada1.xml.gz', 'https://www.bevy.be/bevyfiles/canada2.xml.gz', 'https://www.bevy.be/bevyfiles/canada3.xml.gz', 'https://www.bevy.be/bevyfiles/canada4.xml.gz', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz']
+Fetching 1/22 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/22 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/22 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 4/22 - https://www.bevy.be/bevyfiles/canada1.xml.gz
+Successfully fetched 4/22
+Fetching 5/22 - https://www.bevy.be/bevyfiles/canada2.xml.gz
+Successfully fetched 5/22
+Fetching 6/22 - https://www.bevy.be/bevyfiles/canada3.xml.gz
+Successfully fetched 6/22
+Fetching 7/22 - https://www.bevy.be/bevyfiles/canada4.xml.gz
+Successfully fetched 7/22
+Fetching 8/22 - https://i.mjh.nz/PlutoTV/all.xml
+Successfully fetched 8/22
+Fetching 9/22 - https://i.mjh.nz/Plex/all.xml
+Successfully fetched 9/22
+Fetching 10/22 - https://i.mjh.nz/Stirr/all.xml
+Successfully fetched 10/22
+Fetching 11/22 - https://i.mjh.nz/PBS/all.xml
+Successfully fetched 11/22
+Fetching 12/22 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 12/22
+Fetching 13/22 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 13/22
+Fetching 14/22 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 14/22
+Fetching 15/22 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 15/22
+Fetching 16/22 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 16/22
+Fetching 17/22 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 17/22
+Fetching 18/22 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 18/22
+Fetching 19/22 - https://www.bevy.be/bevyfiles/unitedkingdom1.xml.gz
+Successfully fetched 19/22
+Fetching 20/22 - https://www.bevy.be/bevyfiles/unitedkingdom2.xml.gz
+Successfully fetched 20/22
+Fetching 21/22 - https://www.bevy.be/bevyfiles/unitedkingdom3.xml.gz
+Successfully fetched 21/22
+Fetching 22/22 - https://www.bevy.be/bevyfiles/unitedkingdom4.xml.gz
+Successfully fetched 22/22
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 24 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_xml.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_xml.xml
+Error processing local file channels_xml.xml: [Errno 2] No such file or directory: 'channels_xml.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 24 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_xml.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_xml.xml
+Error processing local file channels_xml.xml: [Errno 2] No such file or directory: 'channels_xml.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 25 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 25 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 26 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 26 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 27 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Error loading channels from file: [Errno 2] No such file or directory: 'channels.json'
+No channels to fetch EPG data for. Exiting.
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/11 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/11 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/11 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/11 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/11 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 5/11
+Fetching 6/11 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 6/11
+Fetching 7/11 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 7/11
+Fetching 8/11 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 8/11
+Fetching 9/11 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 9/11
+Fetching 10/11 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 10/11
+Fetching 11/11 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 11/11
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 27 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates3.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates4.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates5.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates6.xml.gz', 'https://www.bevy.be/bevyfiles/unitedstates7.xml.gz']
+Fetching 1/12 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/12 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/12 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/12 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/12 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/12
+Fetching 6/12 - https://www.bevy.be/bevyfiles/unitedstates1.xml.gz
+Successfully fetched 6/12
+Fetching 7/12 - https://www.bevy.be/bevyfiles/unitedstates2.xml.gz
+Successfully fetched 7/12
+Fetching 8/12 - https://www.bevy.be/bevyfiles/unitedstates3.xml.gz
+Successfully fetched 8/12
+Fetching 9/12 - https://www.bevy.be/bevyfiles/unitedstates4.xml.gz
+Successfully fetched 9/12
+Fetching 10/12 - https://www.bevy.be/bevyfiles/unitedstates5.xml.gz
+Successfully fetched 10/12
+Fetching 11/12 - https://www.bevy.be/bevyfiles/unitedstates6.xml.gz
+Successfully fetched 11/12
+Fetching 12/12 - https://www.bevy.be/bevyfiles/unitedstates7.xml.gz
+Successfully fetched 12/12
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 28 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 28 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 29 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 29 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 30 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 30 2024 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/6 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/6 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/6 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/6 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/6 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 5/6
+Fetching 6/6 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 6/6
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 31 2024 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Dec 31 2024 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 01 2025 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 01 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 02 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 02 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 03 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 03 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 04 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 04 2025 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 05 2025 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 05 2025 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 06 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 06 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 07 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 07 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 08 2025 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 08 2025 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml', 'https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz', 'https://epg.pw/xmltv/epg_CA.xml.gz', 'https://epg.pw/xmltv/epg_US.xml.gz']
+Fetching 1/9 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/9 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/9 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/9 - dummy.xml
+Successfully loaded local file: dummy.xml
+Fetching 5/9 - https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz
+Successfully fetched 5/9
+Fetching 6/9 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+Successfully fetched 6/9
+Fetching 7/9 - https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz
+Successfully fetched 7/9
+Fetching 8/9 - https://epg.pw/xmltv/epg_CA.xml.gz
+Successfully fetched 8/9
+Fetching 9/9 - https://epg.pw/xmltv/epg_US.xml.gz
+Successfully fetched 9/9
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 09 2025 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml']
+Fetching 1/4 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/4 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/4 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/4 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 09 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml']
+Fetching 1/4 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/4 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/4 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/4 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 10 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'channels_json.xml', 'dummy.xml']
+Fetching 1/4 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/4 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/4 - channels_json.xml
+Error processing local file channels_json.xml: [Errno 2] No such file or directory: 'channels_json.xml'
+Fetching 4/4 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Jan 10 2025 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 82, in run_npm_grab
+    logger.info(f"Running command: {command_str}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 119, in <module>
+    run_npm_grab() # Run npm grab commands
+    ~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 116, in run_npm_grab
+    logger.error(f"Error while running npm command {command_str}: {e}")
+    ^^^^^^
+NameError: name 'logger' is not defined
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 11 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 11 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 12 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 12 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 13 2025 01:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 13 2025 13:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 14 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 14 2025 13:00:00
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+Error while running npm command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml: [Errno 2] No such file or directory: 'npm'
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 15 2025 01:00:01
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Error while running dummy_epg.py: Command '['./venv/bin/python3', 'dummy_epg.py']' returned non-zero exit status 2.
+/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kyleabrahams/dummy_epg.py': [Errno 2] No such file or directory
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+STDERR: npm error code ENOENT
+STDERR: npm error syscall open
+STDERR: npm error path /Users/kyleabrahams/package.json
+STDERR: npm error errno -2
+STDERR: npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/kyleabrahams/package.json'
+STDERR: npm error enoent This is related to npm not being able to find a file.
+STDERR: npm error enoent
+STDERR: npm error A complete log of this run can be found in: /Users/kyleabrahams/.npm/_logs/2025-01-15T06_00_01_732Z-debug-0.log
+Command npm run grab -- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml failed with error code 254.
+Merging EPG data...
+['channels_custom_end.xml', 'test_end.xml', 'dummy.xml']
+Fetching 1/3 - channels_custom_end.xml
+Error processing local file channels_custom_end.xml: [Errno 2] No such file or directory: 'channels_custom_end.xml'
+Fetching 2/3 - test_end.xml
+Error processing local file test_end.xml: [Errno 2] No such file or directory: 'test_end.xml'
+Fetching 3/3 - dummy.xml
+Successfully loaded local file: dummy.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml

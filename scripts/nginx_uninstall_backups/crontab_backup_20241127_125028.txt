@@ -1,0 +1,5 @@
+0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron is working at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1

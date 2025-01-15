@@ -1,0 +1,1482 @@
+2024-11-27 13:03:56,638 - Starting the setup process.
+2024-11-27 13:03:56,643 - /opt/homebrew/bin/brew
+2024-11-27 13:03:56,643 - Homebrew is already installed.
+2024-11-27 13:03:56,643 - Installing or updating Nginx...
+2024-11-27 13:04:00,273 - ==> Downloading https://ghcr.io/v2/homebrew/core/nginx/manifests/1.27.3
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ae56a45f9cd481179361cff87bdd6e8b21f172ae4e7ee9891f3a45afd67adc43--nginx-1.27.3.bottle_manifest.json
+==> Fetching nginx
+==> Downloading https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:691234420f8adcf3f95440102d9170ab69906756019fe68f47e2d607a05222b6
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ce3ea67d7b43fb9e71e964d32879d6d9d9aa264e7eda0106b5c70a6bea649755--nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Pouring nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To start nginx now and restart at login:
+  brew services start nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+==> Summary
+🍺  /opt/homebrew/Cellar/nginx/1.27.3: 27 files, 2.5MB
+==> Running `brew cleanup nginx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+2024-11-27 13:04:00,298 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:04:00,311 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:04:00,312 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:04:00,319 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:04:00,331 - Creating virtual environment...
+2024-11-27 13:04:00,338 - Virtual environment created.
+2024-11-27 13:04:00,344 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:04:00,344 - Setting up cron jobs...
+2024-11-27 13:04:00,351 - 
+2024-11-27 13:04:00,356 - Cron jobs set up successfully.
+2024-11-27 13:04:00,356 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:04:00,378 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:10:07,590 - Starting the setup process.
+2024-11-27 13:10:07,593 - /opt/homebrew/bin/brew
+2024-11-27 13:10:07,594 - Homebrew is already installed.
+2024-11-27 13:10:07,594 - Installing or updating Nginx...
+2024-11-27 13:10:10,593 - ==> Downloading https://ghcr.io/v2/homebrew/core/nginx/manifests/1.27.3
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ae56a45f9cd481179361cff87bdd6e8b21f172ae4e7ee9891f3a45afd67adc43--nginx-1.27.3.bottle_manifest.json
+==> Fetching nginx
+==> Downloading https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:691234420f8adcf3f95440102d9170ab69906756019fe68f47e2d607a05222b6
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ce3ea67d7b43fb9e71e964d32879d6d9d9aa264e7eda0106b5c70a6bea649755--nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Pouring nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To start nginx now and restart at login:
+  brew services start nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+==> Summary
+🍺  /opt/homebrew/Cellar/nginx/1.27.3: 27 files, 2.5MB
+==> Running `brew cleanup nginx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+2024-11-27 13:10:10,609 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:10:10,621 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:10:10,621 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:10:10,628 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:10:10,646 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:10:10,647 - Setting up cron jobs...
+2024-11-27 13:10:10,658 - Cron jobs set up successfully.
+2024-11-27 13:10:10,658 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:10:10,681 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:20:37,054 - Starting the setup process.
+2024-11-27 13:20:37,057 - /opt/homebrew/bin/brew
+2024-11-27 13:20:37,057 - Homebrew is already installed.
+2024-11-27 13:20:37,057 - Installing or updating Nginx...
+2024-11-27 13:20:39,425 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:20:39,437 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:20:39,437 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:20:39,444 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:20:39,462 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:20:39,462 - Setting up cron jobs...
+2024-11-27 13:20:39,468 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:20:39,474 - Cron jobs set up successfully.
+2024-11-27 13:20:39,474 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:20:39,497 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:22:36,142 - Starting the setup process.
+2024-11-27 13:22:36,146 - /opt/homebrew/bin/brew
+2024-11-27 13:22:36,146 - Homebrew is already installed.
+2024-11-27 13:22:36,146 - Installing or updating Nginx...
+2024-11-27 13:22:37,928 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:22:37,939 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:22:37,939 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:22:37,945 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:22:37,964 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:22:37,964 - Setting up cron jobs...
+2024-11-27 13:22:37,970 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:22:37,976 - Cron jobs set up successfully.
+2024-11-27 13:22:37,976 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:22:37,999 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:23:40,534 - Starting the setup process.
+2024-11-27 13:23:40,538 - /opt/homebrew/bin/brew
+2024-11-27 13:23:40,539 - Homebrew is already installed.
+2024-11-27 13:23:40,539 - Installing or updating Nginx...
+2024-11-27 13:23:45,379 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:23:45,390 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:23:45,391 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:23:45,399 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:23:45,417 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:23:45,417 - Setting up cron jobs...
+2024-11-27 13:23:45,423 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:23:45,430 - Cron jobs set up successfully.
+2024-11-27 13:23:45,430 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:23:45,455 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:25:08,098 - Starting the setup process.
+2024-11-27 13:25:08,102 - /opt/homebrew/bin/brew
+2024-11-27 13:25:08,102 - Homebrew is already installed.
+2024-11-27 13:25:08,102 - Installing or updating Nginx...
+2024-11-27 13:25:09,958 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:25:09,970 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:25:09,970 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:25:09,977 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:25:09,994 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:25:09,995 - Setting up cron jobs...
+2024-11-27 13:25:10,001 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:25:10,006 - Cron jobs set up successfully.
+2024-11-27 13:25:10,006 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:25:10,029 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:25:30,034 - Starting the setup process.
+2024-11-27 13:25:30,039 - /opt/homebrew/bin/brew
+2024-11-27 13:25:30,039 - Homebrew is already installed.
+2024-11-27 13:25:30,039 - Installing or updating Nginx...
+2024-11-27 13:25:31,819 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:25:31,832 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:25:31,832 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:25:31,839 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:25:31,863 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:25:31,863 - Setting up cron jobs...
+2024-11-27 13:25:31,869 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:25:31,874 - Cron jobs set up successfully.
+2024-11-27 13:25:31,874 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:25:31,899 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:26:32,540 - Starting the setup process.
+2024-11-27 13:26:32,545 - /opt/homebrew/bin/brew
+2024-11-27 13:26:32,545 - Homebrew is already installed.
+2024-11-27 13:26:32,545 - Installing or updating Nginx...
+2024-11-27 13:26:34,536 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:26:34,554 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:26:34,555 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:26:34,562 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:26:34,581 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:26:34,581 - Setting up cron jobs...
+2024-11-27 13:26:34,587 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:26:34,592 - Cron jobs set up successfully.
+2024-11-27 13:26:34,593 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:26:34,616 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:27:23,896 - Starting the setup process.
+2024-11-27 13:27:23,904 - /opt/homebrew/bin/brew
+2024-11-27 13:27:23,905 - Homebrew is already installed.
+2024-11-27 13:27:23,905 - Installing or updating Nginx...
+2024-11-27 13:27:25,787 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:27:25,799 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:27:25,799 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:27:25,805 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:27:25,823 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:27:25,823 - Setting up cron jobs...
+2024-11-27 13:27:25,829 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:27:25,835 - Cron jobs set up successfully.
+2024-11-27 13:27:25,835 - Setting permissions for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml...
+2024-11-27 13:27:25,858 - Command failed: sudo chmod 644 /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+chmod: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml: No such file or directory
+
+2024-11-27 13:33:27,465 - /opt/homebrew/bin/brew
+2024-11-27 13:33:27,465 - Homebrew is already installed.
+2024-11-27 13:33:27,465 - Installing or updating Nginx...
+2024-11-27 13:33:29,661 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:33:29,673 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:33:29,673 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:33:29,680 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:33:29,692 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml not found. Creating an empty file...
+2024-11-27 13:33:29,692 - Empty /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml created.
+2024-11-27 13:33:29,704 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:33:29,711 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:33:29,711 - Setting up cron jobs...
+2024-11-27 13:33:29,718 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:33:29,723 - Cron jobs set up successfully.
+2024-11-27 13:33:33,547 - Reloading Nginx...
+2024-11-27 13:33:34,504 - ==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 13:33:34,504 - Nginx reloaded successfully.
+2024-11-27 13:33:34,504 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 13:33:34,511 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105a0b8c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 13:35:24,927 - /opt/homebrew/bin/brew
+2024-11-27 13:35:24,928 - Homebrew is already installed.
+2024-11-27 13:35:24,928 - Installing or updating Nginx...
+2024-11-27 13:35:27,893 - ==> Downloading https://ghcr.io/v2/homebrew/core/nginx/manifests/1.27.3
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ae56a45f9cd481179361cff87bdd6e8b21f172ae4e7ee9891f3a45afd67adc43--nginx-1.27.3.bottle_manifest.json
+==> Fetching nginx
+==> Downloading https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:691234420f8adcf3f95440102d9170ab69906756019fe68f47e2d607a05222b6
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ce3ea67d7b43fb9e71e964d32879d6d9d9aa264e7eda0106b5c70a6bea649755--nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Pouring nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To restart nginx after an upgrade:
+  brew services restart nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+==> Summary
+🍺  /opt/homebrew/Cellar/nginx/1.27.3: 27 files, 2.5MB
+==> Running `brew cleanup nginx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+2024-11-27 13:35:27,910 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:35:27,922 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:35:27,922 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:35:27,928 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:35:27,951 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:35:27,956 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:35:27,957 - Setting up cron jobs...
+2024-11-27 13:35:27,968 - Cron jobs set up successfully.
+2024-11-27 13:35:31,917 - Reloading Nginx...
+2024-11-27 13:35:33,901 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 13:35:33,901 - Nginx reloaded successfully.
+2024-11-27 13:35:33,901 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 13:35:33,908 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103fc38c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 13:36:54,525 - /opt/homebrew/bin/brew
+2024-11-27 13:36:54,526 - Homebrew is already installed.
+2024-11-27 13:36:54,526 - Installing or updating Nginx...
+2024-11-27 13:36:56,291 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:36:56,303 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:36:56,303 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:36:56,310 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:36:56,333 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:36:56,340 - Error: /bin/sh: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip: No such file or directory
+2024-11-27 13:36:56,340 - Setting up cron jobs...
+2024-11-27 13:36:56,346 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:36:56,354 - Cron jobs set up successfully.
+2024-11-27 13:37:09,044 - Running merge_epg.py...
+2024-11-27 13:37:09,122 - Error: Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+2024-11-27 13:37:09,122 - Reloading Nginx...
+2024-11-27 13:37:11,396 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 13:37:11,396 - Nginx reloaded successfully.
+2024-11-27 13:37:11,396 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 13:37:11,408 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101f878c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 13:42:25,032 - /opt/homebrew/bin/brew
+2024-11-27 13:42:25,032 - Homebrew is already installed.
+2024-11-27 13:42:25,032 - Installing or updating Nginx...
+2024-11-27 13:42:27,374 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:42:27,387 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:42:27,387 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:42:27,393 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:42:27,417 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:42:27,420 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 13:44:04,622 - /opt/homebrew/bin/brew
+2024-11-27 13:44:04,622 - Homebrew is already installed.
+2024-11-27 13:44:04,622 - Installing or updating Nginx...
+2024-11-27 13:44:06,774 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:44:06,793 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:44:06,794 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:44:06,802 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:44:06,826 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:44:06,830 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 13:45:26,064 - /opt/homebrew/bin/brew
+2024-11-27 13:45:26,064 - Homebrew is already installed.
+2024-11-27 13:45:26,064 - Installing or updating Nginx...
+2024-11-27 13:45:27,883 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:45:27,895 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:45:27,895 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:45:27,903 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:45:27,925 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:45:27,930 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 13:45:27,930 - pip not found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip. Attempting to ensure pip is installed.
+2024-11-27 13:46:38,793 - /opt/homebrew/bin/brew
+2024-11-27 13:46:38,794 - Homebrew is already installed.
+2024-11-27 13:46:38,794 - Installing or updating Nginx...
+2024-11-27 13:46:40,654 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:46:40,665 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:46:40,666 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:46:40,673 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:46:40,697 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:46:40,700 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 13:46:40,700 - pip not found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/pip. Attempting to ensure pip is installed.
+2024-11-27 13:50:18,146 - /opt/homebrew/bin/brew
+2024-11-27 13:50:18,146 - Homebrew is already installed.
+2024-11-27 13:50:18,146 - Installing or updating Nginx...
+2024-11-27 13:50:20,608 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:50:20,621 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 13:50:20,621 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 13:50:20,628 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 13:50:20,652 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 13:50:20,684 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 13:50:20,954 - Requests installed successfully.
+2024-11-27 13:50:20,954 - Setting up cron jobs...
+2024-11-27 13:50:20,962 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 13:50:20,969 - Cron jobs set up successfully.
+2024-11-27 13:50:25,124 - Running merge_epg.py...
+2024-11-27 13:50:30,698 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 13:50:30,698 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 13:50:30,698 - Error while running dummy_epg.py: Command '['/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py']' returned non-zero exit status 1.
+2024-11-27 13:50:30,698 - Traceback (most recent call last):
+2024-11-27 13:50:30,698 - File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py", line 7, in <module>
+2024-11-27 13:50:30,698 - import pytz  # For timezone handling
+2024-11-27 13:50:30,698 - ^^^^^^^^^^^
+2024-11-27 13:50:30,698 - ModuleNotFoundError: No module named 'pytz'
+2024-11-27 13:50:30,698 - 
+2024-11-27 13:50:30,698 - Merging EPG data...
+2024-11-27 13:50:30,698 - An error occurred: name 'command' is not defined
+2024-11-27 13:50:30,698 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/dummy.xml
+2024-11-27 13:50:30,698 - Error processing local file /Users/kyleabrahams/Documents/GitHub/tv/dummy.xml: [Errno 2] No such file or directory: '/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml'
+2024-11-27 13:50:30,698 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/xumo.xml
+2024-11-27 13:50:30,698 - Error processing local file /Users/kyleabrahams/Documents/GitHub/tv/xumo.xml: [Errno 2] No such file or directory: '/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml'
+2024-11-27 13:50:30,698 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 13:50:30,698 - Successfully fetched 3/4
+2024-11-27 13:50:30,698 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 13:50:30,698 - Successfully fetched 4/4
+2024-11-27 13:50:30,698 - Extracting XML from .gz files...
+2024-11-27 13:50:30,698 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 13:50:30,738 - Reloading Nginx...
+2024-11-27 13:50:32,992 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 13:50:32,993 - Nginx reloaded successfully.
+2024-11-27 13:50:32,993 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 13:50:33,001 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1041e78c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 14:29:03,951 - /opt/homebrew/bin/brew
+2024-11-27 14:29:03,951 - Homebrew is already installed.
+2024-11-27 14:29:03,951 - Installing or updating Nginx...
+2024-11-27 14:29:08,826 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:29:08,838 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:29:08,839 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:29:08,847 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:29:08,872 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:29:08,919 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:29:09,175 - Requests installed successfully.
+2024-11-27 14:29:09,175 - Setting up cron jobs...
+2024-11-27 14:29:09,182 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:29:09,187 - Cron jobs set up successfully.
+2024-11-27 14:29:12,532 - Running merge_epg.py...
+2024-11-27 14:29:18,512 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:29:18,513 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:29:18,513 - dummy_epg.py executed successfully
+2024-11-27 14:29:18,513 - pytz is installed and ready to use.
+2024-11-27 14:29:18,513 - EPG data saved to dummy.xml
+2024-11-27 14:29:18,513 - 
+2024-11-27 14:29:18,513 - Merging EPG data...
+2024-11-27 14:29:18,513 - An error occurred: name 'command' is not defined
+2024-11-27 14:29:18,513 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/dummy.xml
+2024-11-27 14:29:18,513 - Error processing local file /Users/kyleabrahams/Documents/GitHub/tv/dummy.xml: [Errno 2] No such file or directory: '/Users/kyleabrahams/Documents/GitHub/tv/dummy.xml'
+2024-11-27 14:29:18,513 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/xumo.xml
+2024-11-27 14:29:18,513 - Error processing local file /Users/kyleabrahams/Documents/GitHub/tv/xumo.xml: [Errno 2] No such file or directory: '/Users/kyleabrahams/Documents/GitHub/tv/xumo.xml'
+2024-11-27 14:29:18,513 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:29:18,513 - Successfully fetched 3/4
+2024-11-27 14:29:18,513 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:29:18,513 - Successfully fetched 4/4
+2024-11-27 14:29:18,513 - Extracting XML from .gz files...
+2024-11-27 14:29:18,513 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:29:18,557 - Reloading Nginx...
+2024-11-27 14:29:20,820 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:29:20,820 - Nginx reloaded successfully.
+2024-11-27 14:29:20,820 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 14:29:20,828 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101dc38c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 14:30:51,151 - /opt/homebrew/bin/brew
+2024-11-27 14:30:51,152 - Homebrew is already installed.
+2024-11-27 14:30:51,152 - Installing or updating Nginx...
+2024-11-27 14:30:52,999 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:30:53,011 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:30:53,011 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:30:53,019 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:30:53,042 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:30:53,065 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:30:53,318 - Requests installed successfully.
+2024-11-27 14:30:53,319 - Setting up cron jobs...
+2024-11-27 14:30:53,325 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:30:53,331 - Cron jobs set up successfully.
+2024-11-27 14:30:57,046 - Running merge_epg.py...
+2024-11-27 14:31:03,195 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:31:03,195 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:31:03,195 - dummy_epg.py executed successfully
+2024-11-27 14:31:03,195 - pytz is installed and ready to use.
+2024-11-27 14:31:03,195 - EPG data saved to dummy.xml
+2024-11-27 14:31:03,195 - 
+2024-11-27 14:31:03,196 - Merging EPG data...
+2024-11-27 14:31:03,196 - An error occurred: name 'command' is not defined
+2024-11-27 14:31:03,196 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:31:03,196 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:31:03,196 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:31:03,196 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:31:03,196 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:31:03,196 - Successfully fetched 3/4
+2024-11-27 14:31:03,196 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:31:03,196 - Successfully fetched 4/4
+2024-11-27 14:31:03,196 - Extracting XML from .gz files...
+2024-11-27 14:31:03,196 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:31:03,321 - Reloading Nginx...
+2024-11-27 14:31:06,086 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:31:06,086 - Nginx reloaded successfully.
+2024-11-27 14:31:06,086 - Checking if http://localhost:8080/epg.xml is accessible...
+2024-11-27 14:31:06,099 - Error: Failed to access http://localhost:8080/epg.xml. Exception: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /epg.xml (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10554b8c0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2024-11-27 14:34:07,637 - /opt/homebrew/bin/brew
+2024-11-27 14:34:07,637 - Homebrew is already installed.
+2024-11-27 14:34:07,637 - Installing or updating Nginx...
+2024-11-27 14:34:09,519 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:34:09,531 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:34:09,532 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:34:09,539 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:34:09,563 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:34:09,585 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:34:09,835 - Requests installed successfully.
+2024-11-27 14:34:09,835 - Setting up cron jobs...
+2024-11-27 14:34:09,843 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:34:09,849 - Cron jobs set up successfully.
+2024-11-27 14:34:12,570 - Running merge_epg.py...
+2024-11-27 14:34:18,113 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:34:18,114 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:34:18,114 - dummy_epg.py executed successfully
+2024-11-27 14:34:18,114 - pytz is installed and ready to use.
+2024-11-27 14:34:18,114 - EPG data saved to dummy.xml
+2024-11-27 14:34:18,114 - 
+2024-11-27 14:34:18,114 - Merging EPG data...
+2024-11-27 14:34:18,114 - An error occurred: name 'command' is not defined
+2024-11-27 14:34:18,114 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:34:18,114 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:34:18,114 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:34:18,114 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:34:18,114 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:34:18,114 - Successfully fetched 3/4
+2024-11-27 14:34:18,114 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:34:18,114 - Successfully fetched 4/4
+2024-11-27 14:34:18,114 - Extracting XML from .gz files...
+2024-11-27 14:34:18,114 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:34:18,200 - Reloading Nginx...
+2024-11-27 14:34:20,348 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:34:20,349 - Nginx reloaded successfully.
+2024-11-27 14:34:41,704 - /opt/homebrew/bin/brew
+2024-11-27 14:34:41,705 - Homebrew is already installed.
+2024-11-27 14:34:41,705 - Installing or updating Nginx...
+2024-11-27 14:34:43,527 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:34:43,539 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:34:43,539 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:34:43,547 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:34:43,570 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:34:43,580 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:34:43,824 - Requests installed successfully.
+2024-11-27 14:34:43,824 - Setting up cron jobs...
+2024-11-27 14:34:43,830 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:34:43,835 - Cron jobs set up successfully.
+2024-11-27 14:34:44,788 - Running merge_epg.py...
+2024-11-27 14:34:48,906 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:34:48,907 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:34:48,907 - dummy_epg.py executed successfully
+2024-11-27 14:34:48,907 - pytz is installed and ready to use.
+2024-11-27 14:34:48,907 - EPG data saved to dummy.xml
+2024-11-27 14:34:48,907 - 
+2024-11-27 14:34:48,907 - Merging EPG data...
+2024-11-27 14:34:48,907 - An error occurred: name 'command' is not defined
+2024-11-27 14:34:48,907 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:34:48,907 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:34:48,907 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:34:48,907 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:34:48,907 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:34:48,907 - Successfully fetched 3/4
+2024-11-27 14:34:48,907 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:34:48,907 - XML parse error for https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml: junk after document element: line 2, column 7
+2024-11-27 14:34:48,907 - Extracting XML from .gz files...
+2024-11-27 14:34:48,907 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:34:48,945 - Reloading Nginx...
+2024-11-27 14:34:51,034 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:34:51,034 - Nginx reloaded successfully.
+2024-11-27 14:35:46,876 - /opt/homebrew/bin/brew
+2024-11-27 14:35:46,877 - Homebrew is already installed.
+2024-11-27 14:35:46,877 - Installing or updating Nginx...
+2024-11-27 14:35:49,821 - ==> Downloading https://ghcr.io/v2/homebrew/core/nginx/manifests/1.27.3
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ae56a45f9cd481179361cff87bdd6e8b21f172ae4e7ee9891f3a45afd67adc43--nginx-1.27.3.bottle_manifest.json
+==> Fetching nginx
+==> Downloading https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:691234420f8adcf3f95440102d9170ab69906756019fe68f47e2d607a05222b6
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ce3ea67d7b43fb9e71e964d32879d6d9d9aa264e7eda0106b5c70a6bea649755--nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Pouring nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To restart nginx after an upgrade:
+  brew services restart nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+==> Summary
+🍺  /opt/homebrew/Cellar/nginx/1.27.3: 27 files, 2.5MB
+==> Running `brew cleanup nginx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+2024-11-27 14:35:49,837 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:35:49,850 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:35:49,850 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:35:49,856 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:35:49,880 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:35:49,902 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:35:50,152 - Requests installed successfully.
+2024-11-27 14:35:50,152 - Setting up cron jobs...
+2024-11-27 14:35:50,163 - Cron jobs set up successfully.
+2024-11-27 14:35:58,789 - Running merge_epg.py...
+2024-11-27 14:36:02,397 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:36:02,398 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:36:02,398 - dummy_epg.py executed successfully
+2024-11-27 14:36:02,398 - pytz is installed and ready to use.
+2024-11-27 14:36:02,398 - EPG data saved to dummy.xml
+2024-11-27 14:36:02,398 - 
+2024-11-27 14:36:02,398 - Merging EPG data...
+2024-11-27 14:36:02,398 - An error occurred: name 'command' is not defined
+2024-11-27 14:36:02,398 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:36:02,398 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:36:02,398 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:36:02,398 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:36:02,398 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:36:02,398 - XML parse error for https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml: junk after document element: line 2, column 7
+2024-11-27 14:36:02,398 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:36:02,398 - XML parse error for https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml: junk after document element: line 2, column 7
+2024-11-27 14:36:02,398 - Extracting XML from .gz files...
+2024-11-27 14:36:02,398 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:36:02,450 - Reloading Nginx...
+2024-11-27 14:36:04,744 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:36:04,744 - Nginx reloaded successfully.
+2024-11-27 14:44:11,729 - /opt/homebrew/bin/brew
+2024-11-27 14:44:11,729 - Homebrew is already installed.
+2024-11-27 14:44:11,729 - Installing or updating Nginx...
+2024-11-27 14:44:14,647 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:44:14,659 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 14:44:14,660 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 14:44:14,666 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 14:44:14,689 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 14:44:14,721 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 14:44:14,977 - Requests installed successfully.
+2024-11-27 14:44:14,977 - Setting up cron jobs...
+2024-11-27 14:44:14,984 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 14:44:14,990 - Cron jobs set up successfully.
+2024-11-27 14:44:22,061 - Running merge_epg.py...
+2024-11-27 14:44:25,638 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 14:44:25,638 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 14:44:25,639 - dummy_epg.py executed successfully
+2024-11-27 14:44:25,639 - pytz is installed and ready to use.
+2024-11-27 14:44:25,639 - EPG data saved to dummy.xml
+2024-11-27 14:44:25,639 - 
+2024-11-27 14:44:25,639 - Merging EPG data...
+2024-11-27 14:44:25,639 - An error occurred: name 'command' is not defined
+2024-11-27 14:44:25,639 - Fetching 1/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:44:25,639 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy.xml
+2024-11-27 14:44:25,639 - Fetching 2/4 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:44:25,639 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/xumo.xml
+2024-11-27 14:44:25,639 - Fetching 3/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml
+2024-11-27 14:44:25,639 - XML parse error for https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml: junk after document element: line 2, column 7
+2024-11-27 14:44:25,639 - Fetching 4/4 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml
+2024-11-27 14:44:25,639 - XML parse error for https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml: junk after document element: line 2, column 7
+2024-11-27 14:44:25,639 - Extracting XML from .gz files...
+2024-11-27 14:44:25,639 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 14:44:25,679 - Reloading Nginx...
+2024-11-27 14:44:27,947 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 14:44:27,947 - Nginx reloaded successfully.
+2024-11-27 15:02:57,385 - /opt/homebrew/bin/brew
+2024-11-27 15:02:57,385 - Homebrew is already installed.
+2024-11-27 15:02:57,385 - Installing or updating Nginx...
+2024-11-27 15:03:01,120 - ==> Downloading https://ghcr.io/v2/homebrew/core/nginx/manifests/1.27.3
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ae56a45f9cd481179361cff87bdd6e8b21f172ae4e7ee9891f3a45afd67adc43--nginx-1.27.3.bottle_manifest.json
+==> Fetching nginx
+==> Downloading https://ghcr.io/v2/homebrew/core/nginx/blobs/sha256:691234420f8adcf3f95440102d9170ab69906756019fe68f47e2d607a05222b6
+Already downloaded: /Users/kyleabrahams/Library/Caches/Homebrew/downloads/ce3ea67d7b43fb9e71e964d32879d6d9d9aa264e7eda0106b5c70a6bea649755--nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Pouring nginx--1.27.3.arm64_sonoma.bottle.tar.gz
+==> Caveats
+Docroot is: /opt/homebrew/var/www
+
+The default port has been set in /opt/homebrew/etc/nginx/nginx.conf to 8080 so that
+nginx can run without sudo.
+
+nginx will load all files in /opt/homebrew/etc/nginx/servers/.
+
+To restart nginx after an upgrade:
+  brew services restart nginx
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\;
+==> Summary
+🍺  /opt/homebrew/Cellar/nginx/1.27.3: 27 files, 2.5MB
+==> Running `brew cleanup nginx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+2024-11-27 15:03:01,155 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 15:03:01,169 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 15:03:01,169 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 15:03:01,177 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 15:03:01,202 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 15:03:01,223 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 15:03:01,517 - Requests installed successfully.
+2024-11-27 15:03:01,518 - Setting up cron jobs...
+2024-11-27 15:03:01,530 - Cron jobs set up successfully.
+2024-11-27 15:03:06,555 - Reloading Nginx...
+2024-11-27 15:03:08,931 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 15:03:08,931 - Nginx reloaded successfully.
+2024-11-27 16:23:18,332 - /opt/homebrew/bin/brew
+2024-11-27 16:23:18,332 - Homebrew is already installed.
+2024-11-27 16:23:18,332 - Installing or updating Nginx...
+2024-11-27 16:23:23,735 - Custom Nginx configuration copied to /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 16:23:23,749 - Permissions set for /opt/homebrew/etc/nginx/nginx.conf.
+2024-11-27 16:23:23,749 - Directories /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log created or verified.
+2024-11-27 16:23:23,756 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www and /Users/kyleabrahams/Documents/GitHub/tv/scripts/log.
+2024-11-27 16:23:23,778 - Permissions set for /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml.
+2024-11-27 16:23:23,801 - Checking if 'requests' is installed in the virtual environment...
+2024-11-27 16:23:24,099 - Requests installed successfully.
+2024-11-27 16:23:24,099 - Setting up cron jobs...
+2024-11-27 16:23:24,106 - 0 1,13 * * * source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_cron.log 2>&1
+0 */6 * * * nginx -s reload >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/nginx_reload.log 2>&1
+* * * * * echo 'Cron test at $(date)' >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/log/cron_test.log
+2024-11-27 16:23:24,111 - Cron jobs set up successfully.
+2024-11-27 16:23:29,339 - Running merge_epg.py...
+2024-11-27 16:23:40,771 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+2024-11-27 16:23:40,772 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+2024-11-27 16:23:40,772 - dummy_epg.py executed successfully
+2024-11-27 16:23:40,772 - pytz is installed and ready to use.
+2024-11-27 16:23:40,772 - EPG data saved to dummy.xml
+2024-11-27 16:23:40,772 - 
+2024-11-27 16:23:40,772 - Merging EPG data...
+2024-11-27 16:23:40,772 - Progress:
+2024-11-27 16:23:40,772 - Progress: > epg@1.0.0 grab
+2024-11-27 16:23:40,772 - Progress: > npx tsx scripts/commands/epg/grab.ts --site=xumo.tv
+2024-11-27 16:23:40,772 - Progress:
+2024-11-27 16:23:40,772 - Progress: starting...
+2024-11-27 16:23:40,772 - Progress: config:
+2024-11-27 16:23:40,772 - Progress: output: ./scripts/xumo.xml
+2024-11-27 16:23:40,772 - Progress: maxConnections: 1
+2024-11-27 16:23:40,772 - Progress: gzip: false
+2024-11-27 16:23:40,773 - Progress: site: xumo.tv
+2024-11-27 16:23:40,773 - Progress: loading channels...
+2024-11-27 16:23:40,773 - Progress: found 350 channel(s)
+2024-11-27 16:23:40,773 - Progress: run #1:
+2024-11-27 16:23:40,773 - Progress: [1/700] xumo.tv (en) - 0#9995106 - Wed, 27 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:40,773 - Progress: [2/700] xumo.tv (en) - 0#9995106 - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:40,773 - Progress: [3/700] xumo.tv (en) - 0#99951139 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:40,773 - Progress: [4/700] xumo.tv (en) - 0#99951223 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:23:40,773 - Progress: [5/700] xumo.tv (en) - 0#99951256 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [6/700] xumo.tv (en) - 0#99991299 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:40,773 - Progress: [7/700] xumo.tv (en) - 0#99991393 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [8/700] xumo.tv (en) - 50#99991278 - Thu, 28 Nov 2024 00:00:00 GMT (11 programs)
+2024-11-27 16:23:40,773 - Progress: [9/700] xumo.tv (en) - 100#99991367 - Thu, 28 Nov 2024 00:00:00 GMT (54 programs)
+2024-11-27 16:23:40,773 - Progress: [10/700] xumo.tv (en) - 100#99991367 - Wed, 27 Nov 2024 00:00:00 GMT (54 programs)
+2024-11-27 16:23:40,773 - Progress: [11/700] xumo.tv (en) - 50#99991278 - Wed, 27 Nov 2024 00:00:00 GMT (11 programs)
+2024-11-27 16:23:40,773 - Progress: [12/700] xumo.tv (en) - 100#99991357 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [13/700] xumo.tv (en) - 100#99991357 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [14/700] xumo.tv (en) - 0#99991393 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [15/700] xumo.tv (en) - 50#99991249 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [16/700] xumo.tv (en) - 100#99991349 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:40,773 - Progress: [17/700] xumo.tv (en) - 100#99991349 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:40,773 - Progress: [18/700] xumo.tv (en) - 50#99991249 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,773 - Progress: [19/700] xumo.tv (en) - 100#99991320 - Thu, 28 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:23:40,773 - Progress: [20/700] xumo.tv (en) - 100#99991320 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:23:40,773 - Progress: [21/700] xumo.tv (en) - 0#99991299 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:40,773 - Progress: [22/700] xumo.tv (en) - 0#99991392 - Thu, 28 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:40,774 - Progress: [23/700] xumo.tv (en) - 50#99991196 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:23:40,774 - Progress: [24/700] xumo.tv (en) - 100#99991252 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [25/700] xumo.tv (en) - 100#99991252 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [26/700] xumo.tv (en) - 50#99991196 - Wed, 27 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:23:40,774 - Progress: [27/700] xumo.tv (en) - 100#99991204 - Thu, 28 Nov 2024 00:00:00 GMT (55 programs)
+2024-11-27 16:23:40,774 - Progress: [28/700] xumo.tv (en) - 100#99991204 - Wed, 27 Nov 2024 00:00:00 GMT (55 programs)
+2024-11-27 16:23:40,774 - Progress: [29/700] xumo.tv (en) - 0#99991392 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:40,774 - Progress: [30/700] xumo.tv (en) - 50#99991189 - Thu, 28 Nov 2024 00:00:00 GMT (36 programs)
+2024-11-27 16:23:40,774 - Progress: [31/700] xumo.tv (en) - 100#99991197 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [32/700] xumo.tv (en) - 100#99991197 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [33/700] xumo.tv (en) - 50#99991189 - Wed, 27 Nov 2024 00:00:00 GMT (38 programs)
+2024-11-27 16:23:40,774 - Progress: [34/700] xumo.tv (en) - 100#99991190 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:40,774 - Progress: [35/700] xumo.tv (en) - 100#99991190 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:40,774 - Progress: [36/700] xumo.tv (en) - 0#99951256 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [37/700] xumo.tv (en) - 0#99991292 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [38/700] xumo.tv (en) - 0#99991377 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:23:40,774 - Progress: [39/700] xumo.tv (en) - 50#99991175 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [40/700] xumo.tv (en) - 100#99991187 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [41/700] xumo.tv (en) - 100#99991187 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [42/700] xumo.tv (en) - 50#99991175 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [43/700] xumo.tv (en) - 100#99991176 - Thu, 28 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:23:40,774 - Progress: [44/700] xumo.tv (en) - 100#99991176 - Wed, 27 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:23:40,774 - Progress: [45/700] xumo.tv (en) - 0#99991377 - Wed, 27 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:23:40,774 - Progress: [46/700] xumo.tv (en) - 50#99991143 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [47/700] xumo.tv (en) - 100#99991174 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [48/700] xumo.tv (en) - 100#99991174 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [49/700] xumo.tv (en) - 50#99991143 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,774 - Progress: [50/700] xumo.tv (en) - 100#99991157 - Thu, 28 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:23:40,774 - Progress: [51/700] xumo.tv (en) - 100#99991157 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:40,774 - Progress: [52/700] xumo.tv (en) - 0#99991292 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [53/700] xumo.tv (en) - 0#99991372 - Thu, 28 Nov 2024 00:00:00 GMT (53 programs)
+2024-11-27 16:23:40,775 - Progress: [54/700] xumo.tv (en) - 50#99951277 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [55/700] xumo.tv (en) - 100#99991153 - Thu, 28 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:23:40,775 - Progress: [56/700] xumo.tv (en) - 100#99991153 - Wed, 27 Nov 2024 00:00:00 GMT (50 programs)
+2024-11-27 16:23:40,775 - Progress: [57/700] xumo.tv (en) - 50#99951277 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [58/700] xumo.tv (en) - 100#99991124 - Thu, 28 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:23:40,775 - Progress: [59/700] xumo.tv (en) - 100#99991124 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:23:40,775 - Progress: [60/700] xumo.tv (en) - 0#99991372 - Wed, 27 Nov 2024 00:00:00 GMT (54 programs)
+2024-11-27 16:23:40,775 - Progress: [61/700] xumo.tv (en) - 50#99951269 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [62/700] xumo.tv (en) - 100#99991123 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:23:40,775 - Progress: [63/700] xumo.tv (en) - 100#99991123 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:40,775 - Progress: [64/700] xumo.tv (en) - 50#99951269 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [65/700] xumo.tv (en) - 100#99991105 - Thu, 28 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:23:40,775 - Progress: [66/700] xumo.tv (en) - 100#99991105 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:23:40,775 - Progress: [67/700] xumo.tv (en) - 0#99951223 - Wed, 27 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:23:40,775 - Progress: [68/700] xumo.tv (en) - 0#99951251 - Thu, 28 Nov 2024 00:00:00 GMT (14 programs)
+2024-11-27 16:23:40,775 - Progress: [69/700] xumo.tv (en) - 0#99991287 - Thu, 28 Nov 2024 00:00:00 GMT (39 programs)
+2024-11-27 16:23:40,775 - Progress: [70/700] xumo.tv (en) - 0#99991363 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:40,775 - Progress: [71/700] xumo.tv (en) - 50#99951268 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [72/700] xumo.tv (en) - 100#99951254 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:40,775 - Progress: [73/700] xumo.tv (en) - 100#99951254 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:40,775 - Progress: [74/700] xumo.tv (en) - 50#99951268 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:40,775 - Progress: [75/700] xumo.tv (en) - 100#99951247 - Thu, 28 Nov 2024 00:00:00 GMT (56 programs)
+2024-11-27 16:23:40,775 - Progress: [76/700] xumo.tv (en) - 100#99951247 - Wed, 27 Nov 2024 00:00:00 GMT (62 programs)
+2024-11-27 16:23:40,775 - Progress: [77/700] xumo.tv (en) - 0#99991363 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:40,775 - Progress: [78/700] xumo.tv (en) - 50#99951266 - Thu, 28 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:23:40,775 - Progress: [79/700] xumo.tv (en) - 100#99951246 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:40,775 - Progress: [80/700] xumo.tv (en) - 100#99951246 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:40,775 - Progress: [81/700] xumo.tv (en) - 50#99951266 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:40,775 - Progress: [82/700] xumo.tv (en) - 100#99951245 - Thu, 28 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:45,565 - Progress: [83/700] xumo.tv (en) - 100#99951245 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:23:45,565 - Progress: [84/700] xumo.tv (en) - 0#99991287 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:23:45,565 - Progress: [85/700] xumo.tv (en) - 0#99991362 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:45,565 - Progress: [86/700] xumo.tv (en) - 50#99951265 - Thu, 28 Nov 2024 00:00:00 GMT (22 programs)
+2024-11-27 16:23:45,565 - Progress: [87/700] xumo.tv (en) - 100#99951244 - Thu, 28 Nov 2024 00:00:00 GMT (65 programs)
+2024-11-27 16:23:45,565 - Progress: [88/700] xumo.tv (en) - 100#99951244 - Wed, 27 Nov 2024 00:00:00 GMT (65 programs)
+2024-11-27 16:23:45,565 - Progress: [89/700] xumo.tv (en) - 50#99951265 - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:23:45,565 - Progress: [90/700] xumo.tv (en) - 100#99951236 - Thu, 28 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:23:45,565 - Progress: [91/700] xumo.tv (en) - 100#99951236 - Wed, 27 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:23:45,565 - Progress: [92/700] xumo.tv (en) - 0#99991362 - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:23:45,565 - Progress: [93/700] xumo.tv (en) - 50#99951264 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,565 - Progress: [94/700] xumo.tv (en) - 100#99951234 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,565 - Progress: [95/700] xumo.tv (en) - 100#99951234 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,565 - Progress: [96/700] xumo.tv (en) - 50#99951264 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,565 - Progress: [97/700] xumo.tv (en) - 100#99951233 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,565 - Progress: [98/700] xumo.tv (en) - 100#99951233 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,565 - Progress: [99/700] xumo.tv (en) - 0#99951251 - Wed, 27 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:45,566 - Progress: [100/700] xumo.tv (en) - 0#99991282 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,566 - Progress: [101/700] xumo.tv (en) - 0#99991352 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:45,566 - Progress: [102/700] xumo.tv (en) - 50#99951253 - Thu, 28 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:23:45,566 - Progress: [103/700] xumo.tv (en) - 100#99951232 - Thu, 28 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:23:45,566 - Progress: [104/700] xumo.tv (en) - 100#99951232 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:23:45,566 - Progress: [105/700] xumo.tv (en) - 50#99951253 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:45,566 - Progress: [106/700] xumo.tv (en) - 100#99951231 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [107/700] xumo.tv (en) - 100#99951231 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [108/700] xumo.tv (en) - 0#99991352 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:45,566 - Progress: [109/700] xumo.tv (en) - 50#99951249 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [110/700] xumo.tv (en) - 100#99951218 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [111/700] xumo.tv (en) - 100#99951218 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [112/700] xumo.tv (en) - 50#99951249 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [113/700] xumo.tv (en) - 100#99951213 - Thu, 28 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:45,566 - Progress: [114/700] xumo.tv (en) - 100#99951213 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,566 - Progress: [115/700] xumo.tv (en) - 0#99991282 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,566 - Progress: [116/700] xumo.tv (en) - 0#99991351 - Thu, 28 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:45,566 - Progress: [117/700] xumo.tv (en) - 50#99951207 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [118/700] xumo.tv (en) - 100#99951204 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [119/700] xumo.tv (en) - 100#99951204 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [120/700] xumo.tv (en) - 50#99951207 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [121/700] xumo.tv (en) - 100#99951200 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [122/700] xumo.tv (en) - 100#99951200 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [123/700] xumo.tv (en) - 0#99991351 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:45,566 - Progress: [124/700] xumo.tv (en) - 50#99951203 - Thu, 28 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:23:45,566 - Progress: [125/700] xumo.tv (en) - 100#99951199 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [126/700] xumo.tv (en) - 100#99951199 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [127/700] xumo.tv (en) - 50#99951203 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:45,566 - Progress: [128/700] xumo.tv (en) - 100#99951195 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [129/700] xumo.tv (en) - 100#99951195 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,566 - Progress: [130/700] xumo.tv (en) - 0#99951139 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [131/700] xumo.tv (en) - 0#99951197 - Thu, 28 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:45,567 - Progress: [132/700] xumo.tv (en) - 0#99951250 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,567 - Progress: [133/700] xumo.tv (en) - 0#99991276 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [134/700] xumo.tv (en) - 0#99991350 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:45,567 - Progress: [135/700] xumo.tv (en) - 50#99951196 - Thu, 28 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:23:45,567 - Progress: [136/700] xumo.tv (en) - 100#99951192 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,567 - Progress: [137/700] xumo.tv (en) - 100#99951192 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,567 - Progress: [138/700] xumo.tv (en) - 50#99951196 - Wed, 27 Nov 2024 00:00:00 GMT (36 programs)
+2024-11-27 16:23:45,567 - Progress: [139/700] xumo.tv (en) - 100#99951158 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,567 - Progress: [140/700] xumo.tv (en) - 100#99951158 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,567 - Progress: [141/700] xumo.tv (en) - 0#99991350 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:45,567 - Progress: [142/700] xumo.tv (en) - 50#99951180 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [143/700] xumo.tv (en) - 100#99951157 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [144/700] xumo.tv (en) - 100#99951157 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [145/700] xumo.tv (en) - 50#99951180 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [146/700] xumo.tv (en) - 100#99951133 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,567 - Progress: [147/700] xumo.tv (en) - 100#99951133 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:45,567 - Progress: [148/700] xumo.tv (en) - 0#99991276 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:45,567 - Progress: [149/700] xumo.tv (en) - 0#99991337 - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:45,567 - Progress: [150/700] xumo.tv (en) - 50#99951154 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:45,567 - Progress: [151/700] xumo.tv (en) - 100#9999614 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:45,567 - Progress: [152/700] xumo.tv (en) - 100#9999614 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,567 - Progress: [153/700] xumo.tv (en) - 50#99951154 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:45,567 - Progress: [154/700] xumo.tv (en) - 100#9999613 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:23:45,567 - Progress: [155/700] xumo.tv (en) - 100#9999613 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:23:45,567 - Progress: [156/700] xumo.tv (en) - 0#99991337 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:45,567 - Progress: [157/700] xumo.tv (en) - 50#99951142 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,568 - Progress: [158/700] xumo.tv (en) - 50#99991786 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,568 - Progress: [159/700] xumo.tv (en) - 50#99991786 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,568 - Progress: [160/700] xumo.tv (en) - 50#99951142 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:23:45,568 - Progress: [161/700] xumo.tv (en) - 50#99991769 - Thu, 28 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:23:45,568 - Progress: [162/700] xumo.tv (en) - 50#99991769 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:23:45,568 - Progress: [163/700] xumo.tv (en) - 0#99951250 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:45,568 - Progress: [164/700] xumo.tv (en) - 0#99991220 - Thu, 28 Nov 2024 00:00:00 GMT (39 programs)
+2024-11-27 16:23:45,568 - Progress: [165/700] xumo.tv (en) - 0#99991336 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:45,568 - Progress: [166/700] xumo.tv (en) - 50#99951134 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,568 - Progress: [167/700] xumo.tv (en) - 50#99991738 - Thu, 28 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:23:45,568 - Progress: [168/700] xumo.tv (en) - 50#99991738 - Wed, 27 Nov 2024 00:00:00 GMT (14 programs)
+2024-11-27 16:23:45,568 - Progress: [169/700] xumo.tv (en) - 200#9995118 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:45,568 - Progress: [170/700] xumo.tv (en) - 200#9995118 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:23:45,568 - Progress: [171/700] xumo.tv (en) - 50#99951134 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,718 - Progress: [172/700] xumo.tv (en) - 50#99991697 - Thu, 28 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:23:50,719 - Progress: [173/700] xumo.tv (en) - 200#9995104 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,719 - Progress: [174/700] xumo.tv (en) - 200#9995104 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,719 - Progress: [175/700] xumo.tv (en) - 50#99991697 - Wed, 27 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:50,719 - Progress: [176/700] xumo.tv (en) - 150#99991781 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:23:50,719 - Progress: [177/700] xumo.tv (en) - 150#99991781 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:50,719 - Progress: [178/700] xumo.tv (en) - 0#99991336 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:50,719 - Progress: [179/700] xumo.tv (en) - 50#99951132 - Thu, 28 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:23:50,719 - Progress: [180/700] xumo.tv (en) - 50#99991696 - Thu, 28 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:50,719 - Progress: [181/700] xumo.tv (en) - 150#99991775 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,719 - Progress: [182/700] xumo.tv (en) - 150#99991775 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,719 - Progress: [183/700] xumo.tv (en) - 50#99991696 - Wed, 27 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:23:50,719 - Progress: [184/700] xumo.tv (en) - 150#99991765 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,719 - Progress: [185/700] xumo.tv (en) - 150#99991765 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,719 - Progress: [186/700] xumo.tv (en) - 50#99951132 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:50,719 - Progress: [187/700] xumo.tv (en) - 50#99991680 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,719 - Progress: [188/700] xumo.tv (en) - 150#99991759 - Thu, 28 Nov 2024 00:00:00 GMT (65 programs)
+2024-11-27 16:23:50,720 - Progress: [189/700] xumo.tv (en) - 150#99991759 - Wed, 27 Nov 2024 00:00:00 GMT (65 programs)
+2024-11-27 16:23:50,720 - Progress: [190/700] xumo.tv (en) - 50#99991680 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,720 - Progress: [191/700] xumo.tv (en) - 150#99991750 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,720 - Progress: [192/700] xumo.tv (en) - 150#99991750 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,720 - Progress: [193/700] xumo.tv (en) - 0#99991220 - Wed, 27 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:23:50,720 - Progress: [194/700] xumo.tv (en) - 0#99991334 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,720 - Progress: [195/700] xumo.tv (en) - 50#99951123 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,720 - Progress: [196/700] xumo.tv (en) - 50#99991660 - Thu, 28 Nov 2024 00:00:00 GMT (61 programs)
+2024-11-27 16:23:50,720 - Progress: [197/700] xumo.tv (en) - 150#99991693 - Thu, 28 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:23:50,720 - Progress: [198/700] xumo.tv (en) - 150#99991693 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:50,720 - Progress: [199/700] xumo.tv (en) - 50#99991660 - Wed, 27 Nov 2024 00:00:00 GMT (61 programs)
+2024-11-27 16:23:50,720 - Progress: [200/700] xumo.tv (en) - 150#99991659 - Thu, 28 Nov 2024 00:00:00 GMT (62 programs)
+2024-11-27 16:23:50,720 - Progress: [201/700] xumo.tv (en) - 150#99991659 - Wed, 27 Nov 2024 00:00:00 GMT (61 programs)
+2024-11-27 16:23:50,721 - Progress: [202/700] xumo.tv (en) - 50#99951123 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [203/700] xumo.tv (en) - 50#99991648 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:23:50,721 - Progress: [204/700] xumo.tv (en) - 150#99991651 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:23:50,721 - Progress: [205/700] xumo.tv (en) - 150#99991651 - Wed, 27 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:23:50,721 - Progress: [206/700] xumo.tv (en) - 50#99991648 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:23:50,721 - Progress: [207/700] xumo.tv (en) - 150#99991639 - Thu, 28 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:23:50,721 - Progress: [208/700] xumo.tv (en) - 150#99991639 - Wed, 27 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:23:50,721 - Progress: [209/700] xumo.tv (en) - 0#99991334 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [210/700] xumo.tv (en) - 0#99991951 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:50,721 - Progress: [211/700] xumo.tv (en) - 50#99991645 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:23:50,721 - Progress: [212/700] xumo.tv (en) - 150#99991397 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [213/700] xumo.tv (en) - 150#99991397 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [214/700] xumo.tv (en) - 50#99991645 - Wed, 27 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:23:50,721 - Progress: [215/700] xumo.tv (en) - 150#99991232 - Thu, 28 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:23:50,721 - Progress: [216/700] xumo.tv (en) - 150#99991232 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:50,721 - Progress: [217/700] xumo.tv (en) - 0#99991951 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:50,721 - Progress: [218/700] xumo.tv (en) - 50#99991633 - Thu, 28 Nov 2024 00:00:00 GMT (12 programs)
+2024-11-27 16:23:50,721 - Progress: [219/700] xumo.tv (en) - 150#99991140 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [220/700] xumo.tv (en) - 150#99991140 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,721 - Progress: [221/700] xumo.tv (en) - 50#99991633 - Wed, 27 Nov 2024 00:00:00 GMT (12 programs)
+2024-11-27 16:23:50,721 - Progress: [222/700] xumo.tv (en) - 150#99991131 - Thu, 28 Nov 2024 00:00:00 GMT (22 programs)
+2024-11-27 16:23:50,721 - Progress: [223/700] xumo.tv (en) - 150#99991131 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:50,721 - Progress: [224/700] xumo.tv (en) - 0#99951197 - Wed, 27 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:50,721 - Progress: [225/700] xumo.tv (en) - 0#99951248 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [226/700] xumo.tv (en) - 0#99991125 - Thu, 28 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:50,722 - Progress: [227/700] xumo.tv (en) - 0#99991331 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [228/700] xumo.tv (en) - 0#99991755 - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:50,722 - Progress: [229/700] xumo.tv (en) - 50#99991627 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [230/700] xumo.tv (en) - 150#99991113 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [231/700] xumo.tv (en) - 150#99991113 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [232/700] xumo.tv (en) - 50#99991627 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [233/700] xumo.tv (en) - 150#99951258 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [234/700] xumo.tv (en) - 150#99951258 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [235/700] xumo.tv (en) - 0#99991755 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:50,722 - Progress: [236/700] xumo.tv (en) - 50#99991626 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [237/700] xumo.tv (en) - 150#99951255 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:50,722 - Progress: [238/700] xumo.tv (en) - 150#99951255 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:50,722 - Progress: [239/700] xumo.tv (en) - 50#99991626 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [240/700] xumo.tv (en) - 150#99951240 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:23:50,722 - Progress: [241/700] xumo.tv (en) - 150#99951240 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:50,722 - Progress: [242/700] xumo.tv (en) - 0#99991331 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [243/700] xumo.tv (en) - 0#99991745 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:50,722 - Progress: [244/700] xumo.tv (en) - 50#99991623 - Thu, 28 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:50,722 - Progress: [245/700] xumo.tv (en) - 150#99951238 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [246/700] xumo.tv (en) - 150#99951238 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,722 - Progress: [247/700] xumo.tv (en) - 50#99991623 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:50,722 - Progress: [248/700] xumo.tv (en) - 150#99951237 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:50,722 - Progress: [249/700] xumo.tv (en) - 150#99951237 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:50,722 - Progress: [250/700] xumo.tv (en) - 0#99991745 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:50,722 - Progress: [251/700] xumo.tv (en) - 50#99991389 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,723 - Progress: [252/700] xumo.tv (en) - 150#99951224 - Thu, 28 Nov 2024 00:00:00 GMT (64 programs)
+2024-11-27 16:23:50,723 - Progress: [253/700] xumo.tv (en) - 150#99951224 - Wed, 27 Nov 2024 00:00:00 GMT (64 programs)
+2024-11-27 16:23:50,723 - Progress: [254/700] xumo.tv (en) - 50#99991389 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,723 - Progress: [255/700] xumo.tv (en) - 150#99951221 - Thu, 28 Nov 2024 00:00:00 GMT (50 programs)
+2024-11-27 16:23:50,723 - Progress: [256/700] xumo.tv (en) - 150#99951221 - Wed, 27 Nov 2024 00:00:00 GMT (51 programs)
+2024-11-27 16:23:50,723 - Progress: [257/700] xumo.tv (en) - 0#99991125 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:23:50,723 - Progress: [258/700] xumo.tv (en) - 0#99991312 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:50,723 - Progress: [259/700] xumo.tv (en) - 0#99991714 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:50,723 - Progress: [260/700] xumo.tv (en) - 50#99991387 - Thu, 28 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:23:57,135 - Progress: [261/700] xumo.tv (en) - 150#99951216 - Thu, 28 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:23:57,135 - Progress: [262/700] xumo.tv (en) - 150#99951216 - Wed, 27 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:23:57,135 - Progress: [263/700] xumo.tv (en) - 50#99991387 - Wed, 27 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:57,135 - Progress: [264/700] xumo.tv (en) - 150#99951215 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,135 - Progress: [265/700] xumo.tv (en) - 150#99951215 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,135 - Progress: [266/700] xumo.tv (en) - 0#99991714 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,135 - Progress: [267/700] xumo.tv (en) - 50#99991384 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,135 - Progress: [268/700] xumo.tv (en) - 150#99951212 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:57,135 - Progress: [269/700] xumo.tv (en) - 150#99951212 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:57,135 - Progress: [270/700] xumo.tv (en) - 50#99991384 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,135 - Progress: [271/700] xumo.tv (en) - 150#99951210 - Thu, 28 Nov 2024 00:00:00 GMT (38 programs)
+2024-11-27 16:23:57,135 - Progress: [272/700] xumo.tv (en) - 150#99951210 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:23:57,136 - Progress: [273/700] xumo.tv (en) - 0#99991312 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:57,136 - Progress: [274/700] xumo.tv (en) - 0#99991709 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:57,136 - Progress: [275/700] xumo.tv (en) - 50#99991374 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:23:57,136 - Progress: [276/700] xumo.tv (en) - 150#99951178 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:23:57,136 - Progress: [277/700] xumo.tv (en) - 150#99951178 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:23:57,136 - Progress: [278/700] xumo.tv (en) - 50#99991374 - Wed, 27 Nov 2024 00:00:00 GMT (38 programs)
+2024-11-27 16:23:57,136 - Progress: [279/700] xumo.tv (en) - 150#99951160 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:23:57,136 - Progress: [280/700] xumo.tv (en) - 150#99951160 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:23:57,136 - Progress: [281/700] xumo.tv (en) - 0#99991709 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:57,136 - Progress: [282/700] xumo.tv (en) - 50#99991358 - Thu, 28 Nov 2024 00:00:00 GMT (54 programs)
+2024-11-27 16:23:57,136 - Progress: [283/700] xumo.tv (en) - 150#99951156 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:23:57,136 - Progress: [284/700] xumo.tv (en) - 150#99951156 - Wed, 27 Nov 2024 00:00:00 GMT (52 programs)
+2024-11-27 16:23:57,136 - Progress: [285/700] xumo.tv (en) - 50#99991358 - Wed, 27 Nov 2024 00:00:00 GMT (51 programs)
+2024-11-27 16:23:57,136 - Progress: [286/700] xumo.tv (en) - 150#99951152 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:23:57,136 - Progress: [287/700] xumo.tv (en) - 150#99951152 - Wed, 27 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:23:57,136 - Progress: [288/700] xumo.tv (en) - 0#99951248 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,136 - Progress: [289/700] xumo.tv (en) - 0#99951283 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:57,136 - Progress: [290/700] xumo.tv (en) - 0#99991302 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:57,136 - Progress: [291/700] xumo.tv (en) - 0#99991683 - Thu, 28 Nov 2024 00:00:00 GMT (55 programs)
+2024-11-27 16:23:57,136 - Progress: [292/700] xumo.tv (en) - 50#99991356 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,136 - Progress: [293/700] xumo.tv (en) - 150#99951151 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,136 - Progress: [294/700] xumo.tv (en) - 150#99951151 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,136 - Progress: [295/700] xumo.tv (en) - 50#99991356 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,136 - Progress: [296/700] xumo.tv (en) - 150#99951138 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:23:57,136 - Progress: [297/700] xumo.tv (en) - 150#99951138 - Wed, 27 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:23:57,136 - Progress: [298/700] xumo.tv (en) - 0#99991683 - Wed, 27 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:23:57,136 - Progress: [299/700] xumo.tv (en) - 50#99991341 - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:57,136 - Progress: [300/700] xumo.tv (en) - 150#99951130 - Thu, 28 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:57,136 - Progress: [301/700] xumo.tv (en) - 150#99951130 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:23:57,136 - Progress: [302/700] xumo.tv (en) - 50#99991341 - Wed, 27 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:23:57,136 - Progress: [303/700] xumo.tv (en) - 150#99951129 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:57,136 - Progress: [304/700] xumo.tv (en) - 150#99951129 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:57,136 - Progress: [305/700] xumo.tv (en) - 0#99991302 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:23:57,136 - Progress: [306/700] xumo.tv (en) - 0#99991649 - Thu, 28 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:23:57,136 - Progress: [307/700] xumo.tv (en) - 50#99991325 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [308/700] xumo.tv (en) - 150#99951126 - Thu, 28 Nov 2024 00:00:00 GMT (57 programs)
+2024-11-27 16:23:57,137 - Progress: [309/700] xumo.tv (en) - 150#99951126 - Wed, 27 Nov 2024 00:00:00 GMT (59 programs)
+2024-11-27 16:23:57,137 - Progress: [310/700] xumo.tv (en) - 50#99991325 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [311/700] xumo.tv (en) - 150#99951125 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:23:57,137 - Progress: [312/700] xumo.tv (en) - 150#99951125 - Wed, 27 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:23:57,137 - Progress: [313/700] xumo.tv (en) - 0#99991649 - Wed, 27 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:23:57,137 - Progress: [314/700] xumo.tv (en) - 50#99991317 - Thu, 28 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:23:57,137 - Progress: [315/700] xumo.tv (en) - 150#99951124 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:23:57,137 - Progress: [316/700] xumo.tv (en) - 150#99951124 - Wed, 27 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:23:57,137 - Progress: [317/700] xumo.tv (en) - 50#99991317 - Wed, 27 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:23:57,137 - Progress: [318/700] xumo.tv (en) - 150#9995117 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [319/700] xumo.tv (en) - 150#9995117 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [320/700] xumo.tv (en) - 0#99951283 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:23:57,137 - Progress: [321/700] xumo.tv (en) - 0#99991300 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:57,137 - Progress: [322/700] xumo.tv (en) - 0#99991638 - Thu, 28 Nov 2024 00:00:00 GMT (22 programs)
+2024-11-27 16:23:57,137 - Progress: [323/700] xumo.tv (en) - 50#99991315 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [324/700] xumo.tv (en) - 150#9995114 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [325/700] xumo.tv (en) - 150#9995114 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [326/700] xumo.tv (en) - 50#99991315 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [327/700] xumo.tv (en) - 150#9995105 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [328/700] xumo.tv (en) - 150#9995105 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [329/700] xumo.tv (en) - 0#99991638 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:23:57,137 - Progress: [330/700] xumo.tv (en) - 50#99991294 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [331/700] xumo.tv (en) - 100#99991784 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:57,137 - Progress: [332/700] xumo.tv (en) - 100#99991784 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:23:57,137 - Progress: [333/700] xumo.tv (en) - 50#99991294 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [334/700] xumo.tv (en) - 100#99991667 - Thu, 28 Nov 2024 00:00:00 GMT (58 programs)
+2024-11-27 16:23:57,137 - Progress: [335/700] xumo.tv (en) - 100#99991667 - Wed, 27 Nov 2024 00:00:00 GMT (57 programs)
+2024-11-27 16:23:57,137 - Progress: [336/700] xumo.tv (en) - 0#99991300 - Wed, 27 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:23:57,137 - Progress: [337/700] xumo.tv (en) - 0#99991399 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:23:57,137 - Progress: [338/700] xumo.tv (en) - 50#99991291 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [339/700] xumo.tv (en) - 100#99991666 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [340/700] xumo.tv (en) - 100#99991666 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [341/700] xumo.tv (en) - 50#99991291 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [342/700] xumo.tv (en) - 100#99991665 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,137 - Progress: [343/700] xumo.tv (en) - 100#99991665 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,138 - Progress: [344/700] xumo.tv (en) - 0#99991399 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:57,138 - Progress: [345/700] xumo.tv (en) - 50#99991281 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:23:57,138 - Progress: [346/700] xumo.tv (en) - 100#99991624 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,138 - Progress: [347/700] xumo.tv (en) - 100#99991624 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:23:57,138 - Progress: [348/700] xumo.tv (en) - 50#99991281 - Wed, 27 Nov 2024 00:00:00 GMT (11 programs)
+2024-11-27 16:23:57,138 - Progress: [349/700] xumo.tv (en) - 100#99991368 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:24:02,133 - Progress: [350/700] xumo.tv (en) - 100#99991368 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:02,134 - Progress: [351/700] xumo.tv (en) - 200#99951131 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,134 - Progress: [352/700] xumo.tv (en) - 200#99951131 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,134 - Progress: [353/700] xumo.tv (en) - 300#9995107 - Wed, 27 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:02,134 - Progress: [354/700] xumo.tv (en) - 300#9995103 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,134 - Progress: [355/700] xumo.tv (en) - 300#9995102 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,134 - Progress: [356/700] xumo.tv (en) - 300#9995101 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,134 - Progress: [357/700] xumo.tv (en) - 300#9995100 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,134 - Progress: [358/700] xumo.tv (en) - 300#9995100 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,134 - Progress: [359/700] xumo.tv (en) - 250#99991761 - Wed, 27 Nov 2024 00:00:00 GMT (52 programs)
+2024-11-27 16:24:02,135 - Progress: [360/700] xumo.tv (en) - 250#99991756 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,135 - Progress: [361/700] xumo.tv (en) - 250#99991708 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:24:02,135 - Progress: [362/700] xumo.tv (en) - 250#99991708 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:24:02,135 - Progress: [363/700] xumo.tv (en) - 250#99991671 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,135 - Progress: [364/700] xumo.tv (en) - 250#99991671 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,135 - Progress: [365/700] xumo.tv (en) - 250#99991670 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,135 - Progress: [366/700] xumo.tv (en) - 250#99991650 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:24:02,135 - Progress: [367/700] xumo.tv (en) - 250#99991621 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,135 - Progress: [368/700] xumo.tv (en) - 250#99991616 - Thu, 28 Nov 2024 00:00:00 GMT (12 programs)
+2024-11-27 16:24:02,135 - Progress: [369/700] xumo.tv (en) - 250#99991388 - Thu, 28 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:02,135 - Progress: [370/700] xumo.tv (en) - 250#99991388 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:02,135 - Progress: [371/700] xumo.tv (en) - 250#99991379 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:02,135 - Progress: [372/700] xumo.tv (en) - 250#99991379 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:24:02,135 - Progress: [373/700] xumo.tv (en) - 250#99991366 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:24:02,135 - Progress: [374/700] xumo.tv (en) - 250#99991354 - Thu, 28 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:02,135 - Progress: [375/700] xumo.tv (en) - 250#99991348 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [376/700] xumo.tv (en) - 250#99991348 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [377/700] xumo.tv (en) - 250#99991333 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:24:02,136 - Progress: [378/700] xumo.tv (en) - 250#99991327 - Thu, 28 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:24:02,136 - Progress: [379/700] xumo.tv (en) - 250#99991326 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,136 - Progress: [380/700] xumo.tv (en) - 250#99991310 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:24:02,136 - Progress: [381/700] xumo.tv (en) - 250#99991296 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [382/700] xumo.tv (en) - 250#99991296 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [383/700] xumo.tv (en) - 250#99991265 - Thu, 28 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:24:02,136 - Progress: [384/700] xumo.tv (en) - 250#99991265 - Wed, 27 Nov 2024 00:00:00 GMT (13 programs)
+2024-11-27 16:24:02,136 - Progress: [385/700] xumo.tv (en) - 250#99991253 - Wed, 27 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:24:02,136 - Progress: [386/700] xumo.tv (en) - 250#99991160 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [387/700] xumo.tv (en) - 250#99991138 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [388/700] xumo.tv (en) - 250#99991137 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [389/700] xumo.tv (en) - 250#99991135 - Thu, 28 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:24:02,136 - Progress: [390/700] xumo.tv (en) - 250#99991135 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:24:02,136 - Progress: [391/700] xumo.tv (en) - 250#99991108 - Wed, 27 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:24:02,136 - Progress: [392/700] xumo.tv (en) - 250#99991107 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:24:02,136 - Progress: [393/700] xumo.tv (en) - 250#99991103 - Thu, 28 Nov 2024 00:00:00 GMT (36 programs)
+2024-11-27 16:24:02,136 - Progress: [394/700] xumo.tv (en) - 250#99991103 - Wed, 27 Nov 2024 00:00:00 GMT (36 programs)
+2024-11-27 16:24:02,136 - Progress: [395/700] xumo.tv (en) - 250#99951280 - Thu, 28 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:24:02,136 - Progress: [396/700] xumo.tv (en) - 250#99951280 - Wed, 27 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:24:02,136 - Progress: [397/700] xumo.tv (en) - 250#99951259 - Wed, 27 Nov 2024 00:00:00 GMT (56 programs)
+2024-11-27 16:24:02,136 - Progress: [398/700] xumo.tv (en) - 250#99951239 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [399/700] xumo.tv (en) - 250#99951214 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,136 - Progress: [400/700] xumo.tv (en) - 250#99951211 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:02,136 - Progress: [401/700] xumo.tv (en) - 250#99951209 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:24:02,137 - Progress: [402/700] xumo.tv (en) - 250#99951209 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:24:02,137 - Progress: [403/700] xumo.tv (en) - 250#99951184 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [404/700] xumo.tv (en) - 250#99951184 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [405/700] xumo.tv (en) - 250#99951155 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:24:02,137 - Progress: [406/700] xumo.tv (en) - 250#99951148 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [407/700] xumo.tv (en) - 250#99951141 - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:24:02,137 - Progress: [408/700] xumo.tv (en) - 250#99951141 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:24:02,137 - Progress: [409/700] xumo.tv (en) - 200#99991950 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [410/700] xumo.tv (en) - 200#99991785 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,137 - Progress: [411/700] xumo.tv (en) - 200#99991762 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,137 - Progress: [412/700] xumo.tv (en) - 200#99991749 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:02,137 - Progress: [413/700] xumo.tv (en) - 200#99991748 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:02,137 - Progress: [414/700] xumo.tv (en) - 200#99991748 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:02,137 - Progress: [415/700] xumo.tv (en) - 200#99991687 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:24:02,137 - Progress: [416/700] xumo.tv (en) - 200#99991674 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,137 - Progress: [417/700] xumo.tv (en) - 200#99991664 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [418/700] xumo.tv (en) - 200#99991664 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [419/700] xumo.tv (en) - 200#99991380 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:24:02,137 - Progress: [420/700] xumo.tv (en) - 200#99991380 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:24:02,137 - Progress: [421/700] xumo.tv (en) - 200#99991370 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:02,137 - Progress: [422/700] xumo.tv (en) - 200#99991365 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [423/700] xumo.tv (en) - 200#99991346 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [424/700] xumo.tv (en) - 200#99991346 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,137 - Progress: [425/700] xumo.tv (en) - 200#99991344 - Wed, 27 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:24:02,137 - Progress: [426/700] xumo.tv (en) - 200#99991338 - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:24:02,137 - Progress: [427/700] xumo.tv (en) - 200#99991303 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,138 - Progress: [428/700] xumo.tv (en) - 200#99991290 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,138 - Progress: [429/700] xumo.tv (en) - 200#99991280 - Thu, 28 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:24:02,138 - Progress: [430/700] xumo.tv (en) - 200#99991280 - Wed, 27 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:24:02,138 - Progress: [431/700] xumo.tv (en) - 200#99991142 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:24:02,138 - Progress: [432/700] xumo.tv (en) - 200#99991142 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:24:02,138 - Progress: [433/700] xumo.tv (en) - 200#99991111 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:24:02,138 - Progress: [434/700] xumo.tv (en) - 200#99951262 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,138 - Progress: [435/700] xumo.tv (en) - 200#99951261 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,138 - Progress: [436/700] xumo.tv (en) - 200#99951260 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:02,138 - Progress: [437/700] xumo.tv (en) - 200#99951257 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,099 - Progress: [438/700] xumo.tv (en) - 200#99951257 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [439/700] xumo.tv (en) - 200#99951243 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [440/700] xumo.tv (en) - 200#99951242 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:24:08,100 - Progress: [441/700] xumo.tv (en) - 200#99951241 - Thu, 28 Nov 2024 00:00:00 GMT (52 programs)
+2024-11-27 16:24:08,100 - Progress: [442/700] xumo.tv (en) - 200#99951241 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:08,100 - Progress: [443/700] xumo.tv (en) - 200#99951217 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [444/700] xumo.tv (en) - 200#99951217 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [445/700] xumo.tv (en) - 200#99951206 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:24:08,100 - Progress: [446/700] xumo.tv (en) - 200#99951145 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [447/700] xumo.tv (es) - SonyCanalComedias.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [448/700] xumo.tv (es) - SonyCanalComedias.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,100 - Progress: [449/700] xumo.tv (es) - CineSureno.us - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:24:08,100 - Progress: [450/700] xumo.tv (en) - WildEarth.uk - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:08,101 - Progress: [451/700] xumo.tv (en) - TYTNetwork.us - Wed, 27 Nov 2024 00:00:00 GMT (22 programs)
+2024-11-27 16:24:08,101 - Progress: [452/700] xumo.tv (en) - TODAYAllDay.us - Thu, 28 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:24:08,101 - Progress: [453/700] xumo.tv (en) - ThisOldHouse.us - Thu, 28 Nov 2024 00:00:00 GMT (51 programs)
+2024-11-27 16:24:08,101 - Progress: [454/700] xumo.tv (en) - ThisOldHouse.us - Wed, 27 Nov 2024 00:00:00 GMT (53 programs)
+2024-11-27 16:24:08,101 - Progress: [455/700] xumo.tv (en) - TheDesignNetwork.us - Wed, 27 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:24:08,101 - Progress: [456/700] xumo.tv (es) - TastemadeenEspanol.us - Thu, 28 Nov 2024 00:00:00 GMT (58 programs)
+2024-11-27 16:24:08,101 - Progress: [457/700] xumo.tv (en) - Tastemade.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [458/700] xumo.tv (en) - Tastemade.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [459/700] xumo.tv (en) - RiffTrax.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [460/700] xumo.tv (en) - RiffTrax.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [461/700] xumo.tv (en) - Newsy.us - Wed, 27 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:24:08,101 - Progress: [462/700] xumo.tv (en) - NewsmaxTV.us - Thu, 28 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:24:08,101 - Progress: [463/700] xumo.tv (en) - MidsomerMurders.us - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:24:08,101 - Progress: [464/700] xumo.tv (en) - LoveNature.ca - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:24:08,101 - Progress: [465/700] xumo.tv (en) - LiveNOWfromFOX.us - Thu, 28 Nov 2024 00:00:00 GMT (9 programs)
+2024-11-27 16:24:08,101 - Progress: [466/700] xumo.tv (en) - LiveNOWfromFOX.us - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,101 - Progress: [467/700] xumo.tv (en) - FoxWeather.us - Thu, 28 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:24:08,101 - Progress: [468/700] xumo.tv (en) - FoxWeather.us - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:24:08,101 - Progress: [469/700] xumo.tv (en) - Food52.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [470/700] xumo.tv (en) - FilmexClasico.mx - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:24:08,101 - Progress: [471/700] xumo.tv (es) - EstrellaNews.us - Thu, 28 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:24:08,101 - Progress: [472/700] xumo.tv (es) - EstrellaNews.us - Wed, 27 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:24:08,101 - Progress: [473/700] xumo.tv (en) - ElectricNow.us - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:08,101 - Progress: [474/700] xumo.tv (en) - Degrassi.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,101 - Progress: [475/700] xumo.tv (en) - DarkMatterTV.us - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:24:08,102 - Progress: [476/700] xumo.tv (en) - CourtTV.us - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:08,102 - Progress: [477/700] xumo.tv (en) - CBSNews.us - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:08,102 - Progress: [478/700] xumo.tv (en) - CBSNews.us - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:08,102 - Progress: [479/700] xumo.tv (en) - ArchitecturalDigest.us - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:24:08,102 - Progress: [480/700] xumo.tv (en) - AntiquesRoadshowUK.us - Thu, 28 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:24:08,102 - Progress: [481/700] xumo.tv (en) - AmericasTestKitchen.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,102 - Progress: [482/700] xumo.tv (en) - AmericasTestKitchen.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,102 - Progress: [483/700] xumo.tv (en) - 300#99991742 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [484/700] xumo.tv (en) - 300#99991742 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [485/700] xumo.tv (en) - 300#99991691 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,102 - Progress: [486/700] xumo.tv (en) - 300#99991690 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:08,102 - Progress: [487/700] xumo.tv (en) - 300#99991656 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:24:08,102 - Progress: [488/700] xumo.tv (en) - 300#99991656 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:08,102 - Progress: [489/700] xumo.tv (en) - 300#99991655 - Wed, 27 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:24:08,102 - Progress: [490/700] xumo.tv (en) - 300#99991643 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:08,102 - Progress: [491/700] xumo.tv (en) - 300#99991642 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:08,102 - Progress: [492/700] xumo.tv (en) - 300#99991641 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:24:08,102 - Progress: [493/700] xumo.tv (en) - 300#99991391 - Thu, 28 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:24:08,102 - Progress: [494/700] xumo.tv (en) - 300#99991391 - Wed, 27 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:24:08,102 - Progress: [495/700] xumo.tv (en) - 300#99991132 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:24:08,102 - Progress: [496/700] xumo.tv (en) - 300#99991132 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:24:08,102 - Progress: [497/700] xumo.tv (en) - 300#99991121 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [498/700] xumo.tv (en) - 300#99991120 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [499/700] xumo.tv (en) - 300#99991119 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [500/700] xumo.tv (en) - 300#99991118 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,102 - Progress: [501/700] xumo.tv (en) - 300#99991117 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,103 - Progress: [502/700] xumo.tv (en) - 300#99991117 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:08,103 - Progress: [503/700] xumo.tv (en) - 300#99951227 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [504/700] xumo.tv (en) - 300#99951226 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [505/700] xumo.tv (en) - 300#99951225 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [506/700] xumo.tv (en) - 300#99951225 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [507/700] xumo.tv (en) - 300#99951182 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [508/700] xumo.tv (en) - 300#99951182 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [509/700] xumo.tv (en) - 300#99951181 - Wed, 27 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:08,103 - Progress: [510/700] xumo.tv (en) - 300#99951176 - Thu, 28 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:08,103 - Progress: [511/700] xumo.tv (en) - 300#99951173 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:08,103 - Progress: [512/700] xumo.tv (en) - 300#99951172 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:24:08,103 - Progress: [513/700] xumo.tv (en) - 300#99951171 - Thu, 28 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:08,103 - Progress: [514/700] xumo.tv (en) - 300#99951171 - Wed, 27 Nov 2024 00:00:00 GMT (36 programs)
+2024-11-27 16:24:08,103 - Progress: [515/700] xumo.tv (en) - 300#99951169 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:24:08,103 - Progress: [516/700] xumo.tv (en) - 300#99951169 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:08,103 - Progress: [517/700] xumo.tv (en) - 300#99951168 - Wed, 27 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:24:08,103 - Progress: [518/700] xumo.tv (en) - 300#99951167 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [519/700] xumo.tv (en) - 300#99951165 - Thu, 28 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:24:08,103 - Progress: [520/700] xumo.tv (en) - 300#99951165 - Wed, 27 Nov 2024 00:00:00 GMT (47 programs)
+2024-11-27 16:24:08,103 - Progress: [521/700] xumo.tv (en) - 300#99951163 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [522/700] xumo.tv (en) - 300#99951162 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:08,103 - Progress: [523/700] xumo.tv (en) - 300#99951127 - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:24:08,103 - Progress: [524/700] xumo.tv (en) - 300#99951122 - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:24:13,886 - Progress: [525/700] xumo.tv (en) - 300#9995112 - Thu, 28 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:13,887 - Progress: [526/700] xumo.tv (en) - 300#9995112 - Wed, 27 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:13,887 - Progress: [527/700] xumo.tv (en) - 300#9995107 - Thu, 28 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:13,887 - Progress: [528/700] xumo.tv (en) - 300#9995103 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [529/700] xumo.tv (en) - 300#9995101 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [530/700] xumo.tv (en) - 250#99991772 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:24:13,887 - Progress: [531/700] xumo.tv (en) - 250#99991756 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [532/700] xumo.tv (en) - 250#99991681 - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:13,887 - Progress: [533/700] xumo.tv (en) - 250#99991670 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [534/700] xumo.tv (en) - 250#99991650 - Wed, 27 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:24:13,887 - Progress: [535/700] xumo.tv (en) - 250#99991616 - Wed, 27 Nov 2024 00:00:00 GMT (12 programs)
+2024-11-27 16:24:13,887 - Progress: [536/700] xumo.tv (en) - 250#99991382 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [537/700] xumo.tv (en) - 250#99991366 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:13,887 - Progress: [538/700] xumo.tv (en) - 250#99991354 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:13,887 - Progress: [539/700] xumo.tv (en) - 250#99991333 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:24:13,887 - Progress: [540/700] xumo.tv (en) - 250#99991327 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:24:13,887 - Progress: [541/700] xumo.tv (en) - 250#99991310 - Wed, 27 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:24:13,887 - Progress: [542/700] xumo.tv (en) - 250#99991283 - Thu, 28 Nov 2024 00:00:00 GMT (58 programs)
+2024-11-27 16:24:13,887 - Progress: [543/700] xumo.tv (en) - 250#99991253 - Thu, 28 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:24:13,887 - Progress: [544/700] xumo.tv (en) - 250#99991160 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [545/700] xumo.tv (en) - 250#99991137 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [546/700] xumo.tv (en) - 250#99991122 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [547/700] xumo.tv (en) - 250#99991107 - Wed, 27 Nov 2024 00:00:00 GMT (46 programs)
+2024-11-27 16:24:13,887 - Progress: [548/700] xumo.tv (en) - 250#99951281 - Thu, 28 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:24:13,887 - Progress: [549/700] xumo.tv (en) - 250#99951259 - Thu, 28 Nov 2024 00:00:00 GMT (61 programs)
+2024-11-27 16:24:13,887 - Progress: [550/700] xumo.tv (en) - 250#99951239 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [551/700] xumo.tv (en) - 250#99951211 - Wed, 27 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:24:13,887 - Progress: [552/700] xumo.tv (en) - 250#99951189 - Thu, 28 Nov 2024 00:00:00 GMT (6 programs)
+2024-11-27 16:24:13,887 - Progress: [553/700] xumo.tv (en) - 250#99951155 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:13,887 - Progress: [554/700] xumo.tv (en) - 250#99951148 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [555/700] xumo.tv (en) - 200#99991950 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [556/700] xumo.tv (en) - 200#99991785 - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:24:13,887 - Progress: [557/700] xumo.tv (en) - 200#99991749 - Wed, 27 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:24:13,887 - Progress: [558/700] xumo.tv (en) - 200#99991747 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:24:13,887 - Progress: [559/700] xumo.tv (en) - 200#99991674 - Wed, 27 Nov 2024 00:00:00 GMT (25 programs)
+2024-11-27 16:24:13,887 - Progress: [560/700] xumo.tv (en) - 200#99991383 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:24:13,887 - Progress: [561/700] xumo.tv (en) - 200#99991370 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [562/700] xumo.tv (en) - 200#99991365 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [563/700] xumo.tv (en) - 200#99991344 - Thu, 28 Nov 2024 00:00:00 GMT (15 programs)
+2024-11-27 16:24:13,887 - Progress: [564/700] xumo.tv (en) - 200#99991338 - Wed, 27 Nov 2024 00:00:00 GMT (14 programs)
+2024-11-27 16:24:13,887 - Progress: [565/700] xumo.tv (en) - 200#99991290 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [566/700] xumo.tv (en) - 200#99991271 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [567/700] xumo.tv (en) - 200#99991111 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:24:13,887 - Progress: [568/700] xumo.tv (en) - 200#99951262 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [569/700] xumo.tv (en) - 200#99951260 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [570/700] xumo.tv (en) - 200#99951252 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [571/700] xumo.tv (en) - 200#99951242 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:13,887 - Progress: [572/700] xumo.tv (en) - 200#99951235 - Thu, 28 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:24:13,887 - Progress: [573/700] xumo.tv (en) - 200#99951206 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:24:13,887 - Progress: [574/700] xumo.tv (en) - 200#99951145 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [575/700] xumo.tv (es) - CineSureno.us - Thu, 28 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:24:13,887 - Progress: [576/700] xumo.tv (en) - WildEarth.uk - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [577/700] xumo.tv (en) - TODAYAllDay.us - Wed, 27 Nov 2024 00:00:00 GMT (38 programs)
+2024-11-27 16:24:13,887 - Progress: [578/700] xumo.tv (en) - TheJamieOliverChannel.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [579/700] xumo.tv (es) - TastemadeenEspanol.us - Wed, 27 Nov 2024 00:00:00 GMT (58 programs)
+2024-11-27 16:24:13,887 - Progress: [580/700] xumo.tv (en) - StoriesbyAMC.us - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:24:13,887 - Progress: [581/700] xumo.tv (en) - Newsy.us - Thu, 28 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:24:13,887 - Progress: [582/700] xumo.tv (en) - NewsmaxTV.us - Wed, 27 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:24:13,887 - Progress: [583/700] xumo.tv (en) - LoveNature.ca - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:24:13,887 - Progress: [584/700] xumo.tv (en) - GustoTV.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [585/700] xumo.tv (en) - Food52.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [586/700] xumo.tv (en) - FilmexClasico.mx - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:24:13,887 - Progress: [587/700] xumo.tv (en) - ElectricNow.us - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:24:13,887 - Progress: [588/700] xumo.tv (en) - Degrassi.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,887 - Progress: [589/700] xumo.tv (en) - CourtTV.us - Wed, 27 Nov 2024 00:00:00 GMT (22 programs)
+2024-11-27 16:24:13,887 - Progress: [590/700] xumo.tv (en) - BloombergTV.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [591/700] xumo.tv (en) - AntiquesRoadshowUK.us - Wed, 27 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:24:13,888 - Progress: [592/700] xumo.tv (en) - 300#99991779 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:24:13,888 - Progress: [593/700] xumo.tv (en) - 300#99991691 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [594/700] xumo.tv (en) - 300#99991690 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:24:13,888 - Progress: [595/700] xumo.tv (en) - 300#99991655 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:24:13,888 - Progress: [596/700] xumo.tv (en) - 300#99991643 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:24:13,888 - Progress: [597/700] xumo.tv (en) - 300#99991641 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:24:13,888 - Progress: [598/700] xumo.tv (en) - 300#99991386 - Thu, 28 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:24:13,888 - Progress: [599/700] xumo.tv (en) - 300#99991121 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:13,888 - Progress: [600/700] xumo.tv (en) - 300#99991120 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:13,888 - Progress: [601/700] xumo.tv (en) - 300#99991118 - Wed, 27 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:24:13,888 - Progress: [602/700] xumo.tv (en) - 300#99951228 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [603/700] xumo.tv (en) - 300#99951226 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [604/700] xumo.tv (en) - 300#99951222 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [605/700] xumo.tv (en) - 300#99951181 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:24:13,888 - Progress: [606/700] xumo.tv (en) - 300#99951176 - Wed, 27 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:13,888 - Progress: [607/700] xumo.tv (en) - 300#99951172 - Wed, 27 Nov 2024 00:00:00 GMT (39 programs)
+2024-11-27 16:24:13,888 - Progress: [608/700] xumo.tv (en) - 300#99951170 - Thu, 28 Nov 2024 00:00:00 GMT (34 programs)
+2024-11-27 16:24:13,888 - Progress: [609/700] xumo.tv (en) - 300#99951168 - Thu, 28 Nov 2024 00:00:00 GMT (44 programs)
+2024-11-27 16:24:13,888 - Progress: [610/700] xumo.tv (en) - 300#99951167 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [611/700] xumo.tv (en) - 300#99951163 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:24:13,888 - Progress: [612/700] xumo.tv (en) - 300#99951162 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,838 - Progress: [613/700] xumo.tv (en) - 300#99951122 - Wed, 27 Nov 2024 00:00:00 GMT (16 programs)
+2024-11-27 16:25:05,840 - Progress: [614/700] xumo.tv (en) - 300#9995110 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:25:05,840 - Progress: [615/700] xumo.tv (en) - 300#9995102 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,840 - Progress: [616/700] xumo.tv (en) - 250#99991772 - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:25:05,840 - Progress: [617/700] xumo.tv (en) - 250#99991681 - Wed, 27 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:25:05,840 - Progress: [618/700] xumo.tv (en) - 250#99991625 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:25:05,840 - Progress: [619/700] xumo.tv (en) - 250#99991382 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,840 - Progress: [620/700] xumo.tv (en) - 250#99991353 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:25:05,840 - Progress: [621/700] xumo.tv (en) - 250#99991326 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,840 - Progress: [622/700] xumo.tv (en) - 250#99991283 - Wed, 27 Nov 2024 00:00:00 GMT (57 programs)
+2024-11-27 16:25:05,840 - Progress: [623/700] xumo.tv (en) - 250#99991138 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,840 - Progress: [624/700] xumo.tv (en) - 250#99991122 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,840 - Progress: [625/700] xumo.tv (en) - 250#99951281 - Wed, 27 Nov 2024 00:00:00 GMT (43 programs)
+2024-11-27 16:25:05,840 - Progress: [626/700] xumo.tv (en) - 250#99951229 - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:25:05,840 - Progress: [627/700] xumo.tv (en) - 250#99951189 - Wed, 27 Nov 2024 00:00:00 GMT (5 programs)
+2024-11-27 16:25:05,840 - Progress: [628/700] xumo.tv (en) - 250#99951146 - Thu, 28 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:25:05,840 - Progress: [629/700] xumo.tv (en) - 200#99991762 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,840 - Progress: [630/700] xumo.tv (en) - 200#99991747 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:25:05,840 - Progress: [631/700] xumo.tv (en) - 200#99991383 - Wed, 27 Nov 2024 00:00:00 GMT (41 programs)
+2024-11-27 16:25:05,840 - Progress: [632/700] xumo.tv (en) - 200#99991364 - Thu, 28 Nov 2024 00:00:00 GMT (40 programs)
+2024-11-27 16:25:05,840 - Progress: [633/700] xumo.tv (en) - 200#99991303 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,840 - Progress: [634/700] xumo.tv (en) - 200#99991271 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,841 - Progress: [635/700] xumo.tv (en) - 200#99951261 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [636/700] xumo.tv (en) - 200#99951252 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [637/700] xumo.tv (en) - 200#99951235 - Wed, 27 Nov 2024 00:00:00 GMT (39 programs)
+2024-11-27 16:25:05,841 - Progress: [638/700] xumo.tv (en) - 200#99951140 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:25:05,841 - Progress: [639/700] xumo.tv (en) - TYTNetwork.us - Thu, 28 Nov 2024 00:00:00 GMT (23 programs)
+2024-11-27 16:25:05,841 - Progress: [640/700] xumo.tv (en) - TheJamieOliverChannel.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [641/700] xumo.tv (en) - StoriesbyAMC.us - Wed, 27 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:25:05,841 - Progress: [642/700] xumo.tv (en) - NBCNewsNOW.us - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:25:05,841 - Progress: [643/700] xumo.tv (en) - GustoTV.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [644/700] xumo.tv (en) - Filmex.mx - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:25:05,841 - Progress: [645/700] xumo.tv (en) - DarkMatterTV.us - Thu, 28 Nov 2024 00:00:00 GMT (19 programs)
+2024-11-27 16:25:05,841 - Progress: [646/700] xumo.tv (en) - BloombergTV.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [647/700] xumo.tv (en) - 300#99991779 - Wed, 27 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:25:05,841 - Progress: [648/700] xumo.tv (en) - 300#99991689 - Thu, 28 Nov 2024 00:00:00 GMT (38 programs)
+2024-11-27 16:25:05,841 - Progress: [649/700] xumo.tv (en) - 300#99991642 - Thu, 28 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:25:05,841 - Progress: [650/700] xumo.tv (en) - 300#99991386 - Wed, 27 Nov 2024 00:00:00 GMT (18 programs)
+2024-11-27 16:25:05,841 - Progress: [651/700] xumo.tv (en) - 300#99991119 - Thu, 28 Nov 2024 00:00:00 GMT (10 programs)
+2024-11-27 16:25:05,841 - Progress: [652/700] xumo.tv (en) - 300#99951228 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [653/700] xumo.tv (en) - 300#99951222 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [654/700] xumo.tv (en) - 300#99951175 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [655/700] xumo.tv (en) - 300#99951170 - Wed, 27 Nov 2024 00:00:00 GMT (31 programs)
+2024-11-27 16:25:05,841 - Progress: [656/700] xumo.tv (en) - 300#99951166 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [657/700] xumo.tv (en) - 300#99951127 - Thu, 28 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:25:05,841 - Progress: [658/700] xumo.tv (en) - 300#9995110 - Wed, 27 Nov 2024 00:00:00 GMT (42 programs)
+2024-11-27 16:25:05,841 - Progress: [659/700] xumo.tv (en) - 250#99991761 - Thu, 28 Nov 2024 00:00:00 GMT (52 programs)
+2024-11-27 16:25:05,841 - Progress: [660/700] xumo.tv (en) - 250#99991625 - Wed, 27 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:25:05,841 - Progress: [661/700] xumo.tv (en) - 250#99991353 - Wed, 27 Nov 2024 00:00:00 GMT (20 programs)
+2024-11-27 16:25:05,841 - Progress: [662/700] xumo.tv (en) - 250#99991273 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [663/700] xumo.tv (en) - 250#99991108 - Thu, 28 Nov 2024 00:00:00 GMT (26 programs)
+2024-11-27 16:25:05,841 - Progress: [664/700] xumo.tv (en) - 250#99951229 - Wed, 27 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:25:05,841 - Progress: [665/700] xumo.tv (en) - 250#99951146 - Wed, 27 Nov 2024 00:00:00 GMT (49 programs)
+2024-11-27 16:25:05,841 - Progress: [666/700] xumo.tv (en) - 200#99991746 - Thu, 28 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:25:05,841 - Progress: [667/700] xumo.tv (en) - 200#99991364 - Wed, 27 Nov 2024 00:00:00 GMT (39 programs)
+2024-11-27 16:25:05,841 - Progress: [668/700] xumo.tv (en) - 200#99991262 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [669/700] xumo.tv (en) - 200#99951243 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [670/700] xumo.tv (en) - 200#99951140 - Wed, 27 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:25:05,841 - Progress: [671/700] xumo.tv (en) - TheDesignNetwork.us - Thu, 28 Nov 2024 00:00:00 GMT (48 programs)
+2024-11-27 16:25:05,841 - Progress: [672/700] xumo.tv (en) - NBCNewsNOW.us - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,841 - Progress: [673/700] xumo.tv (en) - Filmex.mx - Wed, 27 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:25:05,841 - Progress: [674/700] xumo.tv (en) - BBCFood.us - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [675/700] xumo.tv (en) - 300#99991689 - Wed, 27 Nov 2024 00:00:00 GMT (35 programs)
+2024-11-27 16:25:05,841 - Progress: [676/700] xumo.tv (en) - 300#99991381 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:25:05,841 - Progress: [677/700] xumo.tv (en) - 300#99951227 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [678/700] xumo.tv (en) - 300#99951175 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [679/700] xumo.tv (en) - 300#99951166 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [680/700] xumo.tv (en) - 300#9995108 - Thu, 28 Nov 2024 00:00:00 GMT (32 programs)
+2024-11-27 16:25:05,841 - Progress: [681/700] xumo.tv (en) - 250#99991621 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [682/700] xumo.tv (en) - 250#99991273 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [683/700] xumo.tv (en) - 250#99951214 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [684/700] xumo.tv (en) - 200#99991746 - Wed, 27 Nov 2024 00:00:00 GMT (21 programs)
+2024-11-27 16:25:05,841 - Progress: [685/700] xumo.tv (en) - 200#99991262 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [686/700] xumo.tv (en) - 200#99951137 - Thu, 28 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [687/700] xumo.tv (en) - MidsomerMurders.us - Thu, 28 Nov 2024 00:00:00 GMT (17 programs)
+2024-11-27 16:25:05,841 - Progress: [688/700] xumo.tv (en) - BBCFood.us - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [689/700] xumo.tv (en) - 300#99991381 - Wed, 27 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:25:05,841 - Progress: [690/700] xumo.tv (en) - 300#99951174 - Thu, 28 Nov 2024 00:00:00 GMT (28 programs)
+2024-11-27 16:25:05,841 - Progress: [691/700] xumo.tv (en) - 300#9995108 - Wed, 27 Nov 2024 00:00:00 GMT (29 programs)
+2024-11-27 16:25:05,841 - Progress: [692/700] xumo.tv (en) - 250#99991268 - Thu, 28 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,841 - Progress: [693/700] xumo.tv (en) - 200#99991687 - Thu, 28 Nov 2024 00:00:00 GMT (27 programs)
+2024-11-27 16:25:05,841 - Progress: [694/700] xumo.tv (en) - 200#99951137 - Wed, 27 Nov 2024 00:00:00 GMT (0 programs)
+2024-11-27 16:25:05,841 - Progress: [695/700] xumo.tv (en) - ArchitecturalDigest.us - Thu, 28 Nov 2024 00:00:00 GMT (30 programs)
+2024-11-27 16:25:05,841 - Progress: [696/700] xumo.tv (en) - 300#99951174 - Wed, 27 Nov 2024 00:00:00 GMT (37 programs)
+2024-11-27 16:25:05,841 - Progress: [697/700] xumo.tv (en) - 250#99991268 - Wed, 27 Nov 2024 00:00:00 GMT (24 programs)
+2024-11-27 16:25:05,841 - Progress: [698/700] xumo.tv (en) - 200#99951135 - Thu, 28 Nov 2024 00:00:00 GMT (45 programs)
+2024-11-27 16:25:05,841 - Progress: [699/700] xumo.tv (en) - 300#99951173 - Thu, 28 Nov 2024 00:00:00 GMT (33 programs)
+2024-11-27 16:25:05,841 - Progress: [700/700] xumo.tv (en) - 200#99951135 - Wed, 27 Nov 2024 00:00:00 GMT (53 programs)
+2024-11-27 16:25:05,842 - Progress: saving to "./scripts/xumo.xml"...
+2024-11-27 16:25:05,842 - Progress: done in 00h 00m 43s
+2024-11-27 16:25:05,842 - Command completed successfully.
+2024-11-27 16:25:05,842 - success
+2024-11-27 16:25:05,842 - ['dummy.xml', 'xumo.xml', '# https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml', '# https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml', 'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz', 'https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz', 'https://www.bevy.be/bevyfiles/canada.xml', 'https://www.bevy.be/bevyfiles/canadapremium.xml', 'https://www.bevy.be/bevyfiles/canadapremium2.xml', 'https://www.bevy.be/bevyfiles/canadapremium3.xml', 'https://i.mjh.nz/SamsungTVPlus/all.xml', 'https://i.mjh.nz/PlutoTV/all.xml', 'https://i.mjh.nz/Plex/all.xml', 'https://i.mjh.nz/Stirr/all.xml', 'https://i.mjh.nz/PBS/all.xml', 'https://www.bevy.be/bevyfiles/unitedstates1.xml', 'https://www.bevy.be/bevyfiles/unitedstates2.xml', 'https://www.bevy.be/bevyfiles/unitedstates3.xml', 'https://www.bevy.be/bevyfiles/unitedstates4.xml', 'https://www.bevy.be/bevyfiles/unitedstates5.xml', 'https://www.bevy.be/bevyfiles/unitedstates6.xml', 'https://www.bevy.be/bevyfiles/unitedstates7.xml', 'https://www.bevy.be/bevyfiles/unitedkingdom.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml.gz', 'https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml.gz']
+2024-11-27 16:25:05,842 - Fetching 1/27 - dummy.xml
+2024-11-27 16:25:05,842 - Successfully loaded local file: dummy.xml
+2024-11-27 16:25:05,842 - Fetching 2/27 - xumo.xml
+2024-11-27 16:25:05,842 - Successfully loaded local file: xumo.xml
+2024-11-27 16:25:05,842 - Fetching 3/27 - # https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml
+2024-11-27 16:25:05,842 - Error processing local file # https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml: [Errno 2] No such file or directory: '# https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/us.xml'
+2024-11-27 16:25:05,842 - Fetching 4/27 - # https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml
+2024-11-27 16:25:05,842 - Error processing local file # https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml: [Errno 2] No such file or directory: '# https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/SamsungTVPlus/ca.xml'
+2024-11-27 16:25:05,842 - Fetching 5/27 - https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 5/27
+2024-11-27 16:25:05,842 - Fetching 6/27 - https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 6/27
+2024-11-27 16:25:05,842 - Fetching 7/27 - https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 7/27
+2024-11-27 16:25:05,842 - Fetching 8/27 - https://www.bevy.be/bevyfiles/canada.xml
+2024-11-27 16:25:05,842 - Successfully fetched 8/27
+2024-11-27 16:25:05,842 - Fetching 9/27 - https://www.bevy.be/bevyfiles/canadapremium.xml
+2024-11-27 16:25:05,842 - Successfully fetched 9/27
+2024-11-27 16:25:05,842 - Fetching 10/27 - https://www.bevy.be/bevyfiles/canadapremium2.xml
+2024-11-27 16:25:05,842 - Successfully fetched 10/27
+2024-11-27 16:25:05,842 - Fetching 11/27 - https://www.bevy.be/bevyfiles/canadapremium3.xml
+2024-11-27 16:25:05,842 - Successfully fetched 11/27
+2024-11-27 16:25:05,842 - Fetching 12/27 - https://i.mjh.nz/SamsungTVPlus/all.xml
+2024-11-27 16:25:05,842 - Successfully fetched 12/27
+2024-11-27 16:25:05,842 - Fetching 13/27 - https://i.mjh.nz/PlutoTV/all.xml
+2024-11-27 16:25:05,842 - Successfully fetched 13/27
+2024-11-27 16:25:05,842 - Fetching 14/27 - https://i.mjh.nz/Plex/all.xml
+2024-11-27 16:25:05,842 - Successfully fetched 14/27
+2024-11-27 16:25:05,842 - Fetching 15/27 - https://i.mjh.nz/Stirr/all.xml
+2024-11-27 16:25:05,842 - Successfully fetched 15/27
+2024-11-27 16:25:05,842 - Fetching 16/27 - https://i.mjh.nz/PBS/all.xml
+2024-11-27 16:25:05,842 - Successfully fetched 16/27
+2024-11-27 16:25:05,842 - Fetching 17/27 - https://www.bevy.be/bevyfiles/unitedstates1.xml
+2024-11-27 16:25:05,842 - Successfully fetched 17/27
+2024-11-27 16:25:05,842 - Fetching 18/27 - https://www.bevy.be/bevyfiles/unitedstates2.xml
+2024-11-27 16:25:05,842 - Successfully fetched 18/27
+2024-11-27 16:25:05,842 - Fetching 19/27 - https://www.bevy.be/bevyfiles/unitedstates3.xml
+2024-11-27 16:25:05,842 - Successfully fetched 19/27
+2024-11-27 16:25:05,842 - Fetching 20/27 - https://www.bevy.be/bevyfiles/unitedstates4.xml
+2024-11-27 16:25:05,842 - Successfully fetched 20/27
+2024-11-27 16:25:05,842 - Fetching 21/27 - https://www.bevy.be/bevyfiles/unitedstates5.xml
+2024-11-27 16:25:05,842 - Successfully fetched 21/27
+2024-11-27 16:25:05,842 - Fetching 22/27 - https://www.bevy.be/bevyfiles/unitedstates6.xml
+2024-11-27 16:25:05,842 - Successfully fetched 22/27
+2024-11-27 16:25:05,842 - Fetching 23/27 - https://www.bevy.be/bevyfiles/unitedstates7.xml
+2024-11-27 16:25:05,842 - Successfully fetched 23/27
+2024-11-27 16:25:05,842 - Fetching 24/27 - https://www.bevy.be/bevyfiles/unitedkingdom.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 24/27
+2024-11-27 16:25:05,842 - Fetching 25/27 - https://www.bevy.be/bevyfiles/unitedkingdompremium1.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 25/27
+2024-11-27 16:25:05,842 - Fetching 26/27 - https://www.bevy.be/bevyfiles/unitedkingdompremium2.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 26/27
+2024-11-27 16:25:05,842 - Fetching 27/27 - https://www.bevy.be/bevyfiles/unitedkingdompremium3.xml.gz
+2024-11-27 16:25:05,842 - Successfully fetched 27/27
+2024-11-27 16:25:05,842 - Extracting XML from .gz files...
+2024-11-27 16:25:05,842 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+2024-11-27 16:25:12,533 - Reloading Nginx...
+2024-11-27 16:25:14,317 - Stopping `nginx`... (might take a while)
+==> Successfully stopped `nginx` (label: homebrew.mxcl.nginx)
+==> Successfully started `nginx` (label: homebrew.mxcl.nginx)
+2024-11-27 16:25:14,317 - Nginx reloaded successfully.
+2024-12-02 11:29:28,795 - Starting setup process...
+2024-12-02 11:29:28,800 - /opt/homebrew/bin/brew
+2024-12-02 11:29:28,800 - Homebrew is already installed.
+2024-12-02 11:29:28,800 - Installing or updating Nginx...
+2024-12-02 11:29:38,329 - Command failed: sudo cp /Users/kyleabrahams/Documents/GitHub/tv/scripts/nginx.conf /usr/local/etc/nginx/nginx.conf
+cp: /usr/local/etc/nginx/nginx.conf: No such file or directory
+
