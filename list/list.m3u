@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 15 3.55p
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 15 404p
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -917,6 +917,18 @@ https://younghollywood-vizio.amagi.tv/playlist.m3u8
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="PlexJAIL.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/67/Jail_tv_series_logo.jpg" group-title="",Jail
 https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-id="xxx" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",Ant1
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607500
+#EXTINF:-1 tvg-id="xxx" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="",Ant1
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607524
+#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1
+http://newlife3.wanicelife.com:8880/D12m2770/52277683/31147
+#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK SAT
+http://newlife3.wanicelife.com:8880/D12m2770/52277683/31146
+
 
 
 #EXTINF:-1 tvg-id="TSN1.ca" tvg-name="CA065:TSN-1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-1-ca.png?raw=true" group-title="Sports",TSN 1 
