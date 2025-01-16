@@ -1,45 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AdultSwimEast.ca" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="",Adult Swim (HTTP 408 Request Timeout)
-http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1883.m3u8
+#EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network (HTTP 404 Not Found)
+http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-ID="HBOSignatureEast.us" tvg-name="US HBO Signature" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-signature-us.png?raw=true" group-title="Movies",US HBO Signature (HTTP 408 Request Timeout)
 http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/156.m3u8
-#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel (HTTP 408 Request Timeout)
-http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1217.m3u8
-#EXTINF:-1 tvg-id="XumoJustforLaughsGags.ca" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBC4400004KK.m3u8
-#EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBB2900002Z7.m3u8
-#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBB3500004RC.m3u8
-#EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBA3000044BJ.m3u8
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="" ,BBC Two (HTTP 404 Not Found)
-http://world-service.us:8080/ivan-kabel/ldkSclkd25/65358
-#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="" ,BBC Three (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium358/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="" channel-number="446",BBC Four (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="AXStv.us" tvg-name="US AXS TV" tvg-logo="https://i.ibb.co/dgqcsw3/AXS-TV-logo-1.png" group-title="",AXS TV (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium742/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="GAC.Family.East.us" tvg-name="US GAC Family (S)" tvg-logo="https://i.ibb.co/YTJQxGQ/Great-American-Family-logo-svg-1.png" group-title="",GAC Family (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium699/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Willow Cricket.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow (HTTP 408 Request Timeout)
-https://tx2.nexgen.bz:443/WILLOW/index.m3u8
-#EXTINF:-1 tvg-id="Spectrum SportsNet HD (1777).us" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports (HTTP 403 Forbidden)
-http://xxip25.top:8080/04760056/79599130/20946
-#EXTINF:-1 tvg-id="Fox Soccer Plus HDTV 24/7.us" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-soccer-plus-us.png" group-title="Sports" ,FOX Soccer Plus (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium756/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="LFCTV HD.uk" tvg-name="Liverpool TV (LFC TV)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lfctv-uk.png" group-title="Sports" ,Liverpool TV (LFC TV) (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium826/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="ESPN2 HDTV.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 Server 3 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/45.m3u8
-#EXTINF:-1 tvg-id="ESPN U (605).us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U Server 2 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/316.m3u8
-#EXTINF:-1 tvg-id="Big Ten Network HDTV (National).us" tvg-name="BIG Network Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/big-ten-network-us.png?raw=true" group-title="Sports",BIG Network Server 3 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/397.m3u8
-#EXTINF:-1 tvg-id="Bally Sports SoCal.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel SoCal (FFMPEG Input/output Error)
-http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/665.m3u8
-#EXTINF:-1 tvg-id="CP24.ca" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News (HTTP 403 Forbidden)
-http://fortv.cc:8080/105094817/105094817/57257

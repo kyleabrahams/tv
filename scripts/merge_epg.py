@@ -88,28 +88,42 @@ logger.setLevel(logging.INFO)
 logger.info("Starting EPG merge process...")
 
 
-# Step 2.1: Function to run dummy_epg.py script
-script_dir = os.path.dirname(os.path.realpath(__file__)) # Get the directory of the current script of dummy_epg.py
-dummy_epg_path = os.path.join(script_dir, "dummy_epg.py") # Construct the relative path
-print(dummy_epg_path)  # To verify the constructed path
+import os
+import subprocess
 
+# Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
-        # Example paths
-        venv_python = "./venv/bin/python3"  # Adjust to your virtual environment path
-        dummy_epg_path = "dummy_epg.py"  # Adjust to your script location
+        # Define paths
+        script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
+        dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
+        venv_python = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3"  # Path to virtualenv Python
 
-        # Use the virtual environment's Python interpreter
-        result = subprocess.run([venv_python, dummy_epg_path], check=True, capture_output=True, text=True)
+        # Debugging: Print paths
+        print(f"dummy_epg_path: {dummy_epg_path}")
+        print(f"venv_python: {venv_python}")
+
+        # Run the dummy_epg.py script
+        result = subprocess.run(
+            [venv_python, dummy_epg_path],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+
+        # Output success
         print("dummy_epg.py executed successfully")
         print(result.stdout)  # Output from dummy_epg.py
+
     except subprocess.CalledProcessError as e:
+        # Output error
         print(f"Error while running dummy_epg.py: {e}")
         print(e.stderr)
 
 # Run dummy_epg.py
-run_dummy_epg()
+if __name__ == "__main__":
+    run_dummy_epg()
 
 
  
@@ -126,8 +140,8 @@ run_dummy_epg()
 def run_npm_grab():
     # List of npm commands
     commands = [
-        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/channels_custom_end.xml"]
-        # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/test_end.xml"]
+        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/_epg-end/channels_custom_end.xml"]
+        # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/_epg-end/test_end.xml"]
 ]
 
     for command in commands:
@@ -211,7 +225,7 @@ log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log') # Create the re
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
-epg_urls_file = os.path.join(script_dir, 'epg_urls.txt')
+epg_urls_file = os.path.join(script_dir, '_epg-start', 'epg_urls.txt')
 
 # Load EPG URLs using the relative path
 epg_urls = load_epg_urls(epg_urls_file)

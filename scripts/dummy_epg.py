@@ -15,26 +15,24 @@ import argparse # Command line arguement
 
 # Step: 0: Function to process the given directory ( Command line arguement )
 def process_directory(path):
-    # Replace this with the actual logic of your script
     if os.path.exists(path):
         print(f"Processing files in: {path}")
-        # Example of processing files in the directory
         for filename in os.listdir(path):
             print(f"Found file: {filename}")
     else:
         print(f"Path does not exist: {path}")
 
-# Main function
 def main():
     parser = argparse.ArgumentParser(description="Process EPG files.")
-    parser.add_argument('path', type=str, help="Path to the directory to process.")
+    # Default path is the current working directory
+    parser.add_argument('path', type=str, nargs='?', default=os.getcwd(), help="Path to the directory to process.")
     args = parser.parse_args()
     
     process_directory(args.path)
 
 if __name__ == "__main__":
     main()
-
+    
 # Step 1: Function to install packages
 def install_package(package_name):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
@@ -141,7 +139,23 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     pretty_xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + pretty_xml
 
     # Step 6.3: Define the output file path relative to the current working directory
-    output_file_path = "dummy.xml"  # File will be saved in the same directory as the script
+    # Get the current script directory
+    script_dir = os.path.dirname(os.path.realpath(__file__))
+
+    # Define the output directory for '_epg-end'
+    output_dir = os.path.join(script_dir, "_epg-end")
+
+    # Ensure the '_epg-end' directory exists
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Define the output file path within '_epg-end'
+    output_file_path = os.path.join(output_dir, "dummy.xml")
+
+    # Step 6.4: Save the EPG XML to the file
+    with open(output_file_path, 'w', encoding='utf-8') as output_file:
+        output_file.write(pretty_xml)
+    
+    print(f"EPG data saved to: {output_file_path}")
 
     # Step 6.4: Save the XML to the file
     try:

@@ -1,0 +1,25 @@
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 16 2025 12:58:39
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 112, in <module>
+    run_dummy_epg()
+    ~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 104, in run_dummy_epg
+    result = subprocess.run([venv_python, dummy_epg_path], check=True, capture_output=True, text=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 1036, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 1966, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: './venv/bin/python3'

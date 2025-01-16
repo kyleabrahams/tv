@@ -14,21 +14,20 @@ def run_iptv_checker(m3u_file_path, output_path):
     subprocess.run(command)
 
 def main():
-    # # Path to the ProtonVPN config file
+    # Set the base directory relative to the script location
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Path to the ProtonVPN config file (absolute path, as you provided)
     vpn_config_path = "/Users/kyleabrahams/Documents/_VPN/ca.protonvpn.udp.ovpn"
     
-    # # M3U file and output path for IPTV checker
+    # M3U file and output path for IPTV checker
     m3u_file_path = "/Users/kyleabrahams/Documents/GitHub/tv/list/list.m3u"
-    # output_path = f"/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/list-{datetime.datetime.now().strftime('%Y%m%d')}"
-    output_path = f"/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/"
+    output_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/www"
 
-    # Set the base directory relative to the script location
-    # base_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Relative paths to the files and folders
-    # vpn_config_path = os.path.join(base_dir, "ca.protonvpn.udp.ovpn")
-    # m3u_file_path = os.path.join(base_dir, "GitHub/tv/list/list.m3u")
-    # output_path = os.path.join(base_dir, "___ServersFULL/Checked", f"_list-{datetime.datetime.now().strftime('%Y%m%d')}")
+    # Print the paths to verify
+    print(f"VPN config path: {vpn_config_path}")
+    print(f"M3U file path: {m3u_file_path}")
+    print(f"Output path: {output_path}")
 
     # Connect to VPN
     connect_vpn(vpn_config_path)
