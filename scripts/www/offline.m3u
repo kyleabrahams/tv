@@ -3,3 +3,35 @@
 http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-ID="HBOSignatureEast.us" tvg-name="US HBO Signature" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-signature-us.png?raw=true" group-title="Movies",US HBO Signature (HTTP 408 Request Timeout)
 http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/156.m3u8
+#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1217.m3u8
+#EXTINF:-1 tvg-id="ShowtimeFamilyZoneEast.us" tvg-name="Showtime Family Zone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-family-zone-us.png?raw=true" group-title="Movies",Showtime Family Zone (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1464.m3u8
+#EXTINF:-1 tvg-id="Showtime.Showcase.HD.-.East.us" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-showcase-us.png?raw=true" group-title="Movies",Showtime Showcase (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1465.m3u8
+#EXTINF:-1 tvg-id="MovieMax.us" tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1605.m3u8
+#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="Cinemax ActionMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",Cinemax ActionMax (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1604.m3u8
+#EXTINF:-1 tvg-id="ThrillerMax.us" tvg-name="Cinemax ThrillerMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-thrillermax-us.png?raw=true" group-title="Movies",Cinemax ThrillerMax (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1607.m3u8
+#EXTINF:-1 tvg-ID="StarzInBlackEast.us" tvg-name="Starz in Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-black-us.png?raw=true" group-title="Movies",Starz in Black (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/397.m3u8
+#EXTINF:-1 tvg-ID="StarzKidsFamilyEast.us" tvg-name="Starz Kids & Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",Starz Kids & Family (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1248.m3u8
+#EXTINF:-1 tvg-ID="StarzCinema.us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema (HTTP 408 Request Timeout)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1250.m3u8
+#EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen (FFMPEG Invalid Data)
+https://jmp2.uk/sam-USBB2900002Z7.m3u8
+#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway (FFMPEG Invalid Data)
+https://jmp2.uk/sam-USBB3500004RC.m3u8
+#EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog (FFMPEG Invalid Data)
+https://jmp2.uk/sam-USBA3000044BJ.m3u8
+#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
+#EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="" ,BBC Two (HTTP 404 Not Found)
+http://world-service.us:8080/ivan-kabel/ldkSclkd25/65358
+#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="" ,BBC Three (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium358/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
+#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="" channel-number="446",BBC Four (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
