@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 326p 
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 414p 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -26,9 +26,11 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423708
 #EXTINF:-1 tvg-id="CITY.Toronto.ON.HD.ca" tvg-name="07 City TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="",Citytv Toronto
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418432
 # #EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
-# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418453
-# #EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
 # http://iptvtree.net:8080/romaniamedia/c726d524bf/298187
+#EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418453
+#EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Calgary
+https://xyzdddd.mizhls.ru/lb/premium602/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
 http://fortv.cc:8080/105094817/105094817/120747
 #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
@@ -72,7 +74,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/419883
 # #EXTINF:-1 tvg-id="CTV2.Toronto.ON.HD.ca" tvg-name="19 CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
 # http://fortv.cc:8080/105094817/105094817/58546
 #EXTINF:-1 tvg-id="CTV2.Toronto.ON.HD.ca" tvg-name="19 CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London 1
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418599
+https://xyzdddd.mizhls.ru/lb/premium838/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="CTV2.Toronto.ON.HD.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor
 http://xxip25.top:8080/04760056/79599130/77165
 # #EXTINF:-1 tvg-id="CTV2.Toronto.ON.HD.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor
@@ -696,8 +698,6 @@ https://xyzdddd.mizhls.ru/lb/premium742/index.m3u8|Referer=https://cookiewebplay
 http://fortv.cc:8080/105094817/105094817/172481
 #EXTINF:-1 tvg-id="AlJazeera.us" tvg-name="US Al Jazeera" tvg-logo="https://i.ibb.co/7J8Byr3/Aljazeera-English-1.png" group-title="News",US Al Jazeera
 http://live-hls-web-aje.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="The.Cowboy.Channel.us" tvg-name="US The Cowboy Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cowboy-channel-us.png?raw=true" group-title="",The Cowboy Channel 
-http://fortv.cc:8080/105094817/105094817/122527
 #EXTINF:-1 tvg-id="Start.TV.us" tvg-name="US Start TV" tvg-logo="https://i.ibb.co/Ss48491/Start-TV-dark-blue-1.png" group-title="",Start TV 
 http://fl3.moveonjoy.com/Start_Tv/index.m3u8
 #EXTINF:-1 tvg-id="GAC.Family.East.us" tvg-name="US GAC Family (S)" tvg-logo="https://i.ibb.co/YTJQxGQ/Great-American-Family-logo-svg-1.png" group-title="",GAC Family
@@ -729,8 +729,8 @@ http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/212.m3u8
 # http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1602.m3u8
 #EXTINF:-1 tvg-id="AMC+.us" tvg-name="USA AMC+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",US AMC+ 
 https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
-#EXTINF:-1 tvg-id="PlexAMCThrillers.us" tvg-name="US AMC Thrillers" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="Movies",AMC Thrillers
-http://fortv.cc:8080/105094817/105094817/66243
+#EXTINF:-1 tvg-id="PlexAMCThrillers.us" tvg-name="Vizio AMC Thrillers" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="Movies",AMC Thrillers
+https://18f2fbf906cb473e8adbe37026e7e27f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vizio_RushByAMC/playlist.m3u8
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-logo="https://i.ibb.co/tpGjF36/stories-by-amc-1.png" group-title="",Stories by AMC
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_channelId=99991622
 #EXTINF:-1 tvg-id="AmericanHeroesChannel.us" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="",American Heroes Channel 
@@ -841,7 +841,7 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fc31252d35decbc408
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:-1 tvg-id="PlutoMTVSpankinNew.ca" tvg-name="MTV Spankin' New" tvg-logo="https://i.ibb.co/HPS5RrK/mtv-spankin-new-2.png" group-title="Music",MTV Spankin' New
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5d14fdb8ca91eedee1633117/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="US One America News" tvg-logo="https://i.ibb.co/BPBKNLD/OAN-2.png" group-title="News",One America News
+#EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="TLC list / One America News" tvg-logo="https://i.ibb.co/BPBKNLD/OAN-2.png" group-title="News",One America News
 http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1183.m3u8
 #EXTINF:-1 tvg-id="OutdoorChannelHD.us" tvg-name="US Outdoor Channel USATV" tvg-logo="https://i.ibb.co/rvLb8Ht/Outdoor-Channel-logo-2017-1.png" group-title="",Outdoor Channel 
 http://fl2.moveonjoy.com/OUTDOOR_CHANNEL/index.m3u8
