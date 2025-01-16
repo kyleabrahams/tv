@@ -180,6 +180,7 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MGM+Hits.us" site_id="mgm-hits-hd--east/11615">MGM+ Hits HD - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MGM+DriveIn.us" site_id="mgm-drive-in-hd/33934">MGM+ Drive-In HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max--eastern/636">5 Star Max - Eastern</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CinemaxEastHD.us" site_id="cinemax--eastern-hd/3567">Cinemax - Eastern HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="OuterMax.us" site_id="outermax--eastern/2270">OuterMax - Eastern</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MoreMax.us" site_id="moremax--eastern-hd/7097">MoreMax - Eastern HD</channel>
@@ -215,6 +216,7 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="DiscoveryLife.us" site_id="discovery-life-channel-hd/16423">Discovery Life Channel HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TBSEast.us" site_id="tbs--east-hd/6090">TBS - East HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TBSWest.us" site_id="tbs--pacific-hd/6231">TBS - Pacific HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="PopEast.us" site_id="pop--east/10165">POP - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="AandE.us" site_id="ae-us--eastern-feed/2">A&amp;E US - Eastern Feed</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="AMC+.us" site_id="amc/35317">AMC+</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="AmericanHeroesChannel.us" site_id="american-heroes-channel-hd/10881">American Heroes Channel HD</channel>
@@ -481,6 +483,7 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoNickPluto V.ca" site_id="PlutoTV/ca#62bdb6a83c6e37000726823b">Nick Pluto TV</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoNewsmaxTV.us" site_id="0#99991194">Newsmax2</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoArchitecturalDigest.us" site_id="150#99991229">Architectural Digest</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="SamsungArchitecturalDigest.us" site_id="SamsungTVPlus/ca#CABC5200009HX">Architectural Digest</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoStoriesbyAMC.us" site_id="100#99991622">Stories by AMC</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoLoveNature.us" site_id="150#99991398">Love Nature</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoNewsy.us" site_id="0#99991148">Scripps News</channel>
@@ -497,7 +500,9 @@
   <channel site="xumo.tv" lang="en" xmltv_id="XumoAngerManagementChannel.us" site_id="100#99951192">Anger Management Channel</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoFreeActionMovies.us" site_id="0#99991352">Xumo Free Action Movies</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoFreeMovies.us" site_id="0#99991299">Xumo Free Movies</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HallmarkChannelEast.us" site_id="hallmark--eastern-feed/1052">Hallmark - Eastern Feed</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoHallmarkMoviesMore.us" site_id="0#99991709">Hallmark Movies &amp; More</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HallmarkMoviesMysteriesEast.us" site_id="hallmark-movies--mysteries--eastern/4453">Hallmark Movies &amp; Mysteries - Eastern</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoFunnyorDie.us" site_id="100#99991187">Funny or Die</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoUniversalMonsters.us" site_id="50#99951264">Universal Monsters</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoIMPACTWrestlingChannel.us" site_id="50#99991341">IMPACT Wrestling Channel</channel>
@@ -533,7 +538,8 @@
   <channel site="xumo.tv" lang="en" xmltv_id="XumoIONMystery.us" site_id="100#99951157">ION Mystery</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCFourHD.uk" site_id="1851/bbc-four-hd">BBC Four HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoHD.uk" site_id="1782/bbc-two-hd">BBC Two HD</channel>
+  <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoHD.uk" site_id="1782/bbc-two-hd">BBC Two HD</channel> -->
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoEngland.uk" site_id="52/bbc-two-england">BBC Two England</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>  
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEastHD.uk" site_id="2364/bbc-one-east-hd">BBC One East HD</channel>
