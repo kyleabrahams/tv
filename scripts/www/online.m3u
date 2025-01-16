@@ -219,3 +219,29 @@ http://fl2.moveonjoy.com/HBO_COMEDY/index.m3u8
 http://fl2.moveonjoy.com/HBO_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SamsungBBC.Earth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/0nhStDk/BBC-Earth-2023-1.png" group-title="",BBC Earth
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423699
+#EXTINF:-1 tvg-id="MovieTime.ca" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418491
+#EXTINF:-1 tvg-id="SilverScreenClassics.ca" tvg-name="Silver Screen Classics" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/silver-screen-classics-ca.png?raw=true" group-title="Classics",Silver Screen Classics
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418507
+#EXTINF:-1 tvg-id="Crave1.-.East.ca" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",CRAVE 1
+http://fl3.moveonjoy.com/CRAVE_1/index.m3u8
+#EXTINF:-1 tvg-id="Crave2.-.East.ca" tvg-name="CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="Movies",CRAVE 2
+http://fl2.moveonjoy.com/CRAVE_2/index.m3u8
+#EXTINF:-1 tvg-id="Crave3.-.East.ca" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",CRAVE 3
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418443
+#EXTINF:-1 tvg-id="Crave4.ca" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",CRAVE 4
+http://fl2.moveonjoy.com/CRAVE_4/index.m3u8
+#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418630
+#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418633
+#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418632
+#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418631
+#EXTINF:-1 tvg-id="Paramount+.with.Showtime..West.us" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime 
+http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
+#EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 
+http://fl2.moveonjoy.com/SHOWTIME_2/index.m3u8
+#EXTINF:-1 tvg-id="ShowtimeExtremeEast.us" tvg-name="Showtime Extreme" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",Showtime Extreme 
+http://fl2.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
