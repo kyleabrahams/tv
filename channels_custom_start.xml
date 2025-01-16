@@ -287,6 +287,115 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN3.ca" site_id="tsn3/13719">TSN3</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN4.ca" site_id="tsn4/279">TSN4</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TSN5.ca" site_id="tsn5/278">TSN5</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetOntario.ca" site_id="sportsnet-ontario--satellitedigital-hd/16162">Sportsnet (Ontario) - Satellite/Digital HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetEast.ca" site_id="sportsnet-east-hd/6043">Sportsnet (East) HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetEast.ca" site_id="sportsnet-east/255">Sportsnet (East)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetWest.ca" site_id="sportsnet-west--satellitedigital-hd/16164">Sportsnet (West) - Satellite/Digital HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetWest.ca" site_id="sportsnet-west--satellitedigital/2705">Sportsnet (West) - Satellite/Digital</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetPacific.ca" site_id="sportsnet-pacific-hd/6042">Sportsnet (Pacific) HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetPacific.ca" site_id="sportsnet-pacific/314">Sportsnet (Pacific)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetWorld.ca" site_id="sportsnet-world-hd/8431">Sportsnet World HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetOne.ca" site_id="sportsnet-one-4k/19279">Sportsnet One 4K</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SportsnetOne.ca" site_id="sportsnet-one-hd/8359">Sportsnet One HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Sportsnet360.ca" site_id="sportsnet-360-hd/3614">Sportsnet 360 HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NFLNetwork.us" site_id="nfl-network/3349">NFL Network</channel>
+
+  <channel site="tvpassport.com" lang="en" xmltv_id="SECNetwork.us" site_id="sec-network-hd/13712">SEC Network HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SECNetwork.us" site_id="sec-network/13711">SEC Network</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="SNY.NewYork.us" site_id="sny-sportsnet-new-york-hd/4713">SNY: SportsNet New York HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="GolfChannel.us" site_id="golf-channel-usa-hd/6039">Golf Channel USA HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="GolfChannel.us" site_id="golf-channel-usa/193">Golf Channel USA</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="TennisChannel.us" site_id="the-tennis-channel-hd/7051">The Tennis Channel HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TennisChannel.us" site_id="the-tennis-channel/2269">The Tennis Channel</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="MLBNetwork.us" site_id="mlb-network-hd/6218">MLB Network HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MLBNetwork.us" site_id="mlb-network/6178">MLB Network</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="yes-network-hd/4696">YES Network HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="YesNetwork.us" site_id="yes-network/1953">YES Network</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NESN.us" site_id="new-england-sports-network-hd/3600">New England Sports Network HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NHLNetwork.us" site_id="nhl-network-usa-hd/14157">NHL Network USA HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NHLNetwork.us" site_id="nhl-network-usa-alternate-hd/18834">NHL Network USA Alternate HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBATVCanada.ca" site_id="nba-tv-canada/1150">NBA TV Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBATV.us" site_id="nba-tv-usa-hd/5645">NBA TV USA HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBATV.us" site_id="nba-tv-usa/3116">NBA TV USA</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="AltitudeSportsDenver.us" site_id="altitude-sports-hd/7542">Altitude Sports - Denver HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AltitudeSportsDenver.us" site_id="altitude-sports/3342">Altitude Sports - Denver</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="MSG.us" site_id="msg-madison-square-gardens/1649">MSG (Madison Square Gardens)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="MSG+.us" site_id="msg-plus--syracuse/12616">MSG Plus - Syracuse</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="MSG2.us" site_id="msg-2/31490">MSG 2</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CBSSportsNetworkUSA.us" site_id="cbs-sports-network-usa-hd/6985">CBS Sports Network USA HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CBSSportsNetworkUSA.us" site_id="cbs-sports-network-usa/3115">CBS Sports Network USA</channel> -->
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexSportsGrid.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-5ef11485d33ab9004048a1ca">SportsGrid</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ACCNetwork.us" site_id="acc-network/33964">ACC Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexACCDN.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-5f8ee3727c75fa002d9e47c1">ACCDN</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BeinSports.ca" site_id="bein-sport-canada/13246">beIN Sport Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="MASN.us" site_id="mid-atlantic-sports-network-hd/7233">Mid-Atlantic Sports Network HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MASN.us" site_id="mid-atlantic-sports-network/4551">Mid-Atlantic Sports Network</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="WillowCricket.us" site_id="willow-cricket-hd/6444">Willow Cricket HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WillowCricket.us" site_id="willow-cricket/15964">Willow Cricket</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="SpectrumSports.us" site_id="oc-sports-hd/9581">Spectrum Sports Hawaii (OC16) HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="SpectrumSports.us" site_id="oc-sports/9580">Spectrum Sports Hawaii (OC16)</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="RootSportsNorthwest.us" site_id="root-sports-northwest-boise-hd/5701">Root Sports Northwest - Boise HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="RootSportsNorthwest.us" site_id="root-sports-northwest--boise/4167">Root Sports Northwest - Boise</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="XumoSwerveCombat.us" site_id="50#99991696">Swerve Combat</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="XumoFightNetwork.us" site_id="50#99951132">Fight Network</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="WWENetwork.ca" site_id="wwe-net-pak-canada/14230">WWE Network (Canada)</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="WWENetwork.ca" site_id="wwe-net-pak-hd-canada/14184">WWE Network HD (Canada)</channel> -->
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexWomensSportsNetwork.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-630fa9e577ec3866def38fa2">Women&apos;s Sports Network</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxSportsRacing.us" site_id="fox-sports-racing-hd/5488">Fox Sports Racing HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxSports1.us" site_id="fox-sports-1-hd/11137">Fox Sports 1 HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoxSports2.us" site_id="fox-sports-2-hd/10263">Fox Sports 2 HD</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoxSports2.us" site_id="fox-sports-2/2114">Fox Sports 2</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoxSoccerPlus.us" site_id="fox-soccer-plus-hd/11551">FOX Soccer Plus HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxSoccerPlus.us" site_id="fox-soccer-plus/7538">FOX Soccer Plus</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="LiverpoolTV.uk" site_id="2052/liverpool-tv">Liverpool TV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsBayArea.us" site_id="comcast-sportsnet-bay-area-hd/6305">NBC Sports Bay Area HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsBayArea.us" site_id="comcast-sportsnet-bay-area/1117">NBC Sports Bay Area</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsBoston.us" site_id="comcast-sportsnet-new-england-hd/4534">NBC Sports Boston HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsBoston.us" site_id="comcast-sportsnet-new-england/4529">NBC Sports Boston</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsCalifornia.us" site_id="comcast-sportsnet-california-hd/6410">NBC Sports California HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsCalifornia.us" site_id="comcast-sportsnet-california/2836">NBC Sports California</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsChicago.us" site_id="comcast-sportsnet-chicago-hd/6409">NBC Sports Chicago HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsChicago.us" site_id="comcast-sportsnet-chicago/4020">NBC Sports Chicago</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsPhiladelphia.us" site_id="comcast-sportsnet-philadelphia-hd/6413">NBC Sports Philadelphia HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsPhiladelphia.us" site_id="comcast-sportsnet-philadelphia/6014">NBC Sports Philadelphia</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NBCSportsNorthwest.us" site_id="comcast-sportsnet-northwest/4747">NBC Sports NorthWest</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ESPN.us" site_id="espn-hd/3036">ESPN HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ESPN2.us" site_id="espn2-hd/3379">ESPN2 HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ESPNews.us" site_id="espn-news-hd/6246">ESPN News HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="ESPNews.us" site_id="espn-news/1527">ESPN News</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ESPU.us" site_id="espn-u-hd/6245">ESPN U HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BigTenNetwork.us" site_id="big-ten-network-hd/4500">Big Ten Network HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsDetroit.us" site_id="fox-sports-detroit-hd/4514">Bally Sports Detroit HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsDetroit.us" site_id="fox-sports-detroit/1115">Bally Sports Detroit</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsFlorida.us" site_id="fox-sports-florida-hd/4516">Bally Sports Florida HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsFlorida.us" site_id="fox-sports-florida-1/31557">Bally Sports Florida 1</channel>
+
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsIndiana.us" site_id="fox-sports-midwest-central-indiana-hd/19657">Bally Sports Midwest - Central Indiana HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsIndiana.us" site_id="fox-sports-midwest--central-indiana/19538">Bally Sports Midwest - Central Indiana</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsKansas.us" site_id="fox-sports-midwest-kansas-state-hd/5698">Bally Sports Midwest - Kansas State HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsKansas.us" site_id="fox-sports-midwest--kansas-state/19541">Bally Sports Midwest - Kansas State</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsMidwestStLouis.us" site_id="fox-sports-midwest-st-louis-hd/5699">Bally Sports Midwest - St. Louis HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsMidwestStLouis.us" site_id="fox-sports-midwest--st-louis/19544">Bally Sports Midwest - St. Louis</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsNorth.us" site_id="fox-sports-north-hd/4517">Bally Sports North HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsNorth.us" site_id="fox-sports-north/1234">Bally Sports North</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsOhio.us" site_id="fox-sports-ohio-cleveland-hd/7414">Bally Sports Ohio - Cleveland HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsOhio.us" site_id="fox-sports-ohio--cleveland/4302">Bally Sports Ohio - Cleveland</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsOklahoma.us" site_id="fox-sports-oklahoma-hd/11520">Bally Sports Oklahoma HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsOklahoma.us" site_id="fox-sports-oklahoma/10315">Bally Sports Oklahoma</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSoCal.us" site_id="fox-sports-west-prime-ticket-hd/5704">Bally Sports SoCal HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSoCal.us" site_id="fox-sports-west-prime-ticket/2592">Bally Sports SoCal</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSouthAtlanta.us" site_id="fox-sports-south-hd/4520">Bally Sports South HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSouthAtlanta.us" site_id="fox-sports-south/1107">Bally Sports South</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSoutheastGeorgia.us" site_id="fox-sports-southeast-georgia-hd/16243">Bally Sports Southeast - Georgia HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSoutheastGeorgia.us" site_id="fox-sports-southeast--georgia/10126">Bally Sports Southeast - Georgia</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSouthwest.us" site_id="fox-sports-southwest-hd/4521">Bally Sports Southwest HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsSouthwest.us" site_id="fox-sports-southwest/1106">Bally Sports Southwest</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsFlorida.us" site_id="fox-sports-florida-1-hd/31558">Bally Sports Florida 1 HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsFlorida.us" site_id="fox-sports-florida-1/31557">Bally Sports Florida 1</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsArizona.us" site_id="fox-sports-arizona-hd/4515">Bally Sports Arizona HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsArizona.us" site_id="fox-sports-arizona/1118">Bally Sports Arizona</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsWisconsin.us" site_id="fox-sports-north-wi-hd/7282">Bally Sports Wisconsin HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsWisconsin.us" site_id="fox-sports-north--wi/6760">Bally Sports Wisconsin</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="SamsungBBCEarth.us" site_id="SamsungTVPlus/us#USBD1700001RW">BBC Earth</channel>
   <!-- <channel site="xumo.tv" lang="en" xmltv_id="BBC.Earth" site_id="150#99951231">BBC Earth</channel> -->
   <channel site="i.mjh.nz" lang="en" xmltv_id="SamsungIslandVibes.ca" site_id="SamsungTVPlus/ca#CA140001684">Island Vibes</channel>
@@ -391,8 +500,6 @@
   <channel site="xumo.tv" lang="en" xmltv_id="XumoUniversalMonsters.us" site_id="50#99951264">Universal Monsters</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoIMPACTWrestlingChannel.us" site_id="50#99991341">IMPACT Wrestling Channel</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoACCDigitalNetwork.us" site_id="50#99991315">ACC Digital Network</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="XumoSwerveCombat.us" site_id="50#99991696">Swerve Combat</channel>
-  <channel site="xumo.tv" lang="en" xmltv_id="XumoFightNetwork.us" site_id="50#99951132">Fight Network</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoPBSAntiquesRoadshow.uk" site_id="200#99951206">PBS Antiques Roadshow</channel>
   <channel site="xumo.tv" lang="en" xmltv_id="XumoABCNewsLive.us" site_id="0#99991377">ABC News Live</channel>
   <!-- <channel site="xumo.tv" lang="en" xmltv_id="XumoPBSDigitalStudios.us" site_id="250#99991160">PBS Digital Studios</channel> -->
