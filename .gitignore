@@ -4,9 +4,8 @@ node_modules
 nginx_uninstall_backups/
 # Ignore epg.xml file
 scripts/www/epg.xml
-scripts/channels_custom_end.xml
-scripts/dummy.xml
+scripts/_epg-end/*.xml
 # Ignore log files
-scripts/log/*.log
-# Ignore all subdirectories inside www
-/www/_list-*
+scripts/www/*.log
+# Ignore .m3u files
+scripts/www/*.m3u

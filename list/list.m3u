@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 237p
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 326p
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -27,10 +27,10 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423708
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418432
 # #EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
 # http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418453
-#EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
-http://iptvtree.net:8080/romaniamedia/c726d524bf/298187
-# #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
-# http://fortv.cc:8080/105094817/105094817/120747
+# #EXTINF:-1 tvg-id="CTV.(CFTO).Toronto.ON.HD.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto
+# http://iptvtree.net:8080/romaniamedia/c726d524bf/298187
+#EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
+http://fortv.cc:8080/105094817/105094817/120747
 #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="09 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/419885
 # #EXTINF:-1 tvg-id="FOX.(WFXT).Boston,.MA.us" tvg-name="09 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
@@ -199,8 +199,10 @@ http://fl2.moveonjoy.com/MTV/index.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418649
 #EXTINF:-1 tvg-id="Flavour.Network.Canada.ca" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home & Food",Flavour Network 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418465
+# #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network 
+# http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network 
-http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
+http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/509101
 #EXTINF:-1 tvg-id="The.Cooking.Channel.us" tvg-name="58 US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",US Cooking Channel 
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Yes.TV.(CITS).Burlington.ON.ca" tvg-name="59 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 

@@ -23,3 +23,236 @@ Traceback (most recent call last):
   File "/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 1966, in _execute_child
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: './venv/bin/python3'
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 16 2025 15:24:01
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+Processing files in: /Users/kyleabrahams/Documents/GitHub/tv/scripts
+Found file: check_m3u_files.py
+Found file: install_all.py
+Found file: channels_json.xml
+Found file: uninstall_nginx.py
+Found file: _scripts_test
+Found file: types
+Found file: m3u8_scraper.py
+Found file: .DS_Store
+Found file: _epg-start
+Found file: merge_epg.py
+Found file: core
+Found file: merge_epg_channels_json.py
+Found file: requirements.txt
+Found file: dummy_epg.py
+Found file: channels.json
+Found file: uninstall_all.py
+Found file: models
+Found file: www
+Found file: channels_custom_end.xml
+Found file: playlist_generator.py
+Found file: uninstall_dependencies.py
+Found file: nginx_uninstall_backups
+Found file: constants.ts
+Found file: install_nginx.py
+Found file: default.conf
+Found file: scripts
+Found file: channels_xml.py
+Found file: log
+Found file: install_dependencies.py
+Found file: commands
+Found file: venv
+Found file: nginx.conf
+Found file: vpn_iptv_checker.py
+Found file: _epg-end
+Found file: iptv-checker-20-12-2024-11-53-45
+Found file: extras
+pytz is installed and ready to use.
+EPG data saved to: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy.xml
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy.xml
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=channels_custom_start.xml --output ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: 
+STDOUT: starting...
+STDOUT: config:
+STDOUT: output: ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: maxConnections: 1
+STDOUT: gzip: false
+STDOUT: channels: channels_custom_start.xml
+STDOUT: loading channels...
+STDOUT: found 499 channel(s)
+STDOUT: run #1:
+STDOUT: [1/1328] cyta.com.cy (el) - RIK1.gr - Jan 16, 2025 (21 programs)
+STDOUT: [2/1328] cyta.com.cy (el) - RIK1.gr - Jan 17, 2025 (22 programs)
+STDOUT: [3/1328] mytelly.co.uk (en) - BBCOneWestHD.uk - Jan 17, 2025 (26 programs)
+STDOUT: [4/1328] mytelly.co.uk (en) - BBCOneWestHD.uk - Jan 16, 2025 (27 programs)
+STDOUT: [5/1328] mytelly.co.uk (en) - BBCOneWest.uk - Jan 17, 2025 (26 programs)
+STDOUT: [6/1328] mytelly.co.uk (en) - BBCOneWest.uk - Jan 16, 2025 (27 programs)
+STDOUT: [7/1328] mytelly.co.uk (en) - BBCOneLondonHD.uk - Jan 17, 2025 (26 programs)
+STDOUT: [8/1328] mytelly.co.uk (en) - BBCOneLondonHD.uk - Jan 16, 2025 (27 programs)
+STDOUT: [9/1328] mytelly.co.uk (en) - BBCOneLondon.uk - Jan 17, 2025 (26 programs)
+STDOUT: [10/1328] mytelly.co.uk (en) - BBCOneLondon.uk - Jan 16, 2025 (27 programs)
+STDOUT: [11/1328] mytelly.co.uk (en) - BBCOneEastHD.uk - Jan 17, 2025 (26 programs)
+STDOUT: [12/1328] mytelly.co.uk (en) - BBCOneEastHD.uk - Jan 16, 2025 (27 programs)
+STDOUT: [13/1328] mytelly.co.uk (en) - BBCOneEast.uk - Jan 17, 2025 (26 programs)
+STDOUT: [14/1328] mytelly.co.uk (en) - BBCOneEast.uk - Jan 16, 2025 (27 programs)
+STDOUT: [15/1328] mytelly.co.uk (en) - BBCTwoEngland.uk - Jan 17, 2025 (22 programs)
+STDOUT: [16/1328] mytelly.co.uk (en) - BBCTwoEngland.uk - Jan 16, 2025 (22 programs)
+STDOUT: [17/1328] mytelly.co.uk (en) - BBCThreeHD.uk - Jan 17, 2025 (17 programs)
+STDOUT: [18/1328] mytelly.co.uk (en) - BBCThreeHD.uk - Jan 16, 2025 (20 programs)
+STDOUT: [19/1328] mytelly.co.uk (en) - BBCFourHD.uk - Jan 17, 2025 (8 programs)
+STDOUT: [20/1328] mytelly.co.uk (en) - BBCFourHD.uk - Jan 16, 2025 (8 programs)
+STDOUT: [21/1328] xumo.tv (en) - XumoIONMystery.us - Jan 17, 2025 (24 programs)
+STDOUT: [22/1328] xumo.tv (en) - XumoIONMystery.us - Jan 16, 2025 (24 programs)
+STDOUT: [23/1328] xumo.tv (en) - XumoET.us - Jan 17, 2025 (48 programs)
+STDOUT: [24/1328] xumo.tv (en) - XumoET.us - Jan 16, 2025 (48 programs)
+STDOUT: [25/1328] xumo.tv (en) - XumoJustforLaughsGags.ca - Jan 17, 2025 (55 programs)
+STDOUT: [26/1328] xumo.tv (en) - XumoJustforLaughsGags.ca - Jan 16, 2025 (55 programs)
+STDOUT: [27/1328] xumo.tv (en) - XumoDoveChannel.us - Jan 17, 2025 (24 programs)
+STDOUT: [28/1328] xumo.tv (en) - XumoDoveChannel.us - Jan 16, 2025 (24 programs)
+STDOUT: [29/1328] xumo.tv (en) - XumoLidiasKitchen.ca - Jan 17, 2025 (0 programs)
+STDOUT: [30/1328] xumo.tv (en) - XumoLidiasKitchen.ca - Jan 16, 2025 (0 programs)
+STDOUT: [31/1328] xumo.tv (en) - XumoWorldPokerTour.us - Jan 17, 2025 (18 programs)
+STDOUT: [32/1328] xumo.tv (en) - XumoWorldPokerTour.us - Jan 16, 2025 (24 programs)
+STDOUT: [33/1328] xumo.tv (en) - XumoPursuitUp.us - Jan 17, 2025 (48 programs)
+STDOUT: [34/1328] xumo.tv (en) - XumoPursuitUp.us - Jan 16, 2025 (48 programs)
+STDOUT: [35/1328] xumo.tv (en) - XumoMovieSpherebyLionsgate.us - Jan 17, 2025 (15 programs)
+STDOUT: [36/1328] xumo.tv (en) - XumoMovieSpherebyLionsgate.us - Jan 16, 2025 (16 programs)
+STDOUT: [37/1328] xumo.tv (en) - XumoHomeful.us - Jan 17, 2025 (37 programs)
+STDOUT: [38/1328] xumo.tv (en) - XumoHomeful.us - Jan 16, 2025 (40 programs)
+STDOUT: [39/1328] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 17, 2025 (29 programs)
+STDOUT: [40/1328] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 16, 2025 (28 programs)
+STDOUT: [41/1328] xumo.tv (en) - XumoLawCrime.us - Jan 17, 2025 (35 programs)
+STDOUT: [42/1328] xumo.tv (en) - XumoLawCrime.us - Jan 16, 2025 (34 programs)
+STDOUT: [43/1328] xumo.tv (en) - XumoDateline247.us - Jan 17, 2025 (25 programs)
+STDOUT: [44/1328] xumo.tv (en) - XumoDateline247.us - Jan 16, 2025 (25 programs)
+STDOUT: [45/1328] xumo.tv (en) - XumoPowerNation.us - Jan 17, 2025 (55 programs)
+STDOUT: [46/1328] xumo.tv (en) - XumoPowerNation.us - Jan 16, 2025 (57 programs)
+STDOUT: [47/1328] xumo.tv (en) - XumoBUZZR.us - Jan 17, 2025 (46 programs)
+STDOUT: [48/1328] xumo.tv (en) - XumoBUZZR.us - Jan 16, 2025 (46 programs)
+STDOUT: [49/1328] xumo.tv (en) - XumoGustoTV.us - Jan 17, 2025 (45 programs)
+STDOUT: [50/1328] xumo.tv (en) - XumoGustoTV.us - Jan 16, 2025 (45 programs)
+STDOUT: [51/1328] xumo.tv (en) - XumoOutsideTV.us - Jan 17, 2025 (38 programs)
+STDOUT: [52/1328] xumo.tv (en) - XumoOutsideTV.us - Jan 16, 2025 (37 programs)
+STDOUT: [53/1328] xumo.tv (en) - XumoMAVTVSelect.us - Jan 17, 2025 (24 programs)
+STDOUT: [54/1328] xumo.tv (en) - XumoMAVTVSelect.us - Jan 16, 2025 (34 programs)
+STDOUT: [55/1328] xumo.tv (en) - XumoTastemade.us - Jan 17, 2025 (40 programs)
+STDOUT: [56/1328] xumo.tv (en) - XumoTastemade.us - Jan 16, 2025 (45 programs)
+STDOUT: [57/1328] xumo.tv (en) - XumoComedyDynamics.us - Jan 17, 2025 (22 programs)
+STDOUT: [58/1328] xumo.tv (en) - XumoComedyDynamics.us - Jan 16, 2025 (21 programs)
+STDOUT: [59/1328] xumo.tv (en) - XumoTheAsylum.us - Jan 17, 2025 (18 programs)
+STDOUT: [60/1328] xumo.tv (en) - XumoTheAsylum.us - Jan 16, 2025 (19 programs)
+STDOUT: [61/1328] xumo.tv (en) - XumoCheddarNews.us - Jan 17, 2025 (41 programs)
+STDOUT: [62/1328] xumo.tv (en) - XumoCheddarNews.us - Jan 16, 2025 (39 programs)
+STDOUT: [63/1328] xumo.tv (en) - XumoLOLNetwork.us - Jan 17, 2025 (43 programs)
+STDOUT: [64/1328] xumo.tv (en) - XumoLOLNetwork.us - Jan 16, 2025 (41 programs)
+STDOUT: [65/1328] i.mjh.nz (en) - DangerTV.us - Jan 17, 2025 (3 programs)
+STDOUT: [66/1328] i.mjh.nz (en) - DangerTV.us - Jan 16, 2025 (11 programs)
+STDOUT: [67/1328] xumo.tv (en) - XumoDryBarComedy.us - Jan 17, 2025 (34 programs)
+STDOUT: [68/1328] xumo.tv (en) - XumoDryBarComedy.us - Jan 16, 2025 (35 programs)
+STDOUT: [69/1328] i.mjh.nz (en) - SamsungPBSDigitalStudios.us - Jan 17, 2025 (2 programs)
+STDOUT: [70/1328] i.mjh.nz (en) - SamsungPBSDigitalStudios.us - Jan 16, 2025 (4 programs)
+STDOUT: [71/1328] xumo.tv (en) - XumoABCNewsLive.us - Jan 17, 2025 (35 programs)
+STDOUT: [72/1328] xumo.tv (en) - XumoABCNewsLive.us - Jan 16, 2025 (36 programs)
+STDOUT: [73/1328] xumo.tv (en) - XumoPBSAntiquesRoadshow.uk - Jan 17, 2025 (26 programs)
+STDOUT: [74/1328] xumo.tv (en) - XumoPBSAntiquesRoadshow.uk - Jan 16, 2025 (25 programs)
+STDOUT: [75/1328] xumo.tv (en) - XumoACCDigitalNetwork.us - Jan 17, 2025 (0 programs)
+STDOUT: [76/1328] xumo.tv (en) - XumoACCDigitalNetwork.us - Jan 16, 2025 (0 programs)
+STDOUT: [77/1328] xumo.tv (en) - XumoIMPACTWrestlingChannel.us - Jan 17, 2025 (13 programs)
+STDOUT: [78/1328] xumo.tv (en) - XumoIMPACTWrestlingChannel.us - Jan 16, 2025 (18 programs)
+STDOUT: [79/1328] xumo.tv (en) - XumoUniversalMonsters.us - Jan 17, 2025 (31 programs)
+STDOUT: [80/1328] xumo.tv (en) - XumoUniversalMonsters.us - Jan 16, 2025 (31 programs)
+STDOUT: [81/1328] xumo.tv (en) - XumoFunnyorDie.us - Jan 17, 2025 (0 programs)
+STDOUT: [82/1328] xumo.tv (en) - XumoFunnyorDie.us - Jan 16, 2025 (0 programs)
+STDOUT: [83/1328] tvpassport.com (en) - HallmarkMoviesMysteriesEast.us - Jan 18, 2025 (18 programs)
+STDOUT: [84/1328] tvpassport.com (en) - HallmarkMoviesMysteriesEast.us - Jan 17, 2025 (18 programs)
+STDOUT: [85/1328] tvpassport.com (en) - HallmarkMoviesMysteriesEast.us - Jan 16, 2025 (18 programs)
+STDOUT: [86/1328] xumo.tv (en) - XumoHallmarkMoviesMore.us - Jan 17, 2025 (21 programs)
+STDOUT: [87/1328] xumo.tv (en) - XumoHallmarkMoviesMore.us - Jan 16, 2025 (20 programs)
+STDOUT: [88/1328] tvpassport.com (en) - HallmarkChannelEast.us - Jan 18, 2025 (31 programs)
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 199, in <module>
+    run_npm_grab()  # Execute the commands
+    ~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 161, in run_npm_grab
+    for line in process.stdout:
+                ^^^^^^^^^^^^^^
+KeyboardInterrupt
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 16 2025 15:24:50
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+Processing files in: /Users/kyleabrahams/Documents/GitHub/tv/scripts
+Found file: check_m3u_files.py
+Found file: install_all.py
+Found file: channels_json.xml
+Found file: uninstall_nginx.py
+Found file: _scripts_test
+Found file: types
+Found file: m3u8_scraper.py
+Found file: .DS_Store
+Found file: _epg-start
+Found file: merge_epg.py
+Found file: core
+Found file: merge_epg_channels_json.py
+Found file: requirements.txt
+Found file: dummy_epg.py
+Found file: channels.json
+Found file: uninstall_all.py
+Found file: models
+Found file: www
+Found file: channels_custom_end.xml
+Found file: playlist_generator.py
+Found file: uninstall_dependencies.py
+Found file: nginx_uninstall_backups
+Found file: constants.ts
+Found file: install_nginx.py
+Found file: default.conf
+Found file: scripts
+Found file: channels_xml.py
+Found file: log
+Found file: install_dependencies.py
+Found file: commands
+Found file: venv
+Found file: nginx.conf
+Found file: vpn_iptv_checker.py
+Found file: _epg-end
+Found file: iptv-checker-20-12-2024-11-53-45
+Found file: extras
+pytz is installed and ready to use.
+EPG data saved to: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy.xml
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy.xml
+
+Running command: npm run grab -- --channels=channels_custom_start.xml --output ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=channels_custom_start.xml --output ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: 
+STDOUT: starting...
+STDOUT: config:
+STDOUT: output: ./scripts/_epg-end/channels_custom_end.xml
+STDOUT: maxConnections: 1
+STDOUT: gzip: false
+STDOUT: channels: channels_custom_start.xml
+STDOUT: loading channels...
+STDOUT: found 499 channel(s)
+STDOUT: run #1:
+STDOUT: [1/1325] cyta.com.cy (el) - RIK1.gr - Jan 16, 2025 (21 programs)
+STDOUT: [2/1325] cyta.com.cy (el) - RIK1.gr - Jan 17, 2025 (22 programs)
+STDOUT: [3/1325] cyta.com.cy (el) - RIK1.gr - Jan 19, 2025 (31 programs)
+STDOUT: [4/1325] cyta.com.cy (el) - RIKsat.gr - Jan 16, 2025 (41 programs)
+STDOUT: [5/1325] cyta.com.cy (el) - RIKsat.gr - Jan 17, 2025 (22 programs)
+STDOUT: [6/1325] cyta.com.cy (el) - ANT1.gr - Jan 21, 2025 (25 programs)
+STDOUT: [7/1325] tvpassport.com (en) - CITY.Toronto.ON.HD.ca - Jan 17, 2025 (27 programs)
+STDOUT: [8/1325] tvpassport.com (en) - MotorTrend.us - Jan 18, 2025 (15 programs)
+STDOUT: [9/1325] tvpassport.com (en) - E!.Entertainment.USA.-.Eastern.Feed.us - Jan 18, 2025 (27 programs)
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 199, in <module>
+    run_npm_grab()  # Execute the commands
+    ~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 161, in run_npm_grab
+    for line in process.stdout:
+                ^^^^^^^^^^^^^^
+KeyboardInterrupt
