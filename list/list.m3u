@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 1059p 
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 1134p 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -45,7 +45,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418498
 # http://fortv.cc:8080/105094817/105094817/57393
 #EXTINF:-1 tvg-id="CHCH.Hamilton.ON.ca" tvg-name="11 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title=""tvg-shift="-0.5",CHCH
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418551
-#EXTINF:-1 tvg-id="PlutoCBCNewsToronto.ca" tvg-name="12 CBC News Toronto" tvg-logo="https://i.ibb.co/kKNZm9s/cbc-news-Toronto-wb.png" group-title="News",CBC News Toronto
+#EXTINF:-1 tvg-id="PlutoCBCNewsToronto.ca" tvg-name="12 CBC News Toronto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20241203T005217SQUARE.png" group-title="News",CBC News Toronto
 https://jmp2.uk/sam-CA1500002Q4.m3u8
 #EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="13 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
@@ -446,9 +446,13 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 https://jmp2.uk/sam-CA1400005SO.m3u8
 #EXTINF:-1 tvg-id="PlexCTV@Home.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20240702T044804SQUARE.png" group-title="Home & Food",CTV @ Home
 https://jmp2.uk/sam-CA14000028T.m3u8
+#EXTINF:-1 tvg-id="CTVGetsReal.ca" channel-id="CA35000025N"  tvg-chno="1239" tvg-name="CTV Gets Real" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA35000025N_20241203T005224SQUARE.png" group-title="",CTV Gets Real
+https://jmp2.uk/sam-CA35000025N.m3u8
 #EXTINF:-1 tvg-id="PlexCBCComedy.ca" tvg-name="CBC Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20241105T181119SQUARE.png" group-title="Comedy",CBC Comedy
 https://jmp2.uk/sam-CABD1200043OK.m3u8
-#EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" channel-id="CA4600001IG"  tvg-chno="1001"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20241228T011323SQUARE.png" group-title="",Murdoch Mysteries
+#EXTINF:-1 tvg-id="BBCHomeAndGarden.ca" tvg-name="BBC Home & Garden" channel-id="CABD1200012B8"  tvg-chno="1228"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20240722T231045SQUARE.png" group-title="Home & Food",BBC Home & Garden
+https://jmp2.uk/sam-CABD1200012B8.m3u8
+#EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" channel-id="CA4600001IG"  tvg-chno="1001"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20241228T011323SQUARE.png" group-title="Series",Murdoch Mysteries
 https://jmp2.uk/sam-CA4600001IG.m3u8
 #EXTINF:-1 tvg-id="PlexALF.ca" tvg-chno="1328" tvg-name="ALF" channel-id="CA41000052M"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA41000052M_20241217T013836SQUARE.png" group-title="Series", ALF
 https://jmp2.uk/sam-CA41000052M.m3u8
@@ -528,6 +532,12 @@ https://jmp2.uk/sam-CABC52000127S.m3u8
 https://jmp2.uk/sam-CABC5200013DN.m3u8
 #EXTINF:-1 tvg-id="SamsungVevo2010s.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",Vevo 2010s
 https://jmp2.uk/sam-CABD1200009SD.m3u8
+#EXTINF:-1 tvg-id="SamsungStingrayClassica.ca" tvg-name="Stingray Classica" channel-id="CA400005W4"  tvg-chno="1542"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA400005W4_20240313T064721SQUARE.png" group-title="Music",Stingray Classica
+https://jmp2.uk/sam-CA400005W4.m3u8
+#EXTINF:-1 tvg-id="SamsungRainyDayVibes.ca" tvg-name="Rainy Day Vibes" channel-id="CA1400015BB"  tvg-chno="4530"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400015BB_20241211T021049SQUARE.png" group-title="Ambiance",Rainy Day Vibes
+https://jmp2.uk/sam-CA1400015BB.m3u8
+#EXTINF:-1 tvg-id="SamsungOceanVibes.ca" tvg-name="Ocean Vibes" channel-id="CA7000015K"  tvg-chno="4505"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20241211T021045SQUARE.png" group-title="Ambiance", Ocean Vibes
+https://jmp2.uk/sam-CA7000015K.m3u8
 #EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambience",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
 # #EXTINF:-1 tvg-id="USBB1500001GD" tvg-name="" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",US Today
