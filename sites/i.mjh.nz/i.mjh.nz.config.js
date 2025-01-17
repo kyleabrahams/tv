@@ -11,32 +11,33 @@ const API_ENDPOINT = 'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/mas
 
 module.exports = {
   site: 'i.mjh.nz',
-  days: 2,
+  days: 2, 
   request: {
     cache: {
       ttl: 3 * 60 * 60 * 1000 // 3h
     },
     maxContentLength: 100 * 1024 * 1024 // 100Mb
   },
-  url({ channel }) {
+  url: function ({ channel }) {
     const [path] = channel.site_id.split('#')
 
     return `${API_ENDPOINT}/${path}.xml`
   },
-  parser({ content, channel, date }) {
+  parser: function ({ content, channel, date }) {
     const items = parseItems(content, channel, date)
 
-    const programs = items.map(item => {
+    let programs = items.map(item => {
       return {
         ...item,
         title: getTitle(item),
         description: getDescription(item),
-        categories: getCategories(item),
-        icon: getIcon(item)
+        categories: getCategories(item)
       }
     })
 
-    return mergeMovieParts(programs)
+    programs = mergeMovieParts(programs)
+
+    return programs
   },
   async channels({ provider }) {
     const providers = {
@@ -103,14 +104,14 @@ module.exports = {
       nz: [{ path: 'nz/epg', lang: 'en' }]
     }
 
-    const channels = []
+    let channels = []
 
     const providerOptions = providers[provider]
     for (const option of providerOptions) {
       const xml = await axios
         .get(`${API_ENDPOINT}/${option.path}.xml`)
         .then(r => r.data)
-        .catch(console.error)
+        .catch(console.log)
       const data = parser.parse(xml)
 
       data.channels.forEach(item => {
@@ -127,7 +128,7 @@ module.exports = {
 }
 
 function mergeMovieParts(programs) {
-  const output = []
+  let output = []
 
   programs.forEach(prog => {
     let prev = output[output.length - 1]
@@ -159,10 +160,6 @@ function getCategories(item) {
   return item.category.map(c => c.value)
 }
 
-function getIcon(item) {
-  return item.icon && item.icon.length ? item.icon[0].src : null
-}
-
 function parseItems(content, channel, date) {
   try {
     const curr_day = date
@@ -171,18 +168,11 @@ function parseItems(content, channel, date) {
     const data = parser.parse(content)
     if (!data || !Array.isArray(data.programs)) return []
 
-    return data.programs
-      .filter(
-        p =>
-          p.channel === site_id && dayjs(p.start, 'YYYYMMDDHHmmss ZZ').isBetween(curr_day, next_day)
-      )
-      .map(p => {
-        if (Array.isArray(p.date) && p.date.length) {
-          p.date = p.date[0]
-        }
-        return p
-      })
-  } catch {
+    return data.programs.filter(
+      p =>
+        p.channel === site_id && dayjs(p.start, 'YYYYMMDDHHmmss ZZ').isBetween(curr_day, next_day)
+    )
+  } catch (error) {
     return []
   }
 }

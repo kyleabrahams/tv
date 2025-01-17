@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 1012p 
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 16 1059p 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -215,8 +215,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418413
 https://jmp2.uk/sam-CABD1200010LE.m3u8
 # #EXTINF:-1 tvg-id="Cooking.Channel.Canada.ca" tvg-name="59 Cooking Channel" tvg-logo="https://i.ibb.co/TK1B0mT/Cooking-Channel-1.png" group-title="Home & Food",Cooking Channel 
 # http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418438
-#EXTINF:-1 tvg-id="Vision.TV.Eastern.ca" tvg-name="62 Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418522
+# #EXTINF:-1 tvg-id="Vision.TV.Eastern.ca" tvg-name="62 Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
+# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418522
 # #EXTINF:-1 tvg-id="WNEDDT1.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS WNED
 # http://fortv.cc:8080/105094817/105094817/57276
 #EXTINF:-1 tvg-id="WNEDDT1.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="",PBS WNED
@@ -448,6 +448,8 @@ https://jmp2.uk/sam-CA1400005SO.m3u8
 https://jmp2.uk/sam-CA14000028T.m3u8
 #EXTINF:-1 tvg-id="PlexCBCComedy.ca" tvg-name="CBC Comedy" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20241105T181119SQUARE.png" group-title="Comedy",CBC Comedy
 https://jmp2.uk/sam-CABD1200043OK.m3u8
+#EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" channel-id="CA4600001IG"  tvg-chno="1001"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20241228T011323SQUARE.png" group-title="",Murdoch Mysteries
+https://jmp2.uk/sam-CA4600001IG.m3u8
 #EXTINF:-1 tvg-id="PlexALF.ca" tvg-chno="1328" tvg-name="ALF" channel-id="CA41000052M"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA41000052M_20241217T013836SQUARE.png" group-title="Series", ALF
 https://jmp2.uk/sam-CA41000052M.m3u8
 #EXTINF:-1 tvg-id="XumoFamilyFeud.us" tvg-name="" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="",Family Feud
