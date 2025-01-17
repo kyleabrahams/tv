@@ -220,9 +220,23 @@ def load_epg_urls(file_path):
         print(f"Error reading {file_path}: {e}")
         return []
 
-script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the directory where the script is located (absolute path)
-log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log') # Create the relative path for the log file
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure the 'log' directory exists
+# Step 6: Check for XML files if no URLs are found
+def load_local_xml_files(directory):
+    """Look for XML files in the directory if no EPG URLs are found."""
+    xml_files = []
+    try:
+        for filename in os.listdir(directory):
+            if filename.endswith(".xml"):
+                xml_files.append(os.path.join(directory, filename))  # Add XML file path to the list
+        return xml_files
+    except Exception as e:
+        print(f"Error loading XML files from {directory}: {e}")
+        return []
+
+# Get the directory where the script is located (absolute path)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')  # Relative path for the log file
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
 epg_urls_file = os.path.join(script_dir, '_epg-start', 'epg_urls.txt')
@@ -230,14 +244,21 @@ epg_urls_file = os.path.join(script_dir, '_epg-start', 'epg_urls.txt')
 # Load EPG URLs using the relative path
 epg_urls = load_epg_urls(epg_urls_file)
 
-# Now you can use the epg_urls list in the rest of your script
-print(epg_urls)
+# Check if URLs are found, if not, look for XML files in the _epg-end directory
+if not epg_urls:
+    # Use a relative path to the _epg-end directory
+    epg_end_dir = os.path.join(script_dir, '_epg-end')  # Relative path to _epg-end directory
+    print(f"No EPG URLs found in {epg_urls_file}, scanning {epg_end_dir} for XML files...")
+    epg_urls = load_local_xml_files(epg_end_dir)
 
-# Step 6: Path to save the merged EPG file
+# Print out the list of EPG URLs or local XML files found
+print("EPG URLs or local XML files found:", epg_urls)
+
+# Step 7: Path to save the merged EPG file
 save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
-# Step 7: Function to ensure directory and file permissions
+# Step 8: Function to ensure directory and file permissions
 def ensure_permissions(file_path):
     # Ensure the directory exists
     directory = os.path.dirname(file_path)
@@ -264,7 +285,7 @@ def ensure_permissions(file_path):
 ensure_permissions(save_path)
 
 
-# Step 8: Function to fetch and merge EPG data
+# Step 9: Function to fetch and merge EPG data
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
@@ -338,12 +359,12 @@ def extract_gz_files(gz_directory):
     return extracted_files
 
 
-# Step 9: Merge EPG data into a single XML
+# Step 10: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
 total_files = len(epg_urls)
 
 
-# Step 10: Process each EPG URL
+# Step 11: Process each EPG URL
 for index, url in enumerate(epg_urls):
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
@@ -352,7 +373,7 @@ for index, url in enumerate(epg_urls):
     sleep(0.5)  # Small delay to simulate and visualize progress
 
 
-# Step 11: Extract XML from .gz files
+# Step 12: Extract XML from .gz files
 print("Extracting XML from .gz files...")
 extracted_files = extract_gz_files(gz_directory)
 for xml_file in extracted_files:
@@ -365,7 +386,7 @@ for xml_file in extracted_files:
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
 
-# Step 12: Save the merged EPG file and log success
+# Step 13: Save the merged EPG file and log success
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
