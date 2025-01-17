@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 17 100p
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 17 110p
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -47,7 +47,7 @@ https://jmp2.uk/sam-CA1400004AE.m3u8
 https://jmp2.uk/sam-CABC2300009KD.m3u8
 #EXTINF:-1 tvg-id="FX.Networks.Canada.ca" tvg-name="14 FX" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",FX
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418470
-#EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="15 FOX New York" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="0",FOX New York xy
+#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="15 FOX New York WNYW" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="0",FOX New York WNYW xy
 https://xyzdddd.mizhls.ru/lb/premium768/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="FOX.(WUTV).Buffalo.NY.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="3",FOX 29
 # http://fortv.cc:8080/105094817/105094817/120747
@@ -99,8 +99,8 @@ https://jmp2.uk/sam-CABC23000223U.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 # #EXTINF:-1 tvg-id="W.(WTN).-.West.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
 # http://fortv.cc:8080/105094817/105094817/57284
-#EXTINF:-1 tvg-id="W.(WTN).-.West.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423368
+# #EXTINF:-1 tvg-id="W.(WTN).-.West.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
+# http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423368
 #EXTINF:-1 tvg-id="W.(WTN).-.East.ca" tvg-name="26 W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="",W Network East
 http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 # #EXTINF:-1 tvg-id="CTV.Speed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed
