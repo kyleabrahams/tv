@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 17 1217a 
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 17 1227a 
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -879,10 +879,10 @@ http://fl2.moveonjoy.com/SYFY/index.m3u8
 http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="CWEastNetwork.us" tvg-name="USA CW WUCW (Twin Cities) Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 1
 https://xyzdddd.mizhls.ru/lb/premium300/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="403CWEastNetwork.us469" tvg-name="USA CW WPIX (New York) Server 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 2
-https://streamer1.nexgen.bz:443/WPIX/index.m3u8
-#EXTINF:-1 tvg-id="wgn-chicago-local-hd/5881" tvg-name="USA CW WGN (Chicago) Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 3  
-http://fl2.moveonjoy.com/WGN/index.m3u8
+# #EXTINF:-1 tvg-id="CWEastNetwork.us" tvg-name="USA CW WPIX (New York) Server 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 2
+# https://streamer1.nexgen.bz:443/WPIX/index.m3u8
+# #EXTINF:-1 tvg-id="CWEastNetwork.us" tvg-name="USA CW WGN (Chicago) Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 3  
+# http://fl2.moveonjoy.com/WGN/index.m3u8
 #EXTINF:-1 tvg-id="PlexCWForever.us" tvg-name="CW" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f9418a5d-f191-4b8a-bf3a-2eda3d2cd137/PLEX_CWFOREVER_UPDATEDLOGO_RDX.png" group-title="",CW Forever  
 https://linear-850.frequency.stream/dist/tcltv/850/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="PlexCWGold.us" tvg-name="CW" tvg-logo="https://images.cwtv.com/thecw/img/s_mobile.i_channel_thumbnail.epgchannel_cw-gold.v_12.w_300.jpg" group-title="",CW Gold  
@@ -995,33 +995,33 @@ http://fl5.moveonjoy.com/TSN_4/index.m3u8
 #EXTINF:-1 tvg-id="TSN5.ca" tvg-name="CA069:TSN-5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" group-title="Sports",TSN 5 
 http://fl5.moveonjoy.com/TSN_5/index.m3u8
 
-# #EXTINF:-1 tvg-id="SportsnetOntario.ca" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario 
-# http://fortv.cc:8080/105094817/105094817/57296
-# #EXTINF:-1 tvg-id="SportsnetEast.ca" tvg-name="CA060:Sportsnet East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",Sportsnet East 
-# http://fortv.cc:8080/105094817/105094817/57298
-# #EXTINF:-1 tvg-id="SportsnetWest.ca" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 
-# http://fortv.cc:8080/105094817/105094817/20975
-# #EXTINF:-1 tvg-id="SportsnetPacific.ca" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific 
-# http://fortv.cc:8080/105094817/105094817/9860
-# #EXTINF:-1 tvg-id="SportsnetWorld.ca" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World 
-# http://fortv.cc:8080/105094817/105094817/75675
-# #EXTINF:-1 tvg-id="SportsnetOne.ca" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One  
-# http://fortv.cc:8080/105094817/105094817/57297
-# #EXTINF:-1 tvg-id="Sportsnet360.ca" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 
-# http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/2044.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-id="Sportsnet360.ca" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" tvg-name="Sportsnet 360",Sportsnet 360
-https://xyzdddd.mizhls.ru/lb/premium409/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SportsnetPacific.ca" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific 
+http://fortv.cc:8080/105094817/105094817/9860
+# #EXTINF:-1 group-title="Sports" tvg-id="Sportsnet360.ca" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" tvg-name="Sportsnet 360",Sportsnet 360
+# https://xyzdddd.mizhls.ru/lb/premium409/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="Sportsnet360.ca" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/2044.m3u8
 #EXTINF:-1 group-title="Sports" tvg-id="SportsnetEast.ca" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" tvg-name="Sportsnet East",Sportsnet East
 https://xyzdddd.mizhls.ru/lb/premium408/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+# #EXTINF:-1 tvg-id="SportsnetEast.ca" tvg-name="CA060:Sportsnet East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",Sportsnet East 
+# http://fortv.cc:8080/105094817/105094817/57298
 #EXTINF:-1 group-title="Sports" tvg-id="SportsnetOne.ca" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" tvg-name="Sportsnet One",Sportsnet One
 https://xyzdddd.mizhls.ru/lb/premium411/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+# #EXTINF:-1 tvg-id="SportsnetOne.ca" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One  
+# http://fortv.cc:8080/105094817/105094817/57297
 #EXTINF:-1 group-title="Sports" tvg-id="SportsnetOntario.ca" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" tvg-name="Sportsnet Ontario",Sportsnet Ontario
 https://xyzdddd.mizhls.ru/lb/premium406/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SportsnetWest.ca" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" tvg-name="Sportsnet West",Sportsnet West
-https://xyzdddd.mizhls.ru/lb/premium407/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+# #EXTINF:-1 tvg-id="SportsnetOntario.ca" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario 
+# http://fortv.cc:8080/105094817/105094817/57296
+# #EXTINF:-1 group-title="Sports" tvg-id="SportsnetWest.ca" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" tvg-name="Sportsnet West",Sportsnet West
+# https://xyzdddd.mizhls.ru/lb/premium407/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="SportsnetWest.ca" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 
+http://fortv.cc:8080/105094817/105094817/20975
 #EXTINF:-1 group-title="Sports" tvg-id="SportsnetWorld.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" tvg-name="Sportsnet World",Sportsnet World
 https://xyzdddd.mizhls.ru/lb/premium410/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+# #EXTINF:-1 tvg-id="SportsnetWorld.ca" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World 
+# http://fortv.cc:8080/105094817/105094817/75675
 
 
 #EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="NFL Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-icon-us.png?raw=true" group-title="Sports",NFL Network
