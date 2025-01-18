@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ae-canada-hd/3886">A&amp;E Canada HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AandECanada.ca" site_id="ae-canada-hd/3886">A&amp;E Canada HD</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="A.and.E.Canada.HD.ca" site_id="ae-us-hd-eastern-feed/17034">A&amp;E US HD - Eastern Feed</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="A.and.E.Canada.HD.ca" site_id="10035">A&amp;E East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="AandECanada" site_id="10035">A&amp;E East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AandECanada.ca" site_id="ca#69023215/ae-network-canada">A&amp;E Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel>
+
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ABC.Spark.ca" site_id="abc-spark-hd/10282">ABC Spark HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="ABCSpark.ca" site_id="75031">ABC Spark</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ABCNewsLive.us" site_id="abc-news-live/36224">ABC News Live</channel> -->
@@ -17,8 +19,8 @@
   <channel site="tvtv.us" lang="en" xmltv_id="AMCEast.us" site_id="10021">AMC East</channel>
   <channel site="cosmotetv.gr" lang="el" xmltv_id="ANT1.gr" site_id="ant1hd">ANT1</channel>
   <channel site="cyta.com.cy" lang="el" xmltv_id="ANT1.gr" site_id="289542">ANT1 TV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="APTN.East.ca" site_id="aptn-east/198">APTN - East</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="APTN.East.ca" site_id="aptn-east/198">APTN - East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="APTN.East.ca" site_id="ca#69048188/aboriginal-peoples-television-network-east">Aboriginal Peoples Television Network (East)</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AXStv.us" site_id="axs-tv-north-america-hd/12598">AXS TV North America HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="AXSTV.us" site_id="92053">AXS TV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AandE.us" site_id="ae-us-eastern-feed/2">A&amp;E US - Eastern Feed</channel> -->
@@ -50,15 +52,20 @@
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneLondonHD.uk" site_id="2366/bbc-one-london-hd">BBC One London HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneWest.uk" site_id="18/bbc-one-west">BBC One West</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneWestHD.uk" site_id="2373/bbc-one-west-hd">BBC One West HD</channel>
-<channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
-  
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoEngland.uk" site_id="52/bbc-two-england">BBC Two England</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="BETEast.us" site_id="bet-hd-eastern-feed/6205">BET HD - Eastern Feed</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BETHer.us" site_id="bet-her-hd/32002">BET Her HD</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BETJams.us" site_id="bet-jams-hd/33718">BET Jams HD</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BETSoul.us" site_id="bet-soul/3229">BET Soul</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BNN.Bloomberg.ca" site_id="bnn-bloomberg/294">BNN Bloomberg</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BNN.Bloomberg.ca" site_id="bnn-bloomberg-hd/10043">BNN Bloomberg HD</channel>
+
   <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsArizona.us" site_id="fox-sports-arizona/1118">Bally Sports Arizona</channel>
   
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BallySportsDetroit.us" site_id="fox-sports-detroit/1115">Bally Sports Detroit</channel> -->
@@ -97,8 +104,9 @@
   <channel site="tvtv.us" lang="en" xmltv_id="Boomerang.us" site_id="21883">Boomerang</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Bounce.us" site_id="bounce-hd/33740">Bounce HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="Bounce.us" site_id="73067">Bounce</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Bravo.ca" site_id="outdoor-life-network-canada-hd/9505">Bravo Canada HD</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Bravo.ca" site_id="outdoor-life-network-canada-hd/9505">Bravo Canada HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Bravo.ca" site_id="ca#69035953/outdoor-life-canada">Outdoor Life Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Bravo.ca" site_id="ca#69043392/outdoor-life-canada-hdtv">Outdoor Life Canada HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BravoEast.us" site_id="bravo-usa-hd-eastern-feed/6120">Bravo USA HD - Eastern Feed</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="BravoEast.us" site_id="10057">Bravo East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="C-SPAN.us" site_id="c-span-hd/8832">C-SPAN HD</channel> -->
@@ -109,13 +117,14 @@
   <channel site="tvtv.us" lang="en" xmltv_id="CBLTDT.ca" site_id="10091">CBC Toronto</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CBSSportsNetworkUSA.us" site_id="cbs-sports-network-usa-hd/6985">CBS Sports Network USA HD</channel>
   
-  <channel site="tvpassport.com" lang="en" xmltv_id="CHCH.Hamilton.ON.ca" site_id="chch-hamilton-on-hd/5870">CHCH Hamilton, ON HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ON.HD.ca" site_id="city-toronto-on-dv/3935">CITY Toronto, ON DV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ON.HD.ca" site_id="city-toronto-on-hd/2825">CITY Toronto, ON HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ON.HD.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CleoTV.us" site_id="cleo-tv-hd/33139">CLEO TV HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CHCHDT.ca" site_id="chch-hamilton-on-hd/5870">CHCH Hamilton, ON HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CHCHDT.ca" site_id="ca#69031617/chch-hdtv">CHCH HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CHCHDT.ca" site_id="ca#69043557/chch">CHCH</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="city-toronto-on-dv/3935">CITY Toronto, ON DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="city-toronto-on-hd/2825">CITY Toronto, ON HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="ca#69030222/citytv-toronto-hdtv">Citytv Toronto HDTV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CleoTV.us" site_id="cleo-tv-hd/33139">CLEO TV HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CleoTV.us" site_id="110288">Cleo TV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CMT.Canada.ca" site_id="cmt-canada/120">CMT Canada</channel>
 
@@ -127,27 +136,35 @@
   <channel site="tvtv.us" lang="en" xmltv_id="CNBC.World.us" site_id="26849">CNBC World</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CNN.HD.ca" site_id="cnn-hd/4724">CNN HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CNN.HD.ca" site_id="58646">CNN</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CP24.ca" site_id="cp24-cablepulse-24-hd/10809">CP24 (CablePulse 24) HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.(CFTO).Toronto.ON.HD.ca" site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="CTV.(CFTO).Toronto.ON.HD.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Comedy.-.East.HD.ca" site_id="ctv-comedy-east-hd/10771">CTV Comedy - East HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Drama.HD.ca" site_id="ctv-drama-hd/6797">CTV Drama HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Life.ca" site_id="ctv-life-hd/11293">CTV Life HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Nature.ca" site_id="discovery-science-canada/1188">CTV Nature Canada</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.News.Channel.ca" site_id="ctv-news-channel/416">CTV News Channel</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.News.Channel.ca" site_id="ctv-news-channel-hd/10770">CTV News Channel HD</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CP24.ca" site_id="cp24-cablepulse-24-hd/10809">CP24 (CablePulse 24) HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#69045057/cablepulse-24">CablePulse 24</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#614386216/cablepulse-24-hdtv">CablePulse 24 HDTV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="CTV(CFTO)Toronto.ON.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ctv-comedy-east-hd/10771">CTV Comedy - East HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ca#307789150/ctv-comedy-east-channel-hdtv">CTV COMEDY (East) Channel HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ca#69035889/ctv-comedy-east-channel">CTV Comedy (East) Channel</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVDramaChannel.ca" site_id="ctv-drama-hd/6797">CTV Drama HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVDramaChannel.ca" site_id="ca#69044450/ctv-drama-channel-hdtv">CTV DRAMA Channel HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVDramaChannel.ca" site_id="ca#10637867807/ctv-drama-channel-sd-descriptive-video">CTV DRAMA Channel SD (Descriptive Video)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVDramaChannel.ca" site_id="ca#69038905/ctv-drama-channel-sd">CTV DRAMA Channel SD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVLife.ca" site_id="ctv-life-hd/11293">CTV Life HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVLife.ca" site_id="ca#810952721/ctv-life-channel-hdtv">CTV LIFE Channel HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVLife.ca" site_id="ca#3397576214/ctv-life-channel-sd">CTV LIFE Channel SD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVNature.ca" site_id="discovery-science-canada/1188">CTV Nature Canada</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNature.ca" site_id="ca#69021316/discovery-science-canada">Discovery Science (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNature.ca" site_id="ca#69045091/discovery-science-canada-hdtv">Discovery Science (Canada) HDTV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ctv-news-channel/416">CTV News Channel</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ctv-news-channel-hd/10770">CTV News Channel HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ca#69045105/ctv-news-channel">CTV News Channel</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ca#69047350/ctv-news-channel-hdtv">CTV News Channel HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="ctv-sci-fi-hd/10042">CTV Sci-Fi HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="72484">CTV Sci-Fi Channel</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Speed.ca" site_id="discovery-velocity-hd/3887">CTV Speed HD</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Wild.ca" site_id="animal-planet-canada-hd/10044">CTV Wild Canada HD</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVSpeed.ca" site_id="discovery-velocity-hd/3887">CTV Speed HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVSpeed.ca" site_id="ca#69023735/discovery-velocity-hdtv">Discovery Velocity HDTV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVWild.ca" site_id="animal-planet-canada-hd/10044">CTV Wild Canada HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVWild.ca" site_id="ca#69021275/animal-planet-canada">Animal Planet Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVWild.ca" site_id="ca#69044451/animal-planet-canada-hdtv">Animal Planet Canada HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="ctv2-london-on-hd/9701">CTV2 London, ON HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="72720">CTV2 (CFPL-DT) London ON</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CW.(KNVA).Austin,.TX.us" site_id="cw-knva-austin-tx/2475">CW (KNVA) Austin, TX</channel>
@@ -157,8 +174,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Cartoon.Network.Canada.East.ca" site_id="cartoon-network-canada-east/162">Cartoon Network Canada - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Cartoon.Network.Canada.East.ca" site_id="cartoon-network-canada-east-hd/10331">Cartoon Network Canada - East HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="Cartoon.Network.Canada.East.ca" site_id="10613">Cartoon Network Canada</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Charge.ca" site_id="charge-kabc3-los-angeles-ca-hd/19345">Charge! (KABC3) Los Angeles, CA HD</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Charge.ca" site_id="charge-kabc3-los-angeles-ca-hd/19345">Charge! (KABC3) Los Angeles, CA HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Charge.ca" site_id="ca#1449759838/wutv-charge">WUTV Charge</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Charge.us" site_id="charge/15228">CHARGE!</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="Charge.us" site_id="102148">Charge!</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CinemaxEastHD.us" site_id="cinemax-eastern-hd/3567">Cinemax - Eastern HD</channel> -->
@@ -167,24 +184,33 @@
   <channel site="tvtv.us" lang="en" xmltv_id="ComedyCentralEast.us" site_id="10149">Comedy Central East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Comet.us" site_id="comet-tv/16811">Comet TV</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="Comet.us" site_id="97051">Comet</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Cottage.Life.ca" site_id="cottage-life/455">Cottage Life</channel>
-
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave1.-.East.ca" site_id="crave1-east/72">Crave1 - East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave1.-.East.ca" site_id="crave1-east-hd/2820">Crave1 - East HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave2.-.East.ca" site_id="crave2-east/86">Crave2 - East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave2.-.East.ca" site_id="crave2-east-hd/7139">Crave2 - East HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave3.-.East.ca" site_id="crave3-east/85">Crave3 - East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave3.-.East.ca" site_id="crave3-east-hd/7137">Crave3 - East HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave4.ca" site_id="crave4/320">Crave4</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crave4.ca" site_id="crave4-hd/10781">Crave4 HD</channel>
-  
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crime.+.Investigation.Canada.ca" site_id="crime-investigation-canada/451">Crime + Investigation Canada</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Crime.+.Investigation.Canada.ca" site_id="crime-investigation-canada-hd/13784">Crime + Investigation Canada HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CottageLife.ca" site_id="cottage-life/455">Cottage Life</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CottageLife.ca" site_id="ca#714883593/cottage-life">Cottage Life</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CottageLife.ca" site_id="ca#714883594/cottage-life">Cottage Life</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Crave1East.ca" site_id="crave1-east/72">Crave1 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Crave1East.ca" site_id="crave1-east-hd/2820">Crave1 - East HD</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Crave2East.ca" site_id="crave2-east/86">Crave2 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Crave2East.ca" site_id="crave2-east-hd/7139">Crave2 - East HD</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Crave3East.ca" site_id="crave3-east/85">Crave3 - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Crave3East.ca" site_id="crave3-east-hd/7137">Crave3 - East HD</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Crave4East.ca" site_id="crave4/320">Crave4</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Crave4East.ca" site_id="crave4-hd/10781">Crave4 HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave1East.ca" site_id="ca#69034810/crave-1-east">Crave 1 (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave1East.ca" site_id="ca#69023323/crave-1-hdtv-east">Crave 1 HDTV (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave2East.ca" site_id="ca#69034835/crave-2-east">Crave 2 (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave2East.ca" site_id="ca#69034716/crave-2-hdtv-east">Crave 2 HDTV (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave3East.ca" site_id="ca#69034827/crave-3-east">Crave 3 (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave3East.ca" site_id="ca#69034718/crave-3-hdtv-east">Crave 3 HDTV (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crave4East.ca" site_id="ca#69048816/crave-4-east">Crave 4 (East)</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Crime+Investigation.Canada.ca" site_id="crime-investigation-canada/451">Crime + Investigation Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="Crime+Investigation.Canada.ca" site_id="crime-investigation-canada-hd/13784">Crime + Investigation Canada HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Crime+Investigation.Canada.ca" site_id="ca#1836464028/crime-investigation-hdtv">Crime + Investigation HDTV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Curiosity.Channel(Stream).us" site_id="curiositystream/33788">CuriosityStream</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DOGTV.us" site_id="dog-tv/18866">Dog TV</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="DOGTV.us" site_id="82446">Dog TV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="DTOUR.-.East.ca" site_id="dtour-east/161">DTOUR - East</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DTOUREast.ca" site_id="dtour-east/161">DTOUR - East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="DTOUREast.ca" site_id="ca#677111315/dtour-hdtv">DTOUR HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="DTOUREast.ca" site_id="ca#702696096/dtour">DTour</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="DangerTV.us" site_id="SamsungTVPlus/us#USAJ3504708A">DangerTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DestinationAmerica.us" site_id="destination-america-hd/5889">Destination America HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="DestinationAmerica.us" site_id="16617">Destination America</channel>
@@ -197,15 +223,17 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DisneyChannelEast.ca" site_id="disney-channel-canada-hd-east/16683">Disney Channel Canada HD - East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="DisneyChannelEast.us" site_id="disney-eastern-feed/595">Disney - Eastern Feed</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="DisneyChannelEast.us" site_id="10171">Disney Channel East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="disney-junior-canada/17224">Disney Junior Canada</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="disney-junior-canada-hd/17225">Disney Junior Canada HD</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="disney-junior-canada/17224">Disney Junior Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="disney-junior-canada-hd/17225">Disney Junior Canada HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="ca#1978072080/disney-junior-canada">Disney Junior Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="DisneyJunior.ca" site_id="ca#1978065938/disney-junior-canada-hd">Disney Junior Canada HD</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DisneyJuniorEast.us" site_id="disney-junior-usa-hd-east/10523">Disney Junior USA HD - East</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="DisneyJuniorEast.us" site_id="74796">Disney Junior East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="DisneyXDEast.us" site_id="disney-xd-usa-eastern-feed/1053">Disney XD USA - Eastern Feed</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="DisneyXDEast.us" site_id="18279">Disney XD East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="E!.Canada.ca" site_id="e-canada/295">E! Canada</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="E!Canada.ca" site_id="e-canada/295">E! Canada</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="E!Canada.ca" site_id="ca#69047132/e-entertainment-television-canada">E! Entertainment Television Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="E!Canada.ca" site_id="ca#300193962/e-entertainment-television-canada-hdtv">E! Entertainment Television Canada HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="EEast.us" site_id="e-entertainment-usa-hawaii/6066">E! Entertainment USA - Hawaii</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="EEast.us" site_id="10989">E! East</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="ESPN.us" site_id="espn-hd/3036">ESPN HD</channel>

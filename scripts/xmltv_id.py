@@ -45,8 +45,8 @@ def sort_channels_in_file(input_file, output_file):
         print(f"Error: {e}")
 
 # Example usage
-input_file = '/Users/nada/Documents/GitHub/tv/scripts/_epg-start/channels_custom_start.xml'   # Replace with your input XML file path
-output_file = '/Users/nada/Documents/GitHub/tv/scripts/_epg-start/channels_custom_start_output.xml'  # Replace with your desired output XML file path
+input_file = '/Users/nada/Documents/GitHub/tv/sites/ontvtonight.com/ontvtonight.com_ca.channels.xml'   # Replace with your input XML file path
+output_file = '/Users/nada/Documents/GitHub/tv/sites/ontvtonight.com/A-Zontvtonight.com_ca.channels.xml'  # Replace with your desired output XML file path
 
 sort_channels_in_file(input_file, output_file)
 print(f"Sorted channels have been written to {output_file}")
