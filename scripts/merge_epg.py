@@ -15,6 +15,8 @@ import re # Count / Log  Channels
 
 # See Android TV sheets doc, nginx tab for commands,
 # sudo nginx -s reload
+# python3 -m venv myenv
+# source myenv/bin/activate
 # python3 merge_epg.py
 
 # Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
