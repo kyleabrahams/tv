@@ -292,10 +292,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@esbuild/darwin-arm64@0.23.1":
+"@esbuild/darwin-x64@0.23.1":
   version "0.23.1"
-  resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.23.1.tgz"
-  integrity sha512-YsS2e3Wtgnw7Wq53XXBLcV6JhRsEq8hkfg91ESVadIrzr9wO6jJDMZnCQbHm1Guc5t/CdDiFSSfWP58FNuvT3Q==
+  resolved "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.23.1.tgz"
+  integrity sha512-aClqdgTDVPSEGgoCS8QDG37Gu8yc9lTHNAQlsztQ6ENetKEO//b8y31MMu2ZaPbn4kVsIABzVLXYLhCGekGDqw==
 
 "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.1"
@@ -833,10 +833,10 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@swc/core-darwin-arm64@1.10.7":
+"@swc/core-darwin-x64@1.10.7":
   version "1.10.7"
-  resolved "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.10.7.tgz"
-  integrity sha512-SI0OFg987P6hcyT0Dbng3YRISPS9uhLX1dzW4qRrfqQdb0i75lPJ2YWe9CN47HBazrIA5COuTzrD2Dc0TcVsSQ==
+  resolved "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.10.7.tgz"
+  integrity sha512-RFIAmWVicD/l3RzxgHW0R/G1ya/6nyMspE2cAeDcTbjHi0I5qgdhBWd6ieXOaqwEwiCd0Mot1g2VZrLGoBLsjQ==
 
 "@swc/core@*", "@swc/core@^1.10.4":
   version "1.10.7"

@@ -42,3 +42,10 @@ http:/localhost:8080/epg.xml
 
 ## Step 6: To modify the scheduling for the merge_epg.py in crontab (macOS), enter the following command in Terminal:
 crontab -e
+
+https://tinyurl.com/multiservice21?region=ca&service=SamsungTVPlus
+https://tinyurl.com/multiservice21?region=us&service=SamsungTVPlus
+https://tinyurl.com/multiservice21?region=ca&service=Plex
+
+
+npm run grab --- --channels=.scripts/_epg-start/channels_custom_start_output.xml --output ./scripts/_epg-end/channels_custom_end_output.xml

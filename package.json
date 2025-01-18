@@ -95,11 +95,11 @@
     "tabletojson": "^2.0.7",
     "tough-cookie": "^5.0.0",
     "transliteration": "^2.2.0",
-    "tsx": "^4.19.2",
     "unzipit": "^1.4.0",
     "wildcard-match": "^5.1.2"
   },
   "devDependencies": {
-    "run-script-os": "^1.1.6"
+    "run-script-os": "^1.1.6",
+    "tsx": "^4.19.2"
   }
 }
