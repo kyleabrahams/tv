@@ -4,8 +4,20 @@ This project is a custom tool that creates dummy data, fetches URLs, and uncompr
 I'm hoping to add remote access in the near future.
 
 ## Tool 1. IPTV-Checker is a utility designed to verify the status of links in M3U playlists. It categorizes each link as online, offline, or a duplicate.
+
 # IPTV-Checker global installation
-npm install -g iptv-checker
+npm install -g iptv-checker epg-grabber @freearhey/core @freearhey/epg-grabber typescript tsx axios xml2js dotenv commander cron
+
+npm install @freearhey/core commander cron epg-grabber
+
+# NPM packages installed
+npm list -g --depth=0
+
+# Channel Sources
+https://github.com/awiouy/webgrabplus/blob/master/config/siteini.pack/Canada/canada.com.L9H1N3.channels.xml
+
+https://www.npmjs.com/package/@iptv/xmltv?activeTab=readme
+
 # Playlist execution
 iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere_$(date +%Y%m%d)"
 
@@ -48,4 +60,9 @@ https://tinyurl.com/multiservice21?region=us&service=SamsungTVPlus
 https://tinyurl.com/multiservice21?region=ca&service=Plex
 
 
-npm run grab --- --channels=.scripts/_epg-start/channels_custom_start_output.xml --output ./scripts/_epg-end/channels_custom_end_output.xml
+npm run grab -- --channels=/Users/nada/Documents/GitHub/tv/sites/tvtv.us/tvtv.us.channels.xml --output=./_epg-end/tvtv.us.channels.xml_output.xml
+
+npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_TEST.xml --output=./_epg-end/channels_custom_end_Test.xml
+
+npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_output.xml --output=./scripts/_epg-end/channels_custom_end_output.xml
+
