@@ -11,6 +11,8 @@ import time
 import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
+import sys
+print(f"Using Python: {sys.executable}")
 
 
 # See Android TV sheets doc, nginx tab for commands,
@@ -107,12 +109,18 @@ def run_dummy_epg():
         print(f"venv_python: {venv_python}")
 
         # Run the dummy_epg.py script
+        # result = subprocess.run(
+        #     [venv_python, dummy_epg_path],
+        #     check=True,
+        #     capture_output=True,
+        #     text=True
+        # )
+
         result = subprocess.run(
-            [venv_python, dummy_epg_path],
-            check=True,
-            capture_output=True,
-            text=True
+            ['/workspaces/tv/scripts/venv/bin/python3', '/workspaces/tv/scripts/dummy_epg.py'],
+            check=True
         )
+
 
         # Output success
         print("dummy_epg.py executed successfully")
@@ -142,7 +150,9 @@ if __name__ == "__main__":
 def run_npm_grab():
     # List of npm commands
     commands = [
-        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/_epg-end/channels_custom_end.xml"]
+        ["npm", "run", "grab", "--", "--channels=./scripts/_epg-start/channels_custom_start_output.xml", "--output", "./scripts/_epg-end/channels_custom_end.xml"]
+        # ["npm", "run", "grab", "--", "--channels=./scripts/_epg-start/channels_custom_start.xml", "--output", "./scripts/_epg-end/channels_custom_end.xml"]
+
         # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/_epg-end/test_end.xml"]
 ]
 

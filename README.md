@@ -25,6 +25,8 @@ iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere_$
 # Modify the python file below and run it with the command below
 cd scripts
 python3 playlist_generator.py
+python3 merge_epg.py
+
 
 ## Step 1: In the working directory, run the following command in Terminal to create the node modules:
 npm install
@@ -40,6 +42,7 @@ source ~/venv/bin/activate
 ## Step 3: To fully automate the remaining installation, run the following script:
 cd scripts
 python3 install_all.py
+
 
 ## Step 3b: If you wish to uninstall everything and leave only the base files, run the following command:
 cd scripts
