@@ -139,12 +139,42 @@ if __name__ == "__main__":
 # npm run grab --- --channels=test_start.xml --output ./scripts/test_end.xml
 # python3 merge_epg.py
 
+
+
+# Set up logging
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+        
 def run_npm_grab():
-    # List of npm commands
+    # Get current date and time for timestamping the output file
+    current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
+
+
+    # List of npm commands with timestamped output file
     commands = [
-        ["npm", "run", "grab", "--", "--channels=channels_custom_start.xml", "--output", "./scripts/_epg-end/channels_custom_end.xml"]
-        # ["npm", "run", "grab", "--", "--channels=test_start.xml", "--output", "./scripts/_epg-end/test_end.xml"]
-]
+        ["npm", "run", "grab", "--", 
+        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+
+         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+
+    ]
+
+    # Set the output directory for deleting old files
+    output_dir = os.path.join(script_dir, "_epg-end")
+
+    # Delete all older files except the latest one
+    try:
+        for file_name in os.listdir(output_dir):
+            file_path = os.path.join(output_dir, file_name)
+
+            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
+            if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
+                os.remove(file_path)
+                print(f"Old file {file_path} deleted.")
+    except Exception as e:
+        print(f"Error deleting old files: {e}")
 
     for command in commands:
         try:
@@ -198,7 +228,10 @@ def run_npm_grab():
             logger.error(f"Error while running npm command {command_str}: {e}")
             print(f"Error while running npm command {command_str}: {e}")
 
-run_npm_grab()  # Execute the commands
+# Run the process
+if __name__ == "__main__":
+    run_npm_grab()    
+
 
 
 # Step 4: Main merge_epg function
