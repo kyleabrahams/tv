@@ -419,7 +419,8 @@
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Motortrend.us" site_id="31046">Motortrend</channel> -->
   <channel site="tvinsider.com" lang="en" xmltv_id="Motortrend.us" site_id="motortrend">MotorTrend</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MovieMax.us" site_id="moviemax-max-6-east/1653">MovieMax (Max 6) - East</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="us#572881709/moviemax-hdtv-east">MOVIEMAX HDTV (East)</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MovieTime.ca" site_id="movietime/464">MovieTime</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="MovieTime.ca" site_id="movietime-hd/7807">MovieTime HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="MovieTime.ca" site_id="ca#69035135/movietime-hdtv">MovieTime HDTV</channel>
@@ -498,7 +499,8 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexAlwaysFunny.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd">Always Funny</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCBCComedy.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65b28dd28f05102bce4a7910">CBC Comedy</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="PlexTheConners.us" site_id="66e2a94d167a8b000813485d">The Conners</channel>
-  <channel site="pluto.tv" lang="en" xmltv_id="BBCHomeAndGarden.ca" site_id="5fb5836fe745b600070fc743">BBC Home &amp; Garden</channel>
+  <!-- <channel site="pluto.tv" lang="en" xmltv_id="BBCHomeAndGarden.ca" site_id="5fb5836fe745b600070fc743">BBC Home &amp; Garden</channel> -->
+  <channel site="xumo.tv" lang="en" xmltv_id="BBCHomeAndGarden.ca" site_id="150#99951178">BBC Home &amp; Garden</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCBCNews.ca" site_id="Plex/au#5e20b730f2f8d5003d739db7-64c91830ea7db2f52688c52c">CBC News</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCNNHeadlines.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b4fcc2530e39ea2ee79545">CNN Headlines</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCTV@Home.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685c2e02deb7f424133b08f">CTV @Home</channel>
@@ -615,6 +617,35 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="SilverScreenClassics.ca" site_id="silver-screen-classics/2115">Silver Screen Classics</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="SilverScreenClassics.ca" site_id="silver-screen-classics-hd/32997">Silver Screen Classics HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="SilverScreenClassics.ca" site_id="ca#69023729/silver-screen-classics">Silver Screen Classics</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyArts.uk" site_id="602/sky-arts">Sky Arts</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyAtlantic.uk" site_id="1628/sky-atlantic">Sky Atlantic</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaAction.uk" site_id="1328/sky-cinema-action">Sky Cinema Action</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaAnimation.uk" site_id="2326/sky-cinema-animation">Sky Cinema Animation</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaDrama.uk" site_id="1324/sky-cinema-christmas">Sky Cinema Drama</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaFamily.uk" site_id="1323/sky-cinema-family">Sky Cinema Family</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="">Sky Cinema Greats</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="">Sky Cinema Hits</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaPremiere.uk" site_id="1320/sky-cinema-premiere">Sky Cinema Premiere</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSciFiHorror.uk" site_id="1329/sky-cinema-sci-fihorror">Sky Cinema Sci-fi/Horror</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSelect.uk" site_id="">Sky Cinema Select</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaThriller.uk" site_id="1319/sky-cinema-thriller">Sky Cinema Thriller</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyComedy.uk" site_id="2305/sky-comedy">Sky Comedy</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCrime.uk" site_id="1070/sky-crime">Sky Crime</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyHistory.uk" site_id="171/sky-history">Sky History</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyShowcase.uk" site_id="222/sky-showcase">Sky Showcase</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsTopEvent.uk" site_id="">Sky Sports Top Event</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsAction.uk" site_id="">Sky Sports Action</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsArena.uk" site_id="">Sky Sports Arena</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsCricket.uk" site_id="433/sky-sports-cricket">Sky Sports Cricket</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsF1.uk" site_id="1670/sky-sports-f1">Sky Sports F1</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsFootball.uk" site_id="2086/sky-sports-football">Sky Sports Football</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsGolf.uk" site_id="437/sky-sports-golf">Sky Sports Golf</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsMainEvent.uk" site_id="431/sky-sports-main-event">Sky Sports Main Event</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsMix.uk" site_id="2033/sky-sports-mix">Sky Sports Mix</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsNews.uk" site_id="231/sky-sports-news">Sky Sports News</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsPremierLeague.uk" site_id="1889/sky-sports-premier-league">Sky Sports Premier League</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkySportsRacing.uk" site_id="747/sky-sports-racing">Sky Sports Racing</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyWitness.uk" site_id="122/sky-witness">Sky Witness</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Slice.ca" site_id="slice-hd/9632">Slice HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="Slice.ca" site_id="ca#69023040/slice-tv">Slice TV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="SmithsonianChannelEast.us" site_id="smithsonian-channel-usa-hd/6237">Smithsonian Channel USA HD</channel> -->
@@ -711,7 +742,7 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TravelChannelEast.us" site_id="travel-us-east/662">Travel US - East</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="TravelChannelEast.us" site_id="59303">The Travel Channel</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Travelxp.ca" site_id="travelxp-hd-4k/33689">Travelxp HD 4K</channel> -->
-  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Travelxp.ca" site_id="travel-xp-hd">Travel XP HD</channel>
+  <!-- <channel site="epg.iptvx.one" lang="ru" xmltv_id="Travelxp.ca" site_id="travel-xp-hd">Travel XP HD</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Treehouse.ca" site_id="treehouse-dv/3961">Treehouse DV</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Treehouse.ca" site_id="treehouse-hd/11285">Treehouse HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="Treehouse.ca" site_id="ca#427140022/treehouse-tv-hdtv">Treehouse TV HDTV</channel>

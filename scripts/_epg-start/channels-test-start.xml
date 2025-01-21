@@ -1,4 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="gatotv.com" lang="en" xmltv_id="HBOPlusLatinAmerica.us" site_id="hbo_plus">HBO Plus</channel>
+  <channel site="gatotv.com" lang="es" xmltv_id="HBOPopLatinAmerica.us" site_id="hbo_pop">HBO Pop</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="us#572881709/moviemax-hdtv-east">MOVIEMAX HDTV (East)</channel>
 </channels>
