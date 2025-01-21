@@ -11,6 +11,7 @@ import time
 import logging
 from logging.handlers import RotatingFileHandler
 import re  # Count / Log  Channels
+import pytz
 
 
 # See Android TV sheets doc, nginx tab for commands,
@@ -36,20 +37,19 @@ import os
 
 
 # Step 1: Set up Logging
-class SuccessFilter(logging.Filter):
-    def filter(self, record):
-        return "EPG file successfully saved" in record.getMessage()
-
-
-# Get the current time and format it
-formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
-print(formatted_time)
-
 
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
 
+class CustomFormatter(logging.Formatter):
+    def formatTime(self, record, datefmt=None):
+        # Get Eastern Time (ET)
+        eastern_time = pytz.timezone('US/Eastern')
+        # Convert the time to Eastern Time
+        current_time = datetime.fromtimestamp(record.created, pytz.utc).astimezone(eastern_time)
+        # Return the formatted time string
+        return current_time.strftime("%b %d %Y %H:%M:%S")
 
 # Get the directory where the script is located (absolute path)
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -64,15 +64,8 @@ os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 log_format = "%(asctime)s - %(message)s"
 date_format = "%b %d %Y %H:%M:%S"
 
-logging.basicConfig(
-    filename=log_file_path, level=logging.INFO, format=log_format, datefmt=date_format
-)
-
 # Set up logging
 logger = logging.getLogger()
-
-# Ensure the log directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
 # Create a RotatingFileHandler
 file_handler = RotatingFileHandler(
@@ -81,8 +74,8 @@ file_handler = RotatingFileHandler(
     backupCount=4,  # 5 MB file size limit, keep 4 backups
 )
 
-# Set up the formatter
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+# Set up the custom formatter with Eastern Time
+formatter = CustomFormatter("%(asctime)s - %(levelname)s - %(message)s")
 file_handler.setFormatter(formatter)
 
 # Add the SuccessFilter to filter specific messages
@@ -94,7 +87,6 @@ logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
-
 
 import os
 import subprocess
