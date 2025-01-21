@@ -1,4 +1,4 @@
-name: EPG Update
+name: EPG Manual Update
 
 on:
   workflow_dispatch:  # Allows manual triggering of this workflow
@@ -31,7 +31,7 @@ jobs:
       - name: Commit changes (if any)
         run: |
           git add .
-          git commit -m "Auto commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')" || echo "No changes to commit"
+          git commit -m "workflow_dispatch commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')" || echo "No changes to commit"
           if [ "$(git status --porcelain)" ]; then
             git push origin main
           else

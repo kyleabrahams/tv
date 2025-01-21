@@ -1,8 +1,9 @@
-name: EPG Update
+name: EPG Scheduled Update
 
 on:
+  workflow_dispatch:  # Allows manual triggering of this workflow
   schedule:
-    - cron: '5 5,17 * * *'  # 1:05 AM ET and 1:05 PM ET every day
+    - cron: '50 6,18 * * *'  # Runs at 6:50 AM and 6:50 PM UTC every day (which is 1:50 AM and 1:50 PM ET)
 
 jobs:
   scheduled_task:
@@ -11,21 +12,30 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Print working directory
+      - name: Set Git user (if committing)
         run: |
-          echo "Current directory:"
-          pwd
-
-      - name: List directory contents
-        run: |
-          echo "Listing files in current directory:"
-          ls -alh
+          git config --global user.name "kyleabrahams"
+          git config --global user.email "kyleagbc@gmail.com"
 
       - name: Navigate to correct directory and run Python script
         run: |
-          # Make sure we are in the correct directory
           cd $GITHUB_WORKSPACE/scripts
           echo "Current directory after cd:"
           pwd
           ls -alh  # List files to confirm the script is present
-          python3 merge_epg_cs.py update
+          python3 merge_epg_cs.py update update || exit 1
+
+      - name: Check for changes (optional)
+        run: |
+          git status
+          git diff --exit-code || echo "Changes detected"
+
+      - name: Commit changes (if any)
+        run: |
+          git add .
+          git commit -m "workflow_dispatch commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')" || echo "No changes to commit"
+          if [ "$(git status --porcelain)" ]; then
+            git push origin main
+          else
+            echo "No changes to push"
+          fi
