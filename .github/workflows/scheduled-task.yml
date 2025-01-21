@@ -25,5 +25,6 @@ jobs:
 
       # Run the script you want on the schedule
       - name: Run Python script
-        run: |
-          python3 merge_epg_cs.py update
+      run: |
+        cd /workspaces/tv/scripts
+        python3 merge_epg_cs.py update
