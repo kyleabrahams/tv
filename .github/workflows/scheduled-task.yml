@@ -1,0 +1,29 @@
+name: Scheduled Task
+on:
+  schedule:
+    # This cron syntax runs at midnight UTC every day
+    - cron: '47 0,12 * * *'  # Runs at 12:36 AM and 12:36 PM UTC every day
+
+jobs:
+  scheduled_task:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      # Install dependencies if required
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      # Run the script you want on the schedule
+      - name: Run Python script
+        run: |
+          python3 merge_epg_cs.py update
