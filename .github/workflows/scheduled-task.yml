@@ -2,7 +2,7 @@ name: Scheduled Task
 on:
   schedule:
     # This cron syntax runs at midnight UTC every day
-    - cron: '8 5,17 * * *'  # 1:05 AM ET and 1:05 PM ET every day
+    - cron: '10 5,17 * * *'  # 1:05 AM ET and 1:05 PM ET every day
 
 jobs:
   scheduled_task:
@@ -26,4 +26,4 @@ jobs:
       # Run the script you want on the schedule
       - name: Run Python script
         run: |
-          python3 ./scripts/merge_epg_cs.py update
+          python3 ./merge_epg_cs.py update
