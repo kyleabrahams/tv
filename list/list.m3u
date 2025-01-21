@@ -13,7 +13,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 21 220a
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 21 259a
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -107,7 +107,7 @@ http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 # http://fortv.cc:8080/105094817/105094817/46212
 #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423722
-#EXTINF:-1 tvg-id="MotorTrend.us" tvg-name="28 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",US MotorTrend  
+#EXTINF:-1 tvg-id="Motortrend.us" tvg-name="28 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",US MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
 # #EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="",Much Music
 # http://fortv.cc:8080/50905877/50905877/215268
@@ -759,7 +759,7 @@ http://fortv.cc:8080/105094817/105094817/53539
 http://fl2.moveonjoy.com/FYI/index.m3u8
 # #EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",US Discovery Science 
 # http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
-#EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",US Discovery Science xy 
+#EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",US Discovery Science xy 
 https://xyzdddd.mizhls.ru/lb/premium294/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="USA.Network.East.us" tvg-name="USA Network / US Discovery Channel East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/1280px-USA_Network_logo_%282016%29.svg.png" group-title="",USA Network  
 http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8

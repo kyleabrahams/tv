@@ -2,7 +2,7 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 
-# python3 search_xml_files.py
+# python3 search_xmltv_id_to-folder.py
 
 # Function to search for a word in an XML file
 def search_word_in_xml(file_path, search_word):
@@ -37,6 +37,8 @@ def main():
     # Define your source directory and search word
     src_dir = '../sites'  # Replace with the directory you want to search
     search_word = 'CFTO'  # Replace with the word you're searching for
+
+    # python3 search_xmltv_id_to-folder.py
     
     # Create a destination directory based on the search word
     search_word_safe = search_word.replace(' ', '_').replace('/', '_')

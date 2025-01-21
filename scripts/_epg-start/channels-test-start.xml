@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="CTV(CFTO)Toronto.ON.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
-  <!-- <channel site="gatotv.com" lang="es" xmltv_id="HBOPopLatinAmerica.us" site_id="hbo_pop">HBO Pop</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="us#572881709/moviemax-hdtv-east">MOVIEMAX HDTV (East)</channel> -->
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="6400f731d200410008f9b339">MotorTrend FAST TV</channel>
+  <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#motortrend">MotorTrend</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="" site_id="it/guida-tv#motortrend">MotorTrend</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="" site_id="31046">MOTORTREND HD</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951196">MotorTrend FAST TV</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="motortrend">MotorTrend</channel>
+  <channel site="directv.com" lang="en" xmltv_id="" site_id="281#3505">MotorTrend HD</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="31046">Motortrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="hgtv_go/epg#170">MotorTrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Roku/epg#roku-b741b23ecde35d84a9eef29d52cc9ac4">MotorTrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CABC2300008J0">MotorTrend FAST TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBC3600005U9">MotorTrend FAST TV</channel>
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="" site_id="DTV:MTHD:281">MotorTrend HD</channel>
+
+
 </channels>
 
