@@ -55,14 +55,15 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Create the relative path for the log file
 log_file_path = os.path.join(script_dir, "www", "merge_epg.log")
 
-# Ensure the 'log' directory exists
+# Ensure the 'www' directory exists
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
-# Now log the message using the relative path
+# Set up logging format and level
 log_format = "%(asctime)s - %(levelname)s - %(message)s"
 
 # Set up logging
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)  # Set the logger level first
 
 # Create a RotatingFileHandler
 file_handler = RotatingFileHandler(
@@ -78,9 +79,8 @@ file_handler.setFormatter(formatter)
 # Add the SuccessFilter to filter specific messages
 file_handler.addFilter(SuccessFilter())
 
-# Add the file handler to the logger and set the log level
+# Add the file handler to the logger
 logger.addHandler(file_handler)
-logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
