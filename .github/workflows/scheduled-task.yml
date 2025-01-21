@@ -3,7 +3,7 @@ name: EPG Scheduled Update
 on:
   workflow_dispatch:  # Allows manual triggering of this workflow
   schedule:
-    - cron: '58 6,18 * * *'  # Runs at 6:50 AM and 6:50 PM UTC every day (which is 1:50 AM and 1:50 PM ET)
+    - cron: '10 7,19 * * *'  # Runs at 7:10 AM and 7:10 PM UTC (2:10 AM and 2:10 PM ET)
 
 jobs:
   scheduled_task:
