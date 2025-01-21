@@ -2,7 +2,7 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 
-# python3 search_xml_files.py
+# python3 search_xmltv_id_to-folder.py
 
 # Function to search for a word in an XML file
 def search_word_in_xml(file_path, search_word):
@@ -34,10 +34,15 @@ def search_xml_in_directory(src_dir, dest_dir, search_word):
 
 # Main function to drive the search and duplication
 def main():
-    # Define your source directory, destination directory, and search word
+    # Define your source directory and search word
     src_dir = '../sites'  # Replace with the directory you want to search
-    dest_dir = './_Search _results'  # Replace with the destination folder for duplicates
-    search_word = 'dtour'  # Replace with the word you're searching for
+    search_word = 'CFTO'  # Replace with the word you're searching for
+
+    # python3 search_xmltv_id_to-folder.py
+    
+    # Create a destination directory based on the search word
+    search_word_safe = search_word.replace(' ', '_').replace('/', '_')
+    dest_dir = f'./_Search_Results/{search_word_safe}'
     
     search_xml_in_directory(src_dir, dest_dir, search_word)
 

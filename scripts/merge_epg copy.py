@@ -11,9 +11,12 @@ import time
 import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
+import gc # Prevents memory failure
 
+# Force garbage collection at intervals
+gc.collect()
 
-# See Android TV sheets doc, nginx tab for commands,
+# See Android TV sheets doc, nginx tab for tasks,
 # sudo nginx -s reload
 # python3 -m venv myenv
 # source myenv/bin/activate
@@ -145,13 +148,21 @@ if __name__ == "__main__":
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
         
+def process_output(output):
+    # Custom function to handle standard output
+    print(output)
+
+def error_output(error):
+    # Custom function to handle errors
+    print(error)
+
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
 
 
-    # List of npm commands with timestamped output file
-    commands = [
+    # List of npm tasks with timestamped output file
+    tasks = [
         ["npm", "run", "grab", "--", 
         #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
@@ -160,6 +171,19 @@ def run_npm_grab():
          f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
     ]
+
+    for task in tasks:
+            process = subprocess.Popen(task, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            
+            # Process the output incrementally to avoid memory issues
+            for line in process.stdout:
+                process_output(line.strip())
+
+            # Error handling
+            for line in process.stderr:
+                error_output(line.strip())
+            
+            process.wait()
 
     # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
@@ -176,7 +200,7 @@ def run_npm_grab():
     except Exception as e:
         print(f"Error deleting old files: {e}")
 
-    for command in commands:
+    for command in tasks:
         try:
             # Combine the command into a string for logging and display
             command_str = ' '.join(command)
@@ -367,12 +391,28 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                     print(f"Error processing local file {url}: {e}")
                 return None
 
+        except requests.exceptions.Timeout:
+            logging.error(f"Request timeout for {url} (Attempt {attempt + 1}/{retries})")
+            print(f"Request timeout for {url} (Attempt {attempt + 1}/{retries})")
+        except requests.exceptions.ConnectionError:
+            logging.error(f"Connection error for {url} (Attempt {attempt + 1}/{retries})")
+            print(f"Connection error for {url} (Attempt {attempt + 1}/{retries})")
         except requests.exceptions.RequestException as e:
-            logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-            print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-            attempt += 1
-            time.sleep(delay)  # Wait before retrying
-    return None  # Return None after all attempts fail    
+            logging.error(f"Request failed for {url} (Attempt {attempt + 1}/{retries}): {e}")
+            print(f"Request failed for {url} (Attempt {attempt + 1}/{retries}): {e}")
+        
+        # Retry logic
+        attempt += 1
+        if attempt < retries:
+            logging.info(f"Retrying in {delay} seconds...")
+            print(f"Retrying in {delay} seconds...")
+            time.sleep(delay)
+
+    # If all attempts fail
+    logging.error(f"Failed to fetch {url} after {retries} attempts")
+    print(f"Failed to fetch {url} after {retries} attempts")
+    return None
+
 
 # Function to extract XML from .gz files
 def extract_gz_files(gz_directory):

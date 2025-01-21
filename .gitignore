@@ -9,3 +9,5 @@ scripts/_epg-end/*.xml
 scripts/www/*.log
 # Ignore .m3u files
 scripts/www/*.m3u
+# Ignore the _Search_Results folder and its contents
+scripts/_Search_Results/

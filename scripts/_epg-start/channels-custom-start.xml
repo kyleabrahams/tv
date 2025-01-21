@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
   <channel site="cyta.com.cy" lang="el" xmltv_id="RIK1.gr" site_id="561066">RIK 1</channel>
@@ -540,6 +541,55 @@
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCThreeHD.uk" site_id="1852/bbc-three-hd">BBC Three HD</channel>
   <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoHD.uk" site_id="1782/bbc-two-hd">BBC Two HD</channel> -->
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCTwoEngland.uk" site_id="52/bbc-two-england">BBC Two England</channel>
+=======
+<?xml version='1.0' encoding='utf-8'?>
+<channels>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AandECanada.ca" site_id="ae-canada-hd/3886">A&amp;E Canada HD</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="A.and.E.Canada.HD.ca" site_id="ae-us-hd-eastern-feed/17034">A&amp;E US HD - Eastern Feed</channel> -->
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="AandECanada" site_id="10035">A&amp;E East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AandECanada.ca" site_id="ca#69023215/ae-network-canada">A&amp;E Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="5StarMax.us" site_id="us#69050054/five-star-max">Five Star Max</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ABC.Spark.ca" site_id="abc-spark-hd/10282">ABC Spark HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="ABCSpark.ca" site_id="75031">ABC Spark</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ABCNewsLive.us" site_id="abc-news-live/36224">ABC News Live</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="ABCNewsLive.us" site_id="113380">ABC News Live</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ACCNetwork.us" site_id="acc-network/33964">ACC Network</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="ACCNetwork.us" site_id="111871">ACC Network</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AMC+.us" site_id="amc/35317">AMC+</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AMC+.us" site_id="114759">AMC Plus</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AMCEast.us" site_id="amc-eastern-feed/177">AMC - Eastern Feed</channel> -->
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AMCEast.us" site_id="amc-eastern-feed-hd/6219">AMC - Eastern Feed HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AMCEast.us" site_id="10021">AMC East</channel>
+  <channel site="cosmotetv.gr" lang="el" xmltv_id="ANT1.gr" site_id="ant1hd">ANT1</channel>
+  <channel site="cyta.com.cy" lang="el" xmltv_id="ANT1.gr" site_id="289542">ANT1 TV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="APTN.East.ca" site_id="aptn-east/198">APTN - East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="APTN.East.ca" site_id="ca#69048188/aboriginal-peoples-television-network-east">Aboriginal Peoples Television Network (East)</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AXStv.us" site_id="axs-tv-north-america-hd/12598">AXS TV North America HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AXSTV.us" site_id="92053">AXS TV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AandE.us" site_id="ae-us-eastern-feed/2">A&amp;E US - Eastern Feed</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AEEast.us" site_id="10035">A&amp;E East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ActionMaxEast.us" site_id="actionmax-eastern-hd/7094">ActionMax - Eastern HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="ActionMaxEast.us" site_id="18433">ActionMax East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AdultSwimEast.ca" site_id="adult-swim-east/607">Adult Swim - East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="AdultSwimEast.ca" site_id="adult-swim-east-hd/7336">Adult Swim - East HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AdultSwimEast.us" site_id="83166">[adult swim]East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AlJazeera.us" site_id="al-jazeera-english/7810">Al Jazeera English</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AlJazeera.us" site_id="89921">Al Jazeera (KBID-LP) Coalinga, CA</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AltitudeSportsDenver.us" site_id="altitude-sports-hd/7542">Altitude Sports - Denver HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AltitudeSportsDenver.us" site_id="44263">Altitude Sports</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AmericanHeroesChannel.us" site_id="american-heroes-channel-hd/10881">American Heroes Channel HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="AmericanHeroesChannel.us" site_id="78808">American Heroes Channel</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AmericasVoice.us" site_id="americas-voice-network/35576">America's Voice Network</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AmericasVoice.us" site_id="ca#7442868705/wbxz-americas-voice">WBXZ America's Voice</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Aspire.us" site_id="aspire-tv-hd/10761">ASPiRE TV HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="Aspire.us" site_id="76126">Aspire TV</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BBC.News.us" site_id="bbc-news-north-america-hd/10294">BBC News - North America HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="BBC.News.us" site_id="89690">BBC World News (North America)</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="BBCAmericaEast.us" site_id="bbc-america-east-hd/11121">BBC America - East HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="BBCAmericaEast.us" site_id="18332">BBC America East</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCFourHD.uk" site_id="1851/bbc-four-hd">BBC Four HD</channel>
+>>>>>>> 26b4678065ffb3fe9011ec0498e17898ca4119e5
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>  
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEast.uk" site_id="9/bbc-one-east">BBC One East</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="BBCOneEastHD.uk" site_id="2364/bbc-one-east-hd">BBC One East HD</channel>
