@@ -10,6 +10,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run Python script
+      - name: Navigate to correct directory and run Python script
         run: |
+          # Make sure we are in the correct directory
+          cd $GITHUB_WORKSPACE/scripts
+          echo "Current directory after cd:"
+          pwd
+          ls -alh  # List files to confirm the script is present
           python3 merge_epg_cs.py update
