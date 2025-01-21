@@ -33,11 +33,9 @@ REPO_DIR = os.path.abspath(
 # Relative path from the script to the virtual environment
 venv_python = sys.executable
 print(venv_python)
-import os
 
 
 # Step 1: Set up Logging
-
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
@@ -61,8 +59,7 @@ log_file_path = os.path.join(script_dir, "www", "merge_epg.log")
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
 # Now log the message using the relative path
-log_format = "%(asctime)s - %(message)s"
-date_format = "%b %d %Y %H:%M:%S"
+log_format = "%(asctime)s - %(levelname)s - %(message)s"
 
 # Set up logging
 logger = logging.getLogger()
@@ -70,12 +67,12 @@ logger = logging.getLogger()
 # Create a RotatingFileHandler
 file_handler = RotatingFileHandler(
     log_file_path,
-    maxBytes=5 * 1024 * 1024,
-    backupCount=4,  # 5 MB file size limit, keep 4 backups
+    maxBytes=5 * 1024 * 1024,  # 5 MB file size limit
+    backupCount=4,  # Keep 4 backups
 )
 
 # Set up the custom formatter with Eastern Time
-formatter = CustomFormatter("%(asctime)s - %(levelname)s - %(message)s")
+formatter = CustomFormatter(log_format)
 file_handler.setFormatter(formatter)
 
 # Add the SuccessFilter to filter specific messages
@@ -87,9 +84,6 @@ logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
-
-import os
-import subprocess
 
 
 # Step 2.1: Function to run dummy_epg.py script
