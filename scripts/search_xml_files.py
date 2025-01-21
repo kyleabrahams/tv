@@ -36,7 +36,7 @@ def search_xml_in_directory(src_dir, dest_dir, search_word):
 def main():
     # Define your source directory and search word
     src_dir = '../sites'  # Replace with the directory you want to search
-    search_word = 'Sky Sports Top Event'  # Replace with the word you're searching for
+    search_word = 'CFTO'  # Replace with the word you're searching for
     
     # Create a destination directory based on the search word
     search_word_safe = search_word.replace(' ', '_').replace('/', '_')
