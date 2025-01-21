@@ -10,11 +10,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set Git user (if committing)
+        run: |
+          git config --global user.name "kyleabrahams"
+          git config --global user.email "kyleagbc@gmail.com"
+
       - name: Navigate to correct directory and run Python script
         run: |
-          # Make sure we are in the correct directory
           cd $GITHUB_WORKSPACE/scripts
           echo "Current directory after cd:"
           pwd
           ls -alh  # List files to confirm the script is present
-          python3 merge_epg_cs.py update
+          python3 merge_epg_cs.py update update || exit 1
+
+      - name: Check for changes (optional)
+        run: |
+          git status
+          git diff --exit-code || echo "Changes detected"
+
+      - name: Commit and push changes (optional)
+        run: |
+          git add .
+          git commit -m "Auto commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')"
+          git push
