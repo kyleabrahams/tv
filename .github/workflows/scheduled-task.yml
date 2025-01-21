@@ -3,12 +3,11 @@ name: EPG Scheduled Update
 on:
   workflow_dispatch:  # Allows manual triggering of this workflow
   schedule:
-    - cron: '22 7,19 * * *'  # Runs at 7:10 AM and 7:10 PM UTC (2:10 AM and 2:10 PM ET)
+    - cron: '37 7,19 * * *'  # Runs at 7:22 AM and 7:22 PM UTC (2:22 AM and 2:22 PM ET)
 
 concurrency:
   group: epg-scheduled-task
   cancel-in-progress: true
-
 
 jobs:
   scheduled_task:
@@ -21,6 +20,10 @@ jobs:
         run: |
           git config --global user.name "kyleabrahams"
           git config --global user.email "kyleagbc@gmail.com"
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt || echo "No requirements.txt found"
 
       - name: Navigate to correct directory and run Python script
         run: |
@@ -37,9 +40,11 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
+          echo "Checking for changes to commit..."
           git add .
           git commit -m "workflow_dispatch commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')" || echo "No changes to commit"
           if [ "$(git status --porcelain)" ]; then
+            echo "Changes detected. Pushing to main branch."
             git push origin main
           else
             echo "No changes to push"
