@@ -26,4 +26,4 @@ jobs:
       # Run the script you want on the schedule
       - name: Run Python script
         run: |
-          python3 ./merge_epg_cs.py update
+          python3 merge_epg_cs.py update
