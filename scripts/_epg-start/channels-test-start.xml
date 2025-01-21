@@ -1,26 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoCBCNewsToronto.ca" site_id="PlutoTV/ca#6536721dbfbaec00088687c0">CBC News Toronto</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCTVNews.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d">CTV News</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCBCNews.ca" site_id="Plex/au#5e20b730f2f8d5003d739db7-64c91830ea7db2f52688c52c">CBC News</channel>
-=======
->>>>>>> Stashed changes
-=======
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="ca#69030222/citytv-toronto-hdtv">Citytv Toronto HDTV</channel> -->
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel> -->
->>>>>>> Stashed changes
-=======
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="ca#69030222/citytv-toronto-hdtv">Citytv Toronto HDTV</channel> -->
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel> -->
->>>>>>> Stashed changes
-=======
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="ca#69030222/citytv-toronto-hdtv">Citytv Toronto HDTV</channel> -->
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel> -->
->>>>>>> Stashed changes
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="6400f731d200410008f9b339">MotorTrend FAST TV</channel>
+  <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#motortrend">MotorTrend</channel>
+  <channel site="tvprofil.com" lang="it" xmltv_id="" site_id="it/guida-tv#motortrend">MotorTrend</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="" site_id="31046">MOTORTREND HD</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="50#99951196">MotorTrend FAST TV</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="motortrend">MotorTrend</channel>
+  <channel site="directv.com" lang="en" xmltv_id="" site_id="281#3505">MotorTrend HD</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="31046">Motortrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="hgtv_go/epg#170">MotorTrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="Roku/epg#roku-b741b23ecde35d84a9eef29d52cc9ac4">MotorTrend</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CABC2300008J0">MotorTrend FAST TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBC3600005U9">MotorTrend FAST TV</channel>
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="" site_id="DTV:MTHD:281">MotorTrend HD</channel>
+
+
 </channels>
 
