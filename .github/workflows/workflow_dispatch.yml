@@ -1,0 +1,15 @@
+name: EPG Update
+
+on:
+  workflow_dispatch:  # Allows manual triggering of this workflow
+
+jobs:
+  scheduled_task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Python script
+        run: |
+          python3 merge_epg_cs.py update
