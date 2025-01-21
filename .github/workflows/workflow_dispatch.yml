@@ -17,19 +17,19 @@ jobs:
 
       - name: Navigate to correct directory and run Python script
         run: |
-          cd $GITHUB_WORKSPACE/scripts
-          echo "Current directory after cd:"
-          pwd
-          ls -alh  # List files to confirm the script is present
-          python3 merge_epg_cs.py update update || exit 1
-
+         cd $GITHUB_WORKSPACE/scripts
+         echo "Current directory after cd:"
+         pwd
+         ls -alh  # List files to confirm the script is present
+         python3 merge_epg_cs.py update update || exit 1
+    
       - name: Check for changes (optional)
         run: |
-          git status
-          git diff --exit-code || echo "Changes detected"
+            git status
+            git diff --exit-code || echo "Changes detected"
 
-      - name: Commit and push changes (optional)
+      - name: Commit changes (if any)
         run: |
-          git add .
-          git commit -m "Auto commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')"
-          git push
+            git add .
+            git commit -m "Auto commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S')" || echo "No changes to commit"
+            git push
