@@ -34,10 +34,13 @@ def search_xml_in_directory(src_dir, dest_dir, search_word):
 
 # Main function to drive the search and duplication
 def main():
-    # Define your source directory, destination directory, and search word
+    # Define your source directory and search word
     src_dir = '../sites'  # Replace with the directory you want to search
-    dest_dir = './_Search _results'  # Replace with the destination folder for duplicates
-    search_word = 'dtour'  # Replace with the word you're searching for
+    search_word = 'hbo pop'  # Replace with the word you're searching for
+    
+    # Create a destination directory based on the search word
+    search_word_safe = search_word.replace(' ', '_').replace('/', '_')
+    dest_dir = f'./_Search_Results/{search_word_safe}'
     
     search_xml_in_directory(src_dir, dest_dir, search_word)
 

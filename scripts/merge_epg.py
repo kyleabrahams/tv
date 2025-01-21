@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
 # Step 3: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
 # npm run grab --- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
-# npm run grab --- --channels=test_start.xml --output ./scripts/test_end.xml
+# npm run grab --- --channels=./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
 # python3 merge_epg.py
 
 

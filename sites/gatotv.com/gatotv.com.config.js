@@ -53,7 +53,7 @@ module.exports = {
       const parsed = url.parse(link)
 
       return {
-        lang: 'es',
+        lang: 'en',
         site_id: path.basename(parsed.pathname),
         name: $item('td:nth-child(1) > div:nth-child(2) > a:nth-child(3)').text()
       }
