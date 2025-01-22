@@ -32,7 +32,7 @@ jobs:
           npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/merged-epg.xml
           
           # You can also use the following if it's part of your script:
-          # npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/merged-epg.xml
+          # npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/merged-epg.xml
           
           # Handle errors if necessary
           if [ $? -ne 0 ]; then
