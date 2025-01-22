@@ -67,6 +67,8 @@ npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_TEST.xml -
 npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_output.xml --output=./scripts/_epg-end/channels_custom_end_output.xml
 
 # Codespace
+source venv/bin/activate
+
 python3 merge_epg_cs.py
 
 python3 merge_epg_cs.py update update || exit 1
