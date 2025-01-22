@@ -69,4 +69,7 @@ npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_output.xml
 # Codespace
 python3 merge_epg_cs.py
 
+python3 merge_epg_cs.py update update || exit 1
+
+
 https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/www/epg.xml
