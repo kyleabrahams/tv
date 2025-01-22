@@ -40,22 +40,16 @@ jobs:
             exit 1
           fi
 
-      - name: Commit merged EPG file (if any changes)
+      - name: Force add and commit merged EPG file (always commit)
         run: |
           git config --global user.name "kyleabrahams"
           git config --global user.email "kyleagbc@gmail.com"
           
-          # Check if there are any changes
-          git diff --exit-code || echo "Changes detected"
+          # Force add the merged file even if no changes are detected
+          git add -f ./scripts/_epg-end/merged-epg.xml
           
-          # Commit changes if the file was updated
-          git add .
-          git commit -m "Auto commit: Merged EPG data on $(date)"
+          # Force commit changes (if any)
+          git commit --allow-empty -m "Auto commit: Merged EPG data on $(date)"
           
           # Push the changes to the repository
-          if [ "$(git status --porcelain)" ]; then
-            echo "Pushing changes to main branch"
-            git push origin main
-          else
-            echo "No changes to push"
-          fi
+          git push origin main
