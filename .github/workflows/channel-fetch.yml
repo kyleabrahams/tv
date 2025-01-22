@@ -29,7 +29,7 @@ jobs:
       - name: Fetch EPG channel data and merge into XML
         run: |
           echo "Fetching and merging EPG channel data..."
-          npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/merged-epg.xml
+          npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/merged-epg.xml
           
           # You can also use the following if it's part of your script:
           # npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/merged-epg.xml
