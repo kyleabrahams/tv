@@ -16,6 +16,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Python environment
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install requests  # Install the requests library
+
       - name: Set Git user (if committing)
         run: |
           git config --global user.name "kyleabrahams"
