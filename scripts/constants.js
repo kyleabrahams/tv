@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.REPO = exports.OWNER = exports.TESTING = exports.DOT_SITES_DIR = exports.API_DIR = exports.DATA_DIR = exports.GUIDES_DIR = exports.SITES_DIR = void 0;
+exports.SITES_DIR = process.env.SITES_DIR || './sites';
+exports.GUIDES_DIR = process.env.GUIDES_DIR || './guides';
+exports.DATA_DIR = process.env.DATA_DIR || './temp/data';
+exports.API_DIR = process.env.API_DIR || '.api';
+exports.DOT_SITES_DIR = process.env.DOT_SITES_DIR || './.sites';
+exports.TESTING = process.env.NODE_ENV === 'test' ? true : false;
+exports.OWNER = 'iptv-org';
+exports.REPO = 'epg';

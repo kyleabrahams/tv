@@ -16,11 +16,8 @@ import pytz # Timezone
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
-
-# Relative path from the script to the virtual environment
-venv_python = sys.executable
+venv_python = sys.executable # Relative path from the script to the virtual environment
 print(venv_python)
-
 
 # Step 1: Set up Logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
@@ -105,12 +102,9 @@ def run_dummy_epg():
 if __name__ == "__main__":
     run_dummy_epg()
 
-
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
-
 # python3 merge_epg.py
-
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
@@ -120,11 +114,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
     ]
 
