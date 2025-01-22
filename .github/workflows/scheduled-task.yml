@@ -3,7 +3,7 @@ name: EPG Scheduled Update
 on:
   workflow_dispatch:  # Allows manual triggering of this workflow
   schedule:
-    - cron: '37 7,19 * * *'  # Runs at 7:22 AM and 7:22 PM UTC (2:22 AM and 2:22 PM ET)
+    - cron: '37 7,19 * * *'  # Runs at 7:37 AM and 7:37 PM UTC (2:37 AM and 2:37 PM ET)
 
 concurrency:
   group: epg-scheduled-task
@@ -22,6 +22,15 @@ jobs:
           source venv/bin/activate
           pip install requests  # Install the requests library
 
+      - name: Install Node.js and npm dependencies
+        run: |
+          # Install Node.js (if not already installed by default)
+          sudo apt-get update
+          sudo apt-get install -y nodejs npm
+          # Install @freearhey/core and other dependencies
+          npm install @freearhey/core
+          npm install
+
       - name: Set Git user (if committing)
         run: |
           git config --global user.name "kyleabrahams"
@@ -29,8 +38,8 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          if [ -f /workspaces/tv/scripts/requirements.txt ]; then
-            pip install -r /workspaces/tv/scripts/requirements.txt
+          if [ -f $GITHUB_WORKSPACE/scripts/requirements.txt ]; then
+            pip install -r $GITHUB_WORKSPACE/scripts/requirements.txt
           else
             echo "No requirements.txt found"
           fi
