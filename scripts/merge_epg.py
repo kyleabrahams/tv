@@ -119,7 +119,6 @@ def run_npm_grab():
 
         #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
         #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
-
     ]
 
     # Set the output directory for deleting old files
