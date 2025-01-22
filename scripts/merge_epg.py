@@ -395,16 +395,16 @@ try:
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
-    # Force commit and push the updated EPG file to GitHub
-    print("Committing and pushing the updated EPG file to GitHub...")
+    # Force commit and push the updated EPG file and log file to GitHub
+    print("Committing and pushing the updated EPG file and log file to GitHub...")
 
     # Git commands to commit and push
-    subprocess.run(["git", "add", save_path], check=True)  # Stage the changes
-    commit_message = f"Updated epg.xml at {current_time_et} ET"
+    subprocess.run(["git", "add", save_path, log_file_path], check=True)  # Stage the changes
+    commit_message = f"Updated epg.xml and merge_epg.log at {current_time_et} ET"
     subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
     subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
 
-    print("EPG file successfully committed and pushed to GitHub.")
+    print("EPG file and log file successfully committed and pushed to GitHub.")
 
 except Exception as e:
     # Log error if save fails
