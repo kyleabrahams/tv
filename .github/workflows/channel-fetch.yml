@@ -40,19 +40,20 @@ jobs:
             exit 1
           fi
 
-      - name: Force add and commit merged EPG file (always commit)
+      - name: Auto commit all .xml files in _epg-end directory
         run: |
-          git config --global user.name "kyleabrahams"
-          git config --global user.email "kyleagbc@gmail.com"
-
-          # Add all .xml files in _epg-end directory
-          git add scripts/_epg-end/*.xml
-          
-          # Force add the merged file even if no changes are detected
-          git add -f ./scripts/_epg-end/merged-epg.xml
-          
-          # Force commit changes (if any)
-          git commit --allow-empty -m "Auto commit: Merged EPG data on $(date)"
-          
-          # Push the changes to the repository
-          git push origin main
+            git config --global user.name "kyleabrahams"
+            git config --global user.email "kyleagbc@gmail.com"
+            
+            # Add all .xml files in _epg-end directory
+            git add scripts/_epg-end/*.xml
+            
+            # Commit changes (if any)
+            git commit --allow-empty -m "Auto commit: Merged EPG data on $(date)"
+            
+            # Display git status to debug
+            git status
+            
+            # Push the changes to the repository (force push if necessary)
+            git push origin main || git push origin main --force
+        
