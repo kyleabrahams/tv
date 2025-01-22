@@ -29,8 +29,8 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
+          if [ -f /workspaces/tv/scripts/requirements.txt ]; then
+            pip install -r /workspaces/tv/scripts/requirements.txt
           else
             echo "No requirements.txt found"
           fi
