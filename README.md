@@ -73,5 +73,8 @@ python3 merge_epg_cs.py
 
 python3 merge_epg_cs.py update update || exit 1
 
+act -W .github/workflows/channel-fetch.yml -j channel-fetch
+
+
 
 https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/www/epg.xml
