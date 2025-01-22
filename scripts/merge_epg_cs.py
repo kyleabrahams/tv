@@ -1,4 +1,4 @@
-# import requests
+import requests
 import xml.etree.ElementTree as ET
 import os
 import gzip
