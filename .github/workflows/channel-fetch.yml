@@ -44,6 +44,9 @@ jobs:
         run: |
           git config --global user.name "kyleabrahams"
           git config --global user.email "kyleagbc@gmail.com"
+
+          # Add all .xml files in _epg-end directory
+          git add scripts/_epg-end/*.xml
           
           # Force add the merged file even if no changes are detected
           git add -f ./scripts/_epg-end/merged-epg.xml
