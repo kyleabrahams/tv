@@ -29,7 +29,11 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install -r requirements.txt || echo "No requirements.txt found"
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "No requirements.txt found"
+          fi
 
       - name: Navigate to correct directory and run Python script
         run: |
@@ -37,7 +41,8 @@ jobs:
           echo "Current directory after cd:"
           pwd
           ls -alh  # List files to confirm the script is present
-          python3 merge_epg_cs.py update update || exit 1
+          source venv/bin/activate  # Activate the virtual environment
+          python merge_epg_cs.py update update || exit 1
 
       - name: Check for changes (optional)
         run: |
@@ -46,13 +51,13 @@ jobs:
 
       - name: Commit changes (if any)
         run: |
-            echo "Checking for changes to commit..."
-            export TZ=America/New_York  # Set timezone to Eastern Time
-            git add .
-            git commit -m "workflow_dispatch commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S ET')" || echo "No changes to commit"
-            if [ "$(git status --porcelain)" ]; then
-                echo "Changes detected. Pushing to main branch."
-                git push origin main
-            else
-                echo "No changes to push"
-            fi
+          export TZ=America/New_York  # Set timezone to Eastern Time
+          echo "Checking for changes to commit..."
+          git add .
+          git commit -m "workflow_dispatch commit: EPG file updated on $(date +'%b %d %Y %H:%M:%S ET')" || echo "No changes to commit"
+          if [ "$(git status --porcelain)" ]; then
+              echo "Changes detected. Pushing to main branch."
+              git push origin main
+          else
+              echo "No changes to push"
+          fi
