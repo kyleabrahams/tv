@@ -11,18 +11,8 @@ import time
 import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
+import pytz # Timezone
 
-
-# See Android TV sheets doc, nginx tab for commands,
-# sudo nginx -s reload
-# python3 -m venv myenv
-# source myenv/bin/activate
-# python3 merge_epg.py
-
-# Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
-# npm run grab -- --site=xumo.tv
-# npm run grab -- --channels=sites/ontvtonight.com/ontvtonight.com_ca.channels.xml --output=./scripts/ontvtonight.com_ca.channels.xml
-# npm run channels:parse --- --config=./sites/ontvtonight.com/ontvtonight.com.config.js --output=./scripts/ontvtonight.com_ca.channels.xml --set=country:ca
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
@@ -30,18 +20,13 @@ REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR 
 # Relative path from the script to the virtual environment
 venv_python = sys.executable
 print(venv_python)
-import os
 
- 
 
 # Step 1: Set up Logging
-class SuccessFilter(logging.Filter):
-    def filter(self, record):
-        return "EPG file successfully saved" in record.getMessage()
-    
-# Get the current time and format it
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
+
+# Define SuccessFilter to filter messages
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
@@ -52,10 +37,10 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Create the relative path for the log file
 log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
 
-# Ensure the 'log' directory exists
+# Ensure the 'www' directory exists
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
-# Now log the message using the relative path
+# Set up logging configuration
 log_format = "%(asctime)s - %(message)s"
 date_format = "%b %d %Y %H:%M:%S"
 
@@ -64,11 +49,8 @@ logging.basicConfig(filename=log_file_path,
                     format=log_format,
                     datefmt=date_format)
 
-# Set up logging
-logger = logging.getLogger()
-
-# Ensure the log directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+# Create a logger instance
+logger = logging.getLogger(__name__)
 
 # Create a RotatingFileHandler
 file_handler = RotatingFileHandler(
@@ -82,16 +64,12 @@ file_handler.setFormatter(formatter)
 # Add the SuccessFilter to filter specific messages
 file_handler.addFilter(SuccessFilter())
 
-# Add the file handler to the logger and set the log level
+# Add the file handler to the logger
 logger.addHandler(file_handler)
-logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
 
-
-import os
-import subprocess
 
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
@@ -128,23 +106,12 @@ if __name__ == "__main__":
     run_dummy_epg()
 
 
- 
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
 
-
-
-# Step 3: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
-# npm run grab --- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
-# npm run grab --- --channels=./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
 # python3 merge_epg.py
 
 
-
-# Set up logging
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
-        
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
@@ -421,16 +388,31 @@ for xml_file in extracted_files:
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
 
+# Get the current Eastern Time
+eastern = pytz.timezone('US/Eastern')
+current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+
 # Step 13: Save the merged EPG file and log success
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
     
     # Log success message
-    success_message = f"EPG file successfully saved to {save_path}"
+    success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
- 
+
+    # Force commit and push the updated EPG file to GitHub
+    print("Committing and pushing the updated EPG file to GitHub...")
+
+    # Git commands to commit and push
+    subprocess.run(["git", "add", save_path], check=True)  # Stage the changes
+    commit_message = f"Updated epg.xml at {current_time_et} ET"
+    subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
+    subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
+
+    print("EPG file successfully committed and pushed to GitHub.")
+
 except Exception as e:
     # Log error if save fails
     error_message = f"Failed to save EPG file - Error: {e}"

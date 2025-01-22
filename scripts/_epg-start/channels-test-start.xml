@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="ca#69030222/citytv-toronto-hdtv">Citytv Toronto HDTV</channel> -->
-  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="CITY.Toronto.ca" site_id="capital-networks-city-toronto-on/13732">Capital Networks: CITY Toronto, ON</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AandECanada.ca" site_id="ca#69023215/ae-network-canada">A&amp;E Network Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel>
+
 </channels>
 
