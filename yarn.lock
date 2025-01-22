@@ -358,10 +358,10 @@
     "@eslint/core" "^0.10.0"
     levn "^0.4.1"
 
-"@freearhey/core@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.npmjs.org/@freearhey/core/-/core-0.3.1.tgz"
-  integrity sha512-9n4p4DcRKWz4zU6XluDEGKxiFRwlr+Nhn6DJg5tCG6Cov/yvN/TfGACRGCmJKXkVvf4TSKxIE3hZSKEOMRZI2w==
+"@freearhey/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.npmjs.org/@freearhey/core/-/core-0.5.0.tgz"
+  integrity sha512-FcA5Pv9RvFvLYAwNmD/2vlSR49Rx+kihJ+xbIUgIACHY6lBUptfbNznm00DQoUyWRJG/cfT3dkYCwIxSUsdP+w==
   dependencies:
     "@types/fs-extra" "^11.0.2"
     "@types/lodash" "^4.14.198"
@@ -374,6 +374,7 @@
     node-gzip "^1.1.2"
     normalize-url "^6.1.0"
     object-treeify "^2.1.1"
+    run-script-os "^1.1.6"
     signale "^1.4.0"
 
 "@freearhey/search-js@^0.1.1":
@@ -2524,9 +2525,9 @@ fs-extra@^10.0.1:
     universalify "^2.0.0"
 
 fs-extra@^11.1.1:
-  version "11.2.0"
-  resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-11.2.0.tgz"
-  integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
+  version "11.3.0"
+  resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-11.3.0.tgz"
+  integrity sha512-Z4XaCL6dUDHfP/jT25jJKMmtxvuwbkrD1vNSMFlo9lNLY2c5FHYSQgHPRZUjAB26TpDEoW9HCOgplrdbaPV/ew==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
