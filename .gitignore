@@ -3,9 +3,9 @@ node_modules
 # Ignore all crontab backup files
 nginx_uninstall_backups/
 # Ignore log files
-scripts/www/*.log
+# scripts/www/*.log
 # Ignore .m3u files
-scripts/www/*.m3u
+# scripts/www/*.m3u
 # Ignore the _Search_Results folder and its contents
 scripts/_Search_Results/
 # Ignore xml files here
