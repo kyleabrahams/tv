@@ -13,6 +13,7 @@ from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
 import schedule
+import fcntl
 
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
@@ -21,27 +22,45 @@ venv_python = sys.executable # Relative path from the script to the virtual envi
 print(venv_python)
 
 # Step 0: Run this script on schedule
+# Lock file path
+lock_file_path = "/tmp/merge_epg.lock"
 
 def run_merge_epg():
-    # Define the command to run your Python script
-    command = 'python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py'
-    
-    try:
-        # Run the command
-        result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(f"stdout: {result.stdout.decode()}")
-        print(f"stderr: {result.stderr.decode()}")
-    except subprocess.CalledProcessError as e:
-        print(f"Error occurred: {e}")
+    # Check if the lock file already exists (indicating another instance is running)
+    if os.path.exists(lock_file_path):
+        print("Script is already running.")
+        return
 
-# Schedule the job at 1 PM
-schedule.every().day.at("02:12").do(run_merge_epg)  # 1:56 AM
-schedule.every().day.at("14:12").do(run_merge_epg)  # 1:56 PM
+    # Create and lock the file to prevent multiple instances
+    with open(lock_file_path, 'w') as lock_file:
+        try:
+            # Try to acquire a lock on the file
+            fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            
+            # Define the command to run your Python script
+            command = 'python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py'
+            
+            # Run the command
+            result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            print(f"stdout: {result.stdout.decode()}")
+            print(f"stderr: {result.stderr.decode()}")
+        
+        except (subprocess.CalledProcessError, IOError) as e:
+            print(f"Error occurred: {e}")
+        
+        finally:
+            # Release the lock
+            fcntl.flock(lock_file, fcntl.LOCK_UN)
+
+# Schedule the job at 1:56 AM and 1:56 PM
+schedule.every().day.at("02:16").do(run_merge_epg)  # 1:56 AM
+schedule.every().day.at("14:16").do(run_merge_epg)  # 1:56 PM
 
 # Infinite loop to keep the scheduler running
 while True:
     schedule.run_pending()
     time.sleep(1)
+
 
 # Step 1: Set up Logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
