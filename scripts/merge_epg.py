@@ -389,7 +389,10 @@ current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 # Step 13: Save the merged EPG file and log success
 
 # Define the directory to auto-commit
-directory_to_commit = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/www"
+directories_to_commit = [
+    os.path.join(script_dir, "www"),
+    os.path.join(script_dir, "_epg-end")
+]
 
 # Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
@@ -403,16 +406,18 @@ try:
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
-    # Force commit and push all files in the specified directory to GitHub
-    print("Committing and pushing all updated files in the directory to GitHub...")
+    # Force commit and push all files in the specified directories to GitHub
+    print("Committing and pushing all updated files in the specified directories to GitHub...")
 
-    # Git commands to add all files in the directory
-    subprocess.run(["git", "add", directory_to_commit], check=True)  # Stage all files in the directory
-    commit_message = f"Auto-updated files in {directory_to_commit} at {current_time_et} ET"
+    for directory in directories_to_commit:
+        print(f"Staging files in directory: {directory}")
+        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
+
+    commit_message = f"Auto-updated files in specified directories at {current_time_et} ET"
     subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
     subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
 
-    print(f"All files in {directory_to_commit} successfully committed and pushed to GitHub.")
+    print("All files in the specified directories successfully committed and pushed to GitHub.")
 
 except Exception as e:
     # Log error if save or Git operations fail
