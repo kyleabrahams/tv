@@ -20,6 +20,11 @@ import fcntl
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable # Relative path from the script to the virtual environment
 print(venv_python)
+print("Starting data processing...")
+# your data processing code
+print("Data processing complete.")
+
+
 
 # Step 0: Run this script on schedule
 # Lock file path
@@ -52,14 +57,16 @@ def run_merge_epg():
             os.remove(lock_file_path)
             print("Lock file removed. Script execution finished.")
 
-# Schedule the job at 1:56 AM and 1:56 PM
-schedule.every().day.at("02:24").do(run_merge_epg)  # 1:56 AM
-schedule.every().day.at("14:24").do(run_merge_epg)  # 1:56 PM
+# Schedule the job at 2:28 AM and 2:28 PM (updated time)
+schedule.every().day.at("02:36").do(run_merge_epg)  # 2:28 AM
+schedule.every().day.at("14:36").do(run_merge_epg)  # 2:28 PM
 
 # Infinite loop to keep the scheduler running
 while True:
     schedule.run_pending()
     time.sleep(1)
+
+
 
 
 # Step 1: Set up Logging
