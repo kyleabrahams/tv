@@ -413,7 +413,7 @@ try:
         print(f"Staging files in directory: {directory}")
         subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
 
-    commit_message = f"Auto-updated files in specified directories at {current_time_et} ET"
+    commit_message = f"EPG.xml auto-updated at {current_time_et} ET"
     subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
     subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
 
