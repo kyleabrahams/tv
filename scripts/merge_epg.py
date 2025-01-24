@@ -35,8 +35,8 @@ def run_merge_epg():
         print(f"Error occurred: {e}")
 
 # Schedule the job at 1 PM
-schedule.every().day.at("13:56").do(run_merge_epg)
-
+schedule.every().day.at("02:02").do(run_merge_epg)  # 1:56 AM
+schedule.every().day.at("14:02").do(run_merge_epg)  # 1:56 PM
 # Infinite loop to keep the scheduler running
 while True:
     schedule.run_pending()
