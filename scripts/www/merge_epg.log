@@ -25468,3 +25468,78 @@ Jan 24 2025 11:44:01 - Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/sc
 Jan 24 2025 11:44:01 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-44-01 AM.xml
 Jan 24 2025 11:44:02 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 24, 2025 11:44:02 AM ET
 Jan 24 2025 11:44:02 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 24 2025 11:46:00 - Starting EPG merge process...
+Jan 24 2025 11:46:01 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-46-01 AM.xml
+Jan 24 2025 11:46:01 - Error while running npm command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-46-01 AM.xml: [Errno 2] No such file or directory: 'npm'
+Jan 24 2025 11:46:01 - Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-46-01 AM.xml
+Jan 24 2025 11:46:01 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-46-01 AM.xml
+Jan 24 2025 11:46:01 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 24, 2025 11:46:01 AM ET
+Jan 24 2025 11:46:02 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 24 2025 11:46:58 - Starting EPG merge process...
+Jan 24 2025 11:46:58 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-46-58 AM.xml
+Jan 24 2025 11:46:59 - STDOUT: 
+Jan 24 2025 11:46:59 - STDOUT: > grab
+Jan 24 2025 11:46:59 - STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-46-58 AM.xml
+Jan 24 2025 11:46:59 - STDOUT: 
+Jan 24 2025 11:46:59 - STDOUT: starting...
+Jan 24 2025 11:46:59 - STDOUT: config:
+Jan 24 2025 11:46:59 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-24-11-46-58 AM.xml
+Jan 24 2025 11:46:59 - STDOUT: maxConnections: 1
+Jan 24 2025 11:46:59 - STDOUT: gzip: false
+Jan 24 2025 11:46:59 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 24 2025 11:46:59 - STDOUT: loading channels...
+Jan 24 2025 11:46:59 - STDOUT: found 502 channel(s)
+Jan 24 2025 11:46:59 - STDOUT: run #1:
+Jan 24 2025 11:47:01 - STDOUT: [1/1012] ontvtonight.com (en) - AandECanada.ca - Jan 24, 2025 (36 programs)
+Jan 24 2025 11:47:01 - STDOUT: [2/1012] ontvtonight.com (en) - AandECanada.ca - Jan 25, 2025 (40 programs)
+Jan 24 2025 11:47:01 - STDOUT: [3/1012] tvtv.us (en) - truTVEast.us - Jan 25, 2025 (33 programs)
+Jan 24 2025 11:47:02 - STDOUT: [4/1012] tvtv.us (en) - truTVEast.us - Jan 24, 2025 (32 programs)
+Jan 24 2025 11:47:02 - STDOUT: [5/1012] tvtv.us (en) - FETV.us - Jan 25, 2025 (37 programs)
+Jan 24 2025 11:47:02 - STDOUT: [6/1012] tvtv.us (en) - FETV.us - Jan 24, 2025 (40 programs)
+Jan 24 2025 11:47:02 - STDOUT: [7/1012] tvtv.us (en) - DWEnglish.de - Jan 25, 2025 (67 programs)
+Jan 24 2025 11:47:02 - STDOUT: [8/1012] tvtv.us (en) - DWEnglish.de - Jan 24, 2025 (59 programs)
+Jan 24 2025 11:47:02 - STDOUT: [9/1012] tvtv.us (en) - YesNetwork.us - Jan 25, 2025 (28 programs)
+Jan 24 2025 11:47:02 - STDOUT: [10/1012] tvtv.us (en) - YesNetwork.us - Jan 24, 2025 (16 programs)
+Jan 24 2025 11:47:02 - STDOUT: [11/1012] ontvtonight.com (en) - YesTVBurlington.ca - Jan 25, 2025 (37 programs)
+Jan 24 2025 11:47:02 - STDOUT: [12/1012] ontvtonight.com (en) - YesTVBurlington.ca - Jan 24, 2025 (42 programs)
+Jan 24 2025 11:47:02 - STDOUT: [13/1012] ontvtonight.com (en) - YTVEast.ca - Jan 25, 2025 (27 programs)
+Jan 24 2025 11:47:03 - STDOUT: [14/1012] ontvtonight.com (en) - YTVEast.ca - Jan 24, 2025 (44 programs)
+Jan 24 2025 11:47:03 - STDOUT: [15/1012] xumo.tv (en) - XumoXplore.us - Jan 25, 2025 (24 programs)
+Jan 24 2025 11:47:03 - STDOUT: [16/1012] xumo.tv (en) - XumoXplore.us - Jan 24, 2025 (24 programs)
+Jan 24 2025 11:47:03 - STDOUT: [17/1012] xumo.tv (en) - XumoWorldPokerTour.us - Jan 25, 2025 (27 programs)
+Jan 24 2025 11:47:03 - STDOUT: [18/1012] xumo.tv (en) - XumoWorldPokerTour.us - Jan 24, 2025 (19 programs)
+Jan 24 2025 11:47:03 - STDOUT: [19/1012] xumo.tv (en) - XumoWipeoutXtra.us - Jan 25, 2025 (25 programs)
+Jan 24 2025 11:47:03 - STDOUT: [20/1012] xumo.tv (en) - XumoWipeoutXtra.us - Jan 24, 2025 (25 programs)
+Jan 24 2025 11:47:03 - STDOUT: [21/1012] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 25, 2025 (30 programs)
+Jan 24 2025 11:47:04 - STDOUT: [22/1012] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 24, 2025 (28 programs)
+Jan 24 2025 11:50:00 - Starting EPG merge process...
+Jan 24 2025 11:50:01 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-50-01 AM.xml
+Jan 24 2025 11:50:01 - STDOUT: 
+Jan 24 2025 11:50:01 - STDOUT: > grab
+Jan 24 2025 11:50:01 - STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-50-01 AM.xml
+Jan 24 2025 11:50:01 - STDOUT: 
+Jan 24 2025 11:50:03 - STDERR: 
+Jan 24 2025 11:50:03 - STDERR: node:internal/modules/run_main:122
+Jan 24 2025 11:50:03 - STDERR: triggerUncaughtException(
+Jan 24 2025 11:50:03 - STDERR: ^
+Jan 24 2025 11:50:03 - STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/scripts/commands/epg/grab.ts' imported from /Users/kyleabrahams/
+Jan 24 2025 11:50:03 - STDERR: at finalizeResolution (node:internal/modules/esm/resolve:257:11)
+Jan 24 2025 11:50:03 - STDERR: at moduleResolve (node:internal/modules/esm/resolve:913:10)
+Jan 24 2025 11:50:03 - STDERR: at defaultResolve (node:internal/modules/esm/resolve:1037:11)
+Jan 24 2025 11:50:03 - STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+Jan 24 2025 11:50:03 - STDERR: at resolveBase (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737737403583:2:3212)
+Jan 24 2025 11:50:03 - STDERR: at resolveDirectory (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737737403583:2:3584)
+Jan 24 2025 11:50:03 - STDERR: at resolveTsPaths (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737737403583:2:4073)
+Jan 24 2025 11:50:03 - STDERR: at resolve (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737737403583:2:4447)
+Jan 24 2025 11:50:03 - STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+Jan 24 2025 11:50:03 - STDERR: at Hooks.resolve (node:internal/modules/esm/hooks:240:30) {
+Jan 24 2025 11:50:03 - STDERR: code: 'ERR_MODULE_NOT_FOUND',
+Jan 24 2025 11:50:03 - STDERR: url: 'file:///Users/kyleabrahams/scripts/commands/epg/grab.ts'
+Jan 24 2025 11:50:03 - STDERR: }
+Jan 24 2025 11:50:03 - STDERR: 
+Jan 24 2025 11:50:03 - STDERR: Node.js v22.11.0
+Jan 24 2025 11:50:03 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-11-50-01 AM.xml failed with error code 1.
+Jan 24 2025 11:50:03 - Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-50-01 AM.xml
+Jan 24 2025 11:50:03 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-50-01 AM.xml
+Jan 24 2025 11:50:04 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 24, 2025 11:50:04 AM ET
+Jan 24 2025 11:50:04 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
