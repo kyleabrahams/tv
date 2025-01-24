@@ -12,12 +12,35 @@ import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
+import schedule
 
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable # Relative path from the script to the virtual environment
 print(venv_python)
+
+# Step 0: Run this script on schedule
+
+def run_merge_epg():
+    # Define the command to run your Python script
+    command = 'python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py'
+    
+    try:
+        # Run the command
+        result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print(f"stdout: {result.stdout.decode()}")
+        print(f"stderr: {result.stderr.decode()}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred: {e}")
+
+# Schedule the job at 1 PM
+schedule.every().day.at("13:55").do(run_merge_epg)
+
+# Infinite loop to keep the scheduler running
+while True:
+    schedule.run_pending()
+    time.sleep(1)
 
 # Step 1: Set up Logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
