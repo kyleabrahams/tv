@@ -48,6 +48,7 @@ python3 uninstall_all.py
 ## Step 4: To manually update the epg.xml file, run the following command:
 cd scripts
 python3 merge_epg.py
+nohup python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py &
 
 ## Step 5: To access the epg.xml file in a web browser, paste the following URL:
 http:/localhost:8080/epg.xml
