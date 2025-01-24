@@ -4325,3 +4325,1298 @@ Extracting XML from .gz files...
 EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 22, 2025 16:48:37 PM ET
 Committing and pushing the updated EPG file and log file to GitHub...
 Failed to save EPG file - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_epg.log']' returned non-zero exit status 128.
+fatal: not a git repository (or any of the parent directories): .git
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 23 2025 01:00:01
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+Processing files in: /Users/kyleabrahams
+Found file: .config
+Found file: Music
+Found file: .docker
+Found file: .gsutil
+Found file: .virtualenvs
+Found file: my_www
+Found file: .DS_Store
+Found file: .cipd
+Found file: .CFUserTextEncoding
+Found file: .bashrc
+Found file: .zshrc
+Found file: .local
+Found file: Pictures
+Found file: .zprofile
+Found file: .nvm
+Found file: .gclient
+Found file: .zsh_history
+Found file: Desktop
+Found file: Library
+Found file: .lesshst
+Found file: .gclient_entries
+Found file: bitmap.svg
+Found file: Public
+Found file: nginx_uninstall_backups
+Found file: package.json
+Found file: ftp_root
+Found file: .global_venvs
+Found file: venv_wrapper
+Found file: tv7-env
+Found file: .ssh
+Found file: Movies
+Found file: test_nginx
+Found file: Applications
+Found file: depot_tools
+Found file: .Trash
+Found file: .zcompdump
+Found file: iptv-check
+Found file: .npm
+Found file: Documents
+Found file: .gclient_previous_sync_commits
+Found file: venv
+Found file: myenv
+Found file: .vscode
+Found file: Downloads
+Found file: .cache
+Found file: .gitconfig
+Found file: .bash_history
+Found file: .viminfo
+Found file: .zsh_sessions
+pytz is installed and ready to use.
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-22-04-43-59 PM.xml deleted.
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 AM.xml
+
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-22-04-43-59 PM.xml deleted.
+Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 AM.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 AM.xml
+STDOUT: 
+STDERR: 
+STDERR: node:internal/modules/run_main:122
+STDERR: triggerUncaughtException(
+STDERR: ^
+STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/scripts/commands/epg/grab.ts' imported from /Users/kyleabrahams/
+STDERR: at finalizeResolution (node:internal/modules/esm/resolve:257:11)
+STDERR: at moduleResolve (node:internal/modules/esm/resolve:913:10)
+STDERR: at defaultResolve (node:internal/modules/esm/resolve:1037:11)
+STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+STDERR: at resolveBase (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737612004119:2:3212)
+STDERR: at resolveDirectory (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737612004119:2:3584)
+STDERR: at resolveTsPaths (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737612004119:2:4073)
+STDERR: at resolve (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737612004119:2:4447)
+STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+STDERR: at Hooks.resolve (node:internal/modules/esm/hooks:240:30) {
+STDERR: code: 'ERR_MODULE_NOT_FOUND',
+STDERR: url: 'file:///Users/kyleabrahams/scripts/commands/epg/grab.ts'
+STDERR: }
+STDERR: 
+STDERR: Node.js v22.11.0
+Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 AM.xml failed with error code 1.
+Merging EPG data...
+No EPG URLs found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-start/epg_urls.txt, scanning /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end for XML files...
+EPG URLs or local XML files found: ['/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 AM.xml']
+Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 AM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 AM.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 23, 2025 01:00:04 AM ET
+Committing and pushing the updated EPG file and log file to GitHub...
+Failed to save EPG file - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_epg.log']' returned non-zero exit status 128.
+fatal: not a git repository (or any of the parent directories): .git
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 23 2025 13:00:01
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+Processing files in: /Users/kyleabrahams
+Found file: .config
+Found file: Music
+Found file: .docker
+Found file: .gsutil
+Found file: .virtualenvs
+Found file: my_www
+Found file: .DS_Store
+Found file: .cipd
+Found file: .CFUserTextEncoding
+Found file: .bashrc
+Found file: .zshrc
+Found file: .local
+Found file: Pictures
+Found file: .zprofile
+Found file: .nvm
+Found file: .gclient
+Found file: .zsh_history
+Found file: Desktop
+Found file: Library
+Found file: .lesshst
+Found file: .gclient_entries
+Found file: bitmap.svg
+Found file: Public
+Found file: nginx_uninstall_backups
+Found file: package.json
+Found file: ftp_root
+Found file: .global_venvs
+Found file: venv_wrapper
+Found file: tv7-env
+Found file: .ssh
+Found file: Movies
+Found file: test_nginx
+Found file: Applications
+Found file: depot_tools
+Found file: .Trash
+Found file: .zcompdump
+Found file: iptv-check
+Found file: .npm
+Found file: Documents
+Found file: .gclient_previous_sync_commits
+Found file: venv
+Found file: myenv
+Found file: .vscode
+Found file: Downloads
+Found file: .cache
+Found file: .gitconfig
+Found file: .bash_history
+Found file: .viminfo
+Found file: .zsh_sessions
+pytz is installed and ready to use.
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 AM.xml deleted.
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 PM.xml
+
+Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 PM.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 PM.xml
+STDOUT: 
+STDERR: 
+STDERR: node:internal/modules/run_main:122
+STDERR: triggerUncaughtException(
+STDERR: ^
+STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/scripts/commands/epg/grab.ts' imported from /Users/kyleabrahams/
+STDERR: at finalizeResolution (node:internal/modules/esm/resolve:257:11)
+STDERR: at moduleResolve (node:internal/modules/esm/resolve:913:10)
+STDERR: at defaultResolve (node:internal/modules/esm/resolve:1037:11)
+STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+STDERR: at resolveBase (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737655203693:2:3212)
+STDERR: at resolveDirectory (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737655203693:2:3584)
+STDERR: at resolveTsPaths (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737655203693:2:4073)
+STDERR: at resolve (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1737655203693:2:4447)
+STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+STDERR: at Hooks.resolve (node:internal/modules/esm/hooks:240:30) {
+STDERR: code: 'ERR_MODULE_NOT_FOUND',
+STDERR: url: 'file:///Users/kyleabrahams/scripts/commands/epg/grab.ts'
+STDERR: }
+STDERR: 
+STDERR: Node.js v22.11.0
+Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-01-00-01 PM.xml failed with error code 1.
+Merging EPG data...
+No EPG URLs found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-start/epg_urls.txt, scanning /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end for XML files...
+EPG URLs or local XML files found: ['/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 PM.xml']
+Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 PM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 PM.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 23, 2025 13:00:04 PM ET
+Committing and pushing the updated EPG file and log file to GitHub...
+Failed to save EPG file - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_epg.log']' returned non-zero exit status 128.
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Jan 23 2025 23:03:02
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+Processing files in: /Users/kyleabrahams/Documents/GitHub/tv/scripts
+Found file: check_m3u_files.py
+Found file: constants.js
+Found file: install_all.py
+Found file: channels_json.xml
+Found file: merge_epg copy.py
+Found file: uninstall_nginx.py
+Found file: temp
+Found file: _epg-other
+Found file: _scripts_test
+Found file: types
+Found file: m3u8_scraper.py
+Found file: .DS_Store
+Found file: _epg-start
+Found file: merge_epg.py
+Found file: core
+Found file: season-episode-fix.py
+Found file: merge_epg_channels_json.py
+Found file: requirements.txt
+Found file: xmltv_id.py
+Found file: filenames_list.txt
+Found file: bin
+Found file: dummy_epg.py
+Found file: _Search_Results
+Found file: channels.json
+Found file: channels-test-end.xml
+Found file: format_xml_fix.py
+Found file: uninstall_all.py
+Found file: models
+Found file: search_xmltv_id_to-file.py
+Found file: www
+Found file: playlist_generator.py
+Found file: rename_log.log
+Found file: uninstall_dependencies.py
+Found file: nginx_uninstall_backups
+Found file: constants.ts
+Found file: install_nginx.py
+Found file: default.conf
+Found file: channels_xml.py
+Found file: log
+Found file: install_dependencies.py
+Found file: commands
+Found file: venv
+Found file: nginx.conf
+Found file: node
+Found file: myenv
+Found file: vpn_iptv_checker.py
+Found file: search_xmltv_id_to-folder.py
+Found file: _epg-end
+Found file: npm
+Found file: merge_epg_cs.py
+Found file: iptv-checker-20-12-2024-11-53-45
+Found file: extras
+pytz is installed and ready to use.
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-01-00-01 PM.xml deleted.
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-03-02 PM.xml
+
+Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml
+STDOUT: 
+STDOUT: starting...
+STDOUT: config:
+STDOUT: output: ./scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml
+STDOUT: maxConnections: 1
+STDOUT: gzip: false
+STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+STDOUT: loading channels...
+STDOUT: found 502 channel(s)
+STDOUT: run #1:
+STDOUT: [1/1012] ontvtonight.com (en) - AandECanada.ca - Jan 24, 2025 (36 programs)
+STDOUT: [2/1012] ontvtonight.com (en) - AandECanada.ca - Jan 25, 2025 (40 programs)
+STDOUT: [3/1012] tvpassport.com (en) - 5StarMax.us - Jan 25, 2025 (14 programs)
+STDOUT: [4/1012] tvtv.us (en) - ABCNewsLive.us - Jan 24, 2025 (35 programs)
+STDOUT: [5/1012] cosmotetv.gr (el) - ANT1.gr - Jan 24, 2025 (19 programs)
+STDOUT: [6/1012] tvtv.us (en) - AEEast.us - Jan 24, 2025 (36 programs)
+STDOUT: [7/1012] mytelly.co.uk (en) - BBCOneWestHD.uk - Jan 24, 2025 (26 programs)
+STDOUT: [8/1012] ontvtonight.com (en) - CITY.Toronto.ca - Jan 24, 2025 (26 programs)
+STDOUT: [9/1012] tvtv.us (en) - ElectricNow.us - Jan 24, 2025 (22 programs)
+STDOUT: [10/1012] i.mjh.nz (en) - PlexAMCThrillers.us - Jan 25, 2025 (1 programs)
+STDOUT: [11/1012] i.mjh.nz (en) - PlexAMCThrillers.us - Jan 24, 2025 (12 programs)
+STDOUT: [12/1012] tvtv.us (en) - ESPNU.us - Jan 25, 2025 (19 programs)
+STDOUT: [13/1012] i.mjh.nz (en) - PlexALF.ca - Jan 25, 2025 (5 programs)
+STDOUT: [14/1012] i.mjh.nz (en) - PlexALF.ca - Jan 24, 2025 (45 programs)
+STDOUT: [15/1012] ontvtonight.com (en) - CHCHDT.ca - Jan 25, 2025 (32 programs)
+STDOUT: [16/1012] tvtv.us (en) - ESPNU.us - Jan 24, 2025 (10 programs)
+STDOUT: [17/1012] i.mjh.nz (en) - PlexAKCtv.us - Jan 25, 2025 (2 programs)
+STDOUT: [18/1012] i.mjh.nz (en) - PlexAKCtv.us - Jan 24, 2025 (20 programs)
+STDOUT: [19/1012] tvtv.us (en) - ESPNews.us - Jan 25, 2025 (25 programs)
+STDOUT: [20/1012] i.mjh.nz (en) - PlexACCDN.us - Jan 25, 2025 (1 programs)
+STDOUT: [21/1012] i.mjh.nz (en) - PlexACCDN.us - Jan 24, 2025 (10 programs)
+STDOUT: [22/1012] mytelly.co.uk (en) - BBCOneWest.uk - Jan 25, 2025 (25 programs)
+STDOUT: [23/1012] ontvtonight.com (en) - CHCHDT.ca - Jan 24, 2025 (27 programs)
+STDOUT: [24/1012] tvtv.us (en) - ESPNews.us - Jan 24, 2025 (25 programs)
+STDOUT: [25/1012] ontvtonight.com (en) - Peachtree.ca - Jan 25, 2025 (35 programs)
+STDOUT: [26/1012] ontvtonight.com (en) - Peachtree.ca - Jan 24, 2025 (38 programs)
+STDOUT: [27/1012] tvtv.us (en) - ESPN2.us - Jan 25, 2025 (20 programs)
+STDOUT: [28/1012] tvtv.us (en) - ParamountNetworkEast.us - Jan 25, 2025 (20 programs)
+STDOUT: [29/1012] tvtv.us (en) - ParamountNetworkEast.us - Jan 24, 2025 (27 programs)
+STDOUT: [30/1012] ontvtonight.com (en) - CBSSportsNetworkUSA.us - Jan 25, 2025 (21 programs)
+STDOUT: [31/1012] tvtv.us (en) - ESPN2.us - Jan 24, 2025 (19 programs)
+STDOUT: [32/1012] ontvtonight.com (en) - Paramount+withShowtimeWest.us - Jan 25, 2025 (13 programs)
+STDOUT: [33/1012] ontvtonight.com (en) - Paramount+withShowtimeWest.us - Jan 24, 2025 (14 programs)
+STDOUT: [34/1012] tvtv.us (en) - ESPN.us - Jan 25, 2025 (18 programs)
+STDOUT: [35/1012] streamingtvguides.com (en) - Paramount+withShowtimeWest.us - Jan 25, 2025 (0 programs)
+STDOUT: [36/1012] streamingtvguides.com (en) - Paramount+withShowtimeWest.us - Jan 24, 2025 (0 programs)
+STDOUT: [37/1012] tvtv.us (en) - AXSTV.us - Jan 25, 2025 (31 programs)
+STDOUT: [38/1012] mytelly.co.uk (en) - BBCOneWest.uk - Jan 24, 2025 (26 programs)
+STDOUT: [39/1012] ontvtonight.com (en) - CBSSportsNetworkUSA.us - Jan 24, 2025 (22 programs)
+STDOUT: [40/1012] tvtv.us (en) - ESPN.us - Jan 24, 2025 (17 programs)
+STDOUT: [41/1012] ontvtonight.com (en) - Paramount+withShowtimeWest.us - Jan 25, 2025 (13 programs)
+STDOUT: [42/1012] ontvtonight.com (en) - Paramount+withShowtimeWest.us - Jan 24, 2025 (14 programs)
+STDOUT: [43/1012] tvtv.us (en) - EEast.us - Jan 25, 2025 (8 programs)
+STDOUT: [44/1012] tvtv.us (en) - PBSEast.us - Jan 25, 2025 (35 programs)
+STDOUT: [45/1012] tvtv.us (en) - PBSEast.us - Jan 24, 2025 (35 programs)
+STDOUT: [46/1012] tvtv.us (en) - CBLTDT.ca - Jan 25, 2025 (59 programs)
+STDOUT: [47/1012] tvtv.us (en) - EEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [48/1012] tvtv.us (en) - OxygenEast.us - Jan 25, 2025 (24 programs)
+STDOUT: [49/1012] tvtv.us (en) - OxygenEast.us - Jan 24, 2025 (22 programs)
+STDOUT: [50/1012] ontvtonight.com (en) - E!Canada.ca - Jan 25, 2025 (22 programs)
+STDOUT: [51/1012] tvtv.us (en) - Ovation.us - Jan 25, 2025 (29 programs)
+STDOUT: [52/1012] tvtv.us (en) - Ovation.us - Jan 24, 2025 (25 programs)
+STDOUT: [53/1012] mytelly.co.uk (en) - BBCOneLondonHD.uk - Jan 25, 2025 (25 programs)
+STDOUT: [54/1012] tvtv.us (en) - CBLTDT.ca - Jan 24, 2025 (52 programs)
+STDOUT: [55/1012] ontvtonight.com (en) - E!Canada.ca - Jan 24, 2025 (36 programs)
+STDOUT: [56/1012] tvtv.us (en) - OuterMaxEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [57/1012] tvtv.us (en) - OuterMaxEast.us - Jan 24, 2025 (16 programs)
+STDOUT: [58/1012] ontvtonight.com (en) - E!Canada.ca - Jan 25, 2025 (22 programs)
+STDOUT: [59/1012] tvtv.us (en) - OutdoorChannel.us - Jan 25, 2025 (38 programs)
+STDOUT: [60/1012] tvtv.us (en) - OutdoorChannel.us - Jan 24, 2025 (45 programs)
+STDOUT: [61/1012] tvtv.us (en) - C-SPAN.us - Jan 25, 2025 (7 programs)
+STDOUT: [62/1012] ontvtonight.com (en) - E!Canada.ca - Jan 24, 2025 (36 programs)
+STDOUT: [63/1012] tvtv.us (en) - OneAmericaNewsNetwork.us - Jan 25, 2025 (24 programs)
+STDOUT: [64/1012] tvtv.us (en) - OneAmericaNewsNetwork.us - Jan 24, 2025 (24 programs)
+STDOUT: [65/1012] tvtv.us (en) - DisneyXDEast.us - Jan 25, 2025 (48 programs)
+STDOUT: [66/1012] tvtv.us (en) - OWNEast.us - Jan 25, 2025 (29 programs)
+STDOUT: [67/1012] tvtv.us (en) - OWNEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [68/1012] tvtv.us (en) - AMCEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [69/1012] tvtv.us (en) - AXSTV.us - Jan 24, 2025 (32 programs)
+STDOUT: [70/1012] mytelly.co.uk (en) - BBCOneLondonHD.uk - Jan 24, 2025 (26 programs)
+STDOUT: [71/1012] tvtv.us (en) - C-SPAN.us - Jan 24, 2025 (12 programs)
+STDOUT: [72/1012] tvtv.us (en) - DisneyXDEast.us - Jan 24, 2025 (48 programs)
+STDOUT: [73/1012] ontvtonight.com (en) - OMNIEast.ca - Jan 25, 2025 (41 programs)
+STDOUT: [74/1012] ontvtonight.com (en) - OMNIEast.ca - Jan 24, 2025 (45 programs)
+STDOUT: [75/1012] tvtv.us (en) - DisneyJuniorEast.us - Jan 25, 2025 (55 programs)
+STDOUT: [76/1012] tvtv.us (en) - NicktoonsEast.us - Jan 25, 2025 (54 programs)
+STDOUT: [77/1012] tvtv.us (en) - NicktoonsEast.us - Jan 24, 2025 (54 programs)
+STDOUT: [78/1012] tvtv.us (en) - BravoEast.us - Jan 25, 2025 (20 programs)
+STDOUT: [79/1012] tvtv.us (en) - DisneyJuniorEast.us - Jan 24, 2025 (58 programs)
+STDOUT: [80/1012] tvtv.us (en) - NickelodeonEast.us - Jan 25, 2025 (29 programs)
+STDOUT: [81/1012] tvtv.us (en) - NickelodeonEast.us - Jan 24, 2025 (45 programs)
+STDOUT: [82/1012] ontvtonight.com (en) - DisneyJunior.ca - Jan 25, 2025 (78 programs)
+STDOUT: [83/1012] ontvtonight.com (en) - Nickelodeon.ca - Jan 25, 2025 (52 programs)
+STDOUT: [84/1012] ontvtonight.com (en) - Nickelodeon.ca - Jan 24, 2025 (52 programs)
+STDOUT: [85/1012] mytelly.co.uk (en) - BBCOneLondon.uk - Jan 25, 2025 (25 programs)
+STDOUT: [86/1012] tvtv.us (en) - BravoEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [87/1012] ontvtonight.com (en) - DisneyJunior.ca - Jan 24, 2025 (77 programs)
+STDOUT: [88/1012] tvtv.us (en) - NickMusic.us - Jan 25, 2025 (24 programs)
+STDOUT: [89/1012] tvtv.us (en) - NickMusic.us - Jan 24, 2025 (24 programs)
+STDOUT: [90/1012] tvtv.us (en) - DisneyChannelEast.us - Jan 25, 2025 (42 programs)
+STDOUT: [91/1012] tvtv.us (en) - NickJrEast.us - Jan 25, 2025 (41 programs)
+STDOUT: [92/1012] tvtv.us (en) - NickJrEast.us - Jan 24, 2025 (50 programs)
+STDOUT: [93/1012] ontvtonight.com (en) - Bravo.ca - Jan 25, 2025 (24 programs)
+STDOUT: [94/1012] tvtv.us (en) - DisneyChannelEast.us - Jan 24, 2025 (48 programs)
+STDOUT: [95/1012] tvtv.us (en) - NewsNationEast.us - Jan 25, 2025 (24 programs)
+STDOUT: [96/1012] tvtv.us (en) - NewsNationEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [97/1012] tvtv.us (en) - DisneyJuniorEast.us - Jan 25, 2025 (55 programs)
+STDOUT: [98/1012] tvtv.us (en) - NationalGeographicWildEast.us - Jan 25, 2025 (22 programs)
+STDOUT: [99/1012] tvtv.us (en) - NationalGeographicWildEast.us - Jan 24, 2025 (22 programs)
+STDOUT: [100/1012] ontvtonight.com (en) - APTN.East.ca - Jan 25, 2025 (32 programs)
+STDOUT: [101/1012] mytelly.co.uk (en) - BBCOneLondon.uk - Jan 24, 2025 (26 programs)
+STDOUT: [102/1012] ontvtonight.com (en) - Bravo.ca - Jan 24, 2025 (24 programs)
+STDOUT: [103/1012] tvtv.us (en) - DisneyJuniorEast.us - Jan 24, 2025 (58 programs)
+STDOUT: [104/1012] tvtv.us (en) - NationalGeographicEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [105/1012] tvtv.us (en) - NationalGeographicEast.us - Jan 24, 2025 (27 programs)
+STDOUT: [106/1012] ziggogo.tv (en) - DiscoveryScience.us - Jan 25, 2025 (43 programs)
+STDOUT: [107/1012] ontvtonight.com (en) - NatGeoWild.ca - Jan 25, 2025 (27 programs)
+STDOUT: [108/1012] ontvtonight.com (en) - NatGeoWild.ca - Jan 24, 2025 (28 programs)
+STDOUT: [109/1012] tvtv.us (en) - Bounce.us - Jan 25, 2025 (28 programs)
+STDOUT: [110/1012] ziggogo.tv (en) - DiscoveryScience.us - Jan 24, 2025 (43 programs)
+STDOUT: [111/1012] tvtv.us (en) - NHLNetwork.us - Jan 25, 2025 (37 programs)
+STDOUT: [112/1012] tvtv.us (en) - NHLNetwork.us - Jan 24, 2025 (18 programs)
+STDOUT: [113/1012] tvtv.us (en) - DiscoveryLife.us - Jan 25, 2025 (27 programs)
+STDOUT: [114/1012] tvtv.us (en) - NFLNetwork.us - Jan 25, 2025 (11 programs)
+STDOUT: [115/1012] tvtv.us (en) - NFLNetwork.us - Jan 24, 2025 (12 programs)
+STDOUT: [116/1012] mytelly.co.uk (en) - BBCOneEastHD.uk - Jan 25, 2025 (25 programs)
+STDOUT: [117/1012] tvtv.us (en) - Bounce.us - Jan 24, 2025 (24 programs)
+STDOUT: [118/1012] tvtv.us (en) - DiscoveryLife.us - Jan 24, 2025 (24 programs)
+STDOUT: [119/1012] tvtv.us (en) - NESN.us - Jan 25, 2025 (24 programs)
+STDOUT: [120/1012] tvtv.us (en) - NESN.us - Jan 24, 2025 (26 programs)
+STDOUT: [121/1012] tvtv.us (en) - DiscoveryFamily.us - Jan 25, 2025 (51 programs)
+STDOUT: [122/1012] tvtv.us (en) - NBCSportsPhiladelphia.us - Jan 25, 2025 (28 programs)
+STDOUT: [123/1012] tvtv.us (en) - NBCSportsPhiladelphia.us - Jan 24, 2025 (26 programs)
+STDOUT: [124/1012] tvtv.us (en) - Boomerang.us - Jan 25, 2025 (40 programs)
+STDOUT: [125/1012] tvtv.us (en) - DiscoveryFamily.us - Jan 24, 2025 (46 programs)
+STDOUT: [126/1012] ontvtonight.com (en) - NBCSportsNorthwest.us - Jan 25, 2025 (36 programs)
+STDOUT: [127/1012] ontvtonight.com (en) - NBCSportsNorthwest.us - Jan 24, 2025 (32 programs)
+STDOUT: [128/1012] tvtv.us (en) - DestinationAmerica.us - Jan 25, 2025 (35 programs)
+STDOUT: [129/1012] tvtv.us (en) - NBCSportsChicago.us - Jan 25, 2025 (6 programs)
+STDOUT: [130/1012] tvtv.us (en) - NBCSportsChicago.us - Jan 24, 2025 (6 programs)
+STDOUT: [131/1012] tvtv.us (en) - ABCSpark.ca - Jan 25, 2025 (25 programs)
+STDOUT: [132/1012] tvtv.us (en) - AMCEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [133/1012] ontvtonight.com (en) - APTN.East.ca - Jan 24, 2025 (40 programs)
+STDOUT: [134/1012] mytelly.co.uk (en) - BBCOneEastHD.uk - Jan 24, 2025 (26 programs)
+STDOUT: [135/1012] tvtv.us (en) - Boomerang.us - Jan 24, 2025 (40 programs)
+STDOUT: [136/1012] tvtv.us (en) - DestinationAmerica.us - Jan 24, 2025 (48 programs)
+STDOUT: [137/1012] tvtv.us (en) - NBCSportsCalifornia.us - Jan 25, 2025 (38 programs)
+STDOUT: [138/1012] tvtv.us (en) - NBCSportsCalifornia.us - Jan 24, 2025 (33 programs)
+STDOUT: [139/1012] i.mjh.nz (en) - DangerTV.us - Jan 25, 2025 (0 programs)
+STDOUT: [140/1012] tvtv.us (en) - NBCSportsBoston.us - Jan 25, 2025 (37 programs)
+STDOUT: [141/1012] tvtv.us (en) - NBCSportsBoston.us - Jan 24, 2025 (28 programs)
+STDOUT: [142/1012] tvtv.us (en) - BigTenNetwork.us - Jan 25, 2025 (30 programs)
+STDOUT: [143/1012] i.mjh.nz (en) - DangerTV.us - Jan 24, 2025 (13 programs)
+STDOUT: [144/1012] ontvtonight.com (en) - NBCSportsBayArea.us - Jan 25, 2025 (36 programs)
+STDOUT: [145/1012] ontvtonight.com (en) - NBCSportsBayArea.us - Jan 24, 2025 (32 programs)
+STDOUT: [146/1012] ontvtonight.com (en) - DTOUREast.ca - Jan 25, 2025 (26 programs)
+STDOUT: [147/1012] ontvtonight.com (en) - NBATVCanada.ca - Jan 25, 2025 (33 programs)
+STDOUT: [148/1012] ontvtonight.com (en) - NBATVCanada.ca - Jan 24, 2025 (22 programs)
+STDOUT: [149/1012] mytelly.co.uk (en) - BBCOneEast.uk - Jan 25, 2025 (25 programs)
+STDOUT: [150/1012] tvtv.us (en) - BigTenNetwork.us - Jan 24, 2025 (31 programs)
+STDOUT: [151/1012] ontvtonight.com (en) - DTOUREast.ca - Jan 24, 2025 (29 programs)
+STDOUT: [152/1012] tvtv.us (en) - NBATV.us - Jan 25, 2025 (25 programs)
+STDOUT: [153/1012] tvtv.us (en) - NBATV.us - Jan 24, 2025 (21 programs)
+STDOUT: [154/1012] ontvtonight.com (en) - DTOUREast.ca - Jan 25, 2025 (26 programs)
+STDOUT: [155/1012] ontvtonight.com (en) - Much.ca - Jan 25, 2025 (19 programs)
+STDOUT: [156/1012] ontvtonight.com (en) - Much.ca - Jan 24, 2025 (38 programs)
+STDOUT: [157/1012] tvtv.us (en) - BeinSports.ca - Jan 25, 2025 (26 programs)
+STDOUT: [158/1012] ontvtonight.com (en) - DTOUREast.ca - Jan 24, 2025 (29 programs)
+STDOUT: [159/1012] ontvtonight.com (en) - MovieTime.ca - Jan 25, 2025 (13 programs)
+STDOUT: [160/1012] ontvtonight.com (en) - MovieTime.ca - Jan 24, 2025 (14 programs)
+STDOUT: [161/1012] tvtv.us (en) - DOGTV.us - Jan 25, 2025 (24 programs)
+STDOUT: [162/1012] ontvtonight.com (en) - MovieMaxEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [163/1012] ontvtonight.com (en) - MovieMaxEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [164/1012] cyta.com.cy (el) - ANT1.gr - Jan 30, 2025 (24 programs)
+STDOUT: [165/1012] mytelly.co.uk (en) - BBCOneEast.uk - Jan 24, 2025 (26 programs)
+STDOUT: [166/1012] tvtv.us (en) - BeinSports.ca - Jan 24, 2025 (31 programs)
+STDOUT: [167/1012] tvtv.us (en) - DOGTV.us - Jan 24, 2025 (24 programs)
+STDOUT: [168/1012] tvinsider.com (en) - Motortrend.us - Jan 25, 2025 (27 programs)
+STDOUT: [169/1012] tvinsider.com (en) - Motortrend.us - Jan 24, 2025 (22 programs)
+STDOUT: [170/1012] ziggogo.tv (en) - CuriosityChannel.us - Jan 25, 2025 (32 programs)
+STDOUT: [171/1012] tvtv.us (en) - MoreMaxEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [172/1012] tvtv.us (en) - MoreMaxEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [173/1012] tvtv.us (en) - BallySportsWisconsin.us - Jan 25, 2025 (39 programs)
+STDOUT: [174/1012] ziggogo.tv (en) - CuriosityChannel.us - Jan 24, 2025 (30 programs)
+STDOUT: [175/1012] cosmotetv.gr (el) - Mega.gr - Jan 28, 2025 (20 programs)
+STDOUT: [176/1012] cosmotetv.gr (el) - Mega.gr - Jan 27, 2025 (20 programs)
+STDOUT: [177/1012] ontvtonight.com (en) - Crime+Investigation.Canada.ca - Jan 25, 2025 (24 programs)
+STDOUT: [178/1012] cosmotetv.gr (el) - Mega.gr - Jan 26, 2025 (19 programs)
+STDOUT: [179/1012] cosmotetv.gr (el) - Mega.gr - Jan 25, 2025 (20 programs)
+STDOUT: [180/1012] mytelly.co.uk (en) - BBCFourHD.uk - Jan 25, 2025 (13 programs)
+STDOUT: [181/1012] tvtv.us (en) - BallySportsWisconsin.us - Jan 24, 2025 (33 programs)
+STDOUT: [182/1012] ontvtonight.com (en) - Crime+Investigation.Canada.ca - Jan 24, 2025 (24 programs)
+STDOUT: [183/1012] cosmotetv.gr (el) - Mega.gr - Jan 24, 2025 (19 programs)
+STDOUT: [184/1012] tvtv.us (en) - Makeful.ca - Jan 25, 2025 (27 programs)
+STDOUT: [185/1012] ontvtonight.com (en) - Crave4East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [186/1012] tvtv.us (en) - Makeful.ca - Jan 24, 2025 (30 programs)
+STDOUT: [187/1012] tvtv.us (en) - MagnoliaNetworkEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [188/1012] tvtv.us (en) - BallySportsSouthwest.us - Jan 25, 2025 (32 programs)
+STDOUT: [189/1012] ontvtonight.com (en) - Crave4East.ca - Jan 24, 2025 (16 programs)
+STDOUT: [190/1012] tvtv.us (en) - MagnoliaNetworkEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [191/1012] tvtv.us (en) - MTVU.us - Jan 25, 2025 (15 programs)
+STDOUT: [192/1012] ontvtonight.com (en) - Crave3East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [193/1012] tvtv.us (en) - MTVU.us - Jan 24, 2025 (15 programs)
+STDOUT: [194/1012] tvtv.us (en) - MTVLive.us - Jan 25, 2025 (27 programs)
+STDOUT: [195/1012] tvtv.us (en) - AMC+.us - Jan 25, 2025 (22 programs)
+STDOUT: [196/1012] cyta.com.cy (el) - ANT1.gr - Jan 29, 2025 (24 programs)
+STDOUT: [197/1012] mytelly.co.uk (en) - BBCFourHD.uk - Jan 24, 2025 (14 programs)
+STDOUT: [198/1012] tvtv.us (en) - BallySportsSouthwest.us - Jan 24, 2025 (26 programs)
+STDOUT: [199/1012] ontvtonight.com (en) - Crave3East.ca - Jan 24, 2025 (14 programs)
+STDOUT: [200/1012] tvtv.us (en) - MTVLive.us - Jan 24, 2025 (27 programs)
+STDOUT: [201/1012] tvtv.us (en) - MTVEast.us - Jan 25, 2025 (39 programs)
+STDOUT: [202/1012] ontvtonight.com (en) - Crave3East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [203/1012] tvtv.us (en) - MTVEast.us - Jan 24, 2025 (38 programs)
+STDOUT: [204/1012] tvtv.us (en) - MTVClassicEast.us - Jan 25, 2025 (24 programs)
+STDOUT: [205/1012] tvtv.us (en) - BallySportsSoutheastGeorgia.us - Jan 25, 2025 (7 programs)
+STDOUT: [206/1012] ontvtonight.com (en) - Crave3East.ca - Jan 24, 2025 (14 programs)
+STDOUT: [207/1012] tvtv.us (en) - MTVClassicEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [208/1012] tvtv.us (en) - MTV2East.us - Jan 25, 2025 (39 programs)
+STDOUT: [209/1012] ontvtonight.com (en) - Crave2East.ca - Jan 25, 2025 (13 programs)
+STDOUT: [210/1012] tvtv.us (en) - MTV2East.us - Jan 24, 2025 (35 programs)
+STDOUT: [211/1012] tvtv.us (en) - MSNBC.us - Jan 25, 2025 (22 programs)
+STDOUT: [212/1012] tvtv.us (en) - BBCAmericaEast.us - Jan 25, 2025 (20 programs)
+STDOUT: [213/1012] tvtv.us (en) - BallySportsSoutheastGeorgia.us - Jan 24, 2025 (7 programs)
+STDOUT: [214/1012] ontvtonight.com (en) - Crave2East.ca - Jan 24, 2025 (14 programs)
+STDOUT: [215/1012] tvtv.us (en) - MSNBC.us - Jan 24, 2025 (20 programs)
+STDOUT: [216/1012] tvtv.us (en) - MSG2.us - Jan 25, 2025 (25 programs)
+STDOUT: [217/1012] ontvtonight.com (en) - Crave2East.ca - Jan 25, 2025 (13 programs)
+STDOUT: [218/1012] tvtv.us (en) - MSG2.us - Jan 24, 2025 (23 programs)
+STDOUT: [219/1012] tvtv.us (en) - MSG.us - Jan 25, 2025 (34 programs)
+STDOUT: [220/1012] ontvtonight.com (en) - BallySportsSouthAtlanta.us - Jan 25, 2025 (24 programs)
+STDOUT: [221/1012] ontvtonight.com (en) - Crave2East.ca - Jan 24, 2025 (14 programs)
+STDOUT: [222/1012] tvtv.us (en) - MSG.us - Jan 24, 2025 (31 programs)
+STDOUT: [223/1012] tvtv.us (en) - MSGPlus.us - Jan 25, 2025 (25 programs)
+STDOUT: [224/1012] ontvtonight.com (en) - Crave1East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [225/1012] tvtv.us (en) - MSGPlus.us - Jan 24, 2025 (23 programs)
+STDOUT: [226/1012] tvtv.us (en) - MLBNetwork.us - Jan 25, 2025 (23 programs)
+STDOUT: [227/1012] cyta.com.cy (el) - ANT1.gr - Jan 28, 2025 (24 programs)
+STDOUT: [228/1012] tvtv.us (en) - BBCAmericaEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [229/1012] ontvtonight.com (en) - BallySportsSouthAtlanta.us - Jan 24, 2025 (28 programs)
+STDOUT: [230/1012] ontvtonight.com (en) - Crave1East.ca - Jan 24, 2025 (15 programs)
+STDOUT: [231/1012] tvtv.us (en) - MLBNetwork.us - Jan 24, 2025 (20 programs)
+STDOUT: [232/1012] tvtv.us (en) - MGMPlusHitsEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [233/1012] ontvtonight.com (en) - Crave1East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [234/1012] tvtv.us (en) - MGMPlusHitsEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [235/1012] tvtv.us (en) - MGMPlusDriveIn.us - Jan 25, 2025 (14 programs)
+STDOUT: [236/1012] tvtv.us (en) - BallySportsSoCal.us - Jan 25, 2025 (31 programs)
+STDOUT: [237/1012] ontvtonight.com (en) - Crave1East.ca - Jan 24, 2025 (15 programs)
+STDOUT: [238/1012] tvtv.us (en) - MGMPlusDriveIn.us - Jan 24, 2025 (15 programs)
+STDOUT: [239/1012] tvtv.us (en) - MGMPlusEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [240/1012] ontvtonight.com (en) - CottageLife.ca - Jan 25, 2025 (22 programs)
+STDOUT: [241/1012] tvtv.us (en) - MGMPlusEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [242/1012] tvtv.us (en) - MASN.us - Jan 25, 2025 (32 programs)
+STDOUT: [243/1012] tvtv.us (en) - BBC.News.us - Jan 25, 2025 (44 programs)
+STDOUT: [244/1012] tvtv.us (en) - BallySportsSoCal.us - Jan 24, 2025 (26 programs)
+STDOUT: [245/1012] ontvtonight.com (en) - CottageLife.ca - Jan 24, 2025 (24 programs)
+STDOUT: [246/1012] tvtv.us (en) - MASN.us - Jan 24, 2025 (19 programs)
+STDOUT: [247/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (27 programs)
+STDOUT: [248/1012] ontvtonight.com (en) - CottageLife.ca - Jan 25, 2025 (22 programs)
+STDOUT: [249/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (27 programs)
+STDOUT: [250/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (27 programs)
+STDOUT: [251/1012] tvtv.us (en) - BallySportsOklahoma.us - Jan 25, 2025 (32 programs)
+STDOUT: [252/1012] ontvtonight.com (en) - CottageLife.ca - Jan 24, 2025 (24 programs)
+STDOUT: [253/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (27 programs)
+STDOUT: [254/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (1 programs)
+STDOUT: [255/1012] tvtv.us (en) - Comet.us - Jan 25, 2025 (33 programs)
+STDOUT: [256/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (1 programs)
+STDOUT: [257/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (27 programs)
+STDOUT: [258/1012] tvpassport.com (en) - 5StarMax.us - Jan 24, 2025 (14 programs)
+STDOUT: [259/1012] tvtv.us (en) - ABCSpark.ca - Jan 24, 2025 (39 programs)
+STDOUT: [260/1012] tvtv.us (en) - AMC+.us - Jan 24, 2025 (24 programs)
+STDOUT: [261/1012] cyta.com.cy (el) - ANT1.gr - Jan 27, 2025 (25 programs)
+STDOUT: [262/1012] tvtv.us (en) - BBC.News.us - Jan 24, 2025 (62 programs)
+STDOUT: [263/1012] tvtv.us (en) - BallySportsOklahoma.us - Jan 24, 2025 (26 programs)
+STDOUT: [264/1012] tvtv.us (en) - Comet.us - Jan 24, 2025 (28 programs)
+STDOUT: [265/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (27 programs)
+STDOUT: [266/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (27 programs)
+STDOUT: [267/1012] tvtv.us (en) - ComedyCentralEast.us - Jan 25, 2025 (39 programs)
+STDOUT: [268/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (27 programs)
+STDOUT: [269/1012] ontvtonight.com (en) - LoveNature.ca - Jan 25, 2025 (1 programs)
+STDOUT: [270/1012] tvtv.us (en) - BallySportsOhio.us - Jan 25, 2025 (33 programs)
+STDOUT: [271/1012] tvtv.us (en) - ComedyCentralEast.us - Jan 24, 2025 (48 programs)
+STDOUT: [272/1012] ontvtonight.com (en) - LoveNature.ca - Jan 24, 2025 (1 programs)
+STDOUT: [273/1012] mytelly.co.uk (en) - LiverpoolTV.uk - Jan 25, 2025 (26 programs)
+STDOUT: [274/1012] tvtv.us (en) - CinemaxEastHD.us - Jan 25, 2025 (16 programs)
+STDOUT: [275/1012] mytelly.co.uk (en) - LiverpoolTV.uk - Jan 24, 2025 (25 programs)
+STDOUT: [276/1012] tvtv.us (en) - LifetimeMoviesEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [277/1012] tvtv.us (en) - Aspire.us - Jan 25, 2025 (34 programs)
+STDOUT: [278/1012] tvtv.us (en) - BallySportsOhio.us - Jan 24, 2025 (26 programs)
+STDOUT: [279/1012] tvtv.us (en) - CinemaxEastHD.us - Jan 24, 2025 (14 programs)
+STDOUT: [280/1012] tvtv.us (en) - LifetimeMoviesEast.us - Jan 24, 2025 (16 programs)
+STDOUT: [281/1012] tvtv.us (en) - LifetimeEast.us - Jan 25, 2025 (28 programs)
+STDOUT: [282/1012] tvtv.us (en) - Charge.us - Jan 25, 2025 (33 programs)
+STDOUT: [283/1012] tvtv.us (en) - LifetimeEast.us - Jan 24, 2025 (28 programs)
+STDOUT: [284/1012] tvtv.us (en) - InvestigationDiscoveryEast.us - Jan 25, 2025 (26 programs)
+STDOUT: [285/1012] ontvtonight.com (en) - BallySportsNorth.us - Jan 25, 2025 (26 programs)
+STDOUT: [286/1012] tvtv.us (en) - Charge.us - Jan 24, 2025 (29 programs)
+STDOUT: [287/1012] tvtv.us (en) - InvestigationDiscoveryEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [288/1012] ontvtonight.com (en) - Investigation.Discovery.Canada.ca - Jan 25, 2025 (24 programs)
+STDOUT: [289/1012] ontvtonight.com (en) - Charge.ca - Jan 25, 2025 (33 programs)
+STDOUT: [290/1012] ontvtonight.com (en) - Investigation.Discovery.Canada.ca - Jan 24, 2025 (23 programs)
+STDOUT: [291/1012] tvtv.us (en) - Investigation.Discovery.Canada.ca - Jan 25, 2025 (29 programs)
+STDOUT: [292/1012] cyta.com.cy (el) - ANT1.gr - Jan 26, 2025 (24 programs)
+STDOUT: [293/1012] tvtv.us (en) - Aspire.us - Jan 24, 2025 (40 programs)
+STDOUT: [294/1012] ontvtonight.com (en) - BallySportsNorth.us - Jan 24, 2025 (32 programs)
+STDOUT: [295/1012] ontvtonight.com (en) - Charge.ca - Jan 24, 2025 (29 programs)
+STDOUT: [296/1012] tvtv.us (en) - Investigation.Discovery.Canada.ca - Jan 24, 2025 (31 programs)
+STDOUT: [297/1012] tvtv.us (en) - IONTVEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [298/1012] tvtv.us (en) - Cartoon.Network.Canada.East.ca - Jan 25, 2025 (22 programs)
+STDOUT: [299/1012] tvtv.us (en) - IONTVEast.us - Jan 24, 2025 (32 programs)
+STDOUT: [300/1012] tvtv.us (en) - INSP.us - Jan 25, 2025 (24 programs)
+STDOUT: [301/1012] ontvtonight.com (en) - BallySportsMidwestStLouis.us - Jan 25, 2025 (33 programs)
+STDOUT: [302/1012] tvtv.us (en) - Cartoon.Network.Canada.East.ca - Jan 24, 2025 (30 programs)
+STDOUT: [303/1012] tvtv.us (en) - INSP.us - Jan 24, 2025 (26 programs)
+STDOUT: [304/1012] tvtv.us (en) - IFCEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [305/1012] tvtv.us (en) - CWEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [306/1012] tvtv.us (en) - IFCEast.us - Jan 24, 2025 (20 programs)
+STDOUT: [307/1012] ontvtonight.com (en) - HomeNetwork.ca - Jan 25, 2025 (26 programs)
+STDOUT: [308/1012] ontvtonight.com (en) - AmericasVoice.us - Jan 25, 2025 (19 programs)
+STDOUT: [309/1012] ontvtonight.com (en) - BallySportsMidwestStLouis.us - Jan 24, 2025 (25 programs)
+STDOUT: [310/1012] tvtv.us (en) - CWEast.us - Jan 24, 2025 (9 programs)
+STDOUT: [311/1012] ontvtonight.com (en) - HomeNetwork.ca - Jan 24, 2025 (26 programs)
+STDOUT: [312/1012] tvtv.us (en) - HollywoodSuite90sMovies.ca - Jan 25, 2025 (14 programs)
+STDOUT: [313/1012] tvtv.us (en) - CWEastNetwork.us - Jan 25, 2025 (37 programs)
+STDOUT: [314/1012] tvtv.us (en) - HollywoodSuite90sMovies.ca - Jan 24, 2025 (15 programs)
+STDOUT: [315/1012] tvtv.us (en) - HollywoodSuite80sMovies.ca - Jan 25, 2025 (14 programs)
+STDOUT: [316/1012] tvtv.us (en) - BallySportsKansas.us - Jan 25, 2025 (39 programs)
+STDOUT: [317/1012] tvtv.us (en) - CWEastNetwork.us - Jan 24, 2025 (35 programs)
+STDOUT: [318/1012] tvtv.us (en) - HollywoodSuite80sMovies.ca - Jan 24, 2025 (16 programs)
+STDOUT: [319/1012] tvtv.us (en) - HollywoodSuite70sMovies.ca - Jan 25, 2025 (15 programs)
+STDOUT: [320/1012] tvtv.us (en) - CTV2.Toronto.ON.HD.ca - Jan 25, 2025 (32 programs)
+STDOUT: [321/1012] tvtv.us (en) - HollywoodSuite70sMovies.ca - Jan 24, 2025 (16 programs)
+STDOUT: [322/1012] tvtv.us (en) - HollywoodSuite00sMovies.ca - Jan 25, 2025 (13 programs)
+STDOUT: [323/1012] tvtv.us (en) - ACCNetwork.us - Jan 25, 2025 (14 programs)
+STDOUT: [324/1012] cyta.com.cy (el) - ANT1.gr - Jan 25, 2025 (22 programs)
+STDOUT: [325/1012] ontvtonight.com (en) - AmericasVoice.us - Jan 24, 2025 (19 programs)
+STDOUT: [326/1012] tvtv.us (en) - BallySportsKansas.us - Jan 24, 2025 (28 programs)
+STDOUT: [327/1012] tvtv.us (en) - CTV2.Toronto.ON.HD.ca - Jan 24, 2025 (38 programs)
+STDOUT: [328/1012] tvtv.us (en) - HollywoodSuite00sMovies.ca - Jan 24, 2025 (13 programs)
+STDOUT: [329/1012] ontvtonight.com (en) - HistoryEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [330/1012] ontvtonight.com (en) - CTVWild.ca - Jan 25, 2025 (26 programs)
+STDOUT: [331/1012] ontvtonight.com (en) - HistoryEast.us - Jan 24, 2025 (23 programs)
+STDOUT: [332/1012] ontvtonight.com (en) - HistoryEast.ca - Jan 25, 2025 (25 programs)
+STDOUT: [333/1012] tvtv.us (en) - BallySportsIndiana.us - Jan 25, 2025 (37 programs)
+STDOUT: [334/1012] ontvtonight.com (en) - CTVWild.ca - Jan 24, 2025 (30 programs)
+STDOUT: [335/1012] ontvtonight.com (en) - HistoryEast.ca - Jan 24, 2025 (27 programs)
+STDOUT: [336/1012] tvtv.us (en) - History2.ca - Jan 25, 2025 (28 programs)
+STDOUT: [337/1012] ontvtonight.com (en) - CTVWild.ca - Jan 25, 2025 (26 programs)
+STDOUT: [338/1012] tvtv.us (en) - History2.ca - Jan 24, 2025 (26 programs)
+STDOUT: [339/1012] tvtv.us (en) - HallmarkMoviesMysteriesEast.us - Jan 25, 2025 (19 programs)
+STDOUT: [340/1012] tvtv.us (en) - AmericanHeroesChannel.us - Jan 25, 2025 (24 programs)
+STDOUT: [341/1012] tvtv.us (en) - BallySportsIndiana.us - Jan 24, 2025 (25 programs)
+STDOUT: [342/1012] ontvtonight.com (en) - CTVWild.ca - Jan 24, 2025 (30 programs)
+STDOUT: [343/1012] tvtv.us (en) - HallmarkMoviesMysteriesEast.us - Jan 24, 2025 (21 programs)
+STDOUT: [344/1012] tvtv.us (en) - HallmarkChannelEast.us - Jan 25, 2025 (26 programs)
+STDOUT: [345/1012] ontvtonight.com (en) - CTVSpeed.ca - Jan 25, 2025 (34 programs)
+STDOUT: [346/1012] tvtv.us (en) - HallmarkChannelEast.us - Jan 24, 2025 (30 programs)
+STDOUT: [347/1012] tvtv.us (en) - HLN.us - Jan 25, 2025 (40 programs)
+STDOUT: [348/1012] tvtv.us (en) - BallySportsFlorida.us - Jan 25, 2025 (26 programs)
+STDOUT: [349/1012] ontvtonight.com (en) - CTVSpeed.ca - Jan 24, 2025 (24 programs)
+STDOUT: [350/1012] tvtv.us (en) - HLN.us - Jan 24, 2025 (45 programs)
+STDOUT: [351/1012] tvtv.us (en) - HGTVEast.us - Jan 25, 2025 (39 programs)
+STDOUT: [352/1012] tvtv.us (en) - CTV.Sci-Fi.ca - Jan 25, 2025 (17 programs)
+STDOUT: [353/1012] tvtv.us (en) - HGTVEast.us - Jan 24, 2025 (29 programs)
+STDOUT: [354/1012] tvtv.us (en) - HBOZoneEast.us - Jan 25, 2025 (21 programs)
+STDOUT: [355/1012] cyta.com.cy (el) - ANT1.gr - Jan 24, 2025 (22 programs)
+STDOUT: [356/1012] tvtv.us (en) - AmericanHeroesChannel.us - Jan 24, 2025 (24 programs)
+STDOUT: [357/1012] tvtv.us (en) - BallySportsFlorida.us - Jan 24, 2025 (26 programs)
+STDOUT: [358/1012] tvtv.us (en) - CTV.Sci-Fi.ca - Jan 24, 2025 (23 programs)
+STDOUT: [359/1012] tvtv.us (en) - HBOZoneEast.us - Jan 24, 2025 (18 programs)
+STDOUT: [360/1012] tvtv.us (en) - HBOSignatureEast.us - Jan 25, 2025 (12 programs)
+STDOUT: [361/1012] ontvtonight.com (en) - CTVNewsChannel.ca - Jan 25, 2025 (46 programs)
+STDOUT: [362/1012] tvtv.us (en) - HBOSignatureEast.us - Jan 24, 2025 (13 programs)
+STDOUT: [363/1012] gatotv.com (es) - HBOPopLatinAmerica.us - Jan 25, 2025 (12 programs)
+STDOUT: [364/1012] tvtv.us (en) - BallySportsDetroit.us - Jan 25, 2025 (34 programs)
+STDOUT: [365/1012] ontvtonight.com (en) - CTVNewsChannel.ca - Jan 24, 2025 (32 programs)
+STDOUT: [366/1012] gatotv.com (es) - HBOPopLatinAmerica.us - Jan 24, 2025 (13 programs)
+STDOUT: [367/1012] tvtv.us (en) - HBOFamilyEast.us - Jan 25, 2025 (18 programs)
+STDOUT: [368/1012] ontvtonight.com (en) - CTVNewsChannel.ca - Jan 25, 2025 (46 programs)
+STDOUT: [369/1012] tvtv.us (en) - HBOFamilyEast.us - Jan 24, 2025 (18 programs)
+STDOUT: [370/1012] tvtv.us (en) - HBOComedyEast.us - Jan 25, 2025 (29 programs)
+STDOUT: [371/1012] tvtv.us (en) - AltitudeSportsDenver.us - Jan 25, 2025 (29 programs)
+STDOUT: [372/1012] tvtv.us (en) - BallySportsDetroit.us - Jan 24, 2025 (26 programs)
+STDOUT: [373/1012] ontvtonight.com (en) - CTVNewsChannel.ca - Jan 24, 2025 (32 programs)
+STDOUT: [374/1012] tvtv.us (en) - HBOComedyEast.us - Jan 24, 2025 (34 programs)
+STDOUT: [375/1012] tvtv.us (en) - HBO2West.us - Jan 25, 2025 (15 programs)
+STDOUT: [376/1012] ontvtonight.com (en) - CTVNature.ca - Jan 25, 2025 (25 programs)
+STDOUT: [377/1012] tvtv.us (en) - HBO2West.us - Jan 24, 2025 (17 programs)
+STDOUT: [378/1012] tvtv.us (en) - HBO2East.us - Jan 25, 2025 (16 programs)
+STDOUT: [379/1012] tvtv.us (en) - BallySportsArizona.us - Jan 25, 2025 (33 programs)
+STDOUT: [380/1012] ontvtonight.com (en) - CTVNature.ca - Jan 24, 2025 (33 programs)
+STDOUT: [381/1012] tvtv.us (en) - HBO2East.us - Jan 24, 2025 (16 programs)
+STDOUT: [382/1012] tvtv.us (en) - HBOEast.us - Jan 25, 2025 (23 programs)
+STDOUT: [383/1012] ontvtonight.com (en) - CTVNature.ca - Jan 25, 2025 (25 programs)
+STDOUT: [384/1012] tvtv.us (en) - HBOEast.us - Jan 24, 2025 (22 programs)
+STDOUT: [385/1012] ontvtonight.com (en) - HBO1.ca - Jan 25, 2025 (17 programs)
+STDOUT: [386/1012] tvpassport.com (en) - 5StarMax.us - Jan 26, 2025 (14 programs)
+STDOUT: [387/1012] tvtv.us (en) - ACCNetwork.us - Jan 24, 2025 (17 programs)
+STDOUT: [388/1012] cosmotetv.gr (el) - ANT1.gr - Jan 28, 2025 (18 programs)
+STDOUT: [389/1012] tvtv.us (en) - AltitudeSportsDenver.us - Jan 24, 2025 (30 programs)
+STDOUT: [390/1012] tvtv.us (en) - BallySportsArizona.us - Jan 24, 2025 (26 programs)
+STDOUT: [391/1012] ontvtonight.com (en) - CTVNature.ca - Jan 24, 2025 (33 programs)
+STDOUT: [392/1012] ontvtonight.com (en) - HBO1.ca - Jan 24, 2025 (16 programs)
+STDOUT: [393/1012] tvtv.us (en) - HBO2West.us - Jan 25, 2025 (15 programs)
+STDOUT: [394/1012] ontvtonight.com (en) - CTVLife.ca - Jan 25, 2025 (15 programs)
+STDOUT: [395/1012] tvtv.us (en) - HBO2West.us - Jan 24, 2025 (17 programs)
+STDOUT: [396/1012] tvtv.us (en) - Grit.us - Jan 25, 2025 (24 programs)
+STDOUT: [397/1012] tvtv.us (en) - BloombergTV.us - Jan 25, 2025 (43 programs)
+STDOUT: [398/1012] ontvtonight.com (en) - CTVLife.ca - Jan 24, 2025 (27 programs)
+STDOUT: [399/1012] tvtv.us (en) - Grit.us - Jan 24, 2025 (31 programs)
+STDOUT: [400/1012] tvtv.us (en) - GolfChannel.us - Jan 25, 2025 (11 programs)
+STDOUT: [401/1012] ontvtonight.com (en) - CTVLife.ca - Jan 25, 2025 (15 programs)
+STDOUT: [402/1012] tvtv.us (en) - GolfChannel.us - Jan 24, 2025 (9 programs)
+STDOUT: [403/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 25, 2025 (1 programs)
+STDOUT: [404/1012] tvtv.us (en) - AlJazeera.us - Jan 25, 2025 (40 programs)
+STDOUT: [405/1012] tvtv.us (en) - BloombergTV.us - Jan 24, 2025 (20 programs)
+STDOUT: [406/1012] ontvtonight.com (en) - CTVLife.ca - Jan 24, 2025 (27 programs)
+STDOUT: [407/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 24, 2025 (1 programs)
+STDOUT: [408/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 25, 2025 (34 programs)
+STDOUT: [409/1012] ontvtonight.com (en) - CTVDramaChannel.ca - Jan 25, 2025 (1 programs)
+STDOUT: [410/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 24, 2025 (30 programs)
+STDOUT: [411/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 25, 2025 (34 programs)
+STDOUT: [412/1012] tvtv.us (en) - BETSoul.us - Jan 25, 2025 (14 programs)
+STDOUT: [413/1012] ontvtonight.com (en) - CTVDramaChannel.ca - Jan 24, 2025 (1 programs)
+STDOUT: [414/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 24, 2025 (30 programs)
+STDOUT: [415/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 25, 2025 (1 programs)
+STDOUT: [416/1012] ontvtonight.com (en) - CTVDramaChannel.ca - Jan 25, 2025 (24 programs)
+STDOUT: [417/1012] ontvtonight.com (en) - Global(CIII-DT-41)Toronto.ca - Jan 24, 2025 (1 programs)
+STDOUT: [418/1012] tvtv.us (en) - GetTV.us - Jan 25, 2025 (36 programs)
+STDOUT: [419/1012] cosmotetv.gr (el) - ANT1.gr - Jan 27, 2025 (18 programs)
+STDOUT: [420/1012] tvtv.us (en) - AlJazeera.us - Jan 24, 2025 (41 programs)
+STDOUT: [421/1012] tvtv.us (en) - BETSoul.us - Jan 24, 2025 (17 programs)
+STDOUT: [422/1012] ontvtonight.com (en) - CTVDramaChannel.ca - Jan 24, 2025 (24 programs)
+STDOUT: [423/1012] tvtv.us (en) - GetTV.us - Jan 24, 2025 (35 programs)
+STDOUT: [424/1012] ontvtonight.com (en) - GameTV.ca - Jan 25, 2025 (32 programs)
+STDOUT: [425/1012] ontvtonight.com (en) - CTVComedyEast.ca - Jan 25, 2025 (47 programs)
+STDOUT: [426/1012] ontvtonight.com (en) - GameTV.ca - Jan 24, 2025 (35 programs)
+STDOUT: [427/1012] tvtv.us (en) - GameShowNetworkEast.us - Jan 25, 2025 (47 programs)
+STDOUT: [428/1012] tvtv.us (en) - BETJams.us - Jan 25, 2025 (24 programs)
+STDOUT: [429/1012] ontvtonight.com (en) - CTVComedyEast.ca - Jan 24, 2025 (47 programs)
+STDOUT: [430/1012] tvtv.us (en) - GameShowNetworkEast.us - Jan 24, 2025 (43 programs)
+STDOUT: [431/1012] ontvtonight.com (en) - GreatAmericanFamily.us - Jan 25, 2025 (15 programs)
+STDOUT: [432/1012] ontvtonight.com (en) - CTVComedyEast.ca - Jan 25, 2025 (47 programs)
+STDOUT: [433/1012] ontvtonight.com (en) - GreatAmericanFamily.us - Jan 24, 2025 (25 programs)
+STDOUT: [434/1012] tvpassport.com (en) - GreatAmericanFamily.us - Jan 26, 2025 (15 programs)
+STDOUT: [435/1012] tvtv.us (en) - AdultSwimEast.us - Jan 25, 2025 (12 programs)
+STDOUT: [436/1012] tvtv.us (en) - BETJams.us - Jan 24, 2025 (24 programs)
+STDOUT: [437/1012] ontvtonight.com (en) - CTVComedyEast.ca - Jan 24, 2025 (47 programs)
+STDOUT: [438/1012] tvpassport.com (en) - GreatAmericanFamily.us - Jan 25, 2025 (15 programs)
+STDOUT: [439/1012] tvpassport.com (en) - GreatAmericanFamily.us - Jan 24, 2025 (25 programs)
+STDOUT: [440/1012] ontvtonight.com (en) - CTVCalgary.ca - Jan 25, 2025 (31 programs)
+STDOUT: [441/1012] tvtv.us (en) - GreatAmericanCountry.us - Jan 25, 2025 (16 programs)
+STDOUT: [442/1012] tvtv.us (en) - GreatAmericanCountry.us - Jan 24, 2025 (26 programs)
+STDOUT: [443/1012] tvtv.us (en) - BETHerEast.us - Jan 25, 2025 (23 programs)
+STDOUT: [444/1012] i.mjh.nz (en) - PlexSportsGrid.us - Jan 25, 2025 (1 programs)
+STDOUT: [445/1012] i.mjh.nz (en) - PlexSportsGrid.us - Jan 24, 2025 (20 programs)
+STDOUT: [446/1012] i.mjh.nz (en) - PlexSPEEDVISION.au - Jan 25, 2025 (5 programs)
+STDOUT: [447/1012] i.mjh.nz (en) - PlexSPEEDVISION.au - Jan 24, 2025 (42 programs)
+STDOUT: [448/1012] i.mjh.nz (en) - PlexPropertyBrothersChannel.ca - Jan 25, 2025 (3 programs)
+STDOUT: [449/1012] i.mjh.nz (en) - PlexPropertyBrothersChannel.ca - Jan 24, 2025 (24 programs)
+STDOUT: [450/1012] i.mjh.nz (en) - PlexPopstarTV.ca - Jan 25, 2025 (5 programs)
+STDOUT: [451/1012] i.mjh.nz (en) - PlexPopstarTV.ca - Jan 24, 2025 (41 programs)
+STDOUT: [452/1012] i.mjh.nz (en) - PlexNoReservations.us - Jan 25, 2025 (3 programs)
+STDOUT: [453/1012] i.mjh.nz (en) - PlexNoReservations.us - Jan 24, 2025 (27 programs)
+STDOUT: [454/1012] i.mjh.nz (en) - PlexMilitaryHeroes.us - Jan 25, 2025 (1 programs)
+STDOUT: [455/1012] i.mjh.nz (en) - PlexMilitaryHeroes.us - Jan 24, 2025 (22 programs)
+STDOUT: [456/1012] i.mjh.nz (en) - PlexJourny.ca - Jan 25, 2025 (5 programs)
+STDOUT: [457/1012] i.mjh.nz (en) - PlexJourny.ca - Jan 24, 2025 (38 programs)
+STDOUT: [458/1012] i.mjh.nz (en) - PlexJAIL.ca - Jan 25, 2025 (6 programs)
+STDOUT: [459/1012] i.mjh.nz (en) - PlexJAIL.ca - Jan 24, 2025 (54 programs)
+STDOUT: [460/1012] i.mjh.nz (en) - PlexHellsKitchen.ca - Jan 25, 2025 (3 programs)
+STDOUT: [461/1012] i.mjh.nz (en) - PlexHellsKitchen.ca - Jan 24, 2025 (24 programs)
+STDOUT: [462/1012] i.mjh.nz (en) - PlexGreatBritishMenu.ca - Jan 25, 2025 (4 programs)
+STDOUT: [463/1012] i.mjh.nz (en) - PlexGreatBritishMenu.ca - Jan 24, 2025 (33 programs)
+STDOUT: [464/1012] i.mjh.nz (en) - PlexGravitasMovies.nz - Jan 25, 2025 (2 programs)
+STDOUT: [465/1012] i.mjh.nz (en) - PlexGravitasMovies.nz - Jan 24, 2025 (11 programs)
+STDOUT: [466/1012] i.mjh.nz (en) - PlexFilmRiseWestern.ca - Jan 25, 2025 (5 programs)
+STDOUT: [467/1012] i.mjh.nz (en) - PlexFilmRiseWestern.ca - Jan 24, 2025 (41 programs)
+STDOUT: [468/1012] i.mjh.nz (en) - PlexFilmRiseTrueCrime.us - Jan 25, 2025 (2 programs)
+STDOUT: [469/1012] i.mjh.nz (en) - PlexFilmRiseTrueCrime.us - Jan 24, 2025 (24 programs)
+STDOUT: [470/1012] i.mjh.nz (en) - PlexFilmRiseFreeMovies.ca - Jan 25, 2025 (1 programs)
+STDOUT: [471/1012] i.mjh.nz (en) - PlexFilmRiseFreeMovies.ca - Jan 24, 2025 (9 programs)
+STDOUT: [472/1012] i.mjh.nz (en) - PlexFilmRiseAction.ca - Jan 25, 2025 (1 programs)
+STDOUT: [473/1012] i.mjh.nz (en) - PlexFilmRiseAction.ca - Jan 24, 2025 (12 programs)
+STDOUT: [474/1012] i.mjh.nz (en) - PlexDogtheBountyHunter.us - Jan 25, 2025 (3 programs)
+STDOUT: [475/1012] i.mjh.nz (en) - PlexDogtheBountyHunter.us - Jan 24, 2025 (36 programs)
+STDOUT: [476/1012] i.mjh.nz (en) - PlexDanceMoms.ca - Jan 25, 2025 (3 programs)
+STDOUT: [477/1012] i.mjh.nz (en) - PlexDanceMoms.ca - Jan 24, 2025 (26 programs)
+STDOUT: [478/1012] i.mjh.nz (en) - PlexCops.au - Jan 25, 2025 (6 programs)
+STDOUT: [479/1012] i.mjh.nz (en) - PlexCops.au - Jan 24, 2025 (51 programs)
+STDOUT: [480/1012] i.mjh.nz (en) - PlexCWGold.us - Jan 25, 2025 (3 programs)
+STDOUT: [481/1012] i.mjh.nz (en) - PlexCWGold.us - Jan 24, 2025 (30 programs)
+STDOUT: [482/1012] i.mjh.nz (en) - PlexCWForever.us - Jan 25, 2025 (2 programs)
+STDOUT: [483/1012] i.mjh.nz (en) - PlexCWForever.us - Jan 24, 2025 (14 programs)
+STDOUT: [484/1012] i.mjh.nz (en) - PlexCTVNews.ca - Jan 25, 2025 (3 programs)
+STDOUT: [485/1012] i.mjh.nz (en) - PlexCTVNews.ca - Jan 24, 2025 (33 programs)
+STDOUT: [486/1012] i.mjh.nz (en) - PlexCTVLaughs.ca - Jan 25, 2025 (6 programs)
+STDOUT: [487/1012] i.mjh.nz (en) - PlexCTVLaughs.ca - Jan 24, 2025 (45 programs)
+STDOUT: [488/1012] i.mjh.nz (en) - PlexCTV@Home.ca - Jan 25, 2025 (6 programs)
+STDOUT: [489/1012] i.mjh.nz (en) - PlexCTV@Home.ca - Jan 24, 2025 (44 programs)
+STDOUT: [490/1012] i.mjh.nz (en) - PlexCNNHeadlines.us - Jan 25, 2025 (1 programs)
+STDOUT: [491/1012] i.mjh.nz (en) - PlexCNNHeadlines.us - Jan 24, 2025 (1 programs)
+STDOUT: [492/1012] i.mjh.nz (en) - PlexCBCNews.ca - Jan 25, 2025 (4 programs)
+STDOUT: [493/1012] i.mjh.nz (en) - PlexCBCNews.ca - Jan 24, 2025 (20 programs)
+STDOUT: [494/1012] xumo.tv (en) - BBCHomeAndGarden.ca - Jan 25, 2025 (38 programs)
+STDOUT: [495/1012] xumo.tv (en) - BBCHomeAndGarden.ca - Jan 24, 2025 (35 programs)
+STDOUT: [496/1012] pluto.tv (en) - PlexTheConners.us - Jan 26, 2025 (1 programs)
+STDOUT: [497/1012] pluto.tv (en) - PlexTheConners.us - Jan 25, 2025 (56 programs)
+STDOUT: [498/1012] pluto.tv (en) - PlexTheConners.us - Jan 24, 2025 (61 programs)
+STDOUT: [499/1012] i.mjh.nz (en) - PlexCBCComedy.ca - Jan 25, 2025 (6 programs)
+STDOUT: [500/1012] i.mjh.nz (en) - PlexCBCComedy.ca - Jan 24, 2025 (50 programs)
+STDOUT: [501/1012] i.mjh.nz (en) - PlexAlwaysFunny.au - Jan 25, 2025 (4 programs)
+STDOUT: [502/1012] i.mjh.nz (en) - PlexAlwaysFunny.au - Jan 24, 2025 (41 programs)
+STDOUT: [503/1012] ontvtonight.com (en) - CTVCalgary.ca - Jan 24, 2025 (32 programs)
+STDOUT: [504/1012] tvtv.us (en) - FuseEast.us - Jan 25, 2025 (30 programs)
+STDOUT: [505/1012] tvtv.us (en) - FuseEast.us - Jan 24, 2025 (32 programs)
+STDOUT: [506/1012] tvtv.us (en) - CTV(CFTO)Toronto.ON.ca - Jan 25, 2025 (33 programs)
+STDOUT: [507/1012] tvtv.us (en) - FreeformEast.us - Jan 25, 2025 (21 programs)
+STDOUT: [508/1012] tvtv.us (en) - FreeformEast.us - Jan 24, 2025 (30 programs)
+STDOUT: [509/1012] tvtv.us (en) - ABCNewsLive.us - Jan 25, 2025 (32 programs)
+STDOUT: [510/1012] cosmotetv.gr (el) - ANT1.gr - Jan 26, 2025 (18 programs)
+STDOUT: [511/1012] tvtv.us (en) - AdultSwimEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [512/1012] tvtv.us (en) - BETHerEast.us - Jan 24, 2025 (25 programs)
+STDOUT: [513/1012] tvtv.us (en) - CTV(CFTO)Toronto.ON.ca - Jan 24, 2025 (36 programs)
+STDOUT: [514/1012] ontvtonight.com (en) - FoxSportsRacing.us - Jan 25, 2025 (25 programs)
+STDOUT: [515/1012] ontvtonight.com (en) - FoxSportsRacing.us - Jan 24, 2025 (29 programs)
+STDOUT: [516/1012] ontvtonight.com (en) - CP24.ca - Jan 25, 2025 (46 programs)
+STDOUT: [517/1012] tvtv.us (en) - FoxSports1.us - Jan 25, 2025 (14 programs)
+STDOUT: [518/1012] tvtv.us (en) - FoxSports1.us - Jan 24, 2025 (14 programs)
+STDOUT: [519/1012] tvtv.us (en) - BETEast.us - Jan 25, 2025 (33 programs)
+STDOUT: [520/1012] ontvtonight.com (en) - CP24.ca - Jan 24, 2025 (39 programs)
+STDOUT: [521/1012] tvtv.us (en) - FoxSoccerPlus.us - Jan 25, 2025 (16 programs)
+STDOUT: [522/1012] tvtv.us (en) - FoxSoccerPlus.us - Jan 24, 2025 (21 programs)
+STDOUT: [523/1012] tvtv.us (en) - CNN.HD.ca - Jan 25, 2025 (24 programs)
+STDOUT: [524/1012] tvtv.us (en) - FoxBusinessNetwork.us - Jan 25, 2025 (43 programs)
+STDOUT: [525/1012] tvtv.us (en) - FoxBusinessNetwork.us - Jan 24, 2025 (33 programs)
+STDOUT: [526/1012] tvtv.us (en) - ActionMaxEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [527/1012] tvtv.us (en) - BETEast.us - Jan 24, 2025 (37 programs)
+STDOUT: [528/1012] tvtv.us (en) - CNN.HD.ca - Jan 24, 2025 (24 programs)
+STDOUT: [529/1012] tvtv.us (en) - FoxNewsChannel.us - Jan 25, 2025 (23 programs)
+STDOUT: [530/1012] tvtv.us (en) - FoxNewsChannel.us - Jan 24, 2025 (24 programs)
+STDOUT: [531/1012] tvtv.us (en) - CNBC.World.us - Jan 25, 2025 (24 programs)
+STDOUT: [532/1012] tvtv.us (en) - FoodNetworkEast.us - Jan 25, 2025 (42 programs)
+STDOUT: [533/1012] tvtv.us (en) - FoodNetworkEast.us - Jan 24, 2025 (42 programs)
+STDOUT: [534/1012] mytelly.co.uk (en) - BBCTwoEngland.uk - Jan 25, 2025 (27 programs)
+STDOUT: [535/1012] tvtv.us (en) - CNBC.World.us - Jan 24, 2025 (19 programs)
+STDOUT: [536/1012] ontvtonight.com (en) - Flavour.Network.Canada.ca - Jan 25, 2025 (36 programs)
+STDOUT: [537/1012] ontvtonight.com (en) - Flavour.Network.Canada.ca - Jan 24, 2025 (44 programs)
+STDOUT: [538/1012] tvtv.us (en) - CNBC.Canada.ca - Jan 25, 2025 (33 programs)
+STDOUT: [539/1012] ontvtonight.com (en) - FamilyJr.ca - Jan 25, 2025 (1 programs)
+STDOUT: [540/1012] ontvtonight.com (en) - FamilyJr.ca - Jan 24, 2025 (1 programs)
+STDOUT: [541/1012] cosmotetv.gr (el) - ANT1.gr - Jan 25, 2025 (19 programs)
+STDOUT: [542/1012] tvtv.us (en) - ActionMaxEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [543/1012] mytelly.co.uk (en) - BBCTwoEngland.uk - Jan 24, 2025 (20 programs)
+STDOUT: [544/1012] tvtv.us (en) - CNBC.Canada.ca - Jan 24, 2025 (21 programs)
+STDOUT: [545/1012] ontvtonight.com (en) - FamilyChannelEast.ca - Jan 25, 2025 (43 programs)
+STDOUT: [546/1012] ontvtonight.com (en) - FamilyChannelEast.ca - Jan 24, 2025 (39 programs)
+STDOUT: [547/1012] tvtv.us (en) - CMTEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [548/1012] tvtv.us (en) - FYIEast.us - Jan 25, 2025 (33 programs)
+STDOUT: [549/1012] tvtv.us (en) - FYIEast.us - Jan 24, 2025 (29 programs)
+STDOUT: [550/1012] mytelly.co.uk (en) - BBCThreeHD.uk - Jan 25, 2025 (15 programs)
+STDOUT: [551/1012] tvtv.us (en) - CMTEast.us - Jan 24, 2025 (42 programs)
+STDOUT: [552/1012] tvtv.us (en) - FXXEast.us - Jan 25, 2025 (40 programs)
+STDOUT: [553/1012] tvtv.us (en) - FXXEast.us - Jan 24, 2025 (40 programs)
+STDOUT: [554/1012] ontvtonight.com (en) - CMTEast.ca - Jan 25, 2025 (19 programs)
+STDOUT: [555/1012] ontvtonight.com (en) - FXX.Canada.ca - Jan 25, 2025 (40 programs)
+STDOUT: [556/1012] ontvtonight.com (en) - FXX.Canada.ca - Jan 24, 2025 (41 programs)
+STDOUT: [557/1012] tvtv.us (en) - AEEast.us - Jan 25, 2025 (35 programs)
+STDOUT: [558/1012] mytelly.co.uk (en) - BBCThreeHD.uk - Jan 24, 2025 (17 programs)
+STDOUT: [559/1012] ontvtonight.com (en) - CMTEast.ca - Jan 24, 2025 (42 programs)
+STDOUT: [560/1012] tvtv.us (en) - FXMovieChannel.us - Jan 25, 2025 (12 programs)
+STDOUT: [561/1012] tvtv.us (en) - FXMovieChannel.us - Jan 24, 2025 (13 programs)
+STDOUT: [562/1012] tvtv.us (en) - CleoTV.us - Jan 25, 2025 (48 programs)
+STDOUT: [563/1012] ontvtonight.com (en) - FXNetworks.ca - Jan 25, 2025 (26 programs)
+STDOUT: [564/1012] ontvtonight.com (en) - FXNetworks.ca - Jan 24, 2025 (27 programs)
+STDOUT: [565/1012] mytelly.co.uk (en) - BBCOneWestHD.uk - Jan 25, 2025 (25 programs)
+STDOUT: [566/1012] tvtv.us (en) - CleoTV.us - Jan 24, 2025 (48 programs)
+STDOUT: [567/1012] tvpassport.com (en) - FoxEast.us - Jan 26, 2025 (34 programs)
+STDOUT: [568/1012] tvpassport.com (en) - FoxEast.us - Jan 25, 2025 (33 programs)
+STDOUT: [569/1012] ontvtonight.com (en) - CITY.Toronto.ca - Jan 25, 2025 (28 programs)
+STDOUT: [570/1012] tvpassport.com (en) - FoxEast.us - Jan 24, 2025 (38 programs)
+STDOUT: [571/1012] tvtv.us (en) - ElectricNow.us - Jan 25, 2025 (22 programs)
+STDOUT: [572/1012] ontvtonight.com (en) - WNetworkEast.ca - Jan 24, 2025 (25 programs)
+STDOUT: [573/1012] tvtv.us (en) - VICETV.us - Jan 24, 2025 (34 programs)
+STDOUT: [574/1012] tvtv.us (en) - VH1East.us - Jan 25, 2025 (32 programs)
+STDOUT: [575/1012] tvtv.us (en) - USANetworkEast.us - Jan 25, 2025 (19 programs)
+STDOUT: [576/1012] tvtv.us (en) - USANetworkEast.us - Jan 24, 2025 (20 programs)
+STDOUT: [577/1012] ontvtonight.com (en) - USANetwork.ca - Jan 24, 2025 (23 programs)
+STDOUT: [578/1012] ontvtonight.com (en) - TCM.ca - Jan 25, 2025 (18 programs)
+STDOUT: [579/1012] ontvtonight.com (en) - Treehouse.ca - Jan 24, 2025 (93 programs)
+STDOUT: [580/1012] tvtv.us (en) - TravelChannelEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [581/1012] ontvtonight.com (en) - TravelandEscape.ca - Jan 25, 2025 (30 programs)
+STDOUT: [582/1012] ontvtonight.com (en) - TravelandEscape.ca - Jan 24, 2025 (25 programs)
+STDOUT: [583/1012] tvtv.us (en) - CookingChannel.us - Jan 25, 2025 (31 programs)
+STDOUT: [584/1012] tvtv.us (en) - CookingChannel.us - Jan 24, 2025 (44 programs)
+STDOUT: [585/1012] tvtv.us (en) - TennisChannel.us - Jan 24, 2025 (12 programs)
+STDOUT: [586/1012] ontvtonight.com (en) - Telelatino.ca - Jan 25, 2025 (34 programs)
+STDOUT: [587/1012] tvtv.us (en) - TVOne.us - Jan 24, 2025 (43 programs)
+STDOUT: [588/1012] ontvtonight.com (en) - TVO(TVOntario).ca - Jan 25, 2025 (162 programs)
+STDOUT: [589/1012] tvtv.us (en) - TVLandEast.us - Jan 25, 2025 (44 programs)
+STDOUT: [590/1012] tvtv.us (en) - TVLandEast.us - Jan 24, 2025 (39 programs)
+STDOUT: [591/1012] tvtv.us (en) - TSN4.ca - Jan 24, 2025 (20 programs)
+STDOUT: [592/1012] tvtv.us (en) - TSN3.ca - Jan 25, 2025 (20 programs)
+STDOUT: [593/1012] tvtv.us (en) - TSN2.ca - Jan 25, 2025 (24 programs)
+STDOUT: [594/1012] tvtv.us (en) - TSN2.ca - Jan 24, 2025 (14 programs)
+STDOUT: [595/1012] tvtv.us (en) - TNTEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [596/1012] tvtv.us (en) - TNTEast.us - Jan 24, 2025 (16 programs)
+STDOUT: [597/1012] tvtv.us (en) - TLCEast.us - Jan 24, 2025 (22 programs)
+STDOUT: [598/1012] tvtv.us (en) - TCMEast.us - Jan 25, 2025 (19 programs)
+STDOUT: [599/1012] tvtv.us (en) - SyfyEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [600/1012] tvtv.us (en) - SyfyEast.us - Jan 24, 2025 (12 programs)
+STDOUT: [601/1012] tvtv.us (en) - SundanceTVEast.us - Jan 24, 2025 (31 programs)
+STDOUT: [602/1012] i.mjh.nz (en) - Stirr4KTravelTV.ca - Jan 25, 2025 (0 programs)
+STDOUT: [603/1012] tvtv.us (en) - StarzKidsFamilyEast.us - Jan 24, 2025 (17 programs)
+STDOUT: [604/1012] tvtv.us (en) - StarzInBlackEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [605/1012] tvtv.us (en) - StarzEncoreWesternsEast.us - Jan 25, 2025 (20 programs)
+STDOUT: [606/1012] tvtv.us (en) - StarzEncoreWesternsEast.us - Jan 24, 2025 (22 programs)
+STDOUT: [607/1012] tvtv.us (en) - StarzEncoreActionEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [608/1012] tvtv.us (en) - StarzEdgeEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [609/1012] tvtv.us (en) - Starz1East.ca - Jan 25, 2025 (14 programs)
+STDOUT: [610/1012] tvtv.us (en) - Starz1East.ca - Jan 24, 2025 (18 programs)
+STDOUT: [611/1012] tvtv.us (en) - StarzCinemaEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [612/1012] tvtv.us (en) - StarzCinemaEast.us - Jan 24, 2025 (17 programs)
+STDOUT: [613/1012] tvtv.us (en) - StartTV.us - Jan 24, 2025 (25 programs)
+STDOUT: [614/1012] tvtv.us (en) - SportsnetWorld.ca - Jan 25, 2025 (20 programs)
+STDOUT: [615/1012] tvtv.us (en) - SportsnetPacific.ca - Jan 24, 2025 (25 programs)
+STDOUT: [616/1012] ontvtonight.com (en) - SportsnetOntario.ca - Jan 25, 2025 (20 programs)
+STDOUT: [617/1012] tvtv.us (en) - SportsnetOne.ca - Jan 25, 2025 (21 programs)
+STDOUT: [618/1012] tvtv.us (en) - SportsnetOne.ca - Jan 24, 2025 (17 programs)
+STDOUT: [619/1012] ontvtonight.com (en) - Sportsnet360.ca - Jan 25, 2025 (21 programs)
+STDOUT: [620/1012] ontvtonight.com (en) - Sportsnet360.ca - Jan 24, 2025 (19 programs)
+STDOUT: [621/1012] tvtv.us (en) - SpectrumSportsNet.us - Jan 24, 2025 (28 programs)
+STDOUT: [622/1012] tvtv.us (en) - SonyMovies.us - Jan 25, 2025 (15 programs)
+STDOUT: [623/1012] ontvtonight.com (en) - Slice.ca - Jan 25, 2025 (29 programs)
+STDOUT: [624/1012] ontvtonight.com (en) - Slice.ca - Jan 24, 2025 (37 programs)
+STDOUT: [625/1012] mytelly.co.uk (en) - SkyWitness.uk - Jan 24, 2025 (32 programs)
+STDOUT: [626/1012] mytelly.co.uk (en) - SkySportsRacing.uk - Jan 25, 2025 (12 programs)
+STDOUT: [627/1012] mytelly.co.uk (en) - SkySportsPremierLeague.uk - Jan 24, 2025 (40 programs)
+STDOUT: [628/1012] mytelly.co.uk (en) - SkySportsNews.uk - Jan 25, 2025 (25 programs)
+STDOUT: [629/1012] mytelly.co.uk (en) - SkySportsMix.uk - Jan 25, 2025 (33 programs)
+STDOUT: [630/1012] mytelly.co.uk (en) - SkySportsMix.uk - Jan 24, 2025 (32 programs)
+STDOUT: [631/1012] mytelly.co.uk (en) - SkySportsF1.uk - Jan 24, 2025 (25 programs)
+STDOUT: [632/1012] mytelly.co.uk (en) - SkySportsCricket.uk - Jan 25, 2025 (20 programs)
+STDOUT: [633/1012] mytelly.co.uk (en) - SkyShowcase.uk - Jan 25, 2025 (31 programs)
+STDOUT: [634/1012] mytelly.co.uk (en) - SkyShowcase.uk - Jan 24, 2025 (33 programs)
+STDOUT: [635/1012] mytelly.co.uk (en) - SkyCrime.uk - Jan 25, 2025 (27 programs)
+STDOUT: [636/1012] mytelly.co.uk (en) - SkyCrime.uk - Jan 24, 2025 (27 programs)
+STDOUT: [637/1012] mytelly.co.uk (en) - SkyComedy.uk - Jan 24, 2025 (39 programs)
+STDOUT: [638/1012] mytelly.co.uk (en) - SkyCinemaThriller.uk - Jan 25, 2025 (13 programs)
+STDOUT: [639/1012] mytelly.co.uk (en) - SkyCinemaPremiere.uk - Jan 25, 2025 (13 programs)
+STDOUT: [640/1012] mytelly.co.uk (en) - SkyCinemaPremiere.uk - Jan 24, 2025 (11 programs)
+STDOUT: [641/1012] mytelly.co.uk (en) - SkyCinemaFamily.uk - Jan 24, 2025 (13 programs)
+STDOUT: [642/1012] mytelly.co.uk (en) - SkyCinemaDrama.uk - Jan 25, 2025 (13 programs)
+STDOUT: [643/1012] mytelly.co.uk (en) - SkyCinemaAnimation.uk - Jan 24, 2025 (15 programs)
+STDOUT: [644/1012] mytelly.co.uk (en) - SkyCinemaAction.uk - Jan 25, 2025 (12 programs)
+STDOUT: [645/1012] mytelly.co.uk (en) - SkyAtlantic.uk - Jan 25, 2025 (22 programs)
+STDOUT: [646/1012] mytelly.co.uk (en) - SkyAtlantic.uk - Jan 24, 2025 (22 programs)
+STDOUT: [647/1012] tvtv.us (en) - ShowtimeNextEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [648/1012] tvtv.us (en) - ShowtimeNextEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [649/1012] tvtv.us (en) - ShowtimeFamilyZoneEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [650/1012] tvtv.us (en) - ShowtimeExtremeEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [651/1012] tvtv.us (en) - Showtime2East.us - Jan 24, 2025 (12 programs)
+STDOUT: [652/1012] tvtv.us (en) - ShowtimeWomenEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [653/1012] tvtv.us (en) - ShowtimeShowcaseEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [654/1012] tvtv.us (en) - ShowtimeShowcaseEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [655/1012] i.mjh.nz (en) - SamsungVevo2010s.ca - Jan 24, 2025 (0 programs)
+STDOUT: [656/1012] i.mjh.nz (es) - SamsungTraceUrban.es - Jan 25, 2025 (0 programs)
+STDOUT: [657/1012] i.mjh.nz (en) - SamsungPBSDigitalStudios.us - Jan 25, 2025 (0 programs)
+STDOUT: [658/1012] i.mjh.nz (en) - SamsungPBSDigitalStudios.us - Jan 24, 2025 (6 programs)
+STDOUT: [659/1012] i.mjh.nz (en) - SamsungIslandVibes.ca - Jan 25, 2025 (0 programs)
+STDOUT: [660/1012] i.mjh.nz (en) - SamsungIslandVibes.ca - Jan 24, 2025 (7 programs)
+STDOUT: [661/1012] i.mjh.nz (en) - SamsungHollywire.ca - Jan 24, 2025 (3 programs)
+STDOUT: [662/1012] i.mjh.nz (en) - SamsungFireplace.ca - Jan 25, 2025 (0 programs)
+STDOUT: [663/1012] i.mjh.nz (en) - SamsungArchitecturalDigest.us - Jan 25, 2025 (0 programs)
+STDOUT: [664/1012] i.mjh.nz (en) - SamsungArchitecturalDigest.us - Jan 24, 2025 (7 programs)
+STDOUT: [665/1012] tvtv.us (en) - SportsNetNewYork.us - Jan 24, 2025 (32 programs)
+STDOUT: [666/1012] tvtv.us (en) - ShoxBetEast.us - Jan 25, 2025 (15 programs)
+STDOUT: [667/1012] tvtv.us (en) - SECNetwork.us - Jan 24, 2025 (28 programs)
+STDOUT: [668/1012] tvtv.us (en) - RootSportsNorthwest.us - Jan 25, 2025 (24 programs)
+STDOUT: [669/1012] tvtv.us (en) - Revolt.us - Jan 25, 2025 (24 programs)
+STDOUT: [670/1012] tvtv.us (en) - Revolt.us - Jan 24, 2025 (26 programs)
+STDOUT: [671/1012] cyta.com.cy (el) - RIKsat.gr - Jan 29, 2025 (24 programs)
+STDOUT: [672/1012] cyta.com.cy (el) - RIKsat.gr - Jan 28, 2025 (24 programs)
+STDOUT: [673/1012] cyta.com.cy (el) - RIKsat.gr - Jan 26, 2025 (29 programs)
+STDOUT: [674/1012] cyta.com.cy (el) - RIKsat.gr - Jan 25, 2025 (28 programs)
+STDOUT: [675/1012] cyta.com.cy (el) - RIKsat.gr - Jan 29, 2025 (41 programs)
+STDOUT: [676/1012] cyta.com.cy (el) - RIKsat.gr - Jan 28, 2025 (41 programs)
+STDOUT: [677/1012] cyta.com.cy (el) - RIKsat.gr - Jan 26, 2025 (37 programs)
+STDOUT: [678/1012] cyta.com.cy (el) - RIKsat.gr - Jan 25, 2025 (41 programs)
+STDOUT: [679/1012] cyta.com.cy (el) - RIK1.gr - Jan 27, 2025 (26 programs)
+STDOUT: [680/1012] cyta.com.cy (el) - RIK1.gr - Jan 26, 2025 (29 programs)
+STDOUT: [681/1012] cyta.com.cy (el) - RIK1.gr - Jan 24, 2025 (21 programs)
+STDOUT: [682/1012] tvtv.us (en) - RFDTV.us - Jan 25, 2025 (40 programs)
+STDOUT: [683/1012] tvtv.us (en) - PopEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [684/1012] i.mjh.nz (en) - PlutoYoMTV.ca - Jan 25, 2025 (0 programs)
+STDOUT: [685/1012] i.mjh.nz (en) - PlutoVH1ILoveReality.us - Jan 25, 2025 (0 programs)
+STDOUT: [686/1012] i.mjh.nz (en) - PlutoVH1ILoveReality.us - Jan 24, 2025 (24 programs)
+STDOUT: [687/1012] i.mjh.nz (en) - PlutoThisOldHouse.us - Jan 24, 2025 (33 programs)
+STDOUT: [688/1012] i.mjh.nz (en) - PlutoTheWalkingDeadUniverse.us - Jan 25, 2025 (0 programs)
+STDOUT: [689/1012] i.mjh.nz (en) - PlutoTheJackHannaChannel.us - Jan 25, 2025 (0 programs)
+STDOUT: [690/1012] i.mjh.nz (en) - PlutoTheJackHannaChannel.us - Jan 24, 2025 (33 programs)
+STDOUT: [691/1012] i.mjh.nz (en) - PlutoSayYestotheDress.us - Jan 25, 2025 (0 programs)
+STDOUT: [692/1012] i.mjh.nz (en) - PlutoSayYestotheDress.us - Jan 24, 2025 (41 programs)
+STDOUT: [693/1012] i.mjh.nz (en) - PlutoProjectRunway.gb - Jan 24, 2025 (33 programs)
+STDOUT: [694/1012] i.mjh.nz (en) - PlutoNickPluto V.ca - Jan 25, 2025 (0 programs)
+STDOUT: [695/1012] i.mjh.nz (da) - PlutoMTVBiggestPop.dk - Jan 24, 2025 (33 programs)
+STDOUT: [696/1012] i.mjh.nz (en) - PlutoKevinHartsLOLNetwork.us - Jan 25, 2025 (0 programs)
+STDOUT: [697/1012] i.mjh.nz (en) - PlutoJerseyShore.us - Jan 25, 2025 (0 programs)
+STDOUT: [698/1012] i.mjh.nz (en) - PlutoJerseyShore.us - Jan 24, 2025 (17 programs)
+STDOUT: [699/1012] i.mjh.nz (en) - PlutoGunsmoke.ca - Jan 25, 2025 (0 programs)
+STDOUT: [700/1012] i.mjh.nz (en) - PlutoGunsmoke.ca - Jan 24, 2025 (17 programs)
+STDOUT: [701/1012] i.mjh.nz (en) - PlutoFrasier.ca - Jan 24, 2025 (35 programs)
+STDOUT: [702/1012] i.mjh.nz (en) - PlutoFifthGear.gb - Jan 25, 2025 (0 programs)
+STDOUT: [703/1012] i.mjh.nz (en) - PlutoDealOrNoDeal.ca - Jan 25, 2025 (0 programs)
+STDOUT: [704/1012] i.mjh.nz (en) - PlutoDealOrNoDeal.ca - Jan 24, 2025 (21 programs)
+STDOUT: [705/1012] i.mjh.nz (en) - PlutoDallasCowboysCheerleaders.us - Jan 24, 2025 (27 programs)
+STDOUT: [706/1012] i.mjh.nz (en) - PlutoCNNFast.ca - Jan 25, 2025 (0 programs)
+STDOUT: [707/1012] i.mjh.nz (es) - PlutoCBSNews247.es - Jan 24, 2025 (20 programs)
+STDOUT: [708/1012] i.mjh.nz (en) - PlutoCBCNewsToronto.ca - Jan 25, 2025 (0 programs)
+STDOUT: [709/1012] i.mjh.nz (en) - PlutoAreWeThereYet.ca - Jan 25, 2025 (0 programs)
+STDOUT: [710/1012] i.mjh.nz (en) - PlutoAreWeThereYet.ca - Jan 24, 2025 (39 programs)
+STDOUT: [711/1012] i.mjh.nz (en) - Pluto90sThrowback.us - Jan 25, 2025 (0 programs)
+STDOUT: [712/1012] i.mjh.nz (en) - Pluto90sThrowback.us - Jan 24, 2025 (7 programs)
+STDOUT: [713/1012] i.mjh.nz (en) - Pluto80sRewind.us - Jan 24, 2025 (7 programs)
+STDOUT: [714/1012] i.mjh.nz (en) - Pluto70sCinema.us - Jan 25, 2025 (0 programs)
+STDOUT: [715/1012] i.mjh.nz (en) - Pluto48Hours.ca - Jan 24, 2025 (21 programs)
+STDOUT: [716/1012] i.mjh.nz (en) - Pluto00sReplay - Jan 25, 2025 (0 programs)
+STDOUT: [717/1012] i.mjh.nz (en) - PlexYahooFinance.au - Jan 25, 2025 (4 programs)
+STDOUT: [718/1012] i.mjh.nz (en) - PlexYahooFinance.au - Jan 24, 2025 (30 programs)
+STDOUT: [719/1012] i.mjh.nz (en) - PlexVevoPop.us - Jan 24, 2025 (24 programs)
+STDOUT: [720/1012] i.mjh.nz (en) - PlexVevoHipHop.us - Jan 25, 2025 (3 programs)
+STDOUT: [721/1012] i.mjh.nz (en) - PlexVevo90s.us - Jan 25, 2025 (2 programs)
+STDOUT: [722/1012] i.mjh.nz (en) - PlexVevo90s.us - Jan 24, 2025 (18 programs)
+STDOUT: [723/1012] i.mjh.nz (en) - PlexVevo2k.us - Jan 25, 2025 (2 programs)
+STDOUT: [724/1012] i.mjh.nz (en) - PlexVevo2k.us - Jan 24, 2025 (17 programs)
+STDOUT: [725/1012] i.mjh.nz (en) - PlexTheJamieOliverChannel.us - Jan 24, 2025 (43 programs)
+STDOUT: [726/1012] i.mjh.nz (en) - PlexTMZ.us - Jan 25, 2025 (2 programs)
+STDOUT: [727/1012] tvtv.us (en) - YesNetwork.us - Jan 24, 2025 (16 programs)
+STDOUT: [728/1012] ontvtonight.com (en) - YesTVBurlington.ca - Jan 25, 2025 (37 programs)
+STDOUT: [729/1012] ontvtonight.com (en) - YTVEast.ca - Jan 24, 2025 (44 programs)
+STDOUT: [730/1012] xumo.tv (en) - XumoWorldPokerTour.us - Jan 24, 2025 (19 programs)
+STDOUT: [731/1012] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 24, 2025 (28 programs)
+STDOUT: [732/1012] xumo.tv (en) - XumoTheDesignNetwork.us - Jan 25, 2025 (48 programs)
+STDOUT: [733/1012] xumo.tv (en) - XumoTheAsylum.us - Jan 24, 2025 (18 programs)
+STDOUT: [734/1012] xumo.tv (en) - XumoTastemadeTravelChannel.us - Jan 25, 2025 (31 programs)
+STDOUT: [735/1012] xumo.tv (en) - XumoPursuitUp.us - Jan 24, 2025 (48 programs)
+STDOUT: [736/1012] xumo.tv (en) - XumoPBSAntiquesRoadshow.uk - Jan 25, 2025 (27 programs)
+STDOUT: [737/1012] xumo.tv (en) - XumoOutsideTV.us - Jan 24, 2025 (33 programs)
+STDOUT: [738/1012] xumo.tv (en) - XumoNewsy.us - Jan 25, 2025 (34 programs)
+STDOUT: [739/1012] xumo.tv (en) - XumoNBCLXHome.us - Jan 24, 2025 (48 programs)
+STDOUT: [740/1012] xumo.tv (en) - XumoMovieSpherebyLionsgate.us - Jan 25, 2025 (16 programs)
+STDOUT: [741/1012] xumo.tv (en) - XumoLoveNature.us - Jan 25, 2025 (32 programs)
+STDOUT: [742/1012] xumo.tv (en) - XumoLidiasKitchen.ca - Jan 25, 2025 (0 programs)
+STDOUT: [743/1012] xumo.tv (en) - XumoIONMystery.us - Jan 24, 2025 (24 programs)
+STDOUT: [744/1012] xumo.tv (en) - XumoHomeful.us - Jan 25, 2025 (41 programs)
+STDOUT: [745/1012] xumo.tv (en) - XumoHallmarkMoviesMore.us - Jan 24, 2025 (20 programs)
+STDOUT: [746/1012] xumo.tv (en) - XumoGustoTV.us - Jan 25, 2025 (42 programs)
+STDOUT: [747/1012] xumo.tv (en) - XumoFreeActionMovies.us - Jan 24, 2025 (17 programs)
+STDOUT: [748/1012] xumo.tv (en) - XumoFood52.us - Jan 25, 2025 (0 programs)
+STDOUT: [749/1012] xumo.tv (en) - XumoFamilyFeud.us - Jan 25, 2025 (30 programs)
+STDOUT: [750/1012] xumo.tv (en) - XumoElectricNow.us - Jan 25, 2025 (24 programs)
+STDOUT: [751/1012] xumo.tv (en) - XumoDateline247.us - Jan 24, 2025 (25 programs)
+STDOUT: [752/1012] xumo.tv (en) - XumoComedyDynamics.us - Jan 25, 2025 (20 programs)
+STDOUT: [753/1012] xumo.tv (en) - XumoBUZZR.us - Jan 25, 2025 (46 programs)
+STDOUT: [754/1012] xumo.tv (en) - XumoBBCFood.uk - Jan 25, 2025 (43 programs)
+STDOUT: [755/1012] xumo.tv (en) - XumoACCDigitalNetwork.us - Jan 25, 2025 (0 programs)
+STDOUT: [756/1012] xumo.tv (en) - XumoABCNewsLive.us - Jan 25, 2025 (32 programs)
+STDOUT: [757/1012] tvtv.us (en) - Willow.us - Jan 25, 2025 (27 programs)
+STDOUT: [758/1012] tvtv.us (en) - Willow.us - Jan 24, 2025 (28 programs)
+STDOUT: [759/1012] tvtv.us (en) - FETV.us - Jan 25, 2025 (37 programs)
+STDOUT: [760/1012] tvtv.us (en) - DWEnglish.de - Jan 24, 2025 (59 programs)
+STDOUT: [761/1012] ontvtonight.com (en) - YesTVBurlington.ca - Jan 24, 2025 (42 programs)
+STDOUT: [762/1012] xumo.tv (en) - XumoXplore.us - Jan 25, 2025 (24 programs)
+STDOUT: [763/1012] xumo.tv (en) - XumoWipeoutXtra.us - Jan 24, 2025 (25 programs)
+STDOUT: [764/1012] xumo.tv (en) - XumoUniversalMonsters.us - Jan 25, 2025 (30 programs)
+STDOUT: [765/1012] xumo.tv (en) - XumoTheAsylum.us - Jan 25, 2025 (19 programs)
+STDOUT: [766/1012] xumo.tv (en) - XumoTastemadeTravelChannel.us - Jan 24, 2025 (35 programs)
+STDOUT: [767/1012] xumo.tv (en) - XumoStoriesbyAMC.us - Jan 24, 2025 (32 programs)
+STDOUT: [768/1012] xumo.tv (en) - XumoPowerNation.us - Jan 25, 2025 (56 programs)
+STDOUT: [769/1012] xumo.tv (en) - XumoOutsideTV.us - Jan 25, 2025 (32 programs)
+STDOUT: [770/1012] xumo.tv (en) - XumoNewsy.us - Jan 24, 2025 (19 programs)
+STDOUT: [771/1012] xumo.tv (en) - XumoNBCLXHome.us - Jan 25, 2025 (48 programs)
+STDOUT: [772/1012] xumo.tv (en) - XumoMovieSpherebyLionsgate.us - Jan 24, 2025 (16 programs)
+STDOUT: [773/1012] xumo.tv (en) - XumoLoveNature.us - Jan 24, 2025 (29 programs)
+STDOUT: [774/1012] xumo.tv (en) - XumoLawCrime.us - Jan 25, 2025 (42 programs)
+STDOUT: [775/1012] xumo.tv (en) - XumoJustforLaughsGags.ca - Jan 24, 2025 (55 programs)
+STDOUT: [776/1012] xumo.tv (en) - XumoIMPACTWrestlingChannel.us - Jan 25, 2025 (12 programs)
+STDOUT: [777/1012] xumo.tv (en) - XumoHallmarkMoviesMore.us - Jan 25, 2025 (21 programs)
+STDOUT: [778/1012] xumo.tv (en) - XumoGustoTV.us - Jan 24, 2025 (45 programs)
+STDOUT: [779/1012] xumo.tv (en) - XumoFreeActionMovies.us - Jan 25, 2025 (16 programs)
+STDOUT: [780/1012] xumo.tv (en) - XumoFood52.us - Jan 24, 2025 (0 programs)
+STDOUT: [781/1012] xumo.tv (en) - XumoFamilyFeud.us - Jan 24, 2025 (23 programs)
+STDOUT: [782/1012] xumo.tv (en) - XumoET.us - Jan 25, 2025 (48 programs)
+STDOUT: [783/1012] xumo.tv (en) - XumoDateline247.us - Jan 25, 2025 (24 programs)
+STDOUT: [784/1012] xumo.tv (en) - XumoComedyDynamics.us - Jan 24, 2025 (21 programs)
+STDOUT: [785/1012] xumo.tv (en) - XumoBUZZR.us - Jan 24, 2025 (46 programs)
+STDOUT: [786/1012] xumo.tv (en) - XumoArchitecturalDigest.us - Jan 25, 2025 (0 programs)
+STDOUT: [787/1012] xumo.tv (en) - XumoACCDigitalNetwork.us - Jan 24, 2025 (0 programs)
+STDOUT: [788/1012] ontvtonight.com (en) - WorldFishingNetwork.us - Jan 25, 2025 (39 programs)
+STDOUT: [789/1012] ontvtonight.com (en) - TheWeatherNetwork.ca - Jan 25, 2025 (24 programs)
+STDOUT: [790/1012] tvtv.us (en) - WeTVEast.us - Jan 24, 2025 (23 programs)
+STDOUT: [791/1012] tvtv.us (en) - CBSEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [792/1012] ontvtonight.com (en) - WNetworkWest.ca - Jan 25, 2025 (12 programs)
+STDOUT: [793/1012] tvtv.us (en) - VICETV.us - Jan 25, 2025 (26 programs)
+STDOUT: [794/1012] tvtv.us (en) - VH1East.us - Jan 24, 2025 (29 programs)
+STDOUT: [795/1012] ontvtonight.com (en) - USANetwork.ca - Jan 25, 2025 (22 programs)
+STDOUT: [796/1012] ontvtonight.com (en) - TCM.ca - Jan 24, 2025 (11 programs)
+STDOUT: [797/1012] tvtv.us (en) - TravelChannelEast.us - Jan 24, 2025 (27 programs)
+STDOUT: [798/1012] tvtv.us (en) - ThrillerMaxEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [799/1012] tvtv.us (en) - TennisChannel.us - Jan 25, 2025 (13 programs)
+STDOUT: [800/1012] ontvtonight.com (en) - Telelatino.ca - Jan 24, 2025 (43 programs)
+STDOUT: [801/1012] ontvtonight.com (en) - TVO(TVOntario).ca - Jan 24, 2025 (151 programs)
+STDOUT: [802/1012] tvtv.us (en) - TSN5.ca - Jan 25, 2025 (21 programs)
+STDOUT: [803/1012] tvtv.us (en) - TSN3.ca - Jan 24, 2025 (23 programs)
+STDOUT: [804/1012] tvtv.us (en) - TSN1.ca - Jan 25, 2025 (22 programs)
+STDOUT: [805/1012] tvtv.us (en) - TLCEast.us - Jan 25, 2025 (22 programs)
+STDOUT: [806/1012] tvtv.us (en) - TCMEast.us - Jan 24, 2025 (13 programs)
+STDOUT: [807/1012] tvtv.us (en) - SundanceTVEast.us - Jan 25, 2025 (37 programs)
+STDOUT: [808/1012] i.mjh.nz (en) - Stirr4KTravelTV.ca - Jan 24, 2025 (0 programs)
+STDOUT: [809/1012] tvtv.us (en) - StarzInBlackEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [810/1012] tvtv.us (en) - StarzEncoreEast.us - Jan 25, 2025 (12 programs)
+STDOUT: [811/1012] tvtv.us (en) - StarzEdgeEast.us - Jan 24, 2025 (17 programs)
+STDOUT: [812/1012] tvtv.us (en) - StarzComedyEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [813/1012] tvtv.us (en) - StartTV.us - Jan 25, 2025 (25 programs)
+STDOUT: [814/1012] tvtv.us (en) - SportsnetWorld.ca - Jan 24, 2025 (20 programs)
+STDOUT: [815/1012] ontvtonight.com (en) - SportsnetOntario.ca - Jan 24, 2025 (25 programs)
+STDOUT: [816/1012] tvtv.us (en) - SportsnetEast.ca - Jan 25, 2025 (23 programs)
+STDOUT: [817/1012] tvtv.us (en) - SpectrumSportsNet.us - Jan 25, 2025 (32 programs)
+STDOUT: [818/1012] tvtv.us (en) - SonyMovies.us - Jan 24, 2025 (14 programs)
+STDOUT: [819/1012] mytelly.co.uk (en) - SkyWitness.uk - Jan 25, 2025 (37 programs)
+STDOUT: [820/1012] mytelly.co.uk (en) - SkySportsRacing.uk - Jan 24, 2025 (11 programs)
+STDOUT: [821/1012] mytelly.co.uk (en) - SkySportsNews.uk - Jan 24, 2025 (32 programs)
+STDOUT: [822/1012] mytelly.co.uk (en) - SkySportsMainEvent.uk - Jan 25, 2025 (12 programs)
+STDOUT: [823/1012] mytelly.co.uk (en) - SkySportsCricket.uk - Jan 24, 2025 (24 programs)
+STDOUT: [824/1012] mytelly.co.uk (en) - SkyHistory.uk - Jan 25, 2025 (30 programs)
+STDOUT: [825/1012] mytelly.co.uk (en) - SkyComedy.uk - Jan 25, 2025 (39 programs)
+STDOUT: [826/1012] mytelly.co.uk (en) - SkyCinemaThriller.uk - Jan 24, 2025 (12 programs)
+STDOUT: [827/1012] mytelly.co.uk (en) - SkyCinemaFamily.uk - Jan 25, 2025 (13 programs)
+STDOUT: [828/1012] mytelly.co.uk (en) - SkyCinemaDrama.uk - Jan 24, 2025 (11 programs)
+STDOUT: [829/1012] mytelly.co.uk (en) - SkyCinemaAction.uk - Jan 24, 2025 (12 programs)
+STDOUT: [830/1012] mytelly.co.uk (en) - SkyArts.uk - Jan 25, 2025 (23 programs)
+STDOUT: [831/1012] tvtv.us (en) - ShowtimeFamilyZoneEast.us - Jan 25, 2025 (14 programs)
+STDOUT: [832/1012] tvtv.us (en) - ShowtimeExtremeEast.us - Jan 24, 2025 (13 programs)
+STDOUT: [833/1012] tvtv.us (en) - ShowtimeWomenEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [834/1012] ontvtonight.com (en) - ShowcaseEast.ca - Jan 25, 2025 (11 programs)
+STDOUT: [835/1012] i.mjh.nz (es) - SamsungTraceUrban.es - Jan 24, 2025 (1 programs)
+STDOUT: [836/1012] i.mjh.nz (en) - SamsungLuckyDog.us - Jan 25, 2025 (0 programs)
+STDOUT: [837/1012] i.mjh.nz (en) - SamsungHollywire.ca - Jan 25, 2025 (0 programs)
+STDOUT: [838/1012] i.mjh.nz (en) - SamsungFireplace.ca - Jan 24, 2025 (7 programs)
+STDOUT: [839/1012] tvtv.us (en) - SportsNetNewYork.us - Jan 25, 2025 (31 programs)
+STDOUT: [840/1012] tvtv.us (en) - ShoxBetEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [841/1012] tvtv.us (en) - RootSportsNorthwest.us - Jan 24, 2025 (26 programs)
+STDOUT: [842/1012] tvtv.us (en) - Reelz.us - Jan 25, 2025 (23 programs)
+STDOUT: [843/1012] cyta.com.cy (el) - RIKsat.gr - Jan 27, 2025 (26 programs)
+STDOUT: [844/1012] cyta.com.cy (el) - RIKsat.gr - Jan 24, 2025 (21 programs)
+STDOUT: [845/1012] cyta.com.cy (el) - RIKsat.gr - Jan 27, 2025 (37 programs)
+STDOUT: [846/1012] cyta.com.cy (el) - RIKsat.gr - Jan 24, 2025 (40 programs)
+STDOUT: [847/1012] cyta.com.cy (el) - RIK1.gr - Jan 25, 2025 (28 programs)
+STDOUT: [848/1012] tvtv.us (en) - RFDTV.us - Jan 24, 2025 (31 programs)
+STDOUT: [849/1012] i.mjh.nz (en) - PlutoYoMTV.ca - Jan 24, 2025 (33 programs)
+STDOUT: [850/1012] i.mjh.nz (en) - PlutoVH1HipHopFamily.us - Jan 25, 2025 (0 programs)
+STDOUT: [851/1012] i.mjh.nz (en) - PlutoTheWalkingDeadUniverse.us - Jan 24, 2025 (20 programs)
+STDOUT: [852/1012] i.mjh.nz (en) - PlutoTODAYAllDay.us - Jan 25, 2025 (0 programs)
+STDOUT: [853/1012] i.mjh.nz (en) - PlutoProjectRunway.gb - Jan 25, 2025 (0 programs)
+STDOUT: [854/1012] i.mjh.nz (en) - PlutoNickPluto V.ca - Jan 24, 2025 (35 programs)
+STDOUT: [855/1012] i.mjh.nz (en) - PlutoKevinHartsLOLNetwork.us - Jan 24, 2025 (23 programs)
+STDOUT: [856/1012] i.mjh.nz (en) - PlutoHappyDays.ca - Jan 25, 2025 (0 programs)
+STDOUT: [857/1012] i.mjh.nz (en) - PlutoFrasier.ca - Jan 25, 2025 (0 programs)
+STDOUT: [858/1012] i.mjh.nz (en) - PlutoFifthGear.gb - Jan 24, 2025 (27 programs)
+STDOUT: [859/1012] i.mjh.nz (en) - PlutoDallasCowboysCheerleaders.us - Jan 25, 2025 (0 programs)
+STDOUT: [860/1012] i.mjh.nz (en) - PlutoCNNFast.ca - Jan 24, 2025 (5 programs)
+STDOUT: [861/1012] i.mjh.nz (en) - PlutoCBCNewsToronto.ca - Jan 24, 2025 (33 programs)
+STDOUT: [862/1012] i.mjh.nz (en) - PlutoAngerManagement.ca - Jan 25, 2025 (0 programs)
+STDOUT: [863/1012] i.mjh.nz (en) - Pluto80sRewind.us - Jan 25, 2025 (0 programs)
+STDOUT: [864/1012] i.mjh.nz (en) - Pluto70sCinema.us - Jan 24, 2025 (9 programs)
+STDOUT: [865/1012] i.mjh.nz (en) - Pluto00sReplay - Jan 24, 2025 (8 programs)
+STDOUT: [866/1012] i.mjh.nz (en) - PlexWomensSportsNetwork.us - Jan 25, 2025 (2 programs)
+STDOUT: [867/1012] i.mjh.nz (en) - PlexVevoHipHop.us - Jan 24, 2025 (21 programs)
+STDOUT: [868/1012] i.mjh.nz (en) - PlexVevo80s.us - Jan 25, 2025 (2 programs)
+STDOUT: [869/1012] i.mjh.nz (en) - PlexTheJamieOliverChannel.us - Jan 25, 2025 (2 programs)
+STDOUT: [870/1012] i.mjh.nz (en) - PlexTMZ.us - Jan 24, 2025 (30 programs)
+STDOUT: [871/1012] ontvtonight.com (en) - YTVEast.ca - Jan 25, 2025 (27 programs)
+STDOUT: [872/1012] xumo.tv (en) - XumoWipeoutXtra.us - Jan 25, 2025 (25 programs)
+STDOUT: [873/1012] xumo.tv (en) - XumoTheDesignNetwork.us - Jan 24, 2025 (48 programs)
+STDOUT: [874/1012] xumo.tv (en) - XumoSwerveCombat.us - Jan 24, 2025 (16 programs)
+STDOUT: [875/1012] xumo.tv (en) - XumoPBSAntiquesRoadshow.uk - Jan 24, 2025 (26 programs)
+STDOUT: [876/1012] xumo.tv (en) - XumoNBCNewsNOW.us - Jan 25, 2025 (21 programs)
+STDOUT: [877/1012] xumo.tv (en) - XumoMAVTVSelect.us - Jan 24, 2025 (24 programs)
+STDOUT: [878/1012] xumo.tv (en) - XumoLidiasKitchen.ca - Jan 24, 2025 (0 programs)
+STDOUT: [879/1012] xumo.tv (en) - XumoHomeful.us - Jan 24, 2025 (36 programs)
+STDOUT: [880/1012] xumo.tv (en) - XumoFreeMovies.us - Jan 25, 2025 (16 programs)
+STDOUT: [881/1012] xumo.tv (en) - XumoFightNetwork.us - Jan 24, 2025 (30 programs)
+STDOUT: [882/1012] xumo.tv (en) - XumoElectricNow.us - Jan 24, 2025 (22 programs)
+STDOUT: [883/1012] xumo.tv (en) - XumoCheddarNews.us - Jan 24, 2025 (41 programs)
+STDOUT: [884/1012] xumo.tv (en) - XumoBBCFood.uk - Jan 24, 2025 (45 programs)
+STDOUT: [885/1012] xumo.tv (en) - XumoABCNewsLive.us - Jan 24, 2025 (35 programs)
+STDOUT: [886/1012] ontvtonight.com (en) - TheWeatherNetwork.ca - Jan 24, 2025 (24 programs)
+STDOUT: [887/1012] tvtv.us (en) - YesNetwork.us - Jan 25, 2025 (28 programs)
+STDOUT: [888/1012] xumo.tv (en) - XumoXplore.us - Jan 24, 2025 (24 programs)
+STDOUT: [889/1012] xumo.tv (en) - XumoUniversalMonsters.us - Jan 24, 2025 (32 programs)
+STDOUT: [890/1012] xumo.tv (en) - XumoTastemade.us - Jan 25, 2025 (41 programs)
+STDOUT: [891/1012] xumo.tv (en) - XumoPowerNation.us - Jan 24, 2025 (54 programs)
+STDOUT: [892/1012] xumo.tv (en) - XumoNewsmaxTV.us - Jan 25, 2025 (30 programs)
+STDOUT: [893/1012] xumo.tv (en) - XumoMAVTVSelect.us - Jan 25, 2025 (26 programs)
+STDOUT: [894/1012] xumo.tv (en) - XumoLawCrime.us - Jan 24, 2025 (35 programs)
+STDOUT: [895/1012] xumo.tv (en) - XumoIMPACTWrestlingChannel.us - Jan 24, 2025 (14 programs)
+STDOUT: [896/1012] xumo.tv (en) - XumoFunnyorDie.us - Jan 25, 2025 (0 programs)
+STDOUT: [897/1012] xumo.tv (en) - XumoFightNetwork.us - Jan 25, 2025 (34 programs)
+STDOUT: [898/1012] xumo.tv (en) - XumoET.us - Jan 24, 2025 (48 programs)
+STDOUT: [899/1012] xumo.tv (en) - XumoCheddarNews.us - Jan 25, 2025 (42 programs)
+STDOUT: [900/1012] xumo.tv (en) - XumoArchitecturalDigest.us - Jan 24, 2025 (0 programs)
+STDOUT: [901/1012] ontvtonight.com (en) - WorldFishingNetwork.us - Jan 24, 2025 (48 programs)
+STDOUT: [902/1012] tvtv.us (en) - WWENetwork.ca - Jan 25, 2025 (6 programs)
+STDOUT: [903/1012] ontvtonight.com (en) - WNetworkWest.ca - Jan 24, 2025 (25 programs)
+STDOUT: [904/1012] tvtv.us (en) - UniversalKidsEast.us - Jan 25, 2025 (59 programs)
+STDOUT: [905/1012] ontvtonight.com (en) - Treehouse.ca - Jan 25, 2025 (94 programs)
+STDOUT: [906/1012] tvtv.us (en) - ThrillerMaxEast.us - Jan 24, 2025 (15 programs)
+STDOUT: [907/1012] tvtv.us (en) - TVOne.us - Jan 25, 2025 (49 programs)
+STDOUT: [908/1012] tvtv.us (en) - TSN5.ca - Jan 24, 2025 (23 programs)
+STDOUT: [909/1012] tvtv.us (en) - TSN1.ca - Jan 24, 2025 (22 programs)
+STDOUT: [910/1012] tvtv.us (en) - TBSWest.us - Jan 25, 2025 (25 programs)
+STDOUT: [911/1012] tvtv.us (en) - StarzKidsFamilyEast.us - Jan 25, 2025 (17 programs)
+STDOUT: [912/1012] tvtv.us (en) - StarzEncoreEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [913/1012] tvtv.us (en) - StarzComedyEast.us - Jan 24, 2025 (16 programs)
+STDOUT: [914/1012] tvtv.us (en) - SportsnetWest.ca - Jan 25, 2025 (23 programs)
+STDOUT: [915/1012] tvtv.us (en) - SportsnetEast.ca - Jan 24, 2025 (23 programs)
+STDOUT: [916/1012] tvtv.us (en) - SmithsonianChannelEast.us - Jan 25, 2025 (24 programs)
+STDOUT: [917/1012] mytelly.co.uk (en) - SkySportsPremierLeague.uk - Jan 25, 2025 (25 programs)
+STDOUT: [918/1012] mytelly.co.uk (en) - SkySportsMainEvent.uk - Jan 24, 2025 (15 programs)
+STDOUT: [919/1012] mytelly.co.uk (en) - SkyHistory.uk - Jan 24, 2025 (33 programs)
+STDOUT: [920/1012] mytelly.co.uk (en) - SkyCinemaSciFiHorror.uk - Jan 25, 2025 (13 programs)
+STDOUT: [921/1012] mytelly.co.uk (en) - SkyCinemaAnimation.uk - Jan 25, 2025 (15 programs)
+STDOUT: [922/1012] mytelly.co.uk (en) - SkyArts.uk - Jan 24, 2025 (28 programs)
+STDOUT: [923/1012] tvtv.us (en) - Showtime2East.us - Jan 25, 2025 (13 programs)
+STDOUT: [924/1012] ontvtonight.com (en) - ShowcaseEast.ca - Jan 24, 2025 (23 programs)
+STDOUT: [925/1012] i.mjh.nz (en) - SamsungLuckyDog.us - Jan 24, 2025 (16 programs)
+STDOUT: [926/1012] i.mjh.nz (en) - SamsungBonAppétit.us - Jan 25, 2025 (0 programs)
+STDOUT: [927/1012] tvtv.us (en) - SECNetwork.us - Jan 25, 2025 (20 programs)
+STDOUT: [928/1012] tvtv.us (en) - Reelz.us - Jan 24, 2025 (30 programs)
+STDOUT: [929/1012] cyta.com.cy (el) - RIKsat.gr - Jan 30, 2025 (41 programs)
+STDOUT: [930/1012] cyta.com.cy (el) - RIK1.gr - Jan 30, 2025 (24 programs)
+STDOUT: [931/1012] tvtv.us (en) - PopEast.us - Jan 25, 2025 (21 programs)
+STDOUT: [932/1012] i.mjh.nz (en) - PlutoVH1HipHopFamily.us - Jan 24, 2025 (33 programs)
+STDOUT: [933/1012] i.mjh.nz (en) - PlutoTODAYAllDay.us - Jan 24, 2025 (27 programs)
+STDOUT: [934/1012] i.mjh.nz (en) - PlutoMillionDollarListingVault.us - Jan 25, 2025 (0 programs)
+STDOUT: [935/1012] i.mjh.nz (en) - PlutoHappyDays.ca - Jan 24, 2025 (33 programs)
+STDOUT: [936/1012] i.mjh.nz (en) - PlutoFailArmy.us - Jan 25, 2025 (0 programs)
+STDOUT: [937/1012] i.mjh.nz (es) - PlutoCBSNews247.es - Jan 25, 2025 (0 programs)
+STDOUT: [938/1012] i.mjh.nz (en) - PlutoAngerManagement.ca - Jan 24, 2025 (39 programs)
+STDOUT: [939/1012] i.mjh.nz (en) - Pluto48Hours.ca - Jan 25, 2025 (0 programs)
+STDOUT: [940/1012] i.mjh.nz (en) - PlexWomensSportsNetwork.us - Jan 24, 2025 (22 programs)
+STDOUT: [941/1012] i.mjh.nz (en) - PlexVevo80s.us - Jan 24, 2025 (18 programs)
+STDOUT: [942/1012] tvtv.us (en) - truTVEast.us - Jan 25, 2025 (33 programs)
+STDOUT: [943/1012] xumo.tv (en) - XumoUnsolvedMysteries.us - Jan 25, 2025 (30 programs)
+STDOUT: [944/1012] xumo.tv (en) - XumoStoriesbyAMC.us - Jan 25, 2025 (29 programs)
+STDOUT: [945/1012] xumo.tv (en) - XumoNBCNewsNOW.us - Jan 24, 2025 (25 programs)
+STDOUT: [946/1012] xumo.tv (en) - XumoJustforLaughsTV.ca - Jan 24, 2025 (38 programs)
+STDOUT: [947/1012] xumo.tv (en) - XumoFreeMovies.us - Jan 24, 2025 (17 programs)
+STDOUT: [948/1012] xumo.tv (en) - XumoDoveChannel.us - Jan 25, 2025 (19 programs)
+STDOUT: [949/1012] xumo.tv (en) - XumoAngerManagementChannel.us - Jan 24, 2025 (0 programs)
+STDOUT: [950/1012] tvtv.us (en) - WeTVEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [951/1012] xumo.tv (en) - XumoWorldPokerTour.us - Jan 25, 2025 (27 programs)
+STDOUT: [952/1012] xumo.tv (en) - XumoTastemade.us - Jan 24, 2025 (39 programs)
+STDOUT: [953/1012] xumo.tv (en) - XumoNewsmaxTV.us - Jan 24, 2025 (23 programs)
+STDOUT: [954/1012] xumo.tv (en) - XumoLOLNetwork.us - Jan 25, 2025 (42 programs)
+STDOUT: [955/1012] xumo.tv (en) - XumoFunnyorDie.us - Jan 24, 2025 (0 programs)
+STDOUT: [956/1012] xumo.tv (en) - XumoDryBarComedy.us - Jan 25, 2025 (32 programs)
+STDOUT: [957/1012] xumo.tv (en) - XumoAngerManagementChannel.us - Jan 25, 2025 (0 programs)
+STDOUT: [958/1012] tvtv.us (en) - WWENetwork.ca - Jan 24, 2025 (6 programs)
+STDOUT: [959/1012] tvtv.us (en) - UniversalKidsEast.us - Jan 24, 2025 (58 programs)
+STDOUT: [960/1012] tvtv.us (en) - TheWeatherChannel.us - Jan 25, 2025 (24 programs)
+STDOUT: [961/1012] tvtv.us (en) - TSN4.ca - Jan 25, 2025 (21 programs)
+STDOUT: [962/1012] tvtv.us (en) - TBSWest.us - Jan 24, 2025 (42 programs)
+STDOUT: [963/1012] tvtv.us (en) - StarzEncoreActionEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [964/1012] tvtv.us (en) - SportsnetWest.ca - Jan 24, 2025 (25 programs)
+STDOUT: [965/1012] tvtv.us (en) - SmithsonianChannelEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [966/1012] mytelly.co.uk (en) - SkySportsGolf.uk - Jan 25, 2025 (20 programs)
+STDOUT: [967/1012] mytelly.co.uk (en) - SkyCinemaSciFiHorror.uk - Jan 24, 2025 (12 programs)
+STDOUT: [968/1012] ontvtonight.com (en) - SilverScreenClassics.ca - Jan 25, 2025 (20 programs)
+STDOUT: [969/1012] i.mjh.nz (en) - SamsungVevo2010s.ca - Jan 25, 2025 (0 programs)
+STDOUT: [970/1012] i.mjh.nz (en) - SamsungBonAppétit.us - Jan 24, 2025 (7 programs)
+fatal: pathspec '/Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_epg.log' did not match any files
+STDOUT: [971/1012] cyta.com.cy (el) - RIKsat.gr - Jan 30, 2025 (24 programs)
+STDOUT: [972/1012] cyta.com.cy (el) - RIK1.gr - Jan 29, 2025 (24 programs)
+STDOUT: [973/1012] i.mjh.nz (en) - PlutoThisOldHouse.us - Jan 25, 2025 (0 programs)
+STDOUT: [974/1012] i.mjh.nz (en) - PlutoMillionDollarListingVault.us - Jan 24, 2025 (17 programs)
+STDOUT: [975/1012] i.mjh.nz (en) - PlutoFailArmy.us - Jan 24, 2025 (25 programs)
+STDOUT: [976/1012] i.mjh.nz (en) - PlutoAmericasVoiceNews.us - Jan 25, 2025 (0 programs)
+STDOUT: [977/1012] i.mjh.nz (en) - PlexVevoPop.us - Jan 25, 2025 (2 programs)
+STDOUT: [978/1012] tvtv.us (en) - truTVEast.us - Jan 24, 2025 (31 programs)
+STDOUT: [979/1012] xumo.tv (en) - XumoPursuitUp.us - Jan 25, 2025 (48 programs)
+STDOUT: [980/1012] xumo.tv (en) - XumoJustforLaughsGags.ca - Jan 25, 2025 (55 programs)
+STDOUT: [981/1012] xumo.tv (en) - XumoDoveChannel.us - Jan 24, 2025 (24 programs)
+STDOUT: [982/1012] tvtv.us (en) - ABCEast.us - Jan 24, 2025 (25 programs)
+STDOUT: [983/1012] xumo.tv (en) - XumoSwerveCombat.us - Jan 25, 2025 (14 programs)
+STDOUT: [984/1012] xumo.tv (en) - XumoLOLNetwork.us - Jan 24, 2025 (42 programs)
+STDOUT: [985/1012] xumo.tv (en) - XumoDryBarComedy.us - Jan 24, 2025 (34 programs)
+STDOUT: [986/1012] tvtv.us (en) - PBSEast.us - Jan 25, 2025 (35 programs)
+STDOUT: [987/1012] tvtv.us (en) - TheWeatherChannel.us - Jan 24, 2025 (24 programs)
+STDOUT: [988/1012] tvtv.us (en) - TBSEast.us - Jan 25, 2025 (23 programs)
+STDOUT: [989/1012] tvtv.us (en) - SportsnetPacific.ca - Jan 25, 2025 (23 programs)
+STDOUT: [990/1012] mytelly.co.uk (en) - SkySportsGolf.uk - Jan 24, 2025 (26 programs)
+STDOUT: [991/1012] ontvtonight.com (en) - SilverScreenClassics.ca - Jan 24, 2025 (13 programs)
+STDOUT: [992/1012] i.mjh.nz (en) - SamsungBBCEarth.us - Jan 25, 2025 (0 programs)
+STDOUT: [993/1012] cyta.com.cy (el) - RIK1.gr - Jan 28, 2025 (24 programs)
+STDOUT: [994/1012] i.mjh.nz (en) - PlutoMTVSpankinNew.ca - Jan 25, 2025 (0 programs)
+STDOUT: [995/1012] i.mjh.nz (en) - PlutoAmericasVoiceNews.us - Jan 24, 2025 (14 programs)
+STDOUT: [996/1012] tvtv.us (en) - FETV.us - Jan 24, 2025 (40 programs)
+STDOUT: [997/1012] xumo.tv (en) - XumoIONMystery.us - Jan 25, 2025 (24 programs)
+STDOUT: [998/1012] tvtv.us (en) - CBSEast.us - Jan 25, 2025 (20 programs)
+STDOUT: [999/1012] xumo.tv (en) - XumoJustforLaughsTV.ca - Jan 25, 2025 (36 programs)
+STDOUT: [1000/1012] tvtv.us (en) - PBSEast.us - Jan 24, 2025 (35 programs)
+STDOUT: [1001/1012] tvtv.us (en) - TBSEast.us - Jan 24, 2025 (42 programs)
+STDOUT: [1002/1012] mytelly.co.uk (en) - SkySportsFootball.uk - Jan 25, 2025 (30 programs)
+STDOUT: [1003/1012] i.mjh.nz (en) - SamsungBBCEarth.us - Jan 24, 2025 (7 programs)
+STDOUT: [1004/1012] i.mjh.nz (en) - PlutoMTVSpankinNew.ca - Jan 24, 2025 (33 programs)
+STDOUT: [1005/1012] tvtv.us (en) - DWEnglish.de - Jan 25, 2025 (67 programs)
+STDOUT: [1006/1012] tvtv.us (en) - NBCEast.us - Jan 25, 2025 (27 programs)
+STDOUT: [1007/1012] tvtv.us (en) - ABCEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [1008/1012] mytelly.co.uk (en) - SkySportsFootball.uk - Jan 24, 2025 (48 programs)
+STDOUT: [1009/1012] i.mjh.nz (da) - PlutoMTVBiggestPop.dk - Jan 25, 2025 (0 programs)
+STDOUT: [1010/1012] tvtv.us (en) - NBCEast.us - Jan 24, 2025 (19 programs)
+STDOUT: [1011/1012] mytelly.co.uk (en) - SkySportsF1.uk - Jan 25, 2025 (23 programs)
+STDOUT: [1012/1012] ontvtonight.com (en) - WNetworkEast.ca - Jan 25, 2025 (12 programs)
+STDOUT: saving to "./scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml"...
+STDOUT: done in 00h 05m 24s
+Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml executed successfully.
+Found 502 channel(s) in the output.
+Merging EPG data...
+No EPG URLs found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-start/epg_urls.txt, scanning /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end for XML files...
+EPG URLs or local XML files found: ['/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-03-02 PM.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml']
+Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-03-02 PM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-03-02 PM.xml
+Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-03-02 PM.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 23, 2025 23:08:29 PM ET
+Committing and pushing the updated EPG file and log file to GitHub...
+Failed to save EPG file - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/log/merge_epg.log']' returned non-zero exit status 128.
