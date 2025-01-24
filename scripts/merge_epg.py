@@ -385,7 +385,15 @@ for xml_file in extracted_files:
 eastern = pytz.timezone('US/Eastern')
 current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
+
 # Step 13: Save the merged EPG file and log success
+
+# Define the directory to auto-commit
+directory_to_commit = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/www"
+
+# Get the current time for logging and commit messages
+current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
+
 try:
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
@@ -395,19 +403,19 @@ try:
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
-    # Force commit and push the updated EPG file and log file to GitHub
-    print("Committing and pushing the updated EPG file and log file to GitHub...")
+    # Force commit and push all files in the specified directory to GitHub
+    print("Committing and pushing all updated files in the directory to GitHub...")
 
-    # Git commands to commit and push
-    subprocess.run(["git", "add", save_path, log_file_path], check=True)  # Stage the changes
-    commit_message = f"Updated epg.xml and merge_epg.log at {current_time_et} ET"
+    # Git commands to add all files in the directory
+    subprocess.run(["git", "add", directory_to_commit], check=True)  # Stage all files in the directory
+    commit_message = f"Auto-updated files in {directory_to_commit} at {current_time_et} ET"
     subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
     subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
 
-    print("EPG file and log file successfully committed and pushed to GitHub.")
+    print(f"All files in {directory_to_commit} successfully committed and pushed to GitHub.")
 
 except Exception as e:
-    # Log error if save fails
-    error_message = f"Failed to save EPG file - Error: {e}"
+    # Log error if save or Git operations fail
+    error_message = f"Failed to commit and push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
