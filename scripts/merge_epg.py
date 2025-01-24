@@ -12,8 +12,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
-import schedule
-import fcntl
+# import schedule
+# import fcntl
 
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
@@ -26,45 +26,45 @@ print("Data processing complete.")
 
 
 
-# Step 0: Run this script on schedule
-# Lock file path
-lock_file_path = "merge_epg.lock"
+# # Step 0: Run this script on schedule
+# # Lock file path
+# lock_file_path = "merge_epg.lock"
 
-def run_merge_epg():
-    # Check if the lock file already exists (indicating another instance is running)
-    if os.path.exists(lock_file_path):
-        print("Script is already running. Skipping execution.")
-        return
+# def run_merge_epg():
+#     # Check if the lock file already exists (indicating another instance is running)
+#     if os.path.exists(lock_file_path):
+#         print("Script is already running. Skipping execution.")
+#         return
 
-    # Create the lock file to indicate the script is running
-    with open(lock_file_path, 'w') as lock_file:
-        try:
-            print("Lock file created. Running the script...")
+#     # Create the lock file to indicate the script is running
+#     with open(lock_file_path, 'w') as lock_file:
+#         try:
+#             print("Lock file created. Running the script...")
 
-            # Define the command to run your Python script
-            command = f'{venv_python} /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py'
+#             # Define the command to run your Python script
+#             command = f'{venv_python} /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py'
 
-            # Run the command
-            result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            print(f"stdout: {result.stdout.decode()}")
-            print(f"stderr: {result.stderr.decode()}")
+#             # Run the command
+#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+#             print(f"stdout: {result.stdout.decode()}")
+#             print(f"stderr: {result.stderr.decode()}")
         
-        except (subprocess.CalledProcessError, IOError) as e:
-            print(f"Error occurred: {e}")
+#         except (subprocess.CalledProcessError, IOError) as e:
+#             print(f"Error occurred: {e}")
         
-        finally:
-            # Delete the lock file once the script finishes
-            os.remove(lock_file_path)
-            print("Lock file removed. Script execution finished.")
+#         finally:
+#             # Delete the lock file once the script finishes
+#             os.remove(lock_file_path)
+#             print("Lock file removed. Script execution finished.")
 
-# Schedule the job at 2:28 AM and 2:28 PM (updated time)
-schedule.every().day.at("02:36").do(run_merge_epg)  # 2:28 AM
-schedule.every().day.at("14:36").do(run_merge_epg)  # 2:28 PM
+# # Schedule the job at 2:28 AM and 2:28 PM (updated time)
+# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:28 AM
+# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:28 PM
 
-# Infinite loop to keep the scheduler running
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# # Infinite loop to keep the scheduler running
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
 
 
 

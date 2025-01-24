@@ -50,6 +50,16 @@ cd scripts
 python3 merge_epg.py
 nohup python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py > my_output.log 2>&1 &
 
+# If you want to verify if it's actively running, you can use:
+launchctl status com.kyleabrahams.mergeepg
+
+# If you want to stop or unload the job:
+launchctl bootout user/$(id -u) /Users/kyleabrahams/Library/LaunchAgents/com.kyleabrahams.mergeepg.plist
+
+# If you'd like to reload or restart the job:
+launchctl bootload user/$(id -u) /Users/kyleabrahams/Library/LaunchAgents/com.kyleabrahams.mergeepg.plist
+
+
 ## Step 5: To access the epg.xml file in a web browser, paste the following URL:
 http:/localhost:8080/epg.xml
 

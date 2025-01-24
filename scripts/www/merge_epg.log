@@ -25543,3 +25543,23 @@ Jan 24 2025 11:50:03 - Fetching 1/1 - /Users/kyleabrahams/Documents/GitHub/tv/sc
 Jan 24 2025 11:50:03 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-24-11-50-01 AM.xml
 Jan 24 2025 11:50:04 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 24, 2025 11:50:04 AM ET
 Jan 24 2025 11:50:04 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 24 2025 15:21:51 - Starting EPG merge process...
+Jan 24 2025 15:21:51 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-03-21-51 PM.xml
+Jan 24 2025 15:21:52 - STDOUT: 
+Jan 24 2025 15:21:52 - STDOUT: > grab
+Jan 24 2025 15:21:52 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-24-03-21-51 PM.xml
+Jan 24 2025 15:21:52 - STDOUT: 
+Jan 24 2025 15:21:53 - STDOUT: starting...
+Jan 24 2025 15:21:53 - STDOUT: config:
+Jan 24 2025 15:21:53 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-24-03-21-51 PM.xml
+Jan 24 2025 15:21:53 - STDOUT: maxConnections: 1
+Jan 24 2025 15:21:53 - STDOUT: gzip: false
+Jan 24 2025 15:21:53 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 24 2025 15:21:53 - STDOUT: loading channels...
+Jan 24 2025 15:21:53 - STDOUT: found 502 channel(s)
+Jan 24 2025 15:21:53 - STDOUT: run #1:
+Jan 24 2025 15:21:54 - STDOUT: [1/1006] ontvtonight.com (en) - AandECanada.ca - Jan 24, 2025 (36 programs)
+Jan 24 2025 15:21:54 - STDOUT: [2/1006] ontvtonight.com (en) - AandECanada.ca - Jan 25, 2025 (40 programs)
+Jan 24 2025 15:21:54 - STDOUT: [3/1006] tvtv.us (en) - truTVEast.us - Jan 25, 2025 (33 programs)
+Jan 24 2025 15:21:54 - STDOUT: [4/1006] tvtv.us (en) - truTVEast.us - Jan 24, 2025 (32 programs)
+Jan 24 2025 15:21:55 - STDOUT: [5/1006] tvtv.us (en) - FETV.us - Jan 25, 2025 (37 programs)
