@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tv><channel id="City News 24/7 Toronto"><display-name lang="en">City News 24/7</display-name></channel>
-  <programme start="20250124110000 -0500" stop="20250124120000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 11</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
-  <programme start="20250124120000 -0500" stop="20250124130000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 12</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
-  <programme start="20250124130000 -0500" stop="20250124140000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 1</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
   <programme start="20250124140000 -0500" stop="20250124150000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 2</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
   <programme start="20250124150000 -0500" stop="20250124160000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 3</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
   <programme start="20250124160000 -0500" stop="20250124170000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 4</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
@@ -120,4 +117,7 @@
   <programme start="20250129080000 -0500" stop="20250129090000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 8</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
   <programme start="20250129090000 -0500" stop="20250129100000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 9</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
   <programme start="20250129100000 -0500" stop="20250129110000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 10</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
+  <programme start="20250129110000 -0500" stop="20250129120000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 11</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
+  <programme start="20250129120000 -0500" stop="20250129130000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 12</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
+  <programme start="20250129130000 -0500" stop="20250129140000 -0500" channel="City News 24/7 Toronto"><title>City News 24/7 at 1</title><desc>Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.</desc></programme>
 </tv>
