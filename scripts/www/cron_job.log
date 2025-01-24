@@ -7400,4 +7400,64 @@ STDOUT: [967/1008] tvtv.us (en) - TVOne.us - Jan 25, 2025 (49 programs)
 STDOUT: [968/1008] tvtv.us (en) - TSN5.ca - Jan 24, 2025 (23 programs)
 STDOUT: [969/1008] tvtv.us (en) - TSN1.ca - Jan 24, 2025 (22 programs)
 STDOUT: [970/1008] tvtv.us (en) - TBSWest.us - Jan 25, 2025 (25 programs)
-STDOUT: [971/1008] tvtv.us (en) - StarzKidsFamilyEast.us - Jan 25, 2025 (17 programs)
+STDOUT: [971/1008] tvtv.us (en) - StarzKidsFamilyEast.us - Jan 25, 2025 (17 programs)[main c549da28a] Auto-updated files in specified directories at Jan 23, 2025 11:32:55 PM ET
+ 5 files changed, 27476 insertions(+), 670 deletions(-)
+ create mode 100644 scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml
+ rename scripts/_epg-end/{dummy-2025-01-23-11-25-19 PM.xml => dummy-2025-01-23-11-28-55 PM.xml} (100%)
+To github.com:kyleabrahams/tv.git
+   eb56d5bb6..c549da28a  main -> main
+
+STDOUT: [972/1008] tvtv.us (en) - StarzEncoreEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [973/1008] tvtv.us (en) - SportsnetWest.ca - Jan 25, 2025 (23 programs)
+STDOUT: [974/1008] tvtv.us (en) - SonyMovies.us - Jan 24, 2025 (14 programs)
+STDOUT: [975/1008] mytelly.co.uk (en) - SkySportsGolf.uk - Jan 25, 2025 (20 programs)
+STDOUT: [976/1008] mytelly.co.uk (en) - SkyComedy.uk - Jan 24, 2025 (39 programs)
+STDOUT: [977/1008] mytelly.co.uk (en) - SkyAtlantic.uk - Jan 24, 2025 (22 programs)
+STDOUT: [978/1008] tvtv.us (en) - ShowtimeShowcaseEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [979/1008] xumo.tv (en) - XumoWorldPokerTour.us - Jan 25, 2025 (27 programs)
+STDOUT: [980/1008] xumo.tv (en) - XumoTastemade.us - Jan 24, 2025 (39 programs)
+STDOUT: [981/1008] xumo.tv (en) - XumoNewsmaxTV.us - Jan 24, 2025 (23 programs)
+STDOUT: [982/1008] xumo.tv (en) - XumoLOLNetwork.us - Jan 25, 2025 (42 programs)
+STDOUT: [983/1008] xumo.tv (en) - XumoFunnyorDie.us - Jan 24, 2025 (0 programs)
+STDOUT: [984/1008] xumo.tv (en) - XumoDryBarComedy.us - Jan 25, 2025 (32 programs)
+STDOUT: [985/1008] xumo.tv (en) - XumoAngerManagementChannel.us - Jan 25, 2025 (0 programs)
+STDOUT: [986/1008] tvtv.us (en) - WWENetwork.ca - Jan 24, 2025 (6 programs)
+STDOUT: [987/1008] tvtv.us (en) - UniversalKidsEast.us - Jan 24, 2025 (58 programs)
+STDOUT: [988/1008] tvtv.us (en) - TheWeatherChannel.us - Jan 25, 2025 (24 programs)
+STDOUT: [989/1008] tvtv.us (en) - TSN4.ca - Jan 25, 2025 (21 programs)
+STDOUT: [990/1008] tvtv.us (en) - TBSWest.us - Jan 24, 2025 (42 programs)
+STDOUT: [991/1008] tvtv.us (en) - StarzEncoreActionEast.us - Jan 25, 2025 (13 programs)
+STDOUT: [992/1008] tvtv.us (en) - SmithsonianChannelEast.us - Jan 25, 2025 (24 programs)
+STDOUT: [993/1008] mytelly.co.uk (en) - SkyCinemaThriller.uk - Jan 25, 2025 (13 programs)
+STDOUT: [994/1008] tvtv.us (en) - ShowtimeShowcaseEast.us - Jan 24, 2025 (14 programs)
+STDOUT: [995/1008] xumo.tv (en) - XumoSwerveCombat.us - Jan 25, 2025 (14 programs)
+STDOUT: [996/1008] xumo.tv (en) - XumoLOLNetwork.us - Jan 24, 2025 (42 programs)
+STDOUT: [997/1008] xumo.tv (en) - XumoDryBarComedy.us - Jan 24, 2025 (34 programs)
+STDOUT: [998/1008] tvtv.us (en) - PBSEast.us - Jan 25, 2025 (35 programs)
+STDOUT: [999/1008] tvtv.us (en) - TheWeatherChannel.us - Jan 24, 2025 (24 programs)
+STDOUT: [1000/1008] tvtv.us (en) - TBSEast.us - Jan 25, 2025 (23 programs)
+STDOUT: [1001/1008] tvtv.us (en) - SmithsonianChannelEast.us - Jan 24, 2025 (24 programs)
+STDOUT: [1002/1008] ontvtonight.com (en) - ShowcaseEast.ca - Jan 25, 2025 (11 programs)
+STDOUT: [1003/1008] xumo.tv (en) - XumoJustforLaughsTV.ca - Jan 25, 2025 (36 programs)
+STDOUT: [1004/1008] tvtv.us (en) - PBSEast.us - Jan 24, 2025 (35 programs)
+STDOUT: [1005/1008] tvtv.us (en) - TBSEast.us - Jan 24, 2025 (42 programs)
+STDOUT: [1006/1008] ontvtonight.com (en) - ShowcaseEast.ca - Jan 24, 2025 (23 programs)
+STDOUT: [1007/1008] tvtv.us (en) - ABCEast.us - Jan 25, 2025 (16 programs)
+STDOUT: [1008/1008] i.mjh.nz (en) - SamsungVevo2010s.ca - Jan 25, 2025 (0 programs)
+STDOUT: saving to "./scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml"...
+STDOUT: done in 00h 03m 57s
+Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml executed successfully.
+Found 502 channel(s) in the output.
+Merging EPG data...
+No EPG URLs found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-start/epg_urls.txt, scanning /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end for XML files...
+EPG URLs or local XML files found: ['/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-28-55 PM.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml']
+Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-28-55 PM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-23-11-28-55 PM.xml
+Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-23-11-28-55 PM.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 23, 2025 11:32:55 PM ET
+Committing and pushing all updated files in the specified directories to GitHub...
+Staging files in directory: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www
+Staging files in directory: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end
+All files in the specified directories successfully committed and pushed to GitHub.
