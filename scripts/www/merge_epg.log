@@ -26682,3 +26682,9 @@ Jan 26 2025 10:09:18 - Error while running npm command npm run grab -- --channel
 Jan 26 2025 10:09:18 - Fetching 1/1 - /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-09-18 AM.xml
 Jan 26 2025 10:09:18 - Successfully loaded local file: /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-09-18 AM.xml
 Jan 26 2025 10:09:19 - EPG file successfully saved to /Users/nada/Documents/GitHub/tv/scripts/www/epg.xml at Jan 26, 2025 10:09:19 AM ET
+Jan 26 2025 10:34:50 - Starting EPG merge process...
+Jan 26 2025 10:34:50 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-10-34-50 AM.xml
+Jan 26 2025 10:34:50 - Error while running npm command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-10-34-50 AM.xml: [Errno 2] No such file or directory: 'npm'
+Jan 26 2025 10:34:50 - Fetching 1/1 - /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-34-50 AM.xml
+Jan 26 2025 10:34:50 - Successfully loaded local file: /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-34-50 AM.xml
+Jan 26 2025 10:34:51 - EPG file successfully saved to /Users/nada/Documents/GitHub/tv/scripts/www/epg.xml at Jan 26, 2025 10:34:51 AM ET
