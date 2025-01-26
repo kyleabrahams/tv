@@ -11,7 +11,7 @@
     "channels:validate": "npx tsx scripts/commands/channels/validate.ts",
     "sites:update": "npx tsx scripts/commands/sites/update.ts",
     "__comment": "npx tsx scripts/commands/epg/grab.ts",
-    "grab": "npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts",
+    "grab": "npx tsx ./scripts/commands/epg/grab.ts",
     "list": "node scripts/commands/list.js",
     "serve": "npx serve",
     "lint": "npx eslint \"{scripts,tests,sites}/**/*.{ts,js}\"",

@@ -26723,3 +26723,20 @@ Jan 26 2025 11:49:22 - Command npm run grab -- --channels=./scripts/_epg-start/c
 Jan 26 2025 11:49:22 - Fetching 1/1 - /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-11-49-18 AM.xml
 Jan 26 2025 11:49:22 - Successfully loaded local file: /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-11-49-18 AM.xml
 Jan 26 2025 11:49:22 - EPG file successfully saved to /Users/nada/Documents/GitHub/tv/scripts/www/epg.xml at Jan 26, 2025 11:49:22 AM ET
+Jan 26 2025 11:55:49 - Starting EPG merge process...
+Jan 26 2025 11:55:50 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-11-55-50 AM.xml
+Jan 26 2025 11:55:50 - STDOUT: 
+Jan 26 2025 11:55:50 - STDOUT: > grab
+Jan 26 2025 11:55:50 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-11-55-50 AM.xml
+Jan 26 2025 11:55:50 - STDOUT: 
+Jan 26 2025 11:55:52 - STDOUT: starting...
+Jan 26 2025 11:55:52 - STDOUT: config:
+Jan 26 2025 11:55:52 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-26-11-55-50 AM.xml
+Jan 26 2025 11:55:52 - STDOUT: maxConnections: 1
+Jan 26 2025 11:55:52 - STDOUT: gzip: false
+Jan 26 2025 11:55:52 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 26 2025 11:55:52 - STDOUT: loading channels...
+Jan 26 2025 11:55:52 - STDOUT: found 502 channel(s)
+Jan 26 2025 11:55:52 - STDOUT: run #1:
+Jan 26 2025 11:55:55 - STDOUT: [1/1022] ontvtonight.com (en) - AandECanada.ca - Jan 26, 2025 (42 programs)
+Jan 26 2025 11:55:55 - STDOUT: [2/1022] ontvtonight.com (en) - AandECanada.ca - Jan 27, 2025 (49 programs)
