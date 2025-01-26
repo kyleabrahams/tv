@@ -10,6 +10,9 @@ npm install -g iptv-checker epg-grabber @freearhey/core @freearhey/epg-grabber t
 
 npm install @freearhey/core commander cron epg-grabber
 
+pip install requests pytz
+
+
 # NPM packages installed
 npm list -g --depth=0
 
