@@ -9,7 +9,7 @@ https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 25 1237p
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 26 515p
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -115,12 +115,8 @@ http://fl1.moveonjoy.com/MUCH/index.m3u8
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418411
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="31 AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",US AMC 
 http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
-# #EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN 
-# http://fortv.cc:8080/105094817/105094817/47213
-# #EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN 
-# https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN 
-http://xxip25.top:8080/04760056/79599130/57398
+#EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN turner
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TLCEast.us" tvg-name="33 TLC USATV" tvg-logo="https://i.ibb.co/qrV4qws/tlc-logo-1-1.png" group-title="",US TLC
 http://fl2.moveonjoy.com/TLC/index.m3u8
 # #EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen True Crime
@@ -1293,6 +1289,12 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423722
 https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="CTVMontreal.ca" tvg-name="00 CTV Montreal" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Montreal xy
 https://xyzdddd.mizhls.ru/lb/premium831/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN fortv
+http://fortv.cc:8080/105094817/105094817/47213
+#EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",US CNN xxip25
+http://xxip25.top:8080/04760056/79599130/57398
+#EXTINF:-1 group-title="USA (DADDY LIVE)" tvg-id="CNN.HD.ca" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnn-us.png" tvg-name="CNN",US CNN xy
+https://xyzdddd.mizhls.ru/lb/premium345/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC fortv
 http://fortv.cc:8080/105094817/105094817/47332
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 41.205
