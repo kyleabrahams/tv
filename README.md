@@ -76,7 +76,7 @@ https://tinyurl.com/multiservice21?region=us&service=SamsungTVPlus
 https://tinyurl.com/multiservice21?region=ca&service=Plex
 
 
-npm run grab -- --channels=/Users/nada/Documents/GitHub/tv/sites/tvtv.us/tvtv.us.channels.xml --output=./_epg-end/tvtv.us.channels.xml_output.xml
+npm run channels:parse --- --config=./sites/tvpassport.com/tvpassport.com.config.js --output=./sites/tvpassport.com/tvpassport.com.channels.xml
 
 npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_TEST.xml --output=./_epg-end/channels_custom_end_Test.xml
 

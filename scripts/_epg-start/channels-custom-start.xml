@@ -4,7 +4,7 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="A.and.E.Canada.HD.ca" site_id="ae-us-hd-eastern-feed/17034">A&amp;E US HD - Eastern Feed</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="AandECanada" site_id="10035">A&amp;E East</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="AandECanada.ca" site_id="ca#69023215/ae-network-canada">A&amp;E Network Canada</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max--eastern/636">5 Star Max - Eastern</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="5StarMax.us" site_id="us#69050054/five-star-max">Five Star Max</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ABC.Spark.ca" site_id="abc-spark-hd/10282">ABC Spark HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="ABCSpark.ca" site_id="75031">ABC Spark</channel>
@@ -250,6 +250,7 @@
   <!-- <channel site="i.mjh.nz" lang="en" xmltv_id="ElectricNow.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-5f170d61b898490041b49360">Electric Now</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="ElectricNow.us" site_id="112797">Electric Now</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="FoxEast.us" site_id="fox-wutv-buffalo-ny-hd/3584">FOX (WUTV) Buffalo, NY HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="FoxEast.us" site_id="fox-wutv-buffalo-ny/45">FOX (WUTV) Buffalo, NY</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="FoxEast.us" site_id="10212">Fox East</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FXNetworks.ca" site_id="fx-networks-canada-hd/10027">FX Networks Canada HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="FXNetworks.ca" site_id="ca#69043794/fx-canada">FX (Canada)</channel>
@@ -287,7 +288,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FuseEast.us" site_id="fuse-tv-hd-eastern/6221">FUSE TV HD - Eastern</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="FuseEast.us" site_id="14929">Fuse East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="GreatAmericanCountry.us" site_id="gac-family-east-hd/11450">GAC Family - East HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="GreatAmericanCountry.us" site_id="16062">Great American Country</channel>  <channel site="tvpassport.com" lang="en" xmltv_id="GreatAmericanFamily.us" site_id="gac-family-east-hd/11450">GAC Family - East HD</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="GreatAmericanCountry.us" site_id="16062">Great American Country</channel>  
+  <channel site="tvpassport.com" lang="en" xmltv_id="GreatAmericanFamily.us" site_id="gac-family--east-hd/11450">GAC Family - East HD</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="GreatAmericanFamily.us" site_id="gac-family-east-hd/11450">GAC Family - East HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="GreatAmericanFamily.us" site_id="us#69045356/great-american-family-hdtv">Great American Family HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Game.Show.Network.-.East.ca" site_id="game-show-network-east/329">Game Show Network - East</channel>
