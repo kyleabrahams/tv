@@ -36,6 +36,8 @@ rm -rf node_modules
 ## Step 2: A virtual Python environment may be necessary; run the following command:
 python3 -m venv ~/venv
 source ~/venv/bin/activate
+python3 merge_epg.py
+
 
 ## Step 3: To fully automate the remaining installation, run the following script:
 cd scripts
