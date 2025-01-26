@@ -26688,3 +26688,38 @@ Jan 26 2025 10:34:50 - Error while running npm command npm run grab -- --channel
 Jan 26 2025 10:34:50 - Fetching 1/1 - /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-34-50 AM.xml
 Jan 26 2025 10:34:50 - Successfully loaded local file: /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-10-34-50 AM.xml
 Jan 26 2025 10:34:51 - EPG file successfully saved to /Users/nada/Documents/GitHub/tv/scripts/www/epg.xml at Jan 26, 2025 10:34:51 AM ET
+Jan 26 2025 11:49:17 - Starting EPG merge process...
+Jan 26 2025 11:49:18 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-11-49-18 AM.xml
+Jan 26 2025 11:49:20 - STDOUT: 
+Jan 26 2025 11:49:20 - STDOUT: > grab
+Jan 26 2025 11:49:20 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-11-49-18 AM.xml
+Jan 26 2025 11:49:20 - STDOUT: 
+Jan 26 2025 11:49:22 - STDERR: 
+Jan 26 2025 11:49:22 - STDERR: node:internal/modules/run_main:104
+Jan 26 2025 11:49:22 - STDERR: triggerUncaughtException(
+Jan 26 2025 11:49:22 - STDERR: ^
+Jan 26 2025 11:49:22 - STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts' imported from /Users/nada/Documents/GitHub/tv/
+Jan 26 2025 11:49:22 - STDERR: at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+Jan 26 2025 11:49:22 - STDERR: at moduleResolve (node:internal/modules/esm/resolve:860:10)
+Jan 26 2025 11:49:22 - STDERR: at defaultResolve (node:internal/modules/esm/resolve:984:11)
+Jan 26 2025 11:49:22 - STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+Jan 26 2025 11:49:22 - STDERR: at resolveBase (file:///Users/nada/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1737910161971:2:3212)
+Jan 26 2025 11:49:22 - STDERR: at async resolveDirectory (file:///Users/nada/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1737910161971:2:3578)
+Jan 26 2025 11:49:22 - STDERR: at async resolve (file:///Users/nada/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1737910161971:2:4441)
+Jan 26 2025 11:49:22 - STDERR: at async nextResolve (node:internal/modules/esm/hooks:748:22)
+Jan 26 2025 11:49:22 - STDERR: at async Hooks.resolve (node:internal/modules/esm/hooks:240:24)
+Jan 26 2025 11:49:22 - STDERR: at async handleMessage (node:internal/modules/esm/worker:199:18) {
+Jan 26 2025 11:49:22 - STDERR: code: 'ERR_MODULE_NOT_FOUND',
+Jan 26 2025 11:49:22 - STDERR: url: 'file:///Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts'
+Jan 26 2025 11:49:22 - STDERR: }
+Jan 26 2025 11:49:22 - STDERR: 
+Jan 26 2025 11:49:22 - STDERR: Node.js v23.6.1
+Jan 26 2025 11:49:22 - STDERR: npm notice
+Jan 26 2025 11:49:22 - STDERR: npm notice New major version of npm available! 10.9.2 -> 11.0.0
+Jan 26 2025 11:49:22 - STDERR: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+Jan 26 2025 11:49:22 - STDERR: npm notice To update run: npm install -g npm@11.0.0
+Jan 26 2025 11:49:22 - STDERR: npm notice
+Jan 26 2025 11:49:22 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-26-11-49-18 AM.xml failed with error code 1.
+Jan 26 2025 11:49:22 - Fetching 1/1 - /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-11-49-18 AM.xml
+Jan 26 2025 11:49:22 - Successfully loaded local file: /Users/nada/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-26-11-49-18 AM.xml
+Jan 26 2025 11:49:22 - EPG file successfully saved to /Users/nada/Documents/GitHub/tv/scripts/www/epg.xml at Jan 26, 2025 11:49:22 AM ET
