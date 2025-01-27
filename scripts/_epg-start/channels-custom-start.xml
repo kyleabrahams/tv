@@ -140,7 +140,9 @@
   <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#614386216/cablepulse-24-hdtv">CablePulse 24 HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CTV(CFTO)Toronto.ON.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69022464/ctv-calgary">CTV Calgary</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69022464/ctv-calgary">CTV Calgary</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69033181/ctv-calgary-hdtv">CTV Calgary HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#10635676313/ctv-calgary-descriptive-video">CTV Calgary (Descriptive Video)</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ctv-comedy-east-hd/10771">CTV Comedy - East HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ca#307789150/ctv-comedy-east-channel-hdtv">CTV COMEDY (East) Channel HDTV</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVComedyEast.ca" site_id="ca#69035889/ctv-comedy-east-channel">CTV Comedy (East) Channel</channel>
@@ -167,6 +169,8 @@
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVWild.ca" site_id="ca#69044451/animal-planet-canada-hdtv">Animal Planet Canada HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="ctv2-london-on-hd/9701">CTV2 London, ON HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="72720">CTV2 (CFPL-DT) London ON</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Ottawa.ca" site_id="ctv2-chro-dt-43-ottawa-on-hd/19889">CTV2 (CHRO-DT-43) Ottawa, ON HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Ottawa.ca" site_id="ctv2-chro-dt-43-ottawa-on/13791">CTV2 (CHRO-DT-43) Ottawa, ON</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CWEastNetwork.us" site_id="cw-knva-austin-tx/2475">CW (KNVA) Austin, TX</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CWEastNetwork.us" site_id="21657">CW (KIAH-DT1) Houston, TX</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CWEastNetwork.us" site_id="cw-network-eastern/1231">CW - Network Eastern</channel> -->
