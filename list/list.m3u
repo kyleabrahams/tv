@@ -9,7 +9,7 @@ https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 27 242p
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 27 256p
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -964,56 +964,56 @@ https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cloudskep
 http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cdn1.smart
-https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8
 #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 23.227 1
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607500
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 23.227 2
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD cdn1.smart
+https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD 23.227 2
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607524
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 newlife3
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/52116
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 ua-iptv
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD ua-iptv
 http://ua-iptv.com:8080/Balcony11/8036405556/856747
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 vipliar
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD vipliar
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/63145
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 ktv
-http://ktv.im:8080/48473774/938388484/112908
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 filex
+# #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 ktv
+# http://ktv.im:8080/48473774/938388484/112908
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD filex
 http://filex.tv:8080/aftab123/004090/316355
-#EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 newlife3 1
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/31147
+# #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 newlife3
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/52116
+# #EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 newlife3 1
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/31147
 #EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro6666 1
 http://pro6666.com:8080/dr.davidhouri/598627/471354
 #EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro6666 2
 http://pro6666.com:8080/dr.davidhouri/598627/471412
 #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat cloudskep
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat newlife3 2
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/31146
+# #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat newlife3 2
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/31146
 #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat vipliar
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2053
-#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat ktv
-http://ktv.im:8080/48473774/938388484/112974
+# #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat ktv
+# http://ktv.im:8080/48473774/938388484/112974
 #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega 23.227
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607526
-#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega newlife3
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/31188
+# #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega newlife3
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/31188
 #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega ua-iptv
 http://ua-iptv.com:8080/emmanuelepie/13598371/856776
 #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega vipliar
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2108
-#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega filex
-http://filex.tv:8080/aftab123/004090/316347
-#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV newlife3
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/52117
-#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV ktv
-http://ktv.im:8080/48473774/938388484/112907
+# #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega filex
+# http://filex.tv:8080/aftab123/004090/316347
+# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV newlife3
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/52117
+# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV ktv
+# http://ktv.im:8080/48473774/938388484/112907
 #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV 23.227
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/607523
-#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV filex
-http://filex.tv:8080/aftab123/004090/316354
-#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV futai
-http://futai.curmaresiurat.store:8080/642668025NetIPTv/twbMXXpGvxQYcGlsce9WAUflby8BNj/57434
+# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV filex
+# http://filex.tv:8080/aftab123/004090/316354
+# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV futai
+# http://futai.curmaresiurat.store:8080/642668025NetIPTv/twbMXXpGvxQYcGlsce9WAUflby8BNj/57434
 
 
 
