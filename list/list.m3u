@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/www/epg.xml"
 # #EXTINF:-1 tvg-id="CP24.ca" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24
 # http://fortv.cc:8080/105094817/105094817/47218
-#EXTINF:-1 tvg-id="CP24.ca" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24
+#EXTINF:-1 tvg-id="CP24.ca" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 fortv
 http://fortv.cc:8080/105094817/105094817/57257
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC xy
 https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -9,7 +9,7 @@ https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418474
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 26 515p
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 27 1114a
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418499
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -91,7 +91,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418450
 https://jmp2.uk/sam-CABC23000223U.m3u8
 # #EXTINF:-1 tvg-id="TheWeatherNetwork.ca" tvg-name="23 The Weather Network HD" tvg-logo="https://i.ibb.co/pK0ZKtT/the-weather-network-logo-vector-1.png" group-title="",The Weather Network 
 # http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418523
-#EXTINF:-1 tvg-id="CP24.ca" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News
+#EXTINF:-1 tvg-id="CP24.ca" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 23.227
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 # #EXTINF:-1 tvg-id="WNetworkWest.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="" tvg-shift="",W Network West
 # http://fortv.cc:8080/105094817/105094817/57284
@@ -101,7 +101,7 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418440
 http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 # #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed
 # http://fortv.cc:8080/105094817/105094817/46212
-#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed
+#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed 23.227
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423722
 #EXTINF:-1 tvg-id="Motortrend.us" tvg-name="28 US MotorTrend USATV" tvg-logo="https://i.ibb.co/6wrx7Nw/Motor-Trend-logo-1.png" group-title="",US MotorTrend  
 http://fl2.moveonjoy.com/MOTOR_TREND/index.m3u8
