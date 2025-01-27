@@ -449,7 +449,7 @@ eastern = pytz.timezone('US/Eastern')
 current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
 
-# Step 13: Save the merged EPG file and log success
+# Step 13: Save the merged EPG/log file and push to Github
 
 # Define the directory to auto-commit
 directories_to_commit = [
