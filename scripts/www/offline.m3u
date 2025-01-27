@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC xy (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Calgary xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium602/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX New York WNYW" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="" tvg-shift="0",FOX New York WNYW xy (HTTP 403 Forbidden)
@@ -11,16 +13,34 @@ https://xyzdddd.mizhls.ru/lb/premium769/index.m3u8|Referer=https://cookiewebplay
 https://xyzdddd.mizhls.ru/lb/premium766/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="CTV2.Toronto.ON.HD.ca" tvg-name="19 CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 London xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium838/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="",US Game Show Network (HTTP 404 Not Found)
-http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="",Game TV (HTTP 404 Not Found)
-http://newlife3.wanicelife.com:8880/D12m2770/52277683/2998
-#EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="",TV Ontario (HTTP 404 Not Found)
-http://fortv.cc:8080/105094817/105094817/57369
-#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",US Disney Junior (HTTP 404 Not Found)
-http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
+#EXTINF:-1 tvg-id="FXNetwork.us" tvg-name="14 FX" tvg-logo="https://i.ibb.co/6tCjHsW/FX-International-logo-color.png" group-title="",US FX (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium317/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="FXX.us" tvg-name="66 FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",US FXX (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium298/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="",Adult Swim (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1883.m3u8
 #EXTINF:-1 tvg-ID="HBOSignatureEast.us" tvg-name="US HBO Signature" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-signature-us.png?raw=true" group-title="Movies",US HBO Signature xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium693/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",TMC (HTTP 403 Forbidden)
+https://xyzdddd.mizhls.ru/lb/premium698/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="ShowtimeFamilyZoneEast.us" tvg-name="Showtime Family Zone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-family-zone-us.png?raw=true" group-title="Movies",Showtime Family Zone (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1464.m3u8
+#EXTINF:-1 tvg-id="ShowtimeShowcaseEast.us" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-showcase-us.png?raw=true" group-title="Movies",Showtime Showcase (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1465.m3u8
+#EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-drive-in-us.png?raw=true"group-title="Movies",MGM+ Drive-In (HTTP 404 Not Found)
+http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
+#EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1605.m3u8
+#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="Cinemax ActionMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",Cinemax ActionMax (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1604.m3u8
+#EXTINF:-1 tvg-id="ThrillerMaxEast.us" tvg-name="Cinemax ThrillerMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-thrillermax-us.png?raw=true" group-title="Movies",Cinemax ThrillerMax (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1607.m3u8
+#EXTINF:-1 tvg-ID="StarzInBlackEast.us" tvg-name="Starz in Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-black-us.png?raw=true" group-title="Movies",Starz in Black (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/397.m3u8
+#EXTINF:-1 tvg-ID="StarzKidsFamilyEast.us" tvg-name="Starz Kids & Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="Movies",Starz Kids & Family (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1248.m3u8
+#EXTINF:-1 tvg-ID="StarzCinemaEast.us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1250.m3u8
 #EXTINF:-1 group-title="" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium683/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 group-title="" tvg-id="SkyAtlantic.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/2560px-Sky_Atlantic_-_Logo_2020.svg.png" tvg-name="Sky Atlantic",Sky Atlantic (HTTP 403 Forbidden)
@@ -53,14 +73,14 @@ https://xyzdddd.mizhls.ru/lb/premium685/index.m3u8|Referer=https://cookiewebplay
 https://xyzdddd.mizhls.ru/lb/premium686/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 group-title="" tvg-id="SkyShowcase.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-showcase-uk.png" tvg-name="Sky Showcase",Sky Showcase (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium682/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="" tvg-id="SkyWitness.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" tvg-name="Sky Witness HD",Sky Witness HD (HTTP 403 Forbidden)
+#EXTINF:-1 group-title="" tvg-id="SkyWitness.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" tvg-name="Sky Witness HD",Sky Witness (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium361/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="PlexTheConners.us" tvg-name="The Conners" channel-id="647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415"  tvg-chno="" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png" group-title="Series",The Conners (FFMPEG Streams Not Found)
+https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415.m3u8
 #EXTINF:0 tvg-id="PlutoFrasier.us" tvg-name="" tvg-logo="https://i.ibb.co/7VLsm3w/frasier-tv-show-seeklogo-3.png" group-title="",Frasier (HTTP 500 Internal Server Error)
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62f4f90e39183b000769f12b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a54a1-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=385f93fc-8e79-4ac3-9478-5758ce4a3181&checkedby:iptvcat.net
 #EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen (FFMPEG Invalid Data)
 https://jmp2.uk/sam-USBB2900002Z7.m3u8
-#EXTINF:-1 tvg-id="ThisOldHouse.us" tvg-name="" tvg-logo="https://images.pluto.tv/series/5fd264c82068a9001a0be9cf/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Home & Food",This Old House (HTTP 408 Request Timeout)
-https://jmp2.uk/sam-CABB25000248J.m3u8
 #EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway (FFMPEG Invalid Data)
 https://jmp2.uk/sam-USBB3500004RC.m3u8
 #EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B (HTTP 404 Not Found)
@@ -93,6 +113,8 @@ https://xyzdddd.mizhls.ru/lb/premium699/index.m3u8|Referer=https://cookiewebplay
 https://xyzdddd.mizhls.ru/lb/premium322/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="IFCEast.us" tvg-name="US IFC" tvg-logo="https://i.ibb.co/ZfVsXpR/IFC-2018-logo-1.png" group-title="",IFC xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium656/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="Aspire.us" tvg-name="US Aspire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/aspire-tv-us.png?raw=true" group-title="",Aspire (HTTP 404 Not Found)
+http://fl3.moveonjoy.com/Aspire/index.m3u8
 #EXTINF:-1 tvg-id="AXStv.us" tvg-name="US AXS TV" tvg-logo="https://i.ibb.co/dgqcsw3/AXS-TV-logo-1.png" group-title="",AXS TV xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium742/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="",US Discovery Science xy (HTTP 403 Forbidden)
@@ -103,121 +125,17 @@ https://xyzdddd.mizhls.ru/lb/premium653/index.m3u8|Referer=https://cookiewebplay
 https://xyzdddd.mizhls.ru/lb/premium302/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="UniversalKidsEast.us" tvg-name="Universal Kids USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/universal-kids-us.png?raw=true" group-title="Kids",Universal Kids xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium668/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="Comet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/1200px-Comet_logo.svg.png" group-title="",Comet East (FFMPEG Invalid Data)
+https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+#EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="TLC list / One America News" tvg-logo="https://i.ibb.co/BPBKNLD/OAN-2.png" group-title="News",One America News (HTTP 4XX Client Error)
+http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/1183.m3u8
 #EXTINF:-1 tvg-id="CWEastNetwork.us" tvg-name="USA CW WUCW (Twin Cities) Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cw-us.png?raw=true" group-title="",CW Server 1 xy (HTTP 403 Forbidden)
 https://xyzdddd.mizhls.ru/lb/premium300/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="" tvg-name="tBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="",TBD. East (FFMPEG Invalid Data)
+https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+#EXTINF:-1 tvg-id="Charge.us" tvg-name="CBS.(WCWN-DT3).Albany,.NY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="",Charge East (FFMPEG Invalid Data)
+https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
 #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega ua-iptv (HTTP 408 Request Timeout)
 http://ua-iptv.com:8080/emmanuelepie/13598371/856776
-#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV futai (HTTP 404 Not Found)
-http://futai.curmaresiurat.store:8080/642668025NetIPTv/twbMXXpGvxQYcGlsce9WAUflby8BNj/57434
-#EXTINF:-1 tvg-id="Sportsnet360.ca" group-title="Sports" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" tvg-name="Sportsnet 360",Sportsnet 360 xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium409/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetEast.ca" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" tvg-name="Sportsnet East",Sportsnet East xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium408/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetOne.ca" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" tvg-name="Sportsnet One",Sportsnet One xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium411/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetOntario.ca" group-title="Sports" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" tvg-name="Sportsnet Ontario",Sportsnet Ontario xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium406/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetWest.ca" group-title="Sports"  tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" tvg-name="Sportsnet West",Sportsnet West xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium407/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsnetWorld.ca" group-title="Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" tvg-name="Sportsnet World",Sportsnet World xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium410/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="NFL RedZone HDTV.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium667/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="SEC Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sec-network-us.png?raw=true" group-title="Sports",SEC Network xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium385/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SportsNetNewYork.us" tvg-name="SNY" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sny-us.png?raw=true" group-title="Sports",SNY xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium759/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="NESN.us" tvg-name="NESN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nesn-us.png?raw=true" group-title="Sports",NESN xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium762/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="NBATVCanada.ca" tvg-name="CA032:NBA" tvg-logo="https://i.ibb.co/Dg29BTq/nba-canada-v2.png" group-title="Sports",NBA TV (HTTP 403 Forbidden)
-http://fortv.cc:8080/WjtGD2/235867/22995
-#EXTINF:-1 tvg-id="AltitudeSportsDenver.us" tvg-name="Altitude Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/altitude-sports-us.png?raw=true" group-title="Sports",Altitude Sports xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium923/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="MSG.us" tvg-name="MSG / Madison Square Garden" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium765/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="MASN.us" tvg-name="Mid-Atlantic Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium829/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Willow.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow (HTTP 408 Request Timeout)
-https://tx2.nexgen.bz:443/WILLOW/index.m3u8
-#EXTINF:-1 tvg-id="SpectrumSportsNet.us" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium764/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Sports",Fox Sports Racing (HTTP 403 Forbidden)
-http://cdn1host.online:2999/live/xman2/hhqgjFfHXF/8430.m3u8
-#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-soccer-plus-us.png" group-title="Sports" ,FOX Soccer Plus (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium756/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="LiverpoolTV.uk" tvg-name="Liverpool TV (LFC TV)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lfctv-uk.png" group-title="Sports" ,Liverpool TV (LFC TV) (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium826/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 group-title="Sports" tvg-id="NBCSportsBayArea.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-sports-us.png?raw=true" tvg-name="NBC Sports Bay Area",NBC Sports Bay Area xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium753/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="NBCSportsBoston.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-sports-us.png?raw=true" tvg-name="NBC Sports Boston",NBC Sports Boston xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium754/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="NBCSportsCalifornia.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbcsn-california-us.png?raw=true" tvg-name="NBC Sports California",NBC Sports California xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium755/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="NBCSportsChicago.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-sports-us.png?raw=true" tvg-name="NBC Sports Chicago",NBC Sports Chicago xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium776/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="NBCSportsPhiladelphia.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbcsn-philadelphia-us.png?raw=true" tvg-name="NBC Sports Philadelphia",NBC Sports Philadelphia xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium777/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 Server 3 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/45.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U Server 2 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/316.m3u8
-#EXTINF:-1 tvg-id="BigTenNetwork.us" tvg-name="BIG Network Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/big-ten-network-us.png?raw=true" group-title="Sports",BIG Network Server 3 (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/397.m3u8
-#EXTINF:-1 tvg-id="BallySportsDetroit.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Detroit xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium891/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsFlorida.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Florida xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium892/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="Bally Sports Great Lakes HD.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Great Lakes xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium893/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsIndiana.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Indiana xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium894/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsKansas.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Kansas City xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium895/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsMidwestStLouis.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Midwest xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium896/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsNorth.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel North xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium898/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsOhio.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Ohio xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium899/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsOklahoma.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Oklahoma xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium900/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsSoCal.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel SoCal xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium902/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsSouthAtlanta.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel South xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium903/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsSoutheastGeorgia.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southeast xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium904/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsFlorida.us" tvg-name="Rays Marlins Panthers Fanduel Sun" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Sun xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium905/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsArizona.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel West xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium906/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="BallySportsWisconsin.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Wisconsin xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium907/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsTopEvent.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/germany/sky-sport/sky-sport-top-event-de.png" tvg-name="Sky Sport Top Event DE",Sky Sport Top Event DE (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium556/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsAction.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-action-uk.png" tvg-name="Sky Sports Action",Sky Sports Action (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium37/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsArena" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-arena-uk.png" tvg-name="Sky Sports Arena",Sky Sports Arena (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium36/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsCricket.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-cricket-uk.png?raw=true" tvg-name="Sky Sports Cricket",Sky Sports Cricket (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium65/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsF1.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-f1-uk.png" tvg-name="Sky Sports F1",Sky Sports F1 (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium60/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsFootball.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-football-uk.png" tvg-name="Sky Sports Football",Sky Sports Football (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium35/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsGolf.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-golf-uk.png" tvg-name="Sky Sports Golf",Sky Sports Golf (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium70/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsMainEvent.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/hd/sky-sports-main-event-hd-uk.png" tvg-name="Sky Sports Main Event",Sky Sports Main Event (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium38/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsMix.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-mix-uk.png" tvg-name="Sky Sports MIX",Sky Sports MIX (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium557/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsNews.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-sports-news-uk.png" tvg-name="Sky Sports News",Sky Sports News (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium366/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsPremierLeague.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-premier-league-uk.png?raw=true" tvg-name="Sky sports Premier League",Sky sports Premier League (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium130/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Sports" tvg-id="SkySportsRacing.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-racing-uk.png?raw=true" tvg-name="Sky Sports Racing",Sky Sports Racing (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium554/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1,832 CBC Toronto (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CTVMontreal.ca" tvg-name="00 CTV Montreal" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Montreal xy (HTTP 403 Forbidden)
-https://xyzdddd.mizhls.ru/lb/premium831/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV ktv (HTTP 408 Request Timeout)
+http://ktv.im:8080/48473774/938388484/112907

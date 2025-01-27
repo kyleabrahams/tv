@@ -1,17 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
-http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423799
-#EXTINF:-1 tvg-id="HBOPopLatinAmerica.us" tvg-name="US HBO Pop" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/hbo-pop-ar.png?raw=true" group-title="",US HBO Pop
-http://fl2.moveonjoy.com/HBO_2/index.m3u8
+https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambience",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
-#EXTINF:-1 tvg-id="GreatAmericanCountry.us" tvg-name="US GAC Family (S)" tvg-logo="https://i.ibb.co/YTJQxGQ/Great-American-Family-logo-svg-1.png" group-title="",Great American Country xy
-https://xyzdddd.mizhls.ru/lb/premium699/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="US MTV USATV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="",US MTV 
-http://fl2.moveonjoy.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="CA7000015K" tvg-name="------|Pluto Xumo|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",---|Pluto,Xumo|---
 https://jmp2.uk/sam-CA7000015K.m3u8
-#EXTINF:-1 tvg-id="BallySportsSouthwest.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southwest xy  
-https://xyzdddd.mizhls.ru/lb/premium903/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 CTV Speed / Discovery Velocity" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed
+#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 CTV Speed / Discovery Velocity" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed 23.227
 http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/423722
