@@ -1193,3 +1193,24 @@ Jan 27 2025 22:18:00 - Command npm run grab -- --channels=./scripts/_epg-start/c
 Jan 27 2025 22:18:00 - Fetching 1/1 - https://github.com/dtankdempse/daddylive-m3u/raw/refs/heads/main/epg.xml
 Jan 27 2025 22:18:00 - Successfully fetched 1/1
 Jan 27 2025 22:18:02 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 27, 2025 10:18:01 PM ET
+Jan 27 2025 22:20:09 - Starting EPG merge process...
+Jan 27 2025 22:20:09 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-20-09 PM.xml
+Jan 27 2025 22:20:09 - STDOUT: 
+Jan 27 2025 22:20:09 - STDOUT: > grab
+Jan 27 2025 22:20:09 - STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-20-09 PM.xml
+Jan 27 2025 22:20:09 - STDOUT: 
+Jan 27 2025 22:20:10 - STDOUT: starting...
+Jan 27 2025 22:20:10 - STDOUT: config:
+Jan 27 2025 22:20:10 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-27-10-20-09 PM.xml
+Jan 27 2025 22:20:10 - STDOUT: maxConnections: 1
+Jan 27 2025 22:20:10 - STDOUT: gzip: false
+Jan 27 2025 22:20:10 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 27 2025 22:20:10 - STDOUT: loading channels...
+Jan 27 2025 22:20:10 - STDOUT: found 510 channel(s)
+Jan 27 2025 22:20:10 - STDOUT: run #1:
+Jan 27 2025 22:20:11 - STDOUT: [1/1046] ontvtonight.com (en) - AandECanada.ca - Jan 28, 2025 (48 programs)
+Jan 27 2025 22:20:11 - STDOUT: [2/1046] ontvtonight.com (en) - AandECanada.ca - Jan 29, 2025 (47 programs)
+Jan 27 2025 22:20:15 - STDOUT: [3/1046] tvpassport.com (en) - 5StarMax.us - Jan 29, 2025 (15 programs)
+Jan 27 2025 22:20:15 - STDOUT: [4/1046] tvtv.us (en) - ABCNewsLive.us - Jan 28, 2025 (35 programs)
+Jan 27 2025 22:20:15 - STDOUT: [5/1046] cosmotetv.gr (el) - ANT1HD.gr - Jan 28, 2025 (18 programs)
+Jan 27 2025 22:20:16 - STDOUT: [6/1046] tvtv.us (en) - AEEast.us - Jan 28, 2025 (48 programs)
