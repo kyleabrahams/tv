@@ -1,30 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="69029990LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="69029990LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature-4k/33687">Love Nature 4K</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature-hd/31482">Love Nature HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature/3907">Love Nature</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="LNHLoveNature.ca" site_id="LNH">Love Nature HD</channel>
-  <channel site="mytvsuper.com" lang="zh" xmltv_id="LNHLoveNature.ca" site_id="LNH">Love Nature HD</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69044231/ctv-sci-fi-channel-hdtv">CTV SCI-FI Channel HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="ontvtonightCTVSciFiChannel.ca" site_id="ca#69036357/ctv-sci-fi-channel-sd">CTV SCI-FI Channel SD</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="ontvtonightCTVSciFiChannel.ca" site_id="ca#69036357/ctv-sci-fi-channel-sd">CTV SCI-FI Channel SD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi-dv/3968">CTV Sci-Fi DV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi-hd/10042">CTV Sci-Fi HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi/153">CTV Sci-Fi</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="tvtvCTVSci-Fi.ca" site_id="72484">CTV Sci-Fi Channel</channel>
-  <channel site="tvinsider.com" lang="en" xmltv_id="tvinsiderNatGeoWild.us" site_id="nat-geo-wild">Nat Geo Wild</channel>
-  <channel site="streamingtvguides.com" lang="en" xmltv_id="streamingtvguidesNatGeo" site_id="DTV:NGW:283">Nat Geo WILD</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="69032459MTV.us" site_id="us#69032459/mtv-hdtv-east">MTV HDTV (East)</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="69047163MTV.us" site_id="us#69047163/mtv-east">MTV (East)</channel>
-  <channel site="tvinsider.com" lang="en" xmltv_id="tvinsiderMTV.us" site_id="mtv">MTV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="414MTV.us" site_id="mtv-canada/414">MTV Canada</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="4525MTV.us" site_id="mtv-usa-hd-eastern/4525">MTV USA HD - Eastern</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="10986MTVEast.us" site_id="10986">MTV East</channel>
-  <channel site="streamingtvguides.com" lang="en" xmltv_id="streamingtvguidesMTV.us" site_id="CLIKIA:MTV">MTV</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233006803">MSNBC</channel>
+  <!-- <channel site="flixed.io" lang="en" xmltv_id="" site_id="16300">MSNBC</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021281/msnbc-canada">MSNBC Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#10628174426/msnbc-canada-alternate">MSNBC Canada Alternate</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#302046160/msnbc-hdtv-canada">MSNBC HDTV Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021281/msnbc-canada">MSNBC Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69023101/msnbc">msnbc</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69033981/msnbc-hdtv">msnbc HDTV</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="msnbc">MSNBC</channel>
 
   <channel site="flixed.io" lang="en" xmltv_id="12574FoodNetworkEast.us" site_id="12574">Food Network (East)</channel>
   <channel site="flixed.io" lang="en" xmltv_id="50747FoodNetworkEast.us" site_id="50747">Food Network HD</channel>

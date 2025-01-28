@@ -165,9 +165,9 @@ def run_dummy_epg():
 if __name__ == "__main__":
     run_dummy_epg()
 
-Step 2.2: Function to load channel data from a JSON file (  channels.json  )
-Include channels_json.xml in epg_urls.txt 
-python3 merge_epg.py
+# Step 2.2: Function to load channel data from a JSON file (  channels.json  )
+# Include channels_json.xml in epg_urls.txt 
+# python3 merge_epg.py
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file

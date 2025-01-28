@@ -420,7 +420,8 @@
   <channel site="tvtv.us" lang="en" xmltv_id="MSG2.us" site_id="11105">MSG Plus</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MSNBC.us" site_id="msnbc-canada-hd/8430">MSNBC Canada HD</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MSNBC.us" site_id="16300">MSNBC</channel> -->
-  <channel site="tvguide.com" lang="en" xmltv_id="MSNBC.us" site_id="9233006803">MSNBC</channel>
+  <!-- <channel site="tvguide.com" lang="en" xmltv_id="MSNBC.us" site_id="9233006803">MSNBC</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="MSNBC.us" site_id="ca#69021281/msnbc-canada">MSNBC Canada</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MTV2East.us" site_id="mtv-2-east-hd/10276">MTV 2 East HD</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MTV2East.us" site_id="16361">MTV2 East</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="MTV2East.us" site_id="us#69032459/mtv-hdtv-east">MTV HDTV (East)</channel>
