@@ -371,8 +371,8 @@ http://23.227.140.75:3050/mcneelyken@ymail.com/9706320021/418631
 http://fl3.moveonjoy.com/Sony_Movie_Channel/index.m3u8
 #EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",TMC
 https://xyzdddd.mizhls.ru/lb/premium698/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-# #EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
-# http://cdn1host.online:2999/victordj/uTFOfl9Usq/1217
+#EXTINF:-1 tvg-id="SonyMovies.us" tvg-name="Sony Movie Channel (720p)" tvg-logo="https://i.ibb.co/HF3RkJr/Sony-Movies-Logo-svg.png" group-title="Movies",Sony Movie Channel
+http://cdn1host.online:2999/victordj/uTFOfl9Usq/1217
 #EXTINF:-1 tvg-id="Paramount+withShowtimeWest.us" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime 
 http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 
@@ -397,7 +397,7 @@ http://fl2.moveonjoy.com/EPIX/index.m3u8
 http://fl2.moveonjoy.com/EPIX_HITS/index.m3u8
 #EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-drive-in-us.png?raw=true"group-title="Movies",MGM+ Drive-In 
 http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
-#EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",5 StarMax 
+#EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax 
 http://cdn1host.online:2999/kratorius/opLcbhlXaT/1603
 #EXTINF:-1 tvg-id="CinemaxEastHD.us" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",Cinemax 
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8

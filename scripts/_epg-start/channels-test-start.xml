@@ -1,13 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022475/omni1">Omni.1</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69023490/omni-british-columbia">OMNI British Columbia</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69026134/omni2-hdtv">Omni2 HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69026135/omni1-hdtv">Omni.1 HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147982744/omni-pacific-hdtv">OMNI Pacific HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5151627333/omni-prairies-hdtv">OMNI Prairies HDTV</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="CBSEast.us" site_id="9200018514">CBS National</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="NBCEast.us" site_id="9233009876">NBC National</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="ABCEast.us" site_id="9233011874">ABC Network Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="ctv2-london-on-hd/9701">CTV2 London, ON HD</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="6536721dbfbaec00088687c0">CBC News Toronto</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233013812">CNN</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="58646">CNN</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#307766220/history2-canada">History2 Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#538514037/history2-hdtv-canada">History2 HDTV Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#307766220/history2-canada">History2 Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69028596/amc-canada">AMC (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69034397/amc-hdtv-canada">AMC HDTV (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69028596/amc-canada">AMC (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69034397/amc-hdtv-canada">AMC HDTV (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="au#3176/tlc">TLC</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="tlc">TLC</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tlc-canada-hd/6779">TLC Canada HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="tlc-canada/1204">TLC Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="au#3168/cnn">CNN</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="tvguideHGTVEast.us" site_id="9233004104">HGTV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="dsi-hgtv-usa--eastern/33756">DSI: HGTV USA - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-canada-on-demand/4335">HGTV Canada On Demand</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--eastern-feed/623">HGTV USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--hawaii/6073">HGTV USA - Hawaii</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa--pacific-feed/1277">HGTV USA - Pacific Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa-hd--eastern/3690">HGTV USA HD - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="hgtv-usa-hd--pacific-feed/16232">HGTV USA HD - Pacific Feed</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="tvtvHGTVEast.us" site_id="14902">HGTV East</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature-4k/33687">Love Nature 4K</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature-hd/31482">Love Nature HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="love-nature/3907">Love Nature</channel>
+  <channel site="mytvsuper.com" lang="en" xmltv_id="LoveNature.ca" site_id="LNH">Love Nature HD</channel>
+  <channel site="mytvsuper.com" lang="zh" xmltv_id="LoveNature.ca" site_id="LNH">Love Nature HD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69044231/ctv-sci-fi-channel-hdtv">CTV SCI-FI Channel HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="ontvtonightCTVSciFiChannel.ca" site_id="ca#69036357/ctv-sci-fi-channel-sd">CTV SCI-FI Channel SD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69044231/ctv-sci-fi-channel-hdtv">CTV SCI-FI Channel HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="ontvtonightCTVSciFiChannel.ca" site_id="ca#69036357/ctv-sci-fi-channel-sd">CTV SCI-FI Channel SD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi-dv/3968">CTV Sci-Fi DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi-hd/10042">CTV Sci-Fi HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="ctv-sci-fi/153">CTV Sci-Fi</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="tvtvCTVSci-Fi.ca" site_id="72484">CTV Sci-Fi Channel</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="tvinsiderNatGeoWild.us" site_id="nat-geo-wild">Nat Geo Wild</channel>
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="streamingtvguidesNatGeo" site_id="DTV:NGW:283">Nat Geo WILD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="69032459MTV.us" site_id="us#69032459/mtv-hdtv-east">MTV HDTV (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="69047163MTV.us" site_id="us#69047163/mtv-east">MTV (East)</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="tvinsiderMTV.us" site_id="mtv">MTV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="414MTV.us" site_id="mtv-canada/414">MTV Canada</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="4525MTV.us" site_id="mtv-usa-hd--eastern/4525">MTV USA HD - Eastern</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="10986MTVEast.us" site_id="10986">MTV East</channel>
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="streamingtvguidesMTV.us" site_id="CLIKIA:MTV">MTV</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="12574FoodNetworkEast.us" site_id="12574">Food Network (East)</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="50747FoodNetworkEast.us" site_id="50747">Food Network HD</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="9233009448FoodNetworkEast.us" site_id="9233009448">Food Network</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa--eastern-feed/1054">Food Network USA - Eastern Feed</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="food-network-usa-hd--eastern-feed/3438">Food Network USA HD - Eastern Feed</channel>
 
 </channels>
 
