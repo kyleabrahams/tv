@@ -16,7 +16,11 @@
   <channel site="tvtv.us" lang="en" xmltv_id="AMC+.us" site_id="114759">AMC Plus</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AMCEast.us" site_id="amc-eastern-feed/177">AMC - Eastern Feed</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="AMCEast.us" site_id="amc-eastern-feed-hd/6219">AMC - Eastern Feed HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="AMCEast.us" site_id="10021">AMC East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="AMCEast.us" site_id="10021">AMC East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AMCEast.us" site_id="ca#69028596/amc-canada">AMC (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AMCEast.us" site_id="ca#69034397/amc-hdtv-canada">AMC HDTV (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AMCEast.us" site_id="ca#69028596/amc-canada">AMC (Canada)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AMCEast.us" site_id="ca#69034397/amc-hdtv-canada">AMC HDTV (Canada)</channel>
   <channel site="cosmotetv.gr" lang="el" xmltv_id="ANT1HD.gr" site_id="ant1hd">ANT1 HD</channel>
   <channel site="cyta.com.cy" lang="el" xmltv_id="ANT1.gr" site_id="289542">ANT1 TV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="APTN.East.ca" site_id="aptn-east/198">APTN - East</channel> -->
@@ -134,7 +138,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CNBC.World.us" site_id="cnbc-world/2664">CNBC World</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="CNBC.World.us" site_id="26849">CNBC World</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CNN.HD.ca" site_id="cnn-hd/4724">CNN HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="CNN.HD.ca" site_id="58646">CNN</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="CNN.HD.ca" site_id="58646">CNN</channel>   -->
+  <channel site="tvguide.com" lang="en" xmltv_id="CNN.HD.ca" site_id="9233013812">CNN</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CP24.ca" site_id="cp24-cablepulse-24-hd/10809">CP24 (CablePulse 24) HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#69045057/cablepulse-24">CablePulse 24</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#614386216/cablepulse-24-hdtv">CablePulse 24 HDTV</channel>
@@ -161,7 +166,8 @@
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ca#69045105/ctv-news-channel">CTV News Channel</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVNewsChannel.ca" site_id="ca#69047350/ctv-news-channel-hdtv">CTV News Channel HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="ctv-sci-fi-hd/10042">CTV Sci-Fi HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="72484">CTV Sci-Fi Channel</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="72484">CTV Sci-Fi Channel</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="CTV.Sci-Fi.ca" site_id="ca#69044231/ctv-sci-fi-channel-hdtv">CTV SCI-FI Channel HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVSpeed.ca" site_id="discovery-velocity-hd/3887">CTV Speed HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVSpeed.ca" site_id="ca#69023735/discovery-velocity-hdtv">Discovery Velocity HDTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVWild.ca" site_id="animal-planet-canada-hd/10044">CTV Wild Canada HD</channel> -->
@@ -276,7 +282,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Flavour.Network.Canada.ca" site_id="food-network-canada-hd/8389">Flavour Network HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="Flavour.Network.Canada.ca" site_id="ca#69043424/food-network-hdtv-canada">Food Network HDTV (Canada)</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoodNetworkEast.us" site_id="food-network-usa-hd-eastern-feed/3438">Food Network USA HD - Eastern Feed</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="FoodNetworkEast.us" site_id="12574">Food Network East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="FoodNetworkEast.us" site_id="12574">Food Network East</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="FoodNetworkEast.us" site_id="9233009448">Food Network</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoxNewsChannel.us" site_id="fox-news-hd/6207">Fox News HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="FoxNewsChannel.us" site_id="60179">FOX News</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="FoxBusinessNetwork.us" site_id="fox-business-hd/5600">Fox Business HD</channel> -->
@@ -337,7 +344,8 @@
   <channel site="tvtv.us" lang="en" xmltv_id="HBOZoneEast.us" site_id="18431">HBO Zone East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-eastern-feed/623">HGTV USA - Eastern Feed</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-hd-eastern/3690">HGTV USA HD - Eastern</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="HGTVEast.us" site_id="14902">HGTV East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="HGTVEast.us" site_id="14902">HGTV East</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="HGTVEast.us" site_id="9233004104">HGTV</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HLN.ca" site_id="hln-hd/6994">HLN HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="HLN.us" site_id="10145">HLN</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HallmarkChannelEast.us" site_id="hallmark-eastern-feed/1052">Hallmark - Eastern Feed</channel> -->
@@ -346,6 +354,8 @@
   <channel site="tvtv.us" lang="en" xmltv_id="HallmarkMoviesMysteriesEast.us" site_id="61522">Hallmark Movies &amp; Mysteries East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="History2.ca" site_id="history-2-canada-hd/8457">History 2 Canada HD</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="History2.ca" site_id="26772">History2 Canada</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="History2.ca" site_id="ca#307766220/history2-canada">History2 Canada</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="History2.ca" site_id="ca#538514037/history2-hdtv-canada">History2 HDTV Canada</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="History2.ca" site_id="ca#307766220/history2-canada">History2 Canada</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="History2.ca" site_id="ca#538514037/history2-hdtv-canada">History2 HDTV Canada</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="History2.ca" site_id="ca#307766220/history2-canada">History2 Canada</channel> -->
@@ -385,13 +395,12 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="LoveNature.ca" site_id="love-nature/3907">Love Nature</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="LoveNature.ca" site_id="52745">Love Nature</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="LoveNature.us" site_id="love-nature-hd/31482">Love Nature HD</channel> -->
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel>
-
+  <channel site="ontvtonight.com" lang="en" xmltv_id="LoveNature.ca" site_id="ca#69029990/love-nature">Love Nature</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MASN.us" site_id="mid-atlantic-sports-network-hd/7233">Mid-Atlantic Sports Network HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="MASN.us" site_id="46817">MASN</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
@@ -413,7 +422,8 @@
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MSNBC.us" site_id="16300">MSNBC</channel> -->
   <channel site="tvguide.com" lang="en" xmltv_id="MSNBC.us" site_id="9233006803">MSNBC</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MTV2East.us" site_id="mtv-2-east-hd/10276">MTV 2 East HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="MTV2East.us" site_id="16361">MTV2 East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="MTV2East.us" site_id="16361">MTV2 East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="MTV2East.us" site_id="us#69032459/mtv-hdtv-east">MTV HDTV (East)</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MTVClassicEast.us" site_id="mtv-classic-east/2093">MTV Classic - East</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="MTVClassicEast.us" site_id="22561">MTV Classic East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MTVEast.us" site_id="mtv-usa-eastern-feed/656">MTV USA - Eastern Feed</channel>
@@ -470,7 +480,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NHLNetwork.us" site_id="nhl-network-usa-hd/14157">NHL Network USA HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NHLNetwork.us" site_id="58570">NHL Network</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="national-geographic-wild-canada-hd/11012">National Geographic Wild Canada HD</channel> -->
-  <channel site="ontvtonight.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="ca#69046009/natgeo-wild-canada-hdtv">NatGeo WILD Canada HDTV</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="ca#69046009/natgeo-wild-canada-hdtv">NatGeo WILD Canada HDTV</channel> -->
+  <channel site="tvinsider.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="nat-geo-wild">Nat Geo Wild</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicEast.us" site_id="national-geographic-us-hd-eastern/4436">National Geographic US HD - Eastern</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NationalGeographicEast.us" site_id="49438">National Geographic East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild/7537">National Geographic Wild</channel>
@@ -739,7 +750,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TCMEast.us" site_id="turner-classic-movies-usa/176">Turner Classic Movies USA</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TLCEast.us" site_id="tlc-usa-eastern/5005">TLC USA - Eastern</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="TLCEast.us" site_id="tlc-usa-hd-eastern/5004">TLC USA HD - Eastern</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="TLCEast.us" site_id="11158">TLC East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="TLCEast.us" site_id="11158">TLC East</channel> -->
+  <channel site="tvinsider.com" lang="en" xmltv_id="TLCEast.us" site_id="tlc">TLC</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TNTEast.us" site_id="tnt-hd-east-feed/3037">TNT HD - East Feed</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="TNTEast.us" site_id="42642">TNT East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TSN1.ca" site_id="tsn1/11">TSN1</channel>
