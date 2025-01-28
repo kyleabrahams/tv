@@ -1413,3 +1413,34 @@ Jan 27 2025 22:46:03 - Fetching 1/1 - https://github.com/dtankdempse/daddylive-m
 Jan 27 2025 22:46:04 - Successfully fetched 1/1
 Jan 27 2025 22:46:06 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 27, 2025 10:46:05 PM ET
 Jan 27 2025 22:46:06 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 27 2025 22:49:01 - Starting EPG merge process...
+Jan 27 2025 22:49:01 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-49-01 PM.xml
+Jan 27 2025 22:49:02 - STDOUT: 
+Jan 27 2025 22:49:02 - STDOUT: > grab
+Jan 27 2025 22:49:02 - STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-49-01 PM.xml
+Jan 27 2025 22:49:02 - STDOUT: 
+Jan 27 2025 22:49:04 - STDERR: 
+Jan 27 2025 22:49:04 - STDERR: node:internal/modules/run_main:122
+Jan 27 2025 22:49:04 - STDERR: triggerUncaughtException(
+Jan 27 2025 22:49:04 - STDERR: ^
+Jan 27 2025 22:49:04 - STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/scripts/commands/epg/grab.ts' imported from /Users/kyleabrahams/
+Jan 27 2025 22:49:04 - STDERR: at finalizeResolution (node:internal/modules/esm/resolve:257:11)
+Jan 27 2025 22:49:04 - STDERR: at moduleResolve (node:internal/modules/esm/resolve:913:10)
+Jan 27 2025 22:49:04 - STDERR: at defaultResolve (node:internal/modules/esm/resolve:1037:11)
+Jan 27 2025 22:49:04 - STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+Jan 27 2025 22:49:04 - STDERR: at resolveBase (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1738036143870:2:3212)
+Jan 27 2025 22:49:04 - STDERR: at resolveDirectory (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1738036143870:2:3584)
+Jan 27 2025 22:49:04 - STDERR: at resolveTsPaths (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1738036143870:2:4073)
+Jan 27 2025 22:49:04 - STDERR: at resolve (file:///Users/kyleabrahams/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/esm/index.mjs?1738036143870:2:4447)
+Jan 27 2025 22:49:04 - STDERR: at nextResolve (node:internal/modules/esm/hooks:748:28)
+Jan 27 2025 22:49:04 - STDERR: at Hooks.resolve (node:internal/modules/esm/hooks:240:30) {
+Jan 27 2025 22:49:04 - STDERR: code: 'ERR_MODULE_NOT_FOUND',
+Jan 27 2025 22:49:04 - STDERR: url: 'file:///Users/kyleabrahams/scripts/commands/epg/grab.ts'
+Jan 27 2025 22:49:04 - STDERR: }
+Jan 27 2025 22:49:04 - STDERR: 
+Jan 27 2025 22:49:04 - STDERR: Node.js v22.11.0
+Jan 27 2025 22:49:04 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-49-01 PM.xml failed with error code 1.
+Jan 27 2025 22:49:04 - Fetching 1/1 - https://github.com/dtankdempse/daddylive-m3u/raw/refs/heads/main/epg.xml
+Jan 27 2025 22:49:05 - Successfully fetched 1/1
+Jan 27 2025 22:49:07 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 27, 2025 10:49:05 PM ET
+Jan 27 2025 22:49:07 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
