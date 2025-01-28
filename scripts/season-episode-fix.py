@@ -11,14 +11,21 @@ logging.basicConfig(
 
 def rename_files(media_dir):
     """
-    Renames Greek media files in the given directory, changing instances of '1οςκυκλος' to 'S01', 
-    and following Plex naming conventions.
+    Renames Greek media files in the given directory to follow Plex naming conventions:
+    'Β' season Επεισόδιο 1' -> 'S02E01'.
     """
-    # Regex pattern to capture the season and episode
+    # Regex pattern to match Greek season and episode naming
     pattern = re.compile(
-        r"^(.*?)\s*(\d+)(?:οςκυκλος)?\s*(?:[-–\s]|\b)?(?:επεισ?)(\d+)(.*?)(\.mp4|\.avi|\.mkv|\.flv|\.mov|\.wmv)?$",
+        r"^(.*?)\s*(?:[Α-Ω']+\s?season)?\s*(?:Β'?|Γ'?|Δ'?)?\s*(?:Επεισ?)(\d+)(.*?)(\.mp4|\.avi|\.mkv|\.flv|\.mov|\.wmv)?$",
         re.IGNORECASE
     )
+
+    # Map Greek season identifiers to numeric values
+    season_map = {
+        "Α": 1, "Β": 2, "Γ": 3, "Δ": 4,
+        "Ε": 5, "ΣΤ": 6, "Ζ": 7, "Η": 8,
+        "Θ": 9, "Ι": 10
+    }
 
     # Counters
     processed_count = 0
@@ -31,17 +38,22 @@ def rename_files(media_dir):
             print(f"Processing file: {file}")  # Show the file being processed
             match = pattern.match(file)
             if match:
-                # Extract components: show_name, season, episode, rest, extension
-                show_name, season, episode, rest, extension = match.groups()
+                # Extract components
+                show_name, episode, rest, extension = match.groups()
 
-                # Replace Greek season "1οςκυκλος" with "S01" or similar
+                # Identify season from Greek identifier
+                season = 1  # Default season
+                for greek, num in season_map.items():
+                    if f"{greek}'" in file:
+                        season = num
+                        break
+
+                # Format the season and episode
                 season_formatted = f"S{int(season):02}"
-
-                # Format the episode
                 episode_formatted = f"E{int(episode):02}"
 
                 # Create the new name
-                new_name = f"{show_name} {season_formatted}{episode_formatted}{extension if extension else '.mp4'}"
+                new_name = f"{show_name.strip()} {season_formatted}{episode_formatted}{extension if extension else '.mp4'}"
 
                 # Full paths
                 old_path = os.path.join(root, file)
@@ -72,8 +84,8 @@ def rename_files(media_dir):
     print(f"Total files processed: {processed_count}")
     print(f"Files renamed: {renamed_count}")
     print(f"Files skipped: {skipped_count}")
-
+    
 if __name__ == "__main__":
     # Replace this with the path to your media directory
-    media_directory = "/Volumes/Kyle4tb1223/__Steve/Αίγια Fuxia (2008-2010)"
+    media_directory = "'/Volumes/Kyle4tb1223/__Steve/Βουράτε Γειτόνοι (2001-2010)'"
     rename_files(media_directory)
