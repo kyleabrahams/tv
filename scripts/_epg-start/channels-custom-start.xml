@@ -485,8 +485,16 @@
   <channel site="tvtv.us" lang="en" xmltv_id="NickelodeonEast.us" site_id="11006">Nickelodeon East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NicktoonsEast.us" site_id="nicktoons-east/2010">Nicktoons - East</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NicktoonsEast.us" site_id="30420">Nicktoons East</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#69022475/omni1">Omni.1</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#69026135/omni1-hdtv">Omni.1 HDTV</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="OMNIEast.ca" site_id="omni-vancouver-hd/9611">OMNI Vancouver HD</channel> -->
-  <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel> -->
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69023490/omni-british-columbia">OMNI British Columbia</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69026134/omni2-hdtv">Omni2 HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147982744/omni-pacific-hdtv">OMNI Pacific HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5151627333/omni-prairies-hdtv">OMNI Prairies HDTV</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="OWNEast.us" site_id="oprah-winfrey-network-usa-eastern-hd/8587">Oprah Winfrey Network USA Eastern HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="OWNEast.us" site_id="70387">Oprah Winfrey Network East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="OneAmericaNewsNetwork.us" site_id="one-america-news-network/12614">One America News Network</channel> -->

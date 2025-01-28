@@ -1,7 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69033181/ctv-calgary-hdtv">CTV Calgary HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#10635676313/ctv-calgary-descriptive-video">CTV Calgary (Descriptive Video)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022475/omni1">Omni.1</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69023490/omni-british-columbia">OMNI British Columbia</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69026134/omni2-hdtv">Omni2 HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69026135/omni1-hdtv">Omni.1 HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147982744/omni-pacific-hdtv">OMNI Pacific HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#5151627333/omni-prairies-hdtv">OMNI Prairies HDTV</channel>
 
 </channels>
 
