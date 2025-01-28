@@ -1163,3 +1163,33 @@ Jan 27 2025 22:13:18 - Command npm run grab -- --channels=./scripts/_epg-start/c
 Jan 27 2025 22:13:18 - Fetching 1/1 - https://github.com/dtankdempse/daddylive-m3u/raw/refs/heads/main/epg.xml
 Jan 27 2025 22:13:18 - Successfully fetched 1/1
 Jan 27 2025 22:13:19 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 27, 2025 10:13:19 PM ET
+Jan 27 2025 22:17:59 - Starting EPG merge process...
+Jan 27 2025 22:17:59 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-17-59 PM.xml
+Jan 27 2025 22:17:59 - STDOUT: 
+Jan 27 2025 22:17:59 - STDOUT: > grab
+Jan 27 2025 22:17:59 - STDOUT: > npx tsx scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-17-59 PM.xml
+Jan 27 2025 22:17:59 - STDOUT: 
+Jan 27 2025 22:18:00 - STDERR: 
+Jan 27 2025 22:18:00 - STDERR: node:internal/modules/run_main:129
+Jan 27 2025 22:18:00 - STDERR: triggerUncaughtException(
+Jan 27 2025 22:18:00 - STDERR: ^
+Jan 27 2025 22:18:00 - STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts' imported from /Users/kyleabrahams/Documents/GitHub/tv/
+Jan 27 2025 22:18:00 - STDERR: at finalizeResolution (node:internal/modules/esm/resolve:265:11)
+Jan 27 2025 22:18:00 - STDERR: at moduleResolve (node:internal/modules/esm/resolve:933:10)
+Jan 27 2025 22:18:00 - STDERR: at defaultResolve (node:internal/modules/esm/resolve:1169:11)
+Jan 27 2025 22:18:00 - STDERR: at nextResolve (node:internal/modules/esm/hooks:868:28)
+Jan 27 2025 22:18:00 - STDERR: at resolveBase (file:///Users/kyleabrahams/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1738034280191:2:3212)
+Jan 27 2025 22:18:00 - STDERR: at async resolveDirectory (file:///Users/kyleabrahams/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1738034280191:2:3578)
+Jan 27 2025 22:18:00 - STDERR: at async resolve (file:///Users/kyleabrahams/Documents/GitHub/tv/node_modules/tsx/dist/esm/index.mjs?1738034280191:2:4441)
+Jan 27 2025 22:18:00 - STDERR: at async nextResolve (node:internal/modules/esm/hooks:868:22)
+Jan 27 2025 22:18:00 - STDERR: at async Hooks.resolve (node:internal/modules/esm/hooks:306:24)
+Jan 27 2025 22:18:00 - STDERR: at async handleMessage (node:internal/modules/esm/worker:196:18) {
+Jan 27 2025 22:18:00 - STDERR: code: 'ERR_MODULE_NOT_FOUND',
+Jan 27 2025 22:18:00 - STDERR: url: 'file:///Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts'
+Jan 27 2025 22:18:00 - STDERR: }
+Jan 27 2025 22:18:00 - STDERR: 
+Jan 27 2025 22:18:00 - STDERR: Node.js v20.18.0
+Jan 27 2025 22:18:00 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-27-10-17-59 PM.xml failed with error code 1.
+Jan 27 2025 22:18:00 - Fetching 1/1 - https://github.com/dtankdempse/daddylive-m3u/raw/refs/heads/main/epg.xml
+Jan 27 2025 22:18:00 - Successfully fetched 1/1
+Jan 27 2025 22:18:02 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 27, 2025 10:18:01 PM ET
