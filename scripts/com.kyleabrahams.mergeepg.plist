@@ -4,6 +4,13 @@
   <dict>
     <key>Label</key>
     <string>com.kyleabrahams.mergeepg</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>PATH</key>
+      <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kyleabrahams/.nvm/versions/node/v20.18.0/bin</string>
+    </dict>
+
     
     <key>ProgramArguments</key>
     <array>
@@ -23,13 +30,13 @@
         <key>Hour</key>
         <integer>0</integer>  <!-- 12 AM -->
         <key>Minute</key>
-        <integer>40</integer>
+        <integer>49</integer>
       </dict>
       <dict>
         <key>Hour</key>
         <integer>12</integer>  <!-- 12 PM -->
         <key>Minute</key>
-        <integer>40</integer>
+        <integer>49</integer>
       </dict>
     </array>
 
