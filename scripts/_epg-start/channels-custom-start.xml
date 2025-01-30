@@ -150,10 +150,10 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CP24.ca" site_id="cp24-cablepulse-24-hd/10809">CP24 (CablePulse 24) HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#69045057/cablepulse-24">CablePulse 24</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="CP24.ca" site_id="ca#614386216/cablepulse-24-hdtv">CablePulse 24 HDTV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on-dv/3931">CTV (CFTO) Toronto, ON DV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="ctv-cfto-toronto-on/39">CTV (CFTO) Toronto, ON</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="CTV(CFTO)Toronto.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id=CTV.CFTO.Toronto.ON.ca site_id="ctv-cfto-toronto-on-hd/2814">CTV (CFTO) Toronto, ON HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id=CTV.CFTO.Toronto.ON.ca site_id="ctv-cfto-toronto-on-dv/3931">CTV (CFTO) Toronto, ON DV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id=CTV.CFTO.Toronto.ON.ca site_id="ctv-cfto-toronto-on/39">CTV (CFTO) Toronto, ON</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id=CTV.CFTO.Toronto.ON.ca site_id="44784">CTV (CFTO-DT) Toronto ON</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="CTV(CFTO)Toronto.ON.ca" site_id="44784">CTV (CFTO-DT) Toronto ON</channel> -->
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69022464/ctv-calgary">CTV Calgary</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVCalgary.ca" site_id="ca#69033181/ctv-calgary-hdtv">CTV Calgary HDTV</channel>
