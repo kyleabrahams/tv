@@ -17,7 +17,7 @@
         <string>/bin/zsh</string>
         <string>-c</string>
         <string>
-            source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
+            source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate &amp;&amp; /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
         </string>
     </array>
 
@@ -28,15 +28,15 @@
     <array>
       <dict>
         <key>Hour</key>
-        <integer>0</integer>  <!-- 12 AM -->
+        <integer>1</integer>  <!-- 12 AM -->
         <key>Minute</key>
-        <integer>57</integer>
+        <integer>02</integer>
       </dict>
       <dict>
         <key>Hour</key>
-        <integer>12</integer>  <!-- 12 PM -->
+        <integer>13</integer>  <!-- 12 PM -->
         <key>Minute</key>
-        <integer>57</integer>
+        <integer>02</integer>
       </dict>
     </array>
 
