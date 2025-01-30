@@ -4716,3 +4716,21 @@ Jan 29 2025 19:26:37 - Successfully loaded local file: /Users/kyleabrahams/Docum
 Jan 29 2025 19:26:38 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-29-07-19-59 PM.xml
 Jan 29 2025 19:26:38 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-29-07-19-59 PM.xml
 Jan 29 2025 19:26:39 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 29, 2025 07:26:38 PM ET
+Jan 30 2025 00:39:05 - Starting EPG merge process...
+Jan 30 2025 00:39:05 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-39-05 AM.xml
+Jan 30 2025 00:39:05 - Error while running npm command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-39-05 AM.xml: [Errno 2] No such file or directory: 'npm'
+Jan 30 2025 00:39:05 - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:39:06 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:39:06 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-39-05 AM.xml
+Jan 30 2025 00:39:06 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-39-05 AM.xml
+Jan 30 2025 00:39:07 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 30, 2025 12:39:07 AM ET
+Jan 30 2025 00:39:07 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 30 2025 00:39:16 - Starting EPG merge process...
+Jan 30 2025 00:39:16 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-39-16 AM.xml
+Jan 30 2025 00:39:16 - Error while running npm command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-39-16 AM.xml: [Errno 2] No such file or directory: 'npm'
+Jan 30 2025 00:39:16 - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-39-16 AM.xml
+Jan 30 2025 00:39:16 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-39-16 AM.xml
+Jan 30 2025 00:39:17 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:39:17 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:39:18 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 30, 2025 12:39:17 AM ET
+Jan 30 2025 00:39:18 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
