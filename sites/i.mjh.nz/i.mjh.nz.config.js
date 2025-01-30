@@ -117,7 +117,7 @@ module.exports = {
         channels.push({
           lang: option.lang,
           site_id: `${option.path}#${item.id}`,
-          name: item.name[0].value
+          name: Array.isArray(item.name) && item.name.length > 0 ? item.name[0].value : "Unknown"
         })
       })
     }

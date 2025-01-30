@@ -2,16 +2,6 @@
 <channels>
   <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="syn-the-big-bang-theory/32189">SYN: The Big Bang Theory</channel>
 
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69022354/wnbc-hdtv">WNBC HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69043310/wnbc">WNBC</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="20459">NBC (WNBC-DT1) New York, NY</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#6432049168/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#7149354189/love-nature-hdtv">Love Nature HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69029990/love-nature">Love Nature</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69029990/love-nature">Love Nature</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="" site_id="LNH">Love Nature HD</channel>
-  <channel site="mytvsuper.com" lang="zh" xmltv_id="" site_id="LNH">Love Nature HD</channel> -->
-
   <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200006932">FX</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="248#248">FX</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="248#8208">FX HD</channel>
@@ -27,45 +17,55 @@
   <channel site="flixed.io" lang="en" xmltv_id="" site_id="17927">FXX</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200018644">FXX</channel>
 
-  <!-- <channel site="flixed.io" lang="en" xmltv_id="" site_id="24959">National Geographic USA</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="" site_id="24959">National Geographic USA</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233002310">National Geographic</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="276#276">National Geographic</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="276#8215">National Geographic HD</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="" site_id="49438">National Geographic East</channel>
   <channel site="flixed.io" lang="en" xmltv_id="" site_id="24959">National Geographic USA</channel>
-  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233002310">National Geographic</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233002310">National Geographic</channel>
 
-  <!-- <channel site="flixed.io" lang="en" xmltv_id="" site_id="10989">E! Entertainment (East)</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="10989">E! East</channel>
-  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200012343">E!</channel>
-  <channel site="directv.com" lang="en" xmltv_id="" site_id="236#236">E!</channel>
-  <channel site="directv.com" lang="en" xmltv_id="" site_id="236#8179">E! HD</channel> -->
-
-  <!-- <channel site="ziggogo.tv" lang="en" xmltv_id="" site_id="NL_000216_019122">Curiosity Channel</channel>
+  <channel site="ziggogo.tv" lang="en" xmltv_id="" site_id="NL_000216_019122">Curiosity Channel</channel>
   <channel site="tv.nu" lang="en" xmltv_id="" site_id="curiositystream">CuriosityStream</channel>
-  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="curiosity-stream">Curiosity Stream</channel> -->
+  <channel site="tvinsider.com" lang="en" xmltv_id="" site_id="curiosity-stream">Curiosity Stream</channel>
 
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#372326804/family-jr-hd">Family Jr. (HD)</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69031126/family-jr-sd">Family Jr. (SD)</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69043787/hollywood-suite-80s">Hollywood Suite 80s</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="73574">Hollywood Suite 80s Movies</channel>
 
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69043787/hollywood-suite-80s">Hollywood Suite 80s</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="" site_id="73574">Hollywood Suite 80s Movies</channel> -->
-
-  <!-- <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200016599">Paramount+ with Showtime</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69021684/paramount-with-showtime-hdtv-east">Paramount+ with SHOWTIME HDTV (East)</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69047004/paramount-with-showtime-east">Paramount+ with SHOWTIME (East)</channel>
-  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200016599">Paramount+ with Showtime</channel> -->
-
-  <!-- <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233000532">MovieMax</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233000532">MovieMax</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="521#3339">MovieMAX</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="" site_id="25621">MovieMax East</channel>
   <channel site="streamingtvguides.com" lang="en" xmltv_id="" site_id="MOVIE">MovieMax</channel>
-  <channel site="streamingtvguides.com" lang="en" xmltv_id="" site_id="MOVIEHD">MovieMax HD</channel> -->
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="" site_id="MOVIEHD">MovieMax HD</channel>
 
-  <!-- <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#sky-cinema-greats">Sky Cinema Greats</channel>
-  <channel site="entertainment.ie" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="sky-cinema-greats">Sky Cinema Greats</channel> -->
+  <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#sky-cinema-hits">Sky Cinema Hits</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="" site_id="1318/sky-cinema-hits">Sky Cinema Hits</channel>
+  <channel site="tvireland.ie" lang="en" xmltv_id="" site_id="1536/sky-cinema-hits-hd">Sky Cinema Hits HD</channel>
+  <channel site="player.ee.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="http://bds.tv/services/BT_756489_1814_SD">Sky Cinema Hits</channel>
+  <channel site="player.ee.co.uk" lang="en" xmltv_id="SkyCinemaHitsHD.uk" site_id="http://bds.tv/services/BT_727788_1814_HD">Sky Cinema Hits HD</channel>
 
-  <!-- <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#sky-cinema-select">Sky Cinema Select</channel> -->
+  <channel site="pluto.tv" lang="de" xmltv_id="" site_id="5be1c0d81843b56328bc3fba">Pluto TV Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="5bf48085851dd5632e2f7b4d">Crackling Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="614501c653ceee000772b0ca">Festive Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="5bf48085851dd5632e2f7b4d">Crackling Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="614501c653ceee000772b0ca">Festive Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="63565e744d02930007bf2818">Festive Fireplace</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="" site_id="63565d76232dd10007bba40c">Crackling Fireplace</channel>
+  <channel site="pluto.tv" lang="it" xmltv_id="" site_id="612ce23f51cce000078eeed5">Pluto TV Fireplace</channel>
+  <channel site="tvprofil.com" lang="hr" xmltv_id="" site_id="tvprogram#fireplace">Fireplace</channel>
+  <channel site="nzxmltv.com" lang="en" xmltv_id="" site_id="iptv/plutotv#310">Festive Fireplace</channel>
+  <channel site="nzxmltv.com" lang="en" xmltv_id="" site_id="iptv/plutotv#320">Crackling Fireplace</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="" site_id="100#99951204">Xumo Fireplace for the Holidays</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69032847/fireplace">Fireplace</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69044653/fireplace-hdtv">Fireplace HDTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/ca#CABB260002016">Fireplace 4K</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/gb#GBBD1500003SD">Fireplace</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="SamsungTVPlus/us#USBA3800004EL">Fireplace 4K</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/gb#5bd8282253ed2c6334ea10fa">Fireplace</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#5bf48085851dd5632e2f7b4d">Crackling Fireplace</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="" site_id="PlutoTV/us#614501c653ceee000772b0ca">Festive Fireplace</channel>
+
+
 
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="" site_id="syn-murdoch-mysteries/32254">SYN: Murdoch Mysteries</channel> -->
 

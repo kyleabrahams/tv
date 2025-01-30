@@ -43,7 +43,7 @@ def write_channels_to_new_xml(collected_channels, output_file):
 def main():
     # Define your source directory and search word
     src_dir = '../sites'  # Replace with the directory you want to search
-    search_word = 'big bang theory'  # Replace with the word you're searching for
+    search_word = 'CTV Ge'  # Replace with the word you're searching for
 
     # python3 search_xmltv_id_to-file.py
     
