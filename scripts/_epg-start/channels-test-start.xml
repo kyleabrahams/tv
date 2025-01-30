@@ -10,15 +10,20 @@
   <channel site="mytvsuper.com" lang="en" xmltv_id="" site_id="LNH">Love Nature HD</channel>
   <channel site="mytvsuper.com" lang="zh" xmltv_id="" site_id="LNH">Love Nature HD</channel> -->
 
-  <!-- <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200006932">FX</channel>
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200006932">FX</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="248#248">FX</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="248#8208">FX HD</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="FXEast.us" site_id="14321">FX</channel>
+  <channel site="flixed.io" lang="en" xmltv_id="FXEast.us" site_id="58574">FX HD</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69031021/fx-hdtv-east">FX HDTV (East)</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="us#69046950/fx-east">FX (East)</channel>
+
   <channel site="directv.com" lang="en" xmltv_id="" site_id="259#2619">FXX</channel>
   <channel site="directv.com" lang="en" xmltv_id="" site_id="259#8138">FXX HD</channel>
   <channel site="flixed.io" lang="en" xmltv_id="" site_id="66379">FXX HD</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="" site_id="17927">FXX East</channel>
   <channel site="flixed.io" lang="en" xmltv_id="" site_id="17927">FXX</channel>
-  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200018644">FXX</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9200018644">FXX</channel>
 
   <!-- <channel site="flixed.io" lang="en" xmltv_id="" site_id="24959">National Geographic USA</channel>
   <channel site="tvguide.com" lang="en" xmltv_id="" site_id="9233002310">National Geographic</channel>
