@@ -7,28 +7,31 @@
     
     <key>ProgramArguments</key>
     <array>
-      <string>/usr/bin/python3</string>
-      <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py</string>
+      <string>/bin/zsh</string>
+      <string>-c</string>
+      <string>
+        source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && /usr/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
+      </string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts</string> <!-- This mirrors the current dir -->
+    <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts</string>
 
     <key>StartCalendarInterval</key>
-        <array>
-        <dict>
-            <key>Hour</key>
-            <integer>0</integer>  <!-- AM -->
-            <key>Minute</key>
-            <integer>24</integer>
-        </dict>
-        <dict>
-            <key>Hour</key>
-            <integer>12</integer>  <!-- PM -->
-            <key>Minute</key>
-            <integer>24</integer>
-        </dict>
-        </array>
+    <array>
+      <dict>
+        <key>Hour</key>
+        <integer>0</integer>  <!-- 12 AM -->
+        <key>Minute</key>
+        <integer>28</integer>
+      </dict>
+      <dict>
+        <key>Hour</key>
+        <integer>12</integer>  <!-- 12 PM -->
+        <key>Minute</key>
+        <integer>28</integer>
+      </dict>
+    </array>
 
     <key>RunAtLoad</key>
     <true/>
