@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.kyleabrahams.mergeepg</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/bin/python3</string>
+      <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts</string> <!-- This mirrors the current dir -->
+
+    <key>StartCalendarInterval</key>
+        <array>
+        <dict>
+            <key>Hour</key>
+            <integer>0</integer>  <!-- AM -->
+            <key>Minute</key>
+            <integer>24</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>12</integer>  <!-- PM -->
+            <key>Minute</key>
+            <integer>24</integer>
+        </dict>
+        </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/merge_epg_error.log</string>
+    
+    <key>StandardOutPath</key>
+    <string>/tmp/merge_epg_output.log</string>
+  </dict>
+</plist>
