@@ -4734,3 +4734,46 @@ Jan 30 2025 00:39:17 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/sc
 Jan 30 2025 00:39:17 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
 Jan 30 2025 00:39:18 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 30, 2025 12:39:17 AM ET
 Jan 30 2025 00:39:18 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 30 2025 00:52:46 - Starting EPG merge process...
+Jan 30 2025 00:52:46 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-52-46 AM.xml
+Jan 30 2025 00:52:46 - STDOUT: 
+Jan 30 2025 00:52:46 - STDOUT: > grab
+Jan 30 2025 00:52:46 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-52-46 AM.xml
+Jan 30 2025 00:52:46 - STDOUT: 
+Jan 30 2025 00:52:47 - STDOUT: starting...
+Jan 30 2025 00:52:47 - STDOUT: config:
+Jan 30 2025 00:52:47 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-30-12-52-46 AM.xml
+Jan 30 2025 00:52:47 - STDOUT: maxConnections: 1
+Jan 30 2025 00:52:47 - STDOUT: gzip: false
+Jan 30 2025 00:52:47 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 30 2025 00:52:47 - STDOUT: loading channels...
+Jan 30 2025 00:52:47 - STDERR: /Users/kyleabrahams/Documents/GitHub/tv/node_modules/sax/lib/sax.js:658
+Jan 30 2025 00:52:47 - STDERR: er = new Error(er)
+Jan 30 2025 00:52:47 - STDERR: ^
+Jan 30 2025 00:52:47 - STDERR: 
+Jan 30 2025 00:52:47 - STDERR: <ref *1> Error: Unquoted attribute value
+Jan 30 2025 00:52:47 - STDERR: Line: 155
+Jan 30 2025 00:52:47 - STDERR: Column: 46
+Jan 30 2025 00:52:47 - STDERR: Char: C
+Jan 30 2025 00:52:47 - STDERR: at error (/Users/kyleabrahams/Documents/GitHub/tv/node_modules/sax/lib/sax.js:658:10)
+Jan 30 2025 00:52:47 - STDERR: at SAXParser.write (/Users/kyleabrahams/Documents/GitHub/tv/node_modules/sax/lib/sax.js:1390:15)
+Jan 30 2025 00:52:47 - STDERR: at module.exports [as xml2js] (/Users/kyleabrahams/Documents/GitHub/tv/node_modules/xml-js/lib/xml2js.js:346:12)
+Jan 30 2025 00:52:47 - STDERR: at parseChannels (/Users/kyleabrahams/Documents/GitHub/tv/node_modules/epg-grabber/src/parser.js:10:26)
+Jan 30 2025 00:52:47 - STDERR: at ChannelsParser.parse (/Users/kyleabrahams/Documents/GitHub/tv/scripts/core/channelsParser.ts:19:22)
+Jan 30 2025 00:52:47 - STDERR: at async main (/Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts:75:44) {
+Jan 30 2025 00:52:47 - STDERR: note: [Circular *1]
+Jan 30 2025 00:52:47 - STDERR: }
+Jan 30 2025 00:52:47 - STDERR: 
+Jan 30 2025 00:52:47 - STDERR: Node.js v22.11.0
+Jan 30 2025 00:52:47 - STDERR: npm notice
+Jan 30 2025 00:52:47 - STDERR: npm notice New major version of npm available! 10.9.0 -> 11.1.0
+Jan 30 2025 00:52:47 - STDERR: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+Jan 30 2025 00:52:47 - STDERR: npm notice To update run: npm install -g npm@11.1.0
+Jan 30 2025 00:52:47 - STDERR: npm notice
+Jan 30 2025 00:52:47 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-30-12-52-46 AM.xml failed with error code 1.
+Jan 30 2025 00:52:47 - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:52:47 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 30 2025 00:52:48 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-52-46 AM.xml
+Jan 30 2025 00:52:48 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-30-12-52-46 AM.xml
+Jan 30 2025 00:52:49 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 30, 2025 12:52:48 AM ET
+Jan 30 2025 00:52:49 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
