@@ -180,6 +180,10 @@ def run_npm_grab():
 
         #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+
+        #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
+        #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
+
     ]
     # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
@@ -463,7 +467,11 @@ if os.path.exists(additional_directory):
 # Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
+# Set up logging
+logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
+
 try:
+    # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
     save_path = os.path.join(script_dir, "merged_epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
@@ -475,28 +483,35 @@ try:
 
     # Stage all files (modified & untracked)
     print("Committing and pushing all updated files in the specified directories to GitHub...")
-    
+
     for directory in directories_to_commit:
         print(f"Staging files in directory: {directory}")
         subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
 
-    commit_message = f"EPG.xml auto-updated at {current_time_et} ET"
+    # Add all changes before commit
     subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
 
     # Check if there are uncommitted changes and commit them
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
         print("Uncommitted changes detected. Committing changes before rebase...")
-        subprocess.run(["git", "commit", "-m", "Saving uncommitted changes before rebase"], check=True)
+        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
 
     # Rebase before pushing
     print("Fetching latest changes from the remote repository...")
     subprocess.run(["git", "fetch"], check=True)
 
     print("Attempting to rebase onto the latest changes from origin/main...")
-    subprocess.run(["git", "rebase", "origin/main"], check=True)
+    result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    if result.returncode != 0:
+        # If rebase fails, log the error and print a message
+        print(f"Rebase failed: {result.stderr.decode()}")
+        logging.error(f"Rebase failed: {result.stderr.decode()}")
+        raise subprocess.CalledProcessError(result.returncode, result.args)
 
     # Push changes to GitHub after rebase
+    print("Pushing changes to GitHub...")
     subprocess.run(["git", "push", "origin", "main"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
@@ -506,3 +521,9 @@ except subprocess.CalledProcessError as e:
     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
+
+except Exception as e:
+    # Handle unexpected errors
+    unexpected_error_message = f"An unexpected error occurred - {str(e)}"
+    logging.error(unexpected_error_message)
+    print(unexpected_error_message)
