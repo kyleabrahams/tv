@@ -9292,3 +9292,1035 @@ Jan 31 2025 13:20:21 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/sc
 Jan 31 2025 13:20:21 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-01-31-01-05-04 PM.xml
 Jan 31 2025 13:20:22 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 31, 2025 01:20:22 PM ET
 Jan 31 2025 13:20:23 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Jan 31 2025 13:36:55 - Starting EPG merge process...
+Jan 31 2025 13:36:55 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-31-01-36-55 PM.xml
+Jan 31 2025 13:36:55 - STDOUT: 
+Jan 31 2025 13:36:55 - STDOUT: > grab
+Jan 31 2025 13:36:55 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-01-31-01-36-55 PM.xml
+Jan 31 2025 13:36:55 - STDOUT: 
+Jan 31 2025 13:36:56 - STDOUT: starting...
+Jan 31 2025 13:36:56 - STDOUT: config:
+Jan 31 2025 13:36:56 - STDOUT: output: ./scripts/_epg-end/channels-custom-01-31-01-36-55 PM.xml
+Jan 31 2025 13:36:56 - STDOUT: maxConnections: 1
+Jan 31 2025 13:36:56 - STDOUT: gzip: false
+Jan 31 2025 13:36:56 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Jan 31 2025 13:36:56 - STDOUT: loading channels...
+Jan 31 2025 13:36:56 - STDOUT: found 533 channel(s)
+Jan 31 2025 13:36:56 - STDOUT: run #1:
+Jan 31 2025 13:36:58 - STDOUT: [1/1100] ontvtonight.com (en) - AandECanada.ca - Jan 31, 2025 (37 programs)
+Jan 31 2025 13:36:58 - STDOUT: [2/1100] ontvtonight.com (en) - AandECanada.ca - Feb 1, 2025 (40 programs)
+Jan 31 2025 13:36:58 - STDOUT: [3/1100] ontvtonight.com (en) - AandE.us - Feb 1, 2025 (41 programs)
+Jan 31 2025 13:37:06 - STDOUT: [4/1100] tvpassport.com (en) - 5StarMax.us - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:37:06 - STDOUT: [5/1100] tvtv.us (en) - AMC+.us - Jan 31, 2025 (23 programs)
+Jan 31 2025 13:37:08 - STDOUT: [6/1100] cyta.com.cy (el) - ANT1.gr - Feb 3, 2025 (25 programs)
+Jan 31 2025 13:37:10 - STDOUT: [7/1100] mytelly.co.uk (en) - BBCOneEast.uk - Feb 1, 2025 (22 programs)
+Jan 31 2025 13:37:10 - STDOUT: [8/1100] ontvtonight.com (en) - Bravo.ca - Feb 1, 2025 (21 programs)
+Jan 31 2025 13:37:10 - STDOUT: [9/1100] tvtv.us (en) - DestinationAmerica.us - Feb 1, 2025 (35 programs)
+Jan 31 2025 13:37:10 - STDOUT: [10/1100] tvtv.us (en) - DestinationAmerica.us - Jan 31, 2025 (48 programs)
+Jan 31 2025 13:37:10 - STDOUT: [11/1100] ontvtonight.com (en) - Bravo.ca - Jan 31, 2025 (21 programs)
+Jan 31 2025 13:37:11 - STDOUT: [12/1100] i.mjh.nz (en) - DangerTV.us - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:37:11 - STDOUT: [13/1100] i.mjh.nz (en) - DangerTV.us - Jan 31, 2025 (10 programs)
+Jan 31 2025 13:37:11 - STDOUT: [14/1100] mytelly.co.uk (en) - BBCOneEast.uk - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:37:11 - STDOUT: [15/1100] tvtv.us (en) - Bounce.us - Feb 1, 2025 (24 programs)
+Jan 31 2025 13:37:12 - STDOUT: [16/1100] ontvtonight.com (en) - DTOUREast.ca - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:37:12 - STDOUT: [17/1100] ontvtonight.com (en) - DTOUREast.ca - Jan 31, 2025 (29 programs)
+Jan 31 2025 13:37:12 - STDOUT: [18/1100] tvtv.us (en) - Bounce.us - Jan 31, 2025 (22 programs)
+Jan 31 2025 13:37:12 - STDOUT: [19/1100] ontvtonight.com (en) - DTOUREast.ca - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:37:12 - STDOUT: [20/1100] ontvtonight.com (en) - DTOUREast.ca - Jan 31, 2025 (29 programs)
+Jan 31 2025 13:37:12 - STDOUT: [21/1100] cyta.com.cy (el) - ANT1.gr - Feb 2, 2025 (24 programs)
+Jan 31 2025 13:37:13 - STDOUT: [22/1100] mytelly.co.uk (en) - BBCOneEast.uk - Feb 1, 2025 (22 programs)
+Jan 31 2025 13:37:13 - STDOUT: [23/1100] tvtv.us (en) - Boomerang.us - Feb 1, 2025 (96 programs)
+Jan 31 2025 13:37:13 - STDOUT: [24/1100] tvtv.us (en) - DOGTV.us - Feb 1, 2025 (24 programs)
+Jan 31 2025 13:37:13 - STDOUT: [25/1100] tvtv.us (en) - DOGTV.us - Jan 31, 2025 (24 programs)
+Jan 31 2025 13:37:13 - STDOUT: [26/1100] tvtv.us (en) - Boomerang.us - Jan 31, 2025 (39 programs)
+Jan 31 2025 13:37:15 - STDOUT: [27/1100] ziggogo.tv (en) - CuriosityChannel.us - Feb 1, 2025 (35 programs)
+Jan 31 2025 13:37:16 - STDOUT: [28/1100] ziggogo.tv (en) - CuriosityChannel.us - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:37:17 - STDOUT: [29/1100] mytelly.co.uk (en) - BBCOneEast.uk - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:37:17 - STDOUT: [30/1100] tvtv.us (en) - BigTenNetwork.us - Feb 1, 2025 (26 programs)
+Jan 31 2025 13:37:17 - STDOUT: [31/1100] ontvtonight.com (en) - Crime+Investigation.Canada.ca - Feb 1, 2025 (23 programs)
+Jan 31 2025 13:37:17 - STDOUT: [32/1100] ontvtonight.com (en) - Crime+Investigation.Canada.ca - Jan 31, 2025 (24 programs)
+Jan 31 2025 13:37:17 - STDOUT: [33/1100] tvtv.us (en) - BigTenNetwork.us - Jan 31, 2025 (31 programs)
+Jan 31 2025 13:37:17 - STDOUT: [34/1100] ontvtonight.com (en) - Crave4East.ca - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:37:17 - STDOUT: [35/1100] ontvtonight.com (en) - Crave4East.ca - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:37:17 - STDOUT: [36/1100] tvtv.us (en) - ACCNetwork.us - Feb 1, 2025 (20 programs)
+Jan 31 2025 13:37:38 - Starting EPG merge process...
+Jan 31 2025 13:37:38 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-37-38 PM.xml
+Jan 31 2025 13:37:38 - STDOUT: 
+Jan 31 2025 13:37:38 - STDOUT: > grab
+Jan 31 2025 13:37:38 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-37-38 PM.xml
+Jan 31 2025 13:37:38 - STDOUT: 
+Jan 31 2025 13:37:39 - STDOUT: starting...
+Jan 31 2025 13:37:39 - STDOUT: config:
+Jan 31 2025 13:37:39 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-37-38 PM.xml
+Jan 31 2025 13:37:39 - STDOUT: maxConnections: 1
+Jan 31 2025 13:37:39 - STDOUT: gzip: false
+Jan 31 2025 13:37:39 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:37:39 - STDOUT: loading channels...
+Jan 31 2025 13:37:39 - STDOUT: found 60 channel(s)
+Jan 31 2025 13:37:39 - STDOUT: run #1:
+Jan 31 2025 13:37:43 - STDOUT: [1/117] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:37:46 - STDOUT: [2/117] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 1, 2025 (6 programs)
+Jan 31 2025 13:37:47 - STDOUT: [3/117] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:37:47 - STDOUT: [4/117] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:37:48 - STDOUT: [5/117] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:37:49 - STDOUT: [6/117] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:37:50 - STDOUT: [7/117] sky.de (de) - 1014 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:37:50 - STDOUT: [8/117] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:37:51 - STDOUT: [9/117] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:37:51 - STDOUT: [10/117] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:37:52 - STDOUT: [11/117] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:53 - STDOUT: [12/117] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:37:53 - STDOUT: [13/117] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:54 - STDOUT: [14/117] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:37:55 - STDOUT: [15/117] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:55 - STDOUT: [16/117] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:37:55 - STDOUT: [17/117] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:55 - STDOUT: [18/117] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:37:56 - STDOUT: [19/117] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:37:56 - STDOUT: [20/117] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:37:57 - STDOUT: [21/117] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:57 - STDOUT: [22/117] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:37:57 - STDOUT: [23/117] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:37:57 - STDOUT: [24/117] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:37:57 - STDOUT: [25/117] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:37:57 - STDOUT: [26/117] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:37:58 - STDOUT: [27/117] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:37:58 - STDOUT: [28/117] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:00 - STDOUT: [29/117] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:38:01 - STDOUT: [30/117] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:38:01 - STDOUT: [31/117] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:38:02 - STDOUT: [32/117] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:38:03 - STDOUT: [33/117] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:38:03 - STDOUT: [34/117] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:38:04 - STDOUT: [35/117] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [36/117] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [37/117] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [38/117] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [39/117] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [40/117] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [41/117] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:04 - STDOUT: [42/117] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [43/117] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [44/117] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [45/117] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [46/117] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [47/117] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [48/117] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [49/117] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [50/117] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:05 - STDOUT: [51/117] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:06 - STDOUT: [52/117] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:06 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:07 - STDOUT: [53/117] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:38:07 - STDOUT: [54/117] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:38:08 - STDOUT: [55/117] player.ee.co.uk (en) - SkyCinemaHits.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:38:09 - STDOUT: [56/117] player.ee.co.uk (en) - SkyCinemaHits.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:38:10 - STDOUT: [57/117] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:38:10 - STDOUT: [58/117] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:38:10 - STDOUT: [59/117] tvireland.ie (en) - 1318/sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:38:10 - STDOUT: [60/117] tvireland.ie (en) - 1318/sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:38:11 - STDOUT: [61/117] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:38:11 - STDOUT: [62/117] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:38:12 - STDOUT: [63/117] streamingtvguides.com (en) - MOVIEHD - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:38:12 - STDOUT: [64/117] streamingtvguides.com (en) - MOVIEHD - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:38:12 - STDOUT: [65/117] streamingtvguides.com (en) - MOVIE - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:12 - STDOUT: [66/117] streamingtvguides.com (en) - MOVIE - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:12 - STDOUT: [67/117] tvtv.us (en) - 25621 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:38:12 - STDOUT: [68/117] tvtv.us (en) - 25621 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:38:13 - STDOUT: [69/117] directv.com (en) - 521#3339 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:38:13 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:14 - STDOUT: [70/117] directv.com (en) - 521#3339 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:38:14 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:38:37 - Starting EPG merge process...
+Jan 31 2025 13:38:37 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml
+Jan 31 2025 13:38:37 - STDOUT: 
+Jan 31 2025 13:38:37 - STDOUT: > grab
+Jan 31 2025 13:38:37 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml
+Jan 31 2025 13:38:37 - STDOUT: 
+Jan 31 2025 13:38:38 - STDOUT: starting...
+Jan 31 2025 13:38:38 - STDOUT: config:
+Jan 31 2025 13:38:38 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml
+Jan 31 2025 13:38:38 - STDOUT: maxConnections: 1
+Jan 31 2025 13:38:38 - STDOUT: gzip: false
+Jan 31 2025 13:38:38 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:38:38 - STDOUT: loading channels...
+Jan 31 2025 13:38:38 - STDOUT: found 60 channel(s)
+Jan 31 2025 13:38:38 - STDOUT: run #1:
+Jan 31 2025 13:38:50 - STDOUT: [1/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:38:58 - STDOUT: [2/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 1, 2025 (6 programs)
+Jan 31 2025 13:38:59 - STDOUT: [3/120] tvguide.com (en) - 9200006932 - Jan 31, 2025 (20 programs)
+Jan 31 2025 13:39:09 - STDOUT: [4/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 2, 2025 (6 programs)
+Jan 31 2025 13:39:10 - STDOUT: [5/120] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:39:10 - STDOUT: [6/120] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:39:13 - STDOUT: [7/120] sky.de (de) - 1014 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:13 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:14 - STDOUT: [8/120] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:39:14 - STDOUT: [9/120] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:39:14 - STDOUT: [10/120] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:39:15 - STDOUT: [11/120] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:16 - STDOUT: [12/120] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:16 - STDOUT: [13/120] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:17 - STDOUT: [14/120] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:17 - STDOUT: [15/120] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:17 - STDOUT: [16/120] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:17 - STDOUT: [17/120] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:17 - STDOUT: [18/120] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:39:18 - STDOUT: [19/120] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:39:18 - STDOUT: [20/120] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:39:18 - STDOUT: [21/120] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:18 - STDOUT: [22/120] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:39:18 - STDOUT: [23/120] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:39:18 - STDOUT: [24/120] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:39:18 - STDOUT: [25/120] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:39:19 - STDOUT: [26/120] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:39:19 - STDOUT: [27/120] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:19 - STDOUT: [28/120] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:21 - STDOUT: [29/120] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:39:22 - STDOUT: [30/120] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:39:22 - STDOUT: [31/120] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:39:23 - STDOUT: [32/120] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:39:24 - STDOUT: [33/120] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:39:24 - STDOUT: [34/120] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:39:24 - STDOUT: [35/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:24 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [36/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [37/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [38/120] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [39/120] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [40/120] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [41/120] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [42/120] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [43/120] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:25 - STDOUT: [44/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [45/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [46/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [47/120] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [48/120] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [49/120] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [50/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [51/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [52/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [53/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:26 - STDOUT: [54/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:27 - STDOUT: [55/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:27 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:27 - STDOUT: [56/120] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:39:27 - STDOUT: [57/120] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:39:27 - STDOUT: [58/120] player.ee.co.uk (en) - SkyCinemaHits.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:39:27 - STDOUT: [59/120] player.ee.co.uk (en) - SkyCinemaHits.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:39:28 - STDOUT: [60/120] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:39:28 - STDOUT: [61/120] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:39:28 - STDOUT: [62/120] tvireland.ie (en) - 1318/sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:39:28 - STDOUT: [63/120] tvireland.ie (en) - 1318/sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:39:29 - STDOUT: [64/120] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:39:30 - STDOUT: [65/120] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:39:30 - STDOUT: [66/120] streamingtvguides.com (en) - MOVIEHD - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:39:30 - STDOUT: [67/120] streamingtvguides.com (en) - MOVIEHD - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:39:30 - STDOUT: [68/120] streamingtvguides.com (en) - MOVIE - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:30 - STDOUT: [69/120] streamingtvguides.com (en) - MOVIE - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:30 - STDOUT: [70/120] tvtv.us (en) - 25621 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:39:30 - STDOUT: [71/120] tvtv.us (en) - 25621 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:39:31 - STDOUT: [72/120] directv.com (en) - 521#3339 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:31 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:31 - STDOUT: [73/120] directv.com (en) - 521#3339 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:31 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:32 - STDOUT: [74/120] tvguide.com (en) - 9233000532 - Feb 1, 2025 (19 programs)
+Jan 31 2025 13:39:32 - STDOUT: [75/120] tvguide.com (en) - 9233000532 - Jan 31, 2025 (19 programs)
+Jan 31 2025 13:39:32 - STDOUT: [76/120] tvtv.us (en) - 73574 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:39:32 - STDOUT: [77/120] tvtv.us (en) - 73574 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:39:33 - STDOUT: [78/120] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:39:33 - STDOUT: [79/120] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:39:33 - STDOUT: [80/120] tvinsider.com (en) - curiosity-stream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:33 - STDOUT: [81/120] tvinsider.com (en) - curiosity-stream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:33 - STDOUT: [82/120] tv.nu (en) - curiositystream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:33 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:39:33 - STDOUT: [83/120] tv.nu (en) - curiositystream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:33 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:39:33 - STDOUT: [84/120] ziggogo.tv (en) - NL_000216_019122 - Feb 1, 2025 (35 programs)
+Jan 31 2025 13:39:34 - STDOUT: [85/120] ziggogo.tv (en) - NL_000216_019122 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:39:34 - STDOUT: [86/120] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:39:34 - STDOUT: [87/120] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:39:35 - STDOUT: [88/120] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:39:35 - STDOUT: [89/120] tvtv.us (en) - 49438 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:39:35 - STDOUT: [90/120] tvtv.us (en) - 49438 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:39:36 - STDOUT: [91/120] directv.com (en) - 276#8215 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:36 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:37 - STDOUT: [92/120] directv.com (en) - 276#8215 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:37 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:37 - STDOUT: [93/120] directv.com (en) - 276#276 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:37 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:38 - STDOUT: [94/120] directv.com (en) - 276#276 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:38 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:38 - STDOUT: [95/120] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:39:38 - STDOUT: [96/120] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:39:38 - STDOUT: [97/120] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:39:39 - STDOUT: [98/120] tvguide.com (en) - 9200018644 - Feb 1, 2025 (43 programs)
+Jan 31 2025 13:39:39 - STDOUT: [99/120] tvguide.com (en) - 9200018644 - Jan 31, 2025 (43 programs)
+Jan 31 2025 13:39:39 - STDOUT: [100/120] flixed.io (en) - 17927 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:39:39 - STDOUT: [101/120] tvtv.us (en) - 17927 - Feb 1, 2025 (41 programs)
+Jan 31 2025 13:39:39 - STDOUT: [102/120] tvtv.us (en) - 17927 - Jan 31, 2025 (41 programs)
+Jan 31 2025 13:39:40 - STDOUT: [103/120] flixed.io (en) - 66379 - Jan 31, 2025 (42 programs)
+Jan 31 2025 13:39:40 - STDOUT: [104/120] directv.com (en) - 259#8138 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:40 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:40 - STDOUT: [105/120] directv.com (en) - 259#8138 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:40 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:41 - STDOUT: [106/120] directv.com (en) - 259#2619 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:41 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:41 - STDOUT: [107/120] directv.com (en) - 259#2619 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:41 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:42 - STDOUT: [108/120] ontvtonight.com (en) - us#69046950/fx-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:39:42 - STDOUT: [109/120] ontvtonight.com (en) - us#69046950/fx-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:39:42 - STDOUT: [110/120] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:39:42 - STDOUT: [111/120] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:39:42 - STDOUT: [112/120] flixed.io (en) - FXEast.us - Jan 31, 2025 (17 programs)
+Jan 31 2025 13:39:43 - STDOUT: [113/120] flixed.io (en) - FXEast.us - Jan 31, 2025 (3 programs)
+Jan 31 2025 13:39:43 - STDOUT: [114/120] directv.com (en) - 248#8208 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:44 - STDOUT: [115/120] directv.com (en) - 248#8208 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:44 - STDOUT: [116/120] directv.com (en) - 248#248 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:39:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:44 - STDOUT: [117/120] directv.com (en) - 248#248 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:39:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:39:44 - STDOUT: [118/120] tvguide.com (en) - 9200006932 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:39:45 - STDOUT: [119/120] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:39:46 - STDOUT: [120/120] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:39:46 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml"...
+Jan 31 2025 13:39:46 - STDOUT: done in 00h 01m 08s
+Jan 31 2025 13:39:46 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml executed successfully.
+Jan 31 2025 13:39:46 - Found 60 channel(s) in the output.
+Jan 31 2025 13:39:46 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-38-37 PM.xml
+Jan 31 2025 13:39:46 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-38-37 PM.xml
+Jan 31 2025 13:39:46 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:39:47 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:39:47 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml
+Jan 31 2025 13:39:47 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-38-37 PM.xml
+Jan 31 2025 13:39:48 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 31, 2025 01:39:48 PM ET
+Jan 31 2025 13:39:48 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/scripts']' returned non-zero exit status 128.
+Jan 31 2025 13:40:31 - Starting EPG merge process...
+Jan 31 2025 13:40:31 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml
+Jan 31 2025 13:40:31 - STDOUT: 
+Jan 31 2025 13:40:31 - STDOUT: > grab
+Jan 31 2025 13:40:31 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml
+Jan 31 2025 13:40:31 - STDOUT: 
+Jan 31 2025 13:40:32 - STDOUT: starting...
+Jan 31 2025 13:40:32 - STDOUT: config:
+Jan 31 2025 13:40:32 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml
+Jan 31 2025 13:40:32 - STDOUT: maxConnections: 1
+Jan 31 2025 13:40:32 - STDOUT: gzip: false
+Jan 31 2025 13:40:32 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:40:32 - STDOUT: loading channels...
+Jan 31 2025 13:40:32 - STDOUT: found 60 channel(s)
+Jan 31 2025 13:40:32 - STDOUT: run #1:
+Jan 31 2025 13:40:42 - STDOUT: [1/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:40:52 - STDOUT: [2/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 1, 2025 (6 programs)
+Jan 31 2025 13:40:52 - STDOUT: [3/120] tvguide.com (en) - 9200006932 - Jan 31, 2025 (20 programs)
+Jan 31 2025 13:40:54 - STDOUT: [4/120] directv.com (en) - 248#8208 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:40:54 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:40:54 - STDOUT: [5/120] directv.com (en) - 248#248 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:40:54 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:04 - STDOUT: [6/120] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 2, 2025 (6 programs)
+Jan 31 2025 13:41:04 - STDOUT: [7/120] directv.com (en) - 248#248 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:04 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:05 - STDOUT: [8/120] tvguide.com (en) - 9200006932 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:41:05 - STDOUT: [9/120] flixed.io (en) - FXEast.us - Jan 31, 2025 (3 programs)
+Jan 31 2025 13:41:05 - STDOUT: [10/120] directv.com (en) - 248#8208 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:05 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:06 - STDOUT: [11/120] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:06 - STDOUT: [12/120] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:07 - STDOUT: [13/120] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:07 - STDOUT: [14/120] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:08 - STDOUT: [15/120] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:08 - STDOUT: [16/120] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:08 - STDOUT: [17/120] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:08 - STDOUT: [18/120] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:41:08 - STDOUT: [19/120] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:41:08 - STDOUT: [20/120] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:41:08 - STDOUT: [21/120] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:09 - STDOUT: [22/120] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:41:09 - STDOUT: [23/120] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:41:09 - STDOUT: [24/120] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:41:09 - STDOUT: [25/120] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:41:09 - STDOUT: [26/120] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:41:09 - STDOUT: [27/120] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:09 - STDOUT: [28/120] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:12 - STDOUT: [29/120] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:41:13 - STDOUT: [30/120] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:41:13 - STDOUT: [31/120] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:41:14 - STDOUT: [32/120] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:41:14 - STDOUT: [33/120] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:41:16 - STDOUT: [34/120] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:41:16 - STDOUT: [35/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [36/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [37/120] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [38/120] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [39/120] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [40/120] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [41/120] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:16 - STDOUT: [42/120] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:16 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [43/120] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [44/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [45/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [46/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [47/120] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [48/120] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [49/120] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [50/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [51/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:17 - STDOUT: [52/120] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:17 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:18 - STDOUT: [53/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:41:18 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:18 - STDOUT: [54/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:18 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:18 - STDOUT: [55/120] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:18 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:18 - STDOUT: [56/120] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:41:18 - STDOUT: [57/120] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:41:18 - STDOUT: [58/120] player.ee.co.uk (en) - SkyCinemaHits.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:41:18 - STDOUT: [59/120] player.ee.co.uk (en) - SkyCinemaHits.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:41:19 - STDOUT: [60/120] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:41:19 - STDOUT: [61/120] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:41:19 - STDOUT: [62/120] tvireland.ie (en) - 1318/sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:41:19 - STDOUT: [63/120] tvireland.ie (en) - 1318/sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:41:20 - STDOUT: [64/120] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:41:20 - STDOUT: [65/120] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:41:20 - STDOUT: [66/120] streamingtvguides.com (en) - MOVIEHD - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:41:21 - STDOUT: [67/120] streamingtvguides.com (en) - MOVIEHD - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:41:21 - STDOUT: [68/120] streamingtvguides.com (en) - MOVIE - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:21 - STDOUT: [69/120] streamingtvguides.com (en) - MOVIE - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:21 - STDOUT: [70/120] tvtv.us (en) - 25621 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:41:21 - STDOUT: [71/120] tvtv.us (en) - 25621 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:41:22 - STDOUT: [72/120] directv.com (en) - 521#3339 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:22 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:22 - STDOUT: [73/120] directv.com (en) - 521#3339 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:22 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:22 - STDOUT: [74/120] tvguide.com (en) - 9233000532 - Feb 1, 2025 (19 programs)
+Jan 31 2025 13:41:23 - STDOUT: [75/120] tvguide.com (en) - 9233000532 - Jan 31, 2025 (19 programs)
+Jan 31 2025 13:41:23 - STDOUT: [76/120] tvtv.us (en) - 73574 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:41:23 - STDOUT: [77/120] tvtv.us (en) - 73574 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:41:23 - STDOUT: [78/120] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:41:23 - STDOUT: [79/120] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:41:23 - STDOUT: [80/120] tvinsider.com (en) - curiosity-stream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:23 - STDOUT: [81/120] tvinsider.com (en) - curiosity-stream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:23 - STDOUT: [82/120] tv.nu (en) - curiositystream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:23 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:41:23 - STDOUT: [83/120] tv.nu (en) - curiositystream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:23 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:41:24 - STDOUT: [84/120] ziggogo.tv (en) - NL_000216_019122 - Feb 1, 2025 (35 programs)
+Jan 31 2025 13:41:25 - STDOUT: [85/120] ziggogo.tv (en) - NL_000216_019122 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:41:25 - STDOUT: [86/120] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:41:25 - STDOUT: [87/120] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:41:25 - STDOUT: [88/120] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:41:25 - STDOUT: [89/120] tvtv.us (en) - 49438 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:41:25 - STDOUT: [90/120] tvtv.us (en) - 49438 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:41:26 - STDOUT: [91/120] directv.com (en) - 276#8215 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:26 - STDOUT: [92/120] directv.com (en) - 276#8215 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:26 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:27 - STDOUT: [93/120] directv.com (en) - 276#276 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:27 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:27 - STDOUT: [94/120] directv.com (en) - 276#276 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:27 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:27 - STDOUT: [95/120] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:41:27 - STDOUT: [96/120] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:41:27 - STDOUT: [97/120] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:41:27 - STDOUT: [98/120] tvguide.com (en) - 9200018644 - Feb 1, 2025 (43 programs)
+Jan 31 2025 13:41:28 - STDOUT: [99/120] tvguide.com (en) - 9200018644 - Jan 31, 2025 (43 programs)
+Jan 31 2025 13:41:28 - STDOUT: [100/120] flixed.io (en) - 17927 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:41:28 - STDOUT: [101/120] tvtv.us (en) - 17927 - Feb 1, 2025 (41 programs)
+Jan 31 2025 13:41:28 - STDOUT: [102/120] tvtv.us (en) - 17927 - Jan 31, 2025 (41 programs)
+Jan 31 2025 13:41:28 - STDOUT: [103/120] flixed.io (en) - 66379 - Jan 31, 2025 (42 programs)
+Jan 31 2025 13:41:28 - STDOUT: [104/120] directv.com (en) - 259#8138 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:28 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:29 - STDOUT: [105/120] directv.com (en) - 259#8138 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:29 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:29 - STDOUT: [106/120] directv.com (en) - 259#2619 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:41:29 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:29 - STDOUT: [107/120] directv.com (en) - 259#2619 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:41:29 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:41:29 - STDOUT: [108/120] ontvtonight.com (en) - us#69046950/fx-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:41:29 - STDOUT: [109/120] ontvtonight.com (en) - us#69046950/fx-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:41:30 - STDOUT: [110/120] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:41:30 - STDOUT: [111/120] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:41:30 - STDOUT: [112/120] flixed.io (en) - FXEast.us - Jan 31, 2025 (17 programs)
+Jan 31 2025 13:41:31 - STDOUT: [113/120] sky.de (de) - 1014 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:41:31 - STDOUT: [114/120] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:41:32 - STDOUT: [115/120] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:41:32 - STDOUT: [116/120] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:41:34 - STDOUT: [117/120] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:41:34 - STDOUT: [118/120] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:41:35 - STDOUT: [119/120] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:41:35 - STDOUT: [120/120] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:41:35 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml"...
+Jan 31 2025 13:41:35 - STDOUT: done in 00h 01m 03s
+Jan 31 2025 13:41:35 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml executed successfully.
+Jan 31 2025 13:41:35 - Found 60 channel(s) in the output.
+Jan 31 2025 13:41:35 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:41:35 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:41:36 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml
+Jan 31 2025 13:41:36 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-40-31 PM.xml
+Jan 31 2025 13:41:36 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-40-31 PM.xml
+Jan 31 2025 13:41:36 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-40-31 PM.xml
+Jan 31 2025 13:41:37 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 31, 2025 01:41:37 PM ET
+Jan 31 2025 13:41:37 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/scripts']' returned non-zero exit status 128.
+Jan 31 2025 13:42:01 - Starting EPG merge process...
+Jan 31 2025 13:42:01 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml
+Jan 31 2025 13:42:02 - STDOUT: 
+Jan 31 2025 13:42:02 - STDOUT: > grab
+Jan 31 2025 13:42:02 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml
+Jan 31 2025 13:42:02 - STDOUT: 
+Jan 31 2025 13:42:02 - STDOUT: starting...
+Jan 31 2025 13:42:02 - STDOUT: config:
+Jan 31 2025 13:42:02 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml
+Jan 31 2025 13:42:02 - STDOUT: maxConnections: 1
+Jan 31 2025 13:42:02 - STDOUT: gzip: false
+Jan 31 2025 13:42:02 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:42:02 - STDOUT: loading channels...
+Jan 31 2025 13:42:02 - STDOUT: found 60 channel(s)
+Jan 31 2025 13:42:02 - STDOUT: run #1:
+Jan 31 2025 13:42:33 - STDOUT: [1/119] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:42:33 - STDOUT: ERR: Connection timeout
+Jan 31 2025 13:43:03 - STDOUT: [2/119] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:03 - STDOUT: ERR: Connection timeout
+Jan 31 2025 13:43:04 - STDOUT: [3/119] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:43:04 - STDOUT: [4/119] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:43:05 - STDOUT: [5/119] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:43:06 - STDOUT: [6/119] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:43:07 - STDOUT: [7/119] sky.de (de) - 1014 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:07 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:08 - STDOUT: [8/119] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:43:08 - STDOUT: [9/119] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:43:08 - STDOUT: [10/119] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:43:09 - STDOUT: [11/119] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:09 - STDOUT: [12/119] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:10 - STDOUT: [13/119] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:10 - STDOUT: [14/119] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:11 - STDOUT: [15/119] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:11 - STDOUT: [16/119] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:11 - STDOUT: [17/119] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:11 - STDOUT: [18/119] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:43:11 - STDOUT: [19/119] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:43:11 - STDOUT: [20/119] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:43:12 - STDOUT: [21/119] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:12 - STDOUT: [22/119] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:43:12 - STDOUT: [23/119] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:43:12 - STDOUT: [24/119] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:43:12 - STDOUT: [25/119] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:43:13 - STDOUT: [26/119] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:43:13 - STDOUT: [27/119] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:13 - STDOUT: [28/119] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:15 - STDOUT: [29/119] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:43:16 - STDOUT: [30/119] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:43:16 - STDOUT: [31/119] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:43:17 - STDOUT: [32/119] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:43:18 - STDOUT: [33/119] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:43:18 - STDOUT: [34/119] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:43:18 - STDOUT: [35/119] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:18 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:18 - STDOUT: [36/119] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:18 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [37/119] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [38/119] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [39/119] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [40/119] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [41/119] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [42/119] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [43/119] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [44/119] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [45/119] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [46/119] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:19 - STDOUT: [47/119] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:19 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [48/119] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [49/119] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [50/119] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [51/119] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [52/119] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [53/119] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [54/119] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [55/119] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:20 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:20 - STDOUT: [56/119] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:43:20 - STDOUT: [57/119] player.ee.co.uk (en) - SkyCinemaHitsHD.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:43:20 - STDOUT: [58/119] player.ee.co.uk (en) - SkyCinemaHits.uk - Feb 1, 2025 (15 programs)
+Jan 31 2025 13:43:20 - STDOUT: [59/119] player.ee.co.uk (en) - SkyCinemaHits.uk - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:43:21 - STDOUT: [60/119] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:43:21 - STDOUT: [61/119] tvireland.ie (en) - 1536/sky-cinema-hits-hd - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:43:21 - STDOUT: [62/119] tvireland.ie (en) - 1318/sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:43:21 - STDOUT: [63/119] tvireland.ie (en) - 1318/sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:43:22 - STDOUT: [64/119] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:43:23 - STDOUT: [65/119] tvprofil.com (en) - gb/tvschedule#sky-cinema-hits - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:43:23 - STDOUT: [66/119] streamingtvguides.com (en) - MOVIEHD - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:43:23 - STDOUT: [67/119] streamingtvguides.com (en) - MOVIEHD - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:43:23 - STDOUT: [68/119] streamingtvguides.com (en) - MOVIE - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:23 - STDOUT: [69/119] streamingtvguides.com (en) - MOVIE - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:23 - STDOUT: [70/119] tvtv.us (en) - 25621 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:43:23 - STDOUT: [71/119] tvtv.us (en) - 25621 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:43:25 - STDOUT: [72/119] directv.com (en) - 521#3339 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:25 - STDOUT: [73/119] directv.com (en) - 521#3339 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:25 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:26 - STDOUT: [74/119] tvguide.com (en) - 9233000532 - Feb 1, 2025 (19 programs)
+Jan 31 2025 13:43:26 - STDOUT: [75/119] tvguide.com (en) - 9233000532 - Jan 31, 2025 (19 programs)
+Jan 31 2025 13:43:26 - STDOUT: [76/119] tvtv.us (en) - 73574 - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:43:26 - STDOUT: [77/119] tvtv.us (en) - 73574 - Jan 31, 2025 (15 programs)
+Jan 31 2025 13:43:26 - STDOUT: [78/119] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Feb 1, 2025 (13 programs)
+Jan 31 2025 13:43:27 - STDOUT: [79/119] ontvtonight.com (en) - ca#69043787/hollywood-suite-80s - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:43:27 - STDOUT: [80/119] tvinsider.com (en) - curiosity-stream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:27 - STDOUT: [81/119] tvinsider.com (en) - curiosity-stream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:27 - STDOUT: [82/119] tv.nu (en) - curiositystream - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:27 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:43:27 - STDOUT: [83/119] tv.nu (en) - curiositystream - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:27 - STDOUT: ERR: Request failed with status code 403
+Jan 31 2025 13:43:27 - STDOUT: [84/119] ziggogo.tv (en) - NL_000216_019122 - Feb 1, 2025 (35 programs)
+Jan 31 2025 13:43:27 - STDOUT: [85/119] ziggogo.tv (en) - NL_000216_019122 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:43:28 - STDOUT: [86/119] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:43:28 - STDOUT: [87/119] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:43:28 - STDOUT: [88/119] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:43:28 - STDOUT: [89/119] tvtv.us (en) - 49438 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:43:28 - STDOUT: [90/119] tvtv.us (en) - 49438 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:43:28 - STDOUT: [91/119] directv.com (en) - 276#8215 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:28 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:29 - STDOUT: [92/119] directv.com (en) - 276#8215 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:29 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:29 - STDOUT: [93/119] directv.com (en) - 276#276 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:29 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:30 - STDOUT: [94/119] directv.com (en) - 276#276 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:30 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:30 - STDOUT: [95/119] tvguide.com (en) - 9233002310 - Feb 1, 2025 (32 programs)
+Jan 31 2025 13:43:30 - STDOUT: [96/119] tvguide.com (en) - 9233002310 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:43:30 - STDOUT: [97/119] flixed.io (en) - 24959 - Jan 31, 2025 (27 programs)
+Jan 31 2025 13:43:30 - STDOUT: [98/119] tvguide.com (en) - 9200018644 - Feb 1, 2025 (43 programs)
+Jan 31 2025 13:43:30 - STDOUT: [99/119] tvguide.com (en) - 9200018644 - Jan 31, 2025 (43 programs)
+Jan 31 2025 13:43:31 - STDOUT: [100/119] flixed.io (en) - 17927 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:43:31 - STDOUT: [101/119] tvtv.us (en) - 17927 - Feb 1, 2025 (41 programs)
+Jan 31 2025 13:43:31 - STDOUT: [102/119] tvtv.us (en) - 17927 - Jan 31, 2025 (41 programs)
+Jan 31 2025 13:43:31 - STDOUT: [103/119] flixed.io (en) - 66379 - Jan 31, 2025 (42 programs)
+Jan 31 2025 13:43:31 - STDOUT: [104/119] directv.com (en) - 259#8138 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:31 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:32 - STDOUT: [105/119] directv.com (en) - 259#8138 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:32 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:33 - STDOUT: [106/119] directv.com (en) - 259#2619 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:33 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:33 - STDOUT: [107/119] directv.com (en) - 259#2619 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:33 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:34 - STDOUT: [108/119] ontvtonight.com (en) - us#69046950/fx-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:43:34 - STDOUT: [109/119] ontvtonight.com (en) - us#69046950/fx-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:43:34 - STDOUT: [110/119] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Feb 1, 2025 (14 programs)
+Jan 31 2025 13:43:34 - STDOUT: [111/119] ontvtonight.com (en) - us#69031021/fx-hdtv-east - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:43:34 - STDOUT: [112/119] flixed.io (en) - FXEast.us - Jan 31, 2025 (3 programs)
+Jan 31 2025 13:43:34 - STDOUT: [113/119] directv.com (en) - 248#8208 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:34 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:35 - STDOUT: [114/119] directv.com (en) - 248#8208 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:35 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:35 - STDOUT: [115/119] directv.com (en) - 248#248 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:43:35 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:36 - STDOUT: [116/119] directv.com (en) - 248#248 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:43:36 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:43:36 - STDOUT: [117/119] tvguide.com (en) - 9200006932 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:43:36 - STDOUT: [118/119] tvguide.com (en) - 9200006932 - Jan 31, 2025 (20 programs)
+Jan 31 2025 13:44:06 - STDOUT: [119/119] tvpassport.com (en) - syn-the-big-bang-theory/32189 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:44:06 - STDOUT: ERR: Connection timeout
+Jan 31 2025 13:44:06 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml"...
+Jan 31 2025 13:44:06 - STDOUT: done in 00h 02m 04s
+Jan 31 2025 13:44:07 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml executed successfully.
+Jan 31 2025 13:44:07 - Found 60 channel(s) in the output.
+Jan 31 2025 13:44:07 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-42-01 PM.xml
+Jan 31 2025 13:44:07 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-42-01 PM.xml
+Jan 31 2025 13:44:07 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:44:07 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:44:08 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml
+Jan 31 2025 13:44:08 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-42-01 PM.xml
+Jan 31 2025 13:44:08 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 31, 2025 01:44:08 PM ET
+Jan 31 2025 13:44:09 - Failed to commit and push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/scripts']' returned non-zero exit status 128.
+Jan 31 2025 13:46:33 - Starting EPG merge process...
+Jan 31 2025 13:46:33 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:33 - STDOUT: 
+Jan 31 2025 13:46:33 - STDOUT: > grab
+Jan 31 2025 13:46:33 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:33 - STDOUT: 
+Jan 31 2025 13:46:34 - STDOUT: starting...
+Jan 31 2025 13:46:34 - STDOUT: config:
+Jan 31 2025 13:46:34 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:34 - STDOUT: maxConnections: 1
+Jan 31 2025 13:46:34 - STDOUT: gzip: false
+Jan 31 2025 13:46:34 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:46:34 - STDOUT: loading channels...
+Jan 31 2025 13:46:34 - STDOUT: found 24 channel(s)
+Jan 31 2025 13:46:34 - STDOUT: run #1:
+Jan 31 2025 13:46:35 - STDOUT: [1/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:35 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:35 - STDOUT: [2/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:35 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:36 - STDOUT: [3/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:46:36 - STDOUT: [4/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:46:37 - STDOUT: [5/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:46:38 - STDOUT: [6/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:46:39 - STDOUT: [7/56] sky.de (de) - 1014 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:46:39 - STDOUT: [8/56] sky.de (de) - 1014 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:39 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:39 - STDOUT: [9/56] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:46:39 - STDOUT: [10/56] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:46:40 - STDOUT: [11/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:41 - STDOUT: [12/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:41 - STDOUT: [13/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:42 - STDOUT: [14/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:42 - STDOUT: [15/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:42 - STDOUT: [16/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:42 - STDOUT: [17/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:43 - STDOUT: [18/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:46:43 - STDOUT: [19/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:46:43 - STDOUT: [20/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:46:43 - STDOUT: [21/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:43 - STDOUT: [22/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:46:43 - STDOUT: [23/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:46:43 - STDOUT: [24/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:46:43 - STDOUT: [25/56] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:46:44 - STDOUT: [26/56] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:46:44 - STDOUT: [27/56] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:44 - STDOUT: [28/56] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:46 - STDOUT: [29/56] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:46:47 - STDOUT: [30/56] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:46:47 - STDOUT: [31/56] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:46:48 - STDOUT: [32/56] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:46:49 - STDOUT: [33/56] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:46:49 - STDOUT: [34/56] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:46:49 - STDOUT: [35/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:49 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [36/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [37/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [38/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [39/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [40/56] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [41/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [42/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [43/56] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [44/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:50 - STDOUT: [45/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:50 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [46/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [47/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [48/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [49/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [50/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [51/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [52/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [53/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:51 - STDOUT: [54/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:46:51 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:52 - STDOUT: [55/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:46:52 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:52 - STDOUT: [56/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:46:52 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:46:52 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml"...
+Jan 31 2025 13:46:52 - STDOUT: done in 00h 00m 17s
+Jan 31 2025 13:46:52 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml executed successfully.
+Jan 31 2025 13:46:52 - Found 24 channel(s) in the output.
+Jan 31 2025 13:46:52 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:46:52 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:46:52 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:52 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:53 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:53 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-46-33 PM.xml
+Jan 31 2025 13:46:54 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Jan 31, 2025 01:46:53 PM ET
+Jan 31 2025 13:48:20 - Starting EPG merge process...
+Jan 31 2025 13:48:20 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:20 - STDOUT: 
+Jan 31 2025 13:48:20 - STDOUT: > grab
+Jan 31 2025 13:48:20 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:20 - STDOUT: 
+Jan 31 2025 13:48:21 - STDOUT: starting...
+Jan 31 2025 13:48:21 - STDOUT: config:
+Jan 31 2025 13:48:21 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:21 - STDOUT: maxConnections: 1
+Jan 31 2025 13:48:21 - STDOUT: gzip: false
+Jan 31 2025 13:48:21 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:48:21 - STDOUT: loading channels...
+Jan 31 2025 13:48:21 - STDOUT: found 24 channel(s)
+Jan 31 2025 13:48:21 - STDOUT: run #1:
+Jan 31 2025 13:48:21 - STDOUT: [1/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:21 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:22 - STDOUT: [2/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:22 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:22 - STDOUT: [3/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:48:23 - STDOUT: [4/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:48:24 - STDOUT: [5/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:48:25 - STDOUT: [6/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:48:26 - STDOUT: [7/56] sky.de (de) - 1014 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:48:26 - STDOUT: [8/56] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:48:26 - STDOUT: [9/56] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:48:26 - STDOUT: [10/56] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:48:27 - STDOUT: [11/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:28 - STDOUT: [12/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:28 - STDOUT: [13/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:29 - STDOUT: [14/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:29 - STDOUT: [15/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:29 - STDOUT: [16/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:30 - STDOUT: [17/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:30 - STDOUT: [18/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:48:30 - STDOUT: [19/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:48:30 - STDOUT: [20/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:48:30 - STDOUT: [21/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:30 - STDOUT: [22/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:48:31 - STDOUT: [23/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:48:31 - STDOUT: [24/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:48:31 - STDOUT: [25/56] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:48:31 - STDOUT: [26/56] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:48:31 - STDOUT: [27/56] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:31 - STDOUT: [28/56] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:39 - STDOUT: [29/56] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:48:39 - STDOUT: [30/56] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:48:40 - STDOUT: [31/56] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:48:40 - STDOUT: [32/56] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:48:41 - STDOUT: [33/56] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:48:42 - STDOUT: [34/56] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:48:42 - STDOUT: [35/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [36/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [37/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [38/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [39/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [40/56] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [41/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:42 - STDOUT: [42/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:42 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [43/56] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [44/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [45/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [46/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [47/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [48/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [49/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [50/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [51/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:43 - STDOUT: [52/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:43 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:44 - STDOUT: [53/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:44 - STDOUT: [54/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:48:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:44 - STDOUT: [55/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:48:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:44 - STDOUT: [56/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:48:44 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:48:44 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml"...
+Jan 31 2025 13:48:44 - STDOUT: done in 00h 00m 22s
+Jan 31 2025 13:48:44 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml executed successfully.
+Jan 31 2025 13:48:44 - Found 24 channel(s) in the output.
+Jan 31 2025 13:48:44 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:48:44 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:48:44 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:44 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:45 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:45 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-48-20 PM.xml
+Jan 31 2025 13:48:46 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/merged_epg.xml at Jan 31, 2025 01:48:45 PM ET
+Jan 31 2025 13:48:47 - Failed to commit, rebase, or push files - Error: Command '['git', 'rebase', 'origin/main']' returned non-zero exit status 1.
+Jan 31 2025 13:49:39 - Starting EPG merge process...
+Jan 31 2025 13:49:39 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml
+Jan 31 2025 13:49:39 - STDOUT: 
+Jan 31 2025 13:49:39 - STDOUT: > grab
+Jan 31 2025 13:49:39 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml
+Jan 31 2025 13:49:39 - STDOUT: 
+Jan 31 2025 13:49:40 - STDOUT: starting...
+Jan 31 2025 13:49:40 - STDOUT: config:
+Jan 31 2025 13:49:40 - STDOUT: output: ./scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml
+Jan 31 2025 13:49:40 - STDOUT: maxConnections: 1
+Jan 31 2025 13:49:40 - STDOUT: gzip: false
+Jan 31 2025 13:49:40 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Jan 31 2025 13:49:40 - STDOUT: loading channels...
+Jan 31 2025 13:49:40 - STDOUT: found 24 channel(s)
+Jan 31 2025 13:49:40 - STDOUT: run #1:
+Jan 31 2025 13:49:41 - STDOUT: [1/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:41 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:41 - STDOUT: [2/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:41 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:42 - STDOUT: [3/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 1, 2025 (16 programs)
+Jan 31 2025 13:49:43 - STDOUT: [4/56] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Jan 31, 2025 (14 programs)
+Jan 31 2025 13:49:44 - STDOUT: [5/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 1, 2025 (27 programs)
+Jan 31 2025 13:49:45 - STDOUT: [6/56] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Jan 31, 2025 (35 programs)
+Jan 31 2025 13:49:45 - STDOUT: [7/56] sky.de (de) - 1014 - Feb 1, 2025 (17 programs)
+Jan 31 2025 13:49:46 - STDOUT: [8/56] sky.de (de) - 1014 - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:49:46 - STDOUT: [9/56] tvinsider.com (en) - fanduel-sports-midwest - Feb 1, 2025 (29 programs)
+Jan 31 2025 13:49:46 - STDOUT: [10/56] tvinsider.com (en) - fanduel-sports-midwest - Jan 31, 2025 (16 programs)
+Jan 31 2025 13:49:47 - STDOUT: [11/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:47 - STDOUT: [12/56] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:48 - STDOUT: [13/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:49 - STDOUT: [14/56] i.mjh.nz (en) - PlutoTV/us#5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:49 - STDOUT: [15/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:49 - STDOUT: [16/56] i.mjh.nz (en) - PlutoTV/gb#5bd8282253ed2c6334ea10fa - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:49 - STDOUT: [17/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:49 - STDOUT: [18/56] i.mjh.nz (en) - SamsungTVPlus/us#USBA3800004EL - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:49:50 - STDOUT: [19/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:49:50 - STDOUT: [20/56] i.mjh.nz (en) - SamsungTVPlus/gb#GBBD1500003SD - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:49:50 - STDOUT: [21/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:50 - STDOUT: [22/56] i.mjh.nz (en) - SamsungTVPlus/ca#CABB260002016 - Jan 31, 2025 (6 programs)
+Jan 31 2025 13:49:50 - STDOUT: [23/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:49:50 - STDOUT: [24/56] ontvtonight.com (en) - ca#69044653/fireplace-hdtv - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:49:50 - STDOUT: [25/56] ontvtonight.com (en) - ca#69032847/fireplace - Feb 1, 2025 (1 programs)
+Jan 31 2025 13:49:51 - STDOUT: [26/56] ontvtonight.com (en) - ca#69032847/fireplace - Jan 31, 2025 (1 programs)
+Jan 31 2025 13:49:51 - STDOUT: [27/56] xumo.tv (en) - 100#99951204 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:51 - STDOUT: [28/56] xumo.tv (en) - 100#99951204 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:53 - STDOUT: [29/56] nzxmltv.com (en) - iptv/plutotv#320 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:49:54 - STDOUT: [30/56] nzxmltv.com (en) - iptv/plutotv#320 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:49:54 - STDOUT: [31/56] nzxmltv.com (en) - iptv/plutotv#310 - Feb 1, 2025 (9 programs)
+Jan 31 2025 13:49:55 - STDOUT: [32/56] nzxmltv.com (en) - iptv/plutotv#310 - Jan 31, 2025 (18 programs)
+Jan 31 2025 13:49:56 - STDOUT: [33/56] tvprofil.com (hr) - tvprogram#fireplace - Feb 1, 2025 (12 programs)
+Jan 31 2025 13:49:56 - STDOUT: [34/56] tvprofil.com (hr) - tvprogram#fireplace - Jan 31, 2025 (12 programs)
+Jan 31 2025 13:49:56 - STDOUT: [35/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:56 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [36/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [37/56] pluto.tv (it) - 612ce23f51cce000078eeed5 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [38/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [39/56] pluto.tv (en) - 63565d76232dd10007bba40c - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [40/56] pluto.tv (en) - 63565d76232dd10007bba40c - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [41/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [42/56] pluto.tv (en) - 63565e744d02930007bf2818 - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [43/56] pluto.tv (en) - 63565e744d02930007bf2818 - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:57 - STDOUT: [44/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:57 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [45/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [46/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [47/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [48/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [49/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [50/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [51/56] pluto.tv (en) - 614501c653ceee000772b0ca - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [52/56] pluto.tv (en) - 614501c653ceee000772b0ca - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [53/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [54/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Feb 1, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:58 - STDOUT: [55/56] pluto.tv (en) - 5bf48085851dd5632e2f7b4d - Jan 31, 2025 (0 programs)
+Jan 31 2025 13:49:58 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:59 - STDOUT: [56/56] pluto.tv (de) - 5be1c0d81843b56328bc3fba - Feb 2, 2025 (0 programs)
+Jan 31 2025 13:49:59 - STDOUT: ERR: Request failed with status code 404
+Jan 31 2025 13:49:59 - STDOUT: saving to "./scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml"...
+Jan 31 2025 13:49:59 - STDOUT: done in 00h 00m 18s
+Jan 31 2025 13:49:59 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml executed successfully.
+Jan 31 2025 13:49:59 - Found 24 channel(s) in the output.
+Jan 31 2025 13:49:59 - Fetching 1/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-49-39 PM.xml
+Jan 31 2025 13:49:59 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-01-31-01-49-39 PM.xml
+Jan 31 2025 13:49:59 - Fetching 2/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:49:59 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Jan 31 2025 13:50:00 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml
+Jan 31 2025 13:50:00 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-01-31-01-49-39 PM.xml
+Jan 31 2025 13:50:00 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/merged_epg.xml at Jan 31, 2025 01:50:00 PM ET

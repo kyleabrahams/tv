@@ -175,11 +175,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
     ]
     # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
@@ -446,18 +446,26 @@ current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
 
 # Step 13: Save the merged EPG/log file and push to Github
+# python3 merge_epg.py
 
-# Define the directory to auto-commit
+# Define directories to auto-commit
+script_dir = os.path.dirname(os.path.abspath(__file__))
 directories_to_commit = [
     os.path.join(script_dir, "www"),
     os.path.join(script_dir, "_epg-end")
 ]
+
+# Add a check for the "scripts" directory
+additional_directory = os.path.join(script_dir, "scripts")
+if os.path.exists(additional_directory):
+    directories_to_commit.append(additional_directory)
 
 # Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 try:
     merged_tree = ET.ElementTree(merged_root)
+    save_path = os.path.join(script_dir, "merged_epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
     
     # Log success message
@@ -465,21 +473,36 @@ try:
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
-    # Force commit and push all files in the specified directories to GitHub
+    # Stage all files (modified & untracked)
     print("Committing and pushing all updated files in the specified directories to GitHub...")
-
+    
     for directory in directories_to_commit:
         print(f"Staging files in directory: {directory}")
         subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
 
     commit_message = f"EPG.xml auto-updated at {current_time_et} ET"
-    subprocess.run(["git", "commit", "-m", commit_message], check=True)  # Commit the changes
-    subprocess.run(["git", "push", "origin", "main"], check=True)  # Push the changes to the remote repository
+    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
+
+    # Check if there are uncommitted changes and commit them
+    result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode != 0:  # If there are uncommitted changes
+        print("Uncommitted changes detected. Committing changes before rebase...")
+        subprocess.run(["git", "commit", "-m", "Saving uncommitted changes before rebase"], check=True)
+
+    # Rebase before pushing
+    print("Fetching latest changes from the remote repository...")
+    subprocess.run(["git", "fetch"], check=True)
+
+    print("Attempting to rebase onto the latest changes from origin/main...")
+    subprocess.run(["git", "rebase", "origin/main"], check=True)
+
+    # Push changes to GitHub after rebase
+    subprocess.run(["git", "push", "origin", "main"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
-except Exception as e:
-    # Log error if save or Git operations fail
-    error_message = f"Failed to commit and push files - Error: {e}"
+except subprocess.CalledProcessError as e:
+    # Log error if save, rebase, or Git operations fail
+    error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
