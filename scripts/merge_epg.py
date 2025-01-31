@@ -510,9 +510,9 @@ try:
         logging.error(f"Rebase failed: {result.stderr.decode()}")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
-    # Push changes to GitHub after rebase
+    # Push changes to GitHub after rebase, with force push option if needed
     print("Pushing changes to GitHub...")
-    subprocess.run(["git", "push", "origin", "main"], check=True)
+    subprocess.run(["git", "push", "origin", "main", "--force"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
