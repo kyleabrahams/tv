@@ -505,14 +505,14 @@ try:
     result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     if result.returncode != 0:
-        # If rebase fails, log the error and print a message
-        print(f"Rebase failed: {result.stderr.decode()}")
-        logging.error(f"Rebase failed: {result.stderr.decode()}")
+        print("Rebase failed. Aborting and notifying user.")
+        subprocess.run(["git", "rebase", "--abort"], check=True)
+        logging.error("Rebase aborted due to conflicts. Please resolve manually.")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
     # Push changes to GitHub after rebase, with force push option if needed
     print("Pushing changes to GitHub...")
-    subprocess.run(["git", "push", "origin", "main", "--force"], check=True)
+    subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
