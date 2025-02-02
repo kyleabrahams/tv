@@ -16003,3 +16003,35 @@ Feb 01 2025 19:06:10 - Successfully loaded local file: /Users/kyleabrahams/Docum
 Feb 01 2025 19:06:10 - Fetching 3/3 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-01-06-47-22 PM.xml
 Feb 01 2025 19:06:10 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-01-06-47-22 PM.xml
 Feb 01 2025 19:06:11 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/merged_epg.xml at Feb 01, 2025 07:06:11 PM ET
+Feb 02 2025 17:37:40 - Starting EPG merge process...
+Feb 02 2025 17:37:40 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-02-02-05-37-40 PM.xml
+Feb 02 2025 17:37:40 - STDOUT: 
+Feb 02 2025 17:37:40 - STDOUT: > grab
+Feb 02 2025 17:37:40 - STDOUT: > npx tsx /Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-02-02-05-37-40 PM.xml
+Feb 02 2025 17:37:40 - STDOUT: 
+Feb 02 2025 17:37:41 - STDERR: 
+Feb 02 2025 17:37:41 - STDERR: node:internal/modules/run_main:128
+Feb 02 2025 17:37:41 - STDERR: triggerUncaughtException(
+Feb 02 2025 17:37:41 - STDERR: ^
+Feb 02 2025 17:37:41 - STDERR: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts' imported from /workspaces/tv/
+Feb 02 2025 17:37:41 - STDERR: at finalizeResolution (node:internal/modules/esm/resolve:265:11)
+Feb 02 2025 17:37:41 - STDERR: at moduleResolve (node:internal/modules/esm/resolve:933:10)
+Feb 02 2025 17:37:41 - STDERR: at defaultResolve (node:internal/modules/esm/resolve:1169:11)
+Feb 02 2025 17:37:41 - STDERR: at nextResolve (node:internal/modules/esm/hooks:868:28)
+Feb 02 2025 17:37:41 - STDERR: at resolveBase (file:///workspaces/tv/node_modules/tsx/dist/esm/index.mjs?1738517860999:2:3212)
+Feb 02 2025 17:37:41 - STDERR: at async resolveDirectory (file:///workspaces/tv/node_modules/tsx/dist/esm/index.mjs?1738517860999:2:3578)
+Feb 02 2025 17:37:41 - STDERR: at async resolve (file:///workspaces/tv/node_modules/tsx/dist/esm/index.mjs?1738517860999:2:4441)
+Feb 02 2025 17:37:41 - STDERR: at async nextResolve (node:internal/modules/esm/hooks:868:22)
+Feb 02 2025 17:37:41 - STDERR: at async Hooks.resolve (node:internal/modules/esm/hooks:306:24)
+Feb 02 2025 17:37:41 - STDERR: at async handleMessage (node:internal/modules/esm/worker:196:18) {
+Feb 02 2025 17:37:41 - STDERR: code: 'ERR_MODULE_NOT_FOUND',
+Feb 02 2025 17:37:41 - STDERR: url: 'file:///Users/kyleabrahams/Documents/GitHub/tv/scripts/commands/epg/grab.ts'
+Feb 02 2025 17:37:41 - STDERR: }
+Feb 02 2025 17:37:41 - STDERR: 
+Feb 02 2025 17:37:41 - STDERR: Node.js v20.18.1
+Feb 02 2025 17:37:41 - Command npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-02-02-05-37-40 PM.xml failed with error code 1.
+Feb 02 2025 17:37:41 - Fetching 1/2 - /workspaces/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Feb 02 2025 17:37:41 - Successfully loaded local file: /workspaces/tv/scripts/_epg-end/channel-custom-start-20250128.xml
+Feb 02 2025 17:37:41 - Fetching 2/2 - /workspaces/tv/scripts/_epg-end/dummy-2025-02-02-05-37-40 PM.xml
+Feb 02 2025 17:37:41 - Successfully loaded local file: /workspaces/tv/scripts/_epg-end/dummy-2025-02-02-05-37-40 PM.xml
+Feb 02 2025 17:37:42 - EPG file successfully saved to /workspaces/tv/scripts/merged_epg.xml at Feb 02, 2025 05:37:42 PM ET
