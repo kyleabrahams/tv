@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "run-my-task",
+        "type": "shell",
+        "command": "python3 merge_epg.py",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        }
+      }
+    ]
+  }
+  
