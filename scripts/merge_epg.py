@@ -452,50 +452,72 @@ current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 # Step 13: Save the merged EPG/log file and push to Github
 # python3 merge_epg.py
 
-# Define directories to auto-commit
+# Get script directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Define directories for auto-commit
 directories_to_commit = [
     os.path.join(script_dir, "www"),
     os.path.join(script_dir, "_epg-end")
 ]
 
-# Add a check for the "scripts" directory
+# Check for "scripts" directory
 additional_directory = os.path.join(script_dir, "scripts")
 if os.path.exists(additional_directory):
     directories_to_commit.append(additional_directory)
 
-# Get the current time for logging and commit messages
+# Get current timestamp for logging and filenames
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 # Set up logging
-logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
+log_file = os.path.join(script_dir, "merge_epg.log")
+logging.basicConfig(filename=log_file, level=logging.INFO)
+
+# Define the EPG output directory
+epg_end_dir = os.path.join(script_dir, "_epg-end")
+
+# Remove old timestamped XML files to prevent Git renames
+import glob
+
+def cleanup_old_files():
+    for pattern in ["dummy-*.xml", "channels-test-*.xml", "channel-custom-*.xml"]:
+        old_files = glob.glob(os.path.join(epg_end_dir, pattern))
+        for old_file in old_files:
+            os.remove(old_file)
+            print(f"Deleted old file: {old_file}")
 
 try:
-    # Create the merged XML file
+    # Cleanup previous timestamped files
+    cleanup_old_files()
+
+    # Create merged XML file
+    merged_root = ET.Element("tv")  # Replace with your XML merging logic
     merged_tree = ET.ElementTree(merged_root)
+
+    # Define the output file
     save_path = os.path.join(script_dir, "merged_epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    
+
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-    logging.info(success_message)  # Log to merge_epg.log
-    print(success_message)  # Echo success to console
+    logging.info(success_message)
+    print(success_message)
 
     # Stage all files (modified & untracked)
     print("Committing and pushing all updated files in the specified directories to GitHub...")
 
     for directory in directories_to_commit:
         print(f"Staging files in directory: {directory}")
-        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
+        subprocess.run(["git", "add", directory], check=True)
 
     # Add all changes before commit
-    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
+    subprocess.run(["git", "add", "--all"], check=True)
 
-    # Check if there are uncommitted changes and commit them
+    # Check if there are uncommitted changes
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
         print("Uncommitted changes detected. Committing changes before rebase...")
-        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+        subprocess.run(["git", "commit", "-m", f"EPG Update at {current_time_et} ET"], check=True)
 
     # Rebase before pushing
     print("Fetching latest changes from the remote repository...")
@@ -510,20 +532,18 @@ try:
         logging.error("Rebase aborted due to conflicts. Please resolve manually.")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
-    # Push changes to GitHub after rebase, with force push option if needed
+    # Push changes to GitHub
     print("Pushing changes to GitHub...")
     subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
 except subprocess.CalledProcessError as e:
-    # Log error if save, rebase, or Git operations fail
     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
 
 except Exception as e:
-    # Handle unexpected errors
     unexpected_error_message = f"An unexpected error occurred - {str(e)}"
     logging.error(unexpected_error_message)
     print(unexpected_error_message)
