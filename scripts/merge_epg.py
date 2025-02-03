@@ -1,4 +1,4 @@
-import requests
+# merge_epg.py Feb 3 2025 1232p
 import xml.etree.ElementTree as ET
 import os
 import gzip
@@ -343,6 +343,8 @@ ensure_permissions(save_path)
 
 
 # Step 9: Function to fetch and merge EPG data
+# import requests
+
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")

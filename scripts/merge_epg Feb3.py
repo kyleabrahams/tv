@@ -1,3 +1,4 @@
+# merge_epg.py Feb 3 2025 1232p
 import requests
 import xml.etree.ElementTree as ET
 import os
@@ -11,40 +12,82 @@ import time
 import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
-import gc # Prevents memory failure
+import pytz # Timezone
+# import fcntl
 
-# Force garbage collection at intervals
-gc.collect()
-
-# See Android TV sheets doc, nginx tab for tasks,
-# sudo nginx -s reload
-# python3 -m venv myenv
-# source myenv/bin/activate
-# python3 merge_epg.py
-
-# Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
-# npm run grab -- --site=xumo.tv
-# npm run grab -- --channels=sites/ontvtonight.com/ontvtonight.com_ca.channels.xml --output=./scripts/ontvtonight.com_ca.channels.xml
-# npm run channels:parse --- --config=./sites/ontvtonight.com/ontvtonight.com.config.js --output=./scripts/ontvtonight.com_ca.channels.xml --set=country:ca
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
-
-# Relative path from the script to the virtual environment
-venv_python = sys.executable
+venv_python = sys.executable # Relative path from the script to the virtual environment
 print(venv_python)
-import os
+print("Starting data processing...")
+# your data processing code
+print("Data processing complete.")
 
- 
+
+
+# # Step 0: Run this script on schedule
+# import schedule
+
+# # Lock file path
+# lock_file_path = "merge_epg.lock"
+
+# def run_merge_epg():
+#     # Get the directory of the current script
+#     script_dir = os.path.dirname(os.path.abspath(__file__))
+
+#     # Path to the virtual environment Python
+#     venv_python = os.path.join(script_dir, "venv", "bin", "python3")
+
+#     # Path to the `merge_epg.py` script
+#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
+
+#     # Path for the lock file to prevent multiple script instances
+#     lock_file_path = os.path.join(script_dir, "merge_epg.lock")
+
+#     # Check if the lock file already exists (indicating another instance is running)
+#     if os.path.exists(lock_file_path):
+#         print("Script is already running. Skipping execution.")
+#         return
+
+#     # Create the lock file to indicate the script is running
+#     with open(lock_file_path, 'w') as lock_file:
+#         try:
+#             print("Lock file created. Running the script...")
+
+#             # Define the command to run your Python script
+#             command = f'{venv_python} {merge_epg_path}'
+
+#             # Run the command
+#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+#             print(f"stdout: {result.stdout.decode()}")
+#             print(f"stderr: {result.stderr.decode()}")
+
+#         except (subprocess.CalledProcessError, IOError) as e:
+#             print(f"Error occurred: {e}")
+
+#         finally:
+#             # Delete the lock file once the script finishes
+#             if os.path.exists(lock_file_path):
+#                 os.remove(lock_file_path)
+#             print("Lock file removed. Script execution finished.")
+
+# # Schedule the job at 2:36 AM and 2:36 PM
+# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:36 AM
+# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:36 PM
+
+# # Infinite loop to keep the scheduler running
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
+
+
 
 # Step 1: Set up Logging
-class SuccessFilter(logging.Filter):
-    def filter(self, record):
-        return "EPG file successfully saved" in record.getMessage()
-    
-# Get the current time and format it
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
+
+# Define SuccessFilter to filter messages
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
@@ -55,10 +98,10 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Create the relative path for the log file
 log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
 
-# Ensure the 'log' directory exists
+# Ensure the 'www' directory exists
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
-# Now log the message using the relative path
+# Set up logging configuration
 log_format = "%(asctime)s - %(message)s"
 date_format = "%b %d %Y %H:%M:%S"
 
@@ -67,11 +110,8 @@ logging.basicConfig(filename=log_file_path,
                     format=log_format,
                     datefmt=date_format)
 
-# Set up logging
-logger = logging.getLogger()
-
-# Ensure the log directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+# Create a logger instance
+logger = logging.getLogger(__name__)
 
 # Create a RotatingFileHandler
 file_handler = RotatingFileHandler(
@@ -85,16 +125,12 @@ file_handler.setFormatter(formatter)
 # Add the SuccessFilter to filter specific messages
 file_handler.addFilter(SuccessFilter())
 
-# Add the file handler to the logger and set the log level
+# Add the file handler to the logger
 logger.addHandler(file_handler)
-logger.setLevel(logging.INFO)
 
 # Log starting message
 logger.info("Starting EPG merge process...")
 
-
-import os
-import subprocess
 
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
@@ -103,7 +139,7 @@ def run_dummy_epg():
         # Define paths
         script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
         dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
-        venv_python = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3"  # Path to virtualenv Python
+        venv_python = os.path.join(sys.prefix, "bin", "python3")
 
         # Debugging: Print paths
         print(f"dummy_epg_path: {dummy_epg_path}")
@@ -130,64 +166,28 @@ def run_dummy_epg():
 if __name__ == "__main__":
     run_dummy_epg()
 
-
- 
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
-
-
-
-# Step 3: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
-# npm run grab --- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
-# npm run grab --- --channels=./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
 # python3 merge_epg.py
-
-
-
-# Set up logging
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
-        
-def process_output(output):
-    # Custom function to handle standard output
-    print(output)
-
-def error_output(error):
-    # Custom function to handle errors
-    print(error)
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
-
-
-    # List of npm tasks with timestamped output file
-    tasks = [
+    # List of npm commands with timestamped output file
+    commands = [
         ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+
+        #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
+        #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
 
     ]
-
-    for task in tasks:
-            process = subprocess.Popen(task, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-            
-            # Process the output incrementally to avoid memory issues
-            for line in process.stdout:
-                process_output(line.strip())
-
-            # Error handling
-            for line in process.stderr:
-                error_output(line.strip())
-            
-            process.wait()
-
     # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
-
     # Delete all older files except the latest one
     try:
         for file_name in os.listdir(output_dir):
@@ -200,7 +200,7 @@ def run_npm_grab():
     except Exception as e:
         print(f"Error deleting old files: {e}")
 
-    for command in tasks:
+    for command in commands:
         try:
             # Combine the command into a string for logging and display
             command_str = ' '.join(command)
@@ -294,7 +294,6 @@ def load_local_xml_files(directory):
 
 # Get the directory where the script is located (absolute path)
 script_dir = os.path.dirname(os.path.abspath(__file__))
-log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')  # Relative path for the log file
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
@@ -321,12 +320,12 @@ gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are lo
 def ensure_permissions(file_path):
     # Ensure the directory exists
     directory = os.path.dirname(file_path)
-    
+
     # Check if the directory exists, if not, create it
     if not os.path.exists(directory):
         print(f"Directory {directory} does not exist. Creating it...")
         os.makedirs(directory, exist_ok=True)
-    
+
     # Check if we have write permissions on the directory, and if not, set it
     if not os.access(directory, os.W_OK):
         print(f"Directory {directory} does not have write permissions. Updating permissions...")
@@ -348,7 +347,7 @@ ensure_permissions(save_path)
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
-    
+
     attempt = 0
     while attempt < retries:
         try:
@@ -391,39 +390,23 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                     print(f"Error processing local file {url}: {e}")
                 return None
 
-        except requests.exceptions.Timeout:
-            logging.error(f"Request timeout for {url} (Attempt {attempt + 1}/{retries})")
-            print(f"Request timeout for {url} (Attempt {attempt + 1}/{retries})")
-        except requests.exceptions.ConnectionError:
-            logging.error(f"Connection error for {url} (Attempt {attempt + 1}/{retries})")
-            print(f"Connection error for {url} (Attempt {attempt + 1}/{retries})")
         except requests.exceptions.RequestException as e:
-            logging.error(f"Request failed for {url} (Attempt {attempt + 1}/{retries}): {e}")
-            print(f"Request failed for {url} (Attempt {attempt + 1}/{retries}): {e}")
-        
-        # Retry logic
-        attempt += 1
-        if attempt < retries:
-            logging.info(f"Retrying in {delay} seconds...")
-            print(f"Retrying in {delay} seconds...")
-            time.sleep(delay)
-
-    # If all attempts fail
-    logging.error(f"Failed to fetch {url} after {retries} attempts")
-    print(f"Failed to fetch {url} after {retries} attempts")
-    return None
-
+            logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+            print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+            attempt += 1
+            time.sleep(delay)  # Wait before retrying
+    return None  # Return None after all attempts fail    
 
 # Function to extract XML from .gz files
 def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
     gz_directory = os.path.join(REPO_DIR, "www")  # Ensure this points to the right directory
-    
+
     if not os.path.exists(gz_directory):
         log(f"Error: Directory {gz_directory} does not exist.")
         return []
-    
+
     extracted_files = []
     for filename in os.listdir(gz_directory):
         if filename.endswith(".gz"):
@@ -461,18 +444,85 @@ for xml_file in extracted_files:
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
 
-# Step 13: Save the merged EPG file and log success
+# Get the current Eastern Time
+eastern = pytz.timezone('US/Eastern')
+current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+
+
+# Step 13: Save the merged EPG/log file and push to Github
+# python3 merge_epg.py
+
+# Define directories to auto-commit
+script_dir = os.path.dirname(os.path.abspath(__file__))
+directories_to_commit = [
+    os.path.join(script_dir, "www"),
+    os.path.join(script_dir, "_epg-end")
+]
+
+# Add a check for the "scripts" directory
+additional_directory = os.path.join(script_dir, "scripts")
+if os.path.exists(additional_directory):
+    directories_to_commit.append(additional_directory)
+
+# Get the current time for logging and commit messages
+current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
+
+# Set up logging
+logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
+
 try:
+    # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
+    save_path = os.path.join(script_dir, "www", "epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    
+
     # Log success message
-    success_message = f"EPG file successfully saved to {save_path}"
+    success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
- 
-except Exception as e:
-    # Log error if save fails
-    error_message = f"Failed to save EPG file - Error: {e}"
+
+    # Stage all files (modified & untracked)
+    print("Committing and pushing all updated files in the specified directories to GitHub...")
+
+    for directory in directories_to_commit:
+        print(f"Staging files in directory: {directory}")
+        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
+
+    # Add all changes before commit
+    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
+
+    # Check if there are uncommitted changes and commit them
+    result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode != 0:  # If there are uncommitted changes
+        print("Uncommitted changes detected. Committing changes before rebase...")
+        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+
+    # Rebase before pushing
+    print("Fetching latest changes from the remote repository...")
+    subprocess.run(["git", "fetch"], check=True)
+
+    print("Attempting to rebase onto the latest changes from origin/main...")
+    result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    if result.returncode != 0:
+        print("Rebase failed. Aborting and notifying user.")
+        subprocess.run(["git", "rebase", "--abort"], check=True)
+        logging.error("Rebase aborted due to conflicts. Please resolve manually.")
+        raise subprocess.CalledProcessError(result.returncode, result.args)
+
+    # Push changes to GitHub after rebase, with force push option if needed
+    print("Pushing changes to GitHub...")
+    subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
+
+    print("All files in the specified directories successfully committed and pushed to GitHub.")
+
+except subprocess.CalledProcessError as e:
+    # Log error if save, rebase, or Git operations fail
+    error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
+
+except Exception as e:
+    # Handle unexpected errors
+    unexpected_error_message = f"An unexpected error occurred - {str(e)}"
+    logging.error(unexpected_error_message)
