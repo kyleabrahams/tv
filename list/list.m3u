@@ -13,7 +13,7 @@ https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay
 http://fortv.cc:8080/WjtGD2/235867/57435
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p for.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 3 537p toh.
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 3 552p toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708855
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
@@ -1265,16 +1265,20 @@ https://xyzdddd.mizhls.ru/lb/premium777/index.m3u8|Referer=https://cookiewebplay
 
 # #EXTINF:-1 tvg-id="ESPN HDTV.us" tvg-name="ESPN Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN Server 1
 # http://fl1.moveonjoy.com/ESPN/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN Server 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN Server 2
-http://rhsbjv7k.tvclub.xyz/iptv/APM3584VN3P6W4/19156/index.m3u8
+# #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN rhs.
+# http://rhsbjv7k.tvclub.xyz/iptv/APM3584VN3P6W4/19156/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 127.
+http://127.0.0.1:11470/proxy/d=https%3A%2F%2Fxyzdddd.mizhls.ru&h=User-Agent%3AMozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+17_7+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F18.0+Mobile%2F15E148+Safari%2F604.1&h=Referer%3Ahttps%3A%2F%2Fcookiewebplay.xyz%2F&h=Origin%3Ahttps%3A%2F%2Fcookiewebplay.xyz&h=Keep-Alive%3Atrue/lb/premium44/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 41.
+http://41.205.93.154/ESPN/index.m3u8
 # #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN Server 3
 # https://848b3516657c-usatv.baby-beamup.club/public/m3u/44.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 fl2.
 http://fl2.moveonjoy.com/ESPN_2/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 cdn1h.
 http://cdn1host.online:2999/victordj/uTFOfl9Usq/173
-#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 848.
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/45.m3u8
+# #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 848.
+# https://848b3516657c-usatv.baby-beamup.club/public/m3u/45.m3u8
 #EXTINF:-1 tvg-id="ESPNews.us" tvg-name="ESPNews Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews fl2.
 http://fl2.moveonjoy.com/ESPN_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="ESPNews.us" tvg-name="ESPNews Server 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews cdn1h.
