@@ -1,7 +1,6 @@
-# merge_epg.py Feb 3 2025 1232p
+# merge_epg.py Feb 3 2025 1241p
 import xml.etree.ElementTree as ET
 import os
-import gzip
 import io
 import subprocess  # Add this import to resolve the error
 from time import sleep
@@ -10,8 +9,6 @@ from datetime import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
-import re # Count / Log  Channels
-import pytz # Timezone
 # import fcntl
 
 
@@ -168,6 +165,7 @@ if __name__ == "__main__":
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
 # python3 merge_epg.py
+import re # Count / Log  Channels
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
@@ -175,11 +173,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
@@ -343,7 +341,8 @@ ensure_permissions(save_path)
 
 
 # Step 9: Function to fetch and merge EPG data
-# import requests
+import requests
+import gzip
 
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
@@ -446,6 +445,8 @@ for xml_file in extracted_files:
 
 
 # Get the current Eastern Time
+import pytz # Timezone
+
 eastern = pytz.timezone('US/Eastern')
 current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
