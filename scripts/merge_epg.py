@@ -293,7 +293,6 @@ def load_local_xml_files(directory):
 
 # Get the directory where the script is located (absolute path)
 script_dir = os.path.dirname(os.path.abspath(__file__))
-log_file_path = os.path.join(script_dir, 'log', 'merge_epg.log')  # Relative path for the log file
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
