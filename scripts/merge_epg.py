@@ -320,12 +320,12 @@ gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are lo
 def ensure_permissions(file_path):
     # Ensure the directory exists
     directory = os.path.dirname(file_path)
-    
+
     # Check if the directory exists, if not, create it
     if not os.path.exists(directory):
         print(f"Directory {directory} does not exist. Creating it...")
         os.makedirs(directory, exist_ok=True)
-    
+
     # Check if we have write permissions on the directory, and if not, set it
     if not os.access(directory, os.W_OK):
         print(f"Directory {directory} does not have write permissions. Updating permissions...")
@@ -347,7 +347,7 @@ ensure_permissions(save_path)
 def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
-    
+
     attempt = 0
     while attempt < retries:
         try:
@@ -402,11 +402,11 @@ def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
     gz_directory = os.path.join(REPO_DIR, "www")  # Ensure this points to the right directory
-    
+
     if not os.path.exists(gz_directory):
         log(f"Error: Directory {gz_directory} does not exist.")
         return []
-    
+
     extracted_files = []
     for filename in os.listdir(gz_directory):
         if filename.endswith(".gz"):
@@ -452,72 +452,50 @@ current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 # Step 13: Save the merged EPG/log file and push to Github
 # python3 merge_epg.py
 
-# Get script directory
+# Define directories to auto-commit
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Define directories for auto-commit
 directories_to_commit = [
     os.path.join(script_dir, "www"),
     os.path.join(script_dir, "_epg-end")
 ]
 
-# Check for "scripts" directory
+# Add a check for the "scripts" directory
 additional_directory = os.path.join(script_dir, "scripts")
 if os.path.exists(additional_directory):
     directories_to_commit.append(additional_directory)
 
-# Get current timestamp for logging and filenames
+# Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 # Set up logging
-log_file = os.path.join(script_dir, "merge_epg.log")
-logging.basicConfig(filename=log_file, level=logging.INFO)
-
-# Define the EPG output directory
-epg_end_dir = os.path.join(script_dir, "_epg-end")
-
-# Remove old timestamped XML files to prevent Git renames
-import glob
-
-def cleanup_old_files():
-    for pattern in ["dummy-*.xml", "channels-test-*.xml", "channel-custom-*.xml"]:
-        old_files = glob.glob(os.path.join(epg_end_dir, pattern))
-        for old_file in old_files:
-            os.remove(old_file)
-            print(f"Deleted old file: {old_file}")
+logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
 
 try:
-    # Cleanup previous timestamped files
-    cleanup_old_files()
-
-    # Create merged XML file
-    merged_root = ET.Element("tv")  # Replace with your XML merging logic
+    # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
-
-    # Define the output file
     save_path = os.path.join(script_dir, "merged_epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
 
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-    logging.info(success_message)
-    print(success_message)
+    logging.info(success_message)  # Log to merge_epg.log
+    print(success_message)  # Echo success to console
 
     # Stage all files (modified & untracked)
     print("Committing and pushing all updated files in the specified directories to GitHub...")
 
     for directory in directories_to_commit:
         print(f"Staging files in directory: {directory}")
-        subprocess.run(["git", "add", directory], check=True)
+        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
 
     # Add all changes before commit
-    subprocess.run(["git", "add", "--all"], check=True)
+    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
 
-    # Check if there are uncommitted changes
+    # Check if there are uncommitted changes and commit them
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
         print("Uncommitted changes detected. Committing changes before rebase...")
-        subprocess.run(["git", "commit", "-m", f"EPG Update at {current_time_et} ET"], check=True)
+        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
 
     # Rebase before pushing
     print("Fetching latest changes from the remote repository...")
@@ -532,18 +510,19 @@ try:
         logging.error("Rebase aborted due to conflicts. Please resolve manually.")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
-    # Push changes to GitHub
+    # Push changes to GitHub after rebase, with force push option if needed
     print("Pushing changes to GitHub...")
     subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
 except subprocess.CalledProcessError as e:
+    # Log error if save, rebase, or Git operations fail
     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
 
 except Exception as e:
+    # Handle unexpected errors
     unexpected_error_message = f"An unexpected error occurred - {str(e)}"
     logging.error(unexpected_error_message)
-    print(unexpected_error_message)
