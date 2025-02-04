@@ -493,11 +493,13 @@ try:
     # Add all changes before commit
     subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
 
-    # Check if there are uncommitted changes and commit them
-    result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    if result.returncode != 0:  # If there are uncommitted changes
-        print("Uncommitted changes detected. Committing changes before rebase...")
-        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+    # Check for staged changes before committing
+    result = subprocess.run(["git", "diff", "--cached", "--quiet"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode != 0:  # If there are staged changes
+        print("Staged changes detected. Committing before rebase...")
+        subprocess.run(["git", "commit", "-m", f"Auto commit at {current_time_et} ET"], check=True)
+    else:
+        print("No staged changes to commit.")
 
     # Rebase before pushing
     print("Fetching latest changes from the remote repository...")
