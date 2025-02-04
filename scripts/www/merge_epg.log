@@ -8622,3 +8622,25 @@ Feb 04 2025 01:13:29 - Successfully loaded local file: /Users/kyleabrahams/Docum
 Feb 04 2025 01:13:29 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-02-04-01-00-04 AM.xml
 Feb 04 2025 01:13:29 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-custom-02-04-01-00-04 AM.xml
 Feb 04 2025 01:13:31 - Failed to commit, rebase, or push files - Error: Command '['git', 'add', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/www']' returned non-zero exit status 128.
+Feb 04 2025 08:58:35 - Starting EPG merge process...
+Feb 04 2025 08:58:35 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-02-04-08-58-35 AM.xml
+Feb 04 2025 08:58:49 - STDOUT: 
+Feb 04 2025 08:58:49 - STDOUT: > grab
+Feb 04 2025 08:58:49 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-custom-start.xml --output=./scripts/_epg-end/channels-custom-02-04-08-58-35 AM.xml
+Feb 04 2025 08:58:49 - STDOUT: 
+Feb 04 2025 08:59:03 - STDOUT: starting...
+Feb 04 2025 08:59:03 - STDOUT: config:
+Feb 04 2025 08:59:03 - STDOUT: output: ./scripts/_epg-end/channels-custom-02-04-08-58-35 AM.xml
+Feb 04 2025 08:59:03 - STDOUT: maxConnections: 1
+Feb 04 2025 08:59:03 - STDOUT: gzip: false
+Feb 04 2025 08:59:03 - STDOUT: channels: ./scripts/_epg-start/channels-custom-start.xml
+Feb 04 2025 08:59:03 - STDOUT: loading channels...
+Feb 04 2025 08:59:03 - STDOUT: found 533 channel(s)
+Feb 04 2025 08:59:03 - STDOUT: run #1:
+Feb 04 2025 08:59:07 - STDOUT: [1/1101] ontvtonight.com (en) - AandECanada.ca - Feb 4, 2025 (48 programs)
+Feb 04 2025 08:59:07 - STDOUT: [2/1101] ontvtonight.com (en) - AandECanada.ca - Feb 5, 2025 (47 programs)
+Feb 04 2025 08:59:08 - STDOUT: [3/1101] ontvtonight.com (en) - AandE.us - Feb 5, 2025 (48 programs)
+Feb 04 2025 08:59:38 - STDOUT: [4/1101] tvpassport.com (en) - 5StarMax.us - Feb 5, 2025 (0 programs)
+Feb 04 2025 08:59:38 - STDOUT: ERR: Connection timeout
+Feb 04 2025 08:59:39 - STDOUT: [5/1101] tvtv.us (en) - AMC+.us - Feb 4, 2025 (32 programs)
+Feb 04 2025 08:59:42 - STDOUT: [6/1101] cyta.com.cy (el) - ANT1.gr - Feb 9, 2025 (24 programs)
