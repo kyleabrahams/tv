@@ -173,11 +173,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
@@ -480,33 +480,29 @@ try:
 
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-    # logging.info(success_message)  # Log to merge_epg.log
-    print(success_message)  # Echo success to console
+    logging.info(success_message)
+    print(success_message)
 
-    # Stage all files (modified & untracked)
-    print("Committing and pushing all updated files in the specified directories to GitHub...")
+    # Commit and push changes to GitHub
+    print("Committing and pushing only modified & new files (excluding deletions)...")
 
-    for directory in directories_to_commit:
-        print(f"Staging files in directory: {directory}")
-        subprocess.run(["git", "add", "-A"], check=True)  # Stages all changes including deletions
-
-    # Stage all changes, including deleted and untracked files
-    subprocess.run(["git", "add", "-A"], check=True)
-    subprocess.run(["git", "status"], check=True)  # Debugging: Show status after add
+    # Stage only modified and new files (omit deleted/untracked files)
+    subprocess.run(["git", "add", "-u"], check=True)  # Stages only modified files, ignores untracked and deleted files
 
     # Check for staged changes before committing
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are staged changes
-        print("Staged changes detected. Committing before rebase...")
+        print("Staged changes detected. Committing...")
         subprocess.run(["git", "commit", "-m", f"Auto commit at {current_time_et} ET"], check=True)
     else:
         print("No staged changes to commit.")
 
-    # Rebase before pushing
-    print("Fetching latest changes from the remote repository...")
+    # Fetch latest changes from the remote repository
+    print("Fetching latest changes from GitHub...")
     subprocess.run(["git", "fetch"], check=True)
 
-    print("Attempting to rebase onto the latest changes from origin/main...")
+    # Attempt to rebase before pushing
+    print("Rebasing onto the latest changes from origin/main...")
     result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     if result.returncode != 0:
@@ -515,19 +511,18 @@ try:
         logging.error("Rebase aborted due to conflicts. Please resolve manually.")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
-    # Push changes to GitHub after rebase, with force push option if needed
+    # Push changes to GitHub
     print("Pushing changes to GitHub...")
-    subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
+    subprocess.run(["git", "push", "origin", "main"], check=True)
 
-    print("All files in the specified directories successfully committed and pushed to GitHub.")
+    print("Modified & new files successfully committed and pushed to GitHub.")
 
 except subprocess.CalledProcessError as e:
-    # Log error if save, rebase, or Git operations fail
     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
 
 except Exception as e:
-    # Handle unexpected errors
     unexpected_error_message = f"An unexpected error occurred - {str(e)}"
     logging.error(unexpected_error_message)
+    print(unexpected_error_message)
