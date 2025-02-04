@@ -486,8 +486,12 @@ try:
     # Commit and push changes to GitHub
     print("Committing and pushing only modified & new files (excluding deletions)...")
 
-    # Stage only modified and new files (omit deleted/untracked files)
-    subprocess.run(["git", "add", "-u"], check=True)  # Stages only modified files, ignores untracked and deleted files
+    # Stage modified files (but NOT untracked)
+    subprocess.run(["git", "add", "-u"], check=True)  
+
+    # Stage new (untracked) files in specified directories
+    for directory in directories_to_commit:
+        subprocess.run(["git", "add", directory], check=True)  # Adds new files
 
     # Check for staged changes before committing
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
