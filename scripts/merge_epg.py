@@ -490,8 +490,9 @@ try:
         print(f"Staging files in directory: {directory}")
         subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
 
-    # Add all changes before commit
-    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
+    # Stage all changes, including deleted and untracked files
+    subprocess.run(["git", "add", "-A"], check=True)
+    subprocess.run(["git", "status"], check=True)  # Debugging: Show status after add
 
     # Check for staged changes before committing
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
