@@ -10,3 +10,4 @@ nginx_uninstall_backups/
 scripts/_Search_Results/
 # Ignore xml files here
 # scripts/_epg-end/*.xml
+.DS_Store

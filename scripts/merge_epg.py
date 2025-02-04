@@ -173,11 +173,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
@@ -470,7 +470,7 @@ if os.path.exists(additional_directory):
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 # Set up logging
-logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
+# logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
 
 try:
     # Create the merged XML file
@@ -480,7 +480,7 @@ try:
 
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-    logging.info(success_message)  # Log to merge_epg.log
+    # logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
     # Stage all files (modified & untracked)
