@@ -488,7 +488,7 @@ try:
 
     for directory in directories_to_commit:
         print(f"Staging files in directory: {directory}")
-        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
+        subprocess.run(["git", "add", "-A"], check=True)  # Stages all changes including deletions
 
     # Stage all changes, including deleted and untracked files
     subprocess.run(["git", "add", "-A"], check=True)
