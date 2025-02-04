@@ -173,11 +173,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
