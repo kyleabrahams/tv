@@ -11,3 +11,7 @@ scripts/_Search_Results/
 # Ignore xml files here
 # scripts/_epg-end/*.xml
 .DS_Store
+scripts/_Search_Results/
+# scripts/_alive
+alive.py
+alive_*.m3u
