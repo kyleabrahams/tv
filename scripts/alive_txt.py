@@ -62,7 +62,9 @@ def run_second_script(script_path):
 def main():
     try:
         # Path to your text file with URLs
-        txt_file_path = "_alive/alive.txt"  # Ensure this is the correct path
+        # txt_file_path = "_alive/alive.txt"  # Ensure this is the correct path
+        txt_file_path = "_alive/expired.txt"  # Ensure this is the correct path
+
 
         # Read URLs from the text file
         print(f"Reading URLs from: {txt_file_path}")
@@ -77,14 +79,16 @@ def main():
 
         # Step 3: Generate timestamp for filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")  # Format: YYYYMMDD_HHMMSS
-        output_filename = f"{output_dir}/alive-txt-{timestamp}.m3u"
+        # output_filename = f"{output_dir}/alive-txt-{timestamp}.m3u"
+        output_filename = f"{output_dir}/expired-txt-{timestamp}.m3u"
+
 
         # Step 4: Generate M3U content and save to file
         generate_m3u_file(server_urls, output_filename)
 
         # Step 5: Run the second Python script (if needed)
-        second_script_path = "vpn_iptv_checker-alive-txt.py"  # Specify the path to your second script
-        run_second_script(second_script_path)
+        # second_script_path = "vpn_iptv_checker-alive-txt.py"  # Specify the path to your second script
+        # run_second_script(second_script_path)
 
     except Exception as e:
         print(f"❌ Unexpected error: {e}")

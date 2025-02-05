@@ -398,6 +398,7 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
     return None  # Return None after all attempts fail    
 
 # Function to extract XML from .gz files
+import log 
 def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
