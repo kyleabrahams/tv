@@ -173,11 +173,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
@@ -487,47 +487,32 @@ try:
     # Commit and push changes to GitHub
     print("Committing and pushing only modified & new files (excluding deletions)...")
 
-    # Stage modified files (but NOT untracked)
-    subprocess.run(["git", "add", "-u"], check=True)  
+# Stage all changes, including deletions
+    print("Staging all changes (new, modified, deleted files)...")
+    subprocess.run(["git", "add", "-A"], check=True)
 
-    # Stage new (untracked) files in specified directories
-    for directory in directories_to_commit:
-        subprocess.run(["git", "add", directory], check=True)  # Adds new files
-
-    # Check for staged changes before committing
-    result = subprocess.run(["git", "diff", "--cached", "--quiet"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # Check if there are staged changes before committing
+    result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+    
     if result.returncode != 0:  # If there are staged changes
-        print("Staged changes detected. Committing...")
-        subprocess.run(["git", "commit", "-m", f"Auto commit at {current_time_et} ET"], check=True)
+        commit_message = f"Auto commit at {current_time_et} ET"
+        print(f"Changes detected. Committing: {commit_message}")
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+
+        # Push changes to GitHub
+        print("Pushing changes to GitHub...")
+        subprocess.run(["git", "push", "origin", "main"], check=True)
+        print("✅ Successfully pushed changes to GitHub.")
+    
     else:
-        print("No staged changes to commit.")
-
-    # Fetch latest changes from the remote repository
-    print("Fetching latest changes from GitHub...")
-    subprocess.run(["git", "fetch"], check=True)
-
-    # Attempt to rebase before pushing
-    print("Rebasing onto the latest changes from origin/main...")
-    result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-    if result.returncode != 0:
-        print("Rebase failed. Aborting and notifying user.")
-        subprocess.run(["git", "rebase", "--abort"], check=True)
-        logging.error("Rebase aborted due to conflicts. Please resolve manually.")
-        raise subprocess.CalledProcessError(result.returncode, result.args)
-
-    # Push changes to GitHub
-    print("Pushing changes to GitHub...")
-    subprocess.run(["git", "push", "origin", "main"], check=True)
-
-    print("Modified & new files successfully committed and pushed to GitHub.")
+        print("No changes to commit. Skipping push.")
 
 except subprocess.CalledProcessError as e:
-    error_message = f"Failed to commit, rebase, or push files - Error: {e}"
+    error_message = f"⚠️ Git Error: {e}"
     logging.error(error_message)
     print(error_message)
 
 except Exception as e:
-    unexpected_error_message = f"An unexpected error occurred - {str(e)}"
+    unexpected_error_message = f"🚨 Unexpected Error: {str(e)}"
     logging.error(unexpected_error_message)
     print(unexpected_error_message)
