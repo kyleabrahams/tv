@@ -147,7 +147,7 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     current_datetime = datetime.now().strftime("%Y-%m-%d-%I-%M-%S %p")
 
     # Define the output file path with current date and time
-    output_file_path = os.path.join(output_dir, f"dummy--epg--{current_datetime}.xml")
+    output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
 
     # Step 6.4: Delete all older files except the latest one
     try:
