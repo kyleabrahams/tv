@@ -168,7 +168,7 @@ import re # Count / Log  Channels
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     # current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
-    current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    current_datetime = datetime.now().strftime("%Y-%m-%d-%I-%M-%S %p")
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
