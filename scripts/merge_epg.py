@@ -1,4 +1,4 @@
-# merge_epg.py Feb 4 2025 141p
+# merge_epg.py Feb 5 2025 929a
 import xml.etree.ElementTree as ET
 import os
 import io
@@ -17,8 +17,6 @@ REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR 
 venv_python = sys.executable # Relative path from the script to the virtual environment
 print(venv_python)
 print("Starting data processing...")
-# your data processing code
-print("Data processing complete.")
 
 
 
@@ -169,7 +167,8 @@ import re # Count / Log  Channels
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
-    current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
+    # current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
+    current_datetime = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
