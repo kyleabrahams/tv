@@ -14,13 +14,13 @@ import argparse # Command line arguement
 # python3 dummy_epg.py
 
 # Step: 0: Function to process the given directory ( Command line arguement )
-def process_directory(path):
-    if os.path.exists(path):
-        print(f"Processing files in: {path}")
-        for filename in os.listdir(path):
-            print(f"Found file: {filename}")
-    else:
-        print(f"Path does not exist: {path}")
+# def process_directory(path):
+#     if os.path.exists(path):
+#         print(f"Processing files in: {path}")
+#         for filename in os.listdir(path):
+#             print(f"Found file: {filename}")
+#     else:
+#         print(f"Path does not exist: {path}")
 
 def main():
     parser = argparse.ArgumentParser(description="Process EPG files.")
@@ -50,7 +50,7 @@ except ImportError:
         sys.exit(1)  # Exit if installation fails
 
 # Step 3: Print a message indicating pytz is ready to use
-print("pytz is installed and ready to use.")
+# print("pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=5, programs_per_day=24):
