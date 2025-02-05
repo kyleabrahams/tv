@@ -1,4 +1,4 @@
-# merge_epg.py Feb 5 2025 929a
+# merge_epg.py Feb 5 2025 124p
 import xml.etree.ElementTree as ET
 import os
 import io
@@ -458,35 +458,19 @@ current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 script_dir = os.path.dirname(os.path.abspath(__file__))
 directories_to_commit = [
     os.path.join(script_dir, "www"),
-    os.path.join(script_dir, "_epg-end")
+    os.path.join(script_dir, "_epg-end"),
+    os.path.join(script_dir, "scripts"),
 ]
-
-# Add a check for the "scripts" directory
-additional_directory = os.path.join(script_dir, "scripts")
-if os.path.exists(additional_directory):
-    directories_to_commit.append(additional_directory)
 
 # Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
-# Set up logging
-# logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
-
 try:
-    # Create the merged XML file
-    merged_tree = ET.ElementTree(merged_root)
-    save_path = os.path.join(script_dir, "www", "epg.xml")
-    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
+    # Ensure the latest changes are fetched before making new commits
+    print("Pulling latest changes from GitHub (rebase mode)...")
+    subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
 
-    # Log success message
-    success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-    logging.info(success_message)
-    print(success_message)
-
-    # Commit and push changes to GitHub
-    print("Committing and pushing only modified & new files (excluding deletions)...")
-
-# Stage all changes, including deletions
+    # Stage all changes, including deletions
     print("Staging all changes (new, modified, deleted files)...")
     subprocess.run(["git", "add", "-A"], check=True)
 
@@ -497,10 +481,6 @@ try:
         commit_message = f"Auto commit at {current_time_et} ET"
         print(f"Changes detected. Committing: {commit_message}")
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
-
-        # Pull latest changes before pushing
-        print("Pulling latest changes from GitHub with rebase...")
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
 
         # Push changes after successful rebase
         print("Pushing changes to GitHub...")
