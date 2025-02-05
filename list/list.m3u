@@ -16,7 +16,7 @@ http://fortv.cc:8080/WjtGD2/235867/57435
 
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p for.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 5 1006a toh.
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 5 1044a toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708855
 
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
@@ -37,8 +37,11 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708760
 #EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Toronto toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708798
 
-#EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary xy.
+EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary xy.
 https://xyzdddd.mizhls.ru/lb/premium602/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary for.
+http://fortv.cc:8080/WjtGD2/235867/57964
+
 
 # #EXTINF:-1 tvg-id="Bravo.ca" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="",Bravo toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708854
@@ -200,8 +203,10 @@ http://fortv.cc:8080/WjtGD2/235867/57254
 # #EXTINF:-1 tvg-id="CTVDramaChannel.ca" tvg-name="38 CTV Drama" tvg-logo="https://i.ibb.co/BqN41hz/CTV-Drama-Channel-2019-purple.png" group-title="",CTV Drama toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708779
 
-#EXTINF:-1 tvg-id="Slice.ca" tvg-name="39 Slice" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",Slice 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418508
+#EXTINF:-1 tvg-id="Slice.ca" tvg-name="39 Slice" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",Slice for.
+http://fortv.cc:8080/WjtGD2/235867/57274
+# #EXTINF:-1 tvg-id="Slice.ca" tvg-name="39 Slice" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",Slice 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418508
 # #EXTINF:-1 tvg-id="Slice.ca" tvg-name="39 Slice" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/slice-ca.png" group-title="",Slice toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708882
 
@@ -308,15 +313,19 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708815
 #EXTINF:-1 tvg-id="CookingChannel.us" tvg-name="58 US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",US Cooking Channel 
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
 
+#EXTINF:-1 tvg-id="YesTVBurlington.ca" tvg-name="59 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV for.
+http://fortv.cc:8080/WjtGD2/235867/57472
 # #EXTINF:-1 tvg-id="YesTVBurlington.ca" tvg-name="59 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418528
-#EXTINF:-1 tvg-id="YesTVBurlington.ca" tvg-name="59 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708896
+# #EXTINF:-1 tvg-id="YesTVBurlington.ca" tvg-name="59 YES TV (CITS)" tvg-logo="https://i.ibb.co/tQq4TBw/Yes-TV-Canada-1.png" group-title="",Yes TV toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708896
 
+#EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark for.
+http://fortv.cc:8080/WjtGD2/235867/57375
 # #EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418413
-#EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708730
+# #EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="",ABC Spark toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708730
 
 #EXTINF:-1 tvg-id="XumoBBCFood.uk" tvg-name="61 BBC Food"  tvg-chno="1229" tvg-name="BBC Food" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200010LE_20240722T231042SQUARE.png" group-title="Home & Food",BBC Food
 https://jmp2.uk/sam-CABD1200010LE.m3u8
@@ -326,12 +335,12 @@ https://jmp2.uk/sam-CABD1200010LE.m3u8
 # #EXTINF:-1 tvg-id="Vision.TV.Eastern.ca" tvg-name="62 Vision" tvg-logo="https://i.ibb.co/RQTbf4T/vision-1.png" group-title="",Vision 
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418522
 
-# #EXTINF:-1 tvg-id="PBSEast.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="USA",PBS WNED
-# http://fortv.cc:8080/WjtGD2/235867/57276
+#EXTINF:-1 tvg-id="PBSEast.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="USA",PBS WNED for.
+http://fortv.cc:8080/WjtGD2/235867/57276
 # #EXTINF:-1 tvg-id="PBSEast.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="USA",PBS WNED 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423735
-#EXTINF:-1 tvg-id="PBSEast.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="USA",PBS WNED toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708861
+# #EXTINF:-1 tvg-id="PBSEast.us" tvg-name="63 PBS Buffalo (WNED)" tvg-logo="https://i.ibb.co/Rg14NbB/PBS.png" group-title="USA",PBS WNED toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708861
 
 # #EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="",E! 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418463
@@ -368,12 +377,12 @@ https://xyzdddd.mizhls.ru/lb/premium298/index.m3u8|Referer=https://cookiewebplay
 #EXTINF:-1 tvg-id="Charge.ca" tvg-name="69 CA: CHRGD" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="",Charge! for.
 http://fortv.cc:8080/WjtGD2/235867/75653
 
-# #EXTINF:-1 tvg-id="Peachtree.ca" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree for.
-# http://fortv.cc:8080/WjtGD2/235867/47362
+#EXTINF:-1 tvg-id="Peachtree.ca" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree for.
+http://fortv.cc:8080/WjtGD2/235867/47362
 # #EXTINF:-1 tvg-id="Peachtree.ca" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418503
-#EXTINF:-1 tvg-id="Peachtree.ca" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708862
+# #EXTINF:-1 tvg-id="Peachtree.ca" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="Kids",Peachtree toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708862
 
 # #EXTINF:-1 tvg-id="CottageLife.ca" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="",Cottage Life 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418439
