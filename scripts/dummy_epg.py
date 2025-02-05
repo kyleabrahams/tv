@@ -28,7 +28,7 @@ def main():
     parser.add_argument('path', type=str, nargs='?', default=os.getcwd(), help="Path to the directory to process.")
     args = parser.parse_args()
     
-    process_directory(args.path)
+    # process_directory(args.path)
 
 if __name__ == "__main__":
     main()
@@ -50,7 +50,7 @@ except ImportError:
         sys.exit(1)  # Exit if installation fails
 
 # Step 3: Print a message indicating pytz is ready to use
-# print("pytz is installed and ready to use.")
+print("pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=5, programs_per_day=24):
