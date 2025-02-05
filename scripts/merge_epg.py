@@ -499,10 +499,13 @@ try:
         print(f"Changes detected. Committing: {commit_message}")
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
-        # Push changes to GitHub
+        # Pull latest changes before pushing
+        print("Pulling latest changes from GitHub with rebase...")
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
+
+        # Push changes after successful rebase
         print("Pushing changes to GitHub...")
         subprocess.run(["git", "push", "origin", "main"], check=True)
-        print("✅ Successfully pushed changes to GitHub.")
     
     else:
         print("No changes to commit. Skipping push.")

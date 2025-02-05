@@ -12155,3 +12155,44 @@ Feb 05 2025 09:27:05 - Successfully loaded local file: /Users/kyleabrahams/Docum
 Feb 05 2025 09:27:05 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-05-09-26-53 AM.xml
 Feb 05 2025 09:27:05 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-05-09-26-53 AM.xml
 Feb 05 2025 09:27:06 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Feb 05, 2025 09:27:06 AM ET
+Feb 05 2025 09:27:07 - ⚠️ Git Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+Feb 05 2025 09:28:46 - Starting EPG merge process...
+Feb 05 2025 09:28:46 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:46 - STDOUT: 
+Feb 05 2025 09:28:46 - STDOUT: > grab
+Feb 05 2025 09:28:46 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:46 - STDOUT: 
+Feb 05 2025 09:28:47 - STDOUT: starting...
+Feb 05 2025 09:28:47 - STDOUT: config:
+Feb 05 2025 09:28:47 - STDOUT: output: ./scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:47 - STDOUT: maxConnections: 1
+Feb 05 2025 09:28:47 - STDOUT: gzip: false
+Feb 05 2025 09:28:47 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 05 2025 09:28:47 - STDOUT: loading channels...
+Feb 05 2025 09:28:47 - STDOUT: found 8 channel(s)
+Feb 05 2025 09:28:47 - STDOUT: run #1:
+Feb 05 2025 09:28:49 - STDOUT: [1/16] nzxmltv.com (en) - iptv/plutotv#310 - Feb 5, 2025 (9 programs)
+Feb 05 2025 09:28:50 - STDOUT: [2/16] nzxmltv.com (en) - iptv/plutotv#310 - Feb 6, 2025 (0 programs)
+Feb 05 2025 09:28:51 - STDOUT: [3/16] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 6, 2025 (19 programs)
+Feb 05 2025 09:28:52 - STDOUT: [4/16] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 5, 2025 (18 programs)
+Feb 05 2025 09:28:52 - STDOUT: [5/16] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 6, 2025 (24 programs)
+Feb 05 2025 09:28:53 - STDOUT: [6/16] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 5, 2025 (27 programs)
+Feb 05 2025 09:28:54 - STDOUT: [7/16] sky.de (de) - 1014 - Feb 6, 2025 (9 programs)
+Feb 05 2025 09:28:54 - STDOUT: [8/16] sky.de (de) - 1014 - Feb 5, 2025 (10 programs)
+Feb 05 2025 09:28:55 - STDOUT: [9/16] tvinsider.com (en) - fanduel-sports-midwest - Feb 6, 2025 (31 programs)
+Feb 05 2025 09:28:55 - STDOUT: [10/16] tvinsider.com (en) - fanduel-sports-midwest - Feb 5, 2025 (25 programs)
+Feb 05 2025 09:28:55 - STDOUT: [11/16] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 6, 2025 (0 programs)
+Feb 05 2025 09:28:56 - STDOUT: [12/16] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 5, 2025 (0 programs)
+Feb 05 2025 09:28:56 - STDOUT: [13/16] xumo.tv (en) - 100#99951204 - Feb 6, 2025 (0 programs)
+Feb 05 2025 09:28:56 - STDOUT: [14/16] xumo.tv (en) - 100#99951204 - Feb 5, 2025 (0 programs)
+Feb 05 2025 09:28:57 - STDOUT: [15/16] nzxmltv.com (en) - iptv/plutotv#320 - Feb 6, 2025 (0 programs)
+Feb 05 2025 09:28:57 - STDOUT: [16/16] nzxmltv.com (en) - iptv/plutotv#320 - Feb 5, 2025 (9 programs)
+Feb 05 2025 09:28:57 - STDOUT: saving to "./scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml"...
+Feb 05 2025 09:28:57 - STDOUT: done in 00h 00m 10s
+Feb 05 2025 09:28:57 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml executed successfully.
+Feb 05 2025 09:28:57 - Found 8 channel(s) in the output.
+Feb 05 2025 09:28:57 - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:57 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:58 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:58 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy-2025-02-05-09-28-46 AM.xml
+Feb 05 2025 09:28:58 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Feb 05, 2025 09:28:58 AM ET
