@@ -1,18 +1,17 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+# Folders
 node_modules
+scripts/_Search_Results/
+scripts/_alive
 # Ignore all crontab backup files
 nginx_uninstall_backups/
 # Ignore log files
 # scripts/www/*.log
 # Ignore .m3u files
 # scripts/www/*.m3u
-# Ignore the _Search_Results folder and its contents
-scripts/_Search_Results/
 # Ignore xml files here
 # scripts/_epg-end/*.xml
 .DS_Store
-scripts/_Search_Results/
 # scripts/_alive
 alive.py
-_alive
 scripts/_alive/*.m3u
