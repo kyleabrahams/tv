@@ -2,11 +2,8 @@ import xml.etree.ElementTree as ET  # For creating XML elements
 from datetime import datetime, timedelta  # For date and time handling
 from xml.dom import minidom  # For pretty-printing XML
 import os  # For handling file operations
-import subprocess  # For installing packages
 import sys  # For system operations
-import pytz  # For timezone handling
 import re  # For regular expressions
-import argparse # Command line arguement
 
 
 # Run script
@@ -22,6 +19,8 @@ import argparse # Command line arguement
 #     else:
 #         print(f"Path does not exist: {path}")
 
+import argparse # Command line arguement
+
 def main():
     parser = argparse.ArgumentParser(description="Process EPG files.")
     # Default path is the current working directory
@@ -34,12 +33,14 @@ if __name__ == "__main__":
     main()
     
 # Step 1: Function to install packages
+import subprocess  # For installing packages
+
 def install_package(package_name):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
 
 # Step 2: Check if `pytz` is installed, otherwise install it
 try:
-    import pytz
+    import pytz  # For timezone handling
 except ImportError:
     print("pytz not found. Installing...")
     try:
