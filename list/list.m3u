@@ -16,7 +16,7 @@ http://fortv.cc:8080/WjtGD2/235867/57435
 
 # #EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Jan 14 422p for.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 6 342p toh.
+#EXTINF:-1 tvg-id="OMNIEast.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/LSGQ0pJ/OMNI-1-stack-1.png" group-title="",OMNI Feb 6 346p toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708855
 
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
@@ -1623,8 +1623,6 @@ http://fortv.cc:8080/WjtGD2/235867/119435
 http://fortv.cc:8080/WjtGD2/235867/119436
 #EXTINF:-1 tvg-id="" tvg-name="THRILLER" tvg-logo="https://i.ibb.co/VWzMW7hW/cinebox-2025-2.png" group-title="Movies",Thriller
 http://fortv.cc:8080/WjtGD2/235867/119437
-#EXTINF:-1 tvg-id="" tvg-name="24/7 Horror Movies" tvg-logo="" group-title="Movies",Horror
-http://fortv.cc:8080/WjtGD2/235867/119429
 
 
 #EXTINF:-1 tvg-id="" tvg-name="M4: Action" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Action
@@ -1651,8 +1649,10 @@ http://fortv.cc:8080/WjtGD2/235867/215285
 http://fortv.cc:8080/WjtGD2/235867/215286
 #EXTINF:-1 tvg-id="" tvg-name="M4: History" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",History
 http://fortv.cc:8080/WjtGD2/235867/215292
-#EXTINF:-1 tvg-id="" tvg-name="M4: Horror" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Horror
+#EXTINF:-1 tvg-id="" tvg-name="M4: Horror" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Horror 1
 http://fortv.cc:8080/WjtGD2/235867/215293
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Horror Movies" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Horror 2
+http://fortv.cc:8080/WjtGD2/235867/119429
 #EXTINF:-1 tvg-id="" tvg-name="M4: Legendary" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Legendary
 http://fortv.cc:8080/WjtGD2/235867/215300
 #EXTINF:-1 tvg-id="" tvg-name="M4: Musical" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Musical
@@ -1687,8 +1687,6 @@ http://fortv.cc:8080/WjtGD2/235867/215340
 http://fortv.cc:8080/WjtGD2/235867/215345
 #EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Western
 http://fortv.cc:8080/WjtGD2/235867/215346
-#EXTINF:-1 tvg-id="" tvg-name="M4: X-Men" tvg-logo="https://static.wikia.nocookie.net/the-jh-movie-collection-official/images/3/3c/X-Men_Logo_2000.png" group-title="Movies",X-Men
-http://fortv.cc:8080/WjtGD2/235867/215347
 #EXTINF:-1 tvg-id="" tvg-name="M4: Zombie" tvg-logo="https://i.ibb.co/TDxv3XhY/genre.png" group-title="Movies",Zombie
 http://fortv.cc:8080/WjtGD2/235867/215348
 
@@ -1788,6 +1786,8 @@ http://fortv.cc:8080/WjtGD2/235867/215342
 http://fortv.cc:8080/WjtGD2/235867/215343
 #EXTINF:-1 tvg-id="" tvg-name="M4: Twilight Saga" tvg-logo="https://i.ibb.co/mrZcJgVD/Twilight-Logo.png" group-title="Movies",Twilight Saga
 http://fortv.cc:8080/WjtGD2/235867/215344
+#EXTINF:-1 tvg-id="" tvg-name="M4: X-Men" tvg-logo="https://static.wikia.nocookie.net/the-jh-movie-collection-official/images/3/3c/X-Men_Logo_2000.png" group-title="Movies",X-Men
+http://fortv.cc:8080/WjtGD2/235867/215347
 
 
 #EXTINF:-1 tvg-id="" tvg-name="M4: Adam Sandler" tvg-logo="https://i.ibb.co/0p3fhLMn/Adam-Sandler.png" group-title="Movies",Adam Sandler
