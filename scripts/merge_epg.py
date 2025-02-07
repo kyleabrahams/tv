@@ -73,42 +73,43 @@ logger.addHandler(file_handler)
 logger.info("Starting EPG merge process...")
 
 
-# Step 1.2: Run this script on schedule
-import schedule
+# # Step 1.2: Run this script on schedule
+# import schedule
 
-def run_script():
-    logging.info("Script triggered at: " + str(datetime.now()))
+# def run_script():
+#     logging.info("Script triggered at: " + str(datetime.now()))
 
-    # Define the directory where the script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+#     # Define the directory where the script is located
+#     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Define the virtual environment's Python path
-    venv_python = os.path.join(script_dir, 'venv', 'bin', 'python3')
+#     # Define the virtual environment's Python path
+#     venv_python = os.path.join(script_dir, 'venv', 'bin', 'python3')
 
-    # Define the path to the merge_epg.py script
-    merge_epg_path = os.path.join(script_dir, "merge_epg.py")
+#     # Define the path to the merge_epg.py script
+#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
 
-    try:
-        # Run the script using the virtual environment's Python
-        subprocess.run([venv_python, merge_epg_path], check=True)
-        logging.info("Script executed successfully.")
-    except subprocess.CalledProcessError as e:
-        logging.error(f"Error occurred while running the script: {e}")
-    except Exception as e:
-        logging.error(f"Unexpected error: {e}")
+#     try:
+#         # Run the script using the virtual environment's Python
+#         subprocess.run([venv_python, merge_epg_path], check=True)
+#         logging.info("Script executed successfully.")
+#     except subprocess.CalledProcessError as e:
+#         logging.error(f"Error occurred while running the script: {e}")
+#     except Exception as e:
+#         logging.error(f"Unexpected error: {e}")
 
-def schedule_script():
-    logging.info("Scheduler is running...")
-    print("Scheduler is running and waiting for tasks...")
-    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
-    schedule.every().day.at("13:00").do(run_script)  # 1:00 PM
+# def schedule_script():
+#     logging.info("Scheduler is running...")
+#     print("Scheduler is running and waiting for tasks...")
+#     # Schedule the script to run at 1:15 AM and 1:00 PM
+#     schedule.every().day.at("01:21").do(run_script)
+#     schedule.every().day.at("13:00").do(run_script)
 
-    while True:
-        schedule.run_pending()
-        time.sleep(1)  # Check every second for pending tasks
+#     while True:
+#         schedule.run_pending()
+#         time.sleep(1)  # Check every second for pending tasks
 
-if __name__ == "__main__":
-    schedule_script()
+# if __name__ == "__main__":
+#     schedule_script()
 
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
