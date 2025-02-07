@@ -18,6 +18,10 @@ venv_python = sys.executable # Relative path from the script to the virtual envi
 script_dir = os.path.dirname(os.path.abspath(__file__))
 venv_python = os.path.join(sys.prefix, "bin", "python3")
 
+# Ensure the '_epg-end' directory exists
+output_dir = os.path.join(script_dir, "_epg-end")
+os.makedirs(output_dir, exist_ok=True)
+
 print(venv_python)
 print("Starting data processing...")
 
