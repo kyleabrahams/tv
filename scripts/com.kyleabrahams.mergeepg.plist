@@ -28,15 +28,15 @@
     <array>
       <dict>
         <key>Hour</key>
-        <integer>1</integer>  <!-- 1 AM -->
+        <integer>12</integer>  <!-- 1 AM -->
         <key>Minute</key>
-        <integer>0</integer>
+        <integer>20</integer>
       </dict>
       <dict>
         <key>Hour</key>
-        <integer>23</integer>  <!-- 6 PM -->
+        <integer>13</integer>  <!-- 1 PM -->
         <key>Minute</key>
-        <integer>34</integer>
+        <integer>0</integer>
       </dict>
     </array>
 
