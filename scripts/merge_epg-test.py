@@ -453,7 +453,7 @@ logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
 try:
     # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
-    save_path = os.path.join(script_dir, "www", "epg.xml")
+    save_path = os.path.join(script_dir, "www", "epg-test.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
 
     # Log success message
