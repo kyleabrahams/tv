@@ -34,19 +34,17 @@
       </dict>
       <dict>
         <key>Hour</key>
-        <integer>22</integer>  <!-- 6 PM -->
+        <integer>23</integer>  <!-- 6 PM -->
         <key>Minute</key>
-        <integer>37</integer>
+        <integer>34</integer>
       </dict>
     </array>
 
     <key>RunAtLoad</key>
-    <true/>
+    <false/>
 
     <key>StandardErrorPath</key>
-    <string>/tmp/merge_epg_error.log</string>
+    <string>/Users/kyleabrahams/Documents/GitHub/tv/scripts/www/merge_epg_error.log</string>
     
-    <key>StandardOutPath</key>
-    <string>/tmp/merge_epg_output.log</string>
   </dict>
 </plist>

@@ -11,71 +11,14 @@ import logging
 from logging.handlers import RotatingFileHandler
 import pytz
 
-# import fcntl
-
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable # Relative path from the script to the virtual environment
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
 print(venv_python)
 print("Starting data processing...")
-
-
-
-# # Step 0: Run this script on schedule
-# import schedule
-
-# # Lock file path
-# lock_file_path = "merge_epg.lock"
-
-# def run_merge_epg():
-#     # Get the directory of the current script
-#     script_dir = os.path.dirname(os.path.abspath(__file__))
-
-#     # Path to the virtual environment Python
-#     venv_python = os.path.join(script_dir, "venv", "bin", "python3")
-
-#     # Path to the `merge_epg.py` script
-#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
-
-#     # Path for the lock file to prevent multiple script instances
-#     lock_file_path = os.path.join(script_dir, "merge_epg.lock")
-
-#     # Check if the lock file already exists (indicating another instance is running)
-#     if os.path.exists(lock_file_path):
-#         print("Script is already running. Skipping execution.")
-#         return
-
-#     # Create the lock file to indicate the script is running
-#     with open(lock_file_path, 'w') as lock_file:
-#         try:
-#             print("Lock file created. Running the script...")
-
-#             # Define the command to run your Python script
-#             command = f'{venv_python} {merge_epg_path}'
-
-#             # Run the command
-#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#             print(f"stdout: {result.stdout.decode()}")
-#             print(f"stderr: {result.stderr.decode()}")
-
-#         except (subprocess.CalledProcessError, IOError) as e:
-#             print(f"Error occurred: {e}")
-
-#         finally:
-#             # Delete the lock file once the script finishes
-#             if os.path.exists(lock_file_path):
-#                 os.remove(lock_file_path)
-#             print("Lock file removed. Script execution finished.")
-
-# # Schedule the job at 2:36 AM and 2:36 PM
-# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:36 AM
-# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:36 PM
-
-# # Infinite loop to keep the scheduler running
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
 
 
 
@@ -83,9 +26,6 @@ print("Starting data processing...")
 # Get current time for logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
-
-# Get the directory where the script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define the log file path
 log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
@@ -130,12 +70,63 @@ logger.addHandler(file_handler)
 # Log the start of the process
 logger.info("Starting EPG merge process...")
 
+
+# # # Step 1.2: Run this script on schedule
+# import schedule
+
+# def run_merge_epg():
+#     # Path to the `merge_epg.py` script
+#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
+
+#     # Path for the lock file to prevent multiple script instances
+#     lock_file_path = os.path.join(script_dir, "merge_epg.lock")
+
+#     # Check if the lock file already exists (indicating another instance is running)
+#     if os.path.exists(lock_file_path):
+#         logger.info("Script is already running. Skipping execution.")
+#         return
+
+#     # Create the lock file to indicate the script is running
+#     with open(lock_file_path, 'w') as lock_file:
+#         try:
+#             logger.info("Lock file created. Running the script...")
+
+#             # Define the path to the virtual environment Python
+#             venv_python = os.path.join(script_dir, "venv", "bin", "python3")
+
+#             # Define the command to run your Python script
+#             command = f'{venv_python} {merge_epg_path}'
+
+#             # Run the command
+#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+#             logger.info(f"stdout: {result.stdout.decode()}")
+#             logger.error(f"stderr: {result.stderr.decode()}")
+
+#         except (subprocess.CalledProcessError, IOError) as e:
+#             logger.error(f"Error occurred: {e}")
+
+#         finally:
+#             # Delete the lock file once the script finishes
+#             if os.path.exists(lock_file_path):
+#                 os.remove(lock_file_path)
+#             logger.info("Lock file removed. Script execution finished.")
+
+# # Schedule the job at 2:36 AM and 2:36 PM
+# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:36 AM
+# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:36 PM
+
+# # Infinite loop to keep the scheduler running
+# while True:
+#     schedule.run_pending()
+#     time.sleep(60)  # Sleep for 60 seconds to reduce CPU load
+
+
+
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
         # Define paths
-        script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
         dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
         venv_python = os.path.join(sys.prefix, "bin", "python3")
 
@@ -491,68 +482,65 @@ directories_to_commit = [
     os.path.join(script_dir, "scripts"),
 ]
 
-def run_command(cmd, check=True, capture_output=False):
-    """Run a shell command with error handling."""
+def run_command(cmd, check=True):
+    """Run a shell command and return output, logging errors if they occur."""
     try:
-        result = subprocess.run(cmd, check=check, text=True, capture_output=capture_output)
-        return result.stdout.strip() if capture_output else None
+        result = subprocess.run(cmd, check=check, text=True, capture_output=True)
+        return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
+        logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e.stderr.strip()}")
         return None
 
-# Step 14: Auto-commit to GitHub
-try:
-    # Get the current Eastern Time
-    eastern = pytz.timezone('US/Eastern')
-    current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+def main():
+    try:
+        # Get the current Eastern Time
+        eastern = pytz.timezone('US/Eastern')
+        current_time_et = datetime.now(eastern).strftime("%b %d, %Y %I:%M:%S %p ET")
 
-    print("🔄 Pulling latest changes from GitHub (rebase mode)...")
-    
-    # Clean untracked files and directories before pulling
-    print("🧹 Cleaning untracked files...")
-    run_command(["git", "clean", "-fd"])  # Clean untracked files and directories
-    
-    # Ensure no unstaged deletions before pulling
-    run_command(["git", "add", "-A"])
+        logging.info("🔄 Starting auto-commit process.")
 
-    # Pull the latest changes with rebase
-    pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
+        # Clean untracked files before pulling
+        logging.info("🧹 Cleaning untracked files and directories...")
+        run_command(["git", "clean", "-fd"])
 
-    if pull_result is None:
-        print("⚠️ Git rebase failed. Attempting automatic fix...")
-        run_command(["git", "stash"])  # Stash changes to resolve any potential conflicts
-        run_command(["git", "pull", "--rebase", "origin", "main"])  # Attempt pull again
-        run_command(["git", "stash", "pop"])  # Restore stashed changes
+        # Stage all changes
+        logging.info("📌 Staging all modified, deleted, and new files...")
+        run_command(["git", "add", "-A"])
 
-    print("📌 Staging all changes (new, modified, deleted files)...")
-    run_command(["git", "add", "-A"])  # Stage all changes
+        # Pull latest changes with rebase
+        logging.info("📡 Pulling latest changes with rebase...")
+        pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
-    # Check for staged changes
-    staged_changes = run_command(["git", "status", "--porcelain"], capture_output=True)
-    
-    if staged_changes:
-        # If there are staged changes, commit them
-        commit_message = f"Auto commit at {current_time_et} ET"
-        print(f"✅ Changes detected. Committing: {commit_message}")
-        run_command(["git", "commit", "-m", commit_message])  # Commit changes
+        if pull_result is None:
+            logging.warning("⚠️ Git rebase failed. Attempting automatic fix...")
+            run_command(["git", "stash"])
+            run_command(["git", "pull", "--rebase", "origin", "main"])
+            run_command(["git", "stash", "pop"])
 
-        print("🚀 Pushing changes to GitHub...")
-        push_result = run_command(["git", "push", "origin", "main"], check=False)  # Push to GitHub
+        # Check for staged changes
+        staged_changes = run_command(["git", "status", "--porcelain"])
+        if staged_changes:
+            commit_message = f"Auto commit at {current_time_et}"
+            logging.info(f"📝 Committing changes: {commit_message}")
+            run_command(["git", "commit", "-m", commit_message])
 
-        if push_result is None:
-            print("⚠️ Git push failed. Checking branch status...")
+            # Push to GitHub
+            logging.info("🚀 Pushing changes to GitHub...")
+            push_result = run_command(["git", "push", "origin", "main"], check=False)
 
-            branch_status = run_command(["git", "status", "-uno"], capture_output=True)  # Check branch status
-            if "Your branch is ahead" in branch_status:
-                print("⚠️ Force-pushing with lease...")
-                run_command(["git", "push", "--force-with-lease", "origin", "main"])  # Force push with lease if needed
-            else:
-                print("✅ Everything is already up to date.")
-    else:
-        print("✅ No changes to commit. Skipping push.")
+            if push_result is None:
+                logging.warning("⚠️ Git push failed. Checking branch status...")
+                branch_status = run_command(["git", "status", "-uno"])
+                if "Your branch is ahead" in branch_status:
+                    logging.warning("⚠️ Force-pushing with lease...")
+                    run_command(["git", "push", "--force-with-lease", "origin", "main"])
+                else:
+                    logging.info("✅ Everything is already up to date.")
+        else:
+            logging.info("✅ No changes to commit. Skipping push.")
 
-except Exception as e:
-    logging.error(f"🚨 Unexpected Error: {str(e)}")
-    print(f"🚨 Unexpected Error: {str(e)}")
+    except Exception as e:
+        logging.error(f"🚨 Unexpected Error: {str(e)}")
 
-    # python3 merge_epg.py
+if __name__ == "__main__":
+    main()
