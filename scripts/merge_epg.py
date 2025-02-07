@@ -465,7 +465,7 @@ for xml_file in extracted_files:
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
 # Step 13: Save the merged EPG file after merging data
-save_path = "path_to_save_merged_file/epg.xml"  # Set your desired save path
+save_path = "www/epg.xml"  # Set your desired save path
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
