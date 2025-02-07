@@ -9,6 +9,8 @@ from datetime import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
+import pytz
+
 # import fcntl
 
 
@@ -432,8 +434,27 @@ for index, url in enumerate(epg_urls):
     sleep(0.5)  # Small delay to simulate and visualize progress
 
 # Step 12: Extract XML from .gz files
+def extract_gz_files(gz_directory):
+    """Extract all .gz files in the directory and return a list of extracted XML files."""
+    extracted_files = []
+    for filename in os.listdir(gz_directory):
+        if filename.endswith(".gz"):
+            gz_file = os.path.join(gz_directory, filename)
+            try:
+                with open(gz_file, 'rb') as f_in:
+                    extracted_file = gz_file[:-3]  # Remove .gz extension for the extracted file name
+                    with open(extracted_file, 'wb') as f_out:
+                        f_out.write(f_in.read())  # Extract the .gz content into an XML file
+                    extracted_files.append(extracted_file)
+            except Exception as e:
+                logging.error(f"Error extracting {gz_file}: {e}")
+    return extracted_files
+
 print("Extracting XML from .gz files...")
+gz_directory = "_epg-end"  # Set the path to your .gz files directory
 extracted_files = extract_gz_files(gz_directory)
+merged_root = ET.Element("merged_epg")
+
 for xml_file in extracted_files:
     try:
         epg_tree = ET.parse(xml_file)
@@ -443,12 +464,8 @@ for xml_file in extracted_files:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
-# Get the current Eastern Time
-import pytz 
-eastern = pytz.timezone('US/Eastern')
-current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
-
-# Step 13: Save the merged EPG file AFTER merging data
+# Step 13: Save the merged EPG file after merging data
+save_path = "path_to_save_merged_file/epg.xml"  # Set your desired save path
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
@@ -483,48 +500,59 @@ def run_command(cmd, check=True, capture_output=False):
         logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
         return None
 
+# Step 14: Auto-commit to GitHub
 try:
-    print("🔄 Pulling latest changes from GitHub (rebase mode)...")
+    # Get the current Eastern Time
+    eastern = pytz.timezone('US/Eastern')
+    current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
-    # 🔹 Ensure no unstaged deletions before pulling
+    print("🔄 Pulling latest changes from GitHub (rebase mode)...")
+    
+    # Clean untracked files and directories before pulling
+    print("🧹 Cleaning untracked files...")
+    run_command(["git", "clean", "-fd"])  # Clean untracked files and directories
+    
+    # Ensure no unstaged deletions before pulling
     run_command(["git", "add", "-A"])
 
+    # Pull the latest changes with rebase
     pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
     if pull_result is None:
         print("⚠️ Git rebase failed. Attempting automatic fix...")
-
-        run_command(["git", "stash"])
-        run_command(["git", "pull", "--rebase", "origin", "main"])
-        run_command(["git", "stash", "pop"])
+        run_command(["git", "stash"])  # Stash changes to resolve any potential conflicts
+        run_command(["git", "pull", "--rebase", "origin", "main"])  # Attempt pull again
+        run_command(["git", "stash", "pop"])  # Restore stashed changes
 
     print("📌 Staging all changes (new, modified, deleted files)...")
-    run_command(["git", "add", "-A"])
+    run_command(["git", "add", "-A"])  # Stage all changes
 
-    # 🔹 Check for staged changes
-    staged_changes = run_command(["git", "diff", "--cached", "--quiet"], check=False)
-
-    if staged_changes is None:
+    # Check for staged changes
+    staged_changes = run_command(["git", "status", "--porcelain"], capture_output=True)
+    
+    if staged_changes:
+        # If there are staged changes, commit them
         commit_message = f"Auto commit at {current_time_et} ET"
         print(f"✅ Changes detected. Committing: {commit_message}")
-        run_command(["git", "commit", "-m", commit_message])
+        run_command(["git", "commit", "-m", commit_message])  # Commit changes
 
         print("🚀 Pushing changes to GitHub...")
-        push_result = run_command(["git", "push", "origin", "main"], check=False)
+        push_result = run_command(["git", "push", "origin", "main"], check=False)  # Push to GitHub
 
         if push_result is None:
             print("⚠️ Git push failed. Checking branch status...")
 
-            branch_status = run_command(["git", "status", "-uno"], capture_output=True)
+            branch_status = run_command(["git", "status", "-uno"], capture_output=True)  # Check branch status
             if "Your branch is ahead" in branch_status:
                 print("⚠️ Force-pushing with lease...")
-                run_command(["git", "push", "--force-with-lease", "origin", "main"])
+                run_command(["git", "push", "--force-with-lease", "origin", "main"])  # Force push with lease if needed
             else:
                 print("✅ Everything is already up to date.")
-
     else:
         print("✅ No changes to commit. Skipping push.")
 
 except Exception as e:
     logging.error(f"🚨 Unexpected Error: {str(e)}")
     print(f"🚨 Unexpected Error: {str(e)}")
+
+    # python3 merge_epg.py

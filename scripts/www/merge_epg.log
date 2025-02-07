@@ -1,40 +1,28 @@
-Feb 06 2025 21:36:48 - INFO - Starting EPG merge process...
-Feb 06 2025 21:36:48 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:36:48 - INFO - STDOUT: 
-Feb 06 2025 21:36:48 - INFO - STDOUT: > grab
-Feb 06 2025 21:36:48 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:36:48 - INFO - STDOUT: 
-Feb 06 2025 21:36:49 - INFO - STDOUT: starting...
-Feb 06 2025 21:36:49 - INFO - STDOUT: config:
-Feb 06 2025 21:36:49 - INFO - STDOUT: output: ./scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:36:49 - INFO - STDOUT: maxConnections: 1
-Feb 06 2025 21:36:49 - INFO - STDOUT: gzip: false
-Feb 06 2025 21:36:49 - INFO - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
-Feb 06 2025 21:36:49 - INFO - STDOUT: loading channels...
-Feb 06 2025 21:36:49 - INFO - STDOUT: found 8 channel(s)
-Feb 06 2025 21:36:49 - INFO - STDOUT: run #1:
-Feb 06 2025 21:36:52 - INFO - STDOUT: [1/16] nzxmltv.com (en) - iptv/plutotv#310 - Feb 7, 2025 (9 programs)
-Feb 06 2025 21:36:53 - INFO - STDOUT: [2/16] nzxmltv.com (en) - iptv/plutotv#310 - Feb 8, 2025 (0 programs)
-Feb 06 2025 21:36:54 - INFO - STDOUT: [3/16] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 8, 2025 (13 programs)
-Feb 06 2025 21:36:55 - INFO - STDOUT: [4/16] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 7, 2025 (25 programs)
-Feb 06 2025 21:36:56 - INFO - STDOUT: [5/16] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 8, 2025 (22 programs)
-Feb 06 2025 21:36:57 - INFO - STDOUT: [6/16] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 7, 2025 (25 programs)
-Feb 06 2025 21:36:58 - INFO - STDOUT: [7/16] sky.de (de) - 1014 - Feb 8, 2025 (16 programs)
-Feb 06 2025 21:36:58 - INFO - STDOUT: [8/16] sky.de (de) - 1014 - Feb 7, 2025 (12 programs)
-Feb 06 2025 21:36:58 - INFO - STDOUT: [9/16] tvinsider.com (en) - fanduel-sports-midwest - Feb 8, 2025 (31 programs)
-Feb 06 2025 21:36:58 - INFO - STDOUT: [10/16] tvinsider.com (en) - fanduel-sports-midwest - Feb 7, 2025 (25 programs)
-Feb 06 2025 21:36:59 - INFO - STDOUT: [11/16] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 8, 2025 (0 programs)
-Feb 06 2025 21:36:59 - INFO - STDOUT: [12/16] i.mjh.nz (en) - PlutoTV/us#614501c653ceee000772b0ca - Feb 7, 2025 (0 programs)
-Feb 06 2025 21:36:59 - INFO - STDOUT: [13/16] xumo.tv (en) - 100#99951204 - Feb 8, 2025 (0 programs)
-Feb 06 2025 21:36:59 - INFO - STDOUT: [14/16] xumo.tv (en) - 100#99951204 - Feb 7, 2025 (0 programs)
-Feb 06 2025 21:37:00 - INFO - STDOUT: [15/16] nzxmltv.com (en) - iptv/plutotv#320 - Feb 8, 2025 (0 programs)
-Feb 06 2025 21:37:00 - INFO - STDOUT: [16/16] nzxmltv.com (en) - iptv/plutotv#320 - Feb 7, 2025 (9 programs)
-Feb 06 2025 21:37:00 - INFO - STDOUT: saving to "./scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml"...
-Feb 06 2025 21:37:00 - INFO - STDOUT: done in 00h 00m 11s
-Feb 06 2025 21:37:00 - INFO - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml executed successfully.
-Feb 06 2025 21:37:00 - INFO - Found 8 channel(s) in the output.
-Feb 06 2025 21:37:01 - INFO - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:37:01 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:37:01 - INFO - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:37:01 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-06-09-36-48 PM.xml
-Feb 06 2025 21:37:02 - INFO - ✅ EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml
+Feb 06 2025 22:40:51 - INFO - Starting EPG merge process...
+Feb 06 2025 22:40:51 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:51 - INFO - STDOUT: 
+Feb 06 2025 22:40:51 - INFO - STDOUT: > grab
+Feb 06 2025 22:40:51 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:51 - INFO - STDOUT: 
+Feb 06 2025 22:40:52 - INFO - STDOUT: starting...
+Feb 06 2025 22:40:52 - INFO - STDOUT: config:
+Feb 06 2025 22:40:52 - INFO - STDOUT: output: ./scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:52 - INFO - STDOUT: maxConnections: 1
+Feb 06 2025 22:40:52 - INFO - STDOUT: gzip: false
+Feb 06 2025 22:40:52 - INFO - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 06 2025 22:40:52 - INFO - STDOUT: loading channels...
+Feb 06 2025 22:40:52 - INFO - STDOUT: found 2 channel(s)
+Feb 06 2025 22:40:52 - INFO - STDOUT: run #1:
+Feb 06 2025 22:40:53 - INFO - STDOUT: [1/4] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 7, 2025 (25 programs)
+Feb 06 2025 22:40:55 - INFO - STDOUT: [2/4] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 8, 2025 (22 programs)
+Feb 06 2025 22:40:56 - INFO - STDOUT: [3/4] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 8, 2025 (13 programs)
+Feb 06 2025 22:40:56 - INFO - STDOUT: [4/4] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 7, 2025 (25 programs)
+Feb 06 2025 22:40:56 - INFO - STDOUT: saving to "./scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml"...
+Feb 06 2025 22:40:56 - INFO - STDOUT: done in 00h 00m 04s
+Feb 06 2025 22:40:56 - INFO - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml executed successfully.
+Feb 06 2025 22:40:56 - INFO - Found 2 channel(s) in the output.
+Feb 06 2025 22:40:57 - INFO - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:57 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:57 - INFO - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:57 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-06-10-40-51 PM.xml
+Feb 06 2025 22:40:58 - INFO - ✅ EPG file successfully saved to path_to_save_merged_file/epg.xml
