@@ -183,8 +183,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CTVWild.ca" site_id="animal-planet-canada-hd/10044">CTV Wild Canada HD</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVWild.ca" site_id="ca#69021275/animal-planet-canada">Animal Planet Canada</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="CTVWild.ca" site_id="ca#69044451/animal-planet-canada-hdtv">Animal Planet Canada HDTV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="ctv2-london-on-hd/9701">CTV2 London, ON HD</channel>
-  <!-- <channel site="tvtv.us" lang="en" xmltv_id="CTV2.Toronto.ON.HD.ca" site_id="72720">CTV2 (CFPL-DT) London ON</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.London.ca" site_id="ctv2-london-on-hd/9701">CTV2 London, ON HD</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="CTV2.London.ca" site_id="72720">CTV2 (CFPL-DT) London ON</channel> -->
   <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Ottawa.ca" site_id="ctv2-chro-dt-43-ottawa-on-hd/19889">CTV2 (CHRO-DT-43) Ottawa, ON HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="CTV2.Ottawa.ca" site_id="ctv2-chro-dt-43-ottawa-on/13791">CTV2 (CHRO-DT-43) Ottawa, ON</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CWEastNetwork.us" site_id="cw-knva-austin-tx/2475">CW (KNVA) Austin, TX</channel> -->
@@ -532,7 +532,7 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NicktoonsEast.us" site_id="nicktoons-east/2010">Nicktoons - East</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NicktoonsEast.us" site_id="30420">Nicktoons East</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel> -->
-  <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#69022475/omni1">Omni.1</channel>
+  <channel site="ontvtonight.com" lang="en" xmltv_id="OMNI.Vancouver.ca" site_id="ca#69022475/omni1">Omni.1</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#69026135/omni1-hdtv">Omni.1 HDTV</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="OMNIEast.ca" site_id="omni-vancouver-hd/9611">OMNI Vancouver HD</channel> -->
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#5147984550/omni-east-hdtv">OMNI East HDTV</channel> -->

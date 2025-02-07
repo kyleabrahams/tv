@@ -79,8 +79,8 @@ def main():
 
         # Step 3: Generate timestamp for filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")  # Format: YYYYMMDD_HHMMSS
-        # output_filename = f"{output_dir}/alive-txt-{timestamp}.m3u"
-        output_filename = f"{output_dir}/expired-txt-{timestamp}.m3u"
+        output_filename = f"{output_dir}/alive-txt-{timestamp}.m3u"
+        # output_filename = f"{output_dir}/expired-txt-{timestamp}.m3u"
 
 
         # Step 4: Generate M3U content and save to file
