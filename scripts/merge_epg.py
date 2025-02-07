@@ -24,9 +24,56 @@ print("Starting data processing...")
 # your data processing code
 print("Data processing complete.")
 
+# Step 1: Set up Logging
+formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
+print(formatted_time)
+
+# Define SuccessFilter to filter messages
+class SuccessFilter(logging.Filter):
+    def filter(self, record):
+        return "EPG file successfully saved" in record.getMessage()
+
+# Get the directory where the script is located (absolute path)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Create the relative path for the log file
+log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
+
+# Ensure the 'www' directory exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+
+# Set up logging configuration
+log_format = "%(asctime)s - %(message)s"
+date_format = "%b %d %Y %H:%M:%S"
+
+logging.basicConfig(filename=log_file_path,
+                    level=logging.INFO,
+                    format=log_format,
+                    datefmt=date_format)
+
+# Create a logger instance
+logger = logging.getLogger(__name__)
+
+# Create a RotatingFileHandler
+file_handler = RotatingFileHandler(
+    log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB file size limit, keep 4 backups
+)
+
+# Set up the formatter
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+# Add the SuccessFilter to filter specific messages
+file_handler.addFilter(SuccessFilter())
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
+
+# Log starting message
+logger.info("Starting EPG merge process...")
 
 
-# # Step 0: Run this script on schedule
+# # Step 1.2: Run this script on schedule
 # import schedule
 
 # # Lock file path
@@ -82,54 +129,6 @@ print("Data processing complete.")
 #     time.sleep(1)
 
 
-
-# Step 1: Set up Logging
-formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
-print(formatted_time)
-
-# Define SuccessFilter to filter messages
-class SuccessFilter(logging.Filter):
-    def filter(self, record):
-        return "EPG file successfully saved" in record.getMessage()
-
-# Get the directory where the script is located (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
-
-# Ensure the 'www' directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-# Set up logging configuration
-log_format = "%(asctime)s - %(message)s"
-date_format = "%b %d %Y %H:%M:%S"
-
-logging.basicConfig(filename=log_file_path,
-                    level=logging.INFO,
-                    format=log_format,
-                    datefmt=date_format)
-
-# Create a logger instance
-logger = logging.getLogger(__name__)
-
-# Create a RotatingFileHandler
-file_handler = RotatingFileHandler(
-    log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB file size limit, keep 4 backups
-)
-
-# Set up the formatter
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(formatter)
-
-# Add the SuccessFilter to filter specific messages
-file_handler.addFilter(SuccessFilter())
-
-# Add the file handler to the logger
-logger.addHandler(file_handler)
-
-# Log starting message
-logger.info("Starting EPG merge process...")
 
 
 # Step 2.1: Function to run dummy_epg.py script

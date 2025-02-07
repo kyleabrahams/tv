@@ -94,3 +94,4 @@ Feb 07 2025 00:20:36 - Successfully loaded local file: /Users/kyleabrahams/Docum
 Feb 07 2025 00:20:36 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
 Feb 07 2025 00:20:36 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
 Feb 07 2025 00:20:37 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Feb 07, 2025 12:20:37 AM ET
+Feb 07 2025 00:20:38 - Failed to commit, rebase, or push files - Error: Command '['git', 'rebase', '--abort']' returned non-zero exit status 128.

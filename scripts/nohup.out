@@ -1,0 +1,59 @@
+[main 957341e58] Saving uncommitted changes before rebase at Feb 07, 2025 12:20:37 AM ET
+ 6 files changed, 156 insertions(+), 126 deletions(-)
+ rename scripts/_epg-end/{channels-test-02-07-12-15-38 AM.xml => channels-test-02-07-12-20-31 AM.xml} (100%)
+ rename scripts/_epg-end/{dummy--epg---2025-02-07-12-15-38 AM.xml => dummy--epg---2025-02-07-12-20-31 AM.xml} (100%)
+ create mode 100644 scripts/nohup.out
+fatal: no rebase in progress
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 00:20:31
+dummy_epg_path: /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+venv_python: /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+dummy_epg.py executed successfully
+pytz is installed and ready to use.
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-15-38 AM.xml deleted.
+EPG data saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-20-31 AM.xml
+
+Old file /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-15-38 AM.xml deleted.
+Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
+STDOUT: 
+STDOUT: > grab
+STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
+STDOUT: 
+STDOUT: starting...
+STDOUT: config:
+STDOUT: output: ./scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
+STDOUT: maxConnections: 1
+STDOUT: gzip: false
+STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+STDOUT: loading channels...
+STDOUT: found 3 channel(s)
+STDOUT: run #1:
+STDOUT: [1/6] tvinsider.com (en) - fanduel-sports-midwest - Feb 7, 2025 (25 programs)
+STDOUT: [2/6] tvinsider.com (en) - fanduel-sports-midwest - Feb 8, 2025 (31 programs)
+STDOUT: [3/6] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 8, 2025 (13 programs)
+STDOUT: [4/6] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 7, 2025 (25 programs)
+STDOUT: [5/6] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 8, 2025 (22 programs)
+STDOUT: [6/6] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 7, 2025 (25 programs)
+STDOUT: saving to "./scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml"...
+STDOUT: done in 00h 00m 04s
+Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml executed successfully.
+Found 3 channel(s) in the output.
+Merging EPG data...
+No EPG URLs found in /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-start/epg_urls.txt, scanning /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end for XML files...
+EPG URLs or local XML files found: ['/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-20-31 AM.xml', '/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml']
+Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-20-31 AM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-20-31 AM.xml
+Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
+Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test-02-07-12-20-31 AM.xml
+Extracting XML from .gz files...
+EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg.xml at Feb 07, 2025 12:20:37 AM ET
+Committing and pushing all updated files in the specified directories to GitHub...
+Staging files in directory: /Users/kyleabrahams/Documents/GitHub/tv/scripts/www
+Staging files in directory: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end
+Uncommitted changes detected. Committing changes before rebase...
+Fetching latest changes from the remote repository...
+Attempting to rebase onto the latest changes from origin/main...
+Rebase failed. Aborting and notifying user.
+Failed to commit, rebase, or push files - Error: Command '['git', 'rebase', '--abort']' returned non-zero exit status 128.
