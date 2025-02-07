@@ -78,53 +78,55 @@ print("Starting data processing...")
 
 
 # Step 1: Set up Logging
+# Get current time for logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
+
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Define the log file path
+log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
+
+# Ensure the 'www' directory exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+
+# Overwrite log file by opening in 'w' mode
+with open(log_file_path, 'w'):
+    pass  # This clears the file
+
+# Set up logging configuration
+log_format = "%(asctime)s - %(levelname)s - %(message)s"
+date_format = "%b %d %Y %H:%M:%S"
+
+logging.basicConfig(
+    filename=log_file_path,
+    level=logging.INFO,
+    format=log_format,
+    datefmt=date_format,
+    filemode='w'  # Overwrites file each time the script runs
+)
+
+# Create a logger instance
+logger = logging.getLogger(__name__)
 
 # Define SuccessFilter to filter messages
 class SuccessFilter(logging.Filter):
     def filter(self, record):
         return "EPG file successfully saved" in record.getMessage()
 
-# Get the directory where the script is located (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
-
-# Ensure the 'www' directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-# Set up logging configuration
-log_format = "%(asctime)s - %(message)s"
-date_format = "%b %d %Y %H:%M:%S"
-
-logging.basicConfig(filename=log_file_path,
-                    level=logging.INFO,
-                    format=log_format,
-                    datefmt=date_format)
-
-# Create a logger instance
-logger = logging.getLogger(__name__)
-
-# Create a RotatingFileHandler
+# Create a RotatingFileHandler (if needed)
 file_handler = RotatingFileHandler(
-    log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB file size limit, keep 4 backups
+    log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB limit, keep 4 backups
 )
-
-# Set up the formatter
-formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(formatter)
-
-# Add the SuccessFilter to filter specific messages
+file_handler.setFormatter(logging.Formatter(log_format, date_format))
 file_handler.addFilter(SuccessFilter())
 
 # Add the file handler to the logger
 logger.addHandler(file_handler)
 
-# Log starting message
+# Log the start of the process
 logger.info("Starting EPG merge process...")
-
 
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
@@ -172,11 +174,11 @@ def run_npm_grab():
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test--{current_datetime}.xml"]
+         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+         f"--output=./scripts/_epg-end/channels-test--{current_datetime}.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
@@ -289,7 +291,6 @@ def load_local_xml_files(directory):
         return []
 
 # Get the directory where the script is located (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
@@ -465,36 +466,48 @@ directories_to_commit = [
 # Get the current time for logging and commit messages
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
+def run_command(cmd, check=True, capture_output=False):
+    """Run a shell command with error handling."""
+    try:
+        result = subprocess.run(cmd, check=check, text=True, capture_output=capture_output)
+        return result.stdout.strip() if capture_output else None
+    except subprocess.CalledProcessError as e:
+        logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
+        return None
+
 try:
-    # Ensure the latest changes are fetched before making new commits
+    # Step 1: Fetch latest changes with rebase
     print("Pulling latest changes from GitHub (rebase mode)...")
-    subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
+    pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
-    # Stage all changes, including deletions
+    # Handle rebase failures (exit code 128)
+    if pull_result is None:
+        print("⚠️ Git rebase failed. Attempting automatic fix...")
+
+        # Step 2: Stash local changes, pull, and reapply stash
+        run_command(["git", "stash"])
+        run_command(["git", "pull", "--rebase", "origin", "main"])
+        run_command(["git", "stash", "pop"])
+
+    # Step 3: Stage all changes (including deletions)
     print("Staging all changes (new, modified, deleted files)...")
-    subprocess.run(["git", "add", "-A"], check=True)
+    run_command(["git", "add", "-A"])
 
-    # Check if there are staged changes before committing
-    result = subprocess.run(["git", "diff", "--cached", "--quiet"])
-    
-    if result.returncode != 0:  # If there are staged changes
+    # Step 4: Check if there are staged changes before committing
+    staged_changes = run_command(["git", "diff", "--cached", "--quiet"], check=False)
+
+    if staged_changes is None:  # Means there are changes to commit
         commit_message = f"Auto commit at {current_time_et} ET"
         print(f"Changes detected. Committing: {commit_message}")
-        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+        run_command(["git", "commit", "-m", commit_message])
 
-        # Push changes after successful rebase
+        # Step 5: Push changes after successful rebase
         print("Pushing changes to GitHub...")
-        subprocess.run(["git", "push", "origin", "main"], check=True)
+        run_command(["git", "push", "origin", "main"])
     
     else:
         print("No changes to commit. Skipping push.")
 
-except subprocess.CalledProcessError as e:
-    error_message = f"⚠️ Git Error: {e}"
-    logging.error(error_message)
-    print(error_message)
-
 except Exception as e:
-    unexpected_error_message = f"🚨 Unexpected Error: {str(e)}"
-    logging.error(unexpected_error_message)
-    print(unexpected_error_message)
+    logging.error(f"🚨 Unexpected Error: {str(e)}")
+    print(f"🚨 Unexpected Error: {str(e)}")
