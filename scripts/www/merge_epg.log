@@ -1,31 +1,33 @@
-Feb 07 2025 00:01:40 - INFO - Starting EPG merge process...
-Feb 07 2025 00:01:40 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:40 - INFO - STDOUT: 
-Feb 07 2025 00:01:40 - INFO - STDOUT: > grab
-Feb 07 2025 00:01:40 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:40 - INFO - STDOUT: 
-Feb 07 2025 00:01:41 - INFO - STDOUT: starting...
-Feb 07 2025 00:01:41 - INFO - STDOUT: config:
-Feb 07 2025 00:01:41 - INFO - STDOUT: output: ./scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:41 - INFO - STDOUT: maxConnections: 1
-Feb 07 2025 00:01:41 - INFO - STDOUT: gzip: false
-Feb 07 2025 00:01:41 - INFO - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
-Feb 07 2025 00:01:41 - INFO - STDOUT: loading channels...
-Feb 07 2025 00:01:41 - INFO - STDOUT: found 2 channel(s)
-Feb 07 2025 00:01:41 - INFO - STDOUT: run #1:
-Feb 07 2025 00:01:43 - INFO - STDOUT: [1/4] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 7, 2025 (25 programs)
-Feb 07 2025 00:01:44 - INFO - STDOUT: [2/4] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 8, 2025 (22 programs)
-Feb 07 2025 00:01:45 - INFO - STDOUT: [3/4] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 8, 2025 (13 programs)
-Feb 07 2025 00:01:46 - INFO - STDOUT: [4/4] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 7, 2025 (25 programs)
-Feb 07 2025 00:01:46 - INFO - STDOUT: saving to "./scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml"...
-Feb 07 2025 00:01:46 - INFO - STDOUT: done in 00h 00m 04s
-Feb 07 2025 00:01:46 - INFO - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml executed successfully.
-Feb 07 2025 00:01:46 - INFO - Found 2 channel(s) in the output.
-Feb 07 2025 00:01:46 - INFO - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:46 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:46 - INFO - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:46 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-07-12-01-40 AM.xml
-Feb 07 2025 00:01:47 - INFO - ✅ EPG file successfully saved to www/epg.xml
-Feb 07 2025 00:01:47 - INFO - 🔄 Starting auto-commit process.
-Feb 07 2025 00:01:47 - INFO - 🧹 Cleaning untracked files and directories...
-Feb 07 2025 00:01:47 - INFO - 📌 Staging all modified, deleted, and new files...
+Feb 07 2025 00:03:08 - INFO - Starting EPG merge process...
+Feb 07 2025 00:03:08 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:09 - INFO - STDOUT: 
+Feb 07 2025 00:03:09 - INFO - STDOUT: > grab
+Feb 07 2025 00:03:09 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:09 - INFO - STDOUT: 
+Feb 07 2025 00:03:09 - INFO - STDOUT: starting...
+Feb 07 2025 00:03:09 - INFO - STDOUT: config:
+Feb 07 2025 00:03:09 - INFO - STDOUT: output: ./scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:09 - INFO - STDOUT: maxConnections: 1
+Feb 07 2025 00:03:09 - INFO - STDOUT: gzip: false
+Feb 07 2025 00:03:09 - INFO - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 07 2025 00:03:09 - INFO - STDOUT: loading channels...
+Feb 07 2025 00:03:09 - INFO - STDOUT: found 3 channel(s)
+Feb 07 2025 00:03:09 - INFO - STDOUT: run #1:
+Feb 07 2025 00:03:10 - INFO - STDOUT: [1/6] tvinsider.com (en) - fanduel-sports-midwest - Feb 7, 2025 (25 programs)
+Feb 07 2025 00:03:10 - INFO - STDOUT: [2/6] tvinsider.com (en) - fanduel-sports-midwest - Feb 8, 2025 (31 programs)
+Feb 07 2025 00:03:11 - INFO - STDOUT: [3/6] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 8, 2025 (13 programs)
+Feb 07 2025 00:03:11 - INFO - STDOUT: [4/6] tvprofil.com (en) - gb/tvschedule#sky-sports-arena - Feb 7, 2025 (25 programs)
+Feb 07 2025 00:03:12 - INFO - STDOUT: [5/6] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 8, 2025 (22 programs)
+Feb 07 2025 00:03:13 - INFO - STDOUT: [6/6] tvprofil.com (en) - gb/tvschedule#sky-sports-3 - Feb 7, 2025 (25 programs)
+Feb 07 2025 00:03:13 - INFO - STDOUT: saving to "./scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml"...
+Feb 07 2025 00:03:13 - INFO - STDOUT: done in 00h 00m 03s
+Feb 07 2025 00:03:13 - INFO - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml executed successfully.
+Feb 07 2025 00:03:13 - INFO - Found 3 channel(s) in the output.
+Feb 07 2025 00:03:13 - INFO - Fetching 1/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:13 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:14 - INFO - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:14 - INFO - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/channels-test--2025-02-07-12-03-08 AM.xml
+Feb 07 2025 00:03:14 - INFO - ✅ EPG file successfully saved to www/epg.xml
+Feb 07 2025 00:03:14 - INFO - 🔄 Starting auto-commit process.
+Feb 07 2025 00:03:14 - INFO - 🧹 Cleaning untracked files and directories...
+Feb 07 2025 00:03:14 - INFO - 📌 Staging all modified, deleted, and new files...
