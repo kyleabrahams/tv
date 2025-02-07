@@ -57,3 +57,100 @@ Fetching latest changes from the remote repository...
 Attempting to rebase onto the latest changes from origin/main...
 Rebase failed. Aborting and notifying user.
 Failed to commit, rebase, or push files - Error: Command '['git', 'rebase', '--abort']' returned non-zero exit status 128.
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:07:17
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 110, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 102, in schedule_script
+    schedule.every().day.at("1:08").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:07:49
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 110, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 102, in schedule_script
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:08:32
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 110, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 102, in schedule_script
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:09:45
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 110, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 102, in schedule_script
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:09:57
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 110, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 102, in schedule_script
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)
+/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3
+Starting data processing...
+Data processing complete.
+Feb 07 2025 01:11:01
+Scheduler is running and waiting for tasks...
+Traceback (most recent call last):
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 111, in <module>
+    schedule_script()
+    ~~~~~~~~~~~~~~~^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py", line 103, in schedule_script
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/lib/python3.13/site-packages/schedule/__init__.py", line 514, in at
+    raise ScheduleValueError(
+        "Invalid time format for a daily job (valid format is HH:MM(:SS)?)"
+    )
+schedule.ScheduleValueError: Invalid time format for a daily job (valid format is HH:MM(:SS)?)

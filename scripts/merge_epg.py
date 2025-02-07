@@ -73,63 +73,42 @@ logger.addHandler(file_handler)
 logger.info("Starting EPG merge process...")
 
 
-# # Step 1.2: Run this script on schedule
-# import schedule
+# Step 1.2: Run this script on schedule
+import schedule
 
-# # Lock file path
-# lock_file_path = "merge_epg.lock"
+def run_script():
+    logging.info("Script triggered at: " + str(datetime.now()))
 
-# def run_merge_epg():
-#     # Get the directory of the current script
-#     script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Define the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
 
-#     # Path to the virtual environment Python
-#     venv_python = os.path.join(script_dir, "venv", "bin", "python3")
+    # Define the virtual environment's Python path
+    venv_python = os.path.join(script_dir, 'venv', 'bin', 'python3')
 
-#     # Path to the `merge_epg.py` script
-#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
+    # Define the path to the merge_epg.py script
+    merge_epg_path = os.path.join(script_dir, "merge_epg.py")
 
-#     # Path for the lock file to prevent multiple script instances
-#     lock_file_path = os.path.join(script_dir, "merge_epg.lock")
+    try:
+        # Run the script using the virtual environment's Python
+        subprocess.run([venv_python, merge_epg_path], check=True)
+        logging.info("Script executed successfully.")
+    except subprocess.CalledProcessError as e:
+        logging.error(f"Error occurred while running the script: {e}")
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
 
-#     # Check if the lock file already exists (indicating another instance is running)
-#     if os.path.exists(lock_file_path):
-#         print("Script is already running. Skipping execution.")
-#         return
+def schedule_script():
+    logging.info("Scheduler is running...")
+    print("Scheduler is running and waiting for tasks...")
+    schedule.every().day.at("1:10").do(run_script)  # 12:58 AM
+    schedule.every().day.at("13:00").do(run_script)  # 1:00 PM
 
-#     # Create the lock file to indicate the script is running
-#     with open(lock_file_path, 'w') as lock_file:
-#         try:
-#             print("Lock file created. Running the script...")
+    while True:
+        schedule.run_pending()
+        time.sleep(1)  # Check every second for pending tasks
 
-#             # Define the command to run your Python script
-#             command = f'{venv_python} {merge_epg_path}'
-
-#             # Run the command
-#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#             print(f"stdout: {result.stdout.decode()}")
-#             print(f"stderr: {result.stderr.decode()}")
-
-#         except (subprocess.CalledProcessError, IOError) as e:
-#             print(f"Error occurred: {e}")
-
-#         finally:
-#             # Delete the lock file once the script finishes
-#             if os.path.exists(lock_file_path):
-#                 os.remove(lock_file_path)
-#             print("Lock file removed. Script execution finished.")
-
-# # Schedule the job at 2:36 AM and 2:36 PM
-# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:36 AM
-# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:36 PM
-
-# # Infinite loop to keep the scheduler running
-# while True:
-#     schedule.run_pending()
-#     time.sleep(1)
-
-
-
+if __name__ == "__main__":
+    schedule_script()
 
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
@@ -397,6 +376,7 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
     return None  # Return None after all attempts fail    
 
 # Function to extract XML from .gz files
+import log
 def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
