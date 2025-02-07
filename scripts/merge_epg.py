@@ -16,6 +16,7 @@ import pytz
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable # Relative path from the script to the virtual environment
 script_dir = os.path.dirname(os.path.abspath(__file__))
+venv_python = os.path.join(sys.prefix, "bin", "python3")
 
 print(venv_python)
 print("Starting data processing...")
@@ -128,7 +129,7 @@ def run_dummy_epg():
     try:
         # Define paths
         dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
-        venv_python = os.path.join(sys.prefix, "bin", "python3")
+        # venv_python = os.path.join(sys.prefix, "bin", "python3")
 
         # Debugging: Print paths
         print(f"dummy_epg_path: {dummy_epg_path}")
