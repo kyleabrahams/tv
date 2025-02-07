@@ -3,8 +3,8 @@ import re
 # python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/m3u_A-Z.py
 
 # Define input and output file paths
-input_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/ca_pro6666_CANADA.m3u"
-output_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/ca_pro6666_CANADA-SORTED.m3u"
+input_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Active/ca_newlife3_Jan 16 2028_D12m2770.m3u"
+output_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Active/ca_newlife3_Jan 16 2028_SORTED.m3u"
 
 # Read the content of the input .m3u file
 with open(input_file, "r") as file:
