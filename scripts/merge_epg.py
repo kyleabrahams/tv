@@ -1,4 +1,4 @@
-# merge_epg.py Feb 5 2025 124p
+# merge_epg.py Feb 6 2025 905p
 import xml.etree.ElementTree as ET
 import os
 import io
@@ -473,40 +473,73 @@ def run_command(cmd, check=True, capture_output=False):
         return result.stdout.strip() if capture_output else None
     except subprocess.CalledProcessError as e:
         logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
+        print(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
         return None
 
-try:
-    # Step 1: Fetch latest changes with rebase
-    print("Pulling latest changes from GitHub (rebase mode)...")
+def git_safeguard_pull():
+    """Ensures local changes do not block a Git pull."""
+    print("🔄 Pulling latest changes from GitHub (rebase mode)...")
     pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
-    # Handle rebase failures (exit code 128)
     if pull_result is None:
         print("⚠️ Git rebase failed. Attempting automatic fix...")
+        logging.warning("⚠️ Git rebase failed. Attempting stash & rebase fix...")
 
-        # Step 2: Stash local changes, pull, and reapply stash
+        # Step 1: Stash local changes
         run_command(["git", "stash"])
+        
+        # Step 2: Attempt rebase again
         run_command(["git", "pull", "--rebase", "origin", "main"])
-        run_command(["git", "stash", "pop"])
 
-    # Step 3: Stage all changes (including deletions)
-    print("Staging all changes (new, modified, deleted files)...")
+        # Step 3: Restore local changes
+        stash_result = run_command(["git", "stash", "pop"], check=False)
+
+        # Step 4: Handle merge conflicts if any
+        conflicts = run_command(["git", "diff", "--name-only", "--diff-filter=U"], capture_output=True)
+        if conflicts:
+            print("⚠️ Merge conflicts detected! Attempting auto-resolution...")
+            logging.warning(f"⚠️ Merge conflicts in:\n{conflicts}")
+
+            # Attempt auto-merge resolution
+            run_command(["git", "add", "."])
+            run_command(["git", "rebase", "--continue"], check=False)
+
+        print("✅ Git pull completed successfully.")
+        logging.info("✅ Git pull completed successfully.")
+
+def git_commit_and_push():
+    """Stages, commits, and pushes changes to GitHub."""
+    print("📌 Staging all changes (new, modified, deleted files)...")
     run_command(["git", "add", "-A"])
 
-    # Step 4: Check if there are staged changes before committing
+    # Check if there are staged changes
     staged_changes = run_command(["git", "diff", "--cached", "--quiet"], check=False)
 
-    if staged_changes is None:  # Means there are changes to commit
+    if staged_changes is None:  # There are changes to commit
         commit_message = f"Auto commit at {current_time_et} ET"
-        print(f"Changes detected. Committing: {commit_message}")
+        print(f"✅ Changes detected. Committing: {commit_message}")
+        logging.info(f"✅ Committing changes: {commit_message}")
         run_command(["git", "commit", "-m", commit_message])
 
-        # Step 5: Push changes after successful rebase
-        print("Pushing changes to GitHub...")
-        run_command(["git", "push", "origin", "main"])
-    
+        # Push changes after successful commit
+        print("🚀 Pushing changes to GitHub...")
+        push_result = run_command(["git", "push", "origin", "main"], check=False)
+        
+        if push_result is None:
+            print("⚠️ Git push failed. Trying 'git push --force-with-lease'...")
+            logging.warning("⚠️ Git push failed. Retrying with --force-with-lease...")
+            run_command(["git", "push", "--force-with-lease", "origin", "main"], check=False)
+        else:
+            print("✅ Push completed successfully.")
+            logging.info("✅ Push completed successfully.")
     else:
-        print("No changes to commit. Skipping push.")
+        print("🔹 No changes to commit. Skipping push.")
+        logging.info("🔹 No changes to commit. Skipping push.")
+
+try:
+    # Run Git safeguard and commit workflow
+    git_safeguard_pull()
+    git_commit_and_push()
 
 except Exception as e:
     logging.error(f"🚨 Unexpected Error: {str(e)}")
