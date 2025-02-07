@@ -418,13 +418,26 @@ def extract_gz_files(gz_directory):
     return extracted_files
 
 
-# Step 10: Merge EPG data into a single XML
-merged_root = ET.Element("tv")
-total_files = len(epg_urls)
+# Step 10: Save the merged EPG file and log success
+try:
+    merged_root = ET.Element("tv")  # Ensure root XML element is created
+    merged_tree = ET.ElementTree(merged_root)
+    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
+    
+    # Log success message
+    success_message = f"EPG file successfully saved to {save_path}"
+    logging.info(success_message)  # Log to merge_epg.log
+    print(success_message)  # Echo success to console
 
+except Exception as e:
+    # Log error if save fails
+    error_message = f"Failed to save EPG file - Error: {e}"
+    logging.error(error_message)
+    print(error_message)
 
 # Step 11: Process each EPG URL
 for index, url in enumerate(epg_urls):
+    total_files = len(epg_urls)  # Ensure it's set before the loop
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
         for element in epg_tree.getroot():
