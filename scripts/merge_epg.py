@@ -473,73 +473,50 @@ def run_command(cmd, check=True, capture_output=False):
         return result.stdout.strip() if capture_output else None
     except subprocess.CalledProcessError as e:
         logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
-        print(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e}")
         return None
 
-def git_safeguard_pull():
-    """Ensures local changes do not block a Git pull."""
+try:
     print("🔄 Pulling latest changes from GitHub (rebase mode)...")
+    
+    # 🔹 Ensure there are no unstaged deletions before pulling
+    run_command(["git", "add", "-A"])
+    
     pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
     if pull_result is None:
         print("⚠️ Git rebase failed. Attempting automatic fix...")
-        logging.warning("⚠️ Git rebase failed. Attempting stash & rebase fix...")
 
-        # Step 1: Stash local changes
         run_command(["git", "stash"])
-        
-        # Step 2: Attempt rebase again
         run_command(["git", "pull", "--rebase", "origin", "main"])
+        run_command(["git", "stash", "pop"])
 
-        # Step 3: Restore local changes
-        stash_result = run_command(["git", "stash", "pop"], check=False)
-
-        # Step 4: Handle merge conflicts if any
-        conflicts = run_command(["git", "diff", "--name-only", "--diff-filter=U"], capture_output=True)
-        if conflicts:
-            print("⚠️ Merge conflicts detected! Attempting auto-resolution...")
-            logging.warning(f"⚠️ Merge conflicts in:\n{conflicts}")
-
-            # Attempt auto-merge resolution
-            run_command(["git", "add", "."])
-            run_command(["git", "rebase", "--continue"], check=False)
-
-        print("✅ Git pull completed successfully.")
-        logging.info("✅ Git pull completed successfully.")
-
-def git_commit_and_push():
-    """Stages, commits, and pushes changes to GitHub."""
     print("📌 Staging all changes (new, modified, deleted files)...")
     run_command(["git", "add", "-A"])
 
-    # Check if there are staged changes
+    # 🔹 Check for staged changes
     staged_changes = run_command(["git", "diff", "--cached", "--quiet"], check=False)
 
-    if staged_changes is None:  # There are changes to commit
+    if staged_changes is None:
         commit_message = f"Auto commit at {current_time_et} ET"
         print(f"✅ Changes detected. Committing: {commit_message}")
-        logging.info(f"✅ Committing changes: {commit_message}")
         run_command(["git", "commit", "-m", commit_message])
 
-        # Push changes after successful commit
         print("🚀 Pushing changes to GitHub...")
         push_result = run_command(["git", "push", "origin", "main"], check=False)
-        
-        if push_result is None:
-            print("⚠️ Git push failed. Trying 'git push --force-with-lease'...")
-            logging.warning("⚠️ Git push failed. Retrying with --force-with-lease...")
-            run_command(["git", "push", "--force-with-lease", "origin", "main"], check=False)
-        else:
-            print("✅ Push completed successfully.")
-            logging.info("✅ Push completed successfully.")
-    else:
-        print("🔹 No changes to commit. Skipping push.")
-        logging.info("🔹 No changes to commit. Skipping push.")
 
-try:
-    # Run Git safeguard and commit workflow
-    git_safeguard_pull()
-    git_commit_and_push()
+        if push_result is None:
+            print("⚠️ Git push failed. Checking branch status...")
+
+            # 🔹 Check if remote branch has diverged
+            branch_status = run_command(["git", "status", "-uno"], capture_output=True)
+            if "Your branch is ahead" in branch_status:
+                print("⚠️ Force-pushing with lease...")
+                run_command(["git", "push", "--force-with-lease", "origin", "main"])
+            else:
+                print("✅ Everything is already up to date.")
+
+    else:
+        print("✅ No changes to commit. Skipping push.")
 
 except Exception as e:
     logging.error(f"🚨 Unexpected Error: {str(e)}")
