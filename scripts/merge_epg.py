@@ -419,31 +419,17 @@ def extract_gz_files(gz_directory):
 
 
 # Step 10: Save the merged EPG file and log success
-try:
-    merged_root = ET.Element("tv")  # Ensure root XML element is created
-    merged_tree = ET.ElementTree(merged_root)
-    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    
-    # Log success message
-    success_message = f"EPG file successfully saved to {save_path}"
-    logging.info(success_message)  # Log to merge_epg.log
-    print(success_message)  # Echo success to console
-
-except Exception as e:
-    # Log error if save fails
-    error_message = f"Failed to save EPG file - Error: {e}"
-    logging.error(error_message)
-    print(error_message)
+# Initialize root XML element
+merged_root = ET.Element("tv")
 
 # Step 11: Process each EPG URL
+total_files = len(epg_urls)  # Define before loop
 for index, url in enumerate(epg_urls):
-    total_files = len(epg_urls)  # Ensure it's set before the loop
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
         for element in epg_tree.getroot():
             merged_root.append(element)
     sleep(0.5)  # Small delay to simulate and visualize progress
-
 
 # Step 12: Extract XML from .gz files
 print("Extracting XML from .gz files...")
@@ -457,27 +443,36 @@ for xml_file in extracted_files:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
-
 # Get the current Eastern Time
-import pytz # Timezone
-
+import pytz 
 eastern = pytz.timezone('US/Eastern')
 current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
+# Step 13: Save the merged EPG file AFTER merging data
+try:
+    save_dir = os.path.dirname(save_path)
+    os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
 
-# Step 13: Save the merged EPG/log file and push to Github
-# python3 merge_epg.py
+    merged_tree = ET.ElementTree(merged_root)
+    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
 
-# Define directories to auto-commit
+    # Log success message
+    success_message = f"✅ EPG file successfully saved to {save_path}"
+    logging.info(success_message)
+    print(success_message)
+
+except Exception as e:
+    error_message = f"❌ Failed to save EPG file - Error: {e}"
+    logging.error(error_message)
+    print(error_message)
+
+# Step 14: Auto-commit to GitHub
 script_dir = os.path.dirname(os.path.abspath(__file__))
 directories_to_commit = [
     os.path.join(script_dir, "www"),
     os.path.join(script_dir, "_epg-end"),
     os.path.join(script_dir, "scripts"),
 ]
-
-# Get the current time for logging and commit messages
-current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 def run_command(cmd, check=True, capture_output=False):
     """Run a shell command with error handling."""
@@ -490,10 +485,10 @@ def run_command(cmd, check=True, capture_output=False):
 
 try:
     print("🔄 Pulling latest changes from GitHub (rebase mode)...")
-    
-    # 🔹 Ensure there are no unstaged deletions before pulling
+
+    # 🔹 Ensure no unstaged deletions before pulling
     run_command(["git", "add", "-A"])
-    
+
     pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
 
     if pull_result is None:
@@ -520,7 +515,6 @@ try:
         if push_result is None:
             print("⚠️ Git push failed. Checking branch status...")
 
-            # 🔹 Check if remote branch has diverged
             branch_status = run_command(["git", "status", "-uno"], capture_output=True)
             if "Your branch is ahead" in branch_status:
                 print("⚠️ Force-pushing with lease...")
