@@ -148,6 +148,7 @@ if __name__ == "__main__":
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
 # python3 merge_epg.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
