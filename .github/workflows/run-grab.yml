@@ -33,6 +33,15 @@ jobs:
         echo "Output file: ${output_file}"
         npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
 
+    - name: Verify file exists
+      run: |
+        if [ -f "./scripts/www/epg-test.xml" ]; then
+          echo "EPG file created successfully!"
+        else
+          echo "Error: EPG file was not generated!"
+          exit 1
+        fi
+
     - name: Upload output file as artifact
       uses: actions/upload-artifact@v4
       with:
@@ -43,6 +52,11 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # Ensure file is modified or force update
+        touch ./scripts/www/epg-test.xml
         git add ./scripts/www/epg-test.xml
         git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
-        git push origin main
+        
+        # Force push if needed
+        git push origin main || echo "Push failed, retrying..."
