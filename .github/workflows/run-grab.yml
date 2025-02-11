@@ -30,8 +30,10 @@ jobs:
     - name: Run grab command
       run: |
         output_file="./scripts/www/epg-test.xml"
+        echo "Running grab command..."
         echo "Output file: ${output_file}"
         npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        echo "Grab command finished."
 
     - name: Verify file exists
       run: |
@@ -42,23 +44,39 @@ jobs:
           exit 1
         fi
 
+    - name: Print current directory
+      run: |
+        echo "Current directory: $(pwd)"
+        ls -la
+
     - name: Check git status
       run: |
-        git status
+        echo "Checking git status..."
+        git status -uall
 
     - name: Force Push epg-test.xml
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
+        echo "Checking if epg-test.xml exists"
         if [ -f "./scripts/www/epg-test.xml" ]; then
           echo "EPG file exists. Forcing commit and push..."
           
-          # Adjust the git add path to ./scripts/www/epg-test.xml
-          git add ./scripts/www/epg-test.xml
-          git commit --allow-empty -m "Force push: epg-test.xml [$(date)]"
-          git push --force origin main
+          git status # Show current git status
+          git add ./scripts/www/epg-test.xml # Stage the file for commit
+          git status # Show git status after adding
+          git commit --allow-empty -m "Force push: epg-test.xml [$(date)]" # Commit the changes
+          git status # Final git status to ensure the commit went through
+          git push --force origin main # Force push the commit
         else
           echo "ERROR: epg-test.xml not found!"
           exit 1
         fi
+
+    - name: Check Git configuration
+      run: |
+        echo "Git configuration:"
+        git config --list
+
+    - name: Print absolute path of the file
+      run: |
+        echo "Absolute path of epg-test.xml:"
+        realpath ./scripts/www/epg-test.xml
