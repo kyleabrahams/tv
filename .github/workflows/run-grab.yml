@@ -1,21 +1,14 @@
 name: Run Grab Command
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:
   schedule:
     - cron: '0 1 * * *'  # 1 AM every day
-    - cron: '50 15 * * *' # 1 PM every day
+    - cron: '0 17 * * *'  # 5 PM every day
 
 concurrency:
   group: "grab-command"
   cancel-in-progress: true  # If another instance is running, cancel it
-
+  
 jobs:
   run_grab:
     runs-on: ubuntu-latest
