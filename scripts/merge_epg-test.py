@@ -15,19 +15,44 @@ import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
-from flup.server.fcgi import WSGIServer
+# from flup.server.fcgi import WSGIServer
 
-def application(environ, start_response):
-    # This simulates calling the script
-    subprocess.run(["python3", "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py"])
+
+# from wsgiref.simple_server import make_server
+
+# def application(environ, start_response):
+#     venv_python = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python"
+#     script_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py"
     
-    status = '200 OK'
-    headers = [('Content-type', 'text/plain')]
-    start_response(status, headers)
-    return [b'EPG Script Executed']
+#     # Set the environment to use the virtual environment
+#     env = os.environ.copy()
+#     env["VIRTUAL_ENV"] = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv"
+#     env["PATH"] = f"/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin:{env['PATH']}"
 
-if __name__ == '__main__':
-    WSGIServer(application).run()
+#     # Start the subprocess
+#     process = subprocess.Popen([venv_python, script_path], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+#     # Capture stdout and stderr
+#     stdout, stderr = process.communicate()
+
+#     # Log any output or errors
+#     if process.returncode == 0:
+#         print(f"Script executed successfully. Output:\n{stdout.decode()}")
+#     else:
+#         print(f"Script failed with error. Stderr:\n{stderr.decode()}")
+
+#     # Response
+#     status = '200 OK'
+#     headers = [('Content-type', 'text/plain')]
+#     start_response(status, headers)
+
+#     return [b'EPG Script Execution Started\n']
+
+# if __name__ == "__main__":
+#     server = make_server('127.0.0.1', 8001, application)
+#     print("Serving on http://127.0.0.1:8000")
+#     server.serve_forever()    
+
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
@@ -462,7 +487,7 @@ if os.path.exists(additional_directory):
 current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
 # Set up logging
-logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
+logging.basicConfig(filename="merge_epg-test.log", level=logging.INFO)
 
 try:
     # Create the merged XML file
