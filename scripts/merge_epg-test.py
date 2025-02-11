@@ -15,8 +15,19 @@ import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
-# import fcntl
+from flup.server.fcgi import WSGIServer
 
+def application(environ, start_response):
+    # This simulates calling the script
+    subprocess.run(["python3", "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py"])
+    
+    status = '200 OK'
+    headers = [('Content-type', 'text/plain')]
+    start_response(status, headers)
+    return [b'EPG Script Executed']
+
+if __name__ == '__main__':
+    WSGIServer(application).run()
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
