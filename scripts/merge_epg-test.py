@@ -295,7 +295,7 @@ if not epg_urls:
 print("EPG URLs or local XML files found:", epg_urls)
 
 # Step 7: Path to save the merged EPG file
-save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # Step 8: Function to ensure directory and file permissions
@@ -441,7 +441,7 @@ directories_to_commit = [
     os.path.join(script_dir, "www"),
     os.path.join(script_dir, "_epg-end")
 ]
-
+ 
 # Add a check for the "scripts" directory
 additional_directory = os.path.join(script_dir, "scripts")
 if os.path.exists(additional_directory):
@@ -456,7 +456,7 @@ logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
 try:
     # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
-    save_path = os.path.join(script_dir, "www", "epg.xml")
+    save_path = os.path.join(script_dir, "www", "epg-test.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
 
     # Log success message
