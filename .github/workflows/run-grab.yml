@@ -50,7 +50,8 @@ jobs:
         if [ -f "./scripts/www/epg-test.xml" ]; then
           echo "EPG file exists. Forcing commit and push..."
           
-          git add -f ./scripts/www/epg-test.xml
+          # Adjust the git add path to ./scripts/www/epg-test.xml
+          git add ./scripts/www/epg-test.xml
           git commit --allow-empty -m "Force push: epg-test.xml [$(date)]"
           git push --force origin main
         else
