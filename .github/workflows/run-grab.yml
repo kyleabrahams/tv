@@ -1,6 +1,5 @@
 name: Run Grab Command
 
-# Trigger on push to main, pull request to main, and manual trigger
 on:
   push:
     branches:
@@ -8,7 +7,7 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch:  # This enables manual triggering
+  workflow_dispatch:
 
 jobs:
   run_grab:
@@ -21,21 +20,28 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Use the version of Node.js required by your project
+        node-version: '16'
 
     - name: Install dependencies
-      run: npm install  # This ensures the dependencies are installed before running any commands
-      working-directory: /workspaces/tv  # Specify the directory where your package.json is located
+      run: npm install
+
+    - name: Install missing module
+      run: npm install @freearhey/core  # This ensures the missing module is installed
 
     - name: Run grab command
       run: |
         output_file="./scripts/www/epg-test.xml"
-        echo "Output file: ${output_file}"  # Optional: for debugging
+        echo "Output file: ${output_file}"
         npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
-      working-directory: /workspaces/tv  # Ensure you're in the correct directory for running the grab command
 
     - name: Upload output file as artifact
       uses: actions/upload-artifact@v3
       with:
-        name: epg-output  # You can customize the artifact name here
-        path: ./scripts/www/epg-test.xml  # Ensure this path is correct for your output file
+        name: epg-output
+        path: ./scripts/www/epg-test.xml
+
+    - name: Commit changes
+      run: |
+        git add .
+        git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
+        git push
