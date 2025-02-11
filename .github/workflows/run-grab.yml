@@ -42,6 +42,10 @@ jobs:
           exit 1
         fi
 
+    - name: Check git status
+      run: |
+        git status
+
     - name: Force Push epg-test.xml
       run: |
         git config --global user.name "github-actions[bot]"
