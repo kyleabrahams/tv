@@ -12,6 +12,10 @@ on:
     - cron: '0 1 * * *'  # 1 AM every day
     - cron: '50 15 * * *' # 1 PM every day
 
+concurrency:
+  group: "grab-command"
+  cancel-in-progress: true  # If another instance is running, cancel it
+
 jobs:
   run_grab:
     runs-on: ubuntu-latest
@@ -31,12 +35,12 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Remove existing epg-test.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
+    - name: Remove existing epg.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
 
     - name: Run grab command
       run: |
-        output_file="$GITHUB_WORKSPACE/scripts/www/epg-test.xml"
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
         npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-custom-start.xml --output=${output_file}
@@ -61,9 +65,9 @@ jobs:
         echo "Checking git status..."
         git status
 
-    - name: Commit and Push epg-test.xml
+    - name: Commit and Push epg.xml
       run: |
-        echo "Checking if epg-test.xml exists..."
+        echo "Checking if epg.xml exists..."
         if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
           echo "✅ EPG file exists. Preparing to commit and push..."
 
@@ -72,14 +76,14 @@ jobs:
 
           # Ensure Git detects changes
           git add -f $GITHUB_WORKSPACE/scripts/www/epg.xml
-          git commit -m "Updated epg-test.xml [$(date)]" --allow-empty
+          git commit -m "Updated epg.xml [$(date)]" --allow-empty
           
           # Force push even if Git thinks there are no changes
           git push --force origin main
           
-          echo "✅ Successfully pushed epg-test.xml to main!"
+          echo "✅ Successfully pushed epg.xml to main!"
         else
-          echo "❌ ERROR: epg-test.xml not found!"
+          echo "❌ ERROR: epg.xml not found!"
           exit 1
         fi
 
