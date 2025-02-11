@@ -65,7 +65,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           git status # Show current git status
-          git add ./scripts/www/epg-test.xml # Stage the file for commit
+          git add -f ./scripts/www/epg-test.xml # Stage the file for commit
           git status # Show git status after adding
           git commit --allow-empty -m "Force push: epg-test.xml [$(date)]" # Commit the changes
           git status # Final git status to ensure the commit went through
