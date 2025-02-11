@@ -18,6 +18,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Ensures a full repo history for pushing
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -38,49 +39,44 @@ jobs:
     - name: Verify file exists
       run: |
         if [ -f "./scripts/www/epg-test.xml" ]; then
-          echo "EPG file created successfully!"
+          echo "✅ EPG file created successfully!"
         else
-          echo "Error: EPG file was not generated!"
+          echo "❌ ERROR: EPG file was not generated!"
           exit 1
         fi
 
     - name: Print current directory
       run: |
         echo "Current directory: $(pwd)"
-        ls -la
+        ls -la ./scripts/www/
 
     - name: Check git status
       run: |
         echo "Checking git status..."
-        git status -uall
+        git status
 
-    - name: Force Push epg-test.xml
+    - name: Commit and Push epg-test.xml
       run: |
-        echo "Checking if epg-test.xml exists"
+        echo "Checking if epg-test.xml exists..."
         if [ -f "./scripts/www/epg-test.xml" ]; then
-          echo "EPG file exists. Forcing commit and push..."
+          echo "✅ EPG file exists. Preparing to commit and push..."
 
-          # Set user.name and user.email for GitHub Actions bot
+          # Set user information for GitHub Actions bot
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git status # Show current git status
-          git add -f ./scripts/www/epg-test.xml # Stage the file for commit
-          git status # Show git status after adding
-          git commit --allow-empty -m "Force push: epg-test.xml [$(date)]" # Commit the changes
-          git status # Final git status to ensure the commit went through
-          git push --force origin main # Force push the commit
+          git status  # Show current git status
+          git add -f ./scripts/www/epg-test.xml
+          git status  # Show git status after adding
+
+          git commit -m "Updated epg-test.xml [$(date)]" || echo "No changes to commit"
+          git push origin main
+
+          echo "✅ Successfully pushed epg-test.xml to main!"
         else
-          echo "ERROR: epg-test.xml not found!"
+          echo "❌ ERROR: epg-test.xml not found!"
           exit 1
         fi
 
-    - name: Check Git configuration
-      run: |
-        echo "Git configuration:"
-        git config --list
-
     - name: Print absolute path of the file
-      run: |
-        echo "Absolute path of epg-test.xml:"
-        realpath ./scripts/www/epg-test.xml
+      run: realpath ./scripts/www/epg-test.xml || echo "File not found"
