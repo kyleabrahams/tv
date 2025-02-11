@@ -48,18 +48,17 @@ jobs:
         name: epg-output
         path: ./scripts/www/epg-test.xml
 
-    - name: Force Git to Track and Push epg-test.xml
+    - name: Force Push epg-test.xml
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
         if [ -f "./scripts/www/epg-test.xml" ]; then
-          echo "EPG file exists. Checking for changes..."
-
-          # Ensure Git sees file changes
+          echo "EPG file exists. Forcing commit and push..."
+          
           git add -f ./scripts/www/epg-test.xml
-          git diff --staged --quiet || git commit -m "Auto update: epg-test.xml [$(date)]"
-          git push origin main || echo "No changes to push."
+          git commit --allow-empty -m "Force push: epg-test.xml [$(date)]"
+          git push --force origin main
         else
           echo "ERROR: epg-test.xml not found!"
           exit 1
