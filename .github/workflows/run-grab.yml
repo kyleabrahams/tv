@@ -61,14 +61,16 @@ jobs:
         if [ -f "./scripts/www/epg-test.xml" ]; then
           echo "✅ EPG file exists. Preparing to commit and push..."
 
-          # Set user information for GitHub Actions bot
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git status  # Show current git status
+          # Ensure changes are detected
           git add -f ./scripts/www/epg-test.xml
-          git status  # Show git status after adding
+          git diff --staged || echo "No changes detected in epg-test.xml"
 
+          # Make a dummy update to force a change if necessary
+          echo "" >> ./scripts/www/epg-test.xml
+          
           git commit -m "Updated epg-test.xml [$(date)]" || echo "No changes to commit"
           git push origin main
 
