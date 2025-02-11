@@ -106,7 +106,7 @@
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@freearhey/core": "^4.19.2",  // Adjust version as needed
+    "@freearhey/core": "^4.19.2", 
     "run-script-os": "^1.1.6",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
