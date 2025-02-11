@@ -8,6 +8,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'  # 1 AM every day
+    - cron: '36 15 * * *' # 1 PM every day
 
 jobs:
   run_grab:
