@@ -2,13 +2,13 @@ name: Run Grab Command
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 1 AM every day
-    - cron: '0 17 * * *'  # 5 PM every day
+    - cron: '0 5 * * *'  # 1 AM ET every day
+    - cron: '0 22 * * *'  # 5 PM ET every day
 
 concurrency:
   group: "grab-command"
   cancel-in-progress: true  # If another instance is running, cancel it
-  
+
 jobs:
   run_grab:
     runs-on: ubuntu-latest
