@@ -21,6 +21,10 @@
     "postinstall": "skip-postinstall || npm run api:load",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.ts": "eslint --fix"
+  },
   "private": true,
   "author": "Arhey",
   "license": "UNLICENSED",
