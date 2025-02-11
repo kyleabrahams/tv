@@ -2,8 +2,8 @@ name: Run Grab Command
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 1 AM ET every day
-    - cron: '0 22 * * *'  # 5 PM ET every day
+    - cron: '0 6 * * *'  # 1 AM ET every day
+    - cron: '0 18 * * *'  # 5 PM ET every day
 
 concurrency:
   group: "grab-command"
