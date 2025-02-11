@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: epg-output
-        path: ./scripts/www/e
+        path: ./scripts/www/epg-test.xml
