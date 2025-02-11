@@ -6,15 +6,19 @@ on:
 jobs:
   scheduled_task:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
 
+    steps:
+      # Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v3  # Use the latest version of the checkout action
+
+      # Set Git user (if committing)
       - name: Set Git user (if committing)
         run: |
           git config --global user.name "kyleabrahams"
           git config --global user.email "kyleagbc@gmail.com"
 
+      # Navigate to the correct directory and run the Python script
       - name: Navigate to correct directory and run Python script
         run: |
           cd $GITHUB_WORKSPACE/scripts
@@ -23,11 +27,13 @@ jobs:
           ls -alh  # List files to confirm the script is present
           python3 merge_epg_cs.py update update || exit 1
 
-      - name: Check for changes (optional)
+      # Check for changes (optional)
+      - name: Check for changes
         run: |
           git status
           git diff --exit-code || echo "Changes detected"
 
+      # Commit changes if there are any
       - name: Commit changes (if any)
         run: |
           echo "Checking for changes to commit..."

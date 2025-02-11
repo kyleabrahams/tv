@@ -1,30 +1,39 @@
-name: Run Grab Script
+name: Run Grab Command
 
+# Trigger on push to main, pull request to main, and manual trigger
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch
+      - main
   pull_request:
     branches:
-      - main  # Trigger the workflow on pull request to the main branch
-  schedule:
-    - cron: '0 0 * * *'  # Optionally, run it every day at midnight (UTC)
+      - main
+  workflow_dispatch:  # This enables manual triggering
 
 jobs:
-  run-grab:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+  run_grab:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Set the Node.js version you need (e.g., 16.x)
+        node-version: '16'  # Use the version of Node.js required by your project
 
-    - name: Install Dependencies
-      run: npm install  # Install project dependencies
+    - name: Install dependencies
+      run: npm install  # This ensures the dependencies are installed before running any commands
 
-    - name: Run Grab Script
-      run: npm run grab  # Run your grab script
+    - name: Run grab command
+      run: |
+        output_file="./scripts/www/epg-test.xml"
+        echo "Output file: ${output_file}"  # Optional: for debugging
+        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
+
+    - name: Upload output file as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: epg-output  # You can customize the artifact name here
+        path: ./scripts/www/epg-test.xml  # Ensure this path is correct
