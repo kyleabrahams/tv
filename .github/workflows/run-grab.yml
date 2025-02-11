@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -36,3 +38,11 @@ jobs:
       with:
         name: epg-output
         path: ./scripts/www/epg-test.xml
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add ./scripts/www/epg-test.xml
+        git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
+        git push origin main
