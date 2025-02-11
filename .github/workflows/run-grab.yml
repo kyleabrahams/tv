@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 1 * * *'  # 1 AM every day
-    - cron: '36 15 * * *' # 1 PM every day
+    - cron: '50 15 * * *' # 1 PM every day
 
 jobs:
   run_grab:
@@ -39,12 +39,12 @@ jobs:
         output_file="$GITHUB_WORKSPACE/scripts/www/epg-test.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-custom-start.xml --output=${output_file}
         echo "Grab command finished."
 
     - name: Verify file exists
       run: |
-        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg-test.xml" ]; then
+        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
           echo "✅ EPG file created successfully!"
         else
           echo "❌ ERROR: EPG file was not generated!"
@@ -64,14 +64,14 @@ jobs:
     - name: Commit and Push epg-test.xml
       run: |
         echo "Checking if epg-test.xml exists..."
-        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg-test.xml" ]; then
+        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
           echo "✅ EPG file exists. Preparing to commit and push..."
 
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           # Ensure Git detects changes
-          git add -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
+          git add -f $GITHUB_WORKSPACE/scripts/www/epg.xml
           git commit -m "Updated epg-test.xml [$(date)]" --allow-empty
           
           # Force push even if Git thinks there are no changes
@@ -84,4 +84,4 @@ jobs:
         fi
 
     - name: Print absolute path of the file
-      run: realpath $GITHUB_WORKSPACE/scripts/www/epg-test.xml || echo "File not found"
+      run: realpath $GITHUB_WORKSPACE/scripts/www/epg.xml || echo "File not found"
