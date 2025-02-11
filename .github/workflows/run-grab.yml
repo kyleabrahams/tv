@@ -22,11 +22,29 @@ jobs:
       with:
         node-version: '16'
 
+    - name: Cache node modules
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
     - name: Install dependencies
-      run: npm install
+      run: npm install --legacy-peer-deps
 
     - name: Ensure @freearhey/core is installed
-      run: npm install @freearhey/core  # Ensures the missing module is installed
+      run: |
+        if ! npm list @freearhey/core; then
+          npm install @freearhey/core  # Ensure the missing module is installed
+        else
+          echo "@freearhey/core already installed"
+        fi
+
+    - name: Verify @freearhey/core installation
+      run: |
+        echo "Verifying @freearhey/core module installation..."
+        npm list @freearhey/core
 
     - name: Run grab command
       run: |
