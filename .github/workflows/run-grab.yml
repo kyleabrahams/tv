@@ -52,11 +52,13 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        
-        # Ensure file is modified or force update
+
+        # Ensure file exists and is recognized as modified
         touch ./scripts/www/epg-test.xml
-        git add ./scripts/www/epg-test.xml
-        git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
-        
-        # Force push if needed
-        git push origin main || echo "Push failed, retrying..."
+        git add -f ./scripts/www/epg-test.xml
+
+        # Commit the change (allow empty commit if necessary)
+        git commit -m "Auto update: epg-test.xml [$(date)]" || echo "No changes detected"
+
+        # Push to the repository
+        git push origin main || echo "Push failed, retrying..." && git push --force origin main
