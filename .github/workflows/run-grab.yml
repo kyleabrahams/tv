@@ -59,7 +59,11 @@ jobs:
         echo "Checking if epg-test.xml exists"
         if [ -f "./scripts/www/epg-test.xml" ]; then
           echo "EPG file exists. Forcing commit and push..."
-          
+
+          # Set user.name and user.email for GitHub Actions bot
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git status # Show current git status
           git add ./scripts/www/epg-test.xml # Stage the file for commit
           git status # Show git status after adding
