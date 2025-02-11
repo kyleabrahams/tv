@@ -31,7 +31,7 @@ jobs:
       run: |
         output_file="./scripts/www/epg-test.xml"
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=./scripts/www/_epg-start/channels-custom-start.xml --output=${output_file}
+        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
 
     - name: Upload output file as artifact
       uses: actions/upload-artifact@v3
