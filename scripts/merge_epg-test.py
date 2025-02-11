@@ -1,4 +1,6 @@
-# merge_epg.py Feb 3 2025 1232p
+#!/usr/bin/env python3
+
+# merge_epg.py Feb 10 2025 754p
 import requests
 import xml.etree.ElementTree as ET
 import os
@@ -462,26 +464,21 @@ try:
     logging.info(success_message)  # Log to merge_epg.log
     print(success_message)  # Echo success to console
 
-    # Stage all files (modified & untracked)
-    print("Committing and pushing all updated files in the specified directories to GitHub...")
-
-    for directory in directories_to_commit:
-        print(f"Staging files in directory: {directory}")
-        subprocess.run(["git", "add", directory], check=True)  # Stage all files in the directory
-
-    # Add all changes before commit
-    subprocess.run(["git", "add", "--all"], check=True)  # Stages all changes
+    # Stage all files (modified & untracked) before committing
+    print("Staging all updated files for commit...")
+    subprocess.run(["git", "add", "--all"], check=True)  # Stage all files (new, modified, deleted)
 
     # Check if there are uncommitted changes and commit them
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
-        print("Uncommitted changes detected. Committing changes before rebase...")
+        print(f"Uncommitted changes detected. Committing changes with message: Saving uncommitted changes before rebase at {current_time_et} ET")
         subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
 
-    # Rebase before pushing
+    # Fetch latest changes from the remote repository
     print("Fetching latest changes from the remote repository...")
     subprocess.run(["git", "fetch"], check=True)
 
+    # Attempt to rebase onto the latest changes from origin/main
     print("Attempting to rebase onto the latest changes from origin/main...")
     result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
@@ -491,14 +488,14 @@ try:
         logging.error("Rebase aborted due to conflicts. Please resolve manually.")
         raise subprocess.CalledProcessError(result.returncode, result.args)
 
-    # Push changes to GitHub after rebase, with force push option if needed
+    # Push changes to GitHub after successful rebase
     print("Pushing changes to GitHub...")
     subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
 
     print("All files in the specified directories successfully committed and pushed to GitHub.")
 
 except subprocess.CalledProcessError as e:
-    # Log error if save, rebase, or Git operations fail
+    # Log error if git operations fail
     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
     logging.error(error_message)
     print(error_message)
@@ -507,3 +504,4 @@ except Exception as e:
     # Handle unexpected errors
     unexpected_error_message = f"An unexpected error occurred - {str(e)}"
     logging.error(unexpected_error_message)
+    print(unexpected_error_message)
