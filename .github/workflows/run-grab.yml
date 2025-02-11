@@ -34,7 +34,7 @@ jobs:
         npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
 
     - name: Upload output file as artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: epg-output
         path: ./scripts/www/epg-test.xml
