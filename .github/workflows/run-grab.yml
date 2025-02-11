@@ -22,6 +22,8 @@ jobs:
       with:
         node-version: '18'
 
+    - name: Install dependencies
+      run: npm install
 
     - name: Run grab command
       run: |
@@ -33,10 +35,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: epg-output
-        path: ./scripts/www/epg-test.xml
-
-    - name: Commit and push changes
-      run: |
-        git add ./scripts/www/epg-test.xml
-        git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
-        git push origin main
+        path: ./scripts/www/e
