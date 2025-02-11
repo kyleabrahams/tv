@@ -23,10 +23,9 @@ jobs:
         node-version: '16'
 
     - name: Install dependencies
-      run: npm install
-
-    - name: Ensure @freearhey/core is installed
-      run: npm install @freearhey/core
+      run: |
+        npm install
+        npm install @freearhey/core  # Ensure the module is installed in the correct location
 
     - name: Run grab command
       run: |
@@ -40,8 +39,8 @@ jobs:
         name: epg-output
         path: ./scripts/www/epg-test.xml
 
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
-        git add .
+        git add ./scripts/www/epg-test.xml
         git commit -m "Auto commit: EPG file updated on $(date)" || echo "No changes to commit"
-        git push
+        git push origin main
