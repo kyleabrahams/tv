@@ -64,17 +64,17 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Ensure changes are detected
+          # Stage the file (even if modified)
           git add -f ./scripts/www/epg-test.xml
-          git diff --staged || echo "No changes detected in epg-test.xml"
 
-          # Make a dummy update to force a change if necessary
-          echo "" >> ./scripts/www/epg-test.xml
-          
-          git commit -m "Updated epg-test.xml [$(date)]" || echo "No changes to commit"
-          git push origin main
-
-          echo "✅ Successfully pushed epg-test.xml to main!"
+          # Ensure Git detects changes
+          if git diff --cached --quiet; then
+            echo "⚠️ No actual changes detected in epg-test.xml. Skipping commit."
+          else
+            git commit -m "Updated epg-test.xml [$(date)]"
+            git push origin main
+            echo "✅ Successfully pushed epg-test.xml to main!"
+          fi
         else
           echo "❌ ERROR: epg-test.xml not found!"
           exit 1
