@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# merge_epg.py Feb 10 2025 754p
+# merge_epg.py Feb 10 2025 808p
 import requests
 import xml.etree.ElementTree as ET
 import os
@@ -15,43 +15,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import re # Count / Log  Channels
 import pytz # Timezone
-# from flup.server.fcgi import WSGIServer
-
-
-# from wsgiref.simple_server import make_server
-
-# def application(environ, start_response):
-#     venv_python = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python"
-#     script_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py"
-    
-#     # Set the environment to use the virtual environment
-#     env = os.environ.copy()
-#     env["VIRTUAL_ENV"] = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv"
-#     env["PATH"] = f"/Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin:{env['PATH']}"
-
-#     # Start the subprocess
-#     process = subprocess.Popen([venv_python, script_path], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-#     # Capture stdout and stderr
-#     stdout, stderr = process.communicate()
-
-#     # Log any output or errors
-#     if process.returncode == 0:
-#         print(f"Script executed successfully. Output:\n{stdout.decode()}")
-#     else:
-#         print(f"Script failed with error. Stderr:\n{stderr.decode()}")
-
-#     # Response
-#     status = '200 OK'
-#     headers = [('Content-type', 'text/plain')]
-#     start_response(status, headers)
-
-#     return [b'EPG Script Execution Started\n']
-
-# if __name__ == "__main__":
-#     server = make_server('127.0.0.1', 8001, application)
-#     print("Serving on http://127.0.0.1:8000")
-#     server.serve_forever()    
+# import fcntl
 
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
@@ -75,7 +39,7 @@ class SuccessFilter(logging.Filter):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg-test.log')
+log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
 
 # Ensure the 'www' directory exists
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -186,7 +150,7 @@ if __name__ == "__main__":
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
 # python3 merge_epg.py
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
 
 def run_npm_grab():
     # Get current date and time for timestamping the output file
@@ -331,7 +295,7 @@ if not epg_urls:
 print("EPG URLs or local XML files found:", epg_urls)
 
 # Step 7: Path to save the merged EPG file
-save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # Step 8: Function to ensure directory and file permissions
@@ -468,76 +432,76 @@ eastern = pytz.timezone('US/Eastern')
 current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
 
-# # Step 13: Save the merged EPG/log file and push to Github
-# # python3 merge_epg.py
+# Step 13: Save the merged EPG/log file and push to Github
+# python3 merge_epg.py
 
-# # Define directories to auto-commit
-# script_dir = os.path.dirname(os.path.abspath(__file__))
-# directories_to_commit = [
-#     os.path.join(script_dir, "www"),
-#     os.path.join(script_dir, "_epg-end")
-# ]
+# Define directories to auto-commit
+script_dir = os.path.dirname(os.path.abspath(__file__))
+directories_to_commit = [
+    os.path.join(script_dir, "www"),
+    os.path.join(script_dir, "_epg-end")
+]
 
-# # Add a check for the "scripts" directory
-# additional_directory = os.path.join(script_dir, "scripts")
-# if os.path.exists(additional_directory):
-#     directories_to_commit.append(additional_directory)
+# Add a check for the "scripts" directory
+additional_directory = os.path.join(script_dir, "scripts")
+if os.path.exists(additional_directory):
+    directories_to_commit.append(additional_directory)
 
-# # Get the current time for logging and commit messages
-# current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
+# Get the current time for logging and commit messages
+current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
-# # Set up logging
-# logging.basicConfig(filename="merge_epg-test.log", level=logging.INFO)
+# Set up logging
+logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
 
-# try:
-#     # Create the merged XML file
-#     merged_tree = ET.ElementTree(merged_root)
-#     save_path = os.path.join(script_dir, "www", "epg-test.xml")
-#     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
+try:
+    # Create the merged XML file
+    merged_tree = ET.ElementTree(merged_root)
+    save_path = os.path.join(script_dir, "www", "epg.xml")
+    merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
 
-#     # Log success message
-#     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
-#     logging.info(success_message)  # Log to merge_epg.log
-#     print(success_message)  # Echo success to console
+    # Log success message
+    success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
+    logging.info(success_message)  # Log to merge_epg.log
+    print(success_message)  # Echo success to console
 
-#     # Stage all files (modified & untracked) before committing
-#     print("Staging all updated files for commit...")
-#     subprocess.run(["git", "add", "--all"], check=True)  # Stage all files (new, modified, deleted)
+    # Stage all files (modified & untracked) before committing
+    print("Staging all updated files for commit...")
+    subprocess.run(["git", "add", "--all"], check=True)  # Stage all files (new, modified, deleted)
 
-#     # Check if there are uncommitted changes and commit them
-#     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-#     if result.returncode != 0:  # If there are uncommitted changes
-#         print(f"Uncommitted changes detected. Committing changes with message: Saving uncommitted changes before rebase at {current_time_et} ET")
-#         subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+    # Check if there are uncommitted changes and commit them
+    result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode != 0:  # If there are uncommitted changes
+        print(f"Uncommitted changes detected. Committing changes with message: Saving uncommitted changes before rebase at {current_time_et} ET")
+        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
 
-#     # Fetch latest changes from the remote repository
-#     print("Fetching latest changes from the remote repository...")
-#     subprocess.run(["git", "fetch"], check=True)
+    # Fetch latest changes from the remote repository
+    print("Fetching latest changes from the remote repository...")
+    subprocess.run(["git", "fetch"], check=True)
 
-#     # Attempt to rebase onto the latest changes from origin/main
-#     print("Attempting to rebase onto the latest changes from origin/main...")
-#     result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # Attempt to rebase onto the latest changes from origin/main
+    print("Attempting to rebase onto the latest changes from origin/main...")
+    result = subprocess.run(["git", "rebase", "origin/main"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-#     if result.returncode != 0:
-#         print("Rebase failed. Aborting and notifying user.")
-#         subprocess.run(["git", "rebase", "--abort"], check=True)
-#         logging.error("Rebase aborted due to conflicts. Please resolve manually.")
-#         raise subprocess.CalledProcessError(result.returncode, result.args)
+    if result.returncode != 0:
+        print("Rebase failed. Aborting and notifying user.")
+        subprocess.run(["git", "rebase", "--abort"], check=True)
+        logging.error("Rebase aborted due to conflicts. Please resolve manually.")
+        raise subprocess.CalledProcessError(result.returncode, result.args)
 
-#     # Push changes to GitHub after successful rebase
-#     print("Pushing changes to GitHub...")
-#     subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
+    # Push changes to GitHub after successful rebase
+    print("Pushing changes to GitHub...")
+    subprocess.run(["git", "push", "origin", "main", "--force-with-lease"], check=True)
 
-#     print("All files in the specified directories successfully committed and pushed to GitHub.")
+    print("All files in the specified directories successfully committed and pushed to GitHub.")
 
-# except subprocess.CalledProcessError as e:
-#     # Log error if git operations fail
-#     error_message = f"Failed to commit, rebase, or push files - Error: {e}"
-#     logging.error(error_message)
-#     print(error_message)
+except subprocess.CalledProcessError as e:
+    # Log error if git operations fail
+    error_message = f"Failed to commit, rebase, or push files - Error: {e}"
+    logging.error(error_message)
+    print(error_message)
 
-# except Exception as e:
-#     # Handle unexpected errors
-#     unexpected_error_message = f"An unexpected error occurred - {str(e)}"
-#     logging.error(unexpected_error_message)
-#     print(unexpected_error_message)
+except Exception as e:
+    # Handle unexpected errors
+    unexpected_error_message = f"An unexpected error occurred - {str(e)}"
+    logging.error(unexpected_error_message)
+    print(unexpected_error_message)
