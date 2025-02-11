@@ -1,0 +1,30 @@
+name: Run Grab Script
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger the workflow on pull request to the main branch
+  schedule:
+    - cron: '0 0 * * *'  # Optionally, run it every day at midnight (UTC)
+
+jobs:
+  run-grab:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Set the Node.js version you need (e.g., 16.x)
+
+    - name: Install Dependencies
+      run: npm install  # Install project dependencies
+
+    - name: Run Grab Script
+      run: npm run grab  # Run your grab script
