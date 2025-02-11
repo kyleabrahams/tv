@@ -1,8 +1,8 @@
 import re
 
 # Define input and output file paths
-input_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/xxip25_CANADA-SORTED2.m3u"
-output_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/xxip25_CANADA-SORTED3.m3u"
+input_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/ca_newlife3_CANADA-SORTED.m3u"
+output_file = "/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/ca_newlife3_CANADA-SORTED2.m3u"
 
 # Read the content of the input .m3u file
 with open(input_file, "r", encoding="utf-8") as file:

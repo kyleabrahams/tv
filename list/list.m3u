@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 10 543p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 10 712p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -43,10 +43,10 @@ http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="City News 24/7 Toronto" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 
-#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto xy.
-https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-# #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423708
+# #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto xy.
+# https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423708
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto for.1
 # http://fortv.cc:8080/WjtGD2/235867/57260
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto for.2
@@ -123,12 +123,12 @@ http://fortv.cc:8080/WjtGD2/235867/57270
 # #EXTINF:-1 tvg-id="Makeful.ca" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="",Makeful xip.
 # http://xxip25.top:8080/04760056/79599130/57270
 
-#EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX New York WNYW" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="0",FOX New York xy.
-https://xyzdddd.mizhls.ru/lb/premium768/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+# #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX New York WNYW" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="0",FOX New York xy.
+# https://xyzdddd.mizhls.ru/lb/premium768/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 for.
 # http://fortv.cc:8080/WjtGD2/235867/120747
-# #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419885
+#EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419885
 # #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
 # http://fl1.moveonjoy.com/FOX_EAST/index.m3u8
 
@@ -148,10 +148,10 @@ https://xyzdddd.mizhls.ru/lb/premium769/index.m3u8|Referer=https://cookiewebplay
 
 # #EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC New York for.
 # http://fortv.cc:8080/WjtGD2/235867/120876
-# #EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC Buffalo 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419883
-#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC New York WABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC New York xy.
-https://xyzdddd.mizhls.ru/lb/premium766/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC Buffalo 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419883
+# #EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC New York WABC" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC New York xy.
+# https://xyzdddd.mizhls.ru/lb/premium766/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="ABCEast.us" tvg-name="18 ABC7 (WKBW) Buffalo" tvg-logo="https://i.ibb.co/37v3Qsd/ABC-2013-Dark-Grey-svg.png" group-title="USA",ABC New York apollo.
 # https://apollo.production-public.tubi.io/live/ac-wkbw.m3u8
 
@@ -416,12 +416,12 @@ http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418649
 #EXTINF:-1 tvg-id="Flavour.Network.Canada.ca" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home & Food",Flavour Network toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708815
 
-# #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network 
-# http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network 
+http://fl2.moveonjoy.com/FOOD_NETWORK/index.m3u8
 # #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509101
-#EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708815
+# #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home & Food",US Food Network toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708815
 
 #EXTINF:-1 tvg-id="CookingChannel.us" tvg-name="58 US Cooking Channel USATV" tvg-logo="https://i.ibb.co/gy0ZWwr/Cooking-Channel-US.png" group-title="Home & Food",US Cooking Channel 
 http://fl3.moveonjoy.com/COOKING_CHANNEL/index.m3u8
@@ -485,12 +485,16 @@ https://xyzdddd.mizhls.ru/lb/premium317/index.m3u8|Referer=https://cookiewebplay
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418471
 #EXTINF:-1 tvg-id="FXX.Canada.ca" tvg-name="66 FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",FXX for.
 http://fortv.cc:8080/WjtGD2/235867/57429																									
-#EXTINF:-1 tvg-id="FXX.Canada.ca" tvg-name="66 FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",FXX toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708818
+# #EXTINF:-1 tvg-id="FXX.Canada.ca" tvg-name="66 FXX" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="",FXX xip.
+# http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/46699
 
-
+# #EXTINF:-1 tvg-id="FXXEast.us" tvg-name="66 FXX East" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="USA",US FXX xy.
+# https://xyzdddd.mizhls.ru/lb/premium298/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+#EXTINF:-1 tvg-id="FXXEast.us" tvg-name="66 FXX East" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="USA",US FXX 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/417889
 #EXTINF:-1 tvg-id="FXXEast.us" tvg-name="66 FXX East" tvg-logo="https://i.ibb.co/B6K03n6/FXX-Logo-1.png" group-title="USA",US FXX xy.
 https://xyzdddd.mizhls.ru/lb/premium298/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
+
 
 # #EXTINF:-1 tvg-id="WildBrainTV.ca" tvg-name="69 CA: CHRGD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/wildbrain-tv-ca.png" group-title="Kids",*WildBrain TV for.
 # http://fortv.cc:8080/WjtGD2/235867/75653
@@ -516,8 +520,10 @@ https://xyzdddd.mizhls.ru/lb/premium299/index.m3u8|Referer=https://cookiewebplay
 
 # #EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418519
-#EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708887
+# #EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708887
+#EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="",Travel + Escape xip.
+http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/108136
 
 # #EXTINF:-1 tvg-id="APTN.East.ca" tvg-name="APTN" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="",APTN 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418545
@@ -599,10 +605,10 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708766
 #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="USA",US Game Show Network
 http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
 
-#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="",Game TV
+#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="",Game TV new.
 http://newlife3.wanicelife.com:8880/D12m2770/52277683/2998
 
-#EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="",TV Ontario newlife3.
+#EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="",TV Ontario new.
 http://fortv.cc:8080/WjtGD2/235867/57369
 
 # #EXTINF:-1 tvg-id="YTVEast.ca" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="",YTV for.
@@ -618,11 +624,13 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709008
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423763
 #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="",Family toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709000
+# #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="",Family new.
+# http://newlife3.wanicelife.com:8880/D12m2770/52277683/3040
 
-# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
-#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
-http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709001
+#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
+# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
+# http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709001
 
 #EXTINF:-1 tvg-id="Nickelodeon.ca" tvg-name="Nickelodeon" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/nickelodeon-ca.png?raw=true" group-title="Kids",Nickelodeon 
 http://cord-cutter.net:8080/04760056/79599130/47349
@@ -1329,61 +1337,61 @@ https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.ple
 #EXTINF:-1 tvg-id="PlexJAIL.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/67/Jail_tv_series_logo.jpg" group-title="",Jail
 https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cloudskep
+#EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cloud.
 http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
 # #EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 23. 1
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607500
-#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD cdn1.smart
+#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD cdn1.s
 https://cdn1.smart-tv-data.com/live/ant1/playlist.m3u8
 # #EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD 23. 2
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607524
-#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD ua-iptv
+#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD ua.
 http://ua-iptv.com:8080/Balcony11/8036405556/856747
-#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD vipliar
+#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD vip.
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/63145
 # #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 ktv
 # http://ktv.im:8080/48473774/938388484/112908
 # #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 HD filex
 # http://filex.tv:8080/aftab123/004090/316355
-# #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 newlife3.
+# #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/52116
-# #EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 newlife3. 1
+# #EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 new. 1
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/31147
-#EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro6666 1
+#EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro. 1
 http://pro6666.com:8080/dr.davidhouri/598627/471354
-#EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro6666 2
+#EXTINF:-1 tvg-id="RIK1.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 pro. 2
 http://pro6666.com:8080/dr.davidhouri/598627/471412
-#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat cloudskep
+#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat cloud.
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
-# #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat newlife3. 2
+# #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat new. 2
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/31146
-#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat vipliar
+#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat vip.
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2053
 # #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat ktv
 # http://ktv.im:8080/48473774/938388484/112974
 # #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607526
-# #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega newlife3.
+# #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/31188
-#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega ua-iptv
+#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega ua.
 http://ua-iptv.com:8080/emmanuelepie/13598371/856776
-#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega vipliar
+#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega vip.
 http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2108
 # #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega filex
 # http://filex.tv:8080/aftab123/004090/316347
-# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV newlife3.
+# #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/52117
 # #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV ktv
 # http://ktv.im:8080/48473774/938388484/112907
 # #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607523
-#EXTINF:-1 tvg-id="AlphaCyprus.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV cloudskep
+#EXTINF:-1 tvg-id="AlphaCyprus.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV cloud.
 https://l4.cloudskep.com/alphacyp/acy/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xOS8yMDIzIDc6NTc6MDAgUE0maGFzaF92YWx1ZT1aZHlYdmpZcy9BK2VGTnNzeVY5cWtRPT0mdmFsaWRtaW51dGVzPTMw
 # #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV filex
 # http://filex.tv:8080/aftab123/004090/316354
 # #EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV futai
 # http://futai.curmaresiurat.store:8080/642668025NetIPTv/twbMXXpGvxQYcGlsce9WAUflby8BNj/57434
-#EXTINF:-1 tvg-id="OmegaChannel.gr" tvg-name="Omega" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega cloudskep
+#EXTINF:-1 tvg-id="OmegaChannel.gr" tvg-name="Omega" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega cloud.
 https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
 
 
