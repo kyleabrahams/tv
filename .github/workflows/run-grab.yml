@@ -29,19 +29,19 @@ jobs:
       run: npm install
 
     - name: Remove existing epg-test.xml
-      run: rm -f ./scripts/www/epg-test.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
 
     - name: Run grab command
       run: |
-        output_file="./scripts/www/epg-test.xml"
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg-test.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
         echo "Grab command finished."
 
     - name: Verify file exists
       run: |
-        if [ -f "./scripts/www/epg-test.xml" ]; then
+        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg-test.xml" ]; then
           echo "✅ EPG file created successfully!"
         else
           echo "❌ ERROR: EPG file was not generated!"
@@ -51,7 +51,7 @@ jobs:
     - name: Print current directory
       run: |
         echo "Current directory: $(pwd)"
-        ls -la ./scripts/www/
+        ls -la $GITHUB_WORKSPACE/scripts/www/
 
     - name: Check git status
       run: |
@@ -61,14 +61,14 @@ jobs:
     - name: Commit and Push epg-test.xml
       run: |
         echo "Checking if epg-test.xml exists..."
-        if [ -f "./scripts/www/epg-test.xml" ]; then
+        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg-test.xml" ]; then
           echo "✅ EPG file exists. Preparing to commit and push..."
 
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           # Ensure Git detects changes
-          git add -f ./scripts/www/epg-test.xml
+          git add -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
           git commit -m "Updated epg-test.xml [$(date)]" --allow-empty
           
           # Force push even if Git thinks there are no changes
@@ -81,4 +81,4 @@ jobs:
         fi
 
     - name: Print absolute path of the file
-      run: realpath ./scripts/www/epg-test.xml || echo "File not found"
+      run: realpath $GITHUB_WORKSPACE/scripts/www/epg-test.xml || echo "File not found"
