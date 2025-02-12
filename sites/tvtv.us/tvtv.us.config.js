@@ -43,6 +43,16 @@ module.exports = {
     })
 
     return programs
+  },
+
+  // Add the missing `channels` function here
+  channels: function (args = {}) {
+    // Example list of channels (modify as needed)
+    return [
+      { site_id: '1', name: 'Channel 1' },
+      { site_id: '2', name: 'Channel 2' },
+      { site_id: '3', name: 'Channel 3' }
+    ]
   }
 }
 
