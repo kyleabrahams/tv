@@ -35,6 +35,14 @@ jobs:
     - name: Remove existing epg.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
 
+    - name: Run grab command
+      run: |
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
+        echo "Running grab command..."
+        echo "Output file: ${output_file}"
+        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        echo "Grab command finished."
+
     - name: Combine XML files into epg.xml
       run: |
         echo "Combining XML files in the _epg-end directory into one..."
@@ -53,14 +61,6 @@ jobs:
         find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -exec cat {} + > $combined_file
         
         echo "Combined XML files into: ${combined_file}"
-
-    - name: Run grab command
-      run: |
-        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
-        echo "Running grab command..."
-        echo "Output file: ${output_file}"
-        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
-        echo "Grab command finished."
 
     - name: Verify file exists
       run: |
