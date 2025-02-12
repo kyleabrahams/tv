@@ -28,18 +28,28 @@ jobs:
         run: |
           echo "Listing files in _epg-end directory before script run:"
           ls -la scripts/_epg-end/
+          
+          # List files tracked by git before removing
+          echo "Listing files tracked by git in _epg-end directory:"
+          git ls-files scripts/_epg-end/
 
       - name: Run EPG Script
         run: python3 scripts/dummy_epg.py
 
       - name: List Files After EPG Script
         run: |
-          echo "Listing files in _epg-end directory before script run:"
+          echo "Listing files in _epg-end directory after script run:"
           ls -la scripts/_epg-end/
 
-          # Delete old EPG files from the repository
+          # Check if old EPG files are tracked, and if so, remove them
           echo "Removing old EPG files from Git repository..."
-          git rm -f scripts/_epg-end/dummy--epg---*.xml
+          OLD_FILES=$(git ls-files scripts/_epg-end/dummy--epg---*.xml)
+          if [ -n "$OLD_FILES" ]; then
+              git rm -f $OLD_FILES
+              echo "✅ Old EPG files removed: $OLD_FILES"
+          else
+              echo "❌ No old EPG files found to remove."
+          fi
 
           # Now create the new file
           python3 scripts/dummy_epg.py
@@ -63,4 +73,3 @@ jobs:
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
-          fi
