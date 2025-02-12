@@ -45,6 +45,10 @@ jobs:
         # Ensure the output directory exists
         mkdir -p $GITHUB_WORKSPACE/scripts/www/
 
+        # List the XML files found by the find command for debugging
+        echo "Listing all XML files found in _epg-end directory:"
+        find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -print
+        
         # Combine all XML files in _epg-end directory into one
         find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -exec cat {} + > $combined_file
         
