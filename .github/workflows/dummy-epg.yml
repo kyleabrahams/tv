@@ -35,7 +35,7 @@ jobs:
       - name: Delete Old EPG File
         run: |
           echo "Deleting old EPG file..."
-          rm -f scripts/_epg-end/dummy--epg---*.xml  # Deletes any previous EPG file
+          rm -f scripts/_epg-end/dummy--epg---*.xml  # Deletes any previous EPG file except the newly created one
 
       - name: Check if New EPG File Exists
         run: |
