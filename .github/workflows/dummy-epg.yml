@@ -2,8 +2,8 @@ name: Dummy EPG XML
 
 on:
   schedule:
-    - cron: '55 5 * * *'  # 1 AM ET every day UTC +5
-    - cron: '55 17 * * *'  # 1 PM ET every day UTC +5
+    - cron: '55 5 * * *'  # 12:55 AM ET every day (UTC-5)
+    - cron: '55 17 * * *'  # 12:55 PM ET every day (UTC-5)
 
   workflow_dispatch:  # Allows manual triggering
 
