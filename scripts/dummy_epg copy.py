@@ -9,7 +9,6 @@ import re  # For regular expressions
 # Run script
 # chmod +x dummy_epg.sh
 # python3 dummy_epg.py
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
 
 # Step: 0: Function to process the given directory ( Command line arguement )
 # def process_directory(path):
@@ -151,7 +150,19 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     # Define the output file path with current date and time
     output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
 
-    # Step 6.4: Save the new EPG XML to the file (no deletion of old files)
+    # Step 6.4: Delete all older files except the latest one
+    try:
+        for file_name in os.listdir(output_dir):
+            file_path = os.path.join(output_dir, file_name)
+
+            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
+            if file_name.startswith("dummy-") and file_name != f"dummy-{current_datetime}.xml":
+                os.remove(file_path)
+                print(f"Old file {file_path} deleted.")
+    except Exception as e:
+        print(f"Error deleting old files: {e}")
+
+    # Step 6.5: Save the new EPG XML to the file
     try:
         with open(output_file_path, "w", encoding="UTF-8") as xml_file:
             xml_file.write(pretty_xml)
@@ -159,7 +170,7 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
         return output_file_path
     except Exception as e:
         print(f"Error saving EPG data: {e}")
-        sys.exit(1)
+        sys.exit(1)                                
         
 # Step 7: Run the function to generate and save the EPG XML
 save_epg_to_file(num_days=5, programs_per_day=24)

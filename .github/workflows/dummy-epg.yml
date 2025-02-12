@@ -24,13 +24,13 @@ jobs:
       - name: Install Dependencies
         run: pip install pytz
 
-      - name: Run EPG Script
-        run: python3 scripts/dummy_epg.py
-
       - name: List Files Before EPG Script
         run: |
           echo "Listing files in _epg-end directory before script run:"
           ls -la scripts/_epg-end/
+
+      - name: Run EPG Script
+        run: python3 scripts/dummy_epg.py
 
       - name: List Files After EPG Script
         run: |
@@ -39,7 +39,7 @@ jobs:
 
       - name: Delete Old EPG File
         run: |
-          echo "Deleting old EPG file..."
+          echo "Deleting old EPG files..."
           rm -f scripts/_epg-end/dummy--epg---*.xml  # Deletes any previous EPG file except the newly created one
 
       - name: Check if New EPG File Exists
@@ -58,4 +58,3 @@ jobs:
           else
             echo "❌ ERROR: New EPG file not found!"
             exit 1
-          fi
