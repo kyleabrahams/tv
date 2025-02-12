@@ -27,15 +27,21 @@ jobs:
       - name: Run EPG Script
         run: python3 scripts/dummy_epg.py  # Ensure this matches the script's actual location
 
+      - name: List Directory Contents
+        run: |
+          echo "Listing files in _epg-end directory:"
+          ls -la scripts/_epg-end/
+
       - name: Delete Old EPG File
         run: |
           echo "Deleting old EPG file..."
           rm -f scripts/_epg-end/dummy--epg---*.xml  # Deletes any previous EPG file
 
-      - name: Commit and Push New EPG File
+      - name: Check if New EPG File Exists
         run: |
           echo "Checking if new EPG file exists..."
           NEW_FILE=$(ls scripts/_epg-end/ | grep 'dummy--epg---.*\.xml')
+          echo "Found file: $NEW_FILE"  # Debugging line to print found file name
           if [ -n "$NEW_FILE" ]; then
             echo "✅ New EPG file exists: $NEW_FILE"
             git config --global user.name "github-actions[bot]"
