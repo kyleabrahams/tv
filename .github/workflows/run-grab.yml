@@ -1,10 +1,7 @@
+# run-grab.yml Feb 11 916p
 name: Run Grab Command
 
 on:
-  push:
-    branches:
-      - main  # This will trigger on push to the main branch
-
   schedule:
     - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
@@ -30,12 +27,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: |
-        echo "Installing dependencies..."
-        if ! npm install; then
-          echo "❌ ERROR: Failed to install dependencies!"
-          exit 1
-        fi
+      run: npm install
 
     - name: Remove existing epg.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
@@ -45,57 +37,8 @@ jobs:
         output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        if ! npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}; then
-          echo "❌ ERROR: Grab command failed!"
-          exit 1
-        fi
+        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-custom-start.xml --output=${output_file}
         echo "Grab command finished."
-
-    - name: Combine XML files into epg.xml (with correct structure)
-      run: |
-        echo "Combining XML files in the _epg-end directory into one..."
-
-        # Install xml-formatter to properly format XML
-        npm install xml-formatter
-
-        # Set the output file path
-        combined_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
-        
-        # Ensure the output directory exists
-        mkdir -p $GITHUB_WORKSPACE/scripts/www/
-
-        # Initialize the combined XML with the opening <tv> tag and XML declaration
-        combined_xml='<?xml version="1.0" encoding="UTF-8" ?>'
-        combined_xml="$combined_xml\n<tv generator-info-name=\"Original XML Generated with Tempest EPG Generator (made by Kvanc) - Processed by BEVY Visual Processor v0.9\" generator-info-url=\"https://github.com/K-vanc/Tempest-EPG-Generator.git\">"
-
-        # List the XML files found by the find command for debugging
-        echo "Listing all XML files found in _epg-end directory:"
-        find "$GITHUB_WORKSPACE/scripts/_epg-end/" -name '*.xml' -print
-        
-        # Concatenate XML files, ensuring they are added inside the <tv> element
-        for file in "$GITHUB_WORKSPACE/scripts/_epg-end/"*.xml; do
-          # Ensure the file exists before processing
-          if [ -f "$file" ]; then
-            echo "Processing file: $file"
-            # Append the channel XML content into the combined XML
-            content=$(cat "$file" | sed '1d;$d')  # Remove the opening <tv> and closing </tv> tags from individual files
-            combined_xml="$combined_xml\n$content"  # Add the content inside the <tv> root
-          else
-            echo "❌ ERROR: File not found: $file"
-            exit 1
-          fi
-        done
-        
-        # Close the <tv> root element
-        combined_xml="$combined_xml\n</tv>"
-
-        # Use xml-formatter to ensure the XML is formatted correctly
-        formatted_xml=$(echo "$combined_xml" | npx xml-formatter)
-        
-        # Output the formatted XML to the combined file
-        echo "$formatted_xml" > "$combined_file"
-        
-        echo "Combined and formatted XML files into: ${combined_file}"
 
     - name: Verify file exists
       run: |
@@ -130,7 +73,7 @@ jobs:
           git commit -m "Updated epg.xml [$(date)]" --allow-empty
           
           # Force push even if Git thinks there are no changes
-          git push --force origin main 
+          git push --force origin main
           
           echo "✅ Successfully pushed epg.xml to main!"
         else
@@ -141,34 +84,3 @@ jobs:
     - name: Print absolute path of the file
       run: realpath $GITHUB_WORKSPACE/scripts/www/epg.xml || echo "File not found"
 
-    - name: Add XML manipulation with Python (Optional Step)
-      run: |
-        echo "Running Python script to manipulate XML using xml.etree.ElementTree..."
-        
-        # Install Python and required dependencies
-        sudo apt-get install python3 python3-pip
-        pip install xml-formatter
-        
-        # Example of how to manipulate the XML using ElementTree
-        python3 -c |
-        "
-import xml.etree.ElementTree as ET
-
-# Load the generated XML file
-tree = ET.parse('$GITHUB_WORKSPACE/scripts/www/epg.xml')
-root = tree.getroot()
-
-# Example: Adding a new element to the root
-new_element = ET.SubElement(root, 'new-element')
-new_element.text = 'This is a new element'
-
-# Revision: Update existing 'new-element' if already present
-existing_element = root.find('new-element')
-if existing_element is not None:
-    existing_element.text = 'Updated value of new element'
-
-# Save the modified XML back to the file
-tree.write('$GITHUB_WORKSPACE/scripts/www/epg.xml', encoding='UTF-8', xml_declaration=True)
-
-print('XML manipulated and saved successfully.')
-"
