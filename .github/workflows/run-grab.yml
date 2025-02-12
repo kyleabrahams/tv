@@ -140,3 +140,29 @@ jobs:
 
     - name: Print absolute path of the file
       run: realpath $GITHUB_WORKSPACE/scripts/www/epg.xml || echo "File not found"
+
+    - name: Add XML manipulation with Python (Optional Step)
+      run: |
+        echo "Running Python script to manipulate XML using xml.etree.ElementTree..."
+        
+        # Install Python and required dependencies
+        sudo apt-get install python3 python3-pip
+        pip install xml-formatter
+        
+        # Example of how to manipulate the XML using ElementTree
+        python3 -c "
+import xml.etree.ElementTree as ET
+
+# Load the generated XML file
+tree = ET.parse('$GITHUB_WORKSPACE/scripts/www/epg.xml')
+root = tree.getroot()
+
+# Example: Adding a new element to the root
+new_element = ET.SubElement(root, 'new-element')
+new_element.text = 'This is a new element'
+
+# Save the modified XML back to the file
+tree.write('$GITHUB_WORKSPACE/scripts/www/epg.xml', encoding='UTF-8', xml_declaration=True)
+
+print('XML manipulated and saved successfully.')
+"
