@@ -34,7 +34,17 @@ jobs:
 
       - name: List Files After EPG Script
         run: |
-          echo "Listing files in _epg-end directory:"
+          echo "Listing files in _epg-end directory before script run:"
+          ls -la scripts/_epg-end/
+
+          # Delete old EPG files
+          echo "Deleting old EPG files..."
+          find scripts/_epg-end/ -name 'dummy--epg---*.xml' -exec rm -f {} \;
+
+          # Now create the new file
+          python3 scripts/dummy_epg.py
+
+          echo "Listing files in _epg-end directory after script run:"
           ls -la scripts/_epg-end/
 
           echo "Searching for new EPG file..."
@@ -53,4 +63,4 @@ jobs:
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
-          fi  # This line closes the if block correctly
+          fi
