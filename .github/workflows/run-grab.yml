@@ -30,7 +30,12 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        echo "Installing dependencies..."
+        if ! npm install; then
+          echo "❌ ERROR: Failed to install dependencies!"
+          exit 1
+        fi
 
     - name: Remove existing epg.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
@@ -40,7 +45,10 @@ jobs:
         output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        if ! npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}; then
+          echo "❌ ERROR: Grab command failed!"
+          exit 1
+        fi
         echo "Grab command finished."
 
     - name: Combine XML files into epg.xml (with correct structure)
@@ -49,7 +57,7 @@ jobs:
 
         # Install xml-formatter to properly format XML
         npm install xml-formatter
-        
+
         # Set the output file path
         combined_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         
