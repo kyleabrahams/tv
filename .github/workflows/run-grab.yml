@@ -70,13 +70,20 @@ jobs:
 
         # List the XML files found by the find command for debugging
         echo "Listing all XML files found in _epg-end directory:"
-        find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -print
+        find "$GITHUB_WORKSPACE/scripts/_epg-end/" -name '*.xml' -print
         
         # Concatenate XML files, ensuring they are added inside the <tv> element
-        for file in $GITHUB_WORKSPACE/scripts/_epg-end/*.xml; do
-          # Append the channel XML content into the combined XML
-          content=$(cat $file | sed '1d;$d')  # Remove the opening <tv> and closing </tv> tags from individual files
-          combined_xml="$combined_xml\n$content"  # Add the content inside the <tv> root
+        for file in "$GITHUB_WORKSPACE/scripts/_epg-end/"*.xml; do
+          # Ensure the file exists before processing
+          if [ -f "$file" ]; then
+            echo "Processing file: $file"
+            # Append the channel XML content into the combined XML
+            content=$(cat "$file" | sed '1d;$d')  # Remove the opening <tv> and closing </tv> tags from individual files
+            combined_xml="$combined_xml\n$content"  # Add the content inside the <tv> root
+          else
+            echo "❌ ERROR: File not found: $file"
+            exit 1
+          fi
         done
         
         # Close the <tv> root element
@@ -86,7 +93,7 @@ jobs:
         formatted_xml=$(echo "$combined_xml" | npx xml-formatter)
         
         # Output the formatted XML to the combined file
-        echo "$formatted_xml" > $combined_file
+        echo "$formatted_xml" > "$combined_file"
         
         echo "Combined and formatted XML files into: ${combined_file}"
 
