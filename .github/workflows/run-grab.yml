@@ -43,9 +43,12 @@ jobs:
         npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
         echo "Grab command finished."
 
-    - name: Combine XML files into epg.xml
+    - name: Combine XML files into epg.xml (with formatting)
       run: |
         echo "Combining XML files in the _epg-end directory into one..."
+        
+        # Install xml-formatter to properly format XML
+        npm install xml-formatter
         
         # Set the output file path
         combined_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
@@ -57,10 +60,21 @@ jobs:
         echo "Listing all XML files found in _epg-end directory:"
         find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -print
         
-        # Combine all XML files in _epg-end directory into one
-        find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -exec cat {} + > $combined_file
+        # Combine all XML files in _epg-end directory into one with formatting
+        combined_xml=""
+        for file in $GITHUB_WORKSPACE/scripts/_epg-end/*.xml; do
+          # Concatenate XML files properly
+          content=$(cat $file)
+          combined_xml="$combined_xml$content"
+        done
         
-        echo "Combined XML files into: ${combined_file}"
+        # Use xml-formatter to ensure the XML is formatted correctly
+        formatted_xml=$(echo "$combined_xml" | npx xml-formatter)
+        
+        # Output the formatted XML to the combined file
+        echo "$formatted_xml" > $combined_file
+        
+        echo "Combined and formatted XML files into: ${combined_file}"
 
     - name: Verify file exists
       run: |
