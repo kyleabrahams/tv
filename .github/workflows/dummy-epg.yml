@@ -45,9 +45,9 @@ jobs:
       - name: Check if New EPG File Exists
         run: |
           echo "Checking if new EPG file exists..."
-          NEW_FILE=$(ls scripts/_epg-end/ | grep 'dummy--epg---.*\.xml')
+          NEW_FILE=$(ls scripts/_epg-end/ | grep 'dummy--epg---.*\.xml' || echo "No matching file")
           echo "Found file: $NEW_FILE"  # Debugging line to print found file name
-          if [ -n "$NEW_FILE" ]; then
+          if [ "$NEW_FILE" != "No matching file" ]; then
             echo "✅ New EPG file exists: $NEW_FILE"
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
