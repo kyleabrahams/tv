@@ -25,7 +25,12 @@ jobs:
         run: pip install pytz
 
       - name: Run EPG Script
-        run: python3 scripts/dummy_epg.py  # Ensure this matches the script's actual location
+        run: python3 scripts/dummy_epg.py
+
+      - name: List Files After EPG Script
+        run: |
+          echo "Listing files in _epg-end directory after script run:"
+          ls -la scripts/_epg-end/
 
       - name: List Directory Contents
         run: |
