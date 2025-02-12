@@ -25,10 +25,10 @@ jobs:
         run: pip install pytz
 
       - name: Run EPG Script
-        run: python3 dummy_epg.py
+        run: python3 scripts/dummy_epg.py  # Updated path to match your repo structure
 
       - name: Upload Generated EPG File
         uses: actions/upload-artifact@v4
         with:
           name: epg-xml
-          path: _epg-end/dummy--epg---*.xml
+          path: scripts/www/dummy-epg-*.xml  # Adjusted to match your repository file location
