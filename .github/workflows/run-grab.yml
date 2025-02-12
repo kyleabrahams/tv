@@ -150,7 +150,8 @@ jobs:
         pip install xml-formatter
         
         # Example of how to manipulate the XML using ElementTree
-        python3 -c "
+        python3 -c |
+        "
 import xml.etree.ElementTree as ET
 
 # Load the generated XML file
