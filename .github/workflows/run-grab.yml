@@ -130,7 +130,7 @@ jobs:
           git commit -m "Updated epg.xml [$(date)]" --allow-empty
           
           # Force push even if Git thinks there are no changes
-          git push --force origin main
+          git push --force origin main 
           
           echo "✅ Successfully pushed epg.xml to main!"
         else
