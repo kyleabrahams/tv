@@ -27,14 +27,14 @@ jobs:
       - name: Run EPG Script
         run: python3 scripts/dummy_epg.py
 
+      - name: List Files Before EPG Script
+        run: |
+          echo "Listing files in _epg-end directory before script run:"
+          ls -la scripts/_epg-end/
+
       - name: List Files After EPG Script
         run: |
           echo "Listing files in _epg-end directory after script run:"
-          ls -la scripts/_epg-end/
-
-      - name: List Directory Contents
-        run: |
-          echo "Listing files in _epg-end directory:"
           ls -la scripts/_epg-end/
 
       - name: Delete Old EPG File
