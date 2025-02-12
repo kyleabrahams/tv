@@ -1,6 +1,11 @@
 name: Run Grab Command
 
 on:
+  push:
+    branches:
+      - main  # This will trigger on push to the main branch
+      
+on:
   schedule:
     - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
@@ -10,7 +15,7 @@ concurrency:
   cancel-in-progress: true  # If another instance is running, cancel it
 
 jobs:
-  combine_epg:
+  run_grab:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,7 +25,18 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Ensures a full repo history for pushing
 
-    - name: Combine XML Files
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Remove existing epg.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
+
+    - name: Combine XML files into epg.xml
       run: |
         echo "Combining XML files in the _epg-end directory into one..."
         
@@ -35,10 +51,18 @@ jobs:
         
         echo "Combined XML files into: ${combined_file}"
 
-    - name: Verify combined file exists
+    - name: Run grab command
+      run: |
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
+        echo "Running grab command..."
+        echo "Output file: ${output_file}"
+        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
+        echo "Grab command finished."
+
+    - name: Verify file exists
       run: |
         if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
-          echo "✅ Combined EPG file created successfully!"
+          echo "✅ EPG file created successfully!"
         else
           echo "❌ ERROR: EPG file was not generated!"
           exit 1
