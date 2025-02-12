@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true  # If another instance is running, cancel it
 
 jobs:
-  run_grab:
+  combine_epg:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,29 +20,25 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Ensures a full repo history for pushing
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Remove existing epg.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
-
-    - name: Run grab command
+    - name: Combine XML Files
       run: |
-        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
-        echo "Running grab command..."
-        echo "Output file: ${output_file}"
-        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-custom-start.xml --output=${output_file}
-        echo "Grab command finished."
+        echo "Combining XML files in the _epg-end directory into one..."
+        
+        # Set the output file path
+        combined_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
+        
+        # Ensure the output directory exists
+        mkdir -p $GITHUB_WORKSPACE/scripts/www/
 
-    - name: Verify file exists
+        # Combine all XML files in _epg-end directory into one
+        find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -exec cat {} + > $combined_file
+        
+        echo "Combined XML files into: ${combined_file}"
+
+    - name: Verify combined file exists
       run: |
         if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
-          echo "✅ EPG file created successfully!"
+          echo "✅ Combined EPG file created successfully!"
         else
           echo "❌ ERROR: EPG file was not generated!"
           exit 1
