@@ -27,8 +27,24 @@ jobs:
       - name: Run EPG Script
         run: python3 scripts/dummy_epg.py  # Ensure this matches the script's actual location
 
-      - name: Upload Generated EPG File
-        uses: actions/upload-artifact@v4
-        with:
-          name: epg-xml
-          path: scripts/_epg-end/dummy--epg---$(date '+%Y-%m-%d-%I-%M-%S-%p').xml  # Date format
+      - name: Delete Old EPG File
+        run: |
+          echo "Deleting old EPG file..."
+          rm -f scripts/_epg-end/dummy--epg---*.xml  # Deletes any previous EPG file
+
+      - name: Commit and Push New EPG File
+        run: |
+          echo "Checking if new EPG file exists..."
+          NEW_FILE=$(ls scripts/_epg-end/ | grep 'dummy--epg---.*\.xml')
+          if [ -n "$NEW_FILE" ]; then
+            echo "✅ New EPG file exists: $NEW_FILE"
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add scripts/_epg-end/$NEW_FILE
+            git commit -m "Updated EPG file: $NEW_FILE"
+            git push origin main
+            echo "✅ Successfully pushed the new EPG file!"
+          else
+            echo "❌ ERROR: New EPG file not found!"
+            exit 1
+          fi
