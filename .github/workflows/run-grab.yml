@@ -161,6 +161,11 @@ root = tree.getroot()
 new_element = ET.SubElement(root, 'new-element')
 new_element.text = 'This is a new element'
 
+# Revision: Update existing 'new-element' if already present
+existing_element = root.find('new-element')
+if existing_element is not None:
+    existing_element.text = 'Updated value of new element'
+
 # Save the modified XML back to the file
 tree.write('$GITHUB_WORKSPACE/scripts/www/epg.xml', encoding='UTF-8', xml_declaration=True)
 
