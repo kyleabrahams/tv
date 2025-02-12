@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main  # This will trigger on push to the main branch
-      
-on:
+
   schedule:
     - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
