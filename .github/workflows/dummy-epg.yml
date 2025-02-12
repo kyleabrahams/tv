@@ -53,3 +53,4 @@ jobs:
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
+          fi  # This line closes the if block correctly
