@@ -43,10 +43,10 @@ jobs:
         npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
         echo "Grab command finished."
 
-    - name: Combine XML files into epg.xml (with formatting)
+    - name: Combine XML files into epg.xml (with correct structure)
       run: |
         echo "Combining XML files in the _epg-end directory into one..."
-        
+
         # Install xml-formatter to properly format XML
         npm install xml-formatter
         
@@ -56,18 +56,24 @@ jobs:
         # Ensure the output directory exists
         mkdir -p $GITHUB_WORKSPACE/scripts/www/
 
+        # Initialize the combined XML with the opening <tv> tag and XML declaration
+        combined_xml='<?xml version="1.0" encoding="UTF-8" ?>'
+        combined_xml="$combined_xml\n<tv generator-info-name=\"Original XML Generated with Tempest EPG Generator (made by Kvanc) - Processed by BEVY Visual Processor v0.9\" generator-info-url=\"https://github.com/K-vanc/Tempest-EPG-Generator.git\">"
+
         # List the XML files found by the find command for debugging
         echo "Listing all XML files found in _epg-end directory:"
         find $GITHUB_WORKSPACE/scripts/_epg-end/ -name '*.xml' -print
         
-        # Combine all XML files in _epg-end directory into one with formatting
-        combined_xml=""
+        # Concatenate XML files, ensuring they are added inside the <tv> element
         for file in $GITHUB_WORKSPACE/scripts/_epg-end/*.xml; do
-          # Concatenate XML files properly
-          content=$(cat $file)
-          combined_xml="$combined_xml$content"
+          # Append the channel XML content into the combined XML
+          content=$(cat $file | sed '1d;$d')  # Remove the opening <tv> and closing </tv> tags from individual files
+          combined_xml="$combined_xml\n$content"  # Add the content inside the <tv> root
         done
         
+        # Close the <tv> root element
+        combined_xml="$combined_xml\n</tv>"
+
         # Use xml-formatter to ensure the XML is formatted correctly
         formatted_xml=$(echo "$combined_xml" | npx xml-formatter)
         
