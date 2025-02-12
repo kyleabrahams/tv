@@ -45,7 +45,8 @@ jobs:
           echo "Removing old EPG files from Git repository..."
           OLD_FILES=$(git ls-files scripts/_epg-end/dummy--epg---*.xml)
           if [ -n "$OLD_FILES" ]; then
-              git rm -f $OLD_FILES
+              # Remove the old EPG files safely (handle spaces and special characters)
+              echo "$OLD_FILES" | xargs -I {} git rm -f "{}"
               echo "✅ Old EPG files removed: $OLD_FILES"
           else
               echo "❌ No old EPG files found to remove."
