@@ -34,7 +34,8 @@ jobs:
           git ls-files scripts/_epg-end/
 
       - name: Run EPG Script
-        run: python3 scripts/dummy_epg.py
+        run: |
+          python3 scripts/dummy_epg.py
 
       - name: List Files After EPG Script
         run: |
@@ -74,3 +75,4 @@ jobs:
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
+          fi  # Close the if block here
