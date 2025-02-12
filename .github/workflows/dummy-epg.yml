@@ -37,9 +37,9 @@ jobs:
           echo "Listing files in _epg-end directory before script run:"
           ls -la scripts/_epg-end/
 
-          # Delete old EPG files
-          echo "Deleting old EPG files..."
-          find scripts/_epg-end/ -name 'dummy--epg---*.xml' -exec rm -f {} \;
+          # Delete old EPG files from the repository
+          echo "Removing old EPG files from Git repository..."
+          git rm -f scripts/_epg-end/dummy--epg---*.xml
 
           # Now create the new file
           python3 scripts/dummy_epg.py
