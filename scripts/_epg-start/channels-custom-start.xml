@@ -541,9 +541,9 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicEast.us" site_id="national-geographic-us-hd--eastern/4436">National Geographic US HD - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="NationalGeographicEast.us" site_id="49438">National Geographic East</channel> -->
   <!-- <channel site="flixed.io" lang="en" xmltv_id="NationalGeographicEast.us" site_id="24959">National Geographic USA</channel> -->
-  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild/7537">National Geographic Wild</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild-hd/9579">National Geographic Wild HD</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="56425">National Geographic Wild East</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild/7537">National Geographic Wild</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild-hd/9579">National Geographic Wild HD</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="56425">National Geographic Wild East</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NewsNationEast.us" site_id="newsnation-eastern-feed/65">NewsNation - Eastern Feed</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NewsNationEast.us" site_id="91096">NewsNation East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NickJrEast.us" site_id="nick-jr-east/1969">Nick Jr. - East</channel> -->
@@ -727,7 +727,7 @@
   <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="">Sky Cinema Greats</channel> -->
   <channel site="tvprofil.com" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="gb/tvschedule#sky-cinema-greats">Sky Cinema Greats</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="">Sky Cinema Hits</channel>
-  
+
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaPremiere.uk" site_id="1320/sky-cinema-premiere">Sky Cinema Premiere</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSciFiHorror.uk" site_id="1329/sky-cinema-sci-fihorror">Sky Cinema Sci-fi/Horror</channel>
   <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSelect.uk" site_id="">Sky Cinema Select</channel> -->

@@ -1,9 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69034030/hln-hdtv">HLN HDTV</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022592/ctv-two-ottawachro">CTV Two Ottawa/CHRO</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69022486/ctv-two-londoncfpl">CTV Two London/CFPL</channel>
-  <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69041450/ctv-two-londoncfpl-hdtv">CTV Two London/CFPL HDTV</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild/7537">National Geographic Wild</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="NationalGeographicWildEast.us" site_id="national-geographic-wild-hd/9579">National Geographic Wild HD</channel>
+
+  <channel site="ontvtonight.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="ca#69046009/natgeo-wild-canada-hdtv">NatGeo WILD Canada HDTV</channel>
+  <channel site="tvinsider.com" lang="en" xmltv_id="NatGeoWild.ca" site_id="nat-geo-wild">Nat Geo Wild</channel>
+
+  <channel site="ontvtonight.com" lang="en" xmltv_id="AdultSwim.ca" site_id="ca#69021277/adult-swim">Adult Swim</channel>
+  
+
 
   <!-- <channel site="nzxmltv.com" lang="en" xmltv_id="" site_id="iptv/plutotv#310">Festive Fireplace</channel>
   <channel site="nzxmltv.com" lang="en" xmltv_id="" site_id="iptv/plutotv#320">Crackling Fireplace</channel> -->
