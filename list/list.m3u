@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 12 811p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 12 919p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -634,9 +634,9 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709000
 # #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="",Family new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/3040
 
-#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
+#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
 http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
-# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/3zKXMxQ/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
+# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709001
 
 #EXTINF:-1 tvg-id="Nickelodeon.ca" tvg-name="Nickelodeon" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/nickelodeon-ca.png?raw=true" group-title="Kids",Nickelodeon 
@@ -650,14 +650,15 @@ http://fl2.moveonjoy.com/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Treehouse.ca" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse toh.
 http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709007
 
-# #EXTINF:-1 tvg-id="Disney.Junior.Canada.ca" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 
-# http://fortv.cc:8080/WjtGD2/235867/57349
+#EXTINF:-1 tvg-id="Disney.Junior.Canada.ca" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior for.
+http://fortv.cc:8080/WjtGD2/235867/57349
+# #EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",US Disney Junior fl5. 
+# http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
 
-#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",US Disney Junior 
-http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
-
-#EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel
-http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
+# #EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel
+# http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel 23.
+# http://fl2.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 
 # #EXTINF:-1 tvg-id="HBO1.ca" tvg-name="HBO" tvg-logo="https://i.postimg.cc/kMSsWxVn/HBO-red.png" group-title="",HBO 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418479
@@ -889,9 +890,9 @@ http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508121
 #EXTINF:-1 group-title="" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Cinema Premier xip.
 http://xxip25.top:8080/04760056/79599130/35256
 
-# #EXTINF:-1 group-title="" tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror",Sky Cinema Sci-Fi Horror xy.
+EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Cinema Sci-Fi Horror xy.
 # https://xyzdddd.mizhls.ru/lb/premium681/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="" tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror",Sky Cinema Sci-Fi Horror xy.
+#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Cinema Sci-Fi Horror xip.
 http://xxip25.top:8080/04760056/79599130/35248
 
 # #EXTINF:-1 group-title="" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",Sky Cinema Select xy.
@@ -956,8 +957,8 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6
 https://jmp2.uk/sam-USBC4400016CL.m3u8
 #EXTINF:-1 tvg-id="PlexPropertyBrothersChannel.us" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home & Food",Property Brothers Channel
 https://jmp2.uk/sam-CA1400017PU.m3u8
-#EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen
-https://jmp2.uk/sam-USBB2900002Z7.m3u8
+# #EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen
+# https://jmp2.uk/sam-USBB2900002Z7.m3u8
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="US Real America's Voice (STV)" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900002KF_20240520T222747SQUARE.png" group-title="News",US Real America's Voice
 https://jmp2.uk/sam-USBB1900002KF.m3u8
 #EXTINF:-1 tvg-id="PlutoMillionDollarListingVault.us" tvg-name="" tvg-logo="https://i.ibb.co/vjryWPr/million-dollar-listing-vault-2.png" group-title="Home & Food",Million Dollar Listing
@@ -1036,8 +1037,8 @@ https://jmp2.uk/sam-USAJ3504714A.m3u8
 https://jmp2.uk/sam-CAAJ2700011IF.m3u8
 #EXTINF:-1 tvg-id="XumoLOLNetwork.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300009VM_20240716T002650SQUARE.png" group-title="Comedy",Lol! Network
 https://jmp2.uk/sam-USBC1300009VM.m3u8
-#EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog
-https://jmp2.uk/sam-USBA3000044BJ.m3u8
+# #EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog
+# https://jmp2.uk/sam-USBA3000044BJ.m3u8
 #EXTINF:-1 tvg-id="ElectricNow.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000225M_20240520T222632SQUARE.png" group-title="",Electric Now
 https://jmp2.uk/sam-USBC6000225M.m3u8
 #EXTINF:-1 tvg-id="XumoTheAsylum.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ17000014C_20240520T214701SQUARE.png" group-title="",The Asylum
@@ -1086,12 +1087,12 @@ https://d3is52sgpnlx4c.cloudfront.net/10901/88885508/hls/master.m3u8?withResolut
 https://d3is52sgpnlx4c.cloudfront.net/10901/88885512/hls/master.m3u8?withResolution=true&ads.xumo_channelId=88885512
 #EXTINF:-1 tvg-id="PlexFilmRiseWestern.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20240520T222645SQUARE.png" group-title="Classics",FilmRise Western
 https://jmp2.uk/sam-USBB32000196O.m3u8
-#EXTINF:-1 tvg-id="XumoHomeful.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful
-https://jmp2.uk/sam-USBD700022M5.m3u8
+# #EXTINF:-1 tvg-id="XumoHomeful.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful
+# https://jmp2.uk/sam-USBD700022M5.m3u8
 #EXTINF:-1 tvg-id="PlexGreatBritishMenu.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900014LW_20230712T021153SQUARE.png_20230712021154.png" group-title="Home & Food",Great British Menu
 https://jmp2.uk/sam-GBBC900014LW.m3u8
-#EXTINF:-1 tvg-id="XumoMovieSpherebyLionsgate.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere
-https://jmp2.uk/sam-USBD17000117B.m3u8
+# #EXTINF:-1 tvg-id="XumoMovieSpherebyLionsgate.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere
+# https://jmp2.uk/sam-USBD17000117B.m3u8
 #EXTINF:-1 tvg-id="XumoPursuitUp.us" tvg-name="US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="",Pursuit UP
 https://jmp2.uk/sam-USBD17000025J.m3u8
 #EXTINF:-1 tvg-id="PlexMilitaryHeroes.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000204J_20240520T214814SQUARE.png" group-title="",Military Heroes
@@ -1120,8 +1121,10 @@ http://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8
 
 # #EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One xy.
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One xip.
-http://xxip25.top:8080/04760056/79599130/53649
+# #EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One xip.
+# http://xxip25.top:8080/04760056/79599130/53649
+#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One 23.
+http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/592568
 
 # #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="" ,BBC Two wor.
 # http://world-service.us:8080/ivan-kabel/ldkSclkd25/65358
@@ -1251,8 +1254,12 @@ https://18f2fbf906cb473e8adbe37026e7e27f.mediatailor.us-east-1.amazonaws.com/v1/
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_channelId=99991622
 #EXTINF:-1 tvg-id="AmericanHeroesChannel.us" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel 
 http://fl3.moveonjoy.com/American_Heroes_Channel/index.m3u8
-#EXTINF:-1 tvg-id="BBCAmericaEast.us" tvg-name="US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="USA",BBC America
-http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
+
+# #EXTINF:-1 tvg-id="BBCAmericaEast.us" tvg-name="US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="USA",BBC America
+# http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
+#EXTINF:-1 tvg-id="BBCAmericaEast.us" tvg-name="US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="USA",BBC America for.
+http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/20194
+
 #EXTINF:-1 tvg-id="CLEO.TV.us" tvg-name="Cleo TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cleo-tv-us.png?raw=true" group-title="USA",Cleo TV
 http://fl3.moveonjoy.com/Cleo_TV/index.m3u8
 #EXTINF:-1 tvg-id="BETEast.us" tvg-name="US BET (East)" tvg-logo="https://i.ibb.co/vPWCfbm/BET-2021-Logo-1.png" group-title="USA",US BET   
@@ -1305,8 +1312,12 @@ https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/cnn
 http://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralEast.us" tvg-name="US Comedy Central (East) USATV" tvg-logo="https://i.ibb.co/YWW0MDd/Comedy-Central-2018-1.png" group-title="Comedy",Comedy Central East   
 http://fl3.moveonjoy.com/Comedy_Central/index.m3u8
-#EXTINF:-1 tvg-id="Comet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/1200px-Comet_logo.svg.png" group-title="USA",Comet East
-https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+
+# #EXTINF:-1 tvg-id="Comet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/1200px-Comet_logo.svg.png" group-title="USA",Comet East con.
+# https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
+#EXTINF:-1 tvg-id="Comet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/1200px-Comet_logo.svg.png" group-title="USA",Comet East for.
+http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/125831
+
 # #EXTINF:-1 tvg-id="403715" tvg-name="US DIY Network" tvg-logo="https://i.ibb.co/rxVmnZy/DIY-Network-logo-1.png" group-title="USA",DIY Network 
 # http://fl2.moveonjoy.com/DIY/index.m3u8
 #EXTINF:-1 tvg-id="FoxBusinessNetwork.us" tvg-name="US Fox Business Network USATV" tvg-logo="https://i.ibb.co/LC3XY5P/Fox-Business-Prime-1-1.png" group-title="USA",Fox Business 
@@ -1429,11 +1440,16 @@ http://fl2.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8
 http://fl2.moveonjoy.com/C-SPAN/index.m3u8
 #EXTINF:-1 tvg-id="NewsNationEast.us" tvg-name="US NewsNation USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/news-nation-us.png?raw=true" group-title="News",NewsNation 
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
-#EXTINF:-1 tvg-id="TBD.StLouis.us" tvg-name="tBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD. East
-https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
-#EXTINF:-1 tvg-id="Charge.us" tvg-name="CBS.(WCWN-DT3).Albany,.NY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="USA",Charge East
-https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
 
+# #EXTINF:-1 tvg-id="TBD.StLouis.us" tvg-name="tBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD. East
+# https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+# #EXTINF:-1 tvg-id="TBD.StLouis.us" tvg-name="tBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD. East
+# https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+
+# #EXTINF:-1 tvg-id="Charge.us" tvg-name="CBS.(WCWN-DT3).Albany.NY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="USA",Charge East con.
+# https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
+#EXTINF:-1 tvg-id="Charge.us" tvg-name="CBS.(WCWN-DT3).Albany.NY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="USA",Charge East for.
+http://fortv.cc:8080/9174062622/blessed91799@yahoo.com/79594
 
 #EXTINF:-1 tvg-id="CA7000015K" tvg-name="------|Pluto Xumo|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",---|Pluto,Xumo|---
 https://jmp2.uk/sam-CA7000015K.m3u8
@@ -1581,8 +1597,10 @@ http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 
 # #EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone xy. 
 # https://xyzdddd.mizhls.ru/lb/premium667/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone xip. 
-http://xxip25.top:8080/04760056/79599130/159120
+# #EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone xip. 
+# http://xxip25.top:8080/04760056/79599130/159120
+#EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone pro. 
+http://pro6666.com:8080/dr.davidhouri/598627/467642
 
 # #EXTINF:-1 tvg-id="SECNetwork.us" tvg-name="SEC Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sec-network-us.png?raw=true" group-title="Sports",SEC Network xy. 
 # https://xyzdddd.mizhls.ru/lb/premium385/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1659,8 +1677,10 @@ http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="MASN.us" tvg-name="Mid-Atlantic Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN xip.  
 http://xxip25.top:8080/04760056/79599130/65697
 
-#EXTINF:-1 tvg-id="Willow.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow  
-https://tx2.nexgen.bz:443/WILLOW/index.m3u8
+# #EXTINF:-1 tvg-id="Willow.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow  
+# https://tx2.nexgen.bz:443/WILLOW/index.m3u8
+#EXTINF:-1 tvg-id="Willow.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow 23. 
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418212
 
 # #EXTINF:-1 tvg-id="SpectrumSportsNet.us" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports xy.  
 # https://xyzdddd.mizhls.ru/lb/premium764/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1760,10 +1780,13 @@ http://tvmate.icu:8080/k4Svp2/645504/20943
 # http://fl1.moveonjoy.com/ESPN/index.m3u8
 # #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN rhs.
 # http://rhsbjv7k.tvclub.xyz/iptv/APM3584VN3P6W4/19156/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 127.
-http://127.0.0.1:11470/proxy/d=https%3A%2F%2Fxyzdddd.mizhls.ru&h=User-Agent%3AMozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+17_7+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F18.0+Mobile%2F15E148+Safari%2F604.1&h=Referer%3Ahttps%3A%2F%2Fcookiewebplay.xyz%2F&h=Origin%3Ahttps%3A%2F%2Fcookiewebplay.xyz&h=Keep-Alive%3Atrue/lb/premium44/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 41.
-http://41.205.93.154/ESPN/index.m3u8
+# #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 127.
+# http://127.0.0.1:11470/proxy/d=https%3A%2F%2Fxyzdddd.mizhls.ru&h=User-Agent%3AMozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+17_7+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F18.0+Mobile%2F15E148+Safari%2F604.1&h=Referer%3Ahttps%3A%2F%2Fcookiewebplay.xyz%2F&h=Origin%3Ahttps%3A%2F%2Fcookiewebplay.xyz&h=Keep-Alive%3Atrue/lb/premium44/index.m3u8
+# #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 41.
+# http://41.205.93.154/ESPN/index.m3u8
+#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509097
+
 # #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN Server 3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN Server 3
 # https://848b3516657c-usatv.baby-beamup.club/public/m3u/44.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 fl2.
@@ -1788,8 +1811,8 @@ http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509100
 # https://848b3516657c-usatv.baby-beamup.club/public/m3u/288.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U fl2.
 http://fl2.moveonjoy.com/ESPN_U/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U 848.
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/316.m3u8
+# #EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U 848.
+# https://848b3516657c-usatv.baby-beamup.club/public/m3u/316.m3u8
 #EXTINF:-1 tvg-id="BigTenNetwork.us" tvg-name="BIG Network Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/big-ten-network-us.png?raw=true" group-title="Sports",BIG Network fl3.
 http://fl3.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8
 
@@ -2038,8 +2061,8 @@ http://fortv.cc:8080/WjtGD2/235867/125638
 https://jmp2.uk/sam-CA4600001IG.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7 PAW PATROL" tvg-logo="https://assets.stickpng.com/images/59d62b903752880e93e16ebd.png" group-title="Series",Paw Patrol for.
 http://fortv.cc:8080/WjtGD2/235867/66311 
-#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway
-https://jmp2.uk/sam-USBB3500004RC.m3u8
+# #EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway
+# https://jmp2.uk/sam-USBB3500004RC.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7 RICK AND MORTY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/800px-Rick_and_Morty.svg.png" group-title="Series",Rick and Morty
 http://fortv.cc:8080/WjtGD2/235867/66302
 #EXTINF:-1 tvg-id="" tvg-name="24/7 RIDICULOUSNESS" tvg-logo="https://i.ibb.co/bgGDMvZN/ridiculousness.png" group-title="Series",Ridiculousness for.
@@ -2064,378 +2087,402 @@ http://fortv.cc:8080/WjtGD2/235867/125637
 https://jmp2.uk/sam-USBD1200004NS.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="Cinebox: ANIMATION" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Animation
+#EXTINF:-1 tvg-id="" tvg-name="Cinebox: ANIMATION" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Animation for.
 http://fortv.cc:8080/WjtGD2/235867/119420
-#EXTINF:-1 tvg-id="" tvg-name="BLOCKBUSTERS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Blockbuster
+#EXTINF:-1 tvg-id="" tvg-name="BLOCKBUSTERS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Blockbuster for.
 http://fortv.cc:8080/WjtGD2/235867/119421
-#EXTINF:-1 tvg-id="" tvg-name="CLASSIC" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Classic
+#EXTINF:-1 tvg-id="" tvg-name="CLASSIC" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Classic for.
 http://fortv.cc:8080/WjtGD2/235867/119422
-#EXTINF:-1 tvg-id="" tvg-name="COMEDY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Comedy 1
+#EXTINF:-1 tvg-id="" tvg-name="COMEDY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Comedy 1 for.
 http://fortv.cc:8080/WjtGD2/235867/119423
-#EXTINF:-1 tvg-id="" tvg-name="24/7 COMEDY MOVIES" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Comedy 2?
+#EXTINF:-1 tvg-id="" tvg-name="24/7 COMEDY MOVIES" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Comedy 2? for.
 http://fortv.cc:8080/WjtGD2/235867/121096
-#EXTINF:-1 tvg-id="" tvg-name="CULT" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Cult
+#EXTINF:-1 tvg-id="" tvg-name="CULT" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Cult for.
 http://fortv.cc:8080/WjtGD2/235867/119424
-#EXTINF:-1 tvg-id="" tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family
-http://fortv.cc:8080/WjtGD2/235867/119425
-#EXTINF:-1 tvg-id="" tvg-name="GREATS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats
+
+# #EXTINF:-1 tvg-id="" tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family for.
+# http://fortv.cc:8080/WjtGD2/235867/119425
+#EXTINF:-1 tvg-id="" tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family xip.
+http://xxip25.top:8080/04760056/79599130/215285
+
+#EXTINF:-1 tvg-id="" tvg-name="GREATS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats for.
 http://fortv.cc:8080/WjtGD2/235867/119426
-#EXTINF:-1 tvg-id="" tvg-name="GREATS TWO" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats Two
+#EXTINF:-1 tvg-id="" tvg-name="GREATS TWO" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats Two for.
 http://fortv.cc:8080/WjtGD2/235867/119427
-#EXTINF:-1 tvg-id="" tvg-name="HISTORICAL" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Historical
+#EXTINF:-1 tvg-id="" tvg-name="HISTORICAL" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Historical for.
 http://fortv.cc:8080/WjtGD2/235867/119428
-#EXTINF:-1 tvg-id="" tvg-name="MUSICAL" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Musical
+#EXTINF:-1 tvg-id="" tvg-name="MUSICAL" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Musical for.
 http://fortv.cc:8080/WjtGD2/235867/119430
-#EXTINF:-1 tvg-id="" tvg-name="MYSTERY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Mystery
+#EXTINF:-1 tvg-id="" tvg-name="MYSTERY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Mystery for.
 http://fortv.cc:8080/WjtGD2/235867/119431
-#EXTINF:-1 tvg-id="" tvg-name="PREMIERE" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Premiere
+#EXTINF:-1 tvg-id="" tvg-name="PREMIERE" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Premiere for.
 http://fortv.cc:8080/WjtGD2/235867/119432
-#EXTINF:-1 tvg-id="" tvg-name="ROMANCE" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Romance
+#EXTINF:-1 tvg-id="" tvg-name="ROMANCE" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Romance for.
 http://fortv.cc:8080/WjtGD2/235867/119433
-#EXTINF:-1 tvg-id="" tvg-name="SCI-FI" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",SCI-FI
+#EXTINF:-1 tvg-id="" tvg-name="SCI-FI" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",SCI-FI for.
 http://fortv.cc:8080/WjtGD2/235867/119434
-#EXTINF:-1 tvg-id="" tvg-name="WESTERN" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Western
+#EXTINF:-1 tvg-id="" tvg-name="WESTERN" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Western for.
 http://fortv.cc:8080/WjtGD2/235867/119435
-#EXTINF:-1 tvg-id="" tvg-name="HITS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Hits
+#EXTINF:-1 tvg-id="" tvg-name="HITS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Hits for.
 http://fortv.cc:8080/WjtGD2/235867/119436
-#EXTINF:-1 tvg-id="" tvg-name="THRILLER" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Thriller
+#EXTINF:-1 tvg-id="" tvg-name="THRILLER" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Thriller for.
 http://fortv.cc:8080/WjtGD2/235867/119437
 
 
-#EXTINF:-1 tvg-id="" tvg-name="M4: Action" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Action
+#EXTINF:-1 tvg-id="" tvg-name="M4: Action" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Action for.
 http://fortv.cc:8080/WjtGD2/235867/215269
-#EXTINF:-1 tvg-id="" tvg-name="M4: Adventure" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Adventure
+#EXTINF:-1 tvg-id="" tvg-name="M4: Adventure" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Adventure for.
 http://fortv.cc:8080/WjtGD2/235867/215270
-#EXTINF:-1 tvg-id="" tvg-name="M4: Animation" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Animation
+#EXTINF:-1 tvg-id="" tvg-name="M4: Animation" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Animation for.
 http://fortv.cc:8080/WjtGD2/235867/215272
-#EXTINF:-1 tvg-id="" tvg-name="M4: Biography" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Biography*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Biography" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Biography for.
 http://fortv.cc:8080/WjtGD2/235867/215275
-#EXTINF:-1 tvg-id="" tvg-name="M4: Comedy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Comedy
+#EXTINF:-1 tvg-id="" tvg-name="M4: Comedy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Comedy for.
 http://fortv.cc:8080/WjtGD2/235867/215278
-#EXTINF:-1 tvg-id="" tvg-name="M4: Creature" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Creature
+#EXTINF:-1 tvg-id="" tvg-name="M4: Creature" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Creature for.
 http://fortv.cc:8080/WjtGD2/235867/215279
-#EXTINF:-1 tvg-id="" tvg-name="M4: Crime" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Crime*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Crime" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Crime for.
 http://fortv.cc:8080/WjtGD2/235867/215280
-#EXTINF:-1 tvg-id="" tvg-name="M4: Drama" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Drama
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Drama" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Drama for.
 http://fortv.cc:8080/WjtGD2/235867/215283
-#EXTINF:-1 tvg-id="" tvg-name="M4: Epic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Epic
+#EXTINF:-1 tvg-id="" tvg-name="M4: Drama" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Drama for.
+http://fortv.cc:8080/WjtGD2/235867/215283
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Epic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Epic for.
 http://fortv.cc:8080/WjtGD2/235867/215284
-#EXTINF:-1 tvg-id="" tvg-name="M4: Family" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Family
+#EXTINF:-1 tvg-id="" tvg-name="M4: Family" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Family for.
 http://fortv.cc:8080/WjtGD2/235867/215285
-#EXTINF:-1 tvg-id="" tvg-name="M4: Fantasy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Fantasy
+#EXTINF:-1 tvg-id="" tvg-name="M4: Fantasy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Fantasy for.
 http://fortv.cc:8080/WjtGD2/235867/215286
-#EXTINF:-1 tvg-id="" tvg-name="M4: History" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",History
+#EXTINF:-1 tvg-id="" tvg-name="M4: History" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",History for.
 http://fortv.cc:8080/WjtGD2/235867/215292
-#EXTINF:-1 tvg-id="" tvg-name="M4: Horror" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Horror 1
+#EXTINF:-1 tvg-id="" tvg-name="M4: Horror" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Horror 1 for.
 http://fortv.cc:8080/WjtGD2/235867/215293
-#EXTINF:-1 tvg-id="" tvg-name="24/7 Horror Movies" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Horror 2?
+#EXTINF:-1 tvg-id="" tvg-name="24/7 Horror Movies" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Horror 2? for.
 http://fortv.cc:8080/WjtGD2/235867/119429
-#EXTINF:-1 tvg-id="" tvg-name="M4: Legendary" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Legendary
+#EXTINF:-1 tvg-id="" tvg-name="M4: Legendary" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Legendary for.
 http://fortv.cc:8080/WjtGD2/235867/215300
-#EXTINF:-1 tvg-id="" tvg-name="M4: Musical" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Musical
+#EXTINF:-1 tvg-id="" tvg-name="M4: Musical" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Musical for.
 http://fortv.cc:8080/WjtGD2/235867/215305
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mystery" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mystery*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mystery" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mystery* for.
 http://fortv.cc:8080/WjtGD2/235867/215306
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mythological" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mythological*
-http://fortv.cc:8080/WjtGD2/235867/215307
-#EXTINF:-1 tvg-id="" tvg-name="M4: Post-Apocalyptic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Post-Apocalyptic
+
+# #EXTINF:-1 tvg-id="" tvg-name="M4: Mythological" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mythological for.
+# http://fortv.cc:8080/WjtGD2/235867/215307
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mythological" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mythological xip.
+http://xxip25.top:8080/04760056/79599130/215307
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Post-Apocalyptic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Post-Apocalyptic for.
 http://fortv.cc:8080/WjtGD2/235867/215311
-#EXTINF:-1 tvg-id="" tvg-name="M4: Robot" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Robot
+#EXTINF:-1 tvg-id="" tvg-name="M4: Robot" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Robot for.
 http://fortv.cc:8080/WjtGD2/235867/215313
-#EXTINF:-1 tvg-id="" tvg-name="M4: Romantic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Romantic*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Romantic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Romantic* for.
 http://fortv.cc:8080/WjtGD2/235867/215315
-#EXTINF:-1 tvg-id="" tvg-name="M4: Science Fiction" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Science Fiction
+#EXTINF:-1 tvg-id="" tvg-name="M4: Science Fiction" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Science Fiction for.
 http://fortv.cc:8080/WjtGD2/235867/215317
-#EXTINF:-1 tvg-id="" tvg-name="M4: Space" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Space
+#EXTINF:-1 tvg-id="" tvg-name="M4: Space" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Space for.
 http://fortv.cc:8080/WjtGD2/235867/215320
-#EXTINF:-1 tvg-id="" tvg-name="M4: Sports" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Sports
+#EXTINF:-1 tvg-id="" tvg-name="M4: Sports" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Sports for.
 http://fortv.cc:8080/WjtGD2/235867/215322
-#EXTINF:-1 tvg-id="" tvg-name="M4: Spy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Spy*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Spy" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Spy* for.
 http://fortv.cc:8080/WjtGD2/235867/215323
-#EXTINF:-1 tvg-id="" tvg-name="M4: Superhero" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Superhero
+#EXTINF:-1 tvg-id="" tvg-name="M4: Superhero" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Superhero for.
 http://fortv.cc:8080/WjtGD2/235867/215325
-#EXTINF:-1 tvg-id="" tvg-name="M4: Survival" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Survival
+#EXTINF:-1 tvg-id="" tvg-name="M4: Survival" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Survival for.
 http://fortv.cc:8080/WjtGD2/235867/215326
-#EXTINF:-1 tvg-id="" tvg-name="M4: Three Flavours Cornetto" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Three Flavours Cornetto
+#EXTINF:-1 tvg-id="" tvg-name="M4: Three Flavours Cornetto" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Three Flavours Cornetto for.
 http://fortv.cc:8080/WjtGD2/235867/215339
-#EXTINF:-1 tvg-id="" tvg-name="M4: Thriller" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Thriller
+#EXTINF:-1 tvg-id="" tvg-name="M4: Thriller" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Thriller for.
 http://fortv.cc:8080/WjtGD2/235867/215340
-#EXTINF:-1 tvg-id="" tvg-name="M4: War" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",War*
+#EXTINF:-1 tvg-id="" tvg-name="M4: War" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",War* for.
 http://fortv.cc:8080/WjtGD2/235867/215345
-#EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Western
-http://fortv.cc:8080/WjtGD2/235867/215346
-#EXTINF:-1 tvg-id="" tvg-name="M4: Zombie" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Zombie
+
+# #EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Western for.
+# http://fortv.cc:8080/WjtGD2/235867/215346
+#EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Western xip.
+http://xxip25.top:8080/04760056/79599130/215346
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Zombie" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Zombie for.
 http://fortv.cc:8080/WjtGD2/235867/215348
 
-#EXTINF:-1 tvg-id="" tvg-name="M4: Alien" tvg-logo="https://image.tmdb.org/t/p/original/8VjEUUn7MS61ZzeeQTuo0otOCWC.png" group-title="Movies",Aliens
+#EXTINF:-1 tvg-id="" tvg-name="M4: Alien" tvg-logo="https://image.tmdb.org/t/p/original/8VjEUUn7MS61ZzeeQTuo0otOCWC.png" group-title="Movies",Aliens for.
 http://fortv.cc:8080/WjtGD2/235867/215271
-#EXTINF:-1 tvg-id="" tvg-name="M4: Avengers" tvg-logo="https://i.ibb.co/WWbLJt7y/Avengers-logo.png" group-title="Movies",Avengers
+#EXTINF:-1 tvg-id="" tvg-name="M4: Avengers" tvg-logo="https://i.ibb.co/WWbLJt7y/Avengers-logo.png" group-title="Movies",Avengers for.
 http://fortv.cc:8080/WjtGD2/235867/215273
-#EXTINF:-1 tvg-id="" tvg-name="M4: Batman" tvg-logo="https://i.ibb.co/b5B6x4DV/The-Batman-2022.png" group-title="Movies",Batman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Batman" tvg-logo="https://i.ibb.co/b5B6x4DV/The-Batman-2022.png" group-title="Movies",Batman for.
 http://fortv.cc:8080/WjtGD2/235867/215274
-#EXTINF:-1 tvg-id="" tvg-name="M4: Blade" tvg-logo="https://i.ibb.co/0pJ99VSg/Blade2-logo-1.png" group-title="Movies",Blade
+#EXTINF:-1 tvg-id="" tvg-name="M4: Blade" tvg-logo="https://i.ibb.co/0pJ99VSg/Blade2-logo-1.png" group-title="Movies",Blade for.
 http://fortv.cc:8080/WjtGD2/235867/215276
-#EXTINF:-1 tvg-id="" tvg-name="M4: Blade Runner" tvg-logo="https://i.ibb.co/fVbFQnRG/blade-runner-logo.png" group-title="Movies",Blade Runner
+#EXTINF:-1 tvg-id="" tvg-name="M4: Blade Runner" tvg-logo="https://i.ibb.co/fVbFQnRG/blade-runner-logo.png" group-title="Movies",Blade Runner for.
 http://fortv.cc:8080/WjtGD2/235867/215277
-#EXTINF:-1 tvg-id="" tvg-name="M4: Deadpool" tvg-logo="https://i.ibb.co/jvqLF4GC/Deadpool.png" group-title="Movies",Deadpool
+#EXTINF:-1 tvg-id="" tvg-name="M4: Deadpool" tvg-logo="https://i.ibb.co/jvqLF4GC/Deadpool.png" group-title="Movies",Deadpool for.
 http://fortv.cc:8080/WjtGD2/235867/215281
-#EXTINF:-1 tvg-id="" tvg-name="M4: Die Hard" tvg-logo="https://i.ibb.co/d09QCrW0/Die-Hard-Franchise-white.png" group-title="Movies",Die Hard
+#EXTINF:-1 tvg-id="" tvg-name="M4: Die Hard" tvg-logo="https://i.ibb.co/d09QCrW0/Die-Hard-Franchise-white.png" group-title="Movies",Die Hard for.
 http://fortv.cc:8080/WjtGD2/235867/215282
-#EXTINF:-1 tvg-id="" tvg-name="M4: Fast and the Furious" tvg-logo="https://image.tmdb.org/t/p/original/wzUVHpzYooGYcTqjCRQmtDTWB45.png" group-title="Movies",Fast and the Furious
+#EXTINF:-1 tvg-id="" tvg-name="M4: Fast and the Furious" tvg-logo="https://image.tmdb.org/t/p/original/wzUVHpzYooGYcTqjCRQmtDTWB45.png" group-title="Movies",Fast and the Furious for.
 http://fortv.cc:8080/WjtGD2/235867/215287
-#EXTINF:-1 tvg-id="" tvg-name="M4: Final Destination" tvg-logo="https://i.ibb.co/RnF1vF2/Final-Destination-film-stacked.png" group-title="Movies",Final Destination
+#EXTINF:-1 tvg-id="" tvg-name="M4: Final Destination" tvg-logo="https://i.ibb.co/RnF1vF2/Final-Destination-film-stacked.png" group-title="Movies",Final Destination for.
 http://fortv.cc:8080/WjtGD2/235867/215288
-#EXTINF:-1 tvg-id="" tvg-name="M4: Ghostbusters" tvg-logo="https://i.ibb.co/KxscYPCt/ghostbusters-stacked.png" group-title="Movies",Ghostbusters
+#EXTINF:-1 tvg-id="" tvg-name="M4: Ghostbusters" tvg-logo="https://i.ibb.co/KxscYPCt/ghostbusters-stacked.png" group-title="Movies",Ghostbusters for.
 http://fortv.cc:8080/WjtGD2/235867/215289
-#EXTINF:-1 tvg-id="" tvg-name="M4: Hangover" tvg-logo="https://i.ibb.co/mFF69q8Y/The-hangover.png" group-title="Movies",Hangover
+#EXTINF:-1 tvg-id="" tvg-name="M4: Hangover" tvg-logo="https://i.ibb.co/mFF69q8Y/The-hangover.png" group-title="Movies",Hangover for.
 http://fortv.cc:8080/WjtGD2/235867/215290
-#EXTINF:-1 tvg-id="" tvg-name="M4: Harry Potter" tvg-logo="https://i.ibb.co/TDtv8NKK/harry-potter.png" group-title="Movies",Harry Potter
+#EXTINF:-1 tvg-id="" tvg-name="M4: Harry Potter" tvg-logo="https://i.ibb.co/TDtv8NKK/harry-potter.png" group-title="Movies",Harry Potter for.
 http://fortv.cc:8080/WjtGD2/235867/215291
-#EXTINF:-1 tvg-id="" tvg-name="M4: Ice Age" tvg-logo="https://static.wikia.nocookie.net/aveleyman/images/5/59/Ice_Age_%28franchise%29_Logo.png" group-title="Movies",Ice Age
+#EXTINF:-1 tvg-id="" tvg-name="M4: Ice Age" tvg-logo="https://static.wikia.nocookie.net/aveleyman/images/5/59/Ice_Age_%28franchise%29_Logo.png" group-title="Movies",Ice Age for.
 http://fortv.cc:8080/WjtGD2/235867/215294
-#EXTINF:-1 tvg-id="" tvg-name="M4: Indiana Jones" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Indiana-Jones-Logo.png" group-title="Movies",Indiana Jones
+#EXTINF:-1 tvg-id="" tvg-name="M4: Indiana Jones" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Indiana-Jones-Logo.png" group-title="Movies",Indiana Jones for.
 http://fortv.cc:8080/WjtGD2/235867/215295
-#EXTINF:-1 tvg-id="" tvg-name="M4: James Bond (007)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/James_Bond_Logo_%28cropped%29.svg/320px-James_Bond_Logo_%28cropped%29.svg.png" group-title="Movies",James Bond (007)
+#EXTINF:-1 tvg-id="" tvg-name="M4: James Bond (007)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/James_Bond_Logo_%28cropped%29.svg/320px-James_Bond_Logo_%28cropped%29.svg.png" group-title="Movies",James Bond (007) for.
 http://fortv.cc:8080/WjtGD2/235867/215296
-#EXTINF:-1 tvg-id="" tvg-name="M4: John Wick" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/John-wick-movie-logo.png" group-title="Movies",John Wick
+#EXTINF:-1 tvg-id="" tvg-name="M4: John Wick" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/John-wick-movie-logo.png" group-title="Movies",John Wick for.
 http://fortv.cc:8080/WjtGD2/235867/215297
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jurassic Park" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Jurassic_Park_%28franchise_logo%29.png" group-title="Movies",Jurassic Park
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jurassic Park" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Jurassic_Park_%28franchise_logo%29.png" group-title="Movies",Jurassic Park for.
 http://fortv.cc:8080/WjtGD2/235867/215298
-#EXTINF:-1 tvg-id="" tvg-name="M4: Kingsman" tvg-logo="https://i.ibb.co/C58tWxxJ/Kingsman-logo.png" group-title="Movies",Kingsman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Kingsman" tvg-logo="https://i.ibb.co/C58tWxxJ/Kingsman-logo.png" group-title="Movies",Kingsman for.
 http://fortv.cc:8080/WjtGD2/235867/215299
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mad Max" tvg-logo="https://i.ibb.co/1tWw5Wfh/Mad-Max.png" group-title="Movies",Mad Max
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mad Max" tvg-logo="https://i.ibb.co/1tWw5Wfh/Mad-Max.png" group-title="Movies",Mad Max for.
 http://fortv.cc:8080/WjtGD2/235867/215301
-#EXTINF:-1 tvg-id="" tvg-name="M4: Maze Runner" tvg-logo="https://image.tmdb.org/t/p/original/mwj9Qztb6qFXcNASUU0sbpUrpkx.png" group-title="Movies",Maze Runner
+#EXTINF:-1 tvg-id="" tvg-name="M4: Maze Runner" tvg-logo="https://image.tmdb.org/t/p/original/mwj9Qztb6qFXcNASUU0sbpUrpkx.png" group-title="Movies",Maze Runner for.
 http://fortv.cc:8080/WjtGD2/235867/215302
-#EXTINF:-1 tvg-id="" tvg-name="M4: Men in Black" tvg-logo="https://image.tmdb.org/t/p/original/47QgpHR9fWmCJLL7BHccTBPckeL.png" group-title="Movies",Men in Black
+#EXTINF:-1 tvg-id="" tvg-name="M4: Men in Black" tvg-logo="https://image.tmdb.org/t/p/original/47QgpHR9fWmCJLL7BHccTBPckeL.png" group-title="Movies",Men in Black for.
 http://fortv.cc:8080/WjtGD2/235867/215303
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mission Impossible" tvg-logo="https://i.ibb.co/XM8kqKk/Mission-Impossible.png" group-title="Movies",Mission Impossible
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mission Impossible" tvg-logo="https://i.ibb.co/XM8kqKk/Mission-Impossible.png" group-title="Movies",Mission Impossible for.
 http://fortv.cc:8080/WjtGD2/235867/215304
-#EXTINF:-1 tvg-id="" tvg-name="M4: Oceans Eleven" tvg-logo="https://i.ibb.co/hJt5Kwpy/Oceanseleven-logo-1-1.png" group-title="Movies",Oceans Eleven
+#EXTINF:-1 tvg-id="" tvg-name="M4: Oceans Eleven" tvg-logo="https://i.ibb.co/hJt5Kwpy/Oceanseleven-logo-1-1.png" group-title="Movies",Oceans Eleven for.
 http://fortv.cc:8080/WjtGD2/235867/215308
-#EXTINF:-1 tvg-id="" tvg-name="M4: Pirates of the Caribbean" tvg-logo="https://i.ibb.co/qFxTymBY/Pirates-of-the-Caribbean.png" group-title="Movies",Pirates of the Caribbean
+#EXTINF:-1 tvg-id="" tvg-name="M4: Pirates of the Caribbean" tvg-logo="https://i.ibb.co/qFxTymBY/Pirates-of-the-Caribbean.png" group-title="Movies",Pirates of the Caribbean for.
 http://fortv.cc:8080/WjtGD2/235867/215309
-#EXTINF:-1 tvg-id="" tvg-name="M4: Planet of Apes" tvg-logo="https://i.ibb.co/zV9CRvkJ/Planet-of-the-Apes.png" group-title="Movies",Planet of Apes
+#EXTINF:-1 tvg-id="" tvg-name="M4: Planet of Apes" tvg-logo="https://i.ibb.co/zV9CRvkJ/Planet-of-the-Apes.png" group-title="Movies",Planet of Apes for.
 http://fortv.cc:8080/WjtGD2/235867/215310
-#EXTINF:-1 tvg-id="" tvg-name="M4: Resident Evil" tvg-logo="https://i.ibb.co/WvrZVbH4/Resident-Evil-white.png" group-title="Movies",Resident Evil
+#EXTINF:-1 tvg-id="" tvg-name="M4: Resident Evil" tvg-logo="https://i.ibb.co/WvrZVbH4/Resident-Evil-white.png" group-title="Movies",Resident Evil for.
 http://fortv.cc:8080/WjtGD2/235867/215312
-#EXTINF:-1 tvg-id="" tvg-name="M4: Rocky" tvg-logo="https://i.ibb.co/F10rP9g/rocky-balboa-logo.png" group-title="Movies",Rocky
+#EXTINF:-1 tvg-id="" tvg-name="M4: Rocky" tvg-logo="https://i.ibb.co/F10rP9g/rocky-balboa-logo.png" group-title="Movies",Rocky for.
 http://fortv.cc:8080/WjtGD2/235867/215314
-#EXTINF:-1 tvg-id="" tvg-name="M4: Saw" tvg-logo="https://static.wikia.nocookie.net/the-dead-meat/images/1/18/Saw-movie-png-2.png" group-title="Movies",Saw
+#EXTINF:-1 tvg-id="" tvg-name="M4: Saw" tvg-logo="https://static.wikia.nocookie.net/the-dead-meat/images/1/18/Saw-movie-png-2.png" group-title="Movies",Saw for.
 http://fortv.cc:8080/WjtGD2/235867/215316
-#EXTINF:-1 tvg-id="" tvg-name="M4: Sherlock Holmes" tvg-logo="https://picfiles.alphacoders.com/123/123200.png" group-title="Movies",Sherlock Holmes
+#EXTINF:-1 tvg-id="" tvg-name="M4: Sherlock Holmes" tvg-logo="https://picfiles.alphacoders.com/123/123200.png" group-title="Movies",Sherlock Holmes for.
 http://fortv.cc:8080/WjtGD2/235867/215318
-#EXTINF:-1 tvg-id="" tvg-name="M4: Shrek" tvg-logo="https://i.ibb.co/S4TJsvMX/Shrek.png" group-title="Movies",Shrek
+#EXTINF:-1 tvg-id="" tvg-name="M4: Shrek" tvg-logo="https://i.ibb.co/S4TJsvMX/Shrek.png" group-title="Movies",Shrek for.
 http://fortv.cc:8080/WjtGD2/235867/215319
-#EXTINF:-1 tvg-id="" tvg-name="M4: Spiderman" tvg-logo="https://i.ibb.co/Y4MCRnF0/Spider-Man.png" group-title="Movies",Spiderman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Spiderman" tvg-logo="https://i.ibb.co/Y4MCRnF0/Spider-Man.png" group-title="Movies",Spiderman for.
 http://fortv.cc:8080/WjtGD2/235867/215321
-#EXTINF:-1 tvg-id="" tvg-name="M4: Star Wars" tvg-logo="https://i.ibb.co/6c38rg4J/Star-Wars-Logo.png" group-title="Movies",Star Wars
+#EXTINF:-1 tvg-id="" tvg-name="M4: Star Wars" tvg-logo="https://i.ibb.co/6c38rg4J/Star-Wars-Logo.png" group-title="Movies",Star Wars for.
 http://fortv.cc:8080/WjtGD2/235867/215324
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Bourne" tvg-logo="https://image.tmdb.org/t/p/original/eTao02pkhFxCjb6tXp0JisBfOk5.png" group-title="Movies",The Bourne Identity
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Bourne" tvg-logo="https://image.tmdb.org/t/p/original/eTao02pkhFxCjb6tXp0JisBfOk5.png" group-title="Movies",The Bourne Identity for.
 http://fortv.cc:8080/WjtGD2/235867/215327
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Conjuring" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d1b146e9-7426-4463-804d-3ca656e38492/436b00f24fd5d2e7a3f0e5a0f6f5def935c0b047.png?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320" group-title="Movies",The Conjuring
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Conjuring" tvg-logo="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/d1b146e9-7426-4463-804d-3ca656e38492/436b00f24fd5d2e7a3f0e5a0f6f5def935c0b047.png?host=wbd-images.prod-vod.h264.io&partner=beamcom&w=4320" group-title="Movies",The Conjuring for.
 http://fortv.cc:8080/WjtGD2/235867/215328
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Expendables" tvg-logo="https://i.ibb.co/TBThDkxP/The-Expendables.png" group-title="Movies",The Expendables
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Expendables" tvg-logo="https://i.ibb.co/TBThDkxP/The-Expendables.png" group-title="Movies",The Expendables for.
 http://fortv.cc:8080/WjtGD2/235867/215329
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Godfather" tvg-logo="https://image.tmdb.org/t/p/original/kysDTCloxUPJ1BILI4f8gs74fcr.png" group-title="Movies",The Godfather
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Godfather" tvg-logo="https://image.tmdb.org/t/p/original/kysDTCloxUPJ1BILI4f8gs74fcr.png" group-title="Movies",The Godfather for.
 http://fortv.cc:8080/WjtGD2/235867/215330
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Hobbit" tvg-logo="https://images.squarespace-cdn.com/content/v1/5d388f37609d5700010d21fa/1566327571570-P1RNGKG1KF83I9MHU6I6/image-asset.png" group-title="Movies",The Hobbit
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Hobbit" tvg-logo="https://images.squarespace-cdn.com/content/v1/5d388f37609d5700010d21fa/1566327571570-P1RNGKG1KF83I9MHU6I6/image-asset.png" group-title="Movies",The Hobbit for.
 http://fortv.cc:8080/WjtGD2/235867/215331
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Hunger Games" tvg-logo="https://i.ibb.co/RW28JGQ/The-hunger-games.png" group-title="Movies",The Hunger Games
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Hunger Games" tvg-logo="https://i.ibb.co/RW28JGQ/The-hunger-games.png" group-title="Movies",The Hunger Games for.
 http://fortv.cc:8080/WjtGD2/235867/215332
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Karete Kid" tvg-logo="https://i.ibb.co/sp5yW13Q/the-karate-kid.png" group-title="Movies",The Karate Kid
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Karete Kid" tvg-logo="https://i.ibb.co/sp5yW13Q/the-karate-kid.png" group-title="Movies",The Karate Kid for.
 http://fortv.cc:8080/WjtGD2/235867/215333
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Lord of The Rings" tvg-logo="https://i.ibb.co/SwTGGj7h/lord-of-the-rings-logo.png" group-title="Movies",The Lord of The Rings
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Lord of The Rings" tvg-logo="https://i.ibb.co/SwTGGj7h/lord-of-the-rings-logo.png" group-title="Movies",The Lord of The Rings for.
 http://fortv.cc:8080/WjtGD2/235867/215334
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Matrix" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0c/Logo-matrix.png" group-title="Movies",The Matrix
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Matrix" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0c/Logo-matrix.png" group-title="Movies",The Matrix for.
 http://fortv.cc:8080/WjtGD2/235867/215335
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Mummy" tvg-logo="https://image.tmdb.org/t/p/original/2SxvGwnnP8G8BrpA4DRHrW2QGS9.png" group-title="Movies",The Mummy
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Mummy" tvg-logo="https://image.tmdb.org/t/p/original/2SxvGwnnP8G8BrpA4DRHrW2QGS9.png" group-title="Movies",The Mummy for.
 http://fortv.cc:8080/WjtGD2/235867/215336
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Purge" tvg-logo="https://static.wixstatic.com/media/5bf4ba_d18465df9ff14e1dae64ef6e00c35a27~mv2.png/v1/fill/w_560,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/purge_edited.png" group-title="Movies",The Purge
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Purge" tvg-logo="https://static.wixstatic.com/media/5bf4ba_d18465df9ff14e1dae64ef6e00c35a27~mv2.png/v1/fill/w_560,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/purge_edited.png" group-title="Movies",The Purge for.
 http://fortv.cc:8080/WjtGD2/235867/215337
-#EXTINF:-1 tvg-id="" tvg-name="M4: The Terminator" tvg-logo="https://i.ibb.co/bjyTdXhn/Terminator-light-blue.png" group-title="Movies",The Terminator
+#EXTINF:-1 tvg-id="" tvg-name="M4: The Terminator" tvg-logo="https://i.ibb.co/bjyTdXhn/Terminator-light-blue.png" group-title="Movies",The Terminator for.
 http://fortv.cc:8080/WjtGD2/235867/215338
-#EXTINF:-1 tvg-id="" tvg-name="M4: Toy Story" tvg-logo="https://i.ibb.co/PskqcL1j/Toy-Story-logo.png" group-title="Movies",Toy Story
+#EXTINF:-1 tvg-id="" tvg-name="M4: Toy Story" tvg-logo="https://i.ibb.co/PskqcL1j/Toy-Story-logo.png" group-title="Movies",Toy Story for.
 http://fortv.cc:8080/WjtGD2/235867/215341
-#EXTINF:-1 tvg-id="" tvg-name="M4: Transformers" tvg-logo="https://i.ibb.co/fYRYKyG8/Transformers-1.png" group-title="Movies",Transformers
+#EXTINF:-1 tvg-id="" tvg-name="M4: Transformers" tvg-logo="https://i.ibb.co/fYRYKyG8/Transformers-1.png" group-title="Movies",Transformers for.
 http://fortv.cc:8080/WjtGD2/235867/215342
-#EXTINF:-1 tvg-id="" tvg-name="M4: Transporter" tvg-logo="https://i.ibb.co/7J72gQjY/The-transporter.png" group-title="Movies",Transporter
+#EXTINF:-1 tvg-id="" tvg-name="M4: Transporter" tvg-logo="https://i.ibb.co/7J72gQjY/The-transporter.png" group-title="Movies",Transporter for.
 http://fortv.cc:8080/WjtGD2/235867/215343
-#EXTINF:-1 tvg-id="" tvg-name="M4: Twilight Saga" tvg-logo="https://i.ibb.co/mrZcJgVD/Twilight-Logo.png" group-title="Movies",Twilight Saga
+#EXTINF:-1 tvg-id="" tvg-name="M4: Twilight Saga" tvg-logo="https://i.ibb.co/mrZcJgVD/Twilight-Logo.png" group-title="Movies",Twilight Saga for.
 http://fortv.cc:8080/WjtGD2/235867/215344
-#EXTINF:-1 tvg-id="" tvg-name="M4: X-Men" tvg-logo="https://static.wikia.nocookie.net/the-jh-movie-collection-official/images/3/3c/X-Men_Logo_2000.png" group-title="Movies",X-Men
+#EXTINF:-1 tvg-id="" tvg-name="M4: X-Men" tvg-logo="https://static.wikia.nocookie.net/the-jh-movie-collection-official/images/3/3c/X-Men_Logo_2000.png" group-title="Movies",X-Men for.
 http://fortv.cc:8080/WjtGD2/235867/215347
 
 
-#EXTINF:-1 tvg-id="" tvg-name="M4: Adam Sandler" tvg-logo="https://i.ibb.co/gLfjrdZy/Adam-Sandler.png" group-title="Movies",Adam Sandler
+#EXTINF:-1 tvg-id="" tvg-name="M4: Adam Sandler" tvg-logo="https://i.ibb.co/gLfjrdZy/Adam-Sandler.png" group-title="Movies",Adam Sandler for.
 http://fortv.cc:8080/WjtGD2/235867/215373
-#EXTINF:-1 tvg-id="" tvg-name="M4: Al Pacino" tvg-logo="https://i.ibb.co/1JLzycKc/Al-Pacino.png" group-title="Movies",Al Pacino
+#EXTINF:-1 tvg-id="" tvg-name="M4: Al Pacino" tvg-logo="https://i.ibb.co/1JLzycKc/Al-Pacino.png" group-title="Movies",Al Pacino for.
 http://fortv.cc:8080/WjtGD2/235867/215392
-#EXTINF:-1 tvg-id="" tvg-name="M4: Alicia Vikander" tvg-logo="https://i.ibb.co/MyXThbPS/Alicia-Vikander.png" group-title="Movies",Alicia Vikander*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Alicia Vikander" tvg-logo="https://i.ibb.co/MyXThbPS/Alicia-Vikander.png" group-title="Movies",Alicia Vikander* for.
 http://fortv.cc:8080/WjtGD2/235867/215399
-#EXTINF:-1 tvg-id="" tvg-name="M4: Amy Adams" tvg-logo="https://i.ibb.co/3m9B4wX2/Amy-Adams.png" group-title="Movies",Amy Adams
+#EXTINF:-1 tvg-id="" tvg-name="M4: Amy Adams" tvg-logo="https://i.ibb.co/3m9B4wX2/Amy-Adams.png" group-title="Movies",Amy Adams for.
 http://fortv.cc:8080/WjtGD2/235867/215384
-#EXTINF:-1 tvg-id="" tvg-name="M4: Angelina Jolie" tvg-logo="https://i.ibb.co/609MR3gt/Angelina-Jolie.png" group-title="Movies",Angelina Jolie
+#EXTINF:-1 tvg-id="" tvg-name="M4: Angelina Jolie" tvg-logo="https://i.ibb.co/609MR3gt/Angelina-Jolie.png" group-title="Movies",Angelina Jolie for.
 http://fortv.cc:8080/WjtGD2/235867/215398
-#EXTINF:-1 tvg-id="" tvg-name="M4: Anne Hathaway" tvg-logo="https://i.ibb.co/bMBfk72B/Anne-Hathaway.png" group-title="Movies",Anne Hathaway
+#EXTINF:-1 tvg-id="" tvg-name="M4: Anne Hathaway" tvg-logo="https://i.ibb.co/bMBfk72B/Anne-Hathaway.png" group-title="Movies",Anne Hathaway for.
 http://fortv.cc:8080/WjtGD2/235867/215385
-#EXTINF:-1 tvg-id="" tvg-name="M4: Arnold Schwarzenegger" tvg-logo="https://i.ibb.co/XZjz0DCQ/Arnold-Schwarzenegger.png" group-title="Movies",Arnold Schwarzenegger
+#EXTINF:-1 tvg-id="" tvg-name="M4: Arnold Schwarzenegger" tvg-logo="https://i.ibb.co/XZjz0DCQ/Arnold-Schwarzenegger.png" group-title="Movies",Arnold Schwarzenegger for.
 http://fortv.cc:8080/WjtGD2/235867/215374
-#EXTINF:-1 tvg-id="" tvg-name="M4: Benedict Cumberbatch" tvg-logo="https://i.ibb.co/R4Gg8j3h/Benedict-Cumberbatch.png" group-title="Movies",Benedict Cumberbatch
+#EXTINF:-1 tvg-id="" tvg-name="M4: Benedict Cumberbatch" tvg-logo="https://i.ibb.co/R4Gg8j3h/Benedict-Cumberbatch.png" group-title="Movies",Benedict Cumberbatch for.
 http://fortv.cc:8080/WjtGD2/235867/215349
-#EXTINF:-1 tvg-id="" tvg-name="M4: Brad Pitt" tvg-logo="https://i.ibb.co/HDbCzt4Y/Brad-Pitt.png" group-title="Movies",Brad Pitt
+#EXTINF:-1 tvg-id="" tvg-name="M4: Brad Pitt" tvg-logo="https://i.ibb.co/HDbCzt4Y/Brad-Pitt.png" group-title="Movies",Brad Pitt for.
 http://fortv.cc:8080/WjtGD2/235867/215391
-#EXTINF:-1 tvg-id="" tvg-name="M4: Bradley Cooper" tvg-logo="https://i.ibb.co/SHdSPPj/Bradley-Cooper.png" group-title="Movies",Bradley Cooper
+#EXTINF:-1 tvg-id="" tvg-name="M4: Bradley Cooper" tvg-logo="https://i.ibb.co/SHdSPPj/Bradley-Cooper.png" group-title="Movies",Bradley Cooper for.
 http://fortv.cc:8080/WjtGD2/235867/215350
-#EXTINF:-1 tvg-id="" tvg-name="M4: Brie Larson" tvg-logo="https://i.ibb.co/Kj4cNmBK/Brie-Larson.png" group-title="Movies",Brie Larson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Brie Larson" tvg-logo="https://i.ibb.co/Kj4cNmBK/Brie-Larson.png" group-title="Movies",Brie Larson for.
 http://fortv.cc:8080/WjtGD2/235867/215386
-#EXTINF:-1 tvg-id="" tvg-name="M4: Bruce Willis" tvg-logo="https://i.ibb.co/ksJX9PH6/Willis.png" group-title="Movies",Bruce Willis
+#EXTINF:-1 tvg-id="" tvg-name="M4: Bruce Willis" tvg-logo="https://i.ibb.co/ksJX9PH6/Willis.png" group-title="Movies",Bruce Willis for.
 http://fortv.cc:8080/WjtGD2/235867/215395
-#EXTINF:-1 tvg-id="" tvg-name="M4: Cameron Diaz" tvg-logo="https://i.ibb.co/XZVncHfH/Cameron-Diaz.png" group-title="Movies",Cameron Diaz
+#EXTINF:-1 tvg-id="" tvg-name="M4: Cameron Diaz" tvg-logo="https://i.ibb.co/XZVncHfH/Cameron-Diaz.png" group-title="Movies",Cameron Diaz for.
 http://fortv.cc:8080/WjtGD2/235867/215421
-#EXTINF:-1 tvg-id="" tvg-name="M4: Cate Blanchett" tvg-logo="https://i.ibb.co/V02s3Bft/Cate-Blanchett.png" group-title="Movies",Cate Blanchett
+#EXTINF:-1 tvg-id="" tvg-name="M4: Cate Blanchett" tvg-logo="https://i.ibb.co/V02s3Bft/Cate-Blanchett.png" group-title="Movies",Cate Blanchett for.
 http://fortv.cc:8080/WjtGD2/235867/215387
-#EXTINF:-1 tvg-id="" tvg-name="M4: Catherine Zeta-Jones" tvg-logo="https://i.ibb.co/mrNdsJ4P/Catherine-Zeta-Jones.png" group-title="Movies",Catherine Zeta-Jones
+#EXTINF:-1 tvg-id="" tvg-name="M4: Catherine Zeta-Jones" tvg-logo="https://i.ibb.co/mrNdsJ4P/Catherine-Zeta-Jones.png" group-title="Movies",Catherine Zeta-Jones for.
 http://fortv.cc:8080/WjtGD2/235867/215422
-#EXTINF:-1 tvg-id="" tvg-name="M4: Charlize Theron" tvg-logo="https://i.ibb.co/60VfdxY6/Charlize-Theron.png" group-title="Movies",Charlize Theron
+#EXTINF:-1 tvg-id="" tvg-name="M4: Charlize Theron" tvg-logo="https://i.ibb.co/60VfdxY6/Charlize-Theron.png" group-title="Movies",Charlize Theron for.
 http://fortv.cc:8080/WjtGD2/235867/215388
-#EXTINF:-1 tvg-id="" tvg-name="M4: Christian Bale" tvg-logo="https://i.ibb.co/d4FrHgH9/Christian-Bale.png" group-title="Movies",Christian Bale
+#EXTINF:-1 tvg-id="" tvg-name="M4: Christian Bale" tvg-logo="https://i.ibb.co/d4FrHgH9/Christian-Bale.png" group-title="Movies",Christian Bale for.
 http://fortv.cc:8080/WjtGD2/235867/215351
-#EXTINF:-1 tvg-id="" tvg-name="M4: Cillian Murphy" tvg-logo="https://i.ibb.co/XZT79vQN/Cillian-Murphy.png" group-title="Movies",Cillian Murphy
+#EXTINF:-1 tvg-id="" tvg-name="M4: Cillian Murphy" tvg-logo="https://i.ibb.co/XZT79vQN/Cillian-Murphy.png" group-title="Movies",Cillian Murphy for.
 http://fortv.cc:8080/WjtGD2/235867/215352
-#EXTINF:-1 tvg-id="" tvg-name="M4: Daniel Craig" tvg-logo="https://i.ibb.co/yn30bhSr/Daniel-Craig.png" group-title="Movies",Daniel Craig
+#EXTINF:-1 tvg-id="" tvg-name="M4: Daniel Craig" tvg-logo="https://i.ibb.co/yn30bhSr/Daniel-Craig.png" group-title="Movies",Daniel Craig for.
 http://fortv.cc:8080/WjtGD2/235867/215375
-#EXTINF:-1 tvg-id="" tvg-name="M4: Denzel Washington" tvg-logo="https://i.ibb.co/xtRqNcMH/Denzel-Washington.png" group-title="Movies",Denzel Washington
+#EXTINF:-1 tvg-id="" tvg-name="M4: Denzel Washington" tvg-logo="https://i.ibb.co/xtRqNcMH/Denzel-Washington.png" group-title="Movies",Denzel Washington for.
 http://fortv.cc:8080/WjtGD2/235867/215393
-#EXTINF:-1 tvg-id="" tvg-name="M4: Drew Barrymore" tvg-logo="https://i.ibb.co/0yJwBTVv/Drew-Barrymore.png" group-title="Movies",Drew Barrymore
+#EXTINF:-1 tvg-id="" tvg-name="M4: Drew Barrymore" tvg-logo="https://i.ibb.co/0yJwBTVv/Drew-Barrymore.png" group-title="Movies",Drew Barrymore for.
 http://fortv.cc:8080/WjtGD2/235867/215423
-#EXTINF:-1 tvg-id="" tvg-name="M4: Dwayne Johnson" tvg-logo="https://i.ibb.co/5WsXQQPm/Dwayne-Johnson.png" group-title="Movies",Dwayne Johnson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Dwayne Johnson" tvg-logo="https://i.ibb.co/5WsXQQPm/Dwayne-Johnson.png" group-title="Movies",Dwayne Johnson for.
 http://fortv.cc:8080/WjtGD2/235867/215376
-#EXTINF:-1 tvg-id="" tvg-name="M4: Edward Norton" tvg-logo="https://i.ibb.co/GQB6Q3kb/Edward-Norton.png" group-title="Movies",Edward Norton
+#EXTINF:-1 tvg-id="" tvg-name="M4: Edward Norton" tvg-logo="https://i.ibb.co/GQB6Q3kb/Edward-Norton.png" group-title="Movies",Edward Norton for.
 http://fortv.cc:8080/WjtGD2/235867/215353
-#EXTINF:-1 tvg-id="" tvg-name="M4: Emma Stone" tvg-logo="https://i.ibb.co/Xr5wqJcG/Emma-Stone.png" group-title="Movies",Emma Stone
+#EXTINF:-1 tvg-id="" tvg-name="M4: Emma Stone" tvg-logo="https://i.ibb.co/Xr5wqJcG/Emma-Stone.png" group-title="Movies",Emma Stone for.
 http://fortv.cc:8080/WjtGD2/235867/215400
-#EXTINF:-1 tvg-id="" tvg-name="M4: Emma Watson" tvg-logo="https://i.ibb.co/JF7M8Svd/Emma-Watson-1.png" group-title="Movies",Emma Watson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Emma Watson" tvg-logo="https://i.ibb.co/JF7M8Svd/Emma-Watson-1.png" group-title="Movies",Emma Watson for.
 http://fortv.cc:8080/WjtGD2/235867/215401
-#EXTINF:-1 tvg-id="" tvg-name="M4: Eva Green" tvg-logo="https://i.ibb.co/rfGdVv4M/Eva-Green.png" group-title="Movies",Eva Green
+#EXTINF:-1 tvg-id="" tvg-name="M4: Eva Green" tvg-logo="https://i.ibb.co/rfGdVv4M/Eva-Green.png" group-title="Movies",Eva Green for.
 http://fortv.cc:8080/WjtGD2/235867/215424
-#EXTINF:-1 tvg-id="" tvg-name="M4: Gerard Butler" tvg-logo="https://i.ibb.co/JWHdQBcm/Gerard-Butler.png" group-title="Movies",Gerard Butler
+#EXTINF:-1 tvg-id="" tvg-name="M4: Gerard Butler" tvg-logo="https://i.ibb.co/JWHdQBcm/Gerard-Butler.png" group-title="Movies",Gerard Butler for.
 http://fortv.cc:8080/WjtGD2/235867/215377
-#EXTINF:-1 tvg-id="" tvg-name="M4: Halle Berry" tvg-logo="https://i.ibb.co/fYP4NJLX/Halle-Berry.png" group-title="Movies",Halle Berry
+#EXTINF:-1 tvg-id="" tvg-name="M4: Halle Berry" tvg-logo="https://i.ibb.co/fYP4NJLX/Halle-Berry.png" group-title="Movies",Halle Berry for.
 http://fortv.cc:8080/WjtGD2/235867/215389
-#EXTINF:-1 tvg-id="" tvg-name="M4: Helen Mirren" tvg-logo="https://i.ibb.co/MxTTNbcR/Helen-Mirren.png" group-title="Movies",Helen Mirren
+#EXTINF:-1 tvg-id="" tvg-name="M4: Helen Mirren" tvg-logo="https://i.ibb.co/MxTTNbcR/Helen-Mirren.png" group-title="Movies",Helen Mirren for.
 http://fortv.cc:8080/WjtGD2/235867/215390
-#EXTINF:-1 tvg-id="" tvg-name="M4: Hugh Jackman" tvg-logo="https://i.ibb.co/Kxv16bs9/Hugh-Jackman.png" group-title="Movies",Hugh Jackman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Hugh Jackman" tvg-logo="https://i.ibb.co/Kxv16bs9/Hugh-Jackman.png" group-title="Movies",Hugh Jackman for.
 http://fortv.cc:8080/WjtGD2/235867/215354
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jack Nicholson" tvg-logo="https://i.ibb.co/cqmHQ55/Jack-Nicholson.png" group-title="Movies",Jack Nicholson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jack Nicholson" tvg-logo="https://i.ibb.co/cqmHQ55/Jack-Nicholson.png" group-title="Movies",Jack Nicholson for.
 http://fortv.cc:8080/WjtGD2/235867/215355
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jackie Chan" tvg-logo="https://i.ibb.co/0jSztSqN/Jackie-Chan.png" group-title="Movies",Jackie Chan
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jackie Chan" tvg-logo="https://i.ibb.co/0jSztSqN/Jackie-Chan.png" group-title="Movies",Jackie Chan for.
 http://fortv.cc:8080/WjtGD2/235867/215378
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jake Gyllenhaal" tvg-logo="https://i.ibb.co/ns29hvyt/Jake-Gyllenhaal.png" group-title="Movies",Jake Gyllenhaal
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jake Gyllenhaal" tvg-logo="https://i.ibb.co/ns29hvyt/Jake-Gyllenhaal.png" group-title="Movies",Jake Gyllenhaal for.
 http://fortv.cc:8080/WjtGD2/235867/215356
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jamie Foxx" tvg-logo="https://i.ibb.co/LsmfLB9/Jamie-Foxx.png" group-title="Movies",Jamie Foxx
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jamie Foxx" tvg-logo="https://i.ibb.co/LsmfLB9/Jamie-Foxx.png" group-title="Movies",Jamie Foxx for.
 http://fortv.cc:8080/WjtGD2/235867/215357
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jason Statham" tvg-logo="https://i.ibb.co/GQG0rzvW/Jason-Statham.png" group-title="Movies",Jason Statham
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jason Statham" tvg-logo="https://i.ibb.co/GQG0rzvW/Jason-Statham.png" group-title="Movies",Jason Statham for.
 http://fortv.cc:8080/WjtGD2/235867/215379
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jeff Bridges" tvg-logo="https://i.ibb.co/s9t6gDHS/Jeff-Bridges.png" group-title="Movies",Jeff Bridges
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jeff Bridges" tvg-logo="https://i.ibb.co/s9t6gDHS/Jeff-Bridges.png" group-title="Movies",Jeff Bridges for.
 http://fortv.cc:8080/WjtGD2/235867/215358
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jennifer Aniston" tvg-logo="https://i.ibb.co/3yq3p2ZT/Jennifer-Aniston.png" group-title="Movies",Jennifer Aniston
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jennifer Aniston" tvg-logo="https://i.ibb.co/3yq3p2ZT/Jennifer-Aniston.png" group-title="Movies",Jennifer Aniston for.
 http://fortv.cc:8080/WjtGD2/235867/215425
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jennifer Lawrence" tvg-logo="https://i.ibb.co/ZpzrGg37/Jennifer-Lawrence.png" group-title="Movies",Jennifer Lawrence
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jennifer Lawrence" tvg-logo="https://i.ibb.co/ZpzrGg37/Jennifer-Lawrence.png" group-title="Movies",Jennifer Lawrence for.
 http://fortv.cc:8080/WjtGD2/235867/215402
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jessica Alba" tvg-logo="https://i.ibb.co/Cpyjhkcm/Jessica-Alba.png" group-title="Movies",Jessica Alba*
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jessica Alba" tvg-logo="https://i.ibb.co/Cpyjhkcm/Jessica-Alba.png" group-title="Movies",Jessica Alba* for.
 http://fortv.cc:8080/WjtGD2/235867/215426
-#EXTINF:-1 tvg-id="" tvg-name="M4: Jim Carrey" tvg-logo="https://i.ibb.co/LjygvFF/Jim-Carrey.png" group-title="Movies",Jim Carrey
+#EXTINF:-1 tvg-id="" tvg-name="M4: Jim Carrey" tvg-logo="https://i.ibb.co/LjygvFF/Jim-Carrey.png" group-title="Movies",Jim Carrey for.
 http://fortv.cc:8080/WjtGD2/235867/215359
-#EXTINF:-1 tvg-id="" tvg-name="M4: Johnny Depp" tvg-logo="https://i.ibb.co/FqjnBQyS/Johnny-Depp.png" group-title="Movies",Johnny Depp
+#EXTINF:-1 tvg-id="" tvg-name="M4: Johnny Depp" tvg-logo="https://i.ibb.co/FqjnBQyS/Johnny-Depp.png" group-title="Movies",Johnny Depp for.
 http://fortv.cc:8080/WjtGD2/235867/215360
-#EXTINF:-1 tvg-id="" tvg-name="M4: Julia Roberts" tvg-logo="https://i.ibb.co/MxK8ctWf/Julia-Roberts.png" group-title="Movies",Julia Roberts
+#EXTINF:-1 tvg-id="" tvg-name="M4: Julia Roberts" tvg-logo="https://i.ibb.co/MxK8ctWf/Julia-Roberts.png" group-title="Movies",Julia Roberts for.
 http://fortv.cc:8080/WjtGD2/235867/215403
-#EXTINF:-1 tvg-id="" tvg-name="M4: Julianne Moore" tvg-logo="https://i.ibb.co/ZRPxdpNh/Julianne-Moore.png" group-title="Movies",Julianne Moore
+#EXTINF:-1 tvg-id="" tvg-name="M4: Julianne Moore" tvg-logo="https://i.ibb.co/ZRPxdpNh/Julianne-Moore.png" group-title="Movies",Julianne Moore for.
 http://fortv.cc:8080/WjtGD2/235867/215404
-#EXTINF:-1 tvg-id="" tvg-name="M4: Kate Winslet" tvg-logo="https://i.ibb.co/HftBGFKG/Kate-Winslet.png" group-title="Movies",Kate Winslet
+#EXTINF:-1 tvg-id="" tvg-name="M4: Kate Winslet" tvg-logo="https://i.ibb.co/HftBGFKG/Kate-Winslet.png" group-title="Movies",Kate Winslet for.
 http://fortv.cc:8080/WjtGD2/235867/215405
-#EXTINF:-1 tvg-id="" tvg-name="M4: Keanu Reeves" tvg-logo="https://i.ibb.co/tp3ftJ0N/Keanu-Reeves.png" group-title="Movies",Keanu Reeves
+#EXTINF:-1 tvg-id="" tvg-name="M4: Keanu Reeves" tvg-logo="https://i.ibb.co/tp3ftJ0N/Keanu-Reeves.png" group-title="Movies",Keanu Reeves for.
 http://fortv.cc:8080/WjtGD2/235867/215361
-#EXTINF:-1 tvg-id="" tvg-name="M4: Keira Knightley" tvg-logo="https://i.ibb.co/5Wt3cTL9/Keira-Knightley.png" group-title="Movies",Keira Knightley
+#EXTINF:-1 tvg-id="" tvg-name="M4: Keira Knightley" tvg-logo="https://i.ibb.co/5Wt3cTL9/Keira-Knightley.png" group-title="Movies",Keira Knightley for.
 http://fortv.cc:8080/WjtGD2/235867/215406
-#EXTINF:-1 tvg-id="" tvg-name="M4: Kevin Hart" tvg-logo="https://i.ibb.co/mVGmtJwS/Kevin-Hart.png" group-title="Movies",Kevin Hart
+#EXTINF:-1 tvg-id="" tvg-name="M4: Kevin Hart" tvg-logo="https://i.ibb.co/mVGmtJwS/Kevin-Hart.png" group-title="Movies",Kevin Hart for.
 http://fortv.cc:8080/WjtGD2/235867/215380
-#EXTINF:-1 tvg-id="" tvg-name="M4: Kristen Stewart" tvg-logo="https://i.ibb.co/Y7HqgvMx/Kristen-Stewart.png" group-title="Movies",Kristen Stewart
+#EXTINF:-1 tvg-id="" tvg-name="M4: Kristen Stewart" tvg-logo="https://i.ibb.co/Y7HqgvMx/Kristen-Stewart.png" group-title="Movies",Kristen Stewart for.
 http://fortv.cc:8080/WjtGD2/235867/215407
-#EXTINF:-1 tvg-id="" tvg-name="M4: Leonardo DiCaprio" tvg-logo="https://i.ibb.co/GBb3d6t/Leonardo-Di-Caprio.png" group-title="Movies",Leonardo DiCaprio
+#EXTINF:-1 tvg-id="" tvg-name="M4: Leonardo DiCaprio" tvg-logo="https://i.ibb.co/GBb3d6t/Leonardo-Di-Caprio.png" group-title="Movies",Leonardo DiCaprio for.
 http://fortv.cc:8080/WjtGD2/235867/215397
-#EXTINF:-1 tvg-id="" tvg-name="M4: Liam Neeson" tvg-logo="https://i.ibb.co/Kj7qBTjL/Liam-Neeson.png" group-title="Movies",Liam Neeson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Liam Neeson" tvg-logo="https://i.ibb.co/Kj7qBTjL/Liam-Neeson.png" group-title="Movies",Liam Neeson for.
 http://fortv.cc:8080/WjtGD2/235867/215362
-#EXTINF:-1 tvg-id="" tvg-name="M4: Lucy Liu" tvg-logo="https://i.ibb.co/bgxh4zRt/Lucy-Liu.png" group-title="Movies",Lucy Liu
+#EXTINF:-1 tvg-id="" tvg-name="M4: Lucy Liu" tvg-logo="https://i.ibb.co/bgxh4zRt/Lucy-Liu.png" group-title="Movies",Lucy Liu for.
 http://fortv.cc:8080/WjtGD2/235867/215427
-#EXTINF:-1 tvg-id="" tvg-name="M4: Lupita Nyong` o" tvg-logo="https://i.ibb.co/Q3qs0rxG/Lupita-Nyong.png" group-title="Movies",Lupita Nyong'o`
+#EXTINF:-1 tvg-id="" tvg-name="M4: Lupita Nyong` o" tvg-logo="https://i.ibb.co/Q3qs0rxG/Lupita-Nyong.png" group-title="Movies",Lupita Nyong'o` for.
 http://fortv.cc:8080/WjtGD2/235867/215408
-#EXTINF:-1 tvg-id="" tvg-name="M4: Margot Robbie" tvg-logo="https://i.ibb.co/xqrQnwG6/Margot-Robbie.png" group-title="Movies",Margot Robbie
+#EXTINF:-1 tvg-id="" tvg-name="M4: Margot Robbie" tvg-logo="https://i.ibb.co/xqrQnwG6/Margot-Robbie.png" group-title="Movies",Margot Robbie for.
 http://fortv.cc:8080/WjtGD2/235867/215409
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mark Wahlberg" tvg-logo="https://i.ibb.co/bj2S7RLh/Mark-Wahlberg.png" group-title="Movies",Mark Wahlberg
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mark Wahlberg" tvg-logo="https://i.ibb.co/bj2S7RLh/Mark-Wahlberg.png" group-title="Movies",Mark Wahlberg for.
 http://fortv.cc:8080/WjtGD2/235867/215363
-#EXTINF:-1 tvg-id="" tvg-name="M4: Matt Damon" tvg-logo="https://i.ibb.co/3YChD86X/Matt-Damon.png" group-title="Movies",Matt Damon
-http://fortv.cc:8080/WjtGD2/235867/215364
-#EXTINF:-1 tvg-id="" tvg-name="M4: Megan Fox" tvg-logo="https://i.ibb.co/cKT3jw7w/Megan-Fox.png" group-title="Movies",Megan Fox
+
+# #EXTINF:-1 tvg-id="" tvg-name="M4: Matt Damon" tvg-logo="https://i.ibb.co/3YChD86X/Matt-Damon.png" group-title="Movies",Matt Damon for.
+# http://fortv.cc:8080/WjtGD2/235867/215364
+#EXTINF:-1 tvg-id="" tvg-name="M4: Matt Damon" tvg-logo="https://i.ibb.co/3YChD86X/Matt-Damon.png" group-title="Movies",Matt Damon xip.
+http://xxip25.top:8080/04760056/79599130/215364
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Megan Fox" tvg-logo="https://i.ibb.co/cKT3jw7w/Megan-Fox.png" group-title="Movies",Megan Fox for.
 http://fortv.cc:8080/WjtGD2/235867/215428
-#EXTINF:-1 tvg-id="" tvg-name="M4: Melissa McCarthy" tvg-logo="https://i.ibb.co/g0WYMjP/Melissa-Mc-Carthy.png" group-title="Movies",Melissa McCarthy
+#EXTINF:-1 tvg-id="" tvg-name="M4: Melissa McCarthy" tvg-logo="https://i.ibb.co/g0WYMjP/Melissa-Mc-Carthy.png" group-title="Movies",Melissa McCarthy for.
 http://fortv.cc:8080/WjtGD2/235867/215429
-#EXTINF:-1 tvg-id="" tvg-name="M4: Meryl Streep" tvg-logo="https://i.ibb.co/JwgB1y41/Meryl-Streep.png" group-title="Movies",Meryl Streep
+#EXTINF:-1 tvg-id="" tvg-name="M4: Meryl Streep" tvg-logo="https://i.ibb.co/JwgB1y41/Meryl-Streep.png" group-title="Movies",Meryl Streep for.
 http://fortv.cc:8080/WjtGD2/235867/215410
-#EXTINF:-1 tvg-id="" tvg-name="M4: Micheal Caine" tvg-logo="https://i.ibb.co/ZRMBfZfp/Micheal-Caine.png" group-title="Movies",Micheal Caine
+#EXTINF:-1 tvg-id="" tvg-name="M4: Micheal Caine" tvg-logo="https://i.ibb.co/ZRMBfZfp/Micheal-Caine.png" group-title="Movies",Micheal Caine for.
 http://fortv.cc:8080/WjtGD2/235867/215365
-#EXTINF:-1 tvg-id="" tvg-name="M4: Michelle Pfeiffer" tvg-logo="https://i.ibb.co/LdbDLp0b/Michelle-Pfeiffer.png" group-title="Movies",Michelle Pfeiffer
+#EXTINF:-1 tvg-id="" tvg-name="M4: Michelle Pfeiffer" tvg-logo="https://i.ibb.co/LdbDLp0b/Michelle-Pfeiffer.png" group-title="Movies",Michelle Pfeiffer for.
 http://fortv.cc:8080/WjtGD2/235867/215411
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mila Kunis" tvg-logo="https://i.ibb.co/zV8Y6g6b/Mila-Kunis.png" group-title="Movies",Mila Kunis
+#EXTINF:-1 tvg-id="" tvg-name="M4: Mila Kunis" tvg-logo="https://i.ibb.co/zV8Y6g6b/Mila-Kunis.png" group-title="Movies",Mila Kunis for.
 http://fortv.cc:8080/WjtGD2/235867/215430
-#EXTINF:-1 tvg-id="" tvg-name="M4: Morgan Freeman" tvg-logo="https://i.ibb.co/qYZw0CbM/Morgan-Freeman.png" group-title="Movies",Morgan Freeman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Morgan Freeman" tvg-logo="https://i.ibb.co/qYZw0CbM/Morgan-Freeman.png" group-title="Movies",Morgan Freeman for.
 http://fortv.cc:8080/WjtGD2/235867/215366
-#EXTINF:-1 tvg-id="" tvg-name="M4: Natalie Portman" tvg-logo="https://i.ibb.co/P237yp7/Natalie-Portman.png" group-title="Movies",Natalie Portman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Natalie Portman" tvg-logo="https://i.ibb.co/P237yp7/Natalie-Portman.png" group-title="Movies",Natalie Portman for.
 http://fortv.cc:8080/WjtGD2/235867/215412
-#EXTINF:-1 tvg-id="" tvg-name="M4: Nicole Kidman" tvg-logo="https://i.ibb.co/RpY97Zs6/Nicole-Kidman.png" group-title="Movies",Nicole Kidman
+#EXTINF:-1 tvg-id="" tvg-name="M4: Nicole Kidman" tvg-logo="https://i.ibb.co/RpY97Zs6/Nicole-Kidman.png" group-title="Movies",Nicole Kidman for.
 http://fortv.cc:8080/WjtGD2/235867/215413
-#EXTINF:-1 tvg-id="" tvg-name="M4: Orlando Bloom" tvg-logo="https://i.ibb.co/pBv3PjBM/Orlando-Bloom.png" group-title="Movies",Orlando Bloom
+#EXTINF:-1 tvg-id="" tvg-name="M4: Orlando Bloom" tvg-logo="https://i.ibb.co/pBv3PjBM/Orlando-Bloom.png" group-title="Movies",Orlando Bloom for.
 http://fortv.cc:8080/WjtGD2/235867/215381
-#EXTINF:-1 tvg-id="" tvg-name="M4: Penope Cruz" tvg-logo="https://i.ibb.co/5xxMk28V/Penelope-Cruz.png" group-title="Movies",Penelope Cruz
+#EXTINF:-1 tvg-id="" tvg-name="M4: Penope Cruz" tvg-logo="https://i.ibb.co/5xxMk28V/Penelope-Cruz.png" group-title="Movies",Penelope Cruz for.
 http://fortv.cc:8080/WjtGD2/235867/215431
-#EXTINF:-1 tvg-id="" tvg-name="M4: Rachel McAdams" tvg-logo="https://i.ibb.co/600ttfMf/Rachel-Mc-Adams.png" group-title="Movies",Rachel McAdams
+#EXTINF:-1 tvg-id="" tvg-name="M4: Rachel McAdams" tvg-logo="https://i.ibb.co/600ttfMf/Rachel-Mc-Adams.png" group-title="Movies",Rachel McAdams for.
 http://fortv.cc:8080/WjtGD2/235867/215414
-#EXTINF:-1 tvg-id="" tvg-name="M4: Reese Witherspoon" tvg-logo="https://i.ibb.co/KjSbpqrs/Reese-Witherspoon.png" group-title="Movies",Reese Witherspoon
+#EXTINF:-1 tvg-id="" tvg-name="M4: Reese Witherspoon" tvg-logo="https://i.ibb.co/KjSbpqrs/Reese-Witherspoon.png" group-title="Movies",Reese Witherspoon for.
 http://fortv.cc:8080/WjtGD2/235867/215415
-#EXTINF:-1 tvg-id="" tvg-name="M4: Robert Downey Jr" tvg-logo="https://i.ibb.co/5hdBBvhM/Robert-Downey-Jr.png" group-title="Movies",Robert Downey Jr
+#EXTINF:-1 tvg-id="" tvg-name="M4: Robert Downey Jr" tvg-logo="https://i.ibb.co/5hdBBvhM/Robert-Downey-Jr.png" group-title="Movies",Robert Downey Jr for.
 http://fortv.cc:8080/WjtGD2/235867/215396
-#EXTINF:-1 tvg-id="" tvg-name="M4: Russell Crowe" tvg-logo="https://i.ibb.co/tTfBLZRK/Russell-Crowe.png" group-title="Movies",Russell Crowe
+#EXTINF:-1 tvg-id="" tvg-name="M4: Russell Crowe" tvg-logo="https://i.ibb.co/tTfBLZRK/Russell-Crowe.png" group-title="Movies",Russell Crowe for.
 http://fortv.cc:8080/WjtGD2/235867/215367
-#EXTINF:-1 tvg-id="" tvg-name="M4: Ryan Reynolds" tvg-logo="https://i.ibb.co/PzzCsvtZ/Ryan-Reynolds.png" group-title="Movies",Ryan Reynolds
+#EXTINF:-1 tvg-id="" tvg-name="M4: Ryan Reynolds" tvg-logo="https://i.ibb.co/PzzCsvtZ/Ryan-Reynolds.png" group-title="Movies",Ryan Reynolds for.
 http://fortv.cc:8080/WjtGD2/235867/215368
-#EXTINF:-1 tvg-id="" tvg-name="M4: Salma Hayek" tvg-logo="https://i.ibb.co/RkW5fxtY/Salma-Hayek.png" group-title="Movies",Salma Hayek
-http://fortv.cc:8080/WjtGD2/235867/21541
-#EXTINF:-1 tvg-id="" tvg-name="M4: Samuel L. Jackson" tvg-logo="https://i.ibb.co/Ng0fcBS7/Samuel-L-Jackson.png" group-title="Movies",Samuel L. Jackson
+
+# #EXTINF:-1 tvg-id="" tvg-name="M4: Salma Hayek" tvg-logo="https://i.ibb.co/RkW5fxtY/Salma-Hayek.png" group-title="Movies",Salma Hayek for.
+# http://fortv.cc:8080/WjtGD2/235867/21541
+#EXTINF:-1 tvg-id="" tvg-name="M4: Salma Hayek" tvg-logo="https://i.ibb.co/RkW5fxtY/Salma-Hayek.png" group-title="Movies",Salma Hayek xip.
+http://xxip25.top:8080/04760056/79599130/215416
+
+#EXTINF:-1 tvg-id="" tvg-name="M4: Samuel L. Jackson" tvg-logo="https://i.ibb.co/Ng0fcBS7/Samuel-L-Jackson.png" group-title="Movies",Samuel L. Jackson for.
 http://fortv.cc:8080/WjtGD2/235867/215369
-#EXTINF:-1 tvg-id="" tvg-name="M4: Sandra Bullock" tvg-logo="https://i.ibb.co/Kcw3XB1P/Sandra-Bullock.png" group-title="Movies",Sandra Bullock
+#EXTINF:-1 tvg-id="" tvg-name="M4: Sandra Bullock" tvg-logo="https://i.ibb.co/Kcw3XB1P/Sandra-Bullock.png" group-title="Movies",Sandra Bullock for.
 http://fortv.cc:8080/WjtGD2/235867/215417
-#EXTINF:-1 tvg-id="" tvg-name="M4: Saoirse Ronan" tvg-logo="https://i.ibb.co/fVGDKD7G/Saoirse-Ronan.png" group-title="Movies",Saoirse Ronan
+#EXTINF:-1 tvg-id="" tvg-name="M4: Saoirse Ronan" tvg-logo="https://i.ibb.co/fVGDKD7G/Saoirse-Ronan.png" group-title="Movies",Saoirse Ronan for.
 http://fortv.cc:8080/WjtGD2/235867/215418
-#EXTINF:-1 tvg-id="" tvg-name="M4: Scarlett Johansson" tvg-logo="https://i.ibb.co/Y4zBwwWK/Scarlett-Johansson.png" group-title="Movies",Scarlett Johansson
+#EXTINF:-1 tvg-id="" tvg-name="M4: Scarlett Johansson" tvg-logo="https://i.ibb.co/Y4zBwwWK/Scarlett-Johansson.png" group-title="Movies",Scarlett Johansson for.
 http://fortv.cc:8080/WjtGD2/235867/215419
-#EXTINF:-1 tvg-id="" tvg-name="M4: Sigourney Weaver" tvg-logo="https://i.ibb.co/6JYg0YFY/Sigourney-Weaver.png" group-title="Movies",Sigourney Weaver
+#EXTINF:-1 tvg-id="" tvg-name="M4: Sigourney Weaver" tvg-logo="https://i.ibb.co/6JYg0YFY/Sigourney-Weaver.png" group-title="Movies",Sigourney Weaver for.
 http://fortv.cc:8080/WjtGD2/235867/215432
-#EXTINF:-1 tvg-id="" tvg-name="M4: Sylvester Stallone" tvg-logo="https://i.ibb.co/bMx1thRM/Sylvester-Stallone.png" group-title="Movies",Sylvester Stallone
+#EXTINF:-1 tvg-id="" tvg-name="M4: Sylvester Stallone" tvg-logo="https://i.ibb.co/bMx1thRM/Sylvester-Stallone.png" group-title="Movies",Sylvester Stallone for.
 http://fortv.cc:8080/WjtGD2/235867/215382
-#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Cruise" tvg-logo="https://i.ibb.co/XrDfG9Fq/Tom-Cruise.png" group-title="Movies",Tom Cruise
+#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Cruise" tvg-logo="https://i.ibb.co/XrDfG9Fq/Tom-Cruise.png" group-title="Movies",Tom Cruise for.
 http://fortv.cc:8080/WjtGD2/235867/215370
-#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Hanks" tvg-logo="https://i.ibb.co/7dS3GKcf/Tom-Hanks.png" group-title="Movies",Tom Hanks
+#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Hanks" tvg-logo="https://i.ibb.co/7dS3GKcf/Tom-Hanks.png" group-title="Movies",Tom Hanks for.
 http://fortv.cc:8080/WjtGD2/235867/215371
-#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Hardy" tvg-logo="https://i.ibb.co/TsScmTj/Tom-Hardy.png" group-title="Movies",Tom Hardy
+#EXTINF:-1 tvg-id="" tvg-name="M4: Tom Hardy" tvg-logo="https://i.ibb.co/TsScmTj/Tom-Hardy.png" group-title="Movies",Tom Hardy for.
 http://fortv.cc:8080/WjtGD2/235867/215383
-#EXTINF:-1 tvg-id="" tvg-name="M4: Vin Diesel" tvg-logo="https://i.ibb.co/8L3WKm6t/Vin-Diesel.png" group-title="Movies",Vin Diesel
+#EXTINF:-1 tvg-id="" tvg-name="M4: Vin Diesel" tvg-logo="https://i.ibb.co/8L3WKm6t/Vin-Diesel.png" group-title="Movies",Vin Diesel for.
 http://fortv.cc:8080/WjtGD2/235867/215394
-#EXTINF:-1 tvg-id="" tvg-name="M4: Viola Davis" tvg-logo="https://i.ibb.co/v4BJLKfk/Viola-Davis.png" group-title="Movies",Viola Davis
+#EXTINF:-1 tvg-id="" tvg-name="M4: Viola Davis" tvg-logo="https://i.ibb.co/v4BJLKfk/Viola-Davis.png" group-title="Movies",Viola Davis for.
 http://fortv.cc:8080/WjtGD2/235867/215420
-#EXTINF:-1 tvg-id="" tvg-name="M4: Will Smith" tvg-logo="https://i.ibb.co/KjkGFqjz/Will-Smith.png" group-title="Movies",Will Smith
+#EXTINF:-1 tvg-id="" tvg-name="M4: Will Smith" tvg-logo="https://i.ibb.co/KjkGFqjz/Will-Smith.png" group-title="Movies",Will Smith for.
 http://fortv.cc:8080/WjtGD2/235867/215372
-#EXTINF:-1 tvg-id="" tvg-name="M4: Zoe Saldana" tvg-logo="https://i.ibb.co/2718VHqM/Zoe-Saldana.png" group-title="Movies",Zoe Saldana
+#EXTINF:-1 tvg-id="" tvg-name="M4: Zoe Saldana" tvg-logo="https://i.ibb.co/2718VHqM/Zoe-Saldana.png" group-title="Movies",Zoe Saldana for.
 http://fortv.cc:8080/WjtGD2/235867/215433
 
 
