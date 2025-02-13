@@ -1,16 +1,32 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="CTVDramaChannel.ca" tvg-name="38 CTV Drama" tvg-logo="https://i.ibb.co/BqN41hz/CTV-Drama-Channel-2019-purple.png" group-title="",CTV Drama for. (HTTP 403 Forbidden)
-http://fortv.cc:8080/WjtGD2/235867/57254
-#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",US Disney Junior (HTTP 404 Not Found)
-http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax xip. (FFMPEG Undefined Error)
+#EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax tvm. (HTTP 403 Forbidden)
+http://tvmate.icu:8080/k4Svp2/645504/13381
+#EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax xip. (HTTP 403 Forbidden)
 http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/13480
-#EXTINF:-1 group-title="" tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror",Sky Cinema Sci-Fi Horror xy. (FFMPEG Input/output Error)
+#EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-name="Cinemax ActionMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-actionmax-us.png?raw=true" group-title="Movies",Cinemax ActionMax xip. (HTTP 403 Forbidden)
+http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/21013
+#EXTINF:-1 tvg-id="ThrillerMaxEast.us" tvg-name="Cinemax ThrillerMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-thrillermax-us.png?raw=true" group-title="Movies",Cinemax ThrillerMax xip. (HTTP 403 Forbidden)
+http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/17774
+#EXTINF:-1 tvg-ID="StarzInBlackEast.us" tvg-name="Starz in Black" tvg-logo="https://i.ibb.co/rGskjw7r/Starz-Encore-In-black.png" group-title="Movies",Starz in Black xip. (HTTP 403 Forbidden)
+http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/17779
+#EXTINF:-1 group-title="" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts toh. (HTTP 403 Forbidden)
+http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755254
+#EXTINF:-1 group-title="" tvg-id="SkyCinemaAction.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Cinema Action xip. (HTTP 403 Forbidden)
+http://xxip25.top:8080/04760056/79599130/35254
+#EXTINF:-1 group-title="" tvg-id="SkyCinemaDrama.uk" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama",Sky Cinema Drama tvm. (HTTP 403 Forbidden)
+http://tvmate.icu:8080/k4Svp2/645504/35251
+#EXTINF:-1 group-title="" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Cinema Premier xip. (HTTP 403 Forbidden)
+http://xxip25.top:8080/04760056/79599130/35256
+#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Cinema Sci-Fi Horror xip. (HTTP 403 Forbidden)
 http://xxip25.top:8080/04760056/79599130/35248
+#EXTINF:-1 group-title="" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller",Sky Cinema Thriller toh. (HTTP 403 Forbidden)
+http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755295
+#EXTINF:-1 group-title="" tvg-id="SkyComedy.uk" tvg-logo="https://i.ibb.co/zTJC6q77/sky-comedy.png" tvg-name="Sky Comedy",Sky Comedy tvm. (HTTP 403 Forbidden)
+http://tvmate.icu:8080/k4Svp2/645504/35253
+#EXTINF:-1 group-title="" tvg-id="SkyCrime.uk" tvg-logo="https://i.ibb.co/Rpy0bX4H/sky-crime.png" tvg-name="Sky Crime",Sky Crime tvm. (HTTP 403 Forbidden)
+http://tvmate.icu:8080/k4Svp2/645504/35252
 #EXTINF:-1 tvg-id="PlexTheJamieOliverChannel.us" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20240918T124442SQUARE.png" group-title="Home & Food",The Jamie Oliver Channel (FFMPEG Invalid Data)
 https://jmp2.uk/sam-USBC4400016CL.m3u8
-#EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBB2900002Z7.m3u8
 #EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B (HTTP 404 Not Found)
 https://jmp2.uk/sam-CABC52000171D.m3u8
 #EXTINF:-1 tvg-id="PlexVevo80s.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s (HTTP 404 Not Found)
@@ -21,101 +37,3 @@ https://jmp2.uk/sam-CABC52000127S.m3u8
 https://jmp2.uk/sam-CABC5200013DN.m3u8
 #EXTINF:-1 tvg-id="SamsungVevo2010s.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",Vevo 2010s (HTTP 404 Not Found)
 https://jmp2.uk/sam-CABD1200009SD.m3u8
-#EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBA3000044BJ.m3u8
-#EXTINF:-1 tvg-id="XumoHomeful.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBD700022M5.m3u8
-#EXTINF:-1 tvg-id="XumoMovieSpherebyLionsgate.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBD17000117B.m3u8
-#EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="" ,BBC One xip. (HTTP 403 Forbidden)
-http://xxip25.top:8080/04760056/79599130/53649
-#EXTINF:-1 tvg-id="BBCAmericaEast.us" tvg-name="US BBC America" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7jwv6nmWU-Vl_X1Wl0APYp1aKum_gDRgUYY3tDBYKtuvPKPfv2FOX8RwJRw7h1X7kOQ&usqp=CAU" group-title="USA",BBC America (HTTP 404 Not Found)
-http://fl2.moveonjoy.com/BBC_AMERICA/index.m3u8
-#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true"group-title="Kids",US Disney Junior (HTTP 404 Not Found)
-http://fl2.moveonjoy.com/DISNEY_JR/index.m3u8
-#EXTINF:-1 tvg-id="Comet.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/1200px-Comet_logo.svg.png" group-title="USA",Comet East (FFMPEG Invalid Data)
-https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
-#EXTINF:-1 tvg-id="TBD.StLouis.us" tvg-name="tBD. East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD. East (FFMPEG Invalid Data)
-https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
-#EXTINF:-1 tvg-id="Charge.us" tvg-name="CBS.(WCWN-DT3).Albany,.NY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="USA",Charge East (FFMPEG Invalid Data)
-https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
-#EXTINF:-1 tvg-id="NFLRedZone.us" tvg-name="NFL Redzone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-red-zone-us.png?raw=true" group-title="Sports",NFL Redzone xip. (HTTP 403 Forbidden)
-http://xxip25.top:8080/04760056/79599130/159120
-#EXTINF:-1 tvg-id="Willow.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/willow-us.png?raw=true" group-title="Sports",Willow (HTTP Connection Reset)
-https://tx2.nexgen.bz:443/WILLOW/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 127. (HTTP 500 Internal Server Error)
-http://127.0.0.1:11470/proxy/d=https%3A%2F%2Fxyzdddd.mizhls.ru&h=User-Agent%3AMozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+17_7+like+Mac+OS+X%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F18.0+Mobile%2F15E148+Safari%2F604.1&h=Referer%3Ahttps%3A%2F%2Fcookiewebplay.xyz%2F&h=Origin%3Ahttps%3A%2F%2Fcookiewebplay.xyz&h=Keep-Alive%3Atrue/lb/premium44/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 41. (HTTP 404 Not Found)
-http://41.205.93.154/ESPN/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U 848. (HTTP 404 Not Found)
-https://848b3516657c-usatv.baby-beamup.club/public/m3u/316.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="24/7 American Crime Story" tvg-logo="https://assets-prd.ignimgs.com/2021/09/16/americancrimestory-1631830702028.png" group-title="Series",American Crime Story for. (HTTP 403 Forbidden)
-http://fortv.cc:8080/WjtGD2/235867/178876
-#EXTINF:-1 tvg-id="PlexTheConners.us" tvg-name="The Conners" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png" group-title="Series",The Conners (FFMPEG Streams Not Found)
-https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415.m3u8
-#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway (FFMPEG Invalid Data)
-https://jmp2.uk/sam-USBB3500004RC.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="M4: Drama" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Drama (FFMPEG Input/output Error)
-http://fortv.cc:8080/WjtGD2/235867/215283
-#EXTINF:-1 tvg-id="" tvg-name="M4: Family" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Family (FFMPEG Input/output Error)
-http://fortv.cc:8080/WjtGD2/235867/215285
-#EXTINF:-1 tvg-id="" tvg-name="M4: Mythological" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Mythological* (FFMPEG Input/output Error)
-http://fortv.cc:8080/WjtGD2/235867/215307
-#EXTINF:-1 tvg-id="" tvg-name="M4: Romantic" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Romantic* (FFMPEG Input/output Error)
-http://fortv.cc:8080/WjtGD2/235867/215315
-#EXTINF:-1 tvg-id="" tvg-name="M4: Western" tvg-logo="https://i.ibb.co/XkM4ZNfY/M4-genre-orange-horizontal.png" group-title="Movies",Western (FFMPEG Input/output Error)
-http://fortv.cc:8080/WjtGD2/235867/215346
-#EXTINF:-1 tvg-id="" tvg-name="M4: Transformers" tvg-logo="https://i.ibb.co/fYRYKyG8/Transformers-1.png" group-title="Movies",Transformers (HTTP 403 Forbidden)
-http://fortv.cc:8080/WjtGD2/235867/215342
-#EXTINF:-1 tvg-id="" tvg-name="M4: Matt Damon" tvg-logo="https://i.ibb.co/3YChD86X/Matt-Damon.png" group-title="Movies",Matt Damon (HTTP 403 Forbidden)
-http://fortv.cc:8080/WjtGD2/235867/215364
-#EXTINF:-1 tvg-id="" tvg-name="M4: Salma Hayek" tvg-logo="https://i.ibb.co/RkW5fxtY/Salma-Hayek.png" group-title="Movies",Salma Hayek (HTTP 406 Not Acceptable)
-http://fortv.cc:8080/WjtGD2/235867/21541
-#EXTINF:-1 tvg-id="CTVMontreal.ca" tvg-name="00 CTV Montreal" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="",CTV Montreal xy. (FFMPEG Invalid Data)
-https://xyzdddd.mizhls.ru/lb/premium831/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CP24.ca" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News iptvtree (HTTP 404 Not Found)
-http://iptvtree.net:8080/romaniamedia/c726d524bf/476
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E01 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79206.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E02 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79207.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E03 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79208.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E04 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79209.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E05 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79210.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E06 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79211.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E07 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79212.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E08 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79213.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E09 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79214.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E10 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79215.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E11 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79216.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E12 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79217.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E13 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79218.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E14 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79219.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E15 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79220.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E16 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79221.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E17 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79222.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E18 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79223.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E19 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79224.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E20 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79225.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E21 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79226.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xZ5olw8FoyjTRbiflgV93LNLDN7.jpg" group-title="Young Sheldon",Young Sheldon S06 E22 (HTTP 403 Forbidden)
-http://newlife3.wanicelife.com:8880/series/D12m2770/52277683/79227.mkv
