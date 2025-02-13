@@ -8,7 +8,7 @@ nginx_uninstall_backups/
 # Ignore log files
 # scripts/www/*.log
 # Ignore .m3u files
-# scripts/www/*.m3u
+scripts/www/*.m3u
 # Ignore xml files here
 # scripts/_epg-end/*.xml
 .DS_Store
