@@ -556,7 +556,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NickelodeonEast.us" site_id="nickelodeon-usa-east-feed-hd/6342">Nickelodeon USA - East Feed HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="NickelodeonEast.us" site_id="11006">Nickelodeon East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="NicktoonsEast.us" site_id="nicktoons-east/2010">Nicktoons - East</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="NicktoonsEast.us" site_id="30420">Nicktoons East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="NicktoonsEast.us" site_id="30420">Nicktoons East</channel> -->
+  <channel site="ziggogo.tv" lang="en" xmltv_id="NicktoonsEast.us" site_id="NL_000084_019301">Nicktoons</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="" site_id="ca#69021892/omni2-television">Omni2 Television</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="OMNI.Vancouver.ca" site_id="ca#69022475/omni1">Omni.1</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="OMNIEast.ca" site_id="ca#69026135/omni1-hdtv">Omni.1 HDTV</channel> -->
