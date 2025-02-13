@@ -365,3 +365,7 @@ https://jmp2.uk/sam-CA1400015BB.m3u8
 https://jmp2.uk/sam-CA7000015K.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="" tvg-logo="https://i.ibb.co/166FjsW/DW-news-stacked.png" group-title="News",DW News
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+#EXTINF:-1 tvg-id="PlutoTODAYAllDay.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day
+https://jmp2.uk/sam-USBB32000251N.m3u8
+#EXTINF:-1 tvg-id="PlutoCBSNews247.es" tvg-name="US CBS News 24/7" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA370000104_20240520T222610SQUARE.png" group-title="News",US CBS News 24/7
+https://jmp2.uk/sam-USBA370000104.m3u8
