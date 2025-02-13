@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 12 931p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 12 1004p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -784,10 +784,10 @@ http://fl2.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
 
 # #EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax cdn1.
 # http://cdn1host.online:2999/kratorius/opLcbhlXaT/1603
-# #EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418081
-#EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax tvm.
-http://tvmate.icu:8080/k4Svp2/645504/13381
+#EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418081
+# #EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax tvm.
+# http://tvmate.icu:8080/k4Svp2/645504/13381
 
 #EXTINF:-1 tvg-id="CinemaxEastHD.us" tvg-name="Cinemax East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",Cinemax 
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
