@@ -15,3 +15,4 @@ scripts/www/*.m3u
 # scripts/_alive
 alive.py
 scripts/_alive/*.m3u
+scripts/merge_epg.log
