@@ -16,3 +16,6 @@ scripts/www/*.m3u
 alive.py
 scripts/_alive/*.m3u
 scripts/merge_epg.log
+scripts/com.kyleabrahams.mergeepg.plist
+scripts/www/merge_epg.log
+scripts/www/merge_epg.log
