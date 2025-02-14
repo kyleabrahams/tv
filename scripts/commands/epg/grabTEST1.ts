@@ -1,10 +1,15 @@
+// Feb 13 958p
 import { Logger, Timer, Storage, Collection } from '@freearhey/core'
 import { program } from 'commander'
 import { CronJob } from 'cron'
 import { QueueCreator, Job, ChannelsParser } from '../../core'
 import { Channel } from 'epg-grabber'
 import path from 'path'
+import { execSync } from 'child_process'
+import fs from 'fs'
 import { SITES_DIR } from '../../constants'
+
+const DUMMY_XML_DIR = '/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/'
 
 program
   .option('-s, --site <name>', 'Name of the site to parse')
@@ -54,12 +59,19 @@ async function main() {
 
   const logger = new Logger()
 
-  logger.start('starting...')
+  logger.start('Starting XML generation from dummy_epg.py...')
 
-  logger.info('config:')
-  logger.tree(options)
+  // Run dummy_epg.py to generate a new XML file
+  try {
+    execSync('python3 ./scripts/dummy_epg.py', { stdio: 'inherit' })
+    logger.success('Dummy EPG XML generated successfully')
+  } catch (error) {
+    logger.error('Failed to generate dummy XML')
+    console.error(error)
+    return
+  }
 
-  logger.info('loading channels...')
+  logger.info('Loading channels...')
   const storage = new Storage()
   const parser = new ChannelsParser({ storage })
 
@@ -73,25 +85,38 @@ async function main() {
   }
 
   let parsedChannels = new Collection()
+
+  // Load and parse existing channels
   for (const filepath of files) {
     parsedChannels = parsedChannels.concat(await parser.parse(filepath))
   }
+
+  // Find the latest dummy XML file
+  const latestDummyXml = findLatestDummyXml()
+  if (latestDummyXml) {
+    logger.info(`Merging dummy XML: ${latestDummyXml}`)
+    const dummyChannels = await parser.parse(latestDummyXml)
+    parsedChannels = parsedChannels.concat(dummyChannels)
+  } else {
+    logger.warn('No dummy XML found, proceeding without it...')
+  }
+
   if (options.lang) {
     parsedChannels = parsedChannels.filter((channel: Channel) => channel.lang === options.lang)
   }
-  logger.info(`  found ${parsedChannels.count()} channel(s)`)
+  logger.info(`  Found ${parsedChannels.count()} channel(s)`)
 
   let runIndex = 1
   if (options.cron) {
     const cronJob = new CronJob(options.cron, async () => {
-      logger.info(`run #${runIndex}:`)
+      logger.info(`Run #${runIndex}:`)
       await runJob({ logger, parsedChannels })
       runIndex++
     })
     cronJob.start()
   } else {
-    logger.info(`run #${runIndex}:`)
-    runJob({ logger, parsedChannels })
+    logger.info(`Run #${runIndex}:`)
+    await runJob({ logger, parsedChannels })
   }
 }
 
@@ -115,5 +140,23 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
 
   await job.run()
 
-  logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
+  logger.success(`  Done in ${timer.format('HH[h] mm[m] ss[s]')}`)
+}
+
+/**
+ * Finds the latest dummy EPG XML file in the dummy XML directory.
+ * @returns {string | null} The path to the latest XML file, or null if none found.
+ */
+function findLatestDummyXml(): string | null {
+  try {
+    const files = fs.readdirSync(DUMMY_XML_DIR)
+      .filter(file => file.startsWith('dummy--epg') && file.endsWith('.xml'))
+      .map(file => ({ file, time: fs.statSync(path.join(DUMMY_XML_DIR, file)).mtime.getTime() }))
+      .sort((a, b) => b.time - a.time)
+
+    return files.length > 0 ? path.join(DUMMY_XML_DIR, files[0].file) : null
+  } catch (error) {
+    console.error('Error finding latest dummy XML:', error)
+    return null
+  }
 }

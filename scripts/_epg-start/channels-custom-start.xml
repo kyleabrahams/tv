@@ -404,20 +404,15 @@
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HistoryEast.us" site_id="57708">History East</channel> -->
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="HistoryEast.us" site_id="us#69023552/history-east">History (East)</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="HistoryEast.us" site_id="57708">History East</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.00s.ca" site_id="hollywood-suite-00s-hd/20016">Hollywood Suite 00s HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.00s.ca" site_id="hollywood-suite-00s-hd/20016">Hollywood Suite 00s HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.70s.ca" site_id="hollywood-suite-70s-hd/20017">Hollywood Suite 70s HD</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.80s.ca" site_id="hollywood-suite-80s-hd/20018">Hollywood Suite 80s HD</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.90s.ca" site_id="hollywood-suite-90s-hd/20019">Hollywood Suite 90s HD</channel>
-
-
-
-
-  <!-- <channel site="tvtv.us" lang="en" xmltv_id="HollywoodSuite00sMovies.ca" site_id="73578">Hollywood Suite 00s Movies</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="HollywoodSuite70sMovies.ca" site_id="73572">Hollywood Suite 70s Movies</channel> -->
-  <!-- <channel site="tvtv.us" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="73574">Hollywood Suite 80s Movies</channel> -->
-  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="ca#69043787/hollywood-suite-80s">Hollywood Suite 80s</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="73574">Hollywood Suite 80s Movies</channel>
-  <channel site="tvtv.us" lang="en" xmltv_id="HollywoodSuite90sMovies.ca" site_id="73571">Hollywood Suite 90s Movies</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="Hollywood.Suite.90s.ca" site_id="hollywood-suite-90s-hd/20019">Hollywood Suite 90s HD</channel> -->
+  <channel site="tvtv.us" lang="en" xmltv_id="Hollywood.Suite.00s.ca" site_id="73578">Hollywood Suite 00s Movies</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="Hollywood.Suite.70s.ca" site_id="73572">Hollywood Suite 70s Movies</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="Hollywood.Suite.80s.ca" site_id="73574">Hollywood Suite 80s Movies</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="Hollywood.Suite.90s.ca" site_id="73571">Hollywood Suite 90s Movies</channel>
+  <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="HollywoodSuite80sMovies.ca" site_id="ca#69043787/hollywood-suite-80s">Hollywood Suite 80s</channel> -->
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HomeNetwork.ca" site_id="hgtv-canada-hd/8793">Home Network</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HomeNetwork.ca" site_id="hgtv-canada/167">Home Network</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="HomeNetwork.ca" site_id="hgtv-canada-dv/3962">Home Network DV</channel>  -->
@@ -453,9 +448,9 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MASN.us" site_id="mid-atlantic-sports-network-hd/7233">Mid-Atlantic Sports Network HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="MASN.us" site_id="46817">MASN</channel>
   <channel site="tvinsider.com" lang="en" xmltv_id="MeTV.us" site_id="metv">MeTV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm--east/7609">MGM+ - East</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-east/7609">MGM+ - East</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="MGM+.us" site_id="9200009335">MGM+ HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MGMPlusEast.us" site_id="65669">MGM+ East</channel> -->
   <channel site="tvpassport.com" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="mgm-drive-in-hd/33934">MGM+ Drive-In HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="68409">MGM+ Drive-In</channel> -->
@@ -501,8 +496,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MotorTrend.us" site_id="motor-trend-hd/12597">Motor Trend HD</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Motortrend.us" site_id="31046">Motortrend</channel> -->
   <channel site="tvinsider.com" lang="en" xmltv_id="Motortrend.us" site_id="motortrend">MotorTrend</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="MovieMax.us" site_id="moviemax-max-6--east/1653">MovieMax (Max 6) - East</channel>
-
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MovieMax.us" site_id="moviemax-max-6-east/1653">MovieMax (Max 6) - East</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="MovieMax.us" site_id="9233000532">MovieMax</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel> -->
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="us#572881709/moviemax-hdtv-east">MOVIEMAX HDTV (East)</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel> -->
@@ -727,8 +722,8 @@
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaFamily.uk" site_id="1323/sky-cinema-family">Sky Cinema Family</channel>
   <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="">Sky Cinema Greats</channel> -->
   <channel site="tvprofil.com" lang="en" xmltv_id="SkyCinemaGreats.uk" site_id="gb/tvschedule#sky-cinema-greats">Sky Cinema Greats</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="">Sky Cinema Hits</channel>
-
+  <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="">Sky Cinema Hits</channel> -->
+  <channel site="player.ee.co.uk" lang="en" xmltv_id="SkyCinemaHits.uk" site_id="http://bds.tv/services/BT_727788_1814_HD">Sky Cinema Hits HD</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaPremiere.uk" site_id="1320/sky-cinema-premiere">Sky Cinema Premiere</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSciFiHorror.uk" site_id="1329/sky-cinema-sci-fihorror">Sky Cinema Sci-fi/Horror</channel>
   <!-- <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaSelect.uk" site_id="">Sky Cinema Select</channel> -->
@@ -807,7 +802,8 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="SundanceTVEast.us" site_id="sundancetv-usa-east-hd/8264">SundanceTV USA - East HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="SundanceTVEast.us" site_id="71280">SundanceTV East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="SyfyEast.us" site_id="syfy-hd-eastern-feed/5643">Syfy HD - Eastern Feed</channel> -->
-  <channel site="tvtv.us" lang="en" xmltv_id="SyfyEast.us" site_id="58623">Syfy East</channel>
+  <!-- <channel site="tvtv.us" lang="en" xmltv_id="SyfyEast.us" site_id="58623">Syfy East</channel> -->
+  <channel site="tvguide.com" lang="en" xmltv_id="SyfyEast.us" site_id="9200004316">Syfy</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TBSEast.us" site_id="tbs-east-hd/6090">TBS - East HD</channel> -->
   <channel site="tvtv.us" lang="en" xmltv_id="TBSEast.us" site_id="58515">TBS East</channel>
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="TBSWest.us" site_id="tbs-pacific-hd/6231">TBS - Pacific HD</channel> -->

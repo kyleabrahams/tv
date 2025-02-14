@@ -1,10 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <channels>
-  <channel site="tvprofil.com" lang="en" xmltv_id="" site_id="gb/tvschedule#sky-cinema-hits">Sky Cinema Hits</channel>
-  <channel site="tvireland.ie" lang="en" xmltv_id="" site_id="1318/sky-cinema-hits">Sky Cinema Hits</channel>
-  <channel site="tvireland.ie" lang="en" xmltv_id="" site_id="1536/sky-cinema-hits-hd">Sky Cinema Hits HD</channel>
-  <channel site="player.ee.co.uk" lang="en" xmltv_id="" site_id="http://bds.tv/services/BT_756489_1814_SD">Sky Cinema Hits</channel>
-  <channel site="player.ee.co.uk" lang="en" xmltv_id="" site_id="http://bds.tv/services/BT_727788_1814_HD">Sky Cinema Hits HD</channel>
-
+  <!-- <channel site="dummy.ca" lang="en" xmltv_id="" site_id="city-new-247">City News 247</channel>   -->
+  <channel site="tvtv.us" lang="en" xmltv_id="SportsnetWorld.ca" site_id="57735">SportsNet World</channel>
 </channels>
 
