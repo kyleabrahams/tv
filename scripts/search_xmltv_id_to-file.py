@@ -59,7 +59,10 @@ def write_channels_to_new_xml(collected_channels, output_file):
 # Main function
 def main():
     src_dir = "../sites"  # Folder with XML files
-    search_words = ["check", "this", "out"]  # Words to search for
+    search_words = [
+                    # "gusto", 
+                    # "this", 
+                    "gusto"]  # Words to search for
     output_dir = "./_Search_Results"
 
     search_results = search_xml_in_directory(src_dir, search_words)
