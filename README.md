@@ -4,25 +4,117 @@ This project is a custom tool that creates dummy data, fetches URLs, and uncompr
 I'm hoping to add remote access in the near future.
 
 ## Tool 1. IPTV-Checker is a utility designed to verify the status of links in M3U playlists. It categorizes each link as online, offline, or a duplicate.
+# IPTV-Checker etc global installation
+npm install -g epg-grabber jest typescript ts-node @ntlab/sfetch @octokit/plugin-rest-endpoint-methods
 
-# IPTV-Checker global installation
-npm install -g iptv-checker epg-grabber @freearhey/core @freearhey/epg-grabber typescript tsx axios xml2js dotenv commander cron
+iptv-checker
 
-npm install @freearhey/core commander cron epg-grabber
+# See Android TV sheets doc, nginx tab for commands,
 
-pip install requests pytz
+# Nginx.conf path 
+/opt/homebrew/etc/nginx/nginx.conf
+
+# Nginx reload
+sudo nginx -s reload
+ps aux | grep nginx
+sudo nginx -t
 
 
-# NPM packages installed
-npm list -g --depth=0
+# Run scripts 
+cd scripts
+python3 -m venv myenv
+source myenv/bin/activate
+source venv/bin/activate
 
-# Channel Sources
-https://github.com/awiouy/webgrabplus/blob/master/config/siteini.pack/Canada/canada.com.L9H1N3.channels.xml
 
-https://www.npmjs.com/package/@iptv/xmltv?activeTab=readme
+python3 merge_epg.py 
+python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
+python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+
+python3 dummy_epg.py
+
+# Github Commit issues resolve
+
+git add .
+git commit -m "Updated files"
+git push origin main
+
+
+# RUN script manually to debug
+source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
+
+
+
+# Below used to grab xumo.tv (5.1 mb xml file) and other sites https://github.com/iptv-org/epg
+npm run grab -- --site=xumo.tv
+npm run grab -- --channels=sites/ontvtonight.com/ontvtonight.com_ca.channels.xml --output=./scripts/ontvtonight.com_ca.channels.xml
+npm run channels:parse --- --config=./sites/ontvtonight.com/ontvtonight.com.config.js --output=./scripts/ontvtonight.com_ca.channels.xml --set=country:ca
+
+# Step 3: Function to run the npm grab command and show real-time output https://github.com/iptv-org/epg/tree/master/sites
+npm run grab --- --channels=channels_custom_start.xml --output ./scripts/channels_custom_end.xml
+npm run grab --- --channels=./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
+
+npm run grab --- --channels=./scripts/_Search_Results/_Channels-grouped-to-sites/dstv.com_channels.xml --output ./scripts/_Search_Results/_Channels-xml-end/dstv.com_channels-end.xml
+
+
+/usr/bin/python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/vpn_iptv_checker.py
+source /Users/kyleabrahams/Documents/GitHub/tv/scripts/venv/bin/activate && python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py >> /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/cron_job.log 2>&1
+# NPM run test
+npm run grab --- --channels=./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channel-custom-start-$(date +%Y%m%d).xml
+
+npm run grab --- --channels=./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channel-test-start-end.xml
+
+# TV Lists
+# Regions all (for all regions)
+# ar (Argentina) br (Brazil) ca (Canada) cl (Chile) de (Germany) dk (Denmark) es (Spain) 
+# fr (France) gb (United Kingdom) mx (Mexico) no (Norway) se (Sweden) us (United States)
+https://tinyurl.com/multiservice21?region=ADD_REGION&service=ADD_SERVICE
+
+https://tinyurl.com/multiservice21?region=ca&service=Plex
+https://tinyurl.com/multiservice21?region=ca&service=Roku
+https://tinyurl.com/multiservice21?region=all&service=SamsungTVPlus
+https://tinyurl.com/multiservice21?region=ca&service=SamsungTVPlus
+https://tinyurl.com/multiservice21?region=us&service=SamsungTVPlus
+https://tinyurl.com/multiservice21?region=ca&service=PlutoTV
+https://tinyurl.com/multiservice21?region=ca&service=PBS
+https://tinyurl.com/multiservice21?region=ca&service=PBSKids
+https://tinyurl.com/multiservice21?region=ca&service=Stirr
+https://tinyurl.com/multiservice21?region=ca&service=Tubi
 
 # Playlist execution
-iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere_$(date +%Y%m%d)"
+iptv-checker /path/to/playlist.m3u -o /path/to/output/directory/ServerNameHere-$(date +%Y%m%d)
+
+# URL check
+iptv-checker /Volumes/Kyle4tb1223/_Android/_M3U/___X/X_plus.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/X_plus-$(date +%Y%m%d)
+
+iptv-checker https://raw.githubcontent.com/mikefoxwell/x_plus/blob/main/X_plus.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/X_plus-$(date +%Y%m%d)
+
+# Local file check
+iptv-checker /Users/kyleabrahams/Documents/___ServersFULL/Steve-Cyprus.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/Steve-Cyprus-1-1mill-$(date +%Y%m%d)
+
+# Specifc expiry check
+iptv-checker /Users/kyleabrahams/Documents/___ServersFULL/extraott-262264-1mill-20250110.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/extraott-20250110
+
+# List.m3u expiry check
+iptv-checker /Users/kyleabrahams/Documents/GitHub/tv/list/list.m3u -o /Users/kyleabrahams/Documents/GitHub/tv/scripts/www
+iptv-checker ./list/list.m3u -o ./scripts/www
+
+# Servers expiry check
+iptv-checker /Users/kyleabrahams/Documents/___ServersFULL/SERVER-EXPIRY-TEST.m3u -o /Users/kyleabrahams/Documents/___ServersFULL/Checked/_SERVERS-1-1mill--$(date +%Y%m%d)
+
+# i.mjh.nz channels.xml updates
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml --set=provider:pluto
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_plex.channels.xml --set=provider:plex
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml --set=provider:samsung
+
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml --set=provider:samsung
+
+npm run channels:parse --- --config=./sites/xumo.tv/xumo.tv.config.js --output=./sites/xumo.tv/xumo.tv.channels.xml
+
+
+npm run channels:parse --- --config=./sites/tvtv.us/tvtv.us.config.js --output=./sites/tvtv.us/tvtv.us.channels.xml
+
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_samsung.channels.xml --set=provider:samsung
 
 ## Tool 2: Playlist-Generator is a utility designed to generate an M3U playlist with a specified range of channel numbers (e.g., 1-100). Its primary purpose is to identify hidden or non-public channels at the server level.
 # Modify the python file below and run it with the command below
@@ -39,8 +131,6 @@ rm -rf node_modules
 ## Step 2: A virtual Python environment may be necessary; run the following command:
 python3 -m venv ~/venv
 source ~/venv/bin/activate
-python3 merge_epg.py
-
 
 ## Step 3: To fully automate the remaining installation, run the following script:
 cd scripts
@@ -53,44 +143,9 @@ python3 uninstall_all.py
 ## Step 4: To manually update the epg.xml file, run the following command:
 cd scripts
 python3 merge_epg.py
-nohup python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py > my_output.log 2>&1 &
-
-# If you want to verify if it's actively running, you can use:
-launchctl status com.kyleabrahams.mergeepg
-
-# If you want to stop or unload the job:
-launchctl bootout user/$(id -u) /Users/kyleabrahams/Library/LaunchAgents/com.kyleabrahams.mergeepg.plist
-
-# If you'd like to reload or restart the job:
-launchctl bootload user/$(id -u) /Users/kyleabrahams/Library/LaunchAgents/com.kyleabrahams.mergeepg.plist
-
 
 ## Step 5: To access the epg.xml file in a web browser, paste the following URL:
 http:/localhost:8080/epg.xml
 
 ## Step 6: To modify the scheduling for the merge_epg.py in crontab (macOS), enter the following command in Terminal:
 crontab -e
-
-https://tinyurl.com/multiservice21?region=ca&service=SamsungTVPlus
-https://tinyurl.com/multiservice21?region=us&service=SamsungTVPlus
-https://tinyurl.com/multiservice21?region=ca&service=Plex
-
-
-npm run channels:parse --- --config=./sites/tvpassport.com/tvpassport.com.config.js --output=./sites/tvpassport.com/tvpassport.com.channels.xml
-
-npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_TEST.xml --output=./_epg-end/channels_custom_end_Test.xml
-
-npm run grab -- --channels=./scripts/_epg-start/channels_custom_start_output.xml --output=./scripts/_epg-end/channels_custom_end_output.xml
-
-# Codespace
-source venv/bin/activate
-
-python3 merge_epg_cs.py
-
-python3 merge_epg_cs.py update update || exit 1
-
-act -W .github/workflows/channel-fetch.yml -j channel-fetch
-
-
-
-https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/www/epg.xml
