@@ -15,9 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout latest repository state
       uses: actions/checkout@v3
       with:
+        ref: main  # Ensure it's the correct branch
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Ensures a full repo history for pushing
 
