@@ -51,5 +51,6 @@ jobs:
       - name: Trigger Run Grab Command workflow
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: "Run Grab Command"  # Name of the workflow to trigger
+          workflow: "run-grab.yml"  # Use the full name of the workflow file here
+          ref: main  # Ensure it's using the main branch
           token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token to trigger the workflow
