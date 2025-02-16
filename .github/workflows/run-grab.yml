@@ -1,7 +1,7 @@
-# run-grab.yml Feb 11 916p
 name: Run Grab Command
 
 on:
+  workflow_dispatch:  # Allow manual triggering
   schedule:
     - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
@@ -15,9 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout latest repository state
       uses: actions/checkout@v3
       with:
+        ref: main  # Ensure it's the correct branch
         token: ${{ secrets.GITHUB_TOKEN }}
         fetch-depth: 0  # Ensures a full repo history for pushing
 
@@ -37,49 +38,10 @@ jobs:
         output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=$GITHUB_WORKSPACE/scripts/_epg-start/channels-test-start.xml --output=${output_file}
-        echo "Grab command finished."
+        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file}
 
-    - name: Verify file exists
-      run: |
-        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
-          echo "✅ EPG file created successfully!"
-        else
-          echo "❌ ERROR: EPG file was not generated!"
-          exit 1
-        fi
-
-    - name: Print current directory
-      run: |
-        echo "Current directory: $(pwd)"
-        ls -la $GITHUB_WORKSPACE/scripts/www/
-
-    - name: Check git status
-      run: |
-        echo "Checking git status..."
-        git status
-
-    - name: Commit and Push epg.xml
-      run: |
-        echo "Checking if epg.xml exists..."
-        if [ -f "$GITHUB_WORKSPACE/scripts/www/epg.xml" ]; then
-          echo "✅ EPG file exists. Preparing to commit and push..."
-
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Ensure Git detects changes
-          git add -f $GITHUB_WORKSPACE/scripts/www/epg.xml
-          git commit -m "Updated epg.xml [$(date)]" --allow-empty
-          
-          # Force push even if Git thinks there are no changes
-          git push --force origin main
-          
-          echo "✅ Successfully pushed epg.xml to main!"
-        else
-          echo "❌ ERROR: epg.xml not found!"
-          exit 1
-        fi
-
-    - name: Print absolute path of the file
-      run: realpath $GITHUB_WORKSPACE/scripts/www/epg.xml || echo "File not found"
+    - name: Upload output file as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: epg-output
+        path: ./scripts/www/epg-test.xml
