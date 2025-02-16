@@ -46,3 +46,10 @@ jobs:
           else
             echo "No changes to push"
           fi
+
+      # Trigger Run Grab Command workflow
+      - name: Trigger Run Grab Command workflow
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: "Run Grab Command"  # Name of the workflow to trigger
+          token: ${{ secrets.GITHUB_TOKEN }}  # Use GitHub token to trigger the workflow
