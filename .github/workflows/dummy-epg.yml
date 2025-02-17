@@ -23,17 +23,20 @@ jobs:
       - name: Install Dependencies
         run: pip install pytz
 
-      - name: List Files Before EPG Script
+      - name: List Files Before Cleanup
         run: |
-          echo "Listing files in _epg-end directory before script run:"
+          echo "Listing files in _epg-end directory before cleanup:"
           ls -la scripts/_epg-end/
-          
-          # List files tracked by git before removing
-          echo "Listing files tracked by git in _epg-end directory:"
-          git ls-files scripts/_epg-end/
+
+      - name: Remove Old EPG Files
+        run: |
+          echo "Removing old EPG files..."
+          find scripts/_epg-end/ -name 'dummy--epg---*.xml' -exec git rm -f {} \;
+          echo "✅ Old EPG files removed."
 
       - name: Run EPG Script
         run: |
+          echo "Generating new EPG file..."
           python3 scripts/dummy_epg.py
 
       - name: List Files After EPG Script
@@ -41,37 +44,19 @@ jobs:
           echo "Listing files in _epg-end directory after script run:"
           ls -la scripts/_epg-end/
 
-          # Check if old EPG files are tracked, and if so, remove them
-          echo "Removing old EPG files from Git repository..."
-          OLD_FILES=$(git ls-files scripts/_epg-end/dummy--epg---*.xml)
-          if [ -n "$OLD_FILES" ]; then
-              # Remove the old EPG files safely (handle spaces and special characters)
-              echo "$OLD_FILES" | xargs -I {} git rm -f "{}"
-              echo "✅ Old EPG files removed: $OLD_FILES"
-          else
-              echo "❌ No old EPG files found to remove."
-          fi
-
-          # Now create the new file
-          python3 scripts/dummy_epg.py
-
-          echo "Listing files in _epg-end directory after script run:"
-          ls -la scripts/_epg-end/
-
-          echo "Searching for new EPG file..."
+      - name: Commit and Push Changes
+        run: |
           NEW_FILE=$(find scripts/_epg-end/ -name 'dummy--epg---*.xml' -print -quit)
 
-          echo "Found file: $NEW_FILE"  # Debugging line to print found file name
-
           if [ -n "$NEW_FILE" ]; then
-              echo "✅ New EPG file exists: $NEW_FILE"
+              echo "✅ New EPG file found: $NEW_FILE"
               git config --global user.name "github-actions[bot]"
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
               git add "$NEW_FILE"
-              git commit -m "Updated EPG file: $NEW_FILE"
+              git commit -m "Updated EPG file: $(basename "$NEW_FILE")"
               git push origin main
               echo "✅ Successfully pushed the new EPG file!"
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
-          fi  # Close the if block here
+          fi
