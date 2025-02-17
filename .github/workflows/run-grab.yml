@@ -36,9 +36,12 @@ jobs:
     - name: Run grab command
       run: |
         output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
+        dummy_folder="$GITHUB_WORKSPACE/scripts/_epg-end"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=${output_file}
+        echo "Dummy Folder: ${dummy_folder}"
+        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file} --dummy-folder=${dummy_folder}
+
 
     - name: Commit new epg.xml to repository
       run: |
