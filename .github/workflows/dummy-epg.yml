@@ -54,7 +54,7 @@ jobs:
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
               
               # Get current UTC time and convert it to Eastern Time
-              ET_TIME=$(TZ="America/Toronto" date +"%Y-%m-%d - %I:%M %p ET")
+              ET_TIME=$(TZ="America/Toronto" date +"%b %d, %Y %I:%M:%S %p ET")
 
               git add "$NEW_FILE"
               git commit -m "Updated EPG file: at $ET_TIME"
