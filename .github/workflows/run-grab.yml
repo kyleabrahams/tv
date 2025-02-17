@@ -30,23 +30,22 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Remove existing epg-test.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
+    - name: Remove existing epg.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
 
     - name: Run grab command
       run: |
-        output_file="$GITHUB_WORKSPACE/scripts/www/epg-test.xml"
-        dummy_folder="$GITHUB_WORKSPACE/scripts/_epg-end"
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
-        echo "Dummy Folder: ${dummy_folder}"
-        npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=${output_file} --dummy-folder=${dummy_folder}
+        npm run grab -- --channels=./scripts/_epg-start/channels-custom-start.xml --output=${output_file}
 
-
-    - name: Commit new epg-test.xml to repository
+    - name: Commit new epg.xml to repository
       run: |
         git config --global user.name "kyleabrahams"
         git config --global user.email "kyleagbc@gmail.com"
-        git add $GITHUB_WORKSPACE/scripts/www/epg-test.xml
-        git commit -m "Update epg-test.xml with latest grab command output"
+        git add $GITHUB_WORKSPACE/scripts/www/epg.xml
+        git commit -m "Update epg.xml with latest grab command output"
         git push origin main
+
+
