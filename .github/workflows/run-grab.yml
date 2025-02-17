@@ -31,11 +31,11 @@ jobs:
       run: npm install
 
     - name: Remove existing epg.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
 
     - name: Run grab command
       run: |
-        output_file="$GITHUB_WORKSPACE/scripts/www/epg.xml"
+        output_file="$GITHUB_WORKSPACE/scripts/www/epg-test.xml"
         dummy_folder="$GITHUB_WORKSPACE/scripts/_epg-end"
         echo "Running grab command..."
         echo "Output file: ${output_file}"
