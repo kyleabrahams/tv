@@ -122,8 +122,9 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     os.makedirs(output_dir, exist_ok=True)
 
     # Get current date and time in 'YYYY-MM-DD-hh-mm-ss AM/PM' format
-    current_datetime = datetime.now().strftime("%Y-%m-%d-%I-%M-%S %p")
-
+    et_tz = pytz.timezone("America/Toronto")
+    current_datetime = datetime.now(et_tz).strftime("%Y-%m-%d-%I-%M-%S %p ET")
+    
     # Define the output file path with current date and time
     output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
 
