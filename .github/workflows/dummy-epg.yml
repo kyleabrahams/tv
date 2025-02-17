@@ -52,11 +52,16 @@ jobs:
               echo "✅ New EPG file found: $NEW_FILE"
               git config --global user.name "github-actions[bot]"
               git config --global user.email "github-actions[bot]@users.noreply.github.com"
+              
+              # Get current UTC time and convert it to Eastern Time
+              ET_TIME=$(TZ="America/Toronto" date +"%Y-%m-%d %I:%M %p ET")
+
               git add "$NEW_FILE"
-              git commit -m "Updated EPG file: $(basename "$NEW_FILE")"
+              git commit -m "Updated EPG file: $(basename "$NEW_FILE") at $ET_TIME"
               git push origin main
               echo "✅ Successfully pushed the new EPG file!"
           else
               echo "❌ ERROR: New EPG file not found!"
               exit 1
           fi
+
