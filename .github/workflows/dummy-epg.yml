@@ -57,7 +57,7 @@ jobs:
               ET_TIME=$(TZ="America/Toronto" date +"%b %d, %Y %I:%M:%S %p ET")
 
               git add "$NEW_FILE"
-              git commit -m "Updated dummy epg file at $ET_TIME"
+              git commit -m "Updated dummy epg file on $ET_TIME"
               git push origin main
               echo "✅ Successfully pushed the new EPG file!"
           else
