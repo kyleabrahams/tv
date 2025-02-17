@@ -4,69 +4,47 @@ import { CronJob } from 'cron'
 import { QueueCreator, Job, ChannelsParser } from '../../core'
 import { Channel } from 'epg-grabber'
 import path from 'path'
+import fs from 'fs'
+import xml2js from 'xml2js'
 import { SITES_DIR } from '../../constants'
 
 program
   .option('-s, --site <name>', 'Name of the site to parse')
-  .option(
-    '-c, --channels <path>',
-    'Path to *.channels.xml file (required if the "--site" attribute is not specified)'
-  )
+  .option('-c, --channels <path>', 'Path to *.channels.xml file')
   .option('-o, --output <path>', 'Path to output file', 'guide.xml')
-  .option('-l, --lang <code>', 'Filter channels by language (ISO 639-2 code)')
-  .option('-t, --timeout <milliseconds>', 'Override the default timeout for each request')
-  .option('-d, --delay <milliseconds>', 'Override the default delay between request')
-  .option('-x, --proxy <url>', 'Use the specified proxy')
-  .option(
-    '--days <days>',
-    'Override the number of days for which the program will be loaded (defaults to the value from the site config)',
-    value => parseInt(value)
-  )
-  .option(
-    '--maxConnections <number>',
-    'Limit on the number of concurrent requests',
-    value => parseInt(value),
-    1
-  )
-  .option('--cron <expression>', 'Schedule a script run (example: "0 0 * * *")')
-  .option('--gzip', 'Create a compressed version of the guide as well', false)
+  .option('-d, --dummy-folder <path>', 'Path to folder containing dummy XML files')
+  .option('--gzip', 'Create a compressed version of the guide', false)
+  .option('--maxConnections <number>', 'Limit on the number of concurrent requests', value => parseInt(value), 1)
+  .option('--cron <expression>', 'Schedule a script run')
   .parse(process.argv)
 
 export type GrabOptions = {
   site?: string
   channels?: string
   output: string
+  dummyFolder?: string
   gzip: boolean
   maxConnections: number
-  timeout?: string
-  delay?: string
-  lang?: string
-  days?: number
   cron?: string
-  proxy?: string
 }
 
 const options: GrabOptions = program.opts()
 
 async function main() {
-  if (!options.site && !options.channels)
-    throw new Error('One of the arguments must be presented: `--site` or `--channels`')
+  if (!options.site && !options.channels) {
+    throw new Error('One of the arguments must be present: `--site` or `--channels`')
+  }
 
   const logger = new Logger()
-
-  logger.start('starting...')
-
-  logger.info('config:')
+  logger.start('Starting grab process...')
   logger.tree(options)
 
-  logger.info('loading channels...')
   const storage = new Storage()
   const parser = new ChannelsParser({ storage })
-
   let files: string[] = []
+
   if (options.site) {
-    let pattern = path.join(SITES_DIR, options.site, '*.channels.xml')
-    pattern = pattern.replace(/\\/g, '/')
+    let pattern = path.join(SITES_DIR, options.site, '*.channels.xml').replace(/\\/g, '/')
     files = await storage.list(pattern)
   } else if (options.channels) {
     files = await storage.list(options.channels)
@@ -76,44 +54,53 @@ async function main() {
   for (const filepath of files) {
     parsedChannels = parsedChannels.concat(await parser.parse(filepath))
   }
-  if (options.lang) {
-    parsedChannels = parsedChannels.filter((channel: Channel) => channel.lang === options.lang)
-  }
-  logger.info(`  found ${parsedChannels.count()} channel(s)`)
 
-  let runIndex = 1
+  if (options.dummyFolder) {
+    const dummyFiles = await storage.list(path.join(options.dummyFolder, 'dummy*.xml'))
+    if (dummyFiles.length > 0) {
+      logger.info(`  Found ${dummyFiles.length} dummy XML file(s) in ${options.dummyFolder}`)
+      for (const file of dummyFiles) {
+        try {
+          const content = fs.readFileSync(file, 'utf-8')
+          const parsedData = await xml2js.parseStringPromise(content)
+          parsedChannels = parsedChannels.concat(parsedData.tv?.channel || [])
+        } catch (error) {
+          logger.error(`Failed to parse ${file}: ${error.message}`)
+        }
+      }
+    } else {
+      logger.warn(`No dummy XML files found in ${options.dummyFolder}`)
+    }
+  }
+
+  logger.info(`  Found ${parsedChannels.count()} channels in total`)
+
   if (options.cron) {
     const cronJob = new CronJob(options.cron, async () => {
-      logger.info(`run #${runIndex}:`)
-      await runJob({ logger, parsedChannels })
-      runIndex++
+      await runJob(logger, parsedChannels)
     })
     cronJob.start()
   } else {
-    logger.info(`run #${runIndex}:`)
-    runJob({ logger, parsedChannels })
+    await runJob(logger, parsedChannels)
   }
 }
 
-main()
-
-async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChannels: Collection }) {
+async function runJob(logger: Logger, parsedChannels: Collection) {
   const timer = new Timer()
   timer.start()
 
-  const queueCreator = new QueueCreator({
-    parsedChannels,
-    logger,
-    options
-  })
+  const queueCreator = new QueueCreator({ parsedChannels, logger, options })
   const queue = await queueCreator.create()
-  const job = new Job({
-    queue,
-    logger,
-    options
-  })
+  const job = new Job({ queue, logger, options })
 
   await job.run()
 
-  logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
+  const builder = new xml2js.Builder()
+  const xmlOutput = builder.buildObject({ tv: { channel: parsedChannels.toArray() } })
+
+  fs.writeFileSync(options.output, xmlOutput, 'utf-8')
+  logger.success(`  Guide saved to ${options.output}`)
+  logger.success(`  Done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
+main().catch(error => console.error(`Error: ${error.message}`))
