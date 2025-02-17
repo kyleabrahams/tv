@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Feb 07 2025 00:12:31 - INFO - Starting EPG merge process...
 Feb 07 2025 00:12:31 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-07-12-12-31 AM.xml
 Feb 07 2025 00:12:32 - INFO - STDOUT: 
@@ -4971,6 +4972,8 @@ Feb 11 2025 15:28:34 - Fetching 2/2 - /Users/kyleabrahams/Documents/GitHub/tv/sc
 Feb 11 2025 15:28:34 - Successfully loaded local file: /Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end/dummy--epg---2025-02-11-03-28-28 PM.xml
 Feb 11 2025 15:28:34 - EPG file successfully saved to /Users/kyleabrahams/Documents/GitHub/tv/scripts/www/epg-test.xml at Feb 11, 2025 03:28:34 PM ET
 =======
+=======
+>>>>>>> Stashed changes
 Feb 06 2025 22:46:16 - INFO - Starting EPG merge process...
 Feb 06 2025 22:46:16 - INFO - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test--2025-02-06-10-46-16 PM.xml
 Feb 06 2025 22:46:17 - INFO - STDOUT: 
@@ -5011,4 +5014,7 @@ Feb 06 2025 22:46:23 - INFO - Successfully loaded local file: /Users/kyleabraham
 Feb 06 2025 22:46:23 - INFO - ✅ EPG file successfully saved to www/epg.xml
 Feb 06 2025 22:46:23 - ERROR - ⚠️ Command failed: git clean -fd
 Error: Command '['git', 'clean', '-fd']' returned non-zero exit status 1.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

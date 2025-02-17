@@ -10,6 +10,7 @@ import re  # For regular expressions
 # Run script
 # chmod +x dummy_epg.sh
 # python3 dummy_epg.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
 
 # Step 1: Function to install packages
 def install_package(package_name):
@@ -37,7 +38,7 @@ def create_epg_xml(num_days=5, programs_per_day=24):
 
     # Step 4.2: Define a dictionary of channels with their IDs and display names
     channels = {
-        "City News 24/7 Toronto": "City News 24/7",
+        "CityNews247Toronto.ca": "City News 24/7",
         # "2": "Channel 2",
         # "3": "Channel 3"
     }
@@ -72,14 +73,14 @@ def create_epg_xml(num_days=5, programs_per_day=24):
                 title_elem = ET.SubElement(programme_elem, "title")
                 title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
 
-                # Conditionally add sub-title for City News 24/7 Toronto
-                if channel_id != "City News 24/7 Toronto":  # Only add sub-title for other channels
+                # Conditionally add sub-title for CityNews247Toronto.ca
+                if channel_id != "CityNews247Toronto.ca":  # Only add sub-title for other channels
                     sub_title_elem = ET.SubElement(programme_elem, "sub-title")
                     sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
 
-                # Custom description for City News 24/7 Toronto
+                # Custom description for CityNews247Toronto.ca
                 desc_elem = ET.SubElement(programme_elem, "desc")
-                if channel_id == "City News 24/7 Toronto":
+                if channel_id == "CityNews247Toronto.ca":
                     desc_elem.text = "Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks."
                 else:
                     desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
