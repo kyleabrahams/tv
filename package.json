@@ -95,10 +95,12 @@
     "nedb-promises": "^6.0.3",
     "node-cleanup": "^2.1.2",
     "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
     "node-gzip": "^1.1.2",
     "numeral": "^2.0.6",
     "pako": "^2.1.0",
     "parse-duration": "^1.0.0",
+    "path": "^0.12.7",
     "pdf-parse": "^1.1.1",
     "sax": "^1.4.1",
     "schedule": "^0.5.0",
@@ -113,7 +115,8 @@
     "unzipit": "^1.4.0",
     "wildcard-match": "^5.1.2",
     "xml-js": "^1.6.11",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "@freearhey/core": "^0.5.1",

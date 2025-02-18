@@ -1,72 +1,176 @@
-import { DummyProvider } from '../../scripts/dummy.js'
 const moment = require('moment');
+const fs = require('fs');
+const xml2js = require('xml2js');
+const fetch = require('node-fetch');
+const yargs = require('yargs');
+const path = require('path');
 
-module.exports = {
-  site: 'dummy.ca',
-  url: 'https://dummyprovider.com',
-  channels: [
-    { id: 'channel1', name: 'Dummy Channel 1', lang: 'en' },
-    { id: 'channel2', name: 'Dummy Channel 2', lang: 'es' }
-  ],
-  parser: DummyProvider.parser,
 
-  // Generate Channels
-  generateChannels() {
-    return [
-      {
-        id: "city-news-247-toronto",
-        displayName: "City News 24/7",
-      },
-      {
-        id: "sportsnet-world",
-        displayName: "SportsNet World",
-      },
-    ];
-  },
+// Retrieve file paths from command-line arguments using yargs
+const argv = yargs(process.argv.slice(2)).options({
+  channels: { type: 'string', demandOption: true, description: 'Path to channels file' },
+  output: { type: 'string', demandOption: true, description: 'Output file path' },
+}).argv;
 
-  // Generate Programs for the next 3 days
-  generatePrograms() {
-    let programs = [];
-    let startDate = moment().startOf('day'); // Set start date to the beginning of today
-    const daysToGenerate = 3; // Generate programs for the next 3 days
+const channelsFilePath = argv.channels; // channels file path from command line
+const outputFilePath = argv.output; // output file path from command line
 
-    for (let day = 0; day < daysToGenerate; day++) {
-      for (let hour = 0; hour < 24; hour++) {
-        // Example for City News 24/7 - You can add more variation here for other channels
-        let startTime = startDate.clone().add(day, 'days').add(hour, 'hours');
-        let endTime = startTime.clone().add(1, 'hours'); // Assuming 1-hour show duration
+// Define types for Channel and Program
+interface Channel {
+  id: string;
+  displayName: string;
+  site: string;
+  lang: string;
+  xmltv_id: string;
+}
 
-        programs.push({
-          start: startTime.format('YYYYMMDDHHmmss -0500'),
-          stop: endTime.format('YYYYMMDDHHmmss -0500'),
-          channel: "city-news-247-toronto",
-          title: `City News 24/7 at ${startTime.format('HH:mm')}`,
-          desc: `Toronto's breaking news, including the latest updates on weather, traffic, TTC, sports, and stocks.`,
-        });
+interface Program {
+  start: string;
+  stop: string;
+  channel: string;
+  title: string;
+  desc: string;
+}
 
-        // Example for SportsNet World - Adding more variety in content
-        if (hour % 2 === 0) {  // Alternate the content based on hour for variety
-          programs.push({
-            start: startTime.format('YYYYMMDDHHmmss -0500'),
-            stop: endTime.format('YYYYMMDDHHmmss -0500'),
-            channel: "sportsnet-world",
-            title: `SportsNet Highlights at ${startTime.format('HH:mm')}`,
-            desc: `Catch up on the latest highlights from around the world, including football, hockey, and more.`,
-          });
-        } else {
-          programs.push({
-            start: startTime.format('YYYYMMDDHHmmss -0500'),
-            stop: endTime.format('YYYYMMDDHHmmss -0500'),
-            channel: "sportsnet-world",
-            title: `Rugby Super League at ${startTime.format('HH:mm')}`,
-            desc: `Watch live coverage of Rugby Super League games, featuring exciting matchups.`,
-          });
-        }
-      }
-    }
+// Function to fetch and parse XML data from the provided URL
+const fetchXmlData = async (url: string): Promise<any> => {
+  try {
+    const response = await fetch(url);
+    const xmlData = await response.text();
 
-    // Add logging here to verify that programs are being generated
-    console.log('Generated Programs:', programs);
-    return programs;
-  },
+    const parser = new xml2js.Parser();
+    const parsedData = await parser.parseStringPromise(xmlData);
+    return parsedData;
+  } catch (error) {
+    console.error("Error fetching or parsing XML data:", error);
+    return null; // Return null in case of an error
+  }
 };
+
+// Parse channels from the input .channels.xml file
+const parseChannelsFile = async (channelsFilePath: string): Promise<Channel[]> => {
+  try {
+    const xmlData = await fs.promises.readFile(channelsFilePath, 'utf-8');
+    const parser = new xml2js.Parser();
+    const parsedData = await parser.parseStringPromise(xmlData);
+
+    return parsedData.channels.channel.map((channel: any) => ({
+      id: channel.site_id[0],
+      displayName: channel.display_name[0],
+      site: channel.site[0],
+      lang: channel.lang[0],
+      xmltv_id: channel.xmltv_id[0] || '',
+    }));
+  } catch (error) {
+    console.error(`Error parsing channels file: ${error.message}`);
+    return [];
+  }
+};
+
+// Generate the URL with the current date for fetching the EPG
+const generateEpGUrl = (channelId: string): string => {
+  const currentDate = moment().format('YYYY-MM-DD-HH-mm-ss'); // Format current date in the required format
+  const baseUrl = 'https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/_epg-end/';
+  return `${baseUrl}${channelId}--epg---${currentDate}.xml`; // Construct the full URL
+};
+
+// Convert Channels to XML
+const generateXmlFromChannels = (channels: Channel[]): string => {
+  const builder = new xml2js.Builder();
+  const xmlObj = {
+    channels: channels.map(channel => ({
+      channel: {
+        site: channel.site,
+        lang: channel.lang,
+        xmltv_id: channel.xmltv_id,
+        site_id: channel.id,
+        display_name: channel.displayName,
+      }
+    })),
+  };
+  return builder.buildObject(xmlObj);
+};
+
+// Convert Programs to XML
+const generateXmlFromPrograms = (programs: Program[]): string => {
+  const builder = new xml2js.Builder();
+  const xmlObj = {
+    programs: programs.map(program => ({
+      program: {
+        start: program.start,
+        stop: program.stop,
+        channel: program.channel,
+        title: program.title,
+        desc: program.desc,
+      }
+    })),
+  };
+  return builder.buildObject(xmlObj);
+};
+
+// Fetch EPG data for each channel concurrently using Promise.all
+const fetchEpGDataForChannels = async (channels: Channel[]): Promise<Program[]> => {
+  let programs: Program[] = [];
+
+  const programPromises = channels.map(async (channel) => {
+    const epgUrl = generateEpGUrl(channel.id);
+    console.log(`Fetching EPG for channel ${channel.displayName} from: ${epgUrl}`);
+
+    try {
+      const epgData = await fetchXmlData(epgUrl);
+
+      if (epgData && epgData.programs && epgData.programs.program) {
+        const programsData = epgData.programs.program.map((program: any) => ({
+          start: program.start[0],
+          stop: program.stop[0],
+          channel: channel.id,
+          title: program.title[0],
+          desc: program.desc[0],
+        }));
+
+        return programsData;
+      } else {
+        console.error(`No program data found for ${channel.displayName}`);
+        return [];
+      }
+    } catch (error) {
+      console.error(`Error fetching EPG for ${channel.displayName}: ${error.message}`);
+      return []; // Return empty array in case of error
+    }
+  });
+
+  const allPrograms = await Promise.all(programPromises);
+  allPrograms.forEach((programList) => programs = programs.concat(programList));
+
+  return programs;
+};
+
+// Generate XML Data and save it to a file
+const generateXmlData = async () => {
+  try {
+    // Parse channels from the input file
+    const channels = await parseChannelsFile(channelsFilePath);
+    if (channels.length === 0) {
+      console.error("No channels found. Exiting.");
+      return;
+    }
+    console.log(`Parsed ${channels.length} channels from ${channelsFilePath}`);
+
+    // Fetch EPG data for the channels
+    const programs = await fetchEpGDataForChannels(channels);
+    console.log(`Fetched ${programs.length} programs for ${channels.length} channels`);
+
+    // Generate XML data for channels and programs
+    const channelsXml = generateXmlFromChannels(channels);
+    const programsXml = generateXmlFromPrograms(programs);
+
+    // Save the generated XML data to the output file
+    fs.writeFileSync(outputFilePath, `${channelsXml}\n${programsXml}`);
+    console.log(`Generated and saved channels and programs as XML to ${outputFilePath}`);
+  } catch (error) {
+    console.error("Error generating XML data:", error);
+  }
+};
+
+// Execute the function to generate and save XML
+generateXmlData();

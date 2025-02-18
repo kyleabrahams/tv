@@ -49,49 +49,52 @@ export type GrabOptions = {
 const options: GrabOptions = program.opts()
 
 async function main() {
-  if (!options.site && !options.channels)
-    throw new Error('One of the arguments must be presented: `--site` or `--channels`')
+  try {
+    if (!options.site && !options.channels)
+      throw new Error('One of the arguments must be presented: `--site` or `--channels`')
 
-  const logger = new Logger()
+    const logger = new Logger()
+    logger.start('starting...')
 
-  logger.start('starting...')
+    logger.info('config:')
+    logger.tree(options)
 
-  logger.info('config:')
-  logger.tree(options)
+    logger.info('loading channels...')
+    const storage = new Storage()
+    const parser = new ChannelsParser({ storage })
 
-  logger.info('loading channels...')
-  const storage = new Storage()
-  const parser = new ChannelsParser({ storage })
+    let files: string[] = []
+    if (options.site) {
+      let pattern = path.join(SITES_DIR, options.site, '*.channels.xml')
+      pattern = pattern.replace(/\\/g, '/')
+      files = await storage.list(pattern)
+    } else if (options.channels) {
+      files = await storage.list(options.channels)
+    }
 
-  let files: string[] = []
-  if (options.site) {
-    let pattern = path.join(SITES_DIR, options.site, '*.channels.xml')
-    pattern = pattern.replace(/\\/g, '/')
-    files = await storage.list(pattern)
-  } else if (options.channels) {
-    files = await storage.list(options.channels)
-  }
+    let parsedChannels = new Collection()
+    for (const filepath of files) {
+      parsedChannels = parsedChannels.concat(await parser.parse(filepath))
+    }
+    if (options.lang) {
+      parsedChannels = parsedChannels.filter((channel: Channel) => channel.lang === options.lang)
+    }
+    logger.info(`  found ${parsedChannels.count()} channel(s)`)
 
-  let parsedChannels = new Collection()
-  for (const filepath of files) {
-    parsedChannels = parsedChannels.concat(await parser.parse(filepath))
-  }
-  if (options.lang) {
-    parsedChannels = parsedChannels.filter((channel: Channel) => channel.lang === options.lang)
-  }
-  logger.info(`  found ${parsedChannels.count()} channel(s)`)
-
-  let runIndex = 1
-  if (options.cron) {
-    const cronJob = new CronJob(options.cron, async () => {
+    let runIndex = 1
+    if (options.cron) {
+      const cronJob = new CronJob(options.cron, async () => {
+        logger.info(`run #${runIndex}:`)
+        await runJob({ logger, parsedChannels })
+        runIndex++
+      })
+      cronJob.start()
+    } else {
       logger.info(`run #${runIndex}:`)
       await runJob({ logger, parsedChannels })
-      runIndex++
-    })
-    cronJob.start()
-  } else {
-    logger.info(`run #${runIndex}:`)
-    runJob({ logger, parsedChannels })
+    }
+  } catch (error) {
+    console.error("An error occurred:", error.message)
   }
 }
 
@@ -106,14 +109,19 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
     logger,
     options
   })
-  const queue = await queueCreator.create()
+  const queue = await queueCreator.create() // Ensure you're creating the queue here
+
+  // Directly use the queue in Job without needing createJob
   const job = new Job({
     queue,
     logger,
     options
   })
 
-  await job.run()
-
-  logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
+  try {
+    await job.run()
+    logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
+  } catch (error) {
+    logger.error(`Job failed with error: ${error.message}`)
+  }
 }
