@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 18 1256p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 18 451p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -842,6 +842,8 @@ http://fl2.moveonjoy.com/STARZ_EDGE/index.m3u8
 http://fl2.moveonjoy.com/STARZ_ENCORE/index.m3u8
 #EXTINF:-1 tvg-id="StarzEncoreActionEast.us" tvg-name="Starz Encore Action" tvg-logo="https://i.ibb.co/cc4Jz3hT/Starz-Encore-Action.png" group-title="Movies",Starz Encore Action 
 http://fl2.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreClassicEast.us" tvg-name="Starz Encore Classic" tvg-logo="https://i.ibb.co/6RC5ZMBs/Starz-Encore-Classic.png" group-title="Classics",Starz Encore Classic 
+http://fl5.moveonjoy.com/STARZ_ENCORE_CLASSIC/index.m3u8
 #EXTINF:-1 tvg-id="StarzEncoreWesternsEast.us" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 
 http://fl2.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
 
