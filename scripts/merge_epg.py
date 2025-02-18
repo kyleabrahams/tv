@@ -426,41 +426,36 @@ for xml_file in extracted_files:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
+
+
 # Step 13: Save the merged EPG file after merging data
 save_path = "www/epg.xml"  # Set your desired save path
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
 
-# Get the current Eastern Time
-# eastern = pytz.timezone('US/Eastern')
-# current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+    # Get the current Eastern Time
+    current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
 
-current_time_et = datetime.now().strftime("%b %d, %Y %H:%M:%S %p")
+    # Step 13: Save the merged EPG/log file and push to Github
+    # Define directories to auto-commit
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    directories_to_commit = [
+        os.path.join(script_dir, "www"),
+        os.path.join(script_dir, "_epg-end")
+    ]
 
+    # Add a check for the "scripts" directory
+    additional_directory = os.path.join(script_dir, "scripts")
+    if os.path.exists(additional_directory):
+        directories_to_commit.append(additional_directory)
 
-# Step 13: Save the merged EPG/log file and push to Github
-# python3 merge_epg.py
+    # Set up logging
+    logging.basicConfig(filename="merge_epg.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Define directories to auto-commit
-script_dir = os.path.dirname(os.path.abspath(__file__))
-directories_to_commit = [
-    os.path.join(script_dir, "www"),
-    os.path.join(script_dir, "_epg-end")
-]
+    # Make sure merged_root exists and is valid
+    # merged_root = ... (Ensure merged_root is created and populated with the merged XML data)
 
-# Add a check for the "scripts" directory
-additional_directory = os.path.join(script_dir, "scripts")
-if os.path.exists(additional_directory):
-    directories_to_commit.append(additional_directory)
-
-# Get the current time for logging and commit messages
-current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
-
-# Set up logging
-logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
-
-try:
     # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
     save_path = os.path.join(script_dir, "www", "epg.xml")
@@ -478,8 +473,9 @@ try:
     # Check if there are uncommitted changes and commit them
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
-        print(f"Uncommitted changes detected. Committing changes with message: Saving uncommitted changes before rebase at {current_time_et} ET")
-        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+        commit_message = f"Saving uncommitted changes before rebase at {current_time_et} ET"
+        print(f"Uncommitted changes detected. Committing changes with message: {commit_message}")
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # Fetch latest changes from the remote repository
     print("Fetching latest changes from the remote repository...")
