@@ -6,21 +6,19 @@ import xml.etree.ElementTree as ET
 import os
 import gzip
 import io
-import subprocess  # Add this import to resolve the error
+import subprocess
 from time import sleep
-import sys # Used for venv_python
+import sys
 from datetime import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
-import re # Count / Log  Channels
-import pytz # Timezone
-# import fcntl
-
+import re
+import pytz
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
-venv_python = sys.executable # Relative path from the script to the virtual environment
+venv_python = sys.executable  # Relative path from the script to the virtual environment
 print(venv_python)
 print("Starting data processing...")
 # your data processing code
@@ -74,53 +72,13 @@ logger.addHandler(file_handler)
 # Log starting message
 logger.info("Starting EPG merge process...")
 
-
-# # Step 1.2: Run this script on schedule
-# import schedule
-
-# def run_script():
-#     logging.info("Script triggered at: " + str(datetime.now()))
-
-#     # Define the directory where the script is located
-#     script_dir = os.path.dirname(os.path.abspath(__file__))
-
-#     # Define the virtual environment's Python path
-#     venv_python = os.path.join(script_dir, 'venv', 'bin', 'python3')
-
-#     # Define the path to the merge_epg.py script
-#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
-
-#     try:
-#         # Run the script using the virtual environment's Python
-#         subprocess.run([venv_python, merge_epg_path], check=True)
-#         logging.info("Script executed successfully.")
-#     except subprocess.CalledProcessError as e:
-#         logging.error(f"Error occurred while running the script: {e}")
-#     except Exception as e:
-#         logging.error(f"Unexpected error: {e}")
-
-# def schedule_script():
-#     logging.info("Scheduler is running...")
-#     print("Scheduler is running and waiting for tasks...")
-#     # Schedule the script to run at 1:15 AM and 1:00 PM
-#     schedule.every().day.at("01:21").do(run_script)
-#     schedule.every().day.at("13:00").do(run_script)
-
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(1)  # Check every second for pending tasks
-
-# if __name__ == "__main__":
-#     schedule_script()
-
 # Step 2.1: Function to run dummy_epg.py script
 def run_dummy_epg():
     """Runs the dummy EPG generation script."""
     try:
         # Define paths
-        script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
         dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
-        venv_python = os.path.join(sys.prefix, "bin", "python3")
+        # venv_python = os.path.join(sys.prefix, "bin", "python3")
 
         # Debugging: Print paths
         print(f"dummy_epg_path: {dummy_epg_path}")
@@ -147,35 +105,39 @@ def run_dummy_epg():
 if __name__ == "__main__":
     run_dummy_epg()
 
-# Step 2.2: Function to load channel data from a JSON file (  channels.json  )
-# Include channels_json.xml in epg_urls.txt 
-# python3 merge_epg.py
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
 
+# Step 3. NPM run grab channels
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
+    
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+         # f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+         # f"--output=./scripts/_epg-end/channels-custom-{current_datetime.xml"]
+
+         # f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+         # f"--output=./scripts/_epg-end/channels-custom-end.xml"]
 
          f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-         f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
+         f"--output=./scripts/_epg-end/channels-test-end.xml"]
 
         #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
 
     ]
+
+    
     # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
+    
     # Delete all older files except the latest one
     try:
         for file_name in os.listdir(output_dir):
             file_path = os.path.join(output_dir, file_name)
 
-            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
+            # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
             if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
                 os.remove(file_path)
                 print(f"Old file {file_path} deleted.")
@@ -226,6 +188,7 @@ def run_npm_grab():
                         logger.info(f"Found {channel_count} channel(s) in the output.")
                         print(f"Found {channel_count} channel(s) in the output.")
                         break  # Stop after the first match
+
             else:
                 logger.error(f"Command {command_str} failed with error code {process.returncode}.")
                 print(f"Command {command_str} failed with error code {process.returncode}.")
@@ -236,9 +199,7 @@ def run_npm_grab():
 
 # Run the process
 if __name__ == "__main__":
-    run_npm_grab()    
-
-
+    run_npm_grab()
 
 # Step 4: Main merge_epg function
 def merge_epg_data():
@@ -402,17 +363,21 @@ def extract_gz_files(gz_directory):
 
 # Step 10: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
-total_files = len(epg_urls)
 
+channel_elements = []
+programme_elements = []
+total_files = len(epg_urls)
 
 # Step 11: Process each EPG URL
 for index, url in enumerate(epg_urls):
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
         for element in epg_tree.getroot():
-            merged_root.append(element)
+            if element.tag == "channel":
+                channel_elements.append(element)  # Collect channels separately
+            else:
+                programme_elements.append(element)  # Collect programmes separately
     sleep(0.5)  # Small delay to simulate and visualize progress
-
 
 # Step 12: Extract XML from .gz files
 print("Extracting XML from .gz files...")
@@ -421,43 +386,36 @@ for xml_file in extracted_files:
     try:
         epg_tree = ET.parse(xml_file)
         for element in epg_tree.getroot():
-            merged_root.append(element)
+            if element.tag == "channel":
+                channel_elements.append(element)
+            else:
+                programme_elements.append(element)
     except ET.ParseError as e:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
+# Step 13: Append channels first, then programmes
+for channel in channel_elements:
+    merged_root.append(channel)
 
-# Get the current Eastern Time
-eastern = pytz.timezone('US/Eastern')
-current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+for programme in programme_elements:
+    merged_root.append(programme)
 
-
-# Step 13: Save the merged EPG/log file and push to Github
-# python3 merge_epg.py
-
-# Define directories to auto-commit
-script_dir = os.path.dirname(os.path.abspath(__file__))
-directories_to_commit = [
-    os.path.join(script_dir, "www"),
-    os.path.join(script_dir, "_epg-end")
-]
- 
-# Add a check for the "scripts" directory
-additional_directory = os.path.join(script_dir, "scripts")
-if os.path.exists(additional_directory):
-    directories_to_commit.append(additional_directory)
-
-# Get the current time for logging and commit messages
-current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
-
-# Set up logging
-logging.basicConfig(filename="merge_epg.log", level=logging.INFO)
-
+# Step 14: Save the merged EPG file after merging data
+save_path = os.path.join(script_dir, "www", "epg-test.xml")
 try:
+    save_dir = os.path.dirname(save_path)
+    os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
+
     # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
-    save_path = os.path.join(script_dir, "www", "epg-test.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
+
+    print(f"EPG file successfully saved to {save_path}")
+
+except Exception as e:
+    print(f"An unexpected error occurred - {str(e)}")
+
 
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
@@ -471,8 +429,9 @@ try:
     # Check if there are uncommitted changes and commit them
     result = subprocess.run(["git", "diff-index", "--quiet", "HEAD"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     if result.returncode != 0:  # If there are uncommitted changes
-        print(f"Uncommitted changes detected. Committing changes with message: Saving uncommitted changes before rebase at {current_time_et} ET")
-        subprocess.run(["git", "commit", "-m", f"Saving uncommitted changes before rebase at {current_time_et} ET"], check=True)
+        commit_message = f"Saving uncommitted changes before rebase at {current_time_et} ET"
+        print(f"Uncommitted changes detected. Committing changes with message: {commit_message}")
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
 
     # Fetch latest changes from the remote repository
     print("Fetching latest changes from the remote repository...")
