@@ -114,38 +114,38 @@ logger.info("Starting EPG merge process...")
 #     schedule_script()
 
 # Step 2.1: Function to run dummy_epg.py script
-def run_dummy_epg():
-    """Runs the dummy EPG generation script."""
-    try:
-        # Define paths
-        script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
-        dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
-        venv_python = os.path.join(sys.prefix, "bin", "python3")
+# def run_dummy_epg():
+#     """Runs the dummy EPG generation script."""
+#     try:
+#         # Define paths
+#         script_dir = os.path.dirname(os.path.realpath(__file__))  # Current script directory
+#         dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
+#         venv_python = os.path.join(sys.prefix, "bin", "python3")
 
-        # Debugging: Print paths
-        print(f"dummy_epg_path: {dummy_epg_path}")
-        print(f"venv_python: {venv_python}")
+#         # Debugging: Print paths
+#         print(f"dummy_epg_path: {dummy_epg_path}")
+#         print(f"venv_python: {venv_python}")
 
-        # Run the dummy_epg.py script
-        result = subprocess.run(
-            [venv_python, dummy_epg_path],
-            check=True,
-            capture_output=True,
-            text=True
-        )
+#         # Run the dummy_epg.py script
+#         result = subprocess.run(
+#             [venv_python, dummy_epg_path],
+#             check=True,
+#             capture_output=True,
+#             text=True
+#         )
 
-        # Output success
-        print("dummy_epg.py executed successfully")
-        print(result.stdout)  # Output from dummy_epg.py
+#         # Output success
+#         print("dummy_epg.py executed successfully")
+#         print(result.stdout)  # Output from dummy_epg.py
 
-    except subprocess.CalledProcessError as e:
-        # Output error
-        print(f"Error while running dummy_epg.py: {e}")
-        print(e.stderr)
+#     except subprocess.CalledProcessError as e:
+#         # Output error
+#         print(f"Error while running dummy_epg.py: {e}")
+#         print(e.stderr)
 
-# Run dummy_epg.py
-if __name__ == "__main__":
-    run_dummy_epg()
+# # Run dummy_epg.py
+# if __name__ == "__main__":
+#     run_dummy_epg()
 
 # Step 2.2: Function to load channel data from a JSON file (  channels.json  )
 # Include channels_json.xml in epg_urls.txt 
