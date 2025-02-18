@@ -2,6 +2,9 @@ name: Run merge_epg.py
 
 on:
   workflow_dispatch:  # Allow manual triggering
+  push:  # Trigger on push events
+    branches:
+      - main  # Adjust if you want other branches
   #schedule:
     #- cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     #- cron: '0 18 * * *'  # 1 PM ET every day UTC +5
@@ -26,10 +29,10 @@ jobs:
         python-version: '3.8'
 
     # Configure Git user
-    - name: Configure Git user
-      run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+    #- name: Configure Git user
+      #run: |
+        #git config --global user.email "you@example.com"
+        #git config --global user.name "Your Name"
 
     # Install dependencies from requirements.txt
     - name: Install dependencies
@@ -37,6 +40,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
         npm install @freearhey/core
+        
+    # Delete existing epg-test.xml
+    - name: Remove existing epg-test.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
 
     # Delete old dummy EPG files before committing
     - name: Delete old dummy EPG files
@@ -62,8 +69,8 @@ jobs:
     # Run merge_epg.py script
     - name: Run merge_epg.py script
       run: |
-        python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
-        # python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
+        # python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
+        python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
     
     # List files after running the script
     - name: List files after script
@@ -75,7 +82,7 @@ jobs:
         if [ -f ./scripts/_epg-end/channels-test-end.xml ]; then
           git add ./scripts/_epg-end/*  # Adds generated XML and any other changes in _epg-end
           git add ./scripts/www/merge_epg.log  # Stages modified log file
-          git add ./scripts/www/epg.xml  # Stages untracked epg.xml file
+          git add ./scripts/www/epg-test.xml  # Stages untracked epg-test.xml file
           git commit -m "Update generated EPG file and related changes"
           git push
         else
