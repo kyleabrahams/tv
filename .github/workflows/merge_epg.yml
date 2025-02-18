@@ -45,8 +45,13 @@ jobs:
     # Commit and push the changes to the repository
     - name: Commit and push generated files
       run: |
-        git add ./scripts/_epg-end/channels-test-end.xml
-        git commit -m "Update generated EPG file"
-        git push
+        if [ -f ./scripts/_epg-end/channels-test-end.xml ]; then
+          git add ./scripts/_epg-end/channels-test-end.xml
+          git commit -m "Update generated EPG file"
+          git push
+        else
+          echo "File not found: ./scripts/_epg-end/channels-test-end.xml"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
