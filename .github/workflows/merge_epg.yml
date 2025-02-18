@@ -50,8 +50,6 @@ jobs:
           fi
         done
 
-
-
     # Ensure the directory exists
     - name: Create directory if it doesn't exist
       run: |
@@ -75,13 +73,13 @@ jobs:
     - name: Commit and push generated files
       run: |
         if [ -f ./scripts/_epg-end/channels-test-end.xml ]; then
-          git add ./scripts/_epg-end/*
-          git add ./scripts/_epg-end/channels-test-end.xml
-          git commit -m "Update generated EPG file"
+          git add ./scripts/_epg-end/*  # Adds generated XML and any other changes in _epg-end
+          git add ./scripts/www/merge_epg.log  # Stages modified log file
+          git add ./scripts/www/epg.xml  # Stages untracked epg.xml file
+          git commit -m "Update generated EPG file and related changes"
           git push
         else
           echo "File not found: ./scripts/_epg-end/channels-test-end.xml"
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
