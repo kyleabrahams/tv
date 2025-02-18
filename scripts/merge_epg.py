@@ -6,21 +6,19 @@ import xml.etree.ElementTree as ET
 import os
 import gzip
 import io
-import subprocess  # Add this import to resolve the error
+import subprocess
 from time import sleep
-import sys # Used for venv_python
+import sys
 from datetime import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
-import re # Count / Log  Channels
-import pytz # Timezone
-# import fcntl
-
+import re
+import pytz
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
-venv_python = sys.executable # Relative path from the script to the virtual environment
+venv_python = sys.executable  # Relative path from the script to the virtual environment
 print(venv_python)
 print("Starting data processing...")
 # your data processing code
@@ -74,33 +72,27 @@ logger.addHandler(file_handler)
 # Log starting message
 logger.info("Starting EPG merge process...")
 
-)
-
 # Step 1. NPM run grab channels
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
+    
     # List of npm commands with timestamped output file
     commands = [
         ["npm", "run", "grab", "--", 
-         # f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-         # f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
-
          f"--channels=./scripts/_epg-start/channels-test-start.xml", 
          f"--output=./scripts/_epg-end/channels-test-{current_datetime}.xml"]
-
-        #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
-
     ]
-# Set the output directory for deleting old files
+    
+    # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
+    
     # Delete all older files except the latest one
     try:
         for file_name in os.listdir(output_dir):
             file_path = os.path.join(output_dir, file_name)
 
-            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
+            # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
             if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
                 os.remove(file_path)
                 print(f"Old file {file_path} deleted.")
@@ -163,8 +155,19 @@ def run_npm_grab():
             logger.error(f"Error while running npm command {command_str}: {e}")
             print(f"Error while running npm command {command_str}: {e}")
 
+# Define the function for staging files after successful execution
+def stage_channels_test_end_file():
+    staged_file = os.path.join(script_dir, '_epg-end', 'staged_channels-test-end.xml')
+    final_file = os.path.join(script_dir, '_epg-end', 'channels-test-end.xml')
+    
+    try:
+        os.rename(staged_file, final_file)
+        logger.info(f"File {staged_file} successfully renamed to {final_file}.")
+        print(f"File {staged_file} successfully renamed to {final_file}.")
+    except Exception as e:
+        logger.error(f"Error renaming file {staged_file}: {e}")
+        print(f"Error renaming file {staged_file}: {e}")
+
 # Run the process
 if __name__ == "__main__":
     run_npm_grab()
-
-
