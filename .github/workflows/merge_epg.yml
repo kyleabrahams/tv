@@ -1,0 +1,36 @@
+name: Run merge_epg.py
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run_merge_epg_script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Set up Python
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+
+    # Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Ensure you have a requirements.txt with necessary dependencies
+
+    # Run the merge_epg.py script
+    - name: Run merge_epg.py script
+      run: |
+        python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
