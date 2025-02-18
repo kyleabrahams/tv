@@ -152,6 +152,31 @@ logger.info("Starting EPG merge process...")
 # python3 merge_epg.py
 # python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
 
+def stage_channels_test_end_file():
+    # Define the source and destination paths for staging the file
+    source_path = "./scripts/_epg-end/channels-test-*.xml"  # Using a wildcard to match the most recent file
+    destination_path = "./scripts/_epg-end/staged_channels-test-end.xml"
+
+    # Find the most recent file with the timestamped name
+    try:
+        source_files = sorted(
+            [f for f in os.listdir("./scripts/_epg-end") if f.startswith("channels-test-")],
+            key=lambda x: os.path.getmtime(os.path.join("./scripts/_epg-end", x)),
+            reverse=True
+        )
+        if source_files:
+            source_path = os.path.join("./scripts/_epg-end", source_files[0])
+            # Move or rename the file to the staging location
+            os.rename(source_path, destination_path)
+            logger.info(f"Staged {source_path} to {destination_path}")
+            print(f"Staged {source_path} to {destination_path}")
+        else:
+            logger.warning("No channel test files found to stage.")
+            print("No channel test files found to stage.")
+    except Exception as e:
+        logger.error(f"Error staging channels-test-end.xml: {e}")
+        print(f"Error staging channels-test-end.xml: {e}")
+
 def run_npm_grab():
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
@@ -168,7 +193,7 @@ def run_npm_grab():
         #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
 
     ]
-    # Set the output directory for deleting old files
+# Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
     # Delete all older files except the latest one
     try:
@@ -226,6 +251,10 @@ def run_npm_grab():
                         logger.info(f"Found {channel_count} channel(s) in the output.")
                         print(f"Found {channel_count} channel(s) in the output.")
                         break  # Stop after the first match
+
+                # Stage the file after successful command execution
+                stage_channels_test_end_file()
+
             else:
                 logger.error(f"Command {command_str} failed with error code {process.returncode}.")
                 print(f"Command {command_str} failed with error code {process.returncode}.")
@@ -236,7 +265,7 @@ def run_npm_grab():
 
 # Run the process
 if __name__ == "__main__":
-    run_npm_grab()    
+    run_npm_grab()
 
 
 
