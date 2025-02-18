@@ -49,6 +49,7 @@ jobs:
     # Run merge_epg.py script
     - name: Run merge_epg.py script
       run: |
+        # python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
         python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
     
     # List files after running the script
