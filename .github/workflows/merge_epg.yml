@@ -1,13 +1,14 @@
 name: Run merge_epg.py
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:  # Enables manual trigger
+  workflow_dispatch:  # Allow manual triggering
+  schedule:
+    - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
+    - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
+
+concurrency:
+  group: "merge_epg"
+  cancel-in-progress: true  # If another instance is running, cancel it
 
 jobs:
   run_merge_epg_script:
