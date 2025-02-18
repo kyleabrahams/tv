@@ -7050,3 +7050,38 @@ Feb 18 2025 23:39:06 - Command npm run grab -- --channels=./scripts/_epg-start/c
 Feb 18 2025 23:39:06 - Found 2 channel(s) in the output.
 Feb 18 2025 23:39:06 - Fetching 1/1 - /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
 Feb 18 2025 23:39:06 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
+Feb 18 2025 23:41:17 - Starting EPG merge process...
+Feb 18 2025 23:41:17 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:41:18 - STDOUT: 
+Feb 18 2025 23:41:18 - STDOUT: > grab
+Feb 18 2025 23:41:18 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:41:18 - STDOUT: 
+Feb 18 2025 23:41:19 - STDOUT: starting...
+Feb 18 2025 23:41:19 - STDOUT: config:
+Feb 18 2025 23:41:19 - STDOUT: output: ./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:41:19 - STDOUT: maxConnections: 1
+Feb 18 2025 23:41:19 - STDOUT: gzip: false
+Feb 18 2025 23:41:19 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 18 2025 23:41:19 - STDOUT: loading channels...
+Feb 18 2025 23:41:19 - STDOUT: found 2 channel(s)
+Feb 18 2025 23:41:19 - STDOUT: run #1:
+Feb 18 2025 23:41:19 - STDERR: /home/runner/work/tv/tv/sites/dummy.ca/dummy.ca.config.js:19
+Feb 18 2025 23:41:19 - STDERR: interface Channel {
+Feb 18 2025 23:41:19 - STDERR: ^^^^^^^
+Feb 18 2025 23:41:19 - STDERR: 
+Feb 18 2025 23:41:19 - STDERR: SyntaxError: Unexpected identifier 'Channel'
+Feb 18 2025 23:41:19 - STDERR: at wrapSafe (node:internal/modules/cjs/loader:1378:20)
+Feb 18 2025 23:41:19 - STDERR: at Module._compile (node:internal/modules/cjs/loader:1428:41)
+Feb 18 2025 23:41:19 - STDERR: at Object.transformer (/home/runner/work/tv/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:2:1186)
+Feb 18 2025 23:41:19 - STDERR: at Module.load (node:internal/modules/cjs/loader:1288:32)
+Feb 18 2025 23:41:19 - STDERR: at Module._load (node:internal/modules/cjs/loader:1104:12)
+Feb 18 2025 23:41:19 - STDERR: at cjsLoader (node:internal/modules/esm/translators:346:17)
+Feb 18 2025 23:41:19 - STDERR: at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:286:7)
+Feb 18 2025 23:41:19 - STDERR: at ModuleJob.run (node:internal/modules/esm/module_job:234:25)
+Feb 18 2025 23:41:19 - STDERR: at async ModuleLoader.import (node:internal/modules/esm/loader:473:24)
+Feb 18 2025 23:41:19 - STDERR: at async ConfigLoader.load (/home/runner/work/tv/tv/scripts/core/configLoader.ts:8:21)
+Feb 18 2025 23:41:19 - STDERR: 
+Feb 18 2025 23:41:19 - STDERR: Node.js v20.18.2
+Feb 18 2025 23:41:19 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml failed with error code 1.
+Feb 18 2025 23:41:19 - Fetching 1/1 - /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
+Feb 18 2025 23:41:19 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
