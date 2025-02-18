@@ -10,7 +10,7 @@ nginx_uninstall_backups/
 # Ignore .m3u files
 scripts/www/*.m3u
 # Ignore xml files here
-scripts/_epg-end/*.xml
+# scripts/_epg-end/*.xml
 .DS_Store
 # scripts/_alive
 alive.py
