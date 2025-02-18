@@ -31,7 +31,7 @@ jobs:
     # Configure Git user
     - name: Configure Git user
       run: |
-        git config --global user.email "kyleagbc#gmail.com"
+        git config --global user.email "kyleagbc@gmail.com"
         git config --global user.name "kyleabrahams"
 
     # Install dependencies from requirements.txt
@@ -52,11 +52,6 @@ jobs:
     # Delete existing epg-test.xml
     - name: Remove existing epg-test.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
-
-    # Ensure the directory exists
-    - name: Create directory if it doesn't exist
-      run: |
-        mkdir -p ./scripts/_epg-end
     
     # List the contents before and after the process
     - name: List files before script
