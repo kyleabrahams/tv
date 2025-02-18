@@ -433,8 +433,10 @@ try:
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
 
 # Get the current Eastern Time
-eastern = pytz.timezone('US/Eastern')
-current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+# eastern = pytz.timezone('US/Eastern')
+# current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
+
+current_time_et = datetime.now.strftime("%b %d, %Y %H:%M:%S %p")
 
 
 # Step 13: Save the merged EPG/log file and push to Github
