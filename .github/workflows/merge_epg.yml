@@ -2,9 +2,9 @@ name: Run merge_epg.py
 
 on:
   workflow_dispatch:  # Allow manual triggering
-  push:  # Trigger on push events
-    branches:
-      - main  # Adjust if you want other branches
+  # push:  # Trigger on push events
+    # branches:
+      # - main  # Adjust if you want other branches
   #schedule:
     #- cron: '0 6 * * *'  # 1 AM ET every day UTC +5
     #- cron: '0 18 * * *'  # 1 PM ET every day UTC +5
@@ -31,7 +31,7 @@ jobs:
     # Configure Git user
     - name: Configure Git user
       run: |
-        git config --global user.email "kyleagbc#gmail.com"
+        git config --global user.email "kyleagbc@gmail.com"
         git config --global user.name "kyleabrahams"
 
     # Install dependencies from requirements.txt
@@ -51,22 +51,24 @@ jobs:
 
     # Delete existing epg.xml
     - name: Remove existing epg.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
-
-    # Ensure the directory exists
-    - name: Create directory if it doesn't exist
       run: |
-        mkdir -p ./scripts/_epg-end
+        if [ -f $GITHUB_WORKSPACE/scripts/www/epg.xml ]; then
+          rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
+          echo "epg.xml removed"
+        else
+          echo "epg.xml not found"
+        fi
+
     
     # List the contents before and after the process
     - name: List files before script
       run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
     
     # Run merge_epg.py script
-    - name: Run merge_epg-test.py script
+    - name: Run merge_epg.py script
       run: |
         python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
-        # python scripts/merge_epg-test.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
+        # python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
     
     # List files after running the script
     - name: List files after script
@@ -75,14 +77,14 @@ jobs:
     # Commit and push the changes to the repository
     - name: Commit and push generated files
       run: |
-        if [ -f ./scripts/_epg-end/channels-custom-end.xml ]; then
-          git add ./scripts/_epg-end/*  # Adds generated XML and any other changes in _epg-end
-          git add ./scripts/www/merge_epg.log  # Stages modified log file
-          git add ./scripts/www/epg.xml  # Stages untracked epg.xml file
+        git status
+        if [ -n "$(git status --porcelain)" ]; then
+          git add ./scripts/_epg-end/* ./scripts/www/merge_epg.log ./scripts/www/epg.xml
           git commit -m "Update generated EPG file and related changes"
           git push
         else
-          echo "File not found: ./scripts/_epg-end/channels-custom-end.xml"
+          echo "No changes to commit"
         fi
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
