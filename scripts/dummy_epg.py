@@ -129,27 +129,32 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     # Define the output file path with current date and time
     output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
 
-    # Step 6.4: Delete all older files except the latest one
+# Step 6.4: Delete all older files except the latest one
+ def delete_old_epg_files(repo_dir, latest_file):
+    """
+    Delete all older 'dummy--epg---*.xml' files from the repository except the latest one.
+    
+    :param repo_dir: The root directory of the repository
+    :param latest_file: The latest generated EPG file
+    """
     try:
-        for file_name in os.listdir(output_dir):
-            file_path = os.path.join(output_dir, file_name)
-
-            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
-            if file_name.startswith("dummy-") and file_name != f"dummy-{current_datetime}.xml":
-                os.remove(file_path)
-                print(f"Old file {file_path} deleted.")
+        for root, _, files in os.walk(repo_dir):
+            for file_name in files:
+                if file_name.startswith("dummy--epg---") and file_name.endswith(".xml"):
+                    file_path = os.path.join(root, file_name)
+                    if file_name != os.path.basename(latest_file):  # Keep the latest file
+                        os.remove(file_path)
+                        print(f"Deleted old EPG file: {file_path}")
     except Exception as e:
         print(f"Error deleting old files: {e}")
 
-    # Step 6.5: Save the new EPG XML to the file
-    try:
-        with open(output_file_path, "w", encoding="UTF-8") as xml_file:
-            xml_file.write(pretty_xml)
-        print(f"EPG data saved to {output_file_path}")
-        return output_file_path
-    except Exception as e:
-        print(f"Error saving EPG data: {e}")
-        sys.exit(1)                                
+# Get your repository path (update it if needed)
+repo_directory = "/Users/kyleabrahams/Documents/GitHub/tv"
+
+# Save the latest EPG XML file and delete older ones from the repo
+latest_file_path = save_epg_to_file(num_days=5, programs_per_day=24)
+delete_old_epg_files(repo_directory, latest_file_path)
+                              
 
 # Step 7: Run the function to generate and save the EPG XML
 save_epg_to_file(num_days=5, programs_per_day=24)
