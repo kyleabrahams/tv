@@ -24,11 +24,11 @@ jobs:
       with:
         python-version: '3.8'
 
+    # Configure Git user
     - name: Configure Git user
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-
 
     # Install dependencies from requirements.txt
     - name: Install dependencies
@@ -41,3 +41,12 @@ jobs:
     - name: Run merge_epg.py script
       run: |
         python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
+
+    # Commit and push the changes to the repository
+    - name: Commit and push generated files
+      run: |
+        git add ./scripts/_epg-end/channels-test-end.xml
+        git commit -m "Update generated EPG file"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
