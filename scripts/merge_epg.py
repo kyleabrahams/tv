@@ -436,7 +436,7 @@ try:
 # eastern = pytz.timezone('US/Eastern')
 # current_time_et = datetime.now(eastern).strftime("%b %d, %Y %H:%M:%S %p")
 
-current_time_et = datetime.now.strftime("%b %d, %Y %H:%M:%S %p")
+current_time_et = datetime.now().strftime("%b %d, %Y %H:%M:%S %p")
 
 
 # Step 13: Save the merged EPG/log file and push to Github
