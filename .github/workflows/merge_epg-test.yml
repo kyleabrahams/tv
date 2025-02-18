@@ -51,7 +51,14 @@ jobs:
 
     # Delete existing epg-test.xml
     - name: Remove existing epg-test.xml
-      run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
+      run: |
+        if [ -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml ]; then
+          rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
+          echo "epg-test.xml removed"
+        else
+          echo "epg-test.xml not found"
+        fi
+
     
     # List the contents before and after the process
     - name: List files before script
@@ -70,14 +77,14 @@ jobs:
     # Commit and push the changes to the repository
     - name: Commit and push generated files
       run: |
-        if [ -f ./scripts/_epg-end/channels-test-end.xml ]; then
-          git add ./scripts/_epg-end/*  # Adds generated XML and any other changes in _epg-end
-          git add ./scripts/www/merge_epg.log  # Stages modified log file
-          git add ./scripts/www/epg-test.xml  # Stages untracked epg-test.xml file
+        git status
+        if [ -n "$(git status --porcelain)" ]; then
+          git add ./scripts/_epg-end/* ./scripts/www/merge_epg.log ./scripts/www/epg-test.xml
           git commit -m "Update generated EPG file and related changes"
           git push
         else
-          echo "File not found: ./scripts/_epg-end/channels-test-end.xml"
+          echo "No changes to commit"
         fi
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
