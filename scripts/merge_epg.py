@@ -360,17 +360,21 @@ def extract_gz_files(gz_directory):
 
 # Step 10: Merge EPG data into a single XML
 merged_root = ET.Element("tv")
-total_files = len(epg_urls)
 
+channel_elements = []
+programme_elements = []
+total_files = len(epg_urls)
 
 # Step 11: Process each EPG URL
 for index, url in enumerate(epg_urls):
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
         for element in epg_tree.getroot():
-            merged_root.append(element)
+            if element.tag == "channel":
+                channel_elements.append(element)  # Collect channels separately
+            else:
+                programme_elements.append(element)  # Collect programmes separately
     sleep(0.5)  # Small delay to simulate and visualize progress
-
 
 # Step 12: Extract XML from .gz files
 print("Extracting XML from .gz files...")
@@ -379,45 +383,36 @@ for xml_file in extracted_files:
     try:
         epg_tree = ET.parse(xml_file)
         for element in epg_tree.getroot():
-            merged_root.append(element)
+            if element.tag == "channel":
+                channel_elements.append(element)
+            else:
+                programme_elements.append(element)
     except ET.ParseError as e:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
+# Step 13: Append channels first, then programmes
+for channel in channel_elements:
+    merged_root.append(channel)
 
+for programme in programme_elements:
+    merged_root.append(programme)
 
-# Step 13: Save the merged EPG file after merging data
-save_path = "www/epg.xml"  # Set your desired save path
+# Step 14: Save the merged EPG file after merging data
+save_path = os.path.join(script_dir, "www", "epg.xml")
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
 
-    # Get the current Eastern Time
-    current_time_et = datetime.now().strftime("%b %d, %Y %I:%M:%S %p")
-
-    # Step 13: Save the merged EPG/log file and push to Github
-    # Define directories to auto-commit
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    directories_to_commit = [
-        os.path.join(script_dir, "www"),
-        os.path.join(script_dir, "_epg-end")
-    ]
-
-    # Add a check for the "scripts" directory
-    additional_directory = os.path.join(script_dir, "scripts")
-    if os.path.exists(additional_directory):
-        directories_to_commit.append(additional_directory)
-
-    # Set up logging
-    logging.basicConfig(filename="merge_epg.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-    # Make sure merged_root exists and is valid
-    # merged_root = ... (Ensure merged_root is created and populated with the merged XML data)
-
     # Create the merged XML file
     merged_tree = ET.ElementTree(merged_root)
-    save_path = os.path.join(script_dir, "www", "epg.xml")
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
+
+    print(f"EPG file successfully saved to {save_path}")
+
+except Exception as e:
+    print(f"An unexpected error occurred - {str(e)}")
+
 
     # Log success message
     success_message = f"EPG file successfully saved to {save_path} at {current_time_et} ET"
