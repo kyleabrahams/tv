@@ -123,11 +123,12 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
     os.makedirs(output_dir, exist_ok=True)
 
     # Get current date and time in 'YYYY-MM-DD-hh-mm-ss AM/PM' format
-    et_tz = pytz.timezone("America/Toronto")
-    current_datetime = datetime.now(et_tz).strftime("%Y-%m-%d-%I-%M-%S %p")
-    
+    # et_tz = pytz.timezone("America/Toronto")
+    # current_datetime = datetime.now(et_tz).strftime("%Y-%m-%d-%I-%M-%S %p")
+    # output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
+
     # Define the output file path with current date and time
-    output_file_path = os.path.join(output_dir, f"dummy--epg---{current_datetime}.xml")
+    output_file_path = os.path.join(output_dir, f"dummy--epg---end.xml")
 
     # Save the pretty XML to the file
     with open(output_file_path, "w") as f:
@@ -139,7 +140,9 @@ def save_epg_to_file(num_days=5, programs_per_day=24):
 # Step 6.4: Delete all older files except the latest one
 def delete_old_epg_files(repo_dir, latest_file):
     """
-    Delete all older 'dummy--epg---*.xml' files from the repository except the latest one.
+    # Delete all older 'dummy--epg---*.xml' files from the repository except the latest one.
+    Delete all older 'dummy--epg---end.xml' files from the repository except the latest one.
+
     
     :param repo_dir: The root directory of the repository
     :param latest_file: The latest generated EPG file
