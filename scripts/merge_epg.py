@@ -256,7 +256,7 @@ if not epg_urls:
 print("EPG URLs or local XML files found:", epg_urls)
 
 # Step 7: Path to save the merged EPG file
-save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # Step 8: Function to ensure directory and file permissions
@@ -402,7 +402,7 @@ for programme in programme_elements:
     merged_root.append(programme)
 
 # Step 14: Save the merged EPG file after merging data
-save_path = os.path.join(script_dir, "www", "epg.xml")
+save_path = os.path.join(script_dir, "www", "epg-test.xml")
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
