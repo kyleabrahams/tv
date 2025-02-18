@@ -37,10 +37,19 @@ jobs:
         pip install -r scripts/requirements.txt
         npm install @freearhey/core
 
-    # Run the merge_epg.py script
+    # List the files before running the merge_epg.py script
+    - name: List files before script
+      run: ls -R ./scripts/_epg-end
+
+    # Run merge_epg.py
     - name: Run merge_epg.py script
       run: |
         python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
+
+    # List the files after running the script
+    - name: List files after script
+      run: ls -R ./scripts/_epg-end
+
 
     # Commit and push the changes to the repository
     - name: Commit and push generated files
