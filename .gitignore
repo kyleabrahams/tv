@@ -18,5 +18,5 @@ scripts/_alive/*.m3u
 scripts/merge_epg.log
 scripts/com.kyleabrahams.mergeepg.plist
 scripts/www/merge_epg.log
-scripts/www/epg.xml
+# scripts/www/epg.xml
 git_sync.log
