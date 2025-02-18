@@ -24,6 +24,12 @@ jobs:
       with:
         python-version: '3.8'
 
+    - name: Configure Git user
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+
+
     # Install dependencies from requirements.txt
     - name: Install dependencies
       run: |
