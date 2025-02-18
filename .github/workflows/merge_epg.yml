@@ -37,6 +37,11 @@ jobs:
         pip install -r scripts/requirements.txt
         npm install @freearhey/core
 
+    # Delete old dummy EPG files before committing
+    - name: Delete old dummy EPG files
+      run: |
+        find ./scripts/_epg-end -type f -name "dummy--epg---*.xml" ! -newermt "$(date -d '1 minute ago' '+%Y-%m-%d %H:%M:%S')" -exec rm {} \;
+
     # Ensure the directory exists
     - name: Create directory if it doesn't exist
       run: |
