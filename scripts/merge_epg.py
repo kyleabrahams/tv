@@ -426,14 +426,11 @@ for xml_file in extracted_files:
         logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
         print(f"Failed to parse extracted XML file {xml_file}: {e}")
 
-<<<<<<< Updated upstream
-=======
 # Step 13: Save the merged EPG file after merging data
 save_path = "www/epg.xml"  # Set your desired save path
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
->>>>>>> Stashed changes
 
 # Get the current Eastern Time
 eastern = pytz.timezone('US/Eastern')
