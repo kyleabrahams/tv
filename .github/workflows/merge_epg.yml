@@ -86,7 +86,7 @@ jobs:
           git commit -m "Update generated EPG file and related changes"
           git push
         else
-          echo "File not found: ./scripts/_epg-end/channels-custom-end.xml"
+          echo "File not found: ./scripts/_epg-end/channels-test-end.xml"
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
