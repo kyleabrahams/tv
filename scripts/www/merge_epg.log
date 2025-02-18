@@ -7030,3 +7030,23 @@ Feb 18 2025 17:21:03 - Fetching 1/2 - /home/runner/work/tv/tv/scripts/_epg-end/d
 Feb 18 2025 17:21:03 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
 Feb 18 2025 17:21:04 - Fetching 2/2 - /home/runner/work/tv/tv/scripts/_epg-end/channels-custom-end.xml
 Feb 18 2025 17:21:04 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/channels-custom-end.xml
+Feb 18 2025 23:39:04 - Starting EPG merge process...
+Feb 18 2025 23:39:05 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:39:05 - STDOUT: 
+Feb 18 2025 23:39:05 - STDOUT: > grab
+Feb 18 2025 23:39:05 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:39:05 - STDOUT: 
+Feb 18 2025 23:39:06 - STDOUT: starting...
+Feb 18 2025 23:39:06 - STDOUT: config:
+Feb 18 2025 23:39:06 - STDOUT: output: ./scripts/_epg-end/channels-test-end.xml
+Feb 18 2025 23:39:06 - STDOUT: maxConnections: 1
+Feb 18 2025 23:39:06 - STDOUT: gzip: false
+Feb 18 2025 23:39:06 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 18 2025 23:39:06 - STDOUT: loading channels...
+Feb 18 2025 23:39:06 - STDOUT: found 2 channel(s)
+Feb 18 2025 23:39:06 - STDOUT: run #1:
+Feb 18 2025 23:39:06 - STDERR: An error occurred: Unexpected identifier 'Channel'
+Feb 18 2025 23:39:06 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-end.xml executed successfully.
+Feb 18 2025 23:39:06 - Found 2 channel(s) in the output.
+Feb 18 2025 23:39:06 - Fetching 1/1 - /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
+Feb 18 2025 23:39:06 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/dummy--epg---end.xml
