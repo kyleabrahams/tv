@@ -40,7 +40,14 @@ jobs:
     # Delete old dummy EPG files before committing
     - name: Delete old dummy EPG files
       run: |
-        find ./scripts/_epg-end -type f -name "dummy--epg---*.xml" ! -newermt "$(date -d '1 minute ago' '+%Y-%m-%d %H:%M:%S')" -exec rm {} \;
+        find ./scripts/_epg-end -type f -name "dummy--epg---*.xml" -exec sh -c '
+          for file; do
+            if [ "$(find "$file" -mmin +1)" ]; then
+              rm "$file"
+            fi
+          done
+        ' sh {} +
+
 
     # Ensure the directory exists
     - name: Create directory if it doesn't exist
