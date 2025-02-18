@@ -5221,3 +5221,28 @@ Feb 18 2025 01:41:46 - Staged ./scripts/_epg-end/channels-test-02-18-01-41-44 AM
 Feb 18 2025 01:41:46 - Fetching 1/1 - /home/runner/work/tv/tv/scripts/_epg-end/staged_channels-test-end.xml
 Feb 18 2025 01:41:46 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/staged_channels-test-end.xml
 Feb 18 2025 01:41:47 - EPG file successfully saved to /home/runner/work/tv/tv/scripts/www/epg.xml at Feb 18, 2025 01:41:47 AM ET
+Feb 18 2025 01:48:21 - Starting EPG merge process...
+Feb 18 2025 01:48:21 - Running command: npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml
+Feb 18 2025 01:48:21 - STDOUT: 
+Feb 18 2025 01:48:21 - STDOUT: > grab
+Feb 18 2025 01:48:21 - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml
+Feb 18 2025 01:48:21 - STDOUT: 
+Feb 18 2025 01:48:22 - STDOUT: starting...
+Feb 18 2025 01:48:22 - STDOUT: config:
+Feb 18 2025 01:48:22 - STDOUT: output: ./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml
+Feb 18 2025 01:48:22 - STDOUT: maxConnections: 1
+Feb 18 2025 01:48:22 - STDOUT: gzip: false
+Feb 18 2025 01:48:22 - STDOUT: channels: ./scripts/_epg-start/channels-test-start.xml
+Feb 18 2025 01:48:22 - STDOUT: loading channels...
+Feb 18 2025 01:48:22 - STDOUT: found 1 channel(s)
+Feb 18 2025 01:48:22 - STDOUT: run #1:
+Feb 18 2025 01:48:23 - STDOUT: [1/2] xumo.tv (en) - 200#99991328 - Feb 18, 2025 (44 programs)
+Feb 18 2025 01:48:23 - STDOUT: [2/2] xumo.tv (en) - 200#99991328 - Feb 19, 2025 (47 programs)
+Feb 18 2025 01:48:23 - STDOUT: saving to "./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml"...
+Feb 18 2025 01:48:23 - STDOUT: done in 00h 00m 00s
+Feb 18 2025 01:48:23 - Command npm run grab -- --channels=./scripts/_epg-start/channels-test-start.xml --output=./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml executed successfully.
+Feb 18 2025 01:48:23 - Found 1 channel(s) in the output.
+Feb 18 2025 01:48:23 - Staged ./scripts/_epg-end/channels-test-02-18-01-48-21 AM.xml to ./scripts/_epg-end/staged_channels-test-end.xml
+Feb 18 2025 01:48:23 - Fetching 1/1 - /home/runner/work/tv/tv/scripts/_epg-end/staged_channels-test-end.xml
+Feb 18 2025 01:48:23 - Successfully loaded local file: /home/runner/work/tv/tv/scripts/_epg-end/staged_channels-test-end.xml
+Feb 18 2025 01:48:24 - EPG file successfully saved to /home/runner/work/tv/tv/scripts/www/epg.xml at Feb 18, 2025 01:48:24 AM ET
