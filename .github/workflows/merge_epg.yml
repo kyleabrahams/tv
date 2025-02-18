@@ -1,4 +1,4 @@
-name: Run merge_epg.py
+name: Run merge_epg-test.py
 
 on:
   workflow_dispatch:  # Allow manual triggering
