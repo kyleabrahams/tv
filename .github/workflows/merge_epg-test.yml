@@ -40,22 +40,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
         npm install @freearhey/core
-        
+
+    # Delete existing channels-test-end.xml
+    - name: Remove existing channels-test-end.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/channels-test-end.xml
+
+    # Delete existing dummy--epg---end.xml
+    - name: Delete old dummy EPG files
+      run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/dummy--epg---end.xml
+
     # Delete existing epg-test.xml
     - name: Remove existing epg-test.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/www/epg-test.xml
-
-    # Delete old dummy EPG files before committing
-    - name: Delete old dummy EPG files
-      run: |
-        current_time=$(date +%s)
-        find ./scripts/_epg-end -type f -name "dummy--epg---*.xml" | while read file; do
-          file_time=$(stat -c %Y "$file")
-          time_diff=$((current_time - file_time))
-          if [ $time_diff -gt 60 ]; then
-            rm "$file"
-          fi
-        done
 
     # Ensure the directory exists
     - name: Create directory if it doesn't exist
@@ -67,7 +63,7 @@ jobs:
       run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
     
     # Run merge_epg.py script
-    - name: Run merge_epg.py script
+    - name: Run merge_epg-test.py script
       run: |
         # python scripts/merge_epg.py --channels ./scripts/_epg-start/channels-custom-start.xml --output ./scripts/_epg-end/channels-custom-end.xml
         python scripts/merge_epg-test.py --channels ./scripts/_epg-start/channels-test-start.xml --output ./scripts/_epg-end/channels-test-end.xml
