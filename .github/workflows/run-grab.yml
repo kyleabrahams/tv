@@ -2,9 +2,9 @@ name: Run Grab Command
 
 on:
   workflow_dispatch:  # Allow manual triggering
-  # schedule:
-    # - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
-    # - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
+  schedule:
+     - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
+     - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
 
 concurrency:
   group: "grab-command"
