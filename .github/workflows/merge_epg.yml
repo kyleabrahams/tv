@@ -79,7 +79,7 @@ jobs:
       run: |
         git status
         if [ -n "$(git status --porcelain)" ]; then
-          git add ./scripts/_epg-end/* ./scripts/www/merge_epg.log ./scripts/www/epg.xml
+          git add ./scripts/_epg-end/* ./scripts/www/epg.xml
           git commit -m "Update generated EPG file and related changes"
           git push
         else
