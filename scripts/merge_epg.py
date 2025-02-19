@@ -91,6 +91,7 @@ log_message("info", "Starting EPG merge process...")
 ########## Step 2.1: Function to run dummy_epg.py script
 def run_npm_grab():
     # Define the toggles as True/False
+    toggle_channels_custom_date = False
     toggle_channels_custom = True
     toggle_channels_test = False
     toggle_channels_test_copy = False
@@ -101,12 +102,19 @@ def run_npm_grab():
     # List of npm commands with timestamped output file, toggled based on True/False values
     commands = []
 
-    if toggle_channels_custom:
+    if toggle_channels_custom_date:
         commands.append([
             "npm", "run", "grab", "--", 
             f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
             f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
         ])
+
+    if toggle_channels_custom:
+    commands.append([
+        "npm", "run", "grab", "--", 
+        f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+        f"--output=./scripts/_epg-end/channels-custom-end.xml"
+    ])
 
     if toggle_channels_test:
         commands.append([
@@ -298,7 +306,8 @@ else:
 
 ########## Step 7: Path to save the merged EPG file
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))  # Assuming the script is part of the repository
-save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+# save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 
 # Define the directory for .gz files
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
