@@ -30,14 +30,9 @@ print("Data processing complete.")
 # Toggle logging on/off
 LOGGING_ENABLED = False
 
-# Get the script directory (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
-
-# Ensure the 'www' directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the script directory (absolute path)
+log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log') # Create the relative path for the log file
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure the 'www' directory exists
 
 # Set up logging only if LOGGING_ENABLED is True
 if LOGGING_ENABLED:
@@ -306,8 +301,8 @@ else:
 
 ########## Step 7: Path to save the merged EPG file
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))  # Assuming the script is part of the repository
-# save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
-save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+# save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 
 # Define the directory for .gz files
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
