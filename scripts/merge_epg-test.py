@@ -142,10 +142,9 @@ def run_npm_grab():
 
     ]
 
-    
-    # Set the output directory for deleting old files
+   # Set the output directory for deleting old files
     output_dir = os.path.join(script_dir, "_epg-end")
-    
+
     # Delete all older files except the latest one
     try:
         for file_name in os.listdir(output_dir):
@@ -154,15 +153,20 @@ def run_npm_grab():
             # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
             if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
                 os.remove(file_path)
+                if logger:
+                    logger.info(f"Old file {file_path} deleted.")
                 print(f"Old file {file_path} deleted.")
     except Exception as e:
+        if logger:
+            logger.error(f"Error deleting old files: {e}")
         print(f"Error deleting old files: {e}")
 
     for command in commands:
         try:
             # Combine the command into a string for logging and display
             command_str = ' '.join(command)
-            logger.info(f"Running command: {command_str}")
+            if logger:
+                logger.info(f"Running command: {command_str}")
             print(f"Running command: {command_str}")
 
             # Run the command and capture output
@@ -175,14 +179,16 @@ def run_npm_grab():
             for line in process.stdout:
                 stripped_line = line.strip()
                 stdout_output.append(stripped_line)
-                logger.info(f"STDOUT: {stripped_line}")
+                if logger:
+                    logger.info(f"STDOUT: {stripped_line}")
                 print(f"STDOUT: {stripped_line}")
 
             # Process stderr and capture lines
             for line in process.stderr:
                 stripped_line = line.strip()
                 stderr_output.append(stripped_line)
-                logger.error(f"STDERR: {stripped_line}")
+                if logger:
+                    logger.error(f"STDERR: {stripped_line}")
                 print(f"STDERR: {stripped_line}")
 
             # Wait for process completion
@@ -190,7 +196,8 @@ def run_npm_grab():
 
             # Check for successful execution
             if process.returncode == 0:
-                logger.info(f"Command {command_str} executed successfully.")
+                if logger:
+                    logger.info(f"Command {command_str} executed successfully.")
                 print(f"Command {command_str} executed successfully.")
 
                 # Extract and log the number of channels found
@@ -199,21 +206,25 @@ def run_npm_grab():
                     match = re.search(channel_count_pattern, line)
                     if match:
                         channel_count = match.group(1)
-                        logger.info(f"Found {channel_count} channel(s) in the output.")
+                        if logger:
+                            logger.info(f"Found {channel_count} channel(s) in the output.")
                         print(f"Found {channel_count} channel(s) in the output.")
                         break  # Stop after the first match
 
             else:
-                logger.error(f"Command {command_str} failed with error code {process.returncode}.")
+                if logger:
+                    logger.error(f"Command {command_str} failed with error code {process.returncode}.")
                 print(f"Command {command_str} failed with error code {process.returncode}.")
 
         except Exception as e:
-            logger.error(f"Error while running npm command {command_str}: {e}")
+            if logger:
+                logger.error(f"Error while running npm command {command_str}: {e}")
             print(f"Error while running npm command {command_str}: {e}")
 
 # Run the process
 if __name__ == "__main__":
     run_npm_grab()
+
 
 # Step 4: Main merge_epg function
 def merge_epg_data():
