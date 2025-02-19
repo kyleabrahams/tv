@@ -41,12 +41,16 @@ jobs:
         pip install -r scripts/requirements.txt
         npm install @freearhey/core
 
+    # List the contents before and after the process
+    - name: List files before script
+      run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
+
     # Delete existing channels-test-end.xml
     - name: Remove existing channels-test-end.xml
       run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/channels-test-end.xml
 
     # Delete existing dummy--epg---end.xml
-    - name: Delete old dummy EPG files
+    - name: Remove old dummy EPG files
       run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/dummy--epg---end.xml
 
     # Delete existing epg-test.xml
@@ -59,11 +63,6 @@ jobs:
           echo "epg-test.xml not found"
         fi
 
-    
-    # List the contents before and after the process
-    - name: List files before script
-      run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
-    
     # Run merge_epg.py script
     - name: Run merge_epg-test.py script
       run: |
@@ -72,7 +71,10 @@ jobs:
     
     # List files after running the script
     - name: List files after script
-      run: ls -R ./scripts/_epg-end
+      run: |
+        ls -R ./scripts/_epg-end
+        ls -R ./scripts/www
+
 
     # Commit and push the changes to the repository
     - name: Commit and push generated files
