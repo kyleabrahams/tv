@@ -16,6 +16,8 @@ from logging.handlers import RotatingFileHandler
 import re
 import pytz
 
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable  # Relative path from the script to the virtual environment
