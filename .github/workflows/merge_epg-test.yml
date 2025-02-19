@@ -50,8 +50,8 @@ jobs:
       run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/channels-test-end.xml
 
     # Delete existing dummy--epg---end.xml
-    - name: Remove old dummy EPG files
-      run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/dummy--epg---end.xml
+    #- name: Remove old dummy EPG files
+      #run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/dummy--epg---end.xml
 
     # Delete existing epg-test.xml
     - name: Remove existing epg-test.xml
