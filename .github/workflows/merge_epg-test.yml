@@ -73,7 +73,8 @@ jobs:
     - name: List files after script
       run: |
         ls -R ./scripts/_epg-end
-        ls -R ./scripts/www
+        ls -R ./scripts/www/*.xml || echo "No XML files found in ./scripts/www/"
+
 
 
     # Commit and push the changes to the repository
