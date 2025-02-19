@@ -83,13 +83,13 @@ jobs:
     - name: Commit and push generated files
       run: |
         git status
-        if [ -n "$(git status --porcelain)" ]; then
-          git add ./scripts/_epg-end/* ./scripts/www/merge_epg.log ./scripts/www/epg-test.xml
-          git commit -m "Update generated EPG file and related changes"
-          git push
-        else
-          echo "No changes to commit"
-        fi
+          if [ -n "$(git status --porcelain)" ]; then
+            git add ./scripts/_epg-end/* ./scripts/www/epg-test.xml
+            git commit -m "Update generated EPG file and related changes"
+            git push
+          else
+            echo "No changes to commit"
+          fi
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
