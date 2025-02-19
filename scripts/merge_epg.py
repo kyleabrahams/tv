@@ -105,7 +105,7 @@ def run_npm_grab():
         ])
 
     if toggle_channels_custom:
-    commands.append([
+        commands.append([
         "npm", "run", "grab", "--", 
         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
         f"--output=./scripts/_epg-end/channels-custom-end.xml"
