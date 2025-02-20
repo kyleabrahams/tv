@@ -92,8 +92,13 @@ log_message("info", "Starting EPG merge process...")
 def run_npm_grab():
     # Define the toggles as True/False
     toggle_channels_custom = False
+<<<<<<< Updated upstream
     toggle_channels_test = True
     toggle_channels_test_copy = False
+=======
+    toggle_channels_test = False
+    toggle_channels_test_copy = True
+>>>>>>> Stashed changes
 
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
@@ -566,4 +571,7 @@ except Exception as e:
     error_message = f"❌ Failed to save EPG file - Error: {e}"
     logging.error(error_message)
     print(error_message)
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes

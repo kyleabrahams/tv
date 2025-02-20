@@ -11,6 +11,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import pytz
 
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-copy.py
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
@@ -166,41 +167,64 @@ if __name__ == "__main__":
 import re # Count / Log  Channels
 
 def run_npm_grab():
+    # Define the toggles as True/False
+    toggle_channels_custom = False
+    toggle_channels_test = True
+    toggle_channels_test_copy = False
+
     # Get current date and time for timestamping the output file
-    # current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
-    current_datetime = datetime.now().strftime("%Y-%m-%d-%I-%M-%S %p")
-    # List of npm commands with timestamped output file
-    commands = [
-        ["npm", "run", "grab", "--", 
-        #  f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        #  f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"]
+    current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
 
-         f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-         f"--output=./scripts/_epg-end/channels-test--{current_datetime}.xml"]
+    # List of npm commands with timestamped output file, toggled based on True/False values
+    commands = []
 
-        #  f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
-        #  f"--output=./scripts/_epg-end/channels-test-copy{current_datetime}.xml"]
+    if toggle_channels_custom:
+        commands.append([
+            "npm", "run", "grab", "--", 
+            f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
+            f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
+        ])
 
-    ]
+    if toggle_channels_test:
+        commands.append([
+            "npm", "run", "grab", "--", 
+            f"--channels=./scripts/_epg-start/channels-test-start.xml", 
+            f"--output=./scripts/_epg-end/channels-test-end.xml"
+        ])
+
+    if toggle_channels_test_copy:
+        commands.append([
+            "npm", "run", "grab", "--", 
+            f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
+            f"--output=./scripts/_epg-end/channels-test-copy-{current_datetime}.xml"
+        ])
+
     # Set the output directory for deleting old files
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, "_epg-end")
+
     # Delete all older files except the latest one
     try:
         for file_name in os.listdir(output_dir):
             file_path = os.path.join(output_dir, file_name)
 
-            # Check if the file matches the pattern 'dummy-YYYY-MM-DD-HH-MM-SS AM/PM.xml' and is not the latest file
+            # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
             if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
                 os.remove(file_path)
+                if logger:
+                    logger.info(f"Old file {file_path} deleted.")
                 print(f"Old file {file_path} deleted.")
     except Exception as e:
+        if logger:
+            logger.error(f"Error deleting old files: {e}")
         print(f"Error deleting old files: {e}")
 
     for command in commands:
         try:
             # Combine the command into a string for logging and display
             command_str = ' '.join(command)
-            logger.info(f"Running command: {command_str}")
+            if logger:
+                logger.info(f"Running command: {command_str}")
             print(f"Running command: {command_str}")
 
             # Run the command and capture output
@@ -213,14 +237,16 @@ def run_npm_grab():
             for line in process.stdout:
                 stripped_line = line.strip()
                 stdout_output.append(stripped_line)
-                logger.info(f"STDOUT: {stripped_line}")
+                if logger:
+                    logger.info(f"STDOUT: {stripped_line}")
                 print(f"STDOUT: {stripped_line}")
 
             # Process stderr and capture lines
             for line in process.stderr:
                 stripped_line = line.strip()
                 stderr_output.append(stripped_line)
-                logger.error(f"STDERR: {stripped_line}")
+                if logger:
+                    logger.error(f"STDERR: {stripped_line}")
                 print(f"STDERR: {stripped_line}")
 
             # Wait for process completion
@@ -228,7 +254,8 @@ def run_npm_grab():
 
             # Check for successful execution
             if process.returncode == 0:
-                logger.info(f"Command {command_str} executed successfully.")
+                if logger:
+                    logger.info(f"Command {command_str} executed successfully.")
                 print(f"Command {command_str} executed successfully.")
 
                 # Extract and log the number of channels found
@@ -237,20 +264,24 @@ def run_npm_grab():
                     match = re.search(channel_count_pattern, line)
                     if match:
                         channel_count = match.group(1)
-                        logger.info(f"Found {channel_count} channel(s) in the output.")
+                        if logger:
+                            logger.info(f"Found {channel_count} channel(s) in the output.")
                         print(f"Found {channel_count} channel(s) in the output.")
                         break  # Stop after the first match
+
             else:
-                logger.error(f"Command {command_str} failed with error code {process.returncode}.")
+                if logger:
+                    logger.error(f"Command {command_str} failed with error code {process.returncode}.")
                 print(f"Command {command_str} failed with error code {process.returncode}.")
 
         except Exception as e:
-            logger.error(f"Error while running npm command {command_str}: {e}")
+            if logger:
+                logger.error(f"Error while running npm command {command_str}: {e}")
             print(f"Error while running npm command {command_str}: {e}")
 
 # Run the process
 if __name__ == "__main__":
-    run_npm_grab()    
+    run_npm_grab()
 
 
 
@@ -280,9 +311,16 @@ def load_local_xml_files(directory):
     """Look for XML files in the directory if no EPG URLs are found."""
     xml_files = []
     try:
-        for filename in os.listdir(directory):
+        print(f"Scanning directory: {directory}")  # Print the directory being scanned
+        files_in_directory = os.listdir(directory)
+        print(f"Files in directory: {files_in_directory}")  # List files in the directory
+        for filename in files_in_directory:
+            print(f"Checking file: {filename}")  # Print every file being checked
             if filename.endswith(".xml"):
-                xml_files.append(os.path.join(directory, filename))  # Add XML file path to the list
+                file_path = os.path.join(directory, filename)
+                print(f"Found XML file: {file_path}")  # Print the full path of any found XML file
+                xml_files.append(file_path)  # Add XML file path to the list
+        print(f"XML files found: {xml_files}")  # Final list of found XML files
         return xml_files
     except Exception as e:
         print(f"Error loading XML files from {directory}: {e}")
@@ -308,7 +346,7 @@ if not epg_urls:
 print("EPG URLs or local XML files found:", epg_urls)
 
 # Step 7: Path to save the merged EPG file
-save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
+save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # Step 8: Function to ensure directory and file permissions
@@ -359,8 +397,8 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
                             epg_tree = ET.ElementTree(ET.fromstring(xml_content))
                         else:
                             epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                        print(f"Successfully fetched {index + 1}/{total}")
-                        logging.info(f"Successfully fetched {index + 1}/{total}")
+                        print(f"✅ Successfully fetched {index + 1}/{total}")
+                        logging.info(f"✅ Successfully fetched {index + 1}/{total}")
                         return epg_tree
                     except ET.ParseError as e:
                         logging.error(f"XML parse error for {url}: {e}")
@@ -377,12 +415,12 @@ def fetch_epg_data(url, index, total, retries=3, delay=5):
             else:  # Step 5.3: Handle local XML files
                 try:
                     epg_tree = ET.parse(url)
-                    print(f"Successfully loaded local file: {url}")
-                    logging.info(f"Successfully loaded local file: {url}")
+                    print(f"✅ Successfully loaded local file: {url}")
+                    logging.info(f"✅ Successfully loaded local file: {url}")
                     return epg_tree
                 except ET.ParseError as e:
-                    logging.error(f"Failed to parse local XML file {url}: {e}")
-                    print(f"Failed to parse local XML file {url}: {e}")
+                    logging.error(f"❌ Failed to parse local XML file {url}: {e}")
+                    print(f"❌ Failed to parse local XML file {url}: {e}")
                 except Exception as e:
                     logging.error(f"Error processing local file {url}: {e}")
                     print(f"Error processing local file {url}: {e}")
@@ -447,7 +485,7 @@ def extract_gz_files(gz_directory):
     return extracted_files
 
 print("Extracting XML from .gz files...")
-gz_directory = "_epg-end"  # Set the path to your .gz files directory
+# gz_directory = "_epg-end"  # Set the path to your .gz files directory
 extracted_files = extract_gz_files(gz_directory)
 merged_root = ET.Element("merged_epg")
 
@@ -457,11 +495,11 @@ for xml_file in extracted_files:
         for element in epg_tree.getroot():
             merged_root.append(element)
     except ET.ParseError as e:
-        logging.error(f"Failed to parse extracted XML file {xml_file}: {e}")
-        print(f"Failed to parse extracted XML file {xml_file}: {e}")
+        logging.error(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
+        print(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
 
 # Step 13: Save the merged EPG file after merging data
-save_path = "www/epg.xml"  # Set your desired save path
+save_path = "www/epg-test.xml"  # Set your desired save path
 try:
     save_dir = os.path.dirname(save_path)
     os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
@@ -479,73 +517,3 @@ except Exception as e:
     logging.error(error_message)
     print(error_message)
 
-# Step 14: Auto-commit to GitHub
-script_dir = os.path.dirname(os.path.abspath(__file__))
-directories_to_commit = [
-    os.path.join(script_dir, "www"),
-    os.path.join(script_dir, "_epg-end"),
-    os.path.join(script_dir, "scripts"),
-]
-
-def run_command(cmd, check=True):
-    """Run a shell command and return output, logging errors if they occur."""
-    try:
-        result = subprocess.run(cmd, check=check, text=True, capture_output=True)
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        logging.error(f"⚠️ Command failed: {' '.join(cmd)}\nError: {e.stderr.strip()}")
-        return None
-
-def main():
-    try:
-        # Get the current Eastern Time
-        eastern = pytz.timezone('US/Eastern')
-        current_time_et = datetime.now(eastern).strftime("%b %d, %Y %I:%M:%S %p ET")
-
-        logging.info("🔄 Starting auto-commit process.")
-
-        # Clean untracked files before pulling
-        logging.info("🧹 Cleaning untracked files and directories...")
-        run_command(["git", "clean", "-fd"])
-
-        # Stage all changes
-        logging.info("📌 Staging all modified, deleted, and new files...")
-        run_command(["git", "add", "-A"])
-
-        # Pull latest changes with rebase
-        logging.info("📡 Pulling latest changes with rebase...")
-        pull_result = run_command(["git", "pull", "--rebase", "origin", "main"], check=False)
-
-        if pull_result is None:
-            logging.warning("⚠️ Git rebase failed. Attempting automatic fix...")
-            run_command(["git", "stash"])
-            run_command(["git", "pull", "--rebase", "origin", "main"])
-            run_command(["git", "stash", "pop"])
-
-        # Check for staged changes
-        staged_changes = run_command(["git", "status", "--porcelain"])
-        if staged_changes:
-            commit_message = f"Auto commit at {current_time_et}"
-            logging.info(f"📝 Committing changes: {commit_message}")
-            run_command(["git", "commit", "-m", commit_message])
-
-            # Push to GitHub
-            logging.info("🚀 Pushing changes to GitHub...")
-            push_result = run_command(["git", "push", "origin", "main"], check=False)
-
-            if push_result is None:
-                logging.warning("⚠️ Git push failed. Checking branch status...")
-                branch_status = run_command(["git", "status", "-uno"])
-                if "Your branch is ahead" in branch_status:
-                    logging.warning("⚠️ Force-pushing with lease...")
-                    run_command(["git", "push", "--force-with-lease", "origin", "main"])
-                else:
-                    logging.info("✅ Everything is already up to date.")
-        else:
-            logging.info("✅ No changes to commit. Skipping push.")
-
-    except Exception as e:
-        logging.error(f"🚨 Unexpected Error: {str(e)}")
-
-if __name__ == "__main__":
-    main()
