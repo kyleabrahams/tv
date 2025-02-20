@@ -29,7 +29,6 @@ print("Data processing complete.")
 ################# Step 1: Set up Logging
 # Toggle logging on/off
 LOGGING_ENABLED = False
-<<<<<<< Updated upstream
 
 script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the script directory (absolute path)
 log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log') # Create the relative path for the log file
@@ -81,80 +80,16 @@ def log_message(level, message):
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
 
-=======
-
-# Get the script directory (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Create the relative path for the log file
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
-
-# Ensure the 'www' directory exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-# Set up logging only if LOGGING_ENABLED is True
-if LOGGING_ENABLED:
-    log_format = "%(asctime)s - %(levelname)s - %(message)s"
-    date_format = "%b %d %Y %H:%M:%S"
-
-    logging.basicConfig(filename=log_file_path,
-                        level=logging.INFO,
-                        format=log_format,
-                        datefmt=date_format)
-
-    logger = logging.getLogger(__name__)
-
-    # Create a RotatingFileHandler
-    file_handler = RotatingFileHandler(
-        log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB file size limit, keep 4 backups
-    )
-
-    # Set up the formatter
-    formatter = logging.Formatter(log_format, date_format)
-    file_handler.setFormatter(formatter)
-
-    # Define SuccessFilter to filter messages
-    class SuccessFilter(logging.Filter):
-        def filter(self, record):
-            return "EPG file successfully saved" in record.getMessage()
-
-    # Add the filter
-    file_handler.addFilter(SuccessFilter())
-
-    # Add the file handler to the logger
-    logger.addHandler(file_handler)
-else:
-    logger = None  # Disable logging
-
-# Function to log messages (only logs if logging is enabled)
-def log_message(level, message):
-    if LOGGING_ENABLED and logger:
-        if level == "info":
-            logger.info(message)
-        elif level == "error":
-            logger.error(message)
-
-# Print formatted time for debugging
-formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
-print(formatted_time)
-
->>>>>>> Stashed changes
 # Example log usage
 log_message("info", "Starting EPG merge process...")
 
 ########## Step 2.1: Function to run dummy_epg.py script
 def run_npm_grab():
     # Define the toggles as True/False
-<<<<<<< Updated upstream
     toggle_channels_custom_date = False
     toggle_channels_custom = True
     toggle_channels_test = False
     toggle_channels_test_copy = False
-=======
-    toggle_channels_custom = False
-    toggle_channels_test = False
-    toggle_channels_test_copy = True
->>>>>>> Stashed changes
 
     # Get current date and time for timestamping the output file
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
@@ -162,18 +97,13 @@ def run_npm_grab():
     # List of npm commands with timestamped output file, toggled based on True/False values
     commands = []
 
-<<<<<<< Updated upstream
     if toggle_channels_custom_date:
-=======
-    if toggle_channels_custom:
->>>>>>> Stashed changes
         commands.append([
             "npm", "run", "grab", "--", 
             f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
             f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
         ])
 
-<<<<<<< Updated upstream
     if toggle_channels_custom:
         commands.append([
         "npm", "run", "grab", "--", 
@@ -188,15 +118,6 @@ def run_npm_grab():
             f"--output=./scripts/_epg-end/channels-test-end.xml"
         ])
 
-=======
-    if toggle_channels_test:
-        commands.append([
-            "npm", "run", "grab", "--", 
-            f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-            f"--output=./scripts/_epg-end/channels-test-end.xml"
-        ])
-
->>>>>>> Stashed changes
     if toggle_channels_test_copy:
         commands.append([
             "npm", "run", "grab", "--", 
@@ -380,12 +301,8 @@ else:
 
 ########## Step 7: Path to save the merged EPG file
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))  # Assuming the script is part of the repository
-<<<<<<< Updated upstream
 save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
 # save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
-=======
-save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
->>>>>>> Stashed changes
 
 # Define the directory for .gz files
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
@@ -653,3 +570,4 @@ except Exception as e:
     error_message = f"❌ Failed to save EPG file - Error: {e}"
     logging.error(error_message)
     print(error_message)
+
