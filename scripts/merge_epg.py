@@ -570,4 +570,3 @@ except Exception as e:
     error_message = f"❌ Failed to save EPG file - Error: {e}"
     logging.error(error_message)
     print(error_message)
-
