@@ -33,11 +33,18 @@ python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
 
 python3 dummy_epg.py
 
+# Force pull from Repo
+
+git reset --hard origin/main
+git clean -fd
+
+
 # Github Commit issues resolve
 
 git add .
 git commit -m "Updated files"
 git push origin main
+
 
 
 # RUN script manually to debug

@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 20 329p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 21 914a for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -179,8 +179,10 @@ https://jmp2.uk/rok-4f628a666da552d7a9ea9157e079d56b.m3u8
 # #EXTINF:-1 tvg-id="TSC.(TSC).ca" tvg-name="the Shopping Channel" tvg-logo="https://i.ibb.co/KFFhjfr/TSC-logo-1-1.png" group-title="",The Shopping Channel
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418505
 
-#EXTINF:-1 tvg-id="CTVNewsChannel.ca" tvg-name="22 CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418450
+# #EXTINF:-1 tvg-id="CTVNewsChannel.ca" tvg-name="22 CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418450
+#EXTINF:-1 tvg-id="CTVNewsChannel.ca" tvg-name="22 CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel xip.
+http://xxip25.top:8080/04760056/79599130/57350
 # #EXTINF:-1 tvg-id="CTVNewsChannel.ca" tvg-name="22 CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709044
 # #EXTINF:-1 tvg-id="CTVNewsChannel.ca" tvg-name="22 CTV NEWS" tvg-logo="https://i.ibb.co/DW9hKV5/CTV-News-1.png" group-title="News" tvg-shift="4" ,CTV News Channel for.
@@ -209,10 +211,10 @@ http://tvmate.icu:8080/k4Svp2/645504/47218
 #EXTINF:-1 tvg-id="WNetworkEast.ca" tvg-name="26 W Network East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="",W Network East
 http://fl2.moveonjoy.com/W_NETWORK/index.m3u8
 
-# #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed for.
-# http://fortv.cc:8080/WjtGD2/235867/46212
-#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423722
+#EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed for.
+http://fortv.cc:8080/WjtGD2/235867/46212
+# #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423722
 # #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 Discovery Velocity / CTV Speed" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708807
 # #EXTINF:-1 tvg-id="CTVSpeed.ca" tvg-name="27 CTV Speed / Discovery Velocity" tvg-logo="https://i.ibb.co/7rRQZ5y/ctv-speed.png" group-title="" tvg-url="https://www.bevy.be/bevyfiles/canadapremium3.xml",CTV Speed zui.
