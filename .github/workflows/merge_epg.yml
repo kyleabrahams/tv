@@ -77,19 +77,14 @@ jobs:
     # Commit and push the changes to the repository
     - name: Commit and push generated files
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-        git fetch origin
-        git pull --rebase origin main
-
         git status
         if [ -n "$(git status --porcelain)" ]; then
           git add ./scripts/_epg-end/* ./scripts/www/epg.xml
           git commit -m "Update generated EPG file and related changes"
-          git push origin main
+          git push
         else
           echo "No changes to commit"
         fi
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
