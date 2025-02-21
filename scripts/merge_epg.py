@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# merge_epg.py Feb 19 2025 200p
+# merge_epg.py Feb 21 2025 910a
 import requests
 import xml.etree.ElementTree as ET
 import os
