@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 24 144p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Feb 24 202p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -999,7 +999,7 @@ http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507986
 http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507988
 
 
-#EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-------|Samsung TV|-------
+#EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-|Samsung,Xumo,Pluto|-
 https://jmp2.uk/sam-CABB260002016.m3u8
 
 #EXTINF:-1 tvg-id="Pluto00sReplay.us" tvg-name="" tvg-logo="https://i.ibb.co/cXZ4nVfn/00s-Replay.png" group-title="Movies",00s Replay
@@ -1014,6 +1014,12 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca525b650be2571e3943c63/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c263253-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b52c759c-a26c-4e65-828b-14277d6117e0
 #EXTINF:-1 tvg-id="Pluto90sThrowback.us" tvg-name="" tvg-logo="https://i.imgur.com/KoGko6M.png" group-title="Movies",90s Throwback
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d86f519358a00072b978e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c265961-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=71f86833-3dd6-41ac-a9b8-4a4ec8873306
+#EXTINF:-1 tvg-id="PlexAKCtv.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
+https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="",AKC TV Meet The Breeds
+https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="",AKC TV Puppies 24/7
+https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="PlexAlwaysFunny.au" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA1600001XM_20240520T215804SQUARE.png" group-title="Comedy",Always Funny Videos
 https://jmp2.uk/sam-USBA1600001XM.m3u8
 #EXTINF:-1 tvg-id="XumoPBSAntiquesRoadshow.uk" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200005AV_20230627T214816SQUARE.png_20230627214818.png" group-title="" tvg-chno="1212",Antiques Roadshow
@@ -1129,6 +1135,8 @@ https://jmp2.uk/sam-CABC23000035R.m3u8
 # https://jmp2.uk/sam-USBD700022M5.m3u8
 #EXTINF:-1 tvg-id="XumoIMPACTWrestlingChannel.us" tvg-name="" tvg-logo="https://i.ibb.co/PGtT0Bj/Impact-Wrestling-Logo-svg-1.png" group-title="",Impact Wrestling
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991341
+#EXTINF:-1 tvg-id="PlexJAIL.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/67/Jail_tv_series_logo.jpg" group-title="",Jail
+https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlexCBCComedy.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1000003HL_20240520T221245SQUARE.png" group-title="",Journy
 https://jmp2.uk/sam-CABB2500030GT.m3u8
 # #EXTINF:-1 tvg-id="XumoJustforLaughsGags.ca" tvg-name="" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600002HT_20240214T035021SQUARE.png_20240214035022.png" group-title="Comedy",Just for Laughs Gags
@@ -1163,6 +1171,8 @@ https://jmp2.uk/sam-CA7000015K.m3u8
 https://jmp2.uk/sam-USAJ3504707A.m3u8
 #EXTINF:-1 tvg-id="SamsungPBSDigitalStudios.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB800001O7_20240520T214624SQUARE.png" group-title="",PBS Digital Studios
 https://jmp2.uk/sam-USBB800001O7.m3u8
+#EXTINF:-1 tvg-id="PlexPopstarTV.ca" tvg-name="Popstar! TV" tvg-logo="https://i.imgur.com/kFO675K.png" group-title="",Popstar! TV
+https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="XumoPowerNation.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2500017XQ_20240528T020725SQUARE.png" group-title="",PowerNation
 https://jmp2.uk/sam-CABD1200016E8.m3u8
 #EXTINF:-1 tvg-id="PlexPropertyBrothersChannel.us" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home & Food",Property Brothers Channel
@@ -1229,7 +1239,8 @@ https://jmp2.uk/sam-CABD1200013IH.m3u8
 https://jmp2.uk/sam-CABC2300002VB.m3u8
 #EXTINF:-1 tvg-id="PlexYahooFinance.au" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20240520T222814SQUARE.png" group-title="News",Yahoo Finance
 https://jmp2.uk/sam-USAJ4300005PJ.m3u8
-
+#EXTINF:-1 tvg-id="Young.Hollywood.distro" tvg-logo="https://i.ibb.co/34SBR0J/young-hollywood.png" group-title="",Young Hollywood
+https://younghollywood-vizio.amagi.tv/playlist.m3u8
 
 
 
@@ -1551,20 +1562,8 @@ http://fl2.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="CA7000015K" tvg-name="------|Pluto Xumo|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",---|Pluto,Xumo|---
+#EXTINF:-1 tvg-id="CA7000015K" tvg-name="------|Cyprus|------" tvg-logo="https://cdn.britannica.com/83/7883-050-0E5BCA30/Flag-Cyprus.jpg" group-title="Ambiance",---|Cyprus|---
 https://jmp2.uk/sam-CA7000015K.m3u8
-#EXTINF:-1 tvg-id="AKCTVPuppies.us" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="",AKC TV Puppies 24/7
-https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
-#EXTINF:-1 tvg-id="PlexAKCtv.us" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="",AKC TV
-https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
-#EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="",AKC TV Meet The Breeds
-https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
-#EXTINF:-1 tvg-id="Young.Hollywood.distro" tvg-logo="https://i.ibb.co/34SBR0J/young-hollywood.png" group-title="",Young Hollywood
-https://younghollywood-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlexPopstarTV.ca" tvg-name="Popstar! TV" tvg-logo="https://i.imgur.com/kFO675K.png" group-title="",Popstar! TV
-https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
-#EXTINF:-1 tvg-id="PlexJAIL.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/67/Jail_tv_series_logo.jpg" group-title="",Jail
-https://langleyproductions-jail-1-us.vizio.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ANT1.gr" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cloud.
 http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
