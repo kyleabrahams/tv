@@ -1,94 +1,175 @@
-#!/usr/bin/env python3
-
-# merge_epg.py Feb 21 2025 910a
-import requests
+# merge_epg.py Feb 6 2025 905p
 import xml.etree.ElementTree as ET
 import os
-import gzip
 import io
-import subprocess
+import subprocess  # Add this import to resolve the error
 from time import sleep
-import sys
+import sys # Used for venv_python
 from datetime import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
-import re
 import pytz
 
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-copy.py
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
-venv_python = sys.executable  # Relative path from the script to the virtual environment
+venv_python = sys.executable # Relative path from the script to the virtual environment
+script_dir = os.path.dirname(os.path.abspath(__file__))
+venv_python = os.path.join(sys.prefix, "bin", "python3")
+
+# Ensure the '_epg-end' directory exists
+output_dir = os.path.join(script_dir, "_epg-end")
+os.makedirs(output_dir, exist_ok=True)
+
 print(venv_python)
 print("Starting data processing...")
-# your data processing code
-print("Data processing complete.")
 
-################# Step 1: Set up Logging
-# Toggle logging on/off
-LOGGING_ENABLED = False
 
-script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the script directory (absolute path)
-log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log') # Create the relative path for the log file
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure the 'www' directory exists
 
-# Set up logging only if LOGGING_ENABLED is True
-if LOGGING_ENABLED:
-    log_format = "%(asctime)s - %(levelname)s - %(message)s"
-    date_format = "%b %d %Y %H:%M:%S"
-
-    logging.basicConfig(filename=log_file_path,
-                        level=logging.INFO,
-                        format=log_format,
-                        datefmt=date_format)
-
-    logger = logging.getLogger(__name__)
-
-    # Create a RotatingFileHandler
-    file_handler = RotatingFileHandler(
-        log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB file size limit, keep 4 backups
-    )
-
-    # Set up the formatter
-    formatter = logging.Formatter(log_format, date_format)
-    file_handler.setFormatter(formatter)
-
-    # Define SuccessFilter to filter messages
-    class SuccessFilter(logging.Filter):
-        def filter(self, record):
-            return "EPG file successfully saved" in record.getMessage()
-
-    # Add the filter
-    file_handler.addFilter(SuccessFilter())
-
-    # Add the file handler to the logger
-    logger.addHandler(file_handler)
-else:
-    logger = None  # Disable logging
-
-# Function to log messages (only logs if logging is enabled)
-def log_message(level, message):
-    if LOGGING_ENABLED and logger:
-        if level == "info":
-            logger.info(message)
-        elif level == "error":
-            logger.error(message)
-
-# Print formatted time for debugging
+# Step 1: Set up Logging
+# Get current time for logging
 formatted_time = datetime.now().strftime("%b %d %Y %H:%M:%S")
 print(formatted_time)
 
-# Example log usage
-log_message("info", "Starting EPG merge process...")
+# Define the log file path
+log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log')
 
-########## Step 2.1: Function to run dummy_epg.py script
+# Ensure the 'www' directory exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+
+# Overwrite log file by opening in 'w' mode
+with open(log_file_path, 'w'):
+    pass  # This clears the file
+
+# Set up logging configuration
+log_format = "%(asctime)s - %(levelname)s - %(message)s"
+date_format = "%b %d %Y %H:%M:%S"
+
+logging.basicConfig(
+    filename=log_file_path,
+    level=logging.INFO,
+    format=log_format,
+    datefmt=date_format,
+    filemode='w'  # Overwrites file each time the script runs
+)
+
+# Create a logger instance
+logger = logging.getLogger(__name__)
+
+# Define SuccessFilter to filter messages
+class SuccessFilter(logging.Filter):
+    def filter(self, record):
+        return "EPG file successfully saved" in record.getMessage()
+
+# Create a RotatingFileHandler (if needed)
+file_handler = RotatingFileHandler(
+    log_file_path, maxBytes=5 * 1024 * 1024, backupCount=4  # 5 MB limit, keep 4 backups
+)
+file_handler.setFormatter(logging.Formatter(log_format, date_format))
+file_handler.addFilter(SuccessFilter())
+
+# Add the file handler to the logger
+logger.addHandler(file_handler)
+
+# Log the start of the process
+logger.info("Starting EPG merge process...")
+
+
+# # # Step 1.2: Run this script on schedule
+# import schedule
+
+# def run_merge_epg():
+#     # Path to the `merge_epg.py` script
+#     merge_epg_path = os.path.join(script_dir, "merge_epg.py")
+
+#     # Path for the lock file to prevent multiple script instances
+#     lock_file_path = os.path.join(script_dir, "merge_epg.lock")
+
+#     # Check if the lock file already exists (indicating another instance is running)
+#     if os.path.exists(lock_file_path):
+#         logger.info("Script is already running. Skipping execution.")
+#         return
+
+#     # Create the lock file to indicate the script is running
+#     with open(lock_file_path, 'w') as lock_file:
+#         try:
+#             logger.info("Lock file created. Running the script...")
+
+#             # Define the path to the virtual environment Python
+#             venv_python = os.path.join(script_dir, "venv", "bin", "python3")
+
+#             # Define the command to run your Python script
+#             command = f'{venv_python} {merge_epg_path}'
+
+#             # Run the command
+#             result = subprocess.run(command, shell=True, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+#             logger.info(f"stdout: {result.stdout.decode()}")
+#             logger.error(f"stderr: {result.stderr.decode()}")
+
+#         except (subprocess.CalledProcessError, IOError) as e:
+#             logger.error(f"Error occurred: {e}")
+
+#         finally:
+#             # Delete the lock file once the script finishes
+#             if os.path.exists(lock_file_path):
+#                 os.remove(lock_file_path)
+#             logger.info("Lock file removed. Script execution finished.")
+
+# # Schedule the job at 2:36 AM and 2:36 PM
+# schedule.every().day.at("02:36").do(run_merge_epg)  # 2:36 AM
+# schedule.every().day.at("14:36").do(run_merge_epg)  # 2:36 PM
+
+# # Infinite loop to keep the scheduler running
+# while True:
+#     schedule.run_pending()
+#     time.sleep(60)  # Sleep for 60 seconds to reduce CPU load
+
+
+
+# Step 2.1: Function to run dummy_epg.py script
+def run_dummy_epg():
+    """Runs the dummy EPG generation script."""
+    try:
+        # Define paths
+        dummy_epg_path = os.path.join(script_dir, "dummy_epg.py")  # Path to dummy_epg.py
+        # venv_python = os.path.join(sys.prefix, "bin", "python3")
+
+        # Debugging: Print paths
+        print(f"dummy_epg_path: {dummy_epg_path}")
+        print(f"venv_python: {venv_python}")
+
+        # Run the dummy_epg.py script
+        result = subprocess.run(
+            [venv_python, dummy_epg_path],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+
+        # Output success
+        print("dummy_epg.py executed successfully")
+        print(result.stdout)  # Output from dummy_epg.py
+
+    except subprocess.CalledProcessError as e:
+        # Output error
+        print(f"Error while running dummy_epg.py: {e}")
+        print(e.stderr)
+
+# Run dummy_epg.py
+if __name__ == "__main__":
+    run_dummy_epg()
+
+# Step 2.2: Function to load channel data from a JSON file (  channels.json  )
+# Include channels_json.xml in epg_urls.txt 
+# python3 merge_epg.py
+import re # Count / Log  Channels
+
 def run_npm_grab():
     # Define the toggles as True/False
-    toggle_channels_custom_date = False
-    toggle_channels_custom = True
-    toggle_channels_test = False
+    toggle_channels_custom = False
+    toggle_channels_test = True
     toggle_channels_test_copy = False
 
     # Get current date and time for timestamping the output file
@@ -97,19 +178,12 @@ def run_npm_grab():
     # List of npm commands with timestamped output file, toggled based on True/False values
     commands = []
 
-    if toggle_channels_custom_date:
+    if toggle_channels_custom:
         commands.append([
             "npm", "run", "grab", "--", 
             f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
             f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
         ])
-
-    if toggle_channels_custom:
-        commands.append([
-        "npm", "run", "grab", "--", 
-        f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        f"--output=./scripts/_epg-end/channels-custom-end.xml"
-    ])
 
     if toggle_channels_test:
         commands.append([
@@ -142,8 +216,8 @@ def run_npm_grab():
                 print(f"Old file {file_path} deleted.")
     except Exception as e:
         if logger:
-            logger.error(f"❌ Error deleting old files: {e}")
-        print(f"❌ Error deleting old files: {e}")
+            logger.error(f"Error deleting old files: {e}")
+        print(f"Error deleting old files: {e}")
 
     for command in commands:
         try:
@@ -202,8 +276,8 @@ def run_npm_grab():
 
         except Exception as e:
             if logger:
-                logger.error(f"❌ Error while running npm command {command_str}: {e}")
-            print(f"❌ Error while running npm command {command_str}: {e}")
+                logger.error(f"Error while running npm command {command_str}: {e}")
+            print(f"Error while running npm command {command_str}: {e}")
 
 # Run the process
 if __name__ == "__main__":
@@ -211,24 +285,17 @@ if __name__ == "__main__":
 
 
 
-########## Step 4: Main merge_epg function
-
-# Main merge_epg function
+# Step 4: Main merge_epg function
 def merge_epg_data():
+    """Coordinates the EPG generation and merging process."""
 
-    # Proceed with your merge EPG logic...
-    print("Merging EPG data...")
-    # Your existing code for merging EPG data goes here...
-    
-# Run the entire process
-merge_epg_data()
+    print("Merging EPG data...") # Proceed with EPG merging logic
 
 # Execute the process
 if __name__ == "__main__":
-    pass  # This is already handled by the function call above
+    merge_epg_data()
 
-
-########## Step 5: Function to read the EPG URLs from a file
+# Step 5: Function to read the EPG URLs from a file
 def load_epg_urls(file_path):
     """Read EPG URLs from the specified file and return them as a list."""
     try:
@@ -236,25 +303,10 @@ def load_epg_urls(file_path):
             epg_urls = [line.strip() for line in file.readlines() if line.strip()]  # Remove empty lines and strip whitespace
         return epg_urls
     except Exception as e:
-        print(f"❌ Error reading {file_path}: {e}")
+        print(f"Error reading {file_path}: {e}")
         return []
 
-########## Step 6: Check for XML files if no URLs are found
-
-# Function to load EPG URLs (the actual implementation of this is not provided here, assuming it's defined elsewhere)
-def load_epg_urls(epg_urls_file):
-    """Load EPG URLs from the given file."""
-    epg_urls = []
-    try:
-        with open(epg_urls_file, 'r') as file:
-            epg_urls = file.readlines()
-            epg_urls = [url.strip() for url in epg_urls]  # Clean up the URLs
-    except Exception as e:
-        print(f"❌ Error loading EPG URLs from {epg_urls_file}: {e}")
-    return epg_urls
-
-########## Step 6: Check for XML files if no URLs are found
-
+# Step 6: Check for XML files if no URLs are found
 def load_local_xml_files(directory):
     """Look for XML files in the directory if no EPG URLs are found."""
     xml_files = []
@@ -271,11 +323,10 @@ def load_local_xml_files(directory):
         print(f"XML files found: {xml_files}")  # Final list of found XML files
         return xml_files
     except Exception as e:
-        print(f"❌ Error loading XML files from {directory}: {e}")
+        print(f"Error loading XML files from {directory}: {e}")
         return []
 
 # Get the directory where the script is located (absolute path)
-script_dir = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Ensure the 'log' directory exists
 
 # Relative path to the epg_urls.txt file
@@ -287,31 +338,18 @@ epg_urls = load_epg_urls(epg_urls_file)
 # Check if URLs are found, if not, look for XML files in the _epg-end directory
 if not epg_urls:
     # Use a relative path to the _epg-end directory
-    epg_end_dir = os.path.join(script_dir, '_epg-end')
+    epg_end_dir = os.path.join(script_dir, '_epg-end')  # Relative path to _epg-end directory
     print(f"No EPG URLs found in {epg_urls_file}, scanning {epg_end_dir} for XML files...")
     epg_urls = load_local_xml_files(epg_end_dir)
 
 # Print out the list of EPG URLs or local XML files found
-if epg_urls:
-    print("EPG URLs or local XML files found:")
-    for url in epg_urls:
-        print(f"  - {url}")
-else:
-    print("No EPG URLs or local XML files found.")
+print("EPG URLs or local XML files found:", epg_urls)
 
-########## Step 7: Path to save the merged EPG file
-REPO_DIR = os.path.dirname(os.path.abspath(__file__))  # Assuming the script is part of the repository
-save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file will be saved
-# save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
-
-# Define the directory for .gz files
+# Step 7: Path to save the merged EPG file
+save_path = os.path.join(REPO_DIR, "www", "epg-test.xml")  # Path where the EPG file will be saved
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
-# You can now process files within the gz_directory or save to save_path
-print(f"EPG file will be saved to: {save_path}")
-print(f".gz files are located in: {gz_directory}")
-
-########## Step 8: Function to ensure directory and file permissions
+# Step 8: Function to ensure directory and file permissions
 def ensure_permissions(file_path):
     # Ensure the directory exists
     directory = os.path.dirname(file_path)
@@ -338,40 +376,27 @@ def ensure_permissions(file_path):
 ensure_permissions(save_path)
 
 
-########## Step 9: Function to fetch and merge EPG data
+# Step 9: Function to fetch and merge EPG data
+import requests
+import gzip
 
-from xml.dom import minidom
-
-# Function to pretty-print XML
-def pretty_print_xml(xml_tree):
-    xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
-    parsed_str = minidom.parseString(xml_str)
-    return parsed_str.toprettyxml(indent="  ")
-
-def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_epg-end"):
-    # If URL is not absolute, combine it with folder_path (local path resolution)
-    if not os.path.isabs(url):
-        url = os.path.join(folder_path, url)
-
+def fetch_epg_data(url, index, total, retries=3, delay=5):
     logging.info(f"Fetching {index + 1}/{total} - {url}")
     print(f"Fetching {index + 1}/{total} - {url}")
-    
+
     attempt = 0
     while attempt < retries:
         try:
-            # Handling remote URLs
-            if url.startswith('http'):
+            if url.startswith('http'):  # Step 5.1: Handle remote URLs
                 response = requests.get(url, timeout=10)  # Timeout to avoid hanging
                 if response.status_code == 200:
                     try:
-                        # Handle .gz files (compressed XML)
-                        if url.endswith('.gz'):
+                        if url.endswith('.gz'):  # Step 5.2: Handle .gz files (compressed XML)
                             with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
                                 xml_content = gz.read()
                             epg_tree = ET.ElementTree(ET.fromstring(xml_content))
                         else:
                             epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                        
                         print(f"✅ Successfully fetched {index + 1}/{total}")
                         logging.info(f"✅ Successfully fetched {index + 1}/{total}")
                         return epg_tree
@@ -380,33 +405,25 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
                         print(f"XML parse error for {url}: {e}")
                         return None
                     except Exception as e:
-                        logging.error(f"❌ Error processing {url}: {e}")
-                        print(f"❌ Error processing {url}: {e}")
+                        logging.error(f"Error processing {url}: {e}")
+                        print(f"Error processing {url}: {e}")
                         return None
                 else:
-                    logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
-                    print(f"❌ Error fetching {url}: HTTP {response.status_code}")
+                    logging.error(f"Error fetching {url}: HTTP {response.status_code}")
+                    print(f"Error fetching {url}: HTTP {response.status_code}")
                     return None
-
-            # Handling local XML files
-            else:
+            else:  # Step 5.3: Handle local XML files
                 try:
-                    # Ensure the file exists before attempting to parse
-                    if os.path.exists(url):
-                        epg_tree = ET.parse(url)
-                        print(f"✅ Successfully loaded local file: {url}")
-                        logging.info(f"✅ Successfully loaded local file: {url}")
-                        return epg_tree
-                    else:
-                        logging.error(f"Local file does not exist: {url}")
-                        print(f"Local file does not exist: {url}")
-                        return None
+                    epg_tree = ET.parse(url)
+                    print(f"✅ Successfully loaded local file: {url}")
+                    logging.info(f"✅ Successfully loaded local file: {url}")
+                    return epg_tree
                 except ET.ParseError as e:
                     logging.error(f"❌ Failed to parse local XML file {url}: {e}")
                     print(f"❌ Failed to parse local XML file {url}: {e}")
                 except Exception as e:
-                    logging.error(f"❌ Error processing local file {url}: {e}")
-                    print(f"❌ Error processing local file {url}: {e}")
+                    logging.error(f"Error processing local file {url}: {e}")
+                    print(f"Error processing local file {url}: {e}")
                 return None
 
         except requests.exceptions.RequestException as e:
@@ -414,124 +431,35 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
             print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
             attempt += 1
             time.sleep(delay)  # Wait before retrying
-    return None  # Return None after all attempts fail
+    return None  # Return None after all attempts fail    
 
-# EPG URLs and local file names in the _epg-end folder should be known and valid
-epg_urls = [
-    "dummy--epg---end.xml",  # Local file in the _epg-end folder
-    "channels-test-end.xml",
-    "channels-custom-end.xml"
-]
-
-folder_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end"
-for idx, url in enumerate(epg_urls):
-    fetch_epg_data(url, idx, len(epg_urls), folder_path=folder_path)
-
-
-
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
-
-# Function to reorder channels to the top of the XML
-def reorder_channels(merged_root):
-    # Extract all <channel> elements
-    channels = [el for el in merged_root.findall('channel')]
-
-    # Extract all <programme> elements
-    programmes = [el for el in merged_root.findall('programme')]
-
-    # Clear the current root (we'll rebuild it)
-    merged_root.clear()
-
-    # Append the channels first
-    for channel in channels:
-        merged_root.append(channel)
-
-    # Then append the programmes
-    for programme in programmes:
-        merged_root.append(programme)
-
-# Function to pretty-print XML with custom formatting
-def pretty_print_xml(xml_tree):
-    # Convert the tree to a string with xml_declaration and UTF-8 encoding
-    xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
-    
-    # Parse the string into a minidom object for pretty printing
-    parsed_str = minidom.parseString(xml_str)
-    
-    # Return the pretty-printed XML string with proper indentation
-    return parsed_str.toprettyxml(indent="  ")
-
-# Example usage:
-
-# Assuming merged_root is your root element containing XML data
-merged_root = ET.Element("tv")
-
-# Assuming you have added <channel> and <programme> elements to merged_root
-
-# Reorder channels to be at the top
-reorder_channels(merged_root)
-
-# Pretty print the merged and reordered XML
-pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
-
-
-
-# Assuming epg_urls contains your XML URLs (remote or local)
-epg_urls = ["dummy--epg---end.xml", "channels-test-end.xml", "channels-custom-end.xml"]
-folder_path = "scripts/_epg-end"  # Update to your folder path
-
-# Fetch and merge EPG data
-total_files = len(epg_urls)
-for idx, url in enumerate(epg_urls):
-    epg_tree = fetch_epg_data(url, idx, total_files, folder_path=folder_path)
-    if epg_tree:
-        for element in epg_tree.getroot():
-            merged_root.append(element)
-
-# Reorder the channels to appear first
-reorder_channels(merged_root)
-
-# Pretty print the merged and reordered XML
-pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
-
-# Save the final formatted XML file
-with open(save_path, "w", encoding="utf-8") as f:
-    f.write(pretty_xml)
-
-success_message = f"✅ EPG file successfully saved to {save_path}"
-logging.info(success_message)
-print(success_message)
-
-
-
-########## Step 10: Extract XML from .gz files
-
+# Function to extract XML from .gz files
+import log 
 def extract_gz_files(gz_directory):
     """Extract .gz files in the specified directory."""
     # Make sure you're using the correct directory
     gz_directory = os.path.join(REPO_DIR, "www")  # Ensure this points to the right directory
 
     if not os.path.exists(gz_directory):
-        print(f"❌ Error: Directory {gz_directory} does not exist.")
+        log(f"Error: Directory {gz_directory} does not exist.")
         return []
 
     extracted_files = []
     for filename in os.listdir(gz_directory):
         if filename.endswith(".gz"):
             file_path = os.path.join(gz_directory, filename)
-            print(f"Extracting {file_path}...")
+            log(f"Extracting {file_path}...")
             # Your extraction code here
             extracted_files.append(file_path)
     return extracted_files
 
 
-########## Step 11: Merge EPG data into a single XML
-
+# Step 10: Save the merged EPG file and log success
+# Initialize root XML element
 merged_root = ET.Element("tv")
-total_files = len(epg_urls)
 
-# ########## Step 12: Process each EPG URL
+# Step 11: Process each EPG URL
+total_files = len(epg_urls)  # Define before loop
 for index, url in enumerate(epg_urls):
     epg_tree = fetch_epg_data(url, index, total_files)
     if epg_tree:
@@ -539,11 +467,28 @@ for index, url in enumerate(epg_urls):
             merged_root.append(element)
     sleep(0.5)  # Small delay to simulate and visualize progress
 
-
-########## Step 13: Extract XML from .gz files
+# Step 12: Extract XML from .gz files
+def extract_gz_files(gz_directory):
+    """Extract all .gz files in the directory and return a list of extracted XML files."""
+    extracted_files = []
+    for filename in os.listdir(gz_directory):
+        if filename.endswith(".gz"):
+            gz_file = os.path.join(gz_directory, filename)
+            try:
+                with open(gz_file, 'rb') as f_in:
+                    extracted_file = gz_file[:-3]  # Remove .gz extension for the extracted file name
+                    with open(extracted_file, 'wb') as f_out:
+                        f_out.write(f_in.read())  # Extract the .gz content into an XML file
+                    extracted_files.append(extracted_file)
+            except Exception as e:
+                logging.error(f"Error extracting {gz_file}: {e}")
+    return extracted_files
 
 print("Extracting XML from .gz files...")
+# gz_directory = "_epg-end"  # Set the path to your .gz files directory
 extracted_files = extract_gz_files(gz_directory)
+merged_root = ET.Element("merged_epg")
+
 for xml_file in extracted_files:
     try:
         epg_tree = ET.parse(xml_file)
@@ -553,20 +498,22 @@ for xml_file in extracted_files:
         logging.error(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
         print(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
 
-
-########## Step 14: Save the merged EPG file and log success
-
+# Step 13: Save the merged EPG file after merging data
+save_path = "www/epg-test.xml"  # Set your desired save path
 try:
+    save_dir = os.path.dirname(save_path)
+    os.makedirs(save_dir, exist_ok=True)  # Ensure directory exists
+
     merged_tree = ET.ElementTree(merged_root)
     merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
-    
+
     # Log success message
     success_message = f"✅ EPG file successfully saved to {save_path}"
-    logging.info(success_message)  # Log to merge_epg.log
-    print(success_message)  # Echo success to console
+    logging.info(success_message)
+    print(success_message)
 
 except Exception as e:
-    # Log error if save fails
     error_message = f"❌ Failed to save EPG file - Error: {e}"
     logging.error(error_message)
     print(error_message)
+
