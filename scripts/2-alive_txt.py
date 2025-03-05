@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 import subprocess
 
-# python3 alive_txt.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/2-alive_txt.py
 
 
 # Function to read server URLs from a .txt file
@@ -62,8 +62,8 @@ def run_second_script(script_path):
 def main():
     try:
         # Path to your text file with URLs
-        # txt_file_path = "_alive/alive.txt"  # Ensure this is the correct path
-        txt_file_path = "_alive/expired.txt"  # Ensure this is the correct path
+        txt_file_path = "_alive/1-alive.txt"  # Ensure this is the correct path
+        # txt_file_path = "_alive/expired.txt"  # Ensure this is the correct path
 
 
         # Read URLs from the text file
