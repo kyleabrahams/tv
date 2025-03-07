@@ -58,12 +58,38 @@ def write_channels_to_new_xml(collected_channels, output_file):
 
 # Main function
 def main():
-    src_dir = "../sites"  # Folder with XML files
+
+    src_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../sites"))
+
+    # Verify the resolved absolute path
+    absolute_path = os.path.abspath(src_dir)
+    print(f"Resolved path: {absolute_path}")
+
+    # Check if directory exists
+    if not os.path.exists(src_dir):
+        print("⚠️ ERROR: Directory does not exist!")
+    else:
+        print("✅ Directory found!")
     search_words = [
                     # "gusto", 
-                    # "this", 
-                    "gusto"]  # Words to search for
-    output_dir = "./_Search_Results"
+                    "4K Travel", 
+                    "AKC", 
+                    "Always Funny", 
+                    "Digest", 
+                    "CBC Comedy", 
+                    "CNN Fast", 
+                    "CTV @", 
+                    "Digest", 
+                    "CTV Gets", 
+                    "CTV Laughs", 
+                    "Deal or No", 
+                    "ET", 
+                    "Fail Army", 
+                    "Fifth Gear", 
+                    "Filmrise", 
+                    "Great British", 
+                    "bon app"]  # Words to search for
+    output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "_Search_Results"))
 
     search_results = search_xml_in_directory(src_dir, search_words)
 
