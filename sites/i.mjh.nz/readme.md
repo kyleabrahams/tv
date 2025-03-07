@@ -34,6 +34,8 @@ npm run grab --- --channels=sites/i.mjh.nz/i.mjh.nz_<PROVIDER_CODE>.channels.xml
 
 ```sh
 npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_<PROVIDER_CODE>.channels.xml --set=provider:<PROVIDER_CODE>
+
+npm run channels:parse --- --config=./sites/i.mjh.nz/i.mjh.nz.config.js --output=./sites/i.mjh.nz/i.mjh.nz_pluto.channels.xml --set=provider:pluto
 ```
 
 ### Test

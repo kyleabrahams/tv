@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<channels>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexACCDN.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-5f8ee3727c75fa002d9e47c1">ACCDN</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexAKCtv.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-63e6381d8895074ec6c78b16">AKC.tv</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexALF.ca" site_id="Plex/all#5e20b730f2f8d5003d739db7-62d1ecc8e44d39da220722aa">ALF</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexAMCThrillers.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-5fc705e2a2236e002d69f36d">AMC Thrillers</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexAlwaysFunny.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-5ef11486d33ab9004048a1cd">Always Funny</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCBCComedy.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65b28dd28f05102bce4a7910">CBC Comedy</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="PlexTheConners.us" site_id="66e2a94d167a8b000813485d">The Conners</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="BBCHomeAndGarden.ca" site_id="5fb5836fe745b600070fc743">BBC Home &amp; Garden</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="BBCHomeAndGarden.ca" site_id="150#99951178">BBC Home &amp; Garden</channel>
+  <channel site="xumo.tv" lang="en" xmltv_id="BBC.News.us" site_id="0#99951298">BBC News</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCBCNews.ca" site_id="Plex/au#5e20b730f2f8d5003d739db7-64c91830ea7db2f52688c52c">CBC News</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="PlexCBCNews.ca" site_id="6536721dbfbaec00088687c0">CBC News Toronto</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCNNHeadlines.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b4fcc2530e39ea2ee79545">CNN Headlines</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCTV@Home.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685c2e02deb7f424133b08f">CTV @Home</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCTVLaughs.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685c10e2deb7f424133b08b">CTV Laughs</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCTVNews.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d">CTV News</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCWForever.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66635fc0ca7b22f4c3a2d743">CW Forever</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCWGold.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66635e41ca7b22f4c3a2d741">CW Gold</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexCops.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-626c1753ffda6789d20a452e">COPS</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexDanceMoms.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-672917e07f55143b23b66c4b">Dance Moms</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexDogtheBountyHunter.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66428faa5116d565e63ae32a">Dog the Bounty Hunter</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexFilmRiseAction.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65ddf33acf4a43f7017f31c4">FilmRise Action</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexFilmRiseFreeMovies.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65ddf33c7e7be0a1106cd1bb">FilmRise Free Movies</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexFilmRiseTrueCrime.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-646e489b58898bf3be94b325">FilmRise True Crime</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexFilmRiseWestern.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6627ab12580825e8a7bc4f05">FilmRise Western</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexGravitasMovies.nz" site_id="Plex/nz#5e20b730f2f8d5003d739db7-5efe1de7e0b3f5003f5d9f8e">Gravitas Movies</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexGreatBritishMenu.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-64704596e536e0faaf10be9b">Great British Menu</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexHellsKitchen.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-65829d90a90606db3c841b19">Hell's Kitchen</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexJAIL.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-6448ba1baf92c31f4a190c27">JAIL</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexJourny.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-61f0489a3f2259f988094ddb">Journy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexMilitaryHeroes.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-63ec15d6290593c3fc279f4a">Military Heroes Presented By History</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexNoReservations.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-66b141e2a9ef8c41ec0841b2">No Reservations</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexPopstarTV.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-5ef11487d33ab9004048a1d6">Popstar! TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexPropertyBrothersChannel.ca" site_id="Plex/ca#647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc">Property Brothers Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexSPEEDVISION.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-6349ed0eb1adc4cfa571fd37">SPEEDVISION</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexSportsGrid.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-5ef11485d33ab9004048a1ca">SportsGrid</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexTMZ.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-63e2ca44203bafbef831a152">TMZ</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexTheJamieOliverChannel.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-64b7170c4612b1f48e9ad31e">The Jamie Oliver Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexVevo2k.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-615593004054ee0a9771147a">Vevo 2K</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexVevo80s.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-615700a23a4a316ad53ad716">Vevo '80s</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexVevo90s.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-61559301bcb11028da48b065">Vevo '90s</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexVevoHipHop.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-632997b7f79ba3e1368f8b97">Vevo Hip-Hop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexVevoPop.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-616743c63727d6d85751802a">Vevo Pop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexWomensSportsNetwork.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-630fa9e577ec3866def38fa2">Women's Sports Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexYahooFinance.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-5f170f01b898490041b49dd1">Yahoo Finance</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="Pluto00sReplay" site_id="62ba60f059624e000781c436">00s Replay</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="Pluto48Hours.ca" site_id="6176f39e709f160007ec61c3">48 Hours</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="Pluto70smaxma.us" site_id="5f4d878d3d19b30007d2e782">70s Cinema</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="Pluto80sRewind.us" site_id="5ca525b650be2571e3943c63">80s Rewind</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="Pluto90sThrowback.us" site_id="5f4d86f519358a00072b978e">90s Throwback</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="PlutoAmericasVoiceNews.us" site_id="5e1f7da4bc7d740009831259">America's Voice News</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoAngerManagement.ca" site_id="PlutoTV/ca#65cf8bdaa25d5e00081e1e5d">Anger Management</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoAreWeThereYet.ca" site_id="PlutoTV/ca#65cf8b9328730900087c5324">Are We There Yet?</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoCBCNewsToronto.ca" site_id="PlutoTV/ca#6536721dbfbaec00088687c0">CBC News Toronto</channel>
+  <channel site="pluto.tv" lang="es" xmltv_id="PlutoCBSNews247.es" site_id="5a6b92f6e22a617379789618">CBS News 24/7</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoCNNFast.ca" site_id="PlutoTV/ca#66c45c274f25dd00092739ee">CNN Fast</channel>
+  <channel site="pluto.tv" lang="en" xmltv_id="PlutoDallasCowboysCheerleaders.us" site_id="5d40855b3fb0855028c99b6f">DCC: Making the Team</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoDealOrNoDeal.ca" site_id="PlutoTV/ca#62e92951c2db99000787c00d">Deal or no Deal</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoFailArmy.us" site_id="PlutoTV/us#554158e864526b29254ff105">FailArmy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoFifthGear.gb" site_id="PlutoTV/gb#5ca1de9208ee5378be82db3b">Fifth Gear</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoFrasier.ca" site_id="PlutoTV/ca#62f4f90e39183b000769f12b">Frasier</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoGunsmoke.ca" site_id="PlutoTV/ca#62e916affb29c60007211c8a">Gunsmoke</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoHappyDays.ca" site_id="PlutoTV/ca#62e917b5e354cf0007b97a67">Happy Days</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoJerseyShore.us" site_id="PlutoTV/us#609bfa51fbecc1000733152e">Jersey Shore</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoKevinHartsLOLNetwork.us" site_id="PlutoTV/us#5af09e645126c2157123f9eb">Kevin Hart’s LOL! Network</channel>
+  <channel site="i.mjh.nz" lang="da" xmltv_id="PlutoMTVBiggestPop.dk" site_id="PlutoTV/dk#6697952e85612600089f4862">MTV Biggest Pop</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoMTVSpankinNew.ca" site_id="PlutoTV/ca#6541010f770cf1000866be98">MTV Spankin’ New</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoMillionDollarListingVault.us" site_id="PlutoTV/us#6549322e53fc97000838febc">Million Dollar Listing Vault</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoNickPluto V.ca" site_id="PlutoTV/ca#62bdb6a83c6e37000726823b">Nick Pluto TV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoProjectRunway.gb" site_id="PlutoTV/gb#66d82143abec540008bd2b1c">Project Runway</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoSayYestotheDress.us" site_id="PlutoTV/us#6532e8342cf13100083b404c">Warner Bros. TV Say Yes to the Dress</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoTODAYAllDay.us" site_id="PlutoTV/us#5d695f7db53adf96b78e7ce3">TODAY All Day</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoTheJackHannaChannel.us" site_id="PlutoTV/us#650b6a0c6625510008e1043b">The Jack Hanna Channel</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoTheWalkingDeadUniverse.us" site_id="PlutoTV/us#62fa8176b9884200074ef5ae">The Walking Dead Universe</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoThisOldHouse.us" site_id="PlutoTV/us#5d51e791b7dba3b2ae990ab2">This Old House</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoVH1HipHopFamily.us" site_id="PlutoTV/us#5d71561df6f2e6d0b6493bf5">VH1 Hip Hop Family</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoVH1ILoveReality.us" site_id="PlutoTV/us#5d7154fa8326b6ce4ec31f2e">VH1 I Love Reality</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoYoMTV.ca" site_id="PlutoTV/ca#654102ed770cf1000866c307">Yo! MTV</channel>
+</channels>
+
