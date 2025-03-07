@@ -8,7 +8,8 @@
   <channel site="ontvtonight.com" lang="en" xmltv_id="AandE.us" site_id="us#69028671/ae-network-hdtv">A&amp;E Network HDTV</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="AandE.us" site_id="us#69047068/ae-network-east">A&amp;E Network (East)</channel>
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max--eastern/636">5 Star Max - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-eastern/636">5 Star Max - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="5StarMax.us" site_id="5-star-max-hd--eastern/7093">5 Star Max HD - Eastern</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="5StarMax.us" site_id="us#69050054/five-star-max">Five Star Max</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="ABC.Spark.ca" site_id="abc-spark-hd/10282">ABC Spark HD</channel>
@@ -45,6 +46,7 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="AandE.us" site_id="ae-us--eastern-feed/2">A&amp;E US - Eastern Feed</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="AEEast.us" site_id="10035">A&amp;E East</channel> -->
 
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ActionMaxEast.us" site_id="actionmax-eastern-hd/7094">ActionMax - Eastern HD</channel> -->
   <channel site="tvpassport.com" lang="en" xmltv_id="ActionMaxEast.us" site_id="actionmax--eastern-hd/7094">ActionMax - Eastern HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ActionMaxEast.us" site_id="18433">ActionMax East</channel> -->
 
@@ -295,7 +297,8 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="Charge.us" site_id="charge/15228">CHARGE!</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Charge.us" site_id="102148">Charge!</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="CinemaxEastHD.us" site_id="cinemax--eastern-hd/3567">Cinemax - Eastern HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="CinemaxEastHD.us" site_id="cinemax-eastern-hd/3567">Cinemax - Eastern HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="CinemaxEastHD.us" site_id="cinemax--eastern-feed/632">Cinemax - Eastern Feed</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="CinemaxEastHD.us" site_id="10120">Cinemax East</channel> -->
 
 
@@ -503,7 +506,9 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="Grit.us" site_id="grit-network/14377">Grit Network</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Grit.us" site_id="89922">Grit</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="HBO2West.us" site_id="hbo-west-hd/6425">HBO West HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBO2West.us" site_id="hbo-west-hd/6425">HBO West HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBO2West.us" site_id="hbo-2--eastern-feed-hd/6313">HBO 2 - Eastern Feed HD</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBO2West.us" site_id="hbo-2--eastern-feed/626">HBO 2 - Eastern Feed</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBO2West.us" site_id="10242">HBO2 West</channel> -->
 
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBO1.ca" site_id="hbo1-hd/4230">HBO1 HD</channel> -->
@@ -521,19 +526,23 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="HBO2West.us" site_id="hbo-2--pacific-feed-hd/6314">HBO 2 - Pacific Feed HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBO2West.us" site_id="10242">HBO2 West</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="HBOComedyEast.us" site_id="hbo-comedy-hd--east/7105">HBO Comedy HD - East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBOComedyEast.us" site_id="hbo-comedy-hd-east/7105">HBO Comedy HD - East</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBOComedyEast.us" site_id="hbo-comedy--east/629">HBO Comedy - East</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBOComedyEast.us" site_id="18429">HBO Comedy East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="HBOFamilyEast.us" site_id="hbo-family--eastern-feed-hd/7104">HBO Family - Eastern Feed HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBOFamilyEast.us" site_id="hbo-family-eastern-feed-hd/7104">HBO Family - Eastern Feed HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBOFamilyEast.us" site_id="hbo-family--eastern-feed/628">HBO Family - Eastern Feed</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBOFamilyEast.us" site_id="16585">HBO Family East</channel> -->
 
 
   <channel site="gatotv.com" lang="es" xmltv_id="HBOPopLatinAmerica.us" site_id="hbo_pop">HBO Pop</channel>
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="HBOSignatureEast.us" site_id="hbo-signature-hbo-3--eastern-hd/7099">HBO Signature (HBO 3) - Eastern HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBOSignatureEast.us" site_id="hbo-signature-hbo-3-eastern-hd/7099">HBO Signature (HBO 3) - Eastern HD</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="HBOSignatureEast.us" site_id="us#69032052/hbo-signature-east">HBO Signature (East)</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBOSignatureEast.us" site_id="10243">HBO Signature East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="HBOZoneEast.us" site_id="hbo-zone--east/630">HBO Zone - East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HBOZoneEast.us" site_id="hbo-zone-east/630">HBO Zone - East</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="HBOZoneEast.us" site_id="hbo-zone-hd--east/7102">HBO Zone HD - East</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="HBOZoneEast.us" site_id="18431">HBO Zone East</channel> -->
 
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="HGTVEast.us" site_id="hgtv-usa-eastern-feed/623">HGTV USA - Eastern Feed</channel>
@@ -624,12 +633,15 @@
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MASN.us" site_id="46817">MASN</channel> -->
 
   <channel site="tvinsider.com" lang="en" xmltv_id="MeTV.us" site_id="metv">MeTV</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm--east/7609">MGM+ - East</channel>
+
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd-usa/6107">MGM HD (USA)</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-east/7609">MGM+ - East</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="MGM+.us" site_id="mgm-hd--east/7610">MGM+ HD - East</channel>
   <!-- <channel site="tvguide.com" lang="en" xmltv_id="MGM+.us" site_id="9200009335">MGM+ HD</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MGM+.us" site_id="65669">MGM+ East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="mgm-drive-in-hd/33934">MGM+ Drive-In HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="mgm-drive-in-hd/33934">MGM+ Drive-In HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="mgm-drive-in/11487">MGM+ Drive-In</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MGMPlusDriveIn.us" site_id="68409">MGM+ Drive-In</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="MGMPlusHitsEast.us" site_id="mgm-hits-hd-east/11615">MGM+ Hits HD - East</channel>
@@ -697,7 +709,8 @@
   <channel site="tvinsider.com" lang="en" xmltv_id="Motortrend.us" site_id="motortrend">MotorTrend</channel>
 
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="moviemax-max-6-east/1653">MovieMax (Max 6) - East</channel> -->
-  <channel site="tvguide.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="9233000532">MovieMax</channel>
+  <!-- <channel site="tvguide.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="9233000532">MovieMax</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="moviemax-hd/7101">MovieMax HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel> -->
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="MovieMaxEast.us" site_id="us#572881709/moviemax-hdtv-east">MOVIEMAX HDTV (East)</channel> -->
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="MovieMaxEast.us" site_id="25621">MovieMax East</channel> -->
@@ -796,7 +809,8 @@
 
   <channel site="tvtv.us" lang="en" xmltv_id="OutdoorChannel.us" site_id="14776">Outdoor Channel</channel>
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="OuterMaxEast.us" site_id="outermax--eastern/2270">OuterMax - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="OuterMaxEast.us" site_id="outermax-eastern/2270">OuterMax - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="OuterMaxEast.us" site_id="outermax-hd--eastern/7098">OuterMax HD - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="OuterMaxEast.us" site_id="25622">OuterMax East</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="Ovation.us" site_id="ovation-hd/8838">Ovation HD</channel>
@@ -808,7 +822,8 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="PBSEast.us" site_id="pbs-ket-lexington-ky-hd/5222">PBS (KET) Lexington, KY HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="PBSEast.us" site_id="33453">PBS East (National Feed)</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="paramount-with-showtime--eastern/3034">Paramount+ with Showtime - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="paramount-with-showtime-eastern/3034">Paramount+ with Showtime - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="paramount-with-showtime--eastern-feed/665">Paramount+ with Showtime - Eastern Feed</channel>
   <!-- <channel site="ontvtonight.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="us#69021684/paramount-with-showtime-hdtv-east">Paramount+ with SHOWTIME HDTV (East)</channel>
   <channel site="streamingtvguides.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="DTV:SHOe:545">Showtime = Paramount+ with SHOWTIME HDTV (East)</channel>
   <channel site="ontvtonight.com" lang="en" xmltv_id="Paramount+withShowtimeWest.us" site_id="us#69047004/paramount-with-showtime-east">Paramount+ with SHOWTIME (East)</channel> -->
@@ -949,21 +964,26 @@
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ShowcaseEast.ca" site_id="showcase-canada/62">Showcase Canada</channel> -->
   <channel site="ontvtonight.com" lang="en" xmltv_id="ShowcaseEast.ca" site_id="ca#69023333/showcase-television-east">Showcase Television (East)</channel>
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="showtime-showcase--eastern/2271">Showtime Showcase - Eastern</channel>
-  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="showtime-showcase-hd--east/7106">Showtime Showcase HD - East</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="showtime-showcase-eastern/2271">Showtime Showcase - Eastern</channel>
+  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="showtime-showcase-hd-east/7106">Showtime Showcase HD - East</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="us#69032257/showtime-showcase-hdtv-east">Showtime Showcase HDTV (East)</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ShowtimeShowcaseEast.us" site_id="16153">Showtime Showcase East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeWomenEast.us" site_id="showtime-women-hd--eastern/7112">Showtime Women HD - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeWomenEast.us" site_id="showtime-women-hd-eastern/7112">Showtime Women HD - Eastern</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="ShowtimeWomenEast.us" site_id="us#69037601/showtime-women-hdtv-east">Showtime Women HDTV (East)</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ShowtimeWomenEast.us" site_id="25272">Showtime Women East</channel> -->
   
   <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Showtime2East.us" site_id="showtime-2-eastern/1387">Showtime 2 - Eastern</channel> -->
-  <channel site="tvpassport.com" lang="en" xmltv_id="Showtime2East.us" site_id="showtime-2-hd--eastern/7111">Showtime 2 HD - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Showtime2East.us" site_id="showtime-2-hd-eastern/7111">Showtime 2 HD - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="Showtime2East.us" site_id="showtime-2--eastern/1387">Showtime 2 - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Showtime2East.us" site_id="11116">Showtime 2 East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeExtremeEast.us" site_id="showtime-extreme-hd--eastern/7107">Showtime Extreme HD - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeExtremeEast.us" site_id="showtime-extreme-hd-eastern/7107">Showtime Extreme HD - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeExtremeEast.us" site_id="showtime-extreme--eastern/1615">Showtime Extreme - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ShowtimeExtremeEast.us" site_id="18086">Showtime Extreme East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeFamilyZoneEast.us" site_id="showtime-family-zone-hd--eastern/7108">Showtime Family Zone HD - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeFamilyZoneEast.us" site_id="showtime-family-zone-hd-eastern/7108">Showtime Family Zone HD - Eastern</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeFamilyZoneEast.us" site_id="showtime-family-zone--eastern/1956">Showtime Family Zone - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ShowtimeFamilyZoneEast.us" site_id="25274">Showtime Family Zone East</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="ShowtimeNextEast.us" site_id="showtime-next-hd-eastern/7109">Showtime Next HD - Eastern</channel>
@@ -1085,7 +1105,8 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="StarzComedyEast.us" site_id="starz-comedy-hd--eastern/7088">Starz Comedy HD - Eastern</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="StarzComedyEast.us" site_id="34901">Starz Comedy East</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="Starz1East.ca" site_id="starz-hd--eastern/3388">Starz HD - Eastern</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="Starz1East.ca" site_id="starz-hd-eastern/3388">Starz HD - Eastern</channel> -->
+  <channel site="ontvtonight.com" lang="en" xmltv_id="Starz1East.ca" site_id="us#69047025/starz-east">Starz (East)</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="Starz1East.ca" site_id="49338">Starz 1 East</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="StarzEdgeEast.us" site_id="starz-edge-hd--eastern/7089">Starz Edge HD - Eastern</channel>
@@ -1173,7 +1194,8 @@
   <channel site="tvpassport.com" lang="en" xmltv_id="TheWeatherChannel.us" site_id="the-weather-channel-hd/5599">The Weather Channel HD</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="TheWeatherChannel.us" site_id="11187">The Weather Channel</channel> -->
 
-  <channel site="tvpassport.com" lang="en" xmltv_id="ThrillerMaxEast.us" site_id="thrillermax--east-hd/7100">ThrillerMax - East HD</channel>
+  <!-- <channel site="tvpassport.com" lang="en" xmltv_id="ThrillerMaxEast.us" site_id="thrillermax-east-hd/7100">ThrillerMax - East HD</channel> -->
+  <channel site="tvpassport.com" lang="en" xmltv_id="ThrillerMaxEast.us" site_id="thrillermax--east/1652">ThrillerMax - East</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="ThrillerMaxEast.us" site_id="18435">ThrillerMax East</channel> -->
 
   <channel site="ontvtonight.com" lang="en" xmltv_id="TravelandEscape.ca" site_id="ca#69021237/te">T+E</channel>
