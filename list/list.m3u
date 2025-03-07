@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Mar 5 1040a for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Mar 7 750a for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -396,13 +396,15 @@ http://fortv.cc:8080/WjtGD2/235867/47324
 #EXTINF:-1 tvg-id="XumoLoveNature.us" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
-http://fl1.moveonjoy.com/TCM/index.m3u8
+# #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
+# http://fl1.moveonjoy.com/TCM/index.m3u8
+#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423769
 
-# #EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418458
-#EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature
-http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
+#EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418458
+# #EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature
+# http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
 
 # #EXTINF:-1 tvg-id="CTV.Sci-Fi.ca" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="",CTV Sci-fi
 # http://fortv.cc:8080/WjtGD2/235867/57253
@@ -589,8 +591,10 @@ https://jmp2.uk/sam-US4000033L.m3u8
 http://fl2.moveonjoy.com/HLN/index.m3u8
 #EXTINF:-1 tvg-id="XumoABCNewsLive.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
-http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+# #EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
+# http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="News",BNN Bloomberg 23.
+http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418417
 
 # #EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="",Adult Swim cd1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1883
