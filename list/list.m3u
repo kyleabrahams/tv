@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Apr 9 457p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 1 459p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -253,8 +253,10 @@ http://fortv.cc:8080/50905877/50905877/215268
 #EXTINF:-1 tvg-id="AandECanada.ca" tvg-name="30 US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="",A&E xip.
 http://xxip25.top:8080/04760056/79599130/57476
 
-#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="31 AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",US AMC 
-http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
+# #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="31 AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",US AMC 
+# http://fl5.moveonjoy.com/AMC_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="31 AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",AMC tvm.
+http://tvmate.icu:8080/k4Svp2/645504/57376
 
 #EXTINF:-1 tvg-id="CNN.HD.ca" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN turner
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
@@ -282,8 +284,10 @@ http://fortv.cc:8080/WjtGD2/235867/47703
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418004
 # #EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708842
-#EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen xip.
-http://xxip25.top:8080/04760056/79599130/57442
+# #EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen xip.
+# http://xxip25.top:8080/04760056/79599130/57442
+#EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen tvm.
+http://tvmate.icu:8080/k4Svp2/645504/46695
 
 #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 23.
 http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418595
@@ -379,8 +383,10 @@ https://jmp2.uk/sam-USBB40000028E.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708838
 # #EXTINF:-1 tvg-id="HomeNetwork.ca" tvg-name="45 Home and Garden Television Canada" tvg-logo="https://i.ibb.co/FmPyNjL/HGTV-Canada-2012-blue.png" group-title="",Home Network tvm. 
 # http://tvmate.icu:8080/154662662/21542662/57273
-#EXTINF:-1 tvg-id="HomeNetwork.ca" tvg-name="45 Home Network / Home and Garden Television Canada" tvg-logo="https://i.ibb.co/pdYLXzd/Home-Network-Gold-1.png" group-title="Home & Food",Home Network ext.  
-http://extraott.com:900/live/9708461610/1164158489/176126.m3u8
+# #EXTINF:-1 tvg-id="HomeNetwork.ca" tvg-name="45 Home Network / Home and Garden Television Canada" tvg-logo="https://i.ibb.co/pdYLXzd/Home-Network-Gold-1.png" group-title="Home & Food",Home Network ext.  
+# http://extraott.com:900/live/9708461610/1164158489/176126.m3u8
+#EXTINF:-1 tvg-id="HomeNetwork.ca" tvg-name="45 Home Network / Home and Garden Television Canada" tvg-logo="https://i.ibb.co/pdYLXzd/Home-Network-Gold-1.png" group-title="Home & Food",Home Network tvm.  
+http://tvmate.icu:8080/k4Svp2/645504/57273
 
 #EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="46 US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="Home & Food",US HGTV 
 http://fl2.moveonjoy.com/HGTV/index.m3u8
