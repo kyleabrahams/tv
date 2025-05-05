@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 625p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 757p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -163,8 +163,11 @@ http://fortv.cc:8080/WjtGD2/235867/120876
 
 # #EXTINF:-1 tvg-id="CTV2.Ottawa.ca" tvg-name="19 CTV2 Ottawa HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa xy.
 # https://xyzdddd.mizhls.ru/lb/premium838/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CTV2.Ottawa.ca" tvg-name="19 CTV2 Ottawa HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418455
+# #EXTINF:-1 tvg-id="CTV2.Ottawa.ca" tvg-name="19 CTV2 Ottawa HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Ottawa 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418455
+#EXTINF:-1 tvg-id="CTV2.Ottawa.ca" tvg-name="19 CTV2 Ottawa HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor 206.
+http://206.212.244.71:8080/4wVQA7/625159/77165
+
 
 #EXTINF:-1 tvg-id="CTV2.London.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="",CTV2 Windsor xip.
 http://xxip25.top:8080/04760056/79599130/77165
@@ -294,8 +297,11 @@ http://fortv.cc:8080/WjtGD2/235867/47703
 #EXTINF:-1 tvg-id="Investigation.Discovery.Canada.ca" tvg-name="34 Oxygen True Crime / Investigation Discovery" tvg-logo="https://i.ibb.co/pzHnCxx/oxygen-true-crime-1.png" group-title="",Oxygen tvm.
 http://tvmate.icu:8080/k4Svp2/645504/46695
 
-#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418595
+# #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418595
+#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life 206.
+http://206.212.244.71:8080/4wVQA7/625159/116506
+
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708784
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="",CTV Life toh.
@@ -695,8 +701,10 @@ http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423763
 # #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="",Family new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/3040
 
-#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
+# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
+#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 206.
+http://206.212.244.71:8080/4wVQA7/625159/57346
 # #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709001
 

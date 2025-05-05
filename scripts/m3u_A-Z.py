@@ -1,57 +1,88 @@
 import re
-from tqdm import tqdm  # Progress bar library
+from tqdm import tqdm
 
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/m3u_A-Z.py
+# File paths
+input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/206-212 Mar 27 2026_4wVQA7 SORTED3.m3u'
+output_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/206-212 Mar 27 2026_4wVQA7 SORTED4.m3u'
 
+# Group priorities
+group_priority = {"Canada": 1, "USA": 2, "UK": 3, "Other": 99}
 
-# Define input and output file paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___New/Mar 5/tvhomesmart_Jan_30_2026_35661061_plus.m3u'
-output_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___New/Mar 5/tvhomesmart_Jan_30_2026_SORTED.m3u'
+def get_priority(group):
+    return group_priority.get(group, 99)
 
-# Read the content of the input .m3u file
-with open(input_file, "r", encoding="utf-8") as file:
-    playlist = file.read()
+# Regex to match #EXTINF line with group-title
+extinf_pattern = re.compile(r'#EXTINF:-1[^#]*?group-title="([^"]+)",([^#\n]+)')
 
-# Updated regex to properly capture group-title, description, and URL
-pattern = re.compile(r'#EXTINF:-1[^#]*?group-title="([^"]+)",([^#\n]+)\n(http[^\n]+)')
+entries = []
+non_extinf_lines = []
 
-# Extract matches (group-title, description, URL)
-matches = pattern.findall(playlist)
+# Read file
+with open(input_file, 'r', encoding='utf-8') as file:
+    lines = file.readlines()
 
-# Debugging: Check how many matches were found
-print(f"Found {len(matches)} matches.")
+i = 0
+while i < len(lines):
+    line = lines[i].strip()
 
-# If no matches are found, exit
-if not matches:
-    print("No matches found. Check the .m3u file format.")
-    exit()
+    if line.startswith("#EXTINF:"):
+        url = lines[i + 1].strip() if i + 1 < len(lines) else ""
 
-# Remove duplicates while preserving exact group-title and description
-unique_matches = []
+        match = extinf_pattern.search(line)
+        if match:
+            group, desc = match.groups()
+            group = group.strip()
+        else:
+            # Try to extract description only
+            desc_match = re.match(r'#EXTINF:-1,([^#\n]+)', line)
+            desc = desc_match.group(1).strip() if desc_match else "Unknown"
+            # Infer group based on prefix in description
+            if desc.startswith("US:"):
+                group = "USA"
+            elif desc.startswith("UK:"):
+                group = "UK"
+            elif desc.startswith("CA:"):
+                group = "Canada"
+            else:
+                group = "Other"
+            # Rebuild EXTINF line with group-title
+            line = f'#EXTINF:-1 group-title="{group}",{desc}'
+
+        if url:
+            entries.append((group, desc, url, line))
+        i += 2
+    else:
+        non_extinf_lines.append(line)
+        i += 1
+
+print(f"Matched {len(entries)} channel entries.")
+print(f"Preserved {len(non_extinf_lines)} other lines.")
+
+# Deduplicate by (group, desc)
 seen = set()
-for group, desc, url in tqdm(matches, desc="Removing duplicates", unit="entry"):
-    unique_key = (group, desc)
-    if unique_key not in seen:
-        unique_matches.append((group, desc, url))
-        seen.add(unique_key)
+unique_entries = []
+for group, desc, url, extinf in tqdm(entries, desc="Removing duplicates", unit="entry"):
+    key = (group, desc)
+    if key not in seen:
+        seen.add(key)
+        unique_entries.append((group, desc, url, extinf))
 
-# Define priority for group names
-group_priority = {"Canada": 1, "USA": 2, "UK": 3}
-default_priority = 99  # Lower priority for unknown groups
+# Sort by group priority, group name, then description
+sorted_entries = sorted(
+    unique_entries,
+    key=lambda x: (get_priority(x[0]), x[0].lower(), x[1].lower())
+)
 
-def get_group_priority(group):
-    return group_priority.get(group, default_priority)
+# Build output
+output_lines = ["#EXTM3U"]
+output_lines.extend(non_extinf_lines)
 
-# Sorting by group priority, then alphabetically within each group
-sorted_matches = sorted(unique_matches, key=lambda x: (get_group_priority(x[0]), x[0], x[1]))
+for group, desc, url, extinf in tqdm(sorted_entries, desc="Building output", unit="entry"):
+    output_lines.append(extinf)
+    output_lines.append(url)
 
-# Build the sorted playlist with proper formatting
-sorted_playlist = "#EXTM3U\n"
-for group, desc, url in tqdm(sorted_matches, desc="Building playlist", unit="entry"):
-    sorted_playlist += f'#EXTINF:-1 group-title="{group}",{desc}\n{url}\n'
+# Write to file
+with open(output_file, 'w', encoding='utf-8') as f:
+    f.write("\n".join(output_lines) + "\n")
 
-# Write the sorted playlist to the output file
-with open(output_file, "w", encoding="utf-8") as file:
-    file.write(sorted_playlist)
-
-print(f"Sorted and de-duplicated playlist saved to {output_file}")
+print(f"Saved sorted playlist to {output_file}")
