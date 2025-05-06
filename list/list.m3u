@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 956p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 1058pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -43,7 +43,7 @@ http://fortv.cc:8080/105094817/105094817/57365
 #EXTINF:-1 tvg-id="CityNews247Toronto.ca" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 
-# #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto xy.
+# #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/ma`in/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto xy.
 # https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="",CBC Toronto 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423708
@@ -2751,6 +2751,12 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fl5.moveonjoy.com/MSNBC/index.m3u8
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC life.
+http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30229
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC ns1.
+http://nodns1.top:8080/7681729957768199/899fa5156a0d/50632
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 206.
+http://206.212.244.71:8080/4wVQA7/625159/47332
 # #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/143
 # #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 23.
