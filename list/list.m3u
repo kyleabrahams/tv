@@ -29,7 +29,7 @@ http://fortv.cc:8080/WjtGD2/235867/47332
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 811p for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI May 5 941p for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -419,15 +419,17 @@ http://fortv.cc:8080/WjtGD2/235867/47324
 #EXTINF:-1 tvg-id="XumoLoveNature.us" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
 https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 
-# #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
-# http://fl1.moveonjoy.com/TCM/index.m3u8
-#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423769
+#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
+http://fl1.moveonjoy.com/TCM/index.m3u8
+# #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423769
 
-#EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418458
+# #EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418458
 # #EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature
 # http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
+#EXTINF:-1 tvg-id="CTVNature.ca" tvg-name="50 CTV Nature / Discovery Science" tvg-logo="https://i.ibb.co/rpRbLfm/CTV-Nature-1.png" group-title="",CTV Nature 206.
+http://206.212.244.71:8080/4wVQA7/625159/57418
 
 # #EXTINF:-1 tvg-id="CTV.Sci-Fi.ca" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="",CTV Sci-fi
 # http://fortv.cc:8080/WjtGD2/235867/57253
@@ -443,10 +445,12 @@ http://fortv.cc:8080/WjtGD2/235867/57253
 #EXTINF:-1 tvg-id="CTVWild.ca" tvg-name="CTV Wild / Animal Planet" tvg-logo="https://i.ibb.co/0GQ7gP3/CTV-Wild-1.png" group-title="",CTV Wild xip.
 http://xxip25.top:8080/04760056/79599130/57377
 
-#EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="",Nat Geo Wild 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418494
+# #EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="",Nat Geo Wild 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418494
 # #EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="",Nat Geo Wild toh.> National Geogrpahic
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708850
+#EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="",Nat Geo Wild pro6.
+http://pro6666.com:8080/dr.davidhouri/598627/467425
 
 #EXTINF:-1 tvg-id="NationalGeographicWildEast.us" tvg-name="CA050:Nat Geo Wild USATV" tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="USA",US Nat Geo Wild 
 http://fl5.moveonjoy.com/Nat_Geo_Wild/index.m3u8
@@ -454,8 +458,10 @@ http://fl5.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 #EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV
 http://fl5.moveonjoy.com/MTV/index.m3u8
 
-#EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418649
+# #EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418649
+#EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR 206.
+http://206.212.244.71:8080/4wVQA7/625159/57250
 # #EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="",DTOUR toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708810
 
@@ -619,8 +625,10 @@ http://fl5.moveonjoy.com/HLN/index.m3u8
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 # #EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
 # http://fl5.moveonjoy.com/BLOOMBERG/index.m3u8
-#EXTINF:-1 tvg-id="BNN.Bloomberg.ca" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="News",BNN Bloomberg 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418417
+# #EXTINF:-1 tvg-id="BNN.Bloomberg.ca" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="News",BNN Bloomberg 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418417
+#EXTINF:-1 tvg-id="BNN.Bloomberg.ca" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="News",BNN Bloomberg 206.
+http://206.212.244.71:8080/4wVQA7/625159/57358
 
 # #EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="",Adult Swim cd1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1883
@@ -644,8 +652,11 @@ http://fl5.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8
 
 # #EXTINF:-1 tvg-id="NationalGeographicEast.ca" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",National Geographic toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708850
-#EXTINF:-1 tvg-id="NationalGeographicEast.ca" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",National Geographic xip.
-http://xxip25.top:8080/04760056/79599130/47339
+# #EXTINF:-1 tvg-id="NationalGeographicEast.ca" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",National Geographic xip.
+# http://xxip25.top:8080/04760056/79599130/47339
+#EXTINF:-1 tvg-id="NationalGeographicEast.ca" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",National Geographic 206.
+http://206.212.244.71:8080/4wVQA7/625159/47339
+
 
 #EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",US National Geographic 
 http://fl5.moveonjoy.com/National_Geographic/index.m3u8
@@ -654,8 +665,10 @@ http://fl5.moveonjoy.com/National_Geographic/index.m3u8
 # #EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",US National Geographic 23. 
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509124
 
+# #EXTINF:-1 tvg-id="CuriosityChannel.us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="USA",US Curiosity Stream
+# http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
 #EXTINF:-1 tvg-id="CuriosityChannel.us" tvg-name="Curiosity Stream" tvg-logo="https://i.ibb.co/k6zXzNc/Curiosity-Stream-White.png" group-title="USA",US Curiosity Stream
-http://fl3.moveonjoy.com/Curiosity_Stream/index.m3u8
+https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.tv/playlist/amg00170-curiositystreamllcfast-curiositynowrow-rakutenus/playlist.m3u8
 
 # #EXTINF:-1 tvg-id="Smithsonian.Channel.Canada.ca" tvg-name="Smithsonian" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="",Smithsonian 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418509
@@ -676,8 +689,10 @@ https://streamer1.nexgen.bz/USA/index.m3u8
 #EXTINF:-1 tvg-id="Crime+Investigation.Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="",Crime + Investigation xip.
 http://xxip25.top:8080/04760056/79599130/57256
 
-#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="USA",US Game Show Network
-http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
+# #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="USA",US Game Show Network
+# http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="USA",US Game Show Network ns1.
+http://nodns1.top:8080/7681729957768199/899fa5156a0d/50555
 
 #EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="",Game TV new.
 http://newlife3.wanicelife.com:8880/D12m2770/52277683/2998
@@ -807,14 +822,23 @@ http://xxip25.top:8080/04760056/79599130/57322
 #EXTINF:-1 tvg-id="Crave4East.ca" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4
 http://fl5.moveonjoy.com/CRAVE_4/index.m3u8
 
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
 #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
+http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
+# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
 #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
+http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
+# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
 #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
+http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
+# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
 #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
+http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
+
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709017
@@ -2721,9 +2745,9 @@ http://xxip25.top:8080/04760056/79599130/57398
 https://xyzdddd.mizhls.ru/lb/premium345/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC for.
 http://fortv.cc:8080/WjtGD2/235867/47332
-#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 41.205
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 41.
 http://41.205.93.154:80/MSNBC/index.m3u8
-#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC ns1.
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC
 http://fl5.moveonjoy.com/MSNBC/index.m3u8
 # #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/143

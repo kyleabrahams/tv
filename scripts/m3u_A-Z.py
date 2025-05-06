@@ -2,8 +2,8 @@ import re
 from tqdm import tqdm
 
 # File paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/206-212 Mar 27 2026_4wVQA7 SORTED3.m3u'
-output_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/_Canada/206-212 Mar 27 2026_4wVQA7 SORTED4.m3u'
+input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/1tv41 Feb 11 2026_ggct0Q.m3u'
+output_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___Servers/1tv41 Feb 11 2026_ggct0Q SORTED.m3u'
 
 # Group priorities
 group_priority = {"Canada": 1, "USA": 2, "UK": 3, "Other": 99}
