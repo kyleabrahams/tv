@@ -33,7 +33,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Jun 11 823 pm for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Jun 11 836 pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -88,8 +88,10 @@ http://fortv.cc:8080/WjtGD2/235867/47296
 
 # #EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Calgary" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary xy.
 # https://xyzdddd.mizhls.ru/lb/premium602/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Calgary" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary for.
-http://fortv.cc:8080/WjtGD2/235867/57964
+# #EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Calgary" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary for.
+# http://fortv.cc:8080/WjtGD2/235867/57964
+#EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Calgary" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary yes.
+http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/30098
 # #EXTINF:-1 tvg-id="CTVCalgary.ca" tvg-name="08 CTV Calgary" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="""tvg-shift="2",CTV Calgary ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708776
 
