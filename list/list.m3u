@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 223 pm for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 326 pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p for.
 # http://EAST
@@ -1797,8 +1797,11 @@ http://pro6666.com:8080/dr.davidhouri/598627/471412
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
 # #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat new. 2
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/31146
-#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat vip.
-http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2053
+# #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat vip.
+# http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2053
+#EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat cord.
+http://cord-cutter.net:8080/114896/899657/120979
+
 # #EXTINF:-1 tvg-id="RIKsat.gr" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat ktv
 # http://ktv.im:8080/48473774/938388484/112974
 # #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega 23.
