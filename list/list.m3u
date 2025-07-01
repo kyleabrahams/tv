@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Jul 1 1136 am for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="",OMNI Jul 1 1256 pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="",OMNI Feb 7 306p for.
 # http://EAST
@@ -452,8 +452,11 @@ http://exm3u.extraott.com/live/54RL5KJE/QVVXHK64/387721.m3u8
 # http://fortv.cc:8080/WjtGD2/235867/47324
 #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="US Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="",Love Nature yes. 
 http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/30190
+# #EXTINF:-1 tvg-id="XumoLoveNature.us" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
+# https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="XumoLoveNature.us" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="",Love Nature 4k 
-https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+https://jmp2.uk/sam-USBA3400003IP.m3u8
+
 
 #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
 http://fl1.moveonjoy.com/TCM/index.m3u8
@@ -1281,6 +1284,8 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 https://jmp2.uk/sam-USBC6000225M.m3u8
 #EXTINF:-1 tvg-id="XumoET.us" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/1200px-Entertainment_Tonight_2021.svg.png" group-title="",ET
 https://jmp2.uk/sam-USBA3700002JF.m3u8
+#EXTINF:-1 channel-id="CA900003IF-ca" tvg-id="CA900003IF" tvg-chno="3540" tvg-name="Evolution Earth" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900003IF_20250121T095028SQUARE.png" group-title="Canada",Evolution Earth
+https://jmp2.uk/sam-CA900003IF.m3u8
 #EXTINF:-1 tvg-id="PlutoFailArmy.us" tvg-name="" tvg-logo="https://images.pluto.tv/series/650ca0d9d193e8001b8050c1/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Comedy",Fail Army
 https://jmp2.uk/sam-USAJ3504702A.m3u8
 #EXTINF:-1 tvg-id="PlutoFifthGear.gb" tvg-name="" tvg-logo="https://i.ibb.co/NdPqspFc/Fifth-Gear.png" group-title="",Fifth Gear
@@ -1293,7 +1298,7 @@ https://d3is52sgpnlx4c.cloudfront.net/10901/88885512/hls/master.m3u8?withResolut
 https://jmp2.uk/sam-CAAJ27000079E.m3u8
 #EXTINF:-1 tvg-id="PlexFilmRiseWestern.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20240520T222645SQUARE.png" group-title="Classics",FilmRise Western
 https://jmp2.uk/sam-USBB32000196O.m3u8
-#EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambience",Fireplace 4K
+#EXTINF:-1 tvg-id="SamsungFireplace.ca" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB260002016_20240924T010422SQUARE.png" group-title="Ambiance",Fireplace 4K
 https://jmp2.uk/sam-CABB260002016.m3u8
 #EXTINF:-1 tvg-id="PlexTheJamieOliverChannel.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700011RE_20240520T222902SQUARE.png" group-title="Movies",Gravitas Movies
 https://jmp2.uk/sam-USBD700011RE.m3u8
@@ -1338,6 +1343,8 @@ https://jmp2.uk/sam-USAK3508710A.m3u8
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951151
 #EXTINF:-1 tvg-id="XumoLOLNetwork.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300009VM_20240716T002650SQUARE.png" group-title="Comedy",Lol! Network
 https://jmp2.uk/sam-USBC1300009VM.m3u8
+#EXTINF:-1 channel-id="CA300017ZS-ca" tvg-id="CA300017ZS" tvg-chno="3509" tvg-name="Love Pets" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA300017ZS_20250523T235630SQUARE.png" group-title="Canada",Love Pets
+https://jmp2.uk/sam-CA300017ZS.m3u8
 # #EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="",Lucky Dog
 # https://jmp2.uk/sam-USBA3000044BJ.m3u8
 #EXTINF:-1 tvg-id="XumoMAVTVSelect.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20230823T001844SQUARE.png_20230823001845.png" group-title="",MavTV Select
@@ -1354,7 +1361,7 @@ https://jmp2.uk/sam-USBB2200014DK.m3u8
 https://jmp2.uk/sam-USBA300028QU.m3u8
 #EXTINF:0 tvg-id="PlexNoReservations.us" channel-id="no-reservations" channel-number="3435" tvg-name="" tvg-logo="https://images.pluto.tv/channels/66ff0cf663292d0008320cf8/colorLogoPNG.png" group-title="Home & Food",No Reservations
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66ff0cf663292d0008320cf8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1ba6e-b0d8-11ef-b98d-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=db11e76b-a5d9-424c-8129-b72a7b7c3012&userId=&serverSideAds=true
-#EXTINF:-1 tvg-id="SamsungOceanVibes.ca" tvg-name="Ocean Vibes" channel-id="CA7000015K"  tvg-chno="4505"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20241211T021045SQUARE.png" group-title="Ambiance", Ocean Vibes
+#EXTINF:-1 tvg-id="SamsungOceanVibes.ca" tvg-name="Ocean Vibes" channel-id="CA7000015K"  tvg-chno="4505"  tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20241211T021045SQUARE.png" group-title="Ambiance",Ocean Vibes
 https://jmp2.uk/sam-CA7000015K.m3u8
 #EXTINF:-1 tvg-id="XumoOutsideTV.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700030ON_20220511T002618SQUARE.png_20220511002619.png" group-title="",Outside TV
 https://jmp2.uk/sam-USAJ3504707A.m3u8
@@ -1386,6 +1393,8 @@ https://jmp2.uk/sam-CA400005W4.m3u8
 https://jmp2.uk/sam-USBD7000189R.m3u8
 #EXTINF:-1 tvg-id="XumoTastemadeTravelChannel.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" tvg-name="" tvg-logo="" group-title="",Tastemade Travel
 https://jmp2.uk/sam-USBD700017WC.m3u8
+#EXTINF:-1 channel-id="CABB2500020SS-ca" tvg-id="CABB2500020SS" tvg-chno="3559" tvg-name="TED" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500020SS_20250428T223220SQUARE.png" group-title="Canada",TED
+https://jmp2.uk/sam-CABB2500020SS.m3u8
 #EXTINF:-1 tvg-id="250#99991310" tvg-name="" tvg-logo="https://i.ibb.co/mvQgkF6/the-archive.png" group-title="",The Archive
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991310
 #EXTINF:-1 tvg-id="XumoTheAsylum.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ17000014C_20240520T214701SQUARE.png" group-title="",The Asylum
@@ -1396,8 +1405,12 @@ https://jmp2.uk/sam-CAAJ3400016J9.m3u8
 https://jmp2.uk/sam-CABC2300001X9.m3u8
 #EXTINF:-1 tvg-id="PlexTheJamieOliverChannel.us" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20240918T124442SQUARE.png" group-title="Home & Food",The Jamie Oliver Channel
 https://jmp2.uk/sam-GBBC4000002H3.m3u8
+#EXTINF:-1 channel-id="CA1400009E5-ca" tvg-id="CA1400009E5" tvg-chno="1977" tvg-name="The Mightiest by CTV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400009E5_20250523T232010SQUARE.png" group-title="Canada",The Mightiest by CTV
+https://jmp2.uk/sam-CA1400009E5.m3u8
 #EXTINF:-1 tvg-id="ThisOldHouse.us" tvg-name="" tvg-logo="https://images.pluto.tv/series/5fd264c82068a9001a0be9cf/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Home & Food",This Old House
 https://jmp2.uk/sam-CABB25000248J.m3u8
+#EXTINF:-1 channel-id="CA9000103C-ca" tvg-id="CA9000103C" tvg-chno="2012" tvg-name="Tiny House Nation" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA9000103C_20250602T231638SQUARE.png" group-title="Canada",Tiny House Nation
+https://jmp2.uk/sam-CA9000103C.m3u8
 #EXTINF:-1 tvg-id="PlexTMZus" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD70000213_20240520T214848SQUARE.png" group-title="",TMZ
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,TMZ.m3u8
 #EXTINF:-1 tvg-id="PlutoTODAYAllDay.us" tvg-name="" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day
@@ -1906,6 +1919,8 @@ http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418162
 http://fl5.moveonjoy.com/GOLF_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="tennis Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tennis-channel-us.png?raw=true" group-title="Sports",Tennis Channel 
 http://fl5.moveonjoy.com/TENNIS_CHANNEL/index.m3u8
+#EXTINF:-1 channel-id="CA110000152-ca" tvg-id="CA110000152" tvg-chno="2444" tvg-name="PickleballTV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA110000152_20250121T095216SQUARE.png" group-title="Canada",PickleballTV
+https://jmp2.uk/sam-CA110000152.m3u8
 #EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/1200px-MLBNetworkLogo.svg.png" group-title="Sports",MLB Network 
 http://fl5.moveonjoy.com/MLB_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="YesNetwork.us" tvg-name="YES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/1200px-YES_Network_logo.svg.png" group-title="Sports",YES 
@@ -1994,6 +2009,8 @@ https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae04
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/631
 #EXTINF:-1 tvg-id="UFCfightpass.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ufc-fight-pass-us.png?raw=true" group-title="Sports",UFC Fight Pass xip.
 http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/146293
+#EXTINF:-1 channel-id="CA2900012S9-ca" tvg-id="CA2900012S9" tvg-chno="2350" tvg-name="UFC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA2900012S9_20250121T095408SQUARE.png" group-title="Canada",UFC
+https://jmp2.uk/sam-CA2900012S9.m3u8
 
 # #EXTINF:-1 tvg-id="WWENetwork.ca" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/wwe-us.png?raw=true" group-title="Sports",WWE Network cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/398
@@ -2007,10 +2024,16 @@ https://womensnetwork-vizio.amagi.tv/playlist.m3u8
 #EXTINF:0 tvg-id="Formula1Channel.us" channel-number="2960" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png" group-title="Sports",Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1ace0-b0d8-11ef-ae76-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=3b1bfd79-6871-405a-9eb2-1234e7c2189d&userId=&serverSideAds=true
 
+#EXTINF:-1 channel-id="CA700002VS-ca" tvg-id="CA700002VS" tvg-chno="2505" tvg-name="NASCAR Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA700002VS_20250523T235632SQUARE.png" group-title="Canada",NASCAR Channel
+https://jmp2.uk/sam-CA700002VS.m3u8
+#EXTINF:-1 channel-id="CABD1200015FS-ca" tvg-id="CABD1200015FS" tvg-chno="2530" tvg-name="RACER Select" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20250523T231926SQUARE.png" group-title="Canada",RACER Select
+https://jmp2.uk/sam-CABD1200015FS.m3u8
+
 # #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Sports",Fox Sports Racing cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/8430
 #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Sports",Fox Sports Racing 23.
 http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418468
+
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 
 http://fl5.moveonjoy.com/FOX_Sports_1/index.m3u8
@@ -2021,7 +2044,7 @@ http://fl5.moveonjoy.com/FOX_Sports_1/index.m3u8
 # https://xyzdddd.mizhls.ru/lb/premium756/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
 # #EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-soccer-plus-us.png" group-title="Sports" ,FOX Soccer Plus toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/707858
-#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-soccer-plus-us.png" group-title="Sports" ,FOX Soccer Plus 23.
+#EXTINF:-1 tvg-id="FoxSoccerPlus.us" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fox-soccer-plus-us.png" group-title="Sports",FOX Soccer Plus 23.
 http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418210
 
 # #EXTINF:-1 tvg-id="LiverpoolTV.uk" tvg-name="Liverpool TV (LFC TV)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lfctv-uk.png" group-title="Sports" ,Liverpool TV (LFC TV)
