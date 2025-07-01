@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 212 pm for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 223 pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p for.
 # http://EAST
@@ -1407,6 +1407,8 @@ https://jmp2.uk/sam-CABC2300001X9.m3u8
 https://jmp2.uk/sam-GBBC4000002H3.m3u8
 #EXTINF:-1 channel-id="CA1400009E5-ca" tvg-id="CA1400009E5" tvg-chno="1977" tvg-name="The Mightiest by CTV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400009E5_20250523T232010SQUARE.png" group-title="Samsung Series",The Mightiest by CTV
 https://jmp2.uk/sam-CA1400009E5.m3u8
+#EXTINF:-1 tvg-id="PlutoTheWalkingDeadUniverse.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20240520T214900SQUARE.png" group-title="Samsung Series",The Walking Dead Universe
+https://jmp2.uk/sam-USBD1200004NS.m3u8
 #EXTINF:-1 tvg-id="ThisOldHouse.us" tvg-logo="https://images.pluto.tv/series/5fd264c82068a9001a0be9cf/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Home & Food",This Old House
 https://jmp2.uk/sam-CABB25000248J.m3u8
 #EXTINF:-1 channel-id="CA9000103C-ca" tvg-id="CA9000103C" tvg-chno="2012" tvg-name="Tiny House Nation" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA9000103C_20250602T231638SQUARE.png" group-title="Home & Food",Tiny House Nation
@@ -2335,17 +2337,17 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/701023
 
 #EXTINF:-1 tvg-name="24/7 Chuck" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chuck_2007_logo.svg/800px-Chuck_2007_logo.svg.png" group-title="Series",Chuck for.
 http://fortv.cc:8080/WjtGD2/235867/178845
-#EXTINF:-1 tvg-id="PlexTheConners.us" tvg-name="The Conners" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png" group-title="Series",The Conners
+#EXTINF:-1 tvg-id="PlexTheConners.us" tvg-name="The Conners" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png" group-title="Samsung Series",The Conners
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415.m3u8
-#EXTINF:-1 tvg-id="PlexCops.au" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000189A_20240716T003004SQUARE.png" group-title="Series",Cops
+#EXTINF:-1 tvg-id="PlexCops.au" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000189A_20240716T003004SQUARE.png" group-title="Samsung Series",Cops
 https://jmp2.uk/sam-CABC23000189A.m3u8
-#EXTINF:-1 tvg-id="PlutoDallasCowboysCheerleaders.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20240520T215826SQUARE.png" group-title="Series",Dallas Cowboys Cheer
+#EXTINF:-1 tvg-id="PlutoDallasCowboysCheerleaders.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20240520T215826SQUARE.png" group-title="Samsung Series",Dallas Cowboys Cheer
 https://jmp2.uk/sam-USBA300004TE.m3u8
-#EXTINF:0 tvg-id="PlexDanceMoms.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20240924T010417SQUARE.png" group-title="Series",Dance Moms
+#EXTINF:0 tvg-id="PlexDanceMoms.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20240924T010417SQUARE.png" group-title="Samsung Series",Dance Moms
 https://jmp2.uk/sam-CA900005B8.m3u8
-#EXTINF:-1 tvg-id="XumoDateline247.us" tvg-logo="https://i.ibb.co/y4fgVWk/dateline-24-7.jpg" group-title="Series",Dateline 24/7
+#EXTINF:-1 tvg-id="XumoDateline247.us" tvg-logo="https://i.ibb.co/y4fgVWk/dateline-24-7.jpg" group-title="Samsung Series",Dateline 24/7
 https://jmp2.uk/sam-USBB5200007BY.m3u8
-#EXTINF:0 tvg-id="PlexDogtheBountyHunter.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900006X7_20240826T235640SQUARE.png" group-title="Series",Dog The Bounty Hunter
+#EXTINF:0 tvg-id="PlexDogtheBountyHunter.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900006X7_20240826T235640SQUARE.png" group-title="Samsung Series",Dog The Bounty Hunter
 https://jmp2.uk/sam-US900002IH.m3u8
 #EXTINF:-1 tvg-name="24/7 DUCK TALES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Ducktales_80s_logo.png" group-title="Series",Duck Tales for.
 http://fortv.cc:8080/WjtGD2/235867/125636
@@ -2409,8 +2411,6 @@ http://fortv.cc:8080/WjtGD2/235867/125972
 http://fortv.cc:8080/WjtGD2/235867/125635
 #EXTINF:-1 tvg-name="24/7 TEEN TITANS GO!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Teen_Titans_Go%21_horizontal_logo.svg/300px-Teen_Titans_Go%21_horizontal_logo.svg.png" group-title="Series",Teen Titans Go! for.
 http://fortv.cc:8080/WjtGD2/235867/125637
-#EXTINF:-1 tvg-id="PlutoTheWalkingDeadUniverse.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20240520T214900SQUARE.png" group-title="Series",The Walking Dead Universe
-https://jmp2.uk/sam-USBD1200004NS.m3u8
 
 
 #EXTINF:-1 tvg-name="Cinebox: ANIMATION" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Animation for.
