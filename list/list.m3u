@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto for.
 http://fortv.cc:8080/WjtGD2/235867/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 141 pm for.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 1 146 pm for.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p for.
 # http://EAST
@@ -1288,7 +1288,7 @@ https://jmp2.uk/sam-USBA3700002JF.m3u8
 https://jmp2.uk/sam-CA900003IF.m3u8
 #EXTINF:-1 tvg-id="PlutoFailArmy.us" tvg-logo="https://images.pluto.tv/series/650ca0d9d193e8001b8050c1/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Comedy",Fail Army
 https://jmp2.uk/sam-USAJ3504702A.m3u8
-#EXTINF:-1 tvg-id="PlutoFifthGear.gb" tvg-logo="https://i.ibb.co/NdPqspFc/Fifth-Gear.png" group-title="Sports",Fifth Gear
+#EXTINF:-1 tvg-id="PlutoFifthGear.gb" tvg-logo="https://i.ibb.co/NdPqspFc/Fifth-Gear.png" group-title="Automotive",Fifth Gear
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951207
 #EXTINF:-1 tvg-id="PlexFilmRiseAction.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200020ID_20240520T222641SQUARE.png" group-title="Movies",FilmRise Action
 https://d3is52sgpnlx4c.cloudfront.net/10901/88885508/hls/master.m3u8?withResolution=true&ads.xumo_channelId=88885508
@@ -1347,7 +1347,7 @@ https://jmp2.uk/sam-USBC1300009VM.m3u8
 https://jmp2.uk/sam-CA300017ZS.m3u8
 # #EXTINF:-1 tvg-id="Samsung.LuckyDog.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3000044BJ_20240826T191212SQUARE.png" group-title="Nature",Lucky Dog
 # https://jmp2.uk/sam-USBA3000044BJ.m3u8
-#EXTINF:-1 tvg-id="XumoMAVTVSelect.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20230823T001844SQUARE.png_20230823001845.png" group-title="Sports",MavTV Select
+#EXTINF:-1 tvg-id="XumoMAVTVSelect.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20230823T001844SQUARE.png_20230823001845.png" group-title="Automotive",MavTV Select
 https://jmp2.uk/sam-CABD1200015FS.m3u8
 #EXTINF:-1 tvg-id="PlexMilitaryHeroes.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC39000204J_20240520T214814SQUARE.png" group-title="Documentaries",Military Heroes
 https://jmp2.uk/sam-USBC39000204J.m3u8
@@ -2021,17 +2021,17 @@ http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/11645
 # http://fortv.cc:8080/WjtGD2/235867/18941
 #EXTINF:-1 tvg-id="PlexWomensSportsNetwork.us" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="Sports",Womens Sports Network
 https://womensnetwork-vizio.amagi.tv/playlist.m3u8
-#EXTINF:0 tvg-id="Formula1Channel.us" channel-number="2960" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png" group-title="Sports",Formula 1 Channel
+#EXTINF:0 tvg-id="Formula1Channel.us" channel-number="2960" tvg-logo="https://images.pluto.tv/channels/65c69ee3d77d450008c80438/colorLogoPNG.png" group-title="Automotive",Formula 1 Channel
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1ace0-b0d8-11ef-ae76-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=3b1bfd79-6871-405a-9eb2-1234e7c2189d&userId=&serverSideAds=true
 
-#EXTINF:-1 channel-id="CA700002VS-ca" tvg-id="CA700002VS" tvg-chno="2505" tvg-name="NASCAR Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA700002VS_20250523T235632SQUARE.png" group-title="Canada",NASCAR Channel
+#EXTINF:-1 channel-id="CA700002VS-ca" tvg-id="CA700002VS" tvg-chno="2505" tvg-name="NASCAR Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA700002VS_20250523T235632SQUARE.png" group-title="Automotive",NASCAR Channel
 https://jmp2.uk/sam-CA700002VS.m3u8
 #EXTINF:-1 channel-id="CABD1200015FS-ca" tvg-id="CABD1200015FS" tvg-chno="2530" tvg-name="RACER Select" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200015FS_20250523T231926SQUARE.png" group-title="Automotive",RACER Select
 https://jmp2.uk/sam-CABD1200015FS.m3u8
 
-# #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Sports",Fox Sports Racing cdn1h.
+# #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/8430
-#EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Sports",Fox Sports Racing 23.
+#EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing 23.
 http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418468
 
 
