@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 21 629 am 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jul 21 543 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -513,7 +513,7 @@ http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/57280
 #EXTINF:-1 tvg-id="NationalGeographicWildEast.us" tvg-name="CA050:Nat Geo Wild USATV" tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="Nature",US Nat Geo Wild 
 http://fl5.moveonjoy.com/Nat_Geo_Wild/index.m3u8
 
-#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="Music",US MTV
+#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV
 http://fl5.moveonjoy.com/MTV/index.m3u8
 
 # #EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR 23.
@@ -1460,19 +1460,19 @@ https://jmp2.uk/sam-USBB32000251N.m3u8
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951264/hls/master.m3u8?ads.xumo_channelId=99951264
 # #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today
 # https://jmp2.uk/sam-USBB1500001GD.m3u8
-#EXTINF:-1 tvg-id="PlexVevo80s.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s US.
-https://jmp2.uk/sam-USBD300012YC.m3u8
-#EXTINF:-1 tvg-id="PlexVevo90s.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000127S_20240910T003244SQUARE.png" group-title="Music",Vevo '90s GB.
-https://jmp2.uk/sam-GBBC2100002HP.m3u8
-#EXTINF:-1 tvg-id="PlexVevo2k.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200013DN_20240910T003246SQUARE.png" group-title="Music",Vevo 2K US.
-https://jmp2.uk/sam-USBB4400015F5.m3u8
-#EXTINF:-1 tvg-id="SamsungVevo2010s.ca" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",Vevo 2010s US.
+#EXTINF:-1 tvg-id="PlexVevo80s.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",'80s Pluto
+https://jmp2.uk/plu-5fd7b8bf927e090007685853.m3u8
+#EXTINF:-1 tvg-id="PlexVevo90s.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC52000127S_20240910T003244SQUARE.png" group-title="Music",'90s Pluto
+https://jmp2.uk/plu-5fd7bb1f86d94a000796e2c2.m3u8
+#EXTINF:-1 tvg-id="PlexVevo2k.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200013DN_20240910T003246SQUARE.png" group-title="Music",2K Pluto
+https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8
+#EXTINF:-1 tvg-id="SamsungVevo2010s.ca" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200009SD_20240910T003235SQUARE.png" group-title="Music",2010s SS.
 https://jmp2.uk/sam-USBD120002431.m3u8
-#EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B GB.
+#EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Hip-Hop & R&B SS.
 https://jmp2.uk/sam-GBBD2300001C0.m3u8
-#EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Vevo Hip-Hop & R&B FR.
+#EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Hip-Hop & R&B FR.
 https://jmp2.uk/sam-FRBC2100002JA.m3u8
-#EXTINF:-1 tvg-id="PlexVevoPop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Vevo Pop CA.
+#EXTINF:-1 tvg-id="PlexVevoPop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Vevo Pop SS.
 https://jmp2.uk/sam-CABC52000180Z.m3u8
 # #EXTINF:-1 tvg-id="INBB280000599" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBB280000599_20240904T091756SQUARE.png" group-title="Samsung Series" tvg-chno="1171",WildEarth
 # https://jmp2.uk/sam-INBB280000599.m3u8
@@ -1724,8 +1724,10 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?Kids.
 # https://fl3.moveonjoy.com/Pixl/index.m3u8
 # #EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL cdn1h.
 # http://cdn1host.online:2999/kratorius/opLcbhlXaT/1665
-#EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 23.
-http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/424640
+# #EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 23.
+# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/424640
+#EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 1tv.
+http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/21648																									
 
 # #EXTINF:-1 tvg-id="PopEast.us" tvg-name="US Pop USATV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/31/Pop_2015_Red.svg/revision/latest/scale-to-width-down/250?cb=20160701184500" group-title="USA",Pop 
 # http://fl3.moveonjoy.com/Pop_TV/index.m3u8
@@ -1770,7 +1772,7 @@ http://fl5.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="US TNT East USATV" tvg-logo="https://i.ibb.co/Wc6tYZq/TNT-TV-Channel.png" group-title="USA",TNT (East)(Ad)   
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tnteast.us.m3u8
 
-#EXTINF:-1 tvg-id="SamsungTraceUrban.es" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png" group-title="Music",Trace Urban
+#EXTINF:-1 tvg-id="SamsungTraceUrban.es" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png" group-title="Samsung Series",Trace Urban
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TravelChannelEast.us" tvg-name="US Travel Channel East USATV" tvg-logo="https://i.ibb.co/Yt0Yzgh/trvl-1.png" group-title="USA",Travel Channel  
@@ -2483,9 +2485,10 @@ http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/119424
 
 # #EXTINF:-1 tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family 1tv.
 # http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/119425
-#EXTINF:-1 tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family xip.
-http://xxip25.top:8080/04760056/79599130/215285
-
+# #EXTINF:-1 tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family xip.
+# http://xxip25.top:8080/04760056/79599130/215285
+#EXTINF:-1 tvg-name="FAMILY" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Family 1tv.
+http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/119425																									
 #EXTINF:-1 tvg-name="GREATS" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats 1tv.
 http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/119426
 #EXTINF:-1 tvg-name="GREATS TWO" tvg-logo="https://i.ibb.co/JjNT6Wc3/cinebox-genre.png" group-title="Movies",Greats Two 1tv.
