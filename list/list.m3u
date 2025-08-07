@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 7 553 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 7 555 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -1513,7 +1513,7 @@ https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8
 # https://jmp2.uk/sam-USBD120002431.m3u8
 #EXTINF:-1 tvg-id="8dc44c8fdea45f039c68f75bda233850" tvg-name="Vevo Hip-Hop" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/8dc44c8fdea45f039c68f75bda233850/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113465461_Info_HUD_Logo_260X147_center_%25283%2529.png" group-title="",Hip-Hop Roku
 https://jmp2.uk/rok-8dc44c8fdea45f039c68f75bda233850.m3u8
-#EXTINF:-1 tvg-id="61d4c2817a823d00070ba53e" tvg-logo="https://images.pluto.tv/channels/61d4c2817a823d00070ba53e/colorLogoPNG.png" group-title="United States",True School Hip-Hop
+#EXTINF:-1 tvg-id="61d4c2817a823d00070ba53e" tvg-logo="https://images.pluto.tv/channels/61d4c2817a823d00070ba53e/colorLogoPNG.png" group-title="Music",True School Hip-Hop
 https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
 #EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",Hip-Hop & R&B 1 SS.
 https://jmp2.uk/sam-GBBD2300001C0.m3u8
@@ -2140,17 +2140,17 @@ http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/701023
 
 #EXTINF:-1 tvg-name="24/7 Chuck" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chuck_2007_logo.svg/800px-Chuck_2007_logo.svg.png" group-title="Series",Chuck 1tv.
 http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/178845
-#EXTINF:-1 channel-id="61f33318210549000806a530-us" tvg-id="61f33318210549000806a530" tvg-chno="835" tvg-name="Classic Movie Westerns" tvg-logo="https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png" group-title="United States",Classic Movie Westerns
+#EXTINF:-1 channel-id="61f33318210549000806a530-us" tvg-id="61f33318210549000806a530" tvg-chno="835" tvg-name="Classic Movie Westerns" tvg-logo="https://images.pluto.tv/channels/61f33318210549000806a530/colorLogoPNG.png" group-title="Classics",Classic Movie Westerns
 https://jmp2.uk/plu-61f33318210549000806a530.m3u8
-#EXTINF:-1 channel-id="561c5b0dada51f8004c4d855-us" tvg-id="561c5b0dada51f8004c4d855" tvg-chno="220" tvg-name="Classic Movies Channel" tvg-logo="https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png" group-title="United States",Classic Movies Channel
+#EXTINF:-1 channel-id="561c5b0dada51f8004c4d855-us" tvg-id="561c5b0dada51f8004c4d855" tvg-chno="220" tvg-name="Classic Movies Channel" tvg-logo="https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png" group-title="Classics",Classic Movies Channel
 https://jmp2.uk/plu-561c5b0dada51f8004c4d855.m3u8
-#EXTINF:-1 channel-id="5f15e32b297f96000768f928-us" tvg-id="5f15e32b297f96000768f928" tvg-chno="510" tvg-name="Classic TV Comedy" tvg-logo="https://images.pluto.tv/channels/5f15e32b297f96000768f928/colorLogoPNG.png" group-title="United States",Classic TV Comedy
+#EXTINF:-1 channel-id="5f15e32b297f96000768f928-us" tvg-id="5f15e32b297f96000768f928" tvg-chno="510" tvg-name="Classic TV Comedy" tvg-logo="https://images.pluto.tv/channels/5f15e32b297f96000768f928/colorLogoPNG.png" group-title="Classics",Classic TV Comedy
 https://jmp2.uk/plu-5f15e32b297f96000768f928.m3u8
-#EXTINF:-1 channel-id="61325c4f982acd000723287e-us" tvg-id="61325c4f982acd000723287e" tvg-chno="660" tvg-name="Classic TV Crime Drama" tvg-logo="https://images.pluto.tv/channels/61325c4f982acd000723287e/colorLogoPNG.png" group-title="United States",Classic TV Crime Drama
+#EXTINF:-1 channel-id="61325c4f982acd000723287e-us" tvg-id="61325c4f982acd000723287e" tvg-chno="660" tvg-name="Classic TV Crime Drama" tvg-logo="https://images.pluto.tv/channels/61325c4f982acd000723287e/colorLogoPNG.png" group-title="Classics",Classic TV Crime Drama
 https://jmp2.uk/plu-61325c4f982acd000723287e.m3u8
-#EXTINF:-1 channel-id="5f15e3cccf49290007053c67-us" tvg-id="5f15e3cccf49290007053c67" tvg-chno="650" tvg-name="Classic TV Drama" tvg-logo="https://images.pluto.tv/channels/5f15e3cccf49290007053c67/colorLogoPNG.png" group-title="United States",Classic TV Drama
+#EXTINF:-1 channel-id="5f15e3cccf49290007053c67-us" tvg-id="5f15e3cccf49290007053c67" tvg-chno="650" tvg-name="Classic TV Drama" tvg-logo="https://images.pluto.tv/channels/5f15e3cccf49290007053c67/colorLogoPNG.png" group-title="Classics",Classic TV Drama
 https://jmp2.uk/plu-5f15e3cccf49290007053c67.m3u8
-#EXTINF:-1 channel-id="61325d18f5166c00081b84e0-us" tvg-id="61325d18f5166c00081b84e0" tvg-chno="520" tvg-name="Classic TV: Families" tvg-logo="https://images.pluto.tv/channels/61325d18f5166c00081b84e0/colorLogoPNG.png" group-title="United States",Classic TV: Families
+#EXTINF:-1 channel-id="61325d18f5166c00081b84e0-us" tvg-id="61325d18f5166c00081b84e0" tvg-chno="520" tvg-name="Classic TV: Families" tvg-logo="https://images.pluto.tv/channels/61325d18f5166c00081b84e0/colorLogoPNG.png" group-title="Classics",Classic TV: Families
 https://jmp2.uk/plu-61325d18f5166c00081b84e0.m3u8
 #EXTINF:-1 tvg-id="PlexTheConners.us" tvg-name="The Conners" tvg-logo="https://provider-static.plex.tv/epg/cms/production/3acd803e-a5e3-430c-a34e-508123d2bd95/TheConners_1500x1000_Logo_Dark.png" group-title="Samsung Series",The Conners
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415.m3u8
