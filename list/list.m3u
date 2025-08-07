@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/drmajones@gmail.com/J2cg4hzx4s/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 7 545 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 7 553 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -800,14 +800,14 @@ https://streamer1.nexgen.bz/USA/index.m3u8
 #EXTINF:-1 tvg-id="Crime+Investigation.Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentaries",Crime + Investigation xip.
 http://xxip25.top:8080/04760056/79599130/57256
 
-# #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Show",US Game Show Network
+# #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Shows",US Game Show Network
 # http://fl5.moveonjoy.com/GAME_SHOW_NETWORK/index.m3u8
-# #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Show",US Game Show Network ns1.
+# #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Shows",US Game Show Network ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/50555
-#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Show",US Game Show Network streamer1.
+#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Shows",US Game Show Network streamer1.
 https://streamer1.nexgen.bz/GSN/index.m3u8
 
-#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Show",**Game TV new.
+#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",**Game TV new.
 http://newlife3.wanicelife.com:8880/D12m2770/52277683/2998
 
 #EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="Canada",TV Ontario new.
