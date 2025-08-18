@@ -21,17 +21,17 @@ def generate_m3u(start, end, base_url, output_dir, output_file_name):
     print(f"M3U playlist generated: {output_file}")
 
 # Parameters
-start_channel = 120000  # Starting channel number
-end_channel = 122000  # Ending channel number
+start_channel = 1  # Starting channel number
+end_channel = 9999  # Ending channel number
 # base_url = "http://server/usepassword"  # Base URL for the streams
-base_url = "http://fortv.cc:8080/105094817/105094817"  # Base URL for the streams
+base_url = "http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED"  # Base URL for the streams
 
 # Set the output directory relative to "/Volumes/Kyle4tb1223"
 output_dir = os.path.join(os.path.expanduser('~'), "Documents/___ServersFULL")
 
 # Include today's date in the output file name
 today_date = datetime.now().strftime("%Y%m%d")  # Format: YYYYMMDD
-output_file_name = f"fortv-1-1mill-{today_date}.m3u"  # Output file name with today's date
+output_file_name = f"xv5myned-1-1mill-{today_date}.m3u"  # Output file name with today's date
 
 # python3 playlist_generator.py
 
