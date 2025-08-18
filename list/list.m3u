@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 18 228 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 18 304 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -138,7 +138,7 @@ http://1tv41.icu:8080/08150659/26152653/57270
 
 # #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX New York WNYW" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="0",FOX New York xy.
 # https://xyzdddd.mizhls.ru/lb/premium768/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",**FOX 29 1tv.
+#EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 1tv.
 http://1tv41.icu:8080/08150659/26152653/120747
 # #EXTINF:-1 tvg-id="FoxEast.us" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419885
@@ -158,7 +158,7 @@ http://1tv41.icu:8080/08150659/26152653/120746
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419886
 # #EXTINF:-1 tvg-id="NBCEast.us" tvg-name="17 US602:NBC 2 (WGRZ) Buffalo WGRZ" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="USA",NBC Buffalo WGRZ ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/51081
-#EXTINF:-1 tvg-id="NBCEast.us" tvg-name="17 US602:NBC 2 (WGRZ) Buffalo WGRZ" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="USA",**NBC Buffalo WGRZ 1tv.
+#EXTINF:-1 tvg-id="NBCEast.us" tvg-name="17 US602:NBC 2 (WGRZ) Buffalo WGRZ" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="USA",NBC Buffalo WGRZ 1tv.
 http://1tv41.icu:8080/08150659/26152653/120748
 
 # #EXTINF:-1 tvg-id="NBCEast.us" tvg-name="17 NBC New York WNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-us.png?raw=true" group-title="USA",NBC New York xy.
@@ -932,8 +932,11 @@ http://fl5.moveonjoy.com/CRAVE_2/index.m3u8
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418443
 # #EXTINF:-1 tvg-id="Crave3East.ca" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709012
-#EXTINF:-1 tvg-id="Crave3East.ca" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 xip.
-http://xxip25.top:8080/04760056/79599130/57322
+# #EXTINF:-1 tvg-id="Crave3East.ca" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 xip.
+# http://xxip25.top:8080/04760056/79599130/57322
+#EXTINF:-1 tvg-id="Crave3East.ca" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 fl3.
+http://fl3.moveonjoy.com/CRAVE_3/index.m3u8
+
 
 #EXTINF:-1 tvg-id="Crave4East.ca" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4
 http://fl5.moveonjoy.com/CRAVE_4/index.m3u8
@@ -2083,8 +2086,8 @@ http://1tv41.icu:8080/08150659/26152653/9860
 http://1tv41.icu:8080/08150659/26152653/20975
 #EXTINF:-1 tvg-id="SportsnetWorld.ca" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World 1tv.
 http://1tv41.icu:8080/08150659/26152653/75675
-# #EXTINF:-1 tvg-id="Stadium College Sports Atlantic.us" tvg-name="Stadium" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/stadium-us.png?raw=true" group-title="Sports",Stadium 23.
-# http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418193
+#EXTINF:-1 tvg-id="Stadium College Sports Atlantic.us" tvg-name="Stadium" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/stadium-us.png?raw=true" group-title="Sports",Stadium 23.
+http://fl1.moveonjoy.com/STADIUM/index.m3u8
 #EXTINF:-1 tvg-id="XumoSwerveCombat.us" tvg-name="Swerve Combat" tvg-logo="https://swerve.tv/wp-content/uploads/2023/03/Swerve-Combat-Logo_Swerve-Combat_Primary_970x260.png" group-title="Sports",Swerve Combat
 https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
 #EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="tennis Channel" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tennis-channel-us.png?raw=true" group-title="Sports",Tennis Channel
