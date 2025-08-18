@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 18 222 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 18 228 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -119,11 +119,11 @@ http://1tv41.icu:8080/08150659/26152653/57393
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708757
 
 #EXTINF:-1 tvg-id="PlutoCBCNewsToronto.ca" tvg-name="11 CBC News Toronto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20241203T005217SQUARE.png" group-title="News",CBC News Toronto
-https://jmp2.uk/sam-CA1500002Q4.m3u8
+https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
 #EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News
 https://jmp2.uk/sam-CA1400004AE.m3u8
 #EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://i.ibb.co/FrWt3kW/sam-cbc-news.png" group-title="News",CBC News
-https://jmp2.uk/sam-CABC2300009KD.m3u8
+https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
 
 # #EXTINF:-1 tvg-id="Makeful.ca" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418488
