@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1134 am 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1202 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -1136,8 +1136,10 @@ http://fl5.moveonjoy.com/STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-ID="StarzEdgeEast.us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge
 http://fl5.moveonjoy.com/STARZ_EDGE/index.m3u8
 
-#EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",**Starz Encore 
-http://fl5.moveonjoy.com/STARZ_ENCORE/index.m3u8
+# #EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 
+# http://fl5.moveonjoy.com/STARZ_ENCORE/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 143.
+http://143.244.60.30/Starz_Encore/index.m3u8
 
 #EXTINF:-1 tvg-id="StarzEncoreActionEast.us" tvg-name="Starz Encore Action" tvg-logo="https://i.ibb.co/cc4Jz3hT/Starz-Encore-Action.png" group-title="Movies",Starz Encore Action 
 http://fl5.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
@@ -1448,7 +1450,7 @@ http://fl5.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8
 # https://jmp2.uk/sam-INBC43000016J.m3u8
 # #EXTINF:0 tvg-id="PlexHellsKitchen.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD2600001QK_20240910T050229SQUARE.png" group-title="Home & Food",Hell's Kitchen
 # https://jmp2.uk/sam-USBB2900002Z7.m3u8
-#EXTINF:-1 tvg-id="SamsungHollywire.ca" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000035R_20220824T022346SQUARE.png_20220824022346.png" group-title="FAST Series",Hollywire
+#EXTINF:-1 tvg-id="SamsungHollywire.ca" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000035R_20220824T022346SQUARE.png_20220824022346.png" group-title="FAST Series",**Hollywire
 https://jmp2.uk/sam-CABC23000035R.m3u8
 # #EXTINF:-1 tvg-id="XumoHomeful.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200022N1_20240611T050140SQUARE.png" group-title="Home & Food",Homeful
 # https://jmp2.uk/sam-USBD700022M5.m3u8
