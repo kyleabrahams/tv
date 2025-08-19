@@ -36,7 +36,7 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1211 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 http://fortv.cc:8080/105094817/105094817/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
 # http://EAST
@@ -334,8 +334,10 @@ http://tvmate.icu:8080/k4Svp2/645504/46695
 
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418595
-#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 206.
-http://206.212.244.71:8080/4wVQA7/625159/116506
+# #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 206.
+# http://206.212.244.71:8080/4wVQA7/625159/116506
+#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 1tv.
+http://1tv41.icu:8080/08150659/26152653/116506
 
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708784
