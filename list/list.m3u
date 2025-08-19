@@ -36,10 +36,10 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="Global(CIII-DT-41)Toronto.ca" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57435
 
-#EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
-http://fortv.cc:8080/105094817/105094817/57365
-# #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 7 306p 1tv.
-# http://EAST
+# #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
+# http://fortv.cc:8080/105094817/105094817/57365
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 146 pm xv5.
+http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI Vancouver HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Feb 6 831p ua.
@@ -122,8 +122,8 @@ http://1tv41.icu:8080/08150659/26152653/57393
 https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
 #EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d.m3u8
-#EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://i.ibb.co/FrWt3kW/sam-cbc-news.png" group-title="News",CBC News
-https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
+#EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/global-news-ca.png?raw=true" group-title="News",Global News
+http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6427/index.m3u8
 
 # #EXTINF:-1 tvg-id="Makeful.ca" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418488
@@ -187,6 +187,8 @@ http://1tv41.icu:8080/08150659/26152653/120876
 
 #EXTINF:-1 tvg-id="CTV2.London.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor xip.
 http://xxip25.top:8080/04760056/79599130/77165
+# #EXTINF:-1 tvg-id="CTV2.London.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor xv5.
+# http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6423/index.m3u8
 # #EXTINF:-1 tvg-id="CTV2.London.ca" tvg-name="19 CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 London 1tv.
 # http://1tv41.icu:8080/08150659/26152653/58546
 # #EXTINF:-1 tvg-id="CTV2.London.ca" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor 1tv.
@@ -359,8 +361,10 @@ http://1tv41.icu:8080/08150659/26152653/57258
 
 # #EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418506
-#EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 206.
-http://206.212.244.71:8080/4wVQA7/625159/47366
+# #EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 206.
+# http://206.212.244.71:8080/4wVQA7/625159/47366
+#EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase xv5.
+http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6526/index.m3u8
 # #EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 1tv.
 # http://1tv41.icu:8080/08150659/26152653/47366
 # #EXTINF:-1 tvg-id="ShowcaseEast.ca" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase ua.
@@ -1180,9 +1184,10 @@ http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19177/index.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755179
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK" ,BBC Three toh.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507882
-#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",**BBC Three ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
-
+# #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",**BBC Three ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
+#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three 62.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
 
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four xy.
 # https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
@@ -1190,8 +1195,11 @@ http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755174
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507884
-#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",**BBC Four ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29825
+# #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",**BBC Four ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29825
+#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
+
 #EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19179/index.m3u8
 
@@ -1203,8 +1211,11 @@ http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19179/index.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755254
 # #EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507978
-#EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",**Sky Arts ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29857
+# #EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29857
+#EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV43TH97DwrtxsDFQeZKUG-P8/ts
+
 
 # #EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic xy.
 # https://xyzdddd.mizhls.ru/lb/premium362/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1214,9 +1225,10 @@ http://nodns1.top:8080/7681729957768199/899fa5156a0d/29857
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755255
 # #EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507980
-#EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",**Sky Atlantic ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29859
-
+# #EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29859
+#EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4__q0VZ_C0KFhPFUXU4lGC4/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaAction.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Cinema Action xy.
 # https://xyzdddd.mizhls.ru/lb/premium677/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1242,8 +1254,10 @@ http://tvmate.icu:8080/k4Svp2/645504/53699
 # http://xxip25.top:8080/04760056/79599130/35249
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",Sky Cinema Greats 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508119
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",**Sky Cinema Greats ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29891
+# #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",Sky Cinema Greats ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29891
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",Sky Cinema Greats 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV411kAJR2uicwuQhdkTbrjwE/ts
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",Sky Cinema Greats pro.
 # http://pro6666.com:8080/dr.davidhouri/598627/420730
 
@@ -1251,9 +1265,10 @@ http://nodns1.top:8080/7681729957768199/899fa5156a0d/29891
 # https://xyzdddd.mizhls.ru/lb/premium673/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits",Sky Cinema Hits 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508121
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits",**Sky Cinema Hits ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29892
-
+# #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits",Sky Cinema Hits ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29892
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits",Sky Cinema Hits 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV46fdRN5BrmuyKU_rjWp77J0/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Cinema Premier xy.
 # https://xyzdddd.mizhls.ru/lb/premium671/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1271,9 +1286,10 @@ http://xxip25.top:8080/04760056/79599130/35248
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755302
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",Sky Cinema Select 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508127
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",**Sky Cinema Select ns1.
-http://nodns1.top:8080/7681729957768199/899fa5156a0d/29885
-
+# #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",Sky Cinema Select ns1.
+# http://nodns1.top:8080/7681729957768199/899fa5156a0d/29885
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",Sky Cinema Select 63.
+http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV47-of1jlIPQ9m_imTnjYSnY/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller",Sky Cinema Thriller xy.
 # https://xyzdddd.mizhls.ru/lb/premium679/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1326,25 +1342,7 @@ http://nodns1.top:8080/7681729957768199/899fa5156a0d/29858
 
 
 
-#EXTINF:-1 tvg-id="Samsung
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ca" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-|Samsung,Xumo,Pluto|-
+#EXTINF:-1 tvg-id="Samsung.ca" tvg-name="------|Samsung TV|------" tvg-logo="https://cdn-icons-png.flaticon.com/512/5093/5093047.png" group-title="Ambiance",-|Samsung,Xumo,Pluto|-
 https://jmp2.uk/stvp-CA2900005KG
 #EXTINF:-1 tvg-id="Pluto00sReplay.us" tvg-logo="https://i.ibb.co/cXZ4nVfn/00s-Replay.png" group-title="Movies",00s Replay Pluto
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
