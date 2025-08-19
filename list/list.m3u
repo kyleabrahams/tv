@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 428 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 433 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -423,7 +423,7 @@ http://xxip25.top:8080/04760056/79599130/47302
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418477
 # #EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 206.
 # http://206.212.244.71:8080/4wVQA7/625159/210450	
-#EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 .scale
+#EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/548689
 # #EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708840
@@ -474,8 +474,10 @@ http://fl5.moveonjoy.com/HGTV/index.m3u8
 # http://extraott.com:900/live/9708461610/1164158489/387721.m3u8
 # #EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN ext.
 # http://exm3u.extraott.com/live/54RL5KJE/QVVXHK64/387721.m3u8
-#EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN .scale
+#EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/647752
+#EXTINF:-1 tvg-id="TelelatinoWEST.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN West .sca
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/647753
 
 # #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="47 Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="Canada",Love Nature  
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418487
@@ -989,27 +991,27 @@ http://fl5.moveonjoy.com/CRAVE_4/index.m3u8
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
-#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's .scale
+#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59884
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
-#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's .scale
+#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59883
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
-#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's .scale
+#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/3367
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
-#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's .scale
+#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59882
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's toh.
