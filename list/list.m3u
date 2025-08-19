@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 146 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 318 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -735,6 +735,9 @@ http://1tv41.icu:8080/08150659/26152653/1818
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/50632
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC a1xs.
 https://a1xs.vip/300008
+# #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC mal.
+# https://maldivesn.net/hilaytv/msnbc
+
 
 
 #EXTINF:-1 tvg-id="CNBC.Canada.ca" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="News",US CNBC 
@@ -978,31 +981,40 @@ http://fl3.moveonjoy.com/CRAVE_3/index.m3u8
 #EXTINF:-1 tvg-id="Crave4East.ca" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4
 http://fl5.moveonjoy.com/CRAVE_4/index.m3u8
 
-# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",**Hollywood Suite 70's 23.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
-#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",**Hollywood Suite 70's 23.
-http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
-# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 80's 23.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's 23.
+# http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
+#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's .scale
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59884
+
+# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
-#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 80's 23.
-http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
-# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 90's 23.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
+# http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
+#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's .scale
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59883
+# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
-#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 90's 23.
-http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
-# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 00's 23.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
+# http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
+#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's .scale
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/3367
+
+# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
-#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 00's 23.
-http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
+# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
+# http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
+#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's .scale
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59882
 
-
-# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",**Hollywood Suite 70's toh.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies"tvg-shift="0",Hollywood Suite 70's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709017
-# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 80's toh.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709018
-# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 90's toh.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709019
-# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",**Hollywood Suite 00's toh.
+# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709016
 
 
@@ -1184,7 +1196,7 @@ http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19177/index.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755179
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK" ,BBC Three toh.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507882
-# #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",**BBC Three ns1.
+# #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
 #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three 62.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
@@ -1195,7 +1207,7 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755174
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507884
-# #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",**BBC Four ns1.
+# #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29825
 #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
@@ -1203,6 +1215,10 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
 #EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19179/index.m3u8
 
+#EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://8upload.com/image/68603c908d132/channel4hilay.png" group-title="UK",Channel 4
+https://maldivesn.net/hilaytv/channel4uk
+#EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://8upload.com/image/684bfbc08dbc6/ch5hilay.png" group-title="UK",Channel 5
+https://maldivesn.net/hilaytv/channel5uk
 
 
 # #EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts xy.
@@ -1415,6 +1431,8 @@ https://jmp2.uk/plu-5dc0c78281eddb0009a02d5e.m3u8
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-67291fdbc1edbd1509fb9d11.m3u8
 #EXTINF:-1 tvg-id="PlutoFailArmy.us" tvg-logo="https://images.pluto.tv/series/650ca0d9d193e8001b8050c1/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=900&amp;q=75&amp;w=900" group-title="Comedy",Fail Army
 https://jmp2.uk/plu-554158e864526b29254ff105.m3u8
+#EXTINF:-1 tvg-id="FashionTV.mv" tvg-name="Fashion TV" tvg-logo="https://8upload.com/image/67e23b7d5c6b9/fashionhdhilay.png" group-title="FAST Series",Fashion TV 4k mal.
+https://maldivesn.net/hilaytv/fashiontv4k
 #EXTINF:-1 tvg-id="PlutoFifthGear.gb" tvg-logo="https://i.ibb.co/NdPqspFc/Fifth-Gear.png" group-title="Automotive",Fifth Gear
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951207
 #EXTINF:-1 tvg-id="PlexFilmRiseAction.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3200020ID_20240520T222641SQUARE.png" group-title="Movies",FilmRise Action
@@ -1578,14 +1596,17 @@ https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
 https://jmp2.uk/sam-GBBD2300001C0.m3u8
 #EXTINF:-1 tvg-id="PlexVevoHipHop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20240507T094303SQUARE.png" group-title="Music",**Hip-Hop & R&B 2 SS.
 https://jmp2.uk/sam-FRBC2100002JA.m3u8
-#EXTINF:-1 channel-id="6be3083b8ec2508495684e5087f8f86a" tvg-id="6be3083b8ec2508495684e5087f8f86a" tvg-chno="1134" tvg-name="Vevo R&B" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/6be3083b8ec2508495684e5087f8f86a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113546717_Info_HUD_Logo_260X147_center_%252813%2529.png" group-title="",Vevo R&B pluto.
+#EXTINF:-1 channel-id="6be3083b8ec2508495684e5087f8f86a" tvg-id="6be3083b8ec2508495684e5087f8f86a" tvg-chno="1134" tvg-name="Vevo R&B" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/6be3083b8ec2508495684e5087f8f86a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113546717_Info_HUD_Logo_260X147_center_%252813%2529.png" group-title="",R&B pluto.
 https://jmp2.uk/plu-5da0d83f66c9700009b96d0e.m3u8
-#EXTINF:-1 tvg-id="PlexVevoPop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Vevo Pop pluto.
+#EXTINF:-1 tvg-id="PlexVevoPop.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC19000017V_20230614T010200SQUARE.png_20230614010200.png" group-title="Music",Pop pluto.
 https://jmp2.uk/plu-5d93b635b43dd1a399b39eee.m3u8
 #EXTINF:-1 channel-id="60db737695c95b599dad50d2c5595fe3" tvg-id="60db737695c95b599dad50d2c5595fe3" tvg-chno="1101" tvg-name="Vevo Reggaeton & Trap" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/60db737695c95b599dad50d2c5595fe3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113591743_Info_HUD_Logo_260X147_center_%25281%2529_%25281%2529.png" group-title="",Reggaeton & Trap
 https://jmp2.uk/rok-60db737695c95b599dad50d2c5595fe3.m3u8
-#EXTINF:-1 tvg-id="61d4b38226b8a50007fe03a6" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG_1748797615724.png" group-title="Music",Vevo Rock pluto.
+#EXTINF:-1 tvg-id="61d4b38226b8a50007fe03a6" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG_1748797615724.png" group-title="Music",Rock pluto.
 https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8
+#EXTINF:-1 tvg-id="SamsungTraceUrban.es" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png" group-title="Music",Trace Urban
+https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
+
 # #EXTINF:-1 tvg-id="INBB280000599" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBB280000599_20240904T091756SQUARE.png" group-title="FAST Series" tvg-chno="1171",WildEarth
 # https://jmp2.uk/sam-INBB280000599.m3u8
 #EXTINF:-1 tvg-id="XumoWipeoutXtra.us" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3000001QB_20230913T031548SQUARE.png_20230913031549.png" group-title="FAST Series",Wipeout Xtra GB.
@@ -1703,8 +1724,11 @@ http://fl3.moveonjoy.com/Destination_America/index.m3u8
 
 #EXTINF:-1 tvg-id="DiscoveryFamily.us" tvg-name="US Discovery Family" tvg-logo="https://i.ibb.co/Z2Nf59p/Discovery-Family-logo-1.png" group-title="USA",Discovery Family 
 http://fl5.moveonjoy.com/DISCOVERY_FAMILY_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryLife.us" tvg-name="US Discovery Life HD" tvg-logo="https://i.ibb.co/WHwNQHv/discovery-life.png" group-title="USA",**Discovery Life 
-http://fl5.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
+# #EXTINF:-1 tvg-id="DiscoveryLife.us" tvg-name="US Discovery Life HD" tvg-logo="https://i.ibb.co/WHwNQHv/discovery-life.png" group-title="USA",Discovery Life 
+# http://fl5.moveonjoy.com/DISCOVERY_LIFE/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryLife.us" tvg-name="US Discovery Life HD" tvg-logo="https://i.ibb.co/WHwNQHv/discovery-life.png" group-title="USA",Discovery Life mal.
+https://maldivesn.net/hilaytv/discoverylife
+
 
 # #EXTINF:-1 tvg-id="Discovery Science" tvg-name="US Discovery Science USATV" tvg-logo="https://i.ibb.co/hZm9mZM/Discovery-Science-1.png" group-title="USA",Discovery Science 
 # http://fl3.moveonjoy.com/Discovery_Science/index.m3u8
@@ -1893,15 +1917,15 @@ http://fl5.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="US TNT East USATV" tvg-logo="https://i.ibb.co/Wc6tYZq/TNT-TV-Channel.png" group-title="USA",TNT (East)(Ad)   
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tnteast.us.m3u8
 
-#EXTINF:-1 tvg-id="SamsungTraceUrban.es" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png" group-title="Music",Trace Urban
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
-
 #EXTINF:-1 tvg-id="TravelChannelEast.us" tvg-name="US Travel Channel East USATV" tvg-logo="https://i.ibb.co/Yt0Yzgh/trvl-1.png" group-title="USA",Travel Channel  
 http://fl5.moveonjoy.com/Travel_Channel/index.m3u8
 #EXTINF:-1 tvg-id="truTVEast.us" tvg-name="US TRUTV East USATV" tvg-logo="https://i.ibb.co/xL9Ktv8/Tru-TV-2014-1.png" group-title="USA",TruTV (Ad)  
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/trutveast.us.m3u8
-#EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",**TV land 
-http://fl5.moveonjoy.com/TV_Land/index.m3u8
+# #EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",TVland 
+# http://fl5.moveonjoy.com/TV_Land/index.m3u8
+#EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",TVland 143.
+http://143.244.60.30/TV_LAND/index.m3u8
+
 #EXTINF:-1 tvg-id="TVOne.us" tvg-name="US TV One USATV" tvg-logo="https://i.ibb.co/YhmPSmk/tv-one.png" group-title="USA",TV One 
 http://fl5.moveonjoy.com/TV_ONE/index.m3u8
 
@@ -1915,10 +1939,10 @@ http://fl3.moveonjoy.com/Discovery_Channel/index.m3u8
 
 #EXTINF:-1 tvg-id="VH1East.us" tvg-name="US VH1 USATV" tvg-logo="https://i.ibb.co/VVQKNW5/VH1-logonew-1.png" group-title="USA",VH1 
 http://fl5.moveonjoy.com/VH1/index.m3u8
-#EXTINF:0 tvg-id="PlutoTVVH1HipHopFamily.us" channel-number="1700" tvg-logo="https://images.pluto.tv/channels/5d71561df6f2e6d0b6493bf5/colorLogoPNG.png" group-title="USA",**VH1 Hip Hop Family
-https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d71561df6f2e6d0b6493bf5/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac16956-b0d8-11ef-b8e9-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=572bb290-cb84-463c-9431-af159e82b49b&userId=&serverSideAds=true
-#EXTINF:0 tvg-id="PlutoTVVH1ILoveReality.us" channel-number="1710" tvg-logo="https://images.pluto.tv/channels/5d7154fa8326b6ce4ec31f2e/colorLogoPNG.png" group-title="USA",**VH1 I Love Reality
-https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d7154fa8326b6ce4ec31f2e/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac169c4-b0d8-11ef-b3be-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=b78e5992-7ab7-48bf-b68a-11242386ba6a&userId=&serverSideAds=true
+#EXTINF:-1 channel-id="66abefe5d2d50d00082c7d12-us" tvg-id="66abefe5d2d50d00082c7d12" tvg-chno="1675" tvg-name="VH1 Queens of Reality" tvg-logo="https://images.pluto.tv/channels/66abefe5d2d50d00082c7d12/colorLogoPNG.png" group-title="FAST Series",VH1 Queens of Reality
+https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
+#EXTINF:-1 channel-id="626180ec537f210007e94b52-it" tvg-id="626180ec537f210007e94b52" tvg-chno="920" tvg-name="VH1+ Summer Vibes" tvg-logo="https://images.pluto.tv/channels/626180ec537f210007e94b52/colorLogoPNG.png" group-title="FAST Series", VH1+ Summer Vibes
+https://jmp2.uk/plu-626180ec537f210007e94b52.m3u8
 #EXTINF:-1 tvg-id="VICETV.us" tvg-name="US VICELAND" tvg-logo="https://i.ibb.co/Vj9gNX3/vice-logo-white-1.png" group-title="USA",Vice 
 http://fl5.moveonjoy.com/VICELAND/index.m3u8
 #EXTINF:-1 tvg-id="WeTVEast.us" tvg-name="US Womens Entertainment tv USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/we-tv-us.png?raw=true" group-title="USA",WE tv 
@@ -2198,8 +2222,8 @@ http://fl5.moveonjoy.com/YES_NETWORK/index.m3u8
 
 #EXTINF:-1 tvg-name="24/7 Adventure Time" tvg-logo="https://logos-world.net/wp-content/uploads/2023/05/Adventure-Time-Logo.png" group-title="Series",Adventure Time 1tv.
 http://1tv41.icu:8080/08150659/26152653/178879
-#EXTINF:-1 tvg-id="PlexALF.ca" tvg-chno="1328" tvg-name="ALF" channel-id="CA41000052M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA41000052M_20241217T013836SQUARE.png" group-title="Series",**ALF
-https://jmp2.uk/sam-CA41000052M.m3u8
+#EXTINF:-1 tvg-id="PlexALF.ca" tvg-chno="1328" tvg-name="ALF" channel-id="CA41000052M" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA41000052M_20241217T013836SQUARE.png" group-title="Series",ALF
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/511217
 #EXTINF:-1 tvg-name="24/7 American Crime Story" tvg-logo="https://assets-prd.ignimgs.com/2021/09/16/americancrimestory-1631830702028.png" group-title="Series",American Crime Story 1tv.
 http://1tv41.icu:8080/08150659/26152653/178876
 #EXTINF:-1 tvg-id="PlutoAngerManagement.us" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Series",Anger Management
@@ -2286,7 +2310,7 @@ http://1tv41.icu:8080/08150659/26152653/79567
 #EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Series",Looney Tunes 1tv.
 http://1tv41.icu:8080/08150659/26152653/125638
 #EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" tvg-chno="1001" tvg-logo="https://i.ibb.co/RTbTj65X/Murdoch-Mysteries.png" group-title="Series",Murdoch Mysteries
-https://jmp2.uk/sam-CA4600001IG.m3u8
+http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/34325
 #EXTINF:-1 tvg-name="24/7 PAW PATROL" tvg-logo="https://assets.stickpng.com/images/59d62b903752880e93e16ebd.png" group-title="Series",Paw Patrol 1tv.
 http://1tv41.icu:8080/08150659/26152653/66311 
 # #EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Series",Project Runway
