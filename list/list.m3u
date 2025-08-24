@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 127 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 135 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -1397,8 +1397,12 @@ https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="PlexAlwaysFunny.au" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA1600001XM_20240520T215804SQUARE.png" group-title="Comedy",Always Funny Videos roku.
 https://jmp2.uk/rok-86c08261fc015a58866210bea63eb8f4.m3u8
+#EXTINF:-1 tvg-id="PlutoAngerManagement.us" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Unlimited Series",Anger Management
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
 #EXTINF:-1 tvg-id="XumoPBSAntiquesRoadshow.uk" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200005AV_20230627T214816SQUARE.png_20230627214818.png" group-title="Unlimited Series" tvg-chno="1212",Antiques Roadshow pluto.
 https://jmp2.uk/plu-636c2b3c55d2e700074105c4.m3u8
+#EXTINF:-1 tvg-id="PlutoAreWeThereYet.ca" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600006RS_20220713T034338SQUARE.png_20220713034339.png" group-title="Unlimited Series",Are We There Yet? pluto.
+https://jmp2.uk/plu-65cf8b9328730900087c5324.m3u8
 # #EXTINF:-1 tvg-id="SamsungArchitecturalDigest.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200009HX_20231024T232010SQUARE.png_20231024232011.png" group-title="Home & Food",Architectural Digest
 # https://jmp2.uk/sam-CABC5200009HX.m3u8
 
@@ -1541,6 +1545,8 @@ https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="XumoPowerNation.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2500017XQ_20240528T020725SQUARE.png" group-title="Automotive",PowerNation roku.
 https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8
+#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Unlimited Series",Project Runway plex.
+https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-66a2e57a0b91165254efdb4a.m3u8
 #EXTINF:-1 tvg-id="PlexPropertyBrothersChannel.us" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home & Food",Property Brothers Channel plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc.m3u8
 #EXTINF:-1 tvg-id="XumoPursuitUp.us" tvg-name="US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="Unlimited Series",Pursuit UP stirr.
@@ -2244,10 +2250,6 @@ http://1tv41.icu:8080/08150659/26152653/178879
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/511217
 #EXTINF:-1 tvg-name="24/7 American Crime Story" tvg-logo="https://assets-prd.ignimgs.com/2021/09/16/americancrimestory-1631830702028.png" group-title="Limited Series",American Crime Story 1tv.
 http://1tv41.icu:8080/08150659/26152653/178876
-#EXTINF:-1 tvg-id="PlutoAngerManagement.us" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Limited Series",Anger Management
-https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
-#EXTINF:-1 tvg-id="PlutoAreWeThereYet.ca" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600006RS_20220713T034338SQUARE.png_20220713034339.png" group-title="Limited Series",Are We There Yet? pluto.
-https://jmp2.uk/plu-65cf8b9328730900087c5324.m3u8
 #EXTINF:-1 tvg-name="24/7 Bar Rescue" tvg-logo="https://jontaffer.com/wp-content/uploads/2021/04/BR_Logo.jpg" group-title="Limited Series",Bar Rescue 1tv.
 http://1tv41.icu:8080/08150659/26152653/178865
 #EXTINF:-1 tvg-name="Beavis and Butt-Head" tvg-logo="https://images.pluto.tv/channels/6486e8328e3c0a0008e5686c/colorLogoPNG.png" group-title="Limited Series",Beavis and Butt-Head
@@ -2295,7 +2297,7 @@ http://1tv41.icu:8080/08150659/26152653/125636
 http://1tv41.icu:8080/08150659/26152653/79572
 #EXTINF:-1 tvg-name="24/7 FAMILY GUY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Family_Guy_Logo.svg/512px-Family_Guy_Logo.svg.png" group-title="Limited Series",Family Guy 1tv.
 http://1tv41.icu:8080/08150659/26152653/66317
-#EXTINF:-1 tvg-id="XumoFamilyFeud.us" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="Limited Series",Family Feud
+#EXTINF:-1 tvg-id="XumoFamilyFeud.us" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="Unlimited Series",Family Feud
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
 #EXTINF:-1 tvg-name="24/7 FAMILY MATTERS" tvg-logo="https://image.tmdb.org/t/p/w500/gZqs0wj2QlMxwBbabIlo3C8hpr0.png" group-title="Limited Series",Family Matters 1tv.
 http://1tv41.icu:8080/08150659/26152653/125634
@@ -2335,8 +2337,6 @@ http://1tv41.icu:8080/08150659/26152653/125638
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/34325
 #EXTINF:-1 tvg-name="24/7 PAW PATROL" tvg-logo="https://assets.stickpng.com/images/59d62b903752880e93e16ebd.png" group-title="Limited Series",Paw Patrol 1tv.
 http://1tv41.icu:8080/08150659/26152653/66311 
-#EXTINF:-1 tvg-id="PlutoProjectRunway.gb" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Limited Series",Project Runway plex.
-https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-66a2e57a0b91165254efdb4a.m3u8
 #EXTINF:-1 tvg-name="24/7 RICK AND MORTY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/800px-Rick_and_Morty.svg.png" group-title="Limited Series",Rick and Morty
 http://1tv41.icu:8080/08150659/26152653/66302
 #EXTINF:-1 tvg-name="24/7 RIDICULOUSNESS" tvg-logo="https://i.ibb.co/bgGDMvZN/ridiculousness.png" group-title="Limited Series",Ridiculousness 1tv.
