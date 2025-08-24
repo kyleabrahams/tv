@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 237 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 257 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -893,9 +893,10 @@ http://fl5.moveonjoy.com/CARTOON_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Treehouse.ca" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6471/index.m3u8
 
-
-#EXTINF:-1 tvg-id="Disney.Junior.Canada.ca" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 1tv.
-http://1tv41.icu:8080/08150659/26152653/57349
+# #EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 1tv.
+# http://1tv41.icu:8080/08150659/26152653/57349
+#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior fl5.
+http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
 # #EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",US Disney Junior fl5. 
 # http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
 
@@ -1802,8 +1803,8 @@ http://23.237.104.106:8080/USA_DISCOVERY/index.m3u8
 # http://fl5.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelEast.ca" tvg-name="Disney Channel USATV" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",Disney Channel a1xs.
 https://a1xs.vip/300037
-#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true"group-title="Kids",Disney Junior
-http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
+# #EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true"group-title="Kids",Disney Junior
+# http://fl5.moveonjoy.com/DISNEY_JR/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXDEast.us" tvg-name="DISNEY_XD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/800px-Disney_XD_-_2015.svg.png"group-title="Kids",Disney XD 
 http://fl5.moveonjoy.com/DISNEY_XD/index.m3u8
 
@@ -1992,8 +1993,8 @@ http://fl5.moveonjoy.com/TV_ONE/index.m3u8
 
 # #EXTINF:-1 tvg-id="UniversalKidsEast.us" tvg-name="Universal Kids USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/universal-kids-us.png?raw=true" group-title="Kids",Universal Kids xy.     
 # https://xyzdddd.mizhls.ru/lb/premium668/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="UniversalKidsEast.us" tvg-name="Universal Kids USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/universal-kids-us.png?raw=true" group-title="Kids",Universal Kids tva.     
-https://v2.thetvapp.to/hls/UniversalKidsEast/tracks-v1a1/mono.m3u8?token=AYsMo3yWU_-Vd8vI-3ttBA&expires=1756061037&user_id=MmFnc0U2SXhuQ2NGUDhoWWhjTGRRNnUxdmxDWnRKMmh3TnduakV1Sw==
+# #EXTINF:-1 tvg-id="UniversalKidsEast.us" tvg-name="Universal Kids USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/universal-kids-us.png?raw=true" group-title="Kids",Universal Kids tva.     
+# https://v2.thetvapp.to/hls/UniversalKidsEast/tracks-v1a1/mono.m3u8?token=AYsMo3yWU_-Vd8vI-3ttBA&expires=1756061037&user_id=MmFnc0U2SXhuQ2NGUDhoWWhjTGRRNnUxdmxDWnRKMmh3TnduakV1Sw==
 # #EXTINF:-1 tvg-id="UniversalKidsEast.us" tvg-name="Universal Kids USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/universal-kids-us.png?raw=true" group-title="Kids",Universal Kids xip.     
 # http://xxip25.top:8080/13yXsS/001616/9235
 
