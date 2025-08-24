@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 135 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 145 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -1523,6 +1523,8 @@ https://jmp2.uk/plu-6549322e53fc97000838febc.m3u8
 https://jmp2.uk/plu-6400f731d200410008f9b339.m3u8
 #EXTINF:-1 tvg-id="XumoMovieSpherebyLionsgate.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000117B_20240520T223358SQUARE.png" group-title="Movies",Moviesphere tubi.
 https://live-manifest.production-public.tubi.io/live/89d05bba-7b88-41f4-8b59-235c503b866a/playlist.m3u8
+#EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" tvg-chno="1001" tvg-logo="https://i.ibb.co/RTbTj65X/Murdoch-Mysteries.png" group-title="Unlimited Series",Murdoch Mysteries SS.
+https://jmp2.uk/stvp-CA4600001IG
 #EXTINF:-1 tvg-id="5812bd9f249444e05d09cc4e" tvg-logo="https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/colorLogoPNG.png" group-title="Ambiance",Naturescape 1
 https://jmp2.uk/plu-5812bd9f249444e05d09cc4e.m3u8
 #EXTINF:-1 tvg-id="610a9ebe8c2ac2000734776e" tvg-logo="https://images.pluto.tv/channels/610a9ebe8c2ac2000734776e/colorLogoPNG.png" group-title="Ambiance",Naturescape 2
@@ -2333,8 +2335,8 @@ https://jmp2.uk/plu-62fb66c867976d0007647e54.m3u8
 http://1tv41.icu:8080/08150659/26152653/79567
 #EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Limited Series",Looney Tunes 1tv.
 http://1tv41.icu:8080/08150659/26152653/125638
-#EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" tvg-chno="1001" tvg-logo="https://i.ibb.co/RTbTj65X/Murdoch-Mysteries.png" group-title="Limited Series",Murdoch Mysteries
-http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/34325
+# #EXTINF:-1 tvg-id="SamsungMurdochMysteries.ca" tvg-name="Murdoch Mysteries" tvg-chno="1001" tvg-logo="https://i.ibb.co/RTbTj65X/Murdoch-Mysteries.png" group-title="Limited Series",Murdoch Mysteries .sca
+# http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/34325
 #EXTINF:-1 tvg-name="24/7 PAW PATROL" tvg-logo="https://assets.stickpng.com/images/59d62b903752880e93e16ebd.png" group-title="Limited Series",Paw Patrol 1tv.
 http://1tv41.icu:8080/08150659/26152653/66311 
 #EXTINF:-1 tvg-name="24/7 RICK AND MORTY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/800px-Rick_and_Morty.svg.png" group-title="Limited Series",Rick and Morty
