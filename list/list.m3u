@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 19 826 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 925 am xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -1183,6 +1183,9 @@ http://fl5.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8
 #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19176/index.m3u8
+# #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One .nex
+# https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
+
 
 
 # #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two wor.
@@ -1193,7 +1196,8 @@ http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19176/index.m3u8
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29823
 #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19177/index.m3u8
-
+# #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two .nex
+# https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8
 
 
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="BBC Three HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK" ,BBC Three xy.
@@ -1206,6 +1210,8 @@ http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19177/index.m3u8
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
 #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three 62.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
+# #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three .nex
+# https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
 
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four xy.
 # https://xyzdddd.mizhls.ru/lb/premium359/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
@@ -1217,6 +1223,8 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29825
 #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
+# #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four .nex
+# https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 
 #EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19179/index.m3u8
@@ -2264,7 +2272,7 @@ https://jmp2.uk/plu-5e1f7e089f23700009d66303.m3u8
 #EXTINF:-1 tvg-id="62f54c11b3af68000702c304" tvg-logo="https://images.pluto.tv/channels/62f54c11b3af68000702c304/colorLogoPNG_1731837343443.png" group-title="Series",CSI: Miami Pluto
 https://jmp2.uk/plu-62f54c11b3af68000702c304.m3u8
 #EXTINF:-1 tvg-id="PlutoDallasCowboysCheerleaders.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20240520T215826SQUARE.png" group-title="FAST Series",Dallas Cowboys Cheer pluto.
-https://jmp2.uk/plu-64e7715c4c5ed800081230e4.m3u8
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d40855b3fb0855028c99b6f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c40-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=92a113fc-f35c-4160-9c63-27cd8537a39f
 #EXTINF:0 tvg-id="PlexDanceMoms.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20240924T010417SQUARE.png" group-title="FAST Series",Dance Moms plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-672917e07f55143b23b66c4b.m3u8
 #EXTINF:-1 tvg-id="XumoDateline247.us" tvg-logo="https://i.ibb.co/y4fgVWk/dateline-24-7.jpg" group-title="FAST Series",Dateline 24/7 plex.
