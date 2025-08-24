@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 940 am xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 953 am xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -1529,8 +1529,8 @@ https://jmp2.uk/plu-5df97894467dfa00091c873c.m3u8
 https://jmp2.uk/plu-55b179af994403942f3061d6.m3u8
 #EXTINF:0 tvg-id="PlexNoReservations.us" channel-id="no-reservations" channel-number="3435" tvg-logo="https://images.pluto.tv/channels/66ff0cf663292d0008320cf8/colorLogoPNG.png" group-title="Home & Food",No Reservations
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66ff0cf663292d0008320cf8/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=4ac1ba6e-b0d8-11ef-b98d-be06b1feeffd&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=db11e76b-a5d9-424c-8129-b72a7b7c3012&userId=&serverSideAds=true
-# #EXTINF:-1 tvg-id="SamsungOceanVibes.ca" tvg-name="Ocean Vibes" channel-id="CA7000015K" tvg-chno="4505" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20241211T021045SQUARE.png" group-title="Ambiance",**Ocean Vibes
-# https://jmp2.uk/sam-CA7000015K.m3u8
+#EXTINF:-1 tvg-id="SamsungOceanVibes.ca" tvg-name="Ocean Vibes" channel-id="CA7000015K" tvg-chno="4505" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA7000015K_20241211T021045SQUARE.png" group-title="Ambiance",Ocean Vibes
+https://jmp2.uk/stvp-CA7000015K
 #EXTINF:-1 tvg-id="XumoOutsideTV.us" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700030ON_20220511T002618SQUARE.png_20220511002619.png" group-title="FAST Series",Outside TV roku.
 https://jmp2.uk/rok-7bdac47dd6dd5204b00b1d0e4cbc9684.m3u8
 #EXTINF:-1 tvg-id="5c665db3e6c01b72c4977bc2" tvg-logo="https://images.pluto.tv/channels/5c665db3e6c01b72c4977bc2/colorLogoPNG.png" group-title="Movies",Pluto TV Cult Films
@@ -1545,8 +1545,8 @@ https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc.m3u8
 #EXTINF:-1 tvg-id="XumoPursuitUp.us" tvg-name="US Pursuit UP" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD17000025J_20240520T220137SQUARE.png" group-title="FAST Series",Pursuit UP stirr.
 https://jmp2.uk/str-6435.m3u8
-# #EXTINF:-1 tvg-id="SamsungRainyDayVibes.ca" tvg-name="Rainy Day Vibes" channel-id="CA1400015BB" tvg-chno="4530" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400015BB_20241211T021049SQUARE.png" group-title="Ambiance",**Rainy Day Vibes
-# https://jmp2.uk/sam-CA1400015BB.m3u8
+#EXTINF:-1 tvg-id="SamsungRainyDayVibes.ca" tvg-name="Rainy Day Vibes" channel-id="CA1400015BB" tvg-chno="4530" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400015BB_20241211T021049SQUARE.png" group-title="Ambiance",Rainy Day Vibes
+https://jmp2.uk/stvp-CA1400015BB
 #EXTINF:-1 tvg-id="AmericasVoice.us" tvg-name="US Real America's Voice (STV)" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1900002KF_20240520T222747SQUARE.png" group-title="News",America's Voice News pluto.
 https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 #EXTINF:-1 tvg-id="INBA4900027A9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900027A9_20220427T054651SQUARE.png_20220427054652.png" group-title="FAST Series",Real Wild plex.
