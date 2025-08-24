@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 257 pm xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 24 304 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -841,7 +841,7 @@ https://streamer1.nexgen.bz/GSN/index.m3u8
 
 # #EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTVGO pluto.
 # https://jmp2.uk/plu-6639e6edf9992200081e2855.m3u8
-#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV xv5.
+#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",Game xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6476/index.m3u8
 
 #EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="Canada",TV Ontario new.
@@ -1233,9 +1233,9 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
 #EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19179/index.m3u8
 
-#EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://8upload.com/image/68603c908d132/channel4hilay.png" group-title="UK",Channel 4
+#EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-4-uk.png?raw=true" group-title="UK",Channel 4
 https://maldivesn.net/hilaytv/channel4uk
-#EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://8upload.com/image/684bfbc08dbc6/ch5hilay.png" group-title="UK",Channel 5
+#EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5
 https://maldivesn.net/hilaytv/channel5uk
 
 
