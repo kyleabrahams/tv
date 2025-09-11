@@ -38,7 +38,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Aug 31 1030 am xv5.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Feb 24 847p 1tv.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418499
@@ -76,8 +76,10 @@ https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5
 #EXTINF:-1 tvg-id="CITY.Toronto.ca" tvg-name="07 Citytv TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto 1tv.
 http://1tv41.icu:8080/08150659/26152653/57394
 
-#EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto 1tv.
-http://1tv41.icu:8080/08150659/26152653/47296
+# #EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto 1tv.
+# http://1tv41.icu:8080/08150659/26152653/47296
+#EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Subury 1tv.
+http://1tv41.icu:8080/08150659/26152653/100454
 # #EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto xip.
 # http://xxip25.top:8080/13yXsS/001616/47296
 # #EXTINF:-1 tvg-id="CTV.CFTO.Toronto.ON.ca" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto ua.
