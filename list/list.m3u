@@ -40,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 10/20/16:44 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 10/20/16:57 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
@@ -2018,8 +2018,11 @@ http://xxip25.top:8080/13yXsS/001616/9272
 #EXTINF:-1 tvg-id="INSP.us" tvg-name="US insp USATV" tvg-logo="https://i.ibb.co/TWSPs7x/insp-trn-1.png" group-title="Classics",*Insp 
 http://fl5.moveonjoy.com/INSP/index.m3u8
 
-#EXTINF:-1 tvg-id="IONTVEast.us" tvg-name="US ION USATV" tvg-logo="https://i.ibb.co/G0BRP54/Ion-logo-1.png" group-title="USA",ION 
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,ION.m3u8
+# #EXTINF:-1 tvg-id="IONTVEast.us" tvg-name="US ION USATV" tvg-logo="https://i.ibb.co/G0BRP54/Ion-logo-1.png" group-title="USA",ION 
+# https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,ION.m3u8
+#EXTINF:-1 tvg-id="IONTVEast.us" tvg-name="US ION USATV" tvg-logo="https://i.ibb.co/G0BRP54/Ion-logo-1.png" group-title="USA",ION .MJI
+http://212.102.60.231/ION_TV/index.m3u8
+
 # #EXTINF:-1 tvg-id="399929" tvg-name="ION Plus" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ion-plus-us.png?raw=true" group-title="USA",ION Plus
 # http://fl3.moveonjoy.com/ION_Plus/index.m3u8
 #EXTINF:-1 tvg-id="XumoIONMystery.us" tvg-name="ION Mystery" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/ion-mystery-us.png?raw=true" group-title="USA",ION Mystery
@@ -2181,10 +2184,13 @@ https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tnt
 https://maldivesn.net/hilaytv/travelchannel
 #EXTINF:-1 tvg-id="truTVEast.us" tvg-name="US TRUTV East USATV" tvg-logo="https://i.ibb.co/xL9Ktv8/Tru-TV-2014-1.png" group-title="USA",TruTV (Ad)  
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/trutveast.us.m3u8
+
 # #EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",TVland 
 # http://fl5.moveonjoy.com/TV_Land/index.m3u8
 #EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",TVland 143.
 http://143.244.60.30/TV_LAND/index.m3u8
+#EXTINF:-1 tvg-id="TVLandEast.us" tvg-name="US TV Land USATV" tvg-logo="https://i.ibb.co/ss9NVKb/TV-Land-2015-logo-1.png" group-title="USA",TVland 1tv.
+http://1tv41.icu:8080/08150659/26152653/46696
 
 # #EXTINF:-1 tvg-id="TVOne.us" tvg-name="US TV One USATV" tvg-logo="https://i.ibb.co/YhmPSmk/tv-one.png" group-title="USA",TV One 
 # http://fl5.moveonjoy.com/TV_ONE/index.m3u8
