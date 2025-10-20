@@ -24,8 +24,10 @@ http://1tv41.icu:8080/08150659/26152653/47218
 # https://xyzdddd.mizhls.ru/lb/premium327/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 1tv.
 # http://1tv41.icu:8080/08150659/26152653/47332
-#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 41.
-http://41.205.93.154:80/MSNBC/index.m3u8
+# #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 41.
+# http://41.205.93.154:80/MSNBC/index.m3u8
+#EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 1tv.
+http://1tv41.icu:8080/08150659/26152653/47332
 # #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="02 MSNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msnbc-alt-us.png?raw=true" group-title="News",MSNBC 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423799
 
@@ -38,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 20 129 pm 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 20 218 pm 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/6428/index.m3u8
@@ -1229,8 +1231,10 @@ http://1tv41.icu:8080/08150659/26152653/17775
 # http://fl5.moveonjoy.com/STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-ID="StarzComedyEast.us" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",Starz Comedy .MJE
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
-#EXTINF:-1 tvg-ID="StarzEdgeEast.us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",*Starz Edge
-http://fl5.moveonjoy.com/STARZ_EDGE/index.m3u8
+# #EXTINF:-1 tvg-ID="StarzEdgeEast.us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge
+# http://fl5.moveonjoy.com/STARZ_EDGE/index.m3u8
+#EXTINF:-1 tvg-ID="StarzEdgeEast.us" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge 1tv.
+http://1tv41.icu:8080/08150659/26152653/16143
 
 # #EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 
 # http://fl5.moveonjoy.com/STARZ_ENCORE/index.m3u8
@@ -1241,8 +1245,10 @@ http://143.244.60.30/Starz_Encore/index.m3u8
 http://fl5.moveonjoy.com/STARZ_ENCORE_ACTION/index.m3u8
 #EXTINF:-1 tvg-id="StarzEncoreClassicEast.us" tvg-name="Starz Encore Classic" tvg-logo="https://i.ibb.co/6RC5ZMBs/Starz-Encore-Classic.png" group-title="Classics",Starz Encore Classic 
 http://fl5.moveonjoy.com/STARZ_ENCORE_CLASSIC/index.m3u8
-#EXTINF:-1 tvg-id="StarzEncoreWesternsEast.us" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 
-http://fl5.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
+# #EXTINF:-1 tvg-id="StarzEncoreWesternsEast.us" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 
+# http://fl5.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreWesternsEast.us" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 1tv.
+http://1tv41.icu:8080/08150659/26152653/16263
 
 # #EXTINF:-1 tvg-id="BBCOneEast.uk" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One xy.
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
@@ -1253,11 +1259,12 @@ http://fl5.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
 # #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One
 # #EXTVLCOPT:http-referrer=https://cookiewebplay.xyz/
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8
-# #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,*BBC One xv5.
+# #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One xv5.
 # http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19176/index.m3u8
-#EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One ddy.
-https://ddy6new.newkso.ru/ddy6/premium727/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
-
+# #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One ddy.
+# https://ddy6new.newkso.ru/ddy6/premium727/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One 1tv.
+http://1tv41.icu:8080/08150659/26152653/53649
 # #EXTINF:-1 tvg-id="BBCOneEast.uk" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One .nex
 # https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
 
@@ -1269,7 +1276,7 @@ https://ddy6new.newkso.ru/ddy6/premium727/mono.m3u8|Origin=https://jxoxkplay.xyz
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507880
 # #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29823
-# #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,*BBC Two xv5.
+# #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two xv5.
 # http://xv5myned.otttv.pw/iptv/YDPZWGPDWKTYED/19177/index.m3u8
 #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two ddy.
 https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
@@ -1304,9 +1311,10 @@ https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8|Origin=https://jxoxkplay.xyz
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29825
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 63.
 # http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4z1Rycd9F0QzEz9mJdd9dvY/ts
-#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four dok.
-https://dokko1new.newkso.ru/dokko1/premium359/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
-
+# #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four dok.
+# https://dokko1new.newkso.ru/dokko1/premium359/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four 1tv.
+http://1tv41.icu:8080/08150659/26152653/99138
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four .nex
 # https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 
@@ -1391,8 +1399,10 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV46fdRN5BrmuyKU_rjWp77J0/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere"Sky Premier xy.
 # https://xyzdddd.mizhls.ru/lb/premium671/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",**Sky Premier xip.
-http://xxip25.top:8080/13yXsS/001616/35256
+# #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Premier xip.
+# http://xxip25.top:8080/13yXsS/001616/35256
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Premier 1tv.
+http://1tv41.icu:8080/a0dMwj/624002/35256
 
 #EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies"Sky Sci-Fi Horror xy.
 # https://xyzdddd.mizhls.ru/lb/premium681/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1407,7 +1417,7 @@ http://xxip25.top:8080/13yXsS/001616/35248
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508127
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select"Sky Select ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29885
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select"Sky Select 63.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select",Sky Select 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV47-of1jlIPQ9m_imTnjYSnY/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller"Sky Thriller xy.
