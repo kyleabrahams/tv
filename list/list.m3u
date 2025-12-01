@@ -40,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",*OMNI 1007 Dec 1 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",*OMNI 1031 Dec 1 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6428/index.m3u8
@@ -554,7 +554,7 @@ http://1tv41.icu:8080/08150659/26152653/57377
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708850
 # #EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="Nature",Nat Geo Wild pro6.
 # http://pro6666.com:8080/dr.davidhouri/598627/467425
-#EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="Nature",Nat Geo Wild 1tv.
+#EXTINF:-1 tvg-id="NatGeoWild.ca" tvg-name="71 Nat Geo Wild" tvg-logo="https://i.ibb.co/v68h3qWj/Nat-Geo-Wild-ca.png" group-title="Nature",*Nat Geo Wild 1tv.
 http://1tv41.icu:8080/08150659/26152653/57280
 
 # #EXTINF:-1 tvg-id="NationalGeographicWildEast.us" tvg-name="CA050:Nat Geo Wild USATV" tvg-logo="https://i.ibb.co/Q9pGjGH/Nat-Geo-Wild-v3.png" group-title="Nature",US Nat Geo Wild 
@@ -659,9 +659,10 @@ http://1tv41.icu:8080/08150659/26152653/57276
 # http://xxip25.top:8080/13yXsS/001616/57422
 # #EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",E! yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3041
-#EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",*E! 1tv.
-http://1tv41.icu:8080/08150659/26152653/57422
-
+# #EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",E! 1tv.
+# http://1tv41.icu:8080/08150659/26152653/57422
+#EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",E! tvm.
+http://tvmate.icu:8080/0Ru8WD/642274/57249
 
 # #EXTINF:-1 tvg-id="EEast.us" tvg-name="65 US E! Entertainment Television East USATV" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="USA",US E!   
 # http://fl5.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8
@@ -745,7 +746,7 @@ http://1tv41.icu:8080/08150659/26152653/10503
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418519
 # #EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="Canada",Travel + Escape toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708887
-#EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="Canada",Travel + Escape xip.
+#EXTINF:-1 tvg-id="TravelandEscape.ca" tvg-name="Travel + Escape / Totally Entertaining" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/travel-and-escape-ca.png?raw=true" group-title="Canada",*Travel + Escape xip.
 http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/108136
 
 # #EXTINF:-1 tvg-id="APTN.East.ca" tvg-name="APTN" tvg-logo="https://i.ibb.co/dbXMp0x/APTN-Colour-300x300-1.png" group-title="Canada",APTN 23.
@@ -1016,7 +1017,7 @@ https://maldivesn.net/hilaytv/hbofamily
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423699
 # #EXTINF:-1 tvg-id="SamsungBBC.Earth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/0nhStDk/BBC-Earth-2023-1.png" group-title="Documentaries",BBC Earth toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708737
-#EXTINF:-1 tvg-id="SamsungBBC.Earth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/0nhStDk/BBC-Earth-2023-1.png" group-title="Documentaries",BBC Earth xip.
+#EXTINF:-1 tvg-id="SamsungBBC.Earth" tvg-name="BBC Earth" tvg-logo="https://i.ibb.co/0nhStDk/BBC-Earth-2023-1.png" group-title="Documentaries",*BBC Earth xip.
 http://xxip25.top:8080/13yXsS/001616/99621
 
 # #EXTINF:-1 tvg-id="MovieTime.ca" tvg-name="MovieTime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/movietime-ca.png?raw=true" group-title="Movies",Movietime
@@ -1069,28 +1070,28 @@ http://1tv41.icu:8080/08150659/26152653/57311
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
-#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",*Hollywood Suite 70's .sca
-http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59884
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",*Hollywood Suite 70's .sca
+# http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59884
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
-#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 80's .sca
-http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59883
+# #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 80's .sca
+# http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59883
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
-#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 90's .sca
-http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/3367
+# #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 90's .sca
+# http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/3367
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
-#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 00's .sca
-http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59882
+# #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 00's .sca
+# http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59882
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709017
@@ -1115,8 +1116,8 @@ http://1tv41.icu:8080/08150659/26152653/2214
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/707803
 # #EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",TMC 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418097
-#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",*TMC tva.
-https://v13.thetvapp.to/hls/TheMovieChannelEast/tracks-v1a1/mono.m3u8?token=23Xa2OlywnO_Rr3BCxgCHw&expires=1756060972&user_id=MmFnc0U2SXhuQ2NGUDhoWWhjTGRRNnUxdmxDWnRKMmh3TnduakV1Sw==
+# #EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",*TMC tva.
+# https://v13.thetvapp.to/hls/TheMovieChannelEast/tracks-v1a1/mono.m3u8?token=23Xa2OlywnO_Rr3BCxgCHw&expires=1756060972&user_id=MmFnc0U2SXhuQ2NGUDhoWWhjTGRRNnUxdmxDWnRKMmh3TnduakV1Sw==
 
 
 # #EXTINF:-1 tvg-id="Paramount+withShowtimeWest.us" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime 
@@ -1173,13 +1174,21 @@ http://212.102.60.231/SHOWTIME_NEXT/index.m3u8
 #EXTINF:-1 tvg-id="ShowtimeWomenEast.us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",*Showtime Women 
 http://212.102.60.231/SHOWTIME_WOMEN/index.m3u8
 
-#EXTINF:-1 tvg-id="MGMPlusEast.us" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",*MGM+ 
-http://fl5.moveonjoy.com/EPIX/index.m3u8
+# #EXTINF:-1 tvg-id="MGMPlusEast.us" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",*MGM+ 
+# http://fl5.moveonjoy.com/EPIX/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusEast.us" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",MGM+ tvm.
+http://tvmate.icu:8080/0Ru8WD/642274/13214
 
-#EXTINF:-1 tvg-id="MGMPlusHitsEast.us" tvg-name="EPIX_2" tvg-logo="https://i.ibb.co/0jYnG0cM/MGM-Hits-2023.png"group-title="Movies",*MGM+ Hits 
-http://fl5.moveonjoy.com/EPIX_HITS/index.m3u8
-#EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",*MGM+ Drive-In 
-http://fl5.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
+
+# #EXTINF:-1 tvg-id="MGMPlusHitsEast.us" tvg-name="EPIX_2" tvg-logo="https://i.ibb.co/0jYnG0cM/MGM-Hits-2023.png"group-title="Movies",MGM+ Hits 
+# http://fl5.moveonjoy.com/EPIX_HITS/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusHitsEast.us" tvg-name="EPIX_2" tvg-logo="https://i.ibb.co/0jYnG0cM/MGM-Hits-2023.png"group-title="Movies",MGM+ Hits tvm.
+http://tvmate.icu:8080/0Ru8WD/642274/12744
+
+# #EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In 
+# http://fl5.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
+#EXTINF:-1 tvg-id="MGMPlusDriveIn.us" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In tvm.
+http://tvmate.icu:8080/0Ru8WD/642274/14193
 
 # #EXTINF:-1 tvg-id="5StarMax.us" tvg-name="5 StarMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-5-starmax-us.png?raw=true" group-title="Movies",5 StarMax cdn1.
 # http://cdn1host.online:2999/kratorius/opLcbhlXaT/1603
