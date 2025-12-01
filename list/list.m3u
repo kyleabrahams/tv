@@ -40,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 2347 Nov 30 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 2352 Nov 30 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6428/index.m3u8
@@ -475,8 +475,11 @@ http://1tv41.icu:8080/08150659/26152653/57273
 
 # #EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="46 US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="Home & Food",US HGTV 
 # http://fl5.moveonjoy.com/HGTV/index.m3u8
-#EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="46 US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="Home & Food",US HGTV .MJI
-http://212.102.60.231/HGTV/index.m3u8
+# #EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="46 US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="Home & Food",US HGTV .MJI
+# http://212.102.60.231/HGTV/index.m3u8
+#EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="46 US HGTV (East) USATV" tvg-logo="https://i.ibb.co/CKj3QD7/HGTV-US.png" group-title="Home & Food",US HGTV xv5.
+http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6391/index.m3u8
+
 
 # #EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN
 # http://doubleclicktv.live:80/70376812/52663544/3896
