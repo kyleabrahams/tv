@@ -40,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",*OMNI 2358 Nov 30 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",*OMNI 0955 Dec 1 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6428/index.m3u8
@@ -126,7 +126,7 @@ http://1tv41.icu:8080/08150659/26152653/57393
 
 #EXTINF:-1 tvg-id="PlutoCBCNewsToronto.ca" tvg-name="11 CBC News Toronto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20241203T005217SQUARE.png" group-title="News",CBC News Toronto
 https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
-#EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",*CTV News plex.
+#EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d.m3u8
 #EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/global-news-ca.png?raw=true" group-title="News",Global News
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6427/index.m3u8
@@ -272,7 +272,7 @@ http://1tv41.icu:8080/08150659/26152653/10399
 
 # #EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music
 # http://fl1.moveonjoy.com/MUCH/index.m3u8
-#EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",*Much Music 1tv.
+#EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music 1tv.
 http://1tv41.icu:8080/08150659/26152653/215268
 # #EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708849
@@ -562,8 +562,11 @@ https://maldivesn.net/hilaytv/natgeowild
 
 # #EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV
 # http://fl5.moveonjoy.com/MTV/index.m3u8
-#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV .MJI
-http://212.102.60.231/MTV/index.m3u8
+# #EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV .MJI
+# http://212.102.60.231/MTV/index.m3u8
+#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="54 MTV" tvg-logo="https://i.ibb.co/d0nXv5K/MTV-2021-brand-version-1.png" group-title="USA",US MTV tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/57446
+
 
 # #EXTINF:-1 tvg-id="DTOUREast.ca" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418649
@@ -618,8 +621,8 @@ http://1tv41.icu:8080/08150659/26152653/57472
 # http://1tv41.icu:8080/08150659/26152653/57375
 # #EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="Canada",ABC Spark yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3068
-#EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="Canada",ABC Spark 1tv.
-http://1tv41.icu:8080/08150659/26152653/57375
+# #EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="Canada",ABC Spark 1tv.shutdown
+# http://1tv41.icu:8080/08150659/26152653/57375
 
 # #EXTINF:-1 tvg-id="ABC.Spark.ca" tvg-name="60 ABC Spark" tvg-logo="https://i.ibb.co/RY207PL/ABC-Spark-1.png" group-title="Canada",ABC Spark 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418413
@@ -654,7 +657,7 @@ http://1tv41.icu:8080/08150659/26152653/57276
 # http://xxip25.top:8080/13yXsS/001616/57422
 # #EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",E! yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3041
-#EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",E! 1tv.
+#EXTINF:-1 tvg-id="E!Canada.ca" tvg-name="64 E!" tvg-logo="https://i.ibb.co/8jRGhP7/E-Logo-1.png" group-title="Canada",*E! 1tv.
 http://1tv41.icu:8080/08150659/26152653/57422
 
 
@@ -752,8 +755,11 @@ http://xxip25.top:8080/13yXsS/001616/57320
 
 # #EXTINF:-1 tvg-id="OWNEast.us" tvg-name="Oprah Winfrey Network USATV" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="USA",US OWN 
 # http://fl5.moveonjoy.com/OWN/index.m3u8
-#EXTINF:-1 tvg-id="OWNEast.us" tvg-name="Oprah Winfrey Network USATV" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="USA",US OWN .MJI
-http://212.102.60.231/OWN/index.m3u8
+# #EXTINF:-1 tvg-id="OWNEast.us" tvg-name="Oprah Winfrey Network USATV" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="USA",US OWN .MJI
+# http://212.102.60.231/OWN/index.m3u8
+#EXTINF:-1 tvg-id="OWNEast.us" tvg-name="Oprah Winfrey Network USATV" tvg-logo="https://i.ibb.co/0Khb8yr/OWN-2011-logo-1.png" group-title="USA",US OWN tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/46698
+
 # #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="US Fox News USATV" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="News",US Fox News   
 # https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="US Fox News USATV" tvg-logo="https://static.epg.best/us/FoxNews.us.png" group-title="News",US Fox News 1tv.   
@@ -809,12 +815,14 @@ http://1tv41.icu:8080/08150659/26152653/57358
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1883
 # #EXTINF:-1 tvg-id="AdultSwimEast.ca" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="Canada",Adult Swim 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418546
-#EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network 1tv.
-http://1tv41.icu:8080/08150659/26152653/57380
+# #EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network 1tv.
+# http://1tv41.icu:8080/08150659/26152653/57380
+#EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://i.ibb.co/WsgcMx3/Cartoon-Network-2010-logo-1.png" group-title="Kids",Cartoon Network tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/57380
 
 # #EXTINF:-1 tvg-id="LifetimeEast.us" tvg-name="CA Lifetime" tvg-logo="https://i.ibb.co/nzBpDB4/lifetime-tv-logo.png" group-title="USA",US Lifetime 
 # http://fl5.moveonjoy.com/LIFETIME/index.m3u8
-#EXTINF:-1 tvg-id="LifetimeEast.us" tvg-name="CA Lifetime" tvg-logo="https://i.ibb.co/nzBpDB4/lifetime-tv-logo.png" group-title="USA",US Lifetime .MJI 
+#EXTINF:-1 tvg-id="LifetimeEast.us" tvg-name="CA Lifetime" tvg-logo="https://i.ibb.co/nzBpDB4/lifetime-tv-logo.png" group-title="USA",*US Lifetime .MJI 
 http://212.102.60.231/LIFETIME/index.m3u8
 
 # #EXTINF:-1 tvg-id="Lifetime.Movies.-.East.us" tvg-name="Lifetime Movie Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="USA",LMN 23. 
@@ -872,7 +880,7 @@ https://streamer1.nexgen.bz/USA/index.m3u8
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418445
 # #EXTINF:-1 tvg-id="Crime+Investigation.Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentaries",Crime + Investigation toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708766
-#EXTINF:-1 tvg-id="Crime+Investigation.Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentaries",Crime + Investigation xip.
+#EXTINF:-1 tvg-id="Crime+Investigation.Canada.ca" tvg-name="Crime + Investigation" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/crime-and-investigation-us.png?raw=true" group-title="Documentaries",*Crime + Investigation xip.
 http://xxip25.top:8080/13yXsS/001616/57256
 
 # #EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Shows",US Game Show Network
@@ -884,7 +892,7 @@ https://streamer1.nexgen.bz/GSN/index.m3u8
 
 # #EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTVGO pluto.
 # https://jmp2.uk/plu-6639e6edf9992200081e2855.m3u8
-#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",*Game xv5.
+#EXTINF:-1 tvg-id="GameTV.ca" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",Game TV xv5.
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6476/index.m3u8
 
 #EXTINF:-1 tvg-id="TVO(TVOntario).ca" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="Canada",TV Ontario 1tv.
@@ -898,13 +906,13 @@ http://1tv41.icu:8080/08150659/26152653/57369
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423367
 # #EXTINF:-1 tvg-id="YTVEast.ca" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="Kids",YTV toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709008
-#EXTINF:-1 tvg-id="YTVEast.ca" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="Kids",YTV xip.
+#EXTINF:-1 tvg-id="YTVEast.ca" tvg-name="25 YTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/29/YTV_Canada_logo.png" group-title="Kids",*YTV xip.
 http://xxip25.top:8080/13yXsS/001616/63850
 
 # #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="Canada",Family .23
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423763
-#EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="Canada",Family xv5.offline
-http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6460/index.m3u8
+# #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="Canada",Family xv5.shutdown
+# http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6460/index.m3u8
 
 # #EXTINF:-1 tvg-id="FamilyChannelEast.ca" tvg-name="52 Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/family-ca.png?raw=true" group-title="Canada",Family toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709000
@@ -915,8 +923,8 @@ http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6460/index.m3u8
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418464
 # #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 206.
 # http://206.212.244.71:8080/4wVQA7/625159/57346
-#EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr xv5.offline
-http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6474/index.m3u8
+# #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr xv5.shutdown
+# http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6474/index.m3u8
 # #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr 1tv.
 # http://1tv41.icu:8080/08150659/26152653/57346
 # #EXTINF:-1 tvg-id="FamilyJr.ca" tvg-name="53 Family Jr" tvg-logo="https://i.ibb.co/YF7gdtxh/Family-Jr-logo-1.png" group-title="Kids",Family Jr toh.
@@ -970,7 +978,7 @@ http://1tv41.icu:8080/08150659/26152653/57437
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418478
 # #EXTINF:-1 tvg-id="HBO2West.us" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709015
-#EXTINF:-1 tvg-id="HBO2West.us" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 xip.
+#EXTINF:-1 tvg-id="HBO2West.us" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",*HBO2 xip.
 http://xxip25.top:8080/13yXsS/001616/57438
 
 # #EXTINF:-1 tvg-id="HBOEast.us" tvg-name="US HBO HD USATV" tvg-logo="https://i.ibb.co/m5ydwNZJ/HBO.png" group-title="USA",US HBO HD  
@@ -991,8 +999,11 @@ http://1tv41.icu:8080/08150659/26152653/9266
 https://maldivesn.net/hilaytv/hbozone
 # #EXTINF:-1 tvg-ID="HBOComedyEast.us" tvg-name="HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",US HBO Comedy 
 # http://fl5.moveonjoy.com/HBO_COMEDY/index.m3u8
-#EXTINF:-1 tvg-ID="HBOComedyEast.us" tvg-name="HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",US HBO Comedy .MJE
-http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+# #EXTINF:-1 tvg-ID="HBOComedyEast.us" tvg-name="HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",US HBO Comedy .MJE
+# http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 tvg-ID="HBOComedyEast.us" tvg-name="HBO Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-us.png?raw=true" group-title="Comedy",US HBO Comedy tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/17773
+
 # #EXTINF:-1 tvg-id="HBOFamilyEast.us" tvg-name="HBO Family East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-family-us.png?raw=true" group-title="Movies",US HBO Family 
 # http://fl5.moveonjoy.com/HBO_FAMILY/index.m3u8
 # #EXTINF:-1 tvg-id="HBOFamilyEast.us" tvg-name="HBO Family East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-family-us.png?raw=true" group-title="Movies",US HBO Family 
@@ -1056,27 +1067,27 @@ http://1tv41.icu:8080/08150659/26152653/57311
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30104
-#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's .sca
+#EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",*Hollywood Suite 70's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59884
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30227
-#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's .sca
+#EXTINF:-1 tvg-id="Hollywood.Suite.80s.ca" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 80's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59883
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418632
 # #EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/30224
-#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 90's .sca
+#EXTINF:-1 tvg-id="Hollywood.Suite.90s.ca" tvg-name="Hollywood Suite 90's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-90s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 90's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/3367
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418631
 # #EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's 23.
 # http://wanicelife.com:8880/DAANM2945/Djp6EE39g5/3034
-#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's .sca
+#EXTINF:-1 tvg-id="Hollywood.Suite.00s.ca" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",*Hollywood Suite 00's .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/59882
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s.ca" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's toh.
@@ -1102,7 +1113,7 @@ http://1tv41.icu:8080/08150659/26152653/2214
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/707803
 # #EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",TMC 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418097
-#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",TMC tva.
+#EXTINF:-1 tvg-id="TheMovieChannel.us" tvg-name="The Movie Channel (720p)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/the-movie-channel-us.png?raw=true" group-title="Movies",*TMC tva.
 https://v13.thetvapp.to/hls/TheMovieChannelEast/tracks-v1a1/mono.m3u8?token=23Xa2OlywnO_Rr3BCxgCHw&expires=1756060972&user_id=MmFnc0U2SXhuQ2NGUDhoWWhjTGRRNnUxdmxDWnRKMmh3TnduakV1Sw==
 
 
@@ -1126,7 +1137,7 @@ http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 
 # #EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 
 # http://fl5.moveonjoy.com/SHOWTIME_2/index.m3u8
-#EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 .MJI
+#EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",*Showtime 2 .MJI
 http://212.102.60.231/SHOWTIME_2/index.m3u8
 # #EXTINF:-1 tvg-id="Showtime2East.us" tvg-name="SHOxBET / Showtime Beyond" tvg-logo="https://i.ibb.co/s1C66SV/SHO-x-BET-1.png" group-title="Movies",SHOxBET cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1619
@@ -1150,14 +1161,14 @@ http://1tv41.icu:8080/08150659/26152653/13481
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1187
 # #EXTINF:-1 tvg-id="ShowtimeNextEast.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",Showtime Next 
 # http://fl5.moveonjoy.com/SHOWTIME_NEXT/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeNextEast.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",Showtime Next .MJI
+#EXTINF:-1 tvg-id="ShowtimeNextEast.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",*Showtime Next .MJI
 http://212.102.60.231/SHOWTIME_NEXT/index.m3u8
 # #EXTINF:-1 tvg-id="ShowtimeNextEast.us" tvg-name="Showtime Next East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="Movies",Showtime Next 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418067
 
 # #EXTINF:-1 tvg-id="ShowtimeWomenEast.us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",Showtime Women 
 # http://fl5.moveonjoy.com/SHOWTIME_WOMEN/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeWomenEast.us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",Showtime Women 
+#EXTINF:-1 tvg-id="ShowtimeWomenEast.us" tvg-name="Showtime Women East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="Movies",*Showtime Women 
 http://212.102.60.231/SHOWTIME_WOMEN/index.m3u8
 
 #EXTINF:-1 tvg-id="MGMPlusEast.us" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",*MGM+ 
@@ -1198,7 +1209,7 @@ http://xxip25.top:8080/04760056/79599130/17776
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1605
 # #EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax xip.
 # http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/13480
-#EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",*Cinemax MovieMax xv5.
+#EXTINF:-1 tvg-id="MovieMaxEast.us tvg-name="MovieMax" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moviemax-us.png?raw=true" group-title="Movies",Cinemax MovieMax xv5.
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6155/index.m3u8
 
 
@@ -1249,7 +1260,7 @@ http://1tv41.icu:8080/08150659/26152653/16143
 
 # #EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 
 # http://fl5.moveonjoy.com/STARZ_ENCORE/index.m3u8
-#EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",*Starz Encore 143.
+#EXTINF:-1 tvg-id="StarzEncoreEast.us" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 143.
 http://143.244.60.30/Starz_Encore/index.m3u8
 
 #EXTINF:-1 tvg-id="StarzEncoreActionEast.us" tvg-name="Starz Encore Action" tvg-logo="https://i.ibb.co/cc4Jz3hT/Starz-Encore-Action.png" group-title="Movies",*Starz Encore Action 
@@ -1289,7 +1300,7 @@ http://1tv41.icu:8080/08150659/26152653/53649
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29823
 # #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/19177/index.m3u8
-#EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two ddy.
+#EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK",*BBC Two ddy.
 https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 
 # #EXTINF:-1 tvg-id="BBCTwoEngland.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK" ,BBC Two .nex
@@ -1306,7 +1317,7 @@ https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Origin=https://jxoxkplay
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29824
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three 62.
 # http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV49QkLeBaANfff0h2nHbAVcc/ts
-#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three ddy.
+#EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",*BBC Three ddy.
 https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three .nex
@@ -1329,17 +1340,17 @@ http://1tv41.icu:8080/08150659/26152653/99138
 # #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four .nex
 # https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 
-#EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",*BBC Alba xv5.
+#EXTINF:-1 tvg-id="BBCAlphaHD.uk" tvg-name="BBC Alpha HD.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/BBC_Alba_2021.svg/512px-BBC_Alba_2021.svg.png" group-title="UK" channel-number="446",BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/19179/index.m3u8
 
 # #EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-4-uk.png?raw=true" group-title="UK",Channel 4
 # https://maldivesn.net/hilaytv/channel4uk
-#EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-4-uk.png?raw=true" group-title="UK",Channel 4 win.
+#EXTINF:-1 tvg-id="ch4" tvg-name="Channel 4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-4-uk.png?raw=true" group-title="UK",*Channel 4 win.
 https://windnew.newkso.ru/wind/premium354/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 
 # #EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5
 # https://maldivesn.net/hilaytv/channel5uk
-#EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5 zek.
+#EXTINF:-1 tvg-id="ch5" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",*Channel 5 zek.
 https://zekonew.newkso.ru/zeko/premium355/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 
 
@@ -1351,7 +1362,7 @@ https://zekonew.newkso.ru/zeko/premium355/mono.m3u8|Origin=https://jxoxkplay.xyz
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507978
 # #EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29857
-#EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts 63.
+#EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",*Sky Arts 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV43TH97DwrtxsDFQeZKUG-P8/ts
 
 
@@ -1365,25 +1376,25 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV43TH97DwrtxsDFQeZKUG-P8/ts
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507980
 # #EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29859
-#EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",Sky Atlantic 63.
+#EXTINF:-1 group-title="UK" tvg-id="SkyAtlantic.uk" tvg-logo="https://i.ibb.co/WvP5nD32/sky-atlantic.png" tvg-name="Sky Atlantic",*Sky Atlantic 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV4__q0VZ_C0KFhPFUXU4lGC4/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaAction.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action"Sky Action xy.
 # https://xyzdddd.mizhls.ru/lb/premium677/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaAction.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",**Sky Action xip.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaAction.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action xip.
 http://xxip25.top:8080/13yXsS/001616/35254
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyAnimation.uk" tvg-logo="https://i.ibb.co/Vp5YPkfH/sky-cinema-animation.png" tvg-name="Sky Cinema Animation"Sky Animation xy.
 # https://xyzdddd.mizhls.ru/lb/premium675/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="SkyAnimation.uk" tvg-logo="https://i.ibb.co/Vp5YPkfH/sky-cinema-animation.png" tvg-name="Sky Cinema Animation"Sky Animation 1tv.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyAnimation.uk" tvg-logo="https://i.ibb.co/Vp5YPkfH/sky-cinema-animation.png" tvg-name="Sky Cinema Animation",Sky Animation 1tv.
 http://1tv41.icu:8080/08150659/26152653/53698
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaDrama.uk" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama"Sky Drama xy.
 # https://xyzdddd.mizhls.ru/lb/premium680/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaDrama.uk" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama"Sky Drama tvm.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaDrama.uk" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama",Sky Drama tvm.
 http://tvmate.icu:8080/k4Svp2/645504/35251
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaFamily.uk" tvg-logo="https://i.ibb.co/0RY41H1W/sky-cinema-family.png" tvg-name="Sky Cinema Family"Sky Family xy.
 # https://xyzdddd.mizhls.ru/lb/premium676/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaFamily.uk" tvg-logo="https://i.ibb.co/0RY41H1W/sky-cinema-family.png" tvg-name="Sky Cinema Family"Sky Family tvm.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaFamily.uk" tvg-logo="https://i.ibb.co/0RY41H1W/sky-cinema-family.png" tvg-name="Sky Cinema Family",Sky Family tvm.
 http://tvmate.icu:8080/k4Svp2/645504/53699
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats"Sky Greats xy.
@@ -1394,7 +1405,7 @@ http://tvmate.icu:8080/k4Svp2/645504/53699
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508119
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats"Sky Greats ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29891
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats"Sky Greats 63.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats",Sky Greats 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV411kAJR2uicwuQhdkTbrjwE/ts
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaGreats.uk" tvg-logo="https://i.ibb.co/7FS5bH2/sky-cinema-greats.png" tvg-name="Sky Cinema Greats"Sky Greats pro.
 # http://pro6666.com:8080/dr.davidhouri/598627/420730
@@ -1405,7 +1416,7 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV411kAJR2uicwuQhdkTbrjwE/ts
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508121
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits"Sky Hits ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29892
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits"Sky Hits 63.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaHits.uk" tvg-logo="https://i.ibb.co/cSWx5rTS/sky-cinema-hits.png" tvg-name="Sky Cinema Hits",Sky Hits 63.
 http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV46fdRN5BrmuyKU_rjWp77J0/ts
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere"Sky Premier xy.
@@ -1415,9 +1426,9 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV46fdRN5BrmuyKU_rjWp77J0/ts
 #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaPremiere.uk" tvg-logo="https://i.ibb.co/gFcwY2k0/sky-cinema-premier.png" tvg-name="Sky Cinema Premiere",Sky Premier 1tv.
 http://1tv41.icu:8080/a0dMwj/624002/35256
 
-#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies"Sky Sci-Fi Horror xy.
+#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Sci-Fi Horror xy.
 # https://xyzdddd.mizhls.ru/lb/premium681/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies"Sky Sci-Fi Horror xip.
+#EXTINF:-1 tvg-id="SkyCinemaSciFiHorror.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Sci-Fi Horror xip.
 http://xxip25.top:8080/13yXsS/001616/35248
 
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaSelect.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select"Sky Select xy.
@@ -1435,7 +1446,7 @@ http://62.138.14.206:80/play/gM623NMJ2JxD2P59SbGV47-of1jlIPQ9m_imTnjYSnY/ts
 # https://xyzdddd.mizhls.ru/lb/premium679/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller"Sky Thriller toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755295
-#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller"Sky Thriller xip.
+#EXTINF:-1 group-title="Movies" tvg-id="SkyCinemaThriller.uk" tvg-logo="https://i.ibb.co/4wsZn7Vr/sky-cinema-thriller.png" tvg-name="Sky Cinema Thriller",Sky Thriller xip.
 http://xxip25.top:8080/13yXsS/001616/35252
 
 # #EXTINF:-1 group-title="UK" tvg-id="SkyComedy.uk" tvg-logo="https://i.ibb.co/zTJC6q77/sky-comedy.png" tvg-name="Sky Comedy",Sky Comedy xy.
@@ -1454,7 +1465,7 @@ http://tvmate.icu:8080/k4Svp2/645504/35252
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755276
 # #EXTINF:-1 group-title="UK" tvg-id="SkyHistory.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-history-light-uk.png?raw=true" tvg-name="Sky History",Sky History 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/508088
-#EXTINF:-1 group-title="UK" tvg-id="SkyHistory.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-history-light-uk.png?raw=true" tvg-name="Sky History",*Sky History xv5.
+#EXTINF:-1 group-title="UK" tvg-id="SkyHistory.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-history-light-uk.png?raw=true" tvg-name="Sky History",Sky History xv5.
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/16037/index.m3u8
 
 
@@ -1466,7 +1477,7 @@ http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/16037/index.m3u8
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507986
 # #EXTINF:-1 group-title="UK" tvg-id="SkyShowcase.uk" tvg-logo="https://i.ibb.co/S4YCdDQp/sky-showcase.png" tvg-name="Sky Showcase",Sky Showcase ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/29886
-#EXTINF:-1 group-title="UK" tvg-id="SkyShowcase.uk" tvg-logo="https://i.ibb.co/S4YCdDQp/sky-showcase.png" tvg-name="Sky Showcase",*Sky Showcase xv5.
+#EXTINF:-1 group-title="UK" tvg-id="SkyShowcase.uk" tvg-logo="https://i.ibb.co/S4YCdDQp/sky-showcase.png" tvg-name="Sky Showcase",Sky Showcase xv5.
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/19003/index.m3u8
 
 
@@ -1477,7 +1488,7 @@ http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/19003/index.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/755260
 # #EXTINF:-1 group-title="UK" tvg-id="SkyWitness.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" tvg-name="Sky Witness HD",Sky Witness 23.
 # http://23.227.140.75:3050/wooldridgeaj@hotmail.com/JvLngJBukm/507988
-#EXTINF:-1 group-title="UK" tvg-id="SkyWitness.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" tvg-name="Sky Witness HD",**Sky Witness ns1.
+#EXTINF:-1 group-title="UK" tvg-id="SkyWitness.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-witness-uk.png" tvg-name="Sky Witness HD",*Sky Witness ns1.
 http://nodns1.top:8080/7681729957768199/899fa5156a0d/29858
 
 
