@@ -40,7 +40,7 @@ http://1tv41.icu:8080/08150659/26152653/57435
 
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Aug 19 1217 pm 1tv.
 # http://fortv.cc:8080/105094817/105094817/57365
-#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 2352 Nov 30 1tv.
+#EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",*OMNI 2358 Nov 30 1tv.
 http://1tv41.icu:8080/08150659/26152653/57365
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6428/index.m3u8
@@ -117,7 +117,7 @@ http://1tv41.icu:8080/08150659/26152653/57964
 #EXTINF:-1 tvg-id="Bravo.ca" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="Canada",Bravo 1tv.
 http://1tv41.icu:8080/08150659/26152653/57379
 
-#EXTINF:-1 tvg-id="CHCHDT.ca" tvg-name="10 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="Canada" tvg-shift="-0.5",CHCH 1tv.
+#EXTINF:-1 tvg-id="CHCHDT.ca" tvg-name="10 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="Canada" tvg-shift="-0.5",*CHCH 1tv.
 http://1tv41.icu:8080/08150659/26152653/57393
 # #EXTINF:-1 tvg-id="CHCHDT.ca" tvg-name="10 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="Canada" tvg-shift="-0.5",CHCH
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418551
@@ -126,7 +126,7 @@ http://1tv41.icu:8080/08150659/26152653/57393
 
 #EXTINF:-1 tvg-id="PlutoCBCNewsToronto.ca" tvg-name="11 CBC News Toronto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20241203T005217SQUARE.png" group-title="News",CBC News Toronto
 https://jmp2.uk/plu-6536721dbfbaec00088687c0.m3u8
-#EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News plex.
+#EXTINF:-1 tvg-id="PlexCTVNews.ca" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",*CTV News plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d.m3u8
 #EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/global-news-ca.png?raw=true" group-title="News",Global News
 http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6427/index.m3u8
@@ -242,7 +242,7 @@ https://jmp2.uk/plu-63da370e2e477400081cf8b6.m3u8
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6501/index.m3u8
 #EXTINF:-1 tvg-id="CP24.ca" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 1tv.57
 http://1tv41.icu:8080/08150659/26152653/57357
-#EXTINF:-1 tvg-id="WNetworkWest.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Canada" tvg-shift="0",W Network West 1tv.
+#EXTINF:-1 tvg-id="WNetworkWest.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Canada" tvg-shift="0",*W Network West 1tv.
 http://1tv41.icu:8080/08150659/26152653/57284
 # #EXTINF:-1 tvg-id="WNetworkWest.ca" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Canada" tvg-shift="0",W Network West 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423368
@@ -272,7 +272,7 @@ http://1tv41.icu:8080/08150659/26152653/10399
 
 # #EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music
 # http://fl1.moveonjoy.com/MUCH/index.m3u8
-#EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music 1tv.
+#EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",*Much Music 1tv.
 http://1tv41.icu:8080/08150659/26152653/215268
 # #EXTINF:-1 tvg-id="Much.ca" tvg-name="29 Much HD" tvg-logo="https://i.ibb.co/CHN6hNQ/Much-2013-logo-1.png" group-title="Canada",Much Music ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708849
@@ -291,7 +291,7 @@ http://1tv41.icu:8080/08150659/26152653/215268
 # http://xxip25.top:8080/13yXsS/001616/57476
 # #EXTINF:-1 tvg-id="AandECanada.ca" tvg-name="30 US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="Documentaries",A&E yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3167
-#EXTINF:-1 tvg-id="AandECanada.ca" tvg-name="30 US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="Documentaries",A&E 1tv.
+#EXTINF:-1 tvg-id="AandECanada.ca" tvg-name="30 US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="Documentaries",*A&E 1tv.
 http://1tv41.icu:8080/08150659/26152653/57476
 
 # #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="31 AMC USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/Amc_logo_2013.png" group-title="Movies",US AMC 
@@ -348,7 +348,7 @@ http://tvmate.icu:8080/k4Svp2/645504/46695
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418595
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 206.
 # http://206.212.244.71:8080/4wVQA7/625159/116506
-#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life 1tv.
+#EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",*CTV Life 1tv.
 http://1tv41.icu:8080/08150659/26152653/116506
 
 # #EXTINF:-1 tvg-id="CTVLife.ca" tvg-name="35 CTV Life Gusto" tvg-logo="https://i.ibb.co/CPzP4Lr/CTV-Life-Channel-2019-1.png" group-title="Canada",CTV Life ua.
@@ -360,7 +360,7 @@ http://1tv41.icu:8080/08150659/26152653/116506
 # http://1tv41.icu:8080/08150659/26152653/57258
 # #EXTINF:-1 tvg-id="CMTEast.ca" tvg-name="36 CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="Canada",CMT yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/30206
-#EXTINF:-1 tvg-id="CMTEast.ca" tvg-name="36 CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="Canada",CMT 1tv.
+#EXTINF:-1 tvg-id="CMTEast.ca" tvg-name="36 CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="Canada",*CMT 1tv.
 http://1tv41.icu:8080/08150659/26152653/57258
 # #EXTINF:-1 tvg-id="CMTEast.ca" tvg-name="36 CMT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/CMT_Canada_2015_logo.svg/1280px-CMT_Canada_2015_logo.svg.png" group-title="Canada",CMT 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418434
@@ -426,14 +426,14 @@ http://1tv41.icu:8080/08150659/26152653/57252
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708839
 # #EXTINF:-1 tvg-id="HistoryEast.ca" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708839
-#EXTINF:-1 tvg-id="HistoryEast.ca" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History xip.
+#EXTINF:-1 tvg-id="HistoryEast.ca" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",*History xip.
 http://xxip25.top:8080/13yXsS/001616/47302
 
 # #EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418477
 # #EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 206.
 # http://206.212.244.71:8080/4wVQA7/625159/210450	
-#EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 .sca
+#EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",*H2 .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/548689
 # #EXTINF:-1 tvg-id="History2.ca" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708840
@@ -442,7 +442,7 @@ http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/548689
 
 # #EXTINF:-1 tvg-id="CTVComedyEast.ca" tvg-name="43 CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",CTV Comedy 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418529
-#EXTINF:-1 tvg-id="CTVComedyEast.ca" tvg-name="43 CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",CTV Comedy 1tv.
+#EXTINF:-1 tvg-id="CTVComedyEast.ca" tvg-name="43 CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",*CTV Comedy 1tv.
 http://1tv41.icu:8080/08150659/26152653/57408
 # #EXTINF:-1 tvg-id="CTVComedyEast.ca" tvg-name="43 CTV COMEDY" tvg-logo="https://i.ibb.co/gdTHCgC/CTV-Comedy-Channel-2019-1.png" group-title="Comedy",CTV Comedy yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3055
@@ -489,14 +489,14 @@ http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6391/index.m3u8
 # http://extraott.com:900/live/9708461610/1164158489/387721.m3u8
 # #EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN ext.
 # http://exm3u.extraott.com/live/54RL5KJE/QVVXHK64/387721.m3u8
-#EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN .sca
+#EXTINF:-1 tvg-id="Telelatino.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",*TLN .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/647752
-#EXTINF:-1 tvg-id="TelelatinoWEST.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",TLN West .sca
+#EXTINF:-1 tvg-id="TelelatinoWEST.ca" tvg-name="34 TELELATINO TLN" tvg-logo="https://www.tlnoriginals.com/wp-content/uploads/2022/06/TLN_Logo.png" group-title="Home & Food",*TLN West .sca
 http://user.scalecdn.co:8080/savaskii@aol.com/dZrERe1IZB/647753
 
 # #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="47 Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="Canada",Love Nature  
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418487
-#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="US Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="Canada",Love Nature 1tv. 
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="US Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="Canada",*Love Nature 1tv. 
 http://1tv41.icu:8080/08150659/26152653/47324
 # #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="US Love Nature" tvg-logo="https://i.ibb.co/FxPVqrR/love-nature-logo-white-rgb.png" group-title="Canada",Love Nature yes. 
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/30190
@@ -508,7 +508,7 @@ https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8
 
 # #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
 # http://fl1.moveonjoy.com/TCM/index.m3u8
-#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM .MJI
+#EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",*US TCM .MJI
 http://212.102.60.231/TCM/index.m3u8
 # #EXTINF:-1 tvg-id="TCM.ca" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM xv5.
 # http://xv5myned.otttv.pw/iptv/88EYGGKCK5RASE2LR8XWTRTR/6509/index.m3u8
