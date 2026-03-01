@@ -103,6 +103,7 @@ def run_npm_grab():
     if toggle_channels_custom_date:
         commands.append([
             "npm", "run", "grab", "--", 
+            "--continue-on-error",  # ✅ Add this here
             f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
             f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
         ])
@@ -110,6 +111,7 @@ def run_npm_grab():
     if toggle_channels_custom:
         commands.append([
         "npm", "run", "grab", "--", 
+        "--continue-on-error",  # ✅ Add this here
         f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
         f"--output=./scripts/_epg-end/channels-custom-end.xml"
     ])
@@ -117,6 +119,7 @@ def run_npm_grab():
     if toggle_channels_test:
         commands.append([
             "npm", "run", "grab", "--", 
+            "--continue-on-error",  # ✅ Add this here
             f"--channels=./scripts/_epg-start/channels-test-start.xml", 
             f"--output=./scripts/_epg-end/channels-test-end.xml"
         ])
@@ -124,6 +127,7 @@ def run_npm_grab():
     if toggle_channels_test_copy:
         commands.append([
             "npm", "run", "grab", "--", 
+            "--continue-on-error",  # ✅ Add this here
             f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
             f"--output=./scripts/_epg-end/channels-test-copy-{current_datetime}.xml"
         ])
