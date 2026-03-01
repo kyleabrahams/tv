@@ -98,7 +98,15 @@ async function main() {
   }
 }
 
-main()
+// main()
+(async () => { 
+  try {
+    await main()
+  } catch (e) {
+    if (!continueOnError) throw e
+    console.warn('⚠️ Some channels failed, continuing anyway')
+  }
+})()
 
 async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChannels: Collection }) {
   const timer = new Timer()
@@ -120,4 +128,5 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
 
   logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
 
