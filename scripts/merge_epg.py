@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# merge_epg.py Feb 21 2025 910a
+# merge_epg.py Feb 28 2026 1021 p 
 import requests
 import xml.etree.ElementTree as ET
 import os
@@ -19,6 +19,9 @@ import pytz
 # python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
+CI_SAFE = os.getenv("GITHUB_ACTIONS") == "true" # Feb, 28, 2026
+delay = 5
+sleep_time = 1 if CI_SAFE else delay # Feb, 28, 2026
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 venv_python = sys.executable  # Relative path from the script to the virtual environment
 print(venv_python)
@@ -28,7 +31,7 @@ print("Data processing complete.")
 
 ################# Step 1: Set up Logging
 # Toggle logging on/off
-LOGGING_ENABLED = False
+LOGGING_ENABLED = True
 
 script_dir = os.path.dirname(os.path.abspath(__file__)) # Get the script directory (absolute path)
 log_file_path = os.path.join(script_dir, 'www', 'merge_epg.log') # Create the relative path for the log file
@@ -153,9 +156,20 @@ def run_npm_grab():
                 logger.info(f"Running command: {command_str}")
             print(f"Running command: {command_str}")
 
-            # Run the command and capture output
-            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-
+            # Run the command and capture output (Feb 28, 2026)
+            # process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            process = subprocess.run(
+                command,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                check=False  # 🚨 CRITICAL
+)
+            if process.returncode != 0:
+                print(f"⚠️ npm grab failed (non-fatal): {command_str}")
+                if not CI_SAFE:
+                    raise RuntimeError("npm grab failed") # (Feb 28, 2026)
+                    
             stdout_output = []
             stderr_output = []
 
@@ -176,7 +190,7 @@ def run_npm_grab():
                 print(f"STDERR: {stripped_line}")
 
             # Wait for process completion
-            process.wait()
+            # process.wait()
 
             # Check for successful execution
             if process.returncode == 0:
@@ -349,6 +363,9 @@ def pretty_print_xml(xml_tree):
     return parsed_str.toprettyxml(indent="  ")
 
 def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_epg-end"):
+    import requests, gzip, io, xml.etree.ElementTree as ET
+    import os, time, logging
+
     # If URL is not absolute, combine it with folder_path (local path resolution)
     if not os.path.isabs(url):
         url = os.path.join(folder_path, url)
@@ -358,64 +375,80 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
     
     attempt = 0
     while attempt < retries:
+        # try: (Removed Feb, 28, 2026)
+        #     # Handling remote URLs
+        #     if url.startswith('http'):
+        #         response = requests.get(url, timeout=10)  # Timeout to avoid hanging
         try:
-            # Handling remote URLs
-            if url.startswith('http'):
-                response = requests.get(url, timeout=10)  # Timeout to avoid hanging
-                if response.status_code == 200:
-                    try:
-                        # Handle .gz files (compressed XML)
-                        if url.endswith('.gz'):
-                            with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-                                xml_content = gz.read()
-                            epg_tree = ET.ElementTree(ET.fromstring(xml_content))
-                        else:
-                            epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                        
-                        print(f"✅ Successfully fetched {index + 1}/{total}")
-                        logging.info(f"✅ Successfully fetched {index + 1}/{total}")
-                        return epg_tree
-                    except ET.ParseError as e:
-                        logging.error(f"XML parse error for {url}: {e}")
-                        print(f"XML parse error for {url}: {e}")
-                        return None
-                    except Exception as e:
-                        logging.error(f"❌ Error processing {url}: {e}")
-                        print(f"❌ Error processing {url}: {e}")
-                        return None
+            response = requests.get(url, timeout=10)
+        except requests.RequestException as e:
+            print(f"⚠️ Network error (skipped): {url} → {e}")
+            return None
+
+        # Properly indented main block
+        if response.status_code == 200:
+            try:
+                # Handle .gz files (compressed XML)
+                if url.endswith('.gz'):
+                    with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
+                        xml_content = gz.read()
+                    epg_tree = ET.ElementTree(ET.fromstring(xml_content))
                 else:
-                    logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
-                    print(f"❌ Error fetching {url}: HTTP {response.status_code}")
-                    return None
-
-            # Handling local XML files
-            else:
-                try:
-                    # Ensure the file exists before attempting to parse
-                    if os.path.exists(url):
-                        epg_tree = ET.parse(url)
-                        print(f"✅ Successfully loaded local file: {url}")
-                        logging.info(f"✅ Successfully loaded local file: {url}")
-                        return epg_tree
-                    else:
-                        logging.error(f"Local file does not exist: {url}")
-                        print(f"Local file does not exist: {url}")
-                        return None
-                except ET.ParseError as e:
-                    logging.error(f"❌ Failed to parse local XML file {url}: {e}")
-                    print(f"❌ Failed to parse local XML file {url}: {e}")
-                except Exception as e:
-                    logging.error(f"❌ Error processing local file {url}: {e}")
-                    print(f"❌ Error processing local file {url}: {e}")
+                    epg_tree = ET.ElementTree(ET.fromstring(response.content))
+                
+                print(f"✅ Successfully fetched {index + 1}/{total}")
+                logging.info(f"✅ Successfully fetched {index + 1}/{total}")
+                return epg_tree
+            except ET.ParseError as e:
+                # logging.error(f"XML parse error for {url}: {e}")   # (Removed Feb, 28, 2026)
+                print(f"⚠️ Skipping invalid XML: {url}")  # (Added Feb, 28, 2026)
+                print(f"XML parse error for {url}: {e}")
                 return None
+            except Exception as e:
+                # logging.error(f"XML parse error for {url}: {e}")   # (Removed Feb, 28, 2026)
+                print(f"⚠️ Skipping invalid XML: {url}")  # (Added Feb, 28, 2026)
+                print(f"❌ Error processing {url}: {e}")
+                return None
+        else:
+            logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
+            print(f"❌ Error fetching {url}: HTTP {response.status_code}")
+            return None
 
-        except requests.exceptions.RequestException as e:
-            logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-            print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+        # Handling local XML files
+        else:
+            try:
+                # Ensure the file exists before attempting to parse
+                if os.path.exists(url):
+                    epg_tree = ET.parse(url)
+                    print(f"✅ Successfully loaded local file: {url}")
+                    logging.info(f"✅ Successfully loaded local file: {url}")
+                    return epg_tree
+                else:
+                    logging.error(f"Local file does not exist: {url}")
+                    print(f"Local file does not exist: {url}")
+                    return None
+            except ET.ParseError as e:
+                logging.error(f"❌ Failed to parse local XML file {url}: {e}")
+                print(f"❌ Failed to parse local XML file {url}: {e}")
+            except Exception as e:
+                logging.error(f"❌ Error processing local file {url}: {e}")
+                print(f"❌ Error processing local file {url}: {e}")
+            return None
+
+        # except requests.exceptions.RequestException as e: # Removed FEb 28, 2026
+        #     logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+        #     print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+        #     attempt += 1
+        #     time.sleep(delay)  # Wait before retrying
+    
+        except requests.exceptions.RequestException as e: # Added Feb 28, 2026
+            print(f"⚠️ Attempt {attempt + 1}/{retries} failed for {url}: {e}")
             attempt += 1
-            time.sleep(delay)  # Wait before retrying
+        
+            if attempt < retries:
+                time.sleep(delay) # Added Feb 28, 2026
+                
     return None  # Return None after all attempts fail
-
 # EPG URLs and local file names in the _epg-end folder should be known and valid
 epg_urls = [
     "dummy--epg---end.xml",  # Local file in the _epg-end folder
@@ -451,16 +484,16 @@ def reorder_channels(merged_root):
     for programme in programmes:
         merged_root.append(programme)
 
-# Function to pretty-print XML with custom formatting
-def pretty_print_xml(xml_tree):
-    # Convert the tree to a string with xml_declaration and UTF-8 encoding
-    xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
+# # Function to pretty-print XML with custom formatting # Removed Reb 28, 2026
+# def pretty_print_xml(xml_tree):
+#     # Convert the tree to a string with xml_declaration and UTF-8 encoding
+#     xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
     
-    # Parse the string into a minidom object for pretty printing
-    parsed_str = minidom.parseString(xml_str)
+#     # Parse the string into a minidom object for pretty printing
+#     parsed_str = minidom.parseString(xml_str)
     
-    # Return the pretty-printed XML string with proper indentation
-    return parsed_str.toprettyxml(indent="  ")
+#     # Return the pretty-printed XML string with proper indentation
+#     return parsed_str.toprettyxml(indent="  ")
 
 # Example usage:
 
@@ -549,9 +582,11 @@ for xml_file in extracted_files:
         epg_tree = ET.parse(xml_file)
         for element in epg_tree.getroot():
             merged_root.append(element)
-    except ET.ParseError as e:
-        logging.error(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
-        print(f"❌ Failed to parse extracted XML file {xml_file}: {e}")
+    except Exception as e:
+        print(f"❌ Error parsing extracted file {xml_file}: {e}")
+        if logger:
+            logger.error(f"❌ Error parsing extracted file {xml_file}: {e}")
+        continue
 
 
 ########## Step 14: Save the merged EPG file and log success
