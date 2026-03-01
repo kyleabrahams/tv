@@ -389,20 +389,21 @@ def pretty_print_xml(xml_tree):
 
 def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_epg-end"):
     import os, gzip, io, xml.etree.ElementTree as ET, time
+    import requests
 
-    # Determine if URL is remote or local
     is_remote = url.startswith("http://") or url.startswith("https://")
-
     print(f"Fetching {index + 1}/{total} - {url}")
 
     if is_remote:
-        import requests
-
         attempt = 0
         while attempt < retries:
             try:
                 response = requests.get(url, timeout=10)
                 if response.status_code == 200:
+                    if not response.content or not isinstance(response.content, (bytes, str)):
+                        print(f"⚠️ Empty response from site: {url}")
+                        return None
+
                     try:
                         # Handle .gz files
                         if url.endswith(".gz"):
@@ -412,18 +413,19 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
                         else:
                             return ET.ElementTree(ET.fromstring(response.content))
                     except ET.ParseError as e:
-                        print(f"⚠️ Skipping invalid XML from {url}: {e}")
+                        print(f"⚠️ Invalid XML from site {url}: {e}")
                         return None
                 else:
-                    print(f"❌ HTTP error {response.status_code} for {url}")
+                    print(f"❌ HTTP error {response.status_code} from site {url}")
                     return None
             except requests.RequestException as e:
-                print(f"⚠️ Attempt {attempt+1}/{retries} failed for {url}: {e}")
+                print(f"⚠️ Attempt {attempt+1}/{retries} failed for site {url}: {e}")
                 attempt += 1
                 if attempt < retries:
                     time.sleep(delay)
-        print(f"❌ Failed to fetch {url} after {retries} attempts.")
+        print(f"❌ Failed to fetch from site {url} after {retries} attempts.")
         return None
+
     else:
         # Local file path
         if not os.path.isabs(url):
@@ -434,13 +436,19 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
             return None
 
         try:
-            # Handle .gz files
             if url.endswith(".gz"):
                 with gzip.open(url, "rb") as f:
                     xml_content = f.read()
+                if not xml_content:
+                    print(f"⚠️ Empty local file: {url}")
+                    return None
                 return ET.ElementTree(ET.fromstring(xml_content))
             else:
-                return ET.parse(url)
+                tree = ET.parse(url)
+                if tree is None:
+                    print(f"⚠️ Empty local file: {url}")
+                    return None
+                return tree
         except ET.ParseError as e:
             print(f"❌ Failed to parse local XML file {url}: {e}")
             return None
