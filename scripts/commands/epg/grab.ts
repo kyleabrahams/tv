@@ -32,6 +32,9 @@ program
   .option('--gzip', 'Create a compressed version of the guide as well', false)
   .parse(process.argv)
 
+const argv = process.argv 
+const continueOnError = argv.includes('--continue-on-error')
+
 export type GrabOptions = {
   site?: string
   channels?: string
@@ -117,3 +120,4 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
 
   logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
