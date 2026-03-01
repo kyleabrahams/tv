@@ -171,8 +171,10 @@ def run_npm_grab():
 )
             if process.returncode != 0:
                 print(f"⚠️ npm grab failed (non-fatal): {command_str}")
-                if not CI_SAFE:
-                    raise RuntimeError("npm grab failed") # (Feb 28, 2026)
+                # Do NOT raise an exception here; just log and continue
+                if CI_SAFE:
+                    print("⚠️ Running in CI, stopping on error")
+                    raise RuntimeError("npm grab failed in CI") # (Feb 28, 2026)
                     
             stdout_output = []
             stderr_output = []
