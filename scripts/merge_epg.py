@@ -440,14 +440,14 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
         #     attempt += 1
         #     time.sleep(delay)  # Wait before retrying
     
-        except requests.exceptions.RequestException as e: # Added Feb 28, 2026
-            print(f"⚠️ Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-            attempt += 1
-        
-            if attempt < retries:
-                time.sleep(delay) # Added Feb 28, 2026
-                
-    return None  # Return None after all attempts fail
+            except requests.exceptions.RequestException as e: # Added Feb 28, 2026
+                print(f"⚠️ Attempt {attempt + 1}/{retries} failed for {url}: {e}")
+                attempt += 1
+            
+                if attempt < retries:
+                    time.sleep(delay) # Added Feb 28, 2026
+                    
+            return None  # Return None after all attempts fail
 # EPG URLs and local file names in the _epg-end folder should be known and valid
 epg_urls = [
     "dummy--epg---end.xml",  # Local file in the _epg-end folder
