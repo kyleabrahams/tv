@@ -415,7 +415,6 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
             return None
 
         # Handling local XML files
-        else:
             try:
                 # Ensure the file exists before attempting to parse
                 if os.path.exists(url):
