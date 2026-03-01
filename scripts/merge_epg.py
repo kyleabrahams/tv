@@ -136,17 +136,39 @@ def run_npm_grab():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, "_epg-end")
 
-    # Delete all older files except the latest one
+    # # Delete all older files except the latest one (Removed Feb 29, 2026)
+    # try:
+    #     for file_name in os.listdir(output_dir):
+    #         file_path = os.path.join(output_dir, file_name)
+
+    #         # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
+    #         if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
+    #             os.remove(file_path)
+    #             if logger:
+    #                 logger.info(f"Old file {file_path} deleted.")
+    #             print(f"Old file {file_path} deleted.")
+    # except Exception as e:
+    #     if logger:
+    #         logger.error(f"❌ Error deleting old files: {e}")
+    #     print(f"❌ Error deleting old files: {e}")
+
+    # Delete older timestamped channel files (keep *-end.xml) (Added Feb 29, 2026)
     try:
         for file_name in os.listdir(output_dir):
             file_path = os.path.join(output_dir, file_name)
-
-            # Check if the file matches the pattern 'channels-YYYY-MM-DD-HH-MM-SS.xml' and is not the latest file
-            if file_name.startswith("channels-") and file_name != f"channels-{current_datetime}.xml":
+    
+            # Delete ONLY timestamped channel files
+            if (
+                file_name.startswith("channels-")
+                and file_name.endswith(".xml")
+                and not file_name.endswith("-end.xml")
+            ):
                 os.remove(file_path)
+    
                 if logger:
-                    logger.info(f"Old file {file_path} deleted.")
-                print(f"Old file {file_path} deleted.")
+                    logger.info(f"🧹 Deleted old timestamped file: {file_path}")
+                print(f"🧹 Deleted old timestamped file: {file_path}")
+    
     except Exception as e:
         if logger:
             logger.error(f"❌ Error deleting old files: {e}")
