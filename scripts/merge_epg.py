@@ -409,10 +409,10 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
                 print(f"⚠️ Skipping invalid XML: {url}")  # (Added Feb, 28, 2026)
                 print(f"❌ Error processing {url}: {e}")
                 return None
-        else:
-            logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
-            print(f"❌ Error fetching {url}: HTTP {response.status_code}")
-            return None
+            else:
+                logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
+                print(f"❌ Error fetching {url}: HTTP {response.status_code}")
+                return None
 
         # Handling local XML files
             try:
