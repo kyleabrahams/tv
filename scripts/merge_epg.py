@@ -366,88 +366,69 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
     import requests, gzip, io, xml.etree.ElementTree as ET
     import os, time, logging
 
-    # If URL is not absolute, combine it with folder_path (local path resolution)
-    if not os.path.isabs(url):
-        url = os.path.join(folder_path, url)
+    # Resolve local path if not absolute
+    local_path = url if os.path.isabs(url) else os.path.join(folder_path, url)
 
-    logging.info(f"Fetching {index + 1}/{total} - {url}")
-    print(f"Fetching {index + 1}/{total} - {url}")
-    
+    print(f"Fetching {index + 1}/{total} - {local_path}")
+    logging.info(f"Fetching {index + 1}/{total} - {local_path}")
+
+    # First, check if it's a local file
+    if os.path.exists(local_path):
+        try:
+            if local_path.endswith(".gz"):
+                with gzip.open(local_path, 'rb') as f:
+                    xml_content = f.read()
+                epg_tree = ET.ElementTree(ET.fromstring(xml_content))
+            else:
+                epg_tree = ET.parse(local_path)
+            print(f"✅ Successfully loaded local file: {local_path}")
+            logging.info(f"✅ Successfully loaded local file: {local_path}")
+            return epg_tree
+        except ET.ParseError as e:
+            print(f"❌ XML parse error for {local_path}: {e}")
+            logging.error(f"❌ XML parse error for {local_path}: {e}")
+            return None
+        except Exception as e:
+            print(f"❌ Error processing local file {local_path}: {e}")
+            logging.error(f"❌ Error processing local file {local_path}: {e}")
+            return None
+
+    # Otherwise, treat as a remote URL
     attempt = 0
     while attempt < retries:
-        # try: (Removed Feb, 28, 2026)
-        #     # Handling remote URLs
-        #     if url.startswith('http'):
-        #         response = requests.get(url, timeout=10)  # Timeout to avoid hanging
         try:
             response = requests.get(url, timeout=10)
-        except requests.RequestException as e:
-            print(f"⚠️ Network error (skipped): {url} → {e}")
-            return None
-
-        # Properly indented main block
-        if response.status_code == 200:
-            try:
-                # Handle .gz files (compressed XML)
-                if url.endswith('.gz'):
-                    with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-                        xml_content = gz.read()
-                    epg_tree = ET.ElementTree(ET.fromstring(xml_content))
-                else:
-                    epg_tree = ET.ElementTree(ET.fromstring(response.content))
-                
-                print(f"✅ Successfully fetched {index + 1}/{total}")
-                logging.info(f"✅ Successfully fetched {index + 1}/{total}")
-                return epg_tree
-            except ET.ParseError as e:
-                # logging.error(f"XML parse error for {url}: {e}")   # (Removed Feb, 28, 2026)
-                print(f"⚠️ Skipping invalid XML: {url}")  # (Added Feb, 28, 2026)
-                print(f"XML parse error for {url}: {e}")
-                return None
-            except Exception as e:
-                # logging.error(f"XML parse error for {url}: {e}")   # (Removed Feb, 28, 2026)
-                print(f"⚠️ Skipping invalid XML: {url}")  # (Added Feb, 28, 2026)
-                print(f"❌ Error processing {url}: {e}")
-                return None
-            else:
-                logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
-                print(f"❌ Error fetching {url}: HTTP {response.status_code}")
-                return None
-
-        # Handling local XML files
-            try:
-                # Ensure the file exists before attempting to parse
-                if os.path.exists(url):
-                    epg_tree = ET.parse(url)
-                    print(f"✅ Successfully loaded local file: {url}")
-                    logging.info(f"✅ Successfully loaded local file: {url}")
+            if response.status_code == 200:
+                try:
+                    content = response.content
+                    if url.endswith(".gz"):
+                        with gzip.GzipFile(fileobj=io.BytesIO(content)) as gz:
+                            content = gz.read()
+                    epg_tree = ET.ElementTree(ET.fromstring(content))
+                    print(f"✅ Successfully fetched {index + 1}/{total} - {url}")
+                    logging.info(f"✅ Successfully fetched {index + 1}/{total} - {url}")
                     return epg_tree
-                else:
-                    logging.error(f"Local file does not exist: {url}")
-                    print(f"Local file does not exist: {url}")
+                except ET.ParseError as e:
+                    print(f"❌ XML parse error for {url}: {e}")
+                    logging.error(f"❌ XML parse error for {url}: {e}")
                     return None
-            except ET.ParseError as e:
-                logging.error(f"❌ Failed to parse local XML file {url}: {e}")
-                print(f"❌ Failed to parse local XML file {url}: {e}")
-            except Exception as e:
-                logging.error(f"❌ Error processing local file {url}: {e}")
-                print(f"❌ Error processing local file {url}: {e}")
-            return None
+            else:
+                print(f"❌ Error fetching {url}: HTTP {response.status_code}")
+                logging.error(f"❌ Error fetching {url}: HTTP {response.status_code}")
+                return None
+        except requests.RequestException as e:
+            attempt += 1
+            print(f"⚠️ Attempt {attempt}/{retries} failed for {url}: {e}")
+            logging.warning(f"⚠️ Attempt {attempt}/{retries} failed for {url}: {e}")
+            if attempt < retries:
+                time.sleep(delay)
 
-        # except requests.exceptions.RequestException as e: # Removed FEb 28, 2026
-        #     logging.error(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-        #     print(f"Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-        #     attempt += 1
-        #     time.sleep(delay)  # Wait before retrying
-    
-            except requests.exceptions.RequestException as e: # Added Feb 28, 2026
-                print(f"⚠️ Attempt {attempt + 1}/{retries} failed for {url}: {e}")
-                attempt += 1
-            
-                if attempt < retries:
-                    time.sleep(delay) # Added Feb 28, 2026
-                    
-            return None  # Return None after all attempts fail
+    # If all attempts fail
+    print(f"❌ Failed to fetch {url} after {retries} attempts.")
+    logging.error(f"❌ Failed to fetch {url} after {retries} attempts.")
+    return None
+
+
 # EPG URLs and local file names in the _epg-end folder should be known and valid
 epg_urls = [
     "dummy--epg---end.xml",  # Local file in the _epg-end folder
