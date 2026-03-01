@@ -30,10 +30,11 @@ program
   )
   .option('--cron <expression>', 'Schedule a script run (example: "0 0 * * *")')
   .option('--gzip', 'Create a compressed version of the guide as well', false)
+  .option('--continue-on-error', 'Continue when a channel fails', false) // (Added Feb 29, 2026)
   .parse(process.argv)
 
-const argv = process.argv 
-const continueOnError = argv.includes('--continue-on-error')
+// const argv = process.argv  (Removed Feb 29, 2026)
+// const continueOnError = argv.includes('--continue-on-error')
 
 export type GrabOptions = {
   site?: string
@@ -47,6 +48,7 @@ export type GrabOptions = {
   days?: number
   cron?: string
   proxy?: string
+  continueOnError?: boolean   // ✅ ADD THIS LINE (Added Feb 29, 2026)
 }
 
 const options: GrabOptions = program.opts()
@@ -98,15 +100,7 @@ async function main() {
   }
 }
 
-// main()
-(async () => { 
-  try {
-    await main()
-  } catch (e) {
-    if (!continueOnError) throw e
-    console.warn('⚠️ Some channels failed, continuing anyway')
-  }
-})()
+main()
 
 async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChannels: Collection }) {
   const timer = new Timer()
@@ -124,9 +118,18 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
     options
   })
 
-  await job.run()
+  try {
+    await job.run()
+  } catch (error) {
+    if (!options.continueOnError) {
+      throw error
+    }
+
+    logger.warn('⚠️ Some channels failed, continuing anyway')
+  }
 
   logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
 
 
