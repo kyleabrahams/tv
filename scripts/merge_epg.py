@@ -173,22 +173,22 @@ def run_npm_grab():
             stdout_output = []
             stderr_output = []
 
-            # Process stdout and capture lines
-            for line in process.stdout:
-                stripped_line = line.strip()
-                stdout_output.append(stripped_line)
-                if logger:
-                    logger.info(f"STDOUT: {stripped_line}")
-                print(f"STDOUT: {stripped_line}")
-
-            # Process stderr and capture lines
-            for line in process.stderr:
+            # Process stderr and capture lines correctly
+            for line in process.stderr.splitlines():  # <-- split the string into lines
                 stripped_line = line.strip()
                 stderr_output.append(stripped_line)
                 if logger:
                     logger.error(f"STDERR: {stripped_line}")
                 print(f"STDERR: {stripped_line}")
 
+            # Process stdout and capture lines correctly
+            for line in process.stdout.splitlines():  # <-- split the string into lines
+                stripped_line = line.strip()
+                stdout_output.append(stripped_line)
+                if logger:
+                    logger.info(f"STDOUT: {stripped_line}")
+                print(f"STDOUT: {stripped_line}")
+                
             # Wait for process completion
             # process.wait()
 
