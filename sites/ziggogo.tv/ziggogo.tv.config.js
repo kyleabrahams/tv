@@ -64,7 +64,7 @@ module.exports = {
         if (queues.length) {
           await doFetch(queues, (url, res) => {
             programs.push({
-              title: res && res.title ? res.title : "Unknown",
+              title: res.title,
               subTitle: res.episodeName,
               description: res.longDescription ? res.longDescription : res.shortDescription,
               category: res.genres,

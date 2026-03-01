@@ -5,6 +5,7 @@ const utc = require('dayjs/plugin/utc')
 const timezone = require('dayjs/plugin/timezone')
 const customParseFormat = require('dayjs/plugin/customParseFormat')
 const doFetch = require('@ntlab/sfetch')
+const FRENCH_CHANNELS = require('./__data__/frenchChannels.js')
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -18,10 +19,12 @@ module.exports = {
       'YYYY-MM-DD'
     )}`
   },
-  request: {
-    timeout: 30000,
-    headers: {
-      Cookie: 'cisession=e49ff13191d6875887193cae9e324b44ef85768d;'
+  async request() {
+    return {
+      timeout: 30000,
+      headers: {
+        Cookie: await getCookie()
+      }
     }
   },
   parser: function ({ content }) {
@@ -34,7 +37,7 @@ module.exports = {
       const stop = start.add(duration, 'm')
       let title = parseTitle($item)
       let subtitle = parseSubTitle($item)
-      if (title === 'Movie') {
+      if (title === 'Movie' || title === 'Cinéma') {
         title = subtitle
         subtitle = null
       }
@@ -90,9 +93,10 @@ module.exports = {
       const $channelPage = cheerio.load(res)
       const title = $channelPage('meta[property="og:title"]').attr('content')
       const name = title.replace('TV Schedule for ', '')
+      const lang = FRENCH_CHANNELS.has(site_id) ? 'fr' : 'en'
 
       channels.push({
-        lang: 'en',
+        lang,
         site_id,
         name
       })
@@ -102,6 +106,14 @@ module.exports = {
 
     return channels
   }
+}
+
+async function getCookie() {
+  const res = await axios.get('https://www.tvpassport.com/tv-listings')
+  const setCookie = res.headers['set-cookie']
+  if (!setCookie || setCookie.length === 0) return ''
+  const cookies = setCookie.map(cookie => cookie.split(';')[0])
+  return cookies.join('; ')
 }
 
 function parseDescription($item) {

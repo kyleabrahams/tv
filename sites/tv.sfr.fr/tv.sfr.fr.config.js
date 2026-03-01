@@ -8,7 +8,7 @@ module.exports = {
     return `https://static-cdn.tv.sfr.net/data/epg/gen8/guide_web_${date.format('YYYYMMDD')}.json`
   },
   request: {
-    maxContentLength: 10 * 1024 * 1024, // 10Mb
+    maxContentLength: 20 * 1024 * 1024, // 20Mb
     cache: {
       ttl: 24 * 60 * 60 * 1000 // 1 day
     }
@@ -21,9 +21,10 @@ module.exports = {
         start: dayjs(item.startDate),
         stop: dayjs(item.endDate),
         title: item.title,
-        subtitle: item.subTitle || null,
+        subTitle: item.subTitle || null,
         category: item.genre,
         description: item.longSynopsis,
+        icon: getIconURL(item.images),
         images: item.images.map(img => img.url),
         season: item.seasonNumber || null,
         episode: item.episodeNumber || null
@@ -62,4 +63,13 @@ function parseItems(content, channel) {
   } catch {
     return []
   }
+}
+
+function getIconURL(images) {
+  let icon = images.find(icon => icon.type === 'landscape' && icon.withTitle === true ) ||
+             images.find(icon => icon.type === 'landscape' ) ||
+             images[0]
+  
+  if (icon)
+    return icon.url
 }
