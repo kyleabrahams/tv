@@ -121,15 +121,19 @@ async function runJob({ logger, parsedChannels }: { logger: Logger; parsedChanne
   try {
     await job.run()
   } catch (error) {
+    logger.warn(`⚠️ Job error: ${error instanceof Error ? error.message : error}`)
+  
     if (!options.continueOnError) {
       throw error
     }
-
-    logger.warn('⚠️ Some channels failed, continuing anyway')
+  
+    // 👇 IMPORTANT: prevent process exit
+    logger.warn('⚠️ Continuing despite job error')
   }
 
   logger.success(`  done in ${timer.format('HH[h] mm[m] ss[s]')}`)
 }
+
 
 
 
