@@ -6,6 +6,8 @@ import { Channel } from 'epg-grabber'
 import path from 'path'
 import { SITES_DIR } from '../../constants'
 import axios from 'axios'
+import fs from 'fs/promises'
+import os from 'os'
 
 export type GrabOptions = {
   site?: string
@@ -78,15 +80,19 @@ async function main() {
     files = await storage.list(options.channels)
   }
 
-  // 1️⃣ Parse channels
+  // 1️⃣ Fetch & parse channels
   let parsedChannels = new Collection()
+
   for (const fileOrXml of files) {
     if (options.channels) {
-      // local file path → parse normally
+      // Local file path → parse normally
       parsedChannels = parsedChannels.concat(await parser.parse(fileOrXml))
     } else {
-      // GitHub XML string → parseString
-      parsedChannels = parsedChannels.concat(await parser.parseString(fileOrXml))
+      // GitHub XML string → write to temp file, then parse
+      const tmpFile = path.join(os.tmpdir(), `tmp-${Date.now()}.xml`)
+      await fs.writeFile(tmpFile, fileOrXml)
+      parsedChannels = parsedChannels.concat(await parser.parse(tmpFile))
+      await fs.unlink(tmpFile) // cleanup
     }
   }
 
