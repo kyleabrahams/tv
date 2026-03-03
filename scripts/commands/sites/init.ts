@@ -1,8 +1,9 @@
-import { Logger, Storage } from '@freearhey/core'
-import { program } from 'commander'
-import { SITES_DIR } from '../../constants'
-import fs from 'fs-extra'
+import { SITES_DIR, EOL } from '../../constants'
+import { Storage } from '@freearhey/storage-js'
+import { Logger } from '@freearhey/core'
 import { pathToFileURL } from 'node:url'
+import { program } from 'commander'
+import fs from 'fs-extra'
 
 program.argument('<site>', 'Domain name of the site').parse(process.argv)
 
@@ -12,7 +13,7 @@ async function main() {
   const storage = new Storage(SITES_DIR)
   const logger = new Logger()
 
-  logger.info(`Initializing "${domain}"...\r\n`)
+  logger.info(`Initializing "${domain}"...${EOL}`)
 
   const dir = domain
   if (await storage.exists(dir)) {
@@ -39,7 +40,7 @@ async function main() {
   })
   await storage.save(`${dir}/readme.md`, readmeTemplate.replace(/<DOMAIN>/g, domain))
 
-  logger.info('\r\nDone')
+  logger.info(`${EOL}Done`)
 }
 
 main()

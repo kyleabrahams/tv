@@ -1,0 +1,154 @@
+Mar 02 2026 17:29:11 - INFO - Starting EPG merge process...
+Mar 02 2026 17:29:11 - INFO - Running command: npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 17:29:11 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 17:29:11 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 17:29:13 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 17:32:36 - INFO - Starting EPG merge process...
+Mar 02 2026 17:32:36 - INFO - Running command: npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 17:32:36 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 17:32:37 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 17:32:39 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 17:55:37 - INFO - Starting EPG merge process...
+Mar 02 2026 17:55:37 - INFO - Running command: npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 17:55:37 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=./scripts2/_epg-start/channels-custom-start.xml --output=./scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 17:55:38 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 17:55:40 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:19:36 - INFO - Starting EPG merge process...
+Mar 02 2026 18:19:36 - INFO - Running command: npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 18:19:36 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 18:19:36 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:19:38 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:22:51 - INFO - Starting EPG merge process...
+Mar 02 2026 18:22:51 - INFO - Running command: npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 18:22:51 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 18:22:52 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:22:54 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:26:36 - INFO - Starting EPG merge process...
+Mar 02 2026 18:26:36 - INFO - Running command: npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 18:26:36 - ERROR - ❌ Error while running npm command npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml: [Errno 2] No such file or directory: 'npm'
+Mar 02 2026 18:26:36 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:26:38 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:30:02 - INFO - Starting EPG merge process...
+Mar 02 2026 18:30:02 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 18:30:02 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 18:30:02 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 18:30:02 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:30:04 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:39:31 - INFO - Starting EPG merge process...
+Mar 02 2026 18:39:31 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml
+Mar 02 2026 18:39:31 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 18:39:31 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-start/channels-custom-start.xml --output=/Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 18:39:32 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:39:33 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:50:09 - INFO - Starting EPG merge process...
+Mar 02 2026 18:50:09 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 18:50:09 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 18:50:09 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 18:50:09 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:50:11 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:52:47 - INFO - Starting EPG merge process...
+Mar 02 2026 18:52:47 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 18:52:47 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 18:52:47 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 18:52:48 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:52:49 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:58:36 - INFO - Starting EPG merge process...
+Mar 02 2026 18:58:36 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 18:58:36 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 18:58:36 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 18:58:37 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 18:58:38 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:03:51 - INFO - Starting EPG merge process...
+Mar 02 2026 19:03:51 - INFO - Running command: /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:03:51 - ERROR - STDERR: env: node: No such file or directory
+Mar 02 2026 19:03:51 - ERROR - Command /Users/kyleabrahams/.nvm/versions/node/v20.20.0/bin/npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 127.
+Mar 02 2026 19:03:52 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:03:54 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:04:53 - INFO - Starting EPG merge process...
+Mar 02 2026 19:05:52 - INFO - Starting EPG merge process...
+Mar 02 2026 19:06:35 - INFO - Starting EPG merge process...
+Mar 02 2026 19:06:35 - INFO - Running command: npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:06:37 - ERROR - STDERR: node:internal/modules/cjs/loader:1207
+Mar 02 2026 19:06:37 - ERROR - STDERR: const err = new Error(message);
+Mar 02 2026 19:06:37 - ERROR - STDERR: ^
+Mar 02 2026 19:06:37 - ERROR - STDERR: 
+Mar 02 2026 19:06:37 - ERROR - STDERR: Error: Cannot find module '@freearhey/storage-js'
+Mar 02 2026 19:06:37 - ERROR - STDERR: Require stack:
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/models/guide.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/models/index.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/utils.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/index.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/job.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/index.js
+Mar 02 2026 19:06:37 - ERROR - STDERR: - /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts
+Mar 02 2026 19:06:37 - ERROR - STDERR: at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at nextResolveSimple (/Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:3:942)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at /Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:2:2550
+Mar 02 2026 19:06:37 - ERROR - STDERR: at /Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:2:1624
+Mar 02 2026 19:06:37 - ERROR - STDERR: at resolveTsPaths (/Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:3:760)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at /Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:3:1038
+Mar 02 2026 19:06:37 - ERROR - STDERR: at m._resolveFilename (file:///Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-RyGUjI6j.mjs:1:789)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at Module._load (node:internal/modules/cjs/loader:1038:27)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at Module.require (node:internal/modules/cjs/loader:1289:19)
+Mar 02 2026 19:06:37 - ERROR - STDERR: at require (node:internal/modules/helpers:182:18) {
+Mar 02 2026 19:06:37 - ERROR - STDERR: code: 'MODULE_NOT_FOUND',
+Mar 02 2026 19:06:37 - ERROR - STDERR: requireStack: [
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/models/guide.ts',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/models/index.ts',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/utils.ts',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/index.ts',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/job.ts',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/core/index.js',
+Mar 02 2026 19:06:37 - ERROR - STDERR: '/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts'
+Mar 02 2026 19:06:37 - ERROR - STDERR: ]
+Mar 02 2026 19:06:37 - ERROR - STDERR: }
+Mar 02 2026 19:06:37 - ERROR - STDERR: 
+Mar 02 2026 19:06:37 - ERROR - STDERR: Node.js v20.20.0
+Mar 02 2026 19:06:37 - INFO - STDOUT: 
+Mar 02 2026 19:06:37 - INFO - STDOUT: > grab
+Mar 02 2026 19:06:37 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:06:37 - INFO - STDOUT: 
+Mar 02 2026 19:06:37 - ERROR - Command npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 1.
+Mar 02 2026 19:06:37 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:06:39 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:15:43 - INFO - Starting EPG merge process...
+Mar 02 2026 19:15:43 - INFO - Running command: npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:15:45 - ERROR - STDERR: error: unknown option '--continue-on-error'
+Mar 02 2026 19:15:45 - INFO - STDOUT: 
+Mar 02 2026 19:15:45 - INFO - STDOUT: > grab
+Mar 02 2026 19:15:45 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:15:45 - INFO - STDOUT: 
+Mar 02 2026 19:15:45 - ERROR - Command npm run grab -- --continue-on-error --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 1.
+Mar 02 2026 19:15:45 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:15:47 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:19:11 - INFO - Starting EPG merge process...
+Mar 02 2026 19:19:11 - INFO - Running command: npm run grab -- --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:19:13 - ERROR - STDERR: /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts:118
+Mar 02 2026 19:19:13 - ERROR - STDERR: grabber.client.instance.interceptors.request.use(
+Mar 02 2026 19:19:13 - ERROR - STDERR: ^
+Mar 02 2026 19:19:13 - ERROR - STDERR: 
+Mar 02 2026 19:19:13 - ERROR - STDERR: 
+Mar 02 2026 19:19:13 - ERROR - STDERR: TypeError: Cannot read properties of undefined (reading 'interceptors')
+Mar 02 2026 19:19:13 - ERROR - STDERR: at main (/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts:118:27)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at defaultConfig (/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts:311:1)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at Object.<anonymous> (/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/commands/epg/grab.ts:313:10)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at Module._compile (node:internal/modules/cjs/loader:1521:14)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at Object.transformer (/Volumes/Kyle4tb1223/Documents/Github/tv/node_modules/tsx/dist/register-DCnOAxY2.cjs:2:1186)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at Module.load (node:internal/modules/cjs/loader:1266:32)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at Module._load (node:internal/modules/cjs/loader:1091:12)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at cjsLoader (node:internal/modules/esm/translators:298:15)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at ModuleWrap.<anonymous> (node:internal/modules/esm/translators:240:7)
+Mar 02 2026 19:19:13 - ERROR - STDERR: at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+Mar 02 2026 19:19:13 - ERROR - STDERR: 
+Mar 02 2026 19:19:13 - ERROR - STDERR: Node.js v20.20.0
+Mar 02 2026 19:19:13 - INFO - STDOUT: 
+Mar 02 2026 19:19:13 - INFO - STDOUT: > grab
+Mar 02 2026 19:19:13 - INFO - STDOUT: > npx tsx ./scripts/commands/epg/grab.ts --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml
+Mar 02 2026 19:19:13 - INFO - STDOUT: 
+Mar 02 2026 19:19:13 - INFO - STDOUT: starting...
+Mar 02 2026 19:19:13 - INFO - STDOUT: config: {
+Mar 02 2026 19:19:13 - INFO - STDOUT: "output": "_epg-end/channels-custom-end.xml"
+Mar 02 2026 19:19:13 - INFO - STDOUT: }
+Mar 02 2026 19:19:13 - ERROR - Command npm run grab -- --channels=_epg-start/channels-custom-start.xml --output=_epg-end/channels-custom-end.xml failed with error code 1.
+Mar 02 2026 19:19:13 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml
+Mar 02 2026 19:19:15 - INFO - ✅ EPG file successfully saved to /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/www/epg.xml

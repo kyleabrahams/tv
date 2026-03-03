@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 # merge_epg.py Feb 28 2026 1021 p 
+import shutil
 import requests
 import xml.etree.ElementTree as ET
 import os
@@ -16,13 +17,30 @@ from logging.handlers import RotatingFileHandler
 import re
 import pytz
 
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/merge_epg.py
+
+# Add NVM node bin to PATH so npm can find node
+NPM = "npm"  # rely on PATH
+nvm_bin = os.path.expanduser("~/.nvm/versions/node/v20.20.0/bin")
+os.environ["PATH"] = f"{nvm_bin}:{os.environ.get('PATH','')}"
+
+# Check npm & node
+try:
+    subprocess.run(["node", "--version"], check=True)
+    subprocess.run(["npm", "--version"], check=True)
+    print(f"Node and npm are available in PATH")
+except Exception as e:
+    raise RuntimeError(f"Node or npm not found in PATH: {e}")
+
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 CI_SAFE = os.getenv("GITHUB_ACTIONS") == "true" # Feb, 28, 2026
 delay = 5
 sleep_time = 1 if CI_SAFE else delay # Feb, 28, 2026
-REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
+REPO_DIR = os.path.dirname(__file__)  # relative to script location
+EPG_START_DIR = "_epg-start"
+EPG_END_DIR   = "_epg-end"
+WWW_DIR       = "www"
 venv_python = sys.executable  # Relative path from the script to the virtual environment
 print(venv_python)
 print("Starting data processing...")
@@ -102,34 +120,34 @@ def run_npm_grab():
 
     if toggle_channels_custom_date:
         commands.append([
-            "npm", "run", "grab", "--", 
-            "--continue-on-error",  # ✅ Add this here
-            f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-            f"--output=./scripts/_epg-end/channels-custom-{current_datetime}.xml"
+            NPM, "run", "grab", "--", 
+            # "--continue-on-error",  # ✅ Add this here
+            f"--channels={os.path.join(EPG_START_DIR, 'channels-custom-start.xml')}",
+            f"--output={os.path.join(EPG_END_DIR, 'channels-custom-end-{current_datetime}.xml')}"
         ])
 
     if toggle_channels_custom:
         commands.append([
-        "npm", "run", "grab", "--", 
-        "--continue-on-error",  # ✅ Add this here
-        f"--channels=./scripts/_epg-start/channels-custom-start.xml", 
-        f"--output=./scripts/_epg-end/channels-custom-end.xml"
+        NPM, "run", "grab", "--", 
+        # "--continue-on-error",  # ✅ Add this here
+        f"--channels={os.path.join(EPG_START_DIR, 'channels-custom-start.xml')}",
+        f"--output={os.path.join(EPG_END_DIR, 'channels-custom-end.xml')}"
     ])
 
     if toggle_channels_test:
         commands.append([
-            "npm", "run", "grab", "--", 
-            "--continue-on-error",  # ✅ Add this here
-            f"--channels=./scripts/_epg-start/channels-test-start.xml", 
-            f"--output=./scripts/_epg-end/channels-test-end.xml"
+            NPM, "run", "grab", "--", 
+            # "--continue-on-error",  # ✅ Add this here
+            f"--channels={os.path.join(EPG_START_DIR, 'channels-test-start.xml')}",
+            f"--output={os.path.join(EPG_END_DIR, 'channels-test-end.xml')}"
         ])
 
     if toggle_channels_test_copy:
         commands.append([
-            "npm", "run", "grab", "--", 
-            "--continue-on-error",  # ✅ Add this here
-            f"--channels=./scripts/_epg-start/channels-test-start-copy.xml", 
-            f"--output=./scripts/_epg-end/channels-test-copy-{current_datetime}.xml"
+            NPM, "run", "grab", "--", 
+            # "--continue-on-error",  # ✅ Add this here
+            f"--channels={os.path.join(EPG_START_DIR, 'channels-test-start-copy.xml')}",
+            f"--output={os.path.join(EPG_END_DIR, f'channels-test-start-copy-{current_datetime}.xml')}",
         ])
 
     # Set the output directory for deleting old files
@@ -185,11 +203,13 @@ def run_npm_grab():
             # Run the command and capture output (Feb 28, 2026)
             # process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
             process = subprocess.run(
-                command,
+                command_str,
+                shell=True,                  # Use shell
+                executable="/bin/zsh",       # Ensure zsh runs
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
                 text=True,
-                check=False  # 🚨 CRITICAL
+                check=False                  # Continue even if npm fails
 )
             if process.returncode != 0:
                 print(f"⚠️ npm grab failed, continuing anyway: {command_str}")
@@ -387,7 +407,7 @@ def pretty_print_xml(xml_tree):
     parsed_str = minidom.parseString(xml_str)
     return parsed_str.toprettyxml(indent="  ")
 
-def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_epg-end"):
+def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts2/_epg-end"):
     import os, gzip, io, xml.etree.ElementTree as ET, time
     import requests
 
@@ -464,7 +484,7 @@ epg_urls = [
     "channels-custom-end.xml"
 ]
 
-folder_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end"
+folder_path = EPG_END_DIR
 for idx, url in enumerate(epg_urls):
     fetch_epg_data(url, idx, len(epg_urls), folder_path=folder_path)
 
@@ -492,16 +512,16 @@ def reorder_channels(merged_root):
     for programme in programmes:
         merged_root.append(programme)
 
-# # Function to pretty-print XML with custom formatting # Removed Reb 28, 2026
-# def pretty_print_xml(xml_tree):
-#     # Convert the tree to a string with xml_declaration and UTF-8 encoding
-#     xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
+# Function to pretty-print XML with custom formatting # Removed Reb 28, 2026
+def pretty_print_xml(xml_tree):
+    # Convert the tree to a string with xml_declaration and UTF-8 encoding
+    xml_str = ET.tostring(xml_tree.getroot(), encoding="utf-8", xml_declaration=True)
     
-#     # Parse the string into a minidom object for pretty printing
-#     parsed_str = minidom.parseString(xml_str)
+    # Parse the string into a minidom object for pretty printing
+    parsed_str = minidom.parseString(xml_str)
     
-#     # Return the pretty-printed XML string with proper indentation
-#     return parsed_str.toprettyxml(indent="  ")
+    # Return the pretty-printed XML string with proper indentation
+    return parsed_str.toprettyxml(indent="  ")
 
 # Example usage:
 
@@ -520,7 +540,7 @@ pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
 
 # Assuming epg_urls contains your XML URLs (remote or local)
 epg_urls = ["dummy--epg---end.xml", "channels-test-end.xml", "channels-custom-end.xml"]
-folder_path = "scripts/_epg-end"  # Update to your folder path
+folder_path = "scripts2/_epg-end"  # Update to your folder path
 
 # Fetch and merge EPG data
 total_files = len(epg_urls)

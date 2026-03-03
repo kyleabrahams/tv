@@ -1,31 +1,30 @@
-import { Storage, Collection, Dictionary, File } from '@freearhey/core'
-import { ChannelsParser, ApiChannel } from '../../core'
+import { Collection, Dictionary } from '@freearhey/core'
+import { Storage, File } from '@freearhey/storage-js'
+import epgGrabber, { EPGGrabber } from 'epg-grabber'
+import { loadData, data } from '../../api'
+import { Channel } from '../../models'
 import { program } from 'commander'
 import chalk from 'chalk'
 import langs from 'langs'
-import { DATA_DIR } from '../../constants'
-import { Channel } from 'epg-grabber'
 
-program.argument('[filepath]', 'Path to *.channels.xml files to validate').parse(process.argv)
+program.argument('[filepath...]', 'Path to *.channels.xml files to validate').parse(process.argv)
 
-type ValidationError = {
-  type: 'duplicate' | 'wrong_xmltv_id' | 'wrong_lang'
+interface ValidationError {
+  type: 'duplicate' | 'wrong_channel_id' | 'wrong_feed_id' | 'wrong_lang'
   name: string
-  lang?: string
-  xmltv_id?: string
-  site_id?: string
-  logo?: string
+  lang: string | null
+  xmltv_id: string | null
+  site_id: string | null
+  logo: string | null
 }
 
 async function main() {
-  const parser = new ChannelsParser({ storage: new Storage() })
-
-  const dataStorage = new Storage(DATA_DIR)
-  const channelsContent = await dataStorage.json('channels.json')
-  const channels = new Collection(channelsContent).map(data => new ApiChannel(data))
+  await loadData()
+  const { channelsKeyById, feedsKeyByStreamId } = data
 
   let totalFiles = 0
   let totalErrors = 0
+  let totalWarnings = 0
 
   const storage = new Storage()
   const files = program.args.length ? program.args : await storage.list('sites/**/*.channels.xml')
@@ -33,32 +32,43 @@ async function main() {
     const file = new File(filepath)
     if (file.extension() !== 'xml') continue
 
-    const parsedChannels = await parser.parse(filepath)
+    const xml = await storage.load(filepath)
+    const parsedChannels = EPGGrabber.parseChannelsXML(xml)
+    const channelList = new Collection(parsedChannels).map(
+      (channel: epgGrabber.Channel) => new Channel(channel.toObject())
+    )
 
     const bufferBySiteId = new Dictionary()
     const errors: ValidationError[] = []
-    parsedChannels.forEach((channel: Channel) => {
+    channelList.forEach((channel: Channel) => {
       const bufferId: string = channel.site_id
       if (bufferBySiteId.missing(bufferId)) {
         bufferBySiteId.set(bufferId, true)
       } else {
-        errors.push({ type: 'duplicate', ...channel })
+        errors.push({ type: 'duplicate', ...channel.toObject() })
         totalErrors++
       }
 
-      if (!langs.where('1', channel.lang)) {
-        errors.push({ type: 'wrong_lang', ...channel })
+      if (!langs.where('1', channel.lang ?? '')) {
+        errors.push({ type: 'wrong_lang', ...channel.toObject() })
         totalErrors++
       }
 
       if (!channel.xmltv_id) return
+      const [channelId, feedId] = channel.xmltv_id.split('@')
 
-      const foundChannel = channels.first(
-        (_channel: ApiChannel) => _channel.id === channel.xmltv_id
-      )
+      const foundChannel = channelsKeyById.get(channelId)
       if (!foundChannel) {
-        errors.push({ type: 'wrong_xmltv_id', ...channel })
-        totalErrors++
+        errors.push({ type: 'wrong_channel_id', ...channel.toObject() })
+        totalWarnings++
+      }
+
+      if (feedId) {
+        const foundFeed = feedsKeyByStreamId.get(channel.xmltv_id)
+        if (!foundFeed) {
+          errors.push({ type: 'wrong_feed_id', ...channel.toObject() })
+          totalWarnings++
+        }
       }
     })
 
@@ -70,9 +80,16 @@ async function main() {
     }
   }
 
-  if (totalErrors > 0) {
-    console.log(chalk.red(`${totalErrors} error(s) in ${totalFiles} file(s)`))
-    process.exit(1)
+  const totalProblems = totalWarnings + totalErrors
+  if (totalProblems > 0) {
+    console.log(
+      chalk.red(
+        `${totalProblems} problems (${totalErrors} errors, ${totalWarnings} warnings) in ${totalFiles} file(s)`
+      )
+    )
+    if (totalErrors > 0) {
+      process.exit(1)
+    }
   }
 }
 

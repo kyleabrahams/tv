@@ -1,43 +1,42 @@
-type Column = {
-  name: string
-  nowrap?: boolean
-  align?: string
-}
-
-type DataItem = string[]
+import { HTMLTableColumn, HTMLTableDataItem, HTMLTableRow } from '../types/htmlTable'
+import { Collection } from '@freearhey/core'
+import { EOL } from '../constants'
 
 export class HTMLTable {
-  data: DataItem[]
-  columns: Column[]
+  rows: Collection<HTMLTableRow>
+  columns: Collection<HTMLTableColumn>
 
-  constructor(data: DataItem[], columns: Column[]) {
-    this.data = data
+  constructor(rows: Collection<HTMLTableRow>, columns: Collection<HTMLTableColumn>) {
+    this.rows = rows
     this.columns = columns
   }
 
   toString() {
-    let output = '<table>\r\n'
+    let output = `<table>${EOL}`
 
-    output += '  <thead>\r\n    <tr>'
-    for (const column of this.columns) {
-      output += `<th align="left">${column.name}</th>`
-    }
-    output += '</tr>\r\n  </thead>\r\n'
+    output += `  <thead>${EOL}    <tr>`
+    this.columns.forEach((column: HTMLTableColumn) => {
+      const nowrap = column.nowrap ? ' nowrap' : ''
+      const align = column.align ? ` align="${column.align}"` : ''
+      const colspan = column.colspan ? ` colspan="${column.colspan}"` : ''
 
-    output += '  <tbody>\r\n'
-    for (const item of this.data) {
+      output += `<th${align}${nowrap}${colspan}>${column.name}</th>`
+    })
+    output += `</tr>${EOL}  </thead>${EOL}`
+
+    output += `  <tbody>${EOL}`
+    this.rows.forEach((row: HTMLTableRow) => {
       output += '    <tr>'
-      let i = 0
-      for (const prop in item) {
-        const column = this.columns[i]
-        const nowrap = column.nowrap ? ' nowrap' : ''
-        const align = column.align ? ` align="${column.align}"` : ''
-        output += `<td${align}${nowrap}>${item[prop]}</td>`
-        i++
-      }
-      output += '</tr>\r\n'
-    }
-    output += '  </tbody>\r\n'
+      row.forEach((item: HTMLTableDataItem) => {
+        const nowrap = item.nowrap ? ' nowrap' : ''
+        const align = item.align ? ` align="${item.align}"` : ''
+        const colspan = item.colspan ? ` colspan="${item.colspan}"` : ''
+
+        output += `<td${align}${nowrap}${colspan}>${item.value}</td>`
+      })
+      output += `</tr>${EOL}`
+    })
+    output += `  </tbody>${EOL}`
 
     output += '</table>'
 

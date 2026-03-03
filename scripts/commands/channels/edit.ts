@@ -1,12 +1,25 @@
-import { DATA_DIR } from '../../constants'
-import { Storage, Collection, Logger } from '@freearhey/core'
-import { ChannelsParser, XML, ApiChannel } from '../../core'
-import { Channel } from 'epg-grabber'
+import { loadData, data, searchChannels } from '../../api'
+import epgGrabber, { EPGGrabber } from 'epg-grabber'
+import { Collection, Logger } from '@freearhey/core'
+import { select, input } from '@inquirer/prompts'
+import { generateChannelsXML } from '../../core'
+import { Storage } from '@freearhey/storage-js'
+import { Channel } from '../../models'
 import nodeCleanup from 'node-cleanup'
-import { program } from 'commander'
-import inquirer, { QuestionCollection } from 'inquirer'
-import Fuse from 'fuse.js'
+import * as sdk from '@iptv-org/sdk'
+import { Command } from 'commander'
 import readline from 'readline'
+
+interface ChoiceValue {
+  type: string
+  value?: sdk.Models.Feed | sdk.Models.Channel
+}
+interface Choice {
+  name: string
+  short?: string
+  value: ChoiceValue
+  default?: boolean
+}
 
 if (process.platform === 'win32') {
   readline
@@ -19,105 +32,169 @@ if (process.platform === 'win32') {
     })
 }
 
+const program = new Command()
+
 program.argument('<filepath>', 'Path to *.channels.xml file to edit').parse(process.argv)
 
 const filepath = program.args[0]
-
 const logger = new Logger()
 const storage = new Storage()
-let channels = new Collection()
+let channelsFromXML = new Collection<Channel>()
 
-async function main() {
+main(filepath)
+nodeCleanup(() => {
+  save(filepath, channelsFromXML)
+})
+
+export default async function main(filepath: string) {
   if (!(await storage.exists(filepath))) {
     throw new Error(`File "${filepath}" does not exists`)
   }
 
-  const parser = new ChannelsParser({ storage })
-  channels = await parser.parse(filepath)
+  logger.info('loading data from api...')
+  await loadData()
 
-  const dataStorage = new Storage(DATA_DIR)
-  const channelsContent = await dataStorage.json('channels.json')
-  const searchIndex = new Fuse(channelsContent, { keys: ['name', 'alt_names'], threshold: 0.4 })
+  logger.info('loading channels...')
+  const xml = await storage.load(filepath)
+  const parsedChannels = EPGGrabber.parseChannelsXML(xml)
+  channelsFromXML = new Collection(parsedChannels).map(
+    (channel: epgGrabber.Channel) => new Channel(channel.toObject())
+  )
+  const channelsFromXMLWithoutId = channelsFromXML.filter((channel: Channel) => !channel.xmltv_id)
 
-  for (const channel of channels.all()) {
-    if (channel.xmltv_id) continue
-    const question: QuestionCollection = {
-      name: 'option',
-      message: `Select xmltv_id for "${channel.name}" (${channel.site_id}):`,
-      type: 'list',
-      choices: getOptions(searchIndex, channel),
-      pageSize: 10
+  logger.info(
+    `found ${channelsFromXML.count()} channels (including ${channelsFromXMLWithoutId.count()} without ID)`
+  )
+
+  logger.info('starting...')
+  console.log()
+
+  for (const channel of channelsFromXMLWithoutId.all()) {
+    try {
+      channel.xmltv_id = await selectChannel(channel)
+    } catch {
+      break
     }
-
-    await inquirer.prompt(question).then(async selected => {
-      switch (selected.option) {
-        case 'Type...':
-          const input = await getInput(channel)
-          channel.xmltv_id = input.xmltv_id
-          break
-        case 'Skip':
-          channel.xmltv_id = '-'
-          break
-        default:
-          const [, xmltv_id] = selected.option
-            .replace(/ \[.*\]/, '')
-            .split('|')
-            .map((i: string) => i.trim())
-          channel.xmltv_id = xmltv_id
-          break
-      }
-    })
   }
 
-  channels.forEach((channel: Channel) => {
+  channelsFromXMLWithoutId.forEach((channel: epgGrabber.Channel) => {
     if (channel.xmltv_id === '-') {
       channel.xmltv_id = ''
     }
   })
 }
 
-main()
+async function selectChannel(channel: epgGrabber.Channel): Promise<string> {
+  const query = escapeRegex(channel.name)
+  const similarChannels = searchChannels(query)
+  const choices = getChoicesForChannel(similarChannels).all()
 
-function save() {
-  if (!storage.existsSync(filepath)) return
-
-  const xml = new XML(channels)
-
-  storage.saveSync(filepath, xml.toString())
-
-  logger.info(`\nFile '${filepath}' successfully saved`)
-}
-
-nodeCleanup(() => {
-  save()
-})
-
-async function getInput(channel: Channel) {
-  const name = channel.name.trim()
-  const input = await inquirer.prompt([
-    {
-      name: 'xmltv_id',
-      message: '  xmltv_id:',
-      type: 'input'
-    }
-  ])
-
-  return { name, xmltv_id: input['xmltv_id'] }
-}
-
-function getOptions(index, channel: Channel) {
-  const similar = index.search(channel.name).map(result => new ApiChannel(result.item))
-
-  const variants = new Collection()
-  similar.forEach((_channel: ApiChannel) => {
-    const altNames = _channel.altNames.notEmpty() ? ` (${_channel.altNames.join(',')})` : ''
-    const closed = _channel.closed ? ` [closed:${_channel.closed}]` : ''
-    const replacedBy = _channel.replacedBy ? `[replaced_by:${_channel.replacedBy}]` : ''
-
-    variants.add(`${_channel.name}${altNames} | ${_channel.id}${closed}${replacedBy}`)
+  const selected: ChoiceValue = await select({
+    message: `Select channel ID for "${channel.name}" (${channel.site_id}):`,
+    choices,
+    pageSize: 10
   })
-  variants.add('Type...')
-  variants.add('Skip')
 
-  return variants.all()
+  switch (selected.type) {
+    case 'skip':
+      return '-'
+    case 'type': {
+      const typedChannelId = await input({ message: '  Channel ID:' })
+      if (!typedChannelId) return ''
+      const selectedFeedId = await selectFeed(typedChannelId)
+      if (selectedFeedId === '-') return typedChannelId
+      return [typedChannelId, selectedFeedId].join('@')
+    }
+    case 'channel': {
+      const selectedChannel = selected.value
+      if (!selectedChannel) return ''
+      const selectedFeedId = await selectFeed(selectedChannel.id || '')
+      if (selectedFeedId === '-') return selectedChannel.id || ''
+      return [selectedChannel.id, selectedFeedId].join('@')
+    }
+  }
+
+  return ''
+}
+
+async function selectFeed(channelId: string): Promise<string> {
+  const channelFeeds = new Collection(data.feedsGroupedByChannelId.get(channelId))
+  const choices = getChoicesForFeed(channelFeeds).all()
+
+  const selected: ChoiceValue = await select({
+    message: `Select feed ID for "${channelId}":`,
+    choices,
+    pageSize: 10
+  })
+
+  switch (selected.type) {
+    case 'skip':
+      return '-'
+    case 'type':
+      return await input({ message: '  Feed ID:', default: 'SD' })
+    case 'feed':
+      const selectedFeed = selected.value
+      if (!selectedFeed) return ''
+      return selectedFeed.id || ''
+  }
+
+  return ''
+}
+
+function getChoicesForChannel(channels: Collection<sdk.Models.Channel>): Collection<Choice> {
+  const choices = new Collection<Choice>()
+
+  channels.forEach((channel: sdk.Models.Channel) => {
+    const names = new Collection([channel.name, ...channel.alt_names]).uniq().join(', ')
+
+    choices.add({
+      value: {
+        type: 'channel',
+        value: channel
+      },
+      name: `${channel.id} (${names})`,
+      short: `${channel.id}`
+    })
+  })
+
+  choices.add({ name: 'Type...', value: { type: 'type' } })
+  choices.add({ name: 'Skip', value: { type: 'skip' } })
+
+  return choices
+}
+
+function getChoicesForFeed(feeds: Collection<sdk.Models.Feed>): Collection<Choice> {
+  const choices = new Collection<Choice>()
+
+  feeds.forEach((feed: sdk.Models.Feed) => {
+    let name = `${feed.id} (${feed.name})`
+    if (feed.is_main) name += ' [main]'
+
+    choices.add({
+      value: {
+        type: 'feed',
+        value: feed
+      },
+      default: feed.is_main,
+      name,
+      short: feed.id
+    })
+  })
+
+  choices.add({ name: 'Type...', value: { type: 'type' } })
+  choices.add({ name: 'Skip', value: { type: 'skip' } })
+
+  return choices
+}
+
+function save(filepath: string, channelsFromXML: Collection<Channel>) {
+  if (!storage.existsSync(filepath)) return
+  const xml = generateChannelsXML(channelsFromXML)
+  storage.saveSync(filepath, xml)
+  console.log()
+  logger.info(`File '${filepath}' successfully saved`)
+}
+
+function escapeRegex(string: string) {
+  return string.replace(/[/\-\\^$*+?.()|[\]{}]/g, '\\$&')
 }

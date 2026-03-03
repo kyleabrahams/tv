@@ -156,7 +156,7 @@ function parseDescription($item) {
       .text()
       .replace(/\n/g, '')
       .replace(/\s\s+/g, ' ')
-      // eslint-disable-next-line no-irregular-whitespace
+       
       .replace(/ /g, ' ')
       .trim()
   )

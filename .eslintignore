@@ -1,0 +1,5 @@
+# Ignore macOS hidden resource files
+**/._*
+
+# Ignore node_modules (usually already ignored)
+node_modules/
