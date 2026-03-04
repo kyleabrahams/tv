@@ -20,6 +20,7 @@ os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 # XML URLs to fetch
 XMLTV_URLS = [
     "https://i.mjh.nz/PlutoTV/all.xml",
+    "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Roku/all.xml",
     "https://i.mjh.nz/SamsungTVPlus/all.xml"
 ]
@@ -109,7 +110,7 @@ CHANNELS = {
     "USBC3600002EK": "Vevo Hip-Hop - Samsung",
     "USBC3900009K5": "Vevo R&B - Samsung",
     "USBC3600008WY": "Vevo Pop - Samsung",
-    "60db737695c95b599dad50d2c5595fe3": "Vevo Reggaeton & Trap",
+    "60db737695c95b599dad50d2c5595fe3": "Vevo Reggaeton & Trap - Roku",
     "CABC23000223U": "The Weather Network - Samsung",
     "USAJ4300005PJ": "Yahoo Finance - Samsung",
     "USBB1500001GD": "USA Today - Samsung",
