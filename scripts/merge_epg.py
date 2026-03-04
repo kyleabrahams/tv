@@ -27,12 +27,12 @@ sleep_time = 1 if CI_SAFE else delay # Feb, 28, 2026
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
 FAST_EPG_FILE = "./scripts/_epg-end/fast-epg-end.xml"
 venv_python = sys.executable  # Relative path from the script to the virtual environment
-# Path to build_epg.py
-build_epg_script = os.path.join(REPO_DIR, "build_epg.py")
+# Path to build_fast_epg.py
+build_fast_epg_script = os.path.join(REPO_DIR, "build_fast_epg.py")
 
-print("Running build_epg.py first...")
-subprocess.run(["python3", build_epg_script], check=True)
-print("build_epg.py finished.")
+print("Running build_fast_epg.py first...")
+subprocess.run(["python3", build_fast_epg_script], check=True)
+print("build_fast_epg.py finished.")
 print(venv_python)
 print("Starting data processing...")
 # your data processing code
@@ -97,48 +97,48 @@ log_message("info", "Starting EPG merge process...")
 
 # Step 2.05 Builds FAST channels EPG
 
-def run_build_epg():
-    """Run build_epg.py and ensure it completes successfully."""
+def run_build_fast_epg():
+    """Run build_fast_epg.py and ensure it completes successfully."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    build_epg_path = os.path.join(script_dir, "build_epg.py")  # Adjust if it's in a different folder
+    build_fast_epg_path = os.path.join(script_dir, "build_fast_epg.py")  # Adjust if it's in a different folder
 
-    if not os.path.exists(build_epg_path):
-        print(f"❌ build_epg.py not found at {build_epg_path}")
+    if not os.path.exists(build_fast_epg_path):
+        print(f"❌ build_fast_epg.py not found at {build_fast_epg_path}")
         return None
 
     try:
-        print(f"Running build_epg.py: {build_epg_path}")
+        print(f"Running build_fast_epg.py: {build_fast_epg_path}")
         result = subprocess.run(
-            ["python3", build_epg_path],
+            ["python3", build_fast_epg_path],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            check=False  # Don’t stop the script if build_epg.py fails
+            check=False  # Don’t stop the script if build_fast_epg.py fails
         )
 
         # Print and log stdout
         for line in result.stdout.splitlines():
-            print(f"[build_epg STDOUT] {line}")
+            print(f"[build_fast_epg STDOUT] {line}")
             if logger:
-                logger.info(f"[build_epg STDOUT] {line}")
+                logger.info(f"[build_fast_epg STDOUT] {line}")
 
         # Print and log stderr
         for line in result.stderr.splitlines():
-            print(f"[build_epg STDERR] {line}")
+            print(f"[build_fast_epg STDERR] {line}")
             if logger:
-                logger.error(f"[build_epg STDERR] {line}")
+                logger.error(f"[build_fast_epg STDERR] {line}")
 
         if result.returncode == 0:
-            print("✅ build_epg.py ran successfully.")
+            print("✅ build_fast_epg.py ran successfully.")
             return True
         else:
-            print(f"⚠️ build_epg.py returned non-zero exit code: {result.returncode}")
+            print(f"⚠️ build_fast_epg.py returned non-zero exit code: {result.returncode}")
             return False
 
     except Exception as e:
-        print(f"❌ Error running build_epg.py: {e}")
+        print(f"❌ Error running build_fast_epg.py: {e}")
         if logger:
-            logger.error(f"❌ Error running build_epg.py: {e}")
+            logger.error(f"❌ Error running build_fast_epg.py: {e}")
         return False
 
 ########## Step 2.1: Function to run dummy_epg.py script

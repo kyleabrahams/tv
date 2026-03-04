@@ -7,7 +7,7 @@ import time
 # Mar 4, 2026 110 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
-# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg.py
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
 
 
 # Base directory relative to this script
