@@ -25,8 +25,9 @@ XMLTV_URLS = [
 
 # Optional: only include these channels (empty = all channels)
 CHANNELS = {
-    # Samsung (14)
+    # Samsung (15)
     "GB2000955S": "AMC Cupid",
+    "ESBC2700008SK": "Just for Laughs Gags",
     "CABC23000223U": "The Weather Network",
     "ATBD190000101": "CNN Headlines",
     "USBA300004TE": "Dallas Cowboys Cheerleaders",
@@ -40,9 +41,8 @@ CHANNELS = {
     "ES2300004XW": "Al Jazeera",
     "FRAJ3800004CC": "MTV Classics",
     "USBD4200016QR": "PickleballTV",
-    # Pluto (41)
+    # Pluto (40)
     "6536721dbfbaec00088687c0": "CBC News Toronto",
-    "5e8397936791b30007ebb5a7": "Just for Laughs Gags",
     "66df8a29b25d2b0008fc5fe0": "Love Nature 4k",
     "65d92a8c8b24c80008e285c0": "BBC News",
     "6508be683a0d700008c534e4": "ABC News Live",

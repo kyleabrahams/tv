@@ -1,5 +1,6 @@
 {
   "name": "epg",
+  "type": "module",
   "scripts": {
     "act:check": "act pull_request -W .github/workflows/check.yml",
     "act:update": "act workflow_dispatch -W .github/workflows/update.yml",
