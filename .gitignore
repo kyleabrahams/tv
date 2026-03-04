@@ -3,6 +3,13 @@
 node_modules
 scripts/_Search_Results/
 scripts/_alive
+
+# Python cache
+__pycache__/
+
+# macOS resource forks
+._*
+
 # Ignore all crontab backup files
 nginx_uninstall_backups/
 # Ignore log files

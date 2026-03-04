@@ -16,14 +16,23 @@ from logging.handlers import RotatingFileHandler
 import re
 import pytz
 
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
+# python3 -m venv myenv
+# source myenv/bin/activate
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/merge_epg.py
 
 # Define REPO_DIR at the top of merge_epg.py if it's not already defined
 CI_SAFE = os.getenv("GITHUB_ACTIONS") == "true" # Feb, 28, 2026
 delay = 5
 sleep_time = 1 if CI_SAFE else delay # Feb, 28, 2026
 REPO_DIR = os.path.abspath(os.path.dirname(__file__))  # This will set REPO_DIR to the script's directory
+FAST_EPG_FILE = "./scripts/_epg-end/fast-epg-end.xml"
 venv_python = sys.executable  # Relative path from the script to the virtual environment
+# Path to build_epg.py
+build_epg_script = os.path.join(REPO_DIR, "build_epg.py")
+
+print("Running build_epg.py first...")
+subprocess.run(["python3", build_epg_script], check=True)
+print("build_epg.py finished.")
 print(venv_python)
 print("Starting data processing...")
 # your data processing code
@@ -86,11 +95,57 @@ print(formatted_time)
 # Example log usage
 log_message("info", "Starting EPG merge process...")
 
+# Step 2.05 Builds FAST channels EPG
+
+def run_build_epg():
+    """Run build_epg.py and ensure it completes successfully."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    build_epg_path = os.path.join(script_dir, "build_epg.py")  # Adjust if it's in a different folder
+
+    if not os.path.exists(build_epg_path):
+        print(f"❌ build_epg.py not found at {build_epg_path}")
+        return None
+
+    try:
+        print(f"Running build_epg.py: {build_epg_path}")
+        result = subprocess.run(
+            ["python3", build_epg_path],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            check=False  # Don’t stop the script if build_epg.py fails
+        )
+
+        # Print and log stdout
+        for line in result.stdout.splitlines():
+            print(f"[build_epg STDOUT] {line}")
+            if logger:
+                logger.info(f"[build_epg STDOUT] {line}")
+
+        # Print and log stderr
+        for line in result.stderr.splitlines():
+            print(f"[build_epg STDERR] {line}")
+            if logger:
+                logger.error(f"[build_epg STDERR] {line}")
+
+        if result.returncode == 0:
+            print("✅ build_epg.py ran successfully.")
+            return True
+        else:
+            print(f"⚠️ build_epg.py returned non-zero exit code: {result.returncode}")
+            return False
+
+    except Exception as e:
+        print(f"❌ Error running build_epg.py: {e}")
+        if logger:
+            logger.error(f"❌ Error running build_epg.py: {e}")
+        return False
+
 ########## Step 2.1: Function to run dummy_epg.py script
 def run_npm_grab():
     # Define the toggles as True/False
     toggle_channels_custom_date = False
-    toggle_channels_custom = True
+    toggle_channels_custom = False
     toggle_channels_test = False
     toggle_channels_test_copy = False
 
@@ -98,6 +153,7 @@ def run_npm_grab():
     current_datetime = datetime.now().strftime("%m-%d-%I-%M-%S %p")
 
     # List of npm commands with timestamped output file, toggled based on True/False values
+
     commands = []
 
     if toggle_channels_custom_date:
@@ -458,13 +514,20 @@ def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_
 
 
 # EPG URLs and local file names in the _epg-end folder should be known and valid
-epg_urls = [
-    "dummy--epg---end.xml",  # Local file in the _epg-end folder
-    "channels-test-end.xml",
-    "channels-custom-end.xml"
-]
+toggle_fast = True
+toggle_custom = False
+toggle_test = False
 
-folder_path = "/Users/kyleabrahams/Documents/GitHub/tv/scripts/_epg-end"
+epg_urls = ["dummy--epg---end.xml"]  # always include dummy
+
+if toggle_test:
+    epg_urls.append("channels-test-end.xml")
+if toggle_custom:
+    epg_urls.append("channels-custom-end.xml")
+if toggle_fast:
+    epg_urls.append("fast-epg-end.xml")
+
+folder_path = "/Volumes/Kyle4tb1223/Documents/Github/tv/scripts/_epg-end"
 for idx, url in enumerate(epg_urls):
     fetch_epg_data(url, idx, len(epg_urls), folder_path=folder_path)
 
@@ -519,7 +582,7 @@ pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
 
 
 # Assuming epg_urls contains your XML URLs (remote or local)
-epg_urls = ["dummy--epg---end.xml", "channels-test-end.xml", "channels-custom-end.xml"]
+epg_urls = ["dummy--epg---end.xml", "channels-test-end.xml", "channels-custom-end.xml", "fast-epg-end.xml"]
 folder_path = "scripts/_epg-end"  # Update to your folder path
 
 # Fetch and merge EPG data
