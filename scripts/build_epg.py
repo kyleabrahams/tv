@@ -6,7 +6,7 @@ import time
 
 # python3 -m venv myenv
 # source myenv/bin/activate
-# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts2/build_epg.py
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg.py
 
 
 # Base directory relative to this script
@@ -25,7 +25,6 @@ XMLTV_URLS = [
 
 # Optional: only include these channels (empty = all channels)
 CHANNELS = {
-{
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
     "GB2000955S": "AMC Cupid - Samsung",
     "5e1f7da4bc7d740009831259": "America's Voice News - Pluto",
