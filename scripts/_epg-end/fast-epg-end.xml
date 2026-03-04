@@ -1,87 +1,406 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv><channel id="5c665db3e6c01b72c4977bc2">
-    <display-name>Pluto TV Cult Films</display-name>
-    <icon src="https://images.pluto.tv/channels/5c665db3e6c01b72c4977bc2/colorLogoPNG.png" />
-  </channel>
-  <channel id="6132619f9ddaa50007e7dd86">
-    <display-name>More TV Sitcoms</display-name>
-    <icon src="https://images.pluto.tv/channels/6132619f9ddaa50007e7dd86/colorLogoPNG.png" />
-  </channel>
-  <channel id="5ca671f215a62078d2ec0abf">
-    <display-name>Comedy Central Pluto TV</display-name>
-    <icon src="https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png" />
-  </channel>
-  <channel id="60f75771dfc72a00071fd0e0">
-    <display-name>Gunsmoke</display-name>
-    <icon src="https://images.pluto.tv/channels/60f75771dfc72a00071fd0e0/colorLogoPNG.png" />
-  </channel>
-  <channel id="6532e8342cf13100083b404c">
-    <display-name>Warner Bros. TV Say Yes to the Dress</display-name>
-    <icon src="https://images.pluto.tv/channels/6532e8342cf13100083b404c/colorLogoPNG.png" />
-  </channel>
-  <channel id="6508be683a0d700008c534e4">
+<tv><channel id="6508be683a0d700008c534e4">
     <display-name>ABC News Live</display-name>
     <icon src="https://images.pluto.tv/channels/6508be683a0d700008c534e4/colorLogoPNG.png" />
   </channel>
-  <channel id="65d92a8c8b24c80008e285c0">
-    <display-name>BBC News</display-name>
-    <icon src="https://images.pluto.tv/channels/65d92a8c8b24c80008e285c0/colorLogoPNG.png" />
+  <channel id="ES2300004XW">
+    <display-name>Al Jazeera</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2300004XW_20251118T015346SQUARE.png" />
   </channel>
-  <channel id="5e1f7da4bc7d740009831259">
-    <display-name>America's Voice News</display-name>
-    <icon src="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" />
+  <channel id="CABA3700001DB">
+    <display-name>Always Funny Videos</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA3700001DB_20250121T201616SQUARE.png" />
   </channel>
-  <channel id="5bb3fea0f711fd76340eebff">
-    <display-name>Pluto TV Military</display-name>
-    <icon src="https://images.pluto.tv/channels/5bb3fea0f711fd76340eebff/colorLogoPNG.png" />
-  </channel>
-  <channel id="66e0b4536ad04d0008fff4b2">
-    <display-name>CNN Originals</display-name>
-    <icon src="https://images.pluto.tv/channels/66e0b4536ad04d0008fff4b2/colorLogoPNG_1755018282136.png" />
+  <channel id="GB2000955S">
+    <display-name>AMC Cupid</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2000955S_20260210T040016SQUARE.png" />
   </channel>
   <channel id="5e84f54a82f05300080e6746">
     <display-name>America's Test Kitchen</display-name>
     <icon src="https://images.pluto.tv/channels/5e84f54a82f05300080e6746/colorLogoPNG.png" />
   </channel>
-  <channel id="66df8a29b25d2b0008fc5fe0">
-    <display-name>Love Nature</display-name>
-    <icon src="https://images.pluto.tv/channels/66df8a29b25d2b0008fc5fe0/colorLogoPNG.png" />
+  <channel id="5e1f7da4bc7d740009831259">
+    <display-name>America's Voice News</display-name>
+    <icon src="https://images.pluto.tv/channels/5e1f7da4bc7d740009831259/colorLogoPNG.png" />
   </channel>
-  <channel id="61d4c2817a823d00070ba53e">
-    <display-name>Vevo True School Hip-Hop</display-name>
-    <icon src="https://images.pluto.tv/channels/61d4c2817a823d00070ba53e/colorLogoPNG.png" />
+  <channel id="US1900015FR">
+    <display-name>Anger Management</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900015FR_20251202T005907SQUARE.png" />
   </channel>
-  <channel id="5da0d83f66c9700009b96d0e">
-    <display-name>Vevo R&amp;B</display-name>
-    <icon src="https://images.pluto.tv/channels/5da0d83f66c9700009b96d0e/colorLogoPNG.png" />
+  <channel id="USBC6000108Z">
+    <display-name>BBC Food</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20241105T024216SQUARE.png" />
   </channel>
-  <channel id="61d4b38226b8a50007fe03a6">
-    <display-name>Vevo Rock</display-name>
-    <icon src="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG_1748797615724.png" />
+  <channel id="CABD1200012B8">
+    <display-name>BBC Home &amp; Garden</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20260303T070517SQUARE.png" />
   </channel>
-  <channel id="677fb3432952c1163bf1a539">
-    <display-name>Million Dollar Listing</display-name>
-    <icon src="https://images.pluto.tv/channels/677fb3432952c1163bf1a539/colorLogoPNG_1761664837789.png" />
+  <channel id="65d92a8c8b24c80008e285c0">
+    <display-name>BBC News</display-name>
+    <icon src="https://images.pluto.tv/channels/65d92a8c8b24c80008e285c0/colorLogoPNG.png" />
   </channel>
-  <channel id="64f9cccf110545000837912e">
-    <display-name>MTV Ridiculousness</display-name>
-    <icon src="https://images.pluto.tv/channels/64f9cccf110545000837912e/colorLogoPNG-1734529908215.png" />
+  <channel id="GB38000026H">
+    <display-name>Masha &amp; the Bear</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB38000026H_20260120T031424SQUARE.png" />
   </channel>
-  <channel id="62e92951c2db99000787c00d">
-    <display-name>Deal or no Deal</display-name>
-    <icon src="https://images.pluto.tv/channels/62e92951c2db99000787c00d/colorLogoPNG.png" />
+  <channel id="USBD700021WG">
+    <display-name>BUZZR</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700021WG_20241105T024154SQUARE.png" />
+  </channel>
+  <channel id="CABD1200043OK">
+    <display-name>CBC Comedy</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20250819T224253SQUARE.png" />
   </channel>
   <channel id="6536721dbfbaec00088687c0">
     <display-name>CBC News Toronto</display-name>
     <icon src="https://images.pluto.tv/channels/6536721dbfbaec00088687c0/colorLogoPNG.png" />
   </channel>
+  <channel id="USAJ3504714A">
+    <display-name>Cheddar News</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504714A_20251028T011040SQUARE.png" />
+  </channel>
+  <channel id="ATBD190000101">
+    <display-name>CNN Headlines</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD190000101_20251209T003953SQUARE.png" />
+  </channel>
+  <channel id="66e0b4536ad04d0008fff4b2">
+    <display-name>CNN Originals</display-name>
+    <icon src="https://images.pluto.tv/channels/66e0b4536ad04d0008fff4b2/colorLogoPNG_1755018282136.png" />
+  </channel>
+  <channel id="CABC5200020WJ">
+    <display-name>Comedy Dynamics</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200020WJ_20260303T094634SQUARE.png" />
+  </channel>
+  <channel id="CA14000028T">
+    <display-name>CTV @ Home</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20260303T094613SQUARE.png" />
+  </channel>
+  <channel id="CA35000025N">
+    <display-name>CTV Gets Real</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA35000025N_20260303T094617SQUARE.png" />
+  </channel>
+  <channel id="CA1400005SO">
+    <display-name>CTV Laughs</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20260303T094625SQUARE.png" />
+  </channel>
+  <channel id="CA1400004AE">
+    <display-name>CTV News</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png" />
+  </channel>
+  <channel id="USBA300004TE">
+    <display-name>Dallas Cowboys Cheer</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20241112T000620SQUARE.png" />
+  </channel>
+  <channel id="CA900005B8">
+    <display-name>Dance Moms</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20260117T020526SQUARE.png" />
+  </channel>
+  <channel id="USAJ3504708A">
+    <display-name>DangerTV</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504708A_20240520T221158SQUARE.png" />
+  </channel>
+  <channel id="ESBD3700001S0">
+    <display-name>DATELINE 24/7</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3700001S0_20241022T051012SQUARE.png" />
+  </channel>
+  <channel id="62e92951c2db99000787c00d">
+    <display-name>Deal or no Deal</display-name>
+    <icon src="https://images.pluto.tv/channels/62e92951c2db99000787c00d/colorLogoPNG.png" />
+  </channel>
   <channel id="65788362cbd0d60008f8729a">
     <display-name>Dog The Bounty Hunter</display-name>
     <icon src="https://images.pluto.tv/channels/65788362cbd0d60008f8729a/colorLogoPNG.png" />
   </channel>
+  <channel id="CA3400002KP">
+    <display-name>Dog Whisperer</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA3400002KP_20260303T070524SQUARE.png" />
+  </channel>
+  <channel id="d93912b4b21158fd95af2ceb8979c586">
+    <display-name>Dove</display-name>
+    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d93912b4b21158fd95af2ceb8979c586/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738599967209_DoveRefresh_RokuLinear_260X147.png" />
+    <lcn>276</lcn>
+  </channel>
+  <channel id="USAJ30000039U">
+    <display-name>Dry Bar Comedy</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000039U_20240520T215832SQUARE.png" />
+  </channel>
+  <channel id="15cc44e50d8453e18f21ea37713319c5">
+    <display-name>Electric Now</display-name>
+    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/15cc44e50d8453e18f21ea37713319c5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1660071204893_1605145912343_EN_Logo_WhiteonBlack_260x147.png" />
+    <lcn>287</lcn>
+  </channel>
+  <channel id="GB2700003KS">
+    <display-name>Evolution Earth</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700003KS_20250107T031117SQUARE.png" />
+  </channel>
+  <channel id="ATAJ32000027V">
+    <display-name>FailArmy</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ32000027V_20260210T035537SQUARE.png" />
+  </channel>
+  <channel id="GB500007VM">
+    <display-name>Family Feud</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500007VM_20250513T005729SQUARE.png" />
+  </channel>
+  <channel id="CAAJ2700014EE">
+    <display-name>FilmRise Action</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700014EE_20251125T191323SQUARE.png" />
+  </channel>
+  <channel id="CAAJ40000077N">
+    <display-name>FilmRise Free Movies</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20251125T191329SQUARE.png" />
+  </channel>
+  <channel id="CAAJ27000079E">
+    <display-name>FilmRise True Crime</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000079E_20251125T191318SQUARE.png" />
+  </channel>
+  <channel id="USBB32000196O">
+    <display-name>FilmRise Westerns</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20251125T191307SQUARE.png" />
+  </channel>
+  <channel id="USBA3800004EL">
+    <display-name>Fireplace Vibes</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800004EL_20241105T185655SQUARE.png" />
+  </channel>
+  <channel id="GBBC900014LW">
+    <display-name>Great British Menu</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900014LW_20250107T022833SQUARE.png" />
+  </channel>
+  <channel id="60f75771dfc72a00071fd0e0">
+    <display-name>Gunsmoke</display-name>
+    <icon src="https://images.pluto.tv/channels/60f75771dfc72a00071fd0e0/colorLogoPNG.png" />
+  </channel>
+  <channel id="CABB2500021YQ">
+    <display-name>Gusto TV</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500021YQ_20260303T094718SQUARE.png" />
+  </channel>
+  <channel id="USBD270001633">
+    <display-name>Hallmark Movies &amp; More</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20260217T231325SQUARE.png" />
+  </channel>
+  <channel id="CAAJ3400002DI">
+    <display-name>Law&amp;Crime</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400002DI_20250729T184552SQUARE.png" />
+  </channel>
   <channel id="64424b21e1979c0008379681">
     <display-name>Jersey Shore</display-name>
     <icon src="https://images.pluto.tv/channels/64424b21e1979c0008379681/colorLogoPNG_1733440516297.png" />
+  </channel>
+  <channel id="CABB2500030GT">
+    <display-name>JOURNY TV</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500030GT_20260303T094725SQUARE.png" />
+  </channel>
+  <channel id="6132619f9ddaa50007e7dd86">
+    <display-name>More TV Sitcoms</display-name>
+    <icon src="https://images.pluto.tv/channels/6132619f9ddaa50007e7dd86/colorLogoPNG.png" />
+  </channel>
+  <channel id="66df8a29b25d2b0008fc5fe0">
+    <display-name>Love Nature</display-name>
+    <icon src="https://images.pluto.tv/channels/66df8a29b25d2b0008fc5fe0/colorLogoPNG.png" />
+  </channel>
+  <channel id="CA300017ZS">
+    <display-name>Love Pets</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA300017ZS_20260303T094735SQUARE.png" />
+  </channel>
+  <channel id="DEBC4700004VZ">
+    <display-name>Love the Planet</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBC4700004VZ_20250107T024340SQUARE.png" />
+  </channel>
+  <channel id="677fb3432952c1163bf1a539">
+    <display-name>Million Dollar Listing</display-name>
+    <icon src="https://images.pluto.tv/channels/677fb3432952c1163bf1a539/colorLogoPNG_1761664837789.png" />
+  </channel>
+  <channel id="GBBA33000557H">
+    <display-name>Moviesphere by Lionsgate</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA33000557H_20250107T022618SQUARE.png" />
+  </channel>
+  <channel id="FRAJ3800004CC">
+    <display-name>MTV Classics</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ3800004CC_20241015T042519SQUARE.png" />
+  </channel>
+  <channel id="CA4600001IG">
+    <display-name>Murdoch Mysteries</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20250819T224303SQUARE.png" />
+  </channel>
+  <channel id="USBB40000028E">
+    <display-name>NBC LX Home</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB40000028E_20250325T014929SQUARE.png" />
+  </channel>
+  <channel id="ESBC400003YM">
+    <display-name>NBC News NOW</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400003YM_20241106T142315SQUARE.png" />
+  </channel>
+  <channel id="CAAJ2700030ON">
+    <display-name>Outside TV</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700030ON_20250902T225933SQUARE.png" />
+  </channel>
+  <channel id="USBD4200016QR">
+    <display-name>PickleballTV</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200016QR_20240520T220130SQUARE.png" />
+  </channel>
+  <channel id="5c665db3e6c01b72c4977bc2">
+    <display-name>Pluto TV Cult Films</display-name>
+    <icon src="https://images.pluto.tv/channels/5c665db3e6c01b72c4977bc2/colorLogoPNG.png" />
+  </channel>
+  <channel id="5bb3fea0f711fd76340eebff">
+    <display-name>Pluto TV Military</display-name>
+    <icon src="https://images.pluto.tv/channels/5bb3fea0f711fd76340eebff/colorLogoPNG.png" />
+  </channel>
+  <channel id="GBBB4600001IK">
+    <display-name>Project Runway</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB4600001IK_20250107T030734SQUARE.png" />
+  </channel>
+  <channel id="CA1400017PU">
+    <display-name>Property Brothers</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20260224T212844SQUARE.png" />
+  </channel>
+  <channel id="US14000030Y">
+    <display-name>Rainy Day Vibes</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US14000030Y_20250217T210827SQUARE.png" />
+  </channel>
+  <channel id="GBBB1000005IO">
+    <display-name>Real Wild</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1000005IO_20250107T022701SQUARE.png" />
+  </channel>
+  <channel id="64f9cccf110545000837912e">
+    <display-name>MTV Ridiculousness</display-name>
+    <icon src="https://images.pluto.tv/channels/64f9cccf110545000837912e/colorLogoPNG-1734529908215.png" />
+  </channel>
+  <channel id="6532e8342cf13100083b404c">
+    <display-name>Warner Bros. TV Say Yes to the Dress</display-name>
+    <icon src="https://images.pluto.tv/channels/6532e8342cf13100083b404c/colorLogoPNG.png" />
+  </channel>
+  <channel id="5ca671f215a62078d2ec0abf">
+    <display-name>Comedy Central Pluto TV</display-name>
+    <icon src="https://images.pluto.tv/channels/5ca671f215a62078d2ec0abf/colorLogoPNG.png" />
+  </channel>
+  <channel id="USBA300031OT">
+    <display-name>SportsGrid</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20250616T221644SQUARE.png" />
+  </channel>
+  <channel id="USBD350002623">
+    <display-name>Stingray Classica</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350002623_20250121T101152SQUARE.png" />
+  </channel>
+  <channel id="CAAJ3400003T7">
+    <display-name>Stingray Naturescape</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400003T7_20250630T232814SQUARE.png" />
+  </channel>
+  <channel id="CABD1200002T9">
+    <display-name>Tastemade</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200002T9_20251202T010057SQUARE.png" />
+  </channel>
+  <channel id="CABC5200002OG">
+    <display-name>Tastemade Home</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200002OG_20250729T185429SQUARE.png" />
+  </channel>
+  <channel id="USBD700017WC">
+    <display-name>Tastemade Travel</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" />
+  </channel>
+  <channel id="CABB2500020SS">
+    <display-name>TED</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500020SS_20250805T010248SQUARE.png" />
+  </channel>
+  <channel id="US1900012GD">
+    <display-name>The Conners</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900012GD_20260303T094153SQUARE.png" />
+  </channel>
+  <channel id="CABC2300001X9">
+    <display-name>The Jack Hanna Channel</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300001X9_20250523T232007SQUARE.png" />
+  </channel>
+  <channel id="GBBC4000002H3">
+    <display-name>The Jamie Oliver Channel</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4000002H3_20251230T031159SQUARE.png" />
+  </channel>
+  <channel id="USBD1200004NS">
+    <display-name>The Walking Dead Universe</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20251104T004628SQUARE.png" />
+  </channel>
+  <channel id="CABC23000223U">
+    <display-name>The Weather Network</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20250729T185435SQUARE.png" />
+  </channel>
+  <channel id="USBC13000065U">
+    <display-name>This Old House</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC13000065U_20260127T205359SQUARE.png" />
+  </channel>
+  <channel id="CA9000103C">
+    <display-name>Tiny House Nation</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA9000103C_20251216T003832SQUARE.png" />
+  </channel>
+  <channel id="USBD70000213">
+    <display-name>TMZ</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD70000213_20251125T030856SQUARE.png" />
+  </channel>
+  <channel id="USBB32000251N">
+    <display-name>TODAY All Day</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20260217T231249SQUARE.png" />
+  </channel>
+  <channel id="DEBA3300030O1">
+    <display-name>Trace Urban</display-name>
+    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300030O1_20250107T024248SQUARE.png" />
+  </channel>
+  <channel id="61d4c2817a823d00070ba53e">
+    <display-name>Vevo True School Hip-Hop</display-name>
+    <icon src="https://images.pluto.tv/channels/61d4c2817a823d00070ba53e/colorLogoPNG.png" />
+  </channel>
+  <channel id="US1900002QK">
+    <display-name>Universal Monsters</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900002QK_20241112T001808SQUARE.png" />
+  </channel>
+  <channel id="USBB1500001GD">
+    <display-name>USA Today</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20250325T020255SQUARE.png" />
+  </channel>
+  <channel id="USBD300012YC">
+    <display-name>Vevo '80s</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300012YC_20260303T094205SQUARE.png" />
+  </channel>
+  <channel id="USBD3000133M">
+    <display-name>Vevo '90s</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000133M_20260303T094208SQUARE.png" />
+  </channel>
+  <channel id="USBB4400015F5">
+    <display-name>Vevo 2K</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400015F5_20260303T094214SQUARE.png" />
+  </channel>
+  <channel id="USBC3600002EK">
+    <display-name>Vevo Hip-Hop</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600002EK_20260303T094219SQUARE.png" />
+  </channel>
+  <channel id="USBC3600008WY">
+    <display-name>Vevo Pop</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600008WY_20260303T094225SQUARE.png" />
+  </channel>
+  <channel id="5da0d83f66c9700009b96d0e">
+    <display-name>Vevo R&amp;B</display-name>
+    <icon src="https://images.pluto.tv/channels/5da0d83f66c9700009b96d0e/colorLogoPNG.png" />
+  </channel>
+  <channel id="USBC3900009K5">
+    <display-name>Vevo R&amp;B</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3900009K5_20260303T094228SQUARE.png" />
+  </channel>
+  <channel id="60db737695c95b599dad50d2c5595fe3">
+    <display-name>Vevo Reggaeton &amp; Trap</display-name>
+    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/60db737695c95b599dad50d2c5595fe3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113591743_Info_HUD_Logo_260X147_center_%25281%2529_%25281%2529.png" />
+    <lcn>1101</lcn>
+  </channel>
+  <channel id="61d4b38226b8a50007fe03a6">
+    <display-name>Vevo Rock</display-name>
+    <icon src="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG_1748797615724.png" />
+  </channel>
+  <channel id="US3800007CR">
+    <display-name>WildEarth</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" />
+  </channel>
+  <channel id="USBB4400018LR">
+    <display-name>Wipeout Xtra</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400018LR_20241014T232200SQUARE.png" />
+  </channel>
+  <channel id="USAJ4300005PJ">
+    <display-name>Yahoo Finance</display-name>
+    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20260120T230333SQUARE.png" />
   </channel>
   <programme channel="5bb3fea0f711fd76340eebff" start="20260304140001 +0000" stop="20260304160001 +0000">
     <title>Boys of H Company</title>
@@ -6513,21 +6832,6 @@
     <category>Reality</category>
     <category>Series</category>
   </programme>
-  <channel id="d93912b4b21158fd95af2ceb8979c586">
-    <display-name>Dove</display-name>
-    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d93912b4b21158fd95af2ceb8979c586/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1738599967209_DoveRefresh_RokuLinear_260X147.png" />
-    <lcn>276</lcn>
-  </channel>
-  <channel id="15cc44e50d8453e18f21ea37713319c5">
-    <display-name>Electric Now</display-name>
-    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/15cc44e50d8453e18f21ea37713319c5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1660071204893_1605145912343_EN_Logo_WhiteonBlack_260x147.png" />
-    <lcn>287</lcn>
-  </channel>
-  <channel id="60db737695c95b599dad50d2c5595fe3">
-    <display-name>Vevo Reggaeton &amp; Trap</display-name>
-    <icon src="https://images.sr.roku.com/idType/roku-trc/context/trc/id/60db737695c95b599dad50d2c5595fe3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675113591743_Info_HUD_Logo_260X147_center_%25281%2529_%25281%2529.png" />
-    <lcn>1101</lcn>
-  </channel>
   <programme channel="d93912b4b21158fd95af2ceb8979c586" start="20260304152800 +0000" stop="20260304171500 +0000">
     <title>Love at First Like</title>
     <desc>Sparks fly between a cynical journalist and a handsome celebrity who offers dating advice for women.</desc>
@@ -7784,310 +8088,6 @@
     <episode-num system="onscreen">S77E319</episode-num>
     <rating system="USA Parental Rating">TV14</rating>
   </programme>
-  <channel id="ATAJ32000027V">
-    <display-name>FailArmy</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATAJ32000027V_20260210T035537SQUARE.png" />
-  </channel>
-  <channel id="ATBD190000101">
-    <display-name>CNN Headlines</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ATBD190000101_20251209T003953SQUARE.png" />
-  </channel>
-  <channel id="CA1400004AE">
-    <display-name>CTV News</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20250729T185109SQUARE.png" />
-  </channel>
-  <channel id="CABC23000223U">
-    <display-name>The Weather Network</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC23000223U_20250729T185435SQUARE.png" />
-  </channel>
-  <channel id="CAAJ40000077N">
-    <display-name>FilmRise Free Movies</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ40000077N_20251125T191329SQUARE.png" />
-  </channel>
-  <channel id="CAAJ2700014EE">
-    <display-name>FilmRise Action</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700014EE_20251125T191323SQUARE.png" />
-  </channel>
-  <channel id="CA4600001IG">
-    <display-name>Murdoch Mysteries</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA4600001IG_20250819T224303SQUARE.png" />
-  </channel>
-  <channel id="CAAJ27000079E">
-    <display-name>FilmRise True Crime</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ27000079E_20251125T191318SQUARE.png" />
-  </channel>
-  <channel id="CAAJ3400002DI">
-    <display-name>Law&amp;Crime</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400002DI_20250729T184552SQUARE.png" />
-  </channel>
-  <channel id="CA35000025N">
-    <display-name>CTV Gets Real</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA35000025N_20260303T094617SQUARE.png" />
-  </channel>
-  <channel id="CA900005B8">
-    <display-name>Dance Moms</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA900005B8_20260117T020526SQUARE.png" />
-  </channel>
-  <channel id="CA1400017PU">
-    <display-name>Property Brothers</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20260224T212844SQUARE.png" />
-  </channel>
-  <channel id="CA14000028T">
-    <display-name>CTV @ Home</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA14000028T_20260303T094613SQUARE.png" />
-  </channel>
-  <channel id="CA9000103C">
-    <display-name>Tiny House Nation</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA9000103C_20251216T003832SQUARE.png" />
-  </channel>
-  <channel id="CABC5200002OG">
-    <display-name>Tastemade Home</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200002OG_20250729T185429SQUARE.png" />
-  </channel>
-  <channel id="CABD1200012B8">
-    <display-name>BBC Home &amp; Garden</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20260303T070517SQUARE.png" />
-  </channel>
-  <channel id="CABB2500021YQ">
-    <display-name>Gusto TV</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500021YQ_20260303T094718SQUARE.png" />
-  </channel>
-  <channel id="CABD1200002T9">
-    <display-name>Tastemade</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200002T9_20251202T010057SQUARE.png" />
-  </channel>
-  <channel id="CABB2500030GT">
-    <display-name>JOURNY TV</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500030GT_20260303T094725SQUARE.png" />
-  </channel>
-  <channel id="CAAJ2700030ON">
-    <display-name>Outside TV</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ2700030ON_20250902T225933SQUARE.png" />
-  </channel>
-  <channel id="CABD1200043OK">
-    <display-name>CBC Comedy</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200043OK_20250819T224253SQUARE.png" />
-  </channel>
-  <channel id="CA1400005SO">
-    <display-name>CTV Laughs</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400005SO_20260303T094625SQUARE.png" />
-  </channel>
-  <channel id="CABA3700001DB">
-    <display-name>Always Funny Videos</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABA3700001DB_20250121T201616SQUARE.png" />
-  </channel>
-  <channel id="CABC5200020WJ">
-    <display-name>Comedy Dynamics</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200020WJ_20260303T094634SQUARE.png" />
-  </channel>
-  <channel id="CA3400002KP">
-    <display-name>Dog Whisperer</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA3400002KP_20260303T070524SQUARE.png" />
-  </channel>
-  <channel id="CABC2300001X9">
-    <display-name>The Jack Hanna Channel</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC2300001X9_20250523T232007SQUARE.png" />
-  </channel>
-  <channel id="CA300017ZS">
-    <display-name>Love Pets</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA300017ZS_20260303T094735SQUARE.png" />
-  </channel>
-  <channel id="CABB2500020SS">
-    <display-name>TED</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABB2500020SS_20250805T010248SQUARE.png" />
-  </channel>
-  <channel id="CAAJ3400003T7">
-    <display-name>Stingray Naturescape</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400003T7_20250630T232814SQUARE.png" />
-  </channel>
-  <channel id="DEBC4700004VZ">
-    <display-name>Love the Planet</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBC4700004VZ_20250107T024340SQUARE.png" />
-  </channel>
-  <channel id="DEBA3300030O1">
-    <display-name>Trace Urban</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/DEBA3300030O1_20250107T024248SQUARE.png" />
-  </channel>
-  <channel id="ES2300004XW">
-    <display-name>Al Jazeera</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ES2300004XW_20251118T015346SQUARE.png" />
-  </channel>
-  <channel id="ESBC400003YM">
-    <display-name>NBC News NOW</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBC400003YM_20241106T142315SQUARE.png" />
-  </channel>
-  <channel id="ESBD3700001S0">
-    <display-name>DATELINE 24/7</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ESBD3700001S0_20241022T051012SQUARE.png" />
-  </channel>
-  <channel id="FRAJ3800004CC">
-    <display-name>MTV Classics</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ3800004CC_20241015T042519SQUARE.png" />
-  </channel>
-  <channel id="GB500007VM">
-    <display-name>Family Feud</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB500007VM_20250513T005729SQUARE.png" />
-  </channel>
-  <channel id="GBBB4600001IK">
-    <display-name>Project Runway</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB4600001IK_20250107T030734SQUARE.png" />
-  </channel>
-  <channel id="GB2000955S">
-    <display-name>AMC Cupid</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2000955S_20260210T040016SQUARE.png" />
-  </channel>
-  <channel id="GB2700003KS">
-    <display-name>Evolution Earth</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB2700003KS_20250107T031117SQUARE.png" />
-  </channel>
-  <channel id="GBBB1000005IO">
-    <display-name>Real Wild</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1000005IO_20250107T022701SQUARE.png" />
-  </channel>
-  <channel id="GBBC4000002H3">
-    <display-name>The Jamie Oliver Channel</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC4000002H3_20251230T031159SQUARE.png" />
-  </channel>
-  <channel id="GBBC900014LW">
-    <display-name>Great British Menu</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC900014LW_20250107T022833SQUARE.png" />
-  </channel>
-  <channel id="GB38000026H">
-    <display-name>Masha &amp; the Bear</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB38000026H_20260120T031424SQUARE.png" />
-  </channel>
-  <channel id="GBBA33000557H">
-    <display-name>Moviesphere by Lionsgate</display-name>
-    <icon src="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBA33000557H_20250107T022618SQUARE.png" />
-  </channel>
-  <channel id="USAJ4300005PJ">
-    <display-name>Yahoo Finance</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ4300005PJ_20260120T230333SQUARE.png" />
-  </channel>
-  <channel id="USBD270001633">
-    <display-name>Hallmark Movies &amp; More</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD270001633_20260217T231325SQUARE.png" />
-  </channel>
-  <channel id="USBB32000196O">
-    <display-name>FilmRise Westerns</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000196O_20251125T191307SQUARE.png" />
-  </channel>
-  <channel id="USAJ3504708A">
-    <display-name>DangerTV</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504708A_20240520T221158SQUARE.png" />
-  </channel>
-  <channel id="USBC13000065U">
-    <display-name>This Old House</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC13000065U_20260127T205359SQUARE.png" />
-  </channel>
-  <channel id="USBB40000028E">
-    <display-name>NBC LX Home</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB40000028E_20250325T014929SQUARE.png" />
-  </channel>
-  <channel id="USBC6000108Z">
-    <display-name>BBC Food</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC6000108Z_20241105T024216SQUARE.png" />
-  </channel>
-  <channel id="USBD700017WC">
-    <display-name>Tastemade Travel</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700017WC_20240910T003703SQUARE.png" />
-  </channel>
-  <channel id="USBA300031OT">
-    <display-name>SportsGrid</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20250616T221644SQUARE.png" />
-  </channel>
-  <channel id="USBD4200016QR">
-    <display-name>PickleballTV</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200016QR_20240520T220130SQUARE.png" />
-  </channel>
-  <channel id="US1900015FR">
-    <display-name>Anger Management</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900015FR_20251202T005907SQUARE.png" />
-  </channel>
-  <channel id="US1900012GD">
-    <display-name>The Conners</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900012GD_20260303T094153SQUARE.png" />
-  </channel>
-  <channel id="USAJ30000039U">
-    <display-name>Dry Bar Comedy</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ30000039U_20240520T215832SQUARE.png" />
-  </channel>
-  <channel id="USBB4400018LR">
-    <display-name>Wipeout Xtra</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400018LR_20241014T232200SQUARE.png" />
-  </channel>
-  <channel id="USBA300004TE">
-    <display-name>Dallas Cowboys Cheer</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300004TE_20241112T000620SQUARE.png" />
-  </channel>
-  <channel id="USBD700021WG">
-    <display-name>BUZZR</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700021WG_20241105T024154SQUARE.png" />
-  </channel>
-  <channel id="USBB32000251N">
-    <display-name>TODAY All Day</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20260217T231249SQUARE.png" />
-  </channel>
-  <channel id="USAJ3504714A">
-    <display-name>Cheddar News</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USAJ3504714A_20251028T011040SQUARE.png" />
-  </channel>
-  <channel id="USBB1500001GD">
-    <display-name>USA Today</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB1500001GD_20250325T020255SQUARE.png" />
-  </channel>
-  <channel id="USBD70000213">
-    <display-name>TMZ</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD70000213_20251125T030856SQUARE.png" />
-  </channel>
-  <channel id="USBD1200004NS">
-    <display-name>The Walking Dead Universe</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200004NS_20251104T004628SQUARE.png" />
-  </channel>
-  <channel id="US1900002QK">
-    <display-name>Universal Monsters</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1900002QK_20241112T001808SQUARE.png" />
-  </channel>
-  <channel id="US3800007CR">
-    <display-name>WildEarth</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" />
-  </channel>
-  <channel id="USBD300012YC">
-    <display-name>Vevo '80s</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD300012YC_20260303T094205SQUARE.png" />
-  </channel>
-  <channel id="USBD3000133M">
-    <display-name>Vevo '90s</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000133M_20260303T094208SQUARE.png" />
-  </channel>
-  <channel id="USBB4400015F5">
-    <display-name>Vevo 2K</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB4400015F5_20260303T094214SQUARE.png" />
-  </channel>
-  <channel id="USBC3600002EK">
-    <display-name>Vevo Hip-Hop</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600002EK_20260303T094219SQUARE.png" />
-  </channel>
-  <channel id="USBC3900009K5">
-    <display-name>Vevo R&amp;B</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3900009K5_20260303T094228SQUARE.png" />
-  </channel>
-  <channel id="USBC3600008WY">
-    <display-name>Vevo Pop</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600008WY_20260303T094225SQUARE.png" />
-  </channel>
-  <channel id="USBD350002623">
-    <display-name>Stingray Classica</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD350002623_20250121T101152SQUARE.png" />
-  </channel>
-  <channel id="US14000030Y">
-    <display-name>Rainy Day Vibes</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US14000030Y_20250217T210827SQUARE.png" />
-  </channel>
-  <channel id="USBA3800004EL">
-    <display-name>Fireplace Vibes</display-name>
-    <icon src="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA3800004EL_20241105T185655SQUARE.png" />
-  </channel>
   <programme channel="ATAJ32000027V" start="20260304170012 +0000" stop="20260304173012 +0000">
     <title>World's Most Expensive Fails</title>
     <sub-title>S2 E03</sub-title>

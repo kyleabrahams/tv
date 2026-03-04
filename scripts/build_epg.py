@@ -4,6 +4,7 @@ from io import BytesIO
 import os
 import time
 
+# Mar 4, 2026 110 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg.py
@@ -195,7 +196,8 @@ HEADERS = {
 # PROCESS
 # -------------------------
 new_root = ET.Element("tv")
-seen_channels = set()
+seen_channels = {}
+programmes_to_add = []
 
 for url in XMLTV_URLS:
     print(f"⬇️ Fetching {url}")
@@ -225,15 +227,31 @@ for url in XMLTV_URLS:
         cid = channel.get("id")
         if not cid or (CHANNELS and cid not in CHANNELS) or cid in seen_channels:
             continue
-        seen_channels.add(cid)
-        new_root.append(channel)
+        seen_channels[cid] = channel  # store the element, keyed by id
 
     # ---- Programmes ----
     for programme in root.findall("programme"):
         cid = programme.get("channel")
         if not cid or (CHANNELS and cid not in CHANNELS):
             continue
-        new_root.append(programme)
+        programmes_to_add.append(programme)
+
+# -------------------------
+# SORT AND BUILD XML
+# -------------------------
+# Sort channels alphabetically by name
+sorted_channel_ids = sorted(
+    seen_channels.keys(),
+    key=lambda cid: CHANNELS.get(cid, cid).lower()
+)
+
+# Append channels first
+for cid in sorted_channel_ids:
+    new_root.append(seen_channels[cid])
+
+# Then append all programmes
+for prog in programmes_to_add:
+    new_root.append(prog)
 
 # -------------------------
 # WRITE OUTPUT
@@ -253,12 +271,12 @@ print("Channels and number of programs:")
 
 # Count programs per channel
 program_counts = {cid: 0 for cid in seen_channels}
-for programme in new_root.findall("programme"):
+for programme in programmes_to_add:
     cid = programme.get("channel")
     if cid in seen_channels:
         program_counts[cid] += 1
 
-# Print results
-for cid in seen_channels:
+# Print results in alphabetical order
+for cid in sorted_channel_ids:
     channel_name = CHANNELS.get(cid, "Unknown")
     print(f" - {channel_name} ({cid}): {program_counts[cid]} programs")
