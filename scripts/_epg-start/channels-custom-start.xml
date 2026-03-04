@@ -837,7 +837,7 @@
 
   <channel site="streamingtvguides.com" lang="en" xmltv_id="PixL.us" site_id="PIXLSD">PIXL SD</channel>
 
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PlexALF.ca" site_id="Plex/all#5e20b730f2f8d5003d739db7-62d1ecc8e44d39da220722aa">ALF</channel>
+  <!-- <channel site="i.mjh.nz" lang="en" xmltv_id="PlexALF.ca" site_id="Plex/all#5e20b730f2f8d5003d739db7-62d1ecc8e44d39da220722aa">ALF</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoAngerManagement.ca" site_id="PlutoTV/ca#65cf8bdaa25d5e00081e1e5d">Anger Management</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoAreWeThereYet.ca" site_id="PlutoTV/ca#65cf8b9328730900087c5324">Are We There Yet?</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="PlexTheConners.us" site_id="66e2a94d167a8b000813485d">The Conners</channel>
@@ -850,8 +850,6 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoHappyDays.ca" site_id="PlutoTV/ca#62e917b5e354cf0007b97a67">Happy Days</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoJerseyShore.us" site_id="PlutoTV/us#609bfa51fbecc1000733152e">Jersey Shore</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoTheWalkingDeadUniverse.us" site_id="PlutoTV/us#62fa8176b9884200074ef5ae">The Walking Dead Universe</channel>
-
-
   <channel site="pluto.tv" lang="en" xmltv_id="Pluto00sReplay" site_id="62ba60f059624e000781c436">00s Replay</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="Pluto48Hours.ca" site_id="6176f39e709f160007ec61c3">48 Hours</channel>
   <channel site="pluto.tv" lang="en" xmltv_id="Pluto70smaxma.us" site_id="5f4d878d3d19b30007d2e782">70s Cinema</channel>
@@ -920,7 +918,7 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoSayYestotheDress.us" site_id="PlutoTV/us#6532e8342cf13100083b404c">Warner Bros. TV Say Yes to the Dress</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexWomensSportsNetwork.us" site_id="Plex/all#5e20b730f2f8d5003d739db7-630fa9e577ec3866def38fa2">Women's Sports Network</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PlexYahooFinance.au" site_id="Plex/au#5e20b730f2f8d5003d739db7-5f170f01b898490041b49dd1">Yahoo Finance</channel>
-  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoYoMTV.ca" site_id="PlutoTV/ca#654102ed770cf1000866c307">Yo! MTV</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="PlutoYoMTV.ca" site_id="PlutoTV/ca#654102ed770cf1000866c307">Yo! MTV</channel> -->
 
   <channel site="tvpassport.com" lang="en" xmltv_id="PopEast.us" site_id="pop--east/10165">POP - East</channel>
   <!-- <channel site="tvtv.us" lang="en" xmltv_id="PopEast.us" site_id="16715">Pop East</channel> -->

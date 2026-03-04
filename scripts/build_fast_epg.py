@@ -1,10 +1,13 @@
 import requests
 import xml.etree.ElementTree as ET
+from xml.dom import minidom
 from io import BytesIO
 import os
 import time
+import re
 
-# Mar 4, 2026 110 pm
+
+# build_fast_epg.py Mar 4 2026 615 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -228,7 +231,17 @@ for url in XMLTV_URLS:
         cid = channel.get("id")
         if not cid or (CHANNELS and cid not in CHANNELS) or cid in seen_channels:
             continue
-        seen_channels[cid] = channel  # store the element, keyed by id
+
+        # Remove <icon> from the channel before storing
+        for icon in channel.findall("icon"):
+            channel.remove(icon)
+
+        # Add <url> tag pointing to the source XML
+        url_elem = ET.Element("url")
+        url_elem.text = url  # this is the XML source for this batch
+        channel.append(url_elem)
+
+        seen_channels[cid] = channel  # store the cleaned element
 
     # ---- Programmes ----
     for programme in root.findall("programme"):
@@ -255,14 +268,64 @@ for prog in programmes_to_add:
     new_root.append(prog)
 
 # -------------------------
-# WRITE OUTPUT
+# Function to pretty-print XML
 # -------------------------
-ET.ElementTree(new_root).write(
-    OUTPUT_XML,
-    encoding="utf-8",
-    xml_declaration=True
-)
+# -------------------------
+# Step 1: Build merged_root
+# -------------------------
+merged_root = ET.Element("tv")
 
+# Add channels
+for cid in sorted_channel_ids:
+    merged_root.append(seen_channels[cid])
+
+# Add programmes
+for prog in programmes_to_add:
+    merged_root.append(prog)
+
+# -------------------------
+# Step 2: Pretty-print XML
+# -------------------------
+def build_flat_xml(channels, programmes):
+    """
+    Build single-line XML string for channels and programmes.
+    Removes <icon> and adds <url> if present.
+    """
+    xml_lines = ['<?xml version="1.0" encoding="utf-8"?>', '<tv>']
+
+    # Channels
+    for channel in channels:
+        cid = channel.get("id")
+        display_name = channel.findtext("display-name", default="")
+        url_elem = channel.find("url")
+        url = url_elem.text if url_elem is not None else ""
+        # Build single-line channel, skip icon
+        line = f'<channel id="{cid}"><display-name>{display_name}</display-name>'
+        if url:
+            line += f'<url>{url}</url>'
+        line += '</channel>'
+        xml_lines.append(line)
+
+    # Programmes
+    for prog in programmes:
+        cid = prog.get("channel")
+        # Convert all children into string
+        children_str = "".join([ET.tostring(child, encoding="unicode").strip() for child in prog])
+        # Build programme element
+        attribs = " ".join([f'{k}="{v}"' for k, v in prog.attrib.items()])
+        line = f'<programme {attribs}>{children_str}</programme>'
+        xml_lines.append(line)
+
+    xml_lines.append("</tv>")
+    return "".join(xml_lines)  # single-line output
+
+# Usage
+flat_xml = build_flat_xml([seen_channels[cid] for cid in sorted_channel_ids], programmes_to_add)
+
+with open(OUTPUT_XML, "w", encoding="utf-8") as f:
+    f.write(flat_xml)
+
+print("✅ Fast EPG XML saved with single-line channels and programmes, no icons, no extra spaces")
 # -------------------------
 # SUMMARY
 # -------------------------
