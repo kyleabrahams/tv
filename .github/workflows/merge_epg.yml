@@ -6,8 +6,10 @@ on:
     # branches:
       # - main  # Adjust if you want other branches
   schedule:
-    - cron: '0 6 * * *'  # 1 AM ET every day UTC +5
-    - cron: '0 18 * * *'  # 1 PM ET every day UTC +5
+    - cron: '0 5 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 17 * * *'
+    - cron: '0 23 * * *'
 
 concurrency:
   group: "merge_epg"
