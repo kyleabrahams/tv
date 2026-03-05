@@ -143,10 +143,10 @@ CHANNELS = {
     "CA9000103C": "Tiny House Nation - Samsung",
     "US1900002QK": "Universal Monsters - Samsung",
     # US Local TV
-    "WUTV-DT.us": "FOX 29 WUTV",
-    "WIVB-DT.us": "CBS Buffalo WIVB",
-    "WNBC-DT.us_": "NBC New York WNBC",
-    "WKBW-DT.us": "ABC New York WKBW",    
+    "WUTV-DT.us_locals1": "FOX 29 WUTV",
+    "WIVB-DT.us_locals1": "CBS Buffalo WIVB",
+    "WNBC-DT.us_locals1": "NBC New York WNBC",
+    "WKBW-DT.us_locals1": "ABC New York WKBW",    
     "": "Name",
     # Paid TV
     "": "Name",
