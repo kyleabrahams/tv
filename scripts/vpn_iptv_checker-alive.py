@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 import shutil
 import tempfile
-import yaml
+# import yaml
 
 
 # vpn_iptv_checker-alive.py Mar 5 2026 928 am
@@ -85,12 +85,9 @@ def check_channel_live(url):
         return False
 
 
-# ---------- CONFIG ----------
-CREATE_LOG_FILE = True  # Set to False to skip writing offline_channel_log.yml
-
 # ---------- FUNCTION ----------
 def parse_and_check_m3u(m3u_path):
-    """Check channels and optionally write offline channels to offline_channel_log.yml."""
+    """Check channels and print offline channels without creating a log file."""
     if not os.path.isfile(m3u_path):
         raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
 
@@ -119,20 +116,11 @@ def parse_and_check_m3u(m3u_path):
                 alive = check_channel_live(url)
 
             if not alive:
-                offline_info = {
-                    "channel": name,
-                    "status": "No URL (offline)" if not url else "Offline"
-                }
-                offline_channels.append(offline_info)
-                tqdm.write(f"*{name}: {offline_info['status']}")  # real-time offline output
+                status = "No URL (offline)" if not url else "Offline"
+                offline_channels.append((name, status))
+                tqdm.write(f"*{name}: {status}")  # real-time offline output
 
             pbar.update(1)
-
-    # Write YAML log if toggle is True
-    if CREATE_LOG_FILE:
-        log_path = os.path.join(os.getcwd(), "offline_channel_log.yml")
-        with open(log_path, "w", encoding="utf-8") as log_file:
-            yaml.dump({"offline_channels": offline_channels, "total_channels": total_channels}, log_file)
 
     # Print summary
     print("\nSummary:")
