@@ -16,7 +16,7 @@ from logging.handlers import RotatingFileHandler
 import re
 import pytz
 
-# merge_epg.py Mar 4 2026 618 p 
+# merge_epg.py Mar 4 2026 901 p 
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/merge_epg.py
@@ -106,7 +106,7 @@ def run_npm_grab():
     # -------------------------
     run_build_dummy_epg = True
     run_build_fast_epg = True  
-    run_channels_custom = True
+    run_channels_custom = False
     run_channels_custom_date = False
     run_channels_test = False
     run_channels_test_copy = False
