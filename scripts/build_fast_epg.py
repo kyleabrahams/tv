@@ -5,11 +5,12 @@ from io import BytesIO
 import os
 import time
 import re
+import gzip
 from xml.sax.saxutils import escape
 
 
 
-# build_fast_epg.py Mar 4 2026 910 pm
+# build_fast_epg.py Mar 4 2026 1103 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -28,6 +29,7 @@ XMLTV_URLS = [
     "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Roku/all.xml",
     "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml",
+    "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
     "https://i.mjh.nz/SamsungTVPlus/all.xml"
 ]
 
@@ -141,30 +143,22 @@ CHANNELS = {
     "": "Name",
     "I215.10105.schedulesdirect.org": "Omni 1 - acidjesuz",
     "I802.46245.schedulesdirect.org": "CBC Toronto - acidjesuz",
-    "I1053.34200.schedulesdirect.org": "Citytv Toronto HD - acidjesuz",
     "I1051.44784.schedulesdirect.org": "CTV Toronto - acidjesuz",          
     "I1131.62890.schedulesdirect.org": "CTV Calgary - acidjesuz",
     "I237.10057.schedulesdirect.org": "Bravo.ca - acidjesuz",
     "I218.60123.schedulesdirect.org": "CHCH - acidjesuz",
     "I530.99429.schedulesdirect.org": "Makeful - acidjesuz",     
-    "I1054.72705.schedulesdirect.org": "CTV2 - acidjesuz",    
     "I501.17615.schedulesdirect.org": "CTV News Channel - acidjesuz",
     "I281.31046.schedulesdirect.org": "MotorTrend - Discovery Turbo - acidjesuz",
     "I486.72139.schedulesdirect.org": "Much Music HD - acidjesuz",
     "I7.87004.schedulesdirect.org": "AandE.ca - acidjesuz",          
-    "I25.90852.schedulesdirect.org": "AMC - acidjesuz",
     "I193.58646.schedulesdirect.org": "CNN - acidjesuz",
-    "I698.74420.schedulesdirect.org": "TLC - acidjesuz",
     "I251.21484.schedulesdirect.org": "Oxygen - acidjesuz",     
-    "I327.59440.schedulesdirect.org": "CMT.ca - acidjesuz",
     "I601.15181.schedulesdirect.org": "Slice - acidjesuz",
-    "I242.58452.schedulesdirect.org": "USA Network - acidjesuz",
     "I269.57708.schedulesdirect.org": "History.ca - acidjesuz",    
     "I629.26772.schedulesdirect.org": "H2 History - acidjesuz",
-    "I417.111077.schedulesdirect.org": "HGTV - acidjesuz",
     "I810.52745.schedulesdirect.org": "Love Nature - acidjesuz",
     "I256.12852.schedulesdirect.org": "TCM - acidjesuz",   
-    "I223.110960.schedulesdirect.org": "CTV Nature / Discovery Science - acidjesuz",
     "I282.16331.schedulesdirect.org": "CTV Wild / Animal Planet - acidjesuz",
     "I283.66804.schedulesdirect.org": "Nat Geo Wild East - acidjesuz",
     "I331.10986.schedulesdirect.org": "MTV - acidjesuz",     
@@ -230,31 +224,31 @@ CHANNELS = {
     "I1031.60500.schedulesdirect.org": "Sky History - acidjesuz",
     "I1063.16235.schedulesdirect.org": "Sky Showcase - acidjesuz",
     "I1125.17443.schedulesdirect.org": "Sky Witness - acidjesuz",
-
-    "": "Name",  
-    "": "Name",
-    "": "Name",
-    "": "Name",    
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name", 
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name",     
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name",    
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name",   
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name",     
+    # epgshare01 GZ
+    "Home.and.Garden.Television.ca2": "HGTV",  
+    "Cable.Pulse.24.(CP24).HD.ca2": "CP24",
+    "MSNBC.Canada,.Caribbean.and.International.HD.ca2": "MSNBC",
+    "Global.Toronto.HD.ca2": "Global Toronto",    
+    "Citytv.Toronto.HD.ca2": "Citytv Toronto",
+    "CTV.Two.-.Barrie.ca2": "CTV Barrie",
+    "CTV.Two.-.London/Windsor.ca2": "CTV2 Windsor",
+    "W.Network.ca2": "W Network", 
+    "CTV.Speed.HD.ca2": "CTV Speed",
+    "A.and.E.Canada.HD.ca2": "A&E",
+    "AMC.Canada.HD.ca2": "AMC",
+    "The.Learning.Channel.HD.Canada.ca2": "TLC",     
+    "CTV.LIFE.CHANNEL.ca2": "CTV Life",
+    "Country.Music.Television.(CMT).ca2": "CMT",
+    "Showcase.Television.Inc..(Canada).ca2": "Showcase",
+    "CTV.DRAMA.CHANNEL.ca2": "CTV Drama",    
+    "USA.Network.HD.ca2": "USA Network",
+    "History.Television.HD.(Canada).ca2": "History",
+    "CTV.COMEDY.CHANNEL.ca2": "CTV Comedy",
+    "Home.Network.HD.ca2": "Home Network",   
+    "Turner.Classic.Movies.Canada.HD.ca2": "TCM",
+    "CTV.Nature.HD.ca2": "CTV Nature",
+    "CTV.SCI-FI.CHANNEL.HD.ca2": "CTV Sci-fi",
+    "National.Geographic.Wild.Canada.HD.ca2": "Nat Geo Wild",     
     "": "Name",
     "": "Name",
     "": "Name",
@@ -330,8 +324,12 @@ for url in XMLTV_URLS:
         print(f"❌ Skipping {url} after 3 failed attempts")
         continue
 
-    # Parse XML
-    root = ET.parse(BytesIO(r.content)).getroot()
+    # Parse XML (supports .xml and .xml.gz)
+    if url.endswith(".gz") or r.headers.get("Content-Encoding") == "gzip":
+        with gzip.open(BytesIO(r.content), "rt", encoding="utf-8", errors="ignore") as f:
+            root = ET.parse(f).getroot()
+    else:
+        root = ET.parse(BytesIO(r.content)).getroot()
 
     # ---- Channels ----
     for channel in root.findall("channel"):
