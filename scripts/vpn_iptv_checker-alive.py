@@ -1,72 +1,120 @@
+from tqdm import tqdm  # add this at the top
 import subprocess
 import time
 import os
-
-def connect_vpn(vpn_config_path):
-    """Connect to the VPN using OpenVPN."""
-    command = ["sudo", "openvpn", "--config", vpn_config_path]
-    subprocess.Popen(command)
-
-def run_iptv_checker(m3u_file_path, output_path):
-    """Run the IPTV checker command."""
-    command = ["iptv-checker", m3u_file_path, "-o", output_path]
-    subprocess.run(command)
-
-def commit_and_push_changes(directory, commit_message):
-    """Commit and push changes in the specified directory to GitHub."""
-    try:
-        # Stage all changes in the specified directory
-        subprocess.run(["git", "add", directory], check=True)
-        
-        # Commit the staged changes
-        subprocess.run(["git", "commit", "-m", commit_message], check=True)
-        
-        # Push the committed changes to the remote repository
-        subprocess.run(["git", "push", "origin", "main"], check=True)
-        
-        print(f"Changes in {directory} successfully committed and pushed to GitHub.")
-    except subprocess.CalledProcessError as e:
-        print(f"Error committing or pushing changes: {e}")
-
 from datetime import datetime
+import shutil
 
-def main():
-    # Set the base directory relative to the script location
-    base_dir = os.path.dirname(os.path.abspath(__file__))
+# vpn_iptv_checker-alive.py Mar 5 2026 928 am
 
-    # Path to the ProtonVPN config file
-    vpn_config_path = os.path.join(base_dir, "../_VPN/ca.protonvpn.udp.ovpn")
+# brew install openvpn
+# brew install ffmpeg
+# pip3 install tqdm
+# npm install -g iptv-checker
+# export PATH="$HOME/.nvm/versions/node/v20.18.0/bin:$PATH"
+# source ~/.zshrc
+# add repo
+# git clone https://github.com/freearhey/iptv-checker.git
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/vpn_iptv_checker-alive.py
+
+# ---------- CONFIG ----------
+# Source M3U file (full playlist)
+SOURCE_M3U = "/Volumes/Kyle4tb1223/Documents/Github/tv/list/list.m3u"
+
+# ProtonVPN files
+VPN_CONFIG = "/Volumes/Kyle4tb1223/Documents/_VPN/ca.protonvpn.udp.ovpn"
+VPN_CREDENTIALS = "/Volumes/Kyle4tb1223/Documents/_VPN/proton_credentials.txt"
+
+VPN_WAIT = 10  # seconds to wait for VPN to connect
+
+# ---------- FUNCTIONS ----------
+def check_ffprobe():
+    if shutil.which("ffprobe") is None:
+        print("WARNING: 'ffprobe' not found. Install ffmpeg with 'brew install ffmpeg' to avoid errors.")
+    else:
+        print(f"ffprobe found at {shutil.which('ffprobe')}")
+
+def connect_vpn(vpn_config_path, credentials_path):
+    """Connect to VPN in the background."""
+    if not os.path.isfile(vpn_config_path) or not os.path.isfile(credentials_path):
+        raise FileNotFoundError("VPN config or credentials not found.")
     
-    # Get current timestamp
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")  # Format: YYYYMMDD_HHMMSS
+    print("Starting VPN connection...")
+    subprocess.Popen([
+        "sudo", "openvpn",
+        "--config", vpn_config_path,
+        "--auth-user-pass", credentials_path
+    ])
+    print(f"Waiting {VPN_WAIT} seconds for VPN to establish...")
+    time.sleep(VPN_WAIT)
+    print("VPN should now be connected.")
 
-    # Generate the M3U file path with dynamic timestamp
-    m3u_file_path = os.path.join(base_dir, "_alive", f"alive_{timestamp}.m3u")
+def check_channel_live(url):
+    """Check if a stream is online using ffprobe with proper return code."""
+    if not url:
+        return False
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_streams", url],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+            timeout=15  # increase timeout for slow streams
+        )
+        # ffprobe returns 0 if stream is valid
+        return result.returncode == 0
+    except subprocess.TimeoutExpired:
+        return False
+    except Exception:
+        return False
 
-    # Define the output folder path
-    output_path = os.path.join(base_dir, "_alive")
 
-    # Ensure the '_alive' directory exists
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+def parse_and_check_m3u(m3u_path):
+    """Check channels with a stable progress bar at the bottom."""
+    if not os.path.isfile(m3u_path):
+        raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
 
-    # Print paths for debugging
-    print(f"M3U file will be saved at: {m3u_file_path}")
-    print(f"Output folder: {output_path}")
+    with open(m3u_path, "r", encoding="utf-8") as f:
+        lines = [line.strip() for line in f if line.strip()]
 
-    # Connect to VPN
-    connect_vpn(vpn_config_path)
+    # Build channel list
+    channel_list = []
+    for i, line in enumerate(lines):
+        if line.startswith("#EXTINF"):
+            try:
+                name = line.split(",", 1)[1]
+            except IndexError:
+                name = "Unknown"
+            url = lines[i + 1] if i + 1 < len(lines) else None
+            channel_list.append((name, url))
 
-    # Wait for VPN to establish
-    time.sleep(10)
+    total_channels = len(channel_list)
+    offline_channels = 0
 
-    # Run IPTV checker
-    run_iptv_checker(m3u_file_path, output_path)
+    # Use a proper tqdm bar
+    with tqdm(total=total_channels, desc="Checking channels", unit="ch", dynamic_ncols=True) as pbar:
+        for name, url in channel_list:
+            alive = False
+            if url and not url.startswith("#"):
+                alive = check_channel_live(url)
 
-    # Commit and push changes in the www folder
-    current_time = time.strftime("%Y-%m-%d %H:%M:%S")
-    commit_message = f"Auto-update IPTV files at {current_time}"
-    commit_and_push_changes(output_path, commit_message)
+            if not alive:
+                offline_channels += 1
+                tqdm.write(f"{name}: {'No URL (offline)' if not url else 'Offline'}")
+
+            pbar.update(1)
+
+    # Summary
+    print("\nSummary:")
+    print(f"Total channels: {total_channels}")
+    print(f"Offline channels: {offline_channels}")
+
+
+# ---------- MAIN ----------
+def main():
+    check_ffprobe()
+    connect_vpn(VPN_CONFIG, VPN_CREDENTIALS)
+    parse_and_check_m3u(SOURCE_M3U)
+
 
 if __name__ == "__main__":
     main()
