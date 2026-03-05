@@ -1,0 +1,36 @@
+name: Offline Channel Log
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # every day UTC
+  workflow_dispatch:
+
+jobs:
+  vpn_iptv_check:
+    runs-on: ubuntu-latest
+
+    env:
+      VPN_USERNAME: ${{ secrets.VPN_USERNAME }}
+      VPN_PASSWORD: ${{ secrets.VPN_PASSWORD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn ffmpeg python3-pip
+          pip3 install --upgrade pip
+          pip3 install tqdm pyyaml
+
+      - name: Run IPTV offline checker
+        run: |
+          python3 scripts/vpn_iptv_checker-alive.py || echo "Script finished with errors"
+
+      - name: Upload offline log as artifact
+        if: success() || failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: offline_channel_log
+          path: scripts/offline_channel_log.yml
