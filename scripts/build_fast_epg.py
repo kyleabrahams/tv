@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 
 
 
-# build_fast_epg.py Mar 5 2026 928 am
+# build_fast_epg.py Mar 5 2026 415 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -258,7 +258,7 @@ CHANNELS = {
     "National.Geographic.Wild.HD.us2": "US Nat Geo Wild - epgshare01",
     "Flavour.Network.HD.ca2": "Flavour Network - epgshare01",
     "Food.Network.HD.us2": "Food Network - epgshare01",
-    "WNED-DT.us": "PBS WNED - epgshare01",    
+    "WNED-DT.us_locals1": "PBS WNED - epgshare01",    
     "E!.Entertainment.Television.Canada.HD.ca2": "E! - epgshare01",
     "FX.HD.ca2": "FX - epgshare01",
     "FXX.Canada.ca2": "FXX - epgshare01",
