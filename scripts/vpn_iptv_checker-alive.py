@@ -98,10 +98,11 @@ def check_channel_live(url):
 
 def parse_and_check_m3u(m3u_path):
     """Check channels and print offline channels in real-time."""
+
     if not os.path.isfile(m3u_path):
         raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
 
-    # Detect if running in GitHub Actions
+    # Detect GitHub Actions
     in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
 
     with open(m3u_path, "r", encoding="utf-8") as f:
@@ -115,33 +116,36 @@ def parse_and_check_m3u(m3u_path):
                 name = line.split(",", 1)[1]
             except IndexError:
                 name = "Unknown"
+
             url = lines[i + 1] if i + 1 < len(lines) else None
             channel_list.append((name, url))
 
     total_channels = len(channel_list)
     offline_channels = []
 
-    # tqdm settings: disable progress bar in Actions
-    tqdm_args = {
-        "total": total_channels,
-        "desc": "Checking channels",
-        "unit": "ch",
-        "dynamic_ncols": True,
-        "file": sys.stdout,
-        "disable": in_actions  # hide progress bar in Actions
-    }
+    from tqdm import tqdm
 
-    with tqdm(**tqdm_args) as pbar:
+    with tqdm(
+        total=total_channels,
+        desc="Checking channels",
+        unit="ch",
+        dynamic_ncols=True,
+        disable=in_actions
+    ) as pbar:
+
         for name, url in channel_list:
+
             alive = False
+
             if url and not url.startswith("#"):
                 alive = check_channel_live(url)
 
             if not alive:
                 status = "No URL (offline)" if not url else "Offline"
                 offline_channels.append((name, status))
-                # print in real-time even if progress bar hidden
-                tqdm.write(f"*{name}: {status}", file=sys.stdout)
+
+                # print immediately
+                print(f"❌ {name}: {status}", flush=True)
 
             pbar.update(1)
 
