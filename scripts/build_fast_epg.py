@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 
 
 
-# build_fast_epg.py Mar 4 2026 1110 pm
+# build_fast_epg.py Mar 5 2026 1203 am
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -143,16 +143,11 @@ CHANNELS = {
     "CA9000103C": "Tiny House Nation - Samsung",
     "US1900002QK": "Universal Monsters - Samsung",
     # US Local TV
-    "WUTV-DT.us": "FOX 29",
+    "WUTV-DT.us": "FOX 29 WUTV",
+    "WIVB-DT.us": "CBS Buffalo WIVB",
+    "WNBC-DT.us_": "NBC New York WNBC",
+    "WKBW-DT.us": "ABC New York WKBW",    
     "": "Name",
-    "": "Name",
-    "": "Name",    
-    "": "Name",
-    "": "Name",
-    "": "Name",
-    "": "Name",  
-    "": "Name",    
-
     # Paid TV
     "": "Name",
     "I215.10105.schedulesdirect.org": "Omni 1 - acidjesuz",
@@ -177,7 +172,6 @@ CHANNELS = {
     "I283.66804.schedulesdirect.org": "Nat Geo Wild East - acidjesuz",
     "I331.10986.schedulesdirect.org": "MTV - acidjesuz",     
     "I618.17693.schedulesdirect.org": "DTOUR - acidjesuz",
-    "I231.12574.schedulesdirect.org": "Flavour Network / Food Network - acidjesuz",
     "I232.30156.schedulesdirect.org": "Cooking Channel - acidjesuz",
     "I236.10989.schedulesdirect.org": "E!.ca - acidjesuz",    
     "I248.58574.schedulesdirect.org": "FX.ca - acidjesuz",
@@ -190,7 +184,6 @@ CHANNELS = {
     "I357.26849.schedulesdirect.org": "CNBC World - acidjesuz",     
     "I425.113876.schedulesdirect.org": "HLN - acidjesuz",
     "I149.60048.schedulesdirect.org": "Cartoon Network - acidjesuz",
-    "I232.70506.schedulesdirect.org": "Disney Junior - acidjesuz",
     "I501.10240.schedulesdirect.org": "HBO - acidjesuz",    
     "I506.59839.schedulesdirect.org": "HBO Comedy - acidjesuz",
     "I300.10191.schedulesdirect.org": "Crave 1 - acidjesuz",
@@ -241,7 +234,6 @@ CHANNELS = {
     # epgshare01 GZ
     "Home.and.Garden.Television.ca2": "HGTV",  
     "Cable.Pulse.24.(CP24).HD.ca2": "CP24",
-    "MSNBC.Canada,.Caribbean.and.International.HD.ca2": "MSNBC",
     "Global.Toronto.HD.ca2": "Global Toronto",    
     "Citytv.Toronto.HD.ca2": "Citytv Toronto",
     "CTV.Two.-.Barrie.ca2": "CTV Barrie",
@@ -263,6 +255,49 @@ CHANNELS = {
     "CTV.Nature.HD.ca2": "CTV Nature",
     "CTV.SCI-FI.CHANNEL.HD.ca2": "CTV Sci-fi",
     "National.Geographic.Wild.Canada.HD.ca2": "Nat Geo Wild",     
+    "National.Geographic.Wild.HD.us2": "US Nat Geo Wild",
+    "Flavour.Network.HD.ca2": "Flavour Network",
+    "Food.Network.HD.us2": "Food Network",
+    "WNED-DT.us": "PBS WNED",    
+    "E!.Entertainment.Television.Canada.HD.ca2": "E!",
+    "FX.HD.ca2": "FX",
+    "FXX.Canada.ca2": "FXX",
+    "CHARGE!.us2": "Charge!",  
+    "Peachtree.TV.us2": "Peachtree",
+    "T+E.ca2": "Travel + Escape",
+    "Aboriginal.Peoples.Television.Network.HD.ca2": "APTN",    
+    "MSNBC.HD.us2": "MSNBC",
+    "BNN.Bloomberg.HD.ca2": "BNN Bloomberg",
+    "Lifetime.HD.us2": "Lifetime",
+    "LMN.HD.us2": "LMN", 
+    "Paramount.Network.HD.us2": "Paramount",
+    "National.Geographic.Canada.HD.ca2": "National Geographic",
+    "National.Geographic.HD.us2": "National Geographic",
+    "Curiosity.Channel.HD.us2": "Curiosity",     
+    "Smithsonian.HD.Network.us2": "Smithsonian",
+    "USA.Network.HD.us2": "USA Network",
+    "Game.Show.Network.HD.us2": "Game Show Network",
+    "GameTV.Canada.ca2": "GameTV",    
+    "TVO.ca2": "TV Ontario",
+    "YTVP.ca2": "YTV",
+    "Nickelodeon.HD.us2": "Nickelodeon",
+    "Treehouse.ca2": "Treehouse",   
+    "Disney.Junior.HD.us2": "Disney Junior",
+    "Disney.Channel.HD.us2": "Disney Channel",
+    "HBO.Canada.1.HD.ca2": "HBO",
+    "HBO.Canada.West.HD.ca2": "HBO2",     
+    "": "Name",
+    "": "Name",
+    "": "Name",
+    "": "Name",    
+    "": "Name",
+    "": "Name",
+    "": "Name",
+    "": "Name",        
+    "": "Name",
+    "": "Name",
+    "": "Name",
+    "": "Name",     
     "": "Name",
     "": "Name",
     "": "Name",
@@ -273,11 +308,16 @@ CHANNELS = {
     "": "Name",  
     "": "Name",
     "": "Name",
+    "": "Name",
+    "": "Name",     
+    "": "Name",
+    "": "Name",
+    "": "Name",
     "": "Name",    
     "": "Name",
     "": "Name",
     "": "Name",
-    "": "Name", 
+    "": "Name",  
     "": "Name",
     "": "Name",
     "": "Name",
@@ -289,7 +329,7 @@ CHANNELS = {
     "": "Name",
     "": "Name",
     "": "Name",
-    "": "Name",   
+    "": "Name",  
     "": "Name",
     "": "Name",
     "": "Name",
@@ -301,7 +341,7 @@ CHANNELS = {
     "": "Name",
     "": "Name",
     "": "Name",
-    "": "Name",              
+    "": "Name",                        
 }
 
 # User-Agent header
@@ -310,6 +350,8 @@ HEADERS = {
                   "AppleWebKit/537.36 (KHTML, like Gecko) "
                   "Chrome/115.0.0.0 Safari/537.36"
 }
+
+import gzip
 
 # -------------------------
 # PROCESS
@@ -338,12 +380,13 @@ for url in XMLTV_URLS:
         print(f"❌ Skipping {url} after 3 failed attempts")
         continue
 
-    # Parse XML (supports .xml and .xml.gz)
-    if url.endswith(".gz") or r.headers.get("Content-Encoding") == "gzip":
-        with gzip.open(BytesIO(r.content), "rt", encoding="utf-8", errors="ignore") as f:
+    # Parse XML safely (.xml or .xml.gz)
+    content = r.content
+    if content[:2] == b'\x1f\x8b':  # gzip magic bytes
+        with gzip.open(BytesIO(content), "rt", encoding="utf-8", errors="ignore") as f:
             root = ET.parse(f).getroot()
     else:
-        root = ET.parse(BytesIO(r.content)).getroot()
+        root = ET.parse(BytesIO(content)).getroot()
 
     # ---- Channels ----
     for channel in root.findall("channel"):
@@ -357,10 +400,10 @@ for url in XMLTV_URLS:
 
         # Add <url> tag pointing to the source XML
         url_elem = ET.Element("url")
-        url_elem.text = url  # this is the XML source for this batch
+        url_elem.text = url  # source URL
         channel.append(url_elem)
 
-        seen_channels[cid] = channel  # store the cleaned element
+        seen_channels[cid] = channel  # store cleaned element
 
     # ---- Programmes ----
     for programme in root.findall("programme"):
