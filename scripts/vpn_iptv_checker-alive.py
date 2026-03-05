@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 import shutil
 import tempfile
+import sys
 # import yaml
 
 
@@ -86,10 +87,14 @@ def check_channel_live(url):
 
 
 # ---------- FUNCTION ----------
+
 def parse_and_check_m3u(m3u_path):
-    """Check channels and print offline channels without creating a log file."""
+    """Check channels and print offline channels in real-time."""
     if not os.path.isfile(m3u_path):
         raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
+
+    # Detect if running in GitHub Actions
+    in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
 
     with open(m3u_path, "r", encoding="utf-8") as f:
         lines = [line.strip() for line in f if line.strip()]
@@ -108,8 +113,17 @@ def parse_and_check_m3u(m3u_path):
     total_channels = len(channel_list)
     offline_channels = []
 
-    # Progress bar
-    with tqdm(total=total_channels, desc="Checking channels", unit="ch", dynamic_ncols=True) as pbar:
+    # tqdm settings: disable progress bar in Actions
+    tqdm_args = {
+        "total": total_channels,
+        "desc": "Checking channels",
+        "unit": "ch",
+        "dynamic_ncols": True,
+        "file": sys.stdout,
+        "disable": in_actions  # hide progress bar in Actions
+    }
+
+    with tqdm(**tqdm_args) as pbar:
         for name, url in channel_list:
             alive = False
             if url and not url.startswith("#"):
@@ -118,14 +132,15 @@ def parse_and_check_m3u(m3u_path):
             if not alive:
                 status = "No URL (offline)" if not url else "Offline"
                 offline_channels.append((name, status))
-                tqdm.write(f"*{name}: {status}")  # real-time offline output
+                # print in real-time even if progress bar hidden
+                tqdm.write(f"*{name}: {status}", file=sys.stdout)
 
             pbar.update(1)
 
-    # Print summary
-    print("\nSummary:")
-    print(f"Total channels: {total_channels}")
-    print(f"Offline channels: {len(offline_channels)}")
+    # Summary
+    print("\nSummary:", flush=True)
+    print(f"Total channels: {total_channels}", flush=True)
+    print(f"Offline channels: {len(offline_channels)}", flush=True)
 
 # ---------- MAIN ----------
 def main():
