@@ -7,7 +7,7 @@ import time
 import re
 
 
-# build_fast_epg.py Mar 4 2026 615 pm
+# build_fast_epg.py Mar 4 2026 720 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -25,6 +25,7 @@ XMLTV_URLS = [
     "https://i.mjh.nz/PlutoTV/all.xml",
     "https://i.mjh.nz/Plex/all.xml",
     "https://i.mjh.nz/Roku/all.xml",
+    "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml",
     "https://i.mjh.nz/SamsungTVPlus/all.xml"
 ]
 
@@ -134,6 +135,16 @@ CHANNELS = {
     "USBD1200004NS": "The Walking Dead Universe - Samsung",
     "CA9000103C": "Tiny House Nation - Samsung",
     "US1900002QK": "Universal Monsters - Samsung",
+    # Paid TV
+    "": "Name",
+    "I215.10105.schedulesdirect.org": "Omni 1",
+    "I802.46245.schedulesdirect.org": "CBC Toronto",
+    "I1053.34200.schedulesdirect.org": "Citytv Toronto HD",
+    "I1051.44784.schedulesdirect.org": "CTV Toronto",          
+    "I1131.62890.schedulesdirect.org": "CTV Calgary",
+    "I237.10057.schedulesdirect.org": "Bravo",
+    "I218.60123.schedulesdirect.org": "CHCH",
+    "I530.99429.schedulesdirect.org": "Makeful",     
     "": "Name",    
     "": "Name",
     "": "Name",
@@ -288,8 +299,10 @@ for prog in programmes_to_add:
 # -------------------------
 def build_flat_xml(channels, programmes):
     """
-    Build single-line XML string for channels and programmes.
-    Removes <icon> and adds <url> if present.
+    Build single-line XML string:
+    - One line per channel
+    - One line per programme
+    - Removes <icon>, keeps <url> if present
     """
     xml_lines = ['<?xml version="1.0" encoding="utf-8"?>', '<tv>']
 
@@ -299,7 +312,7 @@ def build_flat_xml(channels, programmes):
         display_name = channel.findtext("display-name", default="")
         url_elem = channel.find("url")
         url = url_elem.text if url_elem is not None else ""
-        # Build single-line channel, skip icon
+        # Build single-line channel
         line = f'<channel id="{cid}"><display-name>{display_name}</display-name>'
         if url:
             line += f'<url>{url}</url>'
@@ -308,24 +321,31 @@ def build_flat_xml(channels, programmes):
 
     # Programmes
     for prog in programmes:
-        cid = prog.get("channel")
-        # Convert all children into string
-        children_str = "".join([ET.tostring(child, encoding="unicode").strip() for child in prog])
-        # Build programme element
+        # Flatten children into a single line
+        children_str = "".join(
+            ET.tostring(child, encoding="unicode", method="xml").replace("\n", "")
+            for child in prog
+        )
+        # Build programme element on a single line
         attribs = " ".join([f'{k}="{v}"' for k, v in prog.attrib.items()])
         line = f'<programme {attribs}>{children_str}</programme>'
         xml_lines.append(line)
 
     xml_lines.append("</tv>")
-    return "".join(xml_lines)  # single-line output
 
-# Usage
-flat_xml = build_flat_xml([seen_channels[cid] for cid in sorted_channel_ids], programmes_to_add)
+    return "\n".join(xml_lines)  # each element on its own line
+
+# Example usage:
+flat_xml = build_flat_xml(
+    [seen_channels[cid] for cid in sorted_channel_ids],
+    programmes_to_add
+)
 
 with open(OUTPUT_XML, "w", encoding="utf-8") as f:
     f.write(flat_xml)
 
-print("✅ Fast EPG XML saved with single-line channels and programmes, no icons, no extra spaces")
+print("✅ Fast EPG XML saved with one-line channels and one-line programmes")
+
 # -------------------------
 # SUMMARY
 # -------------------------
