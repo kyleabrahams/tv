@@ -30,7 +30,7 @@ jobs:
 
       - name: Upload offline log as artifact
         if: success() || failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: offline_channel_log
           path: scripts/offline_channel_log.yml
