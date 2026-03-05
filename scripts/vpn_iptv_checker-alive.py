@@ -130,7 +130,7 @@ def parse_and_check_m3u(m3u_path):
 
     # Write YAML log if toggle is True
     if CREATE_LOG_FILE:
-        log_path = os.path.join(os.path.dirname(__file__), "offline_channel_log.yml")
+        log_path = os.path.join(os.getcwd(), "offline_channel_log.yml")
         with open(log_path, "w", encoding="utf-8") as log_file:
             yaml.dump({"offline_channels": offline_channels, "total_channels": total_channels}, log_file)
 
