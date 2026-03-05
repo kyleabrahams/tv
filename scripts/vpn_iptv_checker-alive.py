@@ -45,6 +45,7 @@ def check_ffprobe():
 
 def connect_vpn(vpn_config_path):
     """Connect to VPN using credentials from environment variables."""
+
     if not VPN_USERNAME or not VPN_PASSWORD:
         raise ValueError("VPN_USERNAME or VPN_PASSWORD not set in environment")
 
@@ -53,18 +54,25 @@ def connect_vpn(vpn_config_path):
         tmp.write(f"{VPN_USERNAME}\n{VPN_PASSWORD}\n")
         tmp_path = tmp.name
 
-    # Start OpenVPN in background
-    print("Starting VPN connection...")
-    subprocess.Popen([
-        "sudo", "openvpn",
-        "--config", vpn_config_path,
-        "--auth-user-pass", tmp_path
-    ])
-    print(f"Waiting {VPN_WAIT} seconds for VPN to establish...")
-    time.sleep(VPN_WAIT)
-    print("VPN should now be connected.")
+    print("Starting VPN connection...", flush=True)
 
-    # Delete temporary file
+    subprocess.Popen(
+        [
+            "sudo", "openvpn",
+            "--config", vpn_config_path,
+            "--auth-user-pass", tmp_path,
+            "--daemon"   # IMPORTANT: run in background
+        ],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL
+    )
+
+    print(f"Waiting {VPN_WAIT} seconds for VPN to establish...", flush=True)
+    time.sleep(VPN_WAIT)
+
+    print("VPN should now be connected.", flush=True)
+
+    # Remove credentials file after connection
     os.remove(tmp_path)
 
 def check_channel_live(url):
