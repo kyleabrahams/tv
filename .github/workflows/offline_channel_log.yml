@@ -27,7 +27,7 @@ jobs:
 
       - name: Run IPTV offline checker
         run: |
-          python3 scripts/vpn_iptv_checker-alive.py || echo "Script finished with errors"
+          python3 -u scripts/vpn_iptv_checker-alive.py || echo "Script finished with errors"
 
       - name: Upload offline log as artifact
         if: success() || failure()
