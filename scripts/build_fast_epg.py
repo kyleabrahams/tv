@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 
 
 
-# build_fast_epg.py Mar 4 2026 1103 pm
+# build_fast_epg.py Mar 4 2026 1110 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -30,6 +30,9 @@ XMLTV_URLS = [
     "https://i.mjh.nz/Roku/all.xml",
     "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml",
     "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
     "https://i.mjh.nz/SamsungTVPlus/all.xml"
 ]
 
@@ -139,6 +142,17 @@ CHANNELS = {
     "USBD1200004NS": "The Walking Dead Universe - Samsung",
     "CA9000103C": "Tiny House Nation - Samsung",
     "US1900002QK": "Universal Monsters - Samsung",
+    # US Local TV
+    "WUTV-DT.us": "FOX 29",
+    "": "Name",
+    "": "Name",
+    "": "Name",    
+    "": "Name",
+    "": "Name",
+    "": "Name",
+    "": "Name",  
+    "": "Name",    
+
     # Paid TV
     "": "Name",
     "I215.10105.schedulesdirect.org": "Omni 1 - acidjesuz",
