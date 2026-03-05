@@ -5,9 +5,11 @@ from io import BytesIO
 import os
 import time
 import re
+from xml.sax.saxutils import escape
 
 
-# build_fast_epg.py Mar 4 2026 858 pm
+
+# build_fast_epg.py Mar 4 2026 910 pm
 # python3 -m venv myenv
 # source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_fast_epg.py
@@ -39,7 +41,7 @@ CHANNELS = {
     "CABA3700001DB": "Always Funny Videos - Samsung",
     "US1900015FR": "Anger Management - Samsung",
     "USBC6000108Z": "BBC Food - Samsung",
-    "CABD1200012B8": "BBC Home & Garden - Samsung",
+    "CABD1200012B8": "BBC Home and Garden - Samsung",
     "5e20b730f2f8d5003d739db7-65622eddb7d737841f30a4fd": "BBC Travel - Plex",
     "65d92a8c8b24c80008e285c0": "BBC News - Pluto",
     "GB38000026H": "Bon Appétit - Samsung",
@@ -81,7 +83,7 @@ CHANNELS = {
     "CABC2300001X9": "The Jack Hanna Channel - Samsung",
     "GBBC4000002H3": "The Jamie Oliver Channel - Samsung",
     "6132619f9ddaa50007e7dd86": "King of Queens - Pluto",
-    "USBD270001633": "Hallmark Movies & More - Samsung",
+    "USBD270001633": "Hallmark Movies and More - Samsung",
     "CA300017ZS": "Love Pets - Samsung",
     "DEBC4700004VZ": "Love the Planet - Samsung",
     "66df8a29b25d2b0008fc5fe0": "Love Nature 4k - Pluto",
@@ -108,13 +110,13 @@ CHANNELS = {
     "6532e8342cf13100083b404c": "Say Yes to the Dress - Pluto",
     "USAJ3504708A": "DangerTV - Samsung",
     "USAJ30000039U": "Dry Bar Comedy - Samsung",
-    "5da0d83f66c9700009b96d0e": "Vevo R&B - Pluto",
+    "5da0d83f66c9700009b96d0e": "Vevo RandB - Pluto",
     "61d4b38226b8a50007fe03a6": "Vevo Rock - Pluto",
     "61d4c2817a823d00070ba53e": "True School Hip-Hop - Pluto",
     "USBC3600002EK": "Vevo Hip-Hop - Samsung",
-    "USBC3900009K5": "Vevo R&B - Samsung",
+    "USBC3900009K5": "Vevo RandB - Samsung",
     "USBC3600008WY": "Vevo Pop - Samsung",
-    "60db737695c95b599dad50d2c5595fe3": "Vevo Reggaeton & Trap - Roku",
+    "60db737695c95b599dad50d2c5595fe3": "Vevo Reggaeton and Trap - Roku",
     "CABC23000223U": "The Weather Network - Samsung",
     "USAJ4300005PJ": "Yahoo Finance - Samsung",
     "USBB1500001GD": "USA Today - Samsung",
@@ -149,7 +151,7 @@ CHANNELS = {
     "I501.17615.schedulesdirect.org": "CTV News Channel - acidjesuz",
     "I281.31046.schedulesdirect.org": "MotorTrend - Discovery Turbo - acidjesuz",
     "I486.72139.schedulesdirect.org": "Much Music HD - acidjesuz",
-    "I7.87004.schedulesdirect.org": "A&E.ca - acidjesuz",          
+    "I7.87004.schedulesdirect.org": "AandE.ca - acidjesuz",          
     "I25.90852.schedulesdirect.org": "AMC - acidjesuz",
     "I193.58646.schedulesdirect.org": "CNN - acidjesuz",
     "I698.74420.schedulesdirect.org": "TLC - acidjesuz",
@@ -403,10 +405,10 @@ def build_flat_xml(channels, programmes):
     # Channels
     for channel in channels:
         cid = channel.get("id")
-        display_name = channel.findtext("display-name", default="")
+        display_name = escape(channel.findtext("display-name", default=""))
         url_elem = channel.find("url")
-        url = url_elem.text if url_elem is not None else ""
-        # Build single-line channel
+        url = escape(url_elem.text) if url_elem is not None and url_elem.text else ""
+
         line = f'<channel id="{cid}"><display-name>{display_name}</display-name>'
         if url:
             line += f'<url>{url}</url>'
@@ -415,19 +417,20 @@ def build_flat_xml(channels, programmes):
 
     # Programmes
     for prog in programmes:
-        # Flatten children into a single line
-        children_str = "".join(
-            ET.tostring(child, encoding="unicode", method="xml").replace("\n", "")
-            for child in prog
-        )
-        # Build programme element on a single line
-        attribs = " ".join([f'{k}="{v}"' for k, v in prog.attrib.items()])
+        attribs = " ".join(f'{k}="{v}"' for k, v in prog.attrib.items())
+
+        children_str = ""
+        for child in prog:
+            tag = child.tag
+            text = escape(child.text or "")
+            children_str += f"<{tag}>{text}</{tag}>"
+
         line = f'<programme {attribs}>{children_str}</programme>'
         xml_lines.append(line)
 
     xml_lines.append("</tv>")
 
-    return "\n".join(xml_lines)  # each element on its own line
+    return "\n".join(xml_lines)
 
 # Example usage:
 flat_xml = build_flat_xml(
