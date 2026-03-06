@@ -32,7 +32,7 @@ REPO_DIR = os.path.abspath(os.path.dirname(__file__))
 # EPG file paths (absolute)
 FAST_EPG_FILE = os.path.join(REPO_DIR, "scripts", "_epg-end", "fast-epg-end.xml")
 DUMMY_EPG_FILE = os.path.join(REPO_DIR, "scripts", "_epg-end", "dummy--epg---end.xml")
-BUILD_FAST_EPG_SCRIPT = os.path.join(REPO_DIR, "build_fast_epg.py")
+BUILD_EPG_SCRIPT = os.path.join(REPO_DIR, "build_epg.py")
 BUILD_DUMMY_EPG_SCRIPT = os.path.join(REPO_DIR, "build_dummy_epg.py")
 
 # Python executable
@@ -105,7 +105,7 @@ def run_npm_grab():
     # TOGGLE RUNNING PRE-SCRIPTS
     # -------------------------
     run_build_dummy_epg = True
-    run_build_fast_epg = True  
+    run_build_epg = True  
     run_channels_custom = False
     run_channels_custom_date = False
     run_channels_test = False
@@ -123,7 +123,7 @@ def run_npm_grab():
     # -------------------------
     pre_scripts = [
         (run_build_dummy_epg, os.path.join(script_dir, "build_dummy_epg.py")),
-        (run_build_fast_epg, os.path.join(script_dir, "build_fast_epg.py")),
+        (run_build_epg, os.path.join(script_dir, "build_epg.py")),
     ]
 
     for toggle, script_path in pre_scripts:
