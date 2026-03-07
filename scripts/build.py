@@ -3,34 +3,35 @@
 
 ########## Step 1: Standard library imports
 
-import sys
-import os
-import re
-import io
-import gzip
-import time
-import logging
-import subprocess
-from datetime import datetime
-from time import sleep
-from xml.etree import ElementTree as ET
-from xml.dom import minidom
-from xml.sax.saxutils import escape
-from logging import StreamHandler
-from typing import Set
-from typing import Optional
+import sys  # Access system-specific parameters and functions (e.g., sys.exit, interpreter path)
+import os  # File and directory operations (paths, creating folders, permissions)
+import re  # Regular expressions for searching and modifying text patterns
+import io  # In-memory streams for handling bytes/text like files
+import gzip  # Read and write .gz compressed files
+import time  # Basic time functions (timestamps, delays)
+import logging  # Logging framework for structured console/file output
+import subprocess  # Run external commands or scripts from Python
+from datetime import datetime  # Date/time objects (timestamps, formatting)
+from time import sleep  # Pause execution for a number of seconds
+from xml.etree import ElementTree as ET  # XML parsing and creation (main XMLTV manipulation)
+from xml.dom import minidom  # Pretty-printing XML for readability
+from xml.sax.saxutils import escape  # Escape special XML characters (& < > etc.)
+from logging import StreamHandler  # Sends logging output to console or streams
+from typing import Set  # Type hint for sets (improves readability and editor support)
+from typing import Optional  # Type hint indicating a value may be None
 
-########## Third-party imports ##########
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-import pytz
+########## Third-party imports (installed via pip) ##########
 
-########## Local imports ##########
-from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
+import requests  # HTTP library used to download XMLTV EPG files from URLs
+from requests.adapters import HTTPAdapter  # Allows custom retry/connection behavior for requests
+from urllib3.util.retry import Retry  # Retry strategy for failed HTTP requests
+import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
+########## Local imports (your project files) ##########
 
-# build_epg_xml.py Mar 7 104 a 
+from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
+  
+# build_epg_xml.py Mar 7 1042 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
