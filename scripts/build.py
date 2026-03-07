@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1213 a 
+# build_epg_xml.py Mar 7 1235 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -476,7 +476,7 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     # Log summary
     log_message(f"✅ EPG file saved to {save_path}")
     log_message(f"📺 Channels: {len(seen_channels)}")
-    log_message(f"📡 Programmes: {len(seen_programmes)}")
+    log_message(f"📡 Programs: {len(seen_programmes)}")
 
 ########## Step 9: Check for XML files if no URLs are found
 def load_local_xml_files(directory):
@@ -518,8 +518,8 @@ save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file 
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # You can now process files within the gz_directory or save to save_path
-logger.info(f"⬇️ EPG file will be saved to: {save_path}")
-logger.info(f"⬇️ .gz files are located in: {gz_directory}")
+logger.info(f"⬇️  EPG file will be saved to: {save_path}")
+logger.info(f"⬇️  .gz files are located in: {gz_directory}")
 
 
 
@@ -742,7 +742,7 @@ if __name__ == "__main__":
     # Step 1: Build FAST EPG (if enabled)
     # -------------------------
     if run_build_fast_epg:
-        logger.info("▶️ Building FAST EPG...")
+        logger.info("▶️  Building FAST EPG...")
         build_fast_epg()
         logger.info("✅ FAST EPG finished")
 
