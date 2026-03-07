@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1235 a 
+# build_epg_xml.py Mar 7 1238 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -423,7 +423,7 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     Fetch multiple EPG XML files (remote or local), merge them,
     remove duplicates, strip icons, and save a single-line XML file.
     """
-    log_message("▶️ Merging EPG data...")
+    # log_message("▶️ Merging EPG data...")
 
     merged_root = ET.Element("tv")
     total = len(epg_urls)
@@ -752,7 +752,7 @@ if __name__ == "__main__":
     if run_build_dummy_epg:
         logger.info("▶️ Running build_dummy_epg.py...")
         subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
-        logger.info("✅ Dummy EPG finished")
+        # logger.info("✅ Dummy EPG finished")
 
     # -------------------------
     # Step 3: Collect XML files to merge
@@ -786,7 +786,7 @@ if __name__ == "__main__":
 
         # Re-write as single-line XML
         write_epg_single_line(root, save_path)
-        logger.info("🧹 Removed all leftover <icon> tags from final epg.xml")
+        logger.info("🧹 Removed all <icon> tags from final epg.xml")
     except Exception as e:
         logger.error(f"❌ Failed to remove <icon> tags: {e}")
 
