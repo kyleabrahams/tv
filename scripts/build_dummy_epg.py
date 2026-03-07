@@ -7,11 +7,58 @@ import subprocess  # For installing packages
 import sys  # For system operations
 import pytz  # For timezone handling
 import re  # For regular expressions
+import logging
+from logging import StreamHandler
 
-# Run script
-# chmod +x dummy_epg.sh
-# python3 dummy_epg.py
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/build_dummy_epg.py
+
+# build_dummy_epg.py Mar 7 1230 a 
+
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_dummy_epg.py
+
+########## Step 0: Set up Logging
+LOGGING_ENABLED = True
+
+if LOGGING_ENABLED:
+    logger = logging.getLogger("epg_logger")
+    logger.setLevel(logging.INFO)
+    
+    handler = logging.StreamHandler(sys.stdout)
+    formatter = logging.Formatter("%(asctime)s - %(message)s", "%b %d %Y %H:%M:%S")  # no level
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+    
+    # Optional: reduce noise from urllib3, etc.
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+else:
+    class DummyLogger:
+        def info(self, msg): logger.info(msg)
+        def error(self, msg): logger.info(msg)
+        def warning(self, msg): logger.info(msg)
+    logger = DummyLogger()
+
+# -------------------------
+# Unified logging function
+# -------------------------
+def log_message(message: str, level: str = "info"):
+    """
+    Unified logging function.
+    - Uses logger if LOGGING_ENABLED is True.
+    - Falls back to timestamped print if logging is disabled.
+    - Supports levels: 'info', 'error', 'warning'.
+    """
+    timestamp = datetime.now().strftime("%b %d %Y %H:%M:%S")
+
+    if 'LOGGING_ENABLED' in globals() and LOGGING_ENABLED:
+        level_lower = level.lower()
+        if level_lower == "info":
+            logger.info(message)
+        elif level_lower == "error":
+            logger.error(message)
+        else:
+            logger.warning(message)
+    else:
+        # fallback to print
+        logger.info(f"{timestamp} - {level.upper()} - {message}")
 
 # Step 1: Function to install packages
 def install_package(package_name):
@@ -21,16 +68,16 @@ def install_package(package_name):
 try:
     import pytz
 except ImportError:
-    print("pytz not found. Installing...")
+    logger.info("▶️ pytz not found. Installing...")
     try:
         install_package("pytz")
         import pytz  # Import again after installation
     except subprocess.CalledProcessError as e:
-        print(f"Failed to install pytz: {e}")
+        logger.info(f"Failed to install pytz: {e}")
         sys.exit(1)  # Exit if installation fails
 
 # Step 3: Print a message indicating pytz is ready to use
-print("pytz is installed and ready to use.")
+logger.info("✅ pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=5, programs_per_day=24):
@@ -155,15 +202,15 @@ def delete_old_epg_files(repo_dir, latest_file):
                     file_path = os.path.join(root, file_name)
                     if file_name != os.path.basename(latest_file):  # Keep the latest file
                         os.remove(file_path)
-                        print(f"Deleted old EPG file: {file_path}")
+                        logger.info(f"✅ Deleted old EPG file: {file_path}")
     except Exception as e:
-        print(f"Error deleting old files: {e}")
+        logger.info(f"Error deleting old files: {e}")
 
 # Get your repository path (update it if needed)
 repo_directory = "/Users/kyleabrahams/Documents/GitHub/tv"
 
 # Save the latest EPG XML file and delete older ones from the repo
-latest_file_path = save_epg_to_file(num_days=5, programs_per_day=24)
-delete_old_epg_files(repo_directory, latest_file_path)
-
-print("Process completed successfully.")
+if __name__ == "__main__":
+    latest_file_path = save_epg_to_file(num_days=5, programs_per_day=24)
+    delete_old_epg_files(repo_directory, latest_file_path)
+    logger.info("✅ dummy--epg---end.xml created successfully.")
