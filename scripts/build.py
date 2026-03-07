@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1211 a 
+# build_epg_xml.py Mar 7 1213 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -412,7 +412,7 @@ def build_fast_epg():
     # Logging
     logger.info(f"✅ FAST EPG built: {OUTPUT_XML}")
     logger.info(f"📺 Channels: {len(seen_channels)}")
-    logger.info(f"📡 Programmes: {len(programmes)}")
+    logger.info(f"📡 Programs: {len(programmes)}")
 
 
 
