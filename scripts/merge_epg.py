@@ -10,7 +10,6 @@ from datetime import datetime
 from time import sleep
 from xml.dom import minidom
 from logging import StreamHandler
-# from build_dummy_epg import build_dummy_epg
 
 # Third-party imports
 import requests
@@ -19,14 +18,10 @@ from urllib3.util.retry import Retry
 import pytz
 import os, gzip, io, xml.etree.ElementTree as ET, time
 
+from build_channels_list import CHANNELS # Local imports
 
-# Local imports
-from build_channels_list import CHANNELS
+# merge_epg.py Mar 6 2026 820 p 
 
-
-# merge_epg.py Mar 6 2026 807 p 
-# python3 -m venv myenv
-# source myenv/bin/activate
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/merge_epg.py
 
 
