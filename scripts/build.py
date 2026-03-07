@@ -2,7 +2,6 @@
 #!/usr/bin/env python3
 
 ########## Step 1: Standard library imports
-
 import sys  # Access system-specific parameters and functions (e.g., sys.exit, interpreter path)
 import os  # File and directory operations (paths, creating folders, permissions)
 import re  # Regular expressions for searching and modifying text patterns
@@ -15,7 +14,6 @@ from datetime import datetime  # Date/time objects (timestamps, formatting)
 from time import sleep  # Pause execution for a number of seconds
 from xml.etree import ElementTree as ET  # XML parsing and creation (main XMLTV manipulation)
 from xml.dom import minidom  # Pretty-printing XML for readability
-from xml.sax.saxutils import escape  # Escape special XML characters (& < > etc.)
 from logging import StreamHandler  # Sends logging output to console or streams
 from typing import Set  # Type hint for sets (improves readability and editor support)
 from typing import Optional  # Type hint indicating a value may be None
@@ -31,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 7 1042 a 
+# build_epg_xml.py Mar 7 1051 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -677,7 +675,7 @@ folder_path = "scripts/_epg-end"  # Update to your folder path
 
 ########## Step 14: XML Elements to single line
 
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape  # Escape special XML characters (& < > etc.)
 
 def element_to_single_line(el):
     parts = []
@@ -743,7 +741,7 @@ if __name__ == "__main__":
     # Step 1: Build FAST EPG (if enabled)
     # -------------------------
     if run_build_fast_epg:
-        logger.info("▶️  Building FAST EPG...")
+        logger.info("▶️  Building fast-epg-end.xml...")
         build_fast_epg()
         # logger.info("✅ FAST EPG finished")
 
