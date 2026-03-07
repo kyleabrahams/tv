@@ -1,3 +1,4 @@
+# build_dummy_epg.py
 import xml.etree.ElementTree as ET  # For creating XML elements
 from datetime import datetime, timedelta  # For date and time handling
 from xml.dom import minidom  # For pretty-printing XML
@@ -10,7 +11,7 @@ import re  # For regular expressions
 # Run script
 # chmod +x dummy_epg.sh
 # python3 dummy_epg.py
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/dummy_epg.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/build_dummy_epg.py
 
 # Step 1: Function to install packages
 def install_package(package_name):
