@@ -20,7 +20,7 @@ import os, gzip, io, xml.etree.ElementTree as ET, time
 
 from build_channels_list import CHANNELS # Local imports
 
-# merge_epg.py Mar 6 2026 820 p 
+# merge_epg.py Mar 6 2026 822 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/merge_epg.py
 
@@ -253,7 +253,7 @@ def build_fast_epg():
     OUTPUT_XML = os.path.join(BASE_DIR, "_epg-end", "fast-epg-end.xml")
 
     XMLTV_URLS = [
-        # "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+        "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
