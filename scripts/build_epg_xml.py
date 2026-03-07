@@ -2,25 +2,34 @@
 #!/usr/bin/env python3
 
 ########## Step 1: Standard library imports
-import sys
-import re
-import logging
-import subprocess
-from datetime import datetime
-from time import sleep
-from xml.dom import minidom
-from logging import StreamHandler
+import sys  # Access system-specific parameters and functions (e.g., sys.exit, interpreter path)
+import os  # File and directory operations (paths, creating folders, permissions)
+import re  # Regular expressions for searching and modifying text patterns
+import io  # In-memory streams for handling bytes/text like files
+import gzip  # Read and write .gz compressed files
+import time  # Basic time functions (timestamps, delays)
+import logging  # Logging framework for structured console/file output
+import subprocess  # Run external commands or scripts from Python
+from datetime import datetime  # Date/time objects (timestamps, formatting)
+from time import sleep  # Pause execution for a number of seconds
+from xml.etree import ElementTree as ET  # XML parsing and creation (main XMLTV manipulation)
+from xml.dom import minidom  # Pretty-printing XML for readability
+from logging import StreamHandler  # Sends logging output to console or streams
+from typing import Set  # Type hint for sets (improves readability and editor support)
+from typing import Optional  # Type hint indicating a value may be None
 
-# Third-party imports
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-import pytz
-import os, gzip, io, xml.etree.ElementTree as ET, time
+########## Third-party imports (installed via pip) ##########
 
-from build_channels_list import CHANNELS # Local imports
+import requests  # HTTP library used to download XMLTV EPG files from URLs
+from requests.adapters import HTTPAdapter  # Allows custom retry/connection behavior for requests
+from urllib3.util.retry import Retry  # Retry strategy for failed HTTP requests
+import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
-# build_epg_xml.py Mar 6 2026 822 p 
+########## Local imports (your project files) ##########
+
+from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
+  
+# build_epg_xml.py Mar 7 1240 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg_xml.py
 
@@ -38,11 +47,22 @@ REPO_DIR = os.path.abspath(os.path.dirname(__file__))
 # EPG file paths (absolute)
 FAST_EPG_FILE = os.path.join(REPO_DIR, "scripts", "_epg-end", "fast-epg-end.xml")
 DUMMY_EPG_FILE = os.path.join(REPO_DIR, "scripts", "_epg-end", "dummy--epg---end.xml")
-BUILD_EPG_SCRIPT = os.path.join(REPO_DIR, "build_epg.py") # WHY EXECUTE?
+# BUILD_EPG_SCRIPT = os.path.join(REPO_DIR, "build_epg.py") # WHY EXECUTE?
 BUILD_DUMMY_EPG_SCRIPT = os.path.join(REPO_DIR, "build_dummy_epg.py")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__)) # Base directory relative to this script
+OUTPUT_XML = os.path.join(BASE_DIR, "_epg-end", "fast-epg-end.xml") # Output path inside scripts/_epg-end
+os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 
 # Python executable
 venv_python = sys.executable
+
+# User-Agent header
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/115.0.0.0 Safari/537.36"
+}
 
 # -------------------------
 
@@ -78,24 +98,29 @@ else:
         def warning(self, msg): logger.info(msg)
     logger = DummyLogger()
 
-
-########## Step 5: Unified log function
-def log_message(message, level="info"):
+# -------------------------
+# Unified logging function
+# -------------------------
+def log_message(message: str, level: str = "info"):
     """
-    Single logging entry point. Timestamp handled by logging formatter.
+    Unified logging function.
+    - Uses logger if LOGGING_ENABLED is True.
+    - Falls back to timestamped print if logging is disabled.
+    - Supports levels: 'info', 'error', 'warning'.
     """
-    if not LOGGING_ENABLED:
-        logger.info(message)
-        return
+    timestamp = datetime.now().strftime("%b %d %Y %H:%M:%S")
 
-    level_lower = level.lower()
-
-    if level_lower == "info":
-        logger.info(message)
-    elif level_lower == "error":
-        logger.error(message)
+    if 'LOGGING_ENABLED' in globals() and LOGGING_ENABLED:
+        level_lower = level.lower()
+        if level_lower == "info":
+            logger.info(message)
+        elif level_lower == "error":
+            logger.error(message)
+        else:
+            logger.warning(message)
     else:
-        logger.warning(message)
+        # fallback to print
+        print(f"{timestamp} - {level.upper()} - {message}")
 
  
 
@@ -245,127 +270,197 @@ def run_npm_grab():
             logger.info(f"❌Exception running command {command_str}: {e}")
 
 
+########## Step 7: Process Root
+def process_root(root, seen_channels, seen_programmes):
+    """
+    Process an XML root element:
+    - Remove <icon> elements from channels
+    - Deduplicate channels and programmes
+    Yields programmes for appending.
+    """
+    for channel in root.findall("channel"):
+        cid = channel.get("id")
+        if not cid or cid in seen_channels or (CHANNELS and cid not in CHANNELS):
+            continue
+        # Remove icons
+        for icon in channel.findall("icon"):
+            channel.remove(icon)
+        # Append the processed channel
+        seen_channels[cid] = channel
 
-########## Step 7: Build FAST EPG
+    for prog in root.findall("programme"):
+        cid = prog.get("channel")
+        if not cid or (CHANNELS and cid not in CHANNELS):
+            continue
+        key = (cid, prog.get("start"), prog.get("stop"))
+        if key in seen_programmes:
+            continue
+        seen_programmes.add(key)
+        yield prog
+
+
+
+
+########## Step 7: Build FAST EPG with removed <icons>
+def remove_icons(root):
+    """
+    Recursively remove all <icon> elements from the XML tree,
+    including inside <channel> and <programme>.
+    """
+    # Use .//icon to find ALL <icon> elements anywhere
+    for icon in root.findall(".//icon"):
+        parent = root
+        # xml.etree.ElementTree doesn't have getparent(), so remove from parent manually
+        for el in root.iter():
+            if icon in list(el):
+                el.remove(icon)
+                break
+
 def build_fast_epg():
-
+    """
+    Build FAST EPG XML by fetching multiple remote sources.
+    Deduplicates channels and programmes.
+    Adds <url> only once per channel.
+    Saves final XML to _epg-end/fast-epg-end.xml
+    Logs each channel's name, ID, and total programmes.
+    """
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     OUTPUT_XML = os.path.join(BASE_DIR, "_epg-end", "fast-epg-end.xml")
+    os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 
     XMLTV_URLS = [
-        "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+        # "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz", 
         "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
         "https://i.mjh.nz/PlutoTV/all.xml",
         "https://i.mjh.nz/Plex/all.xml",
         "https://i.mjh.nz/Roku/all.xml",
-        "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml",
-        "https://i.mjh.nz/SamsungTVPlus/all.xml"
+        "https://i.mjh.nz/SamsungTVPlus/all.xml",
+        "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml"
     ]
 
-    logger.info("▶️ Building FAST EPG")
-
     seen_channels = {}
+    seen_programmes = set()
     programmes = []
 
-    for url in XMLTV_URLS:
+    total_urls = len(XMLTV_URLS)
 
-        root = fetch_epg_data(url, 0, 0)
-
-        if not root:
+    for index, url in enumerate(XMLTV_URLS, start=1):
+        log_message(f"🔄 Fetching {index}/{total_urls} - {url}")
+        tree = fetch_epg_data(url, index=index, total=total_urls)
+        if not tree:
             continue
+        root = tree.getroot()
 
-        root = root.getroot()
-
+        # --- Channels ---
         for channel in root.findall("channel"):
-
             cid = channel.get("id")
-
-            if not cid or (CHANNELS and cid not in CHANNELS) or cid in seen_channels:
-                continue
-
-            for icon in channel.findall("icon"):
-                channel.remove(icon)
-
-            url_elem = ET.Element("url")
-            url_elem.text = url
-            channel.append(url_elem)
-
-            seen_channels[cid] = channel
-
-        for prog in root.findall("programme"):
-
-            cid = prog.get("channel")
-
             if not cid or (CHANNELS and cid not in CHANNELS):
                 continue
 
+            if cid not in seen_channels:
+                # Remove <icon> to reduce file size
+                for icon in channel.findall("icon"):
+                    channel.remove(icon)
+
+                # Add <url> element only once per channel
+                url_elem = ET.Element("url")
+                url_elem.text = url
+                channel.append(url_elem)
+
+                seen_channels[cid] = channel
+
+        # --- Programmes ---
+        for prog in root.findall("programme"):
+            cid = prog.get("channel")
+            if not cid or (CHANNELS and cid not in CHANNELS):
+                continue
+
+            key = (cid, prog.get("start"), prog.get("stop"), prog.findtext("title", ""))
+            if key in seen_programmes:
+                continue
+
+            seen_programmes.add(key)
             programmes.append(prog)
 
+    # --- Count programmes per channel while building ---
+    prog_count_by_channel = {}
+
+    for prog in programmes:  # programmes list is already built
+        cid = prog.get("channel")
+        if not cid:
+            continue
+        prog_count_by_channel[cid] = prog_count_by_channel.get(cid, 0) + 1
+
+    # --- Sort channels A-Z by display-name ---
+    sorted_channels = sorted(
+        seen_channels.values(),
+        key=lambda ch: (ch.findtext("display-name") or ch.findtext("name") or "").lower()
+    )
+
+    # Log channels in alphabetical order
+    logger.info(f"📺 Total channels found: {len(seen_channels)}")
+    for channel in sorted_channels:
+        name = channel.findtext("display-name") or channel.findtext("name") or "Unknown"
+        cid = channel.get("id")
+        count = prog_count_by_channel.get(cid, 0)
+        logger.info(f"📺 {name} - {cid} ({count} programs)")
+
+    # Total programmes
+    total_programmes = sum(prog_count_by_channel.values())
+    logger.info(f"📡 Total programs found: {total_programmes}")
+
+    # --- Merge into final XML ---
     merged_root = ET.Element("tv")
 
+    # Append channels first
     for cid in sorted(seen_channels.keys()):
         merged_root.append(seen_channels[cid])
 
+    # Then append programmes
     for prog in programmes:
         merged_root.append(prog)
 
-    tree = ET.ElementTree(merged_root)
+    # Remove leftover <icon> tags just in case
+    for icon in merged_root.findall(".//icon"):
+        for parent in merged_root.iter():
+            if icon in list(parent):
+                parent.remove(icon)
+                break
 
+    # Ensure directory permissions
     ensure_permissions(OUTPUT_XML)
 
-    tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True)
+    # Write final single-line XML
+    write_epg_single_line(merged_root, OUTPUT_XML)
 
-    logger.info(f"✅ FAST EPG built: {OUTPUT_XML}")
-    logger.info(f"📺 Channels: {len(seen_channels)}")
-
-
+    logger.info(f"✅ fast-epg-end.xml created successfully")
 
 
-########## Step 8: Merge EPG data
-def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
+
+########## Step 8: Merge EPG data ##########
+def build_epg_xml_data(XMLTV_URLS, epg_end_dir, save_path):
     """
-    Merge multiple EPG XML files into a single XML and remove duplicates.
+    Fetch multiple EPG XML files (remote or local), merge them,
+    remove duplicates, strip icons, and save a single-line XML file.
     """
-    logger.info("▶️ Merging EPG data...")
+    # log_message("▶️ Merging EPG data...")
 
     merged_root = ET.Element("tv")
-    total = len(epg_urls)
+
+    # log_message(f"DEBUG XMLTV_URLS: {XMLTV_URLS}")
 
     seen_channels = set()
     seen_programmes = set()
 
-    # Convert merged_root to string
-    xml_bytes = ET.tostring(merged_root, encoding="utf-8", xml_declaration=True)
-    xml_str = xml_bytes.decode()
+    total = len(XMLTV_URLS)  # ✅ use the correct list
 
-    # Collapse <channel> elements to single line
-    xml_str = re.sub(
-        r'(<channel[^>]*>)(.*?)(</channel>)',
-        lambda m: m.group(1) + re.sub(r'\s+', ' ', m.group(2).strip()) + m.group(3),
-        xml_str,
-        flags=re.DOTALL
-    )
-
-    # Collapse <programme> elements to single line
-    xml_str = re.sub(
-        r'(<programme[^>]*>)(.*?)(</programme>)',
-        lambda m: m.group(1) + re.sub(r'\s+', ' ', m.group(2).strip()) + m.group(3),
-        xml_str,
-        flags=re.DOTALL
-    )
-
-    # Save final XML
-    with open(save_path, "w", encoding="utf-8") as f:
-        f.write(xml_str)
-
-    for index, url in enumerate(epg_urls, start=1):  # add start=1 for human-friendly numbering
-        # 🔄 Progress log
-        logger.info(f"🔄 Fetching {index}/{total} - {url}")
+    for index, url in enumerate(XMLTV_URLS, start=1):
+        # log_message(f"DEBUG total={len(XMLTV_URLS)}")
+        log_message(f"🔄 Fetching {index}/{total} - {url}")
 
         tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
-
         if not tree:
             continue
 
@@ -374,12 +469,11 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
             # CHANNEL
             if el.tag == "channel":
                 cid = el.get("id")
-
                 if cid in seen_channels:
                     continue
-
                 seen_channels.add(cid)
 
+                # Remove icons
                 for icon in el.findall("icon"):
                     el.remove(icon)
 
@@ -387,33 +481,28 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
 
             # PROGRAMME
             elif el.tag == "programme":
-
-                key = (
-                    el.get("channel"),
-                    el.get("start"),
-                    el.get("stop")
-                )
-
+                key = (el.get("channel"), el.get("start"), el.get("stop"))
                 if key in seen_programmes:
                     continue
-
                 seen_programmes.add(key)
-
                 merged_root.append(el)
 
+    # Reorder channels to the top
     reorder_channels(merged_root)
 
+    # Remove any leftover icons
+    remove_icons(merged_root)
+
+    # Ensure permissions before writing
     ensure_permissions(save_path)
 
+    # Save final XML with single-line formatting
     write_epg_single_line(merged_root, save_path)
-    logger.info(f"✅ EPG file saved to {save_path} (single-line <programme> & <channel>)")
 
-    logger.info(f"✅ EPG file saved to {save_path}")
-    logger.info(f"📺 Channels: {len(seen_channels)}")
-    logger.info(f"📡 Programmes: {len(seen_programmes)}")
-
-
-
+    # Log summary
+    # log_message(f"✅ EPG file saved to {save_path}")
+    log_message(f"📺 Channels added: {len(seen_channels)}")
+    log_message(f"📡 Programs added: {len(seen_programmes)}")
 
 ########## Step 9: Check for XML files if no URLs are found
 def load_local_xml_files(directory):
@@ -455,8 +544,8 @@ save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file 
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # You can now process files within the gz_directory or save to save_path
-logger.info(f"⬇️ EPG file will be saved to: {save_path}")
-logger.info(f"⬇️ .gz files are located in: {gz_directory}")
+# logger.info(f"⬇️  EPG file will be saved to: {save_path}")
+# logger.info(f"⬇️  .gz files are located in: {gz_directory}")
 
 
 
@@ -491,73 +580,93 @@ ensure_permissions(save_path)
 
 
 ########## Step 12: Function to fetch and merge EPG data
-def fetch_epg_data(url, index, total, retries=3, delay=5, folder_path="scripts/_epg-end"):
+def fetch_epg_data(
+    url: str,
+    index: int = 0,
+    total: int = 1,
+    retries: int = 3,
+    delay_sec: int = 5,
+    folder_path: str = "scripts/_epg-end"
+) -> Optional[ET.ElementTree]:
+    """
+    Fetch XML from a remote URL or local file.
+    Supports .gz files and retries for remote requests.
+    Logs full URL and returns an ElementTree or None on failure.
+    """
 
-    is_remote = url.startswith("http://") or url.startswith("https://")
-    logger.info(f"🔄Fetching {index + 1}/{total} - {url}")
+    def parse_xml_bytes(xml_bytes: bytes) -> Optional[ET.ElementTree]:
+        """Parse XML from bytes and return ElementTree, None if parse fails."""
+        try:
+            return ET.ElementTree(ET.fromstring(xml_bytes))
+        except ET.ParseError as e:
+            log_message(f"❌ Failed to parse XML: {e}", level="error")
+            return None
 
+    # Log full URL once
+    # log_message(f"🔄 Fetching {index}/{total} - {url}")
+
+    is_remote = url.startswith(("http://", "https://"))
+
+    # -------------------------
+    # REMOTE URL
+    # -------------------------
     if is_remote:
-        attempt = 0
-        while attempt < retries:
+        for attempt in range(1, retries + 1):
             try:
-                response = requests.get(url, timeout=10)
-                if response.status_code == 200:
-                    if not response.content or not isinstance(response.content, (bytes, str)):
-                        logger.info(f"⚠️Empty response from site: {url}")
-                        return None
-
-                    try:
-                        # Handle .gz files
-                        if url.endswith(".gz"):
-                            with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-                                xml_content = gz.read()
-                            return ET.ElementTree(ET.fromstring(xml_content))
-                        else:
-                            return ET.ElementTree(ET.fromstring(response.content))
-                    except ET.ParseError as e:
-                        logger.info(f"⚠️Invalid XML from site {url}: {e}")
-                        return None
-                else:
-                    logger.info(f"❌HTTP error {response.status_code} from site {url}")
+                r = requests.get(url, timeout=10)
+                if r.status_code != 200:
+                    log_message(f"❌ HTTP {r.status_code} from {url}", level="error")
                     return None
+
+                if not r.content:
+                    log_message(f"⚠️ Empty response from {url}", level="warning")
+                    return None
+
+                # Handle gzip
+                if url.endswith(".gz") or r.content[:2] == b'\x1f\x8b':
+                    with gzip.GzipFile(fileobj=io.BytesIO(r.content)) as gz:
+                        xml_bytes = gz.read()
+                    return parse_xml_bytes(xml_bytes)
+                else:
+                    return parse_xml_bytes(r.content)
+
             except requests.RequestException as e:
-                logger.info(f"⚠️Attempt {attempt+1}/{retries} failed for site {url}: {e}")
-                attempt += 1
+                log_message(f"⚠️  Attempt {attempt}/{retries} failed for {url}: {e}", level="warning")
                 if attempt < retries:
-                    time.sleep(delay)
-        logger.info(f"❌Failed to fetch from site {url} after {retries} attempts.")
+                    log_message(f"⏳ Retrying in {delay_sec}s...", level="info")
+                    time.sleep(delay_sec)
+
+        log_message(f"❌ Failed to fetch {url} after {retries} attempts", level="error")
         return None
 
+    # -------------------------
+    # LOCAL FILE
+    # -------------------------
     else:
-        # Local file path
         if not os.path.isabs(url):
             url = os.path.join(folder_path, url)
 
         if not os.path.exists(url):
-            logger.info(f"❌Local file does not exist: {url}")
+            log_message(f"❌ Local file does not exist: {url}", level="error")
             return None
 
         try:
             if url.endswith(".gz"):
                 with gzip.open(url, "rb") as f:
-                    xml_content = f.read()
-                if not xml_content:
-                    logger.info(f"⚠️Empty local file: {url}")
+                    xml_bytes = f.read()
+                if not xml_bytes:
+                    log_message(f"⚠️ Empty local file: {url}", level="warning")
                     return None
-                return ET.ElementTree(ET.fromstring(xml_content))
+                return parse_xml_bytes(xml_bytes)
             else:
-                tree = ET.parse(url)
-                if tree is None:
-                    logger.info(f"⚠️Empty local file: {url}")
-                    return None
-                return tree
+                return ET.parse(url)
         except ET.ParseError as e:
-            logger.info(f"❌Failed to parse local XML file {url}: {e}")
+            log_message(f"❌ Failed to parse local XML file {url}: {e}", level="error")
             return None
         except Exception as e:
-            logger.info(f"❌Error processing local file {url}: {e}")
+            log_message(f"❌ Error reading local file {url}: {e}", level="error")
             return None
-
+        
 
 
 
@@ -593,12 +702,12 @@ reorder_channels(merged_root)
 # Pretty print the merged and reordered XML
 # pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
 
-# Assuming epg_urls contains your XML URLs (remote or local)
+# Assuming XMLTV_URLS contains your XML URLs (remote or local)
 folder_path = "scripts/_epg-end"  # Update to your folder path
 
 ########## Step 14: XML Elements to single line
 
-from xml.sax.saxutils import escape
+from xml.sax.saxutils import escape  # Escape special XML characters (& < > etc.)
 
 def element_to_single_line(el):
     parts = []
@@ -619,20 +728,7 @@ def element_to_single_line(el):
     return "".join(parts)
 
 
-from xml.sax.saxutils import escape
 
-def element_to_single_line(el):
-    """Serialize a <channel> or <programme> element to a single line with escaped content."""
-    attrs = " ".join(f'{k}="{escape(v)}"' for k, v in el.attrib.items())
-    start_tag = f"<{el.tag}" + (f" {attrs}" if attrs else "") + ">"
-
-    # Element text
-    text_content = escape(el.text.strip()) if el.text else ""
-
-    # Children (flattened)
-    children_content = "".join(element_to_single_line(child) for child in el)
-
-    return f"{start_tag}{text_content}{children_content}</{el.tag}>"
 
 def write_epg_single_line(root, save_path):
     """Write full XML tree with <channel> and <programme> as single lines."""
@@ -653,7 +749,7 @@ try:
     # merged_tree = ET.ElementTree(merged_root)
     # merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
     write_epg_single_line(merged_root, save_path)
-    logger.info(f"✅ EPG file saved to {save_path}")
+    # logger.info(f"✅ EPG file saved to {save_path}")
     
 except Exception as e:
     # Log error if save fails
@@ -670,55 +766,62 @@ if __name__ == "__main__":
     epg_end_dir = os.path.join(script_dir, "_epg-end")
     os.makedirs(epg_end_dir, exist_ok=True)
 
-    # -------------------------
-    # Step 1: Run dummy + npm grab
-    # -------------------------
-    run_npm_grab()
-
-    # -------------------------
-    # Step 2: Build FAST EPG
-    # -------------------------
-    if run_build_fast_epg:
-        logger.info("▶️ Running build_fast_epg via subprocess...")
-        subprocess.run([sys.executable, BUILD_EPG_SCRIPT], check=True)
-        logger.info("✅ build_fast_epg finished")
-
-    # -------------------------
-    # Step 2b: Build Dummy EPG
-    # -------------------------
-    if run_build_dummy_epg:
-        logger.info("▶️ Running build_dummy_epg.py via subprocess...")
-        subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
-        logger.info("✅ build_dummy_epg.py finished")
-
-    # -------------------------
-    # Step 3: Collect XML files for merge (only enabled toggles)
-    # -------------------------
-    epg_urls = []
-    seen_files = set()  # to avoid duplicates
-
-    for f in os.listdir(epg_end_dir):
-        if f.endswith(".xml") and not f.startswith("._"):  # ignore hidden macOS files
-            file_path = os.path.join(epg_end_dir, f)
-            if file_path not in seen_files:
-                epg_urls.append(file_path)
-                seen_files.add(file_path)
-                logger.info(f"🟢 Added EPG file for merge: {file_path}")
-
-    # Sort files if you want FAST EPG first, Dummy EPG second
-    epg_urls.sort(key=lambda x: ("fast-epg" not in x, "dummy--epg" not in x))
-
-    # -------------------------
-    # Step 4: Ensure save directory & permissions
-    # -------------------------
     save_path = os.path.join(script_dir, "www", "epg.xml")
     ensure_permissions(save_path)
 
     # -------------------------
-    # Step 5: Merge files
+    # Step 1: Build FAST EPG (if enabled)
     # -------------------------
-    if epg_urls:
-        build_epg_xml_data(epg_urls, epg_end_dir, save_path)
-        logger.info(f"🏁 EPG build complete. Merged {len(epg_urls)} file(s) into {save_path}")
-    else:
-        logger.warning("⚠️ No EPG files found to merge. Nothing was saved.")
+    if run_build_fast_epg:
+        logger.info("▶️  Building fast-epg-end.xml...")
+        build_fast_epg()
+        # logger.info("✅ FAST EPG finished")
+
+    # -------------------------
+    # Step 2: Build Dummy EPG (if enabled)
+    # -------------------------
+    if run_build_dummy_epg:
+        logger.info("▶️  Running build_dummy_epg.py...")
+        subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
+        # logger.info("✅ Dummy EPG finished")
+
+    # -------------------------
+    # Step 3: Collect XML files to merge
+    # Only include FAST + Dummy to avoid duplicates
+    # -------------------------
+    epg_files = []
+    fast_file = os.path.join(epg_end_dir, "fast-epg-end.xml")
+    dummy_file = os.path.join(epg_end_dir, "dummy--epg---end.xml")
+
+    for f in [fast_file, dummy_file]:
+        if os.path.exists(f) and f not in epg_files:
+            epg_files.append(f)
+            # logger.info(f"🟢 Added to epg.xml: {f}")
+            logger.info(f"🟢 {os.path.basename(f)} added to epg.xml")
+
+    # -------------------------
+    # Step 4: Merge XML files into single epg.xml
+    # -------------------------
+    logger.info("▶️  Merging EPG files into epg.xml...")
+    build_epg_xml_data(epg_files, epg_end_dir, save_path)
+
+    # -------------------------
+    # Step 5: Remove any leftover <icon> tags in final epg.xml
+    # -------------------------
+    try:
+        # After merging into epg.xml
+        tree = ET.parse(save_path)
+        root = tree.getroot()
+
+        # Remove all <icon> tags recursively
+        remove_icons(root)
+
+        # Re-write as single-line XML
+        write_epg_single_line(root, save_path)
+        logger.info("🧹 Removed all <icon> tags from final epg.xml")
+    except Exception as e:
+        logger.error(f"❌ Failed to remove <icon> tags: {e}")
+
+    logger.info(f"✅ epg.xml created successfully, file saved to: {save_path}")
+
+
