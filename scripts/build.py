@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1238 a 
+# build_epg_xml.py Mar 7 1245 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -432,7 +432,7 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     seen_programmes = set()
 
     for index, url in enumerate(epg_urls, start=1):
-        log_message(f"🔄 Fetching {index}/{total} - {url}")
+        log_message(f"🔄 Fetching File {index + 1}/{total} - {url}")
 
         tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
         if not tree:
@@ -575,7 +575,7 @@ def fetch_epg_data(url: str,
             return None
 
     is_remote = url.startswith("http://") or url.startswith("https://")
-    log_message(f"🔄 Fetching {index + 1}/{total} - {url}")
+    log_message(f"🔄 Fetching URL {index + 1}/{total} - {url}")
 
     # -------------------------
     # REMOTE URL
@@ -770,7 +770,7 @@ if __name__ == "__main__":
     # -------------------------
     # Step 4: Merge XML files into single epg.xml
     # -------------------------
-    logger.info("▶️ Merging EPG files into single XML...")
+    logger.info("▶️  Merging EPG files into single XML...")
     build_epg_xml_data(epg_files, epg_end_dir, save_path)
 
     # -------------------------
