@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 7 1051 a 
+# build_epg_xml.py Mar 7 1213 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -301,7 +301,7 @@ def process_root(root, seen_channels, seen_programmes):
 
 
 
-########## Step 7: Build FAST EPG
+########## Step 7: Build FAST EPG with removed <icons>
 def remove_icons(root):
     """
     Recursively remove all <icon> elements from the XML tree,
@@ -316,7 +316,6 @@ def remove_icons(root):
                 el.remove(icon)
                 break
 
-########## Step 7: Build FAST EPG ##########
 def build_fast_epg():
     """
     Build FAST EPG XML by fetching multiple remote sources.
@@ -329,23 +328,26 @@ def build_fast_epg():
     os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 
     XMLTV_URLS = [
-        # "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
+        # "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz", 
         "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
         "https://i.mjh.nz/PlutoTV/all.xml",
         "https://i.mjh.nz/Plex/all.xml",
         "https://i.mjh.nz/Roku/all.xml",
-        "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml",
-        "https://i.mjh.nz/SamsungTVPlus/all.xml"
+        "https://i.mjh.nz/SamsungTVPlus/all.xml",
+        "https://raw.githubusercontent.com/acidjesuz/EPGTalk/refs/heads/master/guide.xml"
     ]
 
     seen_channels = {}
     seen_programmes = set()
     programmes = []
 
-    for url in XMLTV_URLS:
-        tree = fetch_epg_data(url, 0, 0)
+    total_urls = len(XMLTV_URLS)
+
+    for index, url in enumerate(XMLTV_URLS, start=1):
+        log_message(f"🔄 Fetching {index}/{total_urls} - {url}")  # Full URL logging
+        tree = fetch_epg_data(url, index=index, total=total_urls)
         if not tree:
             continue
         root = tree.getroot()
@@ -367,9 +369,6 @@ def build_fast_epg():
                 channel.append(url_elem)
 
                 seen_channels[cid] = channel
-            else:
-                # Optional: merge attributes/child elements from duplicates if needed
-                pass
 
         # --- Programmes ---
         for prog in root.findall("programme"):
@@ -377,10 +376,10 @@ def build_fast_epg():
             if not cid or (CHANNELS and cid not in CHANNELS):
                 continue
 
-            # Unique key to deduplicate
             key = (cid, prog.get("start"), prog.get("stop"), prog.findtext("title", ""))
             if key in seen_programmes:
                 continue
+
             seen_programmes.add(key)
             programmes.append(prog)
 
@@ -395,7 +394,7 @@ def build_fast_epg():
     for prog in programmes:
         merged_root.append(prog)
 
-    # Final cleanup: remove any leftover <icon> tags recursively
+    # Remove leftover <icon> tags just in case
     for icon in merged_root.findall(".//icon"):
         for parent in merged_root.iter():
             if icon in list(parent):
@@ -409,15 +408,15 @@ def build_fast_epg():
     write_epg_single_line(merged_root, OUTPUT_XML)
 
     # Logging
-    logger.info(f"✅ fast-epg-end.xml created successfully.: {OUTPUT_XML}")
-    logger.info(f"📺 Channels: {len(seen_channels)}")
-    logger.info(f"📡 Programs: {len(programmes)}")
+    logger.info(f"✅ fast-epg-end.xml created successfully")
+    logger.info(f"📺 Channels found: {len(seen_channels)}")
+    logger.info(f"📡 Programs found: {len(programmes)}")
 
 
 
 
 ########## Step 8: Merge EPG data ##########
-def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
+def build_epg_xml_data(XMLTV_URLS, epg_end_dir, save_path):
     """
     Fetch multiple EPG XML files (remote or local), merge them,
     remove duplicates, strip icons, and save a single-line XML file.
@@ -425,12 +424,16 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     # log_message("▶️ Merging EPG data...")
 
     merged_root = ET.Element("tv")
-    total = len(epg_urls)
+
+    # log_message(f"DEBUG XMLTV_URLS: {XMLTV_URLS}")
 
     seen_channels = set()
     seen_programmes = set()
 
-    for index, url in enumerate(epg_urls, start=1):
+    total = len(XMLTV_URLS)  # ✅ use the correct list
+
+    for index, url in enumerate(XMLTV_URLS, start=1):
+        log_message(f"DEBUG total={len(XMLTV_URLS)}")
         log_message(f"🔄 Fetching {index}/{total} - {url}")
 
         tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
@@ -474,8 +477,8 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
 
     # Log summary
     # log_message(f"✅ EPG file saved to {save_path}")
-    log_message(f"📺 Channels: {len(seen_channels)}")
-    log_message(f"📡 Programs: {len(seen_programmes)}")
+    log_message(f"📺 Channels added: {len(seen_channels)}")
+    log_message(f"📡 Programs added: {len(seen_programmes)}")
 
 ########## Step 9: Check for XML files if no URLs are found
 def load_local_xml_files(directory):
@@ -517,7 +520,7 @@ save_path = os.path.join(REPO_DIR, "www", "epg.xml")  # Path where the EPG file 
 gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are located
 
 # You can now process files within the gz_directory or save to save_path
-logger.info(f"⬇️  EPG file will be saved to: {save_path}")
+# logger.info(f"⬇️  EPG file will be saved to: {save_path}")
 # logger.info(f"⬇️  .gz files are located in: {gz_directory}")
 
 
@@ -553,61 +556,63 @@ ensure_permissions(save_path)
 
 
 ########## Step 12: Function to fetch and merge EPG data
-def fetch_epg_data(url: str,
-                   index: int = 0,
-                   total: int = 1,
-                   retries: int = 3,
-                   delay_sec: int = 5,
-                   folder_path: str = "scripts/_epg-end") -> Optional[ET.ElementTree]:
+def fetch_epg_data(
+    url: str,
+    index: int = 0,
+    total: int = 1,
+    retries: int = 3,
+    delay_sec: int = 5,
+    folder_path: str = "scripts/_epg-end"
+) -> Optional[ET.ElementTree]:
     """
     Fetch XML from a remote URL or local file.
-    Handles .gz files, retries remote requests, and logs progress.
-    Returns an ElementTree or None if failed.
+    Supports .gz files and retries for remote requests.
+    Logs full URL and returns an ElementTree or None on failure.
     """
 
     def parse_xml_bytes(xml_bytes: bytes) -> Optional[ET.ElementTree]:
-        """Helper to parse XML from bytes, returns ElementTree or None on failure."""
+        """Parse XML from bytes and return ElementTree, None if parse fails."""
         try:
             return ET.ElementTree(ET.fromstring(xml_bytes))
         except ET.ParseError as e:
-            log_message(f"❌Failed to parse XML: {e}", level="error")
+            log_message(f"❌ Failed to parse XML: {e}", level="error")
             return None
 
-    is_remote = url.startswith("http://") or url.startswith("https://")
-    log_message(f"🔄 Fetching {index + 1}/{total} - {url}")
+    # Log full URL once
+    # log_message(f"🔄 Fetching {index}/{total} - {url}")
+
+    is_remote = url.startswith(("http://", "https://"))
 
     # -------------------------
     # REMOTE URL
     # -------------------------
     if is_remote:
-        attempt = 0
-        while attempt < retries:
+        for attempt in range(1, retries + 1):
             try:
                 r = requests.get(url, timeout=10)
                 if r.status_code != 200:
-                    log_message(f"❌HTTP error {r.status_code} from {url}", level="error")
+                    log_message(f"❌ HTTP {r.status_code} from {url}", level="error")
                     return None
 
                 if not r.content:
-                    log_message(f"⚠️Empty response from {url}", level="warning")
+                    log_message(f"⚠️ Empty response from {url}", level="warning")
                     return None
 
                 # Handle gzip
                 if url.endswith(".gz") or r.content[:2] == b'\x1f\x8b':
                     with gzip.GzipFile(fileobj=io.BytesIO(r.content)) as gz:
-                        xml_content = gz.read()
-                    return parse_xml_bytes(xml_content)
+                        xml_bytes = gz.read()
+                    return parse_xml_bytes(xml_bytes)
                 else:
                     return parse_xml_bytes(r.content)
 
             except requests.RequestException as e:
-                attempt += 1
-                log_message(f"⚠️Attempt {attempt}/{retries} failed for {url}: {e}", level="warning")
+                log_message(f"⚠️  Attempt {attempt}/{retries} failed for {url}: {e}", level="warning")
                 if attempt < retries:
-                    log_message(f"⏳Retrying in {delay_sec} seconds...", level="info")
+                    log_message(f"⏳ Retrying in {delay_sec}s...", level="info")
                     time.sleep(delay_sec)
 
-        log_message(f"❌Failed to fetch {url} after {retries} attempts", level="error")
+        log_message(f"❌ Failed to fetch {url} after {retries} attempts", level="error")
         return None
 
     # -------------------------
@@ -618,25 +623,28 @@ def fetch_epg_data(url: str,
             url = os.path.join(folder_path, url)
 
         if not os.path.exists(url):
-            log_message(f"❌Local file does not exist: {url}", level="error")
+            log_message(f"❌ Local file does not exist: {url}", level="error")
             return None
 
         try:
             if url.endswith(".gz"):
                 with gzip.open(url, "rb") as f:
-                    xml_content = f.read()
-                if not xml_content:
-                    log_message(f"⚠️Empty local file: {url}", level="warning")
+                    xml_bytes = f.read()
+                if not xml_bytes:
+                    log_message(f"⚠️ Empty local file: {url}", level="warning")
                     return None
-                return parse_xml_bytes(xml_content)
+                return parse_xml_bytes(xml_bytes)
             else:
                 return ET.parse(url)
         except ET.ParseError as e:
-            log_message(f"❌Failed to parse local XML file {url}: {e}", level="error")
+            log_message(f"❌ Failed to parse local XML file {url}: {e}", level="error")
             return None
         except Exception as e:
-            log_message(f"❌Error processing local file {url}: {e}", level="error")
+            log_message(f"❌ Error reading local file {url}: {e}", level="error")
             return None
+        
+
+
 
 ########## Step 13: Function to reorder channels to the top of the XML
 def reorder_channels(merged_root):
@@ -670,7 +678,7 @@ reorder_channels(merged_root)
 # Pretty print the merged and reordered XML
 # pretty_xml = pretty_print_xml(ET.ElementTree(merged_root))
 
-# Assuming epg_urls contains your XML URLs (remote or local)
+# Assuming XMLTV_URLS contains your XML URLs (remote or local)
 folder_path = "scripts/_epg-end"  # Update to your folder path
 
 ########## Step 14: XML Elements to single line
@@ -764,12 +772,13 @@ if __name__ == "__main__":
     for f in [fast_file, dummy_file]:
         if os.path.exists(f) and f not in epg_files:
             epg_files.append(f)
-            logger.info(f"🟢 Added for merge: {f}")
+            # logger.info(f"🟢 Added to epg.xml: {f}")
+            logger.info(f"🟢 {os.path.basename(f)} added to epg.xml")
 
     # -------------------------
     # Step 4: Merge XML files into single epg.xml
     # -------------------------
-    logger.info("▶️  Merging EPG files into single XML...")
+    logger.info("▶️  Merging EPG files into epg.xml...")
     build_epg_xml_data(epg_files, epg_end_dir, save_path)
 
     # -------------------------
@@ -789,6 +798,6 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"❌ Failed to remove <icon> tags: {e}")
 
-    logger.info(f"✅ epg.xml created successfully. File saved to {save_path}")
+    logger.info(f"✅ epg.xml created successfully, file saved to: {save_path}")
 
 

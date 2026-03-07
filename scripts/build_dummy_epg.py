@@ -77,7 +77,7 @@ except ImportError:
         sys.exit(1)  # Exit if installation fails
 
 # Step 3: Print a message indicating pytz is ready to use
-logger.info("✅ pytz is installed and ready to use.")
+logger.info("🟢 pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=5, programs_per_day=24):
