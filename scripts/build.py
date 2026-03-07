@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 6 2026 1126 p 
+# build_epg_xml.py Mar 7 1211 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -322,6 +322,7 @@ def build_fast_epg():
     """
     Build FAST EPG XML by fetching multiple remote sources.
     Deduplicates channels and programmes.
+    Adds <url> only once per channel.
     Saves final XML to _epg-end/fast-epg-end.xml
     """
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -340,8 +341,6 @@ def build_fast_epg():
         "https://i.mjh.nz/SamsungTVPlus/all.xml"
     ]
 
-    logger.info("▶️ Building FAST EPG")
-
     seen_channels = {}
     seen_programmes = set()
     programmes = []
@@ -352,58 +351,70 @@ def build_fast_epg():
             continue
         root = tree.getroot()
 
-        # Process channels
+        # --- Channels ---
         for channel in root.findall("channel"):
             cid = channel.get("id")
-            if not cid or (CHANNELS and cid not in CHANNELS) or cid in seen_channels:
+            if not cid or (CHANNELS and cid not in CHANNELS):
                 continue
 
-            # Remove icons to reduce file size
-            for icon in channel.findall("icon"):
-                channel.remove(icon)
+            if cid not in seen_channels:
+                # Remove <icon> to reduce file size
+                for icon in channel.findall("icon"):
+                    channel.remove(icon)
 
-            # Append source URL for reference
-            url_elem = ET.Element("url")
-            url_elem.text = url
-            channel.append(url_elem)
+                # Add <url> element only once per channel
+                url_elem = ET.Element("url")
+                url_elem.text = url
+                channel.append(url_elem)
 
-            seen_channels[cid] = channel
+                seen_channels[cid] = channel
+            else:
+                # Optional: merge attributes/child elements from duplicates if needed
+                pass
 
-        # Process programmes
+        # --- Programmes ---
         for prog in root.findall("programme"):
             cid = prog.get("channel")
             if not cid or (CHANNELS and cid not in CHANNELS):
                 continue
 
-            key = (cid, prog.get("start"), prog.get("stop"))
+            # Unique key to deduplicate
+            key = (cid, prog.get("start"), prog.get("stop"), prog.findtext("title", ""))
             if key in seen_programmes:
                 continue
             seen_programmes.add(key)
             programmes.append(prog)
 
-    # Merge into final XML
+    # --- Merge into final XML ---
     merged_root = ET.Element("tv")
 
-    # Channels first
+    # Append channels first
     for cid in sorted(seen_channels.keys()):
         merged_root.append(seen_channels[cid])
 
-    # Then programmes
+    # Then append programmes
     for prog in programmes:
         merged_root.append(prog)
 
-    # Remove any leftover icons
-    remove_icons(merged_root)
+    # Final cleanup: remove any leftover <icon> tags recursively
+    for icon in merged_root.findall(".//icon"):
+        for parent in merged_root.iter():
+            if icon in list(parent):
+                parent.remove(icon)
+                break
 
     # Ensure directory permissions
     ensure_permissions(OUTPUT_XML)
 
-    # Write final XML (single-line formatting like epg.xml)
+    # Write final single-line XML
     write_epg_single_line(merged_root, OUTPUT_XML)
 
+    # Logging
     logger.info(f"✅ FAST EPG built: {OUTPUT_XML}")
     logger.info(f"📺 Channels: {len(seen_channels)}")
     logger.info(f"📡 Programmes: {len(programmes)}")
+
+
 
 
 ########## Step 8: Merge EPG data ##########
