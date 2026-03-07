@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1245 a 
+# build_epg_xml.py Mar 7 1254 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -410,7 +410,7 @@ def build_fast_epg():
     write_epg_single_line(merged_root, OUTPUT_XML)
 
     # Logging
-    logger.info(f"✅ FAST EPG built: {OUTPUT_XML}")
+    logger.info(f"✅ fast-epg-end.xml created successfully.: {OUTPUT_XML}")
     logger.info(f"📺 Channels: {len(seen_channels)}")
     logger.info(f"📡 Programs: {len(programmes)}")
 
@@ -432,7 +432,7 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     seen_programmes = set()
 
     for index, url in enumerate(epg_urls, start=1):
-        log_message(f"🔄 Fetching File {index + 1}/{total} - {url}")
+        log_message(f"🔄 Fetching {index}/{total} - {url}")
 
         tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
         if not tree:
@@ -575,7 +575,7 @@ def fetch_epg_data(url: str,
             return None
 
     is_remote = url.startswith("http://") or url.startswith("https://")
-    log_message(f"🔄 Fetching URL {index + 1}/{total} - {url}")
+    log_message(f"🔄 Fetching {index + 1}/{total} - {url}")
 
     # -------------------------
     # REMOTE URL
@@ -750,7 +750,7 @@ if __name__ == "__main__":
     # Step 2: Build Dummy EPG (if enabled)
     # -------------------------
     if run_build_dummy_epg:
-        logger.info("▶️ Running build_dummy_epg.py...")
+        logger.info("▶️  Running build_dummy_epg.py...")
         subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
         # logger.info("✅ Dummy EPG finished")
 
