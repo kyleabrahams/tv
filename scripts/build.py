@@ -433,7 +433,7 @@ def build_epg_xml_data(XMLTV_URLS, epg_end_dir, save_path):
     total = len(XMLTV_URLS)  # ✅ use the correct list
 
     for index, url in enumerate(XMLTV_URLS, start=1):
-        log_message(f"DEBUG total={len(XMLTV_URLS)}")
+        # log_message(f"DEBUG total={len(XMLTV_URLS)}")
         log_message(f"🔄 Fetching {index}/{total} - {url}")
 
         tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
