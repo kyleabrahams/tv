@@ -30,7 +30,7 @@ import pytz
 from build_channels_list import CHANNELS  # Channels list from build_channels_list.py
 
 
-# build_epg_xml.py Mar 7 1254 a 
+# build_epg_xml.py Mar 7 104 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -474,7 +474,7 @@ def build_epg_xml_data(epg_urls, epg_end_dir, save_path):
     write_epg_single_line(merged_root, save_path)
 
     # Log summary
-    log_message(f"✅ EPG file saved to {save_path}")
+    # log_message(f"✅ EPG file saved to {save_path}")
     log_message(f"📺 Channels: {len(seen_channels)}")
     log_message(f"📡 Programs: {len(seen_programmes)}")
 
@@ -519,7 +519,7 @@ gz_directory = os.path.join(REPO_DIR, "www")  # Directory where .gz files are lo
 
 # You can now process files within the gz_directory or save to save_path
 logger.info(f"⬇️  EPG file will be saved to: {save_path}")
-logger.info(f"⬇️  .gz files are located in: {gz_directory}")
+# logger.info(f"⬇️  .gz files are located in: {gz_directory}")
 
 
 
@@ -718,7 +718,7 @@ try:
     # merged_tree = ET.ElementTree(merged_root)
     # merged_tree.write(save_path, encoding="utf-8", xml_declaration=True)
     write_epg_single_line(merged_root, save_path)
-    logger.info(f"✅ EPG file saved to {save_path}")
+    # logger.info(f"✅ EPG file saved to {save_path}")
     
 except Exception as e:
     # Log error if save fails
@@ -744,7 +744,7 @@ if __name__ == "__main__":
     if run_build_fast_epg:
         logger.info("▶️  Building FAST EPG...")
         build_fast_epg()
-        logger.info("✅ FAST EPG finished")
+        # logger.info("✅ FAST EPG finished")
 
     # -------------------------
     # Step 2: Build Dummy EPG (if enabled)
@@ -790,6 +790,6 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"❌ Failed to remove <icon> tags: {e}")
 
-    logger.info(f"🏁 EPG build complete. Saved to {save_path}")
+    logger.info(f"✅ epg.xml created successfully. File saved to {save_path}")
 
 
