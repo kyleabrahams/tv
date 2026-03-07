@@ -1,0 +1,92 @@
+name: Run build_epg_xml.py
+
+on:
+  workflow_dispatch:  # Allow manual triggering
+  # push:  # Trigger on push events
+    # branches:
+      # - main  # Adjust if you want other branches
+    schedule:
+      - cron: '10 5 * * *'   # 05:10 AM
+      - cron: '10 11 * * *'  # 11:10 AM
+      - cron: '10 17 * * *'  # 05:10 PM
+      - cron: '10 23 * * *'  # 11:10 PM
+
+concurrency:
+  group: "build_epg_xml"
+  cancel-in-progress: true  # If another instance is running, cancel it
+
+jobs:
+  run_build_epg_xml_script:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Set up Python
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+
+    # Configure Git user
+    - name: Configure Git user
+      run: |
+        git config --global user.email "kyleagbc@gmail.com"
+        git config --global user.name "kyleabrahams"
+
+    # Install dependencies from requirements.txt
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+        npm install @freearhey/core
+
+    # Delete existing channels-custom-end.xml
+    - name: Remove existing channels-custom-end.xml
+      run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/channels-custom-end.xml
+
+    # Delete existing dummy--epg---end.xml
+    #- name: Remove old dummy EPG files
+      #run: rm -f $GITHUB_WORKSPACE/scripts/_epg-end/dummy--epg---end.xml
+
+    # Delete existing epg.xml
+    - name: Remove existing epg.xml
+      run: |
+        if [ -f $GITHUB_WORKSPACE/scripts/www/epg.xml ]; then
+          rm -f $GITHUB_WORKSPACE/scripts/www/epg.xml
+          echo "epg.xml removed"
+        else
+          echo "epg.xml not found"
+        fi
+
+    
+    # List the contents before and after the process
+    - name: List files before script
+      run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
+    
+    # Run build_epg_xml.py script
+    - name: Run build_epg_xml.py script
+      run: |
+        python scripts/build_epg_xml.py
+        # python scripts/build_epg_xml-test.py 
+    
+    # List files after running the script
+    - name: List files after script
+      run: ls -R ./scripts/_epg-end
+
+    # Commit and push the changes to the repository
+    - name: Commit and push generated files
+      run: |
+        git status
+        if [ -n "$(git status --porcelain)" ]; then
+          git add ./scripts/_epg-end/* ./scripts/www/epg.xml
+          git commit -m "Update generated EPG file and related changes"
+          git push
+        else
+          echo "No changes to commit"
+        fi
+
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
