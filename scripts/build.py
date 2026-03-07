@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 7 1213 p 
+# build_epg_xml.py Mar 7 1237 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build.py
 
@@ -322,6 +322,7 @@ def build_fast_epg():
     Deduplicates channels and programmes.
     Adds <url> only once per channel.
     Saves final XML to _epg-end/fast-epg-end.xml
+    Logs each channel's name, ID, and total programmes.
     """
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     OUTPUT_XML = os.path.join(BASE_DIR, "_epg-end", "fast-epg-end.xml")
@@ -346,7 +347,7 @@ def build_fast_epg():
     total_urls = len(XMLTV_URLS)
 
     for index, url in enumerate(XMLTV_URLS, start=1):
-        log_message(f"🔄 Fetching {index}/{total_urls} - {url}")  # Full URL logging
+        log_message(f"🔄 Fetching {index}/{total_urls} - {url}")
         tree = fetch_epg_data(url, index=index, total=total_urls)
         if not tree:
             continue
@@ -383,6 +384,33 @@ def build_fast_epg():
             seen_programmes.add(key)
             programmes.append(prog)
 
+    # --- Count programmes per channel while building ---
+    prog_count_by_channel = {}
+
+    for prog in programmes:  # programmes list is already built
+        cid = prog.get("channel")
+        if not cid:
+            continue
+        prog_count_by_channel[cid] = prog_count_by_channel.get(cid, 0) + 1
+
+    # --- Sort channels A-Z by display-name ---
+    sorted_channels = sorted(
+        seen_channels.values(),
+        key=lambda ch: (ch.findtext("display-name") or ch.findtext("name") or "").lower()
+    )
+
+    # Log channels in alphabetical order
+    logger.info(f"📺 Total channels found: {len(seen_channels)}")
+    for channel in sorted_channels:
+        name = channel.findtext("display-name") or channel.findtext("name") or "Unknown"
+        cid = channel.get("id")
+        count = prog_count_by_channel.get(cid, 0)
+        logger.info(f"📺 {name} - {cid} ({count} programs)")
+
+    # Total programmes
+    total_programmes = sum(prog_count_by_channel.values())
+    logger.info(f"📡 Total programs found: {total_programmes}")
+
     # --- Merge into final XML ---
     merged_root = ET.Element("tv")
 
@@ -407,11 +435,7 @@ def build_fast_epg():
     # Write final single-line XML
     write_epg_single_line(merged_root, OUTPUT_XML)
 
-    # Logging
     logger.info(f"✅ fast-epg-end.xml created successfully")
-    logger.info(f"📺 Channels found: {len(seen_channels)}")
-    logger.info(f"📡 Programs found: {len(programmes)}")
-
 
 
 
