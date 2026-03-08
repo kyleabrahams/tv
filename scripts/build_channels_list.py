@@ -1,7 +1,7 @@
 # Connect to build_fast_epg.py
 # List of channels to include in the EPG
 
-# build_fast_channels.py Mar 8 118 p
+# build_fast_channels.py Mar 8 219 p
 
 CHANNELS = {
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
@@ -291,7 +291,7 @@ CHANNELS = {
     "CABC5200022N1": "Homeful",
     "667f3852efa2a10008e1e514": "Inspector Gadget",
     "USBD25000138Y": "Leave It to Bryan",  
-    "5e20b730f2f8d5003d739db7-6529ad9dc8221fe0db66c0b3": "Lidia's Kitchen / Italian Table",
+    "99951151": "Lidia's Kitchen",
     "USBC1300009VM": "LOL! Network",
     "USBA3000044BJ": "Lucky Dog",
     "CA3100001IB": "MrBeast",     
@@ -313,7 +313,7 @@ CHANNELS = {
     "62cc00b3b821cf00070f82c3": "Global News Toronto",    
     "62f4f90e39183b000769f12b": "Frasier",
     "645e7828e1979c00087b75b4": "MovieSphere",
-    "": "Name",
+    "8ba514251e1a58b7b53368177baa1041": "Law & Crime",
     "": "Name",     
     "": "Name",
     "": "Name",   
