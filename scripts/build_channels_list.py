@@ -1,7 +1,7 @@
 # Connect to build_fast_epg.py
 # List of channels to include in the EPG
 
-# build_fast_channels.py Mar 8 219 p
+# build_fast_channels.py Mar 8 248 p
 
 CHANNELS = {
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
@@ -59,7 +59,7 @@ CHANNELS = {
     "6132619f9ddaa50007e7dd86": "King of Queens - Pluto",
     "USBD270001633": "Hallmark Movies and More - Samsung",
     "CA300017ZS": "Love Pets - Samsung",
-    "DEBC4700004VZ": "Love the Planet - Samsung",
+    "GBBD500001F5": "Love the Planet - Samsung",
     "66df8a29b25d2b0008fc5fe0": "Love Nature 4k - Pluto",
     "FRAJ3800004CC": "MTV Classics - Samsung",
     "CA4600001IG": "Murdoch Mysteries - Samsung",
@@ -314,7 +314,7 @@ CHANNELS = {
     "62f4f90e39183b000769f12b": "Frasier",
     "645e7828e1979c00087b75b4": "MovieSphere",
     "8ba514251e1a58b7b53368177baa1041": "Law & Crime",
-    "": "Name",     
+    "CA7000015K": "Ocean Vibes",     
     "": "Name",
     "": "Name",   
     "": "Name",
