@@ -75,7 +75,7 @@ CHANNELS = {
     "USBC13000065U": "This Old House - Samsung",
     "CABB2500020SS": "TED - Samsung",
     "USBD350002623": "Stingray Classica - Samsung",
-    "CAAJ3400003T7": "Stingray Naturescape - Samsung",
+    "5812bd9f249444e05d09cc4e": "Stingray Naturescape - Samsung",
     "USBA300031OT": "Sportsgrid - Samsung",
     "USBD70000213": "TMZ - Samsung",
     "US14000030Y": "Rainy Day Vibes - Samsung",
