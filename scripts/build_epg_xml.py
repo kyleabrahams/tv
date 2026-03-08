@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 7 1018 p 
+# build_epg_xml.py Mar 8 1027 a 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg_xml.py
 
@@ -332,6 +332,7 @@ def build_fast_epg():
         # "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz", 
         "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+        "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
         "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
         "https://i.mjh.nz/PlutoTV/all.xml",
         "https://i.mjh.nz/Plex/all.xml",
