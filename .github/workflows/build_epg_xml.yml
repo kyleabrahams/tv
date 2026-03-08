@@ -2,14 +2,13 @@ name: Run build_epg_xml.py
 
 on:
   workflow_dispatch:  # Allow manual triggering
-  # push:  # Trigger on push events
-    # branches:
-      # - main  # Adjust if you want other branches
-    schedule:
-      - cron: '10 5 * * *'   # 05:10 AM
-      - cron: '10 11 * * *'  # 11:10 AM
-      - cron: '10 17 * * *'  # 05:10 PM
-      - cron: '10 23 * * *'  # 11:10 PM
+  # push:  # Trigger on push events:
+  # - main  # Adjust if you want other branches
+  schedule:
+    - cron: '10 5 * * *'   # 05:10 AM
+    - cron: '10 11 * * *'  # 11:10 AM
+    - cron: '10 17 * * *'  # 05:10 PM
+    - cron: '10 23 * * *'  # 11:10 PM
 
 concurrency:
   group: "build_epg_xml"

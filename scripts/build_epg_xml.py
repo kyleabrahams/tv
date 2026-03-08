@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 7 1240 p 
+# build_epg_xml.py Mar 7 1018 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg_xml.py
 
@@ -396,16 +396,17 @@ def build_fast_epg():
     # --- Sort channels A-Z by display-name ---
     sorted_channels = sorted(
         seen_channels.values(),
-        key=lambda ch: (ch.findtext("display-name") or ch.findtext("name") or "").lower()
+        key=lambda ch: (CHANNELS.get(ch.get("id")) or ch.findtext("display-name") or "").lower()
     )
 
     # Log channels in alphabetical order
     logger.info(f"📺 Total channels found: {len(seen_channels)}")
     for channel in sorted_channels:
-        name = channel.findtext("display-name") or channel.findtext("name") or "Unknown"
         cid = channel.get("id")
+        name = CHANNELS.get(cid) or channel.findtext("display-name") or "Unknown"
         count = prog_count_by_channel.get(cid, 0)
-        logger.info(f"📺 {name} - {cid} ({count} programs)")
+
+    logger.info(f"📺 {name} - {cid} ({count} programs)")
 
     # Total programmes
     total_programmes = sum(prog_count_by_channel.values())
@@ -415,9 +416,9 @@ def build_fast_epg():
     merged_root = ET.Element("tv")
 
     # Append channels first
-    for cid in sorted(seen_channels.keys()):
-        merged_root.append(seen_channels[cid])
-
+    for channel in sorted_channels:
+        merged_root.append(channel)
+        
     # Then append programmes
     for prog in programmes:
         merged_root.append(prog)
