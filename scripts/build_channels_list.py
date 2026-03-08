@@ -1,7 +1,7 @@
 # Connect to build_fast_epg.py
 # List of channels to include in the EPG
 
-# build_fast_channels.py Mar 8 248 p
+# build_fast_channels.py Mar 8 304 p
 
 CHANNELS = {
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
@@ -315,11 +315,11 @@ CHANNELS = {
     "645e7828e1979c00087b75b4": "MovieSphere",
     "8ba514251e1a58b7b53368177baa1041": "Law & Crime",
     "CA7000015K": "Ocean Vibes",     
-    "": "Name",
-    "": "Name",   
-    "": "Name",
-    "": "Name",    
-    "": "Name",
+    "ANT1.cy": "ANT1",
+    "RIK.1.cy": "RIK1",   
+    "RIK.2.cy": "RIK Sat",
+    "ALPHA.cy": "Alpha",    
+    "OMEGA.cy": "Omega",
     "": "Name",     
     "": "Name",
     "": "Name",   
