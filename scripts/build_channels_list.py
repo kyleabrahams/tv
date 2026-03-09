@@ -1,7 +1,7 @@
 # Connect to build_fast_epg.py
 # List of channels to include in the EPG
 
-# build_fast_channels.py Mar 8 706 p
+# build_fast_channels.py Mar 8 1016 p
 
 CHANNELS = {
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
@@ -51,7 +51,7 @@ CHANNELS = {
     "CABB2500021YQ": "Gusto TV - Samsung",
     "CABB2500030GT": "Journy - Samsung",
     "68b9b0dbf9cf3d7cb9f56d88": "Jersey Shore - Pluto",
-    "6728c87cc7626f0008b28149" : "Jersey Shore Family Vacation"
+    "6728c87cc7626f0008b28149" : "Jersey Shore Family Vacation",
     "CAAJ3400002DI": "Jail - Samsung",
     "CABC2300001X9": "The Jack Hanna Channel - Samsung",
     "GBBC4000002H3": "The Jamie Oliver Channel - Samsung",
