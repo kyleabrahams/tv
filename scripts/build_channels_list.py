@@ -1,7 +1,7 @@
 # Connect to build_fast_epg.py
 # List of channels to include in the EPG
 
-# build_fast_channels.py Mar 8 1016 p
+# build_fast_channels.py Mar 11 622 p
 
 CHANNELS = {
     "6508be683a0d700008c534e4": "ABC News Live - Pluto",
@@ -430,7 +430,7 @@ CHANNELS = {
     "ION.Mystery.us2": "ION Mystery",   
     "Laff.us2": "Laff",
     "MeTV.Plus.us2": "MeTV", 
-    "": "Name",   
+    "Telelatino.Network.ca2": "TLN",   
     "": "Name",
     "": "Name",       
     "": "Name", 
