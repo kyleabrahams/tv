@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 11 924 a 
+# build_epg_xml.py Mar 11 729 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg_xml.py
 # python3 C:\Users\User\OneDrive\Documents\GitHub\tv\scripts\build_epg_xml.py
@@ -410,8 +410,7 @@ def build_fast_epg():
         cid = channel.get("id")
         name = CHANNELS.get(cid) or channel.findtext("display-name") or "Unknown"
         count = prog_count_by_channel.get(cid, 0)
-
-    logger.info(f"📺 {name} - {cid} ({count} programs)")
+        logger.info(f"📺 {name} - {cid} ({count} programs)")  # <- inside the loop
 
     # Total programmes
     total_programmes = sum(prog_count_by_channel.values())
