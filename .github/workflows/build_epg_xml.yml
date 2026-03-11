@@ -68,7 +68,7 @@ jobs:
     # Run build_epg_xml.py script
     - name: Run build_epg_xml.py script
       run: |
-        python scripts/build_epg_xml.py
+        python -u scripts/build_epg_xml.py
         # python scripts/build_epg_xml-test.py 
     
     # List files after running the script
