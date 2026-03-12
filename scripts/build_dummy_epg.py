@@ -81,59 +81,63 @@ logger.info("🟢 pytz is installed and ready to use.")
 
 # Step 4: Function to create the EPG (Electronic Program Guide) XML
 def create_epg_xml(num_days=5, programs_per_day=24):
-    # Step 4.1: Create the root <tv> element with generator info attributes
+    """
+    Generate a dummy EPG XML with DST-aware times for Toronto.
+    """
+    # Step 1: Create root <tv> element
     tv = ET.Element("tv", generator_info_name="none", generator_info_url="none")
 
-    # Step 4.2: Define a dictionary of channels with their IDs and display names
+    # Step 2: Define channels
     channels = {
         "CityNews247Toronto.ca": "City News 24/7",
-        # "2": "Channel 2",
-        # "3": "Channel 3"
+        # add other channels here if needed
     }
 
-    # Step 4.3: Loop through the channel dictionary and create <channel> elements
+    # Step 3: Create <channel> elements
     for channel_id, channel_name in channels.items():
         channel_elem = ET.SubElement(tv, "channel", id=channel_id)
         display_name_elem = ET.SubElement(channel_elem, "display-name", lang="en")
         display_name_elem.text = channel_name
 
-    # Step 4.4: Get the current UTC time and convert to Eastern Time
-    utc_now = datetime.now(pytz.UTC)  # Current time in UTC
-    eastern = pytz.timezone('US/Eastern')  # Define Eastern Time zone
-    start_time = utc_now.astimezone(eastern)  # Convert UTC to localized Eastern Time
+    # Step 4: Get current time in Toronto (DST-aware)
+    import pytz
+    from datetime import datetime, timedelta
 
-    # Step 4.5: Loop through each day to generate program schedules
+    toronto_tz = pytz.timezone("America/Toronto")
+    utc_now = datetime.utcnow().replace(tzinfo=pytz.UTC)
+    start_time = utc_now.astimezone(toronto_tz)  # Toronto local time with DST applied
+
+    # Step 5: Generate program schedule
     for day in range(num_days):
-        for program in range(programs_per_day):
+        for program_index in range(programs_per_day):
             for channel_id in channels.keys():
-                # Step 4.6: Calculate start and end times
-                program_start = start_time + timedelta(hours=program + day * programs_per_day)
-                rounded_start = program_start.replace(minute=0, second=0, microsecond=0)
-                end_time = rounded_start + timedelta(hours=1)
+                # Calculate start and end times for each program
+                program_start = start_time + timedelta(hours=program_index + day * programs_per_day)
+                program_start = program_start.replace(minute=0, second=0, microsecond=0)
+                program_end = program_start + timedelta(hours=1)
 
-                # Step 4.7: Create <programme> element
+                # Step 5.1: Create <programme> element with DST-aware times
                 programme_elem = ET.SubElement(tv, "programme",
-                                               start=rounded_start.strftime("%Y%m%d%H%M%S %z"),
-                                               stop=end_time.strftime("%Y%m%d%H%M%S %z"),
+                                               start=program_start.strftime("%Y%m%d%H%M%S %z"),
+                                               stop=program_end.strftime("%Y%m%d%H%M%S %z"),
                                                channel=channel_id)
-                
-                # Step 4.8: Add title, (conditionally add sub-title), and description elements
+
+                # Step 5.2: Add <title>
                 title_elem = ET.SubElement(programme_elem, "title")
-                title_elem.text = f"{channels[channel_id]} at {rounded_start.strftime('%I').lstrip('0')}"  # Shows the hour without leading zero
+                title_elem.text = f"{channels[channel_id]} at {program_start.strftime('%I').lstrip('0')}"
 
-                # Conditionally add sub-title for CityNews247Toronto.ca
-                if channel_id != "CityNews247Toronto.ca":  # Only add sub-title for other channels
+                # Step 5.3: Optionally add <sub-title> for other channels
+                if channel_id != "CityNews247Toronto.ca":
                     sub_title_elem = ET.SubElement(programme_elem, "sub-title")
-                    sub_title_elem.text = channels[channel_id]  # Now shows the channel name, e.g., "City News 24/7"
+                    sub_title_elem.text = channels[channel_id]
 
-                # Custom description for CityNews247Toronto.ca
+                # Step 5.4: Add <desc> element
                 desc_elem = ET.SubElement(programme_elem, "desc")
                 if channel_id == "CityNews247Toronto.ca":
                     desc_elem.text = "Toronto's breaking news, including the latest updates on weather, traffic, transit, sports, and stocks."
                 else:
-                    desc_elem.text = f"Description for {channels[channel_id]}, program {program + 1}"
+                    desc_elem.text = f"Description for {channels[channel_id]}, program {program_index + 1}"
 
-    # Step 4.9: Convert the XML to a string
     return ET.tostring(tv, encoding='unicode')
 
 # Step 5: Function for pretty printing the XML (to make it more readable)
