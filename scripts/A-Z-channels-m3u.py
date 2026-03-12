@@ -1,9 +1,15 @@
 import re
+import os
 from tqdm import tqdm
 
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
+
 # File paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/SportsAZ.m3u'
-output_file = '/Volumes/Kyle4tb1223/_Android/_M3U/SportsAZ SORTED.m3u'
+input_file = '/Volumes/Kyle4tb1223/Documents/Github/tv/list/Series-FIX.m3u'
+# Build output filename automatically
+output_dir = os.path.dirname(input_file)
+base_name = os.path.splitext(os.path.basename(input_file))[0]
+output_file = os.path.join(output_dir, f"{base_name} A-Z.m3u")
 
 # Group priorities
 group_priority = {"Canada": 1, "USA": 2, "UK": 3, "Other": 99}
@@ -67,11 +73,8 @@ for group, desc, url, extinf in tqdm(entries, desc="Removing duplicates", unit="
         seen.add(key)
         unique_entries.append((group, desc, url, extinf))
 
-# Sort by group priority, group name, then description
-sorted_entries = sorted(
-    unique_entries,
-    key=lambda x: (get_priority(x[0]), x[0].lower(), x[1].lower())
-)
+# Sort strictly by channel name
+sorted_entries = sorted(unique_entries, key=lambda x: x[1].lower())
 
 # Build output
 output_lines = ["#EXTM3U"]

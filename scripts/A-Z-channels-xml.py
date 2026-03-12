@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 
-# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/A-Z-channels.py
+# python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/A-Z-channels-xml.py
 
 # Function to sort channels while preserving comments
 def sort_channels_in_file(input_file, output_file):
