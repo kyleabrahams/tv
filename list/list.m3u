@@ -44,7 +44,7 @@ http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/57435
 # http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Mar 12 333 p tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Mar 12 345 p tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/k4Svp2/645504/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -1736,6 +1736,8 @@ https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/178876
 #EXTINF:-1 tvg-id="US1900015FR" tvg-logo="https://i.ibb.co/BBPN84P/anger-management-channel.png" group-title="Unlimited Series",Anger Management xumo.
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99951192
+#EXTINF:-1 channel-id="636c2b3c55d2e700074105c4-us" tvg-id="636c2b3c55d2e700074105c4" tvg-chno="3400" tvg-name="PBS Antiques Roadshow" tvg-logo="https://images.pluto.tv/channels/636c2b3c55d2e700074105c4/colorLogoPNG.png" group-title="Unlimited Series",Antiques Roadshow
+https://jmp2.uk/plu-636c2b3c55d2e700074105c4.m3u8
 #EXTINF:-1 tvg-id="686d61503484d6073283059d" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB1600006RS_20220713T034338SQUARE.png_20220713034339.png" group-title="Unlimited Series",Are We There Yet? tubi.
 https://live-manifest.production-public.tubi.io/live/07831268-bf32-40d9-9c08-0ee6df28cbed/playlist.m3u8
 #EXTINF:-1 tvg-id="655f2ee6c0fc88000877d26c" tvg-chno="1460" tvg-name="Bar Rescue" tvg-logo="https://images.pluto.tv/channels/60a3d889a5b3690008dc7fe8/colorLogoPNG.png" group-title="Unlimited Series",Bar Rescue pluto.
@@ -1954,7 +1956,7 @@ https://jmp2.uk/stvp-USBA300005MK
 https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
 #EXTINF:-1 tvg-id="63b48016d9dd51000828fa37" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD2500017XQ_20240528T020725SQUARE.png" group-title="Automotive",PowerNation pluto.
 https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8
-#EXTINF:-1 tvg-id="USBB3500004RCb" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Unlimited Series",Project Runway plex.
+#EXTINF:-1 tvg-id="647f8d22a2fc3fadb4721685-66a2e57a0b91165254efdb4a" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB3500004RC_20240520T215934SQUARE.png" group-title="Unlimited Series",Project Runway plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-66a2e57a0b91165254efdb4a.m3u8
 #EXTINF:-1 tvg-id="CA1400017PU" tvg-name="US Property Brothers Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400017PU_20240611T050231SQUARE.png" group-title="Home + Food",Property Brothers plex.
 https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-652857f46425fdb1f32d20dc.m3u8
@@ -2044,8 +2046,6 @@ http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/125635
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="US1900002QK" tvg-logo="https://i.ibb.co/kyqRH2h/universal-monsters.png" group-title="Unlimited Series",Universal Monsters
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951264/hls/master.m3u8?ads.xumo_channelId=99951264
-#EXTINF:-1 group-title="Other",Unknown
-https://jmp2.uk/plu-636c2b3c55d2e700074105c4.m3u8
 #EXTINF:-1 tvg-id="USBB1500001GD" tvg-logo="https://i.ibb.co/X88MprJ/usa-today.png" group-title="News",USA Today plex.
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-60df3e18541143002f3b8607.m3u8
 #EXTINF:-1 tvg-id="USBD300012YC" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABC5200011IS_20240910T003241SQUARE.png" group-title="Music",Vevo '80s Pluto
@@ -2082,7 +2082,7 @@ https://younghollywood-vizio.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="Stingray Zen Life" tvg-name="------|USA|------" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png" group-title="Ambiance",------------|USA|------------
+#EXTINF:-1 tvg-id="79876f8f79d0394ba8982259393e5e32" tvg-name="------|USA|------" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png" group-title="Ambiance",------------|USA|------------
 https://jmp2.uk/rok-79876f8f79d0394ba8982259393e5e32.m3u8
 
 # #EXTINF:-1 tvg-id="A.and.E.HD.East.us2" tvg-name="US A&E" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/a-and-e-us.png?raw=true" group-title="USA",A&E xy. 
@@ -2094,12 +2094,12 @@ http://xxip25.top:8080/13yXsS/001616/59056
 https://jmp2.uk/stvp-GB2300005ML
 #EXTINF:-1 tvg-id="99991622" tvg-name"Stories by AMC" tvg-logo="https://i.ibb.co/tpGjF36/stories-by-amc-1.png" group-title="USA",AMC Stories xumo.
 https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991622/hls/playlist.m3u8?ads.xumo_channelId=99991622
-#EXTINF:-1 tvg-id="PlexAMCThrillers.us" tvg-name="Vizio AMC Thrillers" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="Movies",AMC Thrillers viz.
+#EXTINF:-1 tvg-id="44f73ba4d03e9607dcd9bebdcb8494d86964f1d8" tvg-name="Vizio AMC Thrillers" tvg-logo="https://i.imgur.com/EVD0aIt.png" group-title="Movies",AMC Thrillers viz.
 https://18f2fbf906cb473e8adbe37026e7e27f.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Vizio_RushByAMC/playlist.m3u8
 
-# #EXTINF:-1 tvg-id="AMC+.us" tvg-name="AMC+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",AMC+ cdn1h. 
+# #EXTINF:-1 tvg-id="ba853de442c140b7b3dc020001597c0a" tvg-name="AMC+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",AMC+ cdn1h. 
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1602
-#EXTINF:-1 tvg-id="AMC+.us" tvg-name="AMC+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",AMC+ 
+#EXTINF:-1 tvg-id="ba853de442c140b7b3dc020001597c0a" tvg-name="AMC+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/amc-plus-vod-us.png?raw=true" group-title="Movies",AMC+ 
 https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
 
 # #EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel 
@@ -2371,11 +2371,11 @@ https://jmp2.uk/plu-64f8a0c230ab3300084369b8.m3u8
 #EXTINF:-1 tvg-id="MTVU.us" tvg-name="mtvU" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mtv-u-us.png?raw=true" group-title="Music",MTV U xyj.
 http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/181056
 
-#EXTINF:-1 tvg-id="PlutoYoMTV.ca" tvg-name="MTV Yo!" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/mtv-yo-vod.png?raw=true" group-title="Music",MTV Yo!
+#EXTINF:-1 tvg-id="654102ed770cf1000866c307" tvg-name="MTV Yo!" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/mtv-yo-vod.png?raw=true" group-title="Music",MTV Yo!
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
-#EXTINF:-1 tvg-id="PlutoMTVBiggestPop.dk" tvg-name="MTV Biggest Pop" tvg-logo="https://i.ibb.co/fHdBbNN/mtv-biggest-pop.png" group-title="Music",MTV Biggest Pop
+#EXTINF:-1 tvg-id="65410176770cf1000866bf31" tvg-name="MTV Biggest Pop" tvg-logo="https://i.ibb.co/fHdBbNN/mtv-biggest-pop.png" group-title="Music",MTV Biggest Pop
 https://jmp2.uk/plu-65410176770cf1000866bf31.m3u8
-#EXTINF:-1 tvg-id="PlutoMTVSpankinNew.ca" tvg-name="MTV Spankin' New" tvg-logo="https://i.ibb.co/HPS5RrK/mtv-spankin-new-2.png" group-title="Music",MTV Spankin' New
+#EXTINF:-1 tvg-id="6541010f770cf1000866be98" tvg-name="MTV Spankin' New" tvg-logo="https://i.ibb.co/HPS5RrK/mtv-spankin-new-2.png" group-title="Music",MTV Spankin' New
 https://jmp2.uk/plu-6541010f770cf1000866be98.m3u8
 
 # #EXTINF:-1 tvg-id="NewsNationEast.us" tvg-name="US NewsNation USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/news-nation-us.png?raw=true" group-title="News",NewsNation 
@@ -2387,7 +2387,7 @@ http://212.102.60.231/NEWS_NATION/index.m3u8
 # http://fl7.moveonjoy.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="NickJrEast.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR ax.
 https://a1xs.vip/300033
-#EXTINF:-1 tvg-id="PlutoNickPluto V.ca" tvg-name="NickRewind / Pluto" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/NickRewindSplat-SocMed-2023.svg/revision/latest/scale-to-width-down/1200?cb=20230922085413" group-title="Kids",Nick Pluto
+#EXTINF:-1 tvg-id="USBA3000158L" tvg-name="NickRewind / Pluto" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/NickRewindSplat-SocMed-2023.svg/revision/latest/scale-to-width-down/1200?cb=20230922085413" group-title="Kids",Nick Pluto
 https://jmp2.uk/stvp-USBA3000158L
 # #EXTINF:-1 tvg-id="NickelodeonEast.us" tvg-name="Nickelodeon" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nickelodeon-us.png?raw=true"group-title="Kids",Nickelodeon 
 # http://fl7.moveonjoy.com/NICKELODEON/index.m3u8
@@ -2395,7 +2395,7 @@ https://jmp2.uk/stvp-USBA3000158L
 https://a1xs.vip/300030
 # #EXTINF:-1 tvg-id="NickMusic.us" tvg-name="NickMusic USA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-music-us.png?raw=true" group-title="Kids",NickMusic USA
 # http://fl7.moveonjoy.com/NICK_MUSIC/index.m3u8
-#EXTINF:-1 tvg-id="NickMusic.us" tvg-name="NickMusic USA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-music-us.png?raw=true" group-title="Kids",NickMusic .PTV
+#EXTINF:-1 tvg-id="5873fc21cad696fb37aa9054" tvg-name="NickMusic USA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-music-us.png?raw=true" group-title="Kids",NickMusic .PTV
 https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
 # #EXTINF:-1 tvg-id="NicktoonsEast.us" tvg-name="NickToons" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nick-toons-us.png?raw=true" group-title="Kids",NickToons
 # http://fl7.moveonjoy.com/NICKTOONS/index.m3u8
