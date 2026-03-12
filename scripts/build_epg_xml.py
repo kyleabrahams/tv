@@ -29,7 +29,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
-# build_epg_xml.py Mar 11 729 p 
+# build_epg_xml.py Mar 12 325 p 
 
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/build_epg_xml.py
 # python3 C:\Users\User\OneDrive\Documents\GitHub\tv\scripts\build_epg_xml.py
@@ -271,32 +271,46 @@ def run_npm_grab():
             logger.info(f"❌Exception running command {command_str}: {e}")
 
 
-########## Step 7: Process Root
-def process_root(root, seen_channels, seen_programmes):
+########## Step 7: Process Root (TVG-ID filtered) ##########
+def process_root(root, seen_channels, seen_programmes, tvg_ids):
     """
     Process an XML root element:
     - Remove <icon> elements from channels
     - Deduplicate channels and programmes
+    - Filter channels and programmes by TVG IDs
     Yields programmes for appending.
     """
+    # Process channels
     for channel in root.findall("channel"):
         cid = channel.get("id")
-        if not cid or cid in seen_channels or (CHANNELS and cid not in CHANNELS):
+        if not cid:
             continue
-        # Remove icons
+        if cid in seen_channels:
+            continue
+        if tvg_ids and cid not in tvg_ids:
+            continue
+
+        # Remove <icon> elements
         for icon in channel.findall("icon"):
             channel.remove(icon)
-        # Append the processed channel
+
+        # Mark channel as seen
         seen_channels[cid] = channel
 
+    # Process programmes
     for prog in root.findall("programme"):
         cid = prog.get("channel")
-        if not cid or (CHANNELS and cid not in CHANNELS):
+        if not cid:
             continue
+        if tvg_ids and cid not in tvg_ids:
+            continue
+
+        # Deduplicate programmes by (channel, start, stop)
         key = (cid, prog.get("start"), prog.get("stop"))
         if key in seen_programmes:
             continue
         seen_programmes.add(key)
+
         yield prog
 
 
@@ -304,36 +318,26 @@ def process_root(root, seen_channels, seen_programmes):
 
 ########## Step 7: Build FAST EPG with removed <icons>
 def remove_icons(root):
-    """
-    Recursively remove all <icon> elements from the XML tree,
-    including inside <channel> and <programme>.
-    """
-    # Use .//icon to find ALL <icon> elements anywhere
-    for icon in root.findall(".//icon"):
-        parent = root
-        # xml.etree.ElementTree doesn't have getparent(), so remove from parent manually
-        for el in root.iter():
-            if icon in list(el):
-                el.remove(icon)
-                break
+    """Recursively remove all <icon> elements from an XML tree."""
+    for elem in root.findall(".//icon"):
+        parent = elem.getparent() if hasattr(elem, "getparent") else root
+        try:
+            parent.remove(elem)
+        except Exception:
+            # fallback: try root.remove (already done per-element above)
+            pass
 
-def build_fast_epg():
-    """
-    Build FAST EPG XML by fetching multiple remote sources.
-    Deduplicates channels and programmes.
-    Adds <url> only once per channel.
-    Saves final XML to _epg-end/fast-epg-end.xml
-    Logs each channel's name, ID, and total programmes.
-    """
+def build_fast_epg(tvg_ids: set):
+    global CHANNELS  # <-- this makes CHANNELS visible here
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     OUTPUT_XML = os.path.join(BASE_DIR, "_epg-end", "fast-epg-end.xml")
     os.makedirs(os.path.dirname(OUTPUT_XML), exist_ok=True)
 
     XMLTV_URLS = [
+        "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz", 
         "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz",
-        "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
         "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz",
@@ -361,11 +365,11 @@ def build_fast_epg():
         # --- Channels ---
         for channel in root.findall("channel"):
             cid = channel.get("id")
-            if not cid or (CHANNELS and cid not in CHANNELS):
-                continue
+            if not cid or (tvg_ids and cid not in tvg_ids):
+                continue  # Skip channels not in M3U
 
             if cid not in seen_channels:
-                # Remove <icon> to reduce file size
+                # Remove icons
                 for icon in channel.findall("icon"):
                     channel.remove(icon)
 
@@ -379,8 +383,8 @@ def build_fast_epg():
         # --- Programmes ---
         for prog in root.findall("programme"):
             cid = prog.get("channel")
-            if not cid or (CHANNELS and cid not in CHANNELS):
-                continue
+            if not cid or (tvg_ids and cid not in tvg_ids):
+                continue  # Skip programmes not in M3U
 
             key = (cid, prog.get("start"), prog.get("stop"), prog.findtext("title", ""))
             if key in seen_programmes:
@@ -389,125 +393,173 @@ def build_fast_epg():
             seen_programmes.add(key)
             programmes.append(prog)
 
-    # --- Count programmes per channel while building ---
+    # --- Count programmes per channel ---
     prog_count_by_channel = {}
-
-    for prog in programmes:  # programmes list is already built
+    for prog in programmes:
         cid = prog.get("channel")
-        if not cid:
-            continue
-        prog_count_by_channel[cid] = prog_count_by_channel.get(cid, 0) + 1
+        if cid:
+            prog_count_by_channel[cid] = prog_count_by_channel.get(cid, 0) + 1
 
     # --- Sort channels A-Z by display-name ---
     sorted_channels = sorted(
         seen_channels.values(),
-        key=lambda ch: (CHANNELS.get(ch.get("id")) or ch.findtext("display-name") or "").lower()
+        key=lambda ch: (ch.findtext("display-name") or "").lower()
     )
 
-    # Log channels in alphabetical order
-    logger.info(f"📺 Total channels found: {len(seen_channels)}")
+    # Log channels
+    logger.info(f"📺 Total channels after TVG filtering: {len(sorted_channels)}")
     for channel in sorted_channels:
         cid = channel.get("id")
-        name = CHANNELS.get(cid) or channel.findtext("display-name") or "Unknown"
+        name = channel.findtext("display-name") or "Unknown"
         count = prog_count_by_channel.get(cid, 0)
-        logger.info(f"📺 {name} - {cid} ({count} programs)")  # <- inside the loop
-
-    # Total programmes
-    total_programmes = sum(prog_count_by_channel.values())
-    logger.info(f"📡 Total programs found: {total_programmes}")
+        logger.info(f"📺 {name} - {cid} ({count} programs)")
 
     # --- Merge into final XML ---
     merged_root = ET.Element("tv")
-
-    # Append channels first
     for channel in sorted_channels:
         merged_root.append(channel)
-        
-    # Then append programmes
     for prog in programmes:
         merged_root.append(prog)
 
-    # Remove leftover <icon> tags just in case
-    for icon in merged_root.findall(".//icon"):
-        for parent in merged_root.iter():
-            if icon in list(parent):
-                parent.remove(icon)
-                break
+    # Remove any leftover <icon> tags
+    # remove_icons(merged_root)
 
     # Ensure directory permissions
     ensure_permissions(OUTPUT_XML)
 
-    # Write final single-line XML
+    # Write final XML as single-line
     write_epg_single_line(merged_root, OUTPUT_XML)
-
-    logger.info(f"✅ fast-epg-end.xml created successfully")
-
+    logger.info(f"✅ fast-epg-end.xml created successfully (TVG-filtered)")
 
 
-########## Step 8: Merge EPG data ##########
-def build_epg_xml_data(XMLTV_URLS, epg_end_dir, save_path):
+
+
+########## Step 8: Merge EPG data (with optional TVG-ID filtering) ##########
+def build_data(sources, save_path, tvg_ids: Optional[set] = None, folder_path: Optional[str] = None):
     """
-    Fetch multiple EPG XML files (remote or local), merge them,
-    remove duplicates, strip icons, and save a single-line XML file.
-    """
-    # log_message("▶️ Merging EPG data...")
+    Merge multiple XMLTV sources (local or remote), filter by TVG IDs if provided,
+    deduplicate channels and programmes, remove <icon> tags, and save as a single-line epg.xml.
 
+    sources: list of URLs or local file paths
+    save_path: path to final XML file
+    tvg_ids: optional set of tvg-id strings to filter channels
+    folder_path: optional base folder for relative local files
+    """
     merged_root = ET.Element("tv")
+    seen_channels = {}  # dict: channel_id -> channel element
+    seen_programmes = set()  # set of (channel_id, start, stop)
 
-    # log_message(f"DEBUG XMLTV_URLS: {XMLTV_URLS}")
+    if not sources:
+        log_message("⚠️ No sources provided to merge.", level="warning")
+        return
 
+    for idx, src in enumerate(sources, start=1):
+        log_message(f"🔄 Processing {idx}/{len(sources)} - {src}")
+
+        # Fetch XML tree (remote or local)
+        tree = fetch_epg_data(src, index=idx, total=len(sources), folder_path=folder_path)
+        if not tree:
+            log_message(f"⚠️ Skipping {src} (failed to fetch/parse)", level="warning")
+            continue
+
+        root = tree.getroot()
+        log_message(f"📄 {src}: {len(root.findall('channel'))} channels, {len(root.findall('programme'))} programmes found")
+
+        # Process channels & programmes
+        for prog in process_root(root, seen_channels, seen_programmes, tvg_ids):
+            merged_root.append(prog)
+
+    # Append all unique channels at the start
+    for channel in seen_channels.values():
+        merged_root.insert(0, channel)
+
+    # Final cleanup & write
+    reorder_channels(merged_root)
+    ensure_permissions(save_path)
+    write_epg_single_line(merged_root, save_path)
+
+    log_message(f"✅ Merged EPG complete: {len(seen_channels)} channels, {len(seen_programmes)} programmes")
+
+    if len(seen_channels) == 0:
+        log_message("⚠️ Warning: No channels were merged. Check TVG IDs or source files.", level="warning")
+    if len(seen_programmes) == 0:
+        log_message("⚠️ Warning: No programmes were merged. Check your EPG sources.", level="warning")    
+    """
+    Merge multiple XMLTV sources (local or remote), filter by TVG IDs if provided,
+    deduplicate, remove <icon> tags, and save as a single-line epg.xml.
+
+    sources: list of URLs or local file paths
+    save_path: path to final XML file
+    tvg_ids: optional set of tvg-id strings to filter channels
+    folder_path: optional base folder for relative local files
+    """
+    merged_root = ET.Element("tv")
     seen_channels = set()
     seen_programmes = set()
 
-    total = len(XMLTV_URLS)  # ✅ use the correct list
+    if not sources:
+        log_message("⚠️ No sources provided to merge.", level="warning")
+        return
 
-    for index, url in enumerate(XMLTV_URLS, start=1):
-        # log_message(f"DEBUG total={len(XMLTV_URLS)}")
-        log_message(f"🔄 Fetching {index}/{total} - {url}")
+    for idx, src in enumerate(sources, start=1):
+        log_message(f"🔄 Processing {idx}/{len(sources)} - {src}")
 
-        tree = fetch_epg_data(url, index, total, folder_path=epg_end_dir)
+        # Fetch XML tree (remote or local)
+        tree = fetch_epg_data(src, index=idx, total=len(sources), folder_path=folder_path)
         if not tree:
+            log_message(f"⚠️ Skipping {src} (failed to fetch/parse)", level="warning")
             continue
 
-        for el in tree.getroot():
+        root = tree.getroot()
+        channels = root.findall("channel")
+        programmes = root.findall("programme")
+        log_message(f"📄 {src}: {len(channels)} channels, {len(programmes)} programmes found")
 
-            # CHANNEL
-            if el.tag == "channel":
-                cid = el.get("id")
-                if cid in seen_channels:
-                    continue
-                seen_channels.add(cid)
+        # Merge channels
+        for ch in channels:
+            cid = ch.get("id")
+            channel_tvg = (ch.get("tvg-id") or "").strip()
+            if not cid:
+                continue
+            if tvg_ids and channel_tvg and channel_tvg not in tvg_ids:
+                continue
+            if cid in seen_channels:
+                continue
 
-                # Remove icons
-                for icon in el.findall("icon"):
-                    el.remove(icon)
+            # Remove <icon>
+            # for icon in ch.findall("icon"):
+            #     ch.remove(icon)
 
-                merged_root.append(el)
+            merged_root.append(ch)
+            seen_channels.add(cid)
 
-            # PROGRAMME
-            elif el.tag == "programme":
-                key = (el.get("channel"), el.get("start"), el.get("stop"))
-                if key in seen_programmes:
-                    continue
-                seen_programmes.add(key)
-                merged_root.append(el)
+        # Merge programmes
+        for prog in programmes:
+            prog_channel = prog.get("channel")
+            key = (prog_channel, prog.get("start"), prog.get("stop"))
+            if key in seen_programmes:
+                continue
+            if tvg_ids and prog_channel not in seen_channels:
+                continue
 
-    # Reorder channels to the top
+            merged_root.append(prog)
+            seen_programmes.add(key)
+
+    # Final cleanup & write
     reorder_channels(merged_root)
-
-    # Remove any leftover icons
-    remove_icons(merged_root)
-
-    # Ensure permissions before writing
+    # remove_icons(merged_root)
     ensure_permissions(save_path)
-
-    # Save final XML with single-line formatting
     write_epg_single_line(merged_root, save_path)
 
-    # Log summary
-    # log_message(f"✅ EPG file saved to {save_path}")
-    log_message(f"📺 Channels added: {len(seen_channels)}")
-    log_message(f"📡 Programs added: {len(seen_programmes)}")
+    log_message(f"✅ Merged EPG complete: {len(seen_channels)} channels, {len(seen_programmes)} programmes")
+
+    if len(seen_channels) == 0:
+        log_message("⚠️ Warning: No channels were merged. Check TVG IDs or source files.", level="warning")
+    if len(seen_programmes) == 0:
+        log_message("⚠️ Warning: No programmes were merged. Check your EPG sources.", level="warning")
+
+
+
 
 ########## Step 9: Check for XML files if no URLs are found
 def load_local_xml_files(directory):
@@ -748,6 +800,49 @@ def write_epg_single_line(root, save_path):
         f.write("</tv>\n")
 
 
+########## Step 14b: M3U tvg-id helpers ##########
+
+def get_tvg_ids_from_m3u(m3u_file):
+    """
+    Read a .m3u file and return a set of all tvg-ids found.
+    Ignores empty or malformed lines.
+    """
+    tvg_ids = set()
+    with open(m3u_file, "r", encoding="utf-8") as f:
+        for line in f:
+            match = re.search(r'tvg-id="([^"]+)"', line)
+            if match:
+                tvg_ids.add(match.group(1).strip())
+    logger.info(f"✅ Found {len(tvg_ids)} TVG IDs in {m3u_file}")
+    return tvg_ids
+
+
+def filter_epg_by_tvg_ids(root, tvg_ids):
+    """
+    Keep only channels and programmes whose TVG IDs match the provided set.
+    """
+    filtered_root = ET.Element(root.tag, root.attrib)
+    valid_channels = set()
+
+    # Filter channels
+    for channel in root.findall("channel"):
+        cid = channel.get("id", "").strip()
+        # TVG ID may be in an attribute or child element
+        tvg_id = (channel.get("tvg-id") or channel.findtext("tvg-id") or "").strip()
+
+        if tvg_id in tvg_ids:
+            filtered_root.append(channel)
+            valid_channels.add(cid)
+
+    # Filter programmes
+    for prog in root.findall("programme"):
+        prog_channel = prog.get("channel", "").strip()
+        if prog_channel in valid_channels:
+            filtered_root.append(prog)
+
+    return filtered_root
+
+
 
 ########## Step 15: Save the merged EPG file and log success
 try:
@@ -765,8 +860,11 @@ except Exception as e:
 
   
 
-########## Step 16: __main__ block
+########## Step 16: __main__ block (TVG-ID filtered) ##########
 if __name__ == "__main__":
+    # -------------------------
+    # Paths and directories
+    # -------------------------
     script_dir = os.path.dirname(os.path.abspath(__file__))
     epg_end_dir = os.path.join(script_dir, "_epg-end")
     os.makedirs(epg_end_dir, exist_ok=True)
@@ -774,59 +872,68 @@ if __name__ == "__main__":
     save_path = os.path.join(script_dir, "www", "epg.xml")
     ensure_permissions(save_path)
 
+    # Load TVG IDs from M3U
+    m3u_file = os.path.join(script_dir, "..", "list", "list.m3u")
+    tvg_ids = get_tvg_ids_from_m3u(m3u_file) if os.path.exists(m3u_file) else set()
+    logger.info(f"📋 Loaded {len(tvg_ids)} TVG IDs from M3U" if tvg_ids else "⚠️ No TVG IDs loaded")
+
     # -------------------------
-    # Step 1: Build FAST EPG (if enabled)
+    # Step 1: Build fast EPG
     # -------------------------
     if run_build_fast_epg:
-        logger.info("▶️  Building fast-epg-end.xml...")
-        build_fast_epg()
-        # logger.info("✅ FAST EPG finished")
+        logger.info("▶️ Building fast-epg-end.xml (TVG filtered)...")
+        try:
+            build_fast_epg(tvg_ids)
+        except Exception as e:
+            logger.error(f"❌ Failed to build fast-epg-end.xml: {e}")
 
     # -------------------------
-    # Step 2: Build Dummy EPG (if enabled)
+    # Step 2: Build dummy EPG
     # -------------------------
     if run_build_dummy_epg:
-        logger.info("▶️  Running build_dummy_epg.py...")
-        subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
-        # logger.info("✅ Dummy EPG finished")
+        logger.info("▶️ Running build_dummy_epg.py...")
+        try:
+            subprocess.run([sys.executable, BUILD_DUMMY_EPG_SCRIPT], check=True)
+        except subprocess.CalledProcessError as e:
+            logger.error(f"❌ build_dummy_epg.py failed: {e}")
+        except Exception as e:
+            logger.error(f"❌ Unexpected error running build_dummy_epg.py: {e}")
 
     # -------------------------
-    # Step 3: Collect XML files to merge
-    # Only include FAST + Dummy to avoid duplicates
+    # Step 3: Collect all EPG files in _epg-end
     # -------------------------
-    epg_files = []
-    fast_file = os.path.join(epg_end_dir, "fast-epg-end.xml")
-    dummy_file = os.path.join(epg_end_dir, "dummy--epg---end.xml")
+    epg_files = [
+        os.path.join(epg_end_dir, f)
+        for f in os.listdir(epg_end_dir)
+        if not f.startswith("._") and (f.endswith(".xml") or f.endswith(".gz"))
+    ]
+    logger.info(f"📂 Found {len(epg_files)} EPG files in _epg-end: {epg_files}")
 
-    for f in [fast_file, dummy_file]:
-        if os.path.exists(f) and f not in epg_files:
-            epg_files.append(f)
-            # logger.info(f"🟢 Added to epg.xml: {f}")
-            logger.info(f"🟢 {os.path.basename(f)} added to epg.xml")
-
-    # -------------------------
-    # Step 4: Merge XML files into single epg.xml
-    # -------------------------
-    logger.info("▶️  Merging EPG files into epg.xml...")
-    build_epg_xml_data(epg_files, epg_end_dir, save_path)
+    if not epg_files:
+        logger.error("❌ No EPG files were generated. Check build_fast_epg and build_dummy_epg.py")
+        sys.exit(1)
 
     # -------------------------
-    # Step 5: Remove any leftover <icon> tags in final epg.xml
+    # Step 4: Merge all EPG files (with TVG filtering)
+    # -------------------------
+    logger.info(f"🔄 Merging {len(epg_files)} EPG files...")
+    try:
+        build_data(epg_files, save_path, tvg_ids=tvg_ids, folder_path=epg_end_dir)
+    except Exception as e:
+        logger.error(f"❌ Failed to merge EPG files: {e}")
+        sys.exit(1)
+
+    # -------------------------
+    # Step 5: Final sanity check
     # -------------------------
     try:
-        # After merging into epg.xml
         tree = ET.parse(save_path)
         root = tree.getroot()
-
-        # Remove all <icon> tags recursively
-        remove_icons(root)
-
-        # Re-write as single-line XML
-        write_epg_single_line(root, save_path)
-        logger.info("🧹 Removed all <icon> tags from final epg.xml")
+        if not root.findall("channel"):
+            logger.warning("⚠️ epg.xml has no channels after merge")
+        if not root.findall("programme"):
+            logger.warning("⚠️ epg.xml has no programmes after merge")
     except Exception as e:
-        logger.error(f"❌ Failed to remove <icon> tags: {e}")
+        logger.error(f"❌ Failed to read final epg.xml for sanity check: {e}")
 
-    logger.info(f"✅ epg.xml created successfully, file saved to: {save_path}")
-
-
+    logger.info(f"✅ epg.xml successfully created at: {save_path}")
