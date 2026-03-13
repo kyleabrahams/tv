@@ -44,7 +44,7 @@ http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/57435
 # http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Mar 13 1031 a tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Mar 13 1052 a tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/k4Svp2/645504/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -1704,8 +1704,6 @@ https://jmp2.uk/stvp-CA2900005KG
 # http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/66397
 # #EXTINF:-1 tvg-name="South Park*" tvg-logo="https://pngcore.com/files/preview/900x497/11690381757geryld4bthcttup99ieywouxoq0volq2joo2urzxheqzer7l2lhzbox4wivm7in2pddsundxeo3e1dlcm8jhs9nj2ytigxcnsmbn.png" group-title="Limited Series",South Park 1tv.
 # http://1tv41.icu:8080/april_wiseman@hotmail.com/JwjGB8K5uM/66401
-#EXTINF:-1 channel-id="60e4519e6873180007d3cddb-de" tvg-id="60e4519e6873180007d3cddb" tvg-chno="271" tvg-name="BBC Travel" tvg-logo="https://images.pluto.tv/channels/60e4519e6873180007d3cddb/colorLogoPNG.png" group-title="Documentaries", BBC Travel
-https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-65622eddb7d737841f30a4fd.m3u8
 #EXTINF:-1 tvg-id="62ba60f059624e000781c436" tvg-logo="https://i.ibb.co/cXZ4nVfn/00s-Replay.png" group-title="Movies",00s Replay pluto.
 https://jmp2.uk/plu-62ba60f059624e000781c436.m3u8
 #EXTINF:-1 tvg-id="6176f39e709f160007ec61c3" tvg-logo="https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png" group-title="Documentaries",48 Hours pluto.
@@ -1752,6 +1750,8 @@ https://jmp2.uk/plu-62bdae69a47b6c00076af298.m3u8
 https://jmp2.uk/plu-656535fc2c46f30008870fae.m3u8
 #EXTINF:-1 tvg-id="CABD1200012B8" tvg-name="BBC Home & Garden" channel-id="CABD1200012B8" tvg-chno="1228" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CABD1200012B8_20240722T231045SQUARE.png" group-title="Home + Food",BBC Home & Garden xumo.
 https://dbrb49pjoymg4.cloudfront.net/10001/99951178/hls/playlist.m3u8?ads.xumo_channelId=99951178&ads._fw_ifa_type=&ads._fw_did=388298f4-7f5b-44a7-8a29-dec3c2ca5905&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=BBCHomeandGarden&ads.csid=xumo_web_BBCHomeandGarden_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=&ads._fw_content_rating=&ads.xumo_contentId=3826&ads.xumo_contentName=BBCHomeandGarden&ads.xumo_providerId=3826&ads.xumo_providerName=BBCHomeandGarden&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951178&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
+#EXTINF:-1 channel-id="60e4519e6873180007d3cddb-de" tvg-id="60e4519e6873180007d3cddb" tvg-chno="271" tvg-name="BBC Travel" tvg-logo="https://images.pluto.tv/channels/60e4519e6873180007d3cddb/colorLogoPNG.png" group-title="Documentaries",BBC Travel
+https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-65622eddb7d737841f30a4fd.m3u8
 #EXTINF:-1 tvg-name="6486e8328e3c0a0008e5686c" tvg-logo="https://images.pluto.tv/channels/6486e8328e3c0a0008e5686c/colorLogoPNG.png" group-title="Limited Series",Beavis and Butt-Head
 https://jmp2.uk/plu-6486e8328e3c0a0008e5686c.m3u8
 #EXTINF:-1 tvg-id="GB38000026H" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC44000226R_20240625T011313SQUARE.png" group-title="Home + Food",Bon Appétit roku.
