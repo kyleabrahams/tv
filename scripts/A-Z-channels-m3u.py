@@ -5,7 +5,7 @@ from tqdm import tqdm
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
 
 # File paths
-input_file = '/Volumes/Kyle4tb1223/Documents/Github/tv/list/Series-FIX.m3u'
+input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___New/May 26 2026_billjones1944@yahoo.com_plus.m3u'
 # Build output filename automatically
 output_dir = os.path.dirname(input_file)
 base_name = os.path.splitext(os.path.basename(input_file))[0]

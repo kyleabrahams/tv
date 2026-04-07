@@ -44,7 +44,7 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 6 927 p tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 6 950 p tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/k4Svp2/645504/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -2129,8 +2129,11 @@ https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/62458
 
 # #EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel 
 # http://fl7.moveonjoy.com/American_Heroes_Channel/index.m3u8
-#EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",*American Heroes Channel MJI.
-http://212.102.60.231/American_Heroes_Channel/index.m3u8
+# #EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",*American Heroes Channel MJI.
+# http://212.102.60.231/American_Heroes_Channel/index.m3u8
+#EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",*American Heroes Channel noc.
+http://nocable.cc:8080/live/billjones1944@yahoo.com/FZgUv7LbQd/10456.m3u8
+
 # #EXTINF:-1 tvg-id="Antenna.Greek.TV.(ANTENA).us" tvg-name="Antenna" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/antenna-us.png" group-title="USA",Antenna
 # http://fl7.moveonjoy.com/Antenna/index.m3u8
 
