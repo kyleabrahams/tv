@@ -46,7 +46,7 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 21 950 p tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 21 1010 p tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/13KpN5/160160/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -3535,6 +3535,13 @@ http://xxip25.top:8080/13yXsS/001616/57345
 http://xxip25.top:8080/13yXsS/001616/57357
 #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 5
 http://xxip25.top:8080/13yXsS/001616/57401
+
+#EXTM3U
+#EXTINF:-1 tvg-name="AMC", AMC
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3290efe4c5cf67165e846a0742c22cd9:ddb94463c46af6037432fc026339c09d
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/gyczo3tdxu/out/v1/4e9f7dd1b08a404581818c3923af9a93/cenc.mpd
+
 
 
 #EXTINF:-1,Bill Maher: Is Anyone Else Seeing This? (2025)
