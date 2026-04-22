@@ -1,12 +1,11 @@
+# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
+
 import re
 import os
 from tqdm import tqdm
 
-# python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
-
 # File paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/___New/May 26 2026_billjones1944@yahoo.com_plus.m3u'
-# Build output filename automatically
+input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/trytv-Canada_playlist_96066144 A-Z.m3u'
 output_dir = os.path.dirname(input_file)
 base_name = os.path.splitext(os.path.basename(input_file))[0]
 output_file = os.path.join(output_dir, f"{base_name} A-Z.m3u")
@@ -21,66 +20,57 @@ def get_priority(group):
 extinf_pattern = re.compile(r'#EXTINF:-1[^#]*?group-title="([^"]+)",([^#\n]+)')
 
 entries = []
-non_extinf_lines = []
 
-# Read file
+# Read file and strip whitespace/empty lines immediately
 with open(input_file, 'r', encoding='utf-8') as file:
-    lines = file.readlines()
+    lines = [line.strip() for line in file if line.strip()]
 
 i = 0
 while i < len(lines):
-    line = lines[i].strip()
+    line = lines[i]
 
     if line.startswith("#EXTINF:"):
-        url = lines[i + 1].strip() if i + 1 < len(lines) else ""
+        url = lines[i + 1] if i + 1 < len(lines) else ""
+        
+        # Skip if the next line is a tag instead of a URL
+        if url.startswith("#"):
+            i += 1
+            continue
 
         match = extinf_pattern.search(line)
         if match:
             group, desc = match.groups()
-            group = group.strip()
+            group, desc = group.strip(), desc.strip()
         else:
-            # Try to extract description only
             desc_match = re.match(r'#EXTINF:-1,([^#\n]+)', line)
             desc = desc_match.group(1).strip() if desc_match else "Unknown"
-            # Infer group based on prefix in description
-            if desc.startswith("US:"):
-                group = "USA"
-            elif desc.startswith("UK:"):
-                group = "UK"
-            elif desc.startswith("CA:"):
-                group = "Canada"
-            else:
-                group = "Other"
-            # Rebuild EXTINF line with group-title
+            if desc.startswith("US:"): group = "USA"
+            elif desc.startswith("UK:"): group = "UK"
+            elif desc.startswith("CA:"): group = "Canada"
+            else: group = "Other"
             line = f'#EXTINF:-1 group-title="{group}",{desc}'
 
         if url:
             entries.append((group, desc, url, line))
         i += 2
     else:
-        non_extinf_lines.append(line)
         i += 1
 
-print(f"Matched {len(entries)} channel entries.")
-print(f"Preserved {len(non_extinf_lines)} other lines.")
-
-# Deduplicate by (group, desc)
+# Deduplicate
 seen = set()
 unique_entries = []
-for group, desc, url, extinf in tqdm(entries, desc="Removing duplicates", unit="entry"):
-    key = (group, desc)
+for entry in entries:
+    key = (entry[0], entry[1], entry[2])
     if key not in seen:
         seen.add(key)
-        unique_entries.append((group, desc, url, extinf))
+        unique_entries.append(entry)
 
-# Sort strictly by channel name
-sorted_entries = sorted(unique_entries, key=lambda x: x[1].lower())
+# Sort: Priority Group then A-Z Name
+sorted_entries = sorted(unique_entries, key=lambda x: (get_priority(x[0]), x[1].lower()))
 
-# Build output
+# Build output WITHOUT empty spacers
 output_lines = ["#EXTM3U"]
-output_lines.extend(non_extinf_lines)
-
-for group, desc, url, extinf in tqdm(sorted_entries, desc="Building output", unit="entry"):
+for group, desc, url, extinf in sorted_entries:
     output_lines.append(extinf)
     output_lines.append(url)
 
@@ -88,4 +78,4 @@ for group, desc, url, extinf in tqdm(sorted_entries, desc="Building output", uni
 with open(output_file, 'w', encoding='utf-8') as f:
     f.write("\n".join(output_lines) + "\n")
 
-print(f"Saved sorted playlist to {output_file}")
+print(f"✅ Processed {len(sorted_entries)} channels without gaps.")
