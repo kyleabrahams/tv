@@ -46,7 +46,7 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 22 1033 a tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 22 1045 a tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/13KpN5/160160/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -2664,6 +2664,13 @@ http://tvmate.icu:8080/13KpN5/160160/39276
 #EXTINF:-1 tvg-id="RFDTV.us" tvg-name="US RFD-TV USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/rfd-tv-us.png?raw=true" group-title="USA",RFD-TV tvm.
 http://tvmate.icu:8080/13KpN5/160160/17868
 
+# #EXTINF:-1 tvg-id="ROAR.TV.us2" tvg-name="TBD. East / ROAR" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/roar-us.png?raw=true" group-title="USA",ROAR
+# https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
+# #EXTINF:-1 tvg-id="ROAR.TV.us2" tvg-name="TBD. East / ROAR" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/roar-us.png?raw=true" group-title="USA",ROAR xyj.
+# http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/401442729
+#EXTINF:-1 tvg-id="ROAR.TV.us2" tvg-name="TBD. East / ROAR" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/roar-us.png?raw=true" group-title="USA",ROAR sin.
+https://fast-channels.sinclairstoryline.com/TBD/index.m3u8
+
 # #EXTINF:-1 tvg-id="StartTV.us" tvg-name="US Start TV" tvg-logo="https://i.ibb.co/Ss48491/Start-TV-dark-blue-1.png" group-title="USA",Start TV 
 # http://fl7.moveonjoy.com/Start_Tv/index.m3u8
 # #EXTINF:-1 tvg-id="StartTV.us" tvg-name="US Start TV" tvg-logo="https://i.ibb.co/Ss48491/Start-TV-dark-blue-1.png" group-title="USA",Start TV MJI.
@@ -2684,12 +2691,6 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/a2x5qulu66/out/v
 # http://fl7.moveonjoy.com/SYFY/index.m3u8
 #EXTINF:-1 tvg-id="SyfyEast.us" tvg-name="US Syfy (East) " tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/syfy-us.png?raw=true" group-title="Movies",Syfy MJE.
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
-
-# #EXTINF:-1 tvg-id="TBDEast.us" tvg-name="TBD. East / ROAR" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD > ROAR
-# https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
-#EXTINF:-1 tvg-id="TBDEast.us" tvg-name="TBD. East / ROAR" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbd-us.png?raw=true" group-title="USA",TBD > ROAR xyj.
-http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/401442729
-
 
 #EXTINF:-1 tvg-id="TBSEast.us" tvg-name="US TBS USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/tbs-us.png?raw=true" group-title="USA" tvg-shift="0",TBS (Ad)
 https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tbseast.us.m3u8
