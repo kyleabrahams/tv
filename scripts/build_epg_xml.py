@@ -27,7 +27,7 @@ import pytz  # Timezone handling (needed for accurate EPG timestamps)
 
 ########## Local imports (your project files) ##########
 
-from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
+# from build_channels_list import CHANNELS # CHANNELS is your predefined channel list used to filter the EPG
   
 # build_epg_xml.py Mar 12 325 p 
 
