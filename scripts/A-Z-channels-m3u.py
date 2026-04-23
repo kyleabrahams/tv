@@ -5,7 +5,7 @@ import os
 from tqdm import tqdm
 
 # File paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/trytv-Canada_playlist_96066144 A-Z.m3u'
+input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Active/supersonictv-live_Desean123.m3u'
 output_dir = os.path.dirname(input_file)
 base_name = os.path.splitext(os.path.basename(input_file))[0]
 output_file = os.path.join(output_dir, f"{base_name} A-Z.m3u")
