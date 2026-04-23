@@ -46,7 +46,7 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jan 29 657 am xyj. (1tv Exp Jun 27, 2026)
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/176083
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 23 149 p tvm. (1tv Exp Jun 27, 2026)
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Apr 23 220 p tvm. (1tv Exp Jun 27, 2026)
 http://tvmate.icu:8080/13KpN5/160160/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -126,7 +126,12 @@ http://tvmate.icu:8080/13KpN5/160160/57373
 #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="Canada",Bravo 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57379
 
-https://i.mjh.nz/.r/bravo-plus1.m3u8
+# #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",US Bravo    
+# http://fl7.moveonjoy.com/BRAVO/index.m3u8
+# #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",US Bravo MJI.
+# http://212.102.60.231/BRAVO/index.m3u8
+# #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",US Bravo try.
+# http://trytv.icu:8080/96066144/96066144/20859
 
 
 # #EXTINF:-1 tvg-id="I218.60123.schedulesdirect.org" tvg-name="10 CHCH HD" tvg-logo="https://i.ibb.co/yd6CmD9/CHCH2010-1.png" group-title="Canada" tvg-shift="-0.5",CHCH 1tv.
@@ -2315,12 +2320,6 @@ http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 # http://fl7.moveonjoy.com/BOUNCE_TV/index.m3u8
 #EXTINF:-1 tvg-id="Bounce.TV.us2" tvg-name="US Bounce USATV" tvg-logo="https://i.ibb.co/52fLjgH/bounce-color.png" group-title="Movies",Bounce MJE.
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
-# #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",Bravo    
-# http://fl7.moveonjoy.com/BRAVO/index.m3u8
-# #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",Bravo MJI.
-# http://212.102.60.231/BRAVO/index.m3u8
-#EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",Bravo try.
-http://trytv.icu:8080/96066144/96066144/20859
 
 # #EXTINF:-1 tvg-id="CHARGE!.us2" tvg-name="CBS.(WCWN-DT3).AlbanyNY.us" tvg-logo="https://d12lhx8qhim5rg.cloudfront.net/uploads/2021/07/Charge_Yellow-1.png" group-title="USA",Charge East
 # https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8
@@ -2382,7 +2381,7 @@ http://xxip25.top:8080/13yXsS/001616/120900
 # http://fl7.moveonjoy.com/WGN/index.m3u8
 #EXTINF:-1 tvg-id="PlexCWForever.us" tvg-name="CW" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f9418a5d-f191-4b8a-bf3a-2eda3d2cd137/PLEX_CWFOREVER_UPDATEDLOGO_RDX.png" group-title="USA",CW Forever  
 https://linear-850.frequency.stream/dist/tcltv/850/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="PlexCWGold.us" tvg-name="CW" tvg-logo="https://images.cwtv.com/thecw/img/s_mobile.i_channel_thumbnail.epgchannel_cw-gold.v_12.w_300.jpg" group-title="USA",CW Gold  
+#EXTINF:-1 tvg-id="PlexCWGold.us" tvg-name="CW" tvg-logo="https://i.ibb.co/JF7W90Wd/cw-gold.png" group-title="USA",CW Gold  
 https://linear-851.frequency.stream/dist/tcltv/851/hls/master/playlist.m3u8
 
 # #EXTINF:-1 tvg-id="Destination.America.HD.us2" tvg-name="US Destination America" tvg-logo="https://i.ibb.co/1rprP1w/Destination-America-logo-1.png" group-title="USA",Destination America 
