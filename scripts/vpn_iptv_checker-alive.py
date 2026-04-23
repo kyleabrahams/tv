@@ -1,14 +1,3 @@
-from tqdm import tqdm  # add this at the top
-import subprocess
-import time
-import os
-from datetime import datetime
-import shutil
-import tempfile
-import sys
-# import yaml
-
-
 # vpn_iptv_checker-alive.py Mar 5 2026 205 pm
 
 # brew install openvpn
@@ -21,6 +10,16 @@ import sys
 # add repo
 # git clone https://github.com/freearhey/iptv-checker.git
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/vpn_iptv_checker-alive.py
+
+from tqdm import tqdm  # add this at the top
+import subprocess
+import time
+import os
+from datetime import datetime
+import shutil
+import tempfile
+import sys
+# import yaml
 
 # ---------- CONFIG ----------
 # Source M3U file (full playlist) — relative to repo
