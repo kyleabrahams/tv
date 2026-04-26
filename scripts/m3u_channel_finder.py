@@ -13,7 +13,7 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 # 1. Keywords to find
-KEYWORDS = ["How It's Made"]
+KEYWORDS = ["UFC Fight"]
 
 # 2. Countries to filter by (Matches group-title="USA", etc.)
 # Set to [] if you want to search ALL countries.
@@ -28,7 +28,7 @@ KEYWORDS_MAP = {
 
 # True = Match whole word only ("Food" matches "Food Network")
 # False = Match anywhere ("Food" matches "FoodNetworkHD")
-STRICT_MATCH = True  
+STRICT_MATCH = False  
 
 # BLOCKLIST: Aggressive filter to remove Radio, Episodes, and Video Files
 BLOCKLIST = ["S01", "E01", "SEASON", "RADIO", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
