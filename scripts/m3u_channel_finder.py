@@ -13,7 +13,7 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 # 1. Keywords to find
-KEYWORDS = ["discovery"]
+KEYWORDS = ["CTV Nature"]
 
 # 2. Countries to filter by (Matches group-title="USA", etc.)
 # Set to [] if you want to search ALL countries.
