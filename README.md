@@ -9,17 +9,6 @@ npm install -g epg-grabber jest typescript ts-node @ntlab/sfetch @octokit/plugin
 
 iptv-checker
 
-# See Android TV sheets doc, nginx tab for commands,
-
-# Nginx.conf path 
-/opt/homebrew/etc/nginx/nginx.conf
-
-# Nginx reload
-sudo nginx -s reload
-ps aux | grep nginx
-sudo nginx -t
-
-
 # Run scripts 
 cd scripts
 python3 -m venv myenv
@@ -27,11 +16,20 @@ source myenv/bin/activate
 source venv/bin/activate
 
 
-python3 merge_epg.py 
-python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg.py
-python3 /Users/kyleabrahams/Documents/GitHub/tv/scripts/merge_epg-test.py
 
-python3 dummy_epg.py
+
+# M3U List fetch scripts/m3u_list.txt
+python3 m3u_list_fetch.py
+
+# Channel finder
+python3 m3u_channel_finder.py
+
+# Organize *.m3u from A-Z
+python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
+
+
+
+
 
 # Force pull from Repo
 

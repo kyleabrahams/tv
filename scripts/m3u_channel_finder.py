@@ -13,7 +13,7 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 # 1. Keywords to find
-KEYWORDS = ["CTV Nature"]
+KEYWORDS = ["Chuck"]
 
 # 2. Countries to filter by (Matches group-title="USA", etc.)
 # Set to [] if you want to search ALL countries.
@@ -28,7 +28,7 @@ KEYWORDS_MAP = {
 
 # True = Match whole word only ("Food" matches "Food Network")
 # False = Match anywhere ("Food" matches "FoodNetworkHD")
-STRICT_MATCH = False  
+STRICT_MATCH = True  
 
 # BLOCKLIST: Aggressive filter to remove Radio, Episodes, and Video Files
 BLOCKLIST = ["S01", "E01", "SEASON", "RADIO", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
@@ -70,46 +70,63 @@ def run_keyword_search():
                     lines = block.strip().split("\n")
                     header = lines[0]
                     
+                    # 1. FIND URL
                     url = ""
                     for potential_url in lines[1:]:
                         if potential_url.strip() and not potential_url.startswith("#"):
                             url = potential_url.strip()
                             break
-                    
                     if not url: continue
                     
+                    # 2. EXTRACT GROUP, CHANNEL NAME, AND SERVER
+                    # Get group-title
+                    group_match = re.search(r'group-title="([^"]+)"', header)
+                    group_name = group_match.group(1).strip() if group_match else "Other"
+                    
+                    # Get channel name (everything after the last comma)
+                    name_match = re.search(r',([^,]*)$', header)
+                    channel_name = name_match.group(1).strip() if name_match else "Unknown"
+                    
+                    # EXTRACT SERVER NAME FROM URL
+                    # This grabs 'bgdc' from 'http://bgdc.live:25461/...'
+                    server_match = re.search(r'https?://([^./:]+)', url)
+                    server_prefix = server_match.group(1).upper() if server_match else "SERVER"
+                    
+                    # Create the clean tag-free header with SERVER prefix
+                    clean_header = f'#EXTINF:-1 group-title="{group_name}",{server_prefix}-{channel_name}'
+                    
+                    # Use original header for keyword searching
                     full_meta = header.upper()
                     
-                    # 1. THE VOD/EPISODE KILLER
+                    # 3. THE VOD/EPISODE KILLER
                     if any(b.upper() in full_meta for b in BLOCKLIST) or \
                        any(b.upper() in url.upper() for b in BLOCKLIST) or \
                        EPISODE_PATTERN.search(full_meta):
                         continue
 
-                    # 2. KEYWORD SEARCH
-                    match_found = False
+                    # 4. KEYWORD SEARCH
                     for var in search_terms:
                         if var.upper() in full_meta:
                             if url not in found_urls:
-                                found_content.append(f"#EXTINF{header}\n{url}\n")
+                                # Save the CLEAN header instead of the original
+                                found_content.append(f"{clean_header}\n{url}\n")
                                 found_urls.add(url)
-                                match_found = True
                                 break
             except: continue
 
-        # 3. OUTPUT - Using the keyword name in the message
+        # 5. OUTPUT
         if found_content:
             safe_name = target_k.replace(" ", "_")
             out_filename = f"{safe_name}-{date_str}.m3u"
             out_path = os.path.join(OUTPUT_FOLDER, out_filename)
             
+            # Sort by channel name (after the comma)
             sorted_content = sorted(found_content, key=lambda x: x.split(",")[-1].lower())
             
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n" + "".join(sorted_content))
             print(f"\n📂 Created: {out_filename} ({len(found_content)} channels)")
         else:
-            # THIS IS THE FIX: It now reports the specific keyword that failed
             print(f"\nℹ️ No channels found for keyword: '{target_k}'")
 
 if __name__ == "__main__":
