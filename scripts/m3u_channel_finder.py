@@ -13,7 +13,7 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 # 1. Keywords to find
-KEYWORDS = ["Chuck"]
+KEYWORDS = ["CTV"]
 
 # 2. Countries to filter by (Matches group-title="USA", etc.)
 # Set to [] if you want to search ALL countries.
@@ -120,14 +120,25 @@ def run_keyword_search():
             out_filename = f"{safe_name}-{date_str}.m3u"
             out_path = os.path.join(OUTPUT_FOLDER, out_filename)
             
-            # Sort by channel name (after the comma)
-            sorted_content = sorted(found_content, key=lambda x: x.split(",")[-1].lower())
+            # SORTING LOGIC:
+            # We split by the comma, then split the second part by the first hyphen 
+            # to isolate the actual channel name from the SERVER prefix.
+            def sort_by_actual_name(entry):
+                try:
+                    # Get the part after the comma: "SERVER-Channel Name"
+                    after_comma = entry.split(",")[-1]
+                    # Split at the first hyphen and take what's after it
+                    # if no hyphen exists, it just takes the whole string
+                    actual_name = after_comma.split("-", 1)[-1]
+                    return actual_name.strip().lower()
+                except:
+                    return entry.lower()
+
+            sorted_content = sorted(found_content, key=sort_by_actual_name)
             
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write("#EXTM3U\n" + "".join(sorted_content))
             print(f"\n📂 Created: {out_filename} ({len(found_content)} channels)")
-        else:
-            print(f"\nℹ️ No channels found for keyword: '{target_k}'")
 
 if __name__ == "__main__":
     run_keyword_search()
