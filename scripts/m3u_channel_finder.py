@@ -1,5 +1,3 @@
-# python3 m3u_channel_finder.py
-
 import os
 import glob
 import re
@@ -20,7 +18,7 @@ import requests
 M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
-KEYWORDS = ["Redlight"]
+KEYWORDS = ["XXX"]
 
 KEYWORDS_MAP = {
     "South Africa": ["South Africa", "ZA", "SA", "SouthAfrica"],
@@ -32,17 +30,25 @@ KEYWORDS_MAP = {
 }
 
 STRICT_MATCH = True  
-BLOCKLIST = ["S01", "E01", "SEASON", "RADIO", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
+
+# 🛑 BLOCKLIST CONFIGURATION
+USE_BLOCKLIST = False  
+BLOCKLIST = ["S01", "E01", "SEASON", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
+
+# 🔒 PERMANENT BLOCKLIST (Always active)
+PERMANENT_BLOCKLIST = ["RADIO", "Anal", "Gay", "(2002)" "WrestleMania", "Return of Xander Cage", "State of the Union", "Reactivated", "Reactivado", "The Next Level", "Madonna"]
 
 # ---------------------
 # 🛡️ VPN CONFIGURATION
 # ---------------------
-# ⚠️ Turn on Proton VPN in your desktop app before running!
-ENABLE_VPN_TOGGLE = False  
+ENABLE_VPN_TOGGLE = True  
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
 }
+
+# 🏷️ TAG EXTRACTION TOGGLES
+KEEP_TVG_ID = True  
 
 # ---------------------
 # HELPER FUNCTIONS
@@ -57,9 +63,9 @@ def is_channel_live(url):
 
 def process_channel(args):
     """Worker function for threads to process and check a channel."""
-    clean_header, url = args
-    if is_channel_live(url):
-        return f"{clean_header}\n{url}\n"
+    candidate = args
+    if is_channel_live(candidate['url']):
+        return candidate
     return None
 
 # ---------------------
@@ -70,6 +76,7 @@ def run_keyword_search():
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     
     EPISODE_PATTERN = re.compile(r's\d{1,3}e\d{1,3}', re.IGNORECASE)
+    VIDEO_EXTENSIONS = (".MP4", ".MKV", ".AVI", ".MOV")
     
     files = glob.glob(os.path.join(M3U_FOLDER, "*.m3u"))
     if not files:
@@ -111,24 +118,48 @@ def run_keyword_search():
                     server_match = re.search(r'https?://([^./:]+)', url)
                     server_prefix = server_match.group(1).upper() if server_match else "SERVER"
                     
-                    # 🖼️ EXTRACT TVG-LOGO (if it exists)
+                    # EXTRACT TVG-ID
+                    id_str = ""
+                    if KEEP_TVG_ID:
+                        id_match = re.search(r'tvg-id="([^"]+)"', header)
+                        if id_match:
+                            id_str = f' tvg-id="{id_match.group(1)}"'
+                    
+                    # EXTRACT TVG-LOGO
                     logo_match = re.search(r'tvg-logo="([^"]+)"', header)
                     logo_str = f' tvg-logo="{logo_match.group(1)}"' if logo_match else ""
                     
-                    # Inject the logo back into the clean tag block
-                    clean_header = f'#EXTINF:-1 group-title="{group_name}"{logo_str},{server_prefix}-{channel_name}'
-                    full_meta = header.upper()
+                    # Create header (Places lowercase server prefix at the very end)
+                    clean_header = f'#EXTINF:-1 group-title="{group_name}"{id_str}{logo_str},{channel_name} {server_prefix.lower()}.'
                     
-                    # BLOCKLIST CHECK
-                    if any(b.upper() in full_meta for b in BLOCKLIST) or \
-                       any(b.upper() in url.upper() for b in BLOCKLIST) or \
-                       EPISODE_PATTERN.search(full_meta):
+                    # Strip logo URL
+                    meta_for_search = re.sub(r'tvg-logo="[^"]*"', '', header).upper()
+                    
+                    # 🛑 1. Permanent Blocklist (Excludes Madonna, Wrestlemania, etc.)
+                    if any(b.upper() in meta_for_search for b in PERMANENT_BLOCKLIST) or \
+                       any(b.upper() in url.upper() for b in PERMANENT_BLOCKLIST):
                         continue
+                    
+                    if USE_BLOCKLIST:
+                        if any(b.upper() in meta_for_search for b in BLOCKLIST) or \
+                           any(b.upper() in url.upper() for b in BLOCKLIST) or \
+                           EPISODE_PATTERN.search(meta_for_search):
+                            continue
 
-                    # KEYWORD CHECK
+                    # 🎯 2. KEYWORD CHECK (Modified for strict word boundaries)
                     for var in search_terms:
-                        if var.upper() in full_meta:
-                            candidates.append((clean_header, url))
+                        if STRICT_MATCH:
+                            pattern = re.compile(rf'\b{re.escape(var.upper())}\b')
+                            is_match = pattern.search(meta_for_search)
+                        else:
+                            is_match = var.upper() in meta_for_search
+
+                        if is_match:
+                            candidates.append({
+                                'name': channel_name, 
+                                'header': clean_header, 
+                                'url': url
+                            })
                             found_urls.add(url)
                             break
             except: 
@@ -151,18 +182,22 @@ def run_keyword_search():
             out_filename = f"{safe_name}-{date_str}.m3u"
             out_path = os.path.join(OUTPUT_FOLDER, out_filename)
             
-            def sort_by_actual_name(entry):
-                try:
-                    after_comma = entry.split(",")[-1]
-                    actual_name = after_comma.split("-", 1)[-1]
-                    return actual_name.strip().lower()
-                except:
-                    return entry.lower()
+            def sort_by_actual_name(candidate):
+                name = candidate['name']
+                is_video = candidate['url'].upper().endswith(VIDEO_EXTENSIONS)
+                
+                # False puts live channels up top, True drops .mp4s to the absolute bottom.
+                # It then sorts alphabetically by the true channel name.
+                return (is_video, name.lower())
 
             sorted_content = sorted(live_content, key=sort_by_actual_name)
             
+            final_output_lines = []
+            for item in sorted_content:
+                final_output_lines.append(f"{item['header']}\n{item['url']}\n")
+            
             with open(out_path, "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n" + "".join(sorted_content))
+                f.write("#EXTM3U\n" + "".join(final_output_lines))
             print(f"\n📂 Created: {out_filename} ({len(live_content)} LIVE channels generated!)")
 
 if __name__ == "__main__":

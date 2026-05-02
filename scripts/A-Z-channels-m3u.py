@@ -21,13 +21,14 @@ group_priority = {"Canada": 1, "US": 2, "United Kingdom": 3}
 # Toggles
 REMOVE_RADIO = True
 REMOVE_VIDEO_FILES = True
-REMOVE_DUPLICATE_URLS = True  # 🔄 Set to False to keep channels with same stream but different names
+REMOVE_DUPLICATE_URLS = True  
+KEEP_TVG_LOGO = True  # 🖼️ Set to False to strip all logos from the list
 
 RADIO_KEYWORDS = ['radio', 'fm', 'music']
 VIDEO_EXTENSIONS = ('.mp4', '.mkv', '.avi', '.mov')
 
 def get_priority(group_name):
-    # ⬇️ FORCE XXX TO THE VERY BOTTOM
+    # FORCE XXX TO THE VERY BOTTOM
     if group_name.upper() == "XXX":
         return 999
         
@@ -53,16 +54,15 @@ while i < len(lines):
     line = lines[i]
 
     if line.startswith("#EXTINF:"):
-        # 1. Clean Tags: Remove ALL tvg-id="*"
-        line = re.sub(r'\s?tvg-id="[^"]*"', '', line)
-        line = re.sub(r'\s+', ' ', line).strip()
-
+        original_header = line  # Save the raw line to extract attributes later
+        
+        # Pull URL
         url = lines[i + 1] if i + 1 < len(lines) else ""
         if url.startswith("#"):
             i += 1
             continue
 
-        # 2. Determine Group and Description
+        # 1. Determine Group and Description
         match = extinf_pattern.search(line)
         if match:
             group, desc = match.groups()
@@ -82,7 +82,7 @@ while i < len(lines):
         if group_lower == "canada": group = "Canada"
         elif group_lower in ["us", "usa"]: group = "US"
         elif group_lower in ["uk", "gb"]: group = "UK"
-        # 🛡️ PROTECT XXX FROM BECOMING Xxx:
+        # PROTECT XXX FROM BECOMING Xxx:
         elif group_lower == "xxx": group = "XXX"
         else: group = group.title()
 
@@ -91,10 +91,27 @@ while i < len(lines):
         desc = re.sub(r'^(CA|US|UK)[:\s]*', r'\1 ', desc, flags=re.IGNORECASE)
         desc = re.sub(r'\s+', ' ', desc).strip()
         
-        # Re-build the final clean line
-        line = f'#EXTINF:-1 group-title="{group}",{desc}'
+        # 🆔 HANDLE TVG-ID (FORCED POSITIONING FIRST)
+        id_match = re.search(r'tvg-id="([^"]+)"', original_header)
+        if id_match:
+            id_str = f'tvg-id="{id_match.group(1)}" '
+        else:
+            # 🛠️ Autocreated fallback ID if it doesn't exist
+            id_str = 'tvg-id="EMPTY" '
+        
+        # 🖼️ HANDLE TVG-LOGO (FORCED POSITIONING SECOND)
+        logo_str = ""
+        if KEEP_TVG_LOGO:
+            logo_match = re.search(r'tvg-logo="([^"]+)"', original_header)
+            if logo_match:
+                logo_str = f'tvg-logo="{logo_match.group(1)}" '
+            else:
+                logo_str = 'tvg-logo="https://placeholder.com" '
+        
+        # Re-build final line forced in requested sequence
+        line = f'#EXTINF:-1 {id_str}{logo_str}group-title="{group}",{desc}'
 
-        # 3. Filter Logic
+        # 2. Filter Logic
         skip_entry = False
         if REMOVE_RADIO:
             if any(k.lower() in group.lower() or k.lower() in desc.lower() for k in RADIO_KEYWORDS):
@@ -109,11 +126,11 @@ while i < len(lines):
     else:
         i += 1
 
-# 4. Deduplicate
+# 3. Deduplicate
 seen = set()
 unique_entries = []
 for entry in entries:
-    # 🔄 Check toggle to lock onto just the URL or full channel triplet
+    # Check toggle to lock onto just the URL or full channel triplet
     if REMOVE_DUPLICATE_URLS:
         key = entry[2].lower()
     else:
@@ -123,13 +140,13 @@ for entry in entries:
         seen.add(key)
         unique_entries.append(entry)
 
-# 5. SORTING
+# 4. SORTING
 sorted_entries = sorted(
     unique_entries, 
     key=lambda x: (get_priority(x[0]), x[0].lower(), x[1].lower())
 )
 
-# 6. Build output
+# 5. Build output
 output_lines = ["#EXTM3U"]
 for group, desc, url, extinf in sorted_entries:
     output_lines.append(extinf)

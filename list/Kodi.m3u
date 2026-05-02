@@ -1,393 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/kyleabrahams/tv/main/scripts/www/epg.xml"
 
-#EXTINF:-1 tvg-id="78" tvg-chno="272" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/oxsgsi.png" group-title="YuppTV",Scifi World
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-SCIFI-WORLD-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/a985e052-6868-4365-ac45-52afe9008b25/manifest.m3u8
-
-#EXTINF:-1 tvg-id="63" tvg-chno="274" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/twazqd.png" group-title="YuppTV",Encore
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-ENCORE-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/390efe7e-4a1a-4f9f-8266-b4d90ab7121a/master.m3u8
-
-#EXTINF:-1 tvg-id="53" tvg-chno="276" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/iktjkc.png" group-title="YuppTV",Danger Vision TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-DANGER-VISION-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/453971f3-855a-455e-9353-ebbb069583a4/master.m3u8
-
-#EXTINF:-1 tvg-id="95" tvg-chno="277" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/wyuowl.png" group-title="YuppTV",Mercury
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-MERCURY-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b7f74048-fe90-4144-a876-7bfa27774154/master.m3u8
-
-#EXTINF:-1 tvg-id="60" tvg-chno="278" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/urban-action.png" group-title="YuppTV",Urban Action
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-URBAN-ACTION-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7ad8ce96-5a3f-413e-ae15-7c2cef7bc8f8/manifest.m3u8
-
-#EXTINF:-1 tvg-id="88" tvg-chno="280" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ggdzvt.png" group-title="YuppTV",The Explorers
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-THE-EXPLORERS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
-
-#EXTINF:-1 tvg-id="45" tvg-chno="281" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/dxqsmq.png" group-title="YuppTV",Bang Bang TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-BANG-BANG-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/6a98fce2-bf4c-4bfb-91f4-c43851bb3801/manifest.m3u8
-
-#EXTINF:-1 tvg-id="90" tvg-chno="285" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/lol-tv.png" group-title="YuppTV",Lol TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8
-
-#EXTINF:-1 tvg-id="71" tvg-chno="287" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/heartfelt-tv.png" group-title="YuppTV",Heartfelt TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-HEARTFELT-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/74c455d4-625a-448a-8ba7-d086e6462245/manifest.m3u8
-
-#EXTINF:-1 tvg-id="93" tvg-chno="289" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/vfjgky.png" group-title="YuppTV",Love 2 Hate TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-LOVE-2-HATE-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4f3f3fb6-cec9-4a29-bc6c-90685947766e/manifest.m3u8?
-
-#EXTINF:-1 tvg-id="82" tvg-chno="291" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/uohdua.png" group-title="YuppTV",Extras TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-NITRO-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3265a84f-1238-4439-bb40-cc0b716719f7/manifest.m3u8
-
-#EXTINF:-1 tvg-id="96" tvg-chno="296" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/mama-benz-tv.png" group-title="YuppTV",Mama Benz TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-MAMA-BENZ-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65f99e10-8d57-460a-a6be-731d90cfe7b1/manifest.m3u8
-
-#EXTINF:-1 tvg-id="51" tvg-chno="297" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/idvans.png" group-title="YuppTV",Colour Blind
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-COLOUR-BLIND-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7e58f6fd-62bc-49bc-9ec6-2766ed521743/manifest.m3u8
-
-#EXTINF:-1 tvg-id="56" tvg-chno="301" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/tlmbwv.png" group-title="YuppTV",Edgy TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-EDGY-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/49f275ac-7129-4492-93c0-854b3c3138f0/manifest.m3u8
-
-#EXTINF:-1 tvg-id="81" tvg-chno="302" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ewwdxf.png" group-title="YuppTV",Outer Vision TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-OUTER-VISION-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ea1ad8da-7c74-4dc3-999f-15088a0d942a/master.m3u8
-
-#EXTINF:-1 tvg-id="279" tvg-chno="304" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/inxhvg.png" group-title="YuppTV",JUST FOR LAUGHS GAGS
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-JUST_FOR_LAUGHS_GAGS_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2790d143-5874-4146-bf91-9063c52b2f15/manifest.m3u8
-
-#EXTINF:-1 tvg-id="255" tvg-chno="307" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/xccrcr.png" group-title="YuppTV",AWE PLUS
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Awe_Plus/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c6766dad-4126-42a3-beb4-116761ac386f/playlist.m3u8
-
-#EXTINF:-1 tvg-id="261" tvg-chno="311" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/aqzbzc.png" group-title="YuppTV",BRAT TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-BRATTV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04072b68-dc6a-4d5e-98af-f356ba8d5063/playlist.m3u8
-
-#EXTINF:-1 tvg-id="266" tvg-chno="314" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/wybgyr.png" group-title="YuppTV",DROOL
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Drool_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d2078a75-1d67-4e42-8c4b-9067d7126fd4/playlist.m3u8
-
-#EXTINF:-1 tvg-id="289" tvg-chno="306" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ric-plus.png" group-title="YuppTV",RIC Plus
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Ric_Plus/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/42997d52-337b-4fbe-8693-aa8605f5cfab/master.m3u8
-
-#EXTINF:-1 tvg-id="83" tvg-chno="232" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/kiddo.png" group-title="YuppTV",Kiddo
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-KIDDO-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/5bcf9d24-04f2-401d-a93f-7af54f29461a/manifest.m3u8
-
-#EXTINF:-1 tvg-id="48" tvg-chno="235" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ehuljr.png" group-title="YuppTV",Cartoon TV Classics
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-CARTOON-TV-CLASSICS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5543c06-5122-49a7-9662-32187f48aa2c/manifest.m3u8
-
-#EXTINF:-1 tvg-id="276" tvg-chno="323" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/epxndj.png" group-title="YuppTV",SPACE SERIES
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Space_Series_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18d329ef-d478-413c-b68f-c123494ac434/manifest.m3u8
-
-#EXTINF:-1 tvg-id="296" tvg-chno="262" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/yachting-tv.png" group-title="YuppTV",Yachting TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-yachtingtv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9c7be81a-7dd6-481e-a010-d306ed060db7/manifest.m3u8
-
-#EXTINF:-1 tvg-id="68" tvg-chno="271" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/fight-tv.png" group-title="YuppTV",Fight TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-FIGHT-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/70e45fc8-1f6c-4492-ac26-9868f70f4e02/manifest.m3u8
-
-#EXTINF:-1 tvg-id="84" tvg-chno="273" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/sqjspw.png" group-title="YuppTV",Kozoom
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-KOZOOM-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
-
-#EXTINF:-1 tvg-id="40" tvg-chno="279" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/xtrem-sports.png" group-title="YuppTV",Xtrem sports
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-XTREM-SPORTS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
-
-#EXTINF:-1 tvg-id="76" tvg-chno="286" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/sport-fishing-tv.png" group-title="YuppTV",Sport Fishing TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-SPORT-FISHING-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
-
-#EXTINF:-1 tvg-id="42" tvg-chno="292" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/rwfaja.png" group-title="YuppTV",America Boating Channel
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-AMERICAS-BOATING-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04c3a27e-c2a0-420b-8eef-7dae9ab93056/manifest.m3u8
-
-#EXTINF:-1 tvg-id="49" tvg-chno="299" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/imwzux.png" group-title="YuppTV",ChronoTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-CHRONO-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d375ebca-9cd0-475e-ad4d-0cde6634de9c/manifest.m3u8
-
-#EXTINF:-1 tvg-id="79" tvg-chno="300" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/itsf.png" group-title="YuppTV",ITSF
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-ITSF-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20a0ac30-d157-4400-8f64-3c52b37c645c/manifest.m3u8
-
-#EXTINF:-1 tvg-id="272" tvg-chno="320" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/lvwqlf.png" group-title="YuppTV",MMA TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-MMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/72581a39-9590-4c64-998e-b61fcf2d0294/playlist.m3u8?
-
-#EXTINF:-1 tvg-id="273" tvg-chno="321" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cgrggj.png" group-title="YuppTV",MOTOR RACING
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-motorracing_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/db917aee-4061-4081-b5fc-d5786defb057/master.m3u8?
-
-#EXTINF:-1 tvg-id="253" tvg-chno="326" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/whjmwm.png" group-title="YuppTV",ACE TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-ACE_TV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8f7ca5bc-6bd2-4dc4-98d0-9ff71eedf477/master.m3u8
-
-#EXTINF:-1 tvg-id="290" tvg-chno="264" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cricket-gold.png" group-title="YuppTV",Cricket Gold
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
-
-#EXTINF:-1 tvg-id="293" tvg-chno="267" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/drive-speed.png" group-title="YuppTV",Drive+ Speed
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d00c9b93-97ca-488c-9072-265d0079fae6/manifest.m3u8
-
-#EXTINF:-1 tvg-id="294" tvg-chno="268" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/hunt-fish-tv.png" group-title="YuppTV",Hunt Fish TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Hunt_Fish_TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/7545a786-3458-4aaf-ad71-db896a1c4b83/master.m3u8?
-
-#EXTINF:-1 tvg-id="295" tvg-chno="263" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/nautical-channel.png" group-title="YuppTV",Nautical Channel
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Nautical_TV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f2e7e4ed-1b9c-4404-9fc6-41d0d13880b7/index.m3u8
-
-#EXTINF:-1 tvg-id="296" tvg-chno="262" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/yachting-tv.png" group-title="YuppTV",Yachting TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-yachtingtv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9c7be81a-7dd6-481e-a010-d306ed060db7/manifest.m3u8
-
-#EXTINF:-1 tvg-id="267" tvg-chno="315" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/bazmyr.png" group-title="YuppTV",ESCAPE TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-ESCAPE_TV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4da91549-1762-4d60-b8b7-db07ef7ee64b/master.m3u8
-
-#EXTINF:-1 tvg-id="271" tvg-chno="319" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/kuygkv.png" group-title="YuppTV",LUXURY DREAMS TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Luxury_Dreams_Tv_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2f8307f7-cae4-4b19-afc0-32f4ba4ab4d0/manifest.m3u8
-
-#EXTINF:-1 tvg-id="277" tvg-chno="324" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/gjwmjv.png" group-title="YuppTV",UNCHAINEDTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Unchained_TV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e6fe3169-15ec-4f33-b16c-c9fc37853d61/master.m3u8
-
-#EXTINF:-1 tvg-id="52" tvg-chno="256" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/cowboy-movie-channel.png" group-title="YuppTV",Cowboy Movie Channel
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-COWBOY-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4434fd47-6d46-43e9-b132-fab122edc732/manifest.m3u8
-
-#EXTINF:-1 tvg-id="77" tvg-chno="257" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/horror-tv.png" group-title="YuppTV",Horror TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-HORROR-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/93dc292b-cbcf-4988-ab97-94feced4c14b/master.m3u8
-
-#EXTINF:-1 tvg-id="72" tvg-chno="258" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/tensions-tv.png" group-title="YuppTV",Tensions TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-TENSIONS-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9db01cea-0af6-4382-b2c6-e23525f6640d/manifest.m3u8
-
-#EXTINF:-1 tvg-id="55" tvg-chno="259" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/drive-in-movie-channel.png" group-title="YuppTV",Drive In Movie Channel
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-DRIVE-IN-MOVIE-CHANNEL-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e5056383-20ac-488f-b299-6577f66881ff/manifest.m3u8
-
-#EXTINF:-1 tvg-id="85" tvg-chno="261" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/kung-fu.png" group-title="YuppTV",Kung Fu
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-KUNG-FU-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/06862a07-6a92-4b4d-abc3-5fea131713b5/manifest.m3u8
-
-#EXTINF:-1 tvg-id="256" tvg-chno="308" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/fjbfto.png" group-title="YuppTV",BEST ACTION TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-BEST_ACTION_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9a4a5412-ca99-48d3-9013-d1811b95b9d2/manifest.m3u8
-
-#EXTINF:-1 tvg-id="257" tvg-chno="309" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/vuyumm.png" group-title="YuppTV",BEST DRAMA TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-BEST_DRAMA_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9800ea5c-2183-4160-9f01-70e5d6428a50/manifest.m3u8
-
-#EXTINF:-1 tvg-id="258" tvg-chno="310" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/ewehpt.png" group-title="YuppTV",BEST THRILLER TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-BEST_THRILLER_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/ce168a85-c8d4-41d6-a597-cc8fd7baddd9/manifest.m3u8
-
-#EXTINF:-1 tvg-id="Mr.bean" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB900003KR_20250107T031153SQUARE.png" tvg-chno="4823" group-title="Kids",Mr Bean Animated
-https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Tom&Jerry" tvg-logo="https://m.media-amazon.com/images/M/MV5BODY2YWI1OTAtY2FhZS00MGI1LTk0YjUtYmE3MDk0OGFkMWUyXkEyXkFqcGc@._V1_.jpg" group-title="Kids",Tom & Jerry
-https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
-
-#EXTINF:-1 tvg-id="5263332f746c6b1bed25aa6c105a79d9" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/5263332f746c6b1bed25aa6c105a79d9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747061592882_MGMPresents_HUDLogo_Centered_260x147.png" tvg-chno="295" group-title="Extras",MGM Presents
-https://jmp2.uk/rok-5263332f746c6b1bed25aa6c105a79d9.m3u8
-
-#EXTINF:-1 tvg-id="d32267711c6a5cf36520716c96b5b3fa" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/d32267711c6a5cf36520716c96b5b3fa/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1741793656039_Movie_Hub_260x147.png" tvg-chno="305" group-title="Extras",Movie Hub
-https://jmp2.uk/rok-d32267711c6a5cf36520716c96b5b3fa.m3u8
-
-#EXTINF:-1 tvg-id="c5cbd4129753f5732d7160596440404f" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/c5cbd4129753f5732d7160596440404f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1741793611093_Movie_Hub_Action_260x147.png" tvg-chno="282" group-title="Extras",Movie Hub Action
-https://jmp2.uk/rok-c5cbd4129753f5732d7160596440404f.m3u8
-
-#EXTINF:-1 tvg-id="be3c81de355c56f89cbf99301735cfd2" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/be3c81de355c56f89cbf99301735cfd2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1654727499791_MyTime_Roku_ChannelLogos_260x147.png" tvg-chno="275" group-title="Extras",My Time Movie Network
-https://jmp2.uk/rok-be3c81de355c56f89cbf99301735cfd2.m3u8
-
-#EXTINF:-1 tvg-id="d6f71998860459eca1bed73db5988330" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/d6f71998860459eca1bed73db5988330/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673451464197_FilmRise_FreeMovies_260x147.png" tvg-chno="298" group-title="Extras",FilmRise Free Movies
-https://jmp2.uk/rok-d6f71998860459eca1bed73db5988330.m3u8
-
-#EXTINF:-1 tvg-id="0abef49cfd6759b18f2ce64290cbdda3" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/0abef49cfd6759b18f2ce64290cbdda3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673450513655_HUDidentifier_filmRiseAction.png" tvg-chno="288" group-title="Extras",FilmRise Action
-https://jmp2.uk/rok-0abef49cfd6759b18f2ce64290cbdda3.m3u8
-
-#EXTINF:-1 tvg-id="1528" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/czech-republic/extasy-cz.png?raw=true" group-title="XXX" catchup-days="0",Extasy 4K
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/bUShkiseRm/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1393" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/serbia/babes-tv-rs.png?raw=true" group-title="XXX" catchup-days="0",Babes TV HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/aGiDatERMa/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1384" tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX" catchup-days="0",Private TV HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/aCquaRidaT/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="2559" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/blue-hustler-pl.png?raw=true" group-title="XXX" catchup-days="0",Blue Hustler
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/fU36p77FmV/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1385" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/playboy-tv-us.png?raw=true" group-title="XXX" catchup-days="0",Playboy TV HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/slEStOnTic/434exeg2tikzusx3dukea343
-
-# #EXTINF:-1 tvg-id="2589" tvg-logo="" group-title="XXX" catchup-days="0",Vivid Red HD
-# #EXTGRP:XXX
-# http://ronaldo.tvfor.pro/HR867ybD8i/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Vivid Red HD
-http://bgdc.live:25461/biosysinc/90941859/204302
-
-#EXTINF:-1 tvg-id="1391" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/hustler-hd-pl.png?raw=true" group-title="XXX" catchup-days="0",Hustler HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/cHInGolanp/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="2590" tvg-logo="" group-title="XXX" catchup-days="0",Penthouse Reality TV
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/52TtpDd45K/434exeg2tikzusx3dukea343
-
-
-#EXTINF:-1 tvg-id="1387" tvg-logo="" group-title="XXX" catchup-days="0",Русская ночь
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/mPlafenrYp/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1388" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/romania/penthouse-gold-ro.png?raw=true" group-title="XXX" catchup-days="0",Penthouse GOLD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/ayetHEworI/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1392" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/redlight-hd-pl.png?raw=true" group-title="XXX" catchup-days="0",Redlight HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/rVATioNMAN/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1381" tvg-logo="https://www.cableman.ru/sites/default/files/shalun_0.png" group-title="XXX" catchup-days="0",Шалун HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/XIoNGerGEN/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1394" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/brazzers-tv-europe-pl.png?raw=true" group-title="XXX" catchup-days="0",Brazzers TV
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/bUgErTSErI/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1383" tvg-logo="https://i.ibb.co/PvSFC2Z7/DORCEL-TV-1.png" group-title="XXX" catchup-days="0",Dorcel TV HD
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/groUSIneta/434exeg2tikzusx3dukea343
-
-#EXTINF:-1 tvg-id="1386" tvg-logo="https://i.ibb.co/kdMyx2q/Exxxotica.png" group-title="XXX" catchup-days="0",Exxxotica
-#EXTGRP:XXX
-http://ronaldo.tvfor.pro/HerVAdesTO/434exeg2tikzusx3dukea343
-
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Alba XXX HD1
 http://bgdc.live:25461/biosysinc/90941859/204311
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Arab Girls HD
@@ -398,15 +10,13 @@ http://cdn.adultiptv.net/asian.m3u8
 http://bgdc.live:25461/biosysinc/90941859/204317
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Bang_Bros_logo.png" group-title="XXX",Bangbros 4K
 http://bgdc.live:25461/biosysinc/90941859/204318
-#EXTINF:-1 tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/brazzers-tv-europe-pl.png?raw=true" group-title="XXX",Brazzers FHD
-http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Big Ass Girls HD
 http://live.mycamtv.com/bigass.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Big Ass HD
 http://cdn.adultiptv.net/bigass.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Big Dick HD
 http://cdn.adultiptv.net/bigdick.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Big Tits Girls HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Big Tits Girls HD
 http://live.mycamtv.com/bigtits.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Big Tits HD
 http://cdn.adultiptv.net/bigtits.m3u8
@@ -420,15 +30,17 @@ http://live.mycamtv.com/blowjob.m3u8
 http://cdn.adultiptv.net/blowjob.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/09/Brazzers-logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled" group-title="XXX",Brazzers
 http://bgdc.live:25461/biosysinc/90941859/204323
+#EXTINF:-1 tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/brazzers-tv-europe-pl.png?raw=true" group-title="XXX",Brazzers FHD
+http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/poland/brazzers-tv-europe-pl.png?raw=true" group-title="XXX",BraZZers TV Europe
 http://31.148.48.15/Brazzers_TV_Europe/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Brunette Girls HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Brunette Girls HD
 http://live.mycamtv.com/brunette.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Brunette HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Brunette HD
 http://cdn.adultiptv.net/brunette.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Compilation HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Compilation HD
 http://cdn.adultiptv.net/compilation.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Cuckold HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Cuckold HD
 http://cdn.adultiptv.net/cuckold.m3u8
 #EXTINF:-1 tvg-logo="https://ei.phncdn.com/pics/sites/000/003/811/avatar1527066145/(m=eidYGe)(mh=9E0ZadGPpA3-btRz)200x200.jpg" group-title="XXX",DDF Network
 http://bgdc.live:25461/biosysinc/90941859/204329
@@ -438,7 +50,7 @@ http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
 http://bgdc.live:25461/biosysinc/90941859/204330
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PvSFC2Z7/DORCEL-TV-1.png" group-title="XXX",Dorcel HD
 http://bgdc.live:25461/biosysinc/90941859/204331
-#EXTINF:-1 tvg-logo="" group-title="XXX",Dorcel TV
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Dorcel TV
 http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PvSFC2Z7/DORCEL-TV-1.png" group-title="XXX",Dorcel XXX HD
 http://bgdc.live:25461/biosysinc/90941859/204226
@@ -446,13 +58,13 @@ http://bgdc.live:25461/biosysinc/90941859/204226
 http://bgdc.live:25461/biosysinc/90941859/204332
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SD0zdPrW/Ero-XXX.png" group-title="XXX",Ero XXX HD
 http://bgdc.live:25461/biosysinc/90941859/204228
-#EXTINF:-1 tvg-logo="" group-title="XXX",Erotic_4 LA3
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Erotic_4 LA3
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14148
-#EXTINF:-1 tvg-logo="" group-title="XXX",Erotic_6 LA3
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Erotic_6 LA3
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14136
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Euro Girls On Girls
 http://bgdc.live:25461/biosysinc/90941859/204335
-#EXTINF:-1 tvg-logo="" group-title="XXX",Exxxotica
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Exxxotica
 http://31.148.48.15:80/O-la-la/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kdMyx2q/Exxxotica.png" group-title="XXX",Exxxotica HD
 http://bgdc.live:25461/biosysinc/90941859/204262
@@ -464,14 +76,14 @@ http://bgdc.live:25461/biosysinc/90941859/204341
 http://31.148.48.15/French_Lover/mono.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Glory Hole
 http://bgdc.live:25461/biosysinc/90941859/204343
-#EXTINF:-1 tvg-logo="" group-title="XXX",HOT_LA1
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Hot Wife XXX
+http://lunar.pm:8080/Tedandjon/Together2/131319
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",HOT_LA1
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14164
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Hustler HD
 http://bgdc.live:25461/biosysinc/90941859/204346
-#EXTINF:-1 tvg-logo="" group-title="XXX",Hustler HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Hustler HD
 http://193.111.244.35:7474/hustlerhd/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Hot Wife XXX
-http://lunar.pm:8080/Tedandjon/Together2/131319
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Mia Khalifa
 http://bgdc.live:25461/biosysinc/90941859/204348
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",My Daughter's Hot Friend
@@ -486,7 +98,7 @@ http://bgdc.live:25461/biosysinc/90941859/204278
 https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Penthouse Passion
 http://bgdc.live:25461/biosysinc/90941859/204354
-#EXTINF:-1 tvg-logo="" group-title="XXX",Pink Club
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Pink Club
 https://5f22d76e220e1.streamlock.net/canale7/canale7/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Pink Erotic 4
 http://bgdc.live:25461/biosysinc/90941859/204359
@@ -498,13 +110,13 @@ http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
 http://31.148.48.15/Playboy_TV/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Porn Classic
 http://200.194.238.229:8383/live/pornclassic/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="XXX",Private_LA10
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Private_LA10
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14199
-#EXTINF:-1 tvg-logo="" group-title="XXX",Private_LA12
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Private_LA12
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14201
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Private_LA5
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14194
-#EXTINF:-1 tvg-logo="" group-title="XXX",Private_LA6
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Private_LA6
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14195
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Real Girls Gone Bad
 http://bgdc.live:25461/biosysinc/90941859/204367
@@ -512,17 +124,50 @@ http://bgdc.live:25461/biosysinc/90941859/204367
 http://bgdc.live:25461/biosysinc/90941859/204291
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Sextreme
 http://bgdc.live:25461/biosysinc/90941859/204371
-#EXTINF:-1 tvg-logo="" group-title="XXX",Sextreme_LA1
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Sextreme_LA1
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14107
-#EXTINF:-1 tvg-logo="" group-title="XXX",Sextreme_LA6
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Sextreme_LA6
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14111
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Taboo
 http://bgdc.live:25461/biosysinc/90941859/204372
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Venus
 http://bgdc.live:25461/biosysinc/90941859/204377
-#EXTINF:-1 tvg-logo="" group-title="XXX",Venus_LA3
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",Venus_LA3
 http://canal-pro.xyz:8080/998953787tv/4gu6b6/14114
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Vivid Red HD
+http://bgdc.live:25461/biosysinc/90941859/204302
 #EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2013/04/porn-star-vector-logo.png" group-title="XXX",Wank It Now
 http://bgdc.live:25461/biosysinc/90941859/204379
-#EXTINF:-1 tvg-logo="" group-title="XXX",XY Max HD
+#EXTINF:-1 tvg-logo="EMPTY" group-title="XXX",XY Max HD
 http://bgdc.live:25461/biosysinc/90941859/204382
+
+#EXTINF:-1 group-title="XXX",Brand New Amateurs
+http://bgdc.live:25461/biosysinc/90941859/204322
+
+#EXTINF:-1 group-title="XXX",Evolved Fights
+http://bgdc.live:25461/biosysinc/90941859/204337
+#EXTINF:-1 group-title="XXX",Fake Taxi
+http://bgdc.live:25461/biosysinc/90941859/204339
+#EXTINF:-1 group-title="XXX",Hookup Hotshot
+http://bgdc.live:25461/biosysinc/90941859/204344
+#EXTINF:-1 group-title="XXX",Pink Erotic 2
+http://bgdc.live:25461/biosysinc/90941859/204357
+#EXTINF:-1 group-title="XXX",Pink Erotic 4
+http://bgdc.live:25461/biosysinc/90941859/204359
+#EXTINF:-1 group-title="XXX",Pink Erotic 5
+http://bgdc.live:25461/biosysinc/90941859/204360
+#EXTINF:-1 group-title="XXX",Pink Erotic 6
+http://bgdc.live:25461/biosysinc/90941859/204361
+#EXTINF:-1 group-title="XXX",Pink Erotic 8
+http://bgdc.live:25461/biosysinc/90941859/204363
+#EXTINF:-1 group-title="XXX",PureTaboo
+http://bgdc.live:25461/biosysinc/90941859/204366
+#EXTINF:-1 group-title="XXX",Real Girls Gone Bad
+http://bgdc.live:25461/biosysinc/90941859/204367
+#EXTINF:-1 group-title="XXX",XXL
+http://bgdc.live:25461/biosysinc/90941859/204381
+#EXTINF:-1 group-title="XXX",XY Max HD
+http://bgdc.live:25461/biosysinc/90941859/204382
+
+#EXTINF:-1 group-title="Other",XXX: Brazzers Extra [BGDC]
+http://bgdc.live:25461/biosysinc/90941859/204325
