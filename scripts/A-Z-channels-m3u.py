@@ -4,7 +4,7 @@ import re
 import os
 
 # File paths
-input_file = '/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Active/tkosportz-live_dog1000 A-Z.m3u'
+input_file = '/Volumes/Kyle4tb1223/Documents/Github/tv/list/Kodi.m3u'
 output_dir = os.path.dirname(input_file)
 base_name = os.path.splitext(os.path.basename(input_file))[0]
 
@@ -21,11 +21,16 @@ group_priority = {"Canada": 1, "US": 2, "United Kingdom": 3}
 # Toggles
 REMOVE_RADIO = True
 REMOVE_VIDEO_FILES = True
+REMOVE_DUPLICATE_URLS = True  # 🔄 Set to False to keep channels with same stream but different names
 
 RADIO_KEYWORDS = ['radio', 'fm', 'music']
 VIDEO_EXTENSIONS = ('.mp4', '.mkv', '.avi', '.mov')
 
 def get_priority(group_name):
+    # ⬇️ FORCE XXX TO THE VERY BOTTOM
+    if group_name.upper() == "XXX":
+        return 999
+        
     for key, val in group_priority.items():
         if key.lower() == group_name.lower():
             return val
@@ -71,26 +76,23 @@ while i < len(lines):
             elif desc.lower().startswith("ca:"): group = "Canada"
             else: group = "Other"
 
-            # --- FIX NAMES & FORMATTING ---
+        # --- FIX NAMES & FORMATTING ---
         # Normalize Group Names
         group_lower = group.lower()
         if group_lower == "canada": group = "Canada"
         elif group_lower in ["us", "usa"]: group = "US"
         elif group_lower in ["uk", "gb"]: group = "UK"
+        # 🛡️ PROTECT XXX FROM BECOMING Xxx:
+        elif group_lower == "xxx": group = "XXX"
         else: group = group.title()
 
         # Clean Description Prefixes (CA, US, UK, USA)
-        # 1. Handle USA -> US conversion first
         desc = re.sub(r'^USA[:\s]*', 'US ', desc, flags=re.IGNORECASE)
-        # 2. Strip colons and spaces from CA, US, and UK
         desc = re.sub(r'^(CA|US|UK)[:\s]*', r'\1 ', desc, flags=re.IGNORECASE)
-        
-        # 3. Global cleanup: ensure no double spaces and strip edges
         desc = re.sub(r'\s+', ' ', desc).strip()
         
         # Re-build the final clean line
         line = f'#EXTINF:-1 group-title="{group}",{desc}'
-
 
         # 3. Filter Logic
         skip_entry = False
@@ -111,7 +113,12 @@ while i < len(lines):
 seen = set()
 unique_entries = []
 for entry in entries:
-    key = (entry[0].lower(), entry[1].lower(), entry[2].lower())
+    # 🔄 Check toggle to lock onto just the URL or full channel triplet
+    if REMOVE_DUPLICATE_URLS:
+        key = entry[2].lower()
+    else:
+        key = (entry[0].lower(), entry[1].lower(), entry[2].lower())
+        
     if key not in seen:
         seen.add(key)
         unique_entries.append(entry)
