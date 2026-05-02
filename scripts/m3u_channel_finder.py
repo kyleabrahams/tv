@@ -36,7 +36,7 @@ USE_BLOCKLIST = False
 BLOCKLIST = ["S01", "E01", "SEASON", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
 
 # 🔒 PERMANENT BLOCKLIST (Always active)
-PERMANENT_BLOCKLIST = ["RADIO", "Anal", "Gay", "(2002)" "WrestleMania", "Return of Xander Cage", "State of the Union", "Reactivated", "Reactivado", "The Next Level", "Madonna"]
+PERMANENT_BLOCKLIST = ["RADIO", "Anal", "Gay", "(2002)", "WrestleMania", "Return of Xander Cage", "State of the Union", "Reactivated", "Reactivado", "The Next Level", "Madonna"]
 
 # ---------------------
 # 🛡️ VPN CONFIGURATION
