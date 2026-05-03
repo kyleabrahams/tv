@@ -15,13 +15,24 @@ python3 -m venv myenv
 source myenv/bin/activate
 source venv/bin/activate
 
+# Resolution Finder
+python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/m3u_resolution_finder.py
 
-
+# A-Z
+python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
 
 # M3U List fetch scripts/m3u_list.txt
+cd scripts
+python3 -m venv myenv
+source myenv/bin/activate
+source venv/bin/activate
 python3 m3u_list_fetch.py
 
 # Channel finder
+cd scripts
+python3 -m venv myenv
+source myenv/bin/activate
+source venv/bin/activate
 python3 m3u_channel_finder.py
 
 # Organize *.m3u from A-Z
