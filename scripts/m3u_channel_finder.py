@@ -21,7 +21,7 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["ANT 1"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["24/7"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = [] 
 
 KEYWORDS_MAP = {
@@ -195,34 +195,42 @@ def run_keyword_search():
                         score = 0
                         if id_found: score += 1
                         if logo_found: score += 1
+
+                        # 🛡️ FIX A: Advanced extraction for PHP and slash styles
+                        creds_match = re.search(r'(?:get\.php\?username=([^&]+)&password=([^&]+)|/([^/]+)/([^/]+)/)', url)
                         
-                        # 🛡️ FIX: EXTRACT SERVER + CREDENTIALS FOR UNIQUE KEY
-                        # This turns ".../F28940/a35514c5/296072" into "F28940/a35514c5"
-                        creds_match = re.search(r'https?://[^/]+/([^/]+/[^/]+)/', url)
-                        
+                        user_pass_slug = "Unknown_Account"
                         if creds_match:
-                            user_pass_slug = creds_match.group(1)
-                            unique_key = f"{server_prefix}_{user_pass_slug}".upper()
-                            
-                            # Overwrite or store based on tag completeness scores
-                            if unique_key not in url_map:
-                                url_map[unique_key] = ({
+                            if creds_match.group(1) and creds_match.group(2):
+                                user_pass_slug = f"{creds_match.group(1)}/{creds_match.group(2)}"
+                            elif creds_match.group(3) and creds_match.group(4):
+                                user_pass_slug = f"{creds_match.group(3)}/{creds_match.group(4)}"
+
+                        # 🛡️ FIX B: Group by Account + Channel Name 
+                        unique_key = f"{server_prefix}_{user_pass_slug}_{channel_name.strip().upper()}"
+                        
+                        # 🛡️ FIX C: Store as a standard dict rather than a tuple to prevent index crashes
+                        if unique_key not in url_map:
+                            url_map[unique_key] = {
+                                'name': channel_name, 
+                                'header': clean_header, 
+                                'url': url,
+                                'score': score
+                            }
+                        else:
+                            if score > url_map[unique_key]['score']:
+                                url_map[unique_key] = {
                                     'name': channel_name, 
                                     'header': clean_header, 
-                                    'url': url
-                                }, score)
-                            else:
-                                if score > url_map[unique_key][1]:
-                                    url_map[unique_key] = ({
-                                        'name': channel_name, 
-                                        'header': clean_header, 
-                                        'url': url
-                                    }, score)
+                                    'url': url,
+                                    'score': score
+                                }
                                 
             except Exception as e: 
                 continue
 
-        candidates = [val[0] for val in url_map.values()]
+        # 🛡️ FIX D: Extract dict objects safely
+        candidates = [val for val in url_map.values()]
         print(f"Found {len(candidates)} keyword matches. Starting live check...")
 
         live_content = []
@@ -236,7 +244,7 @@ def run_keyword_search():
                 sys.stdout.flush()
 
         if live_content:
-            safe_name = target_k.replace(" ", "_")
+            safe_name = target_k.replace("/", "_").replace("\\", "_").replace(" ", "_")
             
             if target_k in SERVER_KEYWORDS:
                 out_filename = f"{safe_name}-server-{date_str}.m3u"
