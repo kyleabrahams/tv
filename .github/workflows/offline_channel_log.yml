@@ -7,7 +7,7 @@ on:
 
 jobs:
   vpn_iptv_check:
-    name: Offline Channel Log   # ← friendly display name
+    name: Offline Channel Log
     runs-on: ubuntu-latest
 
     env:
@@ -16,12 +16,22 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 🛡️ Upgraded from v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Setup FFmpeg and FFprobe
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        with:
+          ffmpeg-version: release
 
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y openvpn ffmpeg python3-pip
+          sudo apt-get install -y openvpn
           pip3 install --upgrade pip
           pip3 install tqdm pyyaml
 

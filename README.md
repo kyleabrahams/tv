@@ -40,6 +40,9 @@ python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/A-Z-channels-m3u.py
 
 
 
+# Run a server for Tivimate
+python3 -m http.server 8000
+
 
 
 # Force pull from Repo

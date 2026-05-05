@@ -21,7 +21,8 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["Jacquie Et Michel"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["ANT 1"] # 2. Keywords to search within the channel name / meta
+SERVER_KEYWORDS = [] 
 
 KEYWORDS_MAP = {
     "South Africa": ["South Africa", "ZA", "SA", "SouthAfrica"],
@@ -88,7 +89,6 @@ def run_keyword_search():
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     
     EPISODE_PATTERN = re.compile(r's\d{1,3}e\d{1,3}', re.IGNORECASE)
-    # 🎯 REMOVED .TS SO IT DOES NOT GET DELETED
     VIDEO_EXTENSIONS = (".MP4", ".MKV", ".AVI", ".MOV")
     
     files = glob.glob(os.path.join(M3U_FOLDER, "*.m3u"))
@@ -96,14 +96,12 @@ def run_keyword_search():
         print(f"❌ No .m3u files found in {M3U_FOLDER}")
         return
 
-    all_targets = GROUP_KEYWORDS + KEYWORDS
+    all_targets = GROUP_KEYWORDS + KEYWORDS + SERVER_KEYWORDS
     print(f"DEBUG: All targets found: {all_targets}")
 
     for target_k in all_targets:
         print(f"\n🎯 TARGET: {target_k}")
         
-        # 🛡️ FIX 1: Map matches to a dictionary keyed by URL to allow score evaluation
-        # This replaces the blind `found_urls.add()` that was dropping valid channels
         url_map = {}
         search_terms = KEYWORDS_MAP.get(target_k, [target_k])
 
@@ -126,7 +124,6 @@ def run_keyword_search():
                     if not url: 
                         continue
                     
-                    # EXTRACT METADATA
                     group_match = re.search(r'group-title="([^"]+)"', header)
                     group_name = group_match.group(1).strip() if group_match else "Other"
                     
@@ -136,7 +133,6 @@ def run_keyword_search():
                     server_match = re.search(r'https?://([^./:]+)', url)
                     server_prefix = server_match.group(1).upper() if server_match else "SERVER"
                     
-                    # EXTRACT TVG-ID
                     id_str = ""
                     id_found = False
                     if KEEP_TVG_ID:
@@ -145,7 +141,6 @@ def run_keyword_search():
                             id_str = f' tvg-id="{id_match.group(1)}"'
                             id_found = True
                     
-                    # EXTRACT TVG-LOGO
                     logo_str = ""
                     logo_found = False
                     logo_match = re.search(r'tvg-logo="([^"]+)"', header)
@@ -154,11 +149,8 @@ def run_keyword_search():
                         logo_found = True
                     
                     clean_header = f'#EXTINF:-1 group-title="{group_name}"{id_str}{logo_str},{channel_name} {server_prefix.lower()}.'
-                    
-                    # Strip logo URL
                     meta_for_search = re.sub(r'tvg-logo="[^"]*"', '', header).upper()
                     
-                    # 🛑 1. Permanent Blocklist
                     if any(b.upper() in meta_for_search for b in PERMANENT_BLOCKLIST) or \
                        any(b.upper() in url.upper() for b in PERMANENT_BLOCKLIST):
                         continue
@@ -169,10 +161,14 @@ def run_keyword_search():
                            EPISODE_PATTERN.search(meta_for_search):
                             continue
 
-                    # 🎯 2. KEYWORD CHECK
                     is_match = False
                     
-                    if target_k in GROUP_KEYWORDS:
+                    if target_k in SERVER_KEYWORDS:
+                        for var in search_terms:
+                            if var.upper() == server_prefix:
+                                is_match = True
+                                break
+                    elif target_k in GROUP_KEYWORDS:
                         for var in search_terms:
                             if STRICT_MATCH:
                                 pattern = re.compile(rf'\b{re.escape(var.upper())}\b')
@@ -196,31 +192,36 @@ def run_keyword_search():
                                     break
 
                     if is_match:
-                        # 🛡️ FIX 2: Score the quality of the entry based on filled tags
                         score = 0
                         if id_found: score += 1
                         if logo_found: score += 1
                         
-                        # Only keep/overwrite the stream with the highest tag completeness
-                        url_key = url.lower()
-                        if url_key not in url_map:
-                            url_map[url_key] = ({
-                                'name': channel_name, 
-                                'header': clean_header, 
-                                'url': url
-                            }, score)
-                        else:
-                            if score > url_map[url_key][1]:
-                                url_map[url_key] = ({
+                        # 🛡️ FIX: EXTRACT SERVER + CREDENTIALS FOR UNIQUE KEY
+                        # This turns ".../F28940/a35514c5/296072" into "F28940/a35514c5"
+                        creds_match = re.search(r'https?://[^/]+/([^/]+/[^/]+)/', url)
+                        
+                        if creds_match:
+                            user_pass_slug = creds_match.group(1)
+                            unique_key = f"{server_prefix}_{user_pass_slug}".upper()
+                            
+                            # Overwrite or store based on tag completeness scores
+                            if unique_key not in url_map:
+                                url_map[unique_key] = ({
                                     'name': channel_name, 
                                     'header': clean_header, 
                                     'url': url
                                 }, score)
+                            else:
+                                if score > url_map[unique_key][1]:
+                                    url_map[unique_key] = ({
+                                        'name': channel_name, 
+                                        'header': clean_header, 
+                                        'url': url
+                                    }, score)
                                 
             except Exception as e: 
                 continue
 
-        # Convert mapped data back to an evaluation list
         candidates = [val[0] for val in url_map.values()]
         print(f"Found {len(candidates)} keyword matches. Starting live check...")
 
@@ -237,7 +238,9 @@ def run_keyword_search():
         if live_content:
             safe_name = target_k.replace(" ", "_")
             
-            if target_k in GROUP_KEYWORDS:
+            if target_k in SERVER_KEYWORDS:
+                out_filename = f"{safe_name}-server-{date_str}.m3u"
+            elif target_k in GROUP_KEYWORDS:
                 out_filename = f"{safe_name}-group-title-{date_str}.m3u"
             else:
                 out_filename = f"{safe_name}-{date_str}.m3u"
@@ -246,7 +249,6 @@ def run_keyword_search():
             
             def sort_by_actual_name(candidate):
                 name = candidate['name']
-                # 🛡️ FIX 3: Push video AND .ts files to the bottom of the pile
                 is_video = candidate['url'].upper().endswith(VIDEO_EXTENSIONS) or candidate['url'].lower().endswith('.ts')
                 return (is_video, name.lower())
 
