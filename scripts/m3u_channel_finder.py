@@ -21,8 +21,8 @@ M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["24/7"] # 2. Keywords to search within the channel name / meta
-SERVER_KEYWORDS = [] 
+KEYWORDS = ["Game TV"] # 2. Keywords to search within the channel name / meta
+SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
     "South Africa": ["South Africa", "ZA", "SA", "SouthAfrica"],
@@ -33,7 +33,7 @@ KEYWORDS_MAP = {
     "Food": ["Food", "Cooking", "Kitchen"]
 }
 
-STRICT_MATCH = True  
+STRICT_MATCH = False  
 
 # 🛑 BLOCKLIST CONFIGURATION
 USE_BLOCKLIST = False  
