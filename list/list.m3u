@@ -60,7 +60,7 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://tvmate.icu:8080/0Ru8WD/642274/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 5 916 p bgdc.
 # http://bgdc.live:25461/biosysinc/90941859/190921
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 17 514 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 20 907 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
@@ -189,12 +189,12 @@ https://jmp2.uk/plu-62cc00b3b821cf00070f82c3.m3u8
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708845
 # #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57270
-# #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6495/index.m3u8
+#EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6495/index.m3u8
+# #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/190909
 # #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful tv14s.
 # http://tv14s.xyz:8080/1R9F9u/581580/57270
-#EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful bgdc.
-http://bgdc.live:25461/biosysinc/90941859/190909
 # #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708845
 # #EXTINF:-1 tvg-id="I530.99429.schedulesdirect.org" tvg-name="14 Makeful" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/makeful-ca.png?raw=true" group-title="Canada",Makeful xip.
@@ -269,11 +269,10 @@ http://kytv.xyz:80/brendan1/brendan1/517458.ts
 # http://xxip25.top:8080/13yXsS/001616/77165
 #EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor tvm.
 http://tvmate.icu:8080/0Ru8WD/642274/58546
-#EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor noc.
-http://nocable.cc:8080/live/billjones1944@yahoo.com/FZgUv7LbQd/58546.m3u8
-
-# #EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6423/index.m3u8
+# #EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor noc.
+# http://nocable.cc:8080/live/billjones1944@yahoo.com/FZgUv7LbQd/58546.m3u8
+#EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6423/index.m3u8
 # #EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="19 CTV2 London HD (D)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 London 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/58546
 # #EXTINF:-1 tvg-id="CTV.Two.-.London/Windsor.ca2" tvg-name="20 CTV2 Windsor" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/ctv-2-ca.png" group-title="Canada",CTV2 Windsor 1tv.
@@ -319,10 +318,10 @@ http://kytv.xyz:80/brendan1/brendan1/182177.ts
 # http://xxip25.top:8080/13yXsS/001616/57257
 # #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="Swen",CP24 tvm.
 # http://tvmate.icu:8080/0Ru8WD/642274/47218
-# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="Swen",CP24 xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6501/index.m3u8
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="Swen",CP24 1tv.57
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57357
+#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="Swen",CP24 xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6501/index.m3u8
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="01 24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="Swen",CP24 1tv.57
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57357
 
 # #EXTINF:-1 tvg-id="W.Network.ca2" tvg-name="26 W Network West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/w-network-ca.png" group-title="Canada" tvg-shift="0",W Network West 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57284
@@ -487,10 +486,10 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57258
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418506
 # #EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 206.
 # http://206.212.244.71:8080/4wVQA7/625159/47366
-# #EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6526/index.m3u8
-#EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/47366
+#EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6526/index.m3u8
+# #EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/47366
 # #EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase ua.
 # http://ua-iptv.com:8080/Balcony11/8036405556/708881
 # #EXTINF:-1 tvg-id="Showcase.Television.Inc..(Canada).ca2" tvg-name="37 ShowCase" tvg-logo="https://i.ibb.co/NGc27gr/Showcase-logo-2.png" group-title="Movies",Showcase toh.
@@ -674,14 +673,14 @@ http://kytv.xyz:80/brendan1/brendan1/181934.ts
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/30186
 # #EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57464
-# #EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6459/index.m3u8
 # #EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi pro.
 # http://tv.proyectox.vip:8080/eEiiLll09384Ecaiman34RtR/KTap2pdJx7/45836
 # #EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi jac.
 # http://jackofclubs.vip:80/Miguel123/Miguel123/181917.ts
-#EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi tv14s.
-http://tv14s.xyz:8080/BenA@443/443@6377/57464
+#EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6459/index.m3u8
+# #EXTINF:-1 tvg-id="CTV.SCI-FI.CHANNEL.HD.ca2" tvg-name="51 CTV Sci-Fi" tvg-logo="https://i.ibb.co/1McK2CG/CTV-Sci-Fi-Channel-2019-1.png" group-title="Canada",CTV Sci-fi tv14s.
+# http://tv14s.xyz:8080/BenA@443/443@6377/57464
 
 #EXTINF:-1 tvg-id="I282.16331.schedulesdirect.org" tvg-name="CTV Wild / Animal Planet" tvg-logo="https://i.ibb.co/0GQ7gP3/CTV-Wild-1.png" group-title="Nature",CTV Wild 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57377
@@ -754,10 +753,10 @@ http://bgdc.live:25461/biosysinc/90941859/190870
 # http://xxip25.top:8080/13yXsS/001616/57247
 # #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour Network yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3039
-# #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6464/index.m3u8
-#EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour kyt.
-http://kytv.xyz:80/brendan1/brendan1/181950.ts
+#EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6464/index.m3u8
+# #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour kyt.
+# http://kytv.xyz:80/brendan1/brendan1/181950.ts
 
 # #EXTINF:-1 tvg-id="Food.Network.HD.us2" tvg-name="57 US Food Network USATV" tvg-logo="https://static.epg.best/us/FoodNetwork.us.png" group-title="Home + Food",US Food Network 
 # http://fl7.moveonjoy.com/FOOD_NETWORK/index.m3u8
@@ -928,10 +927,10 @@ http://lunar.pm:8080/Tedandjon/Together2/67093
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708765
 # #EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life xip.
 # http://xxip25.top:8080/13yXsS/001616/47217
-# #EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6500/index.m3u8
-#EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life kytv.
-http://kytv.xyz:80/brendan1/brendan1/181886.ts
+#EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6500/index.m3u8
+# #EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life kytv.
+# http://kytv.xyz:80/brendan1/brendan1/181886.ts
 # #EXTINF:-1 tvg-id="I641.26779.schedulesdirect.org" tvg-name="Cottage Life" tvg-logo="https://i.ibb.co/HDWv4kC/Cottage-Life-Logo-1.png" group-title="Home + Food",Cottage Life 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/47217
 # #EXTINF:-1 tvg-id="I230.67375.schedulesdirect.org" tvg-name="US DIY / Magnolia Network" tvg-logo="https://i.ibb.co/xmsPKzr/Magnolia-Network-Stacked.png" group-title="USA",US Magnolia Network xy.
@@ -1007,12 +1006,12 @@ https://tvpass.org/live/MSNBC/hd
 # http://fl7.moveonjoy.com/CNBC/index.m3u8
 # #EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC MJI. 
 # http://212.102.60.231/CNBC/index.m3u8
-# #EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC 
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/962/index.m3u8
 # #EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC a1xs.
 # https://a1xs.vip/300009
-#EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC cord.
-http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9815
+#EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC 
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/962/index.m3u8
+# #EXTINF:-1 tvg-id="I191.58780.schedulesdirect.org" tvg-name="CNBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cnbc-us.png?raw=true" group-title="Swen",US CNBC cord.
+# http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9815
 
 
 
@@ -1038,14 +1037,14 @@ https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418417
 # #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg 206.
 # http://206.212.244.71:8080/4wVQA7/625159/57358
-# #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6465/index.m3u8
 # #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57358
 # #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg bgdc.
 # http://bgdc.live:25461/biosysinc/90941859/190842
-#EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg kytv.
-http://kytv.xyz:80/brendan1/brendan1/181830.ts
+#EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6465/index.m3u8
+# #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="Swen",BNN Bloomberg kytv.
+# http://kytv.xyz:80/brendan1/brendan1/181830.ts
 # #EXTINF:-1 tvg-id="AdultSwimEast.us" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="Kids",Adult Swim cd1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/1883
 # #EXTINF:-1 tvg-id="AdultSwimEast.ca" tvg-name="Adult Swim East US" tvg-logo="https://clipground.com/images/adult-swim-logo-png-17.png" group-title="Canada",Adult Swim 23.
@@ -1149,12 +1148,12 @@ http://tv14s.xyz:8080/BenA@443/443@6377/10252
 #EXTINF:-1 tvg-id="Game.Show.Network.HD.us2" tvg-name="Game Show Network" tvg-logo="https://i.ibb.co/8x4tXvP/Game-Show-Network-2018-1.png" group-title="Game Shows",US Game Show Network tv14s.
 http://tv14s.xyz:8080/BenA@443/443@6377/57430
 
-# #EXTINF:-1 tvg-id="GameTV.Canada.ca2" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6476/index.m3u8
+#EXTINF:-1 tvg-id="GameTV.Canada.ca2" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6476/index.m3u8
+# #EXTINF:-1 tvg-id="GameTV.Canada.ca2" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/190882
 # #EXTINF:-1 tvg-id="GameTV.Canada.ca2" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV kyt.
 # http://kytv.xyz:80/brendan1/brendan1/181957.ts
-#EXTINF:-1 tvg-id="GameTV.Canada.ca2" tvg-name="Game TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/game-tv-ca.png?raw=true" group-title="Game Shows",GameTV bgdc.
-http://bgdc.live:25461/biosysinc/90941859/190882
 #EXTINF:-1 tvg-id="" tvg-name="Game TV" tvg-logo="https://i.ibb.co/cKcYt5yw/game-plus-1.png" group-title="Game Shows",Game+ xv5.
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 # #EXTINF:-1 tvg-id="TVO.ca2" tvg-name="tV Ontario HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tvo-ca.png?raw=true" group-title="Canada",TV Ontario 1tv.
@@ -1226,10 +1225,10 @@ http://tv14s.xyz:8080/BenA@443/443@6377/14741
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709007
 # #EXTINF:-1 tvg-id="Treehouse.ca2" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse xip.
 # http://xxip25.top:8080/13yXsS/001616/57371
-# #EXTINF:-1 tvg-id="Treehouse.ca2" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse xv5.
-# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6471/index.m3u8
-#EXTINF:-1 tvg-id="Treehouse.ca2" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57371
+#EXTINF:-1 tvg-id="Treehouse.ca2" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse xv5.
+http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6471/index.m3u8
+# #EXTINF:-1 tvg-id="Treehouse.ca2" tvg-name="68 Treehouse" tvg-logo="https://i.ibb.co/6vhKmNL/Treehouse-TV-logo-1.png" group-title="Kids",Treehouse 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57371
 
 # #EXTINF:-1 tvg-id="Disney.Junior.HD.us2" tvg-name="US Disney Junior" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/disney-jr-us.png?raw=true" group-title="Kids",Disney Junior 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57349
