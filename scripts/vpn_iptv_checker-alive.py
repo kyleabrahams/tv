@@ -147,7 +147,7 @@ def check_channel_live(url):
 
 
 def parse_and_check_m3u(m3u_path):
-    """Check channels and print offline channels in real-time."""
+    """Check channels and print offline channels in real-time, ignoring 'ott.'."""
     if not os.path.isfile(m3u_path):
         raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
 
@@ -161,6 +161,11 @@ def parse_and_check_m3u(m3u_path):
         if line.startswith("#EXTINF"):
             name = line.split(",", 1)[1] if "," in line else "Unknown"
             url = lines[i + 1] if i + 1 < len(lines) else None
+            
+            # Skip adding the channel if 'ott.' is anywhere in its name (case-insensitive)
+            if "ott." in name.lower():
+                continue
+                
             channel_list.append((name, url))
 
     offline_channels = []

@@ -50,6 +50,8 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 155 p tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI 0644 Dec 7 1tv.
@@ -60,8 +62,6 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 # http://tvmate.icu:8080/0Ru8WD/642274/57365
 # #EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 5 916 p bgdc.
 # http://bgdc.live:25461/biosysinc/90941859/190921
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 1201 p tv14s.
-http://tv14s.xyz:8080/1R9F9u/581580/57365
 
 # #EXTINF:-1 tvg-id="OMNI.East.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 10 819 pm xv5.
 # http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6428/index.m3u8
@@ -547,8 +547,10 @@ http://tv14s.xyz:8080/BenA@443/443@6377/10252
 # http://ua-iptv.com:8080/Balcony11/8036405556/708839
 # #EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History xip.
 # http://xxip25.top:8080/13yXsS/001616/47302
-#EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History try.
-http://trytv.icu:8080/96066144/96066144/47302
+# #EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History try.
+# http://trytv.icu:8080/96066144/96066144/47302
+#EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History tvm. 
+http://tvmate.icu:8080/0Ru8WD/642274/46810
 
 # #EXTINF:-1 tvg-id="I629.26772.schedulesdirect.org" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418477
@@ -999,8 +1001,8 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/1818
 http://tv14s.xyz:8080/BenA@443/443@6377/47332
 #EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="MSNBC" tvg-logo="https://i.ibb.co/NczymLk/MS-Now-stacked.png" group-title="News",MS NOW cord.
 http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
-#EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="02 MSNBC" tvg-logo="https://i.ibb.co/NczymLk/MS-Now-stacked.png" group-title="News",MS NOW tvp.
-https://tvpass.org/live/MSNBC/hd
+# #EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="02 MSNBC" tvg-logo="https://i.ibb.co/NczymLk/MS-Now-stacked.png" group-title="News",MS NOW tvp.
+# https://tvpass.org/live/MSNBC/hd
 # #EXTINF:-1 tvg-id="MSNBC.HD.us2" tvg-name="MSNBC" tvg-logo="https://i.ibb.co/NczymLk/MS-Now-stacked.png" group-title="News",MS NOW mal.
 # https://maldivesn.net/hilaytv/msnbc
 
@@ -1458,17 +1460,17 @@ http://kytv.xyz:80/brendan1/brendan1/1108839.ts
 # #EXTINF:-1 tvg-id="Hollywood.Suite.2000s.ca2" tvg-name="Hollywood Suite 00's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-2000s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 00's toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/709016
 
-#EXTINF:-1 tvg-id="ScreenPix.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-us.png?raw=true" group-title="Movies",Screenpix
+#EXTINF:-1 tvg-id="ScreenPix.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-us.png?raw=true" group-title="Movies",Screenpix ott.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=537cc6cb07fe4bcc63d06c3018d5e35c:7420e0237883a05e4d2ddafaf114b050
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/9lvpst0mpb/out/v1/ba33b946c96e4a60886e2d91156398cd/cenc.mpd
 
-#EXTINF:-1 tvg-id="ScreenPix.Action.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-action-us.png?raw=true" group-title="Movies",Screenpix Action
+#EXTINF:-1 tvg-id="ScreenPix.Action.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-action-us.png?raw=true" group-title="Movies",Screenpix Action ott.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a340ce5a22ce1a5f54c2c5dd18e8fe7d:afa091d637e61d585ad036fd4b8a3235
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/2bsytxoitz/out/v1/312e6d1e20e744c0a9bf25519f6da91b/cenc.mpd
 
-#EXTINF:-1 tvg-id="ScreenPix.Westerns.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-westerns-us.png?raw=true" group-title="Movies",Screenpix Westerns
+#EXTINF:-1 tvg-id="ScreenPix.Westerns.us2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/screenpix-westerns-us.png?raw=true" group-title="Movies",Screenpix Westerns ott.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=429d2a8c13dc9a40a13ef8d4e2325209:631892e5f5451b5596528e194c44d95b
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/ikqumnhhew/out/v1/1f50afbc65ba48e79f8325022bdb72a0/cenc.mpd
@@ -1607,7 +1609,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/yfo5p7nmtt/out/v
 #KODIPROP:inputstream.adaptive.license_key=3a5fc143bea61aa94eee0479933d5e72:8a365e8c3e2b8efdbcaab16d07c3b929
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/rckhgp0mdp/out/v1/3952b81ea31d45b38372b128371301d2/cenc.mpd
 
-#EXTINF:-1 tvg-id="Cinemax.-.Pacific.Feed.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",Cinemax West
+#EXTINF:-1 tvg-id="Cinemax.-.Pacific.Feed.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-us.png?raw=true" group-title="Movies",Cinemax West ott.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bf813dc4a32e0e9bcbce4446a65f4b12:eb9973b1a30c76812aa7ca8864b6a3c1
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/zewdvsfpre/out/v1/d65e537877cc4112b8fd88c6210f39da/cenc.mpd
@@ -1856,8 +1858,10 @@ http://lunar.pm:8080/Tedandjon/Together2/20772
 # https://xyzdddd.mizhls.ru/lb/premium677/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action xip.
 # http://xxip25.top:8080/13yXsS/001616/35254
-#EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action kyt.
-http://kytv.xyz:80/brendan1/brendan1/391351.ts
+# #EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action kyt.
+# http://kytv.xyz:80/brendan1/brendan1/391351.ts
+#EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14927
 
 # #EXTINF:-1 group-title="Movies" tvg-id="I998.115495.schedulesdirect.org" tvg-logo="https://i.ibb.co/Vp5YPkfH/sky-cinema-animation.png" tvg-name="Sky Cinema Animation"Sky Animation xy.
 # https://xyzdddd.mizhls.ru/lb/premium675/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1950,8 +1954,8 @@ http://tvmate.icu:8080/0Ru8WD/642274/35253
 #EXTINF:-1 group-title="UK" tvg-id="I1022.45005.schedulesdirect.org" tvg-logo="https://i.ibb.co/Rpy0bX4H/sky-crime.png" tvg-name="Sky Crime",Sky Crime tvm.
 http://tvmate.icu:8080/0Ru8WD/642274/35252
 
-#EXTINF:-1 group-title="UK" tvg-id="Sky.Drama.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/sky-cinema-drama-it.png?raw=true",Sky Drama xip.
-http://xxip9.top:8080/streatj87@gmail.com/HpU2jesf8w/35251
+# #EXTINF:-1 group-title="UK" tvg-id="Sky.Drama.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/sky-cinema-drama-it.png?raw=true",Sky Drama xip.
+# http://xxip9.top:8080/streatj87@gmail.com/HpU2jesf8w/35251
 
 # #EXTINF:-1 group-title="UK" tvg-id="I1031.60500.schedulesdirect.org" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-history-light-uk.png?raw=true" tvg-name="Sky History",Sky History xy.
 # https://xyzdddd.mizhls.ru/lb/premium686/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -2023,8 +2027,10 @@ http://hardcoremedia.xyz:80/ymgiaxkw/5Hr5ZQuVfU/262441
 
 # #EXTINF:-1 tvg-name="24/7 How Its Made" tvg-logo="https://i.ibb.co/Cshq0qyF/How-It-s-Made-old-and-new-logo-1.png" group-title="Limited Series",How It's Made
 # http://ua-iptv.com:8080/Balcony11/8036405556/700629
-#EXTINF:-1 tvg-name="24/7 How Its Made" tvg-logo="https://i.ibb.co/Cshq0qyF/How-It-s-Made-old-and-new-logo-1.png" group-title="Limited Series",How It's Made lun.
-http://lunar.pm:8080/Tedandjon/Together2/133101
+# #EXTINF:-1 tvg-name="24/7 How Its Made" tvg-logo="https://i.ibb.co/Cshq0qyF/How-It-s-Made-old-and-new-logo-1.png" group-title="Limited Series",How It's Made lun.
+# http://lunar.pm:8080/Tedandjon/Together2/133101
+#EXTINF:-1 tvg-name="24/7 How Its Made" tvg-logo="https://i.ibb.co/Cshq0qyF/How-It-s-Made-old-and-new-logo-1.png" group-title="Limited Series",How It's Made kytv.
+http://kytv.xyz:80/brendan1/brendan1/1862078.ts
 
 # #EXTINF:-1 tvg-name="The KING OF QUEENS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dc/King_of_Queens_logo.png" group-title="Limited Series",The King of Queens 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79567
@@ -2230,8 +2236,12 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79559
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66407
 #EXTINF:-1 tvg-name="24/7 FULL HOUSE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Full-House-Logo.png" group-title="Limited Series",Full House 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66269
-#EXTINF:-1 tvg-name="" tvg-logo="" group-title="Limited Series",Futurama hard.
-http://hardcoremedia.xyz:80/ymgiaxkw/5Hr5ZQuVfU/33113
+
+# #EXTINF:-1 tvg-name="" tvg-logo="" group-title="Limited Series",Futurama hard.
+# http://hardcoremedia.xyz:80/ymgiaxkw/5Hr5ZQuVfU/33113
+#EXTINF:-1 tvg-name="" tvg-logo="" group-title="Limited Series",Futurama kytv.
+http://kytv.xyz:80/brendan1/brendan1/2903290.ts
+
 #EXTINF:-1 tvg-name="24/7 Game of Thrones" tvg-logo="https://www.metalearth.com/Themes/MetalEarth/Content/images/licensed-page-got-logo.png" group-title="Limited Series",Game of Thrones 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66318
 #EXTINF:-1 tvg-id="CABD1200001SY" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700011RE_20240520T222902SQUARE.png" group-title="Movies",Gravitas Movies roku.
@@ -2280,7 +2290,7 @@ https://jmp2.uk/plu-6267352efcf21c0007c76642.m3u8
 # http://user.scalecdn.co:8080/15453666/17668852/331811
 #EXTINF:-1 tvg-id="99951151" tvg-logo="https://i.ibb.co/ysbPFM6/Lidias-Kitchen-1024x573.png" group-title="Home + Food",Lidia's Kitchen xumo.
 https://live-content.xumo.com/2064/content/XM0INF0QNRSKPW/23911159/master.m3u8
-#EXTINF:-1 tvg-id="90" tvg-chno="285" tvg-name="lol-tv" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/lol-tv.png" group-title="YuppTV", Lol TV
+#EXTINF:-1 tvg-id="90" tvg-chno="285" tvg-name="lol-tv" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/lol-tv.png" group-title="YuppTV",Lol TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
@@ -2459,8 +2469,6 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951472/hls/playlist.m3u8?ads.xumo_c
 https://live-manifest.production-public.tubi.io/live/13228e92-c0a2-4c7f-b3f5-a35148426238/playlist.m3u8
 #EXTINF:-1 tvg-id="USBB32000251N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB32000251N_20240813T021329SQUARE.png" group-title="News",Today All day plex.
 https://live-manifest.production-public.tubi.io/live/d51de949-6ef0-4e1e-a370-4602eaf9f466/playlist.m3u8
-#EXTINF:-1 tvg-name="24/7 TOM AND JERRY" tvg-logo="https://pngimg.com/d/tom_and_jerry_PNG36.png" group-title="Limited Series",Tom and Jerry 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125635
 #EXTINF:-1 tvg-id="DEBA3300030O1" tvg-name="Trace Urban" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png" group-title="Music",Trace Urban
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-traceurban-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="US1900002QK" tvg-logo="https://i.ibb.co/kyqRH2h/universal-monsters.png" group-title="Unlimited Series",Universal Monsters
@@ -2787,12 +2795,6 @@ http://tvmate.icu:8080/0Ru8WD/642274/20861
 # #EXTINF:-1 tvg-id="Heroes and Icons.us" tvg-name="US Heroes & Icons (Los Angeles)" tvg-logo="https://i.ibb.co/RHnVZrm/Heroes-Icons-logo-svg-1.png" group-title="USA",USA Heroes & Icons (Los Angeles) 
 # http://streamsy.online:2999/Jaley1990/L6KomjzBxv/208
 
-# #EXTINF:-1 tvg-id="History.HD.us2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History Channel xy. 
-# https://xyzdddd.mizhls.ru/lb/premium322/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-# #EXTINF:-1 tvg-id="History.HD.us2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History Channel xip. 
-# http://xxip25.top:8080/13yXsS/001616/15017
-#EXTINF:-1 tvg-id="History.HD.us2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History Channel tvm. 
-http://tvmate.icu:8080/0Ru8WD/642274/46810
 
 # #EXTINF:-1 tvg-id="Investigation.Discovery.HD.us2" tvg-name="US ID Investigation Discovery USATV" tvg-logo="https://i.ibb.co/dBts4m4/Investigation-Discovery-Logo2020.png" group-title="USA",Investigation Discovery 
 # http://fl7.moveonjoy.com/INVESTIGATION_DISCOVERY/index.m3u8
@@ -3386,8 +3388,10 @@ https://jmp2.uk/rok-62f1cd0d4c395a2a8ab72cff688666a0.m3u8
 
 # #EXTINF:-1 tvg-id="Sportsnet.360.HD.ca2" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 xip.
 # http://xxip25.top:8080/13yXsS/001616/57299
-#EXTINF:-1 tvg-id="Sportsnet.360.HD.ca2" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 a1xs.
-https://a1xs.vip/6000014
+# #EXTINF:-1 tvg-id="Sportsnet.360.HD.ca2" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 a1xs.
+# https://a1xs.vip/6000014
+#EXTINF:-1 tvg-id="Sportsnet.360.HD.ca2" tvg-name="CA059:Sportsnet -360" tvg-logo="https://i.ibb.co/m6rb4gs/Sportsnet-360-Logo-wine-1.png" group-title="Sports",Sportsnet 360 tv14s.
+http://tv14s.xyz:8080/KP@NMB2/3052052689/57299
 
 #EXTINF:-1 tvg-id="Sportsnet.East.ca2" tvg-name="CA060:Sportsnet East" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sne-ca.png" group-title="Sports",Sportsnet East 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57298
@@ -3396,27 +3400,34 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57298
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57297
 # #EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One a1xs.
 # https://a1xs.vip/6000012
-#EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One try.
-http://trytv.icu:8080/96066144/96066144/10247
-
+# #EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One try.
+# http://trytv.icu:8080/96066144/96066144/10247
+#EXTINF:-1 tvg-id="Sportsnet.One.ca2" tvg-name="CA061:Sportsnet-ONE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-sn1-ca.png" group-title="Sports",Sportsnet One tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/10247
 
 # #EXTINF:-1 tvg-id="Sportsnet.Ontario.HD.ca2" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57296
-#EXTINF:-1 tvg-id="Sportsnet.Ontario.HD.ca2" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario a1xs.
-https://a1xs.vip/6000011
+# #EXTINF:-1 tvg-id="Sportsnet.Ontario.HD.ca2" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario a1xs.
+# https://a1xs.vip/6000011
+#EXTINF:-1 tvg-id="Sportsnet.Ontario.HD.ca2" tvg-name="Sportsnet Ontario" tvg-logo="https://i.ibb.co/GQqVNBH/Sportsnet-Ontario.png" group-title="Sports",Sportsnet Ontario tv14s.
+http://tv14s.xyz:8080/KP@NMB2/3052052689/11649
 
 #EXTINF:-1 tvg-id="Sportsnet.(Pacific).HD.ca2" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/9860
 
 # #EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/20975
-#EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West a1xs.
-https://a1xs.vip/6000015
+# #EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West a1xs.
+# https://a1xs.vip/6000015
+#EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West tvmate.
+http://tvmate.icu:8080/0Ru8WD/642274/20975
 
 # #EXTINF:-1 tvg-id="Sportsnet.World.ca2" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/75675
-#EXTINF:-1 tvg-id="Sportsnet.World.ca2" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World a1xs.
-https://a1xs.vip/6000013
+# #EXTINF:-1 tvg-id="Sportsnet.World.ca2" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World a1xs.
+# https://a1xs.vip/6000013
+#EXTINF:-1 tvg-id="Sportsnet.World.ca2" tvg-name="Sportsnet World" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/sportsnet-snworld-ca.png?raw=true" group-title="Sports",Sportsnet World tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/75675
 
 # #EXTINF:-1 tvg-id="Stadium.College.Sports.-.Atlantic.us" tvg-name="Stadium" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/stadium-us.png?raw=true" group-title="Sports",Stadium 23.
 # http://fl7.moveonjoy.com/STADIUM/index.m3u8
@@ -3969,16 +3980,16 @@ http://41.205.93.154:80/MSNBC/index.m3u8
 # http://zuiowy.net:8080/FERMOLANO/SrjDplnFyD/123272
 # #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News cdn1h.
 # http://cdn1host.online:2999/xman2/hhqgjFfHXF/2023
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 1
-http://xxip25.top:8080/13yXsS/001616/57257
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 2
-http://xxip25.top:8080/13yXsS/001616/47218
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 3
-http://xxip25.top:8080/13yXsS/001616/57345
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 4
-http://xxip25.top:8080/13yXsS/001616/57357
-#EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 5
-http://xxip25.top:8080/13yXsS/001616/57401
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 1
+# http://xxip25.top:8080/13yXsS/001616/57257
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 2
+# http://xxip25.top:8080/13yXsS/001616/47218
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 3
+# http://xxip25.top:8080/13yXsS/001616/57345
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 4
+# http://xxip25.top:8080/13yXsS/001616/57357
+# #EXTINF:-1 tvg-id="Cable.Pulse.24.(CP24).HD.ca2" tvg-name="24 CP24 HD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/cp24-ca.png" group-title="News",CP24 News xip. 5
+# http://xxip25.top:8080/13yXsS/001616/57401
 
 #EXTINF:-1 tvg-id="78" tvg-chno="272" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/oxsgsi.png" group-title="YuppTV",Scifi World
 #KODIPROP:inputstream=inputstream.adaptive
@@ -4118,12 +4129,6 @@ https://streams2.sofast.tv/ptnr-yupptv/title-CARTOON-TV-CLASSICS-ENG_yupptv/v1/m
 #EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
 https://streams2.sofast.tv/ptnr-yupptv/title-Space_Series_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18d329ef-d478-413c-b68f-c123494ac434/manifest.m3u8
 
-#EXTINF:-1 tvg-id="296" tvg-chno="262" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/yachting-tv.png" group-title="YuppTV",Yachting TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-yachtingtv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9c7be81a-7dd6-481e-a010-d306ed060db7/manifest.m3u8
-
 #EXTINF:-1 tvg-id="68" tvg-chno="271" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/fight-tv.png" group-title="YuppTV",Fight TV
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -4190,11 +4195,11 @@ https://streams2.sofast.tv/ptnr-yupptv/title-ACE_TV_YUPPTV/v1/master/611d79b11b7
 #EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
 https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
 
-#EXTINF:-1 tvg-id="293" tvg-chno="267" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/drive-speed.png" group-title="YuppTV",Drive+ Speed
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d00c9b93-97ca-488c-9072-265d0079fae6/manifest.m3u8
+# #EXTINF:-1 tvg-id="293" tvg-chno="267" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/drive-speed.png" group-title="YuppTV",Drive+ Speed
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=hls
+# #EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
+# https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d00c9b93-97ca-488c-9072-265d0079fae6/manifest.m3u8
 
 #EXTINF:-1 tvg-id="294" tvg-chno="268" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/hunt-fish-tv.png" group-title="YuppTV",Hunt Fish TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -4213,12 +4218,6 @@ https://streams2.sofast.tv/ptnr-yupptv/title-Nautical_TV/v1/master/611d79b11b77e
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
 https://streams2.sofast.tv/ptnr-yupptv/title-yachtingtv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/9c7be81a-7dd6-481e-a010-d306ed060db7/manifest.m3u8
-
-#EXTINF:-1 tvg-id="267" tvg-chno="315" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/bazmyr.png" group-title="YuppTV",ESCAPE TV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=YuppTV/7.18.1 (Linux;Android 16) ExoPlayerLib/2.19.1
-https://streams2.sofast.tv/ptnr-yupptv/title-ESCAPE_TV_YUPPTV/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4da91549-1762-4d60-b8b7-db07ef7ee64b/master.m3u8
 
 #EXTINF:-1 tvg-id="271" tvg-chno="319" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/kuygkv.png" group-title="YuppTV",LUXURY DREAMS TV
 #KODIPROP:inputstream=inputstream.adaptive
@@ -4282,9 +4281,6 @@ https://streams2.sofast.tv/ptnr-yupptv/title-BEST_THRILLER_YUPPTV/v1/master/611d
 
 #EXTINF:-1 tvg-id="Mr.bean" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB900003KR_20250107T031153SQUARE.png" tvg-chno="4823" group-title="Kids",Mr Bean Animated
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Tom&Jerry" tvg-logo="https://m.media-amazon.com/images/M/MV5BODY2YWI1OTAtY2FhZS00MGI1LTk0YjUtYmE3MDk0OGFkMWUyXkEyXkFqcGc@._V1_.jpg" group-title="Kids",Tom & Jerry
-https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 
 #EXTINF:-1 tvg-id="5263332f746c6b1bed25aa6c105a79d9" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/5263332f746c6b1bed25aa6c105a79d9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747061592882_MGMPresents_HUDLogo_Centered_260x147.png" tvg-chno="295" group-title="Extras",MGM Presents
 https://jmp2.uk/rok-5263332f746c6b1bed25aa6c105a79d9.m3u8
