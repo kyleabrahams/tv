@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 155 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 242 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -212,14 +212,15 @@ http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6495/index.m3u8
 # https://a1xs.vip/300014
 # #EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 WUTV tvm.
 # http://tvmate.icu:8080/0Ru8WD/642274/120747
-# #EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 WUTV bgdc.
-# http://bgdc.live:25461/biosysinc/90941859/215774
-#EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 WUTV kytv.
-http://kytv.xyz:80/brendan1/brendan1/517314.ts
+
 # #EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/419885
 # #EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX OG28" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10212_dark_360w_270h.png" group-title="News",FOX
 # http://fl7.moveonjoy.com/FOX_EAST/index.m3u8
+#EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 WUTV bgdc.
+http://bgdc.live:25461/biosysinc/90941859/215774
+# #EXTINF:-1 tvg-id="WUTV-DT.us_locals1" tvg-name="15 FOX 29 (WUTV) BUFFALO OG28" tvg-logo="https://i.ibb.co/xqmPY6V/FOX-wordmark-1.png" group-title="USA" tvg-shift="3",FOX 29 WUTV kytv.
+# http://kytv.xyz:80/brendan1/brendan1/517314.ts
 
 # #EXTINF:-1 tvg-id="WIVB-DT.us_locals1" tvg-name="16 CBS 4 (WIVB) Buffalo USATV" tvg-logo="https://i.ibb.co/6D8rj4C/cbs.png" group-title="USA",CBS Buffalo WIVB 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120746
