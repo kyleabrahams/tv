@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 407 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 413 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -2022,8 +2022,10 @@ https://jmp2.uk/stvp-CA2900005KG
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/701023
 # #EXTINF:-1 tvg-id="TheBigBangTheory.ca" tvg-name="The Big Bang Theory" tvg-logo="https://i.ibb.co/xSMmQPkn/The-Big-Bang-Theory-logo-1.png" group-title="Limited Series",The Big Bang Theory lun.
 # http://lunar.pm:8080/Tedandjon/Together2/132826
-#EXTINF:-1 tvg-id="TheBigBangTheory.ca" tvg-name="The Big Bang Theory" tvg-logo="https://i.ibb.co/xSMmQPkn/The-Big-Bang-Theory-logo-1.png" group-title="Limited Series",The Big Bang Theory hard.
-http://hardcoremedia.xyz:80/ymgiaxkw/5Hr5ZQuVfU/262441
+# #EXTINF:-1 tvg-id="TheBigBangTheory.ca" tvg-name="The Big Bang Theory" tvg-logo="https://i.ibb.co/xSMmQPkn/The-Big-Bang-Theory-logo-1.png" group-title="Limited Series",The Big Bang Theory hard.
+# http://hardcoremedia.xyz:80/ymgiaxkw/5Hr5ZQuVfU/262441
+#EXTINF:-1 tvg-id="TheBigBangTheory.ca" tvg-name="The Big Bang Theory" tvg-logo="https://i.ibb.co/xSMmQPkn/The-Big-Bang-Theory-logo-1.png" group-title="Limited Series",The Big Bang Theory kytv.
+http://kytv.xyz:80/brendan1/brendan1/1356094.ts
 
 # #EXTINF:-1 tvg-name="24/7 How Its Made" tvg-logo="https://i.ibb.co/Cshq0qyF/How-It-s-Made-old-and-new-logo-1.png" group-title="Limited Series",How It's Made
 # http://ua-iptv.com:8080/Balcony11/8036405556/700629
