@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 413 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 732 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -1872,8 +1872,10 @@ http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/3cf224af-b99f-4296-a6ec-f
 
 # #EXTINF:-1 group-title="Movies" tvg-id="I1000.61179.schedulesdirect.org" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama"Sky Drama xy.
 # https://xyzdddd.mizhls.ru/lb/premium680/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
-#EXTINF:-1 group-title="Movies" tvg-id="I1000.61179.schedulesdirect.org" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama",Sky Drama tvm.
-http://tvmate.icu:8080/0Ru8WD/642274/35251
+# #EXTINF:-1 group-title="Movies" tvg-id="I1000.61179.schedulesdirect.org" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama",Sky Drama tvm.
+# http://tvmate.icu:8080/0Ru8WD/642274/35251
+#EXTINF:-1 group-title="Movies" tvg-id="I1000.61179.schedulesdirect.org" tvg-logo="https://i.ibb.co/9HQKJP06/sky-cinema-drama.png" tvg-name="Sky Cinema Drama",Sky Drama bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14928
 
 # #EXTINF:-1 group-title="Movies" tvg-id="I1005.24040.schedulesdirect.org" tvg-logo="https://i.ibb.co/0RY41H1W/sky-cinema-family.png" tvg-name="Sky Cinema Family"Sky Family xy.
 # https://xyzdddd.mizhls.ru/lb/premium676/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
