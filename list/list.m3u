@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 403 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 21 407 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -1779,10 +1779,10 @@ http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/ba3d2fb7-35d4-4ad2-889c-7
 # https://ddy6new.newkso.ru/ddy6/premium358/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 # #EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/13014
-#EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC roc.
-http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/4e696c7f-e64a-4eb7-b175-ebfcd7089fd8.m3u
-
-
+# #EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC roc.
+# http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/4e696c7f-e64a-4eb7-b175-ebfcd7089fd8.m3u
+#EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC lunar.
+http://lunar.pm:8080/Tedandjon/Together2/25477
 
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three .nex
 # https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8
