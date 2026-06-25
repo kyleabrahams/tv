@@ -17,11 +17,15 @@ import requests
 # ---------------------
 # CONFIGURATION
 # ---------------------
-M3U_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched"
+M3U_FOLDERS = [
+    "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched",
+    "/Volumes/Kyle4tb1223/Documents/Github/tv/list/Active2"
+]
+M3U_FOLDER = M3U_FOLDERS[0]
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["TSN"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["GR "] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {

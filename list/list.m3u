@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 24 1018 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 25 1115 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -3106,6 +3106,8 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991252/hls/master.m3u8?ads.xumo_cha
 
 #EXTINF:-1 tvg-id="ANT1.cy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 cloud.
 http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="ANT1.cy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 lunar.
+http://lunar.pm:8080/Tedandjon/Together2/121933
 # #EXTINF:-1 tvg-id="ANT1.cy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 23. 1
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607500
 # #EXTINF:-1 tvg-id="ANT1.cy" tvg-logo="https://gr-ampelokipoi-prod-cache02.static.cdn.cosmotetvott.gr/ote-prod/channel_logos/ant1hd_new-wide.png" group-title="Cyprus",ANT1 HD cdn1.s
@@ -3129,6 +3131,9 @@ http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
 # http://filex.tv:8080/aftab123/004090/316355
 # #EXTINF:-1 tvg-id="ANT1.cy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/ant1-gr.png?raw=true" group-title="Cyprus",ANT1 new.
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/52116
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://crete-marathon.gr/wp-content/uploads/2020/02/nea-tv-logo.png" group-title="Cyprus",Nea TV tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/120974
 
 # #EXTINF:-1 tvg-id="RIK.1.cy" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK 1 new. 1
 # http://newlife3.wanicelife.com:8880/D12m2770/52277683/31147
@@ -3177,6 +3182,8 @@ http://lunar.pm:8080/Tedandjon/Together2/121989
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/607523
 #EXTINF:-1 tvg-id="ALPHA.cy" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV cloud.
 https://l4.cloudskep.com/alphacyp/acy/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xOS8yMDIzIDc6NTc6MDAgUE0maGFzaF92YWx1ZT1aZHlYdmpZcy9BK2VGTnNzeVY5cWtRPT0mdmFsaWRtaW51dGVzPTMw
+#EXTINF:-1 tvg-id="ALPHA.cy" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV lunar.
+http://lunar.pm:8080/Tedandjon/Together2/121932
 # #EXTINF:-1 tvg-id="ALPHA.cy" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha HD xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/152801
 # #EXTINF:-1 tvg-id="ALPHA.cy" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha TV filex
@@ -3456,6 +3463,8 @@ https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8
 # https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 #EXTINF:-1 tvg-id="TSN.HD.ca2" tvg-name="CA065:TSN-1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-1-ca.png?raw=true" group-title="Sports",TSN 1 lunar.
 http://lunar.pm:8080/Tedandjon/Together2/67052
+#EXTINF:-1 tvg-id="TSN.HD.ca2" tvg-name="CA065:TSN-1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-1-ca.png?raw=true" group-title="Sports",TSN 1 sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6521/index.m3u8
 
 # #EXTINF:-1 tvg-id="TSN.HD.ca2" tvg-name="CA065:TSN-1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-1-ca.png?raw=true" group-title="Sports",TSN 1 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57292
@@ -3468,6 +3477,8 @@ http://lunar.pm:8080/Tedandjon/Together2/67052
 # https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
 #EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="CA066:TSN-2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-2-ca.png?raw=true" group-title="Sports",TSN 2 lunar.
 http://lunar.pm:8080/Tedandjon/Together2/67050
+#EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="CA066:TSN-2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-2-ca.png?raw=true" group-title="Sports",TSN 2 sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6492/index.m3u8
 # #EXTINF:-1 tvg-id="TSN.2.ca2" tvg-name="CA066:TSN-2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-2-ca.png?raw=true" group-title="Sports",TSN 2 1tv.
 # http://1tv41.icu:8080/a0dMwj/624002/47442
 
@@ -3479,6 +3490,8 @@ http://lunar.pm:8080/Tedandjon/Together2/67050
 # https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd
 #EXTINF:-1 tvg-id="TSN.3.HD.ca2" tvg-name="CA067:TSN-3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true" group-title="Sports",TSN 3 lunar.
 http://lunar.pm:8080/Tedandjon/Together2/9510
+#EXTINF:-1 tvg-id="TSN.3.HD.ca2" tvg-name="CA067:TSN-3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true" group-title="Sports",TSN 3 sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6522/index.m3u8
 # #EXTINF:-1 tvg-id="TSN.3.HD.ca2" tvg-name="CA067:TSN-3" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-3-ca.png?raw=true" group-title="Sports",TSN 3 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/10389
 
@@ -3490,6 +3503,8 @@ http://lunar.pm:8080/Tedandjon/Together2/9510
 # https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 #EXTINF:-1 tvg-id="TSN.4.HD.ca2" tvg-name="CA068:TSN-4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true" group-title="Sports",TSN 4 bgdc.
 http://bgdc.live:25461/biosysinc/90941859/190953
+#EXTINF:-1 tvg-id="TSN.4.HD.ca2" tvg-name="CA068:TSN-4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true" group-title="Sports",TSN 4 sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6445/index.m3u8
 # #EXTINF:-1 tvg-id="TSN.4.HD.ca2" tvg-name="CA068:TSN-4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-4-ca.png?raw=true" group-title="Sports",TSN 4 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66783
 
@@ -3501,6 +3516,8 @@ http://bgdc.live:25461/biosysinc/90941859/190953
 # https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd
 #EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="CA069:TSN-5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" group-title="Sports",TSN 5 bgdc.
 http://bgdc.live:25461/biosysinc/90941859/38240
+#EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="CA069:TSN-5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" group-title="Sports",TSN 5 sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6517/index.m3u8
 # #EXTINF:-1 tvg-id="TSN.5.ca2" tvg-name="CA069:TSN-5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/tsn-5-ca.png?raw=true" group-title="Sports",TSN 5 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57467
 

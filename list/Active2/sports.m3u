@@ -1,0 +1,1026 @@
+#Sports
+#EXTM3U
+
+
+#EXTINF:-1,FOXSPORTS1
+http://41.223.30.230/FOXSPORTS1/index.m3u8
+#EXTINF:-1,FOXSPORT2
+http://41.223.30.230/FOXSPORT2/index.m3u8
+#EXTINF:-1,ESPN1
+http://41.223.30.230/ESPN1/index.m3u8
+#EXTINF:-1,ESPN2
+http://41.223.30.230/ESPN2/index.m3u8
+
+#EXTINF:-1,FoxSports 1
+http://185.246.209.113:80/FoxSports2HD/index.m3u8
+#EXTINF:-1,FoxSports 2
+http://185.246.209.113:80/FoxSports1HD/index.m3u8
+#EXTINF:-1,SkySports F1 HD
+http://185.246.209.113/SkySportsF1HD/index.m3u8
+#EXTINF:-1,TNT Sports 1
+http://185.246.209.113/BTSport1/index.m3u8
+#EXTINF:-1,TNT Sports 2
+http://185.246.209.113/BTSport2/index.m3u8
+#EXTINF:-1,TNT Sports 3
+http://185.246.209.113/BTSport3/index.m3u8
+#EXTINF:-1,TNT Sports 4
+http://185.246.209.113/BTSport4/index.m3u8
+#EXTINF:-1,TSN Sport 1
+http://185.246.209.113:80/TSN1HD/index.m3u8
+#EXTINF:-1,TSN Sport 2
+http://185.246.209.113:80/TSN2HD/index.m3u8
+#EXTINF:-1,TSN Sport 3
+http://185.246.209.113:80/TSN3HD/index.m3u8
+#EXTINF:-1,TSN Sport 4
+http://185.246.209.113:80/TSN4HD/index.m3u8
+#EXTINF:-1,TSN Sport 5
+http://185.246.209.113:80/TSN5HD/index.m3u8
+
+#EXTINF:-1 tvg-id="TNT_SPORTS_1_Server1" tvg-name="TNT SPORTS 1 Server1" tvg-logo="https://center.urlix.co/storage/images/voNnvVmDa3OHqrDTqsLHVBqBaiVTHcIL09Z3TRsZ.png" group-title="Beescore Server1",TNT SPORTS 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-a517-4162-92de-ddeb433bb0da/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_1_Server2" tvg-name="TNT SPORTS 1 Server2" tvg-logo="https://center.urlix.co/storage/images/voNnvVmDa3OHqrDTqsLHVBqBaiVTHcIL09Z3TRsZ.png" group-title="Beescore Server2",TNT SPORTS 1 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-a517-4162-92de-ddeb433bb0da/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_2_Server1" tvg-name="TNT SPORTS 2 Server1" tvg-logo="https://center.urlix.co/storage/images/S1NKN3BSjQMam9FXnWGRfoQONgbPqypazUb5tj11.png" group-title="Beescore Server1",TNT SPORTS 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-dce8-4819-a4aa-efe4dfbef7ff/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_2_Server2" tvg-name="TNT SPORTS 2 Server2" tvg-logo="https://center.urlix.co/storage/images/S1NKN3BSjQMam9FXnWGRfoQONgbPqypazUb5tj11.png" group-title="Beescore Server2",TNT SPORTS 2 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-dce8-4819-a4aa-efe4dfbef7ff/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_3_Server1" tvg-name="TNT SPORTS 3 Server1" tvg-logo="https://center.urlix.co/storage/images/aIRXL3U2utD2ZnFoo9KUHADuhASWEFPPQrdmVVXC.png" group-title="Beescore Server1",TNT SPORTS 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-0e0b-405a-a3dc-e5a2c9392402/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_3_Server2" tvg-name="TNT SPORTS 3 Server2" tvg-logo="https://center.urlix.co/storage/images/aIRXL3U2utD2ZnFoo9KUHADuhASWEFPPQrdmVVXC.png" group-title="Beescore Server2",TNT SPORTS 3 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-0e0b-405a-a3dc-e5a2c9392402/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_4_Server1" tvg-name="TNT SPORTS 4 Server1" tvg-logo="https://center.urlix.co/storage/images/ljOgkw86cJNIWrvumds70L5z7xaD9SQKgGgSXyQh.png" group-title="Beescore Server1",TNT SPORTS 4 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-47b9-4758-8146-a3835e152757/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_4_Server2" tvg-name="TNT SPORTS 4 Server2" tvg-logo="https://center.urlix.co/storage/images/ljOgkw86cJNIWrvumds70L5z7xaD9SQKgGgSXyQh.png" group-title="Beescore Server2",TNT SPORTS 4 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-47b9-4758-8146-a3835e152757/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_FOOTBALL_Server1" tvg-name="SKY SPORTS FOOTBALL Server1" tvg-logo="https://center.urlix.co/storage/images/kVDhZpIQaAlhLgx1JpuYYQMTC4O7Fi7RcFcqzUup.png" group-title="Beescore Server1",SKY SPORTS FOOTBALL (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-9a5f-4275-b780-8644deeb5697/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_FOOTBALL_Server2" tvg-name="SKY SPORTS FOOTBALL Server2" tvg-logo="https://center.urlix.co/storage/images/kVDhZpIQaAlhLgx1JpuYYQMTC4O7Fi7RcFcqzUup.png" group-title="Beescore Server2",SKY SPORTS FOOTBALL (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-9a5f-4275-b780-8644deeb5697/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MAIN_EVENT_Server1" tvg-name="SKY SPORTS MAIN EVENT Server1" tvg-logo="https://center.urlix.co/storage/images/8A1o6Z1VbADveW2XaCKb9OdzHewzYl0WPCLHcr7p.png" group-title="Beescore Server1",SKY SPORTS MAIN EVENT (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-cc3e-494e-823f-7b2eb83c0161/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MAIN_EVENT_Server2" tvg-name="SKY SPORTS MAIN EVENT Server2" tvg-logo="https://center.urlix.co/storage/images/8A1o6Z1VbADveW2XaCKb9OdzHewzYl0WPCLHcr7p.png" group-title="Beescore Server2",SKY SPORTS MAIN EVENT (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-cc3e-494e-823f-7b2eb83c0161/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_PREMIER_LEAGUE_Server1" tvg-name="SKY SPORTS PREMIER LEAGUE Server1" tvg-logo="https://center.urlix.co/storage/images/qno7x0Dqnuj9hT1dnoEXBVxXwPLt6wup4qIOQTCo.png" group-title="Beescore Server1",SKY SPORTS PREMIER LEAGUE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9b64e9dc-bcb9-4c31-9646-7924a440bfd9/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_PREMIER_LEAGUE_Server2" tvg-name="SKY SPORTS PREMIER LEAGUE Server2" tvg-logo="https://center.urlix.co/storage/images/qno7x0Dqnuj9hT1dnoEXBVxXwPLt6wup4qIOQTCo.png" group-title="Beescore Server2",SKY SPORTS PREMIER LEAGUE (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9b64e9dc-bcb9-4c31-9646-7924a440bfd9/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MIX_Server1" tvg-name="SKY SPORTS MIX Server1" tvg-logo="https://center.urlix.co/storage/images/LaFwHOyU5I1FX1ISDVSBxsASoN85Sjiw8QlIgzWF.png" group-title="Beescore Server1",SKY SPORTS MIX (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-396e-4257-b1fa-4bb106d39b1a/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_ARENA_Server1" tvg-name="SKY SPORTS ARENA Server1" tvg-logo="https://center.urlix.co/storage/images/LGy5LwmATgHek2FHb8lFfKmZLI8WwZPfIuw3tsJd.png" group-title="Beescore Server1",SKY SPORTS ARENA (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-6f3e-4088-ab2e-cc41ecccb4e7/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_NEWS_Server1" tvg-name="SKY SPORTS NEWS Server1" tvg-logo="https://center.urlix.co/storage/images/aG7yPmTWijfcnW9u00x1VWrXPgbgdsiB1ixvdxPM.png" group-title="Beescore Server1",SKY SPORTS NEWS (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-9f28-4d40-b453-184e169ed291/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_CRICKET_Server1" tvg-name="SKY SPORTS CRICKET Server1" tvg-logo="https://center.urlix.co/storage/images/OK37Cj0VvsnXq1PHphXSANw4AwoEQaiMBIsULNtx.png" group-title="Beescore Server1",SKY SPORTS CRICKET (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-d1be-4da0-8328-400c51db0855/server1.m3u8
+#EXTINF:-1 tvg-id="Sky_Sports_Tennis_Server1" tvg-name="Sky Sports Tennis Server1" tvg-logo="https://center.urlix.co/storage/images/KWwCIQEbFXuEXiFkjo56yaOiGHmJ8DDzCezx8279.png" group-title="Beescore Server1",Sky Sports Tennis (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9c3af61c-13d7-4020-ab1e-912fc8ebf743/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_F1_Server1" tvg-name="SKY SPORTS F1 Server1" tvg-logo="https://center.urlix.co/storage/images/IURj7vjYH5UBChr2SBdjmQpO8AKObcC94khFvRKk.png" group-title="Beescore Server1",SKY SPORTS F1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-fcbb-4b43-98c3-ab2ed37ce335/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_GOLF_Server1" tvg-name="SKY SPORTS GOLF Server1" tvg-logo="https://center.urlix.co/storage/images/nOWzhXjqvbQsTxqgd3sUNFtUSA7XSPHfh4da1tgy.png" group-title="Beescore Server1",SKY SPORTS GOLF (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-26c7-4063-b4e8-366c04fe8289/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_RACING_Server1" tvg-name="SKY SPORTS RACING Server1" tvg-logo="https://center.urlix.co/storage/images/kfl5LiLgC2ZAWzAs136l9v9uJlIRXaSOfcoYKHB8.png" group-title="Beescore Server1",SKY SPORTS RACING (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-5296-495d-9ded-5200f815c1cd/server1.m3u8
+#EXTINF:-1 tvg-id="Sky_Sports_Darts_Server1" tvg-name="Sky Sports Darts Server1" tvg-logo="https://center.urlix.co/storage/images/qKD6k49tpqHg3gkThoSR7J8nmXaOYeD0QYuM5J37.jpg" group-title="Beescore Server1",Sky Sports Darts (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9e905e20-7e23-4142-981f-571c7ad04ef7/server1.m3u8
+#EXTINF:-1 tvg-id="BEIN_SPORTS_USA_Server1" tvg-name="BEIN SPORTS USA Server1" tvg-logo="https://center.urlix.co/storage/images/nltEvA9qjHQaHhX1NMxYgIyriulRmtQzBAJcxg9P.png" group-title="Beescore Server1",BEIN SPORTS USA (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-82f0-4c70-83dd-210d99aeee51/server1.m3u8
+#EXTINF:-1 tvg-id="BEIN_SPORTS_USA_Server2" tvg-name="BEIN SPORTS USA Server2" tvg-logo="https://center.urlix.co/storage/images/nltEvA9qjHQaHhX1NMxYgIyriulRmtQzBAJcxg9P.png" group-title="Beescore Server2",BEIN SPORTS USA (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-82f0-4c70-83dd-210d99aeee51/server2.m3u8
+#EXTINF:-1 tvg-id="Racing_TV_Server1" tvg-name="Racing TV Server1" tvg-logo="https://center.urlix.co/storage/images/Hvg8f5rQIhHrfUN9zPsktEzu928QoTjhk2NpAqPK.png" group-title="Beescore Server1",Racing TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc560f6-c2b7-4bee-b9d2-a1a2f0bd9b11/server1.m3u8
+#EXTINF:-1 tvg-id="TENNIS_CHANNEL_Server1" tvg-name="TENNIS CHANNEL Server1" tvg-logo="https://center.urlix.co/storage/images/CeylCNlEaeceGRvvEAoNbmlFHeLFveEgRWZsEoDi.jpg" group-title="Beescore Server1",TENNIS CHANNEL (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-b15d-4f5f-90f2-75eecb1b14b1/server1.m3u8
+#EXTINF:-1 tvg-id="LALIGA_TV_HD_Server1" tvg-name="LALIGA TV HD Server1" tvg-logo="https://center.urlix.co/storage/images/GE46rpXAJOCxmaGth2Ovp5sfAzG4pEqVVlyostQL.png" group-title="Beescore Server1",LALIGA TV HD (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-deb9-4e9d-a8d4-3735f16ab6c0/server1.m3u8
+#EXTINF:-1 tvg-id="LALIGA_TV_HD_Server2" tvg-name="LALIGA TV HD Server2" tvg-logo="https://center.urlix.co/storage/images/GE46rpXAJOCxmaGth2Ovp5sfAzG4pEqVVlyostQL.png" group-title="Beescore Server2",LALIGA TV HD (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-deb9-4e9d-a8d4-3735f16ab6c0/server2.m3u8
+#EXTINF:-1 tvg-id="DAZN_Server1" tvg-name="DAZN Server1" tvg-logo="https://center.urlix.co/storage/images/9rJW92GJImnA2vfqm6vKEr0NO9KL8BPhkA4cvCbq.png" group-title="Beescore Server1",DAZN (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-909b-4dde-b549-856dd0e82d38/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_1_Server1" tvg-name="Bein Sports English 1 Server1" tvg-logo="https://center.urlix.co/storage/images/ZwlD9pEHcnhjXaCCEopBUqzALEsvNBrinIEnx6WT.png" group-title="Beescore Server1",Bein Sports English 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-cb46-4e22-8aeb-fc7ee6a3abda/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_2_Server1" tvg-name="Bein Sports English 2 Server1" tvg-logo="https://center.urlix.co/storage/images/VHuVgGSGuTYyI2usgK8BhYOvFoPv9nG65zDmTxo3.png" group-title="Beescore Server1",Bein Sports English 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-d228-48dc-b01a-617b2815635f/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_3_Server1" tvg-name="Bein Sports English 3 Server1" tvg-logo="https://center.urlix.co/storage/images/dulzlgB2vAT3bQlRj2LfP4uzqsVnUIdkKrt8H1HC.png" group-title="Beescore Server1",Bein Sports English 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-db31-4a46-a117-ec393bf627b3/server1.m3u8
+#EXTINF:-1 tvg-id="Eurosport_1_Server1" tvg-name="Eurosport 1 Server1" tvg-logo="https://center.urlix.co/storage/images/qocP83ZTGaoYSYQOtPBtU1Ss055ay81V6cR1cxdk.png" group-title="Beescore Server1",Eurosport 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-7287-4392-afb5-27f91a288a45/server1.m3u8
+#EXTINF:-1 tvg-id="Eurosport_2_Server1" tvg-name="Eurosport 2 Server1" tvg-logo="https://center.urlix.co/storage/images/8eOjT6CF3arbQSeorftMFemCy4wwWAzmTa0sempl.png" group-title="Beescore Server1",Eurosport 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-7b21-4766-80b6-e8356b188a92/server1.m3u8
+#EXTINF:-1 tvg-id="Premier_Sports_1_Server1" tvg-name="Premier Sports 1 Server1" tvg-logo="https://center.urlix.co/storage/images/sP4KxdVLpHl9YTFbEWzM0N8kKkggHPkccaqccBdu.png" group-title="Beescore Server1",Premier Sports 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-83c3-4691-8478-3bfd14e850f8/server1.m3u8
+#EXTINF:-1 tvg-id="Premier_Sports_2_Server1" tvg-name="Premier Sports 2 Server1" tvg-logo="https://center.urlix.co/storage/images/1Gbngsz7DLXy3x6MSk5xwFj3HV42RECrP1h4Dlyn.png" group-title="Beescore Server1",Premier Sports 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-8c9d-4cf6-8264-da369331fc4f/server1.m3u8
+#EXTINF:-1 tvg-id="Golf_Channel_Server1" tvg-name="Golf Channel Server1" tvg-logo="https://center.urlix.co/storage/images/rA5EZFZrrvisHCM5lBRYF7yu8h5X04quKaB047AV.png" group-title="Beescore Server1",Golf Channel (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-9598-48e3-8ef6-8759837dae4b/server1.m3u8
+#EXTINF:-1 tvg-id="MLB_Network_Server1" tvg-name="MLB Network Server1" tvg-logo="https://center.urlix.co/storage/images/7vRNQbFyQVqfEwF6e9XWq7hfaSRqZIycaU7WZn3b.png" group-title="Beescore Server1",MLB Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-9f80-4981-90e4-b82046530782/server1.m3u8
+#EXTINF:-1 tvg-id="NBA_TV_Server1" tvg-name="NBA TV Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Beescore Server1",NBA TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-a864-44f2-917c-b1b631343960/server1.m3u8
+#EXTINF:-1 tvg-id="NFL_Network_Server1" tvg-name="NFL Network Server1" tvg-logo="https://center.urlix.co/storage/images/QyDv5TyHBoMgNpjGfoH8EshiCT9WUFyqBrl19U3N.png" group-title="Beescore Server1",NFL Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-b09f-4fb2-b479-b0c36c0b1fcc/server1.m3u8
+#EXTINF:-1 tvg-id="NFL_REDZONE_Server1" tvg-name="NFL REDZONE Server1" tvg-logo="https://center.urlix.co/storage/images/IwzyqvVwJ0cDuW3MrMb3cg82eEMrMBVYENwHwFmh.png" group-title="Beescore Server1",NFL REDZONE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-b653-4115-8425-a3b8ac955407/server1.m3u8
+#EXTINF:-1 tvg-id="NHL_Network_Server1" tvg-name="NHL Network Server1" tvg-logo="https://center.urlix.co/storage/images/sTmhiiz2ST2CqDP1qdqC2Deq08tmxsEbH6Mrlf1N.png" group-title="Beescore Server1",NHL Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-bcea-4340-9cd1-c07bec378a1d/server1.m3u8
+#EXTINF:-1 tvg-id="WWE_Server1" tvg-name="WWE Server1" tvg-logo="https://center.urlix.co/storage/images/cL33Tbx4Bvcvs8sPZfvwzdNkRBVncgagWJyXKOlT.png" group-title="Beescore Server1",WWE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-c5e0-4689-9850-3fab7ba186fc/server1.m3u8
+#EXTINF:-1 tvg-id="Willow_Cricket_Server1" tvg-name="Willow Cricket Server1" tvg-logo="https://center.urlix.co/storage/images/to0ifGFPzs3iMy1DSpsrs3SvWnKHMSyaFz6bMeh4.png" group-title="Beescore Server1",Willow Cricket (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-cd36-459d-890a-ec945cb157b4/server1.m3u8
+#EXTINF:-1 tvg-id="Willow_Extra_Server1" tvg-name="Willow Extra Server1" tvg-logo="https://center.urlix.co/storage/images/k9CbpRZcaomRJayck5vQrMONZqop9v1ESUZGKk3b.png" group-title="Beescore Server1",Willow Extra (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-d3bc-4828-b29f-67cd975acb7a/server1.m3u8
+#EXTINF:-1 tvg-id="World_Fishing_Network_Server1" tvg-name="World Fishing Network Server1" tvg-logo="https://center.urlix.co/storage/images/eBFkyQU1MO47fFPjMiiWKumGBNz5fexOtnsdv8j9.png" group-title="Beescore Server1",World Fishing Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-05e4-4309-8d25-97d47ebce593/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Server1" tvg-name="ESPN Server1" tvg-logo="https://center.urlix.co/storage/images/Xs7CUJ2dJHRI6sZgr7DypNSAMnZ7KpqHf6yWwvxI.png" group-title="Beescore Server1",ESPN (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-0e72-441d-b986-dc68cd08598c/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_2_Server1" tvg-name="ESPN 2 Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="Beescore Server1",ESPN 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-1848-4938-9ff0-76ac2e9bd456/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_News_Server1" tvg-name="ESPN News Server1" tvg-logo="https://center.urlix.co/storage/images/2GOjoG33LsWvCf3JAHZOjpp3y4Q4FujCPROiRM4o.png" group-title="Beescore Server1",ESPN News (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-1f35-4fcd-9afe-3ee416fab80d/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_U_Server1" tvg-name="ESPN U Server1" tvg-logo="https://center.urlix.co/storage/images/t9vrM9PV1pYWhRmVDTjDxoDAfXb3Zz67FDnPaneY.png" group-title="Beescore Server1",ESPN U (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-268c-4158-989a-e8fa959f3f28/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Deportes_Server1" tvg-name="ESPN Deportes Server1" tvg-logo="https://center.urlix.co/storage/images/8lPFlMIg4VQSlx0OGlDRH5OM5qMomtsfwzQiyeLo.png" group-title="Beescore Server1",ESPN Deportes (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56958-ae07-4665-bc3d-4b31c706eede/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Deportes_Server2" tvg-name="ESPN Deportes Server2" tvg-logo="https://center.urlix.co/storage/images/8lPFlMIg4VQSlx0OGlDRH5OM5qMomtsfwzQiyeLo.png" group-title="Beescore Server2",ESPN Deportes (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56958-ae07-4665-bc3d-4b31c706eede/server2.m3u8
+#EXTINF:-1 tvg-id="ITV_1_Server1" tvg-name="ITV 1 Server1" tvg-logo="https://center.urlix.co/storage/images/tTZte39nNuAZCrToHC7k5ShgNYaa9CclIljf2onx.png" group-title="Beescore Server1",ITV 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-46d5-4c18-82f2-4bb83ef7ebe0/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_2_Server1" tvg-name="ITV 2 Server1" tvg-logo="https://center.urlix.co/storage/images/fPtEoSRmJkNB1Qg9vBXNLLaMZVp6IW4LJT7JG01C.png" group-title="Beescore Server1",ITV 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-6137-43eb-896e-bedd19178cc2/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_3_Server1" tvg-name="ITV 3 Server1" tvg-logo="https://center.urlix.co/storage/images/3j3raQdkRm3CzC9lIyhrkSi82Oyshnipxl8osSmN.png" group-title="Beescore Server1",ITV 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-6981-4f0c-ba2d-c8f97cfd064d/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_4_Server1" tvg-name="ITV 4 Server1" tvg-logo="https://center.urlix.co/storage/images/D0SxPN7Cb6ONRdiMWBnrzrrzguKUSrsHDBQGyL5w.png" group-title="Beescore Server1",ITV 4 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-87fa-4448-99e6-6fb0f1d319a3/server1.m3u8
+#EXTINF:-1 tvg-id="MUTV_Server1" tvg-name="MUTV Server1" tvg-logo="https://center.urlix.co/storage/images/nd9bNUsBM0lwZkaIlkgasBuVB4YBFcug6VaJCYIG.png" group-title="Beescore Server1",MUTV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-a7f8-47fb-8f66-022469e42c2d/server1.m3u8
+#EXTINF:-1 tvg-id="LFC_TV_Server1" tvg-name="LFC TV Server1" tvg-logo="https://static.skyassets.com/contentstack/assets/blt292fe19f56d1a1a8/blt914435f46e5f317f/60f97c0ced7a525fcd55cb19/MicrosoftTeams-image_(13).png" group-title="Beescore Server1",LFC TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-b2b3-4c16-b444-a950b5cfc41b/server1.m3u8
+#EXTINF:-1 tvg-id="FOX_NEWS_Server1" tvg-name="FOX NEWS Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/768px-Fox_News_Channel_logo.svg.png" group-title="Beescore Server1",FOX NEWS (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-bbdf-4743-a73d-00a3d7f88a2f/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Soccer_Plus_Server1" tvg-name="Fox Soccer Plus Server1" tvg-logo="https://center.urlix.co/storage/images/QThyDK3aE2AEGNXcjaaFUHeFgNy3X5izleCb6QT4.png" group-title="Beescore Server1",Fox Soccer Plus (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56994-9208-4137-9b19-09964b1f9176/server1.m3u8
+#EXTINF:-1 tvg-id="FOX_DEPORTES_Server1" tvg-name="FOX DEPORTES Server1" tvg-logo="https://center.urlix.co/storage/images/WwxRNu3hV1UHfo1EYkbbUyqPrTbiwOfAhztbwrff.jpg" group-title="Beescore Server1",FOX DEPORTES (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56a2a-13d6-4300-97a5-c9bdae5a26c8/server1.m3u8
+#EXTINF:-1 tvg-id="ACC_Network_Server1" tvg-name="ACC Network Server1" tvg-logo="https://center.urlix.co/storage/images/kvnDhXLFCR9laC5UcF9l4rxj26VTQhjyshK5yXqP.png" group-title="Beescore Server1",ACC Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-c61b-46c4-963e-5d519033f4e4/server1.m3u8
+#EXTINF:-1 tvg-id="Fight_Network_Server1" tvg-name="Fight Network Server1" tvg-logo="https://center.urlix.co/storage/images/XC1Yl3tu1GaWlEO3bWAiye3e127L5yarbOt2Ezxe.png" group-title="Beescore Server1",Fight Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-d00f-430c-8356-4917a59a8a1d/server1.m3u8
+#EXTINF:-1 tvg-id="CBS_Sports_Network_Server1" tvg-name="CBS Sports Network Server1" tvg-logo="https://public-assets-pressexpress.s3.amazonaws.com/assets/releases/docimages/1874/419833-319217/a4df4ef049b119253c9833bea8ed6515.jpg" group-title="Beescore Server1",CBS Sports Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-db8b-4427-a4ad-c469d2f13b40/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Sports_1_Server1" tvg-name="Fox Sports 1 Server1" tvg-logo="https://center.urlix.co/storage/images/y7YYvhEj8piz6c2IumVyeZQ77auV4PDoHSNenDQr.png" group-title="Beescore Server1",Fox Sports 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-f0e8-4324-bbe4-b47a98783a55/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Sports_2_Server1" tvg-name="Fox Sports 2 Server1" tvg-logo="https://center.urlix.co/storage/images/6FfPFlcR8kqeKON6XV0CjrMfei5gtmE3WjX7eVkA.png" group-title="Beescore Server1",Fox Sports 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-fbc6-4d4f-bed5-d8e845b6917b/server1.m3u8
+
+
+#EXTINF:-1,TNT Sports 1
+http://185.246.209.113/BTSport1/index.m3u8
+#EXTINF:-1,TNT Sports 2
+http://185.246.209.113/BTSport2/index.m3u8
+#EXTINF:-1,TNT Sports 3
+http://185.246.209.113/BTSport3/index.m3u8
+#EXTINF:-1,TNT Sports 4
+http://185.246.209.113/BTSport4/index.m3u8
+
+#EXTINF:-1,ESPN3HD
+http://216.106.179.7:8080/ESPN3HD/index.m3u8
+#EXTINF:-1,ESPN4HD
+http://216.106.179.7:8080/ESPN4HD/index.m3u8
+#EXTINF:-1,ESPN5HD
+http://216.106.179.7:8080/ESPN5HD/index.m3u8
+#EXTINF:-1,ESPN6HD
+http://216.106.179.7:8080/ESPN6HD/index.m3u8
+#EXTINF:-1,ESPN7HD
+http://216.106.179.7:8080/ESPN7HD/index.m3u8
+
+#EXTINF:-1,sporttv1
+http://94.130.32.19:8080/sporttv1/index.m3u8
+#EXTINF:-1,sporttv2
+http://94.130.32.19:8080/sporttv2/index.m3u8
+#EXTINF:-1,sporttv3
+http://94.130.32.19:8080/sporttv3/index.m3u8
+#EXTINF:-1,sporttv4
+http://94.130.32.19:8080/sporttv4/index.m3u8
+#EXTINF:-1,sporttv5
+http://94.130.32.19:8080/sporttv5/index.m3u8
+#EXTINF:-1,sporttv6
+http://94.130.32.19:8080/sporttv6/index.m3u8
+#EXTINF:-1,sporttv7
+http://94.130.32.19:8080/sporttv7/index.m3u8
+
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1hr/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2hr/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3hr/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4hr/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5hr/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6hr/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6/index.m3u8
+#EXTINF:-1,Arena Sport 7 HD
+http://143.244.62.109:80/as7/index.m3u8
+#EXTINF:-1,Arena Sport 8 HD
+http://143.244.62.109:80/as8/index.m3u8
+#EXTINF:-1,Arena Sport 9 HD
+http://143.244.62.109:80/as9/index.m3u8
+#EXTINF:-1,Arena Sport 10 HD
+http://143.244.62.109:80/as10/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1bh/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2bh/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3bh/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4bh/index.m3u8
+#EXTINF:-1,fightnetwork
+http://143.244.62.109:80/fightnetwork/index.m3u8
+
+#EXTINF:-1,Arena Sport 1 HD
+https://lb.dstvmultimedia.com/AS1HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+https://lb.dstvmultimedia.com/AS2HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+https://lb.dstvmultimedia.com/AS3HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+https://lb.dstvmultimedia.com/AS4HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+https://lb.dstvmultimedia.com/AS5HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+https://lb.dstvmultimedia.com/AS6HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 7 HD
+https://lb.dstvmultimedia.com/AS7HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 8 HD
+https://lb.dstvmultimedia.com/AS8HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 9 HD
+https://lb.dstvmultimedia.com/AS9HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 10 HD
+https://lb.dstvmultimedia.com/AS10HRHD/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+https://lb.dstvmultimedia.com/ArenaSport1HD/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+https://lb.dstvmultimedia.com/ArenaSport2HD/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+https://lb.dstvmultimedia.com/ArenaSport3HD/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+https://lb.dstvmultimedia.com/ArenaSport4HD/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+https://lb.dstvmultimedia.com/ArenaSport5HD/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+https://lb.dstvmultimedia.com/ArenaSport6HD/index.m3u8
+#EXTINF:-1,Arena Sport 7 HD
+https://lb.dstvmultimedia.com/ArenaSport7HD/index.m3u8
+#EXTINF:-1,Arena Sport 8 HD
+https://lb.dstvmultimedia.com/ArenaSport8HD/index.m3u8
+#EXTINF:-1,Arena Sport 9 HD
+https://lb.dstvmultimedia.com/ArenaSport9HD/index.m3u8
+#EXTINF:-1,Arena Sport 10 HD
+https://lb.dstvmultimedia.com/ArenaSport10HD/index.m3u8
+#EXTINF:-1,Arena Premium 1 HD
+https://lb.dstvmultimedia.com/ArenaPremium1HD/index.m3u8
+#EXTINF:-1,Arena Premium 2 HD
+https://lb.dstvmultimedia.com/ArenaPremium2HD/index.m3u8
+#EXTINF:-1,Arena Premium 3 HD
+https://lb.dstvmultimedia.com/ArenaPremium3HD/index.m3u8
+#EXTINF:-1,Arena Premium 4 HD
+https://lb.dstvmultimedia.com/SK1SRHD/index.m3u8
+#EXTINF:-1,Arena Premium 5 HD
+https://lb.dstvmultimedia.com/SK2SRHD/index.m3u8
+#EXTINF:-1,Arena Adrenalin HD
+https://lb.dstvmultimedia.com/SK3SRHD/index.m3u8
+#EXTINF:-1,Arena Tennis HD
+https://lb.dstvmultimedia.com/SK4SRHD/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+https://lb.dstvmultimedia.com/ArenaSport1BH/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+https://lb.dstvmultimedia.com/ArenaSport2BH/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+https://lb.dstvmultimedia.com/ArenaSport3BH/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+https://lb.dstvmultimedia.com/ArenaSport4BH/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+https://lb.dstvmultimedia.com/ArenaSport5BH/index.m3u8
+#EXTINF:-1,Arena Premium 1 HD
+https://lb.dstvmultimedia.com/ArenaPremium1BH/index.m3u8
+#EXTINF:-1,Arena Premium 2 HD
+https://lb.dstvmultimedia.com/ArenaPremium2BH/index.m3u8
+#EXTINF:-1,Arena Premium 3 HD
+https://lb.dstvmultimedia.com/ArenaPremium3BH/index.m3u8
+#EXTINF:-1,SPORT KLUB 1 HD
+https://lb.dstvmultimedia.com/SK1HRHD/index.m3u8
+#EXTINF:-1,SPORT KLUB 2 HD
+https://lb.dstvmultimedia.com/SK2HRHD/index.m3u8
+#EXTINF:-1,SPORT KLUB 3 HD
+https://lb.dstvmultimedia.com/SK3HRHD/index.m3u8
+#EXTINF:-1,SPORT KLUB 4 HD
+https://lb.dstvmultimedia.com/SK4HRHD/index.m3u8
+#EXTINF:-1,Art Sport 1 HD
+https://lb.dstvmultimedia.com/ArtSport1HD/index.m3u8
+#EXTINF:-1,RTSHSport HD
+https://lb.dstvmultimedia.com/RTSHSport/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+https://lb.dstvmultimedia.com/AS1SLOHD/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+https://lb.dstvmultimedia.com/AS2SLOHD/index.m3u8
+#EXTINF:-1,Sport 1 HD
+https://lb.dstvmultimedia.com/Sport1SLO/index.m3u8
+#EXTINF:-1,Sport 2 HD
+https://lb.dstvmultimedia.com/Sport2SLO/index.m3u8
+#EXTINF:-1,Sport 3 HD
+https://lb.dstvmultimedia.com/Sport3SLO/index.m3u8
+#EXTINF:-1,Sport Klub 1 HD
+https://lb.dstvmultimedia.com/SK1SLO/index.m3u8
+#EXTINF:-1,Sport Klub 2 HD
+https://lb.dstvmultimedia.com/SK2SLO/index.m3u8
+#EXTINF:-1,Sport Klub 3 HD
+https://lb.dstvmultimedia.com/SK3SLO/index.m3u8
+#EXTINF:-1,Sport Klub 4 HD
+https://lb.dstvmultimedia.com/SK4SLO/index.m3u8
+#EXTINF:-1,Sport 1 HD
+https://lb.dstvmultimedia.com/Sport1DE/index.m3u8
+#EXTINF:-1,Sportska TV HD
+https://lb.dstvmultimedia.com/SportskaTV/index.m3u8
+#EXTINF:-1,Max Sport 1 HD
+https://lb.dstvmultimedia.com/MaxSport1HR/index.m3u8
+#EXTINF:-1,Max Sport 2 HD
+https://lb.dstvmultimedia.com/MaxSport2HR/index.m3u8
+EXTINF:-1,Euro Sport 1 HD
+https://lb.dstvmultimedia.com/Eurosport1HD/index.m3u8
+#EXTINF:-1,Euro Sport 2 HD
+https://lb.dstvmultimedia.com/Eurosport2HD/index.m3u8
+#EXTINF:-1,ESports
+https://lb.dstvmultimedia.com/AdriaESports/index.m3u8
+#EXTINF:-1,Arena Fight
+https://lb.dstvmultimedia.com/ArenaFight/index.m3u8
+#EXTINF:-1,Fight Network HD
+https://lb.dstvmultimedia.com/FightNetwork/index.m3u8
+#EXTINF:1.Rai Sport HD
+https://lb.dstvmultimedia.com/RaiSport/index.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_1_Server1" tvg-name="TNT SPORTS 1 Server1" tvg-logo="https://center.urlix.co/storage/images/voNnvVmDa3OHqrDTqsLHVBqBaiVTHcIL09Z3TRsZ.png" group-title="Beescore Server1",TNT SPORTS 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-a517-4162-92de-ddeb433bb0da/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_1_Server2" tvg-name="TNT SPORTS 1 Server2" tvg-logo="https://center.urlix.co/storage/images/voNnvVmDa3OHqrDTqsLHVBqBaiVTHcIL09Z3TRsZ.png" group-title="Beescore Server2",TNT SPORTS 1 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-a517-4162-92de-ddeb433bb0da/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_2_Server1" tvg-name="TNT SPORTS 2 Server1" tvg-logo="https://center.urlix.co/storage/images/S1NKN3BSjQMam9FXnWGRfoQONgbPqypazUb5tj11.png" group-title="Beescore Server1",TNT SPORTS 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-dce8-4819-a4aa-efe4dfbef7ff/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_2_Server2" tvg-name="TNT SPORTS 2 Server2" tvg-logo="https://center.urlix.co/storage/images/S1NKN3BSjQMam9FXnWGRfoQONgbPqypazUb5tj11.png" group-title="Beescore Server2",TNT SPORTS 2 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d2-dce8-4819-a4aa-efe4dfbef7ff/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_3_Server1" tvg-name="TNT SPORTS 3 Server1" tvg-logo="https://center.urlix.co/storage/images/aIRXL3U2utD2ZnFoo9KUHADuhASWEFPPQrdmVVXC.png" group-title="Beescore Server1",TNT SPORTS 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-0e0b-405a-a3dc-e5a2c9392402/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_3_Server2" tvg-name="TNT SPORTS 3 Server2" tvg-logo="https://center.urlix.co/storage/images/aIRXL3U2utD2ZnFoo9KUHADuhASWEFPPQrdmVVXC.png" group-title="Beescore Server2",TNT SPORTS 3 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-0e0b-405a-a3dc-e5a2c9392402/server2.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_4_Server1" tvg-name="TNT SPORTS 4 Server1" tvg-logo="https://center.urlix.co/storage/images/ljOgkw86cJNIWrvumds70L5z7xaD9SQKgGgSXyQh.png" group-title="Beescore Server1",TNT SPORTS 4 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-47b9-4758-8146-a3835e152757/server1.m3u8
+#EXTINF:-1 tvg-id="TNT_SPORTS_4_Server2" tvg-name="TNT SPORTS 4 Server2" tvg-logo="https://center.urlix.co/storage/images/ljOgkw86cJNIWrvumds70L5z7xaD9SQKgGgSXyQh.png" group-title="Beescore Server2",TNT SPORTS 4 (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d3-47b9-4758-8146-a3835e152757/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_FOOTBALL_Server1" tvg-name="SKY SPORTS FOOTBALL Server1" tvg-logo="https://center.urlix.co/storage/images/kVDhZpIQaAlhLgx1JpuYYQMTC4O7Fi7RcFcqzUup.png" group-title="Beescore Server1",SKY SPORTS FOOTBALL (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-9a5f-4275-b780-8644deeb5697/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_FOOTBALL_Server2" tvg-name="SKY SPORTS FOOTBALL Server2" tvg-logo="https://center.urlix.co/storage/images/kVDhZpIQaAlhLgx1JpuYYQMTC4O7Fi7RcFcqzUup.png" group-title="Beescore Server2",SKY SPORTS FOOTBALL (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-9a5f-4275-b780-8644deeb5697/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MAIN_EVENT_Server1" tvg-name="SKY SPORTS MAIN EVENT Server1" tvg-logo="https://center.urlix.co/storage/images/8A1o6Z1VbADveW2XaCKb9OdzHewzYl0WPCLHcr7p.png" group-title="Beescore Server1",SKY SPORTS MAIN EVENT (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-cc3e-494e-823f-7b2eb83c0161/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MAIN_EVENT_Server2" tvg-name="SKY SPORTS MAIN EVENT Server2" tvg-logo="https://center.urlix.co/storage/images/8A1o6Z1VbADveW2XaCKb9OdzHewzYl0WPCLHcr7p.png" group-title="Beescore Server2",SKY SPORTS MAIN EVENT (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d4-cc3e-494e-823f-7b2eb83c0161/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_PREMIER_LEAGUE_Server1" tvg-name="SKY SPORTS PREMIER LEAGUE Server1" tvg-logo="https://center.urlix.co/storage/images/qno7x0Dqnuj9hT1dnoEXBVxXwPLt6wup4qIOQTCo.png" group-title="Beescore Server1",SKY SPORTS PREMIER LEAGUE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9b64e9dc-bcb9-4c31-9646-7924a440bfd9/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_PREMIER_LEAGUE_Server2" tvg-name="SKY SPORTS PREMIER LEAGUE Server2" tvg-logo="https://center.urlix.co/storage/images/qno7x0Dqnuj9hT1dnoEXBVxXwPLt6wup4qIOQTCo.png" group-title="Beescore Server2",SKY SPORTS PREMIER LEAGUE (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9b64e9dc-bcb9-4c31-9646-7924a440bfd9/server2.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_MIX_Server1" tvg-name="SKY SPORTS MIX Server1" tvg-logo="https://center.urlix.co/storage/images/LaFwHOyU5I1FX1ISDVSBxsASoN85Sjiw8QlIgzWF.png" group-title="Beescore Server1",SKY SPORTS MIX (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-396e-4257-b1fa-4bb106d39b1a/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_ARENA_Server1" tvg-name="SKY SPORTS ARENA Server1" tvg-logo="https://center.urlix.co/storage/images/LGy5LwmATgHek2FHb8lFfKmZLI8WwZPfIuw3tsJd.png" group-title="Beescore Server1",SKY SPORTS ARENA (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-6f3e-4088-ab2e-cc41ecccb4e7/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_NEWS_Server1" tvg-name="SKY SPORTS NEWS Server1" tvg-logo="https://center.urlix.co/storage/images/aG7yPmTWijfcnW9u00x1VWrXPgbgdsiB1ixvdxPM.png" group-title="Beescore Server1",SKY SPORTS NEWS (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-9f28-4d40-b453-184e169ed291/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_CRICKET_Server1" tvg-name="SKY SPORTS CRICKET Server1" tvg-logo="https://center.urlix.co/storage/images/OK37Cj0VvsnXq1PHphXSANw4AwoEQaiMBIsULNtx.png" group-title="Beescore Server1",SKY SPORTS CRICKET (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-d1be-4da0-8328-400c51db0855/server1.m3u8
+#EXTINF:-1 tvg-id="Sky_Sports_Tennis_Server1" tvg-name="Sky Sports Tennis Server1" tvg-logo="https://center.urlix.co/storage/images/KWwCIQEbFXuEXiFkjo56yaOiGHmJ8DDzCezx8279.png" group-title="Beescore Server1",Sky Sports Tennis (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9c3af61c-13d7-4020-ab1e-912fc8ebf743/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_F1_Server1" tvg-name="SKY SPORTS F1 Server1" tvg-logo="https://center.urlix.co/storage/images/IURj7vjYH5UBChr2SBdjmQpO8AKObcC94khFvRKk.png" group-title="Beescore Server1",SKY SPORTS F1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d5-fcbb-4b43-98c3-ab2ed37ce335/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_GOLF_Server1" tvg-name="SKY SPORTS GOLF Server1" tvg-logo="https://center.urlix.co/storage/images/nOWzhXjqvbQsTxqgd3sUNFtUSA7XSPHfh4da1tgy.png" group-title="Beescore Server1",SKY SPORTS GOLF (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-26c7-4063-b4e8-366c04fe8289/server1.m3u8
+#EXTINF:-1 tvg-id="SKY_SPORTS_RACING_Server1" tvg-name="SKY SPORTS RACING Server1" tvg-logo="https://center.urlix.co/storage/images/kfl5LiLgC2ZAWzAs136l9v9uJlIRXaSOfcoYKHB8.png" group-title="Beescore Server1",SKY SPORTS RACING (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-5296-495d-9ded-5200f815c1cd/server1.m3u8
+#EXTINF:-1 tvg-id="Sky_Sports_Darts_Server1" tvg-name="Sky Sports Darts Server1" tvg-logo="https://center.urlix.co/storage/images/qKD6k49tpqHg3gkThoSR7J8nmXaOYeD0QYuM5J37.jpg" group-title="Beescore Server1",Sky Sports Darts (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9e905e20-7e23-4142-981f-571c7ad04ef7/server1.m3u8
+#EXTINF:-1 tvg-id="BEIN_SPORTS_USA_Server1" tvg-name="BEIN SPORTS USA Server1" tvg-logo="https://center.urlix.co/storage/images/nltEvA9qjHQaHhX1NMxYgIyriulRmtQzBAJcxg9P.png" group-title="Beescore Server1",BEIN SPORTS USA (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-82f0-4c70-83dd-210d99aeee51/server1.m3u8
+#EXTINF:-1 tvg-id="BEIN_SPORTS_USA_Server2" tvg-name="BEIN SPORTS USA Server2" tvg-logo="https://center.urlix.co/storage/images/nltEvA9qjHQaHhX1NMxYgIyriulRmtQzBAJcxg9P.png" group-title="Beescore Server2",BEIN SPORTS USA (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-82f0-4c70-83dd-210d99aeee51/server2.m3u8
+#EXTINF:-1 tvg-id="Racing_TV_Server1" tvg-name="Racing TV Server1" tvg-logo="https://center.urlix.co/storage/images/Hvg8f5rQIhHrfUN9zPsktEzu928QoTjhk2NpAqPK.png" group-title="Beescore Server1",Racing TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc560f6-c2b7-4bee-b9d2-a1a2f0bd9b11/server1.m3u8
+#EXTINF:-1 tvg-id="TENNIS_CHANNEL_Server1" tvg-name="TENNIS CHANNEL Server1" tvg-logo="https://center.urlix.co/storage/images/CeylCNlEaeceGRvvEAoNbmlFHeLFveEgRWZsEoDi.jpg" group-title="Beescore Server1",TENNIS CHANNEL (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-b15d-4f5f-90f2-75eecb1b14b1/server1.m3u8
+#EXTINF:-1 tvg-id="LALIGA_TV_HD_Server1" tvg-name="LALIGA TV HD Server1" tvg-logo="https://center.urlix.co/storage/images/GE46rpXAJOCxmaGth2Ovp5sfAzG4pEqVVlyostQL.png" group-title="Beescore Server1",LALIGA TV HD (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-deb9-4e9d-a8d4-3735f16ab6c0/server1.m3u8
+#EXTINF:-1 tvg-id="LALIGA_TV_HD_Server2" tvg-name="LALIGA TV HD Server2" tvg-logo="https://center.urlix.co/storage/images/GE46rpXAJOCxmaGth2Ovp5sfAzG4pEqVVlyostQL.png" group-title="Beescore Server2",LALIGA TV HD (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d6-deb9-4e9d-a8d4-3735f16ab6c0/server2.m3u8
+#EXTINF:-1 tvg-id="DAZN_Server1" tvg-name="DAZN Server1" tvg-logo="https://center.urlix.co/storage/images/9rJW92GJImnA2vfqm6vKEr0NO9KL8BPhkA4cvCbq.png" group-title="Beescore Server1",DAZN (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-909b-4dde-b549-856dd0e82d38/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_1_Server1" tvg-name="Bein Sports English 1 Server1" tvg-logo="https://center.urlix.co/storage/images/ZwlD9pEHcnhjXaCCEopBUqzALEsvNBrinIEnx6WT.png" group-title="Beescore Server1",Bein Sports English 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-cb46-4e22-8aeb-fc7ee6a3abda/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_2_Server1" tvg-name="Bein Sports English 2 Server1" tvg-logo="https://center.urlix.co/storage/images/VHuVgGSGuTYyI2usgK8BhYOvFoPv9nG65zDmTxo3.png" group-title="Beescore Server1",Bein Sports English 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-d228-48dc-b01a-617b2815635f/server1.m3u8
+#EXTINF:-1 tvg-id="Bein_Sports_English_3_Server1" tvg-name="Bein Sports English 3 Server1" tvg-logo="https://center.urlix.co/storage/images/dulzlgB2vAT3bQlRj2LfP4uzqsVnUIdkKrt8H1HC.png" group-title="Beescore Server1",Bein Sports English 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d7-db31-4a46-a117-ec393bf627b3/server1.m3u8
+#EXTINF:-1 tvg-id="Eurosport_1_Server1" tvg-name="Eurosport 1 Server1" tvg-logo="https://center.urlix.co/storage/images/qocP83ZTGaoYSYQOtPBtU1Ss055ay81V6cR1cxdk.png" group-title="Beescore Server1",Eurosport 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-7287-4392-afb5-27f91a288a45/server1.m3u8
+#EXTINF:-1 tvg-id="Eurosport_2_Server1" tvg-name="Eurosport 2 Server1" tvg-logo="https://center.urlix.co/storage/images/8eOjT6CF3arbQSeorftMFemCy4wwWAzmTa0sempl.png" group-title="Beescore Server1",Eurosport 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-7b21-4766-80b6-e8356b188a92/server1.m3u8
+#EXTINF:-1 tvg-id="Premier_Sports_1_Server1" tvg-name="Premier Sports 1 Server1" tvg-logo="https://center.urlix.co/storage/images/sP4KxdVLpHl9YTFbEWzM0N8kKkggHPkccaqccBdu.png" group-title="Beescore Server1",Premier Sports 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-83c3-4691-8478-3bfd14e850f8/server1.m3u8
+#EXTINF:-1 tvg-id="Premier_Sports_2_Server1" tvg-name="Premier Sports 2 Server1" tvg-logo="https://center.urlix.co/storage/images/1Gbngsz7DLXy3x6MSk5xwFj3HV42RECrP1h4Dlyn.png" group-title="Beescore Server1",Premier Sports 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-8c9d-4cf6-8264-da369331fc4f/server1.m3u8
+#EXTINF:-1 tvg-id="Golf_Channel_Server1" tvg-name="Golf Channel Server1" tvg-logo="https://center.urlix.co/storage/images/rA5EZFZrrvisHCM5lBRYF7yu8h5X04quKaB047AV.png" group-title="Beescore Server1",Golf Channel (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-9598-48e3-8ef6-8759837dae4b/server1.m3u8
+#EXTINF:-1 tvg-id="MLB_Network_Server1" tvg-name="MLB Network Server1" tvg-logo="https://center.urlix.co/storage/images/7vRNQbFyQVqfEwF6e9XWq7hfaSRqZIycaU7WZn3b.png" group-title="Beescore Server1",MLB Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-9f80-4981-90e4-b82046530782/server1.m3u8
+#EXTINF:-1 tvg-id="NBA_TV_Server1" tvg-name="NBA TV Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Beescore Server1",NBA TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-a864-44f2-917c-b1b631343960/server1.m3u8
+#EXTINF:-1 tvg-id="NFL_Network_Server1" tvg-name="NFL Network Server1" tvg-logo="https://center.urlix.co/storage/images/QyDv5TyHBoMgNpjGfoH8EshiCT9WUFyqBrl19U3N.png" group-title="Beescore Server1",NFL Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-b09f-4fb2-b479-b0c36c0b1fcc/server1.m3u8
+#EXTINF:-1 tvg-id="NFL_REDZONE_Server1" tvg-name="NFL REDZONE Server1" tvg-logo="https://center.urlix.co/storage/images/IwzyqvVwJ0cDuW3MrMb3cg82eEMrMBVYENwHwFmh.png" group-title="Beescore Server1",NFL REDZONE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-b653-4115-8425-a3b8ac955407/server1.m3u8
+#EXTINF:-1 tvg-id="NHL_Network_Server1" tvg-name="NHL Network Server1" tvg-logo="https://center.urlix.co/storage/images/sTmhiiz2ST2CqDP1qdqC2Deq08tmxsEbH6Mrlf1N.png" group-title="Beescore Server1",NHL Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-bcea-4340-9cd1-c07bec378a1d/server1.m3u8
+#EXTINF:-1 tvg-id="WWE_Server1" tvg-name="WWE Server1" tvg-logo="https://center.urlix.co/storage/images/cL33Tbx4Bvcvs8sPZfvwzdNkRBVncgagWJyXKOlT.png" group-title="Beescore Server1",WWE (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-c5e0-4689-9850-3fab7ba186fc/server1.m3u8
+#EXTINF:-1 tvg-id="Willow_Cricket_Server1" tvg-name="Willow Cricket Server1" tvg-logo="https://center.urlix.co/storage/images/to0ifGFPzs3iMy1DSpsrs3SvWnKHMSyaFz6bMeh4.png" group-title="Beescore Server1",Willow Cricket (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-cd36-459d-890a-ec945cb157b4/server1.m3u8
+#EXTINF:-1 tvg-id="Willow_Extra_Server1" tvg-name="Willow Extra Server1" tvg-logo="https://center.urlix.co/storage/images/k9CbpRZcaomRJayck5vQrMONZqop9v1ESUZGKk3b.png" group-title="Beescore Server1",Willow Extra (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d8-d3bc-4828-b29f-67cd975acb7a/server1.m3u8
+#EXTINF:-1 tvg-id="World_Fishing_Network_Server1" tvg-name="World Fishing Network Server1" tvg-logo="https://center.urlix.co/storage/images/eBFkyQU1MO47fFPjMiiWKumGBNz5fexOtnsdv8j9.png" group-title="Beescore Server1",World Fishing Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-05e4-4309-8d25-97d47ebce593/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Server1" tvg-name="ESPN Server1" tvg-logo="https://center.urlix.co/storage/images/Xs7CUJ2dJHRI6sZgr7DypNSAMnZ7KpqHf6yWwvxI.png" group-title="Beescore Server1",ESPN (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-0e72-441d-b986-dc68cd08598c/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_2_Server1" tvg-name="ESPN 2 Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png" group-title="Beescore Server1",ESPN 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-1848-4938-9ff0-76ac2e9bd456/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_News_Server1" tvg-name="ESPN News Server1" tvg-logo="https://center.urlix.co/storage/images/2GOjoG33LsWvCf3JAHZOjpp3y4Q4FujCPROiRM4o.png" group-title="Beescore Server1",ESPN News (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-1f35-4fcd-9afe-3ee416fab80d/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_U_Server1" tvg-name="ESPN U Server1" tvg-logo="https://center.urlix.co/storage/images/t9vrM9PV1pYWhRmVDTjDxoDAfXb3Zz67FDnPaneY.png" group-title="Beescore Server1",ESPN U (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-268c-4158-989a-e8fa959f3f28/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Deportes_Server1" tvg-name="ESPN Deportes Server1" tvg-logo="https://center.urlix.co/storage/images/8lPFlMIg4VQSlx0OGlDRH5OM5qMomtsfwzQiyeLo.png" group-title="Beescore Server1",ESPN Deportes (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56958-ae07-4665-bc3d-4b31c706eede/server1.m3u8
+#EXTINF:-1 tvg-id="ESPN_Deportes_Server2" tvg-name="ESPN Deportes Server2" tvg-logo="https://center.urlix.co/storage/images/8lPFlMIg4VQSlx0OGlDRH5OM5qMomtsfwzQiyeLo.png" group-title="Beescore Server2",ESPN Deportes (Server2)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56958-ae07-4665-bc3d-4b31c706eede/server2.m3u8
+#EXTINF:-1 tvg-id="ITV_1_Server1" tvg-name="ITV 1 Server1" tvg-logo="https://center.urlix.co/storage/images/tTZte39nNuAZCrToHC7k5ShgNYaa9CclIljf2onx.png" group-title="Beescore Server1",ITV 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-46d5-4c18-82f2-4bb83ef7ebe0/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_2_Server1" tvg-name="ITV 2 Server1" tvg-logo="https://center.urlix.co/storage/images/fPtEoSRmJkNB1Qg9vBXNLLaMZVp6IW4LJT7JG01C.png" group-title="Beescore Server1",ITV 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-6137-43eb-896e-bedd19178cc2/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_3_Server1" tvg-name="ITV 3 Server1" tvg-logo="https://center.urlix.co/storage/images/3j3raQdkRm3CzC9lIyhrkSi82Oyshnipxl8osSmN.png" group-title="Beescore Server1",ITV 3 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-6981-4f0c-ba2d-c8f97cfd064d/server1.m3u8
+#EXTINF:-1 tvg-id="ITV_4_Server1" tvg-name="ITV 4 Server1" tvg-logo="https://center.urlix.co/storage/images/D0SxPN7Cb6ONRdiMWBnrzrrzguKUSrsHDBQGyL5w.png" group-title="Beescore Server1",ITV 4 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-87fa-4448-99e6-6fb0f1d319a3/server1.m3u8
+#EXTINF:-1 tvg-id="MUTV_Server1" tvg-name="MUTV Server1" tvg-logo="https://center.urlix.co/storage/images/nd9bNUsBM0lwZkaIlkgasBuVB4YBFcug6VaJCYIG.png" group-title="Beescore Server1",MUTV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-a7f8-47fb-8f66-022469e42c2d/server1.m3u8
+#EXTINF:-1 tvg-id="LFC_TV_Server1" tvg-name="LFC TV Server1" tvg-logo="https://static.skyassets.com/contentstack/assets/blt292fe19f56d1a1a8/blt914435f46e5f317f/60f97c0ced7a525fcd55cb19/MicrosoftTeams-image_(13).png" group-title="Beescore Server1",LFC TV (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-b2b3-4c16-b444-a950b5cfc41b/server1.m3u8
+#EXTINF:-1 tvg-id="FOX_NEWS_Server1" tvg-name="FOX NEWS Server1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/768px-Fox_News_Channel_logo.svg.png" group-title="Beescore Server1",FOX NEWS (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-bbdf-4743-a73d-00a3d7f88a2f/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Soccer_Plus_Server1" tvg-name="Fox Soccer Plus Server1" tvg-logo="https://center.urlix.co/storage/images/QThyDK3aE2AEGNXcjaaFUHeFgNy3X5izleCb6QT4.png" group-title="Beescore Server1",Fox Soccer Plus (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56994-9208-4137-9b19-09964b1f9176/server1.m3u8
+#EXTINF:-1 tvg-id="FOX_DEPORTES_Server1" tvg-name="FOX DEPORTES Server1" tvg-logo="https://center.urlix.co/storage/images/WwxRNu3hV1UHfo1EYkbbUyqPrTbiwOfAhztbwrff.jpg" group-title="Beescore Server1",FOX DEPORTES (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9fc56a2a-13d6-4300-97a5-c9bdae5a26c8/server1.m3u8
+#EXTINF:-1 tvg-id="ACC_Network_Server1" tvg-name="ACC Network Server1" tvg-logo="https://center.urlix.co/storage/images/kvnDhXLFCR9laC5UcF9l4rxj26VTQhjyshK5yXqP.png" group-title="Beescore Server1",ACC Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-c61b-46c4-963e-5d519033f4e4/server1.m3u8
+#EXTINF:-1 tvg-id="Fight_Network_Server1" tvg-name="Fight Network Server1" tvg-logo="https://center.urlix.co/storage/images/XC1Yl3tu1GaWlEO3bWAiye3e127L5yarbOt2Ezxe.png" group-title="Beescore Server1",Fight Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-d00f-430c-8356-4917a59a8a1d/server1.m3u8
+#EXTINF:-1 tvg-id="CBS_Sports_Network_Server1" tvg-name="CBS Sports Network Server1" tvg-logo="https://public-assets-pressexpress.s3.amazonaws.com/assets/releases/docimages/1874/419833-319217/a4df4ef049b119253c9833bea8ed6515.jpg" group-title="Beescore Server1",CBS Sports Network (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-db8b-4427-a4ad-c469d2f13b40/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Sports_1_Server1" tvg-name="Fox Sports 1 Server1" tvg-logo="https://center.urlix.co/storage/images/y7YYvhEj8piz6c2IumVyeZQ77auV4PDoHSNenDQr.png" group-title="Beescore Server1",Fox Sports 1 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-f0e8-4324-bbe4-b47a98783a55/server1.m3u8
+#EXTINF:-1 tvg-id="Fox_Sports_2_Server1" tvg-name="Fox Sports 2 Server1" tvg-logo="https://center.urlix.co/storage/images/6FfPFlcR8kqeKON6XV0CjrMfei5gtmE3WjX7eVkA.png" group-title="Beescore Server1",Fox Sports 2 (Server1)
+#EXTVLCOPT:http-referrer=https://beescore.net/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+http://192.129.159.196:8020/watch/9ab7e7d9-fbc6-4d4f-bed5-d8e845b6917b/server1.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1hr/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2hr/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3hr/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4hr/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5hr/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6hr/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6/index.m3u8
+#EXTINF:-1,Arena Sport 7 HD
+http://143.244.62.109:80/as7/index.m3u8
+#EXTINF:-1,Arena Sport 8 HD
+http://143.244.62.109:80/as8/index.m3u8
+#EXTINF:-1,Arena Sport 9 HD
+http://143.244.62.109:80/as9/index.m3u8
+#EXTINF:-1,Arena Sport 10 HD
+http://143.244.62.109:80/as10/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1bh/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2bh/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3bh/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4bh/index.m3u8
+#EXTINF:-1,fightnetwork
+http://143.244.62.109:80/fightnetwork/index.m3u8
+#EXTINF:-1,FoxSports 1
+http://185.246.209.113:80/FoxSports1HD/index.m3u8
+#EXTINF:-1,FoxSports 2
+http://185.246.209.113:80/FoxSports2HD/index.m3u8
+#EXTINF:-1,SkySports PremierLeague
+http://185.246.209.113/SkySportsPremierLeague/index.m3u8
+#EXTINF:-1,SkySports Cricket
+http://185.246.209.113/SkySportsCricket/index.m3u8
+#EXTINF:-1,SkySports Golf
+http://185.246.209.113/SkySportsGolf/index.m3u8
+#EXTINF:-1,SkySports Action
+http://185.246.209.113/SkySportsAction/index.m3u8
+#EXTINF:-1,Sky Sports Football
+http://185.246.209.113/SkySportsFootballHD/index.m3u8
+#EXTINF:-1,Sky Sports Mix
+http://185.246.209.113/SkySportsMixHD/index.m3u8
+#EXTINF:-1,SkySports F1 HD
+http://185.246.209.113/SkySportsF1HD/index.m3u8
+#EXTINF:-1,WWE HD
+http://185.246.209.113/WWEHD/index.m3u8
+#EXTINF:-1,Tennis HD
+http://185.246.209.113/TennisHD/index.m3u8
+#EXTINF:-1,Racing UK
+http://185.246.209.113/RacingUK/index.m3u8
+#EXTINF:-1,LFC TV
+http://185.246.209.113:80/LFCTVHD/index.m3u8
+#EXTINF:-1,Fight Network
+http://185.246.209.113/FightNetwork/index.m3u8
+#EXTINF:-1,ESPN Deportes
+http://185.246.209.113:80/ESPNDeportesHD/index.m3u8
+#EXTINF:-1,ESPNU
+http://185.246.209.113/ESPNU/index.m3u8
+#EXTINF:-1,NBA HD
+http://185.246.209.113/NBAHD/index.m3u8
+#EXTINF:-1,ESPN News
+http://185.246.209.113/ESPNNews/index.m3u8
+#EXTINF:-1,SkySports News HD
+http://185.246.209.113/SkySportsNews/index.m3u8
+#EXTINF:-1,Willow
+http://185.246.209.113:80/WillowHD/index.m3u8
+#EXTINF:-1,Premier Sports 1
+http://185.246.209.113:80/PremierSports1HD/index.m3u8
+#EXTINF:-1,Premier Sports 1
+http://185.246.209.113:80/PremierSports2HD/index.m3u8
+#EXTINF:-1,TNT Sports 1
+http://185.246.209.113/BTSport1/index.m3u8
+#EXTINF:-1,TNT Sports 2
+http://185.246.209.113/BTSport2/index.m3u8
+#EXTINF:-1,TNT Sports 3
+http://185.246.209.113/BTSport3/index.m3u8
+#EXTINF:-1,TNT Sports 4
+http://185.246.209.113/BTSport4/index.m3u8
+#EXTINF:-1,TSN Sport 1
+http://185.246.209.113:80/TSN1HD/index.m3u8
+#EXTINF:-1,TSN Sport 2
+http://185.246.209.113:80/TSN2HD/index.m3u8
+#EXTINF:-1,TSN Sport 3
+http://185.246.209.113:80/TSN3HD/index.m3u8
+#EXTINF:-1,TSN Sport 4
+http://185.246.209.113:80/TSN4HD/index.m3u8
+#EXTINF:-1,TSN Sport 5
+http://185.246.209.113:80/TSN5HD/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1hr/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2hr/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3hr/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4hr/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5hr/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6hr/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4/index.m3u8
+#EXTINF:-1,Arena Sport 5 HD
+http://143.244.62.109:80/as5/index.m3u8
+#EXTINF:-1,Arena Sport 6 HD
+http://143.244.62.109:80/as6/index.m3u8
+#EXTINF:-1,Arena Sport 7 HD
+http://143.244.62.109:80/as7/index.m3u8
+#EXTINF:-1,Arena Sport 8 HD
+http://143.244.62.109:80/as8/index.m3u8
+#EXTINF:-1,Arena Sport 9 HD
+http://143.244.62.109:80/as9/index.m3u8
+#EXTINF:-1,Arena Sport 10 HD
+http://143.244.62.109:80/as10/index.m3u8
+#EXTINF:-1,Arena Sport 1 HD
+http://143.244.62.109:80/as1bh/index.m3u8
+#EXTINF:-1,Arena Sport 2 HD
+http://143.244.62.109:80/as2bh/index.m3u8
+#EXTINF:-1,Arena Sport 3 HD
+http://143.244.62.109:80/as3bh/index.m3u8
+#EXTINF:-1,Arena Sport 4 HD
+http://143.244.62.109:80/as4bh/index.m3u8
+#EXTINF:-1,fightnetwork
+http://143.244.62.109:80/fightnetwork/index.m3u8
+#EXTINF:-1,FoxSports 1
+http://185.246.209.113:80/FoxSports1HD/index.m3u8
+#EXTINF:-1,FoxSports 2
+http://185.246.209.113:80/FoxSports2HD/index.m3u8
+#EXTINF:-1,SkySports PremierLeague
+http://185.246.209.113/SkySportsPremierLeague/index.m3u8
+#EXTINF:-1,SkySports Cricket
+http://185.246.209.113/SkySportsCricket/index.m3u8
+#EXTINF:-1,SkySports Golf
+http://185.246.209.113/SkySportsGolf/index.m3u8
+#EXTINF:-1,SkySports Action
+http://185.246.209.113/SkySportsAction/index.m3u8
+#EXTINF:-1,Sky Sports Football
+http://185.246.209.113/SkySportsFootballHD/index.m3u8
+#EXTINF:-1,Sky Sports Mix
+http://185.246.209.113/SkySportsMixHD/index.m3u8
+#EXTINF:-1,SkySports F1 HD
+http://185.246.209.113/SkySportsF1HD/index.m3u8
+#EXTINF:-1,Tennis HD
+http://185.246.209.113/TennisHD/index.m3u8
+#EXTINF:-1,Racing UK
+http://185.246.209.113/RacingUK/index.m3u8
+#EXTINF:-1,Fight Network
+http://185.246.209.113/FightNetwork/index.m3u8
+#EXTINF:-1,ESPNU
+http://185.246.209.113/ESPNU/index.m3u8
+#EXTINF:-1,NBA HD
+http://185.246.209.113/NBAHD/index.m3u8
+#EXTINF:-1,SkySports News HD
+http://185.246.209.113/SkySportsNews/index.m3u8
+#EXTINF:-1,TNT Sports 1
+http://185.246.209.113/BTSport1/index.m3u8
+#EXTINF:-1,TNT Sports 2
+http://185.246.209.113/BTSport2/index.m3u8
+#EXTINF:-1,TNT Sports 3
+http://185.246.209.113/BTSport3/index.m3u8
+#EXTINF:-1,TNT Sports 4
+http://185.246.209.113/BTSport4/index.m3u8
+#EXTINF:-1,TSN Sport 1
+http://185.246.209.113:80/TSN1HD/index.m3u8
+#EXTINF:-1,TSN Sport 2
+http://185.246.209.113:80/TSN2HD/index.m3u8
+#EXTINF:-1,TSN Sport 3
+http://185.246.209.113:80/TSN3HD/index.m3u8
+#EXTINF:-1,TSN Sport 4
+http://185.246.209.113:80/TSN4HD/index.m3u8
+#EXTINF:-1,TSN Sport 5
+http://185.246.209.113:80/TSN5HD/index.m3u8
+#EXTINF:-1,FoxSports 1
+http://185.246.209.113:80/FoxSports1HD/index.m3u8
+#EXTINF:-1,FoxSports 2
+http://185.246.209.113:80/FoxSports2HD/index.m3u8
+#EXTINF:-1,SkySports PremierLeague
+http://185.246.209.113/SkySportsPremierLeague/index.m3u8
+#EXTINF:-1,SkySports Cricket
+http://185.246.209.113/SkySportsCricket/index.m3u8
+#EXTINF:-1,SkySports Golf
+http://185.246.209.113/SkySportsGolf/index.m3u8
+#EXTINF:-1,SkySports Action
+http://185.246.209.113/SkySportsAction/index.m3u8
+#EXTINF:-1,Sky Sports Football
+http://185.246.209.113/SkySportsFootballHD/index.m3u8
+#EXTINF:-1,Sky Sports Mix
+http://185.246.209.113/SkySportsMixHD/index.m3u8
+#EXTINF:-1,SkySports F1 HD
+http://185.246.209.113/SkySportsF1HD/index.m3u8
+#EXTINF:-1,Tennis HD
+http://185.246.209.113/TennisHD/index.m3u8
+#EXTINF:-1,Racing UK
+http://185.246.209.113/RacingUK/index.m3u8
+#EXTINF:-1,LFC TV
+http://185.246.209.113:80/LFCTVHD/index.m3u8
+#EXTINF:-1,Fight Network
+http://185.246.209.113/FightNetwork/index.m3u8
+#EXTINF:-1,ESPN Deportes
+http://185.246.209.113:80/ESPNDeportesHD/index.m3u8
+#EXTINF:-1,ESPNU
+http://185.246.209.113/ESPNU/index.m3u8
+#EXTINF:-1,NBA HD
+http://185.246.209.113/NBAHD/index.m3u8
+#EXTINF:-1,SkySports News HD
+http://185.246.209.113/SkySportsNews/index.m3u8
+#EXTINF:-1,Willow
+http://185.246.209.113:80/WillowHD/index.m3u8
+#EXTINF:-1,Premier Sports 1
+http://185.246.209.113:80/PremierSports1HD/index.m3u8
+#EXTINF:-1,Premier Sports 2
+http://185.246.209.113:80/PremierSports2HD/index.m3u8
+#EXTINF:-1,TNT Sports 1
+http://185.246.209.113/BTSport1/index.m3u8
+#EXTINF:-1,TNT Sports 2
+http://185.246.209.113/BTSport2/index.m3u8
+#EXTINF:-1,TNT Sports 3
+http://185.246.209.113/BTSport3/index.m3u8
+#EXTINF:-1,TNT Sports 4
+http://185.246.209.113/BTSport4/index.m3u8
+#EXTINF:-1,TSN Sport 1
+http://185.246.209.113:80/TSN1HD/index.m3u8
+#EXTINF:-1,TSN Sport 2
+http://185.246.209.113:80/TSN2HD/index.m3u8
+#EXTINF:-1,TSN Sport 3
+http://185.246.209.113:80/TSN3HD/index.m3u8
+#EXTINF:-1,TSN Sport 4
+http://185.246.209.113:80/TSN4HD/index.m3u8
+#EXTINF:-1,TSN Sport 5
+http://185.246.209.113:80/TSN5HD/index.m3u8
