@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 25 1115 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 25 1124 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -3144,6 +3144,8 @@ http://tv14s.xyz:8080/canglobaltv3/globe1344/120974
 
 #EXTINF:-1 tvg-id="RIK.2.cy" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat cloud.
 http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="RIK.2.cy" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat lunar.
+http://lunar.pm:8080/Tedandjon/Together2/122037
 # #EXTINF:-1 tvg-id="RIK.2.cy" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/159738
 # #EXTINF:-1 tvg-id="RIK.2.cy" tvg-logo="https://i.ibb.co/GPYL7QB/RIK-Sat-2017-1.png" group-title="Cyprus",RIK Sat yesimes.
@@ -3167,7 +3169,7 @@ http://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/31188
 # #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/401509000
-#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega lun.
+#EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega lunar.
 http://lunar.pm:8080/Tedandjon/Together2/121989
 # #EXTINF:-1 tvg-id="Mega.gr" tvg-name="GR: Mega" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/mega-channel-gr.png?raw=true" group-title="Cyprus",Mega vip.
 # http://vipliar.top:8080/VIP01137171628423180/5404cb6574f0/2108
@@ -3195,9 +3197,9 @@ http://lunar.pm:8080/Tedandjon/Together2/121932
 # #EXTINF:-1 tvg-id="ALPHA.cy" tvg-name="Alpha TV / Alsat" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/greece/alpha-tv-gr.png?raw=true" group-title="Cyprus",Alpha HD yesimes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/52117
 
-#EXTINF:-1 tvg-id="OMEGA.cy" tvg-name="Omega" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega cloud.
+#EXTINF:-1 tvg-id="OMEGA.cy" tvg-name="Omega / Ωμέγα" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega cloud.
 https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
-# #EXTINF:-1 tvg-id="OMEGA.cy" tvg-name="Omega" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega xyj.
+# #EXTINF:-1 tvg-id="OMEGA.cy" tvg-name="Omega / Ωμέγα" tvg-logo="https://i.ibb.co/xDnhRHg/Omega-channel.png" group-title="Cyprus",Omega xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/159736
 
 

@@ -25,7 +25,7 @@ M3U_FOLDER = M3U_FOLDERS[0]
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["GR "] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["Ο Λόγος"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
