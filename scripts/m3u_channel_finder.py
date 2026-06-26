@@ -26,7 +26,7 @@ M3U_FOLDERS = [
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["Toronto"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["T+E"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
@@ -186,15 +186,18 @@ def run_keyword_search():
                     if any(bad in line_lower or bad in url.lower() for bad in compiled_blocklist):
                         continue
 
-                    # Search matching constraints
+                    # Search matching constraints (Handles symbols like '+' safely)
                     matched = False
                     if target == "Channels":  # Check everything if default fallback is active
                         matched = True
                     else:
                         if STRICT_MATCH:
-                            matched = bool(re.search(rf"\b{re.escape(target_lower)}\b", line_lower))
+                            # 🌟 SAFE BOUNDARY MATCH: Replaces \b to support non-alphanumeric symbols safely
+                            pattern = rf"(?:^|[^a-zA-Z0-9]){re.escape(target_lower)}(?:$|[^a-zA-Z0-9])"
+                            matched = bool(re.search(pattern, line_lower))
                         else:
                             matched = target_lower in line_lower
+
 
                     if matched:
                         # 🌟 SERVER EXTRACTION LOGIC
