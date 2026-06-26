@@ -25,7 +25,7 @@ M3U_FOLDER = M3U_FOLDERS[0]
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["Ο Λόγος"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["Slice"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
@@ -37,10 +37,10 @@ KEYWORDS_MAP = {
     "Food": ["Food", "Cooking", "Kitchen"]
 }
 
-STRICT_MATCH = False  
+STRICT_MATCH = False # True / False    
 
 # 🛑 BLOCKLIST CONFIGURATION
-USE_BLOCKLIST = False  
+USE_BLOCKLIST = False # True / False   
 BLOCKLIST = ["S01", "E01", "SEASON", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
 
 # 🔒 PERMANENT BLOCKLIST (Always active)
@@ -49,14 +49,14 @@ PERMANENT_BLOCKLIST = ["RADIO", "mycamtv", "adultiptv", "Anal", "Gay", "(2002)",
 # ---------------------
 # 🛡️ VPN CONFIGURATION
 # ---------------------
-ENABLE_VPN_TOGGLE = False  
+ENABLE_VPN_TOGGLE = False # True / False 
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
 }
 
 # 🏷️ TAG EXTRACTION TOGGLES
-KEEP_TVG_ID = True  
+KEEP_TVG_ID = True # True / False   
 
 # ---------------------
 # HELPER FUNCTIONS
@@ -64,26 +64,46 @@ KEEP_TVG_ID = True
 def is_channel_live(url):
     """Sends a fast request to see if the stream is online."""
     try:
-        # stream=True ensures we disconnect as soon as headers are received
-        # timeout=7 gives slow IPTV handshakes a fighting chance
-        # We enforce a TiviMate/Android user-agent directly to avoid server blocks
+        # Enforce an updated VLC/TiviMate blend header structure
+        custom_headers = {
+            "User-Agent": "TiviMate/5.0.4 (Linux; Android 11)",
+            "Accept": "*/*",
+            "Connection": "keep-alive"
+        }
+        
+        # 1. Force allow_redirects=True so load balancers resolve to a 200 code
+        # 2. Lower timeout slightly if running multi-threaded to prevent stalled pools
         response = requests.get(
             url, 
             stream=True, 
-            timeout=7, 
-            headers={"User-Agent": "TiviMate/5.0.4 (Linux; Android 11)"}
+            timeout=5, 
+            headers=custom_headers,
+            allow_redirects=True
         )
-        return response.status_code == 200
-    except:
+        
+        # 200 = Standard OK, 206 = Partial Content (very common on running video streams)
+        is_accessible = response.status_code in (200, 206)
+        
+        # Cleanly shut down the streaming content handle before exiting
+        response.close()
+        return is_accessible
+        
+    except requests.exceptions.RequestException:
+        return False
+    except Exception:
         return False
 
-def process_channel(args):
-    """Worker function for threads to process and check a channel."""
-    # We now receive a mapped dictionary payload from the loop
-    candidate = args
-    if is_channel_live(candidate['url']):
-        return candidate
+def process_channel(candidate_dict):
+    """Bridge runner for the ThreadPoolExecutor map."""
+    url = candidate_dict.get('url')
+    if is_channel_live(url):
+        return candidate_dict  # Keeps the data structure pristine for file saving
     return None
+
+# def process_channel(candidate_dict):
+#     """Temporary test to see exactly how many unique channels are parsed before the ping check."""
+#     return candidate_dict # 👈 Directly returns the channel without pinging it
+
 
 # ---------------------
 # MAIN RUNNER
@@ -113,13 +133,25 @@ def run_keyword_search():
         for f_path in files:
             try:
                 with open(f_path, "r", encoding="utf-8", errors="ignore") as f:
-                    content = f.read()
+                    # Strip out carriage returns to prevent string terminal contamination
+                    content = f.read().replace('\r', '')
                 
+                # Split but remember that splitting drops the literal delimiter token 
                 blocks = content.split("#EXTINF")
                 for block in blocks[1:]:
-                    lines = block.strip().split("\n")
+                    if not block.strip():
+                        continue
+                        
+                    # Reconstruct the header line properly
+                    full_block = "#EXTINF" + block
+                    lines = [ln.strip() for ln in full_block.split("\n") if ln.strip()]
+                    
+                    if len(lines) < 2:
+                        continue
+                        
                     header = lines[0]
                     
+                    # Safely look for the URL line by skipping headers and metadata
                     url = ""
                     for potential_url in lines[1:]:
                         if potential_url.strip() and not potential_url.startswith("#"):
@@ -131,7 +163,8 @@ def run_keyword_search():
                     group_match = re.search(r'group-title="([^"]+)"', header)
                     group_name = group_match.group(1).strip() if group_match else "Other"
                     
-                    name_match = re.search(r',([^,]*)$', header)
+                    # Robust final comma anchor capture that strips whitespace
+                    name_match = re.search(r',([^,]+)$', header)
                     channel_name = name_match.group(1).strip() if name_match else "Unknown"
                     
                     server_match = re.search(r'https?://([^./:]+)', url)
@@ -152,7 +185,11 @@ def run_keyword_search():
                         logo_str = f' tvg-logo="{logo_match.group(1)}"'
                         logo_found = True
                     
-                    clean_header = f'#EXTINF:-1 group-title="{group_name}"{id_str}{logo_str},{channel_name} {server_prefix.lower()}.'
+                    # Dynamically compute stream format extension to avoid broken header suffixes
+                    ext_match = re.search(r'(\.[a-zA-Z0-9]+)(?:\?|$)', url)
+                    file_ext = ext_match.group(1).lower() if ext_match else ".ts"
+                    clean_header = f'#EXTINF:-1 group-title="{group_name}"{id_str}{logo_str},{channel_name} [{server_prefix.upper()}]{file_ext}'
+                    
                     meta_for_search = re.sub(r'tvg-logo="[^"]*"', '', header).upper()
                     
                     if any(b.upper() in meta_for_search for b in PERMANENT_BLOCKLIST) or \
@@ -196,44 +233,40 @@ def run_keyword_search():
                                     break
 
                     if is_match:
+                        # 🔍 DIAGNOSTIC PRINT: Confirms match parsing succeeds before thread filtration
+                        if "SLICE" in channel_name.upper():
+                            print(f"   [PARSER MATCH] Found '{channel_name}' matching search token '{target_k}'")
+
                         score = 0
                         if id_found: score += 1
                         if logo_found: score += 1
 
-                        # 🛡️ FIX A: Advanced extraction for PHP and slash styles
-                        creds_match = re.search(r'(?:get\.php\?username=([^&]+)&password=([^&]+)|/([^/]+)/([^/]+)/)', url)
-                        
+                        # 🛡️ FIX: De-duplicate safely by isolating the account token AND keeping stream identity intact
+                        url_parts = [p for p in url.replace("https://", "").replace("http://", "").split("/") if p.strip()]
                         user_pass_slug = "Unknown_Account"
-                        if creds_match:
-                            if creds_match.group(1) and creds_match.group(2):
-                                user_pass_slug = f"{creds_match.group(1)}/{creds_match.group(2)}"
-                            elif creds_match.group(3) and creds_match.group(4):
-                                user_pass_slug = f"{creds_match.group(3)}/{creds_match.group(4)}"
-
-                        # 🛡️ FIX B: Group by Account + Channel Name 
-                        unique_key = f"{server_prefix}_{user_pass_slug}_{channel_name.strip().upper()}"
+                        stream_id = "Unknown_Stream"
                         
-                        # 🛡️ FIX C: Store as a standard dict rather than a tuple to prevent index crashes
-                        if unique_key not in url_map:
+                        if len(url_parts) >= 3:
+                            clean_parts = [p for p in url_parts[1:-1] if p.lower() not in ("iptv", "live", "stream", "get.php")]
+                            user_pass_slug = clean_parts[0] if clean_parts else url_parts[1]
+                            # Capture the unique stream ID slot (e.g., '6451') to keep channels separate
+                            stream_id = url_parts[-2] if len(url_parts) >= 2 else "Stream"
+                        
+                        # Generate a completely stable string dictionary key using the unique stream ID
+                        unique_key = f"{server_prefix}_{user_pass_slug}_{channel_name.strip().upper()}_{stream_id}"
+                        
+                        if unique_key not in url_map or score > url_map[unique_key]['score']:
                             url_map[unique_key] = {
                                 'name': channel_name, 
                                 'header': clean_header, 
                                 'url': url,
                                 'score': score
                             }
-                        else:
-                            if score > url_map[unique_key]['score']:
-                                url_map[unique_key] = {
-                                    'name': channel_name, 
-                                    'header': clean_header, 
-                                    'url': url,
-                                    'score': score
-                                }
                                 
             except Exception as e: 
                 continue
 
-        # 🛡️ FIX D: Extract dict objects safely
+        # Extract dictionary payload items safely
         candidates = [val for val in url_map.values()]
         print(f"Found {len(candidates)} keyword matches. Starting live check...")
 
@@ -247,6 +280,7 @@ def run_keyword_search():
                 sys.stdout.write(f"\rProgress: {i+1}/{len(candidates)} channels verified.")
                 sys.stdout.flush()
 
+        # 📂 FILE OUTPUT GENERATOR
         if live_content:
             safe_name = target_k.replace("/", "_").replace("\\", "_").replace(" ", "_")
             
@@ -256,24 +290,35 @@ def run_keyword_search():
                 out_filename = f"{safe_name}-group-title-{date_str}.m3u"
             else:
                 out_filename = f"{safe_name}-{date_str}.m3u"
-                
+
             out_path = os.path.join(OUTPUT_FOLDER, out_filename)
             
-            def sort_by_actual_name(candidate):
-                name = candidate['name']
-                is_video = candidate['url'].upper().endswith(VIDEO_EXTENSIONS) or candidate['url'].lower().endswith('.ts')
-                return (is_video, name.lower())
-
-            sorted_content = sorted(live_content, key=sort_by_actual_name)
+            # Alphabetize channel list cleanly while safeguarding object variances
+            live_content.sort(key=lambda x: x['name'].upper() if isinstance(x, dict) else str(x).upper())
             
-            final_output_lines = []
-            for item in sorted_content:
-                final_output_lines.append(f"{item['header']}\n{item['url']}\n")
+            try:
+                with open(out_path, "w", encoding="utf-8") as out_f:
+                    out_f.write("#EXTM3U\n")
+                    for item in live_content:
+                        if isinstance(item, dict):
+                            header_line = item.get('header', '')
+                            url_line = item.get('url', '')
+                        else:
+                            parts = item.strip().split('\n')
+                            header_line = parts[0] if len(parts) > 0 else ""
+                            url_line = parts[1] if len(parts) > 1 else ""
+                        
+                        if header_line and url_line:
+                            out_f.write(f"{header_line}\n{url_line}\n")
+                            
+                print(f"\n✅ Saved {len(live_content)} live channels to {out_path}")
+            except Exception as write_error:
+                print(f"\n❌ Error writing output playlist file: {write_error}")
+        else:
+            print(f"\n⚠️ No live channels verified for target: {target_k}")
             
-            with open(out_path, "w", encoding="utf-8") as f:
-                f.write("#EXTM3U\n" + "".join(final_output_lines))
-                
-            print(f"\n📂 Created: {out_filename} ({len(live_content)} LIVE channels generated!)")
+            
+    print("\n All target keyword searches have successfully completed.")
 
 if __name__ == "__main__":
     run_keyword_search()
