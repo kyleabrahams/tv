@@ -26,7 +26,7 @@ M3U_FOLDERS = [
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["Slice"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["Toronto"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
@@ -197,7 +197,20 @@ def run_keyword_search():
                             matched = target_lower in line_lower
 
                     if matched:
-                        candidates.append({'extinf': line.strip(), 'url': url})
+                        # 🌟 SERVER EXTRACTION LOGIC
+                        # Extracts 'tv14s' from 'http://tv14s.xyz:8080/...'
+                        domain_match = re.search(r'https?://([^:/\s]+)', url)
+                        if domain_match:
+                            domain = domain_match.group(1)
+                            # Split by dots and grab the first part (e.g., 'tv14s' from 'tv14s.xyz')
+                            server_name = domain.split('.')[0]
+                            
+                            # Append the server name cleanly to the #EXTINF metadata line
+                            modified_line = f"{line.strip()} ({server_name})"
+                        else:
+                            modified_line = line.strip()
+
+                        candidates.append({'extinf': modified_line, 'url': url})
 
         # Deduplicate streams matching identical streaming links
         unique_candidates = {c['url']: c for c in candidates}.values()
