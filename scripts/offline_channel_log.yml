@@ -1,0 +1,517 @@
+scan_timestamp: '2026-06-26T10:56:51.775037'
+total_monitored_channels: 601
+total_offline_channels: 171
+offline_channels_list:
+- name: FOX 29 WUTV bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/215774
+- name: FX try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/57268
+- name: Peachtree lunar.
+  status: Offline
+  url: http://lunar.pm:8080/Tedandjon/Together2/67093
+- name: Travel + Escape bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/dog1000/6066272133/190932
+- name: Showtime try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/46214
+- name: MGM+ lun.
+  status: Offline
+  url: http://lunar.pm:8080/Tedandjon/Together2/18206
+- name: MGM+ Hits tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/12744
+- name: CBBC lunar.
+  status: Offline
+  url: http://lunar.pm:8080/Tedandjon/Together2/25477
+- name: BBC Alba xv5.
+  status: Offline
+  url: http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/19179/index.m3u8
+- name: Sky Arts bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/223457
+- name: Sky Animation roc.
+  status: Offline
+  url: http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/3cf224af-b99f-4296-a6ec-fa09058cd170.m3u
+- name: Sky Witness bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/223263
+- name: Adventure Time bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/232853
+- name: America's Voice News pluto.
+  status: Offline
+  url: https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
+- name: BBC Travel
+  status: Offline
+  url: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-65622eddb7d737841f30a4fd.m3u8
+- name: Best Action TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Best Drama TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Best Thriller TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Chuck bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/230945
+- name: Cowboy Movie Channel
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Dateline plex.
+  status: Offline
+  url: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-5fc70600598c41002da3dd19.m3u8
+- name: Dragon Ball Z 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79572
+- name: Drive+ Speed
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Duck Tales 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125636
+- name: Escape TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Family Feud xumo.
+  status: Offline
+  url: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
+- name: Family Guy 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66317
+- name: Family Matters 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125634
+- name: FashionTV 4k plex.
+  status: Offline
+  url: https://epg.provider.plex.tv/library/parts/697140a85d851f5e69414688-6490c01f3b3ce9e1aaad95be/?X-Plex-Token=jwWRJxT57XDj_mnibDDv
+- name: FilmRise Action xumo.
+  status: Offline
+  url: https://d3is52sgpnlx4c.cloudfront.net/10901/88885508/hls/master.m3u8?withResolution=true&ads.xumo_channelId=88885508
+- name: FilmRise Free Movies xumo.
+  status: Offline
+  url: https://d3is52sgpnlx4c.cloudfront.net/10901/88885512/hls/master.m3u8?withResolution=true&ads.xumo_channelId=88885512
+- name: Flipping Nation
+  status: Offline
+  url: https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-671bf04b128bc4121f80aef1/?X-Plex-Token=S5sJY3VqV4Kqjhpod9VA
+- name: Fresh Prince of Bel-Air 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79559
+- name: Friends 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66407
+- name: Full House 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66269
+- name: Game of Thrones 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66318
+- name: Gravitas Movies roku.
+  status: Offline
+  url: https://jmp2.uk/rok-973e467d44ac5410ba217c39c9c06958.m3u8
+- name: Impact Wrestling xumo.
+  status: Offline
+  url: https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991341
+- name: Inspector Gadget pluto.
+  status: Offline
+  url: https://jmp2.uk/plu-5d765786aad587cf4d0e2bf6.m3u8
+- name: Keeping Up with the Kardashians 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66403
+- name: Law & Crime roku.
+  status: Offline
+  url: https://jmp2.uk/rok-8ba514251e1a58b7b53368177baa1041.m3u8
+- name: Lol TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Looney Tunes 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125638
+- name: Luxury Dreams TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Outside TV roku.
+  status: Offline
+  url: https://jmp2.uk/rok-7bdac47dd6dd5204b00b1d0e4cbc9684.m3u8
+- name: Pluto TV Animals
+  status: Offline
+  url: https://jmp2.uk/stvp-GBAJ700001FH
+- name: Popstar! plex.
+  status: Offline
+  url: https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8?ads.plex_token=MorUy57ijWhGe4ixZb_T&ads.plex_id=5ef11487d33ab9004048a1d6&ads.device_id=df8e1a36-847d-5096-86a7-3803ed330ede&ads.dnt=0&ads.us_privacy=1---&checkedby:iptvcat.com
+- name: Real Wild plex.
+  status: Offline
+  url: https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-63584a0cf8e2be1350f802a4.m3u8
+- name: Rick and Morty
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66302
+- name: Saved by the Bell 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66344
+- name: Seinfeld 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66303
+- name: Sex and the City 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125972
+- name: Star Trek 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/121115
+- name: Stingray Classica plex.
+  status: Offline
+  url: https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-62d7f68fb19cbf65dc7bef7d.m3u8
+- name: Teen Titans Go! 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125637
+- name: Tensions TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: The Flintstones 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120949
+- name: The Golden Girls 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120948
+- name: The Sopranos 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125971
+- name: Xplore roku.
+  status: Offline
+  url: https://jmp2.uk/rok-f230a0c3f7ba5804b42d88f5d3c20002.m3u8
+- name: American Heroes Channel try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/10456
+- name: Aspire try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/21927
+- name: BBC America MJI.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/20194
+- name: BBC News MJI.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/305067
+- name: BET try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/13702
+- name: CSPAN try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/136589
+- name: CW xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/120900
+- name: FXX try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/46699
+- name: NewsNation try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/161450
+- name: Nick JR try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/46710
+- name: Outdoor Channel tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/9244
+- name: Pop try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/20976
+- name: RFD-TV tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/17868
+- name: Travel Channel try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/9315
+- name: USA Network try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/10252
+- name: Alpha TV cloud.
+  status: Offline
+  url: https://l4.cloudskep.com/alphacyp/acy/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xOS8yMDIzIDc6NTc6MDAgUE0maGFzaF92YWx1ZT1aZHlYdmpZcy9BK2VGTnNzeVY5cWtRPT0mdmFsaWRtaW51dGVzPTMw
+- name: ACC Network ax.
+  status: Offline
+  url: https://a1xs.vip/40000016
+- name: Altitude Sports tv14s.
+  status: Offline
+  url: http://tv14s.xyz:8080/1R9F9u/581580/79545
+- name: Bein Sports .HY
+  status: Offline
+  url: https://maldivesn.net/hilaytv/beinsports
+- name: CBS Sports Network .HY
+  status: Offline
+  url: https://maldivesn.net/hilaytv/cbssports
+- name: ESPN2 ax.
+  status: Offline
+  url: https://a1xs.vip/40000012
+- name: ESPNews .HY
+  status: Offline
+  url: https://maldivesn.net/hilaytv/espnnews
+- name: Fanduel Detroit tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/20936
+- name: Fanduel Florida a1xs.
+  status: Offline
+  url: https://a1xs.vip/4000050
+- name: Fanduel Great Lakes tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/139272
+- name: Fanduel Indiana xyj.
+  status: Offline
+  url: http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/2388
+- name: Fanduel Kansas City xyj.
+  status: Offline
+  url: http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/2387
+- name: Fanduel Midwest tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/66795
+- name: Fanduel North tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/58827
+- name: Fanduel Ohio tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/17752
+- name: Fanduel Oklahoma tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/20934
+- name: Fanduel SoCal tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/21843
+- name: Fanduel South tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/20931
+- name: Fanduel Southeast tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/2213
+- name: Fanduel Sun tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/104917
+- name: Fanduel West tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/20932
+- name: Fanduel Wisconsin tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/78599
+- name: Fight Network xumo.
+  status: Offline
+  url: https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-606605549dbfca002d2ae877/?X-Plex-Token=zbEDZJcYy3LysxHRrahD
+- name: Fooseball TV
+  status: Offline
+  url: https://jmp2.uk/str-7281.m3u8
+- name: FOX Sports 1 try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/1846
+- name: FOX Sports 2 23.237
+  status: Offline
+  url: http://23.237.104.106:8080/USA_FS2/index.m3u8
+- name: Fox Sports Racing xyj.
+  status: Offline
+  url: http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/212531
+- name: Golf Channel a1xs.
+  status: Offline
+  url: https://a1xs.vip/40000060
+- name: MASN xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/65697
+- name: MLB Network ax.
+  status: Offline
+  url: https://a1xs.vip/40000030
+- name: MSG xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/21090
+- name: MSG+ xyj.
+  status: Offline
+  url: http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/181427
+- name: MSG2 tvm.
+  status: Offline
+  url: http://tvmate.icu:8080/0Ru8WD/642274/21089
+- name: NBA TV MJI.
+  status: Offline
+  url: http://212.102.60.231/NBA_TV/index.m3u8
+- name: NESN xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/31637
+- name: SEC Network xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/17608
+- name: SNY try.
+  status: Offline
+  url: http://trytv.icu:8080/96066144/96066144/20938
+- name: Spectrum Sports xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/31636
+- name: Swerve Combat roku.
+  status: Offline
+  url: https://jmp2.uk/rok-8c48bcf59acd57779977b83a41fac919.m3u8
+- name: TSN 2 lunar.
+  status: Offline
+  url: http://lunar.pm:8080/Tedandjon/Together2/67050
+- name: TSN 3 lunar.
+  status: Offline
+  url: http://lunar.pm:8080/Tedandjon/Together2/9510
+- name: TSN 4 bgdc.
+  status: Offline
+  url: http://bgdc.live:25461/biosysinc/90941859/190953
+- name: TSN 4 sew.
+  status: Offline
+  url: http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6445/index.m3u8
+- name: Willow a1xs.
+  status: Offline
+  url: https://a1xs.vip/40000042
+- name: Womens Sports Network
+  status: Offline
+  url: https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-630fa9e577ec3866def38fa2/?X-Plex-Token=zbEDZJcYy3LysxHRrahD
+- name: WWE Network xip.
+  status: Offline
+  url: http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/11645
+- name: CBC Toronto 1tv.
+  status: Offline
+  url: http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57260
+- name: CNN xip.
+  status: Offline
+  url: http://xxip25.top:8080/13yXsS/001616/57398
+- name: Scifi World
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Encore
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Danger Vision TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Mercury
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Urban Action
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: The Explorers
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Bang Bang TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Lol TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Heartfelt TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Love 2 Hate TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Extras TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Mama Benz TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Colour Blind
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Edgy TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Outer Vision TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: JUST FOR LAUGHS GAGS
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: AWE PLUS
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: BRAT TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: DROOL
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: RIC Plus
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Kiddo
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Cartoon TV Classics
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: SPACE SERIES
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Fight TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Kozoom
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Xtrem sports
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Sport Fishing TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: America Boating Channel
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: ChronoTV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: ITSF
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: MMA TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: MOTOR RACING
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: ACE TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Cricket Gold
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Hunt Fish TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Nautical Channel
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Yachting TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: LUXURY DREAMS TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: UNCHAINEDTV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Cowboy Movie Channel
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Horror TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Tensions TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Drive In Movie Channel
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: Kung Fu
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: BEST ACTION TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: BEST DRAMA TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: BEST THRILLER TV
+  status: Offline
+  url: '#KODIPROP:inputstream=inputstream.adaptive'
+- name: FilmRise Action
+  status: Offline
+  url: https://jmp2.uk/rok-0abef49cfd6759b18f2ce64290cbdda3.m3u8
