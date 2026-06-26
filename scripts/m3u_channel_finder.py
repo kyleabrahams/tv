@@ -21,7 +21,6 @@ M3U_FOLDERS = [
     "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched",
     "/Volumes/Kyle4tb1223/Documents/Github/tv/list/Active2"
 ]
-M3U_FOLDER = M3U_FOLDERS[0]
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
@@ -40,7 +39,7 @@ KEYWORDS_MAP = {
 STRICT_MATCH = False # True / False    
 
 # 🛑 BLOCKLIST CONFIGURATION
-USE_BLOCKLIST = False # True / False   
+USE_BLOCKLIST = True # True / False   
 BLOCKLIST = ["S01", "E01", "SEASON", "EP.", ".MP4", ".MKV", ".AVI", ".MOV"]
 
 # 🔒 PERMANENT BLOCKLIST (Always active)
@@ -64,15 +63,12 @@ KEEP_TVG_ID = True # True / False
 def is_channel_live(url):
     """Sends a fast request to see if the stream is online."""
     try:
-        # Enforce an updated VLC/TiviMate blend header structure
         custom_headers = {
             "User-Agent": "TiviMate/5.0.4 (Linux; Android 11)",
             "Accept": "*/*",
             "Connection": "keep-alive"
         }
         
-        # 1. Force allow_redirects=True so load balancers resolve to a 200 code
-        # 2. Lower timeout slightly if running multi-threaded to prevent stalled pools
         response = requests.get(
             url, 
             stream=True, 
@@ -81,43 +77,40 @@ def is_channel_live(url):
             allow_redirects=True
         )
         
-        # 200 = Standard OK, 206 = Partial Content (very common on running video streams)
         is_accessible = response.status_code in (200, 206)
-        
-        # Cleanly shut down the streaming content handle before exiting
         response.close()
         return is_accessible
         
-    except requests.exceptions.RequestException:
-        return False
     except Exception:
         return False
 
 def process_channel(candidate_dict):
     """Bridge runner for the ThreadPoolExecutor map."""
+    if not candidate_dict or 'url' not in candidate_dict:
+        return None
     url = candidate_dict.get('url')
     if is_channel_live(url):
-        return candidate_dict  # Keeps the data structure pristine for file saving
+        return candidate_dict  
     return None
 
-# def process_channel(candidate_dict):
-#     """Temporary test to see exactly how many unique channels are parsed before the ping check."""
-#     return candidate_dict # 👈 Directly returns the channel without pinging it
-
-
-# ---------------------
-# MAIN RUNNER
-# ---------------------
 def run_keyword_search():
     date_str = datetime.now().strftime('%Y-%m-%d')
     os.makedirs(OUTPUT_FOLDER, exist_ok=True)
     
     EPISODE_PATTERN = re.compile(r's\d{1,3}e\d{1,3}', re.IGNORECASE)
-    VIDEO_EXTENSIONS = (".MP4", ".MKV", ".AVI", ".MOV")
     
-    files = glob.glob(os.path.join(M3U_FOLDER, "*.m3u"))
+    # 🛡️ FIX: Cycle through all target storage paths and aggregate M3U files safely
+    files = []
+    for folder in M3U_FOLDERS:
+        if os.path.exists(folder):
+            found_m3us = glob.glob(os.path.join(folder, "*.m3u"))
+            files.extend(found_m3us)
+            print(f"📂 Found {len(found_m3us)} playlists in: {folder}")
+        else:
+            print(f"⚠️ Warning: Configured directory path does not exist: {folder}")
+            
     if not files:
-        print(f"❌ No .m3u files found in {M3U_FOLDER}")
+        print(f"❌ No .m3u files found anywhere across: {M3U_FOLDERS}")
         return
 
     all_targets = GROUP_KEYWORDS + KEYWORDS + SERVER_KEYWORDS
@@ -133,16 +126,13 @@ def run_keyword_search():
         for f_path in files:
             try:
                 with open(f_path, "r", encoding="utf-8", errors="ignore") as f:
-                    # Strip out carriage returns to prevent string terminal contamination
                     content = f.read().replace('\r', '')
                 
-                # Split but remember that splitting drops the literal delimiter token 
                 blocks = content.split("#EXTINF")
                 for block in blocks[1:]:
                     if not block.strip():
                         continue
                         
-                    # Reconstruct the header line properly
                     full_block = "#EXTINF" + block
                     lines = [ln.strip() for ln in full_block.split("\n") if ln.strip()]
                     
@@ -151,7 +141,6 @@ def run_keyword_search():
                         
                     header = lines[0]
                     
-                    # Safely look for the URL line by skipping headers and metadata
                     url = ""
                     for potential_url in lines[1:]:
                         if potential_url.strip() and not potential_url.startswith("#"):
@@ -163,7 +152,6 @@ def run_keyword_search():
                     group_match = re.search(r'group-title="([^"]+)"', header)
                     group_name = group_match.group(1).strip() if group_match else "Other"
                     
-                    # Robust final comma anchor capture that strips whitespace
                     name_match = re.search(r',([^,]+)$', header)
                     channel_name = name_match.group(1).strip() if name_match else "Unknown"
                     
@@ -185,7 +173,6 @@ def run_keyword_search():
                         logo_str = f' tvg-logo="{logo_match.group(1)}"'
                         logo_found = True
                     
-                    # Dynamically compute stream format extension to avoid broken header suffixes
                     ext_match = re.search(r'(\.[a-zA-Z0-9]+)(?:\?|$)', url)
                     file_ext = ext_match.group(1).lower() if ext_match else ".ts"
                     clean_header = f'#EXTINF:-1 group-title="{group_name}"{id_str}{logo_str},{channel_name} [{server_prefix.upper()}]{file_ext}'
@@ -211,29 +198,16 @@ def run_keyword_search():
                                 break
                     elif target_k in GROUP_KEYWORDS:
                         for var in search_terms:
-                            if STRICT_MATCH:
-                                pattern = re.compile(rf'\b{re.escape(var.upper())}\b')
-                                if pattern.search(group_name.upper()):
-                                    is_match = True
-                                    break
-                            else:
-                                if var.upper() in group_name.upper():
-                                    is_match = True
-                                    break
+                            if var.upper() in group_name.upper():
+                                is_match = True
+                                break
                     else:
                         for var in search_terms:
-                            if STRICT_MATCH:
-                                pattern = re.compile(rf'\b{re.escape(var.upper())}\b')
-                                if pattern.search(meta_for_search):
-                                    is_match = True
-                                    break
-                            else:
-                                if var.upper() in meta_for_search:
-                                    is_match = True
-                                    break
+                            if var.upper() in meta_for_search:
+                                is_match = True
+                                break
 
                     if is_match:
-                        # 🔍 DIAGNOSTIC PRINT: Confirms match parsing succeeds before thread filtration
                         if "SLICE" in channel_name.upper():
                             print(f"   [PARSER MATCH] Found '{channel_name}' matching search token '{target_k}'")
 
@@ -241,18 +215,15 @@ def run_keyword_search():
                         if id_found: score += 1
                         if logo_found: score += 1
 
-                        # 🛡️ FIX: De-duplicate safely by isolating the account token AND keeping stream identity intact
                         url_parts = [p for p in url.replace("https://", "").replace("http://", "").split("/") if p.strip()]
                         user_pass_slug = "Unknown_Account"
                         stream_id = "Unknown_Stream"
                         
                         if len(url_parts) >= 3:
                             clean_parts = [p for p in url_parts[1:-1] if p.lower() not in ("iptv", "live", "stream", "get.php")]
-                            user_pass_slug = clean_parts[0] if clean_parts else url_parts[1]
-                            # Capture the unique stream ID slot (e.g., '6451') to keep channels separate
+                            user_pass_slug = clean_parts if clean_parts else url_parts
                             stream_id = url_parts[-2] if len(url_parts) >= 2 else "Stream"
                         
-                        # Generate a completely stable string dictionary key using the unique stream ID
                         unique_key = f"{server_prefix}_{user_pass_slug}_{channel_name.strip().upper()}_{stream_id}"
                         
                         if unique_key not in url_map or score > url_map[unique_key]['score']:
@@ -266,7 +237,6 @@ def run_keyword_search():
             except Exception as e: 
                 continue
 
-        # Extract dictionary payload items safely
         candidates = [val for val in url_map.values()]
         print(f"Found {len(candidates)} keyword matches. Starting live check...")
 
@@ -280,17 +250,18 @@ def run_keyword_search():
                 sys.stdout.write(f"\rProgress: {i+1}/{len(candidates)} channels verified.")
                 sys.stdout.flush()
 
-        # 📂 FILE OUTPUT GENERATOR
         if live_content:
             safe_name = target_k.replace("/", "_").replace("\\", "_").replace(" ", "_")
             
+            # 1. Properly resolve filenames across all condition states
             if target_k in SERVER_KEYWORDS:
                 out_filename = f"{safe_name}-server-{date_str}.m3u"
             elif target_k in GROUP_KEYWORDS:
                 out_filename = f"{safe_name}-group-title-{date_str}.m3u"
             else:
                 out_filename = f"{safe_name}-{date_str}.m3u"
-
+                
+            # 2. Build your final path safely now that out_filename definitely exists
             out_path = os.path.join(OUTPUT_FOLDER, out_filename)
             
             # Alphabetize channel list cleanly while safeguarding object variances
@@ -316,7 +287,6 @@ def run_keyword_search():
                 print(f"\n❌ Error writing output playlist file: {write_error}")
         else:
             print(f"\n⚠️ No live channels verified for target: {target_k}")
-            
             
     print("\n All target keyword searches have successfully completed.")
 
