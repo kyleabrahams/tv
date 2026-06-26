@@ -23,20 +23,25 @@ import yaml
 from tqdm import tqdm
 
 # ---------- CONFIG ----------
-# Source M3U playlist file path (relative to repo execution root)
-SOURCE_M3U = os.path.join("list", "list.m3u")
+# Dynamically locate the absolute directory where this script file lives
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Navigate up one folder to hit the root level of your repository
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
 
-# ProtonVPN configuration profile file path
-VPN_CONFIG = os.path.join("VPN", "ca.protonvpn.udp.ovpn")
+# Source M3U playlist file path (Anchored to the repository root)
+SOURCE_M3U = os.path.join(REPO_ROOT, "list", "list.m3u")
+
+# ProtonVPN configuration profile file path (Anchored to the repository root)
+VPN_CONFIG = os.path.join(REPO_ROOT, "VPN", "ca.protonvpn.udp.ovpn")
+
+# Destination path target for GitHub Action artifact pipeline collections
+LOG_OUTPUT_PATH = os.path.join(SCRIPT_DIR, "offline_channel_log.yml")
 
 # Timeout buffer allocation for VPN network handshake setup (seconds)
 VPN_WAIT = 10  
 
 # Local hardcoded fallback authentication configuration for Mac environments
 CRED_FILE = "/Volumes/Kyle4tb1223/Documents/_VPN/proton_credentials.txt"
-
-# Destination path target for GitHub Action artifact pipeline collections
-LOG_OUTPUT_PATH = os.path.join("scripts", "offline_channel_log.yml")
 
 # System global variables
 VPN_USERNAME = os.environ.get("VPN_USERNAME")
