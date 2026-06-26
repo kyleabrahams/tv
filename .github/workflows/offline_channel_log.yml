@@ -7,7 +7,7 @@ on:
 
 jobs:
   vpn_iptv_check:
-    name: Offline Channel Log   # ← friendly display name
+    name: Offline Channel Log
     runs-on: ubuntu-latest
 
     env:
@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: |
@@ -27,7 +27,8 @@ jobs:
 
       - name: Run IPTV offline checker
         run: |
-          python3 -u scripts/vpn_iptv_checker-alive.py || echo "Script finished with errors"
+          # sudo -E is mandatory to pass VPN_USERNAME/PASSWORD into root context for OpenVPN
+          sudo -E python3 -u scripts/vpn_iptv_checker-alive.py || echo "Script finished with errors"
 
       - name: Upload offline log as artifact
         if: success() || failure()

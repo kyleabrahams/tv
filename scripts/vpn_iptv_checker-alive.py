@@ -1,4 +1,4 @@
-# vpn_iptv_checker-alive.py Mar 5 2026 205 pm
+# vpn_iptv_checker-alive.py Jun 26 2026 1025 am
 
 # brew install openvpn
 # brew install ffmpeg
@@ -11,68 +11,52 @@
 # git clone https://github.com/freearhey/iptv-checker.git
 # python3 /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/vpn_iptv_checker-alive.py
 
-from tqdm import tqdm  # add this at the top
-import subprocess
-import time
+#!/usr/bin/env python3
 import os
-from datetime import datetime
+import sys
+import time
 import shutil
 import tempfile
-import sys
-# import yaml
+import subprocess
+from datetime import datetime
+import yaml
+from tqdm import tqdm
 
 # ---------- CONFIG ----------
-# Source M3U file (full playlist) — relative to repo
+# Source M3U playlist file path (relative to repo execution root)
 SOURCE_M3U = os.path.join("list", "list.m3u")
 
-# ProtonVPN credentials from GitHub Actions secrets
-# Will fallback to local file if these are not set
+# ProtonVPN configuration profile file path
+VPN_CONFIG = os.path.join("VPN", "ca.protonvpn.udp.ovpn")
+
+# Timeout buffer allocation for VPN network handshake setup (seconds)
+VPN_WAIT = 10  
+
+# Local hardcoded fallback authentication configuration for Mac environments
+CRED_FILE = "/Volumes/Kyle4tb1223/Documents/_VPN/proton_credentials.txt"
+
+# Destination path target for GitHub Action artifact pipeline collections
+LOG_OUTPUT_PATH = os.path.join("scripts", "offline_channel_log.yml")
+
+# System global variables
 VPN_USERNAME = os.environ.get("VPN_USERNAME")
 VPN_PASSWORD = os.environ.get("VPN_PASSWORD")
 
-# ProtonVPN config file (committed to repo, without credentials)
-VPN_CONFIG = os.path.join("VPN", "ca.protonvpn.udp.ovpn")
-
-VPN_WAIT = 10  # seconds to wait for VPN to connect
-
-# Local credentials file (for Mac)
-CRED_FILE = "/Volumes/Kyle4tb1223/Documents/_VPN/proton_credentials.txt"
 
 # ---------- CREDENTIALS ----------
 def load_vpn_credentials(local_file_path=None):
-    creds = {}
-
-    # 1️⃣ Try local file first
-    if local_file_path and os.path.isfile(local_file_path):
-        with open(local_file_path, "r") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#"):
-                    continue
-                if "=" not in line:
-                    continue
-                key, value = line.split("=", 1)
-                creds[key.strip().lower()] = value.strip()
-
-    # 2️⃣ Fallback to environment variables
-    username = creds.get("username") or os.environ.get("VPN_USERNAME")
-    password = creds.get("password") or os.environ.get("VPN_PASSWORD")
-
-    if not username or not password:
-        raise ValueError(
-            f"VPN credentials not found. Make sure the file exists or set VPN_USERNAME and VPN_PASSWORD in the environment."
-        )
-
-    return username, password
-
-
-# ---------- CREDENTIALS ----------
-def load_vpn_credentials(local_file_path=None):
+    """Loads operational credentials prioritizing active runtime environment variables."""
     global VPN_USERNAME, VPN_PASSWORD
 
-    # Try local file first if environment variables not set
-    if (not VPN_USERNAME or not VPN_PASSWORD) and local_file_path and os.path.isfile(local_file_path):
-        with open(local_file_path, "r") as f:
+    # 1️⃣ GitHub Actions Check: If variables are set via runner pipeline env mapping, use them
+    if VPN_USERNAME and VPN_PASSWORD:
+        print("VPN credentials successfully loaded from environment variables.", flush=True)
+        return
+
+    # 2️⃣ Local Machine Fallback: Look up configuration details inside local disk storage path
+    if local_file_path and os.path.isfile(local_file_path):
+        print(f"Loading local credentials from tracking file: {local_file_path}...", flush=True)
+        with open(local_file_path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith("#") or "=" not in line:
@@ -85,22 +69,25 @@ def load_vpn_credentials(local_file_path=None):
                 elif key == "password":
                     VPN_PASSWORD = value
 
+    # 3️⃣ Structural Exception Verification Safeguard
     if not VPN_USERNAME or not VPN_PASSWORD:
         raise ValueError(
-            "VPN credentials not found. Set VPN_USERNAME and VPN_PASSWORD as env variables or provide local credentials file."
+            "VPN credentials missing! Please configure VPN_USERNAME and VPN_PASSWORD values."
         )
 
 
-# ---------- VPN ----------
+# ---------- VPN UTILITIES ----------
 def connect_vpn(vpn_config_path, username, password):
-    """Connect to VPN using provided credentials."""
+    """Spawns background OpenVPN sub-processes using secure ephemeral login parameters."""
+    if not os.path.isfile(vpn_config_path):
+        raise FileNotFoundError(f"OpenVPN connection profile missing at: {vpn_config_path}")
 
-    # Create temporary credentials file
+    # Writes a safe temporary credential file to feed stdin routing profiles
     with tempfile.NamedTemporaryFile(mode="w", delete=False) as tmp:
         tmp.write(f"{username}\n{password}\n")
         tmp_path = tmp.name
 
-    print("Starting VPN connection...", flush=True)
+    print("Initializing system OpenVPN configuration routing network...", flush=True)
 
     subprocess.Popen(
         [
@@ -113,25 +100,28 @@ def connect_vpn(vpn_config_path, username, password):
         stderr=subprocess.DEVNULL
     )
 
-    print(f"Waiting {VPN_WAIT} seconds for VPN to establish...", flush=True)
+    print(f"Waiting {VPN_WAIT} seconds for stable secure network handshake...", flush=True)
     time.sleep(VPN_WAIT)
-    print("VPN should now be connected.", flush=True)
+    print("Network routing verification active.", flush=True)
 
-    # Remove temporary credentials file
-    os.remove(tmp_path)
+    # Detach and destroy clear-text files safely
+    try:
+        os.remove(tmp_path)
+    except OSError:
+        pass
 
 
-# ---------- FFPROBE ----------
+# ---------- VALIDATION CORE ----------
 def check_ffprobe():
+    """Validates existence of local tool installations."""
     if shutil.which("ffprobe") is None:
-        print("WARNING: 'ffprobe' not found. Install ffmpeg with 'brew install ffmpeg' to avoid errors.")
+        print("WARNING: 'ffprobe' was not located within system search environments.", flush=True)
     else:
-        print(f"ffprobe found at {shutil.which('ffprobe')}")
+        print(f"System ffprobe binary mapped at: {shutil.which('ffprobe')}", flush=True)
 
 
-# ---------- CHANNEL CHECK ----------
 def check_channel_live(url):
-    """Check if a stream is online using ffprobe."""
+    """Probes stream link configurations using direct ffprobe connection queries."""
     if not url:
         return False
     try:
@@ -146,10 +136,11 @@ def check_channel_live(url):
         return False
 
 
+# ---------- METRICS PROCESSOR ----------
 def parse_and_check_m3u(m3u_path):
-    """Check channels and print offline channels in real-time, ignoring 'ott.'."""
+    """Parses playlist data items, tracks operational states, and dumps structured log files."""
     if not os.path.isfile(m3u_path):
-        raise FileNotFoundError(f"Source M3U not found: {m3u_path}")
+        raise FileNotFoundError(f"Source M3U configuration file missing: {m3u_path}")
 
     in_actions = os.environ.get("GITHUB_ACTIONS") == "true"
 
@@ -162,16 +153,17 @@ def parse_and_check_m3u(m3u_path):
             name = line.split(",", 1)[1] if "," in line else "Unknown"
             url = lines[i + 1] if i + 1 < len(lines) else None
             
-            # Skip adding the channel if 'ott.' is anywhere in its name (case-insensitive)
+            # String parsing exclusion filter for 'ott.' elements
             if "ott." in name.lower():
                 continue
                 
             channel_list.append((name, url))
 
     offline_channels = []
+    
     with tqdm(
         total=len(channel_list),
-        desc="Checking channels",
+        desc="Validating IPTV Streams",
         unit="ch",
         dynamic_ncols=True,
         disable=in_actions
@@ -179,20 +171,40 @@ def parse_and_check_m3u(m3u_path):
         for name, url in channel_list:
             alive = url and not url.startswith("#") and check_channel_live(url)
             if not alive:
-                status = "No URL (offline)" if not url else "Offline"
-                offline_channels.append((name, status))
+                status = "Empty URL Argument" if not url else "Offline"
+                offline_channels.append({
+                    "name": name,
+                    "status": status,
+                    "url": url if url else "None"
+                })
                 print(f"❌ {name}: {status}", flush=True)
             pbar.update(1)
 
-    print("\nSummary:", flush=True)
-    print(f"Total channels: {len(channel_list)}", flush=True)
-    print(f"Offline channels: {len(offline_channels)}", flush=True)
+    print("\nProcessing Verification Summary:", flush=True)
+    print(f"Total Monitored Streams: {len(channel_list)}", flush=True)
+    print(f"Dead Stream Targets Detected: {len(offline_channels)}", flush=True)
+
+    # Document wrapper dictionary for structured logging
+    log_payload = {
+        "scan_timestamp": datetime.now().isoformat(),
+        "total_monitored_channels": len(channel_list),
+        "total_offline_channels": len(offline_channels),
+        "offline_channels_list": offline_channels
+    }
+
+    # Ensure parent folder directory structure paths exist
+    os.makedirs(os.path.dirname(LOG_OUTPUT_PATH), exist_ok=True)
+    
+    with open(LOG_OUTPUT_PATH, "w", encoding="utf-8") as yaml_out:
+        yaml.dump(log_payload, yaml_out, default_flow_style=False, sort_keys=False)
+        
+    print(f"Metrics output generated successfully at: {LOG_OUTPUT_PATH}", flush=True)
 
 
-# ---------- MAIN ----------
+# ---------- SYSTEM RUNTIME APPLICATION ENTRY ----------
 def main():
     check_ffprobe()
-    load_vpn_credentials(CRED_FILE)  # sets VPN_USERNAME / VPN_PASSWORD
+    load_vpn_credentials(CRED_FILE)
     connect_vpn(VPN_CONFIG, VPN_USERNAME, VPN_PASSWORD)
     parse_and_check_m3u(SOURCE_M3U)
 
