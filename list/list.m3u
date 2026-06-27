@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 25 1220 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 27 828 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -75,8 +75,12 @@ http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="CityNews247Toronto.ca" tvg-name="05 CityNews Toronto HLSIPTV" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7 
 # https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 
-#EXTINF:-1 tvg-id="CityNews247Toronto.ca" tvg-name="City News 24/7" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7
-https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+# #EXTINF:-1 tvg-id="CityNews247Toronto.ca" tvg-name="City News 24/7" tvg-logo="https://i.ibb.co/mSNfvhT/city-news-247-1.png" group-title="News",City News 24/7
+# https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
+
+#EXTINF:-1 tvg-id="CityNews247Toronto.ca" tvg-name="City News 24/7" tvg-logo="https://ibb.co" group-title="News" http-user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",City News 24/7
+https://akamaized.net
+
 
 
 # #EXTINF:-1 tvg-id="Citytv.Toronto.HD.ca2" tvg-name="07 Citytv Toronto" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto toh.
@@ -919,8 +923,10 @@ https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
 
 # #EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/47362
-#EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree lunar.
-http://lunar.pm:8080/Tedandjon/Together2/67093
+# #EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/67093
+#EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree kytv.
+http://kytv.xyz:80/brendan1/brendan1/175917.ts
 # #EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418503
 # #EXTINF:-1 tvg-id="Peachtree.TV.us2" tvg-name="70 Peachtree TV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/peachtree-tv-us.png?raw=true" group-title="USA",Peachtree toh.
@@ -1511,9 +1517,10 @@ http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/50485
 # #EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime 23.237
 # http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
-#EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime try.
-http://trytv.icu:8080/96066144/96066144/46214
-
+# #EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime try.
+# http://trytv.icu:8080/96066144/96066144/46214
+#EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14168
 
 # #EXTINF:-1 tvg-id="I547.11116.schedulesdirect.org" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 
 # http://fl7.moveonjoy.com/SHOWTIME_2/index.m3u8
@@ -1822,10 +1829,10 @@ http://tvmate.icu:8080/0Ru8WD/642274/99138
 # https://zekonew.newkso.ru/zeko/premium355/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 # #EXTINF:-1 tvg-id="I351.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5 xip.
 # http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/53653
-#EXTINF:-1 tvg-id="I351.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5 lun.
-http://lunar.pm:8080/Tedandjon/Together2/20849
-
-
+# #EXTINF:-1 tvg-id="I351.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5 lun.
+# http://lunar.pm:8080/Tedandjon/Together2/20849
+#EXTINF:-1 tvg-id="I351.50717.schedulesdirect.org" tvg-name="Channel 5" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-5-uk.png?raw=true" group-title="UK",Channel 5 tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/53653
 
 # #EXTINF:-1 group-title="UK" tvg-id="SkyArts.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/sky-arts-uk.png" tvg-name="Sky Arts",Sky Arts xy.
 # https://xyzdddd.mizhls.ru/lb/premium683/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -1921,8 +1928,10 @@ http://1tv41.icu:8080/a0dMwj/624002/35256
 # https://xyzdddd.mizhls.ru/lb/premium681/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="Sky.ScFi/HorHD.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Sci-Fi Horror xip.
 # http://xxip25.top:8080/13yXsS/001616/35248
+# #EXTINF:-1 tvg-id="Sky.ScFi/HorHD.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Sci-Fi Horror kyt.
+# http://kytv.xyz:80/brendan1/brendan1/2060758.ts
 #EXTINF:-1 tvg-id="Sky.ScFi/HorHD.uk" tvg-logo="https://i.ibb.co/LdqjdPg3/sky-cinema-scifi-horror.png" tvg-name="Sky Cinema Sci-Fi Horror" group-title="Movies",Sky Sci-Fi Horror kyt.
-http://kytv.xyz:80/brendan1/brendan1/2060758.ts
+http://bgdc.live:25461/biosysinc/90941859/14932
 
 # #EXTINF:-1 group-title="Movies" tvg-id="Sky.Cinema.Select.uk" tvg-logo="https://i.ibb.co/qLj586sK/sky-cinema-select.png" tvg-name="Sky Cinema Select"Sky Select xy.
 # https://xyzdddd.mizhls.ru/lb/premium672/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
@@ -3243,23 +3252,29 @@ http://41.205.93.154/ESPN/index.m3u8
 
 # #EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U fl2.
 # http://fl7.moveonjoy.com/ESPN_U/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/10255
+# #EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/10255
+#EXTINF:-1 tvg-id="ESPNU.HD.us2" tvg-name="ESPN U" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-u-us.png?raw=true" group-title="Sports",ESPN U bgdc.
+http://bgdc.live:25461/biosysinc/90941859/38228
 
 # #EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509098
 
 # #EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 fl2.
 # http://fl7.moveonjoy.com/ESPN_2/index.m3u8
-#EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 ax.
-https://a1xs.vip/40000012
+# #EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 ax.
+# https://a1xs.vip/40000012
+#EXTINF:-1 tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-2-us.png?raw=true" group-title="Sports",ESPN2 bgdc.
+http://bgdc.live:25461/biosysinc/90941859/38227
 
 # #EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNews Server 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509100
 # #EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNews Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews fl2.
 # http://fl7.moveonjoy.com/ESPN_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNews Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews .HY
-https://maldivesn.net/hilaytv/espnnews
+# #EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNews Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews .HY
+# https://maldivesn.net/hilaytv/espnnews
+#EXTINF:-1 tvg-id="ESPNEWS.HD.us2" tvg-name="ESPNews Server 1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espnews-us.png?raw=true" group-title="Sports",ESPNews bgdc.
+http://bgdc.live:25461/biosysinc/90941859/38229
 
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Detroit.HD.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Detroit tvm.
 http://tvmate.icu:8080/0Ru8WD/642274/20936
@@ -3313,17 +3328,22 @@ https://jmp2.uk/str-7281.m3u8
 # http://fl7.moveonjoy.com/FOX_Sports_1/index.m3u8
 # #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 MJI.
 # http://212.102.60.231/FOX_Sports_1/index.m3u8
-#EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 try.
-http://trytv.icu:8080/96066144/96066144/1846
+# #EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 try.
+# http://trytv.icu:8080/96066144/96066144/1846
+#EXTINF:-1 tvg-id="FS1.Fox.Sports.1.HD.us2" tvg-name="FOX Sports 1 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-1-us.png?raw=true" group-title="Sports",FOX Sports 1 bgdc.
+http://bgdc.live:25461/biosysinc/90941859/100735
 
-
-#EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="FOX Sports 2 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-2-us.png?raw=true" group-title="Sports",FOX Sports 2 23.237
-http://23.237.104.106:8080/USA_FS2/index.m3u8
+# #EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="FOX Sports 2 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-2-us.png?raw=true" group-title="Sports",FOX Sports 2 23.237
+# http://23.237.104.106:8080/USA_FS2/index.m3u8
+#EXTINF:-1 tvg-id="FS2.Fox.Sports.2.HD.us2" tvg-name="FOX Sports 2 USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/fox-sports-2-us.png?raw=true" group-title="Sports",FOX Sports 2 bgdc
+http://bgdc.live:25461/biosysinc/90941859/99151
 
 # #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418468
-#EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing xyj.
-http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/212531
+# #EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing xyj.
+# http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/212531
+#EXTINF:-1 tvg-id="FoxSportsRacing.us" tvg-name="FOX Sports Racing USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/fox-sports-racing-ca.png?raw=true" group-title="Automotive",Fox Sports Racing sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19144/index.m3u8
 
 # #EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="US156:NBC_Golf_Channel USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="Sports",Golf Channel
 # http://fl7.moveonjoy.com/GOLF_CHANNEL/index.m3u8

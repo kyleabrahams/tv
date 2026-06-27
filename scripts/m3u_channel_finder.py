@@ -26,7 +26,7 @@ M3U_FOLDERS = [
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["T+E"] # 2. Keywords to search within the channel name / meta
+KEYWORDS = ["CTV"] # 2. Keywords to search within the channel name / meta
 SERVER_KEYWORDS = []
 
 KEYWORDS_MAP = {
@@ -58,15 +58,28 @@ HEADERS = {
 # 🏷️ TAG EXTRACTION TOGGLES
 KEEP_TVG_ID = True # True / False   
 
+
+# ---------------------
+# ENVIRONMENT DEPS UTILITY <-- PLACE IT RIGHT HERE
+# ---------------------
+def check_ffprobe():
+    """Validates availability of local decoding tool dependencies if toggle is active."""
+    if not FILTER_VIDEO_LESS:
+        print("ℹ️ Skipping ffprobe system path analysis (Deep Video Check is currently disabled).\n", flush=True)
+        return
+
+    ffprobe_path = shutil.which("ffprobe")
+    if ffprobe_path is None:
+        print("❌ WARNING: 'ffprobe' execution binary was not located in system search environments.", flush=True)
+        print("   Install ffmpeg via Homebrew ('brew install ffmpeg') to filter videoless channels properly.\n", flush=True)
+    else:
+        print(f"✅ Active stream profile processor mapped at: {ffprobe_path}\n", flush=True)
+
+
 # ---------------------
 # HELPER FUNCTIONS
 # ---------------------
 def is_channel_live(url):
-    """
-    Two-Phase channel stream verification module with toggle support:
-    Phase 1: Validates server connectivity via fast HTTP response headers.
-    Phase 2 (Optional): Verifies that an active video track exists via ffprobe.
-    """
     if not url or url.startswith("#"):
         return False
         
@@ -76,20 +89,26 @@ def is_channel_live(url):
         "Connection": "keep-alive"
     }
 
-    # 1️⃣ PHASE 1: HTTP Fast-Response Connectivity Check
+    # 1️⃣ PHASE 1: HTTP Fast-Response Connectivity Check (Fully Silenced)
     try:
-        response = requests.get(
-            url, 
-            stream=True, 
-            timeout=5, 
-            headers=custom_headers,
-            allow_redirects=True
-        )
-        is_accessible = response.status_code in (200, 206)
-        response.close()
-        
-        if not is_accessible:
-            return False
+        # Suppress internal thread logging leaks by creating a session context
+        with requests.Session() as session:
+            # Lower-level loggers can sometimes still push warning text to stderr
+            import logging
+            logging.getLogger("urllib3").setLevel(logging.ERROR)
+            
+            response = session.get(
+                url, 
+                stream=True, 
+                timeout=5, 
+                headers=custom_headers,
+                allow_redirects=True
+            )
+            is_accessible = response.status_code in (200, 206)
+            response.close()
+            
+            if not is_accessible:
+                return False
             
     except Exception:
         return False
@@ -98,20 +117,20 @@ def is_channel_live(url):
     if not FILTER_VIDEO_LESS:
         return True
 
-    # 3️⃣ PHASE 2: True Video Track Payload Inspection (Blocks audio-only / dead data loops)
+    # 3️⃣ PHASE 2: True Video Track Payload Inspection (Completely Muted)
     try:
         result = subprocess.run(
             [
                 "ffprobe", 
-                "-v", "error", 
+                "-v", "quiet",                               # 🌟 Mutes internal ffprobe engine logs
                 "-user_agent", custom_headers["User-Agent"],
-                "-select_streams", "v",                      # Track video containers exclusively
+                "-select_streams", "v",                      
                 "-show_entries", "stream=codec_type",
                 "-of", "csv=p=0",
                 url
             ],
             stdout=subprocess.PIPE,
-            stderr=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,                       # 🌟 Safely discards system streaming errors
             timeout=10
         )
         
@@ -123,8 +142,8 @@ def is_channel_live(url):
         return False
 
 
+
 def process_channel(candidate_dict):
-    """Bridge runner worker target for the concurrent ThreadPoolExecutor map."""
     if not candidate_dict or 'url' not in candidate_dict:
         return None
         
@@ -135,11 +154,11 @@ def process_channel(candidate_dict):
     return None
 
 
+
 # ---------------------
 # PARSING & MATCHING ENGINE
 # ---------------------
 def run_keyword_search():
-    """Scans folders, batches extraction targets, and loops validation queues sequentially."""
     m3u_files = []
     for folder in M3U_FOLDERS:
         if os.path.isdir(folder):
@@ -151,14 +170,24 @@ def run_keyword_search():
         print("Error: No source .m3u or .m3u8 files located in configured directories.")
         return
 
-    # Fallback default target if your primary keywords tracking array is blank
-    targets = KEYWORDS if KEYWORDS else ["Channels"]
+    # Prioritise GROUP_KEYWORDS, then KEYWORDS, then fallback
+    is_group_search = False
+    if GROUP_KEYWORDS:
+        targets = GROUP_KEYWORDS
+        is_group_search = True
+        print("🔍 Mode: Group-Title Extraction")
+    elif KEYWORDS:
+        targets = KEYWORDS
+        print("🔍 Mode: Channel Name Keyword Extraction")
+    else:
+        targets = ["Channels"]
+        print("🔍 Mode: Global Fallback Extraction")
+
     print(f"DEBUG: All targets found: {targets}\n")
 
     compiled_blocklist = [item.lower() for item in (BLOCKLIST + PERMANENT_BLOCKLIST)]
     datestamp = datetime.now().strftime("%Y-%m-%d")
 
-    # Loop through each individual keyword sequentially as a separate run target
     for target in targets:
         print(f"🎯 TARGET: {target}")
         print("Parsing local files...")
@@ -182,83 +211,95 @@ def run_keyword_search():
 
                     line_lower = line.lower()
 
-                    # Drop blocklist violations instantly
                     if any(bad in line_lower or bad in url.lower() for bad in compiled_blocklist):
                         continue
 
-                    # Search matching constraints (Handles symbols like '+' safely)
                     matched = False
-                    if target == "Channels":  # Check everything if default fallback is active
-                        matched = True
+                    
+                    # Explicit group-title string matching
+                    if is_group_search:
+                        group_match = re.search(r'group-title="([^"]+)"', line, re.IGNORECASE)
+                        if group_match:
+                            group_value_lower = group_match.group(1).lower()
+                            if STRICT_MATCH:
+                                pattern = rf"(?:^|[^a-zA-Z0-9]){re.escape(target_lower)}(?:$|[^a-zA-Z0-9])"
+                                matched = bool(re.search(pattern, group_value_lower))
+                            else:
+                                matched = target_lower in group_value_lower
                     else:
-                        if STRICT_MATCH:
-                            # 🌟 SAFE BOUNDARY MATCH: Replaces \b to support non-alphanumeric symbols safely
-                            pattern = rf"(?:^|[^a-zA-Z0-9]){re.escape(target_lower)}(?:$|[^a-zA-Z0-9])"
-                            matched = bool(re.search(pattern, line_lower))
+                        # Standard Channel Name / Global Fallback Match Logic
+                        if target == "Channels":  
+                            matched = True
                         else:
-                            matched = target_lower in line_lower
-
+                            if STRICT_MATCH:
+                                pattern = rf"(?:^|[^a-zA-Z0-9]){re.escape(target_lower)}(?:$|[^a-zA-Z0-9])"
+                                matched = bool(re.search(pattern, line_lower))
+                            else:
+                                matched = target_lower in line_lower
 
                     if matched:
-                        # 🌟 SERVER EXTRACTION LOGIC
-                        # Extracts 'tv14s' from 'http://tv14s.xyz:8080/...'
                         domain_match = re.search(r'https?://([^:/\s]+)', url)
                         if domain_match:
                             domain = domain_match.group(1)
-                            # Split by dots and grab the first part (e.g., 'tv14s' from 'tv14s.xyz')
                             server_name = domain.split('.')[0]
-                            
-                            # Append the server name cleanly to the #EXTINF metadata line
                             modified_line = f"{line.strip()} ({server_name})"
                         else:
                             modified_line = line.strip()
 
                         candidates.append({'extinf': modified_line, 'url': url})
 
-        # Deduplicate streams matching identical streaming links
-        unique_candidates = {c['url']: c for c in candidates}.values()
+        # Safeguard dictionary conversion to static array list
+        unique_candidates = list({c['url']: c for c in candidates}.values())
         total_found = len(unique_candidates)
-        print(f"Found {total_found} keyword matches. Starting live check...")
+        print(f"Found {total_found} matches. Starting live check...")
 
         if total_found == 0:
             print(f"⚠️ No matches found for target: {target}\n")
             continue
-
-        # Execute parallel network processing pools
+            
+        # 🌟 LIVE CHECK PROCESSING SYSTEM (IDE-COMPATIBLE STATS WRITER)
         live_channels = []
-        with ThreadPoolExecutor(max_workers=20) as executor:
-            results = list(executor.map(process_channel, unique_candidates))
-            live_channels = [r for r in results if r is not None]
+        max_workers = 30  
+        
+        print(f"Checking {total_found} streams in parallel using {max_workers} threads...", flush=True)
+        
+        checked_count = 0
+        # Print a progress line every N channels to prevent terminal scrolling
+        print_interval = max(1, total_found // 20)  # Updates roughly 20 times total (every 5%)
 
-        print(f"Progress: {total_found}/{total_found} channels verified.")
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            results = executor.map(process_channel, unique_candidates)
+            
+            for res in results:
+                checked_count += 1
+                if res:
+                    live_channels.append(res)
+                
+                # Only print a normal line when hitting an interval step, or on the final item
+                if checked_count % print_interval == 0 or checked_count == total_found:
+                    percent = (checked_count / total_found) * 100
+                    print(f" -> [{percent:5.1f}%] Processed {checked_count}/{total_found} channels... (Live found: {len(live_channels)})", flush=True)
 
-        # Save and write structured out streams using your preferred formatting standard
-        os.makedirs(OUTPUT_FOLDER, exist_ok=True)
-        file_prefix = re.sub(r'[^\w\-_]', '', target.replace(" ", "_"))
-        output_file_name = f"{file_prefix}-{datestamp}.m3u"
-        output_path = os.path.join(OUTPUT_FOLDER, output_file_name)
+        print("Verification complete.")
 
-        try:
-            with open(output_path, 'w', encoding='utf-8') as out_f:
-                out_f.write("#EXTM3U\n")
-                for ch in live_channels:
-                    out_f.write(f"{ch['extinf']}\n")
-                    out_f.write(f"{ch['url']}\n")
-            print(f"✅ Saved {len(live_channels)} live channels to {output_path}\n")
-        except Exception as e:
-            print(f"❌ Error writing output target file: {e}\n")
-
-def check_ffprobe():
-    """Validates availability of local decoding tool dependencies if toggle is active."""
-    if not FILTER_VIDEO_LESS:
-        print("Skipping ffprobe system path analysis (Deep Video Check is currently disabled).\n")
-        return
-
-    if shutil.which("ffprobe") is None:
-        print("WARNING: 'ffprobe' execution binary was not located in system search environments.")
-        print("Install ffmpeg via Homebrew ('brew install ffmpeg') to filter videoless channels properly.\n")
-    else:
-        print(f"Active stream profile processor mapped at: {shutil.which('ffprobe')}\n")
+        # 🌟 STORAGE ENGINE
+        if live_channels:
+            os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+            # Remove any dangerous punctuation from target to prevent file path generation errors
+            safe_target_name = "".join([c for c in target if c.isalnum() or c == ' ']).rstrip()
+            output_file = os.path.join(OUTPUT_FOLDER, f"{safe_target_name}_{datestamp}.m3u")
+            
+            try:
+                with open(output_file, 'w', encoding='utf-8') as out_f:
+                    out_f.write("#EXTM3U\n")
+                    for channel in live_channels:
+                        out_f.write(f"{channel['extinf']}\n")
+                        out_f.write(f"{channel['url']}\n")
+                print(f"💾 File successfully saved to: {output_file}\n", flush=True)
+            except Exception as e:
+                print(f"❌ Error writing output file: {e}\n", flush=True)
+        else:
+            print("⚠️ No live streams survived verification. Skipping file save.\n", flush=True)
 
 
 # ---------------------
