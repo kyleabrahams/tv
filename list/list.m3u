@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jun 27 946 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jul 1 915 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -4363,6 +4363,21 @@ https://jmp2.uk/rok-d6f71998860459eca1bed73db5988330.m3u8
 
 #EXTINF:-1 tvg-id="0abef49cfd6759b18f2ce64290cbdda3" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/0abef49cfd6759b18f2ce64290cbdda3/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1673450513655_HUDidentifier_filmRiseAction.png" tvg-chno="288" group-title="Extras",FilmRise Action
 https://jmp2.uk/rok-0abef49cfd6759b18f2ce64290cbdda3.m3u8
+
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN bgdc.1
+http://bgdc.live:25461/biosysinc/90941859/10378
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN bgdc.2
+http://bgdc.live:25461/biosysinc/90941859/31181
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tv14s.1
+http://tv14s.xyz:8080/BenA@443/443@6377/47213
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tv14s.2
+http://tv14s.xyz:8080/KP@NMB2/3052052689/1817
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tvmate.1
+http://tvmate.icu:8080/103022014/103022014/47213
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tvmate.2
+http://tvmate.icu:8080/0Ru8WD/642274/1817
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tvmate.3
+http://tvmate.icu:8080/0Ru8WD/642274/104884
 
 
 #EXTINF:-1,Bill Maher: Is Anyone Else Seeing This? (2025)
