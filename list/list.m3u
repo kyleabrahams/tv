@@ -50,7 +50,7 @@ http://tvmate.icu:8080/103022014/103022014/21376
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jul 1 915 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Jul 13 733 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -97,15 +97,19 @@ https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/Video-2M
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418432
 # #EXTINF:-1 tvg-id="Citytv.Toronto.HD.ca2" tvg-name="07 Citytv TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57394
-#EXTINF:-1 tvg-id="Citytv.Toronto.HD.ca2" tvg-name="07 Citytv TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto sew.
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6429/index.m3u8
+#EXTINF:-1 tvg-id="Citytv.Toronto.HD.ca2" tvg-name="07 Citytv TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/57394
+# #EXTINF:-1 tvg-id="Citytv.Toronto.HD.ca2" tvg-name="07 Citytv TV HD" tvg-logo="https://i.ibb.co/4pNvnSB/city-tv.png" group-title="Canada",Citytv Toronto sew.
+# http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6429/index.m3u8
 
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/ma`in/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto xy.
 # https://xyzdddd.mizhls.ru/lb/premium832/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423708
-#EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto
-https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
+# #EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto
+# https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
+#EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto bgdc.
+http://bgdc.live:25461/biosysinc/90941859/190940
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto 1tv.1
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57260
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto 1tv.2
@@ -124,7 +128,9 @@ https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5
 # #EXTINF:-1 tvg-id="I1051.44784.schedulesdirect.org" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto bgdc.
 # http://bgdc.live:25461/biosysinc/90941859/190861
 #EXTINF:-1 tvg-id="I1051.44784.schedulesdirect.org" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto sew.
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BMXKTN5RXYDNXT/6496/index.m3u8
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/6496/index.m3u8
+# #EXTINF:-1 tvg-id="I1051.44784.schedulesdirect.org" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto tv14s.
+# http://tv14s.xyz:8080/canglobaltv3/globe1344/47296
 # #EXTINF:-1 tvg-id="I1051.44784.schedulesdirect.org" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Toronto jac.
 # http://jackofclubs.vip:80/Miguel123/Miguel123/181918.ts
 # #EXTINF:-1 tvg-id="I1051.44784.schedulesdirect.org" tvg-name="08 CTV Toronto" tvg-logo="https://i.ibb.co/5RCkLBF/CTV-logo-2018-1.png" group-title="Canada",CTV Kitchener try.
