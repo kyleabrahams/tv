@@ -26,8 +26,8 @@ M3U_FOLDERS = [
 OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
-KEYWORDS = ["CTV"] # 2. Keywords to search within the channel name / meta
-SERVER_KEYWORDS = []
+KEYWORDS = [] # 2. Keywords to search within the channel name / meta
+SERVER_KEYWORDS = ["1tv"]
 
 KEYWORDS_MAP = {
     "South Africa": ["South Africa", "ZA", "SA", "SouthAfrica"],
