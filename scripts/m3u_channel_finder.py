@@ -27,7 +27,7 @@ OUTPUT_FOLDER = "/Volumes/Kyle4tb1223/_Android/_M3U/____Fetched/Channels"
 
 GROUP_KEYWORDS = [] # 1. Standalone search purely for the group-title tag
 KEYWORDS = [] # 2. Keywords to search within the channel name / meta
-SERVER_KEYWORDS = ["1tv"]
+SERVER_KEYWORDS = ["xxip25"]
 
 KEYWORDS_MAP = {
     "South Africa": ["South Africa", "ZA", "SA", "SouthAfrica"],

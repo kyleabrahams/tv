@@ -9,6 +9,10 @@ npm install -g epg-grabber jest typescript ts-node @ntlab/sfetch @octokit/plugin
 
 iptv-checker
 
+# Mp3-tagger.py Script
+
+uv run --with mutagen --with musicbrainzngs /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/mp3-tagger.py
+
 # Run scripts 
 cd scripts
 python3 -m venv myenv
