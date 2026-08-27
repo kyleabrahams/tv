@@ -11,7 +11,8 @@ iptv-checker
 
 # Mp3-tagger.py Script
 
-uv run --with mutagen --with musicbrainzngs /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/mp3-tagger.py
+uv run --with mutagen --with musicbrainzngs --with tqdm /Volumes/Kyle4tb1223/Documents/Github/tv/scripts/mp3-tagger.py
+
 
 # Run scripts 
 cd scripts
