@@ -52,7 +52,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 6 1113 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 6 1206 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -110,8 +110,10 @@ http://tv14s.xyz:8080/canglobaltv3/globe1344/57394
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/423708
 # #EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto
 # https://cbcrclinear-tor.akamaized.net/hls/live/2042760/CBCRCLINEAR_TOR_6/master5.m3u8
-#EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto bgdc.
-http://bgdc.live:25461/biosysinc/90941859/190940
+# #EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/190940
+#EXTINF:-1 tvg-id="I802.46245.schedulesdirect.org" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/57306
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto 1tv.1
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57260
 # #EXTINF:-1 tvg-id="CBLTDT.ca" tvg-name="06 CBC Toronto HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/cbc-toronto-ca.png?raw=true" group-title="Canada",CBC Toronto 1tv.2
@@ -188,8 +190,8 @@ http://tv14s.xyz:8080/canglobaltv3/globe1344/47237
 # http://ua-iptv.com:8080/Balcony11/8036405556/708854
 # #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="Canada",Bravo 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418498
-#EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="Canada",Bravo 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57379
+# #EXTINF:-1 tvg-id="I237.10057.schedulesdirect.org" tvg-name="09 OLN HD OLN > Bravo" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="Canada",Bravo bgdc.
+http://bgdc.live:25461/biosysinc/90941859/10373
 
 # #EXTINF:-1 tvg-id="Bravo.HD.us2" tvg-name="US Bravo (East) USATV" tvg-logo="https://i.ibb.co/Gp3sXqq/Bravo-2017-color.png" group-title="USA",US Bravo    
 # http://fl7.moveonjoy.com/BRAVO/index.m3u8
@@ -1069,16 +1071,21 @@ http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/962/index.m3u8
 http://lunar.pm:8080/Tedandjon/Together2/25724
 
 
-#EXTINF:-1 tvg-id="65d92a8c8b24c80008e285c0" tvg-name="21 BBC News" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News pluto.
-https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8
+# #EXTINF:-1 tvg-id="65d92a8c8b24c80008e285c0" tvg-name="21 BBC News" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News pluto.
+# https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8
+#EXTINF:-1 tvg-id="65d92a8c8b24c80008e285c0" tvg-name="21 BBC News" tvg-logo="https://i.ibb.co/kDW3BtT/BBC-News-Logo-wine-1.png" group-title="News",BBC News bgdc.
+http://bgdc.live:25461/biosysinc/90941859/10375
 
 #EXTINF:-1 tvg-id="I425.113876.schedulesdirect.org" tvg-name="HLN USATV" tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="Canada",HLN 23.237
 http://23.237.104.106:8080/USA_HLN/index.m3u8
 # #EXTINF:-1 tvg-id="I425.113876.schedulesdirect.org" tvg-name="HLN USATV" tvg-logo="https://i.ibb.co/Vj4Fsxg/HLNLogo2023-1.png" group-title="Canada",HLN 
 # http://fl7.moveonjoy.com/HLN/index.m3u8
 
-#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live pluto.
-https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
+# #EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live pluto.
+# https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
+#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live bgdc.
+http://bgdc.live:25461/biosysinc/90941859/187134
+
 # #EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
 # http://fl7.moveonjoy.com/BLOOMBERG/index.m3u8
 # #EXTINF:-1 tvg-id="BNN.Bloomberg.HD.ca2" tvg-name="57 BNN Bloomberg" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/bnn-bloomberg-ca.png?raw=true" group-title="News",BNN Bloomberg 23.
@@ -1315,8 +1322,10 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57437
 
 # #EXTINF:-1 tvg-id="HBO.Canada.West.HD.ca2" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 xip.
 # http://xxip25.top:8080/13yXsS/001616/57438
-#EXTINF:-1 tvg-id="HBO.Canada.West.HD.ca2" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 tv14s.
-http://tv14s.xyz:8080/canglobaltv3/globe1344/57438
+# #EXTINF:-1 tvg-id="HBO.Canada.West.HD.ca2" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 tv14s.
+# http://tv14s.xyz:8080/canglobaltv3/globe1344/57438
+#EXTINF:-1 tvg-id="HBO.Canada.West.HD.ca2" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 lunar.
+http://lunar.pm:8080/Tedandjon/Together2/18203
 # #EXTINF:-1 tvg-id="HBO.Canada.West.HD.ca2" tvg-name="HBO2" tvg-logo="https://i.postimg.cc/GtDyYJz6/HBO2-red.png" group-title="USA",HBO2 xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/181616
 
@@ -1425,13 +1434,18 @@ http://bgdc.live:25461/biosysinc/90941859/190924
 # http://fl7.moveonjoy.com/CRAVE_1/index.m3u8
 # #EXTINF:-1 tvg-id="I300.10191.schedulesdirect.org" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",Crave 1
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/23789
-#EXTINF:-1 tvg-id="I300.10191.schedulesdirect.org" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",Crave 1 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57309
+# #EXTINF:-1 tvg-id="I300.10191.schedulesdirect.org" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",Crave 1 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57309
+#EXTINF:-1 tvg-id="I300.10191.schedulesdirect.org" tvg-name="CRAVE 1 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-1-ca.png?raw=true" group-title="Movies",Crave 1 tv14s.
+http://tv14s.xyz:8080/KP@NMB2/3052052689/57309
 
 # #EXTINF:-1 tvg-id="I301.12222.schedulesdirect.org" tvg-name="CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="Movies",Crave 2
 # http://fl7.moveonjoy.com/CRAVE_2/index.m3u8
-#EXTINF:-1 tvg-id="I301.12222.schedulesdirect.org" tvg-name="CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="Movies",Crave 2 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57310
+# #EXTINF:-1 tvg-id="I301.12222.schedulesdirect.org" tvg-name="CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="Movies",Crave 2 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57310
+#EXTINF:-1 tvg-id="I301.12222.schedulesdirect.org" tvg-name="CRAVE 2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-2-ca.png?raw=true" group-title="Movies",Crave 2 tv14s.
+http://tv14s.xyz:8080/KP@NMB2/3052052689/57310
+
 # #EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418443
 # #EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 toh.
@@ -1440,13 +1454,17 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57310
 # http://xxip25.top:8080/13yXsS/001616/57322
 # #EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 fl3.
 # http://fl7.moveonjoy.com/CRAVE_3/index.m3u8
-#EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57322
+# #EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57322
+#EXTINF:-1 tvg-id="I302.12223.schedulesdirect.org" tvg-name="CRAVE 3 HD HLSIPTV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-3-ca.png?raw=true" group-title="Movies",Crave 3 tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/57322
 
 # #EXTINF:-1 tvg-id="I303.21351.schedulesdirect.org" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4
 # http://fl7.moveonjoy.com/CRAVE_4/index.m3u8
-#EXTINF:-1 tvg-id="I303.21351.schedulesdirect.org" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57311
+# #EXTINF:-1 tvg-id="I303.21351.schedulesdirect.org" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57311
+#EXTINF:-1 tvg-id="I303.21351.schedulesdirect.org" tvg-name="CRAVE 4 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/crave-4-ca.png?raw=true" group-title="Movies",Crave 4 tv14s.
+http://tv14s.xyz:8080/KP@NMB2/3052052689/57311
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s+.ca2" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418630
@@ -1456,8 +1474,10 @@ http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57311
 # http://user.scalecdn.co:8080/15453666/17668852/59884
 # #EXTINF:-1 tvg-id="Hollywood.Suite.70s+.ca2" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/175913
-#EXTINF:-1 tvg-id="Hollywood.Suite.70s+.ca2" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's kyt.
-http://kytv.xyz:80/brendan1/brendan1/1108840.ts
+# #EXTINF:-1 tvg-id="Hollywood.Suite.70s+.ca2" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's kyt.
+# http://kytv.xyz:80/brendan1/brendan1/1108840.ts
+#EXTINF:-1 tvg-id="Hollywood.Suite.70s+.ca2" tvg-name="Hollywood Suite 70's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-70s-movies-ca.png?raw=true" group-title="Movies" tvg-shift="0",Hollywood Suite 70's bgdc.
+http://bgdc.live:25461/biosysinc/90941859/16264
 
 # #EXTINF:-1 tvg-id="Hollywood.Suite.80s.and.90s.ca2" tvg-name="Hollywood Suite 80's" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/hollywood-suite-80s-movies-ca.png?raw=true" group-title="Movies",Hollywood Suite 80's 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418633
@@ -1619,8 +1639,10 @@ http://tvmate.icu:8080/0Ru8WD/642274/12744
 
 # #EXTINF:-1 tvg-id="MGM+.Drive-In.us2" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In 
 # http://fl7.moveonjoy.com/EPIX_DRIVE_IN/index.m3u8
-#EXTINF:-1 tvg-id="MGM+.Drive-In.us2" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In tvm.
-http://tvmate.icu:8080/0Ru8WD/642274/14193
+# #EXTINF:-1 tvg-id="MGM+.Drive-In.us2" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In tvm.
+# http://tvmate.icu:8080/0Ru8WD/642274/14193
+#EXTINF:-1 tvg-id="MGM+.Drive-In.us2" tvg-name="EPIX_DRIVE_IN" tvg-logo="https://i.ibb.co/m5tyxnD2/MGM-Drive-In-2023.png"group-title="Movies",MGM+ Drive-In bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14166
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/black-cinema-vod-us.png?raw=true" group-title="Movies",MGM Celebrates Black Cinema ott.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1724,9 +1746,10 @@ http://bgdc.live:25461/biosysinc/90941859/216179
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418071
 # #EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema ns1.
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/51143
-#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/17775
-
+# #EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/17775
+#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14918
 
 # #EXTINF:-1 tvg-id="Starz.Comedy.HD.us2" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",Starz Comedy
 # http://fl7.moveonjoy.com/STARZ_COMEDY/index.m3u8
@@ -1735,8 +1758,10 @@ http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 
 # #EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge
 # http://fl7.moveonjoy.com/STARZ_EDGE/index.m3u8
-#EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/16143
+# #EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/16143
+#EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14920
 
 # #EXTINF:-1 tvg-id="Starz.Encore.HD.us2" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 
 # http://fl7.moveonjoy.com/STARZ_ENCORE/index.m3u8
@@ -2630,9 +2655,10 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/0f5clvxn6o/out/v
 # http://212.102.60.231/American_Heroes_Channel/index.m3u8
 # #EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel noc.
 # http://nocable.cc:8080/live/billjones1944@yahoo.com/FZgUv7LbQd/10456.m3u8
-#EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel trytv.
-http://trytv.icu:8080/96066144/96066144/10456
-
+# #EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel trytv.
+# http://trytv.icu:8080/96066144/96066144/10456
+#EXTINF:-1 tvg-id="American.Heroes.Channel.HD.us2" tvg-name="US American Heroes Channel" tvg-logo="https://i.ibb.co/K9vTm2D/american-heroes-channel-us.png" group-title="USA",American Heroes Channel tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/10456
 
 # #EXTINF:-1 tvg-id="Antenna.Greek.TV.(ANTENA).us" tvg-name="Antenna" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/antenna-us.png" group-title="USA",Antenna
 # http://fl7.moveonjoy.com/Antenna/index.m3u8
@@ -2641,9 +2667,10 @@ http://trytv.icu:8080/96066144/96066144/10456
 # http://fl7.moveonjoy.com/Aspire/index.m3u8
 # #EXTINF:-1 tvg-id="ASPiRE.HD.us2" tvg-name="US Aspire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/aspire-tv-us.png?raw=true" group-title="USA",Aspire MJI.
 # http://212.102.60.231/Aspire/index.m3u8
-#EXTINF:-1 tvg-id="ASPiRE.HD.us2" tvg-name="US Aspire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/aspire-tv-us.png?raw=true" group-title="USA",Aspire trytv.
-http://trytv.icu:8080/96066144/96066144/21927
-
+# #EXTINF:-1 tvg-id="ASPiRE.HD.us2" tvg-name="US Aspire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/aspire-tv-us.png?raw=true" group-title="USA",Aspire trytv.
+# http://trytv.icu:8080/96066144/96066144/21927
+#EXTINF:-1 tvg-id="ASPiRE.HD.us2" tvg-name="US Aspire" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/aspire-tv-us.png?raw=true" group-title="USA",Aspire bgdc.
+http://bgdc.live:25461/biosysinc/90941859/40539
 
 #EXTINF:-1 tvg-id="AWE.A.Wealth.of.Entertainment.HD.us2" tvg-name="US A Wealth of Entertainment" tvg-logo="https://i.ibb.co/j92zkkj9/AWE.png" group-title="USA",AWE
 https://a-cdn.klowdtv.com/live1/awe_720p/playlist.m3u8
@@ -3051,8 +3078,10 @@ https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?Kids.
 # http://cdn1host.online:2999/kratorius/opLcbhlXaT/1665
 # #EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/424640
-#EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/21648																									
+# #EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/21648		
+#EXTINF:-1 tvg-id="PixL.us" tvg-name="US PixL (S)" tvg-logo="https://i.ibb.co/vQq7RT1/Pixl-1.png" group-title="Movies",PixL bgdc.
+http://bgdc.live:25461/biosysinc/90941859/48054
 
 # #EXTINF:-1 tvg-id="POP.-.East.us" tvg-name="US Pop USATV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/31/Pop_2015_Red.svg/revision/latest/scale-to-width-down/250?cb=20160701184500" group-title="USA",Pop 
 # http://fl7.moveonjoy.com/Pop_TV/index.m3u8
