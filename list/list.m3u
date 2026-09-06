@@ -52,7 +52,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 5 955 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 6 1113 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -1755,8 +1755,10 @@ http://bgdc.live:25461/biosysinc/90941859/14921
 
 # #EXTINF:-1 tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 
 # http://fl7.moveonjoy.com/STARZ_ENCORE_WESTERNS/index.m3u8
-#EXTINF:-1 tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/16263
+# #EXTINF:-1 tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/16263
+#EXTINF:-1 tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns bgdc.
+http://bgdc.live:25461/biosysinc/90941859/14922
 
 #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 lunar.
 http://lunar.pm:8080/Tedandjon/Together2/20815
@@ -2226,6 +2228,7 @@ https://jmp2.uk/plu-62e92951c2db99000787c00d.m3u8
 https://live-manifest.production-public.tubi.io/live/e7be5ad5-9044-4151-95d4-a9aae10ab0a5/playlist.m3u8
 #EXTINF:-1 tvg-id="d93912b4b21158fd95af2ceb8979c586" tvg-name="Dove Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD700016JY_20240520T221459SQUARE.png" group-title="Unlimited Series",Dove roku.
 https://jmp2.uk/rok-d93912b4b21158fd95af2ceb8979c586.m3u8
+
 # #EXTINF:-1 tvg-name="24/7 Dragon Ball Z" tvg-logo="https://static.wikia.nocookie.net/dragonuniverse/images/6/6a/Dragon_Ball_Z.png" group-title="Limited Series",Dragon Ball Z 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79572
 #EXTINF:-1 tvg-name="24/7 Dragon Ball Z" tvg-logo="https://static.wikia.nocookie.net/dragonuniverse/images/6/6a/Dragon_Ball_Z.png" group-title="Limited Series",Dragon Ball Z kytv.
@@ -2239,8 +2242,12 @@ https://streams2.sofast.tv/ptnr-yupptv/title-Drive_Speed/v1/master/611d79b11b77e
 
 #EXTINF:-1 tvg-id="USAJ30000039U" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CAAJ3400013EH_20220413T093439SQUARE.png_20220413093440.png" group-title="Comedy",Dry Bar Comedy xumo.
 https://live-content.xumo.com/1924/content/XM082SQ8R1ZWXA/22430253/master.m3u8
-#EXTINF:-1 tvg-name="24/7 DUCK TALES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Ducktales_80s_logo.png" group-title="Limited Series",Duck Tales 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125636
+
+# #EXTINF:-1 tvg-name="24/7 DUCK TALES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Ducktales_80s_logo.png" group-title="Limited Series",Duck Tales 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125636
+#EXTINF:-1 tvg-name="24/7 DUCK TALES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/Ducktales_80s_logo.png" group-title="Limited Series",Duck Tales lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132658
+
 #EXTINF:-1 tvg-id="WORLD.Channel.us2" tvg-logo="https://i.ibb.co/166FjsW/DW-news-stacked.png" group-title="News",DW News
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
@@ -2260,8 +2267,11 @@ https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-67291fdbc1edbd1509fb9d11.m3u8
 https://aka-live1050.delivery.roku.com/acc6197f-e3ba-446c-a829-dba5e8f5bbae/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="GB500007VM" tvg-logo="https://i.ibb.co/cYFcbrC/family-feud-2.png" group-title="Unlimited Series",Family Feud xumo.
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991232
-#EXTINF:-1 tvg-name="24/7 FAMILY GUY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Family_Guy_Logo.svg/330px-Family_Guy_Logo.svg.png" group-title="Limited Series",Family Guy 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66317
+
+# #EXTINF:-1 tvg-name="24/7 FAMILY GUY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Family_Guy_Logo.svg/330px-Family_Guy_Logo.svg.png" group-title="Limited Series",Family Guy 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66317
+#EXTINF:-1 tvg-name="24/7 FAMILY GUY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Family_Guy_Logo.svg/330px-Family_Guy_Logo.svg.png" group-title="Limited Series",Family Guy kytv.
+http://kytv.xyz:80/brendan1/brendan1/2903288.ts
 
 # #EXTINF:-1 tvg-name="24/7 FAMILY MATTERS" tvg-logo="https://image.tmdb.org/t/p/w500/gZqs0wj2QlMxwBbabIlo3C8hpr0.png" group-title="Limited Series",Family Matters 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125634
@@ -2286,10 +2296,17 @@ https://jmp2.uk/stvp-CA2900005KG
 https://jmp2.uk/plu-62fb62081afad500077e915e.m3u8
 #EXTINF:-1 channel-id="647f8d22a2fc3fadb4721685-671bf04b128bc4121f80aef1" tvg-id="647f8d22a2fc3fadb4721685-671bf04b128bc4121f80aef1" tvg-chno="" tvg-name="Flipping Nation" tvg-logo="https://provider-static.plex.tv/epg/cms/production/2e8862de-902d-4927-9b31-85d925816bce/Flipping_Nation_Logo_COLOR_RDX.png" group-title="Home + Food",Flipping Nation
 https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-671bf04b128bc4121f80aef1/?X-Plex-Token=S5sJY3VqV4Kqjhpod9VA
-#EXTINF:-1 tvg-name="24/7 FRESH PRINCE OF BEL-AIR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/86/Fresh_Prince_Bel_Aire_logo.png" group-title="Limited Series",Fresh Prince of Bel-Air 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79559
-#EXTINF:-1 tvg-name="24/7 FRIENDS" tvg-logo="https://i.ibb.co/tP2sz66M/Friends-logo-1.png" group-title="Limited Series",Friends 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66407
+
+# #EXTINF:-1 tvg-name="24/7 FRESH PRINCE OF BEL-AIR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/86/Fresh_Prince_Bel_Aire_logo.png" group-title="Limited Series",Fresh Prince of Bel-Air 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/79559
+#EXTINF:-1 tvg-name="24/7 FRESH PRINCE OF BEL-AIR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/86/Fresh_Prince_Bel_Aire_logo.png" group-title="Limited Series",Fresh Prince of Bel-Air kytv.
+http://kytv.xyz:80/brendan1/brendan1/1002107.ts
+
+# #EXTINF:-1 tvg-name="24/7 FRIENDS" tvg-logo="https://i.ibb.co/tP2sz66M/Friends-logo-1.png" group-title="Limited Series",Friends 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66407
+#EXTINF:-1 tvg-name="24/7 FRIENDS" tvg-logo="https://i.ibb.co/tP2sz66M/Friends-logo-1.png" group-title="Limited Series",Friends lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132684
+
 # #EXTINF:-1 tvg-name="24/7 FULL HOUSE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Full-House-Logo.png" group-title="Limited Series",Full House 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66269
 #EXTINF:-1 tvg-name="24/7 FULL HOUSE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Full-House-Logo.png" group-title="Limited Series",Full House kytv.
@@ -2355,10 +2372,14 @@ https://live-content.xumo.com/2064/content/XM0INF0QNRSKPW/23911159/master.m3u8
 https://streams2.sofast.tv/ptnr-yupptv/title-LOL-TV-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fc63d5fd-b50e-4d3e-abdf-697d9b6cbf70/manifest.m3u8
 #EXTINF:-1 tvg-id="USBC1300009VM" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC1300009VM_20240716T002650SQUARE.png" group-title="Comedy",Lol! Network roku.
 https://jmp2.uk/rok-52c137ae3cdc50768ad7ea3cdaf0f2f4.m3u8
+
 # #EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Limited Series",Looney Tunes 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125638
-#EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Limited Series",Looney Tunes kytv.
-http://kytv.xyz:80/brendan1/brendan1/1356953.ts
+# #EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Limited Series",Looney Tunes kytv.
+# http://kytv.xyz:80/brendan1/brendan1/1356953.ts
+#EXTINF:-1 tvg-name="24/7 LOONEY TUNES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Looney_Tunes_logo_1985-2024.png" group-title="Limited Series",Looney Tunes lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132751
+
 #EXTINF:-1 channel-id="CA300017ZS" tvg-id="CA300017ZS" tvg-chno="3509" tvg-name="Love Pets" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA300017ZS_20250523T235630SQUARE.png" group-title="Nature",Love Pets SS.
 https://jmp2.uk/stvp-CA300017ZS
 #EXTINF:-1 tvg-id="GBBD500001F5" tvg-chno="756" tvg-name="Love the Planet" tvg-logo="https://images.pluto.tv/channels/65c2435e3ba51e000836b66d/colorLogoPNG.png" group-title="Nature",Love the Planet SS.
@@ -2449,12 +2470,20 @@ https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-63584a0cf8e2be1350f802a4.m3u8
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66302
 #EXTINF:-1 tvg-id="64f9cccf110545000837912e" tvg-chno="115" tvg-name="MTV Ridiculousness" tvg-logo="https://images.pluto.tv/channels/64f9cccf110545000837912e/colorLogoPNG-1734529908215.png" group-title="Unlimited Series",Ridiculousness pluto.
 https://jmp2.uk/plu-64f9cccf110545000837912e.m3u8
-#EXTINF:-1 tvg-name="24/7 SAVED BY THE BELL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Saved_by_the_Bell_logo.png" group-title="Limited Series",Saved by the Bell 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66344
+
+# #EXTINF:-1 tvg-name="24/7 Saved by the Bell" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Saved_by_the_Bell_logo.png" group-title="Limited Series",Saved by the Bell 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66344
+#EXTINF:-1 tvg-name="24/7 Saved by the Bell" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Saved_by_the_Bell_logo.png" group-title="Limited Series",Saved by the Bell lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132798
+
 #EXTINF:-1 tvg-id="USBD3000073N" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3000073N_20240520T223411SQUARE.png" group-title="News",Scripps News xumo.
 https://dbrb49pjoymg4.cloudfront.net/10001/99991148/hls/playlist.m3u8?ads.xumo_channelId=99991148&ads._fw_ifa_type=&ads._fw_did=f04f657a-739a-4acf-b105-360b10ce0c60&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=Newsy&ads.csid=xumo_web_Newsy_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=News,N,DN,Local,LocalNews,News-Local&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=News,N,DN,Local,LocalNews,News-Local&ads._fw_content_rating=&ads.xumo_contentId=41&ads.xumo_contentName=Newsy&ads.xumo_providerId=41&ads.xumo_providerName=Newsy&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991148&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-#EXTINF:-1 tvg-name="24/7 SEINFELD" tvg-logo="https://logos-world.net/wp-content/uploads/2023/08/Seinfeld-Logo-500x281.png" group-title="Limited Series",Seinfeld 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66303
+
+# #EXTINF:-1 tvg-name="24/7 SEINFELD" tvg-logo="https://logos-world.net/wp-content/uploads/2023/08/Seinfeld-Logo-500x281.png" group-title="Limited Series",Seinfeld 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/66303
+#EXTINF:-1 tvg-name="24/7 SEINFELD" tvg-logo="https://logos-world.net/wp-content/uploads/2023/08/Seinfeld-Logo-500x281.png" group-title="Limited Series",Seinfeld lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132805
+
 #EXTINF:-1 tvg-name="24/7 SEX IN THE CITY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cf/B%C3%B6y%C3%BCk_%C5%9F%C9%99h%C9%99rd%C9%99_seks.png" group-title="Limited Series",Sex and the City 1tv.
 http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/125972
 #EXTINF:-1 tvg-id="62bdb1c5e25122000798ac79" tvg-chno="120" tvg-name="South Park" tvg-logo="https://images.pluto.tv/channels/62bdb1c5e25122000798ac79/colorLogoPNG.png" group-title="Unlimited Series",South Park
@@ -2505,12 +2534,17 @@ https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6668b7a5e4f56766e556a415.m3u8
 https://jmp2.uk/plex-5e20b730f2f8d5003d739db7-5f0641d3e8ffda004033b16e.m3u8
 #EXTINF:-1 tvg-id="CA3400002KP" tvg-logo="https://images.pluto.tv/channels/66289716039f940008cf20a2/colorLogoPNG.png" group-title="Unlimited Series",The Dog Whisperer with Caesar Millan SS.
 https://jmp2.uk/stvp-CA3400002KP
-# #EXTINF:-1 tvg-name="24/7 THE FLINTSTONES" tvg-logo="https://static.wikia.nocookie.net/international-entertainment-project/images/3/33/The_Flintstones_-_logo_%28English%29.png" group-title="Limited Series",The Flintstones 1tv.
+
+# #EXTINF:-1 tvg-name="24/7 The Flintstones" tvg-logo="https://static.wikia.nocookie.net/international-entertainment-project/images/3/33/The_Flintstones_-_logo_%28English%29.png" group-title="Limited Series",The Flintstones 1tv.
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120949
-#EXTINF:-1 tvg-name="24/7 THE FLINTSTONES" tvg-logo="https://static.wikia.nocookie.net/international-entertainment-project/images/3/33/The_Flintstones_-_logo_%28English%29.png" group-title="Limited Series",The Flintstones lunar.
+#EXTINF:-1 tvg-name="24/7 The Flintstones" tvg-logo="https://static.wikia.nocookie.net/international-entertainment-project/images/3/33/The_Flintstones_-_logo_%28English%29.png" group-title="Limited Series",The Flintstones lunar.
 http://lunar.pm:8080/Tedandjon/Together2/132829
-#EXTINF:-1 tvg-name="24/7 THE GOLDEN GIRLS" tvg-logo="https://i.ibb.co/d0GzGYn5/the-golden-girls-1.png" group-title="Limited Series",The Golden Girls 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120948
+
+# #EXTINF:-1 tvg-name="24/7 The Golden Girls" tvg-logo="https://i.ibb.co/d0GzGYn5/the-golden-girls-1.png" group-title="Limited Series",The Golden Girls 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/120948
+#EXTINF:-1 tvg-name="24/7 The Golden Girls" tvg-logo="https://i.ibb.co/d0GzGYn5/the-golden-girls-1.png" group-title="Limited Series",The Golden Girls lunar.
+http://lunar.pm:8080/Tedandjon/Together2/132832
+
 #EXTINF:-1 tvg-id="CABC2300001X9" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC2100009GT_20240520T214854SQUARE.png" group-title="Nature",The Jack Hanna Channel roku.
 https://jmp2.uk/rok-2b50362a8bbc5a12a203aa48e6ea9fe1.m3u8
 #EXTINF:-1 tvg-id="GBBC4000002H3" tvg-name="US The Jamie Oliver Channel" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT2000029T_20240918T124442SQUARE.png" group-title="Home + Food",The Jamie Oliver Channel roku.
@@ -2952,8 +2986,12 @@ http://trytv.icu:8080/96066144/96066144/161450
 # http://fl7.moveonjoy.com/NICK_JR/index.m3u8
 # #EXTINF:-1 tvg-id="Nick.Jr..-.East.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR ax.
 # https://a1xs.vip/300033
-#EXTINF:-1 tvg-id="Nick.Jr..-.East.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR trytv.
-http://trytv.icu:8080/96066144/96066144/46710
+# #EXTINF:-1 tvg-id="Nick.Jr..-.East.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR trytv.
+# http://trytv.icu:8080/96066144/96066144/46710
+#EXTINF:-1 tvg-id="Nick.Jr..-.East.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR lunar.
+http://lunar.pm:8080/Tedandjon/Together2/41614
+#EXTINF:-1 tvg-id="Nick.Jr..-.East.us" tvg-name="US Nick JR East USATV" tvg-logo="https://i.ibb.co/fNH4MhZ/nick-jr.png" group-title="Kids" tvg-shift"2",Nick JR sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/31014/index.m3u8
 
 #EXTINF:-1 tvg-id="USBA3000158L" tvg-name="NickRewind / Pluto" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/NickRewindSplat-SocMed-2023.svg/revision/latest/scale-to-width-down/1200?cb=20230922085413" group-title="Kids",Nick Pluto
 https://jmp2.uk/stvp-USBA3000158L
@@ -3267,8 +3305,10 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99991315/hls/playlist.m3u8?ads.xumo_c
 
 # #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/330px-ACC_Network_ESPN_logo.svg.png" group-title="Sports",ACC Network
 # http://fl7.moveonjoy.com/ACC_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/330px-ACC_Network_ESPN_logo.svg.png" group-title="Sports",ACC Network ax.
-https://a1xs.vip/40000016
+# #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/330px-ACC_Network_ESPN_logo.svg.png" group-title="Sports",ACC Network ax.
+# https://a1xs.vip/40000016
+#EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/330px-ACC_Network_ESPN_logo.svg.png" group-title="Sports",ACC Network bgdc.
+http://bgdc.live:25461/biosysinc/90941859/38233
 
 # #EXTINF:-1 tvg-id="Altitude.Sports.-.Denver.us" tvg-name="Altitude Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/altitude-sports-us.png?raw=true" group-title="Sports",Altitude Sports xip.
 # http://xxip25.top:8080/13yXsS/001616/79545
@@ -3289,8 +3329,10 @@ http://23.237.104.106:8080/USA_BTN/index.m3u8
 
 # #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network
 # http://fl7.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network .HY
-https://maldivesn.net/hilaytv/cbssports
+# #EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network .HY
+# https://maldivesn.net/hilaytv/cbssports
+#EXTINF:-1 tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cbs-sports-network-us.png?raw=true" group-title="Sports",CBS Sports Network tvmate.
+http://tvmate.icu:8080/0Ru8WD/642274/10454
 
 # #EXTINF:-1 tvg-id="ESPN.HD.us2" tvg-name="ESPN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/espn-us.png?raw=true" group-title="Sports",ESPN 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/509097
@@ -3356,8 +3398,15 @@ http://tvmate.icu:8080/0Ru8WD/642274/20934
 http://tvmate.icu:8080/0Ru8WD/642274/21843
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.South.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel South tvm.
 http://tvmate.icu:8080/0Ru8WD/642274/20931
-#EXTINF:-1 tvg-id="FanDuel.Sports.Network.Southeast.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southeast tvm.
-http://tvmate.icu:8080/0Ru8WD/642274/2213
+
+#EXTINF:-1 tvg-id="FanDuel.Sports.Network.SouthWest.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel South West sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/31013/index.m3u8
+
+# #EXTINF:-1 tvg-id="FanDuel.Sports.Network.Southeast.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southeast tvm.
+# http://tvmate.icu:8080/0Ru8WD/642274/2213
+#EXTINF:-1 tvg-id="FanDuel.Sports.Network.Southeast.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Southeast sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/31035/index.m3u8
+
 #EXTINF:-1 tvg-id="Fanduel.Sports.Sun.us" tvg-name="Rays Marlins Panthers Fanduel Sun" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel Sun tvm.
 http://tvmate.icu:8080/0Ru8WD/642274/104917
 #EXTINF:-1 tvg-id="FanDuel.Sports.Network.West.us" tvg-logo="https://i.ibb.co/pQ4pHPJ/Fan-Duel-Sports-Network-white.png" group-title="Sports",Fanduel West tvm.
@@ -3398,23 +3447,35 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19144/ind
 # http://fl7.moveonjoy.com/GOLF_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="Golf.Channel.HD.us2" tvg-name="US156:NBC_Golf_Channel USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nbc-golf-channel-us.png?raw=true" group-title="Sports",Golf Channel a1xs.
 https://a1xs.vip/40000060
-#EXTINF:-1 tvg-id="MASN.-.Mid.Atlantic.Sports.Network.us2" tvg-name="Mid-Atlantic Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN xip.
-http://xxip25.top:8080/13yXsS/001616/65697
+
+# #EXTINF:-1 tvg-id="MASN.-.Mid.Atlantic.Sports.Network.us2" tvg-name="Mid-Atlantic Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN xip.
+# http://xxip25.top:8080/13yXsS/001616/65697
+#EXTINF:-1 tvg-id="MASN.-.Mid.Atlantic.Sports.Network.us2" tvg-name="Mid-Atlantic Sports Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/masn-us.png?raw=true" group-title="Sports",MASN bgdc.
+http://bgdc.live:25461/biosysinc/90941859/216841
 
 # #EXTINF:-1 tvg-id="MLB.Network.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/330px-Major_League_Baseball_logo.svg.png" group-title="Sports",MLB Network
 # http://fl7.moveonjoy.com/MLB_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="MLB.Network.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/330px-Major_League_Baseball_logo.svg.png" group-title="Sports",MLB Network ax.
-https://a1xs.vip/40000030
+# #EXTINF:-1 tvg-id="MLB.Network.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/330px-Major_League_Baseball_logo.svg.png" group-title="Sports",MLB Network ax.
+# https://a1xs.vip/40000030
+#EXTINF:-1 tvg-id="MLB.Network.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Major_League_Baseball_logo.svg/330px-Major_League_Baseball_logo.svg.png" group-title="Sports",MLB Network bgdc.
+http://bgdc.live:25461/biosysinc/90941859/99231
 
-#EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG / Madison Square Garden" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG xip.
-http://xxip25.top:8080/13yXsS/001616/21090
+# #EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG / Madison Square Garden" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG xip.
+# http://xxip25.top:8080/13yXsS/001616/21090
+#EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG / Madison Square Garden" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG lunar.
+http://lunar.pm:8080/Tedandjon/Together2/59686
+
+#EXTINF:-1 tvg-id="MSG.National.us2" tvg-name="MSG / Madison Square Garden" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-us.png?raw=true" group-title="Sports",MSG Sports Zone bgdc.
+http://bgdc.live:25461/biosysinc/90941859/15081
+
 # #EXTINF:-1 tvg-id="MSG.Plus.us2" tvg-name="MSG+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG+ 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418147
 # #EXTINF:-1 tvg-id="MSG.Plus.us2" tvg-name="MSG+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG+ a1xs.
 # https://a1xs.vip/4000002
-#EXTINF:-1 tvg-id="MSG.Plus.us2" tvg-name="MSG+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG+ xyj.
-http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/181427
-
+# #EXTINF:-1 tvg-id="MSG.Plus.us2" tvg-name="MSG+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG+ xyj.
+# http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/181427
+#EXTINF:-1 tvg-id="MSG.Plus.us2" tvg-name="MSG+" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-plus-us.png?raw=true" group-title="Sports",MSG+ lunar.
+http://lunar.pm:8080/Tedandjon/Together2/59687
 
 # #EXTINF:-1 tvg-id="MSG2.HD.us2" tvg-name="MSG 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/msg-2-us.png?raw=true" group-title="Sports",MSG2 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418146
@@ -3425,13 +3486,20 @@ https://jmp2.uk/stvp-CA700002VS
 
 # #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" group-title="Sports",NBA TV
 # http://fl7.moveonjoy.com/NBA_TV/index.m3u8
-#EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" group-title="Sports",NBA TV MJI.
-http://212.102.60.231/NBA_TV/index.m3u8
+# #EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" group-title="Sports",NBA TV MJI.
+# http://212.102.60.231/NBA_TV/index.m3u8
+#EXTINF:-1 tvg-id="NBA.TV.HD.us2" tvg-name="NBA" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nba-tv-icon-us.png?raw=true" group-title="Sports",NBA TV tvmate.
+http://tvmate.icu:8080/0Ru8WD/642274/20073
 
-#EXTINF:-1 tvg-id="NBA.TV.Canada.HD.ca2" tvg-name="CA032:NBA" tvg-logo="https://i.ibb.co/Dg29BTq/nba-canada-v2.png" group-title="Sports",NBA TV 1tv.
-http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/22995
-#EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="NESN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nesn-us.png?raw=true" group-title="Sports",NESN xip.
-http://xxip25.top:8080/13yXsS/001616/31637
+# #EXTINF:-1 tvg-id="NBA.TV.Canada.HD.ca2" tvg-name="CA032:NBA" tvg-logo="https://i.ibb.co/Dg29BTq/nba-canada-v2.png" group-title="Sports",NBA TV 1tv.
+# http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/22995
+#EXTINF:-1 tvg-id="NBA.TV.Canada.HD.ca2" tvg-name="CA032:NBA" tvg-logo="https://i.ibb.co/Dg29BTq/nba-canada-v2.png" group-title="Sports",NBA TV sew.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/6491/index.m3u8
+
+# #EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="NESN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nesn-us.png?raw=true" group-title="Sports",NESN xip.
+# http://xxip25.top:8080/13yXsS/001616/31637
+#EXTINF:-1 tvg-id="New.England.Sports.Network.HD.us2" tvg-name="NESN" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nesn-us.png?raw=true" group-title="Sports",NESN bgdc.
+http://bgdc.live:25461/biosysinc/90941859/8821
 
 # #EXTINF:-1 tvg-id="NFL.Network.HD.us2" tvg-name="NFL Network" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/nfl-icon-us.png?raw=true" group-title="Sports",NFL Network
 # http://fl7.moveonjoy.com/NFL_NETWORK/index.m3u8
@@ -3462,11 +3530,16 @@ http://xxip25.top:8080/13yXsS/001616/17608
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418162
 # #EXTINF:-1 tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SNY" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sny-us.png?raw=true" group-title="Sports",SNY fl1.
 # https://fl7.moveonjoy.com/SNY/index.m3u8
-#EXTINF:-1 tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SNY" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sny-us.png?raw=true" group-title="Sports",SNY trytv.
-http://trytv.icu:8080/96066144/96066144/20938
+# #EXTINF:-1 tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SNY" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sny-us.png?raw=true" group-title="Sports",SNY trytv.
+# http://trytv.icu:8080/96066144/96066144/20938
+#EXTINF:-1 tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SNY" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sny-us.png?raw=true" group-title="Sports",SNY bgdc.
+http://bgdc.live:25461/biosysinc/90941859/15080
 
-#EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.Dodgers.HD.us2" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports xip.
-http://xxip25.top:8080/13yXsS/001616/31636
+# #EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.Dodgers.HD.us2" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports xip.
+# http://xxip25.top:8080/13yXsS/001616/31636
+#EXTINF:-1 tvg-id="Spectrum.SportsNet.LA.Dodgers.HD.us2" tvg-name="Spectrum Sports" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/spectrum-sportsnet-la-us.png?raw=true" group-title="Sports",Spectrum Sports tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/31636
+
 #EXTINF:-1 tvg-id="62f1cd0d4c395a2a8ab72cff688666a0" tvg-name="Sportsgrid" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300031OT_20240520T215945SQUARE.png" group-title="Sports",Sportsgrid roku.
 https://jmp2.uk/rok-62f1cd0d4c395a2a8ab72cff688666a0.m3u8
 
@@ -3500,7 +3573,7 @@ http://tv14s.xyz:8080/KP@NMB2/3052052689/11649
 
 # #EXTINF:-1 tvg-id="Sportsnet.(Pacific).HD.ca2" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/9860
-#EXTINF:-1 tvg-id="Sportsnet.(Pacific).HD.ca2" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific
+#EXTINF:-1 tvg-id="Sportsnet.(Pacific).HD.ca2" tvg-name="CA188:Sportnet Pacific" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snp-ca.png" group-title="Sports",Sportsnet Pacific tv14s.
 http://tv14s.xyz:8080/canglobaltv3/globe1344/47387
 
 # #EXTINF:-1 tvg-id="Sportsnet.West.HD.ca2" tvg-name="CA062:Sportsnet West" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/sportsnet-snw-ca.png" group-title="Sports",Sportsnet West 1tv.
@@ -3614,8 +3687,11 @@ http://bgdc.live:25461/biosysinc/90941859/206859
 https://a1xs.vip/40000042
 #EXTINF:-1 tvg-id="PlexWomensSportsNetwork.us" tvg-logo="https://i.ibb.co/Nxv4BvQ/wsn-network-1.png" group-title="Sports",Womens Sports Network
 https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-630fa9e577ec3866def38fa2/?X-Plex-Token=zbEDZJcYy3LysxHRrahD
-#EXTINF:-1 tvg-id="WWE.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/wwe-us.png?raw=true" group-title="Sports",WWE Network xip.
-http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/11645
+
+# #EXTINF:-1 tvg-id="WWE.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/wwe-us.png?raw=true" group-title="Sports",WWE Network xip.
+# http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/11645
+#EXTINF:-1 tvg-id="WWE.Network.us" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/wwe-us.png?raw=true" group-title="Sports",WWE Network tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/11645
 
 # #EXTINF:-1 tvg-id="YES.Network.us" tvg-name="YES" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png" group-title="Sports",YES
 # http://fl7.moveonjoy.com/YES_NETWORK/index.m3u8
