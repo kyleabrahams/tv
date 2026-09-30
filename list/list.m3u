@@ -54,7 +54,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto cord.
 http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 14 803 a tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Sep 30 1058 a tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -463,8 +463,10 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/gyczo3tdxu/out/v
 # http://1tv41.icu:8080/nworbeilrahc@hotmail.com/T33yQRau4a/57398
 # #EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN tv14s.
 # http://tv14s.xyz:8080/BenA@443/443@6377/47213
-#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN lunar.
-http://lunar.pm:8080/Tedandjon/Together2/104092
+# #EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/104092
+#EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 013tv.
+http://013tv.com:8080/F30822/4a947b1f/298594
 
 # #EXTINF:-1 tvg-id="I193.58646.schedulesdirect.org" tvg-name="32 CNN USATV" tvg-logo="https://i.ibb.co/0f4VRQk/cnn.png" group-title="News",CNN 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418436
