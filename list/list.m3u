@@ -54,7 +54,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto cord.
 http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 12 323 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 12 500 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -225,7 +225,7 @@ http://tv14s.xyz:8080/BenA@443/443@6377/57393
 #EXTINF:-1 tvg-id="6536721dbfbaec00088687c0" tvg-name="11 CBC News Toronto" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1500002Q4_20241203T005217SQUARE.png" group-title="News",CBC News Toronto pluto.
 https://live-manifest.production-public.tubi.io/live/08b1a540-5618-46ce-b6e2-c0dfd1e8786f/playlist.m3u8
 #EXTINF:-1 tvg-id="CA1400004AE" tvg-name="12 CTV News" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400004AE_20240709T002014SQUARE.png" group-title="News",CTV News plex.
-https://jmp2.uk/plex-647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d.m3u8
+https://epg.provider.plex.tv/library/parts/647f8d22a2fc3fadb4721685-6685c1a1b53e3bc0fd169e1d/?X-Plex-Token=XXXeMUm6Mp7TPbS33-az
 #EXTINF:-1 tvg-id="62cc00b3b821cf00070f82c3" tvg-name="13 CTV News Explore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/global-news-ca.png?raw=true" group-title="News",Global News Toronto pluto.
 https://jmp2.uk/plu-62cc00b3b821cf00070f82c3.m3u8
 # #EXTINF:-1 tvg-id="PlexCBCNews.ca" tvg-name="13 CTV News Explore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/global-news-ca.png?raw=true" group-title="News",Global News Toronto xv5.
@@ -615,8 +615,10 @@ http://tv14s.xyz:8080/BenA@443/443@6377/10252
 # http://xxip25.top:8080/13yXsS/001616/47302
 # #EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="41 History" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="Documentaries",History trytv.
 # http://trytv.icu:8080/96066144/96066144/47302
-#EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History tvm. 
-http://tvmate.icu:8080/0Ru8WD/642274/46810
+# #EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History tvm. 
+# http://tvmate.icu:8080/0Ru8WD/642274/46810
+#EXTINF:-1 tvg-id="History.Television.HD.(Canada).ca2" tvg-name="US History Channel USATV" tvg-logo="https://i.ibb.co/rywvj1W/History-2021-1.png" group-title="USA",History tv14s. 
+http://tv14s.xyz:8080/1R9F9u/581580/47302
 
 # #EXTINF:-1 tvg-id="I629.26772.schedulesdirect.org" tvg-name="42 H2 HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/history-channel-2-ca.png?raw=true" group-title="Documentaries",H2 23.
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418477
@@ -710,7 +712,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/47324
 # #EXTINF:-1 tvg-id="XumoLoveNature.us" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="Nature",Love Nature 4k 
 # https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="66df8a29b25d2b0008fc5fe0" tvg-name="48 Love Nature 4k" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/canada/love-nature-4k-white-ca.png?raw=true" group-title="Nature",Love Nature 4k pluto.
-https://jmp2.uk/plu-66df8a29b25d2b0008fc5fe0.m3u8
+https://jmp2.uk/stvp-USBA3400003IP
 
 
 # #EXTINF:-1 tvg-id="Turner.Classic.Movies.Canada.HD.ca2" tvg-name="49 CA Turner Classic Movies USATV" tvg-logo="https://i.ibb.co/PxkHXHR/TCM-2021-1.png" group-title="Classics",US TCM 
@@ -817,8 +819,10 @@ http://tv14s.xyz:8080/1R9F9u/581580/57446
 # http://tv14s.xyz:8080/BenA@443/443@6377/57250
 # #EXTINF:-1 tvg-id="I618.17693.schedulesdirect.org" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR kst.
 # http://kstv.us:8080/live/4VUyfZBQzk/95104974615/40720.rtmp
-#EXTINF:-1 tvg-id="I618.17693.schedulesdirect.org" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR bgdc.
-http://bgdc.live:25461/biosysinc/90941859/190870
+# #EXTINF:-1 tvg-id="I618.17693.schedulesdirect.org" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/190870
+#EXTINF:-1 tvg-id="I618.17693.schedulesdirect.org" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR kytv.
+http://kytv.xyz:80/brendan1/brendan1/181942.ts
 
 # #EXTINF:-1 tvg-id="I618.17693.schedulesdirect.org" tvg-name="55 Dtour" tvg-logo="https://i.ibb.co/K6P8tP2/dtour.png" group-title="Canada",DTOUR toh.
 # http://toh-users.xyz:8080/prattman12@hotmail.com/wz5KUUJ2VW/708810
@@ -831,8 +835,10 @@ http://bgdc.live:25461/biosysinc/90941859/190870
 # http://xxip25.top:8080/13yXsS/001616/57247
 # #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour Network yes.
 # http://yesimes.oknirvana.club:8880/kg14m0726/xcvsedf233/3039
-#EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour xv5.
-http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6464/index.m3u8
+# #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour xv5.
+# http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/6464/index.m3u8
+#EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour kytv.
+http://kytv.xyz:80/brendan1/brendan1/3014832.ts
 # #EXTINF:-1 tvg-id="Flavour.Network.HD.ca2" tvg-name="56 Flavour Network / Food Network" tvg-logo="https://i.ibb.co/gwywq5F/flavour-network-logo-1.png" group-title="Home + Food",Flavour kyt.
 # http://kytv.xyz:80/brendan1/brendan1/181950.ts
 
@@ -1127,8 +1133,10 @@ http://23.237.104.106:8080/USA_HLN/index.m3u8
 
 # #EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live pluto.
 # https://jmp2.uk/plu-6508be683a0d700008c534e4.m3u8
-#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live bgdc.
-http://bgdc.live:25461/biosysinc/90941859/187134
+# #EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/187134
+#EXTINF:-1 tvg-id="6508be683a0d700008c534e4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/abc-us.png?raw=true" group-title="News",ABC News Live tubi.
+https://live-manifest.production-public.tubi.io/live/14e4f5f2-9787-4c49-8554-f2ad109764a7/playlist.m3u8
 
 # #EXTINF:-1 tvg-id="BloombergTV.us" tvg-name="57 BNN Bloomberg" tvg-logo="https://i.ibb.co/D7830vZ/bloomberg-logo-blue-bg.png" group-title="News",Bloomberg 
 # http://fl7.moveonjoy.com/BLOOMBERG/index.m3u8
@@ -1162,8 +1170,10 @@ http://kytv.xyz:80/brendan1/brendan1/182001.ts
 # http://23.227.140.75:3050/johnhudson22132@gmail.com/mgSSMPm3mZ/418485
 # #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="US Lifetime Movie USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="Movies",US LMN 
 # http://fl7.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8
-#EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="US Lifetime Movie USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="Movies",US LMN MJE.
-http://23.237.104.106:8080/USA_LMN/index.m3u8
+# #EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="US Lifetime Movie USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="Movies",US LMN MJE.
+# http://23.237.104.106:8080/USA_LMN/index.m3u8
+#EXTINF:-1 tvg-id="LMN.HD.us2" tvg-name="US Lifetime Movie USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/australia/lifetime-movie-network-au.png?raw=true" group-title="Movies",US LMN tv14s.
+http://tv14s.xyz:8080/canglobaltv3/globe1344/2208
 
 # #EXTINF:-1 tvg-id="Paramount.Network.HD.us2" tvg-name="US Paramount Network" tvg-logo="https://i.ibb.co/JqL8dDv/Paramount-Network-1.png" group-title="USA",Paramount 1tv.
 # http://tv14s.xyz:8080/BenA@443/443@6377/16201
@@ -1179,15 +1189,17 @@ http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8
 # #EXTINF:-1 tvg-id="National.Geographic.Canada.HD.ca2" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",National Geographic kst.
 # http://kstv.us:8080/live/4VUyfZBQzk/95104974615/40674.rtmp
 #EXTINF:-1 tvg-id="National.Geographic.Canada.HD.ca2" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",National Geographic tv14s.
-http://tv14s.xyz:8080/canglobaltv3/globe1344/57280
+http://tv14s.xyz:8080/BenA@443/443@6377/57281
 # #EXTINF:-1 tvg-id="National.Geographic.Canada.HD.ca2" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",National Geographic 206.
 # http://206.212.244.71:8080/4wVQA7/625159/47339
 # #EXTINF:-1 tvg-id="National.Geographic.Canada.HD.ca2" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",National Geographic 1tv.
 # http://tv14s.xyz:8080/BenA@443/443@6377/47339
 # #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",US National Geographic 
 # http://fl7.moveonjoy.com/National_Geographic/index.m3u8
-#EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",US National Geo MJE. 
-http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
+# #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",US National Geo MJE. 
+# http://23.237.104.106:8080/USA_NAT_GEO/index.m3u8
+#EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="Documentaries",US National Geo tv14s. 
+http://tv14s.xyz:8080/canglobaltv3/globe1344/46722
 
 # #EXTINF:-1 tvg-id="National.Geographic.HD.us2" tvg-name="National Geographic USATV" tvg-logo="https://i.ibb.co/rd0Q2WZ/National-Geographic-Logo-1.png" group-title="USA",US National Geographic 1tv. 
 # http://tv14s.xyz:8080/BenA@443/443@6377/9277
@@ -1213,8 +1225,10 @@ https://amg00170-curiositystream-amg00170c3-rakuten-us-2289.playouts.now.amagi.t
 # http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/31150
 # #EXTINF:-1 tvg-id="Smithsonian.HD.Network.us2" tvg-name="US Smithsonian (East)" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="Documentaries",US Smithsonian trytv.    
 # http://trytv.icu:8080/96066144/96066144/47369
-#EXTINF:-1 tvg-id="Smithsonian.HD.Network.us2" tvg-name="US Smithsonian (East)" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="Documentaries",US Smithsonian bgdc.    
-http://bgdc.live:25461/biosysinc/90941859/10442
+# #EXTINF:-1 tvg-id="Smithsonian.HD.Network.us2" tvg-name="US Smithsonian (East)" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="Documentaries",US Smithsonian bgdc.    
+# http://bgdc.live:25461/biosysinc/90941859/10442
+#EXTINF:-1 tvg-id="Smithsonian.HD.Network.us2" tvg-name="US Smithsonian (East)" tvg-logo="https://blueantmedia.com/wp-content/uploads/2020/04/Smithsonian-Transparent.png" group-title="Documentaries",US Smithsonian tv14s.    
+http://tv14s.xyz:8080/BenA@443/443@6377/47369
 
 # #EXTINF:-1 tvg-id="USA.Network.HD.us2" tvg-name="USA Network USATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/1280px-USA_Network_logo_%282016%29.svg.png" group-title="USA",US USA Network   
 # http://fl7.moveonjoy.com/USA_Network/index.m3u8
@@ -1344,8 +1358,10 @@ http://tv14s.xyz:8080/BenA@443/443@6377/57349
 # http://fl7.moveonjoy.com/DISNEY_CHANNEL/index.m3u8
 # #EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel a1xs.
 # https://a1xs.vip/300037
-#EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel lunar.
-http://lunar.pm:8080/Tedandjon/Together2/9343
+# #EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/9343
+#EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/2206
 
 # #EXTINF:-1 tvg-id="Disney.Channel.HD.us2" tvg-name="USA Disney Channel East" tvg-logo="https://i.ibb.co/C24MC9q/disney-channel-1.png" group-title="Kids",US Disney Channel .HY
 # https://maldivesn.net/hilaytv/disneychannel
@@ -1605,8 +1621,10 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/2214
 
 # #EXTINF:-1 tvg-id="I545.11115.schedulesdirect.org" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime 
 # http://fl7.moveonjoy.com/SHOWTIME/index.m3u8
-#EXTINF:-1 tvg-id="I545.11115.schedulesdirect.org" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime MJE.
-http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
+# #EXTINF:-1 tvg-id="I545.11115.schedulesdirect.org" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime MJE.
+# http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
+#EXTINF:-1 tvg-id="I545.11115.schedulesdirect.org" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime kytv.
+http://kytv.xyz:80/brendan1/brendan1/176056.ts
 # #EXTINF:-1 tvg-id="I545.11115.schedulesdirect.org" tvg-name="US Paramount+ with Showtime / Showtime USATV" tvg-logo="https://i.ibb.co/j6FbpyL/Paramount-with-Showtime-logo-1.png" group-title="Movies",Paramount+Showtime 23.237
 # http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 
@@ -1622,8 +1640,8 @@ http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 # http://23.237.104.106:8080/USA_SHOWTIME/index.m3u8
 # #EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime trytv.
 # http://trytv.icu:8080/96066144/96066144/46214
-#EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime bgdc.
-http://bgdc.live:25461/biosysinc/90941859/14168
+# #EXTINF:-1 tvg-id="ShowtimeShowcasI236.10989.schedulesdirect.org" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="Movies",Showtime bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/14168
 
 # #EXTINF:-1 tvg-id="I547.11116.schedulesdirect.org" tvg-name="Showtime 2 East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="Movies",Showtime 2 
 # http://fl7.moveonjoy.com/SHOWTIME_2/index.m3u8
@@ -1639,7 +1657,7 @@ http://tvmate.icu:8080/0Ru8WD/642274/13219
 # http://fl7.moveonjoy.com/SHOWTIME_EXTREME/index.m3u8
 # #EXTINF:-1 tvg-id="I549.18086.schedulesdirect.org" tvg-name="Showtime Extreme" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",Showtime Extreme xip.
 # http://xxip25.top:8080/Randynj42@gmail.com/D8568837838C/13220
-#EXTINF:-1 tvg-id="I549.18086.schedulesdirect.org" tvg-name="Showtime Extreme" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",Showtime Extreme bgdc.
+#EXTINF:-1 tvg-id="I549.18086.schedulesdirect.org" tvg-name="Showtime Extreme" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="Movies",*Showtime Extreme bgdc.
 http://bgdc.live:25461/biosysinc/90941859/14170
 
 # #EXTINF:-1 tvg-id="I552.103892.schedulesdirect.org" tvg-name="Showtime Family Zone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-family-zone-us.png?raw=true" group-title="Movies",Showtime Family Zone cdn1h.
@@ -1679,8 +1697,10 @@ http://tvmate.icu:8080/0Ru8WD/642274/17778
 # http://fl7.moveonjoy.com/EPIX/index.m3u8
 # #EXTINF:-1 tvg-id="I558.65687.schedulesdirect.org" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",MGM+ tvm.
 # http://tvmate.icu:8080/0Ru8WD/642274/13214
-#EXTINF:-1 tvg-id="I558.65687.schedulesdirect.org" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",MGM+ lunar.
-http://lunar.pm:8080/Tedandjon/Together2/18206
+# #EXTINF:-1 tvg-id="I558.65687.schedulesdirect.org" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",MGM+ lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/18206
+#EXTINF:-1 tvg-id="I558.65687.schedulesdirect.org" tvg-name="US MGM+ USATV" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="Movies",MGM+ kytv.
+http://kytv.xyz:80/brendan1/brendan1/2521893.ts
 
 # #EXTINF:-1 tvg-id="I559.67929.schedulesdirect.org" tvg-name="EPIX_2" tvg-logo="https://i.ibb.co/0jYnG0cM/MGM-Hits-2023.png"group-title="Movies",MGM+ Hits 
 # http://fl7.moveonjoy.com/EPIX_HITS/index.m3u8
@@ -1699,8 +1719,11 @@ http://bgdc.live:25461/biosysinc/90941859/14166
 #KODIPROP:inputstream.adaptive.license_key=dab8e28bb3dd8335c1669dc2aa7891fc:ce8ec4255a0c5a495749ea524e4e98b4
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/clients/dash/enc/vzhzbcmueh/out/v1/3a0e3004d0514932acc2bb6758c61ed5/cenc.mpd
 
-#EXTINF:-1 tvg-name="MGM Presents" tvg-id="5263332f746c6b1bed25aa6c105a79d9" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/5263332f746c6b1bed25aa6c105a79d9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747061592882_MGMPresents_HUDLogo_Centered_260x147.png" tvg-chno="295" group-title="Movies",MGM Presents
-https://jmp2.uk/rok-5263332f746c6b1bed25aa6c105a79d9.m3u8
+# #EXTINF:-1 tvg-name="MGM Presents" tvg-id="5263332f746c6b1bed25aa6c105a79d9" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/5263332f746c6b1bed25aa6c105a79d9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747061592882_MGMPresents_HUDLogo_Centered_260x147.png" tvg-chno="295" group-title="Movies",MGM Presents
+# https://jmp2.uk/rok-5263332f746c6b1bed25aa6c105a79d9.m3u8
+#EXTINF:-1 tvg-name="MGM Presents" tvg-id="5263332f746c6b1bed25aa6c105a79d9" tvg-logo="https://images.sr.roku.com/idType/roku/context/trc/id/5263332f746c6b1bed25aa6c105a79d9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1747061592882_MGMPresents_HUDLogo_Centered_260x147.png" tvg-chno="295" group-title="Movies",MGM Presents kytv.
+http://kytv.xyz:80/brendan1/brendan1/3195642.ts
+
 
 # #EXTINF:-1 tvg-id="5.StarMAX.HD.East.us2" tvg-name="5 StarMax" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/5_StarMax_2011." group-title="Movies",5 StarMax cdn1.
 # http://cdn1host.online:2999/kratorius/opLcbhlXaT/1603
@@ -1798,8 +1821,10 @@ http://bgdc.live:25461/biosysinc/90941859/216179
 # http://nodns1.top:8080/7681729957768199/899fa5156a0d/51143
 # #EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema 1tv.
 # http://tv14s.xyz:8080/BenA@443/443@6377/17775
-#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema bgdc.
-http://bgdc.live:25461/biosysinc/90941859/14918
+# #EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/14918
+#EXTINF:-1 tvg-id="Starz.Cinema.HD.us2" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="Movies",Starz Cinema tv14s.
+http://tv14s.xyz:8080/BenA@443/443@6377/17775
 
 # #EXTINF:-1 tvg-id="Starz.Comedy.HD.us2" tvg-name="Starz Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="Movies",Starz Comedy
 # http://fl7.moveonjoy.com/STARZ_COMEDY/index.m3u8
@@ -1810,8 +1835,10 @@ http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 # http://fl7.moveonjoy.com/STARZ_EDGE/index.m3u8
 # #EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge 1tv.
 # http://tv14s.xyz:8080/BenA@443/443@6377/16143
-#EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge bgdc.
-http://bgdc.live:25461/biosysinc/90941859/14920
+# #EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/14920
+#EXTINF:-1 tvg-id="Starz.Edge.HD.us2" tvg-name="Starz Edge FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="Movies",Starz Edge tv14s.
+http://tv14s.xyz:8080/1R9F9u/581580/16143
 
 # #EXTINF:-1 tvg-id="Starz.Encore.HD.us2" tvg-name="Starz Encore East" tvg-logo="https://i.ibb.co/Q7g71jxz/Starz-Encore.png" group-title="Movies",Starz Encore 
 # http://fl7.moveonjoy.com/STARZ_ENCORE/index.m3u8
@@ -1835,14 +1862,21 @@ http://bgdc.live:25461/biosysinc/90941859/14921
 #EXTINF:-1 tvg-id="Starz.Encore.Westerns.SD.us2" tvg-name="Starz Encore Westerns" tvg-logo="https://i.ibb.co/TxkwbsBG/Starz-Encore-Westerns.png" group-title="Classics",Starz Encore Westerns bgdc.
 http://bgdc.live:25461/biosysinc/90941859/14922
 
-#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 lunar.
-http://lunar.pm:8080/Tedandjon/Together2/20815
-#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 lunar.
-http://lunar.pm:8080/Tedandjon/Together2/20812
-#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",ITV 3 lunar.
+# #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/20815
+#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 sewv654.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19185/index.m3u8
+# #EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/20812
+#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 sewv654.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/19186/index.m3u8
+
+#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",*ITV 3 lunar.
 http://lunar.pm:8080/Tedandjon/Together2/20810
-#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 lunar.
-http://lunar.pm:8080/Tedandjon/Together2/20807
+# #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/20807
+#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 sewv654.
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19188/index.m3u8
 
 # #EXTINF:-1 tvg-id="I128.69387.schedulesdirect.org" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One xy.
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
@@ -1860,7 +1894,8 @@ http://lunar.pm:8080/Tedandjon/Together2/20807
 # #EXTINF:-1 tvg-id="I128.69387.schedulesdirect.org" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK",BBC One 1tv.
 # http://tv14s.xyz:8080/BenA@443/443@6377/53649
 #EXTINF:-1 tvg-id="I128.69387.schedulesdirect.org" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK",BBC One kyt.
-http://kytv.xyz:80/brendan1/brendan1/2104319.ts
+# http://kytv.xyz:80/brendan1/brendan1/2104319.ts
+http://kytv.xyz:80/brendan1/brendan1/189897.ts
 # #EXTINF:-1 tvg-id="I128.69387.schedulesdirect.org" http-referrer="https://cookiewebplay.xyz/" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK",BBC One .nex
 # https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8
 
