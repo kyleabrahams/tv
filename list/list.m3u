@@ -54,7 +54,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto cord.
 http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 12 500 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 13 847 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -1871,8 +1871,10 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19185/ind
 #EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 sewv654.
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/19186/index.m3u8
 
-#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",*ITV 3 lunar.
-http://lunar.pm:8080/Tedandjon/Together2/20810
+# #EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",ITV 3 lunar.
+# http://lunar.pm:8080/Tedandjon/Together2/20810
+#EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",ITV 3 tvvoo.
+https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F537712899327b1f11eb82
 # #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 lunar.
 # http://lunar.pm:8080/Tedandjon/Together2/20807
 #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 sewv654.
@@ -2016,8 +2018,10 @@ http://lunar.pm:8080/Tedandjon/Together2/20772
 # http://xxip25.top:8080/13yXsS/001616/35254
 # #EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action kyt.
 # http://kytv.xyz:80/brendan1/brendan1/391351.ts
+# #EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action bgdc.
+# http://bgdc.live:25461/biosysinc/90941859/14927
 #EXTINF:-1 group-title="Movies" tvg-id="Sky.Action.HD.uk" tvg-logo="https://i.ibb.co/0RJnTZtt/sky-cinema-action.png" tvg-name="Sky Cinema Action",Sky Action bgdc.
-http://bgdc.live:25461/biosysinc/90941859/14927
+https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1618904678c7bdd1ee6568
 
 # #EXTINF:-1 group-title="Movies" tvg-id="I998.115495.schedulesdirect.org" tvg-logo="https://i.ibb.co/Vp5YPkfH/sky-cinema-animation.png" tvg-name="Sky Cinema Animation"Sky Animation xy.
 # https://xyzdddd.mizhls.ru/lb/premium675/index.m3u8|Referer=https://cookiewebplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/132.0|Origin=https://cookiewebplay.xyz
