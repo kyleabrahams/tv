@@ -54,7 +54,7 @@ http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/9296
 #EXTINF:-1 tvg-id="Global.Toronto.HD.ca2" tvg-name="03 Global Toronto" tvg-logo="https://i.ibb.co/F8wj8kW/Global-Toronto.png" group-title="Canada",Global Toronto cord.
 http://cord-cutter.net:8080/hohGbtryOf/SljEvbOJ8p/57435
 
-#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 13 935 p tv14s.
+#EXTINF:-1 tvg-id="I215.10105.schedulesdirect.org" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/vSws8jp/OMNI1-East-horizontal.png" group-title="Canada",OMNI Oct 13 946 p tv14s.
 http://tv14s.xyz:8080/1R9F9u/581580/57365
 # #EXTINF:-1 tvg-id="OMNI.Vancouver.ca" tvg-name="04 OMNI East HD" tvg-logo="https://i.ibb.co/spQ9FxW7/OMNI1-Vancouver-horizontal.png" group-title="Canada",OMNI Jan 28 657 am 1tv. (1tv Exp Jun 27, 2026)
 # http://fortv.cc:8080/U3qraJ/182044/57365
@@ -1864,21 +1864,29 @@ http://bgdc.live:25461/biosysinc/90941859/14922
 
 # #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 lunar.
 # http://lunar.pm:8080/Tedandjon/Together2/20815
-#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 sewv654.
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19185/index.m3u8
+# #EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 sewv654.
+# http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19185/index.m3u8
+#EXTINF:-1 tvg-id="ITV1.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-1-uk.png?raw=true" group-title="UK",ITV 1 tvvoo.
+https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F1523354211c0d2a37c0622
+
 # #EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 lunar.
 # http://lunar.pm:8080/Tedandjon/Together2/20812
-#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 sewv654.
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/19186/index.m3u8
+# #EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 sewv654.
+# http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/R3A7B6MZZFDCUL/19186/index.m3u8
+#EXTINF:-1 tvg-id="ITV2.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-2-uk.png?raw=true" group-title="UK",ITV 2 tvvoo.
+https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F49367877168150ce3a7e0
 
 # #EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",ITV 3 lunar.
 # http://lunar.pm:8080/Tedandjon/Together2/20810
 #EXTINF:-1 tvg-id="ITV3.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-uk.png?raw=true" group-title="UK",ITV 3 tvvoo.
 https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F537712899327b1f11eb82
+
 # #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 lunar.
 # http://lunar.pm:8080/Tedandjon/Together2/20807
-#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 sewv654.
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19188/index.m3u8
+# #EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 sewv654.
+# http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/8KSD5KFDXA6H88/19188/index.m3u8
+#EXTINF:-1 tvg-id="ITV4.HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-4-uk.png?raw=true" group-title="UK",ITV 4 tvvoo.
+https://tvvoo.hayd.uk/live/manifest.m3u8?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2452358419bb547b9d6149
 
 # #EXTINF:-1 tvg-id="I128.69387.schedulesdirect.org" tvg-name="BBC One England HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-one-uk.png" group-title="UK" ,BBC One xy.
 # https://xyzdddd.mizhls.ru/lb/premium356/index.m3u8|Referer="https://ilovetoplay.xyz/"|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0"|Origin="https://ilovetoplay.xyz"
@@ -1915,7 +1923,7 @@ http://kytv.xyz:80/brendan1/brendan1/189897.ts
 # https://dokko1new.newkso.ru/dokko1/premium357/mono.m3u8|Origin=https://jxoxkplay.xyz|Referer=https://jxoxkplay.xyz/|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
 # #EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK",BBC Two xyj.
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/40085
-#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK",BBC Two roc.
+#EXTINF:-1 tvg-id="BBC.Two.HD.uk" tvg-name="BBC Two England HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK",*BBC Two roc.
 http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/ba3d2fb7-35d4-4ad2-889c-76ce32714624.m3u
 
 
@@ -1939,7 +1947,7 @@ http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/ba3d2fb7-35d4-4ad2-889c-7
 # http://xyjnymwu.eldervpn.xyz:80/MQYASQF2/2Z6N7H9W/13014
 # #EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC roc.
 # http://rocketfx.uk:8080/live/Toeintheknow/MupjnTXZVWpU/4e696c7f-e64a-4eb7-b175-ebfcd7089fd8.m3u
-#EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",CBBC lunar.
+#EXTINF:-1 tvg-id="CBBC.HD.uk" tvg-name="CBBC" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-cbbc-uk.png?raw=true" group-title="UK",*CBBC lunar.
 http://lunar.pm:8080/Tedandjon/Together2/25477
 
 # #EXTINF:-1 tvg-id="BBCThreeHD.uk" tvg-name="e HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-three-uk.png" group-title="UK",BBC Three .nex
@@ -1962,7 +1970,7 @@ http://tv14s.xyz:8080/BenA@443/443@6377/99138
 # #EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="I109.20684.schedulesdirect.org" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/bbc-four-uk.png" group-title="UK" channel-number="446",BBC Four .nex
 # https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8
 
-#EXTINF:-1 tvg-id="I104.60940.schedulesdirect.org" tvg-name="BBC Alpha HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-alba-uk.png?raw=true" group-title="UK" channel-number="446",BBC Alba xv5.
+#EXTINF:-1 tvg-id="I104.60940.schedulesdirect.org" tvg-name="BBC Alpha HD.uk" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-alba-uk.png?raw=true" group-title="UK" channel-number="446",*BBC Alba xv5.
 http://xv5myned.otttv.pw/iptv/KQRU9D8WPMUKTR/19179/index.m3u8
 
 # #EXTINF:-1 tvg-id="I326.117175.schedulesdirect.org" tvg-name="Channel 4" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/channel-4-uk.png?raw=true" group-title="UK",Channel 4
