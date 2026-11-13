@@ -21,13 +21,13 @@ jobs:
     steps:
     # Checkout the repository
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Set up Python
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v4
+    - name: Set up latest Python 3
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.8'
+        python-version: '3.x'
 
     # Configure Git user
     - name: Configure Git user
@@ -60,7 +60,6 @@ jobs:
           echo "epg.xml not found"
         fi
 
-    
     # List the contents before and after the process
     - name: List files before script
       run: ls -R ./scripts/_epg-end || echo "No files in _epg-end yet"
@@ -86,6 +85,5 @@ jobs:
         else
           echo "No changes to commit"
         fi
-
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
